@@ -45,3 +45,8 @@ Fixed-temperature residue fields must never be shifted to the nearest existing b
 When multiple Tmax values are reported with a residual-mass value at each peak, preserve the pairing in numbered `residue_at_TmaxN_pct` fields rather than collapsing to one residue value.
 
 LOI ranges must remain interval data. A range such as 16.5–17.0% is stored in `LOI_min_pct=16.5` and `LOI_max_pct=17.0`; `LOI_pct` remains blank unless the source reports an exact point value.
+
+
+## Stage-resolved decomposition fields
+
+Some sources report the start temperature and mass loss of successive decomposition stages rather than DTG maxima. Preserve these as `stage1_start_C`, `stage1_mass_loss_pct`, `stage2_start_C`, `stage2_mass_loss_pct`, `stage3_start_C`, and `stage3_mass_loss_pct`. Do not relabel stage-start temperatures as `Tmax` or `Tonset` unless the source explicitly defines them that way.
