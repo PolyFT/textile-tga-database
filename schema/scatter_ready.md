@@ -14,7 +14,7 @@ Core analytical fields:
 | `treatment_state` | Untreated, FR treated, washed, coated, etc. |
 | `atmosphere` | N2, air, synthetic air, O2/air, etc. |
 | `heating_rate_C_min` | TGA heating rate |
-| `T5_C`, `T10_C`, `T20_C`, `T50_C` | Temperatures at specified mass loss |
+| `T1_C`, `T5_C`, `T10_C`, `T20_C`, `T50_C` | Temperatures at specified mass loss; `T1_C` is retained only when the source explicitly reports Td,1% |
 | `Tonset_C` | Reported onset / initial decomposition temperature |
 | `Tmax1_C`, `Tmax2_C`, `Tmax3_C` | DTG peak temperatures |
 | `residue_at_Tmax_pct` | Residual mass reported at a DTG peak / Tmax when explicitly tabulated |
@@ -32,3 +32,5 @@ For quantitative plots, the default filter should be `direct_numeric_use == "是
 ## Extended staging fields
 
 Incoming verified batches may also carry `T50_C` and `residue_at_Tmax_pct`. These fields should be preserved when regenerating the master scatter table. Do not substitute `residue_at_Tmax_pct` for terminal residue (`R500_pct`, `R600_pct`, `R700_pct`, `R800_pct`) because they are physically different quantities.
+
+`T1_C` must not be silently re-labelled as `Tonset_C`; both may coexist when a source reports them separately.
