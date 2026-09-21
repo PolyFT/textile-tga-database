@@ -48,7 +48,7 @@ jobs:
       - name: Discover and extract reviewable TG-LOI evidence
         env:
           MAX_NEW: ${{ github.event.inputs.max_new || '100' }}
-          QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '4' }}
+          QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '2' }}
         run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 20 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
 
       - name: Rebuild strict paired master
