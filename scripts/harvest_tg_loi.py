@@ -24,18 +24,44 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data" / "automation"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT = OUT_DIR / "candidate_extractions.csv"
+STATE = OUT_DIR / "harvest_state.json"
 
 SEARCH_TERMS = [
     '"flame retardant" fabric LOI thermogravimetric',
     '"limiting oxygen index" textile TGA',
     'cotton fabric flame retardant LOI TGA',
+    'cotton fabric flame retardant LOI DTG char residue',
     'polyester fabric flame retardant LOI TGA',
+    'PET textile flame retardant oxygen index thermogravimetric',
     'polyamide nylon fabric flame retardant LOI TGA',
-    'viscose lyocell fabric flame retardant LOI TGA',
-    'wool silk fabric flame retardant LOI TGA',
+    'PA6 fabric limiting oxygen index thermogravimetric',
+    'PA66 fabric limiting oxygen index TGA',
+    'nylon cotton Nyco flame retardant LOI TGA',
+    'viscose fabric flame retardant LOI TGA',
+    'lyocell fabric flame retardant LOI TGA',
+    'wool fabric flame retardant LOI thermogravimetric',
+    'silk fabric flame retardant LOI thermogravimetric',
+    'polyacrylonitrile PAN fabric flame retardant LOI TGA',
+    'polypropylene nonwoven flame retardant LOI TGA',
     'aramid protective textile LOI thermogravimetric',
-    'upholstery automotive textile flame retardant LOI TGA',
+    'Nomex fabric LOI thermogravimetric',
+    'Kevlar aramid fabric LOI TGA flame retardant',
+    'PBI protective fabric LOI thermogravimetric',
+    'modacrylic fabric limiting oxygen index thermogravimetric',
+    'FR viscose protective clothing LOI TGA',
+    'firefighter fabric LOI thermogravimetric',
+    'protective clothing textile LOI TGA flame retardant',
+    'upholstery textile flame retardant LOI TGA',
+    'automotive textile flame retardant LOI TGA',
+    'curtain textile flame retardant LOI thermogravimetric',
     'mattress ticking textile flame retardant thermogravimetric LOI',
+    'carpet textile flame retardant LOI TGA',
+    'rail transit textile flame retardant LOI TGA',
+    'aircraft interior textile flame retardant LOI TGA',
+    'commercial fabric flame retardant LOI thermogravimetric',
+    'layer by layer fabric flame retardant LOI TGA',
+    'phytic acid fabric LOI TGA flame retardant',
+    'intumescent textile LOI TGA char residue',
 ]
 
 TG_TERMS = re.compile(
@@ -98,15 +124,50 @@ def inverted_abstract(inv: dict | None) -> str:
     return " ".join(tok for _, tok in sorted(pairs))
 
 
-def openalex_search(term: str, per_page: int = 50) -> list[dict]:
+def openalex_search(term: str, per_page: int = 50, cursor: str = "*") -> tuple[list[dict], str | None]:
     params = {
         "search": term,
         "per-page": min(per_page, 100),
+        "cursor": cursor or "*",
         "select": "id,doi,title,publication_year,primary_location,best_oa_location,open_access,abstract_inverted_index",
     }
     r = requests.get("https://api.openalex.org/works", params=params, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    return r.json().get("results", [])
+    payload = r.json()
+    return payload.get("results", []), (payload.get("meta") or {}).get("next_cursor")
+
+
+def load_state() -> dict:
+    state = {
+        "version": 1,
+        "runs": 0,
+        "cycle": 1,
+        "next_query_index": 0,
+        "queries": {},
+    }
+    if STATE.exists():
+        try:
+            loaded = json.loads(STATE.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict):
+                state.update(loaded)
+        except Exception:
+            pass
+    qmap = state.setdefault("queries", {})
+    for term in SEARCH_TERMS:
+        qmap.setdefault(term, {"cursor": "*", "pages_scanned": 0, "complete": False})
+    return state
+
+
+def save_state(state: dict) -> None:
+    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def reset_completed_cycle(state: dict) -> None:
+    if SEARCH_TERMS and all(state["queries"].get(t, {}).get("complete", False) for t in SEARCH_TERMS):
+        state["cycle"] = int(state.get("cycle", 1)) + 1
+        for term in SEARCH_TERMS:
+            state["queries"][term] = {"cursor": "*", "pages_scanned": 0, "complete": False}
+        state["next_query_index"] = 0
 
 
 def europe_pmc_fulltext(doi: str) -> tuple[str, str]:
@@ -258,22 +319,55 @@ def score_candidate(text: str, tables: list[str], title: str) -> tuple[int, list
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-new", type=int, default=200)
-    ap.add_argument("--per-query", type=int, default=50)
+    ap.add_argument("--max-new", type=int, default=100)
+    ap.add_argument("--per-query", type=int, default=30)
+    ap.add_argument("--queries-per-run", type=int, default=4)
+    ap.add_argument("--max-pages-per-query", type=int, default=100)
     args = ap.parse_args()
 
     known = existing_dois()
     previous = pd.read_csv(OUT, dtype=str).fillna("") if OUT.exists() else pd.DataFrame()
     seen = set(previous.get("DOI", pd.Series(dtype=str)).map(norm_doi)) | known
 
+    state = load_state()
+    reset_completed_cycle(state)
+    state["runs"] = int(state.get("runs", 0)) + 1
+
     rows = []
     discovered = {}
-    for term in SEARCH_TERMS:
+    processed = 0
+    attempts = 0
+    n_terms = len(SEARCH_TERMS)
+
+    while processed < min(args.queries_per_run, n_terms) and attempts < max(1, n_terms * 2):
+        idx = int(state.get("next_query_index", 0)) % n_terms
+        term = SEARCH_TERMS[idx]
+        state["next_query_index"] = (idx + 1) % n_terms
+        attempts += 1
+
+        qstate = state["queries"].setdefault(
+            term, {"cursor": "*", "pages_scanned": 0, "complete": False}
+        )
+        if qstate.get("complete", False):
+            continue
+
+        cursor = qstate.get("cursor") or "*"
         try:
-            works = openalex_search(term, args.per_query)
+            works, next_cursor = openalex_search(term, args.per_query, cursor)
         except Exception as exc:
             print(f"OpenAlex search failed for {term}: {exc}")
+            save_state(state)
             continue
+
+        qstate["pages_scanned"] = int(qstate.get("pages_scanned", 0)) + 1
+        qstate["last_result_count"] = len(works)
+        qstate["cursor"] = next_cursor or ""
+        if not works or not next_cursor or qstate["pages_scanned"] >= args.max_pages_per_query:
+            qstate["complete"] = True
+
+        processed += 1
+        save_state(state)
+
         for w in works:
             doi = norm_doi(w.get("doi"))
             key = doi or w.get("id") or w.get("title")
@@ -336,13 +430,21 @@ def main() -> None:
             "supplementary_content_found": bool(supp_text or supp_tables),
             "table_candidates": json.dumps(tables, ensure_ascii=False),
             "abstract_excerpt": re.sub(r'\s+', ' ', abstract)[:800],
+            "harvest_cycle": state.get("cycle", 1),
+            "harvest_run": state.get("runs", 0),
         })
         if doi:
             seen.add(doi)
         time.sleep(0.1)
 
+    reset_completed_cycle(state)
+    save_state(state)
+
     if not rows:
-        print("No new high-value candidates found.")
+        print(
+            f"No new high-value candidates found in this slice; "
+            f"processed_queries={processed}, run={state.get('runs')}, cycle={state.get('cycle')}."
+        )
         return
 
     new = pd.DataFrame(rows)
@@ -357,7 +459,10 @@ def main() -> None:
         all_df = all_df.drop_duplicates(subset=["_doi_norm"], keep="first")
         all_df = all_df.drop(columns=["_doi_norm"])
     all_df.to_csv(OUT, index=False)
-    print(f"Added {len(new)} reviewable candidates; queue now {len(all_df)} rows.")
+    print(
+        f"Added {len(new)} reviewable candidates; queue now {len(all_df)} rows; "
+        f"processed_queries={processed}, run={state.get('runs')}, cycle={state.get('cycle')}."
+    )
 
 
 if __name__ == "__main__":
