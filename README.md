@@ -56,3 +56,14 @@ CSV is the source of truth. Each new batch should:
 5. commit with a batch-specific message.
 
 PDFs are not stored here unless redistribution is clearly permitted; use DOI/URL and source-location fields for provenance.
+
+## Collection progress — 2026-09-21
+
+New web-verified staging added after the 639-row workbook snapshot:
+
+- Batch 1: 17 observations (some condition fields still require full-text completion)
+- Batch 2: 24 paired TGA–LOI observations with explicit numerical evidence
+- Batch 3: 14 paired TGA–LOI observations with explicit numerical evidence
+- New candidate queue: 5 PA6/PA66/polyester sources awaiting full TGA extraction
+
+For paper-facing scatter plots, batches 2–3 are currently the highest-confidence increment because sample state, TGA condition and matching LOI are explicitly resolved. The staging files retain T50 and residue-at-Tmax fields even where the current master scatter schema does not yet expose them.
