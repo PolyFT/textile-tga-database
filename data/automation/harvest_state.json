@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 3,
+  "runs": 4,
   "cycle": 1,
-  "next_query_index": 8,
+  "next_query_index": 10,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -53,14 +53,16 @@
       "last_result_count": 20
     },
     "PA66 fabric limiting oxygen index TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlszNi45MjQwMTUsIDE1OTM2NDgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzA0MDU5ODUyMCddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "nylon cotton Nyco flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 1
     },
     "viscose fabric flame retardant LOI TGA": {
       "cursor": "*",
