@@ -59,11 +59,20 @@ PDFs are not stored here unless redistribution is clearly permitted; use DOI/URL
 
 ## Collection progress — 2026-09-21
 
-New web-verified staging added after the 639-row workbook snapshot:
+Baseline normalized snapshot: 639 TG observations.
 
+New verified staging after the workbook snapshot:
 - Batch 1: 17 observations (some condition fields still require full-text completion)
-- Batch 2: 24 paired TGA–LOI observations with explicit numerical evidence
-- Batch 3: 14 paired TGA–LOI observations with explicit numerical evidence
-- New candidate queue: 5 PA6/PA66/polyester sources awaiting full TGA extraction
+- Batch 2: 24 paired TGA–LOI observations
+- Batch 3: 14 paired TGA–LOI observations
+- Batch 4: 15 PET/silk observations
+- Batch 5: 12 silk/PP observations
+- Batch 6: 4 lyocell observations
+- Batch 7: 6 lyocell / lyocell-cotton observations
+- Batch 8: 4 silk observations with threshold LOI values kept non-numeric where exact values are unavailable
 
-For paper-facing scatter plots, batches 2–3 are currently the highest-confidence increment because sample state, TGA condition and matching LOI are explicitly resolved. The staging files retain T50 and residue-at-Tmax fields even where the current master scatter schema does not yet expose them.
+Total incoming verified staging: **96 observations** (B20260921-001 to B20260921-096).
+
+Additional candidate queues contain PA6/PA66/PET/lyocell/cuprammonium sources that are held out of the scatter-ready layer until TGA conditions and exact sample-state mapping are resolved.
+
+For paper-facing scatter plots, paired rows require an exact sample-state match between TGA and LOI. Threshold-only LOI values (for example, >27%) are not converted to point estimates. Cone-calorimetry residue is never substituted for TGA residue.
