@@ -37,23 +37,23 @@ SEARCH_TERMS = [
 ]
 
 TG_TERMS = re.compile(
-    r'\\b(TGA|TG/DTG|DTG|thermogravimetric|thermogravimetry|thermal degradation|char residue|residual mass|Tmax|T_?5\\b|T_?10\\b|T_?50\\b)',
+    r'\b(TGA|TG/DTG|DTG|thermogravimetric|thermogravimetry|thermal degradation|char residue|residual mass|Tmax|T_?5\b|T_?10\b|T_?50\b)',
     re.I,
 )
-LOI_TERMS = re.compile(r'\\b(LOI|limiting oxygen index|oxygen index)\\b', re.I)
+LOI_TERMS = re.compile(r'\b(LOI|limiting oxygen index|oxygen index)\b', re.I)
 TEXTILE_TERMS = re.compile(
-    r'\\b(fabric|textile|fiber|fibre|nonwoven|woven|knitted|yarn|cotton|polyester|PET|nylon|polyamide|viscose|lyocell|wool|silk|aramid|upholstery|curtain|mattress)\\b',
+    r'\b(fabric|textile|fiber|fibre|nonwoven|woven|knitted|yarn|cotton|polyester|PET|nylon|polyamide|viscose|lyocell|wool|silk|aramid|upholstery|curtain|mattress)\b',
     re.I,
 )
 NUMERIC_TG = re.compile(
-    r'(?:(?:T(?:d[, ]*)?(?:5|10|20|40|50)|Tmax|peak temperature)[^.;:\\n]{0,35}?(\\d{2,4}(?:\\.\\d+)?)\\s*°?\\s*C)'
-    r'|(?:(?:residue|residual mass|char yield)[^.;:\\n]{0,45}?(\\d{1,3}(?:\\.\\d+)?)\\s*(?:wt\\.?\\s*)?%)',
+    r'(?:(?:T(?:d[, ]*)?(?:5|10|20|40|50)|Tmax|peak temperature)[^.;:\n]{0,35}?(\d{2,4}(?:\.\d+)?)\s*°?\s*C)'
+    r'|(?:(?:residue|residual mass|char yield)[^.;:\n]{0,45}?(\d{1,3}(?:\.\d+)?)\s*(?:wt\.?\s*)?%)',
     re.I,
 )
 NUMERIC_LOI = re.compile(
-    r'(?:LOI|limiting oxygen index|oxygen index)[^.;:\\n]{0,50}?'
-    r'(?:(?:of|=|:|was|to|from|reached|increased to|decreased to)\\s*)?'
-    r'(\\d{1,2}(?:\\.\\d+)?)\\s*(?:vol\\.?\\s*)?%',
+    r'(?:LOI|limiting oxygen index|oxygen index)[^.;:\n]{0,50}?'
+    r'(?:(?:of|=|:|was|to|from|reached|increased to|decreased to)\s*)?'
+    r'(\d{1,2}(?:\.\d+)?)\s*(?:vol\.?\s*)?%',
     re.I,
 )
 
@@ -66,8 +66,8 @@ def norm_doi(value: str | None) -> str:
     if not value:
         return ""
     x = str(value).strip().lower()
-    x = re.sub(r'^https?://(?:dx\\.)?doi\\.org/', '', x)
-    x = re.sub(r'^doi:\\s*', '', x)
+    x = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', x)
+    x = re.sub(r'^doi:\s*', '', x)
     return x.rstrip(' .;,')
 
 
@@ -174,7 +174,7 @@ def short_evidence(text: str, pattern: re.Pattern, radius: int = 150, max_items:
     for m in pattern.finditer(text):
         a = max(0, m.start() - radius)
         b = min(len(text), m.end() + radius)
-        snippet = re.sub(r'\\s+', ' ', html.unescape(text[a:b])).strip()
+        snippet = re.sub(r'\s+', ' ', html.unescape(text[a:b])).strip()
         if snippet not in items:
             items.append(snippet)
         if len(items) >= max_items:
@@ -280,7 +280,7 @@ def main() -> None:
             "LOI_numeric_evidence": json.dumps(loi_ev, ensure_ascii=False),
             "TG_numeric_evidence": json.dumps(tg_ev, ensure_ascii=False),
             "table_candidates": json.dumps(tables, ensure_ascii=False),
-            "abstract_excerpt": re.sub(r'\\s+', ' ', abstract)[:800],
+            "abstract_excerpt": re.sub(r'\s+', ' ', abstract)[:800],
         })
         if doi:
             seen.add(doi)
