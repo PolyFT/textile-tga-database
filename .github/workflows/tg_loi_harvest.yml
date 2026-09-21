@@ -17,9 +17,9 @@ on:
       queries_per_run:
         description: "Stateful OpenAlex query pages processed per run"
         required: false
-        default: "4"
+        default: "2"
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -49,7 +49,7 @@ jobs:
         env:
           MAX_NEW: ${{ github.event.inputs.max_new || '100' }}
           QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '4' }}
-        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 30 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
+        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 20 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
 
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
