@@ -62,17 +62,18 @@ PDFs are not stored here unless redistribution is clearly permitted; use DOI/URL
 Baseline normalized snapshot: 639 TG observations.
 
 New verified staging after the workbook snapshot:
-- Batch 1: 17 observations (some condition fields still require full-text completion)
+- Batch 1: 17 observations
 - Batch 2: 24 paired TGA–LOI observations
 - Batch 3: 14 paired TGA–LOI observations
 - Batch 4: 15 PET/silk observations
 - Batch 5: 12 silk/PP observations
 - Batch 6: 4 lyocell observations
 - Batch 7: 6 lyocell / lyocell-cotton observations
-- Batch 8: 4 silk observations with threshold LOI values kept non-numeric where exact values are unavailable
+- Batch 8: 4 silk observations with threshold-only LOI kept non-numeric
+- Batch 9: 27 commercial viscose/flax furnishing-fabric observations across untreated, FR/MLSE-before-soak, and after-water-soak states
 
-Total incoming verified staging: **96 observations** (B20260921-001 to B20260921-096).
+Total incoming verified staging: **123 observations** (B20260921-001 to B20260921-123).
 
-Additional candidate queues contain PA6/PA66/PET/lyocell/cuprammonium sources that are held out of the scatter-ready layer until TGA conditions and exact sample-state mapping are resolved.
+Additional candidate queues contain PA6/PA66/PET/viscose/lyocell/cuprammonium/Nylon56 sources that remain outside the scatter-ready layer until TGA conditions and exact sample-state mapping are resolved.
 
-For paper-facing scatter plots, paired rows require an exact sample-state match between TGA and LOI. Threshold-only LOI values (for example, >27%) are not converted to point estimates. Cone-calorimetry residue is never substituted for TGA residue.
+For paper-facing scatter plots, paired rows require an exact sample-state match between TGA and LOI. Threshold-only LOI values are not converted to point estimates. Cone-calorimetry residue is never substituted for TGA residue, and fixed-temperature residue values retain their original reported temperature.
