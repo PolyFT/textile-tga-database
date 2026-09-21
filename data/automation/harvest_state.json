@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 2,
+  "runs": 3,
   "cycle": 1,
-  "next_query_index": 6,
+  "next_query_index": 8,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -41,14 +41,16 @@
       "last_result_count": 20
     },
     "polyamide nylon fabric flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsyMzQuOTYyOTUsIDE1Nzc4MzY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzA0MDc2MjM4MSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "PA6 fabric limiting oxygen index thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils0OS45OTc0MTcsIDE1Nzc4MzY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzA4MTQ1MDU1OSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "PA66 fabric limiting oxygen index TGA": {
       "cursor": "*",
