@@ -61,19 +61,14 @@ PDFs are not stored here unless redistribution is clearly permitted; use DOI/URL
 
 Baseline normalized snapshot: 639 TG observations.
 
-New verified staging after the workbook snapshot:
-- Batch 1: 17 observations
-- Batch 2: 24 paired TGA–LOI observations
-- Batch 3: 14 paired TGA–LOI observations
-- Batch 4: 15 PET/silk observations
-- Batch 5: 12 silk/PP observations
-- Batch 6: 4 lyocell observations
-- Batch 7: 6 lyocell / lyocell-cotton observations
-- Batch 8: 4 silk observations with threshold-only LOI kept non-numeric
-- Batch 9: 27 commercial viscose/flax furnishing-fabric observations across untreated, FR/MLSE-before-soak, and after-water-soak states
+Incoming verified staging now extends through **B20260921-205**, for **205 additional observations**. These are a mixture of:
+- exact TGA–LOI paired observations,
+- TG-only observations retained when LOI is absent or not reliably measurable,
+- condition-partial observations whose numerical TGA/LOI values are explicit but one TGA condition field is missing,
+- commercial / application-relevant textile records kept distinct from laboratory-only systems.
 
-Total incoming verified staging: **123 observations** (B20260921-001 to B20260921-123).
+Recent high-value additions include commercial furnishing fabrics, mattress ticking with commercial flame retardants, automotive-interior PET, PA6,6 technical textiles, wool, silk, lyocell, PAN, polypropylene nonwoven, and multiple PET/cotton blend constructions.
 
-Additional candidate queues contain PA6/PA66/PET/viscose/lyocell/cuprammonium/Nylon56 sources that remain outside the scatter-ready layer until TGA conditions and exact sample-state mapping are resolved.
+Paper-facing scatter plots should use only rows with exact sample-state matching between TGA and LOI, then stratify by atmosphere, heating rate, material class and evidence level. TG-only rows remain useful for the thermal-response landscape but are not used as TGA–LOI correlation points.
 
-For paper-facing scatter plots, paired rows require an exact sample-state match between TGA and LOI. Threshold-only LOI values are not converted to point estimates. Cone-calorimetry residue is never substituted for TGA residue, and fixed-temperature residue values retain their original reported temperature.
+Additional candidate queues contain PA6/PA66/PET/viscose/lyocell/cuprammonium/Nylon56 sources that remain outside the main paired layer until TGA conditions and exact sample-state mapping are resolved.
