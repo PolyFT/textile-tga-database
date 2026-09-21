@@ -174,7 +174,47 @@ def fetch_open_html(url: str) -> tuple[str, list[str], list[str]]:
             label = " ".join(a.stripped_strings)
             href = a.get("href", "")
             probe = f"{label} {href}"
-            if SUPP_HINT.search(probe) or re.search(r'(supp|esi|support).*(pdf|xlsx|xls|csv)
+            ext_hit = re.search(r'(supp|esi|support).*(pdf|xlsx|xls|csv)$', href, re.I)
+            if SUPP_HINT.search(probe) or ext_hit:
+                u = urljoin(url, href)
+                h = urlparse(u).netloc.lower()
+                if h == host or h in ALLOW_HTML_HOSTS:
+                    if u not in supp_links:
+                        supp_links.append(u)
+        return text, tables[:8], supp_links[:8]
+    except requests.RequestException:
+        return "", [], []
+
+
+def fetch_supplements(links: list[str]) -> tuple[str, list[str]]:
+    texts = []
+    tables = []
+    for url in links[:4]:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=35)
+            if not r.ok or len(r.content) > 12_000_000:
+                continue
+            ctype = r.headers.get("content-type", "").lower()
+            path = urlparse(url).path.lower()
+            if "pdf" in ctype or path.endswith(".pdf"):
+                reader = PdfReader(BytesIO(r.content))
+                text = " ".join((p.extract_text() or "") for p in reader.pages[:30])
+                if text:
+                    texts.append(text[:120000])
+            elif "csv" in ctype or path.endswith(".csv"):
+                df = pd.read_csv(BytesIO(r.content))
+                blob = df.head(100).to_csv(index=False)
+                if LOI_TERMS.search(blob) or TG_TERMS.search(blob):
+                    tables.append(blob[:12000])
+            elif path.endswith((".xlsx", ".xls")) or "spreadsheet" in ctype or "excel" in ctype:
+                book = pd.read_excel(BytesIO(r.content), sheet_name=None)
+                for name, df in list(book.items())[:8]:
+                    blob = f"sheet={name}\n" + df.head(100).to_csv(index=False)
+                    if LOI_TERMS.search(blob) or TG_TERMS.search(blob):
+                        tables.append(blob[:12000])
+        except Exception:
+            continue
+    return " ".join(texts), tables[:10]
 
 def short_evidence(text: str, pattern: re.Pattern, radius: int = 150, max_items: int = 5) -> list[str]:
     items = []
