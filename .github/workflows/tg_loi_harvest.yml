@@ -1,0 +1,55 @@
+name: TG-LOI evidence harvest
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Maximum new reviewable candidates per run"
+        required: false
+        default: "200"
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tg-loi-harvest
+  cancel-in-progress: true
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Discover and extract reviewable TG-LOI evidence
+        env:
+          MAX_NEW: ${{ github.event.inputs.max_new || '200' }}
+        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW"
+
+      - name: Rebuild strict paired master
+        run: python scripts/validate_tg_loi.py
+
+      - name: Commit evidence queue and paired master
+        run: |
+          git config user.name "tg-loi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/automation data/tg_loi_master.csv
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "bot: harvest TG-LOI evidence and rebuild paired master"
+          git push
