@@ -22,7 +22,8 @@ Core analytical fields:
 | `residue_temp_C` | Temperature corresponding to `residue_pct` |
 | `residue_pct` | Residual mass |
 | `R400_pct`, `R500_pct`, `R550_pct`, `R600_pct`, `R650_pct`, `R700_pct`, `R800_pct` | Residual mass at explicitly reported fixed temperatures; preserve the source temperature exactly |
-| `LOI_pct` | Limiting oxygen index |
+| `LOI_pct` | Limiting oxygen index when reported as a single numeric value |
+| `LOI_min_pct`, `LOI_max_pct` | Lower and upper bounds when LOI is reported as a range; do not replace the range by its midpoint |
 | `direct_numeric_use` | Whether source evidence currently supports direct numerical analysis |
 | `DOI`, `source_url`, `source_location` | Provenance / audit trail |
 | `limitations` | Known limitations or conflicts |
@@ -42,3 +43,5 @@ Incoming verified batches may also carry `T50_C` and `residue_at_Tmax_pct`. Thes
 Fixed-temperature residue fields must never be shifted to the nearest existing bin. For example, a source value at 550 °C belongs in `R550_pct`, not `R500_pct` or `R600_pct`.
 
 When multiple Tmax values are reported with a residual-mass value at each peak, preserve the pairing in numbered `residue_at_TmaxN_pct` fields rather than collapsing to one residue value.
+
+LOI ranges must remain interval data. A range such as 16.5–17.0% is stored in `LOI_min_pct=16.5` and `LOI_max_pct=17.0`; `LOI_pct` remains blank unless the source reports an exact point value.
