@@ -1,0 +1,45 @@
+name: TG-LOI master rebuild
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/incoming/verified*.csv"
+      - "data/scatter_ready.csv"
+      - "scripts/validate_tg_loi.py"
+      - ".github/workflows/tg_loi_rebuild.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tg-loi-master-rebuild
+  cancel-in-progress: true
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Rebuild strict paired master
+        run: python scripts/validate_tg_loi.py
+      - name: Commit master and report
+        run: |
+          git config user.name "tg-loi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/tg_loi_master.csv data/automation/validation_report.json
+          if git diff --cached --quiet; then
+            echo "No master changes"
+            exit 0
+          fi
+          git commit -m "bot: rebuild strict TG-LOI master"
+          git push
