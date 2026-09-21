@@ -352,6 +352,7 @@ def main() -> None:
         all_df = new
     if "DOI" in all_df:
         all_df["_doi_norm"] = all_df["DOI"].map(norm_doi)
+        all_df["candidate_score"] = pd.to_numeric(all_df["candidate_score"], errors="coerce").fillna(0)
         all_df = all_df.sort_values(["candidate_score"], ascending=False)
         all_df = all_df.drop_duplicates(subset=["_doi_norm"], keep="first")
         all_df = all_df.drop(columns=["_doi_norm"])
