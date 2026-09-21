@@ -13,9 +13,13 @@ on:
       max_new:
         description: "Maximum new reviewable candidates per run"
         required: false
-        default: "200"
+        default: "100"
+      queries_per_run:
+        description: "Stateful OpenAlex query pages processed per run"
+        required: false
+        default: "4"
   schedule:
-    - cron: "17 1 * * *"
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -43,8 +47,9 @@ jobs:
 
       - name: Discover and extract reviewable TG-LOI evidence
         env:
-          MAX_NEW: ${{ github.event.inputs.max_new || '200' }}
-        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW"
+          MAX_NEW: ${{ github.event.inputs.max_new || '100' }}
+          QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '4' }}
+        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 30 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
 
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
