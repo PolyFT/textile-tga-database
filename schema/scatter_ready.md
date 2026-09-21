@@ -17,7 +17,8 @@ Core analytical fields:
 | `T1_C`, `T5_C`, `T10_C`, `T20_C`, `T40_C`, `T50_C` | Temperatures at specified mass loss; `T1_C` is retained only when the source explicitly reports Td,1% |
 | `Tonset_C` | Reported onset / initial decomposition temperature |
 | `Tmax1_C`, `Tmax2_C`, `Tmax3_C` | DTG peak temperatures |
-| `residue_at_Tmax_pct` | Residual mass reported at a DTG peak / Tmax when explicitly tabulated |
+| `residue_at_Tmax_pct` | Residual mass reported at a single DTG peak / Tmax when explicitly tabulated |
+| `residue_at_Tmax1_pct`, `residue_at_Tmax2_pct`, `residue_at_Tmax3_pct` | Residual mass corresponding to `Tmax1_C`, `Tmax2_C`, and `Tmax3_C` when a source reports multiple DTG peaks |
 | `residue_temp_C` | Temperature corresponding to `residue_pct` |
 | `residue_pct` | Residual mass |
 | `R400_pct`, `R500_pct`, `R550_pct`, `R600_pct`, `R650_pct`, `R700_pct`, `R800_pct` | Residual mass at explicitly reported fixed temperatures; preserve the source temperature exactly |
@@ -39,3 +40,5 @@ Incoming verified batches may also carry `T50_C` and `residue_at_Tmax_pct`. Thes
 `T40_C` is retained when a source explicitly reports the temperature at 40% mass loss; it must not be converted to or substituted for `T50_C`.
 
 Fixed-temperature residue fields must never be shifted to the nearest existing bin. For example, a source value at 550 °C belongs in `R550_pct`, not `R500_pct` or `R600_pct`.
+
+When multiple Tmax values are reported with a residual-mass value at each peak, preserve the pairing in numbered `residue_at_TmaxN_pct` fields rather than collapsing to one residue value.
