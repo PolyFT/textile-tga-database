@@ -20,6 +20,7 @@ Core analytical fields:
 | `residue_at_Tmax_pct` | Residual mass reported at a DTG peak / Tmax when explicitly tabulated |
 | `residue_temp_C` | Temperature corresponding to `residue_pct` |
 | `residue_pct` | Residual mass |
+| `R400_pct`, `R500_pct`, `R550_pct`, `R600_pct`, `R650_pct`, `R700_pct`, `R800_pct` | Residual mass at explicitly reported fixed temperatures; preserve the source temperature exactly |
 | `LOI_pct` | Limiting oxygen index |
 | `direct_numeric_use` | Whether source evidence currently supports direct numerical analysis |
 | `DOI`, `source_url`, `source_location` | Provenance / audit trail |
@@ -36,3 +37,5 @@ Incoming verified batches may also carry `T50_C` and `residue_at_Tmax_pct`. Thes
 `T1_C` must not be silently re-labelled as `Tonset_C`; both may coexist when a source reports them separately.
 
 `T40_C` is retained when a source explicitly reports the temperature at 40% mass loss; it must not be converted to or substituted for `T50_C`.
+
+Fixed-temperature residue fields must never be shifted to the nearest existing bin. For example, a source value at 550 °C belongs in `R550_pct`, not `R500_pct` or `R600_pct`.
