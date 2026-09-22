@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 10,
+  "runs": 11,
   "cycle": 1,
-  "next_query_index": 26,
+  "next_query_index": 28,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -157,14 +157,16 @@
       "last_result_count": 20
     },
     "curtain textile flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 13
     },
     "mattress ticking textile flame retardant thermogravimetric LOI": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 1
     },
     "carpet textile flame retardant LOI TGA": {
       "cursor": "*",
