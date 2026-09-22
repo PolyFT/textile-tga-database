@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 5,
+  "runs": 6,
   "cycle": 1,
-  "next_query_index": 12,
+  "next_query_index": 18,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -97,14 +97,16 @@
       "complete": false
     },
     "aramid protective textile LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlszOS4yNjAyNDYsIDEwNjU5MTY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNTc5Nzg4MTgnXSI=",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "Nomex fabric LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMy43NTEzMTcsIDE3MTg4NDE2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5OTg0OTgyOSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "Kevlar aramid fabric LOI TGA flame retardant": {
       "cursor": "*",
