@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 6,
+  "runs": 7,
   "cycle": 1,
-  "next_query_index": 18,
+  "next_query_index": 20,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -109,14 +109,16 @@
       "last_result_count": 20
     },
     "Kevlar aramid fabric LOI TGA flame retardant": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlszOS42NzQ4MSwgMTQ1MTYwNjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNjAwMDE2NzkwJ10i",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "PBI protective fabric LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 13
     },
     "modacrylic fabric limiting oxygen index thermogravimetric": {
       "cursor": "*",
