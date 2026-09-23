@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: tg-loi-master-rebuild
-  cancel-in-progress: true
+  group: tg-loi-master-write
+  cancel-in-progress: false
 
 jobs:
   rebuild:
