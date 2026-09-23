@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 13,
+  "runs": 14,
   "cycle": 1,
-  "next_query_index": 32,
+  "next_query_index": 0,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -198,14 +198,16 @@
       "complete": false
     },
     "phytic acid fabric LOI TGA flame retardant": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlszMjcuNDQxMzUsIDE2Nzk5NjE2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2MTIxMzQ1NSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "intumescent textile LOI TGA char residue": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMTkuMDgwNTM2LCAxNjQwOTk1MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDgxNzg5NTQnXSI=",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     }
   }
 }
