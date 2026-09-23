@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 11,
+  "runs": 12,
   "cycle": 1,
-  "next_query_index": 28,
+  "next_query_index": 30,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlszMDQuMjYxMDIsIDE2NDgxNjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyODM3MSddIg==",
@@ -169,14 +169,16 @@
       "last_result_count": 1
     },
     "carpet textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMjIuNzAyMjgsIDE2MTMwODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzIxNjk1MjY0NSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 20
     },
     "rail transit textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 4
     },
     "aircraft interior textile flame retardant LOI TGA": {
       "cursor": "*",
