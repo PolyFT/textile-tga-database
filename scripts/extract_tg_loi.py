@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automation'; INC=DATA/'incoming'
 CAND=AUTO/'candidate_extractions.csv'; EXT=AUTO/'auto_extracted.csv'; REVIEW=AUTO/'review_queue.csv'; STATE=AUTO/'auto_extract_state.json'; MASTER=DATA/'tg_loi_master.csv'
 AUTO.mkdir(parents=True,exist_ok=True); INC.mkdir(parents=True,exist_ok=True)
-EXTRACTOR_VERSION='2'; HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
+EXTRACTOR_VERSION='3'; HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
 ALLOWED={'pmc.ncbi.nlm.nih.gov','europepmc.org','www.europepmc.org','www.mdpi.com','mdpi.com','pubs.rsc.org','www.frontiersin.org','link.springer.com','journals.sagepub.com','www.hindawi.com','onlinelibrary.wiley.com'}
 NUM=re.compile(r'[-+]?\d+(?:\.\d+)?'); RANGE=re.compile(r'\d+(?:\.\d+)?\s*(?:-|–|—|to)\s*\d+(?:\.\d+)?',re.I); UNC=re.compile(r'(\d+(?:\.\d+)?)\s*(?:±|\+/-)\s*(\d+(?:\.\d+)?)')
 RATE1=re.compile(r'(?:heating\s*rate|heated[^.;\n]{0,80}?at|heating\s+at|rate\s+of)[^.;\n]{0,80}?(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
@@ -46,7 +46,7 @@ def sample_col(df,exclude):
 def tga_snips(text):
     scored=[]
     for m in re.finditer(r'\b(?:TGA|TG/DTG|thermogravimetric(?: analysis)?|thermogravimetry)\b',text,re.I):
-        z=text[max(0,m.start()-180):min(len(text),m.end()+700)]
+        z=text[m.start():min(len(text),m.end()+650)]
         score=3*bool(re.search(r'heating\s*rate|heated\s+from|°\s*C\s*/\s*min|℃\s*/\s*min',z,re.I))+2*bool(re.search(r'flow\s*rate|mL\s*/\s*min',z,re.I))+bool(re.search(r'nitrogen|\bair\b|argon',z,re.I))
         scored.append((score,z))
     scored.sort(key=lambda x:x[0],reverse=True)
