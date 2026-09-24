@@ -1,4 +1,4 @@
-name: TG-LOI evidence harvest
+name: TG-LOI closed-loop harvest
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/tg_loi_harvest.yml"
       - "scripts/harvest_tg_loi.py"
+      - "scripts/extract_tg_loi.py"
       - "scripts/validate_tg_loi.py"
       - "requirements.txt"
   workflow_dispatch:
@@ -13,13 +14,13 @@ on:
       max_new:
         description: "Maximum new reviewable candidates per run"
         required: false
-        default: "100"
+        default: "200"
       queries_per_run:
         description: "Stateful OpenAlex query pages processed per run"
         required: false
-        default: "2"
+        default: "8"
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
@@ -29,9 +30,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  harvest:
+  harvest_extract_promote:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
         with:
@@ -45,23 +46,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Discover and extract reviewable TG-LOI evidence
+      - name: Discover reviewable TG-LOI evidence
         env:
-          MAX_NEW: ${{ github.event.inputs.max_new || '100' }}
-          QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '2' }}
-        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 20 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
+          MAX_NEW: ${{ github.event.inputs.max_new || '200' }}
+          QUERIES_PER_RUN: ${{ github.event.inputs.queries_per_run || '8' }}
+        run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 40 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
+
+      - name: Extract sample-level pairs and promote Grade A
+        run: python scripts/extract_tg_loi.py
 
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
 
-      - name: Commit evidence queue and paired master
+      - name: Commit closed-loop outputs
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/automation data/tg_loi_master.csv
+          git add data/automation data/incoming data/tg_loi_master.csv
           if git diff --cached --quiet; then
             echo "No data changes"
             exit 0
           fi
-          git commit -m "bot: harvest TG-LOI evidence and rebuild paired master"
+          git commit -m "bot: closed-loop TG-LOI harvest, extraction and promotion"
+          git pull --rebase origin main
           git push
