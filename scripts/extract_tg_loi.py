@@ -149,16 +149,43 @@ def load_state():
     except:return {'version':1,'processed':{}}
 def fp(r):
     cols=['DOI','fulltext_url','candidate_score','status','LOI_numeric_evidence','TG_numeric_evidence','table_candidates','supplementary_links']; return hashlib.sha256('|'.join(str(r.get(c,'') or '') for c in cols).encode()).hexdigest()[:20]
-def master_keys():
-    if not MASTER.exists():return set()
-    try:d=pd.read_csv(MASTER,dtype=str).fillna('')
-    except:return set()
-    if 'pair_key' in d:return set(d.pair_key)
-    return set()
 def rate_s(r):
     if r is None:return ''
-    return str(int(r)) if float(r).is_integer() else str(r)
+    try:return str(float(r))
+    except:return str(r).strip()
 def pairkey(d,s,a,r):return f'{d}||{s.strip()}||{a.strip()}||{rate_s(r)}'
+def norm_pairkey(d,s,a,r):return f'{d}||{ns(s)}||{str(a).strip().lower()}||{rate_s(r)}'
+def master_keys():
+    if not MASTER.exists():return set(),set()
+    try:d=pd.read_csv(MASTER,dtype=str).fillna('')
+    except:return set(),set()
+    raw=set(d['pair_key']) if 'pair_key' in d else set()
+    norm=set()
+    for _,r in d.iterrows():
+        norm.add(norm_pairkey(doi(r.get('DOI','')),r.get('sample_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')))
+    return raw,norm
+def material_labels(title,full):
+    x=(str(title)+' '+str(full)[:3000]).lower()
+    if re.search(r'nylon\s*[/–-]\s*cotton|cotton\s*[/–-]\s*nylon|nyco',x): mat='nylon/cotton blend'
+    elif 'cotton' in x: mat='cotton'
+    elif re.search(r'polyester|\bpet\b',x): mat='polyester'
+    elif re.search(r'polyamide|\bpa6\b|\bpa66\b|nylon',x): mat='polyamide/nylon'
+    elif 'lyocell' in x: mat='lyocell'
+    elif 'viscose' in x: mat='viscose'
+    elif 'wool' in x: mat='wool'
+    elif 'silk' in x: mat='silk'
+    elif 'aramid' in x or 'kevlar' in x or 'nomex' in x: mat='aramid'
+    elif re.search(r'polypropylene|\bpp\b',x): mat='polypropylene'
+    elif re.search(r'polyacrylonitrile|\bpan\b',x): mat='polyacrylonitrile'
+    else: mat=''
+    if 'nonwoven' in x: form='nonwoven'
+    elif 'knitted' in x or 'knit' in x: form='knitted fabric'
+    elif 'woven' in x: form='woven fabric'
+    elif 'fabric' in x or 'textile' in x: form='fabric'
+    elif 'fibre' in x or 'fiber' in x: form='fiber'
+    elif 'yarn' in x: form='yarn'
+    else: form=''
+    return mat,form
 def merge(path,new,keys):
     try:old=pd.read_csv(path,dtype=str) if path.exists() else pd.DataFrame()
     except:old=pd.DataFrame()
@@ -171,11 +198,11 @@ def merge(path,new,keys):
 def main():
     if not CAND.exists():print('No candidate queue.');return
     cands=pd.read_csv(CAND,dtype=str).fillna(''); cands['_score']=pd.to_numeric(cands.get('candidate_score',0),errors='coerce').fillna(0); cands=cands.sort_values('_score',ascending=False)
-    st=load_state(); st.setdefault('processed',{}); mk=master_keys(); extracted=[]; promoted=[]; examined=0
+    st=load_state(); st.setdefault('processed',{}); mk,mnk=master_keys(); extracted=[]; promoted=[]; examined=0
     for _,c in cands.iterrows():
         d=doi(c.get('DOI')); f=fp(c)
         if not d or st['processed'].get(d,{}).get('fingerprint')==f:continue
-        examined+=1; full,tabs,url=source(c)
+        examined+=1; full,tabs,url=source(c); mat,form=material_labels(c.get('title',''),full)
         if not full or not tabs:
             extracted.append({'DOI':d,'title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'grade':'C','reason':'No structured open-full-text tables could be parsed.','source_url':url or c.get('fulltext_url','') or c.get('oa_url',''),'candidate_fingerprint':f,'extracted_at_utc':datetime.now(timezone.utc).isoformat()}); st['processed'][d]={'fingerprint':f,'grade':'C'};continue
         L=loi_rows(tabs); T=tg_rows(full,tabs); anypair=False; grades=[]
@@ -183,8 +210,8 @@ def main():
             for t in [x for x in T if x['sample_norm'] and x['sample_norm']==l['sample_norm']]:
                 anypair=True; a=str(t.get('atmosphere','') or '').strip(); r=t.get('heating_rate_C_min'); nums={k:v for k,v in t.items() if (k.endswith('_C') or k.startswith('R')) and isinstance(v,(int,float))}; g='A' if a and r is not None and nums else 'B'; grades.append(g)
                 rec={'DOI':d,'title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'sample_state':l['sample_state'],'sample_norm':l['sample_norm'],'LOI_pct':l['LOI_pct'],'LOI_uncertainty_pct':l.get('LOI_uncertainty_pct'),'atmosphere':a,'heating_rate_C_min':r,**nums,'grade':g,'reason':'Exact normalized sample-state match; exact LOI; structured TG numeric fields; complete TGA conditions.' if g=='A' else 'Exact numeric pairing found, but TGA atmosphere or heating rate is ambiguous/missing.','source_url':url or c.get('fulltext_url','') or c.get('oa_url',''),'source_location':f"LOI table: {l['ctx']}; TG table: {t['ctx']}",'evidence':'Automatically extracted from structured open-full-text tables; sample states matched exactly after conservative normalization.','direct_numeric_use':'TG+LOI' if g=='A' else 'review','candidate_fingerprint':f,'extracted_at_utc':datetime.now(timezone.utc).isoformat()}; rec['pair_key']=pairkey(d,rec['sample_state'],a,r); extracted.append(rec)
-                if g=='A' and rec['pair_key'] not in mk:
-                    promoted.append({'batch_id':'AUTO-'+datetime.now(timezone.utc).strftime('%Y%m%d'),'dataset_type':'literature','sample_state':rec['sample_state'],'atmosphere':a,'heating_rate_C_min':r,'LOI_pct':rec['LOI_pct'],'LOI_uncertainty_pct':rec.get('LOI_uncertainty_pct'),**nums,'direct_numeric_use':'TG+LOI','evidence':rec['evidence'],'source_title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'DOI':d,'source_url':rec['source_url'],'source_location':rec['source_location'],'limitations':'Automatically promoted only because exact table-level sample matching and complete TGA conditions satisfied conservative Grade-A rules.'}); mk.add(rec['pair_key'])
+                if g=='A' and rec['pair_key'] not in mk and norm_pairkey(d,rec['sample_state'],a,r) not in mnk:
+                    promoted.append({'batch_id':'AUTO-'+datetime.now(timezone.utc).strftime('%Y%m%d'),'dataset_type':'literature','material_category':mat,'material_form':form,'sample_state':rec['sample_state'],'atmosphere':a,'heating_rate_C_min':r,'LOI_pct':rec['LOI_pct'],'LOI_uncertainty_pct':rec.get('LOI_uncertainty_pct'),**nums,'direct_numeric_use':'TG+LOI','evidence':rec['evidence'],'source_title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'DOI':d,'source_url':rec['source_url'],'source_location':rec['source_location'],'limitations':'Automatically promoted only because exact table-level sample matching and complete TGA conditions satisfied conservative Grade-A rules.'}); mk.add(rec['pair_key']); mnk.add(norm_pairkey(d,rec['sample_state'],a,r))
         if not anypair:
             extracted.append({'DOI':d,'title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'grade':'C','reason':'Structured LOI/TG tables found, but no exact sample-state match was established.','source_url':url or c.get('fulltext_url','') or c.get('oa_url',''),'candidate_fingerprint':f,'extracted_at_utc':datetime.now(timezone.utc).isoformat()}); grades=['C']
         st['processed'][d]={'fingerprint':f,'grade':'A' if 'A' in grades else ('B' if 'B' in grades else 'C')}
