@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 21,
+  "runs": 22,
   "cycle": 1,
-  "next_query_index": 8,
+  "next_query_index": 17,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlsyMTEuOTA1OTgsIDE2Mjg3MjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzE4OTEzODQyNiddIg==",
@@ -53,10 +53,10 @@
       "last_result_count": 40
     },
     "PA66 fabric limiting oxygen index TGA": {
-      "cursor": "IlszNi45MjQwMTUsIDE1OTM2NDgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzA0MDU5ODUyMCddIg==",
-      "pages_scanned": 1,
+      "cursor": "IlsxLjUwMTc5MjMsIDE3MzU2ODk2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzExODA1NjA1MCddIg==",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "nylon cotton Nyco flame retardant LOI TGA": {
       "cursor": "",
@@ -65,44 +65,46 @@
       "last_result_count": 1
     },
     "viscose fabric flame retardant LOI TGA": {
-      "cursor": "IlsxMTYuNjI4NzQ2LCAxNjc0MjU5MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTc2NjYyMjYnXSI=",
-      "pages_scanned": 1,
-      "complete": false,
-      "last_result_count": 20
-    },
-    "lyocell fabric flame retardant LOI TGA": {
-      "cursor": "IlsxMC44OTg4MDQsIDE3NzQzOTY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE0MDIyNDc0NiddIg==",
+      "cursor": "IlsxNi43NzQ5ODYsIDEzODg1MzQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEzOTI3MDE3NSddIg==",
       "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
+    },
+    "lyocell fabric flame retardant LOI TGA": {
+      "cursor": "",
+      "pages_scanned": 3,
+      "complete": true,
+      "last_result_count": 9
     },
     "wool fabric flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
-    },
-    "silk fabric flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
-    },
-    "polyacrylonitrile PAN fabric flame retardant LOI TGA": {
-      "cursor": "IlsxMjAuMjUzOCwgMTYzNTg5NzYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMjExMDUyMjAyJ10i",
+      "cursor": "IlsxMzEuMTkwMzQsIDE3MzUwODQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNTgyMjkzNCddIg==",
       "pages_scanned": 1,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
+    },
+    "silk fabric flame retardant LOI thermogravimetric": {
+      "cursor": "IlsxMTEuNTcwMTQ1LCAxNjU1MzM3NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODMwMTU1ODcnXSI=",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 40
+    },
+    "polyacrylonitrile PAN fabric flame retardant LOI TGA": {
+      "cursor": "IlsxNS42NTU4ODQsIDEzNzc4MjA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjUzMDgzNjU3MSddIg==",
+      "pages_scanned": 2,
+      "complete": false,
+      "last_result_count": 40
     },
     "polypropylene nonwoven flame retardant LOI TGA": {
-      "cursor": "Ils3Ni45Mjc4OCwgMTc2MTQzNjgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE1NTY5MzA2J10i",
-      "pages_scanned": 1,
+      "cursor": "IlsyMS43NzYwMzEsIDE3MDMwMzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4OTk5MjEwOCddIg==",
+      "pages_scanned": 2,
       "complete": false,
       "last_result_count": 40
     },
     "aramid protective textile LOI thermogravimetric": {
-      "cursor": "IlsyLjg4MTIxODIsIDE3MDQ5MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MDc0OTg2OSddIg==",
-      "pages_scanned": 2,
-      "complete": false,
-      "last_result_count": 40
+      "cursor": "",
+      "pages_scanned": 3,
+      "complete": true,
+      "last_result_count": 11
     },
     "Nomex fabric LOI thermogravimetric": {
       "cursor": "",
