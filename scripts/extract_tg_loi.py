@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import hashlib, io, json, re
+import hashlib, io, json, os, re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -198,8 +198,9 @@ def merge(path,new,keys):
 def main():
     if not CAND.exists():print('No candidate queue.');return
     cands=pd.read_csv(CAND,dtype=str).fillna(''); cands['_score']=pd.to_numeric(cands.get('candidate_score',0),errors='coerce').fillna(0); cands=cands.sort_values('_score',ascending=False)
-    st=load_state(); st.setdefault('processed',{}); mk,mnk=master_keys(); extracted=[]; promoted=[]; examined=0
+    st=load_state(); st.setdefault('processed',{}); mk,mnk=master_keys(); extracted=[]; promoted=[]; examined=0; limit=int(os.getenv('AUTO_MAX_CANDIDATES','25'))
     for _,c in cands.iterrows():
+        if examined>=limit: break
         d=doi(c.get('DOI')); f=fp(c)
         if not d or st['processed'].get(d,{}).get('fingerprint')==f:continue
         examined+=1; full,tabs,url=source(c); mat,form=material_labels(c.get('title',''),full)
