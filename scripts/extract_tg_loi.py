@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automation'; INC=DATA/'incoming'
 CAND=AUTO/'candidate_extractions.csv'; EXT=AUTO/'auto_extracted.csv'; REVIEW=AUTO/'review_queue.csv'; STATE=AUTO/'auto_extract_state.json'; MASTER=DATA/'tg_loi_master.csv'
 AUTO.mkdir(parents=True,exist_ok=True); INC.mkdir(parents=True,exist_ok=True)
-HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
+EXTRACTOR_VERSION='2'; HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
 ALLOWED={'pmc.ncbi.nlm.nih.gov','europepmc.org','www.europepmc.org','www.mdpi.com','mdpi.com','pubs.rsc.org','www.frontiersin.org','link.springer.com','journals.sagepub.com','www.hindawi.com','onlinelibrary.wiley.com'}
 NUM=re.compile(r'[-+]?\d+(?:\.\d+)?'); RANGE=re.compile(r'\d+(?:\.\d+)?\s*(?:-|–|—|to)\s*\d+(?:\.\d+)?',re.I); UNC=re.compile(r'(\d+(?:\.\d+)?)\s*(?:±|\+/-)\s*(\d+(?:\.\d+)?)')
 RATE1=re.compile(r'(?:heating\s*rate|heated[^.;\n]{0,80}?at|heating\s+at|rate\s+of)[^.;\n]{0,80}?(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
@@ -44,9 +44,13 @@ def sample_col(df,exclude):
         if best is None or score>best[0]: best=(score,c)
     return best[1] if best else None
 def tga_snips(text):
-    out=[]
-    for m in re.finditer(r'\b(?:TGA|TG/DTG|thermogravimetric|thermogravimetry)\b',text,re.I): out.append(text[max(0,m.start()-500):m.end()+500])
-    return ' '.join(out[:12])
+    scored=[]
+    for m in re.finditer(r'\b(?:TGA|TG/DTG|thermogravimetric(?: analysis)?|thermogravimetry)\b',text,re.I):
+        z=text[max(0,m.start()-180):min(len(text),m.end()+700)]
+        score=3*bool(re.search(r'heating\s*rate|heated\s+from|°\s*C\s*/\s*min|℃\s*/\s*min',z,re.I))+2*bool(re.search(r'flow\s*rate|mL\s*/\s*min',z,re.I))+bool(re.search(r'nitrogen|\bair\b|argon',z,re.I))
+        scored.append((score,z))
+    scored.sort(key=lambda x:x[0],reverse=True)
+    return scored[0][1] if scored else ''
 def atmos(text): return list(dict.fromkeys(n for n,p in ATM if p.search(text)))
 def infer_atm(full,context,header=''):
     for p in [header,context]:
@@ -126,6 +130,9 @@ def loi_rows(tables):
 def tg_rows(full,tables):
     out=[]
     for ctx,df in tables:
+        signature=(ctx+' '+' '.join(map(str,df.columns)))
+        if not re.search(r'thermograv|\bTGA\b|TG/DTG|thermal (?:decomposition|degradation)|residu(?:e|al)|char yield',signature,re.I): continue
+        if re.search(r'UL[- ]?94|flame spread|afterflame|afterglow',signature,re.I) and not re.search(r'thermograv|\bTGA\b|TG/DTG',signature,re.I): continue
         cols=[(c,tgfield(c)) for c in df.columns]; cols=[x for x in cols if x[1]]
         if not cols:continue
         sc=sample_col(df,{c for c,_ in cols})
@@ -148,7 +155,7 @@ def load_state():
     try:return json.loads(STATE.read_text()) if STATE.exists() else {'version':1,'processed':{}}
     except:return {'version':1,'processed':{}}
 def fp(r):
-    cols=['DOI','fulltext_url','candidate_score','status','LOI_numeric_evidence','TG_numeric_evidence','table_candidates','supplementary_links']; return hashlib.sha256('|'.join(str(r.get(c,'') or '') for c in cols).encode()).hexdigest()[:20]
+    cols=['DOI','fulltext_url','candidate_score','status','LOI_numeric_evidence','TG_numeric_evidence','table_candidates','supplementary_links']; return hashlib.sha256((EXTRACTOR_VERSION+'|'+'|'.join(str(r.get(c,'') or '') for c in cols)).encode()).hexdigest()[:20]
 def rate_s(r):
     if r is None:return ''
     try:return str(float(r))
@@ -209,8 +216,9 @@ def main():
         L=loi_rows(tabs); T=tg_rows(full,tabs); anypair=False; grades=[]
         for l in L:
             for t in [x for x in T if x['sample_norm'] and x['sample_norm']==l['sample_norm']]:
-                anypair=True; a=str(t.get('atmosphere','') or '').strip(); r=t.get('heating_rate_C_min'); nums={k:v for k,v in t.items() if (k.endswith('_C') or k.startswith('R')) and isinstance(v,(int,float))}; g='A' if a and r is not None and nums else 'B'; grades.append(g)
-                rec={'DOI':d,'title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'sample_state':l['sample_state'],'sample_norm':l['sample_norm'],'LOI_pct':l['LOI_pct'],'LOI_uncertainty_pct':l.get('LOI_uncertainty_pct'),'atmosphere':a,'heating_rate_C_min':r,**nums,'grade':g,'reason':'Exact normalized sample-state match; exact LOI; structured TG numeric fields; complete TGA conditions.' if g=='A' else 'Exact numeric pairing found, but TGA atmosphere or heating rate is ambiguous/missing.','source_url':url or c.get('fulltext_url','') or c.get('oa_url',''),'source_location':f"LOI table: {l['ctx']}; TG table: {t['ctx']}",'evidence':'Automatically extracted from structured open-full-text tables; sample states matched exactly after conservative normalization.','direct_numeric_use':'TG+LOI' if g=='A' else 'review','candidate_fingerprint':f,'extracted_at_utc':datetime.now(timezone.utc).isoformat()}; rec['pair_key']=pairkey(d,rec['sample_state'],a,r); extracted.append(rec)
+                anypair=True; a=str(t.get('atmosphere','') or '').strip(); r=t.get('heating_rate_C_min'); nums={k:v for k,v in t.items() if (k.endswith('_C') or k.startswith('R')) and isinstance(v,(int,float))}; nontext=bool(re.search(r'plaque|film|resin|composite|paper',str(l.get('ctx',''))+' '+str(t.get('ctx','')),re.I))
+                g='A' if a and r is not None and nums and mat and form and not nontext else 'B'; grades.append(g)
+                rec={'DOI':d,'title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'sample_state':l['sample_state'],'sample_norm':l['sample_norm'],'LOI_pct':l['LOI_pct'],'LOI_uncertainty_pct':l.get('LOI_uncertainty_pct'),'atmosphere':a,'heating_rate_C_min':r,**nums,'grade':g,'reason':'Exact textile sample-state match; exact LOI; structured TG numeric fields; complete TGA conditions.' if g=='A' else 'Numeric pairing found, but a TGA condition or textile-form criterion is ambiguous/missing.','source_url':url or c.get('fulltext_url','') or c.get('oa_url',''),'source_location':f"LOI table: {l['ctx']}; TG table: {t['ctx']}",'evidence':'Automatically extracted from structured open-full-text tables; sample states matched exactly after conservative normalization.','direct_numeric_use':'TG+LOI' if g=='A' else 'review','candidate_fingerprint':f,'extracted_at_utc':datetime.now(timezone.utc).isoformat()}; rec['pair_key']=pairkey(d,rec['sample_state'],a,r); extracted.append(rec)
                 if g=='A' and rec['pair_key'] not in mk and norm_pairkey(d,rec['sample_state'],a,r) not in mnk:
                     promoted.append({'batch_id':'AUTO-'+datetime.now(timezone.utc).strftime('%Y%m%d'),'dataset_type':'literature','material_category':mat,'material_form':form,'sample_state':rec['sample_state'],'atmosphere':a,'heating_rate_C_min':r,'LOI_pct':rec['LOI_pct'],'LOI_uncertainty_pct':rec.get('LOI_uncertainty_pct'),**nums,'direct_numeric_use':'TG+LOI','evidence':rec['evidence'],'source_title':c.get('title',''),'year':c.get('year',''),'journal':c.get('journal',''),'DOI':d,'source_url':rec['source_url'],'source_location':rec['source_location'],'limitations':'Automatically promoted only because exact table-level sample matching and complete TGA conditions satisfied conservative Grade-A rules.'}); mk.add(rec['pair_key']); mnk.add(norm_pairkey(d,rec['sample_state'],a,r))
         if not anypair:
