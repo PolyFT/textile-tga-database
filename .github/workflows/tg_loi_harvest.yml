@@ -58,6 +58,8 @@ jobs:
         run: python scripts/harvest_tg_loi.py --max-new "$MAX_NEW" --per-query 40 --queries-per-run "$QUERIES_PER_RUN" --max-pages-per-query 100
 
       - name: Extract sample-level pairs and promote Grade A
+        env:
+          AUTO_MAX_CANDIDATES: "25"
         run: python scripts/extract_tg_loi.py
 
       - name: Rebuild strict paired master
