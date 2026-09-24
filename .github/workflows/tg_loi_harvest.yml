@@ -81,3 +81,4 @@ jobs:
           fi
           git commit -m "bot: closed-loop TG-LOI harvest, extraction and promotion"
           git push origin main
+# manual-trigger-seq: 1
