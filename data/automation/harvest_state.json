@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 19,
+  "runs": 20,
   "cycle": 1,
-  "next_query_index": 24,
+  "next_query_index": 0,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlsyNTcuMTI1OTUsIDE1ODA3NzQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAwNTE3NDA1OCddIg==",
@@ -147,16 +147,16 @@
       "last_result_count": 40
     },
     "upholstery textile flame retardant LOI TGA": {
-      "cursor": "Ils3Ny4wMzczMiwgMTcwMzAzMDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg5OTkyMTA4J10i",
-      "pages_scanned": 1,
+      "cursor": "IlsxMS43ODE3MDEsIDE0MDExNDg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjI4MTAxOTQzMiddIg==",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "automotive textile flame retardant LOI TGA": {
-      "cursor": "IlsyMDUuODA2MDksIDE3MjY0NDQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMjcxNTgzNyddIg==",
-      "pages_scanned": 1,
+      "cursor": "IlsxMDIuMDY0NSwgMTYzODkyMTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MjAwMzE0MTE4J10i",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "curtain textile flame retardant LOI thermogravimetric": {
       "cursor": "",
@@ -171,10 +171,10 @@
       "last_result_count": 1
     },
     "carpet textile flame retardant LOI TGA": {
-      "cursor": "IlsxMjIuNzAyMjgsIDE2MTMwODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzIxNjk1MjY0NSddIg==",
-      "pages_scanned": 1,
+      "cursor": "IlszLjM0NDAwOCwgMTYzNjA3MDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzk0MDI5MDIyJ10i",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "rail transit textile flame retardant LOI TGA": {
       "cursor": "",
@@ -183,33 +183,34 @@
       "last_result_count": 4
     },
     "aircraft interior textile flame retardant LOI TGA": {
-      "cursor": "Ils0Ni4yNDAyMDgsIDE2NDA5OTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIxMzE5Mzg3NyddIg==",
-      "pages_scanned": 1,
-      "complete": false,
+      "cursor": "",
+      "pages_scanned": 2,
+      "complete": true,
       "last_result_count": 20
     },
     "commercial fabric flame retardant LOI thermogravimetric": {
-      "cursor": "IlsyNzkuNTEyNDIsIDE1MjYyNTYwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjc5NjMzMzkwMCddIg==",
-      "pages_scanned": 1,
+      "cursor": "IlsxNzguNzEzOTMsIDE0Njk3NTA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjUwMjUwNjc2OCddIg==",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "layer by layer fabric flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsyODMuNDc1NzcsIDE0NzA3MDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjQ5MzE0MzU2MSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 40
     },
     "phytic acid fabric LOI TGA flame retardant": {
-      "cursor": "IlszMjcuNDQxMzUsIDE2Nzk5NjE2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2MTIxMzQ1NSddIg==",
-      "pages_scanned": 1,
+      "cursor": "IlsxODMuMzM4MjEsIDE0Njk3NTA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjUwMjUwNjc2OCddIg==",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     },
     "intumescent textile LOI TGA char residue": {
-      "cursor": "IlsxMTkuMDgwNTM2LCAxNjQwOTk1MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDgxNzg5NTQnXSI=",
-      "pages_scanned": 1,
+      "cursor": "Ils2NS4wNzI3NCwgMTY3NzcxNTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzIzMDQzMjk4J10i",
+      "pages_scanned": 2,
       "complete": false,
-      "last_result_count": 20
+      "last_result_count": 40
     }
   }
 }
