@@ -57,13 +57,16 @@ def get_text(d, source_url=''):
 
 def tg_windows(text):
     out=[]
-    for m in re.finditer(r'\b(?:TGA|TG/DTG|thermogravimetric(?: analysis)?|thermogravimetry)\b',text,re.I):
-        z=text[m.start():min(len(text),m.end()+850)]
-        # Method-like windows outrank discussion-only windows.
+    boundary=re.compile(r'\\b(?:differential scanning calorimetry|DSC|X[- ]?ray|XRD|Fourier transform|FTIR|scanning electron|SEM|limiting oxygen|LOI|vertical burning|cone calorim|microscale combustion|MCC)\\b',re.I)
+    for m in re.finditer(r'\\b(?:TGA|TG/DTG|thermogravimetric(?: analysis)?|thermogravimetry)\\b',text,re.I):
+        z=text[m.start():min(len(text),m.end()+900)]
+        bm=boundary.search(z, max(25, m.end()-m.start()+5))
+        if bm:
+            z=z[:bm.start()]
         score=0
-        if re.search(r'heating\s*rate|°\s*C\s*/\s*min|℃\s*/\s*min|K\s*/\s*min',z,re.I): score+=4
-        if re.search(r'nitrogen|\bair\b|argon|oxygen',z,re.I): score+=2
-        if re.search(r'flow\s*rate|mL\s*/\s*min|from\s+\d+\s*(?:°C|℃).*to\s+\d+',z,re.I): score+=2
+        if re.search(r'heating\\s*rate|°\\s*C|℃|K\\s*(?:/|per|[·⋅]?\\s*min)',z,re.I): score+=4
+        if re.search(r'nitrogen|\\bair\\b|argon|oxygen',z,re.I): score+=2
+        if re.search(r'flow\\s*rate|mL\\s*/\\s*min|from\\s+\\d+\\s*(?:°C|℃).*to\\s+\\d+',z,re.I): score+=2
         if re.search(r'instrument|analy[sz]er|NETZSCH|TA Instruments|Mettler|PerkinElmer|Shimadzu',z,re.I): score+=2
         if re.search(r'MCC|microscale combustion|UL[- ]?94|vertical burning',z,re.I): score-=4
         out.append((score,z))
