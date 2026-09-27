@@ -1,0 +1,67 @@
+name: TG-LOI 10-minute processing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/automation/candidate_extractions.csv"
+      - "scripts/extract_tg_loi.py"
+      - "scripts/review_b_tg_loi.py"
+      - "scripts/validate_tg_loi.py"
+      - ".github/workflows/tg_loi_process.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tg-loi-master-write
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Fast-forward to latest main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Extract sample-level pairs and promote Grade A
+        env:
+          AUTO_MAX_CANDIDATES: "25"
+        run: python scripts/extract_tg_loi.py
+      - name: Second-pass review of Grade B
+        env:
+          B_REVIEW_MAX_DOIS: "30"
+        run: python scripts/review_b_tg_loi.py
+      - name: Rebuild strict paired master
+        run: python scripts/validate_tg_loi.py
+      - name: Commit processing outputs
+        run: |
+          git config user.name "tg-loi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/automation data/incoming data/tg_loi_master.csv
+          if git diff --cached --quiet; then
+            echo "No processing changes"
+            exit 0
+          fi
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Remote main advanced; skip stale processing commit. Next run will recompute."
+            exit 0
+          fi
+          git commit -m "bot: process TG-LOI candidates and Grade-B review"
+          git push origin main
