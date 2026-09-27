@@ -77,7 +77,7 @@ Additional candidate queues contain PA6/PA66/PET/viscose/lyocell/cuprammonium/Ny
 
 The repository now runs a conservative end-to-end TG-LOI pipeline automatically.
 
-Schedule: `TG-LOI closed-loop harvest` runs hourly at minute 17 (UTC). Each cycle advances 8 stateful OpenAlex query pages, collects up to 200 new reviewable literature candidates, and performs full-text/sample-level extraction on at most 25 previously unprocessed candidates.
+Scheduling is split to avoid search-API throttling. `TG-LOI literature discovery` runs hourly at minute 17 (UTC) and advances stateful OpenAlex pages. `TG-LOI 10-minute processing` runs every 10 minutes to consume the existing candidate queue, perform sample-level extraction, run Grade-B second-pass review, and rebuild the strict master table.
 
 Data flow:
 
@@ -109,5 +109,5 @@ Grade B retains useful numerical pairings with incomplete/ambiguous conditions. 
 
 The workflow fast-forwards to the current `main` branch before processing and skips stale commits if `main` advances during a run. This prevents automated state files and master-table rebuilds from creating merge/rebase conflicts.
 
-Current strict paired count: **183** (validation report: 2026-09-24; target 2000).
+Current strict paired count: **194** (validation report: 2026-09-27; target 2000).
 
