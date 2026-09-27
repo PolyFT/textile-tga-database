@@ -7,6 +7,7 @@ on:
       - ".github/workflows/tg_loi_harvest.yml"
       - "scripts/harvest_tg_loi.py"
       - "scripts/extract_tg_loi.py"
+      - "scripts/review_b_tg_loi.py"
       - "scripts/validate_tg_loi.py"
       - "requirements.txt"
   workflow_dispatch:
@@ -61,6 +62,11 @@ jobs:
         env:
           AUTO_MAX_CANDIDATES: "25"
         run: python scripts/extract_tg_loi.py
+
+      - name: Second-pass review of Grade B
+        env:
+          B_REVIEW_MAX_DOIS: "30"
+        run: python scripts/review_b_tg_loi.py
 
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
