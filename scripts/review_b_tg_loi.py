@@ -30,8 +30,8 @@ def rate_s(v):
     try:return str(float(v))
     except:return str(v or '').strip()
 
-def norm_key(d,s,a,r):
-    return f'{doi(d)}||{ns(s)}||{str(a or "").strip().lower()}||{rate_s(r)}'
+def norm_key(d,s,w,a,r):
+    return f'{doi(d)}||{ns(s)}||{str(w or "").strip().lower()}||{str(a or "").strip().lower()}||{rate_s(r)}'
 
 def get_text(d, source_url=''):
     # Prefer Europe PMC XML by DOI for stable article text.
@@ -111,10 +111,12 @@ def infer_atm(row,text,method_window):
     return '',''
 
 def material_labels(title,text=''):
-    x=(str(title or '')+' '+str(text or '')[:5000]).lower()
+    tx=str(title or '').lower()
+    bx=str(text or '')[:5000].lower()
+    x=tx+' '+bx
     if re.search(r'nylon\s*[/–-]\s*cotton|cotton\s*[/–-]\s*nylon|nyco',x): mat='nylon/cotton blend'
-    elif 'cotton' in x: mat='cotton'
-    elif re.search(r'polyester|\bpet\b|co-polyester|copolyester',x): mat='polyester'
+    elif 'cotton' in tx or ('cotton' in bx and re.search(r'fabric|textile|fiber|fibre|yarn',bx)): mat='cotton'
+    elif re.search(r'polyester|\bpet\b',x): mat='polyester'
     elif re.search(r'polyamide|\bpa6\b|\bpa66\b|nylon',x): mat='polyamide/nylon'
     elif 'lyocell' in x: mat='lyocell'
     elif 'viscose' in x: mat='viscose'
@@ -124,23 +126,15 @@ def material_labels(title,text=''):
     elif re.search(r'polypropylene|\bpp\b',x): mat='polypropylene'
     elif re.search(r'polyacrylonitrile|\bpan\b',x): mat='polyacrylonitrile'
     else: mat=''
-    if 'nonwoven' in x: form='nonwoven'
-    elif re.search(r'knitted|\bknit\b',x): form='knitted fabric'
-    elif 'woven' in x: form='woven fabric'
-    elif re.search(r'fabric|textile',x): form='fabric'
-    elif re.search(r'fibres|fibers|fibre|fiber',x): form='fiber'
-    elif 'yarn' in x: form='yarn'
+    if 'nonwoven' in tx: form='nonwoven'
+    elif re.search(r'knitted|\bknit\b',tx): form='knitted fabric'
+    elif 'woven' in tx: form='woven fabric'
+    elif re.search(r'fabric|textile',tx): form='fabric'
+    elif re.search(r'fibres|fibers|fibre|fiber',tx): form='fiber'
+    elif 'yarn' in tx: form='yarn'
+    elif ('cotton' in tx or 'lyocell' in tx or 'viscose' in tx or 'wool' in tx or 'silk' in tx or 'aramid' in tx) and re.search(r'fabric|textile|fiber|fibre|yarn',bx): form='fabric'
     else: form=''
     return mat,form
-
-def valid_textile(row):
-    title=str(row.get('title','') or '')
-    loc=str(row.get('source_location','') or '')
-    probe=(title+' '+loc).lower()
-    # reject known non-textile test-piece states
-    if re.search(r'\b(plaque|film|resin|paper|composite)\b',loc,re.I): return False
-    return bool(re.search(r'fabric|textile|fiber|fibre|yarn|cotton|polyester|\bpet\b|nylon|polyamide|lyocell|viscose|wool|silk|aramid',probe,re.I))
-
 def numeric_tg(row):
     out={}
     for c in TG_COLS:
@@ -157,14 +151,18 @@ def main():
     if not REVIEW.exists(): print('No review queue.'); return
     b=pd.read_csv(REVIEW,dtype=str).fillna('')
     b=b[b.get('grade','').eq('B')].copy()
+    if 'extractor_version' in b.columns:
+        b=b[b['extractor_version'].astype(str).eq('5')].copy()
+    else:
+        b=b.iloc[0:0].copy()
     if b.empty: print('No Grade-B rows.'); return
     # keep the newest version of each evidence row; old extractor versions remain in audit files
     b['_ts']=pd.to_datetime(b.get('extracted_at_utc',''),errors='coerce')
-    b=b.sort_values('_ts').drop_duplicates(subset=['DOI','sample_norm','LOI_pct','source_location'],keep='last')
+    b=b.sort_values('_ts').drop_duplicates(subset=['DOI','sample_norm','washing_state','LOI_pct','source_location'],keep='last')
     master=pd.read_csv(MASTER,dtype=str).fillna('') if MASTER.exists() else pd.DataFrame()
     known=set()
     for _,r in master.iterrows():
-        known.add(norm_key(r.get('DOI',''),r.get('sample_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')))
+        known.add(norm_key(r.get('DOI',''),r.get('sample_state',''),r.get('washing_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')))
     limit=int(os.getenv('B_REVIEW_MAX_DOIS','30'))
     promoted=[]; audit=[]; debug=[]; seen_doi=0
     for d,g in b.groupby(b['DOI'].map(doi),sort=False):
@@ -195,7 +193,7 @@ def main():
                 atm,atm_src=infer_atm(row,text,win)
                 if not atm: reason='Unresolved: TGA atmosphere not uniquely tied to this table/state.'
                 else:
-                    k=norm_key(d,row.get('sample_state',''),atm,use_rate)
+                    k=norm_key(d,row.get('sample_state',''),row.get('washing_state',''),atm,use_rate)
                     if k in known: reason='Duplicate of an existing strict master pair.'
                     else:
                         mat,form=material_labels(row.get('title',''),text)
@@ -204,7 +202,7 @@ def main():
                             promoted.append({
                                 'batch_id':'BREVIEW-'+datetime.now(timezone.utc).strftime('%Y%m%d'),
                                 'dataset_type':'literature','material_category':mat,'material_form':form,
-                                'sample_state':row.get('sample_state',''),'atmosphere':atm,
+                                'sample_state':row.get('sample_state',''),'washing_state':row.get('washing_state',''),'LOI_state':row.get('washing_state','') or 'as prepared','atmosphere':atm,
                                 'heating_rate_C_min':use_rate,'LOI_pct':row.get('LOI_pct',''),
                                 'LOI_uncertainty_pct':row.get('LOI_uncertainty_pct',''),**nums,
                                 'direct_numeric_use':'TG+LOI',
@@ -225,7 +223,7 @@ def main():
         if out.exists():
             old=pd.read_csv(out,dtype=str).fillna('')
             new=pd.concat([old,new],ignore_index=True,sort=False)
-            new['_k']=new.apply(lambda r:norm_key(r.get('DOI',''),r.get('sample_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')),axis=1)
+            new['_k']=new.apply(lambda r:norm_key(r.get('DOI',''),r.get('sample_state',''),r.get('washing_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')),axis=1)
             new=new.drop_duplicates('_k',keep='last').drop(columns='_k')
         new.to_csv(out,index=False)
         print(f'B-review promoted {len(promoted)} rows; output={out.relative_to(ROOT)} rows={len(new)}')
