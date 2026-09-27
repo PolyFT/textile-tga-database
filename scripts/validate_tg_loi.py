@@ -69,10 +69,11 @@ def main():
         if col in df:
             tg_present |= num(df[col]).notna()
 
+    sample_all = df.get("sample_state", pd.Series("", index=df.index)).fillna("").astype(str).str.strip()
     atm = df.get("atmosphere", pd.Series("", index=df.index)).fillna("").astype(str).str.strip()
     rate = num(df.get("heating_rate_C_min", pd.Series(index=df.index, dtype=float)))
 
-    strict = loi.notna() & tg_present & atm.ne("") & rate.notna()
+    strict = loi.notna() & tg_present & sample_all.ne("") & atm.ne("") & rate.notna()
     if "direct_numeric_use" in df:
         tag = df["direct_numeric_use"].fillna("").astype(str).str.lower()
         strict &= ~tag.str.contains("tg-only|否|no", regex=True)
@@ -80,10 +81,11 @@ def main():
     master = df.loc[strict].copy()
     doi = master.get("DOI", pd.Series("", index=master.index)).fillna("").astype(str).str.lower().str.strip()
     sample = master.get("sample_state", pd.Series("", index=master.index)).fillna("").astype(str).str.strip()
+    washing = master.get("washing_state", pd.Series("", index=master.index)).fillna("").astype(str).str.strip()
     atmosphere = master.get("atmosphere", pd.Series("", index=master.index)).fillna("").astype(str).str.strip()
     heating = master.get("heating_rate_C_min", pd.Series("", index=master.index)).fillna("").astype(str).str.strip()
     master["pair_quality"] = "A"
-    master["pair_key"] = doi + "||" + sample + "||" + atmosphere + "||" + heating
+    master["pair_key"] = doi + "||" + sample + "||" + washing + "||" + atmosphere + "||" + heating
     master = master.drop_duplicates(subset=["pair_key"], keep="first")
     master.to_csv(MASTER, index=False)
 
