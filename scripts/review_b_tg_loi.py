@@ -97,8 +97,8 @@ def infer_atm(row,text,method_window):
     if len(u)==1:return u[0],'TGA method windows'
     return '',''
 
-def material_labels(title):
-    x=str(title or '').lower()
+def material_labels(title,text=''):
+    x=(str(title or '')+' '+str(text or '')[:5000]).lower()
     if re.search(r'nylon\s*[/–-]\s*cotton|cotton\s*[/–-]\s*nylon|nyco',x): mat='nylon/cotton blend'
     elif 'cotton' in x: mat='cotton'
     elif re.search(r'polyester|\bpet\b|co-polyester|copolyester',x): mat='polyester'
@@ -176,7 +176,7 @@ def main():
                     k=norm_key(d,row.get('sample_state',''),atm,use_rate)
                     if k in known: reason='Duplicate of an existing strict master pair.'
                     else:
-                        mat,form=material_labels(row.get('title',''))
+                        mat,form=material_labels(row.get('title',''),text)
                         if not mat or not form: reason='Unresolved: material category/form is not safely inferred from title.'
                         else:
                             promoted.append({
