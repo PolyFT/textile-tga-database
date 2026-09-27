@@ -132,7 +132,7 @@ def openalex_search(term: str, per_page: int = 50, cursor: str = "*") -> tuple[l
         "select": "id,doi,title,publication_year,primary_location,best_oa_location,open_access,abstract_inverted_index",
     }
     last = None
-    for attempt in range(5):
+    for attempt in range(3):
         r = requests.get("https://api.openalex.org/works", params=params, headers=HEADERS, timeout=30)
         last = r
         if r.status_code != 429:
@@ -141,10 +141,10 @@ def openalex_search(term: str, per_page: int = 50, cursor: str = "*") -> tuple[l
             return payload.get("results", []), (payload.get("meta") or {}).get("next_cursor")
         retry_after = r.headers.get("Retry-After")
         try:
-            delay = float(retry_after) if retry_after else min(2 ** attempt, 12)
+            delay = float(retry_after) if retry_after else min(2 ** attempt, 4)
         except Exception:
             delay = min(2 ** attempt, 12)
-        print(f"OpenAlex 429 for {term}; retrying in {delay:.1f}s (attempt {attempt+1}/5)")
+        print(f"OpenAlex 429 for {term}; retrying in {delay:.1f}s (attempt {attempt+1}/3)")
         time.sleep(delay)
     if last is not None:
         last.raise_for_status()
@@ -381,6 +381,7 @@ def main() -> None:
 
         processed += 1
         save_state(state)
+        time.sleep(0.8)  # polite pacing between OpenAlex pages
 
         for w in works:
             doi = norm_doi(w.get("doi"))
