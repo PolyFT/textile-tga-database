@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automatio
 REVIEW=AUTO/'review_queue.csv'; MASTER=DATA/'tg_loi_master.csv'
 HEAD={'User-Agent':'textile-tga-database/1.2 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
 RATE=re.compile(r'(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
+RATE_BARE=re.compile(r'(?:heating\\s*rate|rate\\s+of)[^0-9]{0,40}(\\d+(?:\\.\\d+)?)',re.I)
 RATE_CTX=re.compile(r'(?:heating\s*rate|heated[^.;\n]{0,100}?at|rate\s+of)[^.;\n]{0,100}?(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
 ATM=[('N2',re.compile(r'\b(?:nitrogen|N\s*2|N₂)\b',re.I)),('air',re.compile(r'\b(?:air|oxidative atmosphere)\b',re.I)),('argon',re.compile(r'\b(?:argon|Ar)\b',re.I)),('O2',re.compile(r'\b(?:oxygen|O\s*2|O₂)\b',re.I))]
 TG_COLS=['T1_C','T5_C','T10_C','T20_C','T40_C','T50_C','Tonset_C','Tmax1_C','Tmax2_C','Tmax3_C','R400_pct','R500_pct','R550_pct','R600_pct','R650_pct','R700_pct','R800_pct','residue_pct','residue_at_Tmax_pct','residue_at_Tmax1_pct','residue_at_Tmax2_pct','residue_at_Tmax3_pct']
@@ -78,6 +79,7 @@ def infer_rate(text):
         if score<4: continue
         vals={float(x) for x in RATE_CTX.findall(z)}
         if not vals: vals={float(x) for x in RATE.findall(z)}
+        if not vals: vals={float(x) for x in RATE_BARE.findall(z)}
         if len(vals)==1:return next(iter(vals)),z
     return None,''
 
