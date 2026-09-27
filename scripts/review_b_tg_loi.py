@@ -54,6 +54,14 @@ def get_text(d, source_url=''):
             if r.ok and 'html' in r.headers.get('content-type','').lower():
                 return BeautifulSoup(r.text,'lxml').get_text(' ',strip=True),u
     except Exception: pass
+    # Final fallback: resolve DOI to the publisher OA page and parse the redirected HTML.
+    try:
+        r=requests.get(f'https://doi.org/{d}',headers=HEAD,timeout=35,allow_redirects=True)
+        final_host=urlparse(r.url).netloc.lower()
+        allowed={'pubs.rsc.org','www.mdpi.com','mdpi.com','www.frontiersin.org','link.springer.com','journals.sagepub.com','onlinelibrary.wiley.com','pmc.ncbi.nlm.nih.gov'}
+        if r.ok and final_host in allowed and 'html' in r.headers.get('content-type','').lower():
+            return BeautifulSoup(r.text,'lxml').get_text(' ',strip=True),r.url
+    except Exception: pass
     return '',''
 
 def tg_windows(text):
