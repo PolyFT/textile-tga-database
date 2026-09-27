@@ -158,7 +158,7 @@ def main():
     for _,r in master.iterrows():
         known.add(norm_key(r.get('DOI',''),r.get('sample_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')))
     limit=int(os.getenv('B_REVIEW_MAX_DOIS','30'))
-    promoted=[]; audit=[]; seen_doi=0
+    promoted=[]; audit=[]; debug=[]; seen_doi=0
     for d,g in b.groupby(b['DOI'].map(doi),sort=False):
         if seen_doi>=limit:break
         if not d:continue
@@ -166,6 +166,15 @@ def main():
         first=g.iloc[0].to_dict()
         text,url=get_text(d,first.get('source_url',''))
         rate,win=infer_rate(text) if text else (None,'')
+        debug.append({
+            'DOI':d,
+            'resolved_rate':rate if rate is not None else '',
+            'rate_ctx_candidates':'|'.join(RATE_CTX.findall(win)) if win else '',
+            'rate_unit_candidates':'|'.join(RATE.findall(win)) if win else '',
+            'rate_bare_candidates':'|'.join(RATE_BARE.findall(win)) if win else '',
+            'method_window_excerpt':re.sub(r'\\s+',' ',win)[:900] if win else '',
+            'reviewed_at_utc':datetime.now(timezone.utc).isoformat()
+        })
         for _,rr in g.iterrows():
             row=rr.to_dict(); nums=numeric_tg(row)
             reason=''
@@ -201,6 +210,7 @@ def main():
                           'original_atmosphere':row.get('atmosphere',''),'original_heating_rate_C_min':row.get('heating_rate_C_min',''),
                           'review_result':reason,'reviewed_at_utc':datetime.now(timezone.utc).isoformat()})
     pd.DataFrame(audit).to_csv(AUTO/'b_review_audit.csv',index=False)
+    pd.DataFrame(debug).to_csv(AUTO/'b_review_method_debug.csv',index=False)
     if promoted:
         out=INC/f"verified_breview_{datetime.now(timezone.utc).strftime('%Y%m%d')}.csv"
         new=pd.DataFrame(promoted)
