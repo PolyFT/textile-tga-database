@@ -24,7 +24,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tg-loi-discovery
+  group: tg-loi-all-writes-v3
   cancel-in-progress: false
 
 jobs:
