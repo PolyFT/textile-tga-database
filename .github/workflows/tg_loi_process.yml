@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tg-loi-master-write
+  group: tg-loi-processing-v2
   cancel-in-progress: false
 
 jobs:
