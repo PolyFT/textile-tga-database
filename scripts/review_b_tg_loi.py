@@ -110,6 +110,15 @@ def infer_atm(row,text,method_window):
     if len(u)==1:return u[0],'TGA method windows'
     return '',''
 
+def valid_textile(row):
+    title=str(row.get('title','') or '')
+    loc=str(row.get('source_location','') or '')
+    tx=title.lower(); probe=(title+' '+loc).lower()
+    if re.search(r'\\b(plaque|film|resin|paper)\\b',loc,re.I): return False
+    if re.search(r'polyester|\\bpet\\b|polyamide|\\bpa6\\b|\\bpa66\\b|nylon|polypropylene|\\bpp\\b',probe,re.I):
+        return bool(re.search(r'fabric|textile|fiber|fibre|yarn|woven|knit|nonwoven',tx+' '+loc.lower(),re.I))
+    return bool(re.search(r'fabric|textile|fiber|fibre|yarn|woven|knit|nonwoven|cotton|lyocell|viscose|wool|silk|aramid',probe,re.I))
+
 def material_labels(title,text=''):
     tx=str(title or '').lower()
     bx=str(text or '')[:5000].lower()
