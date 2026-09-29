@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 53,
+  "runs": 54,
   "cycle": 2,
-  "next_query_index": 12,
+  "next_query_index": 20,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "*",
@@ -76,29 +76,34 @@
       "complete": false
     },
     "silk fabric flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxNDYuOTg3OTksIDE2MzI5NjAwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzIwNTMzMDQ4MCddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "polyacrylonitrile PAN fabric flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMDAuMTMyMDMsIDE3MTI3MDcyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NDY5MzU0MSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "polypropylene nonwoven flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMDEuMjg0NTQ2LCAxNjI3MzQ0MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxODM1MjA4MzknXSI=",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "aramid protective textile LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsyNy44MjgyMywgMTcyODUxODQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDAzMjk5ODAxJ10i",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "Nomex fabric LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils1Ljg4ODgxODcsIDEyNjIzMDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNzI0MTY5Mjc5J10i",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "Kevlar aramid fabric LOI TGA flame retardant": {
       "cursor": "*",
@@ -106,9 +111,10 @@
       "complete": false
     },
     "PBI protective fabric LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 13
     },
     "modacrylic fabric limiting oxygen index thermogravimetric": {
       "cursor": "*",
