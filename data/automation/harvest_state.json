@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 52,
+  "runs": 53,
   "cycle": 2,
-  "next_query_index": 0,
+  "next_query_index": 12,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "*",
@@ -10,9 +10,10 @@
       "complete": false
     },
     "\"limiting oxygen index\" textile TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils1OC40MDQ4OTIsIDE3NTk5NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNTAxMDAzOSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "cotton fabric flame retardant LOI TGA": {
       "cursor": "*",
@@ -35,24 +36,28 @@
       "complete": false
     },
     "polyamide nylon fabric flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxNjguNjYyNywgMTY5ODE5MjAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg3OTQwMzc5J10i",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "PA6 fabric limiting oxygen index thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils0MC4yNjYyLCAxNjEzMDg4MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzI5NDkyNDUnXSI=",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "PA66 fabric limiting oxygen index TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsyMC4yMTIxMjgsIDE3NjQyMDE2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNjc4MDA0NyddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "nylon cotton Nyco flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 1
     },
     "viscose fabric flame retardant LOI TGA": {
       "cursor": "*",
@@ -60,9 +65,10 @@
       "complete": false
     },
     "lyocell fabric flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlszMi4zOTU2OTUsIDE3MzA4NTEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNDExNTEyNCddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "wool fabric flame retardant LOI thermogravimetric": {
       "cursor": "*",
