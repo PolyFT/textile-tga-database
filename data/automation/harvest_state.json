@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 54,
+  "runs": 55,
   "cycle": 2,
-  "next_query_index": 20,
+  "next_query_index": 26,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "*",
@@ -117,34 +117,40 @@
       "last_result_count": 13
     },
     "modacrylic fabric limiting oxygen index thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 26
     },
     "FR viscose protective clothing LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 22
     },
     "firefighter fabric LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils3Ljc4NjkzMTUsIDE3MjUxNDg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMjc0NjA5OCddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "protective clothing textile LOI TGA flame retardant": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxNTMuNzQ3NTMsIDE3Mzk5MjMyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNzc5ODQ3MSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "upholstery textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils1Ny42Nzk5MjQsIDE1OTI0Mzg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAzNjY4ODM1MyddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "automotive textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxNTcuODg3MzYsIDE2NDA5OTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI4Mjk2NzUxNCddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "curtain textile flame retardant LOI thermogravimetric": {
       "cursor": "*",
