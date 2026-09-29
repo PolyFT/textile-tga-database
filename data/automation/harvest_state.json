@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 55,
+  "runs": 56,
   "cycle": 2,
-  "next_query_index": 26,
+  "next_query_index": 32,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "*",
@@ -153,34 +153,40 @@
       "last_result_count": 30
     },
     "curtain textile flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 13
     },
     "mattress ticking textile flame retardant thermogravimetric LOI": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 1
     },
     "carpet textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "Ils1MS41NDA1NCwgMTcwMTM4ODgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg5MjUzNjc2J10i",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "rail transit textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "",
+      "pages_scanned": 1,
+      "complete": true,
+      "last_result_count": 4
     },
     "aircraft interior textile flame retardant LOI TGA": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsxMy4zNDkzNDgsIDE3Nzk5MjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MjY4ODE3MSddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "commercial fabric flame retardant LOI thermogravimetric": {
-      "cursor": "*",
-      "pages_scanned": 0,
-      "complete": false
+      "cursor": "IlsyMTguMTUyMDUsIDE0MDM3NDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjA1ODM3MjgyMiddIg==",
+      "pages_scanned": 1,
+      "complete": false,
+      "last_result_count": 30
     },
     "layer by layer fabric flame retardant LOI TGA": {
       "cursor": "*",
