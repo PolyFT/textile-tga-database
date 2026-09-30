@@ -1,0 +1,144 @@
+{
+  "batch": "b48",
+  "summary": {
+    "added_verified_unique_states": 22,
+    "added_verified_condition_records": 23,
+    "new_source_measurement_states": 21,
+    "existing_paired_states_evidence_upgraded": 1,
+    "wholly_new_DOI_measurement_states": 5,
+    "metadata_only_DOI_new_measurement_states": 16,
+    "reviewed_papers_added": 6
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_silk.csv",
+      "draft_sha256": "25b70b7786bd3a6442811ec1d6b39a5e1e2b6bd7a2e582dff916b26093ca3e43",
+      "published_input_sha256": "6f07f0e97741177c1fbfefb3a2ec1458abcbf7c749081fc5638ebde4cd840da3",
+      "conditions": 2,
+      "states": 1,
+      "DOI": "10.1016/j.arabjc.2023.105497",
+      "classification": "existing_paired_states_evidence_upgraded",
+      "accepted_source_draft_ids": [
+        "E20260930-B47-SILK-01",
+        "E20260930-B47-SILK-02"
+      ],
+      "accepted_measurement_fingerprints": [
+        "3948f86260f33e92d2804e06c67a07c524843738b9d89e015f536f6950c67010",
+        "805f945979062b1c7337ac3ca92e4e0c9f696e9d4a83672d33748c2de529dca2"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_carrageenan.csv",
+      "draft_sha256": "f043a7d359e3932de80de46cfb84d14e19f0d1d4f7d8ab3466e008bd1103655d",
+      "published_input_sha256": "10cb8cdb242077e966ffd31d7f05220efb26d5d2e7df5e15f3615b0c4c92d375",
+      "conditions": 3,
+      "states": 3,
+      "DOI": "10.1039/c7ra01076a",
+      "classification": "wholly_new_DOI_measurement_states",
+      "accepted_source_draft_ids": [
+        "E20260930-B47-CARRAGEENAN-01",
+        "E20260930-B47-CARRAGEENAN-02",
+        "E20260930-B47-CARRAGEENAN-03"
+      ],
+      "accepted_measurement_fingerprints": [
+        "ef0ae23de314e009c42ab48159cafbca2380f40ea0cee97f08638db7e2e28f58",
+        "66b98bd3139dc919110b5bbdeca97ed04df4ef66b7b2dd87c5a07ea130356df3",
+        "cec1f34f1d5ec2555824f74569c650ffa35a792056d4934286f960cdaaaa2531"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_lttfd000213.csv",
+      "draft_sha256": "aa8fda50d927040521eda94405b244b72bb7783847d6981acd4eaa9ba10df52f",
+      "published_input_sha256": "607f2c38243c11495dbdb54f17be6bf0ff55fe8ad7640be41af8888d644b66b5",
+      "conditions": 2,
+      "states": 2,
+      "DOI": "10.32474/LTTFD.2023.05.000213",
+      "classification": "wholly_new_DOI_measurement_states",
+      "accepted_source_draft_ids": [
+        "B47-CELL-LTTFD-1",
+        "B47-CELL-LTTFD-2"
+      ],
+      "accepted_measurement_fingerprints": [
+        "1b679af7de35805f075f18390911aec2135612678b283d3ddba016ff217d54b7",
+        "904b0c969883ee4a8181675702f45021bbbadc7ef5fc85272ee935a339c035a2"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_ajr163.csv",
+      "draft_sha256": "7968c4b825b0d9c79fd582b86f30e42d205139357ef4af0cf3d74374ce845cbc",
+      "published_input_sha256": "02441138c4e8e4485b7d390213b06454292c29a3b4c6a3d642b2b5b14d6595d4",
+      "conditions": 7,
+      "states": 7,
+      "DOI": "10.14504/ajr.1.6.3",
+      "classification": "metadata_only_DOI_new_measurement_states",
+      "accepted_source_draft_ids": [
+        "B47-CELL-AJR-1",
+        "B47-CELL-AJR-2",
+        "B47-CELL-AJR-3",
+        "B47-CELL-AJR-4",
+        "B47-CELL-AJR-5",
+        "B47-CELL-AJR-6",
+        "B47-CELL-AJR-7"
+      ],
+      "accepted_measurement_fingerprints": [
+        "3d5bc21e45271fbe25b9bb0a6c09a89ee543055f9f0653097761c6370b79e9f3",
+        "125a82b9c7c087511c6d267d39d703cc3ac65456bd0b982e1e858f45fda8b641",
+        "f10b1ed48daa88471f1ed298c3549b9a4fc295814f93caefd3103c7478e3260f",
+        "4aa4ea05396e92efb8533e4182f3b1159865343108a44ee7ff42153ea4fed993",
+        "16f63781c8bf328c88c9b7a3f46962d1f60ddc3016391cdb5af262be58e4b6b8",
+        "2f0acb32dba9d253fe046694e614400076127b62deb59ee01960e4b596b065bc",
+        "9a56c148211577a386a7653e467bdff13acb6f023a9d5df3577bb84ad2c9b208"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_acs_chas4c00050.csv",
+      "draft_sha256": "f9441ada01f96cae4bb9e7270de9249846099da3e15d0fee11289bcda7bddb4e",
+      "published_input_sha256": "ff65038bbbc954f934217dc9d789ef3e27147962e5b2e6efd696844190c991f5",
+      "conditions": 3,
+      "states": 3,
+      "DOI": "10.1021/acs.chas.4c00050",
+      "classification": "metadata_only_DOI_new_measurement_states",
+      "accepted_source_draft_ids": [
+        "B47-CELL-GCS-S2",
+        "B47-CELL-GCS-S3",
+        "B47-CELL-GCS-S4"
+      ],
+      "accepted_measurement_fingerprints": [
+        "9e38bf83cb6ba3b1405b1ca4c96d77686ce96dac212c77df2d49d69472bcafff",
+        "33ad367fc5934a77bceb160f9d3b167816e7af529e6f9abcdb5ebc3ae90bec5d",
+        "4462b7f97d248e2c946c10ec9dd0e07f0147834094faba1e679e795e6068b0ee"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b48_casein20200904.csv",
+      "draft_sha256": "d2775f7b3298d8a9c733a336ad165539b44194cbc2f203707f3d2bfc822cfbfc",
+      "published_input_sha256": "4031c04e44cd2b992e61148a4c3c29b94e6e171b0210e17babbf84df4885d9b0",
+      "conditions": 6,
+      "states": 6,
+      "DOI": "10.11648/j.ijmsa.20200904.11",
+      "classification": "metadata_only_DOI_new_measurement_states",
+      "accepted_source_draft_ids": [
+        "B47-CELL-CASEIN-1",
+        "B47-CELL-CASEIN-2",
+        "B47-CELL-CASEIN-3",
+        "B47-CELL-CASEIN-4",
+        "B47-CELL-CASEIN-5",
+        "B47-CELL-CASEIN-6"
+      ],
+      "accepted_measurement_fingerprints": [
+        "624338acd99ae01941decdf97567bd5485a0f3fda40f9e8d14bae3dcbea0c4ae",
+        "8cb9b0be9cc707c3c405217676532d9f95160f2e1864a816517a7f47472d3f35",
+        "c149fee4451e1e38c5466ad0ed048a26f4f54ff3535388d0d04476bc31612726",
+        "952d5dd7504e11e31ba0f021d979f11eb6156f5e931666974e5aa0c00433abb8",
+        "68dbbccd61a5930936e976661b399108a1a5119645955ab99ab238fc7b33ade2",
+        "2bd32113d2177112df3bab7d8b28a4be9428f79e5277625f0e0d20d29f4cb490"
+      ]
+    }
+  ],
+  "limitations": [
+    "Fulltext caches are not published. Source numerical facts and concise locators only.",
+    "Silk, carrageenan, LTTFD and casein source pages were visually checked. AJR and coconut primary text independently checked; no pixel QA claimed for those two sources.",
+    "Coconut official correction establishes the 600 C TG endpoint. Its DOI is provenance, not an additional measured paper.",
+    "LOI conflicts and uncertain methods/specimen identities remain held; generic terminal residues are not assigned an endpoint from TG scan limits."
+  ]
+}

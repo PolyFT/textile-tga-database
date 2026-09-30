@@ -1,0 +1,155 @@
+[
+  {
+    "DOI": "10.32474/LTTFD.2023.05.000213",
+    "hold_scope": "Tendset_T95",
+    "reason": "Source defines Tendset as95wt% mass loss; coated source Tendset338.5C conflicts with42.03% char at700C. Both source Tendset values withheld from clean draft; other unambiguous TG fields retained.",
+    "source_values": {
+      "COT_Tendset_C": 356.93,
+      "coated_Tendset_C": 338.5
+    },
+    "source_url": "https://lupinepublishers.com/fashion-technology-textile-engineering/pdf/LTTFD.MS.ID.000213.pdf"
+  },
+  {
+    "DOI": "10.1039/D0RA10060A",
+    "hold_scope": "all_pairs",
+    "reason": "Numeric TG Table1 and explicit20C/min/N2 method found. LOI method mentioned, but no numeric LOI result found in accessible original fulltext; no pair staged.",
+    "source_url": "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10060a"
+  },
+  {
+    "DOI": "10.14504/ajr.1.6.3",
+    "hold_scope": "non-scCO2 12wt%",
+    "reason": "TableI LOI26 conflicts with p.22 sentence saying non-scCO2 add-on9wt% and greater LOI27 and higher. Exact char38 but entire pair held.",
+    "source_url": "https://doi.org/10.14504/ajr.1.6.3"
+  },
+  {
+    "DOI": "10.14504/ajr.1.6.3",
+    "hold_scope": "non-scCO2 16wt%,15%W;scCO2 ~1%W",
+    "reason": "16wt% and15%W exact TG annotation unavailable; narrative ranges not point values. scCO2~1%W exact TG22 and302/LOI22 but original loading11-16% spans multiple source states, so exact prewash branch unproven; no pooled inference.",
+    "source_url": "https://doi.org/10.14504/ajr.1.6.3"
+  },
+  {
+    "DOI": "10.14504/ajr.1.6.3",
+    "hold_scope": "control_onset",
+    "reason": "Thermal Behavior gives331C then333C; clean onset omitted, char15 retained.",
+    "source_url": "https://doi.org/10.14504/ajr.1.6.3"
+  },
+  {
+    "DOI": "10.4236/msa.2014.511079",
+    "hold_scope": "all8 numeric pairs",
+    "reason": "Original PDF and HTML have exact printed Figure 2 onset/residue labels and Table 3 LOI. N2 is explicit, but no TG ramp is stated anywhere in the full text. Referenced TG-FTIR methods alone are not proof of the standalone TG ramp. Control LOI also conflicts: 20.9% in Table 3 versus 18% in abstract. Residue is normalized to weight at 100 C.",
+    "source_url": "https://doi.org/10.4236/msa.2014.511079"
+  },
+  {
+    "DOI": "10.1177/1558925020920887",
+    "hold_scope": "all potential pairs",
+    "reason": "Method specifies nitrogen TGA, but TGA results explicitly discuss oxygen atmosphere and compare nitrogen without identifying numerical branches. TSDBC 4 wt% onset is 280 versus 294 C; DBDBC 4 wt% is 280 versus 288 C. LOI test oxygen concentrations are not distinct formulations; DBDBC is summarized as a 22-24% interval. Atmosphere and state interpretation remain held.",
+    "source_url": "https://doi.org/10.1177/1558925020920887"
+  },
+  {
+    "DOI": "10.1021/acsomega.5c00281",
+    "hold_scope": "screened primary TGFTIR route",
+    "reason": "Section 2.9 treated-fabric TG-FTIR method says nitrogen at 20 C/min, while Section 3.8 says air. Separate hydrogel/salt TGA cannot be paired with coated-fabric LOI. No rows staged.",
+    "source_url": "https://doi.org/10.1021/acsomega.5c00281"
+  },
+  {
+    "DOI": "10.1021/acs.chas.4c00050",
+    "hold_scope": "S1 and S6 LOI pairing; S2 residue at 450/500 C",
+    "reason": "S1 Table 2 LOI18.1 vs18 prose. S6 Table 2/6 and abstract LOI29.5 vs26 in Section3.1 and27 in Conclusions. S2 Table4 R450=8 vs prose R500=8; R400=15 retained. Formal correction 10.1021/acs.chas.5c00030 resolves endpoint323→600 C only.",
+    "source_url": "https://pubs.acs.org/doi/10.1021/acs.chas.4c00050",
+    "correction_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11938338/"
+  },
+  {
+    "DOI": "10.1021/acs.chas.4c00050",
+    "hold_scope": "S5 entire TG-LOI pair",
+    "reason": "Table 2 LOI 27.5% exceeds the conclusion endpoint of 27% for the explicitly listed S3/S4/S5/S6 series. A rounded summary is possible but unresolved; no rounding or typo correction is inferred. S5 has been removed from the accepted draft and retained only as a held source record.",
+    "source_values": {
+      "sample_state": "S5",
+      "washing_state": "as_prepared_before_durability_washing",
+      "LOI_Table_2_pct": 27.5,
+      "conclusion_series_LOI_endpoint_pct": 27,
+      "R400_pct": 39,
+      "R450_pct": 34,
+      "add_on_pct": 4.1,
+      "treatment_concentration_reported": "300% concentrated GCS extract (source wording)",
+      "atmosphere": "N2",
+      "heating_rate_C_min": 10,
+      "TG_end_C_corrected": 600
+    },
+    "TG_locator": "Table 4, journal p. 62, weight remaining at 400 C and 450 C",
+    "LOI_locator": "Table 2, journal p. 59; Conclusions",
+    "source_url": "https://pubs.acs.org/doi/10.1021/acs.chas.4c00050",
+    "correction_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11938338/",
+    "removed_draft_extraction_id": "B47-CELL-GCS-S5"
+  },
+  {
+    "DOI": "10.11648/j.ijmsa.20200904.11",
+    "source_url": "https://pdfs.semanticscholar.org/487d/7dfe03a6c0610ca6b7c0d983a199df4966da.pdf?skipShowableCheck=true",
+    "holds": [
+      {
+        "scope": "PDC treatment-bath concentrations",
+        "source_values": {
+          "Section 2.2": "1.5 wt% urea-DAP",
+          "Table 1 and Section 3.1": "10% urea and 10% DAP"
+        },
+        "decision": "Omit numeric bath concentration for all PDC specimens; preserve same-label mapping."
+      },
+      {
+        "scope": "SC process temperature and pressure",
+        "source_values": {
+          "Section 2.3": "90 C, 1800-2000 psi",
+          "Section 3.1": "60 C, 1500 psi"
+        },
+        "decision": "Omit process temperature and pressure. Do not change the TGA N2 atmosphere to CO2."
+      },
+      {
+        "scope": "PDC-2 and SC-2 add-on",
+        "source_values": {
+          "PDC-2": "6.3% in Tables 1-3 versus 6.5% in Section 3.4 paragraph",
+          "SC-2": "18.7% in Tables 1-3 versus 19.7% in Section 3.2 paragraph"
+        },
+        "decision": "Omit clean numeric add-on for these specimens. No typo correction. Same labels still link TG and LOI tables."
+      },
+      {
+        "scope": "PDC-1 onset",
+        "source_values": {
+          "Table 1": "287.7 C",
+          "Section 3.2": "The sentence linking add-on range 6.1-9.5% reports onset range 288.2-278.9 C"
+        },
+        "decision": "Conservative omission of PDC-1 onset; exact R600=26.9% retained."
+      }
+    ],
+    "same_state_assessment": "Pairing retained by original table labels, consistent table add-ons, process branches and direct cross-reference. No alias is inferred from values. Preparation uncertainty is captured separately; it does not identify a distinct competing set of TG or LOI sample states."
+  },
+  {
+    "DOI": "10.1039/c7ra13228j",
+    "status": "hold_resin_TG_fabric_LOI_mismatch",
+    "reason": "Section3.1 thermal analysis belongs to PA6/FRPA6 resin; Section3.2 fibers have DSC only. FabricLOI cannot be paired with resinTG. Original sourcePDF reviewed.",
+    "source_url": "https://pubs.rsc.org/en/content/articlehtml/2018/ra/c7ra13228j"
+  },
+  {
+    "DOI": "10.3390/ma15144791",
+    "status": "LOI_and_MCC_only",
+    "reason": "Reactive printing paper Table5 temperatures/residues are microscalecombustioncalorimetry, notTG. No promotion.",
+    "source_url": "https://www.mdpi.com/1996-1944/15/14/4791"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2009.03.017",
+    "status": "no_exact_same_state_TG_numbers",
+    "reason": "Author manuscript Table1 residues are after LOI flame test and Table2Tmax is PCFCheat-release. Section3.4.1TG only gives approximate/rangedtemperatures and qualitativeR500. Gasreleasepeaktemperatures are notDTG. No exactTGpair admitted.",
+    "source_url": "https://www.researchgate.net/publication/229343958_Thermal_decomposition_and_burning_behavior_of_cellulose_treated_with_ethyl_ester_phosphoramidates_Effect_of_alkyl_substituent_on_nitrogen_atom"
+  },
+  {
+    "DOI": "10.1177/1528083718813527",
+    "status": "hold_conflicting_LOI_assignment",
+    "sample_state": "CSY-3",
+    "reason": "Abstract assigns initial27.6 and30-wash27.1 to50:50PET:FRVF; Table2assigns28.6/28.1toCSY-3(50:50)and27.6/27.1toCSY-2(55:45). No table-priority or inferred typo correction.",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083718813527",
+    "reviewer": "independent-parent-source-QA"
+  },
+  {
+    "DOI": "10.1016/j.arabjc.2023.105497",
+    "hold_scope": "MRPs treated and durability-washed silk",
+    "source_url": "https://doi.org/10.1016/j.arabjc.2023.105497",
+    "reason": "Initial Table S1 LOI 27 conflicts with main-text over 27. Ten-wash Table S1 LOI 25.9 conflicts with main-text over 26. No treated pair admitted; only untreated LOI 24.4 is unambiguous. Washed states also lack matched thermal tables."
+  }
+]

@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **294 unique DOI/sample/washing states**, **340 TG condition records**, and **67 papers**. The near-term target is 500 unique states; **206 remain**. The long-term target remains 2000.
+The reviewed dataset contains **316 unique DOI/sample/washing states**, **363 TG condition records**, and **73 papers**. The near-term target is 500 unique states; **184 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -150,3 +150,17 @@ Manifest, sample-state crosswalk, field-level holds and the source queue preserv
 ## b47 publication checkpoint
 
 [PR #14](https://github.com/PolyFT/textile-tga-database/pull/14) merged as `3d422bf40f07f48e425dfb6f31f015e30b578462` after [validation run 36753896559](https://github.com/PolyFT/textile-tga-database/actions/runs/36753896559) passed on exact head `eba30ce384c372bda8da5b79debd9244f5bcc227`: 138 tests, Python compilation, scientific validation and committed-snapshot consistency. Refreshed main confirms 294 verified unique states, 340 conditions and 67 DOI; errors are empty. Snapshot: `532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a`. B47 adds nine evidence upgrades and no newly completed or new-source pairs. Its single-writer lease is released; next publication must refresh main, PRs, source queue and lease. Local metadata directory selection remains unresolved; no library file has been changed.
+
+
+## b48 source review
+
+Twenty-two additional reviewed sample states contribute twenty-three TG conditions from six papers. Twenty-one are new measurement states: five from wholly uncatalogued DOIs and sixteen from metadata-only leads. One existing untreated-silk pair gains source evidence in two atmospheres. No second sample is counted for its repeated LOI.
+
+- Silk: scoured untreated fabric only; exact Table2 TG and TableS1 LOI24.4. Initial and washed treated LOI conflicts remain held
+- Carrageenan/agar/alginate: three fiber states; author-printed R700 values and Table1 LOI. Original prose precision is retained; no reviewer digitization, cone specimen substitution or gas-peak substitution
+- Silica/CaHP/chitosan cotton: two states; source onset means10% mass loss. The incompatible95%-loss endset is omitted
+- Phosphazene cotton: seven initial states from separate conventional and supercritical deposition series. Generic residues stay unassigned to a temperature. Method start0C is metadata. Control onset,12%LOI and uncertain washing branches remain held
+- Coconut-shell cotton: S2–S4 only. The official correction establishes the600C method endpoint. S1/S5/S6 LOI and S2 residue-temperature conflicts remain excluded
+- Casein cotton: six exact Table1/Table3 labels share initial TG/LOI states. Conflicting preparation temperatures, pressures, bath loadings and two add-ons are withheld. Dual source onsets stay separate and MCC results are excluded
+
+Per-file hashes and observation fingerprints bind independent reviews. The source PDFs, supplements, images and private preparation files remain outside the public repository. The branch-only materializer must remove itself, and all final exact-head tests and snapshot checks must pass before merge. The b48 publisher holds the active lease until verified main publication.
