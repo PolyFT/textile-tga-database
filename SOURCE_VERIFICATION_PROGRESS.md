@@ -125,6 +125,12 @@ Five new-source sample states add seven TG conditions from two papers. This batc
 
 The PAA/MMT paper contributes only COT and COT/MMT2% under nitrogen and air, sharing two measured LOI observations across four TG conditions. Table3's10%-loss onset is T10, not generic Tonset. The exactR800 zero for air COT is retained. Six PAA-bearing states remain held for concentration mismatches between TG and LOI; original supplementary native text adds no crosswalk, and incomplete supplementary image rendering is disclosed.
 
-All132 offline tests, compilation and scientific validation pass locally. Fingerprint-bound approvals and per-file hashes preserve the independent source review. The branch-only materializer must remove itself and exact-head CI must pass before merge. The b46 publisher owns the active lease.
+All132 offline tests, compilation and scientific validation pass locally. Fingerprint-bound approvals and per-file hashes preserve the independent source review. The branch-only materializer must remove itself and exact-head CI must pass before merge. The b46 publisher released its lease after verified main publication.
 
 Two further cotton source assessments produced zero exact-condition pairs: SAGE1528083709347122 lacks a TG heating rate and has one formulation conflict; Donghua2024.0382 lacks exact same-state TG numbers and has formulation-unit/order ambiguities. DOI-less thesis values are not assigned a related journal DOI. The2011.08.014 primary full text remains unretrieved; the2012 kinetics follow-on is not a substitute. These holds are not target samples.
+
+## b46 publication checkpoint
+
+PR #13 merged at2026-09-30 17:26:36 UTC as `016e4251f3455e4be5af37d31aa4501f1082eafb`. Exact head `6910435f07316e1d7d8c39a85f7ab82a6933d77b` passed [run36751208066](https://github.com/PolyFT/textile-tga-database/actions/runs/36751208066), including all132 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms285 unique verified states,331 conditions,64 DOI and errors=[]. Snapshot SHA-256:`f1668a8b7557cc17f5bc61b45e58495804e81cabc2aad45f7457cc13fe8ca191`.
+
+The temporary materializer is removed and b46 writer lease is released. Every independently reviewed ready pair in the previously announced b42–b46 preparations is now included. Remaining condition-partial, LOI-only, identifier-held or inaccessible-source preparations remain excluded; none is an uncounted verified pair. The near-term goal is not yet met:215 further unique verified states are required to reach500. Continue from current source ownership and the per-paper queue rather than repeating completed or held reviews without new evidence.
