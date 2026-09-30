@@ -1,0 +1,77 @@
+{
+  "batch": "b63",
+  "review_completed_utc": "2026-09-30T21:36:50.188262+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 1,
+    "accepted_condition_rows": 1,
+    "new_source_inventory_states": 1,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "screened_held_or_excluded_papers": 6,
+    "additional_ANF_AM_unlabelled_LOI_controls": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b63.csv",
+      "published_input_sha256": "218c656e5268d4f23c74c455f92f9915144d85e584d17356a7c562102e924276",
+      "unique_sample_states": 1,
+      "conditions": 1,
+      "accepted_measurement_fingerprints": [
+        "87821b52846794a36b925c40807d9e4d5db9b887ea1f168a2fab87eef463d611"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s40820-026-02292-8",
+      "accepted_states": 1,
+      "conditions": 1,
+      "evidence": "Original22pageprimarymain pluscompleteofficialSI reviewed; Section4p18 ownLOI41.5 andSection3.3p9 genericTGresidue56.12. OriginalFig3p10pixelschecked, N2/10Cmin/30-800CSection2.4p5. Default30sfirstbathSection3.4p11 definesfinalSIAMfiber.",
+      "caveat": "Genericresidue temperatureunreported; noR800fromscanendpoint. DTGmaximumrate isnotpeaktemperature. ANF/AMunlabelledLOIbarsnotestimated. LOIprotocol andfinaloxide/AgNWloadingmissing retained aslimitations, no presumptions. Othercoagulationvariants andwaterloss/sensingmetricsnotadditionalTG-LOIsamples."
+    },
+    {
+      "DOI": "10.1007/s40820-026-02292-8",
+      "accepted_states": 1,
+      "reason": "additional_ANF_AM_LOI_unlabelled",
+      "disposition": "TwoANF/AMcontrols haveexactgenericTGresidue39.27/58.94,N2/10Cmin,butLOIbarsonly,noexplicitnumericLOI. Do notdigitize. Other10/60/999scoagulationvariants noindividualTG-LOIpairs."
+    },
+    {
+      "DOI": "10.1007/s40820-024-01583-2",
+      "accepted_states": 0,
+      "reason": "TG_atmosphere_unreported_in_main_complete_SI",
+      "disposition": "CompleteprimaryPDF+officialSIreviewed. CP-3@PANI ownLOI68,R80067.1,10Cmin/50mLmin; nogasnamedforTG. Armanufacture,N2BET,andMCC80/20N2/O2arenotTGgas. CP-1/2@PANIexactTGonly; CFA/CP-3/nanocelluloseownLOIonly. NoMCCpeakorbaruncertaintydigitization."
+    },
+    {
+      "DOI": "10.1021/ie504070t",
+      "accepted_states": 0,
+      "reason": "TG_ramp_missing_in_official_SI_main_403",
+      "disposition": "Complete7pagepublisherSI TablesS1-S4:all6BLlaminates matchedLOI/extrapolatedonset/twoDTGpeaks/explicitR700underN2andair(12conditions). NoheatingrateinSI; ACSmain403. Neverassume10Cmin. MelaminewrappedvsunwrappedAPP retained; unknownNEWRAY911chemistry notinferred. MCCtableS5excluded."
+    },
+    {
+      "DOI": "10.1007/s10118-022-2792-3",
+      "accepted_states": 0,
+      "reason": "composition_LOI_and_assay_form_conflicts_pending_SI",
+      "disposition": "Originalprimarymainreviewed: PI-M5compositionPDA80%abstractvsx=MDAfractionnamingandPI-M5drawnseries ambiguous; NomexLOI31Table1vs29prose. TGfiber/LOIfiber-vs-wovenfabricattributionunresolved. SIunreviewed; genericTGresiduesnotR900fromscanendpoint. Nofiguredigitization."
+    },
+    {
+      "DOI": "10.3390/ma19010044",
+      "accepted_states": 0,
+      "reason": "review_no_own_numeric_TG_LOI",
+      "disposition": "Completeprimarymain17pagesreviewed; TG/LOImentionedasmethods/literaturebackground only, noownsame-state numericpairs. Reviewnot counted; SIreviewnotclaimed."
+    },
+    {
+      "DOI": "10.1016/j.heliyon.2024.e37120",
+      "accepted_states": 0,
+      "reason": "no_own_numeric_TG_LOI_in_main",
+      "disposition": "CompleteprimarymainBioCreviewed; LOI31.1iscitedfishscale/phyticcottonsource, noownTG/LOIpairs forPANI/Ag/FSPcoating. Mainonlyscreen, SIunreviewed."
+    },
+    {
+      "DOI": "10.1039/c6ra00067c",
+      "accepted_states": 0,
+      "reason": "TG_result_and_SI_access_incomplete",
+      "disposition": "EightwovenGF/BMIcomposites:primaryTable1/Table2/methodsread; furtherHTML/PDF/authorversion403. OfficialSIunretrieved. No exactTGnumericaltable orrampsassignmentreview; fourmethodrampsnotassumedfourtestsforeachsample. Fiberfractionvolume/wtunitconflictunresolved. Zeroadmitted."
+    }
+  ],
+  "verification_limit": "One primary-source reviewer. Exact original explicittext facts, completeSI andFig3 pixels inspected. Public numericalfacts andconciseprovenance only; nofulltext/privatepaths. Namedincompletereviewsremainholds, notwhole-sourceexclusions."
+}

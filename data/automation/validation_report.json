@@ -422,6 +422,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b63.csv",
+      "accepted_rows": 1,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -702,9 +709,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1334,
-  "legacy_field_complete_condition_records": 730,
-  "numeric_pair_candidate_rows": 873,
+  "all_loaded_rows": 1335,
+  "legacy_field_complete_condition_records": 731,
+  "numeric_pair_candidate_rows": 874,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -712,19 +719,19 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 484,
-  "verified_exact_condition_records": 484,
-  "verified_exact_sample_states": 416,
-  "verified_exact_dois": 96,
-  "candidate_dois": 119,
-  "candidate_sample_states": 687,
-  "rows_with_numeric_loi": 919,
-  "rows_with_any_tg_numeric": 1224,
+  "strict_tg_loi_pairs": 485,
+  "verified_exact_condition_records": 485,
+  "verified_exact_sample_states": 417,
+  "verified_exact_dois": 97,
+  "candidate_dois": 120,
+  "candidate_sample_states": 688,
+  "rows_with_numeric_loi": 920,
+  "rows_with_any_tg_numeric": 1225,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1584,
+  "remaining_to_target": 1583,
   "plot_ready_verified_counts": {
     "Tmax1_C": 304,
     "T5_C": 185,
@@ -735,5 +742,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "8ae46115d998994ddd894757625e0b7f5d2d45acfa75da5f2593397c67c7f005"
+  "snapshot_sha256": "d51808dc35af5b93a165aea221a5bffdc823395e748b7b1bfe2c1ed6304138a1"
 }

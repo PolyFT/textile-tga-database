@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **416 unique DOI/sample/washing states**, **484 TG condition records**, and **96 papers**. The near-term target is 500 unique states; **84 remain**. The long-term target remains 2000.
+The reviewed dataset contains **417 unique DOI/sample/washing states**, **485 TG condition records**, and **97 papers**. The near-term target is 500 unique states; **83 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **416 unique DOI/sample/washing states**, **484 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 215 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 216 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -413,3 +413,10 @@ Four genuinely new independent samples add four TG conditions from one original 
 Rmax has unresolved column/unit meaning and remains unconverted, never guessed as Tmax. Exact formulation masses remain as reported; inconsistent FPDpercentage/resin-content statements are flagged without inferring whole-laminate loadings. LOI thickness is unreported and is not borrowed from the vertical flame test. Preparation rinses are not durability wash states. SI contains FPD NMR and solubility figures, no extra material tests.
 
 ED22 glass-laminate LOI cannot yet be assigned across its two curing systems/thicknesses. Ground plant-fiber phenolic slabs await scope clarification. CNF/PANI aerogel original SI and exactTG facts remain pending. These three holds add zero verified samples. Source caches stay outside the public repository and the metadata library stays untouched. Strictly exceeding500 requires85 more verified independent samples after this batch. Exact-head tests, scientific validation and committed-snapshot CI must pass before merge; independent main readback precedes lease release.
+
+
+## b63 SIAM coaxial wet-spun aramid sensing fiber review
+
+One genuinely new independent fiber sample adds one TG condition; zero existing-pair evidence upgrades. Original main and complete official supplement reviewed. Section4 p18 explicitly reports ownLOI41.5%; Section3.3 p9 reports56.12wt%genericTGresidue. OriginalFigure3 p10 inspected. Nitrogen/10Cmin/30-800C fromSection2.4 p5; default30s firstcoagulationbath fromSection3.4 p11. Generic residue temperature remains blank rather than inferred as800C fromscanendpoint. MaximumDTGrate isnotTmax. ANF/AMcontrolLOI bars have no printedvalues and are not estimated; othercoagulationdurations lack matchedTG/LOI. MissingLOIprotocol/finaloxide-AgNWloadings andsourcefigurelabel inconsistencies remainexplicitlimitations.
+
+Six other sources addzero pairs: completeCNF/PANISI lacksTGgas; completeACSramieSI has6BLstates/12N2-airTGconditions but lacksheatingrate andmain403; PI2792main hascomposition/LOI/form conflicts withSIpending; washing-fabric19010044 is a review with no ownpairs; Heliyoncotton37120 hasonlycitedLOI/noownTG; RSCc6ra00067c TGnumeric/ramps andSIreview blocked by403. Per-sourceholds preserve progress and avoidrepeatqueries. Strictly exceeding500 requires84 additionalverifiedsamples. Publicfacts/provenance only; privatecaches remainoutside andmetadata libraryunchanged. Exact-headtests/scientificgate/snapshotCI and independentmain readback precedeconditionallease release.
