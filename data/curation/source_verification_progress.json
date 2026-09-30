@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b43_publication_in_progress",
   "last_merged_batch": {
     "batch": "b42",
     "merge_sha": "a1858b9f82d16fad95ff0c4afe79dbf68ed259f5",
@@ -32,10 +32,17 @@
     "snapshot_sha256": "b4f1ffe0216bcf13f84e059c90e0b5da677e5acb59369ffc5f4fb8f5c3f1fa20"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T16:25:52Z",
-    "instruction": "PR #8 is merged and the b42 writer lease is released. Check latest main and open data PRs before claiming the next publication batch; never overwrite concurrent changes."
+    "owner": "source-verification-b43-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T16:40:49Z",
+    "batch": "b43",
+    "sources": [
+      "10.1039/D1RA06573D",
+      "10.1177/1528083716648761",
+      "10.1177/1528083718798636",
+      "10.1177/1528083720938158"
+    ],
+    "instruction": "One publisher is integrating the independently reviewed b43 public-source batch. Local metadata-library and hourly workers may prepare sources read-only; do not publish a competing data batch until this lease is released. Always check current main and open PRs first."
   },
   "next_sources": [
     "10.1039/D1RA06573D",
