@@ -486,4 +486,4 @@ Thirteen genuinely new sample states add thirteen nitrogen TG conditions from th
 
 Reported LOI uncertainties retain their original definitions. Ambiguous TG/DTA maximum temperatures, MCC temperatures, unmatched durability washes and unresolved preparation details are held or explicitly left unknown. Independent original-source review passed at exact draft hashes. Source fulltexts remain private.
 
-The b69 writer lease remains active pending exact-head CI, merge and postmerge verification.
+Published through PR36 at merge 618c0656c078ea881678820d45837e8241f57201. All 261 tests, scientific validation and exact-head snapshot consistency passed at 79d50ca3e63504a1cdd829de3323dcf15a8f049f. All three postmerge workflows passed and the lease was released. Every digest input blob and the entire local report were reconciled to the public branch before merge. Snapshot SHA256: 6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849.
