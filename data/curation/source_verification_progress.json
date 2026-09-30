@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30 22:49:36 UTC",
-  "latest_batch_id": "20261001_b68",
-  "verified_condition_records": 543,
-  "verified_unique_sample_states": 472,
-  "verified_dois": 109,
+  "as_of_utc": "2026-09-30T22:54:19.060572+00:00",
+  "latest_batch_id": "20260930_b69",
+  "verified_condition_records": 556,
+  "verified_unique_sample_states": 485,
+  "verified_dois": 112,
   "numeric_pair_candidate_rows": 934,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 28,
+  "remaining_near_term": 15,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 271,
+  "cumulative_newly_completed_or_new_source_sample_states": 284,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b68",
     "merge_sha": "bb1738f4dab1d52779625a4fa9124f5203c67880",
@@ -47,6 +47,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "B69 adds thirteen initial textile states from casein LBL, PA-Cys nylon/cotton and SHP/MA/TEA cotton sources. Preserve source-native uncertainties, onset definitions and recipe/wash distinctions.",
     "b68 adds2newPLA nonwovenstates. All10TGrows retained; airrate/LOIbar omissions held. Preserve20source screeningholds andform/rateconflicts. Metadata rootconfirmationpending; librarystrictlyreadonly; refreshmain/PR/leasebefore nextpublisher.",
     "B67 adds four citrus BC and jute states. Preserve unknown citrus residue assessment temperature and explicit500 C jute residue; no inferred washes or screening pairs.",
     "B66 adds nine new bacterial cellulose textile states at twelve TG conditions. Preserve explicit 800/1000 C residue temperatures, nanofibrous sheet form, initial preparation and source-specific holds.",
@@ -355,7 +356,7 @@
       "snapshot_sha256": "30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3"
     }
   },
-  "remaining_to_exceed_500": 29,
+  "remaining_to_exceed_500": 16,
   "batch_b58": {
     "accepted_unique_sample_states": 6,
     "accepted_condition_rows": 6,
@@ -626,5 +627,14 @@
         36787377108
       ]
     }
+  },
+  "batch_b69": {
+    "added_verified_unique_states": 13,
+    "added_verified_condition_records": 13,
+    "new_source_measurement_states": 13,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "tests_passed": 261,
+    "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849"
   }
 }
