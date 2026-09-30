@@ -62,7 +62,7 @@ def normalized_rate(value):
 
 def normalized_atmosphere(value):
     value = normalize_label(value)
-    return {'nitrogen': 'n2', 'n₂': 'n2', 'oxygen': 'o2', 'o₂': 'o2', 'ar': 'argon'}.get(value, value)
+    return {'nitrogen': 'n2', 'n₂': 'n2', 'oxygen': 'o2', 'o₂': 'o2', 'ar': 'argon', 'he': 'helium'}.get(value, value)
 
 
 def normalized_pair_key(d, s, w, a, r):

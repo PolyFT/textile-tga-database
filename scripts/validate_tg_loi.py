@@ -148,7 +148,7 @@ def build_tables(df, issues=None):
             pending.append('missing_doi')
         if not normalize_label(row.get('sample_state')):
             pending.append('missing_sample_state')
-        if normalized_atmosphere(row.get('atmosphere')) not in {'n2', 'air', 'o2', 'argon'}:
+        if normalized_atmosphere(row.get('atmosphere')) not in {'n2', 'air', 'o2', 'argon', 'helium'}:
             pending.append('missing_or_unresolved_atmosphere')
         rr = pd.to_numeric(row.get('heating_rate_C_min'), errors='coerce')
         if pd.isna(rr) or not 0 < rr < float('inf'):

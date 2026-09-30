@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **367 unique DOI/sample/washing states**, **420 TG condition records**, and **87 papers**. The near-term target is 500 unique states; **133 remain**. The long-term target remains 2000.
+The reviewed dataset contains **373 unique DOI/sample/washing states**, **426 TG condition records**, and **89 papers**. The near-term target is 500 unique states; **127 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **367 unique DOI/sample/washing states**, **420 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 166 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 172 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -334,3 +334,16 @@ The b57 writer lease is released after exact-head CI and postmerge verification.
 PR #24 merged as `81bf6b9ad6032d22ca9a7adc8d0a361c075484c9`. Exact head `f948109093f096ee5ce61851c58babf8b1ed9073` passed [run 36772553803](https://github.com/PolyFT/textile-tga-database/actions/runs/36772553803), including 196 tests, compilation, scientific validation and snapshot consistency. Main confirms 367 unique states, 420 conditions and 87 DOI, with no validation errors. Snapshot SHA-256: `30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3`.
 
 All three postmerge checks passed. The temporary materializer is absent and the single-writer lease is released. A related 2012 conference poster repeats the six TG/add-on observations but gives LOI at different add-ons; it does not provide six additional pairs or override the 2017 exact same-state LOIs. Subsequent private source drafts are not included in these counts.
+
+
+## b58 flax and glass fabric laminate source review
+
+Six genuinely new sample states add six TG conditions from two primary sources; zero existing-pair evidence upgrades. Eighteen incomplete/source-conflicted facts stay outside the verified layer. The strict greater-than-500 milestone needs 128 further verified states.
+
+- Flax/VE and5/10wt%MH: original Table2 provides same-laminate LOI and tangent-defined Tonset, not T5/T10. N2/10Cmin is explicit. All14 officialS1 worksheets inspected. Generic residues have no numerical temperature; method800C and supplied curves ending near600C remain separate, with noR600/R800. The source reports ASTM D2893 for LOI; its identifier is inconsistent with the oxygen-index standard and is preserved as reported without a compliance claim. Resin-preheat duration is unresolved; tensile-only optimization specimens are not additional pairs.
+- Glass-fabric epoxy control/6%graphene/6%DDMDOPO: Table1 reports exactLOI and DTG peaks for final slab pieces in pureHe. Source30Kmin/27mLminNTP/30-580C retained. Complete3-page officialSI contains microscopy, flame IR and VBB photographs, no extra pairs. Helium support preserves distinct gas conditions and source/fingerprint gates. HeO2 approximate peaks, ambiguous9%char basis, VBB mass loss and model kinetics are excluded.
+- Complete FNF officialSI adds12 exactTG conditions for six felt-plate states, but HTG1 ramp is unreported and air methods incomplete. SeparateTG-FTIR20Cmin is not borrowed. FNF5 LOI28.2 versus28.8 remains held. Carbon-fabric epoxy Table7 TG facts and controlLOI26 remain held because the source gas composition conflicts; four additive LOIs are unlabelled bars and optimizedLOI39 has no matching TG. Six further main-text screens give zero pairs; no unreviewed-SI exclusion is claimed.
+
+Input hashes, measurement fingerprints, source holds and per-paper queue save restart positions. The metadata library remains untouched and its fulltext root awaits confirmation. No source PDFs, HTML, XML, workbooks or private paths are published. Exact-head tests, scientific validation and snapshot CI are required before merge.
+
+All205 offline tests, compilation and the scientific gate pass locally; snapshot SHA-256 `60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1`. The b58 publisher owns the lease; exact-head CI and merge are still pending.

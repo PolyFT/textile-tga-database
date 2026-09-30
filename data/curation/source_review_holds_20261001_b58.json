@@ -1,0 +1,50 @@
+[
+  {
+    "DOI": "10.3390/polym15204096",
+    "accepted_states": 0,
+    "reason": "TG_gas_composition_conflict_and_graph_only_LOI",
+    "disposition": "Five CFRP Table7 TG states preserved separately; control explicitLOI26 but method40N2/10O2 versus Figure8 oxygen21% unresolved. Four additiveLOIs only unlabelledFigure5 bars. OptimizedCFRPLOI39 has no matchingTable7 TG. No subtraction, bar estimation or bulkEP substitution."
+  },
+  {
+    "DOI": "10.3390/polym14153071",
+    "accepted_states": 0,
+    "reason": "no_own_LOI_in_main",
+    "disposition": "Main own TG and vertical flame test; cited/background LOI not experimental same-state evidence; officialSI not reviewed."
+  },
+  {
+    "DOI": "10.3390/nano12213811",
+    "accepted_states": 0,
+    "reason": "missing_TG_atmosphere_and_ramp_approximate_metrics",
+    "disposition": "Main FA/PS fibers ownLOI/TG approximate; TG atmosphere/ramp absent. Do not borrow electrospinning or other assay settings. SI not reviewed."
+  },
+  {
+    "DOI": "10.3390/ma16124386",
+    "accepted_states": 0,
+    "reason": "component_TG_and_literature_LOI_not_matched_yarn_tests",
+    "disposition": "Own raw-fiber TG does not pair genericTable2 literatureLOIs with final yarn/knits; afterflame tests are notLOI. SI not reviewed."
+  },
+  {
+    "DOI": "10.3390/polym15081920",
+    "accepted_states": 0,
+    "reason": "TG_ramp_unreported_and_FNF5_LOI_conflict",
+    "disposition": "Complete officialSI TableS1 supplies12 exactTGconditions for six hot-pressed flax/kenaf/PP needled-felt states. HTG1 nitrogen/range/flow reported but ramp missing; air method incomplete. Separate209F3 TG-FTIR20C/min cannot fill HTG1 ramp. FNF5 Table1 LOI28.2 versus prose28.8 held. No cone residue substitution."
+  },
+  {
+    "DOI": "10.3390/ma18020286",
+    "accepted_states": 0,
+    "reason": "resin_or_additive_TG_not_whole_GFRP_LOI",
+    "disposition": "Own arginine/phyticacid and resin thermal tests cannot pair glass/polyester laminateLOI. Complete main screened; SI not reviewed."
+  },
+  {
+    "DOI": "10.3390/polym13050731",
+    "accepted_states": 0,
+    "reason": "no_own_TG_in_main",
+    "disposition": "Own thin-ply laminateLOI/cone/vertical tests; no main TG methods/results. SI not reviewed."
+  },
+  {
+    "DOI": "10.3390/biomimetics11060384",
+    "accepted_states": 0,
+    "reason": "film_TG_cannot_pair_cotton_fabric_LOI",
+    "disposition": "Table2 standalonePCS/WPU films versus Table4 wholecotton fabrics; no wrong-form pairing. Main screened; SI not reviewed."
+  }
+]
