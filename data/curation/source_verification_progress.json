@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T12:47:00Z",
-  "latest_batch_id": "20260930_b39",
-  "verified_condition_records": 164,
-  "verified_unique_sample_states": 141,
-  "verified_dois": 34,
-  "numeric_pair_candidate_rows": 553,
+  "as_of_utc": "2026-09-30T13:21:00Z",
+  "latest_batch_id": "20260930_b40",
+  "verified_condition_records": 195,
+  "verified_unique_sample_states": 162,
+  "verified_dois": 39,
+  "numeric_pair_candidate_rows": 584,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 359,
+  "remaining_near_term": 338,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 71,
-  "cumulative_evidence_upgraded_existing_sample_states": 70,
+  "cumulative_newly_completed_or_new_source_sample_states": 76,
+  "cumulative_evidence_upgraded_existing_sample_states": 86,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,29 +18,45 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "validated_local_batch_awaiting_merge",
+  "publication_stage": "source_batch_complete_on_main_after_merge",
   "last_merged_batch": {
-    "batch": "b38",
-    "merge_sha": "287452c4949d760e90c2a92485f713be2ff26a59",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/4",
-    "verified_sample_states": 60
+    "batch": "b39",
+    "merge_sha": "02ca2de91ea2e65556949970c2b095805bc4aa11",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/5",
+    "verified_sample_states": 141
   },
   "writer_lease": {
-    "owner": "source-verification-20260930-b39",
-    "status": "publishing_second_batch",
-    "instruction": "Check open PR and current main before writing; do not publish concurrently."
+    "owner": null,
+    "status": "released_after_merge",
+    "instruction": "Ready for the next source-review run after this batch reaches main. Check current main and open data PRs before writing; never run concurrent publishers."
   },
   "next_sources": [
-    "10.1177/1558925019870301",
-    "10.1039/d2ra04873f",
-    "10.3390/ma11040483",
-    "10.1155/2019/7150736"
+    "10.1021/acsaenm.6c00308",
+    "10.3390/polym18010127",
+    "10.1039/d4mh01684j"
   ],
   "next_actions": [
-    "Finish source checks for next_sources; reviewed batch outputs are separate from incoming Grade A.",
-    "Recover the original workbook only from an actual Library file if available; do not reconstruct truncated rows by guessing.",
-    "Continue public fulltext/supplement search for textile specimen-matched exact TG/LOI pairs.",
-    "Respect source_review_queue holds and recorded numerical/atmosphere/form conflicts."
+    "Continue primary-source verification of eligible unreviewed states in tg_loi_candidates.csv, honoring source_review_queue holds.",
+    "Inspect the original 430-TG workbook through Library once supported materialization succeeds; two HTTP502 attempts prevented byte access in this pass. Do not guess missing rows.",
+    "Search new public fulltext and supplements for exact textile TG/LOI pairs; do not inflate counts with other TG conditions.",
+    "For later publishing, use small source files with fingerprint-bound inline reviews and a temporary branch-local rebuild for large derived tables; remove the temporary helper before merge."
   ],
-  "publication_policy": "Numerical facts and concise provenance only; no fulltext PDF/XML caches."
+  "publication_policy": "Numerical facts and concise provenance only; no fulltext PDF/XML caches.",
+  "batch_b40": {
+    "added_verified_unique_states": 21,
+    "added_verified_condition_records": 31,
+    "new_source_states": 5,
+    "existing_states_evidence_upgraded": 16,
+    "held_condition_rows": 10
+  },
+  "legacy_recovery": {
+    "staged_rows": 24,
+    "new_scientific_observations": 0,
+    "promoted_states": 0,
+    "incoming_overlap_rows": 7,
+    "native_xlsx_verified": false,
+    "unresolved_expected_tail_rows": 45,
+    "blocker": "Supported native XLSX byte transfers returned HTTP502 twice; Library text ends at CTG0386."
+  },
+  "publishing_method": "Use reviewed per-paper input files with fingerprint-bound inline approval. Generate large derived tables within a temporary branch-only workflow, delete that workflow before the final PR, then require all tests and snapshot CI before merging."
 }

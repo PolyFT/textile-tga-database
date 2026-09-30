@@ -1,0 +1,162 @@
+{
+  "status": "staged_curation_only_not_ingested",
+  "native_xlsx_bytes_verified": false,
+  "native_xlsx_materialization_attempts": 2,
+  "native_xlsx_blocker": "HTTP 502 on both supported byte transfers; no further retry",
+  "workbook_declared_sheet_count": 12,
+  "workbook_contains_scatter_sheet": false,
+  "cover_claimed_commercial_rows": 430,
+  "complete_commercial_rows_in_text": 385,
+  "truncated_text_record_id": "CTG0386",
+  "unresolved_claimed_tail_count": 45,
+  "unresolved_expected_id_range": "CTG0386–CTG0430 (expected, not recovered/verified)",
+  "complete_literature_tg_rows": 209,
+  "derived_claimed_combined_rows": 639,
+  "complete_combined_rows_supported_by_text": 594,
+  "scatter_raw_rows": 571,
+  "scatter_valid_rows": 570,
+  "scatter_malformed_record_id": "CTG0362",
+  "delta_rows": 24,
+  "repair_rows": 1,
+  "missing_scatter_rows": 23,
+  "delta_record_ids": [
+    "CTG0362",
+    "CTG0363",
+    "CTG0364",
+    "CTG0365",
+    "CTG0366",
+    "CTG0367",
+    "CTG0368",
+    "CTG0369",
+    "CTG0370",
+    "CTG0371",
+    "CTG0372",
+    "CTG0373",
+    "CTG0374",
+    "CTG0375",
+    "CTG0376",
+    "CTG0377",
+    "CTG0378",
+    "CTG0379",
+    "CTG0380",
+    "CTG0381",
+    "CTG0382",
+    "CTG0383",
+    "CTG0384",
+    "CTG0385"
+  ],
+  "delta_source_rows": [
+    363,
+    386
+  ],
+  "source_row_coordinate_caveat": "Native Excel row numbers are derived from extracted zero-based index + 2, not independently verified against XLSX bytes; source text lines 1902–1925 verified.",
+  "new_scientific_observations": 0,
+  "grade_A_promotions": 0,
+  "delta_rows_with_LOI": 2,
+  "delta_rows_unknown_atmosphere_and_rate": 10,
+  "delta_rows_with_same_doi_sample_in_incoming": 7,
+  "sheet_comparisons": [
+    {
+      "sheet": "01_文献来源",
+      "repository_file": "data/literature_sources.csv",
+      "complete_rows": 36,
+      "equal_all_retrieved_fields": true,
+      "trailing_parse_error": ""
+    },
+    {
+      "sheet": "02_样品与状态",
+      "repository_file": "data/samples.csv",
+      "complete_rows": 247,
+      "equal_all_retrieved_fields": true,
+      "trailing_parse_error": ""
+    },
+    {
+      "sheet": "03_TG记录",
+      "repository_file": "data/literature_tg.csv",
+      "complete_rows": 209,
+      "equal_all_retrieved_fields": true,
+      "trailing_parse_error": ""
+    },
+    {
+      "sheet": "04_LOI记录",
+      "repository_file": "data/literature_loi.csv",
+      "complete_rows": 159,
+      "equal_all_retrieved_fields": true,
+      "trailing_parse_error": ""
+    },
+    {
+      "sheet": "10_市售TG专项",
+      "repository_file": "data/commercial_tg.csv",
+      "complete_rows": 385,
+      "equal_all_retrieved_fields": true,
+      "trailing_parse_error": "unexpected end of data"
+    }
+  ],
+  "source_groups": [
+    {
+      "DOI": "10.1021/acsaenm.6c00308",
+      "records": [
+        "CTG0362",
+        "CTG0363",
+        "CTG0364",
+        "CTG0365",
+        "CTG0366",
+        "CTG0367",
+        "CTG0368",
+        "CTG0369"
+      ],
+      "rows": 8,
+      "source_url": "https://pubs.acs.org/doi/10.1021/acsaenm.6c00308",
+      "source_location": "原文Table 4"
+    },
+    {
+      "DOI": "10.3390/polym18010127",
+      "records": [
+        "CTG0370",
+        "CTG0371",
+        "CTG0372",
+        "CTG0373",
+        "CTG0374",
+        "CTG0375"
+      ],
+      "rows": 6,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12843709/",
+      "source_location": "原文Table 5"
+    },
+    {
+      "DOI": "10.1039/D4MH01684J",
+      "records": [
+        "CTG0376",
+        "CTG0377"
+      ],
+      "rows": 2,
+      "source_url": "https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01684j",
+      "source_location": "原文TG/LOI表格"
+    },
+    {
+      "DOI": "10.1016/j.ejpe.2015.04.001",
+      "records": [
+        "CTG0378",
+        "CTG0379",
+        "CTG0380",
+        "CTG0381"
+      ],
+      "rows": 4,
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1110062115200785",
+      "source_location": "原文Table 6"
+    },
+    {
+      "DOI": "10.3390/polym18070819",
+      "records": [
+        "CTG0382",
+        "CTG0383",
+        "CTG0384",
+        "CTG0385"
+      ],
+      "rows": 4,
+      "source_url": "https://www.mdpi.com/2073-4360/18/7/819",
+      "source_location": "原文Table 4"
+    }
+  ],
+  "intake_rule": "Do not append directly to incoming: 7 rows overlap existing source/sample observations, 10 have unknown atmosphere/rate, and none has fresh primary-source evidence review. No verified-target count increase."
+}
