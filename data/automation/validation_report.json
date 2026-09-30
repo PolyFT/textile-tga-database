@@ -394,6 +394,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b60.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -674,9 +681,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1298,
-  "legacy_field_complete_condition_records": 694,
-  "numeric_pair_candidate_rows": 837,
+  "all_loaded_rows": 1306,
+  "legacy_field_complete_condition_records": 702,
+  "numeric_pair_candidate_rows": 845,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -684,28 +691,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 448,
-  "verified_exact_condition_records": 448,
-  "verified_exact_sample_states": 395,
-  "verified_exact_dois": 91,
-  "candidate_dois": 114,
-  "candidate_sample_states": 666,
-  "rows_with_numeric_loi": 883,
-  "rows_with_any_tg_numeric": 1188,
+  "strict_tg_loi_pairs": 456,
+  "verified_exact_condition_records": 456,
+  "verified_exact_sample_states": 399,
+  "verified_exact_dois": 93,
+  "candidate_dois": 116,
+  "candidate_sample_states": 670,
+  "rows_with_numeric_loi": 891,
+  "rows_with_any_tg_numeric": 1196,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1605,
+  "remaining_to_target": 1601,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 272,
-    "T5_C": 182,
-    "Tonset_C": 62,
+    "Tmax1_C": 280,
+    "T5_C": 185,
+    "Tonset_C": 67,
     "R600_pct": 98,
-    "R700_pct": 97,
+    "R700_pct": 100,
     "R800_pct": 59
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "a4c0447dedfb7b6081d1cb69bfdfd9e592a869466947737d757b4d9103baf473"
+  "snapshot_sha256": "cd30817085dfc30aefafb5c8f6be7171a84d98c3647d3709d163632097fa1b07"
 }

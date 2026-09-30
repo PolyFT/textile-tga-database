@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **395 unique DOI/sample/washing states**, **448 TG condition records**, and **91 papers**. The near-term target is 500 unique states; **105 remain**. The long-term target remains 2000.
+The reviewed dataset contains **399 unique DOI/sample/washing states**, **456 TG condition records**, and **93 papers**. The near-term target is 500 unique states; **101 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **395 unique DOI/sample/washing states**, **448 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 194 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 198 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -369,3 +369,15 @@ Independent exact-hash original-source review passed. Fulltext and SI files rema
 PR #26 merged as `ea00abe1f3a9b3d3047fcefc9eda12ac2a2e6563`. Exact head `1d1532c3ff3cac1e1627e23d9129a81f823ee877` passed [run 36774577791](https://github.com/PolyFT/textile-tga-database/actions/runs/36774577791), including 213 tests, compilation, scientific validation and snapshot consistency. Main confirms 395 unique states, 448 conditions and 91 DOI, with no validation errors. Snapshot SHA-256: `a4c0447dedfb7b6081d1cb69bfdfd9e592a869466947737d757b4d9103baf473`.
 
 All six postmerge and lease-release validation, rebuild and processing checks passed. The temporary materializer is absent and the single-writer lease is released. Prior helium support and source holds remain intact. Subsequent private drafts are not included in these counts; refresh main and source ownership before another publisher.
+
+## b60 aramid/epoxy and glass/BMI source review
+
+Four genuinely new laminate sample states add eight TG conditions from two primary sources; zero existing-pair evidence upgrades. Four elevated-temperature LOI observations are retained separately and add zero independent samples. The strict greater-than-500 milestone needs 102 further verified states.
+
+- Aramid/epoxy: three plain-weave PFJ09 fabric laminates with0/2/5wt%EAD relative to epoxy. Complete officialTableS1 pairs exactLOI with T5, matrix/fiber DTG peaks and explicitly700C residue. N2/90mLmin/10Cmin/30-700C methods and final-laminate fabrication reviewed. PureEP/AF have no matchedLOI; DMAglass transitions, PCFCheat peaks, cone residues and unreported washing are not substituted.
+- Glass/BMI: one20ply woven laminate, fiber volume60%, measured at five TG heating rates. Table1 exactTo/Tf/Tp inspected; Table5 ambient20CLOI47.8 inspected. N2/50mLmin/40-1000C. To has no percentage-loss definition and is notT5/T10; Tf is not a residue or scan endpoint. Four50/100/150/220CLOIs are assay observations, not aging states. Approximate60%char excluded; sourceMLRp unit/normalization remains unresolved andunconverted. No SI is listed.
+- PlasmaPA66 uses TGA-derived thiourea add-on and curve-only decomposition data, not exact TGmetrics. Sorbitol/isosorbide cotton has ownTG/ISO15025/cone but only citedLOI. Deep-eutectic epoxy thermal data are matrix-resin measurements, not final glass-fabric laminateTG. These three main-text screens contribute zero pairs; SI review is not claimed.
+
+Input hashes, measurement fingerprints and per-paper holds save restart positions. The metadata library remains untouched and its fulltext root awaits confirmation. Source PDFs, XML and supplements stay outside the public repository. The current publisher owns the lease; all tests, scientific validation and exact-head committed-snapshot CI must pass before merge.
+
+All216 offline tests, compilation and scientific validation pass; errors=[]. All448 prior condition fingerprints are unchanged. Snapshot SHA-256:`cd30817085dfc30aefafb5c8f6be7171a84d98c3647d3709d163632097fa1b07`. Exact-head CI and merge remain pending.

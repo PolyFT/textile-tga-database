@@ -1,0 +1,75 @@
+{
+  "batch": "b60",
+  "review_completed_utc": "2026-09-30T20:48:05.361856+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "additional_LOI_condition_records": 4,
+    "additional_independent_states_from_LOI_temperature": 0,
+    "reviewed_papers_added": 2,
+    "screened_held_or_excluded_papers": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b60.csv",
+      "published_input_sha256": "7a00dc97459b50565d968b9c78c3d7e19fbd6e35278ed951b485c4103b688ed5",
+      "unique_sample_states": 4,
+      "conditions": 8,
+      "accepted_measurement_fingerprints": [
+        "5f0d9ba49c45f555bc25e9152c8a160fbc4cfb291d1dfe5edda11153affd48f9",
+        "48bc54d44cf6c4290799f5778550535991607ddc186ff3d9c572aa5ec664cb29",
+        "118ee83cadffd8e11370e8c00fdb297f14ad16087e0e3e4a0b284673e1f93565",
+        "b5682c222c48775ce0f1c1ac4c27c72df53e27fd390a0d8f2f3d54c27ae547df",
+        "b9df8eb6af2aefce26515698188d71b917507038f09913857ff52dc0366c67c8",
+        "60aafc70a6dbb1ab676c58c8662591b51991b5c31a7167e30371345a105c4433",
+        "bf94084b324bbcaeaf643b70c477477ac65a6540f22ff951bec2ad69f463c884",
+        "46e535b9ce8d33454f3c3c717976b2141b37675e20ad7ec73194c541cb4844e2"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.3390/ma17164028",
+      "accepted_states": 3,
+      "conditions": 3,
+      "evidence": "Complete officialSI p1 TableS1: AF/EP and2/5%EAD same-row LOI/T5/matrixDTG/fiberDTG/R700; mainpp2-3 common laminate preparation and N2/90mLmin/10Cmin/30-700C. TableS1 pixels and footnotes inspected.",
+      "caveat": "PureEP andAF have no matchedLOI. EAD loading relative to totalepoxy; matrix32+/-1wt%. Matrix andaramid DTGpeaks distinct fromDMAglass-transition andPCFCpeaks. No unreportedEAD chemistry,layercount,DDMratio orwashstate. Mass+/-0.5mg statistic unspecified."
+    },
+    {
+      "DOI": "10.3390/polym15102275",
+      "accepted_states": 1,
+      "conditions": 5,
+      "evidence": "Table1 p4 five experimentalramps5/10/20/30/40Cmin; Table5 p10 ambient20C LOI47.8 of one20ply wovenGF/BMI laminate. N2/50mLmin/40-1000C. Originaltables visuallychecked; noSIlisted.",
+      "caveat": "Five ramps are one sample. Four elevated50/100/150/220C LOI tests retained as additional observations, not newmaterials oragedstates. To notT5/T10;Tp is DTGpeak;Tf notscanend/residuetemp. Approximate60%residue excluded; sourceMLRp unit/normalization unresolved andnot converted. SeparateTGFTIRinstrument/ramp not substituted."
+    },
+    {
+      "DOI": "10.1021/acsomega.2c01870",
+      "accepted_states": 0,
+      "reason": "TG_derived_addon_not_exact_TG_metric",
+      "disposition": "Main ownLOI andTGA; Table4 is calculatedthiourea addon using approximatepurethiourea87.5%loss, not an exact sampleTG residue/temperature. Curve-only ownTG not digitized; do not deriveR330 from addon. SI not reviewed."
+    },
+    {
+      "DOI": "10.3390/ma14216375",
+      "accepted_states": 0,
+      "reason": "no_own_LOI_in_main",
+      "disposition": "Own sorbitol/isosorbidecottonTG andISO15025/cone; LOImentions are cited otherworks. Main screening0; no unreviewedSI exclusion claimed."
+    },
+    {
+      "DOI": "10.3390/polym16233374",
+      "accepted_states": 0,
+      "reason": "matrix_resin_TG_not_final_GFRP_LOI",
+      "disposition": "Thermal data explicitly curedED/E-Mmatrix resins; GFRPflame tests separate. No wholefabric-laminateTG substitution; main screened, SI unreviewed."
+    }
+  ],
+  "verification_limit": "One primary-source reviewer; original primary tables visually verified; complete aramid officialSI read. Three additional sources main-text screens only; no unreviewedSI exclusion claimed. Numerical facts and concise public provenance only, no fulltexts or local paths.",
+  "validation": {
+    "tests_passed": 216,
+    "compile_passed": true,
+    "scientific_errors": [],
+    "snapshot_sha256": "cd30817085dfc30aefafb5c8f6be7171a84d98c3647d3709d163632097fa1b07",
+    "publication_stage": "local_checks_passed_pending_exact_head_CI"
+  }
+}
