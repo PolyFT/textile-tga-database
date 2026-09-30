@@ -37,13 +37,11 @@
     ]
   },
   "writer_lease": {
-    "owner": "codex-local-metadata-pla-aptris-20261001",
-    "status": "released",
-    "batch_id": "20261001_b68",
-    "claimed_at_utc": "2026-09-30 22:38:11 UTC",
-    "scope": "B68 two initial PLA nonwoven exact TG-LOI states; retain two air condition-partial pairs, six TG-only rows and twenty source-screen holds. Public facts only.",
-    "instruction": "Single publisher; do not take active lease. Release after exact-head CI, normal PR merge, postmerge checks and independent main readback.",
-    "released_at_utc": "2026-09-30 22:49:36 UTC"
+    "owner": "dot-source-review-b69-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T22:51:50.789Z",
+    "scope": "Eight independently approved casein LBL and NYCO PA/Cys states; additional Lessan original source under independent QA. Public facts only; preserve source-specific conditions and unknown fields.",
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
