@@ -1,0 +1,47 @@
+[
+  {
+    "DOI": "10.1002/app.38961",
+    "sample": "8.43% and 13.09% weight-gain DMMEPN silk",
+    "reason": "Own LOI exists but no matching TG. Figure 4 explicitly identifies only 24.22% weight gain."
+  },
+  {
+    "DOI": "10.1002/app.38961",
+    "sample": "all hand-washed states",
+    "reason": "Table III gives 1/15/30/50 hand-wash LOI states, without matched TG. Do not reuse initial TG, even where numbers repeat."
+  },
+  {
+    "DOI": "10.1002/app.38961",
+    "field": "Table II char residue",
+    "reason": "Methods specify incineration at 600 C for 10 min, distinct from dynamic nitrogen TG in Table I."
+  },
+  {
+    "DOI": "10.1002/app.38961",
+    "field": "Td and weight gain",
+    "reason": "Table I Td is at 11% mass loss, not generic onset/T10. Physical-property paragraph 21.22% versus Table II/IV and Figure 4 24.22% weight gain remains unresolved; normalized add-on withheld."
+  },
+  {
+    "DOI": "10.1002/app.38961",
+    "sample": "DMMEP comparison columns and 2013 conference account",
+    "reason": "DMMEP values attributed to previous work; conference reuses this thermal series with rounded LOIs. Neither gives additional independently paired states."
+  },
+  {
+    "DOI": "10.11419/senshoshi1960.38.271",
+    "sample": "NMA-4",
+    "reason": "Table 1 LOI 21.4 conflicts with p 274 prose LOI 21.5. Both TG ramp pairs remain held; do not infer a typo by table priority."
+  },
+  {
+    "DOI": "10.11419/senshoshi1960.38.271",
+    "field": "DTA peaks and source To/Tf",
+    "reason": "DTA endotherm/exotherm columns are separate assays. Source To/Tf are main thermal-weight-loss boundaries without percentage-loss definition; not converted to T5/T10. Retained only unambiguous DTG Tmax and R600."
+  },
+  {
+    "DOI": "10.11419/senshoshi1960.38.271",
+    "field": "apparent grafting efficiency",
+    "reason": "Do not recompute from source equation; bath concentrations and measured add-on are retained separately. Source-reported standard identifier JIS L7201 is not silently corrected."
+  },
+  {
+    "DOI": "10.34133/research.0910",
+    "status": "held_no_same_textile_numeric_TG",
+    "reason": "Complete main and official SI downloaded and reviewed. SI Figure S4 is precursor TG, not textile TG. Figure S14 visually contains FTIR spectra and evolved-gas intensity only; Table S5 residue is cone calorimetry. Six initial/spray and five recoating LOI states have no matched numerical textile TG. Do not substitute gas peaks, precursor decomposition or cone residues. Main LOI claimed DIN EN ISO 15025 identifier retained as questionable, not corrected."
+  }
+]
