@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T19:02:25Z",
-  "latest_batch_id": "20260930_b51",
-  "verified_condition_records": 386,
-  "verified_unique_sample_states": 336,
-  "verified_dois": 79,
-  "numeric_pair_candidate_rows": 775,
+  "as_of_utc": "2026-09-30T19:18:05Z",
+  "latest_batch_id": "20260930_b52",
+  "verified_condition_records": 392,
+  "verified_unique_sample_states": 339,
+  "verified_dois": 81,
+  "numeric_pair_candidate_rows": 781,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 164,
+  "remaining_near_term": 161,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 135,
+  "cumulative_newly_completed_or_new_source_sample_states": 138,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b51",
     "merge_sha": "8764282e2514e92863235407fa0218f84eb10e25",
@@ -46,12 +46,13 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "B52 adds DD and completes canonical CEJ Cotton plus prior TG-only DOPO-ETES cotton. Count shared Cotton TG once; keep PO TD canonical. Remaining CEJ SI/LOI and DOPO coating/wash holds remain.",
     "B51 upgrades three existing numeric pairs:TD/TD220 and initialCOP-L/C. No new experiments claimed. Preserve thermal conditioning/state distinction and all whole-source holds.",
     "B50 adds four new microwave-casein states and newly completes three legacy PTCO states with six conditions. Microwave control excluded for possible cross-paper reuse. Preserve native stage numbering, descriptor conflicts, TG-FTIR separation and whole-source holds.",
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -234,5 +235,18 @@
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/18",
     "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762396379",
     "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762640587"
+  },
+  "batch_b52": {
+    "added_verified_unique_states": 3,
+    "added_verified_condition_records": 6,
+    "new_source_measurement_states": 1,
+    "newly_completed_existing_TG_only_states": 1,
+    "newly_completed_canonical_pairs_using_shared_TG": 1,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "tests_passed": 176,
+    "snapshot_sha256": "51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/19",
+    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36764400306"
   }
 }

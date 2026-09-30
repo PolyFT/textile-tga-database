@@ -1,0 +1,59 @@
+{
+  "batch": "b52",
+  "summary": {
+    "added_verified_unique_states": 3,
+    "added_verified_condition_records": 6,
+    "new_source_measurement_states": 1,
+    "newly_completed_existing_TG_only_states": 1,
+    "newly_completed_canonical_pairs_using_shared_TG": 1,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b52_cej_dd.csv",
+      "DOI": "10.1016/j.cej.2025.165778",
+      "draft_sha256": "6bd45a86be4077160734d31f414d00d418f069f3130f6fee77d982b6a83b7138",
+      "published_input_sha256": "084405b7f6368ab40cad8bab474d5917e7b9b4fd082101c8f60dbc4fa76f7536",
+      "states": 1,
+      "conditions": 2,
+      "classification": "new_source_measurement_state",
+      "accepted_measurement_fingerprints": [
+        "66db766aab44ac37369587659b5fe4bb38f711ef145a50465a604826534a2028",
+        "712467623137d280a3aa89295a94a73420ac4beee211b44af5a106cedf7eb375"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b52_cej_cotton.csv",
+      "DOI": "10.1016/j.cej.2025.165778",
+      "draft_sha256": "be38820ef807b9e228ba7fbb99dcf97a78546ea0807723942a6030590afd58d4",
+      "published_input_sha256": "3ea61ba293b3c5b809325f50fceb565853970a8ab2d3aaf033e3e9ac1ec07956",
+      "states": 1,
+      "conditions": 2,
+      "classification": "newly_completed_canonical_pair_shared_TG",
+      "accepted_measurement_fingerprints": [
+        "d0f44943626dc3fcf53522c4df7177d6ac5339d60531ea96d44c6be7cf7d268a",
+        "b01e060d54905119f00996ceafa6858c95962ab0816ad9ec1f3ba51e7bba2ec8"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b52_dopo_etes.csv",
+      "DOI": "10.1007/s10570-022-05033-3",
+      "draft_sha256": "9698f8d31e8c1364b331cf7c10b09c7dd380051345c1c1773f00c958a5ef73e2",
+      "published_input_sha256": "de34900f50cdf7e2fa2c86f3c23d346b5a0015713afb64d8ed10da97b6da32ce",
+      "states": 1,
+      "conditions": 2,
+      "classification": "newly_completed_existing_TG_only_state",
+      "accepted_measurement_fingerprints": [
+        "2d078be12cc71ea2e5e8e8393975828550185a5360e4927ddcb95ab6a6cd5733",
+        "98ee7bc966483eb517d89e92c75dd06a5be70833d2d62a3609546485b69ac2cb"
+      ]
+    }
+  ],
+  "limitations": [
+    "DD contributes one new source state. Cotton is a newly completed sole canonical pair using shared nitrogen TG, not a new independent TG experiment. DOPO-ETES completes one prior TG-only state.",
+    "CEJ relevant final-published text independently reviewed; no CEJ pixel QA claimed. DOPO-ETES original Table1 and exact LOI prose visually inspected.",
+    "No double count of TD or Cotton across CEJ/PDS. Conflicting Cotton N2T5 and source bath/add-on normalization are withheld.",
+    "No unlabeled plot digitization, atmosphere duplication in state counts, calculated silica-free residue, neat FR, MCC or washed-state substitution. Source caches and private preparation are not published."
+  ]
+}
