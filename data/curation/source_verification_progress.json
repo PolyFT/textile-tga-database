@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T22:54:19.060572+00:00",
+  "as_of_utc": "2026-09-30T23:05:40.683Z",
   "latest_batch_id": "20260930_b69",
   "verified_condition_records": 556,
   "verified_unique_sample_states": 485,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
     "batch": "b68",
     "merge_sha": "bb1738f4dab1d52779625a4fa9124f5203c67880",
@@ -38,10 +38,11 @@
   },
   "writer_lease": {
     "owner": "dot-source-review-b69-20260930",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-09-30T22:51:50.789Z",
-    "scope": "Eight independently approved casein LBL and NYCO PA/Cys states; additional Lessan original source under independent QA. Public facts only; preserve source-specific conditions and unknown fields.",
-    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
+    "scope": "B69 thirteen approved textile states published; exact input blobs and full validation report reconciled",
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks.",
+    "released_at_utc": "2026-09-30T23:05:40.683Z"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -635,6 +636,22 @@
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 3,
     "tests_passed": 261,
-    "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849"
+    "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849",
+    "publication_checkpoint": {
+      "batch": "b69",
+      "pr": 36,
+      "merge_sha": "618c0656c078ea881678820d45837e8241f57201",
+      "validated_head": "79d50ca3e63504a1cdd829de3323dcf15a8f049f",
+      "validation_run": 36788936714,
+      "postmerge_runs": [
+        36789028042,
+        36789028069,
+        36789028027
+      ],
+      "verified_sample_states": 485,
+      "verified_condition_records": 556,
+      "verified_dois": 112,
+      "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849"
+    }
   }
 }
