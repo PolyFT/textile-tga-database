@@ -1,0 +1,53 @@
+{
+  "batch": "b65",
+  "review_completed_utc": "2026-09-30T21:58:35.308552+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 3,
+    "accepted_condition_rows": 3,
+    "new_source_inventory_states": 3,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "screened_held_additional_papers": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b65.csv",
+      "published_input_sha256": "3b20b630da28ed0f28c2577e0f6d600fca3dca34334ab2a37c6c285651d6120d",
+      "unique_sample_states": 3,
+      "conditions": 3,
+      "accepted_measurement_fingerprints": [
+        "0b24377be55b8cdbe219dadddc31146350108650afe256de27e4a6a4ca45cc17",
+        "2a374fcb75cac1a4549e3394da23d833798404e5b12480e58daea6992631b216",
+        "2e7d5dd00d0428135e0ecb8d5180e9b915fa9aaba574107c64de3e783d7d25b8"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s40820-025-01728-x",
+      "accepted_states": 2,
+      "reason": "other_variants_no_exact_matched_TG_LOI",
+      "disposition": "ACM andANFs/eicosane haveownLOI29.1/24.9 butnoexactmatchedTGmetrics inTableS1. Non-ACMCA/ACMCA-M andelectricalwash/twistvariants lackmatchedTG/LOI. SourceTi95%lossdefinition,30-100Cmethodrange andpeakrate%/C-vs%/min conflicts retainedwithoutcorrection; Ti andnormalizedpeakrate notadmitted."
+    },
+    {
+      "DOI": "10.1007/s40820-023-01200-8",
+      "accepted_states": 1,
+      "reason": "control_LOI_unlabelled_and_core_vs_completed_fiber_mismatch",
+      "disposition": "PureANFs printedgenericTGresidue41.2 butLOIbarunlabelled; noLOIderivedfrom16%improvement. n/p/fullcoaxialfiberLOI~35 approximate; SI n/pTG42.4/29.6 testscores, notcompletedfibers. NeverattachshellTG58.5 tofullTEfiber. Electricalwashedtextileperformance notwashedTG/LOI."
+    },
+    {
+      "DOI": "10.3390/polym15010141",
+      "accepted_states": 0,
+      "reason": "TG_N2_methods_vs_O2_primary_and_SI_captions_conflict",
+      "disposition": "Complete14pageprimaryPDF andcompleteofficialSI read. Method2.4p3 N2/5Cmin/20-700C vsFigure4p7 andSI FigureS2 oxygen/25-700C. Preserveconflict; noatmospherechoice. OwnANFsLOI26.1 andTEOS8LOI36.5; Table1 initialdecompositiontemperatures notT5. FiveCVDstates screened; noadmission."
+    },
+    {
+      "DOI": "10.1002/advs.202303406",
+      "accepted_states": 0,
+      "reason": "exact_TG_metrics_absent_in_main_SI_access_pending",
+      "disposition": "CompleteprimaryXML read. Mainmethods Ar/10Cmin30-800C andLOIHC2C. BodyLOI>40 vsintro40; exactFigure4barsnotyetverified. MainTGcurves noexactresidue/peakreported. OfficialSIfilenameADVS10-2303406-s003 identifiedbutattachmentreturnsHTMLrecaptcha, unreviewed. Preserveownfiberform vslaterwovenfabric andMCCmetrics excluded."
+    }
+  ],
+  "verification_limit": "Originalmain andcompleteofficialSI reviewedforbothacceptedsources andANFsilica; LMmainonlywithSIpending. Exactprose/tables/printedfacts only, nosourcecorrection/digitization. Oneprimarysourcereviewer; noindependentreplicateclaim. Publicfacts andconciseDOIlocators only, nofulltext/privatepaths."
+}
