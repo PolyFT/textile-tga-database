@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **470 unique DOI/sample/washing states**, **541 TG condition records**, and **108 papers**. The near-term target is 500 unique states; **30 remain**. The long-term target remains 2000.
+The reviewed dataset contains **472 unique DOI/sample/washing states**, **543 TG condition records**, and **109 papers**. The near-term target is 500 unique states; **28 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **470 unique DOI/sample/washing states**, **541 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 269 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 271 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -464,3 +464,14 @@ Four genuinely new sample states add four nitrogen TG observations from two orig
 Potentially reused BC controls, unmatched dose screens, washed color-fastness specimens and unpaired jute concentrations remain held. Original-source review passed at exact draft hashes; source fulltexts remain private.
 
 Published through PR34 at merge 79172e84229ff1b5d0be47579f15aa5174cb935b. All 253 tests, exact-head validation and snapshot consistency passed at 797a48c288d31ba5defd6af0161b363832943feb. All three postmerge workflows passed and the writer lease was released. Snapshot SHA256: b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77.
+
+
+## b68 PLA nonwoven source review
+
+Two genuinely new states, two verified nitrogen TG conditions and zero old-pair evidence upgrades (DOI10.1016/j.jclepro.2020.124497). OwnPLA LOI18.3 andPLA/25%APTris LOI30.0 inSection3.4.1 matchTable3 experimentalT10/T50/Tmax/R800. TGconditionsN2/10Cmin and6+/-1mg inSection2.4.6; nonwovenLOI15x6cm2/5repeats inSection2.4.2. CompleteprimarymainXML andcompleteofficialDOCXSI reviewed; originalFigure5a andSIFigureS2 pixels inspected.
+
+Allfiveformulations retainedinbothTGatmospheres (10rows total). Twoairnumericpairrows remainconditionpartial becauseSI doesnotindependentlystateairramp; threeintermediateformulations ineachgas remainTGonly becauseexactLOIbars areunlabelled. No LOI calculationfromrelativeimprovements, no calculatedchar orcone/MCCsubstitution. No extra independentstates forair.
+
+Twenty furtherprimarysource screens arepreservedwithspecificresumegates andSIreadstatus. SA/PADL preparesbothfilms andfibers withouta clearfiretest-formcrosswalk. BicomponentPLA TGtestsonlyas-spunfiberswhileLOItests thermallybondednonwovens. RTM MRPresidue30.9 isnormalizedauthor-calculatedorganicresidue, notwholelaminateresidue; controlLOIapproximate. POD methods10Cmin versusdiscussion20Cmin conflict isheld. Others lackownLOI, ownTG, exactvalues orsameform. Thesearezero newverifiedpairs, notcandidates countedtowardthetarget.
+
+Currentproposedtotal472; strictlyexceeding500 requires29more. Latestmain andallpriorfingerprints preserved; publicfacts/provenance only, libraryuntouched. Exact-head CI, normal PR merge andindependentmainreadback remainrequired.

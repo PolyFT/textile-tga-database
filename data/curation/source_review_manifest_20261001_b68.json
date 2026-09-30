@@ -1,0 +1,137 @@
+{
+  "batch": "b68",
+  "review_completed_utc": "2026-09-30T22:38:44.936761+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 2,
+    "accepted_condition_rows": 2,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "screened_held_additional_papers": 20,
+    "partial_air_pair_rows": 2,
+    "TG_only_rows": 6,
+    "total_preserved_TG_rows": 10
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b68_pla_aptris.csv",
+      "published_input_sha256": "9faee55bdedb1a77fb2d079cd1d503544dd263a4da457d9e4efff3f218ba7105",
+      "unique_sample_states": 2,
+      "verified_conditions": 2,
+      "total_TG_rows": 10,
+      "accepted_measurement_fingerprints": [
+        "ee110e4c74b360bf8aa5c04978d205d027f59f5ee63a028c2b588e0857e0a0fa",
+        "2d9b8b38253ca24a76dfafdc1d10dd3b6350fca6062d047cf0ee9f15fddb4504"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.jclepro.2020.124497",
+      "accepted_states": 2,
+      "disposition": "OnlyownPLA18.3 andPLA/25%APTris30.0 fromSection3.4.1 pairwithTable3 nitrogenTG. AllfiveformulationTGrows preservedinN2/air. ThreeintermediateLOIbarsunlabelled; noestimates/relativepercentcalculations. SIairrate notindependentlystated; twoairnumericpairrowsremainconditionpartial, sixrowsTGonly. Calculatedchar/MCC/coneresidueexcluded."
+    },
+    {
+      "DOI": "10.1038/s41598-026-47539-x",
+      "accepted_states": 0,
+      "disposition": "OwnsixLOIstates; mainnoownTG; SIunreviewed"
+    },
+    {
+      "DOI": "10.1016/j.heliyon.2025.e42400",
+      "accepted_states": 0,
+      "disposition": "OwnthreeLOIstates; mainnoownTG; SIunreviewed"
+    },
+    {
+      "DOI": "10.1002/advs.202507673",
+      "accepted_states": 0,
+      "disposition": "SIFYownLOI50.2, coating33.6/SEBS18.6; mainnoTG; SIidentifiedunretrieved; do notmixcoatingwithyarn"
+    },
+    {
+      "DOI": "10.1038/s41467-026-69790-6",
+      "accepted_states": 0,
+      "disposition": "Original main and97pageSI text screened; SI Figure70 N2TGAcurve onset>500, noownLOI identified. Thresholdnotexact; no curveestimation. Remaining SI mechanical/morphology figures not numerical TG-LOI evidence."
+    },
+    {
+      "DOI": "10.3390/polym13173011",
+      "accepted_states": 0,
+      "disposition": "Own6initialLOIstatesplus5washedLOI; noownTG inmain, citationsnotown. SIunreviewed"
+    },
+    {
+      "DOI": "10.3390/polym15051183",
+      "accepted_states": 0,
+      "disposition": "TGbulkPA66/DiPEcomposites; separatelymeltspunfiberknittedfabricLOI23.1/28.6, notsamephysicalform"
+    },
+    {
+      "DOI": "10.3390/polym12112442",
+      "accepted_states": 0,
+      "disposition": "TGwetspunPANVDCfibers air20; ownLOI fourcastfilms26.4/29/31/33.5, notsamephysicalform"
+    },
+    {
+      "DOI": "10.1039/c8ra10071c",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: Table3fiberTG exact; methods10Cmin vs PyGCdiscussion20CminTGconflict; LOIFig5unlabelledvalues exceptendpointprose28/35; SIunreviewed. Noadmission/no ratechoice."
+    },
+    {
+      "DOI": "10.3390/ma10050467",
+      "accepted_states": 0,
+      "disposition": "Completeprimarymaintext: carbonfabric/SPElaminatesownLOITable1; noownTG, DMAglass-transitionTg isnotTGA. Noadmission."
+    },
+    {
+      "DOI": "10.3390/polym16162333",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: woven-glass GFRERownLOI6states Table2; DMSTA massspectrometry product-release peaks are not TG mass-loss temperatures. NoownTGmetricfound. SIunreviewed."
+    },
+    {
+      "DOI": "10.3390/polym14193962",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: flaxfabriclaminatefiretestscone; LOIoccursinliteraturecitation, noownpairedLOI. AgedstatescannotborrowliteratureLOI."
+    },
+    {
+      "DOI": "10.3390/polym14224975",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: TGtestedresinblends; carbon/glassfabriclaminatein-flametests; highLOI>80cited priorpapers notownexactobservation. Noadmission."
+    },
+    {
+      "DOI": "10.3390/polym10101081",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: Table4TG resins, Table1bulkresinLOI versusTable6carbonfabriclaminateLOI. Table7residuemeasuredcone notTG. Noresin-TG/laminate-LOI crosspair."
+    },
+    {
+      "DOI": "10.1038/s41598-026-45783-9",
+      "accepted_states": 0,
+      "disposition": "Targetedprimarymainreview: banana350mm/barkclothsheetlaminates; LOIintheintroduction citespriorstudy; ownflammabilitynotLOI. NoownTG/LOIpairfound."
+    },
+    {
+      "DOI": "10.3390/ma11122554",
+      "accepted_states": 0,
+      "disposition": "Complete18pageoriginalmainPDF, official8pageSI andoriginalFigures4/5pixels reviewed. OwnthreeexactLOIs46.0/48.8/46.4, controlabout25.9 only. TGtreatedresidue30.9 normalizedtoorganicfraction isauthorcalculated, notwholelaminateTGresidue. Rawcurvesunlabelled; no estimates or reconstructedresidue. SI TableS4 iscone, notTG. Conclusion5%vsbody7.5% resinbasisconflict preserved. Noadmission."
+    },
+    {
+      "DOI": "10.3390/polym17070924",
+      "accepted_states": 0,
+      "disposition": "Primarymain targetedreview: own7cottonTGA states N2/20Kmin, ownFRmeasuredverticalburnandMCC. LOI<25 citespriorDOPOstudies, notownLOI. SIunreviewed."
+    },
+    {
+      "DOI": "10.3390/polym15010154",
+      "accepted_states": 0,
+      "disposition": "Completeprimary15pagePDF/XMLandoriginalFigure7p10 inspected: fiveexactTG/LOI samplelabels but Section2.3 co-producescastSAfilms andwetspunfibers. Firetestphotos sheets, nofiber-sheetassemblycrosswalk; coneprose saysSAfilm whilemethod/results callfiber. ActualLOIspecimenform unresolved, nofiber/filmpair. SA20LOIdispersion0.2Table3vs0.3abstract/conclusion; central40unchangedbutuncertaintyconflict. T_onset explicitly5%loss, no structuralonset reinterpretation; noownSIlisted."
+    },
+    {
+      "DOI": "10.3390/ma12193095",
+      "accepted_states": 0,
+      "disposition": "Primarymain targetedreview: Table6TGAonlyas-spunbicomponentfibers N2/10Cmin/700C; Table8LOIthermallybondednonwovenfabric19.3/25.2/27.1/30.4. Sourceexplicitlyselectedas-spunfibersonlyTG. Physicalform/thermalbondingstate mismatch; conechar notTG. NoadditionalownSIidentified."
+    },
+    {
+      "DOI": "10.1021/acsomega.6c02520",
+      "accepted_states": 0,
+      "disposition": "Primarymain targetedreview: ownpineapplefiber/nonwovenUL94tests; onlyLOIincitedliterature. TGresidues~19/~23/~31 allapproximate; noexactcurvedigitization. SIidentifiedunreviewed."
+    },
+    {
+      "DOI": "10.1038/srep39910",
+      "accepted_states": 0,
+      "disposition": "Primarymain targetedreview: cottonCMC/MTMcoatings TGbothN2/air10Cmin25-850C, onsetsaround280/275 andunlabelledresidualplots. NoownLOI main, burnerbreakthrough/verticalflame are notLOI. SIunreviewed."
+    }
+  ],
+  "verification_limit": "AcceptedPLA completeprimarymain andcompleteofficialSI reviewed; originalFigure5/SIFigureS2 inspected. Other source targetedmain screens orcompletePDF reviews exactlyasnoted; SIunreviewed explicitlyretained. Oneprimarysourcereviewer; noindependentreviewerclaim. Publicfacts andconciseDOIlocators only; nofulltexts/privatepaths."
+}
