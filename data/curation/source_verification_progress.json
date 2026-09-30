@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30 23:35:08 UTC",
+  "as_of_utc": "2026-09-30T23:59:25.491Z",
   "latest_batch_id": "20261001_b71",
   "verified_condition_records": 577,
   "verified_unique_sample_states": 501,
@@ -38,10 +38,11 @@
   },
   "writer_lease": {
     "owner": "dot-source-identity-schema-20260930",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-09-30T23:48:14.593Z",
     "scope": "Code-only registry-bound stable source identity schema; no new observations. Preserve all existing DOI identities and 501 states/577 conditions/117 DOI, with independent code QA at exact patch hash.",
-    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks.",
+    "released_at_utc": "2026-09-30T23:59:25.491Z"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -710,5 +711,27 @@
       "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
       "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
     }
-  }
+  },
+  "source_identity_schema": {
+    "version": 1,
+    "pr": 39,
+    "merge_sha": "a1aa219c3f06ee0090b2f7082a1a641aca3d46a9",
+    "validated_head": "6527b82c1d94ba04cfa8c36d8084db49549e1eef",
+    "validation_run": 36793194295,
+    "postmerge_runs": [
+      36793496819,
+      36793496844,
+      36793496818,
+      36793496762
+    ],
+    "tests_passed": 292,
+    "accepted_master_unchanged": true,
+    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f",
+    "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
+    "new_observations": 0
+  },
+  "verified_sources": 117,
+  "verified_non_doi_sources": 0,
+  "verified_doi_sample_states": 501,
+  "verified_non_doi_sample_states": 0
 }
