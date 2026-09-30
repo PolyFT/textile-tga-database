@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b44_publication_in_progress",
   "last_merged_batch": {
     "batch": "b43",
     "merge_sha": "78a1fd32807d536bf149f1155bd71c5bb7ecf623",
@@ -32,10 +32,18 @@
     "snapshot_sha256": "6636b7d4c35a2bf8854d60bfad1bf0484ddcc1a6d85e0a92effac5bc541580c4"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T16:48:52Z",
-    "instruction": "PR #10 is merged and the b43 writer lease is released. A withdrawn competing preparation exists at PR #9 (codex/source-review-b43). Confirm current main, open data PRs and source scope before any new publication claim. Never overwrite concurrent changes."
+    "owner": "source-verification-b44-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T16:52:37Z",
+    "batch": "b44",
+    "sources": [
+      "10.1038/s41598-024-71071-5",
+      "10.7317/pk.2018.42.2.157",
+      "10.13543/j.bhxbzr.2016.02.004",
+      "10.33263/briac123.36473663",
+      "10.1177/1528083719881816"
+    ],
+    "instruction": "One publisher is importing the 21 previously announced, independently source-reviewed cotton/nylon/wool pairs. Other preparation may continue read-only on non-overlapping sources. Check current main/open PRs before any competing publication; never override an active writer."
   },
   "next_sources": [
     "10.1038/s41598-024-71071-5",
