@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **417 unique DOI/sample/washing states**, **485 TG condition records**, and **97 papers**. The near-term target is 500 unique states; **83 remain**. The long-term target remains 2000.
+The reviewed dataset contains **454 unique DOI/sample/washing states**, **522 TG condition records**, and **101 papers**. The near-term target is 500 unique states; **46 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **417 unique DOI/sample/washing states**, **485 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 216 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 253 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -420,3 +420,12 @@ ED22 glass-laminate LOI cannot yet be assigned across its two curing systems/thi
 One genuinely new independent fiber sample adds one TG condition; zero existing-pair evidence upgrades. Original main and complete official supplement reviewed. Section4 p18 explicitly reports ownLOI41.5%; Section3.3 p9 reports56.12wt%genericTGresidue. OriginalFigure3 p10 inspected. Nitrogen/10Cmin/30-800C fromSection2.4 p5; default30s firstcoagulationbath fromSection3.4 p11. Generic residue temperature remains blank rather than inferred as800C fromscanendpoint. MaximumDTGrate isnotTmax. ANF/AMcontrolLOI bars have no printedvalues and are not estimated; othercoagulationdurations lack matchedTG/LOI. MissingLOIprotocol/finaloxide-AgNWloadings andsourcefigurelabel inconsistencies remainexplicitlimitations.
 
 Six other sources addzero pairs: completeCNF/PANISI lacksTGgas; completeACSramieSI has6BLstates/12N2-airTGconditions but lacksheatingrate andmain403; PI2792main hascomposition/LOI/form conflicts withSIpending; washing-fabric19010044 is a review with no ownpairs; Heliyoncotton37120 hasonlycitedLOI/noownTG; RSCc6ra00067c TGnumeric/ramps andSIreview blocked by403. Per-sourceholds preserve progress and avoidrepeatqueries. Strictly exceeding500 requires84 additionalverifiedsamples. Publicfacts/provenance only; privatecaches remainoutside andmetadata libraryunchanged. Exact-headtests/scientificgate/snapshotCI and independentmain readback precedeconditionallease release.
+
+
+## b64 CN-3, EHP/MHP and mono-substituted CN cotton sources
+
+Thirty-seven genuinely new sample states add thirty-seven nitrogen TG conditions from four original papers. CN-3 contributes eight twill/print-cloth states, EHP/MHP contributes eight twill states, and mono-substituted CN contributes four twill states. Exact table LOI means, reported uncertainties and R600 are retained. Author-defined onsets stay separate from DTG maxima, percentage-loss metrics and MCC heat-release temperatures. Methods give nitrogen at 10 C/min and 60 mL/min, with source-specific recipes and initial post-cure wash state.
+
+Whole-paper screening preserves contradictory controls, unmatched washes, repeated CN-1 comparison observations and inconsistent caption aliases as holds. The EHP20 second onset remains withheld. The separate piperazine2014 paper lacks an explicit standalone TG ramp and is excluded; a referenced TGA-FTIR method is not silently inherited. Seventeen initial wool/polyamide states from a fourth paper pair exact Table7 thermal metrics with Table13 LOI. Their nitrogen ramp is20 C/min, residue is explicitly810 C and the two colemanite preparation methods remain distinct. Five-cycle washed TG observations lack washed LOI and stay excluded. Independent original-source review passed at exact draft hashes, including official ACS SI TableS2 and original wool/polyamide PDF table pixels. Main author text access and unavailable PDF pixel review are stated accurately. Source fulltexts remain private.
+
+The b64 writer lease remains active pending exact-head CI, merge and postmerge verification.
