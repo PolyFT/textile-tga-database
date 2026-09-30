@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b63_merged_independently_verified_on_main",
+  "publication_stage": "b63_merged_postmerge_verified_lease_released",
   "last_merged_batch": {
     "batch": "b63",
     "pr": 30,
@@ -37,11 +37,12 @@
   },
   "writer_lease": {
     "owner": "codex-local-metadata-siam-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b63",
     "claimed_at_utc": "2026-09-30 21:35:09 UTC",
     "scope": "One original-source same-state SIAM wet-spun aramid sensing fiber; complete main/SI review. Preserve generic residue temperature and no graph-only controls, six source holds.",
-    "instruction": "Single publisher; conditional lease release only after exact-head CI and independent postmerge verification."
+    "instruction": "Released after228tests, exactfinalheadCI, independentremotemainhash/row verification andthreepostmergeCI successes; nextpublisher refreshmain/queue/PR andclaimviaSHA.",
+    "released_at_utc": "2026-09-30 21:43:06 UTC"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
