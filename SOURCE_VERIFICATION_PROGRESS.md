@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **412 unique DOI/sample/washing states**, **480 TG condition records**, and **95 papers**. The near-term target is 500 unique states; **88 remain**. The long-term target remains 2000.
+The reviewed dataset contains **416 unique DOI/sample/washing states**, **484 TG condition records**, and **96 papers**. The near-term target is 500 unique states; **84 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **412 unique DOI/sample/washing states**, **480 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 211 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 215 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -404,3 +404,12 @@ Complete main and official SI review of research.0910 found precursor TG and gas
 [PR #28](https://github.com/PolyFT/textile-tga-database/pull/28) merged as `e9c712fb5e8b835fd2e8701dac5ba4d75bcf957a`. Exact head `c0297963e2061a232b0ebcb1f6d8dd2924560d97` passed [validation 36776768369](https://github.com/PolyFT/textile-tga-database/actions/runs/36776768369), including 224 tests, compilation, scientific validation and committed-snapshot consistency. Main independently confirms 412 unique states, 480 TG conditions, 95 DOI and errors=[]. Thirteen genuinely new states add 24 conditions; repeated cotton heating ramps add no independent states. Snapshot SHA-256: `6e4520922b7352512b277729a5589c9e72f69ada01ff914ec964a3d73a96f4f5`.
 
 Postmerge validation, processing and rebuild runs 36777382809, 36777382841 and 36777382968 passed. The writer lease was released through compare-and-swap. Refresh the live progress JSON, main, queue and open PRs before another publication. Source fulltexts remain private.
+
+
+## b62 ramie-fabric epoxy laminate source review
+
+Four genuinely new independent samples add four TG conditions from one original paper; zero evidence-only upgrades. Original Table1 p4, Table3 p10 and complete official two-page supplement reviewed. All four final twelve-ply ramie-fabric laminates have same-row exact T10, explicitly800C char and LOI. TG is N2/25mLmin/20Cmin/25-800C; neither TG-IR10Cmin nor DSC ramps are substituted. Decimal Table3 temperatures take precedence over rounded discussion.
+
+Rmax has unresolved column/unit meaning and remains unconverted, never guessed as Tmax. Exact formulation masses remain as reported; inconsistent FPDpercentage/resin-content statements are flagged without inferring whole-laminate loadings. LOI thickness is unreported and is not borrowed from the vertical flame test. Preparation rinses are not durability wash states. SI contains FPD NMR and solubility figures, no extra material tests.
+
+ED22 glass-laminate LOI cannot yet be assigned across its two curing systems/thicknesses. Ground plant-fiber phenolic slabs await scope clarification. CNF/PANI aerogel original SI and exactTG facts remain pending. These three holds add zero verified samples. Source caches stay outside the public repository and the metadata library stays untouched. Strictly exceeding500 requires85 more verified independent samples after this batch. Exact-head tests, scientific validation and committed-snapshot CI must pass before merge; independent main readback precedes lease release.

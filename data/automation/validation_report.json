@@ -415,6 +415,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b62.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -695,9 +702,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1330,
-  "legacy_field_complete_condition_records": 726,
-  "numeric_pair_candidate_rows": 869,
+  "all_loaded_rows": 1334,
+  "legacy_field_complete_condition_records": 730,
+  "numeric_pair_candidate_rows": 873,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -705,28 +712,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 480,
-  "verified_exact_condition_records": 480,
-  "verified_exact_sample_states": 412,
-  "verified_exact_dois": 95,
-  "candidate_dois": 118,
-  "candidate_sample_states": 683,
-  "rows_with_numeric_loi": 915,
-  "rows_with_any_tg_numeric": 1220,
+  "strict_tg_loi_pairs": 484,
+  "verified_exact_condition_records": 484,
+  "verified_exact_sample_states": 416,
+  "verified_exact_dois": 96,
+  "candidate_dois": 119,
+  "candidate_sample_states": 687,
+  "rows_with_numeric_loi": 919,
+  "rows_with_any_tg_numeric": 1224,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1588,
+  "remaining_to_target": 1584,
   "plot_ready_verified_counts": {
     "Tmax1_C": 304,
     "T5_C": 185,
     "Tonset_C": 67,
     "R600_pct": 122,
     "R700_pct": 100,
-    "R800_pct": 59
+    "R800_pct": 63
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "6e4520922b7352512b277729a5589c9e72f69ada01ff914ec964a3d73a96f4f5"
+  "snapshot_sha256": "8ae46115d998994ddd894757625e0b7f5d2d45acfa75da5f2593397c67c7f005"
 }
