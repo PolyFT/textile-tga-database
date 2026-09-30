@@ -1,8 +1,8 @@
 # Textile TGA Database
 
-Private research database for textile thermal-response / thermogravimetric data, with LOI as a principal fire-performance label.
+Research database for textile thermal-response / thermogravimetric data, with LOI as a principal fire-performance label.
 
-## Current snapshot
+## Historical imported workbook snapshot (2026-09-21)
 
 - Literature TG records: 209
 - Commercial / branded / city-use textile TG records: 430
@@ -52,7 +52,7 @@ CSV is the source of truth. Each new batch should:
 1. add/verify sources,
 2. append sample-state rows,
 3. append TG/LOI observations,
-4. regenerate `scatter_ready.csv`,
+4. run the evidence-gated rebuild for candidates, quarantine and strict master,
 5. commit with a batch-specific message.
 
 PDFs are not stored here unless redistribution is clearly permitted; use DOI/URL and source-location fields for provenance.
@@ -73,41 +73,61 @@ Paper-facing scatter plots should use only rows with exact sample-state matching
 
 Additional candidate queues contain PA6/PA66/PET/viscose/lyocell/cuprammonium/Nylon56 sources that remain outside the main paired layer until TGA conditions and exact sample-state mapping are resolved.
 
-## Closed-loop automation
+## TG–LOI processing and evidence review
 
-The repository now runs a conservative end-to-end TG-LOI pipeline automatically.
-
-Scheduling is split to avoid search-API throttling. `TG-LOI literature discovery` runs hourly at minute 17 (UTC) and advances stateful OpenAlex pages. `TG-LOI 10-minute processing` runs every 10 minutes to consume the existing candidate queue, perform sample-level extraction, run Grade-B second-pass review, and rebuild the strict master table.
+Discovery is configured hourly at minute 17 UTC and processing at `*/10` UTC.
+GitHub scheduling can be delayed; configured cadence is not a throughput guarantee.
 
 Data flow:
 
+1. OpenAlex and open-source discovery write `data/automation/candidate_extractions.csv`
+2. Extraction and the Grade-B condition pass retain numeric matches and source evidence in `data/automation/auto_extracted.csv`, `review_queue.csv`, and `b_review_resolved.csv`
+3. Original `data/scatter_ready.csv` and `data/incoming/verified*.csv` remain source records. A `verified` filename is not itself scientific verification
+4. Validation writes all numeric pairing candidates to `data/tg_loi_candidates.csv`; known form conflicts, unresolved aliases, and conflicting duplicate values also appear in `data/automation/pairing_quarantine.csv`
+5. Only individually evidence-reviewed exact observations enter `data/tg_loi_master.csv` as Grade A
+
+### Grade-A admission
+
+Matching labels and complete numerical fields are necessary but insufficient. A reviewer must document the exact same material formulation, physical form, treatment and washing state for the TGA and LOI observations, exact numeric evidence, and concrete source/table/method locations. The same normalized DOI/sample/washing/atmosphere/rate key and measurement fingerprint bind the review to the observation. Changes to measurements require another review.
+
+Record reviews in `data/curation/pair_reviews.csv`; see `schema/pairing_review.md`. No review is fabricated during migration. Missing newly introduced metadata means **pending documentation**, not a conclusion that legacy data are wrong. Known concerns are listed separately in `data/curation/known_pairing_issues.csv`, with both aliases retained until source mapping is resolved. Shared sample labels preserve punctuation; physical-form, washing-state and sample-alias equivalence is never guessed.
+
+The 2000-pair target is reported as reviewed DOI/sample/washing-state combinations, separately from measurement-condition counts. It is a provisional reporting definition for review, not a claim that every such combination is an independent experimental replicate. All plots must still stratify atmosphere, heating rate, material form and residue temperature and account for clustering by paper/sample.
+
+### Retry and discovery behavior
+
+- Extraction v6 retries unavailable/partially parsed sources after capped exponential cooldown, with reason, attempts and next retry recorded. A successfully parsed source with no exact sample match waits for input/parser changes
+- Grade-B review caches input/evidence/version fingerprints and separates missing conditions, source failures, non-textile exclusions and pending exact-state evidence. Unchanged settled items are not fetched every run
+- A new review-registry entry invalidates review/extraction caches. Failed or unchanged runs do not rewrite unchanged outputs merely to change timestamps
+- Discovery suppresses only works already in its extraction queue, not every DOI mentioned elsewhere in the repository. Use `python scripts/harvest_tg_loi.py --refresh-existing --max-new 25` for a bounded, deliberate evidence refresh of queued works encountered by the current cursor
+- Supplementary/PDF evidence can be discovered but is **not yet an end-to-end exact-pair extraction route**. This repair does not add PDF digitization, external-model calls, paid APIs or automatic inference from curves
+
+### Checks and safe publication
+
+Run locally with the existing dependencies:
+
+```sh
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python -m compileall -q scripts tests
+python scripts/validate_tg_loi.py
 ```
-OpenAlex / open full text / supplementary evidence
-        ↓
-data/automation/candidate_extractions.csv
-        ↓
-scripts/extract_tg_loi.py
-        ↓
-data/automation/auto_extracted.csv
-        ├── Grade A → data/incoming/verified_auto_YYYYMMDD.csv
-        └── Grade B/C → data/automation/review_queue.csv
-        ↓
-scripts/validate_tg_loi.py
-        ↓
-data/tg_loi_master.csv
-```
 
-Automatic Grade A promotion is intentionally strict. A row is promoted only when:
-- the LOI and TG tables contain an exact normalized match for the same sample state;
-- LOI is an exact numeric value, not a range or inferred midpoint;
-- at least one supported TG numeric field is explicitly tabulated;
-- TGA atmosphere and heating rate are unambiguous;
-- the source is a textile/fabric/fiber/yarn system rather than a plaque, film, resin, composite or paper state;
-- the normalized DOI + sample state + atmosphere + heating-rate key is not already present in the strict master table.
+The plotting helper defaults to the evidence-reviewed master, requires a single TG-condition stratum, and refuses empty output. For intentional legacy exploration, pass `--csv data/tg_loi_candidates.csv --exploratory`; its figure is visibly labeled and can include quarantined records. Matplotlib remains an optional pre-existing plotting dependency.
 
-Grade B retains useful numerical pairings with incomplete/ambiguous conditions. Grade C retains non-pairable candidates or sources whose structured tables cannot be safely parsed. Neither B nor C is automatically used for paper-facing scatter plots.
+Tests use local fixtures and mocked requests. A passing test suite is not a claim of successful live publisher access or scientific re-review of every paper. Rebuilds fail before replacing outputs when input ranges are invalid or an input CSV is unreadable. Validation and README counts use the same deterministic snapshot. Actions retain the existing single-writer/latest-main guard.
 
-The workflow fast-forwards to the current `main` branch before processing and skips stale commits if `main` advances during a run. This prevents automated state files and master-table rebuilds from creating merge/rebase conflicts.
+<!-- TG-LOI-SNAPSHOT:START -->
+## Current TG–LOI evidence snapshot
 
-Current strict paired count: **194** (validation report: 2026-09-27; target 2000).
+- Legacy field-complete condition records: **226** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **232**, across **43 DOI**
+- Field-complete, unflagged condition records awaiting evidence review: **214**
+- Quarantined condition records: **12**; originals and reasons retained
+- Evidence-reviewed exact Grade-A conditions / sample states: **0 / 0**
+- Target: 2000 verified sample states; remaining **2000**
 
+A missing new review field means pending documentation, not that a legacy measurement is wrong.
+Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
+Snapshot SHA-256: `d213a7cd4828dcf3f6221800ce934f7b040659e13595fd68f5b40c6f190fdb8a`
+<!-- TG-LOI-SNAPSHOT:END -->

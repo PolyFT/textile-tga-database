@@ -1,11 +1,36 @@
 {
+  "report_version": 2,
   "all_loaded_rows": 876,
-  "strict_tg_loi_pairs": 226,
+  "legacy_field_complete_condition_records": 226,
+  "numeric_pair_candidate_rows": 232,
+  "eligible_pending_condition_records": 214,
+  "quarantined_condition_records": 12,
+  "quarantine_reason_counts": {
+    "possible_sample_alias": 8,
+    "specimen_form_mismatch": 4
+  },
+  "strict_tg_loi_pairs": 0,
+  "verified_exact_condition_records": 0,
+  "verified_exact_sample_states": 0,
+  "verified_exact_dois": 0,
+  "candidate_dois": 43,
+  "candidate_sample_states": 187,
   "rows_with_numeric_loi": 232,
   "rows_with_any_tg_numeric": 286,
   "rows_missing_atmosphere_among_pair_candidates": 2,
   "rows_missing_heating_rate_among_pair_candidates": 6,
   "target_pairs": 2000,
-  "remaining_to_target": 1774,
-  "errors": []
+  "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
+  "remaining_to_target": 2000,
+  "plot_ready_verified_counts": {
+    "Tmax1_C": 0,
+    "T5_C": 0,
+    "Tonset_C": 0,
+    "R600_pct": 0,
+    "R700_pct": 0,
+    "R800_pct": 0
+  },
+  "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
+  "errors": [],
+  "snapshot_sha256": "d213a7cd4828dcf3f6221800ce934f7b040659e13595fd68f5b40c6f190fdb8a"
 }
