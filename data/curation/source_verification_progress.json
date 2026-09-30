@@ -32,10 +32,11 @@
     "snapshot_sha256": "c40c3682c2b94795005c71a8a71d45a581f11400022bb838cf4e63a4913b78ad"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T19:53:20Z",
-    "instruction": "B54 PR21 merged after exact-head182tests/compile/scientific gate/snapshot validation. Main354states/407conditions/84DOI/errors[]. All three postmerge validation/rebuild/processing checks succeeded. Refresh main/open PR/lease/queue before another publisher."
+    "owner": "dot-source-review-b55-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T20:06:13.932Z",
+    "scope": "Four GEL/AMP/silica cotton states from 10.1007/s10570-023-05278-6; independent exact-hash source QA passed. Preserve all existing holds.",
+    "instruction": "Do not overwrite; coordinate before another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
