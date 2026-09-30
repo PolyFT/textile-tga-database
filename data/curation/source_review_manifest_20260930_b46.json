@@ -1,0 +1,57 @@
+{
+  "batch": "b46",
+  "summary": {
+    "new_sample_states": 5,
+    "condition_records": 7,
+    "papers": 2,
+    "held_guanidine_states": 5,
+    "held_PAA_states": 6
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b46_1528083704045848.csv",
+      "draft_sha256": "6dc0da24fdc5370ac41abe9f7bd5df0eb1427bd5683a4cdabffe47680f66b3ee",
+      "published_input_sha256": "519c3cd9ab7da284ba2e26ccc3efe04014e00b18b29d4662cc4e7c983802b84e",
+      "conditions": 3,
+      "states": 3,
+      "DOI": "10.1177/1528083704045848",
+      "classification": "new_source_measurement_states",
+      "accepted_source_draft_ids": [
+        "E20260930-B45-4045848-01",
+        "E20260930-B45-4045848-06",
+        "E20260930-B45-4045848-08"
+      ],
+      "accepted_measurement_fingerprints": [
+        "bcbc56d4073d773a637133f793b2334bda2f95c16aa808247e82d9028f8d038a",
+        "7f618f61f4cb679ae405cba760b877b667a158375afee2bfbd29496feefbc132",
+        "1c97ec0859c1c05af2fc18e568050ed4473f99e9966639dcc401f8095284162d"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b46_j.polymdegradstab.2024.110764.csv",
+      "draft_sha256": "39994a98f63c5ba0ddea241e572c7e3d769a28971474b47b1604195179cf5383",
+      "published_input_sha256": "acd3d3d2d96f024e3bbbacb4717fa1a29796ec8172a555277dd9f16932bd372a",
+      "conditions": 4,
+      "states": 2,
+      "DOI": "10.1016/j.polymdegradstab.2024.110764",
+      "classification": "new_source_measurement_states",
+      "accepted_source_draft_ids": [
+        "E20260930-B45-110764-01",
+        "E20260930-B45-110764-02",
+        "E20260930-B45-110764-03",
+        "E20260930-B45-110764-04"
+      ],
+      "accepted_measurement_fingerprints": [
+        "cf1e67a6eb4ed34ad90a947b745b60d32f5586fe6969da597ef1527ebc5dd8fc",
+        "e1936063f01bc5409fbe0c1b69328a1783b90a8bf3fb2ad8fe19b290a91b1721",
+        "602c5bc8850382678946aef9278b0d507709fcff183e100afba104b09ad42d54",
+        "b33f2a6f4a571328bf82bac5e84ff02c94a5920e7dc928ae2142aaa4f8f9e488"
+      ]
+    }
+  ],
+  "limitations": [
+    "Guanidine source verified through independent original publisher PDF text; no pixel QA or original downloadable PDF hash claimed. Five LOI prose/table conflicts remain held.",
+    "PAA original main PDF visually reviewed and official supplement native text parsed. Supplement rendering incomplete; no image-derived values used. Six concentration-mismatched states remain held.",
+    "Earlier private draft IDs use B45; publication renamed B46 because a non-overlapping publisher occupied and completed B45. All scientific values and sample identities retain their checksum-bound reviews."
+  ]
+}

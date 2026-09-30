@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T17:10:45.275016+00:00",
-  "latest_batch_id": "20261001_b45",
-  "verified_condition_records": 324,
-  "verified_unique_sample_states": 280,
-  "verified_dois": 62,
-  "numeric_pair_candidate_rows": 713,
+  "as_of_utc": "2026-09-30T17:21:30Z",
+  "latest_batch_id": "20260930_b46",
+  "verified_condition_records": 331,
+  "verified_unique_sample_states": 285,
+  "verified_dois": 64,
+  "numeric_pair_candidate_rows": 720,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 220,
+  "remaining_near_term": 215,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 101,
+  "cumulative_newly_completed_or_new_source_sample_states": 106,
   "cumulative_evidence_upgraded_existing_sample_states": 179,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b46_publication_in_progress",
+  "publication_stage": "b46_branch_source_review_complete_awaiting_exact_head_CI",
   "last_merged_batch": {
     "batch": "b45",
     "merge_sha": "ad19fbfefef30cf27427b16a9b07359b849280a4",
@@ -43,13 +43,11 @@
     "instruction": "Single publisher importing five independently source-reviewed cotton states / seven conditions from the previously announced two-paper preparation. Preserves b45 and all other holds. Other sources may be prepared read-only; no competing publisher until release."
   },
   "next_sources": [
-    "10.1177/1528083704045848",
-    "10.1016/j.polymdegradstab.2024.110764",
-    "10.1177/1528083709347122",
-    "10.19886/j.cnki.dhdz.2024.0382"
+    "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
-    "Further source drafts remain outside the master: guanidine cotton has source-LOI contradictions requiring row-specific holds; PAA/MMT cotton needs concentration crosswalk review. Recheck current main, open PRs and other preparation before claiming a next publication writer.",
+    "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
+    "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
     "Do not repeat completed b43 lyocell/PET/PP reviews. Keep PA/PD/PF, PO1, PP control and all four PAN form-mismatched states held. Generic PET residues remain outside fixed-temperature plots.",
     "Do not repeat b42 four completed source reviews or D1RA07410E held bulk/fiber mismatch. Use per-paper queue to select the remaining unreviewed sources.",
@@ -120,32 +118,22 @@
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/11"
   },
   "pending_source_preparation": {
-    "status": "not_imported_not_counted",
+    "status": "held_candidates_not_imported_not_counted",
     "sources": [
       {
-        "DOI": "10.1177/1528083704045848",
-        "source_review_accepted_states": 3,
-        "held_states": 5,
-        "reason": "Initial-state table tuples are exact; contradictory LOI prose prevents five whole-pair admissions."
-      },
-      {
-        "DOI": "10.1016/j.polymdegradstab.2024.110764",
-        "proposed_states": 2,
-        "proposed_conditions": 4,
-        "status": "independent source review complete; draft checksum binding pending",
-        "held_states": 6,
-        "reason": "PAA concentration labels differ across TG and LOI sections; supplement adds no crosswalk."
-      },
-      {
         "DOI": "10.1177/1528083709347122",
-        "status": "primary source screening"
+        "status": "condition_partial_missing_TG_ramp",
+        "condition_partial_states": 6,
+        "additional_formulation_conflict_states": 1
       },
       {
         "DOI": "10.19886/j.cnki.dhdz.2024.0382",
-        "status": "primary source screening"
+        "status": "LOI_only_no_exact_same_state_TG",
+        "LOI_only_states": 6,
+        "reason": "TG curves have no printed values; formulation-unit/order conflicts and abstract-only TG claim held."
       }
     ],
-    "instruction": "These sources are being prepared independently of the published master. Coordinate scope before duplicating source reviews; only validated merged observations count."
+    "instruction": "No exact-condition pair is admitted from these preparations. Do not infer missing ramps or curve values; a new original source/supplement is required to resolve holds."
   },
   "batch_b45": {
     "added_verified_unique_states": 8,
@@ -161,5 +149,15 @@
     "snapshot_sha256": "c2234a08ca3c271c44fbb70b826a4051fc096bfc9026415715627a5f9389a94c",
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/12",
     "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36749901610"
+  },
+  "batch_b46": {
+    "added_verified_unique_states": 5,
+    "added_verified_condition_records": 7,
+    "new_source_measurement_states": 5,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "held_guanidine_states": 5,
+    "held_PAA_states": 6,
+    "tests_passed": 132
   }
 }

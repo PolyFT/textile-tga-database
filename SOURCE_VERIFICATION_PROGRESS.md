@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **280 unique DOI/sample/washing states**, **324 TG condition records**, and **62 papers**. The near-term target is 500 unique states; **220 remain**. The long-term target remains 2000.
+The reviewed dataset contains **285 unique DOI/sample/washing states**, **331 TG condition records**, and **64 papers**. The near-term target is 500 unique states; **215 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **280 unique DOI/sample/washing states**, **324 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 97 new/newly completed paired states and 175 existing paired states with upgraded evidence
+- Cumulative: 106 new/newly completed paired states and 179 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -23,7 +23,7 @@ The reviewed dataset contains **280 unique DOI/sample/washing states**, **324 TG
 
 ## Continuation
 
-The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b44 the candidate layer has 704 numerical rows, while 272 unique sample states have the required source review.
+The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b46 the candidate layer has 720 numerical rows, while 285 unique sample states have the required source review.
 
  tracks per-paper outcomes;  records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
 
@@ -118,3 +118,13 @@ All126 offline tests, compilation and scientific validation pass locally, with28
 PR #12 merged at 2026-09-30 17:15:35 UTC as `ad19fbfefef30cf27427b16a9b07359b849280a4`. Exact head `e2ac9ea3c13bc50feba5ec737f87f487da3884e6` passed [run 36749901610](https://github.com/PolyFT/textile-tga-database/actions/runs/36749901610), including all126 tests, compilation, scientific validation and snapshot consistency. Remote main independently confirms280 verified states,324 conditions,62DOI and errors=[]. Snapshot SHA-256:`c2234a08ca3c271c44fbb70b826a4051fc096bfc9026415715627a5f9389a94c`.
 
 The b45 single-writer lease is released. Separate pending source preparation is preserved and is not included in the280 count. Local metadata-library root remains unresolved; do not assume a path or write any library files. Other unreviewed public-source evidence work can continue after checking current source ownership.
+
+## b46 guanidine and cotton/MMT source review
+
+Five new-source sample states add seven TG conditions from two papers. This batch adds no evidence-only upgrades of existing pairs. Three guanidine-cotton formulations pass exact initial-state LOI/onset/R400/R600 review; five other table rows remain held because their LOI values conflict with applicable prose bounds. Neither a majority vote nor table priority is used to infer corrections. Publisher PDF text was independently verified; unavailable pixel QA is disclosed.
+
+The PAA/MMT paper contributes only COT and COT/MMT2% under nitrogen and air, sharing two measured LOI observations across four TG conditions. Table3's10%-loss onset is T10, not generic Tonset. The exactR800 zero for air COT is retained. Six PAA-bearing states remain held for concentration mismatches between TG and LOI; original supplementary native text adds no crosswalk, and incomplete supplementary image rendering is disclosed.
+
+All132 offline tests, compilation and scientific validation pass locally. Fingerprint-bound approvals and per-file hashes preserve the independent source review. The branch-only materializer must remove itself and exact-head CI must pass before merge. The b46 publisher owns the active lease.
+
+Two further cotton source assessments produced zero exact-condition pairs: SAGE1528083709347122 lacks a TG heating rate and has one formulation conflict; Donghua2024.0382 lacks exact same-state TG numbers and has formulation-unit/order ambiguities. DOI-less thesis values are not assigned a related journal DOI. The2011.08.014 primary full text remains unretrieved; the2012 kinetics follow-on is not a substitute. These holds are not target samples.
