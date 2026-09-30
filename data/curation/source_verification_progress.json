@@ -32,10 +32,13 @@
     "snapshot_sha256": "60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T20:46:19.796Z",
-    "instruction": "B59 PR26 merged after exact-head 213 tests, compilation, scientific gate and snapshot validation. Main 395 states / 448 conditions / 91 DOI; errors empty. All three postmerge checks passed. Refresh main, open PRs and source queue before another publisher."
+    "owner": "codex-local-metadata-aramid-bmi-b60",
+    "status": "active",
+    "batch_id": "20261001_b60",
+    "claimed_at_utc": "2026-09-30T20:47:58.000Z",
+    "expires_at_utc": "2026-09-30T22:17:58.000Z",
+    "scope": "Four new fabric-laminate states and eight TG conditions from10.3390/ma17164028 and10.3390/polym15102275; four elevated-temperature LOI observations add no independent states; three source holds.",
+    "instruction": "Single publisher; preserve all other batches and holds. Do not overwrite active lease."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
