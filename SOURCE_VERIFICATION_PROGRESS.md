@@ -327,4 +327,10 @@ Six genuinely new pdp/pdpt cotton states add six nitrogen TG conditions. Table 2
 
 The untreated control has only generic LOI and conflicting residue prose, so it remains excluded. ASTM edition conflict is retained without correction. The introduction mentions air, but methods and numerical results support nitrogen only. Source-native multi-stage onsets are not relabeled as DTG maxima. Full texts remain private.
 
-The b57 writer lease remains active pending exact-head CI and postmerge verification.
+The b57 writer lease is released after exact-head CI and postmerge verification.
+
+## b57 publication checkpoint
+
+PR #24 merged as `81bf6b9ad6032d22ca9a7adc8d0a361c075484c9`. Exact head `f948109093f096ee5ce61851c58babf8b1ed9073` passed [run 36772553803](https://github.com/PolyFT/textile-tga-database/actions/runs/36772553803), including 196 tests, compilation, scientific validation and snapshot consistency. Main confirms 367 unique states, 420 conditions and 87 DOI, with no validation errors. Snapshot SHA-256: `30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3`.
+
+All three postmerge checks passed. The temporary materializer is absent and the single-writer lease is released. A related 2012 conference poster repeats the six TG/add-on observations but gives LOI at different add-ons; it does not provide six additional pairs or override the 2017 exact same-state LOIs. Subsequent private source drafts are not included in these counts.
