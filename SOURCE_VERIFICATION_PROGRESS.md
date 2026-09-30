@@ -207,3 +207,10 @@ Seven additional states contribute ten TG conditions from two papers: four wholl
 Only numerical facts, concise source locators, explicit holds and regression tests are published. Observation fingerprints bind reviewed values. Final exact-head tests and snapshot consistency are required before merge, and the active single-writer lease remains until main publication is verified.
 
 All 161 offline tests, compilation and the scientific validation gate pass locally. The regenerated snapshot contains 333 unique states, 383 conditions and 77 DOI, with errors=[] and SHA-256 `69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4`. These are branch results pending exact-head CI and verified main publication.
+
+
+## b50 publication checkpoint
+
+PR [#17](https://github.com/PolyFT/textile-tga-database/pull/17) merged at 2026-09-30 18:41:33 UTC as `0351518f0978c37a1e6713649b3e613c803e8734`. Final head `e71fd76131ac8cdb772d27d51b84dca92f3885ed` passed [exact-head validation](https://github.com/PolyFT/textile-tga-database/actions/runs/36760145268): all 161 tests, compilation, scientific validation and committed-snapshot consistency. Fresh main independently confirms 333 unique states, 383 TG conditions, 77 DOI and errors=[]. Snapshot SHA-256: `69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4`.
+
+This batch adds four new source states and newly completes three existing separate TG/LOI states; it adds zero evidence-only upgrades. The possible repeated microwave control stays excluded. All source holds remain; the branch-only materializer was removed. The b50 lease is released after verified main readback. There are 167 states remaining to 500 (168 to exceed 500). Recheck the latest main, open PRs, lease and per-paper queue before further publication.
