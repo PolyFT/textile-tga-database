@@ -362,4 +362,10 @@ Twenty-two genuinely new sample states add twenty-two TG conditions from two ori
 
 Three MOF cotton states use official SI Table S2 and exact main-text LOI, under nitrogen at 10 C/min. Holds retain air-ramp attribution, one-immersion LOI, conflicting UiO-only T5, PZS bath quantity, Rmax, percentage calculations and washed-state labels. Preparation and generic control identity are retained without inventing control pretreatment.
 
-Independent exact-hash original-source review passed. Fulltext and SI files remain private. The b59 writer lease remains active until exact-head CI, merge and postmerge verification.
+Independent exact-hash original-source review passed. Fulltext and SI files remain private. The b59 writer lease is released after exact-head CI, merge and postmerge verification.
+
+## b59 publication checkpoint
+
+PR #26 merged as `ea00abe1f3a9b3d3047fcefc9eda12ac2a2e6563`. Exact head `1d1532c3ff3cac1e1627e23d9129a81f823ee877` passed [run 36774577791](https://github.com/PolyFT/textile-tga-database/actions/runs/36774577791), including 213 tests, compilation, scientific validation and snapshot consistency. Main confirms 395 unique states, 448 conditions and 91 DOI, with no validation errors. Snapshot SHA-256: `a4c0447dedfb7b6081d1cb69bfdfd9e592a869466947737d757b4d9103baf473`.
+
+All six postmerge and lease-release validation, rebuild and processing checks passed. The temporary materializer is absent and the single-writer lease is released. Prior helium support and source holds remain intact. Subsequent private drafts are not included in these counts; refresh main and source ownership before another publisher.
