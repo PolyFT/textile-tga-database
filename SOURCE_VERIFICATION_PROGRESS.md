@@ -297,4 +297,10 @@ Four genuinely new treated sample states add four nitrogen TG conditions from on
 
 The 10BL-only state remains held for conflicting LOI values (25.3 versus 25.6) and weight gains (41.4 versus 41.3). SiO2-only weight gain is withheld because 28.3 and 28.2 conflict. The untreated control remains held for possible cross-paper reuse pending provenance resolution. Post-wash LOI states lack matching TG. Independent review used the clear original final-publication tabular text; unavailable PDF pixel review is not claimed. Full texts remain private.
 
-The writer lease remains active until exact-head CI, merge and postmerge verification succeed.
+The b55 writer lease is released after exact-head CI, merge and postmerge verification succeeded.
+
+## b55 publication checkpoint
+
+PR #22 merged as `871a900970b8b4f3cc71bdbe23bb638b28c4286c`. Exact head `e9a282ef693ba42b96f7e8a7cd3a12d5320f16d9` passed [run 36770703742](https://github.com/PolyFT/textile-tga-database/actions/runs/36770703742), including 187 tests, compilation, scientific validation and snapshot consistency. Main confirms 358 unique reviewed states, 411 TG conditions and 85 DOI, with no validation errors. Snapshot SHA-256: `4644de7ccc93bdc71fba23e3f9d1c51c975a2c1e64688e7dd9f20f1ec1623520`.
+
+All three postmerge validation, rebuild and processing checks succeeded. The temporary materializer is absent and the single-writer lease is released. Further private source drafts are not included in these counts. Refresh main and source ownership before publishing another batch.
