@@ -1,0 +1,77 @@
+[
+  {
+    "DOI": "10.3390/polym18070819",
+    "sample_state": "binder-only CO/PET/CO-PET controls in SI",
+    "reason": "no_paired_TG_LOI",
+    "disposition": "Py-GC-MS chemistry only; not additional TG/LOI states"
+  },
+  {
+    "DOI": "10.3390/polym18070819",
+    "sample_state": "all nine fabrics after durability washing",
+    "reason": "no_washed_numeric_TG_LOI_pair",
+    "disposition": "Initial Figure14/Table4 not reused for durability cycles"
+  },
+  {
+    "DOI": "10.3390/coatings16020202",
+    "sample_state": "PDA-2h",
+    "reason": "residue_temperature_not_explicit",
+    "disposition": "Condition/LOI facts only; excluded from target"
+  },
+  {
+    "DOI": "10.3390/coatings16020202",
+    "sample_state": "PEI-2h",
+    "reason": "TG_only_curve_or_approximate",
+    "disposition": "Condition/LOI facts only; excluded from target"
+  },
+  {
+    "DOI": "10.3390/coatings16020202",
+    "sample_state": "DPPC-70",
+    "reason": "TG_only_curve_or_approximate",
+    "disposition": "Condition/LOI facts only; excluded from target"
+  },
+  {
+    "DOI": "10.3390/coatings16020202",
+    "sample_state": "PDA-PEI-2h/DPPC-0",
+    "reason": "TG_only_curve_or_approximate",
+    "disposition": "Condition/LOI facts only; excluded from target"
+  },
+  {
+    "DOI": "10.3390/coatings16020202",
+    "sample_state": "PDA-PEI-2h/DPPC-70",
+    "reason": "TG_only_curve_or_approximate",
+    "disposition": "Condition/LOI facts only; excluded from target"
+  },
+  {
+    "DOI": "10.1021/acsomega.5c00281",
+    "sample_state": "PBDIL12_10",
+    "reason": "no_exact_same_fabric_TG_and_source_conflicts",
+    "disposition": "Exclude pure salt and hydrogel TG; washed states not invented"
+  },
+  {
+    "DOI": "10.1021/acsomega.5c00281",
+    "sample_state": "PBDIL12_20",
+    "reason": "no_exact_same_fabric_TG_and_source_conflicts",
+    "disposition": "Exclude pure salt and hydrogel TG; washed states not invented"
+  },
+  {
+    "DOI": "10.1021/acsomega.5c00281",
+    "sample_state": "unresolved30wtpercent_PBDIL15_30_or_PBDIL12_30",
+    "reason": "no_exact_same_fabric_TG_and_source_conflicts",
+    "disposition": "Exclude pure salt and hydrogel TG; washed states not invented"
+  },
+  {
+    "DOI": "10.3390/polym17121676",
+    "reason": "no_own_LOI_measurement_in_full_text",
+    "disposition": "Own TG Table4 and horizontal-flame Table5; background LOI16-18 not experimental same-state evidence"
+  },
+  {
+    "DOI": "10.1007/s10694-023-01387-7",
+    "reason": "no_own_LOI_found_in_main_SI_unread",
+    "disposition": "Main own tests TG/PCFC/vertical burn; cited LOI not matched. Keep pending SI screening, zero pairs."
+  },
+  {
+    "DOI": "10.3390/ma15144791",
+    "reason": "no_TG_measurement",
+    "disposition": "Five own warp/weft LOI fabrics; Table5 is MCC, not TG; no MCC temperature used as decomposition metric"
+  }
+]
