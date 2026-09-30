@@ -134,5 +134,5 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `b01e113be4e3d885c463ed149961b014015280f41c854d954e82be993b0d5c2b`
+Snapshot SHA-256: `f367a891e0f712e22f2c90e609225134a67940eee5e8429af140d2fb1ac91d3b`
 <!-- TG-LOI-SNAPSHOT:END -->
