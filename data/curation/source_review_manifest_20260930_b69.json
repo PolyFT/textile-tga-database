@@ -1,0 +1,69 @@
+{
+  "batch": "b69",
+  "baseline_counts": [
+    472,
+    543,
+    109
+  ],
+  "summary": {
+    "added_verified_unique_states": 13,
+    "added_verified_condition_records": 13,
+    "new_source_measurement_states": 13,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b69_casein_lbl2019.csv",
+      "DOI": "10.11648/j.ijmsa.20190805.12",
+      "draft_sha256": "9e9b7a101b24eba920d9959bd0cb02021fb6a1a7199dbd828a904489b99b2507",
+      "published_input_sha256": "67b6d7b075410095d7b204126f699a36917665116e7b92e4e2fe1632f616302d",
+      "states": 4,
+      "conditions": 4,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "00db18b30ec8f6772ee3195aefde64f6889efa1c627ef6d41225e9deef846d85",
+        "d7e69a469d0f79532fb6ac2252ddbf3da7fbef413f2eeb77a90e812fd048fbb6",
+        "6b00bdf55a7eba71c5f7a47582356d449740c676cd6f14b5de88d1a2a8fe93a1",
+        "08df58c98c298256e93d8cd2c329d9bbac85f8d549fde0e004fe58fd0478d69a"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b69_nyco_pacys.csv",
+      "DOI": "10.15925/j.cnki.issn1005-3360.2024.05.013",
+      "draft_sha256": "7c4b2ee2b1d7ea53e1824f147c16f7697a4832b529a4f5cdcc660538e63645eb",
+      "published_input_sha256": "580ad34b0931ca6ad1f2b318ced7d83720ab623e13fcd4d666f62c3ff8b2d112",
+      "states": 4,
+      "conditions": 4,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "9bb3abf225b7d8e396c32ac4fa8e85f6faa05ee709d591a2b2c1575fb9643ad8",
+        "1d3df68965a336a99e84d4245eec03955d5b8c72f783a6100e483091bb9f3abf",
+        "8b79592aa71a840b4b855165f1f278ca92731b0e69000dd2f140366af6d25c66",
+        "c50a028985348650aaea63dd54492ae76b708c92ba52fd2608ab5398b3cbb31b"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b69_lessan2011.csv",
+      "DOI": "10.1016/j.tca.2011.03.012",
+      "draft_sha256": "b480ee3336e2f098ab7f4ee215b6c735def7bde2e1617232d35eec6b8444ad0d",
+      "published_input_sha256": "119176508b81de181e6f4bdb8a1d0aed8388ab707319005290e9cbbc09877e18",
+      "states": 5,
+      "conditions": 5,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "63fd8cebcacb373bd96dbf86dd4c43ddfe95918098d532af734388878ee07bd7",
+        "8ce2fa0e1ede43bfc5a1fbbb8510466ff42736d41c79bae11abd9a2c03a7abc3",
+        "cea4889574162b1fcdd9ddf881f132f460ccad8b76336380cc5a5a48339cbf05",
+        "809a8406e49dd5bf6fa8fe47757dd338b9b987478ca39fc3c42ee305504d78cb",
+        "edc7a1006263a3cb0b969e318109d3998691af15976172fc25e9f2ab74d4aaa0"
+      ]
+    }
+  ],
+  "limitations": [
+    "Source-defined onsets are not percentage-loss thresholds; ambiguous TG/DTA maximum temperatures stay withheld.",
+    "Initial preparative rinses are distinct from durability laundering.",
+    "Casein codes identify bath concentrations, not layer counts.",
+    "Independent original-source QA checked exact draft hashes; source fulltexts remain private."
+  ]
+}

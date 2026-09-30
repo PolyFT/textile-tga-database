@@ -1,0 +1,52 @@
+[
+  {
+    "DOI": "10.11648/j.ijmsa.20190805.12",
+    "sample": "MCC Table2",
+    "reason": "Heat-release peak temperatures are not TG/DTG metrics and excluded."
+  },
+  {
+    "DOI": "10.11648/j.ijmsa.20190805.12",
+    "sample": "unmeasured wash variants and alternative layer counts",
+    "reason": "All treated states are20 bilayers and initial; no other same-state numeric TG-LOI variants identified."
+  },
+  {
+    "DOI": "10.11648/j.ijmsa.20190805.12",
+    "sample": "TGA-FTIR gas flow and uncertainty labels",
+    "reason": "Flow60mL/min belongs to separate TG-FTIR setup; not inherited. LOI plus/minus retained without inventing SD/SE."
+  },
+  {
+    "DOI": "10.15925/j.cnki.issn1005-3360.2024.05.013",
+    "sample": "Table1 Tmax field",
+    "reason": "Source calls maximum decomposition temperature without explicit maximum mass-loss-rate definition; omitted from normalized DTG Tmax."
+  },
+  {
+    "DOI": "10.15925/j.cnki.issn1005-3360.2024.05.013",
+    "sample": "control pretreatment, blend ratio and coating pickup",
+    "reason": "Not explicitly resolved; retain unknown metadata without importing related-source values."
+  },
+  {
+    "DOI": "10.15925/j.cnki.issn1005-3360.2024.05.013",
+    "sample": "introductory approximate24% LOI",
+    "reason": "Cited generic background, not own NC measurement; own Table2 LOI19.6 retained."
+  },
+  {
+    "DOI": "10.1016/j.tca.2011.03.012",
+    "sample": "Table8 Tmax for all five states",
+    "reason": "Maximum temperature of degradation is not explicitly derivative maximum; TG and DTA figures both cited. Retained in proof only; do not populate DTG Tmax."
+  },
+  {
+    "DOI": "10.1016/j.tca.2011.03.012",
+    "sample": "Five-cycle washed fabrics and all other Table1 formulations",
+    "reason": "Table3 reports burn-char yields; no exact matched postwash TG/LOI or paired numerical TG for other formulations. Do not promote these states."
+  },
+  {
+    "DOI": "10.1016/j.tca.2011.03.012",
+    "sample": "Original PDF pixels and complete binary fulltext",
+    "reason": "Public indexed original text reviewed; direct bytes unavailable502. Parent QA must decide text-only admissibility; no pixel claim."
+  },
+  {
+    "DOI": "10.1016/j.tca.2011.03.012",
+    "sample": "Control-specific scouring and sample pan preparation",
+    "reason": "Global Section2.3 applies scouring to cotton samples; no separate control-specific preparation, cutting or grinding reported. Preserve this limitation."
+  }
+]

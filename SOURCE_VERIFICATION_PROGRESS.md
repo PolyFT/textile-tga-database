@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **472 unique DOI/sample/washing states**, **543 TG condition records**, and **109 papers**. The near-term target is 500 unique states; **28 remain**. The long-term target remains 2000.
+The reviewed dataset contains **485 unique DOI/sample/washing states**, **556 TG condition records**, and **112 papers**. The near-term target is 500 unique states; **15 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **472 unique DOI/sample/washing states**, **543 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 271 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 284 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -477,3 +477,13 @@ Twenty additional primary-source screens retain their specific recovery gates an
 [PR35](https://github.com/PolyFT/textile-tga-database/pull/35) merged as `bb1738f4dab1d52779625a4fa9124f5203c67880`. Exact head `70c12a69a1a2bf3561ba82a908ed24ae07be7deb` passed [run36787271745](https://github.com/PolyFT/textile-tga-database/actions/runs/36787271745), including255 tests, compilation, scientific validation and committed-snapshot consistency. Postmerge runs36787377032/36787377087/36787377108 all passed. Independent main readback confirms472 states/543 conditions/109DOI and errors=[]. All541 prior master rows are unchanged across every common field. Input snapshot hash:`39146f0262a8bef010e8402b281b9a26c69eda0eb480c3b91a01ac96a403ff60`; master CSV hash:`514bb4f11914b4dc084e13230fd362db2e28a35d7ef539e23dc2ff5af5a3e9d4`.
 
 Strictly exceeding500 requires29 more states; reaching2000 requires1528. Public facts and concise DOI locators only; the metadata library remains untouched and its root selection awaits user confirmation. Refresh main, open PRs, source queue and lease before the next publication.
+
+
+
+## b69 casein, nylon/cotton and SHP cotton sources
+
+Thirteen genuinely new sample states add thirteen nitrogen TG conditions from three original papers. Four casein-coated or control cotton states use20 bilayers with distinct bath concentrations; four nylon/cotton states distinguish zero to three spray layers; five cotton states preserve source-specific SHP/MA/TEA/TiO2 recipes. Exact LOI, author-defined onsets and residues at600 C are retained.
+
+Reported LOI uncertainties retain their original definitions. Ambiguous TG/DTA maximum temperatures, MCC temperatures, unmatched durability washes and unresolved preparation details are held or explicitly left unknown. Independent original-source review passed at exact draft hashes. Source fulltexts remain private.
+
+The b69 writer lease remains active pending exact-head CI, merge and postmerge verification.
