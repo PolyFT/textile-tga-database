@@ -1,0 +1,55 @@
+{
+  "batch": "b62",
+  "review_completed_utc": "2026-09-30T21:15:48.085904+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "screened_held_or_excluded_papers": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b62.csv",
+      "published_input_sha256": "589c91480f5e6042b6063ad8ca706c19bdae93fbc40c23ef7829e0b18fd60e93",
+      "unique_sample_states": 4,
+      "conditions": 4,
+      "accepted_measurement_fingerprints": [
+        "8b02468f8d104150a325a35d7398bd8abe53110295e755b325069b97d055aba7",
+        "b0674faa099f0abbbbc6c20251d187a48c41fa826f48aaf1a4373e9f016f971f",
+        "4e8040e421ae4c106f10e1dd4823f60d4b53b76b21dbeb9558c04d9c10860d1c",
+        "4fc225b5dfc8b84e9c59724ffc2d309ade0507678018d097b6bfdac548fb7c06"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.3390/polym15183800",
+      "accepted_states": 4,
+      "conditions": 4,
+      "evidence": "OriginalTable1 p4 defines four twelve-ply ramie-fabric epoxy laminates. Same-rowTable3 p10 exactT10/800Cchar/LOI; Sections2.3-2.5 pp3-5 manufacture andN2/25mLmin/20Cmin/25-800C. Complete officialtwo-pageSI onlyFPD NMR/solubility.",
+      "caveat": "Rmax printedunit%/C andvalues unresolved; neverTmax. Table3 decimals retained overroundedprose. FPD10/20/30wt%prose,55-60wt%resin andTable1 masses have unresolvedbasis; exactmasses retained,noinferredwhole-laminate percentage. LOIthickness notborrowed fromUL94. NoTGIR/DSC/conesubstitution. Manufacturingrinsesnotdurabilitywash."
+    },
+    {
+      "DOI": "10.3390/polym14050911",
+      "accepted_states": 0,
+      "reason": "LOI_attribution_across_curing_systems_unresolved",
+      "disposition": "MainSection2.1 genericGFRER LOI23.4 covers#9 andseparateDICY/UR400slabmanufacturing without a per-curing-system/thickness mapping. Figure3 TG explicitly#9; R55071.4% atHe30Kmin exact but no proven matchedLOI. Wholemain reviewed; SI kinetic FiguresS1/S2 not yet inspected. Criticaloxygen fromflamespread notLOI; kineticsnotTG temperatures."
+    },
+    {
+      "DOI": "10.1007/s10973-022-11557-4",
+      "accepted_states": 0,
+      "reason": "ground_fiber_filled_resin_scope_pending",
+      "disposition": "Originalmaterials use CR/kenaf ground,sieved<0.3mm,50mass%powder-filledphenolic slabs. Notwovenfabric orcontinuousfiber. Hold scope untiluser clarifies; ownTG/LOI exists, exactmetricsnotyetfullyreviewed. No claimedfullsourceexclusion."
+    },
+    {
+      "DOI": "10.1007/s40820-024-01583-2",
+      "accepted_states": 0,
+      "reason": "original_SI_review_pending",
+      "disposition": "CNF/PANI aerogel has ownLOI andTG; originalmethods/results located, completeSI/TGnumericfacts stillpending. ShortCNFs form3Dnetwork; do notassume matrixpowder/slab or countMCCpeakasTG."
+    }
+  ],
+  "verification_limit": "One primary-source reviewer; originalTable1/Table3 pixels inspected, completeofficialSI read. Threeother source holds are incomplete/unresolved reviews, not exclusions. Numericalfacts andconciseDOI/page provenance only; nofulltexts orprivatepaths."
+}
