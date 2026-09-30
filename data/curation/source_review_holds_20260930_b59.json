@@ -1,0 +1,52 @@
+[
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "sample": "Cotton/UiO-66/1St-PZS",
+    "reason": "No exact own LOI recovered. Main references Table S4 for LOI but actual official Table S4 contains cone data; Figure 4 has no printed LOI number."
+  },
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "condition": "all air TG",
+    "reason": "Official Table S3 provides air values but main conventional TG method states nitrogen only. No explicitly attributable air heating rate recovered; no N2 ramp transfer."
+  },
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "field": "Cotton/UiO-66 T5_C",
+    "reason": "Table S2 T5 299.7 exceeds control 299.1, contradicting main assertion that all modified T5 values are lower than control. Withheld without inferred correction."
+  },
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "field": "PZS treatment bath concentration",
+    "reason": "Main 0.1 g PZS in 10 mL gives 10 mg/mL, while Table S1 reports PZS 3.0 mg/mL. Quantitative recipe withheld; exact treatment labels are preserved."
+  },
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "field": "Rmax and percentage residue improvement",
+    "reason": "SI Rmax unit %/C conflicts with figure %/min; air control -2.40 vs prose -3.7 and 2St -1.18 vs -1.17. Claimed 200.1% residue increase does not match exact 8.28 and 25.34. Derived percentage and Rmax excluded."
+  },
+  {
+    "DOI": "10.1016/j.nxmate.2024.100143",
+    "sample": "post-laundering 2St-PZS",
+    "reason": "LOI 24.1 has no matched washed TG. Figure 4 photograph says 10 LCs while caption and prose say 20; wash count held."
+  },
+  {
+    "DOI": "10.2115/fiber.28.9_359",
+    "sample": "Carbon Fiber and Glass",
+    "reason": "Table 4 gives no numeric LOI. Nonflammability is not converted to 100% or an inferred numerical value."
+  },
+  {
+    "DOI": "10.2115/fiber.28.9_359",
+    "field": "Kanekalon composition",
+    "reason": "English abstract describes PVC/PVA, whereas Japanese discussion p 366 states PVC/PAN. Trade label retained; no normalized blend composition inferred."
+  },
+  {
+    "DOI": "10.2115/fiber.28.9_359",
+    "field": "TG geometry and sample-specific fabric construction",
+    "reason": "Common commercial sample identity is supported by inventory and exact table labels. TG specimen preparation is not reported. Table 4 says woven or knitted fabrics, 150-200 g/m2, without mapping each construction/weight. Assay metadata retained separately; no identical geometry claim."
+  },
+  {
+    "DOI": "10.2115/fiber.28.9_359",
+    "field": "thermal stage intervals and flash/ignition data",
+    "reason": "Table 3 stage temperature intervals and weight losses are not DTG maxima/onsets. Tables 1/2 flash/ignition and Figure 4 DTA are separate tests and are not admitted as TG metrics."
+  }
+]

@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **373 unique DOI/sample/washing states**, **426 TG condition records**, and **89 papers**. The near-term target is 500 unique states; **127 remain**. The long-term target remains 2000.
+The reviewed dataset contains **395 unique DOI/sample/washing states**, **448 TG condition records**, and **91 papers**. The near-term target is 500 unique states; **105 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **373 unique DOI/sample/washing states**, **426 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 172 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 194 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -354,3 +354,12 @@ All205 offline tests, compilation and the scientific gate pass locally; snapshot
 [PR #25](https://github.com/PolyFT/textile-tga-database/pull/25) merged at2026-09-30T20:36:50Z as `f39fceef21e0034a8ef3e9b76f5b93cbe227507f`. Exact head `7717019b65658900b56b55710eebdf37745344bb` passed [validation36773704691](https://github.com/PolyFT/textile-tga-database/actions/runs/36773704691):205 tests, compilation, scientific gate and committed-snapshot consistency. Main was independently read back:373 unique verified states,426 TG conditions,89 DOI, errors=[]. Snapshot SHA-256:`60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1`.
 
 Six new pairs and zero evidence-only upgrades are published;18 partial facts and all source holds remain excluded. Do not repeat either completed source without new evidence. The live single-writer lease is recorded in source_verification_progress.json; refresh main, open PRs and source queue before another claim. The metadata library remains untouched and its fulltext root still awaits confirmation.
+
+
+## b59 commercial textile inventory and MOF cotton
+
+Twenty-two genuinely new sample states add twenty-two TG conditions from two original papers. Nineteen commercial textile materials use original Tables 3/4 at 15 C/min in air. The shared sample inventory and exact trade/material labels provide the identity bridge. TG specimen preparation is unreported, while LOI explicitly uses woven or knitted fabrics at 150-200 g/m2. These limitations and both assay-specific descriptions are preserved. Powdered flash-point specimens, ignition tests and DTA peaks are not TG data. Carbon and glass have no numeric LOI and remain excluded.
+
+Three MOF cotton states use official SI Table S2 and exact main-text LOI, under nitrogen at 10 C/min. Holds retain air-ramp attribution, one-immersion LOI, conflicting UiO-only T5, PZS bath quantity, Rmax, percentage calculations and washed-state labels. Preparation and generic control identity are retained without inventing control pretreatment.
+
+Independent exact-hash original-source review passed. Fulltext and SI files remain private. The b59 writer lease remains active until exact-head CI, merge and postmerge verification.
