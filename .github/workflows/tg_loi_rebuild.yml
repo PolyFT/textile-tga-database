@@ -9,6 +9,7 @@ on:
       - "data/scatter_ready.csv"
       - "scripts/validate_tg_loi.py"
       - "scripts/pairing.py"
+      - "scripts/csv_ingest.py"
       - "data/curation/**"
       - "tests/**"
       - ".github/workflows/tg_loi_rebuild.yml"
@@ -46,7 +47,7 @@ jobs:
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv README.md
+          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv README.md
           if git diff --cached --quiet; then
             echo "No master changes"
             exit 0

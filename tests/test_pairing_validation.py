@@ -96,6 +96,21 @@ class EvidenceValidationTests(unittest.TestCase):
         self.assertTrue(master.empty)
         self.assertIn('reviewed_specimen_not_textile', candidates.iloc[0].review_reasons)
 
+    def test_reviewed_legacy_chinese_form_and_affirmative_are_reachable(self):
+        row = approve(observation(material_form='织物', direct_numeric_use='是'))
+        master, candidates, _, _ = v.build_tables(pd.DataFrame([row]))
+        self.assertEqual(len(master), 1)
+        self.assertEqual(candidates.iloc[0].material_form, '织物')
+        self.assertEqual(candidates.iloc[0].direct_numeric_use, '是')
+
+    def test_chinese_affirmative_does_not_bypass_review_or_negative_tag(self):
+        for row in [observation(material_form='织物', direct_numeric_use='是'),
+                    approve(observation(material_form='织物', direct_numeric_use='否')),
+                    approve(observation(material_form='织物', direct_numeric_use='是但需复核'))]:
+            with self.subTest(row=row):
+                master, _, _, _ = v.build_tables(pd.DataFrame([row]))
+                self.assertTrue(master.empty)
+
     def test_same_sample_two_conditions_only_one_independent_state(self):
         rows = [approve(observation()), approve(observation(atmosphere='air'))]
         master, _, _, report = v.build_tables(pd.DataFrame(rows))

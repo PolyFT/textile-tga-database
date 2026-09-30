@@ -12,6 +12,7 @@ on:
       - "scripts/review_b_tg_loi.py"
       - "scripts/validate_tg_loi.py"
       - "scripts/pairing.py"
+      - "scripts/csv_ingest.py"
       - "data/curation/**"
       - "tests/**"
       - ".github/workflows/tg_loi_process.yml"

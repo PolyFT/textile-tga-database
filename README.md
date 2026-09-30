@@ -86,6 +86,10 @@ Data flow:
 4. Validation writes all numeric pairing candidates to `data/tg_loi_candidates.csv`; known form conflicts, unresolved aliases, and conflicting duplicate values also appear in `data/automation/pairing_quarantine.csv`
 5. Only individually evidence-reviewed exact observations enter `data/tg_loi_master.csv` as Grade A
 
+### Source import safeguards
+
+The validator recognizes only the exact existing single-sheet export wrapper, validates the expected column schema, and records wrapper/alias recovery in the JSON report. The original source files are unchanged. Width-invalid records are retained verbatim in `data/automation/source_import_quarantine.csv` and excluded from numeric analysis; unknown wrappers and invalid schemas fail the rebuild. Recovered historical rows are not new literature discoveries and are not automatically Grade A.
+
 ### Grade-A admission
 
 Matching labels and complete numerical fields are necessary but insufficient. A reviewer must document the exact same material formulation, physical form, treatment and washing state for the TGA and LOI observations, exact numeric evidence, and concrete source/table/method locations. The same normalized DOI/sample/washing/atmosphere/rate key and measurement fingerprint bind the review to the observation. Changes to measurements require another review.
@@ -120,14 +124,15 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
 
-- Legacy field-complete condition records: **226** (not a scientific Grade-A count)
-- Numeric TG–LOI candidate rows: **232**, across **43 DOI**
-- Field-complete, unflagged condition records awaiting evidence review: **214**
-- Quarantined condition records: **12**; originals and reasons retained
+- Legacy field-complete condition records: **271** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **412**, across **70 DOI**
+- Field-complete, unflagged condition records awaiting evidence review: **258**
+- Quarantined condition records: **13**; originals and reasons retained
+- Malformed input CSV records quarantined separately: **1**
 - Evidence-reviewed exact Grade-A conditions / sample states: **0 / 0**
 - Target: 2000 verified sample states; remaining **2000**
 
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `d213a7cd4828dcf3f6221800ce934f7b040659e13595fd68f5b40c6f190fdb8a`
+Snapshot SHA-256: `16f86edbb5432889ffa9b577f4eb6cc516a267639f198ce49bb8e784b9399db1`
 <!-- TG-LOI-SNAPSHOT:END -->
