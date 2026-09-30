@@ -32,10 +32,11 @@
     "snapshot_sha256": "60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T20:39:08Z",
-    "instruction": "B58 PR25 merged after205 tests, compilation, scientific gate and snapshot CI. Independent main readback373 states/426 conditions/89DOI/errors[]. All three postmerge checks passed. Refresh main/openPR/lease/queue before another publisher; preserve all held records. No fulltext or private paths."
+    "owner": "dot-source-review-b59-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T20:39:52.023Z",
+    "scope": "Nineteen commercial textile states from 10.2115/fiber.28.9_359 and three MOF cotton states from 10.1016/j.nxmate.2024.100143; independent exact-hash original-source QA passed.",
+    "instruction": "Do not overwrite this writer lease; coordinate another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
