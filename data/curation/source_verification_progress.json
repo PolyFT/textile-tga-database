@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T16:45:00Z",
+  "as_of_utc": "2026-09-30T16:48:52Z",
   "latest_batch_id": "20260930_b43",
   "verified_condition_records": 294,
   "verified_unique_sample_states": 251,
@@ -18,41 +18,34 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b43_branch_source_review_complete_awaiting_exact_head_CI",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b42",
-    "merge_sha": "a1858b9f82d16fad95ff0c4afe79dbf68ed259f5",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/8",
-    "verified_sample_states": 239,
-    "verified_condition_records": 280,
-    "verified_dois": 50,
-    "merged_at_utc": "2026-09-30T16:25:52Z",
-    "validated_head_sha": "08e7798ebf80ef98c3126b8e2a6b4a3a56fe52a0",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36743487730",
-    "snapshot_sha256": "b4f1ffe0216bcf13f84e059c90e0b5da677e5acb59369ffc5f4fb8f5c3f1fa20"
+    "batch": "b43",
+    "merge_sha": "78a1fd32807d536bf149f1155bd71c5bb7ecf623",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/10",
+    "verified_sample_states": 251,
+    "verified_condition_records": 294,
+    "verified_dois": 54,
+    "merged_at_utc": "2026-09-30T16:48:52Z",
+    "validated_head_sha": "9af52582a221945d2cf2cd034ede85220b28c351",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36746787846",
+    "snapshot_sha256": "6636b7d4c35a2bf8854d60bfad1bf0484ddcc1a6d85e0a92effac5bc541580c4"
   },
   "writer_lease": {
-    "owner": "source-verification-b43-20260930",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T16:40:49Z",
-    "batch": "b43",
-    "sources": [
-      "10.1039/D1RA06573D",
-      "10.1177/1528083716648761",
-      "10.1177/1528083718798636",
-      "10.1177/1528083720938158"
-    ],
-    "instruction": "One publisher is integrating the independently reviewed b43 public-source batch. Local metadata-library and hourly workers may prepare sources read-only; do not publish a competing data batch until this lease is released. Always check current main and open PRs first."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T16:48:52Z",
+    "instruction": "PR #10 is merged and the b43 writer lease is released. A withdrawn competing preparation exists at PR #9 (codex/source-review-b43). Confirm current main, open data PRs and source scope before any new publication claim. Never overwrite concurrent changes."
   },
   "next_sources": [
     "10.1038/s41598-024-71071-5",
     "10.7317/pk.2018.42.2.157",
     "10.13543/j.bhxbzr.2016.02.004",
     "10.33263/briac123.36473663",
-    "10.1177/0734904107083553"
+    "10.1177/1528083719881816"
   ],
   "next_actions": [
-    "Read-only b44 preparation proposes 13 newly completed cotton pairs and six new-to-measurement nylon/wool states; no b44 rows are counted here. Independently audit, reconcile current main and acquire one writer lease before publishing.",
+    "Prepared b44 has 21 independently source-reviewed proposals, not yet imported: 13 completed TG-only states and eight new-to-measurement states. Do not count until imported, validated and merged; coordinate source ownership with any other publisher first.",
     "Do not repeat completed b43 lyocell/PET/PP reviews. Keep PA/PD/PF, PO1, PP control and all four PAN form-mismatched states held. Generic PET residues remain outside fixed-temperature plots.",
     "Do not repeat b42 four completed source reviews or D1RA07410E held bulk/fiber mismatch. Use per-paper queue to select the remaining unreviewed sources.",
     "Review remaining unreviewed papers in tg_loi_candidates.csv; skip all completed DOI entries in source_review_queue.csv.",
@@ -105,6 +98,44 @@
     "reviewed_papers_added": 4,
     "whole_pair_holds": 5,
     "additional_PAN_form_holds": 4,
-    "tests_passed": 111
+    "tests_passed": 111,
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/10"
+  },
+  "pending_source_preparation": {
+    "batch_label": "b44_staged_only_not_on_main",
+    "condition_rows": 21,
+    "unique_sample_states": 21,
+    "newly_completed_existing_TG_only_states": 13,
+    "new_to_measurement_states": 8,
+    "approved_source_review_complete": true,
+    "repository_import_complete": false,
+    "sources": [
+      {
+        "DOI": "10.1038/s41598-024-71071-5",
+        "states": 13,
+        "classification": "newly_completed_existing_TG_only"
+      },
+      {
+        "DOI": "10.7317/pk.2018.42.2.157",
+        "states": 3,
+        "classification": "new_to_measurement"
+      },
+      {
+        "DOI": "10.13543/j.bhxbzr.2016.02.004",
+        "states": 2,
+        "classification": "new_to_measurement"
+      },
+      {
+        "DOI": "10.33263/briac123.36473663",
+        "states": 1,
+        "classification": "new_to_measurement"
+      },
+      {
+        "DOI": "10.1177/1528083719881816",
+        "states": 2,
+        "classification": "new_to_measurement"
+      }
+    ],
+    "instruction": "These staged source reviews are not master data and are not counted toward the target. Coordinate with the existing source preparer before duplicating work; reconcile any local-library or parallel publisher source scope before import."
   }
 }
