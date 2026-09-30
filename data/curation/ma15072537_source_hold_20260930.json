@@ -1,0 +1,18 @@
+[
+  {
+    "DOI": "10.3390/ma15072537",
+    "scope": "all12 existing TGA conditionrecords;3samplelabelsO-C/PP-C/PPA-C",
+    "decision": "hold_specimen_preparation_ambiguity; PP-C additionallywashingstateunresolved",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000066/",
+    "source_location": "Sections2.2-2.5,3.5,3.8;Tables1and3",
+    "facts": {
+      "TGA_conditions": "air,20-700°C,5/10/15/20°C/min,10mg;Section2.4 says Samples were cut into power",
+      "LOI_form": "Section2.5 uses10cm×5cm fabrics",
+      "LOI_table1": "WashingTimes1,10,20;O-C18throughout;PP-C37/35/31;PPA-C27/24/21",
+      "PPA_C_text": "Section3.5 explicitly identifies as-preparedAgNP-loadedfabricLOI27,soit has separate unwashedtextsupport",
+      "PP_C_text": "Section3.5 combines20washingcycles,37and31inacontradictorysentence;unwashed37notdefensible",
+      "sample_key": "Section2.3 definesO-Cunfinished,PP-Cflame-retardant,PPA-CwithAgNPs"
+    },
+    "recommendation": "Do not unconditionallypromote existing8pairedO-C/PPA-Cconditionrowsuntiltextileform taxonomy explicitlyaddresses ambiguouscut-into-powerTGApreparation. PP-Cremain TG-only. Preserveambiguityandrawtext;do not automaticallyrewritepoweraspowder."
+  }
+]

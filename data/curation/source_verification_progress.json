@@ -1,0 +1,33 @@
+{
+  "batch_id": "20260930_b38",
+  "as_of_utc": "2026-09-30T12:31:00Z",
+  "verified_condition_records": 67,
+  "verified_unique_sample_states": 60,
+  "verified_dois": 13,
+  "newly_completed_or_new_source_sample_states": 15,
+  "new_state_breakdown": {
+    "new_primary_sources_PA56_and_ZnO_MDPA": 11,
+    "fib9110069_missing_LOIs": 2,
+    "ATMP_CS_C8_5": 1,
+    "clay_2TL": 1
+  },
+  "evidence_upgraded_existing_sample_states": 45,
+  "near_term_target_unique_states": 500,
+  "remaining_near_term": 440,
+  "long_term_target_unique_states": 2000,
+  "counting_rule": "Unique DOI/sample/washing state. Multiple TG atmospheres/rates/metrics do not increase the target count. Same DOI is not a guarantee of identical physical specimens.",
+  "next_actions": [
+    "Import six worker-verified new-source pairs listed in source_review_queue after independent intake checks.",
+    "Prioritize new fulltext papers with explicit matched LOI/TG tables and supplements.",
+    "Restore source review for existing candidate papers; resolve conflicts rather than invent conditions.",
+    "Use the repaired legacy importer; recover missing original workbook rows only from the actual original file. Do not treat 180 restored numerical candidates as new scientific evidence."
+  ],
+  "publication_policy": "Factual numerical extractions and concise source provenance only; no fulltext PDFs or private sources.",
+  "numeric_pair_candidate_rows": 454,
+  "publication_stage": "validated_local_batch_awaiting_merge",
+  "writer_lease": {
+    "owner": "source-verification-20260930",
+    "status": "publishing_first_batch",
+    "instruction": "Do not publish concurrently; inspect open PR and latest main before continuing."
+  }
+}

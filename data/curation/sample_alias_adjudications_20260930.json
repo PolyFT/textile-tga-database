@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.3390/ma13235492",
+    "source_alias": "8",
+    "canonical_sample_state": "8 BL",
+    "decision": "same_sample_alias_source_verified",
+    "evidence": "Tables1 and4 first column is Number of BL; Section2 explicitly prepares four samples with8,10,12,15bilayers and one untreatedcontrol; Table3 labels these samples8 BL,10 BL,12 BL,15 BL. This is expansion of the column unit, not similarity of numeric outcomes.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7730485/",
+    "source_location": "Section2;Tables1,3,4",
+    "recommendation": "Resolve corresponding known issue; retain one canonical sample per DOI/wash/condition and record alias provenance. Do not retain auto numeric-only labels as independent pairs."
+  },
+  {
+    "DOI": "10.3390/ma13235492",
+    "source_alias": "10",
+    "canonical_sample_state": "10 BL",
+    "decision": "same_sample_alias_source_verified",
+    "evidence": "Tables1 and4 first column is Number of BL; Section2 explicitly prepares four samples with8,10,12,15bilayers and one untreatedcontrol; Table3 labels these samples8 BL,10 BL,12 BL,15 BL. This is expansion of the column unit, not similarity of numeric outcomes.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7730485/",
+    "source_location": "Section2;Tables1,3,4",
+    "recommendation": "Resolve corresponding known issue; retain one canonical sample per DOI/wash/condition and record alias provenance. Do not retain auto numeric-only labels as independent pairs."
+  },
+  {
+    "DOI": "10.3390/ma13235492",
+    "source_alias": "12",
+    "canonical_sample_state": "12 BL",
+    "decision": "same_sample_alias_source_verified",
+    "evidence": "Tables1 and4 first column is Number of BL; Section2 explicitly prepares four samples with8,10,12,15bilayers and one untreatedcontrol; Table3 labels these samples8 BL,10 BL,12 BL,15 BL. This is expansion of the column unit, not similarity of numeric outcomes.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7730485/",
+    "source_location": "Section2;Tables1,3,4",
+    "recommendation": "Resolve corresponding known issue; retain one canonical sample per DOI/wash/condition and record alias provenance. Do not retain auto numeric-only labels as independent pairs."
+  },
+  {
+    "DOI": "10.3390/ma13235492",
+    "source_alias": "15",
+    "canonical_sample_state": "15 BL",
+    "decision": "same_sample_alias_source_verified",
+    "evidence": "Tables1 and4 first column is Number of BL; Section2 explicitly prepares four samples with8,10,12,15bilayers and one untreatedcontrol; Table3 labels these samples8 BL,10 BL,12 BL,15 BL. This is expansion of the column unit, not similarity of numeric outcomes.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7730485/",
+    "source_location": "Section2;Tables1,3,4",
+    "recommendation": "Resolve corresponding known issue; retain one canonical sample per DOI/wash/condition and record alias provenance. Do not retain auto numeric-only labels as independent pairs."
+  }
+]

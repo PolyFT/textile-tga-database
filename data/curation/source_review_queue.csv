@@ -1,0 +1,26 @@
+DOI,status,verified_unique_sample_states,checkpoint_note,review_date
+10.3390/molecules27248737,complete_source_review,11,Tables8/9 exact wash-state mapping; 11 legacy rows reviewed,2026-09-30
+10.3390/ma11101842,complete_source_review,11,"Tables2/4; 11 numeric TGA rows reviewed, remaining LOI-only states not guessed",2026-09-30
+10.3390/molecules26123588,partial_source_conflict,1,FR-lyocell 2 atmospheres reviewed; original lyocell LOI Table4=17.0 versus Section3.5=15.0 held,2026-09-30
+10.3390/polym8040122,partial_source_review,1,"Untreated air verified; treated LOI graph-only, no estimates; nitrogen method/ramp requires confirmation",2026-09-30
+10.3390/polym16101409,complete_source_review,4,Supplementary S1/S2 plus Table1; C8.5 newly completed; air/N2 count4 states,2026-09-30
+10.3390/polym11111829,complete_source_review,2,"Cotton/CPN-PDMS same textile state, table/text numeric values verified",2026-09-30
+10.3390/ma17030630,partial_source_conflict,2,"N2 only approved; oxidative conditions oxygen in method versus air in results, held",2026-09-30
+10.3390/fib9110069,complete_source_review,7,Tables1/4 reverified; 10BL LOI24.0 and 10BL+Cu25.5 newly complete,2026-09-30
+10.3390/ma13235492,complete_source_review,5,Source-backed numeric/BL aliases resolved; only canonical BL rows approved,2026-09-30
+10.3390/polym16081044,complete_source_review,7,"PA56 seven states; M-4 Tmax text/table disagreement omitted, unambiguous T5/R800 kept",2026-09-30
+10.3390/polym14163414,complete_source_review,4,Untreated/A/B/23; synthetic air retained as atmosphere_reported,2026-09-30
+10.3390/molecules29225306,complete_source_review,2,Two cotton states under two TG atmospheres,2026-09-30
+10.3390/polym14224994,partial_source_conflict,3,Control/2TL/8TL reviewed incl supplementary TG; 5TL versus method4TL conflict held,2026-09-30
+10.3390/ma15072537,hold_specimen_preparation,0,TGA method literal cut into power ambiguous; Table1 wash times1/10/20; PPA-C27 has as-prepared text; see hold JSON,2026-09-30
+10.3390/polym12071538,hold_TG_ramp_attribution,0,Ramp10 stated for TG-IR only; 1T LOI Table24.2 versus text24.1,2026-09-30
+10.3390/ma17061346,hold_specimen_form,0,TGA method specifies powder; LOI fabric; require source-based form matching,2026-09-30
+10.3390/ma15186420,hold_missing_ramp,0,Three exact fabric pairs but TGA ramp not stated,2026-09-30
+10.3390/molecules24173100,exclude_exact_LOI_layer,0,Table4 LOI ranges; no midpoint points; TG-only retained,2026-09-30
+10.3390/polym18070819,hold_numeric_LOI_source,0,LOI Figure14 only and narrative threshold; verify exact printed labels or supplement before paired admission,2026-09-30
+10.1016/j.heliyon.2024.e34007,exclude_no_TGA,0,Accessible fulltext reports LOI and mechanical/fire tests but no TGA,2026-09-30
+10.3390/polym8090327,exclude_MCC_not_TGA,0,"Char yield and thermal peaks are MCC on ground powder, not TGA; not eligible TG–LOI pairs",2026-09-30
+10.1039/c8ra09005j,verified_batch_pending,1,PAN control from worker additional_verified_pairs.json; next batch,2026-09-30
+10.1021/acsomega.9b02719,verified_batch_pending,3,ZnSnO3 cotton control/A4/P4 from worker explicit_new_pairs.json; next batch,2026-09-30
+10.3390/ma14061542,verified_batch_pending,2,Silane cotton1M/2M from worker explicit_new_pairs.json; next batch,2026-09-30
+10.3390/ma16010286,hold_missing_ramp,0,"O-C/GPA-C numeric pairs, source TGA ramp missing; no invented conditions",2026-09-30
