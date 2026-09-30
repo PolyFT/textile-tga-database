@@ -453,4 +453,4 @@ Nine genuinely new sample states add twelve TG condition records from three orig
 
 Original fulltext methods, exact thermal prose and LOI tables establish sample identity, treatment, ramp and atmosphere. Spinach preparation pH conflicts, unmatched screening doses, potentially reused controls and curve-only residues remain held. Entrapment-only marine dose screening is distinct from the admitted crosslinked final specimens. Source-specific access and review limitations are retained, and all fulltexts remain private. Independent review passed at exact draft hashes.
 
-The b66 writer lease remains active pending exact-head CI, merge and postmerge verification.
+Published through PR33 at merge 7b0797a02853e22184cc7204ee7843ab0d2b1cb6. All 247 tests, exact-head validation and snapshot consistency passed at 89ff41c39b305242365eb060922f42e58ffd81a3. All three postmerge workflows passed, and the writer lease was released. Snapshot SHA256: e2299167e8f466ddd3c7135b08a95edb64adbcfcc061e324b781ab6e1a38973f.
