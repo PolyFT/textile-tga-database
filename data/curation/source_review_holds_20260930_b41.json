@@ -1,0 +1,94 @@
+[
+  {
+    "DOI": "10.1021/acsaenm.6c00308",
+    "status": "TG_only_no_LOI",
+    "source_url": "https://doi.org/10.1021/acsaenm.6c00308.s001",
+    "location": "Main Table4; complete 12-page SI TableS2",
+    "details": "Main and complete SI report VFT/cone tests but no LOI. Do not construct TG–LOI pairs. PNY N2 third peak conflicts: SI TableS2 436C versus prose432C."
+  },
+  {
+    "DOI": "10.3390/polym18010127",
+    "status": "incorrect_legacy_DOI_crosswalk",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12787758/",
+    "location": "Article identity and Section2.3",
+    "details": "This DOI is a cast polybutadiene-resin study, not PET bacterial degradation. Legacy recovery CTG0370–CTG0375 refer instead to PMC12843709 /10.3390/microorganisms14010207. Original legacy records remain unchanged; no paired promotion."
+  },
+  {
+    "DOI": "10.3390/microorganisms14010207",
+    "status": "TG_only_no_LOI",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12843709/",
+    "location": "Article identity; methods and thermal results",
+    "details": "Correct paper for six staged PET biodegradation rows. Full text concerns biodegradation and thermal analysis; no LOI measurement reported. Not a TG–LOI growth source."
+  },
+  {
+    "DOI": "10.1039/d4mh01684j",
+    "status": "hold_primary_fulltext_access",
+    "source_url": "https://pubs.rsc.org/en/content/articlelanding/2025/mh/d4mh01684j",
+    "location": "Publisher landing/HTML/PDF attempted2026-09-30",
+    "details": "Public abstract confirms coating but cannot verify exact numerical TGA/LOI pairs, specimen state and methods. HTML and PDF access failed; no admission from historical copied numbers."
+  },
+  {
+    "DOI": "10.3390/polym17070945",
+    "sample_state": "Pure Cotton",
+    "status": "hold_conflicting_LOI",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991659/",
+    "location": "Table3 versus Section3.3 flammability paragraph",
+    "details": "Untreated LOI is17 in Table3 but19 in prose. Both values retained here; neither selected. Four treated N2 states remain unambiguous."
+  },
+  {
+    "DOI": "10.3390/polym17070945",
+    "sample_state": "All five fabric states, air TGA",
+    "status": "hold_missing_air_ramp_attribution",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991659/",
+    "location": "Section2.4 versus Table2 air-residue column",
+    "details": "10C/min is explicitly specified for nitrogen only. Air residues cannot inherit nitrogen ramp."
+  },
+  {
+    "DOI": "10.3390/ma19020265",
+    "sample_state": "All ten Table4 textile states",
+    "status": "hold_conflicting_TGA_atmosphere",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12842728/",
+    "location": "Section2.2.6 versus Figures11–16 captions",
+    "details": "Method specifies synthetic air,60mL/min,10C/min; TG/DTG captions say nitrogen. Ten exact numeric sample-state pairs including3 washed states are held because atmosphere identity is unresolved. MCC Table3 peaks are not TGA peaks."
+  },
+  {
+    "DOI": "10.3390/polym18060682",
+    "sample_state": "OP10/OP10-SC/OP10-SC-Si2 after5 washes",
+    "status": "hold_no_same_state_TGA",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13030323/",
+    "location": "Table10 AfterWashing versus Table6 initial TGA",
+    "details": "Post-wash LOI cannot be paired with pre-wash TGA."
+  },
+  {
+    "DOI": "10.3390/fib6020031",
+    "sample_state": "Fabric 2a pad/dry before soak",
+    "LOI_pct": 31.2,
+    "reason": "No numeric same-state TGA; do not substitute sample 2 FR/MLSE.",
+    "status": "hold_no_same_state_TGA",
+    "source_url": "https://doi.org/10.3390/fib6020031"
+  },
+  {
+    "DOI": "10.3390/fib6020031",
+    "sample_state": "Fabric 2a pad/dry after soak",
+    "LOI_pct": 19.7,
+    "reason": "No numeric same-state TGA; also Table 2 LOI 19.7 vs section 3.1 text 19.3 conflict; held.",
+    "status": "hold_no_same_state_TGA",
+    "source_url": "https://doi.org/10.3390/fib6020031"
+  },
+  {
+    "DOI": "10.3390/fib6020031",
+    "sample_state": "Fabric 2b pad/dry/cure before soak",
+    "LOI_pct": 31.2,
+    "reason": "No numeric same-state TGA; do not substitute sample 2 FR/MLSE.",
+    "status": "hold_no_same_state_TGA",
+    "source_url": "https://doi.org/10.3390/fib6020031"
+  },
+  {
+    "DOI": "10.3390/fib6020031",
+    "sample_state": "Fabric 2b pad/dry/cure after soak",
+    "LOI_pct": 21.9,
+    "reason": "No numeric same-state TGA; do not substitute sample 2 FR/MLSE.",
+    "status": "hold_no_same_state_TGA",
+    "source_url": "https://doi.org/10.3390/fib6020031"
+  }
+]
