@@ -1,0 +1,66 @@
+[
+  {
+    "DOI": "10.3390/ma15155373",
+    "sample_state": "UNW",
+    "field": "Tonset_C",
+    "reason": "source_internal_numeric_conflict",
+    "source_values": {
+      "Results_text": 321.1,
+      "Figure_1_annotation": 321.61
+    },
+    "disposition": "other unambiguous TG metrics remain eligible"
+  },
+  {
+    "DOI": "10.3390/polym13234111",
+    "sample_state": "W100",
+    "field": "LOI_pct",
+    "reason": "source_internal_numeric_conflict",
+    "source_values": {
+      "abstract_and_conclusion": 44,
+      "Section_3_1": 44.6
+    },
+    "disposition": "whole pair held; no selected value"
+  },
+  {
+    "DOI": "10.3390/polym13234111",
+    "sample_state": "W20; W60",
+    "reason": "LOI_only_in_graph",
+    "disposition": "TG Table 2 facts preserved; no curve estimate promoted"
+  },
+  {
+    "DOI": "10.3390/polym12040774",
+    "sample_state": "PET + 0.10%; 0.25%; 1.00%; 2.50%; 5.00%; 7.50% C15A",
+    "reason": "no_exact_same_state_TG_numbers",
+    "disposition": "six Table 1 LOI-only states; no graph estimate promoted"
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2023.e13127",
+    "sample_state": "S2",
+    "reason": "missing_TG_atmosphere",
+    "disposition": "condition-partial facts only; excluded from target"
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2023.e13127",
+    "sample_state": "S4",
+    "reason": "missing_TG_atmosphere",
+    "disposition": "condition-partial facts only; excluded from target"
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2023.e13127",
+    "sample_state": "S5",
+    "reason": "missing_TG_atmosphere",
+    "disposition": "condition-partial facts only; excluded from target"
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2023.e13127",
+    "sample_state": "S10",
+    "reason": "missing_TG_atmosphere",
+    "disposition": "condition-partial facts only; excluded from target"
+  },
+  {
+    "DOI": "10.1039/D5RA00402K",
+    "sample_state": "25FR-1",
+    "reason": "missing_TG_atmosphere",
+    "disposition": "condition-partial facts only; excluded from target"
+  }
+]

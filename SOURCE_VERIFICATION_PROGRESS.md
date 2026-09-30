@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **272 unique DOI/sample/washing states**, **315 TG condition records**, and **59 papers**. The near-term target is 500 unique states; **228 remain**. The long-term target remains 2000.
+The reviewed dataset contains **280 unique DOI/sample/washing states**, **324 TG condition records**, and **62 papers**. The near-term target is 500 unique states; **220 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -97,3 +97,18 @@ All119 offline tests, compilation and scientific validation pass locally. Per-fi
 PR #11 merged at2026-09-30 17:01:58 UTC as `7e8416bd10e4b7a203149d4430a6ef442dff2d60`. Exact head `3485305e8ab727c90669ff39c8326832c280bbf3` passed [run36748303574](https://github.com/PolyFT/textile-tga-database/actions/runs/36748303574), including119 tests, compilation, scientific validation and snapshot consistency. Main independently confirms272 unique verified states,315 conditions,59 DOI and errors=[]. Snapshot SHA-256:`7a6861539e3a6f260ed5d0253f9bc1ea4038110171b8ddcb8c87ddf5f06e41a5`.
 
 The b44 single-writer lease is released and all five previously staged papers are now included. Next source preparation is not included in these counts: three guanidine-cotton states passed source review while five remain held for LOI contradictions; two PAA/MMT cotton states have four supported conditions while six concentration-mismatched states remain held; two further DOI sources are being screened. Recheck current main/open PRs and coordinate per-source ownership before another publication claim.
+
+
+## b45 Proban, PET fiber and wool source review
+
+Eight additional reviewed states are represented by nine TG conditions. Four are newly completed existing states: three Proban washing protocols gain exact TG annotations and the previously TG-only wool control gains explicit LOI. Four existing numeric pairs gain source evidence: Proban UNW/49_10x and two PET fiber states. There are zero new source-inventory sample states. Repeated wool atmospheres and Proban warp/weft LOI are not additional target samples.
+
+- Proban: Table 7 supplies LOI32 for all five states; Figures1/3/5/7/9 contain exact printed TG/dTG analyzer numbers. Table8 is MCC and is excluded. UNW onset321.1 versus321.61 is held; unambiguous peak/residue facts remain accepted. Residue temperature is850C, not700/800C.
+- PET/C15A: two Table1 fiber states match explicit primary DTG maxima. The coupled TG-FTIR condition is air50mL/min,20C/min,to750C; conventional TG air60mL/min,to700C is separate. First modifier decomposition, PET decomposition, later char oxidation and Gram-Schmidt gas maxima remain distinct. Preparation bath ramp is not TG ramp.
+- Wool: control is oxidatively pretreated woven wool, not raw wool. ControlLOI24 matches Table2 nitrogen/air TG. W100LOI44/44.6 and graph-only W20/W60 remain held; DSC flow/ramp do not supply TG conditions.
+- Heliyon: four explicit R600/LOI facts remain outside the verified layer because TG atmosphere and specimen preparation state are unresolved. SEM nitrogen is not a TG condition.
+- AEDTMP cotton: initial25FR-1LOI42.6/R80038 remains held for missing TG atmosphere. The100C event is crystal-water loss and260C is approximate. Direct publisher-linked SI returned404; complete SI review is not claimed. Post-wash LOI is not assigned to initial TG.
+
+Original source rows are retained. The source-state crosswalk resolves historical missing wash states; the manifest binds public numerical input hashes and measurement fingerprints. Full texts, original figure images and local source paths remain outside the public repository. The b45 publisher owns the active lease; exact-head tests and snapshot CI are required before merge.
+
+All126 offline tests, compilation and scientific validation pass locally, with280 unique states,324 conditions,62DOI and errors=[]. Final exact-head GitHub checks and snapshot consistency remain required before merge.
