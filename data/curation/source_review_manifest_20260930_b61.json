@@ -1,0 +1,63 @@
+{
+  "batch": "b61",
+  "summary": {
+    "added_verified_unique_states": 13,
+    "added_verified_condition_records": 24,
+    "new_source_measurement_states": 13,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b61_silk38961.csv",
+      "DOI": "10.1002/app.38961",
+      "draft_sha256": "18c1e037efb94389c346110fda037e631291430994377151a33d18ec2b2b321f",
+      "published_input_sha256": "98ed41a2286131ad305ea857f52f3f068675dbe695b4ebec0358ac63de28f589",
+      "states": 2,
+      "conditions": 2,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "617cbdb6bc14213b69d4883359565d4144605b1358b0918705e7aa45f2aaf5f3",
+        "12e6c268ac6701ec02e80cad2a91b61aa46de70502ef1f9c920475f407148bb2"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b61_cotton1997.csv",
+      "DOI": "10.11419/senshoshi1960.38.271",
+      "draft_sha256": "b908420b2b5e592e39b4c65ba77232d98555b87b7342834ae267a39fb7e37cf2",
+      "published_input_sha256": "06673b2d62afd22c92d946699fb567a23aeaf040d4cc3cd1b34c9bd82134a9d8",
+      "states": 11,
+      "conditions": 22,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "7b16d201b579941a27d133697cd8bd89e845cfb8b90a72e88d38e789b56b7f85",
+        "9868c8300ad00b70a920156df5b4a9138a6f81138e0e4099c124543c04eb2824",
+        "08aa720c13f553644765be9d1359c968b78447903aed8c1a86382b1f510c9ccc",
+        "c3df7b76d51d4cb01c74731c897bb74e14a0cf2f8de3811800c9cf4815d9e734",
+        "f8779b273865b7bd05e6ac4cb0e08169eacf3b88d8520fa0040ef895735c76a0",
+        "b755c24164dfd9b2f9db350a0d36064423f0ad39ba5cc9146ecfa077e8b026d0",
+        "af2649140086e01250bb45996c6009a74bc0e38bf1b4068c5b436cf3186153f6",
+        "3a48723fba880efab6f120ebb235e42d2b2230cba11607f6e1572ffecc753973",
+        "dcf9b700c1ed29623db920599bf8db2c62b6b8a807d42aca9de8d41274237c76",
+        "955a8732187286973264a24ba8096214ffc678b6013eb74c77569619acac3a1d",
+        "c34d446b2c62d3b5fa2e3c91ce86501600599ca7da44cb1d1d061d83f85e10f3",
+        "977ecb68a5f26805afd951362cee42dc75a7a14c46482cb83cbdb2172ba8775b",
+        "7fe178d2b3fbda00bc90574843882a0dd0324fbdff6677972a54216bfd44f0f9",
+        "eefdca23a7c924f200a992def1c5409ffcbb590d28f50607209aae54ed40f5e9",
+        "f54774ceeb97d6356d95486f6c7708dcb1d0aa0e6ade1cf92a4dfd84e1632237",
+        "f37074a0a85c8681664c807ea33b42997aed640c12ec632a76302eda6c369458",
+        "805af10312140cb36abb2b5d19c177cb32dc58a7d8023aef8b653dc8c4eb582d",
+        "8317fc97675c15b975f8acf0e1a51ad64e9f53a10e79da3d5574472acc347af3",
+        "89b522ce09a3e3d548764969dda64e4dd5fccfe42784d96d068553e8594417b3",
+        "e52a2712774d46a1400c036be5bd29f5f2a2bdac95cf8596ab7ffc12bd465b28",
+        "2449f6c75838014fc0c2cd1a5d0fdf433e57c6b22f6269ca91908de8b941c0d0",
+        "8b507f59e0f457694889f539b7607ed2380b63321ab228038ee09e4d37233498"
+      ]
+    }
+  ],
+  "limitations": [
+    "Cotton1997 two ramps are two conditions of one prepared sample, not separate states. Thermal prehold is not aging or laundering.",
+    "DMMEPN silk first DTG peak is modifier decomposition, second is silk; Td11 and incineration residues are not substituted as T10/TG.",
+    "Both original papers independently reviewed at exact draft hashes. Source fulltexts remain private."
+  ]
+}
