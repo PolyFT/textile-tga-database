@@ -184,3 +184,10 @@ Ten states are represented by ten TG conditions: nine existing phytate numerical
 Manifest, factual-input hash, fingerprints, partial records, source-state crosswalk and holds preserve restart positions. Full source files and local paths remain outside the public repository; the metadata library remains untouched. B49 owns the single-writer lease; exact-head tests and committed-snapshot CI are required before merging.
 
 All154 offline tests, compilation and scientific validation passed locally:326 unique verified states,373 TG conditions,75 DOI and errors=[]. Snapshot SHA-256:`9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a`. Final exact-head GitHub validation and committed-snapshot consistency remain required before merging.
+
+
+## b49 publication checkpoint
+
+PR #16 merged at2026-09-30 18:30:07 UTC as `bc59ccbff999365fb5b0a472bc95fd2174580a2a`. Exact head `87d3063cf8d5751d24d6cb74f0279651875a9721` passed [run36758833528](https://github.com/PolyFT/textile-tga-database/actions/runs/36758833528):154 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms326 unique reviewed states,373 TG conditions,75 DOI and errors=[]. Snapshot SHA-256:`9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a`.
+
+The b49 single-writer lease is released. This batch added one new source-inventory pair and upgraded nine previously numeric paired states; eight condition-partial records remain excluded. The near-term target still requires175 further unique states to exceed500. Local metadata-library path confirmation remains pending and the library remains untouched. Preserve source holds and verify current main/PRs/lease before the next publisher.
