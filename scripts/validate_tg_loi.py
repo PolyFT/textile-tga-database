@@ -18,6 +18,11 @@ except ImportError:
                                 normalize_doi, normalize_label, normalized_atmosphere,
                                 pair_key, reviewed_metadata)
 
+try:
+    from .csv_ingest import read_source_csv, QUARANTINE_COLUMNS
+except ImportError:
+    from csv_ingest import read_source_csv, QUARANTINE_COLUMNS
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 OUT_DIR = DATA / 'automation'
@@ -25,6 +30,7 @@ MASTER = DATA / 'tg_loi_master.csv'
 REPORT = OUT_DIR / 'validation_report.json'
 CANDIDATES = DATA / 'tg_loi_candidates.csv'
 QUARANTINE = OUT_DIR / 'pairing_quarantine.csv'
+IMPORT_QUARANTINE = OUT_DIR / 'source_import_quarantine.csv'
 ISSUES = DATA / 'curation/known_pairing_issues.csv'
 README = ROOT / 'README.md'
 SNAPSHOT_START = '<!-- TG-LOI-SNAPSHOT:START -->'
@@ -40,22 +46,28 @@ def input_paths():
 
 
 def load_all():
-    frames = []
+    frames, imports, quarantine = [], [], []
     for path in input_paths():
         if not path.exists():
             continue
-        # A damaged input must fail the rebuild rather than silently drop observations.
-        frame = pd.read_csv(path, low_memory=False, dtype=str).fillna('')
-        frame['source_file'] = str(path.relative_to(ROOT))
-        frame['source_row'] = range(2, len(frame) + 2)
+        frame, metadata, rejected = read_source_csv(path, ROOT)
         frames.append(frame)
-    return pd.concat(frames, ignore_index=True, sort=False).fillna('') if frames else pd.DataFrame()
+        imports.append(metadata)
+        quarantine.extend(rejected)
+    result = pd.concat(frames, ignore_index=True, sort=False).fillna('') if frames else pd.DataFrame()
+    result.attrs['source_imports'] = imports
+    result.attrs['source_import_quarantine'] = quarantine
+    return result
 
 
 def write_if_changed(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
-    if not path.exists() or path.read_text(encoding='utf-8') != text:
-        path.write_text(text, encoding='utf-8')
+    if path.exists():
+        with path.open(encoding='utf-8', newline='') as handle:
+            if handle.read() == text:
+                return
+    with path.open('w', encoding='utf-8', newline='') as handle:
+        handle.write(text)
 
 
 def issue_list():
@@ -129,6 +141,9 @@ def build_tables(df, issues=None):
         row['measurement_fingerprint'] = measurement_fingerprint(row)
         substantive = known_issues(row, issues or [])
         pending = evidence_issues(row)
+        # A complete fingerprint-bound source review can resolve legacy form
+        # labels in another language; keep the original descriptive field.
+        reviewed_form = normalize_label(row.get('material_form_TGA')) if not pending else ''
         if not normalize_doi(row.get('DOI')):
             pending.append('missing_doi')
         if not normalize_label(row.get('sample_state')):
@@ -138,9 +153,9 @@ def build_tables(df, issues=None):
         rr = pd.to_numeric(row.get('heating_rate_C_min'), errors='coerce')
         if pd.isna(rr) or not 0 < rr < float('inf'):
             pending.append('missing_or_invalid_heating_rate')
-        if clean(row.get('direct_numeric_use')).lower() not in {'yes', 'tg+loi'}:
+        if clean(row.get('direct_numeric_use')).lower() not in {'yes', 'tg+loi', '是'}:
             pending.append('direct_numeric_use_review_pending')
-        form = normalize_label(row.get('material_form'))
+        form = reviewed_form or normalize_label(row.get('material_form'))
         if not re.search(r'fabric|textile|fiber|fibre|woven|knit|yarn', form):
             pending.append('textile_form_review_pending')
         row['pair_quality'] = 'quarantine' if substantive else ('pending_review' if pending else 'A')
@@ -170,7 +185,9 @@ def build_tables(df, issues=None):
     quarantine = result[result.pair_quality.eq('quarantine')].copy()
     eligible = result[result.field_complete & ~result.pair_quality.eq('quarantine')]
     report = {
-        'report_version': 2,
+        'report_version': 3,
+        'source_imports': df.attrs.get('source_imports', []),
+        'malformed_source_rows_quarantined': len(df.attrs.get('source_import_quarantine', [])),
         'all_loaded_rows': int(len(df)),
         'legacy_field_complete_condition_records': int(legacy_keys.nunique()),
         'numeric_pair_candidate_rows': int(len(result)),
@@ -201,7 +218,7 @@ def build_tables(df, issues=None):
 
 
 def snapshot_digest():
-    paths = input_paths() + [ISSUES, DATA / 'curation/pair_reviews.csv', ROOT / 'scripts/pairing.py', ROOT / 'scripts/validate_tg_loi.py']
+    paths = input_paths() + [ISSUES, DATA / 'curation/pair_reviews.csv', ROOT / 'scripts/pairing.py', ROOT / 'scripts/validate_tg_loi.py', ROOT / 'scripts/csv_ingest.py']
     digest = hashlib.sha256()
     for path in sorted(paths):
         if path.exists():
@@ -220,6 +237,7 @@ def update_readme(report):
         f"- Numeric TG–LOI candidate rows: **{report['numeric_pair_candidate_rows']}**, across **{report['candidate_dois']} DOI**",
         f"- Field-complete, unflagged condition records awaiting evidence review: **{report['eligible_pending_condition_records']}**",
         f"- Quarantined condition records: **{report['quarantined_condition_records']}**; originals and reasons retained",
+        f"- Malformed input CSV records quarantined separately: **{report['malformed_source_rows_quarantined']}**",
         f"- Evidence-reviewed exact Grade-A conditions / sample states: **{report['verified_exact_condition_records']} / {report['verified_exact_sample_states']}**",
         f"- Target: 2000 verified sample states; remaining **{report['remaining_to_target']}**", '',
         'A missing new review field means pending documentation, not that a legacy measurement is wrong.',
@@ -243,7 +261,9 @@ def main():
     # Validate before publishing any output. Bad input must not replace the last valid snapshot.
     if report['errors']:
         raise SystemExit(1)
-    for path, frame in [(MASTER, master), (CANDIDATES, candidates), (QUARANTINE, quarantine)]:
+    import_quarantine = pd.DataFrame(df.attrs.get('source_import_quarantine', []), columns=QUARANTINE_COLUMNS)
+    for path, frame in [(MASTER, master), (CANDIDATES, candidates), (QUARANTINE, quarantine),
+                        (IMPORT_QUARANTINE, import_quarantine)]:
         write_if_changed(path, frame.to_csv(index=False))
     write_if_changed(REPORT, json.dumps(report, indent=2, ensure_ascii=False) + '\n')
     update_readme(report)

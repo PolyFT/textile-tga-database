@@ -33,3 +33,9 @@ Report condition records, DOI count, sample-state combinations and per-variable 
 ## Local verification
 
 `python -m unittest discover -s tests -v` runs fixture-based hard-bug, cache, fingerprint, conservative-identity, quarantine and failure-safe rebuild regressions. `python scripts/validate_tg_loi.py` regenerates candidates, quarantine, master, JSON report and README snapshot in one pass. No raw source CSV is overwritten.
+
+## Historical CSV import
+
+Known single-sheet export wrappers are removed only in memory after matching the exact source filename and validating the header. The legacy first batch maps documented sample/title/direct-numeric aliases while retaining the original fields. All width-invalid records, including the truncated final baseline row, are retained verbatim in a separate source-import quarantine and excluded from analysis. Unknown schemas and malformed quoting stop the rebuild.
+
+The exact legacy affirmative `是` is accepted alongside `yes` and `TG+LOI`; negative and qualified tags are not. A fully fingerprint-bound evidence review may establish a reviewed textile form even when the original descriptive material-form field is Chinese. The original field is retained, and missing review metadata never receives this override. Restored historical candidates are not counted as new discoveries or automatically reviewed pairs.

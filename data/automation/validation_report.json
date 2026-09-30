@@ -1,11 +1,315 @@
 {
-  "report_version": 2,
-  "all_loaded_rows": 876,
-  "legacy_field_complete_condition_records": 226,
-  "numeric_pair_candidate_rows": 232,
-  "eligible_pending_condition_records": 214,
-  "quarantined_condition_records": 12,
+  "report_version": 3,
+  "source_imports": [
+    {
+      "source_file": "data/scatter_ready.csv",
+      "accepted_rows": 570,
+      "quarantined_rows": 1,
+      "wrapper_removed": true,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_auto_20260924.csv",
+      "accepted_rows": 9,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_condition_partial_batch_20260921_b22_nyco_pa66_pet.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
+      "accepted_rows": 12,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_batch_20260921_b14_wool_phytic_acid.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_only_batch_20260921_b10_pa66.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_only_batch_20260921_b11_phytate_multisubstrate.csv",
+      "accepted_rows": 9,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_only_batch_20260921_b13_life_flarex_home_textile.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_tg_only_batch_20260921_b18_pet_polyaniline_2004.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921.csv",
+      "accepted_rows": 17,
+      "quarantined_rows": 0,
+      "wrapper_removed": true,
+      "column_aliases": {
+        "sample": "sample_state",
+        "material": "material_category",
+        "treatment": "treatment_state",
+        "direct_numeric": "direct_numeric_use",
+        "title": "source_title"
+      }
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b15_pet_lbl_automotive.csv",
+      "accepted_rows": 10,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b16_pan_solgel_lbl.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b17_cotton_pa_ch_urea.csv",
+      "accepted_rows": 5,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b17_pan_pva_composite.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b18_cotton_pa_ag_heating_rate.csv",
+      "accepted_rows": 12,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b19_cotton_atmp_cs.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b19_pet_cotton_urea_phytate.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b2.csv",
+      "accepted_rows": 24,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b20_cotton_clay_lbl.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b20_pet_cotton_pnb_ifr.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b21_universal_pec_cotton_blends.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b3.csv",
+      "accepted_rows": 14,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b4.csv",
+      "accepted_rows": 15,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b5.csv",
+      "accepted_rows": 12,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b6.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b7.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b8.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260921_b9_commercial_furnishing.csv",
+      "accepted_rows": 27,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b24_cotton_ttctn.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b25_cotton_atmp_cs.csv",
+      "accepted_rows": 1,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b26_pet_ndfr_uv_ozone.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b27_cotton_phosphate_solgel.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b28_cotton_reactive_ifr.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b29_cotton_dhtp_click.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260923_b30_cotton_aepea.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b31_cotton_rsc_strict.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b32_cotton_cpn_pdms.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b33_cotton_atpepdpa.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b34_cotton_pdtsp.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b35_cotton_sulfonate_ba.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b36_cotton_plasma_uv_wash.csv",
+      "accepted_rows": 11,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_web_batch_20260927_b37_phytate_multisubstrate_2026.csv",
+      "accepted_rows": 9,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    }
+  ],
+  "malformed_source_rows_quarantined": 1,
+  "all_loaded_rows": 873,
+  "legacy_field_complete_condition_records": 271,
+  "numeric_pair_candidate_rows": 412,
+  "eligible_pending_condition_records": 258,
+  "quarantined_condition_records": 13,
   "quarantine_reason_counts": {
+    "conflicting_measurements": 3,
     "possible_sample_alias": 8,
     "specimen_form_mismatch": 4
   },
@@ -13,12 +317,12 @@
   "verified_exact_condition_records": 0,
   "verified_exact_sample_states": 0,
   "verified_exact_dois": 0,
-  "candidate_dois": 43,
-  "candidate_sample_states": 187,
-  "rows_with_numeric_loi": 232,
-  "rows_with_any_tg_numeric": 286,
-  "rows_missing_atmosphere_among_pair_candidates": 2,
-  "rows_missing_heating_rate_among_pair_candidates": 6,
+  "candidate_dois": 70,
+  "candidate_sample_states": 293,
+  "rows_with_numeric_loi": 458,
+  "rows_with_any_tg_numeric": 763,
+  "rows_missing_atmosphere_among_pair_candidates": 33,
+  "rows_missing_heating_rate_among_pair_candidates": 97,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
   "remaining_to_target": 2000,
@@ -32,5 +336,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "d213a7cd4828dcf3f6221800ce934f7b040659e13595fd68f5b40c6f190fdb8a"
+  "snapshot_sha256": "16f86edbb5432889ffa9b577f4eb6cc516a267639f198ce49bb8e784b9399db1"
 }
