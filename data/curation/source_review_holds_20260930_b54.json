@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.1039/D1RA09197B",
+    "status": "held_method_and_LOI_origin",
+    "source": "https://pubs.rsc.org/en/content/articlepdf/2022/ra/d1ra09197b",
+    "reason": "Complete publisher13page PDF reviewed. Fig6 nitrogen andTable2 numericTG available, but standalone TG ramp absent. The20Cmin procedure belongs toMCC. LOI discussion invokes Lyon equation without independently described measuredLOI method; cannot assume direct measurement. No admitted pairs."
+  },
+  {
+    "DOI": "10.1177/1528083714555780",
+    "status": "held_missing_TG_conditions",
+    "source": "https://journals.sagepub.com/doi/full/10.1177/1528083714555780",
+    "reason": "Complete publisher HTML reports48LOI states across8formulations/6wash states. TG method gives instrument only, no atmosphere/ramp; Figure10 fourseries numbering differs fromTable1 eight-formulation identifiers. Exact pairedTG/method unavailable. Do not pair postwashLOI with initialTG."
+  },
+  {
+    "DOI": "10.1016/j.surfcoat.2011.01.006",
+    "status": "held_no_exact_supported_TG_metric",
+    "source": "https://www.researchgate.net/publication/229109471_Multifunctional_silk_fabrics_by_means_of_the_plasma_induced_graft_polymerization_PIGP_process",
+    "reason": "Complete author manuscript text hasN2/10CminTG and measuredLOI. Thermal prose gives mass-loss fractions over intervals; graph lacks printed exact peaks/residues. Table1 char is afterflame; Table3PCFC. No conversion of interval loss into source-reportedR700. Wash andSF6 states lack matchedTG."
+  },
+  {
+    "DOI": "10.1177/1558925019898946",
+    "status": "held_TG_endpoint_conflict",
+    "source": "https://journals.sagepub.com/doi/pdf/10.1177/1558925019898946",
+    "reason": "Complete publisher8pagePDF reviewed. FiveOPFLOIs exactTable2; methodsTG30-700C N2/10Cmin but residue prose reports800C56/68%. Figure5 endpoint must resolve before admission. OPFHA-MEA T5=104C is explicitly moisture/smallgroups, not mislabeledTonset. No new states admitted."
+  },
+  {
+    "DOI": "10.5714/CL.2016.17.1.074",
+    "status": "incomplete_source_figure_verification",
+    "source": "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=20921",
+    "reason": "OriginalHTML body retrieved; fourlyocellstates and5/10/20/40Cmin, air/N2 methods. Table1andFig4 numeric pixels absent fromHTMLparser; standaloneR900 ramp/LOI sample mapping still needs original figures. PreserveNH4Cl versusNH4SO4 concentration contradictions."
+  },
+  {
+    "DOI": "10.3390/fib6020036",
+    "status": "excluded_no_own_LOI",
+    "source": "https://doi.org/10.3390/fib6020036",
+    "reason": "Complete original11pagePDF reviewed: no measured LOI method or results. Later reviews give LOI that is not found in the original; do not substitute secondary-source values."
+  }
+]

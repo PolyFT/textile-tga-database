@@ -1,0 +1,40 @@
+{
+  "batch": "b54",
+  "summary": {
+    "added_verified_unique_states": 11,
+    "added_verified_condition_records": 11,
+    "new_source_measurement_states": 11,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b54_pan_zinc.csv",
+      "DOI": "10.1007/s10973-015-5180-1",
+      "draft_sha256": "cba18a25c631a86fc34c846eb733a5cea72aeb15aa7344b3d5176d68fe152c45",
+      "published_input_sha256": "9e62c86e8a6960204ce3f91ccfa36ce4f38f9774e64807ec7dda65a20e63f0b1",
+      "states": 11,
+      "conditions": 11,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "63e50e576d27950328d34ae613359c898c741f9589094c005e587280eeb299ec",
+        "943422874d4e6e0f3717623490ebf3556f9b096b91a3914b980860128f9ec70d",
+        "9981cf657b413920852bb5328150bfd2b8d18b1af13e183e1a79586cddd65530",
+        "2822cb0c30d97a267ae11c61885fe0e74b6cfef485a1f93e06cf726c91b377dc",
+        "1f434ffaa2cd04750d41626470b244cddb6abf5f15c4c3a64dd768a2729a0151",
+        "d849856756970bdca21e2e4cb9da97785dd33fcb819ab91fd831dbc3860361c4",
+        "3b80048f8f64d8a1272692cf9cf2720a7b028b8afab5f2bcb2c959a96935ae89",
+        "75dde8a2e6f629386684006e68f6f9c88c9f2e834debdf139cf91af23795b4b4",
+        "8e507e9871e3c22325cfada3eddde8055922e87b29e9dbc21275a823d2a7fd5d",
+        "34b486f7dc4915dab92012b9d279d20223040f415da2da0e332ebbd159374861",
+        "2e0f1eca8271c494d630d15e13c7cdd34d9ebdfd4f3d2e376b487a014b065e79"
+      ]
+    }
+  ],
+  "limitations": [
+    "Same prepared wet-spun PAN fibers are tested using different assay preparations: powdered aliquots for TG and braided specimens for LOI. Both original form descriptions are retained in dedicated fields, and identical geometry is not claimed.",
+    "All eleven LOI values and measured R700 values come from original printed labels/prose. No curve digitization, Zn subtraction or inferred mass-loss temperature.",
+    "TG-FTIR, MCC and DSC are distinguished from conventional TG. Preparative washing is not durability laundering.",
+    "No matching DOI or exact LOI/R700 pair occurred in prior incoming observations. Raw evidence and source fulltext remain private."
+  ]
+}
