@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **221 unique DOI/sample/washing states**, **254 TG condition records**, and **46 papers**. The near-term target is 500 unique states; **279 remain**. The long-term target remains 2000.
+The reviewed dataset contains **239 unique DOI/sample/washing states**, **280 TG condition records**, and **50 papers**. The near-term target is 500 unique states; **261 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **221 unique DOI/sample/washing states**, **254 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 76 new/newly completed paired states and 145 existing paired states with upgraded evidence
+- Cumulative: 76 new/newly completed paired states and 163 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -23,9 +23,9 @@ The reviewed dataset contains **221 unique DOI/sample/washing states**, **254 TG
 
 ## Continuation
 
-The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b41 the candidate layer has 643 numerical rows, while 221 unique sample states have the required source review.
+The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b42 the candidate layer has 669 numerical rows, while 239 unique sample states have the required source review.
 
-`data/curation/source_review_queue.csv` tracks per-paper outcomes; `source_verification_progress.json` records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
+ tracks per-paper outcomes;  records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
 
 The b40 source rows use fingerprint-bound inline review metadata supported by the existing validator. This avoids repeatedly rewriting an ever-growing review registry; changing a scientific value or condition invalidates the stored approval. Public branch-local materialization generates large derived tables without copying PDF/XML source caches into the repository.
 
@@ -43,6 +43,17 @@ Twenty-four complete legacy commercial rows (CTG0362–CTG0385) are staged in cu
 
 ## b41 publication checkpoint
 
-PR #7 merged to `main` at 2026-09-30 15:53:45 UTC as `fd1dc47249bf7b44ddbbea36b82fcab7c873f695`. Exact-head validation of `e998828eb5966c57f6ba802b692c6afe4d097372` passed in [run 36725147420](https://github.com/PolyFT/textile-tga-database/actions/runs/36725147420), including all 97 offline tests and snapshot consistency. Remote main was independently read back: 221 verified unique sample states, 254 conditions, 46 DOI, no validation errors. Snapshot SHA-256: `d0d18b048f77e905994816e6398587bacf3082ff81519059846ccd24f435285d`.
+PR #7 merged to  at 2026-09-30 15:53:45 UTC as . Exact-head validation of  passed in [run 36725147420](https://github.com/PolyFT/textile-tga-database/actions/runs/36725147420), including all 97 offline tests and snapshot consistency. Remote main was independently read back: 221 verified unique sample states, 254 conditions, 46 DOI, no validation errors. Snapshot SHA-256: .
 
 The b41 single-writer lease is released. The per-paper source-review queue and its holds remain intact. Start the next publisher only after checking current main and any open data PR; no b42 rows are included in this checkpoint.
+
+## b42 recovered publication batch
+
+- Eighteen existing states receive source verification, represented by 26 TG conditions across four additional papers. This is an evidence upgrade, with zero genuinely new scientific states
+- ACS Omega 2c02466: five states / ten conditions; defective later Table 5 headers remain unmapped. Only three explicit prose residues are retained
+- IJMS 24021093: three states / six conditions; TGA conditions stay separate from TG-FTIR conditions, and unmatched washed states remain held
+- e-Polymers 2020-0059: six states / six conditions; bath concentration differs from add-on, and unspecified uncertainty is not called SD
+- Nanomaterials 12224048: four 50-laundering-cycle states / four conditions; actual LOI grid and TG table state mapping overrides transposed captions. Residue endpoint is 900 C. The stage-a moisture/solvent loss peak is stored as water_removal_peak_C, with stage-b decomposition numbering retained as Tmax2_C
+- D1RA07410E remains excluded: bulk copolyester TG cannot be paired with separately spun-fiber LOI; five legacy numeric sets also mismatch the cited source
+
+Recovered original extraction and independent QA artifacts were reused rather than repeating their source reviews. All 104 offline tests, compilation and the scientific validation gate pass locally. The branch must pass exact-head snapshot CI before merging. Its temporary branch-only materializer removes itself, and only numerical facts, concise provenance and tests are published. The b42 writer lease remains active until verified publication on main.

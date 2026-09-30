@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.1039/d1ra07410e",
+    "status": "hold_nontextile_TG_and_legacy_source_mismatch",
+    "review_scope": "Main paper and complete five-page supplementary information",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978624/",
+    "finding": "Table 2 reports bulk copolyester TGA and Table 3 reports bulk copolyester LOI. Table 7 separately measures fibers, giving 21.0\u00b10.3, 31.9\u00b10.2 and 34.1\u00b10.1 for Pure PET, PETP and PETP-3Si, with no separately measured fiber TGA. No same-form textile pair is admitted. The supplement covers DDP/DDP-EG TGA and copolyester DSC, not fiber TGA.",
+    "legacy_records": "CTG0351\u2013CTG0355",
+    "legacy_mismatch": "PETP-0.6Si does not occur in Table 1. All five legacy numeric sets differ from the cited source. Preserve originals as unverified and do not promote. Actual Table 2 T5 values: 370.3, 386.5, 380.0, 380.9, 381.2\u00b0C. Table 3 LOI values: 21.2, 32.5, 32.8, 33.8, 34.8%."
+  },
+  {
+    "DOI": "10.3390/nano12224048",
+    "status": "partial_review_control_LOI_approximate",
+    "held_states": "Control and 1/10/30-cycle treated states",
+    "reason": "Control LOI ca.18.4 is approximate; other washing states lack same-state TGA. Four 50-cycle states are retained."
+  },
+  {
+    "DOI": "10.1021/acsomega.2c02466",
+    "status": "hold_malformed_table_headers",
+    "reason": "Original Table 5 PDF and XML share defective headings. Later peak/residue columns are not mapped. Only three explicitly stated prose residues retained: Ni air4.5, Ni N2 8.6, Fe air6.3."
+  },
+  {
+    "DOI": "10.3390/ijms24021093",
+    "status": "hold_unmatched_states",
+    "reason": "PAP-100, PAPBTCA-100 and separately washed5Ls states have LOI but no same-state TG data. Complete three-page SI reviewed and adds no pairs."
+  },
+  {
+    "DOI": "10.1515/epoly-2020-0059",
+    "status": "hold_unmatched_washed_or_crosslinked_states",
+    "reason": "Washed C30, C30/BTCA and C30/CA LOI states have no same-state TG table. LOI uncertainty kind is not reported."
+  }
+]
