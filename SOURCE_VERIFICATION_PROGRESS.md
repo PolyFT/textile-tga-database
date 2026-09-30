@@ -146,3 +146,7 @@ Nine existing numerical pairs gain complete same-state evidence and become eligi
 - New smart cotton: Table1 contains three exact TG/LOI tuples, but methods mention both N2 and air without assigning the table to either. These facts are condition-partial only. The full ramie paper reports no TG; two Cellulose leads expose only public previews.
 
 Manifest, sample-state crosswalk, field-level holds and the source queue preserve recovery positions. Public files contain facts and concise provenance only. Metadata library selection remains pending; no library file has been changed. Latest-main b46 additions and other preparation are preserved. Exact-head tests and snapshot CI are required before merge.
+
+## b47 publication checkpoint
+
+[PR #14](https://github.com/PolyFT/textile-tga-database/pull/14) merged as `3d422bf40f07f48e425dfb6f31f015e30b578462` after [validation run 36753896559](https://github.com/PolyFT/textile-tga-database/actions/runs/36753896559) passed on exact head `eba30ce384c372bda8da5b79debd9244f5bcc227`: 138 tests, Python compilation, scientific validation and committed-snapshot consistency. Refreshed main confirms 294 verified unique states, 340 conditions and 67 DOI; errors are empty. Snapshot: `532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a`. B47 adds nine evidence upgrades and no newly completed or new-source pairs. Its single-writer lease is released; next publication must refresh main, PRs, source queue and lease. Local metadata directory selection remains unresolved; no library file has been changed.
