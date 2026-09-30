@@ -32,10 +32,20 @@
     "snapshot_sha256": "f1668a8b7557cc17f5bc61b45e58495804e81cabc2aad45f7457cc13fe8ca191"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T17:26:36Z",
-    "instruction": "PR #13 is merged and b46 publication is complete. All independently reviewed ready pairs from the previously announced two-paper preparation are now included. Check current main/open PRs/source scope before another single-publisher claim. Preserve all other holds and concurrent preparation."
+    "owner": "codex-local-metadata-curation-b47-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T17:41:59.271Z",
+    "expires_at_utc": "2026-09-30T18:41:59.271Z",
+    "source_scope": [
+      "10.1177/0734904107083553",
+      "10.1021/acssuschemeng.3c00028",
+      "10.1016/j.ejpe.2015.04.001",
+      "10.1021/acsomega.8b00822",
+      "10.3390/ma17061416",
+      "10.1007/s10570-022-04892-0",
+      "10.1007/s10570-017-1391-x"
+    ],
+    "instruction": "Single publisher for b47 factual source review. Nine existing numerical pairs proposed for evidence upgrade; partial/ambiguous/new candidates remain excluded. Preserve other source preparation. No literature library writes."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
