@@ -1,0 +1,54 @@
+{
+  "batch": "b70",
+  "baseline_counts": [
+    485,
+    556,
+    112
+  ],
+  "summary": {
+    "added_verified_unique_states": 7,
+    "added_verified_condition_records": 9,
+    "new_source_measurement_states": 7,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b70_boron2023.csv",
+      "DOI": "10.1021/acsaenm.3c00570",
+      "draft_sha256": "8886b5d0b7381f6b1fee521648843f529c1d92858d5bf2094721dc99ff216dcf",
+      "published_input_sha256": "8947bd831adf115d1362b1daead85059c2fb33829227b88ad30f30b96980e2b6",
+      "states": 2,
+      "conditions": 4,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "c90064d3983c2a493c8d130af2622d7202a05abd6ada6b0a6327b156ad677886",
+        "770a85c3626a537417dd2d193924355da7470dd608e26cdf1b12cbf9f309f157",
+        "864d036196c1b3d28787950e472812c3e20ebb9d4a1c2f8ccb7191d2d473e128",
+        "47859ad7327dc1043d76e08b41e3d86feb6b42a7283c436309453bfff32fd6f4"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b70_lpu2025.csv",
+      "DOI": "10.48130/emst-0025-0024",
+      "draft_sha256": "010832bc77e4dce5cb384413bebddbf901b3bb63582644d8be835af527e3fec9",
+      "published_input_sha256": "b01e4a3e00ceabde5b05f592b4312127c2d5afcd4be7a9fc40ebc7106c70c771",
+      "states": 5,
+      "conditions": 5,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "273da9ce05c54bf40e36f67aeb2357fc2209f9d828a0cd64e1cb547d32bd8fca",
+        "7bee3ec57ac9cddcebfe7d398d2b2d1d59a4c116e4f9e140c1e02d91dbddbf38",
+        "3ed9adb5e25610e7af8abff8079925fc2ac33dcae28f3931d9486a8d968f3b96",
+        "8c7d8296454796d9d8bcb93074090e07ffe22766519b9fe2f31717230eb63d91",
+        "7abaa8ee225e7901ec81362907aba4f56eb7aa69f4d396f56c8ceb3fb8e1a162"
+      ]
+    }
+  ],
+  "limitations": [
+    "Repeated atmospheres do not add independent sample states.",
+    "Generic terminal residues retain unknown assessment temperatures; scan endpoints are not substituted.",
+    "Explicit thermal preholds and assay-specific specimen preparation remain separate from canonical fabric form.",
+    "Independent original-source QA checked exact draft hashes; source fulltexts remain private."
+  ]
+}

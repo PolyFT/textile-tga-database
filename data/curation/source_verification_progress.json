@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T23:05:40.683Z",
-  "latest_batch_id": "20260930_b69",
-  "verified_condition_records": 556,
-  "verified_unique_sample_states": 485,
-  "verified_dois": 112,
+  "as_of_utc": "2026-09-30T23:12:34.496340+00:00",
+  "latest_batch_id": "20260930_b70",
+  "verified_condition_records": 565,
+  "verified_unique_sample_states": 492,
+  "verified_dois": 114,
   "numeric_pair_candidate_rows": 934,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 15,
+  "remaining_near_term": 8,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 284,
+  "cumulative_newly_completed_or_new_source_sample_states": 291,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b68",
     "merge_sha": "bb1738f4dab1d52779625a4fa9124f5203c67880",
@@ -47,6 +47,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "B70 adds seven cotton states at nine thermal conditions. Keep generic residue assessment temperature unknown, preserve120 C prehold and official uncertainty, and retain original-paper conflicts and unmatched states as holds.",
     "B69 adds thirteen initial textile states from casein LBL, PA-Cys nylon/cotton and SHP/MA/TEA cotton sources. Preserve source-native uncertainties, onset definitions and recipe/wash distinctions.",
     "b68 adds2newPLA nonwovenstates. All10TGrows retained; airrate/LOIbar omissions held. Preserve20source screeningholds andform/rateconflicts. Metadata rootconfirmationpending; librarystrictlyreadonly; refreshmain/PR/leasebefore nextpublisher.",
     "B67 adds four citrus BC and jute states. Preserve unknown citrus residue assessment temperature and explicit500 C jute residue; no inferred washes or screening pairs.",
@@ -70,7 +71,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -356,7 +357,7 @@
       "snapshot_sha256": "30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3"
     }
   },
-  "remaining_to_exceed_500": 16,
+  "remaining_to_exceed_500": 9,
   "batch_b58": {
     "accepted_unique_sample_states": 6,
     "accepted_condition_rows": 6,
@@ -652,5 +653,14 @@
       "verified_dois": 112,
       "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849"
     }
+  },
+  "batch_b70": {
+    "added_verified_unique_states": 7,
+    "added_verified_condition_records": 9,
+    "new_source_measurement_states": 7,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "tests_passed": 267,
+    "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
   }
 }
