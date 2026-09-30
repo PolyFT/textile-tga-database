@@ -346,4 +346,11 @@ Six genuinely new sample states add six TG conditions from two primary sources; 
 
 Input hashes, measurement fingerprints, source holds and per-paper queue save restart positions. The metadata library remains untouched and its fulltext root awaits confirmation. No source PDFs, HTML, XML, workbooks or private paths are published. Exact-head tests, scientific validation and snapshot CI are required before merge.
 
-All205 offline tests, compilation and the scientific gate pass locally; snapshot SHA-256 `60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1`. The b58 publisher owns the lease; exact-head CI and merge are still pending.
+All205 offline tests, compilation and the scientific gate pass locally; snapshot SHA-256 `60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1`. PR #25 passed exact-head CI and merged; the publication checkpoint follows.
+
+
+## b58 publication checkpoint
+
+[PR #25](https://github.com/PolyFT/textile-tga-database/pull/25) merged at2026-09-30T20:36:50Z as `f39fceef21e0034a8ef3e9b76f5b93cbe227507f`. Exact head `7717019b65658900b56b55710eebdf37745344bb` passed [validation36773704691](https://github.com/PolyFT/textile-tga-database/actions/runs/36773704691):205 tests, compilation, scientific gate and committed-snapshot consistency. Main was independently read back:373 unique verified states,426 TG conditions,89 DOI, errors=[]. Snapshot SHA-256:`60ab7edad74e3d9b47abba27f3352fdd41445b4e2869a9d45a14da91eb0fb7c1`.
+
+Six new pairs and zero evidence-only upgrades are published;18 partial facts and all source holds remain excluded. Do not repeat either completed source without new evidence. The live single-writer lease is recorded in source_verification_progress.json; refresh main, open PRs and source queue before another claim. The metadata library remains untouched and its fulltext root still awaits confirmation.
