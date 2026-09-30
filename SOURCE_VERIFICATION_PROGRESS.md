@@ -40,3 +40,9 @@ Twenty-four complete legacy commercial rows (CTG0362–CTG0385) are staged in cu
 - Cotton control LOI 17 versus 19, air-ramp attribution, and synthetic-air versus nitrogen atmosphere conflicts remain excluded. TGA peaks are kept distinct from MCC temperatures, and original stage numbering is preserved
 - The three earlier priority leads produced no new verified pairs: the NYCO paper reports no LOI; PET biodegradation rows carry a wrong DOI; the RSC full text could not be accessed. Their concrete holds are saved in the b41 curation report
 - Full-text caches remain outside the public repository; only numerical facts, concise provenance, tests and review outcomes are published
+
+## b41 publication checkpoint
+
+PR #7 merged to `main` at 2026-09-30 15:53:45 UTC as `fd1dc47249bf7b44ddbbea36b82fcab7c873f695`. Exact-head validation of `e998828eb5966c57f6ba802b692c6afe4d097372` passed in [run 36725147420](https://github.com/PolyFT/textile-tga-database/actions/runs/36725147420), including all 97 offline tests and snapshot consistency. Remote main was independently read back: 221 verified unique sample states, 254 conditions, 46 DOI, no validation errors. Snapshot SHA-256: `d0d18b048f77e905994816e6398587bacf3082ff81519059846ccd24f435285d`.
+
+The b41 single-writer lease is released. The per-paper source-review queue and its holds remain intact. Start the next publisher only after checking current main and any open data PR; no b42 rows are included in this checkpoint.

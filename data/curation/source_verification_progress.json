@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T13:49:00Z",
+  "as_of_utc": "2026-09-30T15:53:45Z",
   "latest_batch_id": "20260930_b41",
   "verified_condition_records": 254,
   "verified_unique_sample_states": 221,
@@ -18,17 +18,24 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main_after_merge",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b40",
-    "merge_sha": "40eaea454aba2915d5923a62d0d1b7d7fb9e4673",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/6",
-    "verified_sample_states": 162
+    "batch": "b41",
+    "merge_sha": "fd1dc47249bf7b44ddbbea36b82fcab7c873f695",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/7",
+    "verified_sample_states": 221,
+    "verified_condition_records": 254,
+    "verified_dois": 46,
+    "merged_at_utc": "2026-09-30T15:53:45Z",
+    "validated_head_sha": "e998828eb5966c57f6ba802b692c6afe4d097372",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36725147420",
+    "snapshot_sha256": "d0d18b048f77e905994816e6398587bacf3082ff81519059846ccd24f435285d"
   },
   "writer_lease": {
     "owner": null,
-    "status": "released_after_merge",
-    "instruction": "Released once this PR reaches main. Check latest main and open data PRs before starting another publisher; never overwrite concurrent changes."
+    "status": "released",
+    "released_at_utc": "2026-09-30T15:53:45Z",
+    "instruction": "PR #7 is merged and the b41 writer lease is released. Check latest main and open data PRs before claiming the next publication batch; never overwrite concurrent changes."
   },
   "next_sources": [
     "10.1021/acsomega.2c02466",
