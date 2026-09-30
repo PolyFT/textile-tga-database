@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T20:40:02.048598+00:00",
-  "latest_batch_id": "20260930_b59",
-  "verified_condition_records": 448,
-  "verified_unique_sample_states": 395,
-  "verified_dois": 91,
-  "numeric_pair_candidate_rows": 815,
+  "as_of_utc": "2026-09-30T20:48:05.362943+00:00",
+  "latest_batch_id": "20261001_b60",
+  "verified_condition_records": 456,
+  "verified_unique_sample_states": 399,
+  "verified_dois": 93,
+  "numeric_pair_candidate_rows": 845,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 105,
+  "remaining_near_term": 101,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 194,
+  "cumulative_newly_completed_or_new_source_sample_states": 198,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "b60_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b58",
     "merge_sha": "f39fceef21e0034a8ef3e9b76f5b93cbe227507f",
@@ -44,6 +44,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "B60 adds4new laminate states/8TGconditions; aramidcompleteSI andGF/BMIoriginaltables. FourhotLOIobservationsnotadditionalstates. Preserve purecomponent,curveonly,gas/ramp/methodholds. Metadata root unconfirmed; no librarywrites.",
     "B59 adds 22 new states from two original papers. Preserve unknown TG specimen preparation for the common 1972 textile inventory, and all MOF cotton field/condition/washing holds. No flash-point, DTA or cone substitute for TG.",
     "B58 adds6new fabric-laminate states; two complete primary/SI reviews. Preserve genericresidue/endpoint/LOIstandard limits.12exactFNF TGconditions held for missingramp/LOIconflict; sixCFRPpartialstates held for gascomposition/graphonlyLOI/unmatchedoptimizedTG. Six additional main-text screens0pairs. Metadata root awaits confirmation.",
     "B57 adds six pdp/pdpt cotton add-on states. Preserve generic control LOI exclusion, ASTM edition conflict and nitrogen-only numerical condition. Source-reported multi-stage onsets are not DTG peaks.",
@@ -57,7 +58,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -340,7 +341,7 @@
       "snapshot_sha256": "30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3"
     }
   },
-  "remaining_to_exceed_500": 106,
+  "remaining_to_exceed_500": 102,
   "batch_b58": {
     "accepted_unique_sample_states": 6,
     "accepted_condition_rows": 6,
@@ -361,5 +362,18 @@
     "new_source_measurement_states": 22,
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 2
+  },
+  "batch_b60": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "additional_LOI_condition_records": 4,
+    "additional_independent_states_from_LOI_temperature": 0,
+    "reviewed_papers_added": 2,
+    "screened_held_or_excluded_papers": 3,
+    "tests_passed": 216,
+    "snapshot_sha256": "cd30817085dfc30aefafb5c8f6be7171a84d98c3647d3709d163632097fa1b07"
   }
 }
