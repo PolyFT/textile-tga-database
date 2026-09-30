@@ -37,13 +37,11 @@
     "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
   },
   "writer_lease": {
-    "owner": "codex-local-metadata-fiber-network-20261001",
-    "status": "released",
-    "claimed_at_utc": "2026-09-30 23:26:53 UTC",
-    "batch_id": "20261001_b71",
-    "scope": "Nine reviewed initial fiber-network, woven-laminate and Nomex membrane states from DOI 10.3390/polym17172377, 10.3390/polym12102379 and 10.1007/s42765-022-00231-x at twelve TG conditions. No library writes.",
-    "instruction": "Single publisher; release after exact-head CI, normal merge and terminal postmerge checks.",
-    "released_at_utc": "2026-09-30 23:35:08 UTC"
+    "owner": "dot-source-identity-schema-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T23:48:14.593Z",
+    "scope": "Code-only registry-bound stable source identity schema; no new observations. Preserve all existing DOI identities and 501 states/577 conditions/117 DOI, with independent code QA at exact patch hash.",
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
