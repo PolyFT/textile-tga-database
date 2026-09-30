@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T17:45:17.461827+00:00",
+  "as_of_utc": "2026-09-30T17:49:52.773Z",
   "latest_batch_id": "20261001_b47",
   "verified_condition_records": 340,
   "verified_unique_sample_states": 294,
@@ -18,40 +18,31 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b47_validated_branch_pending_PR_merge",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b46",
-    "merge_sha": "016e4251f3455e4be5af37d31aa4501f1082eafb",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/13",
-    "verified_sample_states": 285,
-    "verified_condition_records": 331,
-    "verified_dois": 64,
-    "merged_at_utc": "2026-09-30T17:26:36Z",
-    "validated_head_sha": "6910435f07316e1d7d8c39a85f7ab82a6933d77b",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36751208066",
-    "snapshot_sha256": "f1668a8b7557cc17f5bc61b45e58495804e81cabc2aad45f7457cc13fe8ca191"
+    "batch": "b47",
+    "merge_sha": "3d422bf40f07f48e425dfb6f31f015e30b578462",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/14",
+    "verified_sample_states": 294,
+    "verified_condition_records": 340,
+    "verified_dois": 67,
+    "merged_at_utc": "2026-09-30T17:48:49Z",
+    "validated_head_sha": "eba30ce384c372bda8da5b79debd9244f5bcc227",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36753896559",
+    "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
   },
   "writer_lease": {
-    "owner": "codex-local-metadata-curation-b47-20261001",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T17:41:59.271Z",
-    "expires_at_utc": "2026-09-30T18:41:59.271Z",
-    "source_scope": [
-      "10.1177/0734904107083553",
-      "10.1021/acssuschemeng.3c00028",
-      "10.1016/j.ejpe.2015.04.001",
-      "10.1021/acsomega.8b00822",
-      "10.3390/ma17061416",
-      "10.1007/s10570-022-04892-0",
-      "10.1007/s10570-017-1391-x"
-    ],
-    "instruction": "Single publisher for b47 factual source review. Nine existing numerical pairs proposed for evidence upgrade; partial/ambiguous/new candidates remain excluded. Preserve other source preparation. No literature library writes."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T17:49:52.773Z",
+    "instruction": "B47 PR14 is merged; exact head eba30ce passed 138 tests, scientific and snapshot CI. No other source preparation changed. Recheck current main/open PRs/source scopes before next publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -177,6 +168,8 @@
     "condition_partial_records_excluded": 8,
     "reviewed_papers_added": 3,
     "tests_passed": 138,
-    "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
+    "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/14",
+    "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36753896559"
   }
 }
