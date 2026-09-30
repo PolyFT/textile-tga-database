@@ -124,15 +124,15 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
 
-- Legacy field-complete condition records: **441** (not a scientific Grade-A count)
-- Numeric TG–LOI candidate rows: **584**, across **87 DOI**
+- Legacy field-complete condition records: **500** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **643**, across **87 DOI**
 - Field-complete, unflagged condition records awaiting evidence review: **237**
 - Quarantined condition records: **9**; originals and reasons retained
 - Malformed input CSV records quarantined separately: **1**
-- Evidence-reviewed exact Grade-A conditions / sample states: **195 / 162**
-- Target: 2000 verified sample states; remaining **1838**
+- Evidence-reviewed exact Grade-A conditions / sample states: **254 / 221**
+- Target: 2000 verified sample states; remaining **1779**
 
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `ba42d6ea63335c4837a5f08dfaf8794952ba215e77be0d37a6246d1ffe2aa728`
+Snapshot SHA-256: `d0d18b048f77e905994816e6398587bacf3082ff81519059846ccd24f435285d`
 <!-- TG-LOI-SNAPSHOT:END -->

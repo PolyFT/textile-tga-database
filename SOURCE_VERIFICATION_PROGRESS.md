@@ -1,19 +1,20 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **162 unique DOI/sample/washing states**, **195 TG condition records**, and **39 papers**. The near-term target is 500 unique states; **338 remain**. The long-term target remains 2000.
+The reviewed dataset contains **221 unique DOI/sample/washing states**, **254 TG condition records**, and **46 papers**. The near-term target is 500 unique states; **279 remain**. The long-term target remains 2000.
 
 ## Batches
 
 - b38: 60 reviewed states, represented by 67 TG conditions. Of these, 15 were genuinely new or newly completed pairs and 45 were existing states upgraded with source evidence
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
-- Cumulative: 76 new/newly completed paired states and 86 existing paired states with upgraded evidence
+- b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
+- Cumulative: 76 new/newly completed paired states and 145 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
 
 - All accepted observations have primary-source TG, LOI and method locators, exact specimen/wash-state mapping and fingerprint-bound review
-- Original source CSVs remain intact. New extractions and supplementary values are in the b38/b39/b40 incoming files
+- Original source CSVs remain intact. New extractions and supplementary values are in the b38/b39/b40/b41 incoming files
 - Repeated TG atmospheres do not increase the sample-state target count
 - Conflicting source values remain absent from clean fields, with the discrepancy preserved in source notes
 - Cashmere/alginate source T1max is a water-removal peak. It is stored as water_removal_peak_C; T2–T4 retain original numbering
@@ -22,7 +23,7 @@ The reviewed dataset contains **162 unique DOI/sample/washing states**, **195 TG
 
 ## Continuation
 
-The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b40 the candidate layer has 584 numerical rows, while 162 unique sample states have the required source review.
+The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b41 the candidate layer has 643 numerical rows, while 221 unique sample states have the required source review.
 
 `data/curation/source_review_queue.csv` tracks per-paper outcomes; `source_verification_progress.json` records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
 
@@ -31,3 +32,11 @@ The b40 source rows use fingerprint-bound inline review metadata supported by th
 ## Legacy recovery checkpoint
 
 Twenty-four complete legacy commercial rows (CTG0362–CTG0385) are staged in curation only: one repairs the truncated scatter record and 23 were absent from scatter. They already exist in the commercial source table, seven overlap incoming source/sample records, and none represents new scientific evidence or a Grade-A promotion. The original XLSX transfer failed twice with HTTP502; its available text also ends at CTG0386, so the remaining expected 45 commercial rows are unresolved. Do not invent that tail or append the recovery file without reconciliation.
+
+## b41 source adjudication
+
+- Seven papers add 59 evidence-reviewed states: commercial MLSE fabrics 27, meta-aramid/polyurea 6, microwave cotton 9, CPA-Al/PET 4, pea-protein cotton 4, sericin/PET 4, and lignin/rPET 5
+- Nine MLSE post-soak pairs belong to one explicitly cross-referenced series in both LOI and TGA tables. Their numerical soak duration is withheld because one sentence says 30 s while methods/captions say 30 min; no typo correction is inferred
+- Cotton control LOI 17 versus 19, air-ramp attribution, and synthetic-air versus nitrogen atmosphere conflicts remain excluded. TGA peaks are kept distinct from MCC temperatures, and original stage numbering is preserved
+- The three earlier priority leads produced no new verified pairs: the NYCO paper reports no LOI; PET biodegradation rows carry a wrong DOI; the RSC full text could not be accessed. Their concrete holds are saved in the b41 curation report
+- Full-text caches remain outside the public repository; only numerical facts, concise provenance, tests and review outcomes are published

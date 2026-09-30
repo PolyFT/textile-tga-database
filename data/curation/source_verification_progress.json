@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T13:21:00Z",
-  "latest_batch_id": "20260930_b40",
-  "verified_condition_records": 195,
-  "verified_unique_sample_states": 162,
-  "verified_dois": 39,
-  "numeric_pair_candidate_rows": 584,
+  "as_of_utc": "2026-09-30T13:49:00Z",
+  "latest_batch_id": "20260930_b41",
+  "verified_condition_records": 254,
+  "verified_unique_sample_states": 221,
+  "verified_dois": 46,
+  "numeric_pair_candidate_rows": 643,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 338,
+  "remaining_near_term": 279,
   "long_term_target_unique_states": 2000,
   "cumulative_newly_completed_or_new_source_sample_states": 76,
-  "cumulative_evidence_upgraded_existing_sample_states": 86,
+  "cumulative_evidence_upgraded_existing_sample_states": 145,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -20,26 +20,29 @@
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
   "publication_stage": "source_batch_complete_on_main_after_merge",
   "last_merged_batch": {
-    "batch": "b39",
-    "merge_sha": "02ca2de91ea2e65556949970c2b095805bc4aa11",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/5",
-    "verified_sample_states": 141
+    "batch": "b40",
+    "merge_sha": "40eaea454aba2915d5923a62d0d1b7d7fb9e4673",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/6",
+    "verified_sample_states": 162
   },
   "writer_lease": {
     "owner": null,
     "status": "released_after_merge",
-    "instruction": "Ready for the next source-review run after this batch reaches main. Check current main and open data PRs before writing; never run concurrent publishers."
+    "instruction": "Released once this PR reaches main. Check latest main and open data PRs before starting another publisher; never overwrite concurrent changes."
   },
   "next_sources": [
-    "10.1021/acsaenm.6c00308",
-    "10.3390/polym18010127",
-    "10.1039/d4mh01684j"
+    "10.1021/acsomega.2c02466",
+    "10.3390/ijms24021093",
+    "10.1515/epoly-2020-0059",
+    "10.1039/d1ra07410e",
+    "10.3390/nano12224048"
   ],
   "next_actions": [
-    "Continue primary-source verification of eligible unreviewed states in tg_loi_candidates.csv, honoring source_review_queue holds.",
-    "Inspect the original 430-TG workbook through Library once supported materialization succeeds; two HTTP502 attempts prevented byte access in this pass. Do not guess missing rows.",
-    "Search new public fulltext and supplements for exact textile TG/LOI pairs; do not inflate counts with other TG conditions.",
-    "For later publishing, use small source files with fingerprint-bound inline reviews and a temporary branch-local rebuild for large derived tables; remove the temporary helper before merge."
+    "Review remaining unreviewed papers in tg_loi_candidates.csv; skip all completed DOI entries in source_review_queue.csv.",
+    "Prioritize new public textile full texts and supplements after remaining legacy evidence review. Count genuine new observations separately from evidence upgrades.",
+    "Do not repeat the three b40 priority leads: ACS NYCO is TG-only; the PET DOI is misassigned; RSC exact values remain inaccessible.",
+    "Preserve b41 atmosphere, control-LOI, missing-ramp and washing-state holds. Numeric soak duration remains unresolved for one shared series.",
+    "Inspect the original workbook only after supported byte materialization succeeds; the unresolved 45-row tail remains unverified."
   ],
   "publication_policy": "Numerical facts and concise provenance only; no fulltext PDF/XML caches.",
   "batch_b40": {
@@ -58,5 +61,14 @@
     "unresolved_expected_tail_rows": 45,
     "blocker": "Supported native XLSX byte transfers returned HTTP502 twice; Library text ends at CTG0386."
   },
-  "publishing_method": "Use reviewed per-paper input files with fingerprint-bound inline approval. Generate large derived tables within a temporary branch-only workflow, delete that workflow before the final PR, then require all tests and snapshot CI before merging."
+  "publishing_method": "Use reviewed per-paper input files with fingerprint-bound inline approval. Generate large derived tables within a temporary branch-only workflow, delete that workflow before the final PR, then require all tests and snapshot CI before merging.",
+  "batch_b41": {
+    "added_verified_unique_states": 59,
+    "added_verified_condition_records": 59,
+    "new_scientific_sample_states": 0,
+    "existing_states_evidence_upgraded": 59,
+    "reviewed_papers_added": 7,
+    "shared_post_soak_states_with_duration_withheld": 9,
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/7"
+  }
 }
