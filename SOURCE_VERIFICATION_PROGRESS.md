@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **358 unique DOI/sample/washing states**, **411 TG condition records**, and **85 papers**. The near-term target is 500 unique states; **142 remain**. The long-term target remains 2000.
+The reviewed dataset contains **361 unique DOI/sample/washing states**, **414 TG condition records**, and **86 papers**. The near-term target is 500 unique states; **139 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **358 unique DOI/sample/washing states**, **411 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 157 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 160 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -304,3 +304,12 @@ The b55 writer lease is released after exact-head CI, merge and postmerge verifi
 PR #22 merged as `871a900970b8b4f3cc71bdbe23bb638b28c4286c`. Exact head `e9a282ef693ba42b96f7e8a7cd3a12d5320f16d9` passed [run 36770703742](https://github.com/PolyFT/textile-tga-database/actions/runs/36770703742), including 187 tests, compilation, scientific validation and snapshot consistency. Main confirms 358 unique reviewed states, 411 TG conditions and 85 DOI, with no validation errors. Snapshot SHA-256: `4644de7ccc93bdc71fba23e3f9d1c51c975a2c1e64688e7dd9f20f1ec1623520`.
 
 All three postmerge validation, rebuild and processing checks succeeded. The temporary materializer is absent and the single-writer lease is released. Further private source drafts are not included in these counts. Refresh main and source ownership before publishing another batch.
+
+
+## b56 chitosan-based cotton coatings
+
+Three genuinely new treated cotton states add three nitrogen TG conditions from the original final article. Tables 2 and 5 provide exact LOI, T10, Tmax and residue at 750 C; conditions are 10 C/min and 30 mL/min. Independent review confirmed preparation and original tables. No PDF pixel review is claimed.
+
+The possible reused control remains held, as do seven initial LOI-only states and all unmatched post-wash states. Source-native weight gains are retained separately because the source equation reverses control/coated definitions; normalized add-on is absent. Bracketed delta LOI is not uncertainty. Original full texts remain private.
+
+The b56 writer lease remains active pending exact-head CI and postmerge verification.
