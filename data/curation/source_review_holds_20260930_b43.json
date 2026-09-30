@@ -1,0 +1,173 @@
+[
+  {
+    "DOI": "10.3390/ma11122391",
+    "status": "hold_specimen_form_and_uncertain_residues",
+    "affected_existing_states": [
+      "PAN",
+      "PVA/PAN",
+      "C-PVA/PAN",
+      "FR-PVA/PAN"
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316903/",
+    "fulltext_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6316903.1/PMC6316903.1.pdf",
+    "source_location": "Sections 2.4 and 3.4; Figure 3; Table 4; PDF pp.4,7-9",
+    "findings": [
+      "Section 3.4 and Figure 3 identify fiber samples for TG. Section 2.4 and Table 4 identify woven fabrics for LOI. Same chemistry does not establish same physical form. Keep all four existing candidates quarantined.",
+      "Section 3.4, PDF p.8, gives approximate residues: FR-PVA/PAN ca.62.5%, PVA/PAN ca.3.1%, and a second FR-PVA/PAN label with ca.5.1%. Do not convert these into exact residues or relabel 5.1% as C-PVA/PAN.",
+      "PAN residue is qualitative (no residue left), not an independently tabulated exact 0. Do not promote as exact numeric evidence.",
+      "PVA/PAN 152 C is explicitly a bound-water evaporation peak. It belongs in a water-removal field, not decomposition Tmax1.",
+      "C-PVA/PAN prose assigns 307 C and 427 C to the second and third mass-loss stages. Existing Tmax1/Tmax2 numbering loses that source numbering; any future TG-only extraction should preserve it.",
+      "Table 3 contains DSC peaks, not TG. Table 5 contains cone residues, not TG. Neither resolves the absent same-form pair.",
+      "Table 4 has 10/20/30-cycle C-PVA/PAN and FR-PVA/PAN fabric LOI values, without same-wash-state fabric TG. No additional paired states."
+    ],
+    "condition_facts": {
+      "atmosphere": "air",
+      "heating_rate_C_min": 10,
+      "gas_flow_mL_min": 30,
+      "TG_start": "room temperature; not numerically specified",
+      "TG_end_C": 800,
+      "TGA_instrument": "Thermal Analysis Q600 SDT"
+    },
+    "initial_LOI_fabric_values_pct": {
+      "PAN": 17.0,
+      "PVA/PAN": 16.2,
+      "C-PVA/PAN": 25.6,
+      "FR-PVA/PAN": 34.3
+    },
+    "strict_pair_candidates_to_promote": 0,
+    "new_sample_states": 0,
+    "repository_changes_made": false
+  },
+  {
+    "DOI": "10.1039/D1RA06573D",
+    "status": "hold_unmatched_concentration_or_washing_state",
+    "affected_states": "PNPG 150 and 180 g/L at every LOI wash level; PNPG 120 g/L after 5/10/15/20 LCs",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9042939/",
+    "source_location": "Section 2.3; Tables 3-4, PDF p.6",
+    "reason": "Conventional TG Table 3 only covers original fabric and the FR-lyocell analytical sample defined at 120 g/L. No numeric conventional TG matches the other concentration/wash states.",
+    "extra_state_count_admitted": 0
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PF whole TG-LOI pair",
+    "status": "hold_washing_state",
+    "reason": "DFRC preparation describes durability washing; Table2 TGA has no washing label, and PF lacks a direct before/after-wash numerical link.",
+    "retained_raw": "Table2 stage onset374/peak405/endset437 C and char11% at750 C; Table4 LOI17.9 before and17.8 after washing",
+    "needed_evidence": "Explicit original-source statement of PF TGA washing state",
+    "source_location": "Methods Durable flame retardant coating; Table2 PF; Table4 PF",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PD proposed state mapping",
+    "status": "review_required_direct_cross_reference",
+    "reason": "TGA analysis first paragraph directly links PD char20% to LOI27.6%, the before-wash Table4 value. This is stronger evidence than label-only matching; retain source ambiguity in limitations.",
+    "source_location": "Results Thermal measurements/TGA analysis, first paragraph; Table2 PD; Table4 PD",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "All Table2 Peak columns",
+    "status": "hold_core_Tmax_mapping",
+    "reason": "Column heading is Peak under TGA stage groups but does not explicitly establish derivative maximum. Preserve values as source_stageN_peak_C metadata; no TmaxN populated.",
+    "source_location": "Table2; Thermal gravimetric analysis methods",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PB first stage and PE first stage",
+    "status": "hold_decomposition_temperature_mapping",
+    "reason": "PB first stage113/132/150 C is moisture/dehydration. PE126/147/165 C is coating evaporation. No Tonset or Tmax core mapping for these stages.",
+    "source_location": "TGA analysis, PB and PE explanatory paragraphs",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PC residue and second-stage peak",
+    "status": "hold_conflicting_numeric_fields",
+    "reason": "Table2 char12% and second peak415 C conflict with final TGA-analysis prose28.4% and413.6 C. Neither silently corrected nor averaged.",
+    "retained_core": "Tonset274 C is the explicit first-stage Onset in Table2; prose identifies the first PC stage as decomposition.",
+    "source_location": "Table2 PC; TGA analysis final paragraph",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "All after-washing LOI states",
+    "status": "hold_no_explicit_matching_washed_TGA",
+    "reason": "Table4 after-washing LOI does not establish separately measured matching post-wash TGA. Do not reuse initial TGA for additional wash states.",
+    "source_location": "Table4 Before/After washing; Table2",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083718798636",
+    "scope": "PO1 whole TG-LOI pair",
+    "status": "hold_only_numeric_TG_conflicts",
+    "reason": "Thermogravimetric-analysis prose reports residue1.8%; Conclusion reports untreated residue0.5%. No exact nonconflicting core TG scalar was established.",
+    "source_location": "Results Thermal analysis techniques/Thermogravimetric analysis, first paragraph; Conclusion, last paragraph",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083718798636"
+  },
+  {
+    "DOI": "10.1177/1528083718798636",
+    "scope": "PO2-PO5 residue temperature",
+    "status": "hold_fixed_temperature_mapping",
+    "reason": "Exact terminal residues28.7/34.8/32.0/31.2% are explicit prose. The method endpoint is750 C, but residue sentences do not explicitly attach that temperature. Keep generic residue_pct only; residue_temp_C and R750 blank.",
+    "source_location": "Thermogravimetric analysis and derivative thermogravimetric analysis methods; TGA results paragraph beginning Above570 C",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083718798636"
+  },
+  {
+    "DOI": "10.1177/1528083718798636",
+    "scope": "Table2 thermal peaks; Table4 ash",
+    "status": "exclude_wrong_measurement",
+    "reason": "Table2 is DSC (glass transition, peak, fusion enthalpy), not DTG. Table4 ash mass belongs to oxygen-bomb calorimetry, not TGA. Neither is substituted for TG fields.",
+    "source_location": "Differential scanning calorimeter section/Table2; Bomb calorimeter section/Table4",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083718798636"
+  },
+  {
+    "DOI": "10.1177/1528083720938158",
+    "scope": "PP-0",
+    "status": "hold_no_main_table_TGA",
+    "reason": "LOI18.3±0.3 appears in Table1 but PP-0 is absent from Table3. Do not substitute control TGA for padding-only fabric.",
+    "source_location": "Tables1 and3",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083720938158"
+  },
+  {
+    "DOI": "10.1177/1528083720938158",
+    "scope": "Supplementary TablesS1/S2",
+    "status": "hold_public_fulltext_retrieval_unresolved",
+    "reason": "Linked DOCX returned web-tool cache miss and direct HTTP403. Search did not locate a lawful author-manuscript supplement. No supplement numeric facts inferred or admitted.",
+    "source_url": "https://journals.sagepub.com/doi/suppl/10.1177/1528083720938158/suppl_file/sj-docx-1-jit-10.1177_1528083720938158.docx",
+    "needed_evidence": "Lawful readable original supplement for sample series and TGA/LOI matching"
+  },
+  {
+    "DOI": "10.1177/1528083720938158",
+    "scope": "Table3 calculated char and nearby replicate counts",
+    "status": "exclude_calculated_or_unmatched_metadata",
+    "reason": "Only Exp. R700 retained. Calculated10.0% char excluded. Five replicates explicitly belong to vertical burning; do not transfer to LOI or TGA.",
+    "source_location": "Table3 Exp./Cal. columns; Characterization",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083720938158"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PA whole pair",
+    "status": "hold_abstract_body_conflict",
+    "reason": "Abstract blank char8% and LOI17.5% conflict with Table2 char2% and Table4 LOI17.8%. Exact core LOI/residue withheld; no majority/table-over-prose adjudication.",
+    "source_location": "Abstract; Table2 PA; Table4 PA",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083716648761",
+    "scope": "PD whole pair",
+    "status": "hold_precautionary_abstract_upper_endpoints",
+    "reason": "Abstract treated upper char18% and LOI27.5% are unlabelled and inconsistent with main maxima PD20% and27.6%. Attribution cannot be settled by assumption. PD is precautionarily held despite direct TG/LOI washing cross-reference.",
+    "source_location": "Abstract; TGA analysis first paragraph; Table2 PD; Table4 PD",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761"
+  },
+  {
+    "DOI": "10.1177/1528083720938158",
+    "scope": "Control PP fabric whole pair",
+    "status": "hold_abstract_LOI_conflict",
+    "reason": "Abstract18.1% conflicts with Table1/body18.2%; no different state or statistic establishes two valid numbers. LOI core fields withheld; source values retained in metadata.",
+    "source_location": "Abstract; Table1 Control; Flammability text",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/1528083720938158"
+  }
+]
