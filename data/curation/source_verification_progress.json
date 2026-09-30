@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T16:57:00Z",
+  "as_of_utc": "2026-09-30T17:01:58Z",
   "latest_batch_id": "20260930_b44",
   "verified_condition_records": 315,
   "verified_unique_sample_states": 272,
@@ -18,36 +18,30 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b44_branch_source_review_complete_awaiting_exact_head_CI",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b43",
-    "merge_sha": "78a1fd32807d536bf149f1155bd71c5bb7ecf623",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/10",
-    "verified_sample_states": 251,
-    "verified_condition_records": 294,
-    "verified_dois": 54,
-    "merged_at_utc": "2026-09-30T16:48:52Z",
-    "validated_head_sha": "9af52582a221945d2cf2cd034ede85220b28c351",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36746787846",
-    "snapshot_sha256": "6636b7d4c35a2bf8854d60bfad1bf0484ddcc1a6d85e0a92effac5bc541580c4"
+    "batch": "b44",
+    "merge_sha": "7e8416bd10e4b7a203149d4430a6ef442dff2d60",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/11",
+    "verified_sample_states": 272,
+    "verified_condition_records": 315,
+    "verified_dois": 59,
+    "merged_at_utc": "2026-09-30T17:01:58Z",
+    "validated_head_sha": "3485305e8ab727c90669ff39c8326832c280bbf3",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36748303574",
+    "snapshot_sha256": "7a6861539e3a6f260ed5d0253f9bc1ea4038110171b8ddcb8c87ddf5f06e41a5"
   },
   "writer_lease": {
-    "owner": "source-verification-b44-20260930",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T16:52:37Z",
-    "batch": "b44",
-    "sources": [
-      "10.1038/s41598-024-71071-5",
-      "10.7317/pk.2018.42.2.157",
-      "10.13543/j.bhxbzr.2016.02.004",
-      "10.33263/briac123.36473663",
-      "10.1177/1528083719881816"
-    ],
-    "instruction": "One publisher is importing the 21 previously announced, independently source-reviewed cotton/nylon/wool pairs. Other preparation may continue read-only on non-overlapping sources. Check current main/open PRs before any competing publication; never override an active writer."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T17:01:58Z",
+    "instruction": "PR #11 is merged and the b44 writer lease is released. Check latest main, open PRs and proposed source scope before claiming another single publisher. Preserve any concurrent preparation and never force-overwrite main."
   },
   "next_sources": [
     "10.1177/1528083704045848",
-    "10.1016/j.polymdegradstab.2024.110764"
+    "10.1016/j.polymdegradstab.2024.110764",
+    "10.1177/1528083709347122",
+    "10.19886/j.cnki.dhdz.2024.0382"
   ],
   "next_actions": [
     "Further source drafts remain outside the master: guanidine cotton has source-LOI contradictions requiring row-specific holds; PAA/MMT cotton needs concentration crosswalk review. Recheck current main, open PRs and other preparation before claiming a next publication writer.",
@@ -117,6 +111,35 @@
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 5,
     "tests_passed": 119,
-    "held_DOPO_condensation_descriptor_states": 1
+    "held_DOPO_condensation_descriptor_states": 1,
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/11"
+  },
+  "pending_source_preparation": {
+    "status": "not_imported_not_counted",
+    "sources": [
+      {
+        "DOI": "10.1177/1528083704045848",
+        "source_review_accepted_states": 3,
+        "held_states": 5,
+        "reason": "Initial-state table tuples are exact; contradictory LOI prose prevents five whole-pair admissions."
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2024.110764",
+        "proposed_states": 2,
+        "proposed_conditions": 4,
+        "status": "independent source review complete; draft checksum binding pending",
+        "held_states": 6,
+        "reason": "PAA concentration labels differ across TG and LOI sections; supplement adds no crosswalk."
+      },
+      {
+        "DOI": "10.1177/1528083709347122",
+        "status": "primary source screening"
+      },
+      {
+        "DOI": "10.19886/j.cnki.dhdz.2024.0382",
+        "status": "primary source screening"
+      }
+    ],
+    "instruction": "These sources are being prepared independently of the published master. Coordinate scope before duplicating source reviews; only validated merged observations count."
   }
 }
