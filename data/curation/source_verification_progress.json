@@ -32,10 +32,15 @@
     "snapshot_sha256": "51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T19:22:40.012Z",
-    "instruction": "B52 PR19 merged after exact-head CI passed 176 tests, compilation, scientific gate and snapshot consistency. Main readback: 339 states, 392 conditions, 81 DOI, errors=[]. Refresh main, open PRs, lease and queue before another publisher."
+    "owner": "codex-source-review-b53-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T19:28:50.000Z",
+    "expires_at_utc": "2026-09-30T20:28:50.000Z",
+    "source_scope": [
+      "10.3390/polym12051078",
+      "10.3390/polym17070841"
+    ],
+    "instruction": "B53 single publisher: four genuinely new same-state textile pairs,35 excluded partial facts and16 zero-pair source screens. Preserve b52 canonical controls and all existing holds. No fulltext or local source paths uploaded. Require normal exact-head CI before PR merge."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
