@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T19:00:10Z",
+  "as_of_utc": "2026-09-30T19:02:25Z",
   "latest_batch_id": "20260930_b51",
   "verified_condition_records": 386,
   "verified_unique_sample_states": 336,
@@ -18,29 +18,24 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b50",
-    "merge_sha": "0351518f0978c37a1e6713649b3e613c803e8734",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/17",
-    "verified_sample_states": 333,
-    "verified_condition_records": 383,
-    "verified_dois": 77,
-    "merged_at_utc": "2026-09-30T18:41:33Z",
-    "validated_head_sha": "e71fd76131ac8cdb772d27d51b84dca92f3885ed",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36760145268",
-    "snapshot_sha256": "69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4"
+    "batch": "b51",
+    "merge_sha": "8764282e2514e92863235407fa0218f84eb10e25",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/18",
+    "verified_sample_states": 336,
+    "verified_condition_records": 386,
+    "verified_dois": 79,
+    "merged_at_utc": "2026-09-30T19:01:46Z",
+    "validated_head_sha": "99800914b05d1a26a76bad3122483ad55f876061",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762640587",
+    "snapshot_sha256": "2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b51-20260930",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T18:50:40Z",
-    "expires_at_utc": "2026-09-30T19:50:40Z",
-    "source_scope": [
-      "10.1016/j.polymdegradstab.2026.112025",
-      "10.1080/15440478.2022.2145405"
-    ],
-    "instruction": "Single publisher for b51: three existing-pair evidence upgrades (TD,TD220,FR-L/C). All source conditions and state mapping independently checked. Preserve b50, source holds and separation of TG conditioning from specimen pretreatment."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T19:02:25Z",
+    "instruction": "B51 PR18 merged after exact-head CI passed 168 tests, compilation, scientific gate and snapshot consistency. Main readback: 336 states, 386 conditions, 79 DOI, errors=[]. Refresh main, open PRs, lease and queue before another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -232,6 +227,7 @@
     "tests_passed": 168,
     "snapshot_sha256": "2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f",
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/18",
-    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762396379"
+    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762396379",
+    "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36762640587"
   }
 }

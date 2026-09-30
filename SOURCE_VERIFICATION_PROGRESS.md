@@ -229,3 +229,10 @@ Source fingerprints, input hashes, concise evidence locations and explicit holds
 All 168 offline tests, compilation and scientific validation pass locally. Branch snapshot: 336 unique states, 386 TG conditions, 79 DOI, errors=[]; SHA-256 `2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f`. Exact-head CI and main readback remain required.
 
 Cross-paper provenance: the PO-paper TD nitrogen TG row matches CEJ165778 Table2 exactly. It is kept as one canonical target record in shared experiment group `TD_nitrogen_TG_CEJ165778_PDS112025`; a second CEJ TD admission is excluded. TG reuse does not by itself establish that the LOI experiment was repeated or reused.
+
+
+## b51 publication checkpoint
+
+PR [#18](https://github.com/PolyFT/textile-tga-database/pull/18) merged at 2026-09-30 19:01:46 UTC as `8764282e2514e92863235407fa0218f84eb10e25`. Final head `99800914b05d1a26a76bad3122483ad55f876061` passed [exact-head validation](https://github.com/PolyFT/textile-tga-database/actions/runs/36762640587), including all 168 tests, compilation, scientific validation and committed-snapshot consistency. Fresh main independently confirms 336 unique states, 386 TG conditions, 79 DOI and errors=[]. Snapshot SHA-256: `2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f`.
+
+This batch adds three existing-pair evidence upgrades and zero new scientific measurement states. Shared TD TG is counted once; the matching CEJ TD state is blocked from a second admission. The temporary materializer is removed and the b51 single-writer lease is released after main readback. There are 164 states remaining to 500, or 165 to exceed 500. Source drafts awaiting review are not included in these counts.
