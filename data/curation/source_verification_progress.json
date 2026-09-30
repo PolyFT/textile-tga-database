@@ -32,10 +32,15 @@
     "snapshot_sha256": "2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T19:02:25Z",
-    "instruction": "B51 PR18 merged after exact-head CI passed 168 tests, compilation, scientific gate and snapshot consistency. Main readback: 336 states, 386 conditions, 79 DOI, errors=[]. Refresh main, open PRs, lease and queue before another publisher."
+    "owner": "dot-source-review-b52-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T19:09:50Z",
+    "expires_at_utc": "2026-09-30T20:09:50Z",
+    "source_scope": [
+      "10.1016/j.cej.2025.165778",
+      "10.1007/s10570-022-05033-3"
+    ],
+    "instruction": "Single publisher for b52: DD, canonical CEJ Cotton control, and DOPO-ETES cotton; three states in six conditions. Preserve b51 TD canonical count and prevent later duplicate PO Cotton admission. Only reviewed facts, concise provenance and tests are published."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
