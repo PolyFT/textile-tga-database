@@ -18,22 +18,22 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b65_validated_branch_pending_PR_merge",
+  "publication_stage": "b65_merged_verified_on_main",
   "last_merged_batch": {
-    "batch": "b64",
-    "pr": 31,
-    "merge_sha": "e1bcd504499fb54fb384fd506c37972a4f416621",
-    "validated_head": "0ca912840351812eaa3d8ba730908bd3c36c67ab",
-    "validation_run": 36782087584,
+    "batch": "b65",
+    "merge_sha": "aebe7fa52e09f2b37d21644a2cf9bef04809f7cf",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/32",
+    "verified_sample_states": 457,
+    "verified_condition_records": 525,
+    "verified_dois": 103,
+    "validated_head_sha": "c8d96430cb2d692882c3990cf55d29699ae86c6a",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36783023282",
+    "snapshot_sha256": "1f0828f0e432275f037f36cef913aa41705723709dff8dcc210e2571fbddc7ba",
     "postmerge_runs": [
-      36782212667,
-      36782212690,
-      36782212708
-    ],
-    "verified_sample_states": 454,
-    "verified_condition_records": 522,
-    "verified_dois": 101,
-    "snapshot_sha256": "39dab74ac89fada184b53ad0cfd1d88fbf570fd9d50a87af8090f6cebda9c20f"
+      36783131754,
+      36783131832,
+      36783131903
+    ]
   },
   "writer_lease": {
     "owner": "codex-local-metadata-anf-aerogels-20261001",
@@ -41,7 +41,7 @@
     "batch_id": "20261001_b65",
     "claimed_at_utc": "2026-09-30 21:56:43 UTC",
     "scope": "Two original ANF/ACMCA fiber aerogels and one ANFs/MMT shell-only fiber. Preserve range/Ti/unit conflicts and generic residue temperature. Other task b64 retained.",
-    "instruction": "Single publisher. Refresh main/PR; claim via SHA, exact-head CI and independent postmerge verification before release."
+    "instruction": "All240tests, exactfinalheadCI, remote mainhash/rows andthreepostmergechecks verified. Durablepublicationcheckpoint; release next viaSHA."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -66,7 +66,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -310,19 +310,19 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b63",
-    "merge_sha": "d6ed5dafda7935788458a402910a4b38efa055f6",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/30",
-    "verified_sample_states": 417,
-    "verified_condition_records": 485,
-    "verified_dois": 97,
-    "validated_head_sha": "1d937b0e4ee1f3138baa295d88eb39218d90b1e4",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36780750782",
-    "snapshot_sha256": "6f4b4dbabd80b21c7dbc85889ac26b1464cd89d756f39595b4aaf3f188c368ce",
+    "batch": "b65",
+    "merge_sha": "aebe7fa52e09f2b37d21644a2cf9bef04809f7cf",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/32",
+    "verified_sample_states": 457,
+    "verified_condition_records": 525,
+    "verified_dois": 103,
+    "validated_head_sha": "c8d96430cb2d692882c3990cf55d29699ae86c6a",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36783023282",
+    "snapshot_sha256": "1f0828f0e432275f037f36cef913aa41705723709dff8dcc210e2571fbddc7ba",
     "postmerge_runs": [
-      36780864007,
-      36780863956,
-      36780864027
+      36783131754,
+      36783131832,
+      36783131903
     ]
   },
   "batch_b56": {
@@ -524,6 +524,22 @@
     "newly_completed_pairs": 0,
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 2,
-    "screened_held_additional_papers": 2
+    "screened_held_additional_papers": 2,
+    "publication": {
+      "batch": "b65",
+      "merge_sha": "aebe7fa52e09f2b37d21644a2cf9bef04809f7cf",
+      "pr": "https://github.com/PolyFT/textile-tga-database/pull/32",
+      "verified_sample_states": 457,
+      "verified_condition_records": 525,
+      "verified_dois": 103,
+      "validated_head_sha": "c8d96430cb2d692882c3990cf55d29699ae86c6a",
+      "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36783023282",
+      "snapshot_sha256": "1f0828f0e432275f037f36cef913aa41705723709dff8dcc210e2571fbddc7ba",
+      "postmerge_runs": [
+        36783131754,
+        36783131832,
+        36783131903
+      ]
+    }
   }
 }
