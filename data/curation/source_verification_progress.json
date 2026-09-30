@@ -36,13 +36,11 @@
     ]
   },
   "writer_lease": {
-    "owner": "codex-local-metadata-anf-aerogels-20261001",
-    "status": "released",
-    "batch_id": "20261001_b65",
-    "claimed_at_utc": "2026-09-30 21:56:43 UTC",
-    "scope": "Two original ANF/ACMCA fiber aerogels and one ANFs/MMT shell-only fiber. Preserve range/Ti/unit conflicts and generic residue temperature. Other task b64 retained.",
-    "instruction": "Released after240tests, exactheadCI, independentremote main3row/hash verification andallthreepostmergechecks. Nextpublisher refreshmain/PR/queue andclaimviaSHA.",
-    "released_at_utc": "2026-09-30 22:04:20 UTC"
+    "owner": "dot-source-review-b66-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T22:06:01.719Z",
+    "scope": "Six approved bacterial-cellulose textile states across9conditions; original sources and parent QA complete. Additional marine-protein source under private review. Preserve source pH conflict, initial wash and residue temperatures.",
+    "instruction": "Single publisher; refresh live main and coordinate before changes. Release after exact-head CI and postmerge verification."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
