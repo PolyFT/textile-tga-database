@@ -1,0 +1,158 @@
+{
+  "batch": "b44",
+  "source_review_completed_utc": "2026-09-30T16:48:16Z",
+  "summary": {
+    "accepted_candidate_rows": 21,
+    "held_separate_rows": 1,
+    "newly_completed_legacy_TG_only_states": 13,
+    "new_measurement_states": 8,
+    "wholly_new_DOI_measurement_states": 4,
+    "metadata_only_DOI_new_measurement_states": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b44_s41598-024-71071-5.csv",
+      "draft_sha256": "673977d037bb0add6e75f48be6eb2f32e661b5de7ceb9ec6aebf4e4a7a08e41a",
+      "published_input_sha256": "72092ebacf0607a93f0ac6c01c0acf5e33088e432bd155112ade487a0004160e",
+      "conditions": 13,
+      "unique_sample_states": 13,
+      "DOI": "10.1038/s41598-024-71071-5",
+      "existing_state_status": "existing_TG_only_state_newly_completed_pair",
+      "accepted_measurement_fingerprints": [
+        "eb4957c978c70eaa44b1631e3cdf25350b529b9cb33c5f81c6128e04109dba6f",
+        "b632317fc0d409ffbe6216394f0718c81c6b171d6979217495964a9c6c948fa9",
+        "8d027b515044adad7b6dc20966d09454ff7952caf4b5de547c6fdb450433f4cc",
+        "c1a5c400f4c6e1708c5703b28f8557ff7a5cb4d89c9719814792c2323d020ef0",
+        "a5b4a4754c2d53ba6ec00486330c3bc80a13006da21c10e1779a2df50a043d22",
+        "44eb4ced85639a08e33ddb8a091b2313af0bdded926b50e85afe687502a8c3b6",
+        "cf13c2a9f8fa8fcd8a680c5ee94544a00a787401009246343cec7032ea082cff",
+        "c3a5e1ae5566479209a9eb71245baef392493bac84692bebae1a6e84f8564442",
+        "aceb2f60b8d6e0a7e3982ca93177972aeef5a698fb4b9e9c284cb6cc108cb7bc",
+        "3711481fc0fce33876e045402dd1002d0e58b3103e4af2a1e49e33402ae379d0",
+        "b2a91905941769a80e77831757b0974a3f44a4bfe6481c53e32209bf76b1ce89",
+        "b9255dd6440ef05d62b2d7e27a077be54603bd1d3bd6833fd2b1fd303034f365",
+        "f860c38f55887d877b97a72144cfa6247e00c9052c88312e4a4950b72203d210"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b44_pk.2018.42.2.157.csv",
+      "draft_sha256": "b24a2530e3034c857c5437f0f76dd974df5afb3ed5bb90eca1cb52cfee6ec54e",
+      "published_input_sha256": "29357a5d0f84713cd077e2d1460e1f1811a77e5964b074f7bac6095aca81997c",
+      "conditions": 3,
+      "unique_sample_states": 3,
+      "DOI": "10.7317/pk.2018.42.2.157",
+      "existing_state_status": "new_measurements_from_existing_metadata_only_source",
+      "accepted_measurement_fingerprints": [
+        "a4bc3849691ad02ae742be45f7c2ef3ad95e05829dae4fc86af2245c7d3abb45",
+        "c3fa2e4e0c5df7e5cdacd5973058ac9cb28cb847d4efd7f06a61abf33acdd747",
+        "74aef48689ea45be9b0a0a1ec3965e95e8fadb1edf169003ed9b38ef4cd9c4c0"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b44_j.bhxbzr.2016.02.004.csv",
+      "draft_sha256": "47ccf21ed8fe9ac90cafa5f8ed0e7688cdb9edf45cdf2a77ba0dce767a584e6c",
+      "published_input_sha256": "19efb2aa7244cdf910e9e89dd4b123157d96da02ae6806a468681270957fd979",
+      "conditions": 2,
+      "unique_sample_states": 2,
+      "DOI": "10.13543/j.bhxbzr.2016.02.004",
+      "existing_state_status": "wholly_new_source_and_measurements",
+      "accepted_measurement_fingerprints": [
+        "941d3d34e8bad813bc74ede064982e5739276e44d05ff3b5b9202d8250d39f5d",
+        "d1cc5845aee2777495e9476adeb36ef1e5c0edb92ee999643fa5711ec9ad87be"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b44_briac123.36473663.csv",
+      "draft_sha256": "d0008517a9f5742a9b69e317fd438deb242312be5f7e2b401dfac64b38b1da04",
+      "published_input_sha256": "4642da06ffd275efe3ea5f28722de85d1119236b98fe1adb91fe2100eee71235",
+      "conditions": 1,
+      "unique_sample_states": 1,
+      "DOI": "10.33263/briac123.36473663",
+      "existing_state_status": "new_measurements_from_existing_metadata_only_source",
+      "accepted_measurement_fingerprints": [
+        "83c26d77daf832defae1112ce2a04ee0ddf740693892ef8f70d59d89d2799a0a"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b44_1528083719881816.csv",
+      "draft_sha256": "592ba6a78f1ac94547d2c174e02a1751703a3066b87e5778e89a57af611dc380",
+      "published_input_sha256": "11ea69ca6d4027fbf51474ba927142acaf345a88fb107dc699ee1461a3ed20d6",
+      "conditions": 2,
+      "unique_sample_states": 2,
+      "DOI": "10.1177/1528083719881816",
+      "existing_state_status": "wholly_new_source_observation",
+      "accepted_measurement_fingerprints": [
+        "3f73742a5420efae74fe9b93a6be42280ea6949c6ab67d9a884fb01b3720c892",
+        "dbabc2648becf920cc9f51f057893dd797bebb0ae674b91556c8c50485fcb89f"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "doi": "10.1038/s41598-024-71071-5",
+      "decision": "accept_13",
+      "evidence": "TG values are Table 2 and DTG main peaks/rates are Table 3; Table 1 supplies mercerization, bath concentration and initial add-on. Figure 8 exact printed labels provide seven before-washing and six after-10-wash values.",
+      "conditions": "Q50; nitrogen; 10 C/min; 9-10 mg fabric; room temperature to 700 C. Exact numeric start and flow not reported. LOI ISO 4589-2 with three measurements per sample.",
+      "state_mapping": "W is explicitly ten washing cycles in the results/Figures 6-7 and consistently marks washed TG/DTG Tables 2-3 and Figures 10/12. Figure 8 blue bars correspond to ten washes; green bars to before washing. M means mercerized.",
+      "critical_caveat": "S10M 252 C is the source-reported main DTG peak and must not be silently normalized to the later cellulose peak. The source discusses a low-temperature modifier-decomposition peak preceding fabric decomposition; retain this caveat. PCFC conditions and heat-release Tmax are separate and were not imported.",
+      "novelty": "All 13 IDs already occur as TG-only L026 rows in legacy scatter_ready.csv with LOI absent. They are newly completed pairs, not new TG observations.",
+      "excluded_states": [
+        "Mercerized cotton control: Figure 8 has no separate mercerized-only group; pure-cotton LOI must not be borrowed.",
+        "S20/S20M: LOI exists but no same-state Table 2/3 TG.",
+        "20/30-wash and washed pure-cotton states: no same-wash-state numerical TG."
+      ]
+    },
+    {
+      "doi": "10.7317/pk.2018.42.2.157",
+      "decision": "accept_3",
+      "evidence": "Original PDF pp.5-6 (journal 161-162), TG Analysis of Nylon Fabric, gives onset 360/220/260 C and residue 1.6/19.0/8.6%; Figure 6 distinguishes untreated, treated and treated after ten launderings. Table 3 at PDF p.9 gives LOI 21.2/28.8/26.4%.",
+      "conditions": "Diamond TG/DTA; nitrogen; 10 C/min; 25-600 C; source sample-mass range literally 0-10 mg. TGA gas-flow value not stated. LOI GB/T 5454-1997.",
+      "critical_caveats": [
+        "Residue values remain terminal_residue_pct: source prose does not explicitly state their temperature; do not infer R600 from experiment endpoint alone.",
+        "Onset is author-reported initial decomposition, not a specified T5/T10 threshold.",
+        "50 mL/min is DSC nitrogen flow, not TGA; 171 mL/min is LOI flow.",
+        "PA66 is synthesized as part of finishing polymer; fabric substrate is identified only as nylon.",
+        "Separate finishing-agent TGA and MCC Table 2 residues must not be substituted.",
+        "Preparation soap rinse is distinct from the subsequent ten-laundering state."
+      ],
+      "novelty": "Existing automation source is metadata_only with no measurements; all three source states are new measurements."
+    },
+    {
+      "doi": "10.13543/j.bhxbzr.2016.02.004",
+      "decision": "accept_2_hold_1",
+      "evidence": "Original PDF p.6 (journal 24) Table 1 gives PA66 LOI 20.0 +/- 0.2 and GMA-PA66 18.8 +/- 0.1; adjacent Section 2.4.2 explicitly gives R800 1.6 and 17.9%. Same fabric series follows p.5 optimized-characterization statement.",
+      "conditions": "Section 1.3.5, PDF p.2: HCT-1 combined thermal analyzer; air; 10 C/min; room temperature to 800 C. No mass or purge flow reported. LOI GB/T 5454-1997; 150 x 58 mm specimens.",
+      "critical_caveats": [
+        "Source +/- statistic and n are not defined; retain stated amounts without labeling SD/SE.",
+        "DOPO-GMA-PA66 is held: Table 1 uses C=39.3%; reaction-time prose associates 39.0% with four hours and 39.3% with five hours; optimum is four hours, and Table 2 at PDF p.7 uses 39.0%. The shared-series statement cannot independently resolve which descriptor belongs to thermal versus LOI specimen.",
+        "DOPO preparation washes are not independent durability-state measurements."
+      ],
+      "novelty": "DOI absent from existing repository CSVs; two accepted states are from a wholly new source."
+    },
+    {
+      "doi": "10.33263/briac123.36473663",
+      "decision": "accept_ungrafted_control_only",
+      "evidence": "Original PDF p.13 Table 6 explicitly gives ungrafted wool R750 20.00%; PDF p.14 Table 7 gives ungrafted wool GY=0 and LOI 24.8.",
+      "conditions": "Sections 2.1/2.2 and 2.9/2.11: plain-woven wool fabric 150 g/m2; TGA 7; nitrogen 20 mL/min; 10 K/min (same increment as C/min); 30-750 C; 4-7 mg; LOI ASTM D2863-13. Common preparation includes at least three standard washes and conditioning; exact number must not be asserted.",
+      "critical_caveats": [
+        "Treated TGA is explicitly GY=7.9%, whereas treated LOI specimens are GY=6% and 8.1%; no rounding/typo assumption is permitted and no treated pair is accepted.",
+        "Issue year is 2022, although online publication is 2021; draft 2022 is verified from original first-page issue header."
+      ],
+      "novelty": "Existing source is metadata_only; ungrafted control is a new measurement state."
+    },
+    {
+      "doi": "10.1177/1528083719881816",
+      "decision": "accept_2_with_text_only_source_QA",
+      "evidence": "Publisher PDF Table 1 (p.402) and Table 2 (p.404) independently checked. Thermal section (p.403) explicitly maps both processes to 35% DMPP.",
+      "conditions": "Methods p.399: nitrogen 100 mL/min; 10 C/min; 25-600 C; DTC-60 H. LOI GB/T 5454-1997. Both processes include preparative detergent rinse.",
+      "critical_caveats": [
+        "Table onset is ten-percent weight loss: use T10_C.",
+        "Control LOI18 is a cited generalization; no own-control pair accepted. Lower concentrations lack corresponding numerical TG.",
+        "No sample mass or LOI uncertainty reported. PDF pixels unavailable; primary table text and corroborating prose were independently visible."
+      ],
+      "draft_correction": "Author removed unsupported100% composition precision before final hashing.",
+      "novelty": "DOI absent from existing repository CSVs; two wholly new source states. Issue2021 confirmed."
+    }
+  ],
+  "verification_limit": "SAGE1528083719881816 original publisher PDF text independently reviewed; downloadable PDF hash and pixel review unavailable. Other sources received original PDF/figure visual review."
+}

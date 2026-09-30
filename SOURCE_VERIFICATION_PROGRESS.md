@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **251 unique DOI/sample/washing states**, **294 TG condition records**, and **54 papers**. The near-term target is 500 unique states; **249 remain**. The long-term target remains 2000.
+The reviewed dataset contains **272 unique DOI/sample/washing states**, **315 TG condition records**, and **59 papers**. The near-term target is 500 unique states; **228 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **251 unique DOI/sample/washing states**, **294 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 76 new/newly completed paired states and 175 existing paired states with upgraded evidence
+- Cumulative: 97 new/newly completed paired states and 175 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -23,7 +23,7 @@ The reviewed dataset contains **251 unique DOI/sample/washing states**, **294 TG
 
 ## Continuation
 
-The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b43 the candidate layer has 683 numerical rows, while 251 unique sample states have the required source review.
+The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b44 the candidate layer has 704 numerical rows, while 272 unique sample states have the required source review.
 
  tracks per-paper outcomes;  records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
 
@@ -79,3 +79,15 @@ PR #10 merged to main at2026-09-30 16:48:52 UTC as `78a1fd32807d536bf149f1155bd7
 The b43 writer lease is released. PR #9, a separate overlapping preparation on codex/source-review-b43, was withdrawn without merging; its stated remaining scope includes wool and other candidates. Check current main and open PRs and coordinate source scope before a new claim. No identity or execution environment is inferred for that preparation.
 
 Separately,21 proposed pairs from five source reviews are staged but not imported or counted:13 existing TG-only cotton states completed from explicit printed LOI labels, plus eight new-to-measurement nylon/wool/cotton states. The per-source list and count categories are in source_verification_progress.json. Existing public and local-library preparation must reconcile those sources before publication; main remains251.
+
+## b44 newly completed and new-source pairs
+
+Twenty-one reviewed sample states add twenty-one conditions from five papers. Thirteen prior TG-only cotton states are newly completed using exact printed Figure8 LOI labels; these are not new TG experiments. Eight states have no prior measurement records: four from wholly new DOIs and four from existing metadata-only leads. This batch adds zero evidence-only upgrades of already paired states.
+
+- Scientific Reports71071: original Figure8 labels and Tables2/3 supply13 initial/10-wash cotton pairs. Unmatched mercerized control and other washing/treatment states remain held. DTG and PCFC metrics stay separate; S10M252C retains its early-modifier caveat
+- PK2018: three nylon fabric/wash states; exact TG prose and Table3LOI. Terminal residues are not recast as R600
+- BUCT2016: PA66 and GMA-PA66 fabric pairs; DOPO39.0/39.3 descriptor conflict remains held
+- BRIAC wool: ungrafted fabric only; grafted7.9% TG is not assigned the6%/8.1% LOI
+- DMPP cotton: EB/PDC35%-bath states only; generic literature controlLOI and unmatched bath concentrations remain held. Independent publisher-PDF text verification succeeded; PDF pixel verification and a downloadable source hash were unavailable and are not claimed
+
+All119 offline tests, compilation and scientific validation pass locally. Per-file hashes and observation fingerprints bind the source reviews. The temporary branch-only materializer must remove itself, and final exact-head CI must pass before merging. No copyrighted full texts, private metadata-library materials or source caches are published. The b44 writer remains reserved until verified main publication.
