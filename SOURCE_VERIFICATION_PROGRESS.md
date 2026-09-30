@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **454 unique DOI/sample/washing states**, **522 TG condition records**, and **101 papers**. The near-term target is 500 unique states; **46 remain**. The long-term target remains 2000.
+The reviewed dataset contains **457 unique DOI/sample/washing states**, **525 TG condition records**, and **103 papers**. The near-term target is 500 unique states; **43 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **454 unique DOI/sample/washing states**, **522 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 253 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 256 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -436,3 +436,12 @@ All 238 tests, compilation, scientific validation and exact-head snapshot CI pas
 [PR #31](https://github.com/PolyFT/textile-tga-database/pull/31) merged as `e1bcd504499fb54fb384fd506c37972a4f416621`. Exact head `0ca912840351812eaa3d8ba730908bd3c36c67ab` passed [validation 36782087584](https://github.com/PolyFT/textile-tga-database/actions/runs/36782087584), including 238 tests, compilation, scientific validation and committed-snapshot consistency. Main independently confirms 454 unique states, 522 TG conditions, 101 DOI and errors=[]. Thirty-seven genuinely new states add 37 conditions; washed observations without matching LOI and reused comparison data remain excluded. Snapshot SHA-256: `39dab74ac89fada184b53ad0cfd1d88fbf570fd9d50a87af8090f6cebda9c20f`.
 
 Postmerge processing, validation and rebuild runs 36782212667, 36782212690 and 36782212708 passed. The writer lease was released through compare-and-swap. Refresh the live progress JSON, main, queue and open PRs before another publication. Source fulltexts remain private. The strict greater-than-500 milestone requires 47 further states.
+
+
+## b65 original fibrous aerogel batch
+
+Three genuinely new states / three TG conditions / zero old-pair evidence upgrades. Two directional aramid fiber-network aerogels (ANFs/ACMCA, DOI10.1007/s40820-025-01728-x) have ownLOI27/31 fromSection3.4p12 and exactTmax551.135/545.108C plusR80033.57/36.92 fromofficialTableS1. Nitrogen/10Cmin explicitlyreported inSection2.5p4. Method30-100C range conflicts with hightemperatureTG; canonical scanendpoints remain blank. RawTi retained withcontradictory95%weight-lossdefinition, neverconvertedtoT5/Tonset. Peakrateunit andsolventratio conflicts preserved; no normalizedpeakrate or inferredsolventvolume.
+
+One standalone ANFs/MMT aerogel fiber shell material (DOI10.1007/s40820-023-01200-8) has ownLOI33.1 and genericTGresidue58.5 fromSection3.3p9/Figure3, nitrogen/10Cmin fromSection2.5p5. Genericresiduetemperature unknown; nofixed-temperatureR inferred. Shellmaterial TG isnotassignedtofullcoaxialTEfiber. PureANFs unlabelledLOI, approximate~35 n/p/fullfiberLOI, SIcores andwashed electricalperformance remainheld. Completeoriginalmain/SI forbothsources reviewed; originalFigure3pixelsandTableS1cellstructure checked.
+
+ANF/silica source10.3390/polym15010141 held: nitrogeninmethods vs oxygeninmain/SI TGcaptions. LM/alginate10.1002/advs.202303406 mainhasnoexactTGmetrics andSIaccesspending. Holds/queue preserved. Latestmain b64 andallpriorfingerprints remainunchanged. Proposedtotal457; strictlyexceeding500 requires44more. Metadata libraryuntouched; publicfacts/provenance only, fulltextcaches outside. Exact-headCI andindependentmainreadback remainpublicationgates.
