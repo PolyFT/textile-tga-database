@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
     "batch": "b54",
     "merge_sha": "f36272553b91fba3a4760e76629602ab9597eed5",
@@ -32,11 +32,10 @@
     "snapshot_sha256": "c40c3682c2b94795005c71a8a71d45a581f11400022bb838cf4e63a4913b78ad"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b55-20260930",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T20:06:13.932Z",
-    "scope": "Four GEL/AMP/silica cotton states from 10.1007/s10570-023-05278-6; independent exact-hash source QA passed. Preserve all existing holds.",
-    "instruction": "Do not overwrite; coordinate before another publisher."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T20:12:44.336Z",
+    "instruction": "B55 PR22 merged after exact-head 187 tests, compilation, scientific gate and snapshot validation. Main 358 states / 411 conditions / 85 DOI; errors empty. All three postmerge checks passed. Refresh main, open PRs and source queue before another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -51,7 +50,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -281,5 +280,18 @@
     "new_source_measurement_states": 4,
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 1
+  },
+  "latest_publication": {
+    "batch": "b55",
+    "pr": 22,
+    "merge_sha": "871a900970b8b4f3cc71bdbe23bb638b28c4286c",
+    "validated_head": "e9a282ef693ba42b96f7e8a7cd3a12d5320f16d9",
+    "validation_run": 36770703742,
+    "postmerge_runs": [
+      36770830370,
+      36770830503,
+      36770830305
+    ],
+    "snapshot_sha256": "4644de7ccc93bdc71fba23e3f9d1c51c975a2c1e64688e7dd9f20f1ec1623520"
   }
 }
