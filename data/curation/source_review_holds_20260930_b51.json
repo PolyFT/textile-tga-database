@@ -1,0 +1,115 @@
+[
+  {
+    "DOI": "10.1016/j.polymdegradstab.2026.112025",
+    "hold_scope": "Cotton control LOI; neat FR; MCC data",
+    "reason": "Introductory cotton LOI18.6 is literature context, not a Table1 tested control value. Neat TD/TEP/DEPAm and MCC Table3 are different experiments and are not substituted for textile TG/LOI.",
+    "source_url": "https://doi.org/10.1016/j.polymdegradstab.2026.112025"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2026.112025",
+    "hold_scope": "Bath concentration and normalized add-on metadata",
+    "reason": "Section2.2 gives150g in450mL and declares250g/L without explaining the final volume. Quantitative bath concentration withheld. Eq1 uses treated mass denominator; Table1 reported19.2/12.6 values retained in source-native add-on metadata only.",
+    "source_url": "https://doi.org/10.1016/j.polymdegradstab.2026.112025"
+  },
+  {
+    "DOI": "10.1080/15440478.2022.2145405",
+    "hold_scope": "Control and durability-washed pairings",
+    "reason": "Introductory cotton LOIabout18 is not a tested L/C control result. Fifty-wash LOI reduction12.7% is not converted to an absolute LOI and no matched postwash TG is reported. No-COP/no-acid vertical flame controls do not supply matched TG/LOI pairs.",
+    "source_url": "https://doi.org/10.1080/15440478.2022.2145405"
+  },
+  {
+    "DOI": "10.1080/15440478.2022.2145405",
+    "hold_scope": "Chemical identity normalization and TG-IR method substitution",
+    "reason": "Source alternates creatinine/creatinol O-phosphate; COP label retained without resolving chemical identity. N2/15mg/30mLmin are TG-IR conditions, not the air TG10Cmin experiment.",
+    "source_url": "https://doi.org/10.1080/15440478.2022.2145405"
+  },
+  {
+    "DOI": "10.1016/j.eurpolymj.2024.112804",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "TG ramp unavailable in retrieved primary abstract/section previews.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S001430572400065X",
+    "source_location": "Publisher Abstract; Materials preview; Preparation of FR wool preview; Surface morphology preview; Conclusions preview"
+  },
+  {
+    "DOI": "10.1016/j.eurpolymj.2024.112804",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "Air char-residue temperature unavailable; do not assign R700/R800.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S001430572400065X",
+    "source_location": "Publisher Abstract; Materials preview; Preparation of FR wool preview; Surface morphology preview; Conclusions preview"
+  },
+  {
+    "DOI": "10.1016/j.eurpolymj.2024.112804",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "Full preparation and table labels unavailable: untreated versus pretreated control mapping remains unverified.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S001430572400065X",
+    "source_location": "Publisher Abstract; Materials preview; Preparation of FR wool preview; Surface morphology preview; Conclusions preview"
+  },
+  {
+    "DOI": "10.1016/j.eurpolymj.2024.112804",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "Abstract calls DMP dimethyl phosphate; Materials calls it dimethyl phosphite, (CH3O)2PHO. Do not silently resolve reagent identity.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S001430572400065X",
+    "source_location": "Publisher Abstract; Materials preview; Preparation of FR wool preview; Surface morphology preview; Conclusions preview"
+  },
+  {
+    "DOI": "10.1016/j.eurpolymj.2024.112804",
+    "hold_scope": "washed state pairing",
+    "reason": "25-wash LOI 27.0 has no retrieved matching post-wash TG; keep separate from initial T50/residue.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S001430572400065X",
+    "source_location": "Abstract and Conclusion"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107018",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "TG atmosphere and heating rate unavailable in retrieved primary abstract/section previews.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0300944022003150",
+    "source_location": "Publisher Abstract; Materials and chemicals preview; Conclusion preview"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107018",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "PTau-NYCO in abstract versus 4PTau-NYCO in conclusion: same LOI supports further review but does not establish an exact TG formulation crosswalk without preparation/results.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0300944022003150",
+    "source_location": "Publisher Abstract; Materials and chemicals preview; Conclusion preview"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107018",
+    "hold_scope": "all existing candidate pairs",
+    "reason": "No retrieved control TG metric or exact post-wash TG.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0300944022003150",
+    "source_location": "Publisher Abstract; Materials and chemicals preview; Conclusion preview"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107018",
+    "hold_scope": "washed state pairing",
+    "reason": "40-wash LOI 29.2 cannot be paired with initial R800 37.2.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0300944022003150",
+    "source_location": "Abstract and Conclusion"
+  },
+  {
+    "DOI": "10.1016/j.mtla.2026.102691",
+    "hold_scope": "whole-source missing fulltext/method hold",
+    "reason": "Only abstract exactLOI26/R80018.2 for15% loading retrieved. No source TG atmosphere/ramp. Two legacy labels appear to describe this one state; neither is independently admitted.",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S258915292600044X"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2025.111730",
+    "hold_scope": "whole-source missing fulltext/method hold",
+    "reason": "Publisher abstract/highlights and ResearchGate no-fulltext status only. Original TG method, absolute residues and exact specimen mapping unavailable. WashedLOI27.6 cannot use initial TG.",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0141391025005592"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2025.111812",
+    "hold_scope": "whole-source missing fulltext/method hold",
+    "reason": "Publisher abstract/highlights and ResearchGate no-fulltext status only. R80035 and low addon claim lack original TG atmosphere/ramp and matched LOI table. No admission.",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S014139102500641X"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2026.112025",
+    "related_DOI": "10.1016/j.cej.2025.165778",
+    "hold_scope": "Second admission of matched CEJ TD state",
+    "reason": "Table2 TD nitrogen TG row exactly matches CEJ Table2 (T5=252,Tmax308,residue-at-Tmax70.1,DTGmax1.4,R70038.2). Keep PO-paper TD as one canonical target state. Exclude matched CEJTD from another admission. This establishes TG nonindependence only; do not assert LOI experiment reuse without additional evidence.",
+    "shared_experiment_group": "TD_nitrogen_TG_CEJ165778_PDS112025",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  }
+]

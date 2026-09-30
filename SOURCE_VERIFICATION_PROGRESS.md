@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **333 unique DOI/sample/washing states**, **383 TG condition records**, and **77 papers**. The near-term target is 500 unique states; **167 remain**. The long-term target remains 2000.
+The reviewed dataset contains **336 unique DOI/sample/washing states**, **386 TG condition records**, and **79 papers**. The near-term target is 500 unique states; **164 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **333 unique DOI/sample/washing states**, **383 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 135 new/newly completed paired states and 198 existing paired states with upgraded evidence
+- Cumulative: 135 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -214,3 +214,18 @@ All 161 offline tests, compilation and the scientific validation gate pass local
 PR [#17](https://github.com/PolyFT/textile-tga-database/pull/17) merged at 2026-09-30 18:41:33 UTC as `0351518f0978c37a1e6713649b3e613c803e8734`. Final head `e71fd76131ac8cdb772d27d51b84dca92f3885ed` passed [exact-head validation](https://github.com/PolyFT/textile-tga-database/actions/runs/36760145268): all 161 tests, compilation, scientific validation and committed-snapshot consistency. Fresh main independently confirms 333 unique states, 383 TG conditions, 77 DOI and errors=[]. Snapshot SHA-256: `69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4`.
 
 This batch adds four new source states and newly completes three existing separate TG/LOI states; it adds zero evidence-only upgrades. The possible repeated microwave control stays excluded. All source holds remain; the branch-only materializer was removed. The b50 lease is released after verified main readback. There are 167 states remaining to 500 (168 to exceed 500). Recheck the latest main, open PRs, lease and per-paper queue before further publication.
+
+
+## b51 remaining legacy source review
+
+Three existing numerical pairs receive source evidence, adding three verified states and three conditions from two papers. This batch adds zero new scientific measurement states. Independent final-byte reviews checked original published text; PDF pixel QA is not claimed.
+
+- TD and TD220 cotton use the same explicit specimen labels in Tables 1 and 2. The 220 C specimen pretreatment is distinct from the TG-only 100 C moisture-removal hold. R700 is not the 800 C scan endpoint, and residues at Tmax are separate observations. Source-native add-on metadata is not silently renormalized
+- Initial COP-treated lyocell/cotton is supported by exact TG/LOI prose and air-atmosphere method. Chemical naming inconsistencies, unmatched washed results and control literature LOI remain excluded. Nitrogen TG-IR settings do not replace conventional air TG conditions
+- Wool, taurine/NYCO, DOPO-APTES/PET, keratin/alginate cotton and guar-gum/polyborate cotton remain held for unavailable original conditions/fulltext or unresolved mapping. Repeated atmosphere rows or possibly aliased legacy labels are not new samples
+
+Source fingerprints, input hashes, concise evidence locations and explicit holds are published. Fulltext caches and private preparation remain outside the repository. Exact-head tests and snapshot consistency must pass before merge; the active publisher retains the lease until main is verified.
+
+All 168 offline tests, compilation and scientific validation pass locally. Branch snapshot: 336 unique states, 386 TG conditions, 79 DOI, errors=[]; SHA-256 `2a31d9db2d3595768fb224c166c08c348156c39c2dc3bcc8d91773dc2af1968f`. Exact-head CI and main readback remain required.
+
+Cross-paper provenance: the PO-paper TD nitrogen TG row matches CEJ165778 Table2 exactly. It is kept as one canonical target record in shared experiment group `TD_nitrogen_TG_CEJ165778_PDS112025`; a second CEJ TD admission is excluded. TG reuse does not by itself establish that the LOI experiment was repeated or reused.
