@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T17:26:36Z",
-  "latest_batch_id": "20260930_b46",
-  "verified_condition_records": 331,
-  "verified_unique_sample_states": 285,
-  "verified_dois": 64,
-  "numeric_pair_candidate_rows": 720,
+  "as_of_utc": "2026-09-30T17:45:17.461827+00:00",
+  "latest_batch_id": "20261001_b47",
+  "verified_condition_records": 340,
+  "verified_unique_sample_states": 294,
+  "verified_dois": 67,
+  "numeric_pair_candidate_rows": 729,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 215,
+  "remaining_near_term": 206,
   "long_term_target_unique_states": 2000,
   "cumulative_newly_completed_or_new_source_sample_states": 106,
-  "cumulative_evidence_upgraded_existing_sample_states": 179,
+  "cumulative_evidence_upgraded_existing_sample_states": 188,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b47_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b46",
     "merge_sha": "016e4251f3455e4be5af37d31aa4501f1082eafb",
@@ -51,7 +51,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -166,5 +166,17 @@
     "held_PAA_states": 6,
     "tests_passed": 132,
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/13"
+  },
+  "batch_b47": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 9,
+    "newly_completed_pairs": 0,
+    "new_source_verified_states": 0,
+    "existing_paired_states_evidence_upgraded": 9,
+    "new_source_held_candidates": 3,
+    "condition_partial_records_excluded": 8,
+    "reviewed_papers_added": 3,
+    "tests_passed": 138,
+    "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
   }
 }

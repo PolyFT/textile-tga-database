@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **285 unique DOI/sample/washing states**, **331 TG condition records**, and **64 papers**. The near-term target is 500 unique states; **215 remain**. The long-term target remains 2000.
+The reviewed dataset contains **294 unique DOI/sample/washing states**, **340 TG condition records**, and **67 papers**. The near-term target is 500 unique states; **206 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -134,3 +134,15 @@ Two further cotton source assessments produced zero exact-condition pairs: SAGE1
 PR #13 merged at2026-09-30 17:26:36 UTC as `016e4251f3455e4be5af37d31aa4501f1082eafb`. Exact head `6910435f07316e1d7d8c39a85f7ab82a6933d77b` passed [run36751208066](https://github.com/PolyFT/textile-tga-database/actions/runs/36751208066), including all132 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms285 unique verified states,331 conditions,64 DOI and errors=[]. Snapshot SHA-256:`f1668a8b7557cc17f5bc61b45e58495804e81cabc2aad45f7457cc13fe8ca191`.
 
 The temporary materializer is removed and b46 writer lease is released. Every independently reviewed ready pair in the previously announced b42–b46 preparations is now included. Remaining condition-partial, LOI-only, identifier-held or inaccessible-source preparations remain excluded; none is an uncounted verified pair. The near-term goal is not yet met:215 further unique verified states are required to reach500. Continue from current source ownership and the per-paper queue rather than repeating completed or held reviews without new evidence.
+
+
+## b47 heavy cotton, PET and official blend-coating SI
+
+Nine existing numerical pairs gain complete same-state evidence and become eligible for the reviewed master, represented by nine TG conditions. This batch discovers zero new verified source-inventory states and completes zero formerly unpaired states. Three genuinely new cotton candidates from 8b00822 remain held for TG atmosphere attribution and do not increase the target.
+
+- Heavy cotton back-coatings: five Table5 LOI/R500 pairs; air100mL/min,20C/min from author-manuscript p7. Initial360g/m2 cotton remains separate from light cotton, soaked states, neat chemicals and furnace-held chars. Fyrol51/250 lacks experimental TG and stays held.
+- ATMP/chitosan blend coating: official SI TableS3 experimental PEC21.5/Fabric3 TG matches TableS5 zero-cycle LOI28.5+/-0.5. N2,10C/min and residue700C are explicit. The main paper is inaccessible, so review remains SI-only; five other TG states await primary LOI. Fiber ratios, statistical meaning of the LOI uncertainty, gas flow and scan endpoint are not inferred. Washed LOI and calculated TG are excluded.
+- PET/NDFR: explicit Section3.4 LOI matches Table6 AZ1/AZ2/AZ10 TG at N2,10C/min. Complete published primary author-copy text was readable; original PDF pixels were unavailable. AZ2 T80 conflict471/472C and AZ10 oven-duration conflict20/30min remain absent from clean fields. Early coating volatilization is not polymer onset; Table7 DSC is excluded.
+- New smart cotton: Table1 contains three exact TG/LOI tuples, but methods mention both N2 and air without assigning the table to either. These facts are condition-partial only. The full ramie paper reports no TG; two Cellulose leads expose only public previews.
+
+Manifest, sample-state crosswalk, field-level holds and the source queue preserve recovery positions. Public files contain facts and concise provenance only. Metadata library selection remains pending; no library file has been changed. Latest-main b46 additions and other preparation are preserved. Exact-head tests and snapshot CI are required before merge.

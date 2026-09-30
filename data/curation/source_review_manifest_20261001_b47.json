@@ -1,0 +1,70 @@
+{
+  "batch": "b47",
+  "review_completed_utc": "2026-09-30T17:45:17.461047+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 9,
+    "newly_completed_pairs": 0,
+    "new_source_verified_states": 0,
+    "existing_paired_states_evidence_upgraded": 9,
+    "new_source_held_candidates": 3,
+    "condition_partial_records_excluded": 8
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b47.csv",
+      "published_input_sha256": "4571ca8ed267813714bd2687d8b241014e93675a2e22dca8666676959cb8cc89",
+      "conditions": 9,
+      "unique_sample_states": 9,
+      "accepted_measurement_fingerprints": [
+        "d0788ded76c2a281d2311d1b9627f26d8d9e25d289ebb58339c0c87ca36c96cc",
+        "cfd22c63242cb219c1e929a641559472460cfcac56914457708a63748e1a52e3",
+        "b43b7bd6515f744a917cd321e253665d2d5b0cfad3273d5d98a91d9e4d167316",
+        "2f61e760f5e801621cfad41fb687befdb75aec03fa4d3f5bfa57d308db02ca41",
+        "1b372bc31aefcd532ec7c02ef14a4e481d4bd6527ce677d5336ae9a56a3c5e55",
+        "f84532fd0ccaef4013adfdb54eddd0d501b51cca5351f04fdbee43db250d82c9",
+        "f9589b4d89843541f84b9c62fc41e35a8de98c0ce096fd34f8e629ba89db497d",
+        "1c50360352935aee61523d3d1b9e022b01c9ea0d0987b3226e37aa717d683962",
+        "30a6896567227a554249ad87870579d7b9e9ecd995e836d8a5b4caf4acd54f3f"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1177/0734904107083553",
+      "accepted_states": 5,
+      "evidence": "Complete institutional author manuscript; Table5 explicit same-state LOI/R500 and p7 air100mL/min,20C/min methods; original table and method pixels reviewed.",
+      "holds": "Fyrol51/250 TG missing. Light fabric, washed fabric, pure-FR nitrogen curves and furnace phosphorus-retention chars cannot substitute for heavy initial fabric TG."
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.3c00028",
+      "accepted_states": 1,
+      "evidence": "Complete official ACS SI; TableS3 experimental TG at10C/min inN2 and TableS5 cycle0 LOI28.5+/-0.5; TablesS3/S5 original PDF pixels reviewed.",
+      "holds": "Main text unavailable; five additional experimental TG states have unreviewed main-text LOI. Washed LOI not paired with initial TG. Calculated curves and neat coating excluded. Fabric3 fiber ratios not inferred."
+    },
+    {
+      "DOI": "10.1016/j.ejpe.2015.04.001",
+      "accepted_states": 3,
+      "evidence": "Complete published primary author-copy text; Section3.4 exact LOI19.8/23/26; Table6 same AZ1/AZ2/AZ10 TG; Section2.7.1 nitrogen30mL/min,10C/min.",
+      "holds": "PDF pixels unavailable; review text-only. AZ2 T80471/472 and AZ10 oven-time20/30min withheld; other same-state metrics unambiguous. Initial volatile loss is not polymer onset; DSC Table7 excluded."
+    },
+    {
+      "DOI": "10.1021/acsomega.8b00822",
+      "accepted_states": 0,
+      "evidence": "Complete official PMC full text; Table1 three exact numerical pairs; Section4.6 gives20K/min but both nitrogen and air.",
+      "holds": "No Table1/Figure7 attribution to specific atmosphere. Three new-source candidates retained only as partial facts."
+    },
+    {
+      "DOI": "10.3390/ma17061416",
+      "accepted_states": 0,
+      "evidence": "Complete ramie full text and publisher PDF screened.",
+      "holds": "No TG measurement; own LOI22/29 only. Cited comparison rows excluded."
+    },
+    {
+      "DOI": "10.1007/s10570-022-04892-0;10.1007/s10570-017-1391-x",
+      "accepted_states": 0,
+      "holds": "Accessible primary sources are previews only; exact primary method and all same-state values unavailable."
+    }
+  ],
+  "verification_limit": "One reviewer primary-source inspection; no independent second-reviewer claim. Numerical facts and concise DOI/page/table provenance only; full texts and local file paths are excluded."
+}

@@ -233,6 +233,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b47.csv",
+      "accepted_rows": 9,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -513,9 +520,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1181,
-  "legacy_field_complete_condition_records": 577,
-  "numeric_pair_candidate_rows": 720,
+  "all_loaded_rows": 1190,
+  "legacy_field_complete_condition_records": 586,
+  "numeric_pair_candidate_rows": 729,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -523,28 +530,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 331,
-  "verified_exact_condition_records": 331,
-  "verified_exact_sample_states": 285,
-  "verified_exact_dois": 64,
+  "strict_tg_loi_pairs": 340,
+  "verified_exact_condition_records": 340,
+  "verified_exact_sample_states": 294,
+  "verified_exact_dois": 67,
   "candidate_dois": 94,
-  "candidate_sample_states": 556,
-  "rows_with_numeric_loi": 766,
-  "rows_with_any_tg_numeric": 1071,
+  "candidate_sample_states": 565,
+  "rows_with_numeric_loi": 775,
+  "rows_with_any_tg_numeric": 1080,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1715,
+  "remaining_to_target": 1706,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 225,
-    "T5_C": 155,
+    "Tmax1_C": 229,
+    "T5_C": 156,
     "Tonset_C": 54,
     "R600_pct": 61,
-    "R700_pct": 54,
+    "R700_pct": 55,
     "R800_pct": 53
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "f1668a8b7557cc17f5bc61b45e58495804e81cabc2aad45f7457cc13fe8ca191"
+  "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
 }
