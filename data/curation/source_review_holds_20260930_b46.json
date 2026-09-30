@@ -1,0 +1,251 @@
+[
+  {
+    "states": "All seven treated states after soaking",
+    "hold": "No same after-soaking TG numeric data. Never pair after-soaking LOI with initial TG."
+  },
+  {
+    "states": "15% APS + H3PO4 only",
+    "hold": "Formulation in Table1 but no exact same-state Table2 TG+LOI row."
+  },
+  {
+    "field": "LOI_uncertainty",
+    "hold": "OCR says reproducible within +1 vol.%; verify original glyph before deciding symmetric uncertainty."
+  },
+  {
+    "sample_ids": [
+      "E20260930-B45-4045848-02",
+      "E20260930-B45-4045848-04",
+      "E20260930-B45-4045848-05"
+    ],
+    "hold": "Table 2 initial LOIs 34, 38, and 40 conflict with the unqualified p.34 statement that all formulations have LOI above 40. No assumption of typo or rounding and no silent preference for Table 2.",
+    "disposition_source": "Independent reviewer provisional hold"
+  },
+  {
+    "sample_ids": [
+      "E20260930-B45-4045848-07"
+    ],
+    "hold": "Table 2 MGHP + melamine initial LOI 42 conflicts with abstract pp.27–28 and discussion/conclusion p.36 grouping guanidine with or without melamine at 30–40.",
+    "disposition_source": "Independent reviewer provisional hold"
+  },
+  {
+    "sample_ids": [
+      "E20260930-B45-4045848-03"
+    ],
+    "hold": "Table 2 DGHP + APS initial LOI 60 conflicts with p.32 guanidine + APS statement above 60 and p.36 conclusion above 60.",
+    "disposition_source": "Independent reviewer provisional hold"
+  },
+  {
+    "sample_label": "COT/M-GLY",
+    "TG_add_on_pct_as_printed": "14",
+    "unassigned_LOI_pct_for_generic_label": 18,
+    "paired_rows_created": 0,
+    "reason": "TG Table3 is 14% PAA, but LOI18 is reported only for generic COT/PAAs. This article also tests PAA-only 7% in HFST Table4, 16% in cone Table6, and references 30% in VFST context. LOI concentration is not specified; do not assign generic LOI18 to TG14% by label alone.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 247,
+        "Tmax1_C": 310,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 23
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 256,
+        "Tmax1_C": 304,
+        "later_peak_temperatures_C": [
+          433,
+          481
+        ],
+        "R800_pct": 0
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  },
+  {
+    "sample_label": "COT/M-ARG",
+    "TG_add_on_pct_as_printed": "14",
+    "unassigned_LOI_pct_for_generic_label": 18,
+    "paired_rows_created": 0,
+    "reason": "TG Table3 is 14% PAA, but LOI18 is reported only for generic COT/PAAs. This article also tests PAA-only 7% in HFST Table4, 16% in cone Table6, and references 30% in VFST context. LOI concentration is not specified; do not assign generic LOI18 to TG14% by label alone.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 269,
+        "Tmax1_C": 324,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 23
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 266,
+        "Tmax1_C": 305,
+        "later_peak_temperatures_C": [
+          434,
+          473
+        ],
+        "R800_pct": 1
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  },
+  {
+    "sample_label": "COT/M-GLU",
+    "TG_add_on_pct_as_printed": "14",
+    "unassigned_LOI_pct_for_generic_label": 18,
+    "paired_rows_created": 0,
+    "reason": "TG Table3 is 14% PAA, but LOI18 is reported only for generic COT/PAAs. This article also tests PAA-only 7% in HFST Table4, 16% in cone Table6, and references 30% in VFST context. LOI concentration is not specified; do not assign generic LOI18 to TG14% by label alone.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 262,
+        "Tmax1_C": 309,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 23
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 274,
+        "Tmax1_C": 308,
+        "later_peak_temperatures_C": [
+          446,
+          508
+        ],
+        "R800_pct": 1
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  },
+  {
+    "sample_label": "COT/MMT/M-GLY",
+    "TG_add_on_pct_as_printed": "2 + 12",
+    "unassigned_LOI_pct_for_generic_label": 22.0,
+    "paired_rows_created": 0,
+    "reason": "Table3 reports 2% MMT + 12% PAA; section3.8 explicitly describes replacing 2% of a 14% PAA layer. Fig.11 instead says 2+14%, matching methods generic coding. LOI paragraph omits add-on and follows VFST 2+14%,2+11%,2+8% tests. No defensible same-concentration crosswalk.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 267,
+        "Tmax1_C": 314,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 27
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 268,
+        "Tmax1_C": 311,
+        "later_peak_temperatures_C": [
+          446
+        ],
+        "R800_pct": 2
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  },
+  {
+    "sample_label": "COT/MMT/M-ARG",
+    "TG_add_on_pct_as_printed": "2 + 12",
+    "unassigned_LOI_pct_for_generic_label": 23.5,
+    "paired_rows_created": 0,
+    "reason": "Table3 reports 2% MMT + 12% PAA; section3.8 explicitly describes replacing 2% of a 14% PAA layer. Fig.11 instead says 2+14%, matching methods generic coding. LOI paragraph omits add-on and follows VFST 2+14%,2+11%,2+8% tests. No defensible same-concentration crosswalk.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 266,
+        "Tmax1_C": 276,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 29
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 266,
+        "Tmax1_C": 276,
+        "later_peak_temperatures_C": [
+          466
+        ],
+        "R800_pct": 2
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  },
+  {
+    "sample_label": "COT/MMT/M-GLU",
+    "TG_add_on_pct_as_printed": "2 + 12",
+    "unassigned_LOI_pct_for_generic_label": 25.0,
+    "paired_rows_created": 0,
+    "reason": "Table3 reports 2% MMT + 12% PAA; section3.8 explicitly describes replacing 2% of a 14% PAA layer. Fig.11 instead says 2+14%, matching methods generic coding. LOI paragraph omits add-on and follows VFST 2+14%,2+11%,2+8% tests. No defensible same-concentration crosswalk.",
+    "evidence_locations": [
+      "main Table3 p.11",
+      "main Fig.11 p.10",
+      "main sections2.4 p.5 and3.8 p.11",
+      "main section3.9.2/Table5 p.13",
+      "main Tables4/6 pp.11/13",
+      "official supplement S1 inventory and S8-S9 captions"
+    ],
+    "resolution_needed": "Source-specific clarification identifying the actual LOI concentration and, for MMT/PAA, resolving Table3 versus Fig.11 composition; no author contact authorized or attempted.",
+    "TG_conditions_only": [
+      {
+        "atmosphere": "N2",
+        "T10_C": 254,
+        "Tmax1_C": 345,
+        "later_peak_temperatures_C": [],
+        "R800_pct": 28
+      },
+      {
+        "atmosphere": "air",
+        "T10_C": 256,
+        "Tmax1_C": 309,
+        "later_peak_temperatures_C": [
+          440,
+          492
+        ],
+        "R800_pct": 2
+      }
+    ],
+    "supplement_outcome": "No LOI table, numeric result, or concentration crosswalk. TableS1 is tensile strength only. FiguresS8/S9 are VFST at2+11%/2+8%."
+  }
+]
