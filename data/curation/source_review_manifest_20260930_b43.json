@@ -1,0 +1,103 @@
+{
+  "batch": "b43",
+  "source_review_completed_utc": "2026-09-30T16:41:00Z",
+  "scientific_summary": {
+    "draft_condition_rows": 19,
+    "draft_existing_sample_states": 17,
+    "pass_condition_rows": 14,
+    "pass_existing_sample_states": 12,
+    "whole_pair_holds": 5,
+    "genuinely_new_sample_states": 0,
+    "separately_reaffirmed_PAN_form_holds": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b43_d1ra06573d.csv",
+      "draft_sha256": "a046ee874168cddea5e436ca348a1d0f5c5ac8dea109255186ddc706852b67bc",
+      "published_input_sha256": "84acedb481d33471a940bc18f86c71ca5223c03b2aa7854eeecb0a4be2bb5cb7",
+      "conditions": 4,
+      "states": 2,
+      "DOI": "10.1039/D1RA06573D",
+      "new_scientific_states": 0,
+      "accepted_measurement_fingerprints": [
+        "4d001bdd8b609ee3b24b4e7aa35ca99159978d7bdfcf7627db8c490aeb64c7b3",
+        "31d6437ec00df344da8556cda3f65336e940e1ccfbfd983a1cc9963256da2a82",
+        "a8b2a4289b3c08740362d8b49ea02dbdeb15220b751296403d227b536e29c3c3",
+        "6818baba74b1eac4dfdee181e094d4a8175bb5e723e9221d1b79532761b7a054"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b43_1528083716648761.csv",
+      "draft_sha256": "52e96516566e2d89fc65553bd0a1e8d9c7ba7fdfc8312982bc5188fae384f24e",
+      "published_input_sha256": "ac06f00eb09cc98b82a59b8f85b89bf035dec2a14dd5d1a2b58662b52dc5d477",
+      "conditions": 3,
+      "states": 3,
+      "DOI": "10.1177/1528083716648761",
+      "new_scientific_states": 0,
+      "accepted_measurement_fingerprints": [
+        "55bf9ea2c20f16c0aa6a6ac160dc575f2dc7d52889e78628fb5e260eb27650e2",
+        "2fa7b2d8d3b995537b2d685cf79440c505f0b9563f1f3b6cde29abef1a9704dc",
+        "ee999e7cd125080865ff0e34e642d46a12f7ae8b995ffa6148c816d22af2c731"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b43_1528083718798636.csv",
+      "draft_sha256": "773a2ded7eae084a847f84055e48528007e317490e5ab17b4a3d59a825430909",
+      "published_input_sha256": "e32904feca5dc14c9110cd31445967c9eae9da64c5b9198e548e6ba9b98e559e",
+      "conditions": 4,
+      "states": 4,
+      "DOI": "10.1177/1528083718798636",
+      "new_scientific_states": 0,
+      "accepted_measurement_fingerprints": [
+        "c8264980e258617858392051d7f884e876d3940376e68a522a87272af07de4f2",
+        "d45f1786ad2dce6c7f0fb5976a5a4c0fe0bd791748fd700db7f5c70ee6213b53",
+        "f122149bcb394f19fec530263b9b65cd4ad1fb6e89fa8c829be182c1cac6a1fa",
+        "2c32edd1e67f2590f951837d4927a05d1e177152aeb66d1961f59c8c7a780a17"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b43_1528083720938158.csv",
+      "draft_sha256": "744b5fcad7c25113d72891b943d936d77f839a98c7ed53074cb4fce962de8a95",
+      "published_input_sha256": "1e5b3a9b67ef4d6ce9764b76dc86d8f2b2c7f45cd00b38d7a54682487a0a2918",
+      "conditions": 3,
+      "states": 3,
+      "DOI": "10.1177/1528083720938158",
+      "new_scientific_states": 0,
+      "accepted_measurement_fingerprints": [
+        "915f328be827fe537c6c941f0eace2dcc1bbc8d4b83d16ea195b2efd1a4e0283",
+        "aae300d9aa6aeebbfa0ca3f92fa8cbb28dfb0db671f9591769595e2b4ccc0b90",
+        "a760edebf2f34dc6f6cc096f0286213fa67c7b79dc42a1a9e8abafb88c0007fe"
+      ]
+    }
+  ],
+  "source_reviews": [
+    {
+      "DOI": "10.1039/D1RA06573D",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9042939/",
+      "locations": "Sections 2.3-2.4 and 3.4-3.5; Tables 3-4; PDF pp.2-3,5-6",
+      "independent_read": "Primary HTML plus source PDF rendered methods and tables",
+      "finding": "Four table-exact TG conditions pair to two initial fabric states. Section 2.3 specifies PNPG 120 g/L; the separately identified laundering series supports 0-LC mapping. Air/N2 and 10 C/min belong to conventional TG. TG-IR conditions are separate. T5=111 C is a mass-loss threshold, not certified decomposition onset. No matching TG for other concentrations or later washes."
+    },
+    {
+      "DOI": "10.1177/1528083716648761",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1528083716648761",
+      "locations": "Abstract; preparation/application and TGA methods; TGA-analysis paragraphs; Tables 2 and 4",
+      "independent_read": "Primary publisher fulltext HTML",
+      "finding": "PB/PC/PE initial mapping is accepted through non-DFRC preparation ending at oven drying, with durability LOI separately identified. N2, 10 C/min, 30 mL/min. PB moisture and PE coating-evaporation stages are excluded from decomposition fields. Source Peak is not promoted to DTG Tmax. PC conflicting residue and second peak stay outside clean fields. Abstract conflicts require PA hold and precautionary PD hold; PF washing is unresolved. PD direct TG/LOI link supports its initial state but cannot cure numeric inconsistency."
+    },
+    {
+      "DOI": "10.1177/1528083718798636",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1528083718798636",
+      "locations": "Preparation PO1-PO5; TGA/DTGA methods; Figures 5/7 captions; TGA results; Table 3; Conclusion",
+      "independent_read": "Primary publisher fulltext HTML",
+      "finding": "PO2-PO5 exact prose residues pair to Table 3 LOI for the same prepared woven-fabric series. Nitrogen is supported by methods and figure captions; ramp 10 C/min, flow 30 mL/min. Residue temperature remains unspecified: method endpoint 750 C does not certify R750. PO1 is UV/ozone-activated, not virgin, and is held for 1.8% versus 0.5% residue. DSC and bomb-calorimeter values are excluded."
+    },
+    {
+      "DOI": "10.1177/1528083720938158",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1528083720938158",
+      "locations": "Abstract; Fabric preparation; Characterization; Hydrophilicity; Tables 1/3; Thermal behavior",
+      "independent_read": "Primary publisher fulltext HTML",
+      "finding": "PP-1/2/3 formulation labels match the same as-prepared nonwoven series. T5, explicitly defined Tmax and experimental R700 are accepted; calculated char is excluded. Nitrogen, 10 C/min, 60 mL/min. Preserve LOI plus/minus without assuming SD or replicate count. Control LOI 18.1 versus 18.2 is held. PP-0 has no main-table TG; unread supplement contributes no records."
+    }
+  ]
+}

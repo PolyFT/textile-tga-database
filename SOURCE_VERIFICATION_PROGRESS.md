@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **239 unique DOI/sample/washing states**, **280 TG condition records**, and **50 papers**. The near-term target is 500 unique states; **261 remain**. The long-term target remains 2000.
+The reviewed dataset contains **251 unique DOI/sample/washing states**, **294 TG condition records**, and **54 papers**. The near-term target is 500 unique states; **249 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **239 unique DOI/sample/washing states**, **280 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 76 new/newly completed paired states and 163 existing paired states with upgraded evidence
+- Cumulative: 76 new/newly completed paired states and 175 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -23,7 +23,7 @@ The reviewed dataset contains **239 unique DOI/sample/washing states**, **280 TG
 
 ## Continuation
 
-The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b42 the candidate layer has 669 numerical rows, while 239 unique sample states have the required source review.
+The guarded legacy importer recovered 180 historical numerical candidates and quarantined one truncated row. These are not new scientific observations and are not automatically Grade A. With b43 the candidate layer has 683 numerical rows, while 251 unique sample states have the required source review.
 
  tracks per-paper outcomes;  records target accounting and the active publication owner. Check current main and any open data PR before starting a new write. Preserve the documented holds and use source-backed crosswalks rather than DOI-only or value-only matching.
 
@@ -63,3 +63,11 @@ Recovered original extraction and independent QA artifacts were reused rather th
 PR #8 merged to `main` at 2026-09-30 16:25:52 UTC as `a1858b9f82d16fad95ff0c4afe79dbf68ed259f5`. Exact head `08e7798ebf80ef98c3126b8e2a6b4a3a56fe52a0` passed [run 36743487730, attempt 2](https://github.com/PolyFT/textile-tga-database/actions/runs/36743487730) after the normal workflow approval. All 104 offline tests, compilation, scientific validation and committed-snapshot consistency succeeded. Remote main independently confirms 239 unique reviewed sample states, 280 TG conditions, 50 DOI, and errors=[]. Snapshot SHA-256: `b4f1ffe0216bcf13f84e059c90e0b5da677e5acb59369ffc5f4fb8f5c3f1fa20`.
 
 The temporary materializer has been removed. The b42 single-writer lease is released, and all source holds remain. Current main contains no b43 source rows. Next public-source preparation is read-only until a new publisher checks current main and open data PRs.
+
+## b43 source adjudication
+
+Twelve existing sample states gain primary-source review across four papers, represented by fourteen conditions. There are zero genuinely new scientific states. Two lyocell states each have air and nitrogen TG, three PET 2016 states retain only unambiguous TG metrics, four PET 2018 states retain generic terminal residues, and three PP states retain experimental T5/Tmax/R700. The batch uses fingerprint-bound approvals and a source-review manifest with per-file hashes.
+
+Five whole pairs remain held: PET 2016 PA/PD abstract conflicts and PF washing ambiguity, PET 2018 PO1 residue conflict, and PP control LOI 18.1 versus18.2. The PAN paper retains four fiber-TG versus woven-fabric-LOI holds. Source Peak headings are not promoted to DTG Tmax; moisture and coating evaporation are kept separate. PET 2018 method endpoint750C is not assigned as the residue measurement temperature. All111 offline tests, compilation and scientific validation pass locally; exact-head CI and snapshot consistency are required before merging. The b43 writer lease is active until verified publication.
+
+The next read-only source preparation contains proposed cotton, nylon and wool pairs. No b44 rows are included in the b43 counts, and the next publisher must check current main and open PRs before claiming a writer lease.

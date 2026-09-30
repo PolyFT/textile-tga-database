@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T16:25:52Z",
-  "latest_batch_id": "20260930_b42",
-  "verified_condition_records": 280,
-  "verified_unique_sample_states": 239,
-  "verified_dois": 50,
-  "numeric_pair_candidate_rows": 669,
+  "as_of_utc": "2026-09-30T16:45:00Z",
+  "latest_batch_id": "20260930_b43",
+  "verified_condition_records": 294,
+  "verified_unique_sample_states": 251,
+  "verified_dois": 54,
+  "numeric_pair_candidate_rows": 683,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 261,
+  "remaining_near_term": 249,
   "long_term_target_unique_states": 2000,
   "cumulative_newly_completed_or_new_source_sample_states": 76,
-  "cumulative_evidence_upgraded_existing_sample_states": 163,
+  "cumulative_evidence_upgraded_existing_sample_states": 175,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b43_publication_in_progress",
+  "publication_stage": "b43_branch_source_review_complete_awaiting_exact_head_CI",
   "last_merged_batch": {
     "batch": "b42",
     "merge_sha": "a1858b9f82d16fad95ff0c4afe79dbf68ed259f5",
@@ -45,13 +45,15 @@
     "instruction": "One publisher is integrating the independently reviewed b43 public-source batch. Local metadata-library and hourly workers may prepare sources read-only; do not publish a competing data batch until this lease is released. Always check current main and open PRs first."
   },
   "next_sources": [
-    "10.1039/D1RA06573D",
-    "10.1177/1528083716648761",
-    "10.1177/0734904107083553",
-    "10.1177/1528083718798636"
+    "10.1038/s41598-024-71071-5",
+    "10.7317/pk.2018.42.2.157",
+    "10.13543/j.bhxbzr.2016.02.004",
+    "10.33263/briac123.36473663",
+    "10.1177/0734904107083553"
   ],
   "next_actions": [
-    "Next read-only preparation: D1RA06573D appears to support two existing sample states / four conditions; not yet independently reviewed or admitted. ma11122391 retains a fiber-TGA versus woven-fabric-LOI form hold.",
+    "Read-only b44 preparation proposes 13 newly completed cotton pairs and six new-to-measurement nylon/wool states; no b44 rows are counted here. Independently audit, reconcile current main and acquire one writer lease before publishing.",
+    "Do not repeat completed b43 lyocell/PET/PP reviews. Keep PA/PD/PF, PO1, PP control and all four PAN form-mismatched states held. Generic PET residues remain outside fixed-temperature plots.",
     "Do not repeat b42 four completed source reviews or D1RA07410E held bulk/fiber mismatch. Use per-paper queue to select the remaining unreviewed sources.",
     "Review remaining unreviewed papers in tg_loi_candidates.csv; skip all completed DOI entries in source_review_queue.csv.",
     "Prioritize new public textile full texts and supplements after remaining legacy evidence review. Count genuine new observations separately from evidence upgrades.",
@@ -94,5 +96,15 @@
     "independent_QA": "Recovered four-paper QA rechecked, including water-removal peak semantics",
     "tests_passed": 104,
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/8"
+  },
+  "batch_b43": {
+    "added_verified_unique_states": 12,
+    "added_verified_condition_records": 14,
+    "new_scientific_sample_states": 0,
+    "existing_states_evidence_upgraded": 12,
+    "reviewed_papers_added": 4,
+    "whole_pair_holds": 5,
+    "additional_PAN_form_holds": 4,
+    "tests_passed": 111
   }
 }
