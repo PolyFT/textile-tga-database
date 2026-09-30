@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **485 unique DOI/sample/washing states**, **556 TG condition records**, and **112 papers**. The near-term target is 500 unique states; **15 remain**. The long-term target remains 2000.
+The reviewed dataset contains **492 unique DOI/sample/washing states**, **565 TG condition records**, and **114 papers**. The near-term target is 500 unique states; **8 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **485 unique DOI/sample/washing states**, **556 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 284 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 291 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -487,3 +487,13 @@ Thirteen genuinely new sample states add thirteen nitrogen TG conditions from th
 Reported LOI uncertainties retain their original definitions. Ambiguous TG/DTA maximum temperatures, MCC temperatures, unmatched durability washes and unresolved preparation details are held or explicitly left unknown. Independent original-source review passed at exact draft hashes. Source fulltexts remain private.
 
 Published through PR36 at merge 618c0656c078ea881678820d45837e8241f57201. All 261 tests, scientific validation and exact-head snapshot consistency passed at 79d50ca3e63504a1cdd829de3323dcf15a8f049f. All three postmerge workflows passed and the lease was released. Every digest input blob and the entire local report were reconciled to the public branch before merge. Snapshot SHA256: 6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849.
+
+
+
+## b70 boron coating and LPU comparator sources
+
+Seven genuinely new sample states add nine TG conditions from two original papers. Two PAH/PSP/APB-coated cotton states retain separate nitrogen and air observations, the 120 C prehold, source T5 uncertainty and generic final residue. Five LPU-comparator cotton states retain exact source onsets and LOI; only the control residue is explicitly assigned to 700 C. Other residue assessment temperatures remain unknown.
+
+Three named LPU variants conflict with prose LOI and stay held. Unmatched conditioned specimens, missing comparator recipe details and gas-purge distinctions remain explicit. Seven additional source screens preserve missing thermal conditions, bulk-to-fabric mismatches, source contradictions and unavailable originals as holds. Independent original-source review passed at exact draft hashes; all source fulltexts remain private.
+
+The b70 writer lease remains active pending exact-head CI, merge and postmerge verification.

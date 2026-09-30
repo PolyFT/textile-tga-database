@@ -457,6 +457,20 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20260930_b70_boron2023.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b70_lpu2025.csv",
+      "accepted_rows": 5,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_source_batch_20261001_b45.csv",
       "accepted_rows": 9,
       "quarantined_rows": 0,
@@ -807,9 +821,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1414,
-  "legacy_field_complete_condition_records": 802,
-  "numeric_pair_candidate_rows": 947,
+  "all_loaded_rows": 1423,
+  "legacy_field_complete_condition_records": 811,
+  "numeric_pair_candidate_rows": 956,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -817,28 +831,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 556,
-  "verified_exact_condition_records": 556,
-  "verified_exact_sample_states": 485,
-  "verified_exact_dois": 112,
-  "candidate_dois": 135,
-  "candidate_sample_states": 756,
-  "rows_with_numeric_loi": 993,
-  "rows_with_any_tg_numeric": 1304,
+  "strict_tg_loi_pairs": 565,
+  "verified_exact_condition_records": 565,
+  "verified_exact_sample_states": 492,
+  "verified_exact_dois": 114,
+  "candidate_dois": 137,
+  "candidate_sample_states": 763,
+  "rows_with_numeric_loi": 1002,
+  "rows_with_any_tg_numeric": 1313,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 101,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1515,
+  "remaining_to_target": 1508,
   "plot_ready_verified_counts": {
     "Tmax1_C": 325,
-    "T5_C": 185,
-    "Tonset_C": 100,
+    "T5_C": 189,
+    "Tonset_C": 105,
     "R600_pct": 155,
-    "R700_pct": 100,
+    "R700_pct": 101,
     "R800_pct": 74
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "6e2e55e9521fe7bdc80dde737871304ae35263b730be2c57a22f5b83d0f90849"
+  "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
 }
