@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **492 unique DOI/sample/washing states**, **565 TG condition records**, and **114 papers**. The near-term target is 500 unique states; **8 remain**. The long-term target remains 2000.
+The reviewed dataset contains **501 unique DOI/sample/washing states**, **577 TG condition records**, and **117 papers**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **492 unique DOI/sample/washing states**, **565 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 291 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 300 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -497,3 +497,16 @@ Seven genuinely new sample states add nine TG conditions from two original paper
 Three named LPU variants conflict with prose LOI and stay held. Unmatched conditioned specimens, missing comparator recipe details and gas-purge distinctions remain explicit. Seven additional source screens preserve missing thermal conditions, bulk-to-fabric mismatches, source contradictions and unavailable originals as holds. Independent original-source review passed at exact draft hashes; all source fulltexts remain private.
 
 B70 merged in PR #37 after all 267 tests and exact-head snapshot validation passed. Main contains 492 verified sample states, 565 TG conditions and 114 DOI sources. All three postmerge workflows passed; the writer lease was released. Three additional wool states have independent original-source approval and remain queued for a later data batch. A separate source-identity schema change is planned before any non-DOI proceedings can be admitted.
+
+
+## b71 Fiber network and woven laminate source review
+
+Nine genuinely new independent states add twelve TG condition records; zero existing-pair evidence upgrades. Complete original main text and all listed numerical supplements were reviewed for the accepted sources. Source PDFs and private paths remain outside this public repository.
+
+- DOI 10.3390/polym17172377: all five BC/BS/BSM initial ambient-pressure-dried BC fiber-network aerogels pair own Table 2 TG with Table 3 LOI. Air at 10 C/min. Low-temperature T5 represents total mass loss in the moisture stage, never decomposition Tonset; main decomposition Tmax remains distinct. Table 2 char is generic residue with unknown assessment temperature, not inferred R600. MMT loading basis is the wet mixture. Complete six-page SI reviewed.
+- DOI 10.3390/polym12102379: three initial woven-fabric PBF-a laminates (glass, basalt and carbon), each at nitrogen and ambient-air TG conditions, pair exact own LOI in Section 3.3.1 with Tables A4/A5 T10 and explicitly800C char. T2 preserved separately, not relabelled. Whole-laminate residue, volume-fraction composition and curing cycle retained. Neat resin and literature comparator data excluded from textile target. Complete original Appendix reviewed.
+- DOI 10.1007/s42765-022-00231-x: one initial ionic solution blow-spun Nomex membrane pairs own air T5=376C with LOI28.39 and source-reported sigma0.152709. Complete36-page SI supplies TG-specific10C/min and LOI TableS2/S3. Six repeated splines are one state. PrintedT95 means95% mass remaining; argonDTA and nitrogenDSC are separate assays. Filtering, aging, acid and washing variants lack own pairs.
+
+Twelve further source holds preserve failed access, original SI read status, form/condition conflicts, cited rather than own LOI, or absence of TG. CSNF-DACMC full main and SI contain MCC heat-release Tmax302C, which is not TG; it remains excluded. No abstract, graph estimate or candidate is counted toward the target.
+
+Proposed total: 501 independent states, 577 TG conditions and 117 DOI. Strictly exceeding500 needs 0 more; reaching2000 needs 1499. Exact-head CI, normal merge and independent main readback must precede lease release.
