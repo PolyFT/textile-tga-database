@@ -264,8 +264,13 @@
       "last_attempt_utc": "2026-09-30T13:27:37.429081+00:00"
     },
     "10.1039/c9ra07743j": {
-      "fingerprint": "3f0a32a7a1cee3fbc6cf",
-      "grade": "C"
+      "fingerprint": "db35958917cc0f72d452",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.1021/acsomega.5c00281": {
       "fingerprint": "23683553a6bc9e6aca07",
@@ -297,28 +302,61 @@
       "next_retry_utc": "2026-09-30T19:27:37.429081+00:00"
     },
     "10.1039/d1ra07410e": {
-      "fingerprint": "a001c353e1be671da47f",
-      "grade": "B"
+      "fingerprint": "6587c0e06714c870942f",
+      "extractor_version": "6",
+      "grade": "B",
+      "reason_code": "pair_requires_review",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.1002/pc.28089": {
-      "fingerprint": "57431886de52f7e62612",
-      "grade": "C"
+      "fingerprint": "09180583ae59b9afbd96",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.3390/polym17070924": {
-      "fingerprint": "9942399d3d5d5c78b11a",
-      "grade": "C"
+      "fingerprint": "8e3be38938bba8185d49",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.1039/c8ra09005j": {
-      "fingerprint": "0e2c4b8866f375a57c6b",
-      "grade": "C"
+      "fingerprint": "dc321703630eb8896067",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.48048/tis.2025.9093": {
-      "fingerprint": "7c85c35f460e09fa8db8",
-      "grade": "C"
+      "fingerprint": "74832613faddba49626a",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.21203/rs.3.rs-315407/v1": {
-      "fingerprint": "82c0bff9d849c8b471a6",
-      "grade": "C"
+      "fingerprint": "72182054cc6446126d1d",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1002/fam.990": {
       "fingerprint": "b86436945e878cfbf2d6",
@@ -729,8 +767,14 @@
       "next_retry_utc": "2026-09-30T19:27:37.429081+00:00"
     },
     "10.1016/j.eurpolymj.2024.113525": {
-      "fingerprint": "64d4baf552a5d4ebc129",
-      "grade": "C"
+      "fingerprint": "d961268189f03e42acd6",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1002/pat.867": {
       "fingerprint": "86df5b94b77b0805eca8",
@@ -761,28 +805,56 @@
       "last_attempt_utc": "2026-09-30T13:24:56.861541+00:00"
     },
     "10.1038/s41598-025-27538-0": {
-      "fingerprint": "e955a24cc38f16fa600c",
-      "grade": "C"
+      "fingerprint": "561a591eeabee8e5c92a",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.5821/dissertation-2117-177807": {
-      "fingerprint": "334e1001b1ea2b17d3de",
-      "grade": "C"
+      "fingerprint": "ee9ce615e942db850362",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1016/j.polymer.2025.129336": {
-      "fingerprint": "0629bb917a125c25f969",
-      "grade": "C"
+      "fingerprint": "b5616132347db46ffebe",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.3390/molecules25214963": {
-      "fingerprint": "14234b795e5ea070e182",
-      "grade": "C"
+      "fingerprint": "3e476c78d50dbdf79c46",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.1002/pat.2008": {
       "fingerprint": "28386a462b0da157e5e7",
       "grade": "C"
     },
     "10.1080/15440478.2021.1994090": {
-      "fingerprint": "392addc74eb1356c0c1c",
-      "grade": "C"
+      "fingerprint": "94ad4b044c8e0d1f9ac7",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.3390/molecules29225306": {
       "fingerprint": "6a0c36f59df603e63b5a",
@@ -939,12 +1011,24 @@
       "next_retry_utc": "2026-09-30T19:27:37.429081+00:00"
     },
     "10.1080/15440478.2026.2717898": {
-      "fingerprint": "16294470cdacd4c2afd5",
-      "grade": "C"
+      "fingerprint": "4a90c57ae2ae99797e03",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.24011/barofd.1943806": {
-      "fingerprint": "f96d5826660240af292b",
-      "grade": "C"
+      "fingerprint": "614c3ba94e883c9ff5ab",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.3390/polym17081038": {
       "fingerprint": "6888d3f74434b19cb945",
@@ -1073,8 +1157,14 @@
       "last_attempt_utc": "2026-09-30T13:24:56.861541+00:00"
     },
     "10.20868/upm.thesis.64741": {
-      "fingerprint": "5a3743ca7cc5aa24a86d",
-      "grade": "C"
+      "fingerprint": "22ffade4887d09b5345a",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.58837/chula.the.2010.1261": {
       "fingerprint": "6eb6f06cea152bd5b602",
@@ -1245,8 +1335,14 @@
       "last_attempt_utc": "2026-09-30T13:24:56.861541+00:00"
     },
     "10.1016/j.ijbiomac.2024.129293": {
-      "fingerprint": "a6971eb5b5c555209b0b",
-      "grade": "C"
+      "fingerprint": "dbd09acec3ee49451d7d",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1177/00405175211040874": {
       "fingerprint": "becc70cb8a8576c262cc",
@@ -1265,8 +1361,14 @@
       "grade": "C"
     },
     "10.1002/app.53070": {
-      "fingerprint": "d375f649a786a594544e",
-      "grade": "C"
+      "fingerprint": "921f10cfeaec5b9b8f31",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.21203/rs.3.rs-3261201/v1": {
       "fingerprint": "3d592cb2de1c564b694c",
@@ -1388,12 +1490,24 @@
       "last_attempt_utc": "2026-09-30T13:12:22.662374+00:00"
     },
     "10.21203/rs.3.rs-780049/v1": {
-      "fingerprint": "1ecb3c7087e0676d51c7",
-      "grade": "C"
+      "fingerprint": "7f3a881d9875112edb15",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1016/j.jcou.2024.102918": {
-      "fingerprint": "922bd910dc2ca28ecd53",
-      "grade": "C"
+      "fingerprint": "7a5639618be423c137a3",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.31788/rjc.2022.1547069": {
       "fingerprint": "be2aab14283501d2f26c",
@@ -1505,8 +1619,14 @@
       "last_attempt_utc": "2026-09-30T13:27:37.429081+00:00"
     },
     "10.1109/icfsfpe48751.2019.9055847": {
-      "fingerprint": "f39394b5efcc4246dc80",
-      "grade": "C"
+      "fingerprint": "a7534a5d6b1b2fbc647b",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.2174/2213335606666190301160053": {
       "fingerprint": "48d4e0cc5bb4f239277d",
@@ -1562,8 +1682,14 @@
       "grade": "C"
     },
     "10.54355/tbusphys/30070147.4.2.2026.0053": {
-      "fingerprint": "ea58f95f7103479af81d",
-      "grade": "C"
+      "fingerprint": "8328cd49c531b682f3d5",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.1501/ankara-24420": {
       "fingerprint": "96783335b73475fabe4c",
@@ -1574,12 +1700,24 @@
       "grade": "C"
     },
     "10.14233/ajchem.2022.23915": {
-      "fingerprint": "c7ddbbbeb19e575b8524",
-      "grade": "C"
+      "fingerprint": "7bb8a9a2d8499541c074",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.48130/emst-0025-0002": {
-      "fingerprint": "836a3c4e7c67f737f567",
-      "grade": "C"
+      "fingerprint": "da505c7750fb9c636c52",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00",
+      "next_retry_utc": "2026-09-30T21:54:44.588516+00:00"
     },
     "10.14504/ajr.8.3.5": {
       "fingerprint": "3a6e564aaa5c1615dcf5",
@@ -1598,8 +1736,13 @@
       "grade": "C"
     },
     "10.3390/polym15010112": {
-      "fingerprint": "9b979ababc806b3733f7",
-      "grade": "C"
+      "fingerprint": "8e8d96c935fdcc7e6f10",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T15:54:44.588516+00:00"
     },
     "10.1002/app.71543": {
       "fingerprint": "33bfa85114f7c8cdbf26",
@@ -1643,6 +1786,6 @@
       "last_attempt_utc": "2026-09-30T13:27:37.429081+00:00"
     }
   },
-  "last_run_utc": "2026-09-30T13:27:37.429081+00:00",
+  "last_run_utc": "2026-09-30T15:54:44.588516+00:00",
   "last_examined_candidates": 25
 }
