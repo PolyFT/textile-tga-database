@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T16:48:52Z",
-  "latest_batch_id": "20260930_b43",
-  "verified_condition_records": 294,
-  "verified_unique_sample_states": 251,
-  "verified_dois": 54,
-  "numeric_pair_candidate_rows": 683,
+  "as_of_utc": "2026-09-30T16:57:00Z",
+  "latest_batch_id": "20260930_b44",
+  "verified_condition_records": 315,
+  "verified_unique_sample_states": 272,
+  "verified_dois": 59,
+  "numeric_pair_candidate_rows": 704,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 249,
+  "remaining_near_term": 228,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 76,
+  "cumulative_newly_completed_or_new_source_sample_states": 97,
   "cumulative_evidence_upgraded_existing_sample_states": 175,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b44_publication_in_progress",
+  "publication_stage": "b44_branch_source_review_complete_awaiting_exact_head_CI",
   "last_merged_batch": {
     "batch": "b43",
     "merge_sha": "78a1fd32807d536bf149f1155bd71c5bb7ecf623",
@@ -46,14 +46,12 @@
     "instruction": "One publisher is importing the 21 previously announced, independently source-reviewed cotton/nylon/wool pairs. Other preparation may continue read-only on non-overlapping sources. Check current main/open PRs before any competing publication; never override an active writer."
   },
   "next_sources": [
-    "10.1038/s41598-024-71071-5",
-    "10.7317/pk.2018.42.2.157",
-    "10.13543/j.bhxbzr.2016.02.004",
-    "10.33263/briac123.36473663",
-    "10.1177/1528083719881816"
+    "10.1177/1528083704045848",
+    "10.1016/j.polymdegradstab.2024.110764"
   ],
   "next_actions": [
-    "Prepared b44 has 21 independently source-reviewed proposals, not yet imported: 13 completed TG-only states and eight new-to-measurement states. Do not count until imported, validated and merged; coordinate source ownership with any other publisher first.",
+    "Further source drafts remain outside the master: guanidine cotton has source-LOI contradictions requiring row-specific holds; PAA/MMT cotton needs concentration crosswalk review. Recheck current main, open PRs and other preparation before claiming a next publication writer.",
+    "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
     "Do not repeat completed b43 lyocell/PET/PP reviews. Keep PA/PD/PF, PO1, PP control and all four PAN form-mismatched states held. Generic PET residues remain outside fixed-temperature plots.",
     "Do not repeat b42 four completed source reviews or D1RA07410E held bulk/fiber mismatch. Use per-paper queue to select the remaining unreviewed sources.",
     "Review remaining unreviewed papers in tg_loi_candidates.csv; skip all completed DOI entries in source_review_queue.csv.",
@@ -109,41 +107,16 @@
     "tests_passed": 111,
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/10"
   },
-  "pending_source_preparation": {
-    "batch_label": "b44_staged_only_not_on_main",
-    "condition_rows": 21,
-    "unique_sample_states": 21,
+  "batch_b44": {
+    "added_verified_unique_states": 21,
+    "added_verified_condition_records": 21,
     "newly_completed_existing_TG_only_states": 13,
     "new_to_measurement_states": 8,
-    "approved_source_review_complete": true,
-    "repository_import_complete": false,
-    "sources": [
-      {
-        "DOI": "10.1038/s41598-024-71071-5",
-        "states": 13,
-        "classification": "newly_completed_existing_TG_only"
-      },
-      {
-        "DOI": "10.7317/pk.2018.42.2.157",
-        "states": 3,
-        "classification": "new_to_measurement"
-      },
-      {
-        "DOI": "10.13543/j.bhxbzr.2016.02.004",
-        "states": 2,
-        "classification": "new_to_measurement"
-      },
-      {
-        "DOI": "10.33263/briac123.36473663",
-        "states": 1,
-        "classification": "new_to_measurement"
-      },
-      {
-        "DOI": "10.1177/1528083719881816",
-        "states": 2,
-        "classification": "new_to_measurement"
-      }
-    ],
-    "instruction": "These staged source reviews are not master data and are not counted toward the target. Coordinate with the existing source preparer before duplicating work; reconcile any local-library or parallel publisher source scope before import."
+    "wholly_new_DOI_measurement_states": 4,
+    "metadata_only_DOI_new_measurement_states": 4,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "tests_passed": 119,
+    "held_DOPO_condensation_descriptor_states": 1
   }
 }

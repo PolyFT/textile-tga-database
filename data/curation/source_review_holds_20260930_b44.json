@@ -1,0 +1,81 @@
+[
+  {
+    "sample_state": "Cotton",
+    "hold": "Table2 numerical TG326°C/11% available, but own measured LOI not established: prose states normally ungraftedcottonLOI18 with citation24. Do not use generic/literature LOI as own control."
+  },
+  {
+    "sample_state": "EB/PDC10,20,30%",
+    "hold": "No matching exact TG numeric values; use neither35%TG nor curve guesses."
+  },
+  {
+    "DOI": "10.1038/s41598-024-71071-5",
+    "sample_state": "Mercerized cotton",
+    "hold": "No separate mercerized-only control group in Figure 8. Do not borrow pure cotton LOI18."
+  },
+  {
+    "DOI": "10.1038/s41598-024-71071-5",
+    "sample_state": "S20/S20M all washes",
+    "hold": "Exact LOI labels exist but no matching TG Table2/3 states."
+  },
+  {
+    "DOI": "10.1038/s41598-024-71071-5",
+    "sample_state": "20/30 washes for all formulations; washed pure control",
+    "hold": "LOI labels present; no same-wash-state TG numeric rows."
+  },
+  {
+    "DOI": "10.13543/j.bhxbzr.2016.02.004",
+    "state": "DOPO-GMA-PA66",
+    "reason": "39.0%/39.3% condensation descriptor inconsistent across optimal-reaction prose/Table1/Table2. Separate numeric hold draft; independent adjudication required.",
+    "locator": "p.23 optimized-series statement + reaction time;Table1p.24;Table2p.25",
+    "source_url": "https://journal.buct.edu.cn/CN/PDF/10.13543/j.bhxbzr.2016.02.004"
+  },
+  {
+    "DOI": "10.33263/briac123.36473663",
+    "state": "all grafted wool states",
+    "reason": "TGA uses GY7.9%; LOI uses GY6% and8.1%; no exact formulation match. Control only extracted.",
+    "locator": "Section3.9p.3658/Table6p.3659 versusTable7p.3660",
+    "source_url": "https://biointerfaceresearch.com/wp-content/uploads/2021/08/20695837123.36473663.pdf"
+  },
+  {
+    "DOI": "10.1039/c7ra13228j",
+    "state": "PA6/FRPA6 fabrics",
+    "reason": "Table3 exact TGA is in Section3.1 resin properties;Table8 fabric LOI must not be paired with resin TG. Fiber thermal section only DSC.",
+    "locator": "Sections3.1.2/3.2.1;Tables3,6,8",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9078688/"
+  },
+  {
+    "DOI": "10.3390/polym12051078",
+    "state": "PVA/CD/HDI fiber series",
+    "reason": "TGA expressly5mg fiber powder, versus textile-fiber LOI. Powder/fiber form mismatch under task criteria.",
+    "locator": "Section2.4;Table2;TableS2",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7284589/"
+  },
+  {
+    "DOI": "10.3390/ma13214826",
+    "state": "PAN F1-F5",
+    "reason": "LOI is cast PAN films;thermal tabulation isDSC, notTGA. Not a textileTG-LOIpair.",
+    "locator": "Characterization;Table4",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7663686/"
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2025.e42400",
+    "state": "JanusPET series",
+    "reason": "Accessible primary fulltext reports LOI but noTGA experiment/exactTG values.",
+    "locator": "Methods;Table3",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11848076/"
+  },
+  {
+    "DOI": "10.3390/nano8110875",
+    "state": "PL/CAB-PL",
+    "reason": "ExactLOI Table1 but TG curves/prose qualitative/ranges without exact endpoint residue/onset table. No graphical guesses.",
+    "locator": "Section3.5/Figure5;Table1",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6267167/"
+  },
+  {
+    "DOI": "10.1016/j.reactfunctpolym.2018.11.006",
+    "state": "HPPHBTCA wool",
+    "reason": "Ghent institutional fulltext is explicitly UGent-only;public abstract alone insufficient.",
+    "locator": "Downloads access label",
+    "source_url": "https://biblio.ugent.be/publication/8580866"
+  }
+]
