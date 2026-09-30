@@ -252,3 +252,10 @@ Independent final-byte reviews checked relevant CEJ final-publication text and v
 All 176 offline tests, compilation and scientific validation pass locally. Branch snapshot: 339 states, 392 TG conditions, 81 DOI, errors=[]; SHA-256 `51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5`. These remain branch results until exact-head CI and main readback.
 
 Additional source screen: ACS cyclophosphazene2c01257 remains held after full official SI review. Its TableS1 is MCC and its printed temperatures belong to evolved-gas FTIR discussion. An original main-paper source with conventional TG values and exact specimen/LOI mapping is still needed; no pair is admitted.
+
+
+## b52 publication checkpoint
+
+PR [#19](https://github.com/PolyFT/textile-tga-database/pull/19) merged at 2026-09-30 19:20:03 UTC as `bb2d05cac110e79a749ae1802c95451a1eff4319`. Final head `946d984f413599fce25678bbaa93a071bc8be523` passed [exact-head validation](https://github.com/PolyFT/textile-tga-database/actions/runs/36764792509), including all 176 tests, compilation, scientific validation and committed-snapshot consistency. Fresh main independently confirms 339 unique states, 392 TG conditions, 81 DOI and errors=[]. Snapshot SHA-256: `51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5`.
+
+This batch adds one DD source state and completes two pairs: canonical CEJ Cotton using shared nitrogen TG, and prior TG-only DOPO-ETES cotton. It adds no evidence-only upgrades. Together with b51, this raises main from 333 to 339 states. Shared experimental references are counted once. All accepted source drafts are published, the temporary materializer is removed, and the b52 single-writer lease is released. There are 161 states remaining to 500, or 162 to exceed 500. The cyclophosphazene source remains blocked on original main-paper TG and specimen-mapping evidence; its official SI does not resolve that gap.
