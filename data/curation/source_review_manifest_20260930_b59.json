@@ -1,0 +1,61 @@
+{
+  "batch": "b59",
+  "summary": {
+    "added_verified_unique_states": 22,
+    "added_verified_condition_records": 22,
+    "new_source_measurement_states": 22,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b59_mof3.csv",
+      "DOI": "10.1016/j.nxmate.2024.100143",
+      "draft_sha256": "53896aa5c8380a5ed98330f17c14cc3565ab038897c519e135e6d514b88675a6",
+      "published_input_sha256": "4a4ec7fbc52eb983fd2ea4279cf4a0fcb34be2790af6b49d0f40e9b4c0e7895f",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "9768d008011b4cc072a542e1a3fcca0da1a69158b8d007f35b8ef5883cdf5b7a",
+        "feef135b1946b9ca7dea3240f42ca6912658dfc5a4cf94b7b0a0ffc58b620508",
+        "022d59b0e08034f6019578511f32a57a04ccdabeb19a192ddbddc32f3d4bdcc4"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b59_fibers1972.csv",
+      "DOI": "10.2115/fiber.28.9_359",
+      "draft_sha256": "13e6b9303323c6cae0a36417873cd4cdfcd6ab2695d72f1c2e6860f6a03ec09f",
+      "published_input_sha256": "1d4c5680b0d19dcfa26aaf141a6315b6d5a24ec77d571ecacdec4e18b910cec5",
+      "states": 19,
+      "conditions": 19,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "4342d4570bb4cd7ed008fa64ede6549de49d98efdbf6b5d4bd68bbb5d2b3d153",
+        "beec1d0248b7841c5b87bbbe7fd1b0afeeaa749a2f9cb591dd4a0b5d5da1caca",
+        "7b2ebb715edd09e6acc626032ad10f5eeb8e01078383317a06647b520766229f",
+        "266eb6c0f6ad99e42e89a68296bb9cc9c957751c915edba38b247f33527ede01",
+        "78b694ecd3bd56f01b67f856e07bc4c4e31b1277d91294fd40361a17bae263f6",
+        "850e0434646bf8251520516296bd32d790503ca79f03a7edd7ce6feac8deb0c5",
+        "3cb854e274a90831cfd36b3ae7709e6246f6bfbcb0a2d0fb3e91eb1349d27780",
+        "89474b43419ee175a98458d483167ce701961b7cf0ac9db24ddf45ea6186f487",
+        "b99b157f2f6c6b0cee409b4b8b878d8f0d3777fa98ae62a353735678ad5a97f4",
+        "56dd8f7e6faa43822a4c8b1589424b22a5bfed9c6d09085b2a40eaadef3aae7c",
+        "93d1a71d8bbd40c0d0bfae96c36e1549c008bb44174e787cab92c40fa4db9db6",
+        "c5d2acb65bb9eb59114675de1dfb78157f2d3dc56484d33dbae23576e659ea8c",
+        "f2b5f15208cd0f0adc8438d004da6b840e0f175f08c321c3f04e05445626dd2a",
+        "16691c698ef0c0e3f66d38b7ed2506f4c72b2b4ced7e2a07eef2fe73d638c32e",
+        "6fffadfe3170fa1452286643785be4dd294a466da6f9cefce8eb91ea223e2818",
+        "7b5c1333de2df5a60045dacfbaf3980d70ff245b6a0d2681fcaa841c52ec708a",
+        "b04c95b1fe22b9b2ec7107aa1b1f5f79770f3f13dc8ac5284677ef7a677c528a",
+        "77d9a882fb76dacd8aee3c01fed453e466b08b098b949826123f90918c8da47c",
+        "d13c6b5decf296d99f9b4fb093591c676496f5b5a48709ce45f26df489376cdb"
+      ]
+    }
+  ],
+  "limitations": [
+    "The 1972 paper has a common commercial sample inventory with matching TG/LOI labels. TG geometry is unreported; LOI uses woven or knitted fabrics. Both raw descriptions and test-specific preparation are retained, without asserting identical geometry.",
+    "MOF cotton source conflicts remain in the hold ledger; nitrogen TG is separate from TG-DSC, TG-IR and unverified air-ramp attribution.",
+    "Source PDFs and SI files remain private. Only exact numerical facts, concise provenance and regression tests are published."
+  ]
+}
