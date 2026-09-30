@@ -428,4 +428,11 @@ Thirty-seven genuinely new sample states add thirty-seven nitrogen TG conditions
 
 Whole-paper screening preserves contradictory controls, unmatched washes, repeated CN-1 comparison observations and inconsistent caption aliases as holds. The EHP20 second onset remains withheld. The separate piperazine2014 paper lacks an explicit standalone TG ramp and is excluded; a referenced TGA-FTIR method is not silently inherited. Seventeen initial wool/polyamide states from a fourth paper pair exact Table7 thermal metrics with Table13 LOI. Their nitrogen ramp is20 C/min, residue is explicitly810 C and the two colemanite preparation methods remain distinct. Five-cycle washed TG observations lack washed LOI and stay excluded. Independent original-source review passed at exact draft hashes, including official ACS SI TableS2 and original wool/polyamide PDF table pixels. Main author text access and unavailable PDF pixel review are stated accurately. Source fulltexts remain private.
 
-The b64 writer lease remains active pending exact-head CI, merge and postmerge verification.
+All 238 tests, compilation, scientific validation and exact-head snapshot CI passed. PR #31 merged; all three postmerge checks passed and the writer lease was released.
+
+
+## b64 publication checkpoint
+
+[PR #31](https://github.com/PolyFT/textile-tga-database/pull/31) merged as `e1bcd504499fb54fb384fd506c37972a4f416621`. Exact head `0ca912840351812eaa3d8ba730908bd3c36c67ab` passed [validation 36782087584](https://github.com/PolyFT/textile-tga-database/actions/runs/36782087584), including 238 tests, compilation, scientific validation and committed-snapshot consistency. Main independently confirms 454 unique states, 522 TG conditions, 101 DOI and errors=[]. Thirty-seven genuinely new states add 37 conditions; washed observations without matching LOI and reused comparison data remain excluded. Snapshot SHA-256: `39dab74ac89fada184b53ad0cfd1d88fbf570fd9d50a87af8090f6cebda9c20f`.
+
+Postmerge processing, validation and rebuild runs 36782212667, 36782212690 and 36782212708 passed. The writer lease was released through compare-and-swap. Refresh the live progress JSON, main, queue and open PRs before another publication. Source fulltexts remain private. The strict greater-than-500 milestone requires 47 further states.
