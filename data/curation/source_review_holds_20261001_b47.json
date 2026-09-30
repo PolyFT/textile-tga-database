@@ -1,0 +1,137 @@
+[
+  {
+    "DOI": "10.1177/0734904107083553",
+    "sample_state": "Fyrol 51/250",
+    "reason": "TG_value_missing_in_Table5",
+    "disposition": "LOI26.1 retained historically; separate furnace residue cannot replace TG"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "Fabric-1",
+    "reason": "LOI_primary_main_text_unavailable",
+    "disposition": "TG facts only; excluded from verified target"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC11.5/Fabric-1",
+    "reason": "LOI_primary_main_text_unavailable",
+    "disposition": "TG facts only; excluded from verified target"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "Fabric-2",
+    "reason": "LOI_primary_main_text_unavailable",
+    "disposition": "TG facts only; excluded from verified target"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC18.5/Fabric-2",
+    "reason": "LOI_primary_main_text_unavailable",
+    "disposition": "TG facts only; excluded from verified target"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "Fabric-3",
+    "reason": "LOI_primary_main_text_unavailable",
+    "disposition": "TG facts only; excluded from verified target"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC21.5/Fabric-3",
+    "washing_cycles": 1,
+    "LOI_pct": 25,
+    "reason": "no_same_washed_state_numeric_TG",
+    "disposition": "not paired with initial TableS3"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC21.5/Fabric-3",
+    "washing_cycles": 2,
+    "LOI_pct": 23.5,
+    "reason": "no_same_washed_state_numeric_TG",
+    "disposition": "not paired with initial TableS3"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC21.5/Fabric-3",
+    "washing_cycles": 3,
+    "LOI_pct": 23,
+    "reason": "no_same_washed_state_numeric_TG",
+    "disposition": "not paired with initial TableS3"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC21.5/Fabric-3",
+    "washing_cycles": 10,
+    "LOI_pct": 23,
+    "reason": "no_same_washed_state_numeric_TG",
+    "disposition": "not paired with initial TableS3"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.3c00028",
+    "sample_state": "PEC21.5/Fabric-3",
+    "washing_cycles": 20,
+    "LOI_pct": 22,
+    "reason": "no_same_washed_state_numeric_TG",
+    "disposition": "not paired with initial TableS3"
+  },
+  {
+    "DOI": "10.1016/j.ejpe.2015.04.001",
+    "sample_state": "AZ2",
+    "field": "T80_C",
+    "reason": "internal_source_conflict",
+    "source_values": {
+      "Table6": 472,
+      "Section3.7": 471
+    }
+  },
+  {
+    "DOI": "10.1016/j.ejpe.2015.04.001",
+    "sample_state": "AZ10",
+    "field": "oven_drying_duration_min",
+    "reason": "internal_source_conflict",
+    "source_values": {
+      "Figure2": 20,
+      "methods_Figure6_Table6": 30
+    }
+  },
+  {
+    "DOI": "10.1016/j.ejpe.2015.04.001",
+    "sample_state": "AZ3;AZ4;AZ5;AZ6;AZ7;AZ8;AZ9;AZ11;AZ12",
+    "reason": "no_complete_exact_same_state_TG_LOI",
+    "disposition": "Graph-only LOI and states without exact TG not promoted"
+  },
+  {
+    "DOI": "10.1021/acsomega.8b00822",
+    "sample_state": "UC",
+    "reason": "TG_numeric_series_atmosphere_unresolved",
+    "disposition": "three new source-inventory candidates, zero verified additions"
+  },
+  {
+    "DOI": "10.1021/acsomega.8b00822",
+    "sample_state": "PUC",
+    "reason": "TG_numeric_series_atmosphere_unresolved",
+    "disposition": "three new source-inventory candidates, zero verified additions"
+  },
+  {
+    "DOI": "10.1021/acsomega.8b00822",
+    "sample_state": "FTPC",
+    "reason": "TG_numeric_series_atmosphere_unresolved",
+    "disposition": "three new source-inventory candidates, zero verified additions"
+  },
+  {
+    "DOI": "10.3390/ma17061416",
+    "reason": "no_TG_measurement_in_full_paper",
+    "disposition": "Full ramie paper screened; LOI22/29 alone cannot form pairs"
+  },
+  {
+    "DOI": "10.1007/s10570-022-04892-0",
+    "reason": "public_primary_fulltext_unavailable",
+    "disposition": "Subscription preview only; no purchase"
+  },
+  {
+    "DOI": "10.1007/s10570-017-1391-x",
+    "reason": "public_primary_fulltext_unavailable",
+    "disposition": "Publisher and author preview first page only; no purchase"
+  }
+]
