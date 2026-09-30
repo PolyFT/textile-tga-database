@@ -96,7 +96,9 @@ Matching labels and complete numerical fields are necessary but insufficient. A 
 
 Record reviews in `data/curation/pair_reviews.csv`; see `schema/pairing_review.md`. No review is fabricated during migration. Missing newly introduced metadata means **pending documentation**, not a conclusion that legacy data are wrong. Known concerns are listed separately in `data/curation/known_pairing_issues.csv`, with both aliases retained until source mapping is resolved. Shared sample labels preserve punctuation; physical-form, washing-state and sample-alias equivalence is never guessed.
 
-The 2000-pair target is reported as reviewed DOI/sample/washing-state combinations, separately from measurement-condition counts. It is a provisional reporting definition for review, not a claim that every such combination is an independent experimental replicate. All plots must still stratify atmosphere, heating rate, material form and residue temperature and account for clustering by paper/sample.
+The 2000-pair target is reported as reviewed source/sample/washing-state combinations, separately from measurement-condition counts. DOI and reviewed non-DOI source, condition and state counts are reported separately. It is a provisional reporting definition for review, not a claim that every such combination is an independent experimental replicate. All plots must still stratify atmosphere, heating rate, material form and residue temperature and account for clustering by paper/sample.
+
+Original proceedings without DOI may use the empty-by-default [reviewed source registry](schema/source_identity.md). This route requires an explicitly approved publication identity, original document hash/URL, exact TG/LOI/method locators and a registry-bound pair review. Existing DOI identities and fingerprints are unchanged. Alias or later-DOI migrations remain held for explicit curation.
 
 ### Retry and discovery behavior
 
@@ -130,9 +132,13 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 - Quarantined condition records: **9**; originals and reasons retained
 - Malformed input CSV records quarantined separately: **1**
 - Evidence-reviewed exact Grade-A conditions / sample states: **577 / 501**
+- DOI cohort: **117 sources / 577 conditions / 501 states**
+- Reviewed non-DOI cohort: **0 sources / 0 conditions / 0 states**
+- Overall reviewed sources: **117**; source identity schema **1**
 - Target: 2000 verified sample states; remaining **1499**
 
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2`
+Snapshot SHA-256: `628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c`
 <!-- TG-LOI-SNAPSHOT:END -->
+

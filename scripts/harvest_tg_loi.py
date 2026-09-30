@@ -227,7 +227,7 @@ def reset_completed_cycle(state: dict) -> None:
 
 
 def europe_pmc_fulltext(doi: str) -> tuple[str, str]:
-    if not doi:
+    if not re.fullmatch(r'10\.\d{4,9}/\S+', norm_doi(doi)):
         return "", ""
     try:
         q = requests.get(

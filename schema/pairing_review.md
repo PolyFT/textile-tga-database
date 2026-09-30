@@ -28,7 +28,7 @@ Open records in `known_pairing_issues.csv` remain quarantined even if a review i
 
 Normalization casefolds Unicode and collapses whitespace, retains sample punctuation, normalizes DOI prefixes and numeric heating rate, and keeps wash state in every pair key. A+B, A-B and AB remain distinct. Missing wash state is unknown rather than assumed unwashed; an exact-state reviewer must resolve it in the evidence.
 
-Report condition records, DOI count, sample-state combinations and per-variable plot counts separately. The provisional target uses verified DOI/sample/washing combinations, not repeated atmospheres/rates. This does not prove statistical independence: avoid pooled correlations and pseudoreplication, and cluster by source/sample where appropriate.
+Report condition records, DOI count, sample-state combinations and per-variable plot counts separately. The provisional overall target uses reviewed source/sample/washing combinations, not repeated atmospheres/rates. DOI-only counts retain their historical meaning. This does not prove statistical independence: avoid pooled correlations and pseudoreplication, and cluster by source/sample where appropriate.
 
 ## Local verification
 
@@ -39,3 +39,7 @@ Report condition records, DOI count, sample-state combinations and per-variable 
 Known single-sheet export wrappers are removed only in memory after matching the exact source filename and validating the header. The legacy first batch maps documented sample/title/direct-numeric aliases while retaining the original fields. All width-invalid records, including the truncated final baseline row, are retained verbatim in a separate source-import quarantine and excluded from analysis. Unknown schemas and malformed quoting stop the rebuild.
 
 The exact legacy affirmative `是` is accepted alongside `yes` and `TG+LOI`; negative and qualified tags are not. A fully fingerprint-bound evidence review may establish a reviewed textile form even when the original descriptive material-form field is Chinese. The original field is retained, and missing review metadata never receives this override. Restored historical candidates are not counted as new discoveries or automatically reviewed pairs.
+
+## Original proceedings without DOI
+
+The optional, empty-by-default source registry adds a stricter DOI-less route. It requires a reviewed stable publication identity, original document URL and SHA-256, exact TG/LOI/method locators and a separate registry-bound pair approval. See [source_identity.md](source_identity.md) for the complete contract, alias holds and separate DOI/non-DOI reporting. Existing DOI keys, state IDs and measurement fingerprints are unchanged.

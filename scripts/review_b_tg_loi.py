@@ -9,13 +9,13 @@ from bs4 import BeautifulSoup
 try:
     from pairing import (evidence_issues, normalize_doi, normalize_label,
                          normalized_atmosphere, normalized_pair_key,
-                         normalized_rate, reviewed_metadata)
+                         normalized_rate, reviewed_metadata, pair_key, source_group_key, is_network_doi, registry_digest)
 except ModuleNotFoundError as exc:
     if exc.name!='pairing':
         raise
     from scripts.pairing import (evidence_issues, normalize_doi, normalize_label,
                                  normalized_atmosphere, normalized_pair_key,
-                                 normalized_rate, reviewed_metadata)
+                                 normalized_rate, reviewed_metadata, pair_key, source_group_key, is_network_doi, registry_digest)
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automation'; INC=DATA/'incoming'
 REVIEW=AUTO/'review_queue.csv'; MASTER=DATA/'tg_loi_master.csv'
@@ -52,6 +52,8 @@ def norm_key(d,s,w,a,r):
 
 
 def get_text(d, source_url=''):
+    if not is_network_doi(d):
+        return '', ''
     # Prefer Europe PMC XML by DOI for stable article text.
     try:
         q=requests.get('https://www.ebi.ac.uk/europepmc/webservices/rest/search',
@@ -346,10 +348,11 @@ def latest_b_rows(queue):
         return queue.iloc[0:0].copy()
     queue=queue.copy()
     queue['DOI']=queue['DOI'].map(doi)
+    queue['_source_identity']=queue.apply(source_group_key,axis=1)
     queue['_version']=pd.to_numeric(queue['extractor_version'],errors='coerce')
     # Ignore unversioned historical extractions; use the newest version for a
     # DOI before selecting Grade B so an old B does not override a newer C.
-    newest=queue.groupby('DOI')['_version'].transform('max')
+    newest=queue.groupby('_source_identity')['_version'].transform('max')
     queue=queue[(queue['_version']==newest)&queue['grade'].eq('B')].copy()
     for col in ['sample_state','washing_state','LOI_pct','source_location','atmosphere',
                 'heating_rate_C_min','extracted_at_utc']:
@@ -361,7 +364,7 @@ def latest_b_rows(queue):
     queue['_rate_identity']=queue['heating_rate_C_min'].map(normalized_rate)
     queue['_ts']=pd.to_datetime(queue['extracted_at_utc'],errors='coerce',utc=True)
     return queue.sort_values('_ts',kind='stable',na_position='first').drop_duplicates(
-        subset=['DOI','_sample_identity','_wash_identity','LOI_pct','source_location',
+        subset=['_source_identity','_sample_identity','_wash_identity','LOI_pct','source_location',
                 '_atmosphere_identity','_rate_identity'],keep='last')
 
 
@@ -380,16 +383,16 @@ def main():
         return
     state=load_state()
     master=pd.read_csv(MASTER,dtype=str).fillna('') if MASTER.exists() else pd.DataFrame()
-    known={normalized_pair_key(r.get('DOI',''),r.get('sample_state',''),r.get('washing_state',''),
-                               r.get('atmosphere',''),r.get('heating_rate_C_min',''))
-           for r in master.to_dict('records')}
+    known={pair_key(r) for r in master.to_dict('records')}
     limit=max(0,int(os.getenv('B_REVIEW_MAX_DOIS','30')))
     audit=[]; debug=[]; resolved_rows=[]; promoted=[]; examined=0; skipped=0
     now=utc_now()
     registry_hash=hashlib.sha256(REVIEWS.read_bytes()).hexdigest() if REVIEWS.exists() else ''
-    for d,group in b.groupby('DOI',sort=False):
-        if not d:
-            continue
+    registry_hash=hashlib.sha256((registry_hash + registry_digest()).encode()).hexdigest()
+    for identity,group in b.groupby('_source_identity',sort=False):
+        d=doi(group.iloc[0].get('DOI'))
+        if not is_network_doi(d):
+            continue  # Non-DOI evidence requires manual source review; never query a synthetic DOI.
         rows=group.to_dict('records')
         approvals=[reviewed_metadata(row) for row in rows]
         fingerprint=input_fingerprint(rows,[k for k in known if k.startswith(d+'||')],approvals,registry_hash)
@@ -435,9 +438,7 @@ def main():
                 if issues:
                     reason='evidence_review_required'
                 else:
-                    key=normalized_pair_key(d,resolved.get('sample_state',''),
-                                            resolved.get('washing_state',''),
-                                            resolved['atmosphere'],resolved['heating_rate_C_min'])
+                    key=pair_key(resolved)
                     if key in known:
                         reason='duplicate'
                     else:
@@ -475,13 +476,8 @@ def main():
     if promoted:
         output=INC/f"verified_breview_{now.strftime('%Y%m%d')}.csv"
         existing=pd.read_csv(output,dtype=str).fillna('') if output.exists() else pd.DataFrame()
-        existing_keys={normalized_pair_key(r.get('DOI',''),r.get('sample_state',''),
-                                          r.get('washing_state',''),r.get('atmosphere',''),
-                                          r.get('heating_rate_C_min',''))
-                       for r in existing.to_dict('records')}
-        append_records(output,[r for r in promoted if normalized_pair_key(
-            r.get('DOI',''),r.get('sample_state',''),r.get('washing_state',''),
-            r.get('atmosphere',''),r.get('heating_rate_C_min','')) not in existing_keys])
+        existing_keys={pair_key(r) for r in existing.to_dict('records')}
+        append_records(output,[r for r in promoted if pair_key(r) not in existing_keys])
     write_if_changed(STATE,json.dumps(state,ensure_ascii=False,indent=2,sort_keys=True)+'\n')
     print(f'B-review examined DOIs={examined}; cached={skipped}; promoted={len(promoted)}; audit rows={len(audit)}')
 
