@@ -312,4 +312,10 @@ Three genuinely new treated cotton states add three nitrogen TG conditions from 
 
 The possible reused control remains held, as do seven initial LOI-only states and all unmatched post-wash states. Source-native weight gains are retained separately because the source equation reverses control/coated definitions; normalized add-on is absent. Bracketed delta LOI is not uncertainty. Original full texts remain private.
 
-The b56 writer lease remains active pending exact-head CI and postmerge verification.
+The b56 writer lease is released after exact-head CI and postmerge verification.
+
+## b56 publication checkpoint
+
+PR #23 merged as `d3ab1a6633405db17ab43e8a4147e746dceb69fe`. Exact head `fcc11a22e30b4d85bfb94cf66f674e58945f6bcd` passed [run 36771653669](https://github.com/PolyFT/textile-tga-database/actions/runs/36771653669), including 192 tests, compilation, scientific validation and snapshot consistency. Main confirms 361 unique states, 414 conditions and 86 DOI, with no validation errors. Snapshot SHA-256: `63f21f9fcc5a5475d38fd185c1c61b0900a1d46658d08455423803e4893346fe`.
+
+All three postmerge checks passed. The temporary materializer is absent and the single-writer lease is released. Subsequent private source drafts are not included in these counts.
