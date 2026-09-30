@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b45_publication_in_progress",
   "last_merged_batch": {
     "batch": "b44",
     "merge_sha": "7e8416bd10e4b7a203149d4430a6ef442dff2d60",
@@ -32,10 +32,18 @@
     "snapshot_sha256": "7a6861539e3a6f260ed5d0253f9bc1ea4038110171b8ddcb8c87ddf5f06e41a5"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T17:01:58Z",
-    "instruction": "PR #11 is merged and the b44 writer lease is released. Check latest main, open PRs and proposed source scope before claiming another single publisher. Preserve any concurrent preparation and never force-overwrite main."
+    "owner": "codex-local-metadata-curation-b45-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T17:08:00Z",
+    "batch": "b45",
+    "sources": [
+      "10.3390/ma15155373",
+      "10.3390/polym12040774",
+      "10.3390/polym13234111",
+      "10.1016/j.heliyon.2023.e13127",
+      "10.1039/D5RA00402K"
+    ],
+    "instruction": "Single publisher preparing eight source-reviewed states / nine conditions; preserves the separate next-source preparation. Other non-overlapping reviews may continue; do not override this active lease. Local library path remains unresolved; this batch reviews existing candidates against public primary texts."
   },
   "next_sources": [
     "10.1177/1528083704045848",
