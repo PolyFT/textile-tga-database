@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b62_merged_independently_verified_on_main",
+  "publication_stage": "b62_merged_postmerge_verified_lease_released",
   "last_merged_batch": {
     "batch": "b61",
     "pr": 28,
@@ -37,11 +37,12 @@
   },
   "writer_lease": {
     "owner": "codex-local-metadata-ramie-fpd-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b62",
     "claimed_at_utc": "2026-09-30 21:14:23 UTC",
     "scope": "Four new twelve-ply ramie-fabric epoxy states; original Table1/Table3 and complete official SI inspected. Preserve ambiguous Rmax and percentage basis; three held source reviews.",
-    "instruction": "Single publisher; no other writes until independent postmerge verification and conditional release."
+    "instruction": "Released after226tests, exact-final-headCI, independent remote master hash/rows andthreepostmergeCI successes. Nextpublisherrefreshmain/queue/PR andclaim byfileSHA.",
+    "released_at_utc": "2026-09-30 21:21:20 UTC"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
