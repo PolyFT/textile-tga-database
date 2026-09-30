@@ -32,10 +32,11 @@
     "snapshot_sha256": "cd30817085dfc30aefafb5c8f6be7171a84d98c3647d3709d163632097fa1b07"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T20:57:57Z",
-    "instruction": "B60 PR27 merged after216 tests, compilation, scientific gate and committed-snapshot CI. Independent main readback399 states/456 TG conditions/93DOI/errors[]. Three postmerge checks passed. Four hotLOI observations are not extra states. Refresh main/openPR/lease/queue before another publisher; preserve all held records. No fulltexts or private paths."
+    "owner": "dot-source-review-b61-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T20:59:33.762Z",
+    "scope": "Two silk38961 states and eleven cotton1997 states across 24 TG conditions; independent exact-hash original-source QA passed. Preserve NMA-4 conflict hold and distinct thermal protocols.",
+    "instruction": "Do not overwrite this writer lease; coordinate another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
