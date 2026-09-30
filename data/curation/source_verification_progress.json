@@ -32,10 +32,19 @@
     "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T17:49:52.773Z",
-    "instruction": "B47 PR14 is merged; exact head eba30ce passed 138 tests, scientific and snapshot CI. No other source preparation changed. Recheck current main/open PRs/source scopes before next publisher."
+    "owner": "dot-source-review-b48-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T17:52:10Z",
+    "expires_at_utc": "2026-09-30T18:52:10Z",
+    "source_scope": [
+      "10.1016/j.arabjc.2023.105497",
+      "10.1039/c7ra01076a",
+      "10.32474/LTTFD.2023.05.000213",
+      "10.14504/ajr.1.6.3",
+      "10.1021/acs.chas.4c00050",
+      "10.11648/j.ijmsa.20200904.11"
+    ],
+    "instruction": "Single publisher for b48 source-reviewed factual inputs. Preserve b47 and all other source preparations. Publication counts remain last verified main until final exact-head CI and merge."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
