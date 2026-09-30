@@ -1,5 +1,6 @@
 {
-  "report_version": 3,
+  "report_version": 4,
+  "source_identity_schema_version": 1,
   "source_imports": [
     {
       "source_file": "data/scatter_ready.csv",
@@ -842,6 +843,13 @@
   "verified_exact_condition_records": 577,
   "verified_exact_sample_states": 501,
   "verified_exact_dois": 117,
+  "verified_exact_sources": 117,
+  "verified_non_doi_sources": 0,
+  "verified_doi_condition_records": 577,
+  "verified_non_doi_condition_records": 0,
+  "verified_doi_sample_states": 501,
+  "verified_non_doi_sample_states": 0,
+  "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
   "candidate_dois": 140,
   "candidate_sample_states": 772,
   "rows_with_numeric_loi": 1014,
@@ -849,7 +857,7 @@
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 101,
   "target_pairs": 2000,
-  "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
+  "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
   "remaining_to_target": 1499,
   "plot_ready_verified_counts": {
     "Tmax1_C": 330,
@@ -861,5 +869,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2"
+  "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c"
 }

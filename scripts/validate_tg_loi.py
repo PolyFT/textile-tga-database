@@ -12,16 +12,21 @@ import pandas as pd
 try:
     from .pairing import (TG_FIELDS, clean, evidence_issues, measurement_fingerprint,
                          normalize_doi, normalize_label, normalized_atmosphere,
-                         pair_key, reviewed_metadata)
+                         pair_key, reviewed_metadata, source_identity, source_group_key, sample_state_id)
 except ImportError:
     from pairing import (TG_FIELDS, clean, evidence_issues, measurement_fingerprint,
                                 normalize_doi, normalize_label, normalized_atmosphere,
-                                pair_key, reviewed_metadata)
+                                pair_key, reviewed_metadata, source_identity, source_group_key, sample_state_id)
 
 try:
     from .csv_ingest import read_source_csv, QUARANTINE_COLUMNS
 except ImportError:
     from csv_ingest import read_source_csv, QUARANTINE_COLUMNS
+
+try:
+    from .source_identity import REGISTRY, SCHEMA_VERSION, load_registry, evidence_reuse_tokens
+except ImportError:
+    from source_identity import REGISTRY, SCHEMA_VERSION, load_registry, evidence_reuse_tokens
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
@@ -79,7 +84,9 @@ def known_issues(row, issues):
     for issue in issues:
         if clean(issue.get('status')) != 'open':
             continue
-        if normalize_doi(issue.get('DOI')) != normalize_doi(row.get('DOI')):
+        if not normalize_doi(issue.get('DOI')) and not clean(issue.get('stable_source_id')):
+            continue  # A blank DOI is never a source-wide issue scope.
+        if source_group_key(issue) != source_group_key(row):
             continue
         sample = issue.get('sample_state', '')
         if sample == '*' or normalize_label(sample) == normalize_label(row.get('sample_state')):
@@ -110,6 +117,7 @@ def numeric_errors(df):
 
 
 def build_tables(df, issues=None):
+    load_registry()  # Fail before publishing if the registry file is malformed.
     df = df.copy().fillna('')
     for col in ['DOI', 'sample_state', 'washing_state', 'atmosphere', 'heating_rate_C_min', 'LOI_pct']:
         if col not in df:
@@ -129,23 +137,25 @@ def build_tables(df, issues=None):
     legacy_keys = legacy_df.apply(lambda r: '||'.join(clean(r.get(c)) for c in
         ['DOI', 'sample_state', 'washing_state', 'atmosphere', 'heating_rate_C_min']), axis=1)
 
+    doi_evidence = set()
+    for original in df[df.DOI.map(normalize_doi).ne('')].to_dict('records'):
+        doi_evidence.update(evidence_reuse_tokens(original))
     candidates = df[loi.notna() & tg].copy()
     output = []
     for original in candidates.to_dict('records'):
         row = dict(original)
         row.update(reviewed_metadata(row))
         row['pair_key'] = pair_key(row)
-        row['sample_state_id'] = hashlib.sha256('||'.join([
-            normalize_doi(row.get('DOI')), normalize_label(row.get('sample_state')),
-            normalize_label(row.get('washing_state'))]).encode()).hexdigest()[:20]
+        row['sample_state_id'] = sample_state_id(row)
         row['measurement_fingerprint'] = measurement_fingerprint(row)
         substantive = known_issues(row, issues or [])
         pending = evidence_issues(row)
+        if (not normalize_doi(row.get('DOI'))
+                and evidence_reuse_tokens(row, include_registered=True) & doi_evidence):
+            pending.append('source_doi_reuse_review_required')
         # A complete fingerprint-bound source review can resolve legacy form
         # labels in another language; keep the original descriptive field.
         reviewed_form = normalize_label(row.get('material_form_TGA')) if not pending else ''
-        if not normalize_doi(row.get('DOI')):
-            pending.append('missing_doi')
         if not normalize_label(row.get('sample_state')):
             pending.append('missing_sample_state')
         if normalized_atmosphere(row.get('atmosphere')) not in {'n2', 'air', 'o2', 'argon', 'helium'}:
@@ -184,8 +194,11 @@ def build_tables(df, issues=None):
     master = result[result.pair_quality.eq('A')].drop_duplicates('pair_key', keep='first').copy()
     quarantine = result[result.pair_quality.eq('quarantine')].copy()
     eligible = result[result.field_complete & ~result.pair_quality.eq('quarantine')]
+    doi_master = master[master.DOI.map(normalize_doi).ne('')]
+    non_doi_master = master[master.DOI.map(normalize_doi).eq('')]
     report = {
-        'report_version': 3,
+        'report_version': 4,
+        'source_identity_schema_version': SCHEMA_VERSION,
         'source_imports': df.attrs.get('source_imports', []),
         'malformed_source_rows_quarantined': len(df.attrs.get('source_import_quarantine', [])),
         'all_loaded_rows': int(len(df)),
@@ -199,7 +212,14 @@ def build_tables(df, issues=None):
         'strict_tg_loi_pairs': int(len(master)),
         'verified_exact_condition_records': int(len(master)),
         'verified_exact_sample_states': int(master.sample_state_id.nunique()),
-        'verified_exact_dois': int(master.DOI.map(normalize_doi).nunique()),
+        'verified_exact_dois': int(doi_master.DOI.map(normalize_doi).nunique()),
+        'verified_exact_sources': int(master.apply(source_identity, axis=1).nunique()) if len(master) else 0,
+        'verified_non_doi_sources': int(non_doi_master.apply(source_identity, axis=1).nunique()) if len(non_doi_master) else 0,
+        'verified_doi_condition_records': int(len(doi_master)),
+        'verified_non_doi_condition_records': int(len(non_doi_master)),
+        'verified_doi_sample_states': int(doi_master.sample_state_id.nunique()),
+        'verified_non_doi_sample_states': int(non_doi_master.sample_state_id.nunique()),
+        'doi_target_basis': 'evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples',
         'candidate_dois': int(result.DOI.map(normalize_doi).replace('', pd.NA).nunique()),
         'candidate_sample_states': int(result.sample_state_id.nunique()),
         'rows_with_numeric_loi': int(loi.notna().sum()),
@@ -207,7 +227,7 @@ def build_tables(df, issues=None):
         'rows_missing_atmosphere_among_pair_candidates': int((loi.notna() & tg & atm.eq('')).sum()),
         'rows_missing_heating_rate_among_pair_candidates': int((loi.notna() & tg & rate.isna()).sum()),
         'target_pairs': 2000,
-        'target_basis': 'evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples',
+        'target_basis': 'evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples',
         'remaining_to_target': max(0, 2000 - int(master.sample_state_id.nunique())),
         'plot_ready_verified_counts': {field: int(num(master[field]).notna().sum()) if field in master else 0
                                        for field in ['Tmax1_C', 'T5_C', 'Tonset_C', 'R600_pct', 'R700_pct', 'R800_pct']},
@@ -218,7 +238,7 @@ def build_tables(df, issues=None):
 
 
 def snapshot_digest():
-    paths = input_paths() + [ISSUES, DATA / 'curation/pair_reviews.csv', ROOT / 'scripts/pairing.py', ROOT / 'scripts/validate_tg_loi.py', ROOT / 'scripts/csv_ingest.py']
+    paths = input_paths() + [REGISTRY, ROOT / 'scripts/source_identity.py', ISSUES, DATA / 'curation/pair_reviews.csv', ROOT / 'scripts/pairing.py', ROOT / 'scripts/validate_tg_loi.py', ROOT / 'scripts/csv_ingest.py']
     digest = hashlib.sha256()
     for path in sorted(paths):
         if path.exists():
@@ -239,6 +259,9 @@ def update_readme(report):
         f"- Quarantined condition records: **{report['quarantined_condition_records']}**; originals and reasons retained",
         f"- Malformed input CSV records quarantined separately: **{report['malformed_source_rows_quarantined']}**",
         f"- Evidence-reviewed exact Grade-A conditions / sample states: **{report['verified_exact_condition_records']} / {report['verified_exact_sample_states']}**",
+        f"- DOI cohort: **{report['verified_exact_dois']} sources / {report['verified_doi_condition_records']} conditions / {report['verified_doi_sample_states']} states**",
+        f"- Reviewed non-DOI cohort: **{report['verified_non_doi_sources']} sources / {report['verified_non_doi_condition_records']} conditions / {report['verified_non_doi_sample_states']} states**",
+        f"- Overall reviewed sources: **{report['verified_exact_sources']}**; source identity schema **{report['source_identity_schema_version']}**",
         f"- Target: 2000 verified sample states; remaining **{report['remaining_to_target']}**", '',
         'A missing new review field means pending documentation, not that a legacy measurement is wrong.',
         'Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.',

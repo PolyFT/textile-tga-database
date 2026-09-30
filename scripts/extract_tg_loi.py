@@ -8,9 +8,9 @@ import pandas as pd, requests
 from bs4 import BeautifulSoup
 
 try:
-    from .pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues
+    from .pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
 except ImportError:  # Direct script execution.
-    from pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues
+    from pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automation'; INC=DATA/'incoming'
 CAND=AUTO/'candidate_extractions.csv'; EXT=AUTO/'auto_extracted.csv'; REVIEW=AUTO/'review_queue.csv'; STATE=AUTO/'auto_extract_state.json'; MASTER=DATA/'tg_loi_master.csv'
@@ -98,6 +98,8 @@ class SourceResult(tuple):
 
 
 def pmc(doi_):
+    if not is_network_doi(doi_):
+        return SourceResult(failures=['non_doi_manual_review_required'])
     failures = []
     try:
         q=requests.get('https://www.ebi.ac.uk/europepmc/webservices/rest/search',params={'query':f'DOI:"{doi_}"','format':'json','pageSize':5},headers=HEAD,timeout=30)
@@ -155,6 +157,8 @@ def html(url):
 
 
 def source(row):
+    if not is_network_doi(row.get('DOI')):
+        return SourceResult(failures=['non_doi_manual_review_required'])
     result=pmc(doi(row.get('DOI')))
     if result[0] and result[1]:return result
     failures=list(getattr(result,'failures',()))
@@ -268,7 +272,7 @@ def load_state():
 def fp(r):
     values={str(k):str(v or '') for k,v in r.items() if k not in FINGERPRINT_IGNORED}
     review_digest=hashlib.sha256(PAIR_REVIEWS.read_bytes()).hexdigest() if PAIR_REVIEWS.exists() else ''
-    payload=json.dumps({'extractor_version':EXTRACTOR_VERSION,'inputs':values,'pair_reviews':review_digest},sort_keys=True,ensure_ascii=False,separators=(',',':'))
+    payload=json.dumps({'extractor_version':EXTRACTOR_VERSION,'inputs':values,'pair_reviews':review_digest,'source_registry':registry_digest()},sort_keys=True,ensure_ascii=False,separators=(',',':'))
     return hashlib.sha256(payload.encode()).hexdigest()[:20]
 
 
@@ -326,7 +330,7 @@ def master_keys():
     raw=set(d['pair_key']) if 'pair_key' in d else set()
     norm=set()
     for _,r in d.iterrows():
-        norm.add(norm_pairkey(doi(r.get('DOI','')),r.get('sample_state',''),r.get('washing_state',''),r.get('atmosphere',''),r.get('heating_rate_C_min','')))
+        norm.add(pair_key(r))
     return raw,norm
 def material_labels(title,full):
     tx=str(title or '').lower()
@@ -404,7 +408,7 @@ def main():
     for _,c in cands.iterrows():
         if examined>=limit:break
         d=doi(c.get('DOI')); f=fp(c); previous=st['processed'].get(d,{})
-        if not d or not retry_due(previous,f,now):continue
+        if not is_network_doi(d) or not retry_due(previous,f,now):continue
         examined+=1
         try:
             result=source(c)
