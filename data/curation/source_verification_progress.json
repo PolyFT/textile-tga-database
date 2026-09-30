@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T22:37:00.372Z",
-  "latest_batch_id": "20260930_b67",
-  "verified_condition_records": 541,
-  "verified_unique_sample_states": 470,
-  "verified_dois": 108,
-  "numeric_pair_candidate_rows": 914,
+  "as_of_utc": "2026-09-30T22:38:44.938267+00:00",
+  "latest_batch_id": "20261001_b68",
+  "verified_condition_records": 543,
+  "verified_unique_sample_states": 472,
+  "verified_dois": 109,
+  "numeric_pair_candidate_rows": 934,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 30,
+  "remaining_near_term": 28,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 269,
+  "cumulative_newly_completed_or_new_source_sample_states": 271,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "b68_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b65",
     "merge_sha": "aebe7fa52e09f2b37d21644a2cf9bef04809f7cf",
@@ -47,6 +47,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "b68 adds2newPLA nonwovenstates. All10TGrows retained; airrate/LOIbar omissions held. Preserve20source screeningholds andform/rateconflicts. Metadata rootconfirmationpending; librarystrictlyreadonly; refreshmain/PR/leasebefore nextpublisher.",
     "B67 adds four citrus BC and jute states. Preserve unknown citrus residue assessment temperature and explicit500 C jute residue; no inferred washes or screening pairs.",
     "B66 adds nine new bacterial cellulose textile states at twelve TG conditions. Preserve explicit 800/1000 C residue temperatures, nanofibrous sheet form, initial preparation and source-specific holds.",
     "B65 adds3exactoriginalfibrousaerogelstates. PreserveTableS1Ti/range/unitconflicts; shellTGnotwholecore-shellfiber. ANFsilicaN2/O2conflict held; LMexactTG/SIpending. Refreshqueue/main/PRandleasebeforepublish; metadatarootpending andlibraryread-only.",
@@ -354,7 +355,7 @@
       "snapshot_sha256": "30bdd20dbdf3208a34691264990f61605b6cf7334bf02ece855b1d2bf101d8f3"
     }
   },
-  "remaining_to_exceed_500": 31,
+  "remaining_to_exceed_500": 29,
   "batch_b58": {
     "accepted_unique_sample_states": 6,
     "accepted_condition_rows": 6,
@@ -593,5 +594,20 @@
       "verified_dois": 108,
       "snapshot_sha256": "b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77"
     }
+  },
+  "batch_b68": {
+    "accepted_unique_sample_states": 2,
+    "accepted_condition_rows": 2,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "screened_held_additional_papers": 20,
+    "partial_air_pair_rows": 2,
+    "TG_only_rows": 6,
+    "total_preserved_TG_rows": 10,
+    "tests_passed": 255,
+    "snapshot_sha256": "39146f0262a8bef010e8402b281b9a26c69eda0eb480c3b91a01ac96a403ff60",
+    "master_sha256": "514bb4f11914b4dc084e13230fd362db2e28a35d7ef539e23dc2ff5af5a3e9d4"
   }
 }
