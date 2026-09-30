@@ -1,0 +1,68 @@
+{
+  "batch": "b50",
+  "summary": {
+    "added_verified_unique_states": 7,
+    "added_verified_condition_records": 10,
+    "new_source_measurement_states": 4,
+    "newly_completed_existing_separate_TG_and_LOI_states": 3,
+    "existing_paired_states_evidence_upgraded": 0,
+    "wholly_new_DOI_measurement_states": 4,
+    "reviewed_papers_added": 2,
+    "possible_reused_control_excluded": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b50_microwave.csv",
+      "draft_sha256": "ab84970c188297aed1cc3e94ef2d3dfd91f5383efdff51e24695e32c88205494",
+      "published_input_sha256": "62e8782e0bd53c55e9728b2d7db97a05b67066468c1640fd3d562846bab115c0",
+      "conditions": 4,
+      "states": 4,
+      "DOI": "10.1007/s12221-020-9965-x",
+      "classification": "wholly_new_DOI_measurement_states",
+      "accepted_source_draft_ids": [
+        "B50-MICROWAVE-1",
+        "B50-MICROWAVE-2",
+        "B50-MICROWAVE-3",
+        "B50-MICROWAVE-4"
+      ],
+      "accepted_measurement_fingerprints": [
+        "845dd279c91f7052f3c046da906be47a5bda0d78954907f86a137b3e191905b8",
+        "cdde07b13b5bac2f90bdd6bd0e0b959769de3d016eebdb60fda756ad33524237",
+        "f37a4b6cd26f5f19debd953c0af19f604582078a19727304cf9470e9b4e03a53",
+        "0e7a16394fe5c9e64045d44fb6cfd03f8d086191f686b4dcb3cd95e6f76fe97e"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b50_ptco.csv",
+      "draft_sha256": "15919facbf0f09ece975bfa14fa307496b73a8e744ea8a9ffee3232788f00341",
+      "published_input_sha256": "57756ba3ef975ec72efe9d143c015fe2ea304424ffc4fe2ddf1f353c9b8dcea8",
+      "conditions": 6,
+      "states": 3,
+      "DOI": "10.1016/j.aiepr.2024.03.001",
+      "classification": "newly_completed_existing_separate_TG_and_LOI_states",
+      "accepted_source_draft_ids": [
+        "B50-PTCO-1-N2",
+        "B50-PTCO-2-N2",
+        "B50-PTCO-3-N2",
+        "B50-PTCO-1-AIR",
+        "B50-PTCO-2-AIR",
+        "B50-PTCO-3-AIR"
+      ],
+      "accepted_measurement_fingerprints": [
+        "5e5904e9132a000db87fd61f1fe2c1ad2416d02a492d7da5dc819ba98fd696eb",
+        "3ea09dadebf6332a92f70122958c5e3820ef78d9dbeb38660814add84fd5c1d0",
+        "6be01c43ee9242229e2f60a986664f719655b0b877237f342f7ee74e8bd66778",
+        "95bc714040779f257fcee1348b382d0b62f50d6009bda61a19e9c2ca021f26da",
+        "368edb18af381e07035a2897bd9e412d3cc97b1e6d959f1cb610743c44edfcc5",
+        "196f7b52ae7ff6adca3d9d656b154e64b3a5a01db4069e9c5950d7fe57fbaf46"
+      ]
+    }
+  ],
+  "limitations": [
+    "Original public author-manuscript/publisher text independently reviewed; no PDF pixel QA claimed.",
+    "Untreated microwave control excluded because exact TG/LOI triplet and fabric conditions match a related casein paper; independent experimental origin is unresolved.",
+    "CUD-11 add-on and second onset and CUD-9 quantitative bath composition withheld for source conflicts. Source-native dual onsets are not T5/T10/Tmax.",
+    "PTCO/PPOA add-on omitted for table/prose discrepancy; TG-FTIR conditions and peaks excluded from conventional TG. Original N2 missing peak and stage numbering preserved.",
+    "Fulltext caches and private preparation are not published."
+  ]
+}
