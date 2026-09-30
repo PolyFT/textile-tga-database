@@ -396,4 +396,11 @@ Thirteen genuinely new sample states add twenty-four TG conditions from two orig
 
 Two initial DMMEPN silk states use Tables I/II and the explicit Figure 4 treated-state bridge. Modifier and silk DTG stages remain distinct; Td11 is not T10, and incineration residues are not TG. The normalized add-on discrepancy and unmatched loading/wash states remain held. Independent original indexed-text review passed; unavailable PDF pixel review is disclosed.
 
-Complete main and official SI review of research.0910 found precursor TG and gas spectra, without matched numerical textile TG; it remains excluded. Source fulltexts remain private. The b61 writer lease remains active pending exact-head CI, merge and postmerge verification.
+Complete main and official SI review of research.0910 found precursor TG and gas spectra, without matched numerical textile TG; it remains excluded. Source fulltexts remain private. All 224 tests, compilation, scientific validation and exact-head snapshot CI passed. PR #28 merged; all three postmerge checks passed and the writer lease was released.
+
+
+## b61 publication checkpoint
+
+[PR #28](https://github.com/PolyFT/textile-tga-database/pull/28) merged as `e9c712fb5e8b835fd2e8701dac5ba4d75bcf957a`. Exact head `c0297963e2061a232b0ebcb1f6d8dd2924560d97` passed [validation 36776768369](https://github.com/PolyFT/textile-tga-database/actions/runs/36776768369), including 224 tests, compilation, scientific validation and committed-snapshot consistency. Main independently confirms 412 unique states, 480 TG conditions, 95 DOI and errors=[]. Thirteen genuinely new states add 24 conditions; repeated cotton heating ramps add no independent states. Snapshot SHA-256: `6e4520922b7352512b277729a5589c9e72f69ada01ff914ec964a3d73a96f4f5`.
+
+Postmerge validation, processing and rebuild runs 36777382809, 36777382841 and 36777382968 passed. The writer lease was released through compare-and-swap. Refresh the live progress JSON, main, queue and open PRs before another publication. Source fulltexts remain private.
