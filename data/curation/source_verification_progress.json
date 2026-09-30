@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T18:05:15Z",
-  "latest_batch_id": "20260930_b48",
-  "verified_condition_records": 363,
-  "verified_unique_sample_states": 316,
-  "verified_dois": 73,
-  "numeric_pair_candidate_rows": 752,
+  "as_of_utc": "2026-09-30T18:25:53.525525+00:00",
+  "latest_batch_id": "20261001_b49",
+  "verified_condition_records": 373,
+  "verified_unique_sample_states": 326,
+  "verified_dois": 75,
+  "numeric_pair_candidate_rows": 762,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 184,
+  "remaining_near_term": 174,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 127,
-  "cumulative_evidence_upgraded_existing_sample_states": 189,
+  "cumulative_newly_completed_or_new_source_sample_states": 128,
+  "cumulative_evidence_upgraded_existing_sample_states": 198,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b49_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b48",
     "merge_sha": "7aa9b901ab5eb55974452efa1adbb96f6645d85b",
@@ -52,7 +52,7 @@
   "next_actions": [
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -195,5 +195,16 @@
     "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755503298",
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/15",
     "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755790556"
+  },
+  "batch_b49": {
+    "accepted_unique_sample_states": 10,
+    "accepted_condition_rows": 10,
+    "new_source_inventory_states": 1,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 9,
+    "condition_partial_records_excluded": 8,
+    "reviewed_papers_added": 2,
+    "tests_passed": 154,
+    "snapshot_sha256": "9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a"
   }
 }

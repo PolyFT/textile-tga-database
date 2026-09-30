@@ -1,0 +1,63 @@
+{
+  "batch": "b49",
+  "review_completed_utc": "2026-09-30T18:25:53.524624+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 10,
+    "accepted_condition_rows": 10,
+    "new_source_inventory_states": 1,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 9,
+    "condition_partial_records_excluded": 8,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b49.csv",
+      "published_input_sha256": "a011f035fead38aa848e8d05a56e7bc0afe51ccaf9e9415276a5fbf90701ff5e",
+      "conditions": 10,
+      "unique_sample_states": 10,
+      "accepted_measurement_fingerprints": [
+        "ae8ff98f3e498361be045c0480c573560aada834586bebb2c25becc40f065c3b",
+        "6a7d62d764d6e7c3230145ce7befa22c5cbd0265eb70caaa454c5b086b7cef31",
+        "9ab49cf7055f9986c7b6d4f43073f23420db1860c2c1dfa5fbc1ca969b4a169d",
+        "53dba7a2ec2d2739bfff54a1634eb79f2085e18479764b29eccfbf3cff898555",
+        "f8788c39b03489864f157809594fb9d725213ae4897171276e81f1e42feb71b0",
+        "1ffa9b1d8522181dd282737598444f59d8673e79fb1772030bcbfe06104b0346",
+        "01e1d4c321c43c1abaede576d8f33ab5258b2af3344664832857530fa86b2c28",
+        "11b5978787a09aa39d2331a966eacac775a538d3b42594f4aeb3b3e36f75ab34",
+        "c2c61346f44094342fdd755501f278f69f23b32c5097bd3444eb35d70ec63d08",
+        "4c5bc3b4c14a9937df11e2e1822fe65e43f951a24640bb57e9dad1cdbc10a001"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.3390/polym18070819",
+      "accepted_states": 9,
+      "evidence": "Original publisher PDF Figure14 p16 has nine exact printed labels: CO19/22/22;CO-PET18/22/22;PET21/22/21. Table4 p13 matches nine initial states. Section2.3 supplies N2 90mL/min,20K/min,40-800C,5/10min holds and TG-only predrying60C48h. Complete official SI reviewed.",
+      "caveat": "Old b37 numeric tuples already existed; all nine are evidence upgrades. R700 is distinct from endpoint800C and mass at individual DTG maxima. Preparation rinse is not durability laundering; no washed pair inferred. SI binder-only and pyrolysis chemistry do not create new samples."
+    },
+    {
+      "DOI": "10.3390/coatings16020202",
+      "accepted_states": 1,
+      "evidence": "Control only: Section3.3 p8 exact T5 324.8C/R70010.3; Table2 p10 LOI17; Section2.4 N2 50mL/min,10C/min,30-700C; polyester/cotton80/20 106g/m2.",
+      "caveat": "Five treated LOI states held. PDA residue14.3 lacks explicit temperature in its numeric statement; comparative/approximate values and Figure8 curve estimates excluded. Ethanol preparation clean distinct from durability washing. No SI is listed."
+    },
+    {
+      "DOI": "10.1021/acsomega.5c00281",
+      "accepted_states": 0,
+      "caveat": "Complete primary fulltext and official ACS SI inspected: neat-salt/hydrogel TG cannot pair fabric LOI. Fabric TG-FTIR N2/air contradiction and 30wt%label conflict remain."
+    },
+    {
+      "DOI": "10.3390/polym17121676;10.3390/ma15144791",
+      "accepted_states": 0,
+      "caveat": "Grafted-cotton paper has own TG but no own LOI; printing paper has own LOI and MCC but no TG. Background/cited values and MCC temperatures not substituted."
+    },
+    {
+      "DOI": "10.1007/s10694-023-01387-7",
+      "accepted_states": 0,
+      "caveat": "Complete main text screened; own TG/PCFC/vertical burn only. LOI references are other works. SI unreviewed; no complete SI exclusion claimed."
+    }
+  ],
+  "verification_limit": "Primary one-reviewer inspection; original LOI labels and TG Table4 visually verified. Complete phytate official SI reviewed. No independent second reviewer claimed. Only factual numbers and concise provenance published; no source documents or local paths."
+}

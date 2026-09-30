@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **316 unique DOI/sample/washing states**, **363 TG condition records**, and **73 papers**. The near-term target is 500 unique states; **184 remain**. The long-term target remains 2000.
+The reviewed dataset contains **326 unique DOI/sample/washing states**, **373 TG condition records**, and **75 papers**. The near-term target is 500 unique states; **174 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **316 unique DOI/sample/washing states**, **363 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 127 new/newly completed paired states and 189 existing paired states with upgraded evidence
+- Cumulative: 128 new/newly completed paired states and 198 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -170,3 +170,17 @@ Per-file hashes and observation fingerprints bind independent reviews. The sourc
 PR #15 merged at 2026-09-30 18:04:39 UTC as `7aa9b901ab5eb55974452efa1adbb96f6645d85b`. Exact head `50598535f86f89410ca9e9335ae555a027209981` passed [run 36755790556](https://github.com/PolyFT/textile-tga-database/actions/runs/36755790556), including all 147 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms 316 reviewed unique sample states, 363 conditions, 73 DOI and errors=[]. Snapshot SHA-256: `38727b97c9054832516cc52e9b353057f1ced418b905a2afaba2eb67eefaa205`.
 
 All accepted b48 drafts are now published, and the temporary materializer is removed. The b48 single-writer lease is released. No held source, conflicting value, repeated atmosphere or earlier overlapping b47 draft is an uncounted verified sample. The near-term target still requires 184 more unique reviewed states. Continue from the source queue and current ownership rather than repeating completed reviews.
+
+
+## b49 original printed LOI labels and new PET/cotton control
+
+Ten states are represented by ten TG conditions: nine existing phytate numerical pairs gain source evidence, and one new polyester/cotton control is a genuinely new source-inventory pair. No formerly single-sided state is newly completed. Eight incomplete or mismatched state facts stay outside the target. B48's22 states and23 conditions are preserved.
+
+- Phytate CO/CO-PET/PET: original publisher Figure14 p16 prints all nine LOI numbers directly; no curve digitization is needed. Table4 p13, Figures11/14 and methods match initial substrate/coating states; complete official SI contains FTIR/Py-GC-MS and adds no exact pairs. N2,90mL/min,20K/min; scan40-800C with5/10min holds. R700 and the masses at DTG maxima remain separate from endpoint800C. TG-only predrying is not assigned to LOI. Old b37/scatter inputs are retained. The former graph-only source hold is resolved by original printed labels, and the queue entry is updated rather than duplicated.
+- New80/20 PET/cotton control: Section3.3 gives T5=324.8C and R700=10.3%; Table2 gives LOI17. N2,50mL/min,10C/min,30-700C; ethanol preparation clean is distinct from durability washing. Five treated states remain held; PDA14.3%residue is preserved without silently assigning its temperature, and approximate/curve-only TG is excluded.
+- Triazolium hydrogels: full main and official SI inspected. Neat-salt TG and neat-hydrogel residue do not pair with fabric LOI; TG-FTIR atmosphere and30wt%sample-label contradictions remain held.
+- Grafted cotton has own TG but no own LOI; reactive-printing fabrics have own LOI and MCC but no TG. Background/reference values and MCC temperatures are not reused. The flax main text has own TG/PCFC/vertical burn only; SI review remains pending, so its source screening remains incomplete.
+
+Manifest, factual-input hash, fingerprints, partial records, source-state crosswalk and holds preserve restart positions. Full source files and local paths remain outside the public repository; the metadata library remains untouched. B49 owns the single-writer lease; exact-head tests and committed-snapshot CI are required before merging.
+
+All154 offline tests, compilation and scientific validation passed locally:326 unique verified states,373 TG conditions,75 DOI and errors=[]. Snapshot SHA-256:`9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a`. Final exact-head GitHub validation and committed-snapshot consistency remain required before merging.
