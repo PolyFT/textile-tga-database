@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T18:02:20Z",
+  "as_of_utc": "2026-09-30T18:05:15Z",
   "latest_batch_id": "20260930_b48",
   "verified_condition_records": 363,
   "verified_unique_sample_states": 316,
@@ -18,33 +18,24 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "source_batch_complete_on_main",
   "last_merged_batch": {
-    "batch": "b47",
-    "merge_sha": "3d422bf40f07f48e425dfb6f31f015e30b578462",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/14",
-    "verified_sample_states": 294,
-    "verified_condition_records": 340,
-    "verified_dois": 67,
-    "merged_at_utc": "2026-09-30T17:48:49Z",
-    "validated_head_sha": "eba30ce384c372bda8da5b79debd9244f5bcc227",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36753896559",
-    "snapshot_sha256": "532e5d04b212b0d261e33c098d83f85ab4eab8bf7c5745e256c7d09fde59751a"
+    "batch": "b48",
+    "merge_sha": "7aa9b901ab5eb55974452efa1adbb96f6645d85b",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/15",
+    "verified_sample_states": 316,
+    "verified_condition_records": 363,
+    "verified_dois": 73,
+    "merged_at_utc": "2026-09-30T18:04:39Z",
+    "validated_head_sha": "50598535f86f89410ca9e9335ae555a027209981",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755790556",
+    "snapshot_sha256": "38727b97c9054832516cc52e9b353057f1ced418b905a2afaba2eb67eefaa205"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b48-20260930",
-    "status": "active",
-    "claimed_at_utc": "2026-09-30T17:52:10Z",
-    "expires_at_utc": "2026-09-30T18:52:10Z",
-    "source_scope": [
-      "10.1016/j.arabjc.2023.105497",
-      "10.1039/c7ra01076a",
-      "10.32474/LTTFD.2023.05.000213",
-      "10.14504/ajr.1.6.3",
-      "10.1021/acs.chas.4c00050",
-      "10.11648/j.ijmsa.20200904.11"
-    ],
-    "instruction": "Single publisher for b48 source-reviewed factual inputs. Preserve b47 and all other source preparations. Publication counts remain last verified main until final exact-head CI and merge."
+    "owner": null,
+    "status": "released",
+    "released_at_utc": "2026-09-30T18:05:15Z",
+    "instruction": "B48 PR15 is merged; exact head 50598535 passed 147 tests, scientific validation and snapshot consistency. All accepted six-paper preparation is now on main. Check current main/open PRs/source ownership before any next publisher; preserve every documented hold."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -192,6 +183,8 @@
     "reviewed_papers_added": 6,
     "tests_passed": 147,
     "snapshot_sha256": "38727b97c9054832516cc52e9b353057f1ced418b905a2afaba2eb67eefaa205",
-    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755503298"
+    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755503298",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/15",
+    "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36755790556"
   }
 }

@@ -8,7 +8,7 @@ The reviewed dataset contains **316 unique DOI/sample/washing states**, **363 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 106 new/newly completed paired states and 179 existing paired states with upgraded evidence
+- Cumulative: 127 new/newly completed paired states and 189 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -163,4 +163,10 @@ Twenty-two additional reviewed sample states contribute twenty-three TG conditio
 - Coconut-shell cotton: S2–S4 only. The official correction establishes the600C method endpoint. S1/S5/S6 LOI and S2 residue-temperature conflicts remain excluded
 - Casein cotton: six exact Table1/Table3 labels share initial TG/LOI states. Conflicting preparation temperatures, pressures, bath loadings and two add-ons are withheld. Dual source onsets stay separate and MCC results are excluded
 
-Per-file hashes and observation fingerprints bind independent reviews. The source PDFs, supplements, images and private preparation files remain outside the public repository. The branch-only materializer must remove itself, and all final exact-head tests and snapshot checks must pass before merge. The b48 publisher holds the active lease until verified main publication.
+Per-file hashes and observation fingerprints bind independent reviews. The source PDFs, supplements, images and private preparation files remain outside the public repository. The branch-only materializer must remove itself, and all final exact-head tests and snapshot checks must pass before merge. The b48 publisher released the lease after verified main publication.
+
+## b48 publication checkpoint
+
+PR #15 merged at 2026-09-30 18:04:39 UTC as `7aa9b901ab5eb55974452efa1adbb96f6645d85b`. Exact head `50598535f86f89410ca9e9335ae555a027209981` passed [run 36755790556](https://github.com/PolyFT/textile-tga-database/actions/runs/36755790556), including all 147 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms 316 reviewed unique sample states, 363 conditions, 73 DOI and errors=[]. Snapshot SHA-256: `38727b97c9054832516cc52e9b353057f1ced418b905a2afaba2eb67eefaa205`.
+
+All accepted b48 drafts are now published, and the temporary materializer is removed. The b48 single-writer lease is released. No held source, conflicting value, repeated atmosphere or earlier overlapping b47 draft is an uncounted verified sample. The near-term target still requires 184 more unique reviewed states. Continue from the source queue and current ownership rather than repeating completed reviews.
