@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **326 unique DOI/sample/washing states**, **373 TG condition records**, and **75 papers**. The near-term target is 500 unique states; **174 remain**. The long-term target remains 2000.
+The reviewed dataset contains **333 unique DOI/sample/washing states**, **383 TG condition records**, and **77 papers**. The near-term target is 500 unique states; **167 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **326 unique DOI/sample/washing states**, **373 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 128 new/newly completed paired states and 198 existing paired states with upgraded evidence
+- Cumulative: 135 new/newly completed paired states and 198 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -191,3 +191,19 @@ All154 offline tests, compilation and scientific validation passed locally:326 u
 PR #16 merged at2026-09-30 18:30:07 UTC as `bc59ccbff999365fb5b0a472bc95fd2174580a2a`. Exact head `87d3063cf8d5751d24d6cb74f0279651875a9721` passed [run36758833528](https://github.com/PolyFT/textile-tga-database/actions/runs/36758833528):154 offline tests, compilation, scientific validation and committed-snapshot consistency. Remote main independently confirms326 unique reviewed states,373 TG conditions,75 DOI and errors=[]. Snapshot SHA-256:`9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a`.
 
 The b49 single-writer lease is released. This batch added one new source-inventory pair and upgraded nine previously numeric paired states; eight condition-partial records remain excluded. The near-term target still requires175 further unique states to exceed500. Local metadata-library path confirmation remains pending and the library remains untouched. Preserve source holds and verify current main/PRs/lease before the next publisher.
+
+
+## b50 microwave-casein and PTCO source review
+
+Seven additional states contribute ten TG conditions from two papers: four wholly new microwave-treated CUD cotton states, and three existing separate TG/LOI PTCO states newly completed in two atmospheres. Repeated atmospheres do not increase the sample-state count. The original full author/publisher text was independently reviewed; PDF pixel verification is not claimed.
+
+- CUD-11 add-on and second onset conflict with prose and remain omitted; CUD-9 bath composition is inconsistent and is not imported
+- The microwave control's identical TG/LOI triplet and fabric conditions in a related casein paper raise possible reuse; it is excluded from admission and the count increment
+- Source-native dual onsets remain separate from T5/T10/Tmax; MCC results are not TG
+- PTCO Tables 1-3 and conventional TG methods support six observations. Original peak numbering and the missing N2 control first peak are preserved. PPOA add-on is disputed and omitted. Coupled TG-FTIR peaks and its different gas flow are not substituted
+- Acidic/alkaline casein has TG but no numerical LOI; the older PET/casein lead lacks retrieved original full text; the phosphorus/sulfur comparison lacks verified ramp and complete table recovery
+- SLS/PET remains held because the TG method says N2 while Figure 6 says air, alongside residue/T10 inconsistencies
+
+Only numerical facts, concise source locators, explicit holds and regression tests are published. Observation fingerprints bind reviewed values. Final exact-head tests and snapshot consistency are required before merge, and the active single-writer lease remains until main publication is verified.
+
+All 161 offline tests, compilation and the scientific validation gate pass locally. The regenerated snapshot contains 333 unique states, 383 conditions and 77 DOI, with errors=[] and SHA-256 `69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4`. These are branch results pending exact-head CI and verified main publication.

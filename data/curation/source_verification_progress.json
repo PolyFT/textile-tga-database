@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30 18:31:14 UTC",
-  "latest_batch_id": "20261001_b49",
-  "verified_condition_records": 373,
-  "verified_unique_sample_states": 326,
-  "verified_dois": 75,
-  "numeric_pair_candidate_rows": 762,
+  "as_of_utc": "2026-09-30T18:39:10Z",
+  "latest_batch_id": "20260930_b50",
+  "verified_condition_records": 383,
+  "verified_unique_sample_states": 333,
+  "verified_dois": 77,
+  "numeric_pair_candidate_rows": 772,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 174,
+  "remaining_near_term": 167,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 128,
+  "cumulative_newly_completed_or_new_source_sample_states": 135,
   "cumulative_evidence_upgraded_existing_sample_states": 198,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b49",
     "merge_sha": "bc59ccbff999365fb5b0a472bc95fd2174580a2a",
@@ -46,6 +46,7 @@
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
+    "B50 adds four new microwave-casein states and newly completes three legacy PTCO states with six conditions. Microwave control excluded for possible cross-paper reuse. Preserve native stage numbering, descriptor conflicts, TG-FTIR separation and whole-source holds.",
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
@@ -205,5 +206,19 @@
     "snapshot_sha256": "9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a",
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/16",
     "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36758833528"
+  },
+  "batch_b50": {
+    "added_verified_unique_states": 7,
+    "added_verified_condition_records": 10,
+    "new_source_measurement_states": 4,
+    "newly_completed_existing_separate_TG_and_LOI_states": 3,
+    "existing_paired_states_evidence_upgraded": 0,
+    "wholly_new_DOI_measurement_states": 4,
+    "reviewed_papers_added": 2,
+    "possible_reused_control_excluded": 1,
+    "tests_passed": 161,
+    "snapshot_sha256": "69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/17",
+    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36759828616"
   }
 }

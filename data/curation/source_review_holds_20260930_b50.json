@@ -1,0 +1,99 @@
+[
+  {
+    "DOI": "10.1007/s12221-020-9965-x",
+    "hold_scope": "CUD-9 bath urea mass",
+    "reason": "Experimental p2247 reports13.4g; Table1 p2248 reports13.3g. No quantitative bath formulation imported.",
+    "source_url": "https://www.researchgate.net/publication/346514378_Flame_Resistant_Cotton_Fabric_Containing_Casein_and_Inorganic_Materials_Using_an_Environmentally-Friendly_Microwave_Assisted_Technique"
+  },
+  {
+    "DOI": "10.1007/s12221-020-9965-x",
+    "hold_scope": "CUD-11 add-on and second onset only",
+    "reason": "Tables1-3 show11.6% but Flame Retardant Properties p2249 mentions11.7%. Table2 second onset268.7C conflicts with repeated Thermal Properties range upper limit268.5C. Both fields omitted without changing exact R600/LOI pairing.",
+    "source_url": "https://www.researchgate.net/publication/346514378_Flame_Resistant_Cotton_Fabric_Containing_Casein_and_Inorganic_Materials_Using_an_Environmentally-Friendly_Microwave_Assisted_Technique"
+  },
+  {
+    "DOI": "10.1007/s12221-020-9965-x",
+    "hold_scope": "Untreated control entire pair; possible cross-paper reuse",
+    "reason": "Control Table2 Tonset330.7C/R60013.9% and Table3 LOI18 exactly match the control in10.11648/j.ijmsa.20200904.11, same authors, cotton Style423/258g/m2 and same TG conditions. Both papers describe their own control but do not establish independent replication; excluded from admission/count increment pending clarification.",
+    "values": {
+      "Tonset_C": 330.7,
+      "R600_pct": 13.9,
+      "LOI_pct": 18
+    },
+    "related_DOI": "10.11648/j.ijmsa.20200904.11",
+    "source_url": "https://www.researchgate.net/publication/346514378_Flame_Resistant_Cotton_Fabric_Containing_Casein_and_Inorganic_Materials_Using_an_Environmentally-Friendly_Microwave_Assisted_Technique"
+  },
+  {
+    "DOI": "10.1016/j.aiepr.2024.03.001",
+    "sample_state": "PTCO/PPOA",
+    "hold_scope": "add_on_pct only",
+    "reason": "Section 2.2.2 and Table 3 state 25.4 wt%, while Section 3.4 states 25.2 wt%. Add-on omitted from both atmosphere rows; no typo or rounding correction inferred.",
+    "source_values": {
+      "Section_2_2_2_and_Table_3": 25.4,
+      "Section_3_4": 25.2
+    },
+    "pair_mapping_assessment": "Same unique source formulation label in all three tables; no competing concentration series. This isolated add-on conflict does not change the supported TG/LOI label pairing.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2542504824000113"
+  },
+  {
+    "DOI": "10.1016/j.aiepr.2024.03.001",
+    "hold_scope": "TG-FTIR values excluded from conventional TG rows",
+    "reason": "Section 2.3.9 uses STA 6000 and N2 flow 50 mL/min, whereas Section 2.3.5 conventional TG uses TGA5500 and 25 mL/min. Section 3.6 POU values 300 and 422 C belong to the coupled analysis and are not replacements for Table 1 peaks.",
+    "source_values": {
+      "TG_FTIR_POU_reported_peak_C": [
+        300,
+        422
+      ]
+    },
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2542504824000113"
+  },
+  {
+    "DOI": "10.1016/j.aiepr.2024.03.001",
+    "hold_scope": "Non-target CCT TTI/THR interpretation",
+    "reason": "Section 3.5 says PPOA TTI and THR are unchanged from PTCO, while Table 4 gives PTCO 26 s/5.5 MJ m-2 and PPOA 27 s/5.4 MJ m-2. No CCT metrics are extracted into TG/LOI fields; this does not conflict with Tables 1-3.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2542504824000113"
+  },
+  {
+    "DOI": "10.1177/1528083717750885",
+    "hold_scope": "All potential TG-LOI pairs",
+    "hold_reason": "No numeric LOI in accessible primary fulltext. Horizontal burn metrics and burn residue cannot substitute for LOI or thermogravimetric residue. No same-state TG-LOI pair is supported.",
+    "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/1528083717750885?download=true",
+    "method_locator": "p. 972",
+    "TG_locator": "Table 1, p. 978",
+    "flame_result_locators": "Table 2, p. 979; Table 3, p. 983",
+    "qualified_pair_count": 0,
+    "reopen_condition": "New primary same-state LOI evidence with explicit source/formulation/wash crosswalk."
+  },
+  {
+    "DOI": "10.1007/s12221-017-6686-x",
+    "hold_scope": "All potential TG-LOI pairs",
+    "reason": "Current-study TG heating rate unverified: recovered TGA and SEM paragraph reports N2 and 20-600 C but delegates details to reference 38. In addition, exact Table 3 LOI cells and complete TG numeric specimen mapping were not recovered. Partial indexed primary text is not a completed pair review.",
+    "source_url": "https://www.researchgate.net/publication/316650273_The_comparison_of_phosphorus-nitrogen_and_sulfur-phosphorus-nitrogen_on_the_anti-flammability_and_thermal_degradation_of_cotton_fabrics",
+    "TG_locator": "TGA and SEM",
+    "LOI_locator": "Table 3",
+    "LOI_table_url": "https://www.researchgate.net/figure/LOI-results-ASTM-D2863-09-for-the-control-and-treated-fabrics_tbl1_316650273",
+    "accepted_states": 0,
+    "new_state_count_claimed": false,
+    "fulltext_pixel_reviewed": false
+  },
+  {
+    "DOI": "10.1021/ie404089t",
+    "hold_scope": "Four PET/PET-cotton states; original full text unavailable",
+    "reason": "Original ACS abstract reports LOI21-to26 for PET but no full thermal method. ResearchGate is request-only; Politecnico repository has no file; University of Milan manuscript is restricted. Review tables are secondary evidence and are not a substitute for original conditions and specimen mapping. No admission.",
+    "source_urls": [
+      "https://pubs.acs.org/doi/abs/10.1021/ie404089t",
+      "https://iris.polito.it/handle/11583/2530689",
+      "https://air.unimi.it/handle/2434/464372",
+      "https://www.researchgate.net/publication/263957074_Flame_Retardancy_of_Polyester_and_Polyester-Cotton_Blends_Treated_with_Caseins"
+    ],
+    "qualified_pair_count": 0
+  },
+  {
+    "DOI": "10.1177/15280837221150203",
+    "hold_scope": "Control and SLS-treated PET whole pairs",
+    "reason": "TG characterization method p5 reports N2/10Cmin, but Figure6 caption p11 explicitly says air. Atmosphere is unresolved. Control R500 is18.5% in p10 prose versus18% in Table2/p11 prose. Treated R500 is almost40% versus39%, not an exact consistent value. Table2 treated mass retained90% at160C versusT10=180C is also inconsistent. No exact-condition admission. Washed LOI24 and dry-cleanedLOI27 lack matched TG.",
+    "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/15280837221150203",
+    "qualified_pair_count": 0,
+    "review_scope": "Complete17page publisher PDF text inspected. Pixel request failed, no visual review claimed."
+  }
+]
