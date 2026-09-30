@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T17:01:58Z",
-  "latest_batch_id": "20260930_b44",
-  "verified_condition_records": 315,
-  "verified_unique_sample_states": 272,
-  "verified_dois": 59,
-  "numeric_pair_candidate_rows": 704,
+  "as_of_utc": "2026-09-30T17:10:45.275016+00:00",
+  "latest_batch_id": "20261001_b45",
+  "verified_condition_records": 324,
+  "verified_unique_sample_states": 280,
+  "verified_dois": 62,
+  "numeric_pair_candidate_rows": 713,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 228,
+  "remaining_near_term": 220,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 97,
-  "cumulative_evidence_upgraded_existing_sample_states": 175,
+  "cumulative_newly_completed_or_new_source_sample_states": 101,
+  "cumulative_evidence_upgraded_existing_sample_states": 179,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b45_publication_in_progress",
+  "publication_stage": "b45_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b44",
     "merge_sha": "7e8416bd10e4b7a203149d4430a6ef442dff2d60",
@@ -149,5 +149,18 @@
       }
     ],
     "instruction": "These sources are being prepared independently of the published master. Coordinate scope before duplicating source reviews; only validated merged observations count."
+  },
+  "batch_b45": {
+    "added_verified_unique_states": 8,
+    "added_verified_condition_records": 9,
+    "new_source_inventory_states": 0,
+    "newly_completed_existing_LOI_only_states": 3,
+    "newly_completed_existing_TG_only_states": 1,
+    "existing_paired_states_evidence_upgraded": 4,
+    "condition_partial_records_excluded": 5,
+    "reviewed_papers_added": 3,
+    "reviewed_held_papers": 2,
+    "tests_passed": 126,
+    "snapshot_sha256": "c2234a08ca3c271c44fbb70b826a4051fc096bfc9026415715627a5f9389a94c"
   }
 }

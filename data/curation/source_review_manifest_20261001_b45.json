@@ -1,0 +1,68 @@
+{
+  "batch": "b45",
+  "source_review_completed_utc": "2026-09-30T17:10:45.274172+00:00",
+  "summary": {
+    "accepted_condition_rows": 9,
+    "accepted_unique_sample_states": 8,
+    "new_source_inventory_states": 0,
+    "newly_completed_existing_LOI_only_states": 3,
+    "newly_completed_existing_TG_only_states": 1,
+    "existing_paired_states_evidence_upgraded": 4,
+    "condition_partial_records_excluded": 5
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b45.csv",
+      "published_input_sha256": "34281b741ce6b2359a04f3686447f9d01af1fb453128320407c3e5cc26ac2615",
+      "conditions": 9,
+      "unique_sample_states": 8,
+      "accepted_measurement_fingerprints": [
+        "e08d26a7d1d5403b68de8b7e3ab34e99b27b979e321c45810c7409ed9dfc1a39",
+        "2a871f95d43a9abfbe215f40aa376a7dbc5ecfac7f7ea4aa4a7df4d9e36f1264",
+        "f2cc13eff4c1d7606f18100b5569aeedf42d8d7ae9991f3a573c2232a4388e92",
+        "c65281ed982580af0ae51c1484004401f2c440c9f76c0a0484ed3f5c96d0bdb7",
+        "b6e6d5b4dd761fc780a69167508ddad81a48a316dce4675b76b0ee59e6fbf968",
+        "366d3a30270adb192c7035508c7583a5e14ec8476c8530cd4bec8244c7f9085a",
+        "01a4469110dc024beba8c275ad3062707735f2023aa5e6af1b10b731ef38ff34",
+        "510a9a84a01de0698caf27c7a44e1761d9ff4a61defdc09545967eed44b6ef6a",
+        "6382f9149b494314004e7d39e07b6a6be004004febd360ba4cd06481a1dd0920"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.3390/ma15155373",
+      "accepted_states": 5,
+      "accepted_conditions": 5,
+      "evidence": "Table 7 LOI; original printed analyzer values in Figures 1/3/5/7/9; Tables 2/3 resolve washing states; methods and results consistently establish air TG at 30 C/min to 850 C.",
+      "caveat": "Table 8 is MCC and excluded. UNW onset is held for text/figure conflict. TG flow unreported. Three historical LOI-only states gain exact TG; two existing numeric pairs gain evidence."
+    },
+    {
+      "DOI": "10.3390/polym12040774",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "evidence": "Table 1 LOI; Sections 3.2.2/3.2.3 and Figures 7/9 explicitly identify DTG maxima for pure PET and PET+0.50%C15A fibers.",
+      "caveat": "Coupled TG-FTIR air 50 mL/min at 20 C/min to 750 C is kept distinct from conventional air 60 mL/min to 700 C. First modifier peak is not moisture. Gram-Schmidt gas maxima and later char oxidation are not relabeled as first polymer decomposition. Six other concentrations remain LOI-only."
+    },
+    {
+      "DOI": "10.3390/polym13234111",
+      "accepted_states": 1,
+      "accepted_conditions": 2,
+      "evidence": "Control LOI24 explicit Section 3.1; TG Table 2 and R600 explicit text; full PDF and supplementary Figure S1 inspected.",
+      "caveat": "Control is oxidatively pretreated wool fabric, not raw wool. Nitrogen and air count as two conditions of one state. W100 LOI44/44.6 conflict and graph-only W20/W60 LOI remain held. DSC flow/ramp not borrowed."
+    },
+    {
+      "DOI": "10.1016/j.heliyon.2023.e13127",
+      "accepted_states": 0,
+      "evidence": "Table 3 LOI and Section 5.3 exact R600 for S2/S4/S5/S10 preserved as condition-partial facts.",
+      "caveat": "TG atmosphere absent; SEM nitrogen cannot supply it. Fiber/fabric preparation state remains unresolved; other TG curves not digitized."
+    },
+    {
+      "DOI": "10.1039/D5RA00402K",
+      "accepted_states": 0,
+      "evidence": "Table 3 initial LOI and Section 3.3 R80038 for 25FR-1 preserved as condition-partial facts.",
+      "caveat": "TG atmosphere absent. The 100 C event is crystal water and 260 C is approximate. Publisher-linked SI was visible only as an incomplete cached web rendition; direct download returned404, so complete SI review is not claimed. Separate washed LOI is not paired with initial TG."
+    }
+  ],
+  "verification_limit": "Primary full texts reviewed; Proban original plot annotations and wool original PDF/SI inspected. PET values are explicit primary prose/captions. No curve estimates accepted. No independent second-reviewer approval claimed. Public files contain numerical facts and concise source locators only."
+}
