@@ -1,15 +1,15 @@
 {
-  "as_of_utc": "2026-09-30T15:53:45Z",
-  "latest_batch_id": "20260930_b41",
-  "verified_condition_records": 254,
-  "verified_unique_sample_states": 221,
-  "verified_dois": 46,
-  "numeric_pair_candidate_rows": 643,
+  "as_of_utc": "2026-09-30T16:17:46Z",
+  "latest_batch_id": "20260930_b42",
+  "verified_condition_records": 280,
+  "verified_unique_sample_states": 239,
+  "verified_dois": 50,
+  "numeric_pair_candidate_rows": 669,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 279,
+  "remaining_near_term": 261,
   "long_term_target_unique_states": 2000,
   "cumulative_newly_completed_or_new_source_sample_states": 76,
-  "cumulative_evidence_upgraded_existing_sample_states": 145,
+  "cumulative_evidence_upgraded_existing_sample_states": 163,
   "batch_b39": {
     "added_verified_unique_states": 81,
     "added_verified_condition_records": 97,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b42_publication_in_progress",
+  "publication_stage": "b42_branch_source_review_complete_awaiting_exact_head_CI",
   "last_merged_batch": {
     "batch": "b41",
     "merge_sha": "fd1dc47249bf7b44ddbbea36b82fcab7c873f695",
@@ -38,17 +38,11 @@
     "batch": "b42",
     "instruction": "Single publisher is recovering the independently reviewed b42 batch. Do not start a concurrent source-publication writer; continue read-only research only until lease release. Recheck main and open PRs before writing."
   },
-  "next_sources": [
-    "10.1021/acsomega.2c02466",
-    "10.3390/ijms24021093",
-    "10.1515/epoly-2020-0059",
-    "10.1039/d1ra07410e",
-    "10.3390/nano12224048"
-  ],
+  "next_sources": [],
   "next_actions": [
+    "Do not repeat b42 four completed source reviews or D1RA07410E held bulk/fiber mismatch. Use per-paper queue to select the remaining unreviewed sources.",
     "Review remaining unreviewed papers in tg_loi_candidates.csv; skip all completed DOI entries in source_review_queue.csv.",
     "Prioritize new public textile full texts and supplements after remaining legacy evidence review. Count genuine new observations separately from evidence upgrades.",
-    "Do not repeat the three b40 priority leads: ACS NYCO is TG-only; the PET DOI is misassigned; RSC exact values remain inaccessible.",
     "Preserve b41 atmosphere, control-LOI, missing-ramp and washing-state holds. Numeric soak duration remains unresolved for one shared series.",
     "Inspect the original workbook only after supported byte materialization succeeds; the unresolved 45-row tail remains unverified."
   ],
@@ -78,5 +72,14 @@
     "reviewed_papers_added": 7,
     "shared_post_soak_states_with_duration_withheld": 9,
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/7"
+  },
+  "batch_b42": {
+    "added_verified_unique_states": 18,
+    "added_verified_condition_records": 26,
+    "new_scientific_sample_states": 0,
+    "existing_states_evidence_upgraded": 18,
+    "reviewed_papers_added": 4,
+    "independent_QA": "Recovered four-paper QA rechecked, including water-removal peak semantics",
+    "tests_passed": 104
   }
 }
