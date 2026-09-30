@@ -1,0 +1,48 @@
+[
+  {
+    "DOI": "10.1016/j.cej.2025.165778",
+    "hold_scope": "TD second admission",
+    "related_DOI": "10.1016/j.polymdegradstab.2026.112025",
+    "reason": "The complete nitrogen TG row repeats PO Table2. PO TD remains the sole counted canonical state. CEJ TD exact LOI is not recovered and must not be borrowed from PO.",
+    "shared_experiment_group": "TD_nitrogen_TG_CEJ165778_PDS112025",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  },
+  {
+    "DOI": "10.1016/j.cej.2025.165778",
+    "hold_scope": "Cotton nitrogen T5 only",
+    "reason": "Table2 reports322C while Section3.3.1 states324C. Both are withheld; unambiguous other TG metrics and measured Section3.2 LOI18.6 support the canonical pair.",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2026.112025",
+    "hold_scope": "Second Cotton control-state admission",
+    "related_DOI": "10.1016/j.cej.2025.165778",
+    "reason": "CEJ Cotton is the sole canonical counted control using its explicit measured LOI18.6 and Table2 TG. The repeated PO nitrogen TG row and introductory LOI must not create another pair. TG reuse alone does not establish LOI reuse.",
+    "shared_experiment_group": "Cotton_nitrogen_TG_CEJ165778_PDS112025",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  },
+  {
+    "DOI": "10.1016/j.cej.2025.165778",
+    "hold_scope": "DD/T, lower DD loading, TRI/DPTS and TEOS mixtures",
+    "reason": "DD/T exact LOI is not recovered from plotted Figure1e. Lower DD LOI27.9 at aP2.4g/m2 lacks matched selected-sample TG. TRI/DPTS maximumLOI23.3 lacks recovered S8 TG. TEOS/TD-TEOS SI tables and exact LOIs remain unavailable. No graph estimates or source-label substitutions.",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  },
+  {
+    "DOI": "10.1016/j.cej.2025.165778",
+    "hold_scope": "Normalized bath concentration/add-on and calculated silica-free residues",
+    "reason": "Recipe mass/volume and declared concentration are unresolved. Table1 nominal concentration is source-native metadata only. Add-on equation uses treated mass denominator; reported values are not normalized to generic add_on_pct. Air TD18.8 andDD/T8.8 are silica-subtracted calculations, not measured char yields.",
+    "source_url": "https://doi.org/10.1016/j.cej.2025.165778"
+  },
+  {
+    "DOI": "10.1007/s10570-022-05033-3",
+    "hold_scope": "Other coating/loadings/control and durability pairs",
+    "reason": "DOPO-AmdPTES27%-series LOI is only around28 in prose. Figure5 has unlabeled points, not exact printed values. Initial35%-loading LOI28.5 and10-wash27.2 cannot use approximately27%-loading initialTG. Cotton control lacks an exact printed numericLOI recovered from text.",
+    "source_url": "https://doi.org/10.1007/s10570-022-05033-3"
+  },
+  {
+    "DOI": "10.1007/s10570-022-05033-3",
+    "hold_scope": "Wash standard metadata",
+    "reason": "Methods and Figure6 say ISO105-C08 while durability prose says ISO105-C06; no durability method selected, and no washed pair admitted.",
+    "source_url": "https://doi.org/10.1007/s10570-022-05033-3"
+  }
+]
