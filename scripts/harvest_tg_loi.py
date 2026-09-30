@@ -91,7 +91,7 @@ HEADERS = {
 
 
 def norm_doi(value: str | None) -> str:
-    if not value:
+    if value is None or pd.isna(value):
         return ""
     x = str(value).strip().lower()
     x = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', x)
@@ -99,19 +99,61 @@ def norm_doi(value: str | None) -> str:
     return x.rstrip(' .;,')
 
 
-def existing_dois() -> set[str]:
-    out: set[str] = set()
-    for p in (ROOT / "data").rglob("*.csv"):
-        if p == OUT:
-            continue
-        try:
-            df = pd.read_csv(p, dtype=str, low_memory=False)
-        except Exception:
-            continue
-        for col in df.columns:
-            if col.lower() == "doi":
-                out.update(norm_doi(v) for v in df[col].dropna() if norm_doi(v))
-    return out
+def candidate_key(row: dict) -> str:
+    """Identify a queued work, without conflating every missing DOI."""
+    doi = norm_doi(row.get("DOI", row.get("doi")))
+    if doi:
+        return f"doi:{doi}"
+    openalex_id = str(row.get("openalex_id") or row.get("id") or "").strip().lower().rstrip("/")
+    if openalex_id:
+        openalex_id = re.sub(r"^https?://openalex\.org/", "", openalex_id)
+        return f"openalex:{openalex_id}"
+    title = re.sub(r"\s+", " ", str(row.get("title") or "")).strip().casefold()
+    if title:
+        year = str(row.get("year") or row.get("publication_year") or "").strip()
+        return f"title:{title}|{year}"
+    return ""
+
+
+def merge_candidates(previous: pd.DataFrame, new: pd.DataFrame) -> pd.DataFrame:
+    """Keep one reviewable snapshot per work, retaining useful prior evidence.
+
+    Refreshes replace a whole snapshot only if it is at least as highly scored
+    and no populated evidence/source field becomes empty. This avoids mixing
+    old evidence with a different new source URL after an unsuccessful fetch.
+    """
+    protected = (
+        "DOI", "title", "year", "journal", "openalex_id", "landing_url",
+        "oa_url", "oa_status", "fulltext_url", "fulltext_found",
+        "LOI_numeric_evidence", "TG_numeric_evidence", "supplementary_links",
+        "supplementary_content_found", "table_candidates", "abstract_excerpt",
+    )
+
+    def populated(value) -> bool:
+        return str(value).strip().lower() not in {"", "[]", "false", "none", "nan", "null"}
+
+    def score(row: dict) -> float:
+        value = pd.to_numeric(row.get("candidate_score", 0), errors="coerce")
+        return 0 if pd.isna(value) else float(value)
+
+    retained: dict[str, dict] = {}
+    for batch_name, frame in (("previous", previous), ("new", new)):
+        for index, row in enumerate(frame.fillna("").to_dict("records")):
+            # Unidentifiable historical rows must not all share a blank key.
+            key = candidate_key(row) or f"unidentified:{batch_name}:{index}"
+            old = retained.get(key)
+            if old is not None:
+                if score(row) < score(old):
+                    continue
+                if batch_name == "new" and any(
+                    populated(old.get(field, "")) and not populated(row.get(field, ""))
+                    for field in protected
+                ):
+                    continue
+                # Preserve any curator-added columns not emitted by harvest.
+                row = {**old, **row}
+            retained[key] = row
+    return pd.DataFrame(sorted(retained.values(), key=score, reverse=True))
 
 
 def inverted_abstract(inv: dict | None) -> str:
@@ -337,11 +379,17 @@ def main() -> None:
     ap.add_argument("--per-query", type=int, default=30)
     ap.add_argument("--queries-per-run", type=int, default=4)
     ap.add_argument("--max-pages-per-query", type=int, default=100)
+    ap.add_argument(
+        "--refresh-existing", action="store_true",
+        help="Re-fetch queued works encountered in this search slice; --max-new also caps refresh attempts. Retain stronger prior evidence.",
+    )
     args = ap.parse_args()
 
-    known = existing_dois()
     previous = pd.read_csv(OUT, dtype=str).fillna("") if OUT.exists() else pd.DataFrame()
-    seen = set(previous.get("DOI", pd.Series(dtype=str)).map(norm_doi)) | known
+    # A source/master DOI does not prove all sample states were extracted.
+    # Deduplicate discovery against this evidence queue only. Routine runs do
+    # not repeatedly fetch it; --refresh-existing is an explicit bounded retry.
+    seen = {candidate_key(row) for row in previous.to_dict("records")} - {""}
 
     state = load_state()
     reset_completed_cycle(state)
@@ -384,24 +432,28 @@ def main() -> None:
         time.sleep(0.8)  # polite pacing between OpenAlex pages
 
         for w in works:
-            doi = norm_doi(w.get("doi"))
-            key = doi or w.get("id") or w.get("title")
+            key = candidate_key(w)
             if not key or key in discovered:
                 continue
             discovered[key] = w
 
+    refresh_attempts = 0
     for key, w in discovered.items():
         if len(rows) >= args.max_new:
             break
         doi = norm_doi(w.get("doi"))
-        if doi and doi in seen:
-            continue
+        queued = key in seen
+        if queued:
+            if not args.refresh_existing or refresh_attempts >= args.max_new:
+                continue
         title = (w.get("title") or "").strip()
         abstract = inverted_abstract(w.get("abstract_inverted_index"))
         prelim = f"{title} {abstract}"
         if not (TEXTILE_TERMS.search(prelim) and (TG_TERMS.search(prelim) or LOI_TERMS.search(prelim))):
             continue
 
+        if queued:
+            refresh_attempts += 1
         fulltext, fulltext_url = europe_pmc_fulltext(doi)
         tables: list[str] = []
         supp_links: list[str] = []
@@ -448,8 +500,7 @@ def main() -> None:
             "harvest_cycle": state.get("cycle", 1),
             "harvest_run": state.get("runs", 0),
         })
-        if doi:
-            seen.add(doi)
+        seen.add(key)
         time.sleep(0.1)
 
     reset_completed_cycle(state)
@@ -463,19 +514,10 @@ def main() -> None:
         return
 
     new = pd.DataFrame(rows)
-    if not previous.empty:
-        all_df = pd.concat([previous, new], ignore_index=True, sort=False)
-    else:
-        all_df = new
-    if "DOI" in all_df:
-        all_df["_doi_norm"] = all_df["DOI"].map(norm_doi)
-        all_df["candidate_score"] = pd.to_numeric(all_df["candidate_score"], errors="coerce").fillna(0)
-        all_df = all_df.sort_values(["candidate_score"], ascending=False)
-        all_df = all_df.drop_duplicates(subset=["_doi_norm"], keep="first")
-        all_df = all_df.drop(columns=["_doi_norm"])
+    all_df = merge_candidates(previous, new)
     all_df.to_csv(OUT, index=False)
     print(
-        f"Added {len(new)} reviewable candidates; queue now {len(all_df)} rows; "
+        f"Harvested {len(new)} candidate snapshots; queue now {len(all_df)} rows; "
         f"processed_queries={processed}, run={state.get('runs')}, cycle={state.get('cycle')}."
     )
 

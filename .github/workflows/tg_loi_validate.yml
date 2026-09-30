@@ -7,14 +7,20 @@ on:
     paths:
       - "data/**/*.csv"
       - "schema/**"
-      - "scripts/validate_tg_loi.py"
+      - "scripts/**"
+      - "data/curation/**"
+      - "tests/**"
       - "requirements.txt"
+      - ".github/workflows/tg_loi_validate.yml"
   pull_request:
     paths:
       - "data/**/*.csv"
       - "schema/**"
-      - "scripts/validate_tg_loi.py"
+      - "scripts/**"
+      - "data/curation/**"
+      - "tests/**"
       - "requirements.txt"
+      - ".github/workflows/tg_loi_validate.yml"
 
 permissions:
   contents: read
@@ -30,5 +36,11 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Validate scientific ranges and strict pairability
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Compile scripts and tests
+        run: python -m compileall -q scripts tests
+      - name: Validate scientific ranges and evidence-gated pairability
         run: python scripts/validate_tg_loi.py
+      - name: Check committed snapshot consistency
+        run: git diff --exit-code -- README.md data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv

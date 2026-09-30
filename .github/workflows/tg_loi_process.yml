@@ -11,6 +11,9 @@ on:
       - "scripts/extract_tg_loi.py"
       - "scripts/review_b_tg_loi.py"
       - "scripts/validate_tg_loi.py"
+      - "scripts/pairing.py"
+      - "data/curation/**"
+      - "tests/**"
       - ".github/workflows/tg_loi_process.yml"
       - "requirements.txt"
 
@@ -39,6 +42,8 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
       - name: Extract sample-level pairs and promote Grade A
         env:
           AUTO_MAX_CANDIDATES: "25"
@@ -53,7 +58,7 @@ jobs:
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/automation data/incoming data/tg_loi_master.csv
+          git add data/automation data/incoming data/tg_loi_master.csv data/tg_loi_candidates.csv README.md
           if git diff --cached --quiet; then
             echo "No processing changes"
             exit 0
