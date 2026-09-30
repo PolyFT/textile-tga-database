@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.1007/s42452-025-08163-y",
+    "scope": "UCtn, UVis, UPA",
+    "decision": "hold_LOI_source_conflict",
+    "source_location": "Abstract versus Table 4, PDF pp.1 and12",
+    "facts": "Table4 initialLOI 17.4/16.1/29.4; abstract untreated values18/18/28. The table values are preserved as candidates, not silently preferred."
+  },
+  {
+    "DOI": "10.1007/s42452-025-08163-y",
+    "sample_state": "BSVis",
+    "field": "R600_pct",
+    "decision": "exclude_conflicting_field_only",
+    "table_value": 13.2,
+    "text_value": "approximately2",
+    "source_location": "Table3 and Section4.4"
+  },
+  {
+    "DOI": "10.1007/s42452-025-08163-y",
+    "source_alias": "TSCtn",
+    "canonical_sample_state": "TLCtn",
+    "decision": "source_grounded_alias_mapping",
+    "source_location": "Section3.2; Table3 and its immediately associated Fig.3a, PDFp.9; Table4 p.12",
+    "facts": "Methods define a single tea-leaf cotton state TLCtn. Fig.3a explicitly labels the tea-leaf TGA curve TLCtn alongside UCtn and BSCtn; its caption specifies these three treatments only. Table3 calls the corresponding third cotton state TSCtn. No alternate TSC formulation exists in the described sample design. The mapping uses experimental design and curve identity labels, not curve-read numeric values."
+  },
+  {
+    "DOI": "10.1007/s42452-025-08163-y",
+    "field": "residue_at_Tmax_pct",
+    "decision": "correct_field_assignment_from_header",
+    "source_location": "Table3, PDFp.9",
+    "facts": "The exact header is Residue @ Tmax2 (%). Use residue_at_Tmax2_pct, not an unspecified Tmax residue."
+  }
+]

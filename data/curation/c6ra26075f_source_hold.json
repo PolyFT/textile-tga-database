@@ -1,0 +1,11 @@
+{
+  "DOI": "10.1039/C6RA26075F",
+  "scope": "Untreated and DHTP-treated cotton fabric, two existing pairs",
+  "decision": "hold_atmosphere_source_conflict",
+  "source_url": "https://pubs.rsc.org/en/content/articlepdf/2017/ra/c6ra26075f",
+  "accessible_source_copy": "https://pdfs.semanticscholar.org/ae49/9a76d31be71139c3b0384c525e455961b3d4.pdf",
+  "source_location": "Section 2.3.4 (p.2045), Section 3.4 (p.2047), Tables 2–3 (pp.2047–2048)",
+  "facts": "The experimental TGA method specifies N2, 10 °C/min, 30–600 °C, with fabric cut into pieces of approximately 5 mg. The Section 3.4 heading and its first sentence both explicitly identify air for the reported thermogravimetric results. This is an unresolved conflict, not a choice of normalizing spelling.",
+  "numeric_source_review": "Table 2 initial LOI: untreated 18.3%, treated 26.3%. Table 3 untreated Tonset285/Tmax353/residue-at-Tmax53.5/R60013.0; treated Tonset253/Tmax315/residue-at-Tmax56.9/R60034.6. The source reports Vmax with negative signs (−1.9/−0.8 %/min), to be retained only under a clear derivative-sign convention.",
+  "recommendation": "Keep both rows outside strict condition-resolved data. Do not use the five-cycle washed LOI22.4 with these TGA data. The MPTES-pretreated fabric has TGA but lacks paired LOI."
+}
