@@ -1,0 +1,23 @@
+[
+  {
+    "DOI": "10.1007/s10570-023-05278-6",
+    "sample": "10BL@COT",
+    "reason": "LOI25.3\u00b10.2Table4/Table6andprose versus25.6 in SE calculation. WG41.4Table1 versus41.3Table4. No table-priority typo correction."
+  },
+  {
+    "DOI": "10.1007/s10570-023-05278-6",
+    "sample": "COT",
+    "reason": "LOI18/R7007.5/Rmax2.4 and same111g/m2source group match2025AMPpaper10.48130/emst-0025-0002. T10/Tmax327.1/371.0 differ from327.5/371.2. Not proven identical, but conservative hold while provenance adjudicated. Do not merge TG from differing sources or assert LOI reuse."
+  },
+  {
+    "DOI": "10.1007/s10570-023-05278-6",
+    "sample": "SiO2@COT",
+    "field": "add_on_pct",
+    "reason": "Table1WG28.3 versusTable4WG28.2. Field withheld; exactsame-labelTG/LOI retained."
+  },
+  {
+    "DOI": "10.1007/s10570-023-05278-6",
+    "sample": "all10LCstates",
+    "reason": "Table6postwashLOIs19.7,18.2,22.4 lack matchedTG. Cannot reuse initialTG."
+  }
+]

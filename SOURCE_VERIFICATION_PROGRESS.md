@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **354 unique DOI/sample/washing states**, **407 TG condition records**, and **84 papers**. The near-term target is 500 unique states; **146 remain**. The long-term target remains 2000.
+The reviewed dataset contains **358 unique DOI/sample/washing states**, **411 TG condition records**, and **85 papers**. The near-term target is 500 unique states; **142 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **354 unique DOI/sample/washing states**, **407 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 153 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 157 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -289,3 +289,12 @@ The input requires exact-head CI and snapshot validation before merging. The wri
 PR #21 merged as `f36272553b91fba3a4760e76629602ab9597eed5`. Exact head `c76d419ca69bbb98d57ad52eb8768fb316b3697f` passed [validation run 36768474390](https://github.com/PolyFT/textile-tga-database/actions/runs/36768474390), including182offline tests, compilation, scientific range/evidence gates and committed-snapshot consistency. Independent main readback confirms354unique states,407conditions,84DOI,errors=[]. Snapshot SHA256: `c40c3682c2b94795005c71a8a71d45a581f11400022bb838cf4e63a4913b78ad`.
 
 All three postmerge checks succeeded: validation36768603488, rebuild36768603414 and processing36768603423. The temporary branch materializer has removed itself, and the writer lease is released. Eleven newly sourced states have been admitted; no repeated conditions inflate that count. Preserve raw assay-specific preparations and all source holds on continuation.
+
+
+## b55 GEL/AMP and silica cotton coatings
+
+Four genuinely new treated sample states add four nitrogen TG conditions from one original paper. Tables 3 and 4 provide exact T10, Tmax, R700 and LOI values at 10 C/min. State-specific preparation recipes are retained; the source only attributes NaOH pretreatment to LBL specimens. LOI uncertainties are retained without inferring a statistical type.
+
+The 10BL-only state remains held for conflicting LOI values (25.3 versus 25.6) and weight gains (41.4 versus 41.3). SiO2-only weight gain is withheld because 28.3 and 28.2 conflict. The untreated control remains held for possible cross-paper reuse pending provenance resolution. Post-wash LOI states lack matching TG. Independent review used the clear original final-publication tabular text; unavailable PDF pixel review is not claimed. Full texts remain private.
+
+The writer lease remains active until exact-head CI, merge and postmerge verification succeed.

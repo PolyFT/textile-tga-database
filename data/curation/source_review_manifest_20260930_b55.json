@@ -1,0 +1,30 @@
+{
+  "batch": "b55",
+  "summary": {
+    "added_verified_unique_states": 4,
+    "added_verified_condition_records": 4,
+    "new_source_measurement_states": 4,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b55_gel_amp.csv",
+      "DOI": "10.1007/s10570-023-05278-6",
+      "draft_sha256": "ef2f2b37a02febf5cf50fbfb39b891120214ab252146bf7d5a21bd1b1e7abb6d",
+      "published_input_sha256": "58caa29ccb6ecb7453553b94e2af5d5a136bde852058ec71ada400a33f5a10f2",
+      "states": 4,
+      "conditions": 4,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "a758cd84b5b52a37eda970ab7a32944d3a08a83d45df9be12c94bcfbac510e05",
+        "3bb272a427f93d4a395d165b5fd04444c32c8c21e9e2e49875b588aac4c21f9c",
+        "5bbf45e7130ef1373db569839227132fd2a26a19d53ae028599d740e9a033100",
+        "a3a4ecb7908c4201c35a558e0e16ee2c5982ef63dc537f9af7e6e7852b17eb90"
+      ]
+    }
+  ],
+  "limitations": [
+    "Four treated initial fabric states only. Source numerical conflicts, possible control reuse and unmatched washed states remain held. LOI uncertainty type is unspecified. No source fulltext files are published."
+  ]
+}
