@@ -177,6 +177,41 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20260930_b44_1528083719881816.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b44_briac123.36473663.csv",
+      "accepted_rows": 1,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b44_j.bhxbzr.2016.02.004.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b44_pk.2018.42.2.157.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b44_s41598-024-71071-5.csv",
+      "accepted_rows": 13,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -457,9 +492,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1144,
-  "legacy_field_complete_condition_records": 540,
-  "numeric_pair_candidate_rows": 683,
+  "all_loaded_rows": 1165,
+  "legacy_field_complete_condition_records": 561,
+  "numeric_pair_candidate_rows": 704,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -467,28 +502,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 294,
-  "verified_exact_condition_records": 294,
-  "verified_exact_sample_states": 251,
-  "verified_exact_dois": 54,
-  "candidate_dois": 87,
-  "candidate_sample_states": 522,
-  "rows_with_numeric_loi": 729,
-  "rows_with_any_tg_numeric": 1034,
+  "strict_tg_loi_pairs": 315,
+  "verified_exact_condition_records": 315,
+  "verified_exact_sample_states": 272,
+  "verified_exact_dois": 59,
+  "candidate_dois": 92,
+  "candidate_sample_states": 543,
+  "rows_with_numeric_loi": 750,
+  "rows_with_any_tg_numeric": 1055,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1749,
+  "remaining_to_target": 1728,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 201,
-    "T5_C": 142,
-    "Tonset_C": 44,
-    "R600_pct": 54,
-    "R700_pct": 39,
-    "R800_pct": 47
+    "Tmax1_C": 214,
+    "T5_C": 155,
+    "Tonset_C": 47,
+    "R600_pct": 56,
+    "R700_pct": 52,
+    "R800_pct": 49
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "6636b7d4c35a2bf8854d60bfad1bf0484ddcc1a6d85e0a92effac5bc541580c4"
+  "snapshot_sha256": "7a6861539e3a6f260ed5d0253f9bc1ea4038110171b8ddcb8c87ddf5f06e41a5"
 }
