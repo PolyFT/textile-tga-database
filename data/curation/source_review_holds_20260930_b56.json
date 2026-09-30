@@ -1,0 +1,22 @@
+[
+  {
+    "DOI": "10.1016/j.porgcoat.2021.106627",
+    "sample": "Cotton control",
+    "reason": "T10 300 C, Tmax 348 C and R750 0.3 exactly match the same author group MTP source 10.1007/s10570-021-04076-2/preprint, while LOI is 17.2 versus 17.1. Hold for provenance adjudication; no additional independent control claimed."
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2021.106627",
+    "sample": "C/PVA, MCHP10, MCHP20, nCH10, nCH20, MCHP30/alone, nCH30/alone",
+    "reason": "Own initial LOI available in Table 2, but no matching numerical TG in Table 5 or section 3.6."
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2021.106627",
+    "sample": "all post-wash states",
+    "reason": "Table 7 supplies LOI after 10 cycles (5 min each, 30 C, tap water without detergent), but no matched washed TG. Initial TG is not reused."
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2021.106627",
+    "field": "add_on_pct",
+    "reason": "Table 1 numerical weight gains retained as source_reported_weight_gain_pct only; Eq. 2 says (W1-W2)/W2 while W1 is defined as control and W2 as coated, which reverses conventional gain sign/denominator. Do not infer correction."
+  }
+]

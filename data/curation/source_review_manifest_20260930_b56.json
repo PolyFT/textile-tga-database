@@ -1,0 +1,29 @@
+{
+  "batch": "b56",
+  "summary": {
+    "added_verified_unique_states": 3,
+    "added_verified_condition_records": 3,
+    "new_source_measurement_states": 3,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b56_mchp_cotton.csv",
+      "DOI": "10.1016/j.porgcoat.2021.106627",
+      "draft_sha256": "af71768de51699100885b2087e3cc3529f8348684a982dfc4b69466cdda01ca1",
+      "published_input_sha256": "a274888d9d5eb780aece0df352df98dd5e50517e781cf5399deb3d04e3653663",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "85882ac5fd2fc108ac110a9d72547035abafda225243acc345cf580fd6bc2692",
+        "522df0013a7cffb1d083623b6091655ab9e5a034ca8142514db070b1db2a7b13",
+        "f3f813ed39ab23e81224fabbac6bb66f8838c7921f2a696851785c244b6a4274"
+      ]
+    }
+  ],
+  "limitations": [
+    "Three treated initial fabric states only. Source numerical conflicts, possible control reuse and unmatched washed states remain held. Bracketed delta LOI is not uncertainty. No source fulltext files are published."
+  ]
+}
