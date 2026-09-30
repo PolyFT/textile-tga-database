@@ -36,12 +36,12 @@
     "snapshot_sha256": "39dab74ac89fada184b53ad0cfd1d88fbf570fd9d50a87af8090f6cebda9c20f"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b64-20260930",
-    "status": "released",
-    "claimed_at_utc": "2026-09-30T21:46:47.321Z",
-    "scope": "Twenty independently verified CN-3/EHP/MHP/CN cotton states; seventeen additional wool/polyamide states under independent QA. Preserve source conflicts, assay definitions, wash states and all external batches.",
-    "instruction": "Released after all three postmerge checks passed; refresh main and claim by compare-and-swap before publishing.",
-    "released_at_utc": "2026-09-30T21:54:27.983Z"
+    "owner": "codex-local-metadata-anf-aerogels-20261001",
+    "status": "active",
+    "batch_id": "20261001_b65",
+    "claimed_at_utc": "2026-09-30 21:56:43 UTC",
+    "scope": "Two original ANF/ACMCA fiber aerogels and one ANFs/MMT shell-only fiber. Preserve range/Ti/unit conflicts and generic residue temperature. Other task b64 retained.",
+    "instruction": "Single publisher. Refresh main/PR; claim via SHA, exact-head CI and independent postmerge verification before release."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
