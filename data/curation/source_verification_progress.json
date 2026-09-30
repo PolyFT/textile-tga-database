@@ -32,10 +32,15 @@
     "snapshot_sha256": "9b1271024101e1ce753f27c60ef1a5afc5c56179c37b18ab315309525b8eb94a"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30 18:31:14 UTC",
-    "instruction": "B49 PR16 merged; exact-head CI passed154tests, compile, science gate and snapshot consistency. Main readback326states/373conditions/75DOI/errors[]. Refresh current main/openPRs/lease/source queue before next publication."
+    "owner": "dot-source-review-b50-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T18:33:05Z",
+    "expires_at_utc": "2026-09-30T19:33:05Z",
+    "source_scope": [
+      "10.1007/s12221-020-9965-x",
+      "10.1016/j.aiepr.2024.03.001"
+    ],
+    "instruction": "Single publisher for b50: four new microwave-casein treated states plus three newly completed PTCO states in six conditions. Preserve b49 and all source holds. No source fulltext or private cache files are published."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
