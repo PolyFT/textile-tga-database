@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **343 unique DOI/sample/washing states**, **396 TG condition records**, and **83 papers**. The near-term target is 500 unique states; **157 remain**. The long-term target remains 2000.
+The reviewed dataset contains **354 unique DOI/sample/washing states**, **407 TG condition records**, and **84 papers**. The near-term target is 500 unique states; **146 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **343 unique DOI/sample/washing states**, **396 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 142 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 153 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -273,3 +273,12 @@ Four genuinely new source-inventory pairs contribute four TG conditions from two
 Input hashes, fingerprint-bound reviews, partial facts and per-source holds preserve the restart position. Full texts and local paths stay outside the public repository. The unconfirmed metadata library remains untouched.
 
 PR [#20](https://github.com/PolyFT/textile-tga-database/pull/20) merged at 2026-09-30 19:38:52 UTC as `b51bcc53297de4696efb523d20d7d9f969283300`. Exact head `8697b046feb1e5c2ce67bccd7f48938e13306718` passed [CI run 36766840839](https://github.com/PolyFT/textile-tga-database/actions/runs/36766840839): all 176 tests, compilation, scientific validation and committed-snapshot consistency. Independent main readback confirms 343 unique sample states, 396 TG conditions, 83 DOI and errors=[]. Snapshot SHA-256: `84541c07f64e9ecfe5bb890da1abcf185dd0da6b991ad04f7e114fbb5a4e80fd`. The b53 writer lease is released through the conditional progress checkpoint after this publication record.
+
+
+## b54 PAN fiber amination and zinc series
+
+Eleven genuinely new sample states and eleven nitrogen TG conditions are recovered from one original paper. The complete original/A-1/A-2/A-4/A-6/A-8 and B-1/B-2/B-4/B-6/B-8 series uses exact measured LOI and700C residue, with10C/min heating. Independent review checked original methods, preparation, ordered residue lists and publisher Figure5/8 pixels.
+
+TG powders aliquots of the already-spun fibers while LOI braids the same prepared fibers. Canonical material identity and both assay-specific preparations are preserved separately; identical specimen geometry is not claimed. Preparation rinsing is distinct from durability washing. Approximate DTG peaks, DSC temperatures, MCC outputs, evolved-gas peaks and calculated Zn-subtracted residue are excluded. Fulltext files remain private. Six additional source screens retain their concrete holds or no-LOI exclusions.
+
+The input requires exact-head CI and snapshot validation before merging. The writer lease remains active until postmerge verification.
