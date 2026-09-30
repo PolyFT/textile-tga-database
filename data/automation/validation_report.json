@@ -338,6 +338,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b53.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -618,9 +625,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1242,
-  "legacy_field_complete_condition_records": 638,
-  "numeric_pair_candidate_rows": 781,
+  "all_loaded_rows": 1246,
+  "legacy_field_complete_condition_records": 642,
+  "numeric_pair_candidate_rows": 785,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -628,21 +635,21 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 392,
-  "verified_exact_condition_records": 392,
-  "verified_exact_sample_states": 339,
-  "verified_exact_dois": 81,
-  "candidate_dois": 104,
-  "candidate_sample_states": 610,
-  "rows_with_numeric_loi": 827,
-  "rows_with_any_tg_numeric": 1132,
+  "strict_tg_loi_pairs": 396,
+  "verified_exact_condition_records": 396,
+  "verified_exact_sample_states": 343,
+  "verified_exact_dois": 83,
+  "candidate_dois": 106,
+  "candidate_sample_states": 614,
+  "rows_with_numeric_loi": 831,
+  "rows_with_any_tg_numeric": 1136,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1661,
+  "remaining_to_target": 1657,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 256,
+    "Tmax1_C": 259,
     "T5_C": 180,
     "Tonset_C": 59,
     "R600_pct": 73,
@@ -651,5 +658,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5"
+  "snapshot_sha256": "84541c07f64e9ecfe5bb890da1abcf185dd0da6b991ad04f7e114fbb5a4e80fd"
 }

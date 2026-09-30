@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **339 unique DOI/sample/washing states**, **392 TG condition records**, and **81 papers**. The near-term target is 500 unique states; **161 remain**. The long-term target remains 2000.
+The reviewed dataset contains **343 unique DOI/sample/washing states**, **396 TG condition records**, and **83 papers**. The near-term target is 500 unique states; **157 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **339 unique DOI/sample/washing states**, **392 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 138 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 142 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -259,3 +259,15 @@ Additional source screen: ACS cyclophosphazene2c01257 remains held after full of
 PR [#19](https://github.com/PolyFT/textile-tga-database/pull/19) merged at 2026-09-30 19:20:03 UTC as `bb2d05cac110e79a749ae1802c95451a1eff4319`. Final head `946d984f413599fce25678bbaa93a071bc8be523` passed [exact-head validation](https://github.com/PolyFT/textile-tga-database/actions/runs/36764792509), including all 176 tests, compilation, scientific validation and committed-snapshot consistency. Fresh main independently confirms 339 unique states, 392 TG conditions, 81 DOI and errors=[]. Snapshot SHA-256: `51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5`.
 
 This batch adds one DD source state and completes two pairs: canonical CEJ Cotton using shared nitrogen TG, and prior TG-only DOPO-ETES cotton. It adds no evidence-only upgrades. Together with b51, this raises main from 333 to 339 states. Shared experimental references are counted once. All accepted source drafts are published, the temporary materializer is removed, and the b52 single-writer lease is released. There are 161 states remaining to 500, or 162 to exceed 500. The cyclophosphazene source remains blocked on original main-paper TG and specimen-mapping evidence; its official SI does not resolve that gap.
+
+
+## b53 new PVA fibers and cotton-backed artificial leather
+
+Four genuinely new source-inventory pairs are represented by four TG conditions; zero existing numeric pairs are evidence upgrades and zero previously single-sided states are completed. Two new papers contribute to the verified layer. Thirty-five partial facts and sixteen additional source screens contribute zero target samples. B52's canonical shared-control safeguards remain intact. Reaching500 requires157 more states; strictly exceeding500 requires158.
+
+- PVA/PVA75CD/PVA75CDHDI: original Table2 p8 and complete officialSI TableS2 p1 match final wet-spun fibers. TG isair10C/min to600C; T10, author DTGpeak-loss,T90 andW550 remain distinct. W550 is not final600C residue or conechar. PVA/HDI has exactLOI but noSI TG and remains held. Saltremoval/processclean is notdurabilitylaundering; cone-only hotpressing is not assigned toLOI. Plus/minus type and missinggasflow/LOIdimensions remainunspecified.
+- Cotton-backed HS1 artificialleather20phr org.P: Section3.1 p6 reports individual genericTG residue5.9+/-0.1%, and Table4 p11 reportsLOI24.2. Figure2 identifies the same initialwhole laminate. Syntheticair is normalized toair with originalgas preserved;20mL/min,10K/min,25-600C. The source does not explicitly attach a temperature to its numerical residue statement: residue_temp_C staysblank and noR600 is inferred. This is an acceptedgenericTG metric under the existing evidence gate, excluded fromfixed-temperature residue comparisons. Complete officialSI contains mechanical results andcone-burned filmimages only.
+- APP13.4+/-0.8 andPhos9.6+/-0.5 are chemical-class statistics, not values forindividual representatives. Nineteen otherTable4 textileLOIstates stayheld; film,otherHS,HALS/bentonite and4.5year agedstates are notcross-paired.
+- Additional main-text screens retain coating/fabric, pellet/meltblown andfilm/fiber mismatches; flaxwovenlaminate TG iscurve-only. TheCAB-PL abstractLOI33 conflicts withTable/result34. Papers withonlyMCC,DSC,verticalfire orbackgroundLOI do notyieldTG-LOIpairs. FlaxTable4 parenthesizedpercentages areCV rather thanSD. SI notyetread isexplicitlyidentified inholds.
+
+The factual-input hash, fingerprint-bound reviews, partialfacts andper-source holds are saved forrestart. Primaryfulltexts andlocalpaths remainoutside thepublicrepository; the unconfirmedmetadata library remainsuntouched. B53 requires existingoffline tests, scientificvalidation andexact-head committed-snapshot CI beforePR merge.

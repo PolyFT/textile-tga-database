@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-09-30T19:22:40.012Z",
-  "latest_batch_id": "20260930_b52",
-  "verified_condition_records": 392,
-  "verified_unique_sample_states": 339,
-  "verified_dois": 81,
-  "numeric_pair_candidate_rows": 781,
+  "as_of_utc": "2026-09-30T19:32:32.094265+00:00",
+  "latest_batch_id": "20261001_b53",
+  "verified_condition_records": 396,
+  "verified_unique_sample_states": 343,
+  "verified_dois": 83,
+  "numeric_pair_candidate_rows": 785,
   "near_term_target_unique_states": 500,
-  "remaining_near_term": 161,
+  "remaining_near_term": 157,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 138,
+  "cumulative_newly_completed_or_new_source_sample_states": 142,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b53_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b52",
     "merge_sha": "bb2d05cac110e79a749ae1802c95451a1eff4319",
@@ -52,7 +52,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -249,5 +249,17 @@
     "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/19",
     "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36764400306",
     "publication_validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36764792509"
+  },
+  "batch_b53": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "condition_partial_records_excluded": 35,
+    "reviewed_papers_added": 2,
+    "screened_held_or_excluded_papers": 16,
+    "tests_passed": 176,
+    "snapshot_sha256": "84541c07f64e9ecfe5bb890da1abcf185dd0da6b991ad04f7e114fbb5a4e80fd"
   }
 }

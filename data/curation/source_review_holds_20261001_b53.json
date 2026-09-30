@@ -1,0 +1,112 @@
+[
+  {
+    "DOI": "10.3390/polym17111531",
+    "status": "hold_TG_coating_vs_fabric_SI_unreviewed",
+    "accepted_states": 0,
+    "reason": "CS coating TG differs from PET fabric LOI; inspect officialSI only if it adds fabric TG."
+  },
+  {
+    "DOI": "10.3390/polym17212854",
+    "status": "hold_pellet_TG_vs_meltblown_LOI",
+    "accepted_states": 0,
+    "reason": "FRM pellets TG cannot pair FRMB meltblown LOI."
+  },
+  {
+    "DOI": "10.3390/polym11040699",
+    "status": "hold_curve_only_TG",
+    "accepted_states": 0,
+    "reason": "Eight measured fabric-laminate LOI states; TG only curves. No estimates. LOI coefficient of variation preserved as CV."
+  },
+  {
+    "DOI": "10.3390/nano8110875",
+    "status": "hold_TG_curves_and_LOI_conflict",
+    "accepted_states": 0,
+    "reason": "CAB-PL abstractLOI33 versusTable1/results34. TG mostlyranges/curves, no sample-specific exact TG table. PL ownLOI25 but TGcurve only. Air/N2 kept separate."
+  },
+  {
+    "DOI": "10.3390/polym8080293",
+    "status": "excluded_no_own_LOI_in_main",
+    "accepted_states": 0,
+    "reason": "Own TG/PCFC tables; conclusion expressly puts LOI tests in future work. Main screened; no own LOI."
+  },
+  {
+    "DOI": "10.1021/acsomega.8b00371",
+    "status": "hold_no_own_LOI_in_main_SI_unreviewed",
+    "accepted_states": 0,
+    "reason": "Main owns cone/TG/verticalflame; introductory oxygen-index mention is not measuredLOI. SI not read."
+  },
+  {
+    "DOI": "10.3390/ma13122845",
+    "status": "excluded_no_own_TG_in_main",
+    "accepted_states": 0,
+    "reason": "Own LOI of kapok/EVAcomposites; thermal decomposition numerical tests absent frommain methods/results."
+  },
+  {
+    "DOI": "10.1038/s41598-025-27538-0",
+    "status": "excluded_no_own_LOI_in_main",
+    "accepted_states": 0,
+    "reason": "Nine Taguchi flame-spread formulations; LOI references are background. Do not translateFST intoLOI."
+  },
+  {
+    "DOI": "10.3390/molecules29245976",
+    "status": "hold_no_own_LOI_and_TG_range_conflict",
+    "accepted_states": 0,
+    "reason": "Own TG/VFT no ownLOI. Results700C versusmethods600C disagreement remains."
+  },
+  {
+    "DOI": "10.3390/polym12071575",
+    "status": "excluded_no_own_TG_in_main",
+    "accepted_states": 0,
+    "reason": "Many plasma-curing measuredLOI states; main methods/results haveSEM/XPS/EDS andmechanical/VFT butno TG."
+  },
+  {
+    "DOI": "10.1016/j.synbio.2021.10.005",
+    "status": "excluded_no_own_TG_in_main",
+    "accepted_states": 0,
+    "reason": "Conclusions expressly propose TGA forfuture work; not paired."
+  },
+  {
+    "DOI": "10.3390/molecules24203749",
+    "status": "hold_no_exact_LOI_number_in_main",
+    "accepted_states": 0,
+    "reason": "LOIapparatus mentioned inmethods but no numeric experimentalLOI; cone residue97not TG. DSC cyclization exotherms excluded."
+  },
+  {
+    "DOI": "10.3390/polym15234496",
+    "status": "excluded_no_own_TG_in_main",
+    "accepted_states": 0,
+    "reason": "CoatedCO/PE ownLOITable1; no ownTG method/results. Charimages notTG."
+  },
+  {
+    "DOI": "10.3390/polym14010042",
+    "status": "hold_film_LOI_vs_fiber_TG",
+    "accepted_states": 0,
+    "reason": "Table2 explicitly PANVDCfilms LOI; Figure9/Table4 explicitly fibersTG. Threewrong-form pairs excluded."
+  },
+  {
+    "DOI": "10.3390/polym15132877",
+    "status": "hold_bulk_polymer_LOI_vs_fiber_TG",
+    "accepted_states": 0,
+    "reason": "Own bulkPA56/66LOI; fibers used in biodegradationTG. ApproximatebulkTG not reassigned to fibers."
+  },
+  {
+    "DOI": "10.3390/ma18133195",
+    "status": "excluded_no_own_LOI_in_main",
+    "accepted_states": 0,
+    "reason": "Own PA66fabric TG/MCC/VFT; Table5LOI are explicitly pastliterature comparisons. No ownLOI method."
+  },
+  {
+    "DOI": "10.3390/polym17070841",
+    "sample_state": "chemical-class aggregates",
+    "status": "hold_group_statistics_not_individual_samples",
+    "accepted_states": 0,
+    "reason": "APP residue13.4+/-0.8%; Phos9.6+/-0.5% are class statistics across5APP/3Phos compounds; do not pair representative LOI. Range324-337C notindividual exactT10."
+  },
+  {
+    "DOI": "10.3390/polym17070841",
+    "sample_state": "HS1 org.P20phr genericresidue",
+    "status": "accepted_generic_residue_only_exclude_fixed_temperature_comparisons",
+    "accepted_states": 1,
+    "reason": "Same wholetextile specimen exactresidue5.9+/-0.1 andLOI24.2 accepted underexisting genericresidue gate. Temperature notexplicit in numericstatement remainsblank; noR600. Endpoint600C retained only as methodmetadata."
+  }
+]

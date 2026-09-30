@@ -1,0 +1,63 @@
+{
+  "batch": "b53",
+  "review_completed_utc": "2026-09-30T19:32:32.092813+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "condition_partial_records_excluded": 35,
+    "reviewed_papers_added": 2,
+    "screened_held_or_excluded_papers": 16
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b53.csv",
+      "published_input_sha256": "3cb62f7a3e619944c273f028b5b68678a3de55bf83592cc36263a130e4167d94",
+      "conditions": 4,
+      "unique_sample_states": 4,
+      "accepted_measurement_fingerprints": [
+        "c29bdf53f2b2a89693e277c4e224d1f60d3a30cc64854e07bb98bdfa88390b09",
+        "daaf61796f7b15a2ae4499e4f37fcad83d58867c1f711aa92d81a162fc952de3",
+        "058821dbcd5713b1a9f7be8134d9fdce33e5ac83a1c0577b499d3361d8a30eb0",
+        "762b405d494435cbadd733cbb34ecc9281cb609921d32edb80a8006853d0519d"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.3390/polym12051078",
+      "accepted_states": 3,
+      "evidence": "Complete primary PDF and complete official supplementaryPDF. Table2 p8 LOI18.8/21.9/41.7; officialTableS2 p1 T10/Tpeak-loss/T90/W550. Air10C/min,end600C; initial same wet-spun fiber states. Source tables visually verified.",
+      "caveat": "R550 is not R600 or conechar. T90 preserved as source TG threshold; DTG peak loss not MCC temperature. PVA/HDI hasLOI but noTG and staysheld. Hot pressing described forcone only; no durability laundering or repeat uncertainty statistic invented."
+    },
+    {
+      "DOI": "10.3390/polym17070841",
+      "accepted_states": 1,
+      "evidence": "Wholecotton-backed HS1artificialleather with20phr org.P: Section3.1 p6 explicit genericresidualmass5.9+/-0.1; Figure2 p7 sameHS1/20phr; Table4 p11 LOI24.2. Syntheticair(normalizedair,reportedgasretained),20mL/min,10K/min,25-600C. Complete officialSI examined.",
+      "caveat": "Generic residue_temp_C staysblank and noR600 is populated; endpoint600C remains methodmetadata, so fixed-temperature comparisons exclude thisdatum. APP/Phos groupmeans notindividual sampledata. Other19Table4 textileLOIstates held. No film, aged4.5year, HS2/HS3,HALS or bentonite TG paired."
+    },
+    {
+      "DOI": "10.3390/polym17111531;10.3390/polym17212854;10.3390/polym11040699",
+      "accepted_states": 0,
+      "caveat": "CoatingTG vsPETfabricLOI; pelletTG vsmeltblownLOI; eightflaxwovenlaminateLOIstates withTG curvesonly. Formulationidentity aloneinsufficient; noestimates. FlaxLOIvariation isCV,notSD. PETCS SI stillunreviewed."
+    },
+    {
+      "DOI": "10.3390/nano8110875;10.3390/polym14010042;10.3390/polym15132877",
+      "accepted_states": 0,
+      "caveat": "CAB-PLLOI33abstract vs34Table/results conflict andcurve-onlyTG. PANVDCfilmLOI vsfiberTG notpaired. BulkPA56/66LOI notassigned tobiodegradedfibers. Remaining screenedmain-text sources lackownnumericLOI or TG; conciseholds retained; unreviewedSInotclaimedcomplete."
+    }
+  ],
+  "verification_limit": "Single primary-source reviewer; complete primary originals and official numerical supplements for both admitted sources, with original table/figure pixels. No independent second reviewer claimed. Additional zero-pair screens remain bounded by their specified main-text or SI review status. Only facts and concise provenance published; no source documents or local paths.",
+  "validation": {
+    "offline_tests_passed": 176,
+    "compilation": "pass",
+    "scientific_errors": [],
+    "verified_unique_states": 343,
+    "verified_conditions": 396,
+    "verified_dois": 83,
+    "snapshot_sha256": "84541c07f64e9ecfe5bb890da1abcf185dd0da6b991ad04f7e114fbb5a4e80fd",
+    "exact_head_CI": "required_before_merge"
+  }
+}
