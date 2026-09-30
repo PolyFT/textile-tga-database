@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **361 unique DOI/sample/washing states**, **414 TG condition records**, and **86 papers**. The near-term target is 500 unique states; **139 remain**. The long-term target remains 2000.
+The reviewed dataset contains **367 unique DOI/sample/washing states**, **420 TG condition records**, and **87 papers**. The near-term target is 500 unique states; **133 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **361 unique DOI/sample/washing states**, **414 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 160 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 166 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -319,3 +319,12 @@ The b56 writer lease is released after exact-head CI and postmerge verification.
 PR #23 merged as `d3ab1a6633405db17ab43e8a4147e746dceb69fe`. Exact head `fcc11a22e30b4d85bfb94cf66f674e58945f6bcd` passed [run 36771653669](https://github.com/PolyFT/textile-tga-database/actions/runs/36771653669), including 192 tests, compilation, scientific validation and snapshot consistency. Main confirms 361 unique states, 414 conditions and 86 DOI, with no validation errors. Snapshot SHA-256: `63f21f9fcc5a5475d38fd185c1c61b0900a1d46658d08455423803e4893346fe`.
 
 All three postmerge checks passed. The temporary materializer is absent and the single-writer lease is released. Subsequent private source drafts are not included in these counts.
+
+
+## b57 supercritical CO2 cotton finishing
+
+Six genuinely new pdp/pdpt cotton states add six nitrogen TG conditions. Table 2 R600 values and section 3.4 ordered LOI values map exactly by flame retardant and fabric add-on. Methods specify 10 C/min; preparation and LOI conditioning are retained. Independent original-text review passed. The accessed original-text URL is preserved; unavailable publisher PDF bytes and no pixel review are disclosed.
+
+The untreated control has only generic LOI and conflicting residue prose, so it remains excluded. ASTM edition conflict is retained without correction. The introduction mentions air, but methods and numerical results support nitrogen only. Source-native multi-stage onsets are not relabeled as DTG maxima. Full texts remain private.
+
+The b57 writer lease remains active pending exact-head CI and postmerge verification.
