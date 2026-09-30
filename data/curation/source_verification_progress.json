@@ -32,10 +32,14 @@
     "snapshot_sha256": "84541c07f64e9ecfe5bb890da1abcf185dd0da6b991ad04f7e114fbb5a4e80fd"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T19:42:06Z",
-    "instruction": "B53 PR20 merged after176tests,compile,scientific gate and committed-snapshot CI. Independent main readback343states/396conditions/83DOI/errors[]. Refresh main/openPR/lease/queue before another publisher. Preserve all held records; no fulltext or private paths."
+    "owner": "dot-source-review-b54-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T19:43:30Z",
+    "expires_at_utc": "2026-09-30T20:43:30Z",
+    "source_scope": [
+      "10.1007/s10973-015-5180-1"
+    ],
+    "instruction": "Single publisher for eleven independently reviewed new PAN fiber TG-LOI states. Preserve powdered TG aliquot and braided LOI forms. Require tests, scientific gate and exact-head snapshot CI before merge. No source fulltexts published."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
