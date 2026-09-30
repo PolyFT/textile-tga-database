@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T22:28:44.538037+00:00",
+  "as_of_utc": "2026-09-30T22:37:00.372Z",
   "latest_batch_id": "20260930_b67",
   "verified_condition_records": 541,
   "verified_unique_sample_states": 470,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
     "batch": "b65",
     "merge_sha": "aebe7fa52e09f2b37d21644a2cf9bef04809f7cf",
@@ -37,10 +37,11 @@
   },
   "writer_lease": {
     "owner": "dot-source-review-b67-20260930",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-09-30T22:28:04.163Z",
     "scope": "Four independently approved citrus BC and SMSN jute states. Preserve generic final residue versus explicit 500 C residue, source treatment and held unmatched states.",
-    "instruction": "Single publisher; refresh main before changes and release after exact-head and postmerge verification."
+    "instruction": "Single publisher; refresh main before changes and release after exact-head and postmerge verification.",
+    "released_at_utc": "2026-09-30T22:37:00.372Z"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
@@ -67,7 +68,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -575,6 +576,22 @@
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 2,
     "tests_passed": 253,
-    "snapshot_sha256": "b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77"
+    "snapshot_sha256": "b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77",
+    "publication_checkpoint": {
+      "batch": "b67",
+      "pr": 34,
+      "merge_sha": "79172e84229ff1b5d0be47579f15aa5174cb935b",
+      "validated_head": "797a48c288d31ba5defd6af0161b363832943feb",
+      "validation_run": 36786152859,
+      "postmerge_runs": [
+        36786431776,
+        36786431701,
+        36786431740
+      ],
+      "verified_sample_states": 470,
+      "verified_condition_records": 541,
+      "verified_dois": 108,
+      "snapshot_sha256": "b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77"
+    }
   }
 }
