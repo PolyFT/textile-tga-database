@@ -32,10 +32,11 @@
     "snapshot_sha256": "c40c3682c2b94795005c71a8a71d45a581f11400022bb838cf4e63a4913b78ad"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T20:12:44.336Z",
-    "instruction": "B55 PR22 merged after exact-head 187 tests, compilation, scientific gate and snapshot validation. Main 358 states / 411 conditions / 85 DOI; errors empty. All three postmerge checks passed. Refresh main, open PRs and source queue before another publisher."
+    "owner": "dot-source-review-b56-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T20:15:02.762Z",
+    "scope": "Three MP/nCH/MCHP cotton states from 10.1016/j.porgcoat.2021.106627; independent exact-hash QA passed.",
+    "instruction": "Do not overwrite this writer lease; coordinate another publisher."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
