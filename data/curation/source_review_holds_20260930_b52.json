@@ -44,5 +44,15 @@
     "hold_scope": "Wash standard metadata",
     "reason": "Methods and Figure6 say ISO105-C08 while durability prose says ISO105-C06; no durability method selected, and no washed pair admitted.",
     "source_url": "https://doi.org/10.1007/s10570-022-05033-3"
+  },
+  {
+    "DOI": "10.1021/acsapm.2c01257",
+    "hold_scope": "All nylon/cotton pairs; missing original main text",
+    "reason": "Official22-page SI inspected. TableS1 residues are MCC, not TGA. Exact temperatures in FigureS19 discussion describe evolved-gas spectra/stages, not identified conventional TG maxima. SI reports TGA N2/0.3Kpersec separately from TG-FTIR N2/20Kmin. Original main TG metrics, specimen/add-on and LOI/wash mapping remain unavailable. No pair admitted.",
+    "source_url": "https://pubs.acs.org/doi/10.1021/acsapm.2c01257",
+    "supplement_url": "https://ndownloader.figshare.com/files/38081385",
+    "evidence_locations": "SI S14 TableS1 and comparison prose; S19-S21/FigureS19; publisher abstract",
+    "SI_sha256": "ded12e45f8180fde33586d462efe8098a5b3e6e536b67435629a4ffd9c7e9c79",
+    "qualified_pair_count": 0
   }
 ]

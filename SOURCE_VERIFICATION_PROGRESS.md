@@ -250,3 +250,5 @@ Three additional states contribute six conditions from two papers. One is a new 
 Independent final-byte reviews checked relevant CEJ final-publication text and visually checked the DOPO-ETES source table and exact LOI prose. Source files and private preparation remain outside the repository. Exact-head CI, scientific gates and snapshot consistency are required before merge; the publication lease remains active until main is verified.
 
 All 176 offline tests, compilation and scientific validation pass locally. Branch snapshot: 339 states, 392 TG conditions, 81 DOI, errors=[]; SHA-256 `51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5`. These remain branch results until exact-head CI and main readback.
+
+Additional source screen: ACS cyclophosphazene2c01257 remains held after full official SI review. Its TableS1 is MCC and its printed temperatures belong to evolved-gas FTIR discussion. An original main-paper source with conventional TG values and exact specimen/LOI mapping is still needed; no pair is admitted.

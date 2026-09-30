@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T19:12:15.919131+00:00",
+  "as_of_utc": "2026-09-30T19:18:05Z",
   "latest_batch_id": "20260930_b52",
   "verified_condition_records": 392,
   "verified_unique_sample_states": 339,
@@ -245,6 +245,8 @@
     "existing_paired_states_evidence_upgraded": 0,
     "reviewed_papers_added": 2,
     "tests_passed": 176,
-    "snapshot_sha256": "51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5"
+    "snapshot_sha256": "51dd4090f505930acc2553bcff487263f5433e2131d54e82b0ab3b70f6ef2ea5",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/19",
+    "materialization_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36764400306"
   }
 }
