@@ -1,0 +1,52 @@
+[
+  {
+    "DOI": "10.1080/15440478.2024.2436053",
+    "sample": "SP-BC",
+    "reason": "Figure1 preparationpH8 conflicts with Table12/Figure7pH6; no normalized same-recipe assertion or admission."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2436053",
+    "sample": "SMN-BC air TG",
+    "reason": "Curve-only residue, no exact reported numeric residue identified; nitrogen row retained."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2436053",
+    "sample": "preliminary eight-plant screening and powders",
+    "reason": "Different preparation conditions from final LOI states; no cross-recipe pairing."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2436053",
+    "sample": "Table13 comparisons and supplements",
+    "reason": "Comparison rows are other studies, not new measurements. Official supplement DOCX Figure S1 contains EDX mapping and does not add TG-LOI states or resolve Figure1 spinach pH conflict."
+  },
+  {
+    "DOI": "10.1186/s40691-024-00395-7",
+    "sample": "original BC and cowhide leather",
+    "reason": "LOI19/30 reported, but exact same-state numericTG not reported in prose/table; no graph interpolation."
+  },
+  {
+    "DOI": "10.1186/s40691-024-00395-7",
+    "sample": "other zein/gluten optimization loadings",
+    "reason": "Residuals in dose-screening Figure1, but no corresponding exact ownLOI; only optimal20/40wt% specimens paired."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2415963",
+    "sample": "original BC",
+    "reason": "Own LOI19 and R1000 3.08 are present, but shared control measurement across related same-laboratory papers requires assessment; conservatively excluded."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2415963",
+    "sample": "BC-SMN",
+    "reason": "LOI36 present but exact final TG residue not reported in accessible original prose/table; stage water loss is not char residue."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2415963",
+    "sample": "BC-AN-E, BC-MU-E and BC-SH-E dose series",
+    "reason": "Table3 entrapment-only dose screening has no matched LOI; final Table4 EC states include crosslinking and are not interchangeable."
+  },
+  {
+    "DOI": "10.1080/15440478.2024.2415963",
+    "sample": "supplement",
+    "reason": "Official supplement identified but retrieval timed out; no SI-complete claim."
+  }
+]

@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **457 unique DOI/sample/washing states**, **525 TG condition records**, and **103 papers**. The near-term target is 500 unique states; **43 remain**. The long-term target remains 2000.
+The reviewed dataset contains **466 unique DOI/sample/washing states**, **537 TG condition records**, and **106 papers**. The near-term target is 500 unique states; **34 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **457 unique DOI/sample/washing states**, **525 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 256 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 265 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -445,3 +445,12 @@ Three genuinely new states / three TG conditions / zero old-pair evidence upgrad
 One standalone ANFs/MMT aerogel fiber shell material (DOI10.1007/s40820-023-01200-8) has ownLOI33.1 and genericTGresidue58.5 fromSection3.3p9/Figure3, nitrogen/10Cmin fromSection2.5p5. Genericresiduetemperature unknown; nofixed-temperatureR inferred. Shellmaterial TG isnotassignedtofullcoaxialTEfiber. PureANFs unlabelledLOI, approximate~35 n/p/fullfiberLOI, SIcores andwashed electricalperformance remainheld. Completeoriginalmain/SI forbothsources reviewed; originalFigure3pixelsandTableS1cellstructure checked.
 
 ANF/silica source10.3390/polym15010141 held: nitrogeninmethods vs oxygeninmain/SI TGcaptions. LM/alginate10.1002/advs.202303406 mainhasnoexactTGmetrics andSIaccesspending. Holds/queue preserved. Latestmain b64 andallpriorfingerprints remainunchanged. Proposedtotal457; strictlyexceeding500 requires44more. Metadata libraryuntouched; publicfacts/provenance only, fulltextcaches outside. Exact-headCI andindependentmainreadback remainpublicationgates.
+
+
+## b66 bacterial cellulose textile sources
+
+Nine genuinely new sample states add twelve TG condition records from three original papers. Four plant-treated or control states supply seven nitrogen/air observations at 800 C; two zein/gluten and three marine-powder states supply nitrogen residues at 1000 C. These are nanofibrous sheet textiles developed as leather substitutes. Repeated atmospheres count as conditions of the same prepared state.
+
+Original fulltext methods, exact thermal prose and LOI tables establish sample identity, treatment, ramp and atmosphere. Spinach preparation pH conflicts, unmatched screening doses, potentially reused controls and curve-only residues remain held. Entrapment-only marine dose screening is distinct from the admitted crosslinked final specimens. Source-specific access and review limitations are retained, and all fulltexts remain private. Independent review passed at exact draft hashes.
+
+The b66 writer lease remains active pending exact-head CI, merge and postmerge verification.

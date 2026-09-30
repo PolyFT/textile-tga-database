@@ -1,0 +1,68 @@
+{
+  "batch": "b66",
+  "baseline_counts": [
+    457,
+    525,
+    103
+  ],
+  "summary": {
+    "added_verified_unique_states": 9,
+    "added_verified_condition_records": 12,
+    "new_source_measurement_states": 9,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b66_bc_plants.csv",
+      "DOI": "10.1080/15440478.2024.2436053",
+      "draft_sha256": "98b00b046aceb3cfe314667319108e248c44f9704dcb75df6e937a347a3d090c",
+      "published_input_sha256": "2e9324ff187638571d830894d98c61e32ca6221001b27b31d24e659dad33ed20",
+      "states": 4,
+      "conditions": 7,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "7880b1be9d6521540d9cb035fc4b23371193a5fb28ba4e75e31c6584bffc6389",
+        "73f5282f2a4c3d40903eb737519bebc37704289ff4c6ba6b5101ee0291e86c41",
+        "8d1e9fdd8065268b9cbb1b2c83a2137f8f1702b358f223049ceea88b50704982",
+        "accb77988259376f55eaf95e6db12824a2b4ebc53365f93603f108c12c1bf89e",
+        "0126b3f3cde18d76cdb7ed480262c89d52dab37deea8a91be20176e6fb3d3ee7",
+        "0706bd3173f19e01356fc64424bc88d06d07dbe20d20e9a74061f857a1d39777",
+        "3328c103d7b479c02fb5b8ae1a047332aa89bad10b5bccf7e3550f766d6cc283"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b66_bc_proteins.csv",
+      "DOI": "10.1186/s40691-024-00395-7",
+      "draft_sha256": "dd36f27d49bfe94e1120da7cdbaf58ab819556e1e0508ed8ddc1c8e6206d6f91",
+      "published_input_sha256": "c1f5c6c8108aa2ae99dce0badcf747c6348968dd7bb9b343e4863bf923cd6ffa",
+      "states": 2,
+      "conditions": 2,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "b4a4c342d85fabc7b6706939ef8c624cc57a39c6655516073e5f1d42b5d54158",
+        "1898aeee1cbcbf0863c3c562696f92085c070f4ada0922cb6adca03e06c2d52e"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b66_bc_marine.csv",
+      "DOI": "10.1080/15440478.2024.2415963",
+      "draft_sha256": "e5713760010fdc9a6ad1bd39bcdbcf1c39326e9333b7d895f0eb3c921c2d153f",
+      "published_input_sha256": "063984ffe22ea12f21c6ad8bb8719d86741191af93401801376fb42b049192f4",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "83da0de9b295aa7cbf4893150ca3e83d65a5918ad66a06148b640ad1e60eb35e",
+        "e81aadf2192d8672c721051e44e941d9d950e597dfcac737abcf8a43dffbb01f",
+        "12d18ab10f29d36d3cac7a1db9089c71d72d4fee5ef818ff2556dfd0eba0563d"
+      ]
+    }
+  ],
+  "limitations": [
+    "Bacterial cellulose is a nanofibrous sheet textile; no woven geometry is implied.",
+    "Nitrogen and air observations of one prepared state do not increase unique state counts.",
+    "R1000 remains a generic residue at explicit temperature, never R800.",
+    "Independent original-source QA checked exact draft hashes; source fulltexts remain private."
+  ]
+}
