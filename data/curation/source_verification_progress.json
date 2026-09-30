@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main",
+  "publication_stage": "b46_publication_in_progress",
   "last_merged_batch": {
     "batch": "b45",
     "merge_sha": "ad19fbfefef30cf27427b16a9b07359b849280a4",
@@ -32,10 +32,15 @@
     "snapshot_sha256": "c2234a08ca3c271c44fbb70b826a4051fc096bfc9026415715627a5f9389a94c"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T17:16:26.790Z",
-    "instruction": "PR #12 is merged and its exact head passed 126 tests, scientific validation and snapshot checks. B45 lease released. Preserve the separate next-source preparation; recheck latest main/open PRs/source scope before the next publication."
+    "owner": "source-verification-b46-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T17:18:30Z",
+    "batch": "b46",
+    "sources": [
+      "10.1177/1528083704045848",
+      "10.1016/j.polymdegradstab.2024.110764"
+    ],
+    "instruction": "Single publisher importing five independently source-reviewed cotton states / seven conditions from the previously announced two-paper preparation. Preserves b45 and all other holds. Other sources may be prepared read-only; no competing publisher until release."
   },
   "next_sources": [
     "10.1177/1528083704045848",
