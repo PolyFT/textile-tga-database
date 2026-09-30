@@ -36,13 +36,11 @@
     "verified_dois": 97
   },
   "writer_lease": {
-    "owner": "codex-local-metadata-siam-20261001",
-    "status": "released",
-    "batch_id": "20261001_b63",
-    "claimed_at_utc": "2026-09-30 21:35:09 UTC",
-    "scope": "One original-source same-state SIAM wet-spun aramid sensing fiber; complete main/SI review. Preserve generic residue temperature and no graph-only controls, six source holds.",
-    "instruction": "Released after228tests, exactfinalheadCI, independentremotemainhash/row verification andthreepostmergeCI successes; nextpublisher refreshmain/queue/PR andclaimviaSHA.",
-    "released_at_utc": "2026-09-30 21:43:06 UTC"
+    "owner": "dot-source-review-b64-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T21:46:47.321Z",
+    "scope": "Twenty independently verified CN-3/EHP/MHP/CN cotton states; seventeen additional wool/polyamide states under independent QA. Preserve source conflicts, assay definitions, wash states and all external batches.",
+    "instruction": "Single publisher. Refresh main and coordinate before writing; release only after exact-head CI and postmerge verification."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
