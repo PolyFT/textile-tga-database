@@ -3069,8 +3069,45 @@
       "attempt_count": 1,
       "last_attempt_utc": "2026-09-30T16:51:03.223933+00:00",
       "next_retry_utc": "2026-09-30T22:51:03.223933+00:00"
+    },
+    "10.3390/polym18060682": {
+      "fingerprint": "7653968fc2c1bccba898",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T20:56:10.393610+00:00"
+    },
+    "10.3390/polym18070819": {
+      "fingerprint": "2bf5d5190c9f0417a54d",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "no_exact_pair",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T20:56:10.393610+00:00"
+    },
+    "10.3390/polym17111529": {
+      "fingerprint": "7671005060a001414976",
+      "extractor_version": "6",
+      "grade": "B",
+      "reason_code": "pair_requires_review",
+      "retryable": false,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T20:56:10.393610+00:00"
+    },
+    "10.14233/ajchem.2026.34788": {
+      "fingerprint": "3b53e936bf4c1d658156",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-09-30T20:56:10.393610+00:00",
+      "next_retry_utc": "2026-10-01T02:56:10.393610+00:00"
     }
   },
-  "last_run_utc": "2026-09-30T19:29:15.278183+00:00",
-  "last_examined_candidates": 9
+  "last_run_utc": "2026-09-30T20:56:10.393610+00:00",
+  "last_examined_candidates": 4
 }

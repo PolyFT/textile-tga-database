@@ -266,6 +266,25 @@
         "f7b2571399fda54603fdc937ccba5d966a701123db8915ee781061c8631d6424": "non_textile"
       },
       "status": "complete"
+    },
+    "10.3390/polym17111529": {
+      "attempts": 1,
+      "input_fingerprint": "86adc831fe05647d756e8496a530dc48da0d4135cb62e8528784222dcf268336",
+      "last_attempt_utc": "2026-09-30T20:56:18.723719+00:00",
+      "next_retry_utc": null,
+      "parser_version": "2",
+      "reason_codes": [
+        "evidence_review_required"
+      ],
+      "row_results": {
+        "24543013432b0e76ae7c269fca77102a3fd4472b347c4d1057f933043967cfdf": "evidence_review_required",
+        "4a4927044e79762c411d673c373a12a82f20cee3f2bd3ae0c5e86f327df4d66f": "evidence_review_required",
+        "6e22ea5fe760f32153760172336515281da0179c4818e6880586aff8e4f5d555": "evidence_review_required",
+        "8c16f241be1b53048c4de1d65f380b7fd5a781ed0870df29d05a17b06808d6c7": "evidence_review_required",
+        "af223e4392da8ad7cc63af158e3d408835ee2f30e12be977c2f6914945a74b3a": "evidence_review_required",
+        "eccfbb098d95d88884eebfd63007f5c054f05cbf41b187a89906f526192eeb1c": "evidence_review_required"
+      },
+      "status": "awaiting_evidence_review"
     }
   },
   "schema_version": 1
