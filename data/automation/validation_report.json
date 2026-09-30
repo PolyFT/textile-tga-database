@@ -401,6 +401,27 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20260930_b66_bc_marine.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b66_bc_plants.csv",
+      "accepted_rows": 7,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20260930_b66_bc_proteins.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_source_batch_20261001_b45.csv",
       "accepted_rows": 9,
       "quarantined_rows": 0,
@@ -744,9 +765,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1375,
-  "legacy_field_complete_condition_records": 771,
-  "numeric_pair_candidate_rows": 914,
+  "all_loaded_rows": 1387,
+  "legacy_field_complete_condition_records": 783,
+  "numeric_pair_candidate_rows": 926,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -754,28 +775,28 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 525,
-  "verified_exact_condition_records": 525,
-  "verified_exact_sample_states": 457,
-  "verified_exact_dois": 103,
-  "candidate_dois": 126,
-  "candidate_sample_states": 728,
-  "rows_with_numeric_loi": 960,
-  "rows_with_any_tg_numeric": 1265,
+  "strict_tg_loi_pairs": 537,
+  "verified_exact_condition_records": 537,
+  "verified_exact_sample_states": 466,
+  "verified_exact_dois": 106,
+  "candidate_dois": 129,
+  "candidate_sample_states": 737,
+  "rows_with_numeric_loi": 972,
+  "rows_with_any_tg_numeric": 1277,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 99,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1543,
+  "remaining_to_target": 1534,
   "plot_ready_verified_counts": {
     "Tmax1_C": 323,
     "T5_C": 185,
     "Tonset_C": 87,
     "R600_pct": 142,
     "R700_pct": 100,
-    "R800_pct": 65
+    "R800_pct": 72
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "00804dfe124dab03356f966a271e1052a9943e33f522abfacd4fcd3129d9a145"
+  "snapshot_sha256": "e2299167e8f466ddd3c7135b08a95edb64adbcfcc061e324b781ab6e1a38973f"
 }
