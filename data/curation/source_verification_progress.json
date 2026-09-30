@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "source_batch_complete_on_main_after_merge",
+  "publication_stage": "b41_source_review_in_progress",
   "last_merged_batch": {
     "batch": "b39",
     "merge_sha": "02ca2de91ea2e65556949970c2b095805bc4aa11",
@@ -26,9 +26,12 @@
     "verified_sample_states": 141
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released_after_merge",
-    "instruction": "Ready for the next source-review run after this batch reaches main. Check current main and open data PRs before writing; never run concurrent publishers."
+    "owner": "scheduled-source-review-b41",
+    "status": "active",
+    "acquired_at_utc": "2026-09-30T13:37:00Z",
+    "base_main_sha": "dcea32f01a6308c28bd25efc4979fb676cbe9494",
+    "branch": "data/source-verification-20260930-b41",
+    "instruction": "One source-review publisher. Preserve all concurrent main changes; refresh main before publishing. Release after verified merge."
   },
   "next_sources": [
     "10.1021/acsaenm.6c00308",
