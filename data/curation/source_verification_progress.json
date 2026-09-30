@@ -32,10 +32,19 @@
     "snapshot_sha256": "38727b97c9054832516cc52e9b353057f1ced418b905a2afaba2eb67eefaa205"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T18:05:15Z",
-    "instruction": "B48 PR15 is merged; exact head 50598535 passed 147 tests, scientific validation and snapshot consistency. All accepted six-paper preparation is now on main. Check current main/open PRs/source ownership before any next publisher; preserve every documented hold."
+    "owner": "codex-local-metadata-curation-b49-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T18:11:45.310Z",
+    "expires_at_utc": "2026-09-30T19:11:45.310Z",
+    "source_scope": [
+      "10.3390/polym18070819",
+      "10.3390/coatings16020202",
+      "10.1021/acsomega.5c00281",
+      "10.3390/polym17121676",
+      "10.1007/s10694-023-01387-7",
+      "10.3390/ma15144791"
+    ],
+    "instruction": "Single publisher for b49. Ten source-reviewed states proposed: nine existing numeric-pair upgrades and one new PET/cotton control. Preserve b48 and other source preparations. Numerical facts only; local library remains untouched."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
