@@ -32,10 +32,11 @@
     "snapshot_sha256": "b4f1ffe0216bcf13f84e059c90e0b5da677e5acb59369ffc5f4fb8f5c3f1fa20"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T16:25:52Z",
-    "instruction": "PR #8 is merged and the b42 writer lease is released. Check latest main and open data PRs before claiming the next publication batch; never overwrite concurrent changes."
+    "owner": "codex/source-review-b43",
+    "status": "held_on_open_data_PR",
+    "claimed_at_utc": "2026-09-30T16:45:17.742311+00:00",
+    "scope": "Primary-source review of existing lyocell, wool, PET and inherently FR knit candidates; metadata library path remains unconfirmed.",
+    "instruction": "One publication owner for b43. Other tasks may prepare different papers read-only, but must not publish overlapping data while this PR is open. Recheck main and exact-head CI before merging; do not override valid leases."
   },
   "next_sources": [
     "10.1039/D1RA06573D",
