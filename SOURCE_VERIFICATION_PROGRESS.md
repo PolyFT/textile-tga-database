@@ -282,3 +282,10 @@ Eleven genuinely new sample states and eleven nitrogen TG conditions are recover
 TG powders aliquots of the already-spun fibers while LOI braids the same prepared fibers. Canonical material identity and both assay-specific preparations are preserved separately; identical specimen geometry is not claimed. Preparation rinsing is distinct from durability washing. Approximate DTG peaks, DSC temperatures, MCC outputs, evolved-gas peaks and calculated Zn-subtracted residue are excluded. Fulltext files remain private. Six additional source screens retain their concrete holds or no-LOI exclusions.
 
 The input requires exact-head CI and snapshot validation before merging. The writer lease remains active until postmerge verification.
+
+
+## b54 publication checkpoint
+
+PR #21 merged as `f36272553b91fba3a4760e76629602ab9597eed5`. Exact head `c76d419ca69bbb98d57ad52eb8768fb316b3697f` passed [validation run 36768474390](https://github.com/PolyFT/textile-tga-database/actions/runs/36768474390), including182offline tests, compilation, scientific range/evidence gates and committed-snapshot consistency. Independent main readback confirms354unique states,407conditions,84DOI,errors=[]. Snapshot SHA256: `c40c3682c2b94795005c71a8a71d45a581f11400022bb838cf4e63a4913b78ad`.
+
+All three postmerge checks succeeded: validation36768603488, rebuild36768603414 and processing36768603423. The temporary branch materializer has removed itself, and the writer lease is released. Eleven newly sourced states have been admitted; no repeated conditions inflate that count. Preserve raw assay-specific preparations and all source holds on continuation.
