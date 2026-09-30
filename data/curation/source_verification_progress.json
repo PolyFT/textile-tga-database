@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-09-30T23:28:06.976152+00:00",
+  "as_of_utc": "2026-09-30 23:35:08 UTC",
   "latest_batch_id": "20261001_b71",
   "verified_condition_records": 577,
   "verified_unique_sample_states": 501,
@@ -18,36 +18,38 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "b71_validated_branch_pending_PR_merge",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
-    "batch": "b70",
-    "pr": 37,
-    "merge_sha": "6c71c22361db06e515d0d61fcb5a9874e723e607",
-    "validated_head": "20884b6c4740a9bace3529c23959345440a5e7b4",
-    "validation_run": 36790571926,
+    "batch": "b71",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/38",
+    "merge_sha": "20929f7e57e2b4aaf92be9f582a34b10ac02a731",
+    "validated_head_sha": "5226433b6baeb8c673bed9894807cba06140484a",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36791467460",
     "postmerge_runs": [
-      36790846166,
-      36790846061,
-      36790846028
+      36791610376,
+      36791610377,
+      36791610318
     ],
-    "verified_sample_states": 492,
-    "verified_condition_records": 565,
-    "verified_dois": 114,
-    "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
+    "verified_sample_states": 501,
+    "verified_condition_records": 577,
+    "verified_dois": 117,
+    "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
+    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
   },
   "writer_lease": {
     "owner": "codex-local-metadata-fiber-network-20261001",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-09-30 23:26:53 UTC",
     "batch_id": "20261001_b71",
     "scope": "Nine reviewed initial fiber-network, woven-laminate and Nomex membrane states from DOI 10.3390/polym17172377, 10.3390/polym12102379 and 10.1007/s42765-022-00231-x at twelve TG conditions. No library writes.",
-    "instruction": "Single publisher; release after exact-head CI, normal merge and terminal postmerge checks."
+    "instruction": "Single publisher; release after exact-head CI, normal merge and terminal postmerge checks.",
+    "released_at_utc": "2026-09-30 23:35:08 UTC"
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
   ],
   "next_actions": [
-    "b71 adds nine genuinely new BC fiber-network, woven-laminate and Nomex membrane states at twelve TG conditions. Preserve moisture T5, unknown BC residue temperature, source T2 metric, Nomex repeated-spline counting and twelve source holds. Metadata SMB root confirmed by user; local library read-only; refresh main/queue/open PR/lease before next publisher.",
+    "B71 adds nine new fiber-network, woven-laminate and Nomex membrane states at twelve TG conditions; 501 independent states now exceed500. Keep moisture T5, unknown BC residue temperature, source T2 and Nomex repeats distinct. User confirmed metadata SMB root; prioritize identity-checked local textile fulltexts using external-only caches. Refresh main/queue/open PR/lease before next publisher.",
     "B70 adds seven cotton states at nine thermal conditions. Keep generic residue assessment temperature unknown, preserve120 C prehold and official uncertainty, and retain original-paper conflicts and unmatched states as holds.",
     "B69 adds thirteen initial textile states from casein LBL, PA-Cys nylon/cotton and SHP/MA/TEA cotton sources. Preserve source-native uncertainties, onset definitions and recipe/wash distinctions.",
     "b68 adds2newPLA nonwovenstates. All10TGrows retained; airrate/LOIbar omissions held. Preserve20source screeningholds andform/rateconflicts. Metadata rootconfirmationpending; librarystrictlyreadonly; refreshmain/PR/leasebefore nextpublisher.",
@@ -72,7 +74,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -316,20 +318,21 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b70",
-    "pr": 37,
-    "merge_sha": "6c71c22361db06e515d0d61fcb5a9874e723e607",
-    "validated_head": "20884b6c4740a9bace3529c23959345440a5e7b4",
-    "validation_run": 36790571926,
+    "batch": "b71",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/38",
+    "merge_sha": "20929f7e57e2b4aaf92be9f582a34b10ac02a731",
+    "validated_head_sha": "5226433b6baeb8c673bed9894807cba06140484a",
+    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36791467460",
     "postmerge_runs": [
-      36790846166,
-      36790846061,
-      36790846028
+      36791610376,
+      36791610377,
+      36791610318
     ],
-    "verified_sample_states": 492,
-    "verified_condition_records": 565,
-    "verified_dois": 114,
-    "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
+    "verified_sample_states": 501,
+    "verified_condition_records": 577,
+    "verified_dois": 117,
+    "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
+    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -691,6 +694,23 @@
     "screened_held_additional_papers": 12,
     "tests_passed": 270,
     "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
-    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
+    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f",
+    "publication": {
+      "batch": "b71",
+      "pr": "https://github.com/PolyFT/textile-tga-database/pull/38",
+      "merge_sha": "20929f7e57e2b4aaf92be9f582a34b10ac02a731",
+      "validated_head_sha": "5226433b6baeb8c673bed9894807cba06140484a",
+      "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36791467460",
+      "postmerge_runs": [
+        36791610376,
+        36791610377,
+        36791610318
+      ],
+      "verified_sample_states": 501,
+      "verified_condition_records": 577,
+      "verified_dois": 117,
+      "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
+      "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
+    }
   }
 }
