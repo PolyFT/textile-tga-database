@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **466 unique DOI/sample/washing states**, **537 TG condition records**, and **106 papers**. The near-term target is 500 unique states; **34 remain**. The long-term target remains 2000.
+The reviewed dataset contains **470 unique DOI/sample/washing states**, **541 TG condition records**, and **108 papers**. The near-term target is 500 unique states; **30 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **466 unique DOI/sample/washing states**, **537 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 265 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 269 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -454,3 +454,13 @@ Nine genuinely new sample states add twelve TG condition records from three orig
 Original fulltext methods, exact thermal prose and LOI tables establish sample identity, treatment, ramp and atmosphere. Spinach preparation pH conflicts, unmatched screening doses, potentially reused controls and curve-only residues remain held. Entrapment-only marine dose screening is distinct from the admitted crosslinked final specimens. Source-specific access and review limitations are retained, and all fulltexts remain private. Independent review passed at exact draft hashes.
 
 Published through PR33 at merge 7b0797a02853e22184cc7204ee7843ab0d2b1cb6. All 247 tests, exact-head validation and snapshot consistency passed at 89ff41c39b305242365eb060922f42e58ffd81a3. All three postmerge workflows passed, and the writer lease was released. Snapshot SHA256: e2299167e8f466ddd3c7135b08a95edb64adbcfcc061e324b781ab6e1a38973f.
+
+
+
+## b67 citrus BC and SMSN jute sources
+
+Four genuinely new sample states add four nitrogen TG observations from two original papers. Two citrus peel-crosslinked bacterial cellulose textiles retain exact final residues with unspecified assessment temperature; the 800 C scan endpoint is kept separately. Control and 8% SMSN jute fabrics retain exact residues at 500 C. Source-specific preparations, textile forms and method limitations are explicit.
+
+Potentially reused BC controls, unmatched dose screens, washed color-fastness specimens and unpaired jute concentrations remain held. Original-source review passed at exact draft hashes; source fulltexts remain private.
+
+The b67 writer lease remains active pending exact-head CI, merge and postmerge verification.
