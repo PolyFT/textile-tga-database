@@ -1,0 +1,49 @@
+{
+  "batch": "b67",
+  "baseline_counts": [
+    466,
+    537,
+    106
+  ],
+  "summary": {
+    "added_verified_unique_states": 4,
+    "added_verified_condition_records": 4,
+    "new_source_measurement_states": 4,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b67_bc_citrus.csv",
+      "DOI": "10.1080/15440478.2025.2526095",
+      "draft_sha256": "9b2e4200fca69becb4b9c58d59a6d18dabff89b0eddee6bec325a2aa2673ca63",
+      "published_input_sha256": "a0239e0e1e4c24aa2d16a7a9399280c04a49f209d2bc543ee44ed3f34e9c4dd5",
+      "states": 2,
+      "conditions": 2,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "2ba8dc06d8191b9795c5a63c409326c564bf04d10789d38f427c5520a9a154b4",
+        "ff45f94ad495fcc7074bfd25b961ef725dc9eaf4a1c5fd79570ebbd368cd4559"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b67_jute_smsn.csv",
+      "DOI": "10.2478/pjct-2014-0039",
+      "draft_sha256": "925652e38dc7bc3e5f38ed43e232164a0aac9b115471f5c1699a74cc748f3078",
+      "published_input_sha256": "d70a1e7d62e5ef9cc9d249fb75868cd8dc774226459aeabb299c7a567aa9cf25",
+      "states": 2,
+      "conditions": 2,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "0d0457e5f6fa818d4662f7e8e1b6d6d76c4c62b2d27f78bc7abcf185f6ef64c1",
+        "0e8680b1f802e6d0a9b41cfdb9ce8190b9200dbbb1ed1b1008dd4875a313d1d6"
+      ]
+    }
+  ],
+  "limitations": [
+    "Citrus BC final residue has no explicitly attached assessment temperature and remains generic.",
+    "Jute residue is explicitly at500 C, separate from the800 C scan endpoint.",
+    "Bath concentration is not measured add-on; no stage-boundary or DSC substitutions.",
+    "Independent original-source QA checked exact draft hashes; source fulltexts remain private."
+  ]
+}
