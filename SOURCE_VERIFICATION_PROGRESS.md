@@ -463,4 +463,4 @@ Four genuinely new sample states add four nitrogen TG observations from two orig
 
 Potentially reused BC controls, unmatched dose screens, washed color-fastness specimens and unpaired jute concentrations remain held. Original-source review passed at exact draft hashes; source fulltexts remain private.
 
-The b67 writer lease remains active pending exact-head CI, merge and postmerge verification.
+Published through PR34 at merge 79172e84229ff1b5d0be47579f15aa5174cb935b. All 253 tests, exact-head validation and snapshot consistency passed at 797a48c288d31ba5defd6af0161b363832943feb. All three postmerge workflows passed and the writer lease was released. Snapshot SHA256: b47a6cdee86b2fbb5747b297c145c5d943f69517f896540321b72a552b1aed77.
