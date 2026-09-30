@@ -115,7 +115,7 @@ python scripts/validate_tg_loi.py
 
 The plotting helper defaults to the evidence-reviewed master, requires a single TG-condition stratum, and refuses empty output. For intentional legacy exploration, pass `--csv data/tg_loi_candidates.csv --exploratory`; its figure is visibly labeled and can include quarantined records. Matplotlib remains an optional pre-existing plotting dependency.
 
-Tests use local fixtures and mocked requests. A passing test suite is not a claim of successful live publisher access or scientific re-review of every paper. Rebuilds fail before replacing outputs when input ranges are invalid or an input CSV is unreadable. Validation and README counts use the same deterministic snapshot. Actions retain the existing single-writer/latest-main guard.
+Tests use local fixtures and mocked requests. A passing test suite is not a claim of successful live publisher access or scientific re-review of every paper. Rebuilds fail before replacing outputs when input ranges are invalid or an input CSV is unreadable. Validation and README counts use the same deterministic snapshot. Actions retain the single-writer/latest-main guard and use `queue: max` so up to 100 pending discovery/processing/rebuild runs are kept instead of replacing one another.
 
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
