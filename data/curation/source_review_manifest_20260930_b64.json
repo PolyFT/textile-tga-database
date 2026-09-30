@@ -1,0 +1,104 @@
+{
+  "batch": "b64",
+  "baseline_counts": [
+    417,
+    485,
+    97
+  ],
+  "summary": {
+    "added_verified_unique_states": 37,
+    "added_verified_condition_records": 37,
+    "new_source_measurement_states": 37,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b64_cn3.csv",
+      "DOI": "10.1002/pat.3029",
+      "draft_sha256": "daa7d268c6a176847b26147b06772fb8e9c4f130fc9e390159e50a3b9ef7af55",
+      "published_input_sha256": "5f09c3d228750e2911956d0be7ee723629c21d15e4c50cbc31f17eaddf9bdaa9",
+      "states": 8,
+      "conditions": 8,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "525c8256747acca43d72f48010f0c4eb9a77851cc731a4f5d8f5c0e3e73560a3",
+        "6ef01cde5eb03fe2e30eb9fe239428c7ccbf2cb6cbcbd639cb58b5b02281ac10",
+        "3e359d0ab078b323c3d0101180b07664cd54203e5e0d6ab2d072c4d594923bcf",
+        "76bdb903c3da09e6b4720f553be52e097c3ce08dec8168cb913348d258788d0d",
+        "96f5a9553f5f987e3120e2c81108c7639316ac6782bb88ee383acfe931d37514",
+        "549ea803b6b02d7304d29ea160eba8e39e224d9cf52cd0bf0366ab4cd95ccc59",
+        "15807db3a98a38ac967985249d350fbb6064a8122b691a9134de4df35ca95d2f",
+        "15aec06a8548d9dd56ea7ed7bbc559193720f2a1bbddd255a7b90c38e5056541"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b64_ehp_mhp.csv",
+      "DOI": "10.1021/ie400180f",
+      "draft_sha256": "9575161c824c089fbdcc30bacf46378a52e90fa54e0f98645c89c62b797b2bec",
+      "published_input_sha256": "d16d048589b3291cb7bc2c9ca7a2af071219a356ee74cbe1e5b4e658a15f2483",
+      "states": 8,
+      "conditions": 8,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "c3408fbaba602878c74654747240d6366ba58f2f617c56276a3d4f699a67ca69",
+        "3de71d53f7af15502aec2ffdd92d689499e46b2ad20c1aa2ff7de313ca6290e9",
+        "f97caed7b194df6070b65bf657cc4dab43c734ce12cac537225b3fe2f2eed0cc",
+        "fde43e0d55952615f3cebdf04818898dc8964de7c512011933d660a8e58b6675",
+        "7f0af32b7ec91483fb351097029629831373f3b7488d1525a57ee71ce6da6cf3",
+        "daaa2c90c2c170c05d31a0eea41a78ef0662aa24c380a13945d0ea81b5636838",
+        "b6bd88816f9600bbacca9868f7bcbffd1404dc0a28d4f2754f36f3f9846f01d1",
+        "8333a6853f4defcacbb840638eea3596525c215dbd072d132b5a71fb031b81f5"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b64_cn_mono.csv",
+      "DOI": "10.1007/s12221-012-0963-5",
+      "draft_sha256": "a30203bb29ceb22abbec320ce11d7669295caabb213ee5df4f3bb8c763987103",
+      "published_input_sha256": "9e4988473ebeca6ea6a3976ae63fae9cff141d77714220753cf3b6c4e0d0df0b",
+      "states": 4,
+      "conditions": 4,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "3f03bb033165ccf643ef0565b9564cf04446f86d256b73ba871daf092db6ea7c",
+        "0e0a73a33f84e9a887d675c473e7206743aaa6767590eb715fbc211715435a14",
+        "1156956c3fb33ab0bd4bc2928a8bfab2ab717edc313e7727ea7903f324420da1",
+        "af65c2c611b04250ba779dd77f2837a53326b454db970c9709c69ab772cefc14"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b64_woolboron2026.csv",
+      "DOI": "10.1007/s12221-026-01461-1",
+      "draft_sha256": "d8c03d22249b6ee1ed999875c3aaf94784b56c1825773738a873e820964e9737",
+      "published_input_sha256": "9b3fade34b88ed8bceb6d37d8a2a0b459022e62fcb93a8f53be795835a651315",
+      "states": 17,
+      "conditions": 17,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "4abed3cd38547c265633aa62ab7f2bc45c3db42b0cb5d120f646310570c7af7e",
+        "ae16f809bbb1549e56f84c5ccc8e67c16c43ae46aa46cb3b8133f50cf33fd001",
+        "7557f906e6c8ad5dcc4583b10b4f2f1f47f2ac50de516384ed0bb6284277ef65",
+        "c8277ba5efe473df213125b217bd6d7621d1e2b03bc0627a5faaaa6c88ea68c3",
+        "9eabf3f6d8eaf39b6df14c0f635066990205930260a5dcb2c6370288207fad78",
+        "c502dc94125da1d12da44610c788c1589254dee365a160ad282f7144fedcccd8",
+        "f686ee59a737843d42648af6fc48562e9390be5c3c9b66ad0f3bf6b6482b6a0e",
+        "209794d03db966f40ce7d19a910ee0d708aa0963cab2bf2abda3a4ec16e86fc6",
+        "7c8633272a806e607c463b333ee28d80edf951a408dc75006b67182eef7ea774",
+        "8fb195d4fecd4c388be6fb3a7a8b80e1840f1148d2ff33fe70905fd4aef71933",
+        "ac342e1d9797af3adf8e30f816107c7f99d1959359ac81290786051a0723d3b4",
+        "b3a743c21cfe6166e6bf9119e88a217e84e395a7de1e751f2b047c8b87167aa5",
+        "1ae85c7f8846b874bf023c4336b001600ecd09a015b9296059ae2d05e9cf6b47",
+        "3692a0f07b68d865ddb4f3ff7d837035b007b3518f4d391ced3f942c74439fa5",
+        "8c485391427395f699ddc81e2a7ee7efb5d4cf75f8de4ba18208a62e1f9cefef",
+        "c9a410eb4f5326b9c33aed669e641c6429b4dd687071f30bf5ae76d5a751b73a",
+        "1c9857ba7b27a8a3a86f82226ffa1e152cfc7e68c55cfa5b42a0896fa10c8a32"
+      ]
+    }
+  ],
+  "limitations": [
+    "Author-defined onset stages are not percentage-loss thresholds or DTG maxima. MCC heat-release Tmax is excluded.",
+    "Integer-rounded prose LOI summaries do not replace exact table means; contradictory controls and unpaired washes are held.",
+    "CN-1 comparison family and DEPP/CN-3 aliases are not counted as additional observations.",
+    "Independent QA checked exact draft hashes. Original source fulltexts remain private."
+  ]
+}

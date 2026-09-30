@@ -1,0 +1,92 @@
+[
+  {
+    "DOI": "10.1002/pat.3029",
+    "sample": "untreated print cloth",
+    "reason": "Original abstract LOI18 versus conclusion LOI12 unresolved; no averaging/correction."
+  },
+  {
+    "DOI": "10.1002/pat.3029",
+    "sample": "untreated twill",
+    "reason": "LOI18 and nitrogen onset327/R6002 reported, but common lab control held for independent cross-source observation reuse review; no automatic new-state assumption."
+  },
+  {
+    "DOI": "10.1002/pat.3029",
+    "sample": "40 C water-washed 18wt% twill and 22wt% print cloth",
+    "reason": "Only add-on retention after washes is reported, not matched washed TG and LOI."
+  },
+  {
+    "DOI": "10.1002/pat.3029",
+    "sample": "neat CN-3 additive and air atmosphere",
+    "reason": "Neat additive is not textile; Table3 quantitative series is nitrogen only."
+  },
+  {
+    "DOI": "10.1002/pat.3029",
+    "field": "LOI burning-time ancillary values",
+    "reason": "Table4 versus prose differs for some burn times; excluded, not used for thermal/LOI pairing."
+  },
+  {
+    "DOI": "10.1021/ie400180f",
+    "sample": "control twill",
+    "reason": "Exact TG onset327/R60014 reported in SI, but no matched exact control LOI in main Table2. No inheritance from other publications."
+  },
+  {
+    "DOI": "10.1021/ie400180f",
+    "sample": "EHP/MHP neat compounds or future laundering",
+    "reason": "Neat compounds are not textile. Durability washing explicitly deferred to future publication; no washed TG-LOI pairs."
+  },
+  {
+    "DOI": "10.1021/ie400180f",
+    "field": "MCC Tmax and TGA-FTIR band temperatures",
+    "reason": "Distinct measurements, not clean TG mass-loss/DTG data."
+  },
+  {
+    "DOI": "10.1021/ie400180f",
+    "field": "EHP-20 second onset",
+    "reason": "TableS2 258 C versus main approximate major mass loss259 C; withheld as conservative stage-definition/precision hold, first onset158 and residue29 are uncontested."
+  },
+  {
+    "DOI": "10.1007/s12221-012-0963-5",
+    "sample": "CN-1 comparison series",
+    "reason": "5/9/19wt% nitrogen TG tuples repeat pat.2008; independent new observations not proven. CN-1 14wt% LOI31Table3 versus30prose conflicts; earlier paper has17wt% with different TG. Do not merge aliases or count repeats."
+  },
+  {
+    "DOI": "10.1007/s12221-012-0963-5",
+    "sample": "controls, neat compounds and air series",
+    "reason": "No exact matched control LOI/TG series; compounds not textile; quantitativeTable4 nitrogen only."
+  },
+  {
+    "DOI": "10.1007/s12221-012-0963-5",
+    "field": "Figure4/5 caption sample aliases",
+    "reason": "Captions use CN-1/CN-2 inconsistently with text and Tables2-4. No caption-based aliasing; accepted CN table/prose identities are explicit."
+  },
+  {
+    "DOI": "10.1002/pat.2008",
+    "sample": "CN-1 untreated/highest and remaining treatments",
+    "reason": "Older source abstract highestLOI34 versusTable4/prose36; untreated17prose versus~18abstract. Only9wt% directlypairedLOI23 with nitrogen283/R60018 and air270/R60011, but later comparison repeats same thermalseries withLOI22.7, so no separate admission pending cross-publication identity/precision review. Other5/17wt% lack own LOITable4."
+  },
+  {
+    "DOI": "10.1007/s12221-026-01461-1",
+    "sample": "all five-cycle washed specimens",
+    "reason": "Tables9-11 provide washed thermal data, but Table13 LOI is initial; no same-wash LOI mapping. Do not reuse initial LOI."
+  },
+  {
+    "DOI": "10.1007/s12221-026-01461-1",
+    "field": "Table8 Ti/Tf/stage residues and DSC results",
+    "reason": "Stage-specific boundaries/residues differ from fixed810C Table7. No conversion toT5/T10 or R600/R800; DSC temperatures are not TG."
+  },
+  {
+    "DOI": "10.1007/s12221-026-01461-1",
+    "field": "add-on and retention",
+    "reason": "Table15 uses a common reference dry mass for all fabric specimens; retain bathconcentration only. Prose highest/lowest retention claims differ from Table15. No normalization or correction."
+  },
+  {
+    "DOI": "10.1007/s12221-026-01461-1",
+    "field": "Table14 comparison values",
+    "reason": "Cited literature observations are not original states; not imported."
+  },
+  {
+    "DOI": "10.4236/msa.2014.511079",
+    "status": "condition_hold_heating_rate_not_explicit",
+    "reason": "Original main Figure2 has exact onset/R600 annotations and Table3 has seven treated LOI means. Section2.3.3 cites ie400180f for ATR-IR/TGA-FTIR experiments, but standalone TGA ramp is not explicitly given; do not inherit10C/min from another paper. Residue denominator is weight at100C, not initial weight. Control Table3LOI20.9 conflicts with abstract18. No states admitted."
+  }
+]
