@@ -496,4 +496,4 @@ Seven genuinely new sample states add nine TG conditions from two original paper
 
 Three named LPU variants conflict with prose LOI and stay held. Unmatched conditioned specimens, missing comparator recipe details and gas-purge distinctions remain explicit. Seven additional source screens preserve missing thermal conditions, bulk-to-fabric mismatches, source contradictions and unavailable originals as holds. Independent original-source review passed at exact draft hashes; all source fulltexts remain private.
 
-The b70 writer lease remains active pending exact-head CI, merge and postmerge verification.
+B70 merged in PR #37 after all 267 tests and exact-head snapshot validation passed. Main contains 492 verified sample states, 565 TG conditions and 114 DOI sources. All three postmerge workflows passed; the writer lease was released. Three additional wool states have independent original-source approval and remain queued for a later data batch. A separate source-identity schema change is planned before any non-DOI proceedings can be admitted.
