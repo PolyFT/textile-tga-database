@@ -32,10 +32,15 @@
     "snapshot_sha256": "69150e3861faf4caebf0e314364e96a680080a72b86792c8f02401c1a76129b4"
   },
   "writer_lease": {
-    "owner": null,
-    "status": "released",
-    "released_at_utc": "2026-09-30T18:42:10Z",
-    "instruction": "B50 PR17 merged after exact-head CI passed161 tests, compile, scientific gate and snapshot consistency. Main readback333 states/383 conditions/77 DOI/errors[]. Recheck current main, open PRs, lease and queue before next publisher."
+    "owner": "dot-source-review-b51-20260930",
+    "status": "active",
+    "claimed_at_utc": "2026-09-30T18:50:40Z",
+    "expires_at_utc": "2026-09-30T19:50:40Z",
+    "source_scope": [
+      "10.1016/j.polymdegradstab.2026.112025",
+      "10.1080/15440478.2022.2145405"
+    ],
+    "instruction": "Single publisher for b51: three existing-pair evidence upgrades (TD,TD220,FR-L/C). All source conditions and state mapping independently checked. Preserve b50, source holds and separation of TG conditioning from specimen pretreatment."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
