@@ -1,0 +1,44 @@
+{
+  "batch": "b51",
+  "summary": {
+    "added_verified_unique_states": 3,
+    "added_verified_condition_records": 3,
+    "new_source_measurement_states": 0,
+    "existing_paired_states_evidence_upgraded": 3,
+    "reviewed_papers_added": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b51_po_radical.csv",
+      "DOI": "10.1016/j.polymdegradstab.2026.112025",
+      "draft_sha256": "8712362c246ce9988a9eff73c891f5193d4b61004510edfd3efbdba31206d925",
+      "published_input_sha256": "bfc2e92d5aae39876c4129ced4e235492b66206e74a4e15f6ef8cd7a196b0a4d",
+      "states": 2,
+      "conditions": 2,
+      "classification": "existing_paired_states_evidence_upgraded",
+      "accepted_measurement_fingerprints": [
+        "13ad8e27cf11bdc515f6eddccf5235e922f9071c34a221e54f6af26c7fc49be2",
+        "1106c70b74b0a413ad8a404ea0a31b6f0be36b73be92f0a11f0d40cd5ff120e1"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b51_lyocell_cop.csv",
+      "DOI": "10.1080/15440478.2022.2145405",
+      "draft_sha256": "bed72f127e59a1565b0f4080246cb18035ebbb841ba717efd9e14415489dbbed",
+      "published_input_sha256": "6b77c4242352bf20d10e3cc083bba3a4b9d423a430093d63549771909ea5c65b",
+      "states": 1,
+      "conditions": 1,
+      "classification": "existing_paired_states_evidence_upgraded",
+      "accepted_measurement_fingerprints": [
+        "6f881c24e177c744e4ea547184c0de5b928b533a1b546485cae843248c2cdb42"
+      ]
+    }
+  ],
+  "limitations": [
+    "Original published author/publisher text independently reviewed; no PDF pixel QA claimed.",
+    "TG moisture hold is distinct from TD220 specimen pretreatment. R700 is distinct from800C scan end; residues at Tmax remain separate.",
+    "COP chemical naming unresolved; preparative rinse distinct from durability laundering. TG-IR atmosphere/flow/mass not imported as air TG conditions.",
+    "Source-specific add-on convention retained without renormalization. Fulltext caches and private preparation files not published.",
+    "PO-paper TD is the single counted canonical state for exact TG reuse in CEJ165778 Table2. The CEJ TD state must not be admitted again. LOI test reuse is not assumed."
+  ]
+}
