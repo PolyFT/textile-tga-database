@@ -1,0 +1,17 @@
+[
+  {
+    "DOI": "10.11648/j.ijmsa.20170606.11",
+    "sample": "control",
+    "reason": "Own exact measured LOI not supplied: only generic untreated range 17-19%. R600 Table 2 is 2.3%, whereas prose says 85% loss close to 600 C. No admission."
+  },
+  {
+    "DOI": "10.11648/j.ijmsa.20170606.11",
+    "field": "LOI standard edition",
+    "reason": "Abstract/introduction cite ASTM D2863-09; methods section 2.5.3 says D2863-13. Unresolved edition retained, no correction."
+  },
+  {
+    "DOI": "10.11648/j.ijmsa.20170606.11",
+    "condition": "air",
+    "reason": "Introduction mentions air and nitrogen, but actual thermal method and numerical Table 2 specify nitrogen only. No second atmosphere created."
+  }
+]

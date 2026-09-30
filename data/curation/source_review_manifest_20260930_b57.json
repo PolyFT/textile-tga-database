@@ -1,0 +1,32 @@
+{
+  "batch": "b57",
+  "summary": {
+    "added_verified_unique_states": 6,
+    "added_verified_condition_records": 6,
+    "new_source_measurement_states": 6,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20260930_b57_supercritical2017.csv",
+      "DOI": "10.11648/j.ijmsa.20170606.11",
+      "draft_sha256": "445f5ca1fcbcc55c4dfa9b5d92b9e5757e56d73ae5c7ae8fa4bf83980eb34de5",
+      "published_input_sha256": "943da76b743d44957f4729f49b2d9e9e3749fed2845d8192f2fab522341b9896",
+      "states": 6,
+      "conditions": 6,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "fe12d558ff4eeda3b4951338bfef3fd2a8ea21676ac7c9e471e81fe0bb9441a3",
+        "078dd77d9c037c900ef5f0e5922eba429aed7ba5aeb81c87ce385fca52a582a9",
+        "7854c510b0534fc3c7ea3f8072243d3be5439aa87842312ccced49a97a0ae78a",
+        "10e17f9611cc1a57a89eecaba1ef3d15c131d89aea10f4b8192bcc2ae5b1c4f5",
+        "e5122fe4b8e81dfa2e5edb78d2a39415a72195479629d9f315464125ddf90b13",
+        "7c3e180f987d58961bc8571f9fee5570c9f426f43766113467782385b0fcda5d"
+      ]
+    }
+  ],
+  "limitations": [
+    "Six treated initial fabric states only. Source numerical conflicts, possible control reuse and unmatched washed states remain held. Conflicting ASTM edition is retained without inferred correction. No source fulltext files are published."
+  ]
+}
