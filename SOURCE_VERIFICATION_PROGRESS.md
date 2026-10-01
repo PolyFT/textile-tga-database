@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **911 unique reviewed source/sample/washing states**, **1108 TG condition records**, and **249 original sources (247 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **917 unique reviewed source/sample/washing states**, **1120 TG condition records**, and **250 original sources (248 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **911 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 710 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 716 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1046,3 +1046,16 @@ PR [#76](https://github.com/PolyFT/textile-tga-database/pull/76) merged with hea
 B107 adds 8 reviewed initial cotton sample states and 13 TG conditions, with 0 existing-pair evidence upgrades or legacy completions; 11 incomplete or conflicting fact rows remain held. Main contains 911 verified states, 1108 conditions, 247 DOI sources and 249 overall sources. All567 offline tests passed. Both complete original PDFs (27 native pages) were reviewed by one primary reviewer; no SI or independent-reviewer claim is made.
 
 Independent verification matched all11 batch file blobs at the merge commit, the 5242708-byte remote master and the complete rebuilt validation report with zero errors. All fields of1095 prior condition records and six concurrent processing-state files remained unchanged, preserving B106. Remote master SHA-256: `eb31ab21660da365080284c394cd4067e60f253272b463c24a538cb58958997c`. Dataset snapshot SHA-256: `cb283ae0a221d7316b84bf499737e6fd04b6a97772d8c28bf3c5b81b6c8eba58`. Both read-only library originals retained their hashes. Public changes include factual observations, exact source locators, tests and validation results; no original full texts, images, SI or private paths were published. Release the owned lease only after this proof is recorded.
+
+
+## b108 Local A-POSS/PA cotton original
+
+One complete published original (15 native PDF pages), **10.1016/j.cej.2020.125661**, adds **six new initial cotton states / twelve TG conditions**; zero legacy completions or evidence upgrades. All15 concise fact rows remain in incoming;three LOI-only states remain outside the target. One primary reviewer checked every native page, methods, figures, tables and captions. SI is referenced but unavailable locally; the official publisher returned HTTP403. No SI or independent-reviewer claim is made.
+
+Main Table1(PDFp5), Table2(TG,p11), Table3(LOI,p11) and methods(pp2-4) explicitly map own220g/m2 plain-woven fabric control/C1/C2/C3/C3-PDMS/C3-PDMS-TiO2 to LOI18.0/21.0/24.5/28.0/28.0/29.0. The source pristine/control is already NaOH-pretreated, rinsed and dried, not raw cotton. Each initial state has Q5000TG air/N2 at20C/min,30-800C; LOI HC-2GB/T5454-1997,58x150mm. Two gases do not add sample states. T5 retains5%loss; first decomposition and second air char-oxidation maxima retain source stage numbers. T75 stays a typed source field, not T80/T50/T10. Slashes remain blank. VFT five repeats, cone35kW/m2, neatA-POSS TG and abrasion WCA are not fabric TG/LOI conditions.
+
+C3-PDMS-TiO2 N2 R800 is33.6% in Table2 versus33.7% in p8prose: both raw reports remain, canonical residue/R800/endpoint blank for that condition, with uncontested T5/Tmax1 retained. Table1 A-POSS/PA bath molarity.067/.134/.201 and methods1/2/3mmol in30mLcombinedsolutions have unresolved concentration basis; both raw recipe reports remain without correcting either or assigning a final combined concentration. Same source-labelled preparation maps both assays. Totaldryfinishadd-on5.0/7.6/10.6/15.0/16.2% is not component fractions. TGmass/flow/repeats andLOIrepeats/uncertainty are unreported.
+
+Cotton-PDMS-TiO2LOI20.0 and five-detergent-wash(C3)5LOI24.0/(C3-PDMS-TiO2)5LOI28.0 lack ownmainTG and remain held; SI is pending. Wash protocol40C five12mincycles/ECE nonphosphatedetergent/DIrinse/dry45C8h stays distinct from50 abrasioncycles. Source fabric:detergent20:1byweight and specimen>350x500mm reports remain verbatim metadata; no inferred correction of this ratio or40x40cmpreparationgeometry. No initial TG is transferred to washed specimens. Source/sample states do not establish independent experimental replicates.
+
+Public evidence consists of concise facts and DOI/page/table/figure locators. All original files, fulltexts, images and private paths stay outside the repository; preserve previous records and concurrent processing state. Release the owned lease only after exact-head CI, ordinary merge, three successful terminal merge-SHA workflows and complete independent remote master/report verification.
