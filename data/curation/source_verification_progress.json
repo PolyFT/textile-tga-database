@@ -40,13 +40,11 @@
     "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
   },
   "writer_lease": {
-    "owner": "codex-local-cotton-wool-20261001",
-    "status": "released",
-    "batch_id": "20261001_b74",
-    "claimed_at_utc": "2026-10-01T00:27:14.778Z",
-    "scope": "Five fully reviewed local original manuscripts; 11 new independent textile states,21 conditions,11 TG-only held records; preserve separate DOI/non-DOI cohorts.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T00:37:43.127Z"
+    "owner": "dot-publication-type-reporting-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-10-01T00:41:02.792Z",
+    "scope": "Reporting-only publication-type source/state/condition counters. No observations or identity/admission changes. Preserve547 states,637 conditions,134 sources and exact accepted master bytes.",
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
   },
   "next_sources": [],
   "next_actions": [
