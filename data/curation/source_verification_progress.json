@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01 07:31:20 UTC",
+  "as_of_utc": "2026-10-01T07:35:13.415Z",
   "latest_batch_id": "20261001_b95",
   "verified_condition_records": 953,
   "verified_unique_sample_states": 788,
@@ -18,16 +18,15 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b95_merged_verified_lease_released",
+  "publication_stage": "b96_writer_claimed_for_independent_reviewed_sources",
   "last_merged_batch": "20261001_b95",
   "writer_lease": {
-    "owner": "codex-local-polyester-silk-20261001",
-    "status": "released",
-    "batch_id": "20261001_b95",
-    "claimed_at_utc": "2026-10-01T07:07:17.781Z",
-    "scope": "Six newly paired textile states/six conditions: four existing PANI/PET TG-only states completed from native printed LOI labels, two new HFPO/silk states; five complete original reviews and explicit fabric-gas, control-reuse and wool-recipe holds.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof.",
-    "released_at_utc": "2026-10-01 07:31:20 UTC"
+    "owner": "dot-source-review-b96-20261001",
+    "status": "active",
+    "batch_id": "20261001_b96",
+    "claimed_at_utc": "2026-10-01T07:35:13.415Z",
+    "scope": "Four independently reviewed original textile sources: 14 unique sample states and 20 TG conditions; silk control and finished glass/jute laminates. Preserve metric conflicts and scoped source-reuse holds.",
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks."
   },
   "next_sources": [],
   "next_actions": [
