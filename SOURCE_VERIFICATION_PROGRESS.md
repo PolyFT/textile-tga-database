@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **643 unique reviewed source/sample/washing states**, **769 TG condition records**, and **160 original sources (158 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **649 unique reviewed source/sample/washing states**, **777 TG condition records**, and **163 original sources (161 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **643 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 442 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 448 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -635,3 +635,15 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR #49 merged as `360694ec3b7be3474fa09d96a120032ab57e52bc` after exact-head validation run 36807013834 passed on `66311e73e4efc144612cd4193c080a63028d6fc1`. All 362 regression tests passed. Fifteen final-head files and the complete validation report matched the locally verified snapshot; all 757 prior condition rows retained every existing field. The three postmerge checks (36807287306, 36807287298, 36807287330) passed before release commit `d721ce7ed73e62a61f1861a40294d28c57697065`.
 
 The admitted batch adds 12 new states and 12 conditions, bringing the reviewed total to 643 states, 769 conditions and 160 sources (158 DOI and two registered non-DOI sources). Explicit preprint counts remain five sources, 15 states and 24 conditions. The scientific snapshot is `c4988be3dfe9ad1fe49695cd9a38e8052e2ebf5892b4d3b7484dfb7303f3c249`. Original source documents remain private, and all conflicting metrics and six later comparator reuse holds remain excluded.
+
+
+## b81 Complete original CS/PA, ACPMPA and SPMA cotton review
+
+Three complete local original journal articles add **6 genuinely new initial independent sample states and 8 TG conditions**, with **zero existing-state evidence upgrades**. Thirteen native TG rows are preserved; three air conditions without an explicit ramp and two SPMA compound rows with source conflicts stay outside the target. Original method and numerical/figure pixels were checked. SPMA official SI was read in full, including six tables and its one embedded image. One reviewer; no independent-reviewer or curve-estimation claim.
+
+- **10.1016/j.ijbiomac.2021.02.023:** three initial polyester/cotton65/35 fabric states Uncoated/PC-10BL/PC-20BL, LOI17.3/23.7/29.2, match Table1 and Table3 nitrogen TG at10C/min. Native10%loss is T10; stage1/2 maxima and residues explicitly700C retain their definitions. The method endpoint800C does not change R700. AirTable3 facts have no explicit own ramp and are held. The preparation heading PEI/PA onPET conflicts with consistent CS/PA blend body/title/materials; the discrepancy is explicit. Washed20BL24.8, otherbilayers and CONEchar are not substituted.
+- **10.1016/j.ijbiomac.2020.11.022:** two own initial raw/35%ACPMPA-treated cotton states, LOI18.5/49.2 fromTable3, have fourTable1 nitrogen/airTG conditions at10C/min. This local original is a publisher article-in-press proof, not a final paginated version or an author preprint. The native35%bath has unknown percentage basis and differs from24%weightgain. Char values retain assessment697C forN2treated and656C foraircontrol; N2controlabove694C andairtreated genericresidue staytemperature-unknown, with noR700 inferred. Nativewaterstage endpoints,globalTmax andrates%/C remain distinct. N2treated stage3loss24.23Table versus26.96prose andwashed30/35%identity conflicts remain explicit.
+- **10.1007/s42114-021-00348-4:** one initial UV-cured SPMA-5 cotton state at native20%add-on, LOI23.5, is matched by officialTablesS1/S2/S3/S5 andpublishedFigure5A. TG is staticN2,50-800C,10C/min,3-5mg; nativeTi182.7C is initialdecomposition with unspecifiedthreshold, notT5/T10. ItsR80026.1% andmaximumloss9.6%/min are tabulated. TwoSPMA/APP formulations retain native LOI26.5/29.8 and Table/prose swappedTi plus ambiguousFigure6C assignment, but are not approved. SPMA/APP2 washing-prose initial28 versusinitial29.8 is unresolved. Figure6C TGIR282C is not a SPMA5 peak; nonUV andwashedstates lackmatchingTG.
+- **10.1016/j.cej.2021.130556** has complete primary text review but unreviewed critical SI formulations/airTG; official SI retrieval returns403. **10.1016/j.cej.2020.128361** has partial primary review and missing critical LOI/TG SI; both addzero states, with exact review limits in the manifest/queue.
+
+Previous inputs and foreign source-version/reuse holds are preserved. Public additions contain factual data and concise DOI/table/figure locators only; source fulltexts, SI, images and privatepaths remain outside the repository. Proposed total **649 states / 777 conditions / 163 sources**, with **1351 states remaining to2000**. Exact-head CI, normal merge and independent terminal postmerge verification must precede release.

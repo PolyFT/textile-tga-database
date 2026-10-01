@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T02:47:14.204Z",
-  "latest_batch_id": "20261001_b80",
-  "verified_condition_records": 769,
-  "verified_unique_sample_states": 643,
-  "verified_dois": 158,
-  "numeric_pair_candidate_rows": 1148,
+  "as_of_utc": "2026-10-01T02:49:59.150299+00:00",
+  "latest_batch_id": "20261001_b81",
+  "verified_condition_records": 777,
+  "verified_unique_sample_states": 649,
+  "verified_dois": 161,
+  "numeric_pair_candidate_rows": 1171,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 442,
+  "cumulative_newly_completed_or_new_source_sample_states": 448,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "b81_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261001_b80",
   "writer_lease": {
     "owner": "codex-local-cspa-acpmpa-spma-20261001",
@@ -30,6 +30,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "b81 adds6new initial CS/PApolyester-cotton,ACPMPAcotton andSPMA5cotton states at8conditions. PreserveT10/stagepeaks,staticN2,sourceversion,exact656/697C versus unknownresiduetemperatures,source-native Ti/LOI/panel conflicts andwashedholds. Threeairconditions lack explicitrate; twoSPMAcompound rows remain unapprovednativefacts. TwoCEJcriticalSIreviews pending. Refreshmain/openPR/lease beforepublisher; metadata strictlyread-only.",
     "B80 preserves exact banana/licorice residue temperatures, literal recipe uncertainty and bounded nitrogen attribution. Six later control/commercial labels are reuse-held; no duplicate comparators are added.",
     "B79 adds 11 new initial PEPBP cotton and HPTP/PMEP wet-spun viscose states at 11 conditions; one HPTP control remains TG-only. Preserve native add-on denominator, static air, approximate 590 C residue temperature outside clean fixed-temperature fields, TG-versus-DSC peaks and unwashed identities. Six additional sources remain held for explicit source/form/endpoint/mapping/ramp limitations. Refresh main/open PRs/lease before the next publisher; metadata library strictly read-only.",
     "B78 explicitly labels author-preprint evidence and holds related final journal versions against duplicate sample admission. Preserve original-state, endpoint and wash limitations.",
@@ -678,7 +679,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1369,
+  "remaining_to_2000": 1351,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -726,9 +727,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 160,
+  "verified_sources": 163,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 635,
+  "verified_doi_sample_states": 641,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -762,7 +763,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1357,
+  "remaining_to_target": 1351,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -878,9 +879,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 17,
-      "sample_states": 67,
-      "condition_records": 94
+      "sources": 22,
+      "sample_states": 85,
+      "condition_records": 114
     },
     "conference_proceedings": {
       "sources": 4,
@@ -972,7 +973,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 749,
+  "verified_doi_condition_records": 769,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -1025,5 +1026,31 @@
     "author_preprint_sources_added": 0,
     "author_preprint_states_added": 0,
     "author_preprint_conditions_added": 0
+  },
+  "batch_b81": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_source_reviews_held": 2,
+    "held_air_conditions_missing_rate": 3,
+    "held_SPMA_compound_rows": 2,
+    "total_preserved_TG_rows": 13,
+    "local_validation": {
+      "baseline_conditions_all_previous_field_values_preserved": 769,
+      "new_states": 6,
+      "new_conditions": 8,
+      "evidence_upgrades": 0,
+      "snapshot_sha256": "e49178106a8e5e48adb2a53e2611ce16124fd5602d83ade8f656467955763877",
+      "master_sha256": "95562f03d35a25053973d5e9a275cab19ec7750017d6b669c6119649f2c459e3",
+      "verified_states": 649,
+      "verified_conditions": 777,
+      "verified_dois": 161,
+      "verified_sources": 163,
+      "offline_tests_passed": 367,
+      "validation_errors": []
+    }
   }
 }
