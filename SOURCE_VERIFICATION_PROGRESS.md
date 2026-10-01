@@ -681,3 +681,9 @@ All previous inputs, source-version holds and scoped reuse holds are preserved. 
 This batch adds 6 genuinely new sample states at 9 TG conditions from 4 DOI sources. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 682 states, 827 conditions and 176 sources (174 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+### B84 terminal publication checkpoint — 2026-10-01
+
+PR #53 merged as `b563eeba6d772fa16c1ba886ab03a35ed6238397` after exact-head validation run 36813443302 passed on `17a952482d078835cd3626e5eeab0afc3d50480a`. All 389 regression tests passed before snapshot materialization. Seventeen final-head files and the full validation report matched the local snapshot; all 818 prior condition rows retained every existing field. The three postmerge checks (36813768386, 36813768396, 36813768454) passed before writer-lease release `1c825a2417422879c4eab79b4298234bc994289d`.
+
+This batch adds six new states and nine conditions, bringing the dataset to 682 states, 827 conditions and 176 sources (174 DOI and two registered non-DOI sources). Explicit preprint counts remain five sources, 15 states and 24 conditions. Snapshot: `25e3524d42754218827d432032c8a19e9f3939bf7e539ebdd4fe8295b9168d50`. Source-specific form limits, native stage numbering, undefined metrics, unmatched treatments and reused comparators remain explicit. Fulltexts remain private.
