@@ -1,0 +1,93 @@
+{
+  "batch": "b114",
+  "review_completed_utc": "2026-10-01T18:22:42.546657+00:00",
+  "baseline_counts": [
+    950,
+    1170,
+    259
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 58,
+    "complete_official_SIs_reviewed": 1,
+    "official_DOCX_SI_rendered_pages": 2,
+    "total_fact_rows": 57,
+    "held_fact_rows": 49
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b114_local_aphompa_ctsgp_aspbh.csv",
+      "published_input_sha256": "bbb7946e7c23dcd1ef79f80608058981732435e3b3acf6bf86776b2a3f84005e",
+      "unique_sample_states": 5,
+      "verified_conditions": 8,
+      "held_fact_rows": 49,
+      "accepted_measurement_fingerprints": [
+        "7946b76e618d1446143e5dc744f2b2654d7aac260ab22eb00bd264c129bb9cbf",
+        "724e7e2cc402ce53c943677fafe3e47b54ab620020ab9cfb18ebead0f91dccac",
+        "33498b029aab6f51a181899d8256adb3a5bb71cdab14895090e2ec74410d0d0d",
+        "ce690179efd5b5456587ae7b2b5e626f5753decdf8e16da48f5a3170e0f2d35f",
+        "4c26a6c2859d753eff60c72ce101b73e21b75b3b52b61a91518dffb7b0dce9fb",
+        "aa5ca7d5dc03ea9770a86846e5d296f5c13174ff4c5d35bd8a05159b378a1a53",
+        "f685429cee4e2884293298016c3f64251c547d5060b1ad3a6473267e39b16d0d",
+        "0b98df73ceb28ba7603d4cd4dce506750f9b455b568072debca116dcb27bb207"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03387-0",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 14,
+      "disposition": "Initial Table1 LOI matches control and 30 percent N2 TG. Explicit prose R600 and printed R601/R602 coordinates have distinct temperatures; no rounding or curve estimation. Air ramp is not independently reported. TG interval-loss prose conflicts with figure boundaries and stays raw; stage boundaries are not T5/T10/Tmax. Graphic abstract says ATEEHP while main identity is APHOMPA; retain the source discrepancy. No other-dose or washed TG transfer."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03417-x",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 19,
+      "disposition": "All held: Table2/Fig6 identify 3 curings and 30 laundry cycles but no treated GBAP concentration; the 100 g/L standard in the laundering experiment does not identify later TG after a dose series. Control LOI19 has unspecified washing state. Early Ta peaks are moisture, not the first decomposition peak. Native DTG rate units and tensile/whiteness washing labels conflict; no corrections or graph estimates."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03469-z",
+      "accepted_states": 1,
+      "accepted_conditions": 2,
+      "held_rows": 11,
+      "disposition": "Only initial untreated control is paired. Treated initial Table1 LOI29.0 versus Table4 zero-wash LOI28.8 has no resolved cohort or uncertainty explanation, so both values and TG remain held. WG7.6 has no dose mapping. Dyed, undyed and washed specimens are distinct. Figure2 colour keys vary by panel; native table and each legend are read separately. Residue at Tmax is not R700."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03488-w",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 5,
+      "disposition": "Exact own initial control and 350 g/L TG/LOI match. Air control near-zero-char prose conflicts with a nonzero figure plateau: char remains blank, never zero; exact main Tmax344 is independently explicit. Treated Tmax300 is a generic maximum-rate temperature, not a claim of the first chronological peak. N2 treated stage ranges are not exact peaks. SI says aminopropyl while main says aminoethyl; chemistry identity remains raw/unresolved, while both assays explicitly identify the same 350 g/L ASPBH fabric. PBTCA acronym/basis is unreported. Sparse isolated Tmax344 coincidences do not establish source/sample equivalence; the new N2 multi-metric profile has no exact prior match. No independent experimental-replicate claim."
+    }
+  ],
+  "verification_limit": "Four complete local native publisher originals (58 pages), one complete official public DOCX supplement (13 paragraphs,0tables,2 rendered pages) checked by one primary reviewer. GBAP TG-dose/control-wash mapping and CTSGP treated LOI disagreement stay held. Air-control ASPBH residue conflict stays blank; explicit Tmax is retained. Unresolved amine-chain/PBTCA source metadata are documented, never repaired. No independent reviewer/physical replicate claim. No copyrighted originals/fulltext/images or private paths published.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1170,
+    "new_states": 5,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 955,
+    "verified_conditions": 1178,
+    "verified_dois": 262,
+    "verified_sources": 264,
+    "offline_tests_passed": 643,
+    "snapshot_sha256": "0297b8114bae75f2254c5a1acb100e5af8f849e47c326086aef79591ec434a81",
+    "master_sha256": "bdf17abf42694f1d8a4f9eb2b0b3c853496e47e83557efc992a49efd30240299",
+    "validation_errors": [],
+    "held_fact_rows": 49,
+    "complete_original_native_pages": 58,
+    "complete_official_SIs": 1,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
