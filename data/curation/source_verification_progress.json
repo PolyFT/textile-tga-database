@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T08:19:35.745147+00:00",
+  "as_of_utc": "2026-10-01T08:33:37.120Z",
   "latest_batch_id": "20261001_b98",
   "verified_condition_records": 1031,
   "verified_unique_sample_states": 844,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "b98_merged_verified_lease_released",
   "last_merged_batch": "20261001_b97",
   "writer_lease": {
     "owner": "dot-source-review-b98-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b98",
     "claimed_at_utc": "2026-10-01T08:18:05.083Z",
     "scope": "22 independently original-reviewed new states/22 conditions from 6 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks."
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks.",
+    "released_at_utc": "2026-10-01T08:33:37.120Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -82,7 +83,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -326,27 +327,26 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch_id": "20261001_b97",
-    "status": "merged_verified",
-    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/66",
-    "head_sha": "e6b30c36f1c4ffce017e8e689c32e31aadd17f92",
-    "merge_sha": "b8d016367e3de2db298803e5429d00cd4ece96fe",
-    "validation_run": 36833629320,
+    "batch": "b98",
+    "pr": 67,
+    "merge_sha": "ce308be776b8b28c60c970bd2ae3c37bdca5fa77",
+    "validated_head": "7c5e46aadf3219da5a7ce038a394b68db5c97336",
+    "validation_run": 36836205823,
     "postmerge_runs": [
-      36834101566,
-      36834101616,
-      36834101598
+      36836672202,
+      36836672192,
+      36836672155
     ],
-    "postmerge_status": "All three distinct merge-commit workflows terminal success; no approval bypass.",
-    "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11",
-    "master_sha256": "c4fadf9bbadf65ffeedb081fd78f5a9fe0c5a2b75294cd28e75e5171ee6fe9aa",
-    "previous_condition_records_all_fields_unchanged": 973,
-    "remote_exact_file_count": 11,
-    "independent_remote_complete_report_match": true,
-    "independent_remote_master_blob_sha": "7f0cb2b68edee1b63d397b72e3df2bbb0e45cfa3",
-    "independent_remote_master_bytes": 4362721,
-    "tests_passed": 481,
-    "concurrent_retry_state_preserved": true
+    "verified_sample_states": 844,
+    "verified_condition_records": 1031,
+    "verified_dois": 225,
+    "verified_sources": 227,
+    "verified_non_doi_sources": 2,
+    "verified_non_doi_sample_states": 8,
+    "verified_author_preprint_sources": 8,
+    "verified_author_preprint_sample_states": 23,
+    "verified_author_preprint_condition_records": 33,
+    "snapshot_sha256": "b903d0c910a55b13cce70edac0e70592361d0b52819a2658ea227e4aca5c2a54"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -1603,6 +1603,24 @@
     "non_DOI_sources_added": 0,
     "author_preprint_sources_added": 1,
     "author_preprint_states_added": 4,
-    "author_preprint_conditions_added": 4
+    "author_preprint_conditions_added": 4,
+    "tests_passed": 490,
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/67",
+    "publication": {
+      "status": "merged_verified",
+      "head_sha": "7c5e46aadf3219da5a7ce038a394b68db5c97336",
+      "merge_sha": "ce308be776b8b28c60c970bd2ae3c37bdca5fa77",
+      "validation_run": 36836205823,
+      "postmerge_runs": [
+        36836672202,
+        36836672192,
+        36836672155
+      ],
+      "postmerge_status": "All three merge-commit checks passed: validation, master rebuild and processing.",
+      "snapshot_sha256": "b903d0c910a55b13cce70edac0e70592361d0b52819a2658ea227e4aca5c2a54",
+      "previous_condition_records_all_fields_unchanged": 1009,
+      "remote_batch_file_blobs_matched": 18,
+      "independent_remote_complete_report_match": true
+    }
   }
 }
