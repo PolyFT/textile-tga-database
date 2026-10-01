@@ -1,0 +1,78 @@
+{
+  "batch": "b88",
+  "baseline_counts": [
+    707,
+    860,
+    187
+  ],
+  "summary": {
+    "added_verified_unique_states": 7,
+    "added_verified_condition_records": 7,
+    "new_source_measurement_states": 5,
+    "newly_completed_pairs": 2,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 3,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b88_pe_inline2022.csv",
+      "DOI": "10.1177/15280837221114932",
+      "draft_sha256": "db79af2244292d9019c7ca26f7efe84fb2f8ebfc913c3ec09d6f5cff096fb7d2",
+      "published_input_sha256": "a5cd69ed60f285c0283c886ce8770013140aac0cbe5cdc4a64394feab5aa2add",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "e02ca6641be0517af499f040d71d5cf9b5d235a278beda10efd5ff08ac192016",
+        "0fdcd81eebe2f5d75119067370b4fd0d27ee8c72d840081bac411550aa87d88f",
+        "12e746d46267db5248b0d433505b9cfcdf492e2ad1edf598a4b6ce7cd4c87d68"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b88_fluorochem2003.csv",
+      "DOI": "10.1177/1528083703034627",
+      "draft_sha256": "d019903c21dcfdcffe9249f6e1fc5b854c8a86b0872e19f406c2894f6687d009",
+      "published_input_sha256": "11bfe3a02b02f1b10ea10587492e28a673dd8ab38cba641e1ace840cadb5203a",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "newly_completed_legacy_TG_only_pairs",
+      "legacy_TG_records": [
+        "CTG0060",
+        "CTG0068"
+      ],
+      "accepted_measurement_fingerprints": [
+        "80e9f3b3af44434b2ad4778960434fa99500d70361976ac1bd3bc83455be3514",
+        "41438d5a37aacedd38d1242d8e8db2c2133c9cf0c39c579d6276e130b06fa1b2"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b88_pa6wg2017.csv",
+      "DOI": "10.14314/polimery.2017.861",
+      "draft_sha256": "900cb0a9027fce51d56318503a7c03940fd78fa16b88056fff6653d15e38fe66",
+      "published_input_sha256": "1bfc72ffb97391cea3f76b9b596f5a0cab0eb229555437f700525201aaa77c1b",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "e804461b1407ad73e500cbd15b2878431ae5d248db86db1442bb927f49e3045e",
+        "50ab8344757b2b2f9bbdd1de39f8ab4e76410b125c95616ee48bcee30ed39ecc"
+      ]
+    }
+  ],
+  "related_source_holds": [],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
