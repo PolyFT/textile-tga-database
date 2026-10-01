@@ -1,0 +1,273 @@
+[
+  {
+    "DOI": "10.1016/j.tca.2011.01.007",
+    "sample": "entire source",
+    "reason": "Only the publisher abstract, materials section, and partial thermal discussion were retrieved. Main Table 4 and exact LOI, atmosphere, and ramp remain unavailable; no numerical facts were inferred from secondary literature. The primary thermal excerpt says 95 C for the recipe, while a secondary 2013 paper says 92 C; do not reconcile by guessing. Zero states admitted."
+  },
+  {
+    "DOI": "10.1016/j.tca.2011.03.029",
+    "sample": "Pure wool",
+    "LOI_pct": 25.4,
+    "residue_pct": 30.8,
+    "source_second_pyrolysis_range_C": "190-326",
+    "source_second_pyrolysis_mass_loss_pct": 34.08,
+    "source_third_pyrolysis_range_C": "391-597",
+    "reason": "Exact values from original Tables 4/5 are available, but the control LOI and residue duplicate the 2010 paper and the third-stage range matches. No independent new control is claimed. Kept separately for cross-publication review."
+  },
+  {
+    "DOI": "10.1002/app.35353",
+    "sample": "Pure wool",
+    "LOI_pct": 25.4,
+    "residue_pct": 29.4,
+    "source_second_pyrolysis_range_C": "190-326",
+    "source_second_pyrolysis_mass_loss_pct": 34.08,
+    "source_third_pyrolysis_range_C": "391-597",
+    "reason": "The same LOI of 25.4, second-stage and third-stage ranges, and DSC enthalpy of 140.2 occur in the 2011 control, but the residual mass differs. Cross-publication provenance and independence remain unresolved; no new control admission."
+  },
+  {
+    "DOI": "all reviewed sources",
+    "sample": "Other CCD recipes, modeled optima and washed specimens",
+    "reason": "CCD tables optimize vertical-flame char length; no exact same-state TG/LOI table exists for each run in the reviewed evidence. The initial posttreatment rinse is not durability washing. No additional pairs."
+  },
+  {
+    "DOI": "all reviewed sources",
+    "sample": "TGA residue temperature; standard temperature metrics",
+    "reason": "Generic residual mass is retained with blank residue_temp_C. Stage ranges cannot be converted into Tonset, T5, T10, or Tmax, or used to assign 597, 599, or 600 C to the residue. No curves were digitized."
+  },
+  {
+    "DOI": "10.1002/app.35353",
+    "sample": "Statistical factor D identity",
+    "reason": "Direct methods and the Table IV specimen footnote consistently specify HCl; statistical prose and Table V specify formic acid. The draft retains this caveat and remains pending parent QA; the parent must decide whether the chemistry conflict permits admission."
+  },
+  {
+    "DOI": "all reviewed sources",
+    "sample": "PDF binaries, visual QA, and SI",
+    "reason": "Public indexed original text was retrieved. PDF binary fetches failed, so no image or pixel QA is claimed. The full 2010 paper was not exhaustively recovered; relevant methods, tables, and thermal discussion were recovered. No complete SI review or absence of SI is claimed."
+  },
+  {
+    "scope": "source completeness limitation; does not exclude staged rows under parent indexed-original-text policy",
+    "reason": "Original relevant pages 76-80 are read from the public indexed original PDF. Direct file requests consistently returned 502 connection refused. No visual table QA, complete-PDF review, PDF hash, or supplement inventory is claimed.",
+    "status": "staged_for_parent_QA_with_explicit_indexed_text_provenance"
+  },
+  {
+    "scope": "Cotton 3 / air / residue only",
+    "reason": "Original-PDF index Table 3 reports 7.7% char at 700 C; Section 3.7.1 prose says 7.6%. Do not resolve by guessing. Candidate canonical residue fields are blank; source table fact is retained only in indexed_factual_evidence.json."
+  },
+  {
+    "scope": "postlaundering state",
+    "reason": "Only MCC after laundering is reported in Table 2/Figure 4. No matching postwash TG and measured LOI; excluded."
+  },
+  {
+    "scope": "MCC Tmax values in Table 1/Table 2",
+    "reason": "These are temperature of maximum heat-release rate and not DTG maximum. No Tmax1_C is imported."
+  },
+  {
+    "scope": "TGA specimen, range, flow, uncertainty",
+    "reason": "Not specified in indexed conventional-TGA method. Do not transfer KBr preparation from RT-IR, 5 mg/700 C/1 C per second from MCC, or nitrogen flow 45 mL/min from TGA-IR."
+  },
+  {
+    "DOI": "10.5755/j01.ms.24.4.18606",
+    "sample_state": "FR-cotton",
+    "reason": "TG Table1/Fig6 labels do not distinguish wash state. Methods explicitly test some unwashed and some washed. SEM Fig4 caption/prose differ about before/after one wash. Table2 has separate 0,1,5,10 washes, so do not choose a LOI for treated TG.",
+    "TG_facts": {
+      "Tonset_C": 252,
+      "residue_580C_pct": 44.0,
+      "source_Tmax_C": [
+        326,
+        410
+      ]
+    },
+    "LOI_by_washes": {
+      "0": "35.2+/-0.1",
+      "1": "28.6+/-0.2",
+      "5": "26.2+/-0.1",
+      "10": "25.4+/-0.2"
+    }
+  },
+  {
+    "DOI": "10.5755/j01.ms.24.4.18606",
+    "sample_state": "postwashing recipe",
+    "reason": "Fig1 specifies Na2CO3 0.5g/L at40C; \u00a72.3 text says distilledwater at40C10min. No correction selected."
+  },
+  {
+    "DOI": "10.5755/j01.ms.24.4.18606",
+    "sample_state": "CEPAM+ andPCEPAM powders",
+    "reason": "Additive TG cannot pair to fabric LOI."
+  },
+  {
+    "DOI": "10.5755/j01.ms.24.4.18606",
+    "sample_state": "normalized Tmax and LOI SD",
+    "reason": "Tmax definition omits rate; retained raw only. LOI uncertainty type/replicate count unreported."
+  },
+  {
+    "DOI": "10.1177/1558925019898946",
+    "status": "held_TG_endpoint_and_residue_conflict",
+    "reason": "Methods end700 C versus residue prose800 C; OPF56% and OPFHA-MEA68% residues not admitted or reassigned to700 C. Other OPF states have measured LOI but no unconflicted exact same-state TG metric."
+  },
+  {
+    "scope": "TG_end_C",
+    "reason": "Methods end600C; Figure5 curves/axis extend towards700C. Canonical endpoint blank. This does not change explicit T5/T50/R400 and Section3.3 R600."
+  },
+  {
+    "scope": "Tg/Td",
+    "reason": "Simultaneous TG-DSC metrics; no source statement assigning Td to maximum DTG rate. Raw only; no normalizedTmax."
+  },
+  {
+    "scope": "exact coating add-on",
+    "reason": "Only approximately30% weight uptake reported collectively; no exact row-specific add-on."
+  },
+  {
+    "scope": "instrument description",
+    "reason": "Paper calls instrument simultaneousTG/DSC NetzschDSC204. Retain source wording without guessing a different device."
+  },
+  {
+    "scope": "potential future duplicate source",
+    "DOI": "10.1016/j.porgcoat.2022.107255",
+    "reason": "Same author/oligomer and MA among reactive diluents. Current source cites earlier paper for synthesis,not numericalTG/LOI reuse. Earlier original fulltext unavailable; no rows from that source currently exist in master/queue. Check cross-paper data before adding it later."
+  },
+  {
+    "scope": "postabrasion/postwash",
+    "reason": "No matched TG and measuredLOI supplied; no extra states."
+  },
+  {
+    "DOI": "10.32710/tekstilvekonfeksiyon.675352",
+    "sample_state": "Cloisite 20A powder",
+    "reason": "Table 3/Figure 4 are additive-only TG, not fabric TG; cannot pair with fabric LOI. General 600 C scan statement conflicts with powder figure/table 1096.6 C; excluded entirely."
+  },
+  {
+    "DOI": "10.32710/tekstilvekonfeksiyon.675352",
+    "sample_state": "B and C coated fabrics",
+    "reason": "Table 2 defines 5 and 10 g/kg recipes and Table 6 gives vertical burning results, but no TGA Table 4 row and no LOI Table 7 result. Section 3.5 explicitly tests only treated A and D by LOI. No interpolation."
+  },
+  {
+    "DOI": "10.32710/tekstilvekonfeksiyon.675352",
+    "sample_state": "cited background cotton LOI 18.4%",
+    "reason": "Introductory value explicitly attributed to Ghoranneviss and Shahidi 2014; not own-measured UT LOI. Current UT value is 18.2% in Table 7 and Section 3.5."
+  },
+  {
+    "DOI": "10.32710/tekstilvekonfeksiyon.675352",
+    "sample_state": "R600, T5/T10, Tmax, add-on, LOI uncertainty/replicates",
+    "reason": "No direct exact source values for these fields. Residue stays at 594.30 C; decomposition beginning is not assigned to a percent-loss threshold; final fabric uptake cannot be derived from paste concentrations or knife gap."
+  },
+  {
+    "scope": "CCF-AL and CCF-CL",
+    "reason": "First-home-laundered states LOI20/24,phosphorus3.7/5.6mg/g; no matched TG. Laundry protocol not reported. Never reuse initial TG."
+  },
+  {
+    "scope": "instrument/standard nomenclature",
+    "reason": "Source reports TG on DSCQ10 and LOI ISO4859-2. Retain strings,do not invent corrected instrument/standard."
+  },
+  {
+    "scope": "generic washing process",
+    "reason": "Introduction lists washing among generic steps; actual polymerization procedure specifies removal/air drying/60C overnight and no wash. Preserve exact prepared versus first-home-laundered labels."
+  },
+  {
+    "scope": "temperature endpoint",
+    "reason": "Method700C; exact Table2 residue explicitly600C. No R700 inferred."
+  },
+  {
+    "source_id": "Nam_Parikh_Condon_Beltwide2010_10123",
+    "DOI": "",
+    "sample_state": "all six",
+    "status": "hold_missing_doi",
+    "reason": "Original proceedings has no DOI shown. Current repository validator explicitly holds missing DOI. Do not invent DOI, reuse 2011/2012 DOI, or admit as verified without parent decision on source identifiers."
+  },
+  {
+    "source_id": "Nam_Parikh_Condon_Beltwide2010_10123",
+    "sample_state": "source Ti features and multi-rate kinetics",
+    "reason": "Ti is initial decomposition in DTG, not a normalized Tonset or T5/T10. Ea uses additional rates and is retained source-native only; no extra rate-conditioned states invented."
+  },
+  {
+    "source_id": "Nam_Parikh_Condon_Beltwide2010_10123",
+    "sample_state": "Figure 1 raw fibers",
+    "reason": "Raw greige and bleached/scoured fiber comparison lacks corresponding fabric LOI identity; excluded from paired rows."
+  },
+  {
+    "sample_state": "all candidates",
+    "reason": "Missing DOI; no repository gate changed. Pending source-ID support and parent original-source QA."
+  },
+  {
+    "sample_state": "1,2,3",
+    "reason": "5wt% PA: table LOI19/20/20 versus explicit prose20/21/20. Prose also misidentifies experiments2/3 as10wt% and assigns20/21, so state3 held conservatively despite one matching later sentence."
+  },
+  {
+    "sample_state": "4,5,6",
+    "reason": "10wt% PA table21/22/22 versus explicit prose22/23/23."
+  },
+  {
+    "sample_state": "8,9",
+    "reason": "50wt% PA table29/29/29 versus prose28and29 and highest29 for1bilayer. Samples8/9 lower value not unambiguously assigned. State7 independently29 throughout."
+  },
+  {
+    "sample_state": "duplicate language versions",
+    "reason": "Croatian and English are one study, not independent sources. Both preserve same table/prose conflicts."
+  },
+  {
+    "DOI": "10.1039/d5ra00402k",
+    "status": "held_missing_TG_atmosphere_after_complete_SI",
+    "reason": "Original main XML and complete official SI (10 pages) retrieved. Main gives heating rate 10 C/min but no TG atmosphere; SI contains theoretical calculations, EDX and LOI/washing tables, no thermal atmosphere. Missing atmosphere remains unresolved; no pairs admitted. Pooled residue ranges are not individual numerical observations.",
+    "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11969332/supplementaryFiles",
+    "supplement_pdf_sha256": "9535b290ddea8fc1e6ac309d851d5431f67b0eac3c0e80e9b6fbf071f14637c0"
+  },
+  {
+    "DOI": "10.1007/s10570-016-0949-3",
+    "status": "held_original_fulltext_missing",
+    "reason": "Original first-page publisher preview and TG figure caption available; complete methods and exact LOI/TG tables not retrieved. Main abstract100 g/L LOI cannot be paired with TGcaption80 g/L. No pair admitted.",
+    "source_url": "https://www.researchgate.net/publication/301704164_A_novel_durable_and_high-phosphorous-containing_flame_retardant_for_cotton_fabrics"
+  },
+  {
+    "DOI": "10.1007/s10570-021-03780-3",
+    "status": "held_original_fulltext_missing",
+    "reason": "Only original abstract/first-page preview and figure captions retrieved. Own numerical LOI not established; fulltext TG/method evidence incomplete. No pair admitted.",
+    "source_url": "https://www.researchgate.net/publication/349964156_Preparation_and_flame_retardant_properties_of_cotton_fabrics_treated_with_resorcinol_bisdiphenyl_phosphate"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2023.110366",
+    "status": "held_original_fulltext_missing",
+    "reason": "Publisher metadata and author-university research summary available, but original fulltext numeric TG/LOI and condition crosswalk not retrieved. No pair admitted.",
+    "source_url": "https://www.ryongnamsan.edu.kp/univ/en/research/success/ddb30680a691d157187ee1cf9e896d03"
+  },
+  {
+    "DOI": "10.1177/1528083703035390",
+    "status": "held_no_exact_TG_metric_rate_crosswalk",
+    "reason": "Original 18-page publisher PDF indexed text reviewed. Six Table3 LOIs are numerical, but Figures2-8 TG curves have no printed per-state metrics; degradation interval prose lacks a specific heating-rate link. Methods list five ramps for kinetics, not a unique rate for each qualitative thermal statement. Cotton/PESFR blend30/70 TG versus overall woven11/89 also needs sample-identity distinction. Do not digitize curves or import IKP kinetic parameters as TG temperatures.",
+    "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/1528083703035390"
+  },
+  {
+    "DOI": "",
+    "official_identifier": "Texas Tech Textile Topics volume XIV no10 June1986",
+    "status": "held_no_exact_TG_and_missing_ramp",
+    "reason": "All four original scanned pages visually checked. TablesI/II contain measured and calculated OI separately; Vinyon37.0 is explicitly literature-sourced, not own measurement. Air TG appears only as unlabeled curves and approximate pooled thermal descriptions; no heating rate reported. No exact-condition pair. Nominal70/30 versus actual69/31 cotton/Cordelan must remain distinct unless original bridge established.",
+    "source_url": "https://www.depts.ttu.edu/fbri/newsletter/PDFs/ttjun86.pdf"
+  },
+  {
+    "DOI": "10.1177/073490418300100205",
+    "status": "held_original_fulltext_not_retrieved",
+    "reason": "Publisher abstract and first indexed original page confirm cotton/wool blend inventory and TG/LOI experiments. Original numerical tables and methods not retrieved; CiteSeer document returned404, publisherPDF cache miss. No secondary values admitted.",
+    "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/073490418300100205"
+  },
+  {
+    "DOI": "10.1007/s12221-008-0070-9",
+    "status": "held_wash_state_crosswalk",
+    "reason": "Complete author-uploaded original text read: Table4 has exact control and25.62%weight-gain TG onsets/Tmax/R700; Table3 exact LOI columns explicitly1HL and30HL. Thermal sample wash history is not linked to1HL or30HL, and Figure2 initial LOI plotted without text numeric labels. Do not assign1HL LOI to initial TG. Control prose22.8 repeatsTable3 1HL comparator and is not separate evidence of initial unwashed LOI.",
+    "source_url": "https://www.researchgate.net/publication/238360589_Flame_resistant_modification_of_silk_fabric_with_vinyl_phosphate"
+  },
+  {
+    "DOI": "10.3390/coatings15060699",
+    "status": "held_no_own_measured_LOI",
+    "reason": "Original publisher indexed methods/results give TG and vertical burning, but no own measured LOI. Introductory LOI29.0 belongs to a cited PET fabric and cannot be assigned to this nylon/cotton inventory.",
+    "source_url": "https://www.mdpi.com/2079-6412/15/6/699"
+  },
+  {
+    "DOI": "10.3390/coatings13111852",
+    "status": "held_no_own_measured_LOI",
+    "reason": "Complete publisher-author fulltext on ResearchGate covers thermal stability, thermal management and antibacterial properties. No measured LOI found in original text; absent oxygen-index testing must not be replaced by TG/DSC/fire-protection claims.",
+    "source_url": "https://www.researchgate.net/publication/375044935_AgNWs-Silane_Coatings_for_the_Functionalization_of_Aramid_Woven_Fabrics"
+  },
+  {
+    "DOI": "10.3390/coatings10121257",
+    "status": "held_no_own_measured_LOI",
+    "reason": "Original publisher methods report N2/10 C/min TG and vertical flame test GB/T5455. No measured LOI established; original thermal values and afterflame/char length cannot establish TG-LOI pairs.",
+    "source_url": "https://www.mdpi.com/2079-6412/10/12/1257"
+  }
+]

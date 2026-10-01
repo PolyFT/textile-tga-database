@@ -1,4 +1,47 @@
 {
   "schema_version": 1,
-  "sources": []
+  "sources": [
+    {
+      "stable_source_id": "proceedings:cotton.org:beltwide:2010:10123",
+      "source_type": "original_conference_proceedings",
+      "publication_identifier": "Sunghyun Nam, Dharnidhar V. Parikh and Brian Condon. Phosphorus-nitrogen synergism in the fire barrier of greige cotton nonwoven fabrics. 2010 Beltwide Cotton Conferences, New Orleans, Louisiana, January 4-7, 2010, pp. 1591-1596, paper 10123.",
+      "documents": [
+        {
+          "version": "official-original-v1",
+          "original_primary": true,
+          "primary_source_url": "https://www.cotton.org/beltwide/proceedings/2005-2022/data/conferences/2010/papers/10123.pdf",
+          "primary_document_sha256": "177bc9897a08390593f766475bb5a66bcd4a0f5324f57a10ab39e13632869b56",
+          "url_aliases": []
+        }
+      ],
+      "identity_review": {
+        "approved": true,
+        "reviewer": "Codex independent original-source identity review",
+        "reviewed_at": "2026-10-01",
+        "evidence": "Independent official-source retrieval reproduced the exact document hash; title, authors, venue, year, pages and same-state scientific evidence were checked. Exact publication binding approved before registration. Fulltexts remain private.",
+        "binding_sha256": "b88e84193585ca4a77391f6aa9aaa3417bbe33f62d8c022a2020eadc6987fc0f"
+      }
+    },
+    {
+      "stable_source_id": "proceedings:ttf.hr:phd-students-day:2018:magovac-66-67",
+      "source_type": "original_conference_proceedings",
+      "publication_identifier": "Eva Magovac. Flame Retardant Surface Modification of Cotton Textiles Using Layer-by-Layer Deposition. PhD Students Day 2018 / Dan doktoranada 2018, University of Zagreb Faculty of Textile Technology, Zagreb, 9 February 2018, pp. 66-67, ISSN 2584-6604.",
+      "documents": [
+        {
+          "version": "official-original-v1",
+          "original_primary": true,
+          "primary_source_url": "https://api.ttf.hr/documents/ElW6curTmfZtDdAA7ddayNQ9vU80636rembXqSU3gewHkfICc4WPEoLGzZfn/dan-doktoranada-2018-zbornik-radova.pdf",
+          "primary_document_sha256": "b98192dc1aef4ec7d54da1a0085d7556d80b10d834a7cea2e18bec4df67ee0a7",
+          "url_aliases": []
+        }
+      ],
+      "identity_review": {
+        "approved": true,
+        "reviewer": "Codex independent original-source identity review",
+        "reviewed_at": "2026-10-01",
+        "evidence": "Independent official-source retrieval reproduced the exact document hash; title, authors, venue, year, pages and same-state scientific evidence were checked. Exact publication binding approved before registration. Fulltexts remain private.",
+        "binding_sha256": "af38c83452055686ba82ab281d4ff842e450397dc5e990c93f442d1091fdac44"
+      }
+    }
+  ]
 }
