@@ -18,15 +18,17 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b101_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b100",
+  "publication_stage": "b101_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b101",
   "writer_lease": {
     "owner": "codex-local-cotton-siloxane-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b101",
     "claimed_at_utc": "2026-10-01 09:25:17 UTC",
     "scope": "Four original-reviewed initial cotton states/four TG conditions from two sources; four complete originals45nativepages,37concise facts33held. Preserve b100 data/publication proof; PNPDMS residue conflict withheld only metric; no transfer of optimized TG to other concentrations/washes.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete remote master/report proof."
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete remote master/report proof.",
+    "released_at_utc": "2026-10-01T09:43:45.636Z",
+    "release_reason": "Exact-head CI, ordinary PR70 merge, three successful merge-SHA workflows, 513 tests, complete remote master/report proof and unchanged original hashes verified."
   },
   "next_sources": [],
   "next_actions": [
@@ -330,28 +332,36 @@
   },
   "latest_publication": {
     "status": "merged_verified",
-    "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/69",
-    "head_sha": "5c786dddd6ad9231ea188b7329472a4f1d11efe2",
-    "merge_sha": "95eebc55f0db9995e8a9c69cdc093423ad7eefe0",
-    "validation_run": 36841484440,
+    "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/70",
+    "head_sha": "6e2653cde73a3e8d2b7cc938fe0a88cb50e6983a",
+    "merge_sha": "99d304a7213ae4c43d50c2a359dcdcc323c33c57",
+    "validation_run": 36843206217,
     "postmerge_runs": [
-      36842077611,
-      36842077781,
-      36842077530
+      36843536801,
+      36843536804,
+      36843536952
     ],
-    "postmerge_status": "All three distinct merge-commit checks passed: validation, master rebuild and processing.",
-    "snapshot_sha256": "3d10a2f0e76cc55610fc16c227aec21e912e3b0a61965f2690afc9848ea3e6e1",
-    "previous_condition_records_all_fields_unchanged": 1035,
-    "remote_batch_file_blobs_matched": 16,
+    "postmerge_status": "Three distinct merge-commit workflows finished successfully: validation, master rebuild and processing.",
+    "snapshot_sha256": "eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb",
+    "master_sha256": "41dc3ad2e2f6dbbb76abadefc9b50730017990fdd9a83bf2552cdf6ebe5d993f",
+    "independent_remote_master_bytes": 4840648,
+    "previous_condition_records_all_fields_unchanged": 1054,
+    "remote_batch_file_blobs_matched": 11,
     "independent_remote_complete_report_match": true,
-    "offline_tests_passed": 505,
-    "new_states": 19,
-    "new_conditions": 19,
+    "concurrent_retry_state_preserved": true,
+    "original_hashes_unchanged": 4,
+    "local_inventory_records_unchanged": 4,
+    "offline_tests_passed": 513,
+    "new_states": 4,
+    "new_conditions": 4,
     "existing_paired_states_evidence_upgraded": 0,
-    "verified_states": 867,
-    "verified_conditions": 1054,
-    "verified_sources": 233,
-    "released_at_utc": "2026-10-01T09:24:29.531Z"
+    "held_fact_rows": 33,
+    "verified_states": 871,
+    "verified_conditions": 1058,
+    "verified_dois": 233,
+    "verified_sources": 235,
+    "proof_doc_commit": "13d539afbbb32369c2fd738ddcd4abf9be59c738",
+    "released_at_utc": "2026-10-01T09:43:45.636Z"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -1727,6 +1737,39 @@
     "total_fact_rows": 37,
     "held_fact_rows": 33,
     "tests_passed": 513,
-    "snapshot_sha256": "eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb"
+    "snapshot_sha256": "eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb",
+    "publication": {
+      "status": "merged_verified",
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/70",
+      "head_sha": "6e2653cde73a3e8d2b7cc938fe0a88cb50e6983a",
+      "merge_sha": "99d304a7213ae4c43d50c2a359dcdcc323c33c57",
+      "validation_run": 36843206217,
+      "postmerge_runs": [
+        36843536801,
+        36843536804,
+        36843536952
+      ],
+      "postmerge_status": "Three distinct merge-commit workflows finished successfully: validation, master rebuild and processing.",
+      "snapshot_sha256": "eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb",
+      "master_sha256": "41dc3ad2e2f6dbbb76abadefc9b50730017990fdd9a83bf2552cdf6ebe5d993f",
+      "independent_remote_master_bytes": 4840648,
+      "previous_condition_records_all_fields_unchanged": 1054,
+      "remote_batch_file_blobs_matched": 11,
+      "independent_remote_complete_report_match": true,
+      "concurrent_retry_state_preserved": true,
+      "original_hashes_unchanged": 4,
+      "local_inventory_records_unchanged": 4,
+      "offline_tests_passed": 513,
+      "new_states": 4,
+      "new_conditions": 4,
+      "existing_paired_states_evidence_upgraded": 0,
+      "held_fact_rows": 33,
+      "verified_states": 871,
+      "verified_conditions": 1058,
+      "verified_dois": 233,
+      "verified_sources": 235,
+      "proof_doc_commit": "13d539afbbb32369c2fd738ddcd4abf9be59c738",
+      "released_at_utc": "2026-10-01T09:43:45.636Z"
+    }
   }
 }
