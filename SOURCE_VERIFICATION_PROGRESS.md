@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **903 unique reviewed source/sample/washing states**, **1095 TG condition records**, and **247 original sources (245 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **911 unique reviewed source/sample/washing states**, **1108 TG condition records**, and **249 original sources (247 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **903 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 702 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 710 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1028,3 +1028,13 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR #75 merged at `2448181a84a07ba4f9317e3300097b4b97adf0ee` after validation run `36855468479` passed on exact head `4ead04ae13c3a1661a4994dc9af58786869541c8`. Merge-commit validation, rebuild and processing runs `36855902423`, `36855902388` and `36855902329` all succeeded. All 14 changed public file blobs and the complete validation report matched the locally validated snapshot; all fields of the previous 1,085 condition records were preserved. The temporary workflow is absent. Local validation passed 554 tests and syntax checks.
 
 The verified total is 903 unique sample states, 1,095 TG conditions and 247 original sources (245 DOI sources and two registered proceedings). This batch adds ten new-source states, with no legacy completion or existing-pair evidence upgrade. Conflicting DDM peaks and SMPIC residues remain excluded; glass-veil generic residues retain unknown assessment temperatures. The B106 writer lease was released at `18c438fee9996087f211af33796aaeda13fdb52b` after these checks. Full original documents remain private.
+
+
+## b107 Local GCN and rGO/casein cotton originals
+
+Two complete original PDFs (27 native pages) add **eight new initial cotton states / thirteen TG conditions**, with zero legacy completions and zero existing-pair evidence upgrades. All24 concise fact rows are retained;11 remain outside the target. One primary reviewer checked all native pages, figures, tables, and methods. Neither complete original cites SI; no SI review or independent-reviewer claim is made. Conditions do not add sample states or establish independent physical specimens.
+
+- **10.1007/s10853-021-05877-3:** Five Table1 formulations (PDFp4/printed9681) have explicit LOI18.1/21.3/24.6/26.8/30.5 and air/argon TG Tables2/3 on PDFp7/9684. Own121g/m2 cotton fabric maps across both assays; captions referring to constituent fibers do not authorize separate fiber specimens. Ar is argon, not nitrogen. Residue is explicitly700C although the regularTG run ends800C at10C/min. PG4BLair T5158.5C remains sourceT5 with earlycoatingdegradation caveat, not Tonset/T10. TGmass/flow and LOIreplicates/uncertainty are unreported; MCC5mg/oxygenflow/peaktemperatures and mechanicaltestfourrepeats are not borrowed. Native totalfinish add-ons do not establish component fractions. Six washed states have Fig8c directly printed LOI labels, but no correspondingTG, and remain held. Prose claims about washedLOI trends conflict with Fig8c; no correction is inferred.
+- **10.1007/s10570-020-03356-7:** Three initial(rGO/CA)-1/-5/-10 ownplainwoven120g/m2 fabric states have LOI21.2/22.6/23.6 in explicit PDFp6prose/Fig5p7 and DTGsecondstage maxima296.7/287.4/290.9, R60024.8/29.9/32.7 in Table2PDFp7. These peaks are stored as Tmax2, leaving firstpeak/T5 curve estimates blank; more precise prose residues are retained separately and agree with table rounding. NitrogenQ500ca5mg30-600C10C/min;flow unreported. ControlLOI18.0abstract versus18.2body is unresolved, so its canonicalLOI is blank and the pair remains held. Methods report APPdip10min but Table1reports1min; the resolvedduration stays blank and both source reports remain. Materials label gamma-aminopropyltriethoxysilane as PEI while methods name polyethyleneimine; actual primeridentity remains unresolved. The same initial source-labelled formulation maps to TG andLOI; these recipe discrepancies do not create invented extra states. Preparativerinsing/reduction is distinct from durabilitywashing. Four washedstates have Table4VFTonly, no ownTG/LOI. The240min/five45minwashcycle arithmetic conflict is preserved without inferring a homewashcount. Cone residues/peaktimes are notTG.
+
+DOI/table/figure/PDFpage locators are public; original PDFs, fulltexts, images and private paths stay outside the repository. Preserve all prior records and concurrent processing state. Release the owned lease only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows, and independent complete remote master/report verification.
