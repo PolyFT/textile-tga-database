@@ -1081,3 +1081,12 @@ Three complete publisher originals (77 native PDF pages) add **twelve new initia
 Detailed source limitations, recipe uncertainties and publication versions remain in the observation fields and batch manifest.
 
 Public evidence contains concise facts and DOI/page/table/figure locators. Originals, fulltexts, images and private paths remain external. Preserve all existing rows and concurrent processing state; release the owned lease only after exact-head CI, ordinary merge, three successful merge-SHA checks and independent complete remote master/report verification.
+
+
+## b110 Publication verification
+
+PR [#78](https://github.com/PolyFT/textile-tga-database/pull/78) merged with head `5eaecde15c128ef56b7f146c8deaf9c9239d94e6` and merge commit `af90e7ca0ffe60ae739b56f966935fc36db7deaf`. Exact-head validation [run 36869697646](https://github.com/PolyFT/textile-tga-database/actions/runs/36869697646) passed. All three merge-commit workflows finished successfully: validation, master rebuild and processing.
+
+B110 adds twelve new initial cotton fabric states and fifteen TG conditions, with zero legacy completions or existing-pair evidence upgrades. Fifteen LOI-only facts remain held. Main contains929 reviewed states,1135conditions,251DOIs and253overall sources. All592 offline tests passed. Three complete publisher originals (77 native pages) were reviewed by one primary reviewer; no SI or independent-reviewer claim is made.
+
+Independent remote verification matched all11 batch file blobs, the complete5413339-byte master and the complete rebuilt report with zero errors. All original fields of1120 prior condition records, six concurrent processing-state files and the three read-only original hashes were preserved. Master SHA-256:`a0dabcfb1ac156050a3239be46951e36a0ea3cfbb6a659117a32a461d5a3b80e`;dataset snapshot:`82d73c80d4d1a995cca001a187d424811b420bc8132c0f444e26b210975cd3e7`. Public files contain concise facts, source locators, tests and validation results;original fulltexts,images,SI and private paths remain external. Release the owned lease after this proof is recorded.
