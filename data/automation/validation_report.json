@@ -619,6 +619,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b112_local_cej_paa_smb.csv",
+      "accepted_rows": 76,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_source_batch_20261001_b45.csv",
       "accepted_rows": 9,
       "quarantined_rows": 0,
@@ -1522,9 +1529,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 2349,
-  "legacy_field_complete_condition_records": 1404,
-  "numeric_pair_candidate_rows": 1605,
+  "all_loaded_rows": 2425,
+  "legacy_field_complete_condition_records": 1414,
+  "numeric_pair_candidate_rows": 1621,
   "eligible_pending_condition_records": 276,
   "quarantined_condition_records": 11,
   "quarantine_reason_counts": {
@@ -1532,21 +1539,21 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 6
   },
-  "strict_tg_loi_pairs": 1152,
-  "verified_exact_condition_records": 1152,
-  "verified_exact_sample_states": 939,
-  "verified_exact_dois": 254,
-  "verified_exact_sources": 256,
+  "strict_tg_loi_pairs": 1162,
+  "verified_exact_condition_records": 1162,
+  "verified_exact_sample_states": 946,
+  "verified_exact_dois": 257,
+  "verified_exact_sources": 259,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1144,
+  "verified_doi_condition_records": 1154,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 931,
+  "verified_doi_sample_states": 938,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 111,
-      "sample_states": 364,
-      "condition_records": 477
+      "sources": 114,
+      "sample_states": 371,
+      "condition_records": 487
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1580,24 +1587,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 287,
-  "candidate_sample_states": 1256,
-  "rows_with_numeric_loi": 1807,
-  "rows_with_any_tg_numeric": 2021,
-  "rows_missing_atmosphere_among_pair_candidates": 43,
-  "rows_missing_heating_rate_among_pair_candidates": 112,
+  "candidate_dois": 292,
+  "candidate_sample_states": 1268,
+  "rows_with_numeric_loi": 1865,
+  "rows_with_any_tg_numeric": 2043,
+  "rows_missing_atmosphere_among_pair_candidates": 47,
+  "rows_missing_heating_rate_among_pair_candidates": 114,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1061,
+  "remaining_to_target": 1054,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 690,
-    "T5_C": 372,
+    "Tmax1_C": 698,
+    "T5_C": 381,
     "Tonset_C": 170,
-    "R600_pct": 285,
-    "R700_pct": 240,
-    "R800_pct": 195
+    "R600_pct": 286,
+    "R700_pct": 243,
+    "R800_pct": 201
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "81634890a350e6cd6d0627919c8ea543029756adb605316f0b45d8d249ec3a6b"
+  "snapshot_sha256": "fc31e3335bb612b29ef3d0bffe2df329c3e3db9bc9bd7568ad87fc376d5b4fec"
 }
