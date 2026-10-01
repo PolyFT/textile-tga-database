@@ -21,14 +21,12 @@
   "publication_stage": "merged_verified_lease_released",
   "last_merged_batch": "20261001_b102",
   "writer_lease": {
-    "owner": "dot-source-review-b102-20261001",
-    "status": "released",
-    "batch_id": "20261001_b102",
-    "claimed_at_utc": "2026-10-01T09:50:17.480Z",
-    "scope": "10 independently original-reviewed new states/10 conditions from 4 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head validation, ordinary merge, complete remote snapshot verification and successful postmerge checks.",
-    "released_at_utc": "2026-10-01T10:13:12.521Z",
-    "release_reason": "Exact-head CI, ordinary PR71 merge, all three merge-commit workflows and complete remote snapshot verification succeeded."
+    "owner": "codex-local-pctsi-20261001",
+    "status": "active",
+    "batch_id": "20261001_b103",
+    "claimed_at_utc": "2026-10-01 10:18:01 UTC",
+    "scope": "Two new PCTSi initial cotton states/four N2-air conditions; two complete sources with official SIs,28facts24held. Exclude controls matching04054-8,250gL LOI concentration conflict,SPDP-PTMS preparation pH3/3.6 conflict,LOI-only concentrations/washes and calculated curves. Preserve all B102 data/publication proof.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete independent remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
