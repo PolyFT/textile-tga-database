@@ -1,5 +1,5 @@
 {
-  "report_version": 4,
+  "report_version": 5,
   "source_identity_schema_version": 1,
   "source_imports": [
     {
@@ -926,6 +926,43 @@
   "verified_non_doi_condition_records": 8,
   "verified_doi_sample_states": 539,
   "verified_non_doi_sample_states": 8,
+  "verified_publication_type_counts": {
+    "journal_article": {
+      "sources": 0,
+      "sample_states": 0,
+      "condition_records": 0
+    },
+    "conference_proceedings": {
+      "sources": 2,
+      "sample_states": 8,
+      "condition_records": 8
+    },
+    "author_preprint": {
+      "sources": 0,
+      "sample_states": 0,
+      "condition_records": 0
+    },
+    "unspecified": {
+      "sources": 132,
+      "sample_states": 539,
+      "condition_records": 629
+    },
+    "unrecognized": {
+      "sources": 0,
+      "sample_states": 0,
+      "condition_records": 0
+    },
+    "conflicting_metadata": {
+      "sources": 0,
+      "sample_states": 0,
+      "condition_records": 0
+    }
+  },
+  "verified_publication_type_metadata_issues": [],
+  "verified_author_preprint_sources": 0,
+  "verified_author_preprint_sample_states": 0,
+  "verified_author_preprint_condition_records": 0,
+  "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
   "candidate_dois": 155,
   "candidate_sample_states": 818,
@@ -946,5 +983,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab"
+  "snapshot_sha256": "97aa4a30a14eb73383fa76f5e0f066417e0a62dede70238682348fa3d646d311"
 }
