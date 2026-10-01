@@ -1,0 +1,128 @@
+{
+  "batch": "b95",
+  "review_completed_utc": "2026-10-01T07:12:49.155089+00:00",
+  "baseline_counts": [
+    782,
+    947,
+    211
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 4,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 28,
+    "total_native_numerical_TG_rows": 22,
+    "held_native_numerical_TG_conditions": 16,
+    "held_stage_or_qualitative_TG_fact_rows": 0,
+    "unmatched_LOI_only_fact_rows": 6
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b95_local_polyester_silk.csv",
+      "published_input_sha256": "76cadf0f4624b9fd9ad2640e9904061823c9ef6952e1a2d428134df626c62715",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 22,
+      "accepted_measurement_fingerprints": [
+        "4dd9fe103fee28088bc148e375e7ab0f1a9541d99a9f007e73f7d7c225cf6924",
+        "2920e9d5169551b7556e23ffbf1542ed130afd731fbaf791b51f1ae9f86d6671",
+        "9b8947d088590dcc45a4f080d65741604b16281c8406eee0e55b882df51cf90c",
+        "64d42088ea19675d569218a0204fea8c566d84e071d303558afa63a2ab16c145",
+        "a79d6984b47f824513464f9995aad1b0ef5d0c3967798853e0a965ebc5fd2cab",
+        "ed666b5b736f08a65cf29f146cef753e21a02875a07182d36b91145511b89e2e"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/app.1497",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 13,
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Publishedp793title;p794materials/compoundTG;p795fabricmethods;p796Nrdefinition;p797TableII;p798TableIII/durability;p799Figure8"
+      ],
+      "review_scope": "Completeoriginalincludingmethods/results/tables/captions/referencesreviewed;relevantnativepageschecked;noSIlisted;cachedinventorycheckedseparately,externalSIinventoryunchecked.",
+      "disposition": "Nativefull7-pageWileyjournal81:793-799 lacksprintedDOI;title/authors/year/pagesmatchlocalindex andofficialWiley DOIapp1497metadata,notfilenamealone. FabricTGSectionEvaluationp795explicit50-550C/50Cmin/SSC5200 butnoexplicitfabricatmosphere. EarlierCharacterizationparagraphair50CminnamesDCTBPPcompound;do notsilentlyattributeairtofabric. Allfabricconditionsheldpendinggasproof. GenericRfassessmenttemperatureunknown,notR550 fromrunend. NativeuntreatedTableII/III Rf0/F0/Nr0 conflictsfootnoteRu13.1/11 andfabriccurves;nozeroorselectedRu cleanresidueassigned. Fisfractionoffiber,Nrnormalizedresiduenumber,nottheTGcharpercentageornewstate. Sameinitialsample ownTableII/III numericLOI/Rf;manufacturecarbonatewash separatefrom4hboil equivalent50domesticwash. OnlyexactwashedPETLOI27prose recorded;noownwashedTG. CompoundDCTBPP8percentresidue/TBPzero notfiberTG."
+    },
+    {
+      "DOI": "10.1002/app.20689",
+      "accepted_states": 4,
+      "accepted_condition_records": 4,
+      "held_fact_rows": 0,
+      "accepted_sample_labels": [
+        "PANI-g-PET",
+        "PET",
+        "POAN-g-PET",
+        "POT-g-PET"
+      ],
+      "original_locators": [
+        "Publishedp1981DOI/title;p1982TableI/methods;p1983grafting;p1985TablesIII/IV;p1987DTGprose;p1988Figure8printedLOIlabels"
+      ],
+      "review_scope": "Completeoriginalincludingmethods/results/tables/captions/referencesreviewed;relevantnativepageschecked;noSIlisted;cachedinventorycheckedseparately,externalSIinventoryunchecked.",
+      "disposition": "Figure8 prints exactLOIbarlabels19/28.7/21.4/25.5;noheightestimation. NativeaxislabelsPEF/PANI-g-PEFetcversuscaption/textPET retained. Sameown finalfabriclabelsTableI/III/IV/Figure8;noNH3dedopingprocedureassignedtoTG/LOI:0.1N24hreflectance and0.5N12hweightlosstestareseparatecharacterizationstates. TableIIIstageI90-300Cwater/HClsmallloss is not decomppeak. TableIV Tm explicitlyDTGmajorweightlossmaximum,Ti/Tf start/endofstep retainedraw,notT5/T10 orglobalTonset. TableIIIstageendmass/loss inconsistencies retainedwithoutrenormalizing. NoTGmass/flow/reps orLOIsize/instrument/repsgiven;15x15cmgraftingspecimennotassaydimensions. One1cmfiberconductivitytestnotTG/LOIshape. Grafting denominator(W2-W1)/W1 explicit;efficiency denominatorWm different."
+    },
+    {
+      "DOI": "10.1002/app.35353",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 2,
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Publishedp1262materials/prep;p1263methods;p1264prose;p1265TableIVandTableV;p1266conclusion/references"
+      ],
+      "review_scope": "Complete6-pageoriginalincludingallmethods/results/tables/captions/referencesandnativecriticalpagesreviewed;noSIlisted,cachedinventorychecked,externalSIinventoryunchecked.",
+      "disposition": "Sameauthors/IranMerino48/2Nmplainwool/LOI25.4/controlthirdrange391-597C/DSCenthalpy140.2 sharedbetween2011ZrOCl and2012ZrAc,withdifferingcontrolTGmassloss/residue;possiblecontrolreuse,notproven,neithercontroladmittedandno whole-paperalias asserted. Genericresiduetemperatureunknown,notR600fromrunendnor597/599fromthird-stageboundary. Tablethermalranges/DSCenthalpies notTmax/T5/onset. ThreeverticalburnreplicatesnotTG/LOIreplicates. 21CCDchar-lengthruns have noownTG/LOI,noadditionalpairs. Sourceclaimscharoxidationdespitenitrogen;nativeprosepreserved,noairconditioninvented. Treatedacididentitysourceconflict:Materials/TableI/TableIVfootnote/conclusionHCl,ExperimentalDesign/regression/TableVfactorDformicacid;do notrepairorchooseactualacid. TableIVmatchedLOI26.5/residue31.06 preservednativeonly,heldforformulationconflict. Statistical77.14Cpredictedoptimumnotseparatetest;TGmassunknown,no4.72mgcopiedfrom2011."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2008.10.024",
+      "accepted_states": 2,
+      "accepted_condition_records": 2,
+      "held_fact_rows": 5,
+      "accepted_sample_labels": [
+        "20%HFPO5.8%BTCA4.6%NaH2PO2silk,1HW",
+        "Untreatedsilkcontrol"
+      ],
+      "original_locators": [
+        "Publishedp450DOI;p451materials/preparation/LOI/TGmethods;p454Table3/Figure6;p455Table6/TGprose"
+      ],
+      "review_scope": "Complete6-pageoriginalincludingallmethods/results/tables/captions/referencesandnativepages1/2/5/6reviewed;noSIlisted;cachedinventorychecked,externalSIinventoryunchecked.",
+      "disposition": "Only20HFPO5.8BTCA4.6SHP1HWtreated has samewashed-state numericTG. No initial/15HW/30HW/30HFPO TGassigned. Controluntreated inbothTable3/6;Table3LOIprintedunder1HWcolumn,controlwashnotseparatelyspecified,donotclaimcontrol1HWortransferbetweenwashedstates. Ti initialdecompositioncriterionnotdefined:rawTi notT5/T10/Tmax. NativeTable4 30HFPOBTCA5.8 conflictsTables3/5 8.7;preservenocorrection. Methoddry90C3min differsBTCA-onlyfigure2min/cure3min;do notapplyBTCA-onlyprotocol. ApproximateTGmass2-3mg,approxwash41Cnotprecise. LOIsize/instrument/repeats/TGrepeatsunknown;38x32cmisfinishingspecimen,nottestsize. Table5warp/fillretentionproseconflictnotTG."
+    },
+    {
+      "DOI": "10.1016/j.tca.2011.01.007",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 2,
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Publishedp29DOI;p30materials/prep;p31methods/TGprose;p32Tables4/5/7;p33conclusion;p34references"
+      ],
+      "review_scope": "Complete6-pageoriginalincludingallmethods/results/tables/captions/referencesandnativecriticalpagesreviewed;noSIlisted,cachedinventorychecked,externalSIinventoryunchecked.",
+      "disposition": "Sameauthors/IranMerino48/2Nmplainwool/LOI25.4/controlthirdrange391-597C/DSCenthalpy140.2 sharedbetween2011ZrOCl and2012ZrAc,withdifferingcontrolTGmassloss/residue;possiblecontrolreuse,notproven,neithercontroladmittedandno whole-paperalias asserted. Genericresiduetemperatureunknown,notR600fromrunendnor597/599fromthird-stageboundary. Tablethermalranges/DSCenthalpies notTmax/T5/onset. ThreeverticalburnreplicatesnotTG/LOIreplicates. 21CCDchar-lengthruns have noownTG/LOI,noadditionalpairs. Sourceclaimscharoxidationdespitenitrogen;nativeprosepreserved,noairconditioninvented. Treatedpreparationtemperature92C Tables4/5/7andconclusion versus95C thermalbehaviorprose;do notselectapreparationtemperatureforapprovedpair. Statistical92.23Coptimumnotseparatemeasuredsample. TG4.72mgdistinctfromDSC13.43mg."
+    }
+  ],
+  "verification_limit": "Five complete published journal originals reviewed, including source preparation, methods, tables, captions, prose and relevant native pages. One primary reviewer, no independent-reviewer claim. Only exact source-native numbers admitted; source-specific dose/peak/protocol ambiguities, curve-only and washed states remain outside target. Public numerical facts and DOI/page/table/figure provenance only;fulltexts/SI/images/private paths retained externally. Library strictly read-only.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 947,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 788,
+    "verified_conditions": 953,
+    "verified_dois": 213,
+    "verified_sources": 215,
+    "offline_tests_passed": 466,
+    "snapshot_sha256": "7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483",
+    "master_sha256": "29a2ca50fc1899da81175b833e74e01ffea32da20b7cab233332435d6f08b9cc",
+    "validation_errors": [],
+    "new_source_inventory_states": 2,
+    "newly_completed_existing_TG_only_states": 4,
+    "unchanged_inventory_records": 6
+  }
+}

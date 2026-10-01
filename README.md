@@ -126,24 +126,24 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
 
-- Legacy field-complete condition records: **1199** (not a scientific Grade-A count)
-- Numeric TG–LOI candidate rows: **1359**, across **236 DOI**
-- Field-complete, unflagged condition records awaiting evidence review: **245**
+- Legacy field-complete condition records: **1205** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **1379**, across **241 DOI**
+- Field-complete, unflagged condition records awaiting evidence review: **249**
 - Quarantined condition records: **11**; originals and reasons retained
 - Malformed input CSV records quarantined separately: **1**
-- Evidence-reviewed exact Grade-A conditions / sample states: **947 / 782**
-- DOI cohort: **211 sources / 939 conditions / 774 states**
+- Evidence-reviewed exact Grade-A conditions / sample states: **953 / 788**
+- DOI cohort: **213 sources / 945 conditions / 780 states**
 - Reviewed non-DOI cohort: **2 sources / 8 conditions / 8 states**
-- Overall reviewed sources: **213**; source identity schema **1**
-- Recorded publication types (disjoint Grade-A source identities): journal_article: **70**; conference_proceedings: **4**; author_preprint: **7**; unspecified: **132**; unrecognized: **0**; conflicting_metadata: **0**
+- Overall reviewed sources: **215**; source identity schema **1**
+- Recorded publication types (disjoint Grade-A source identities): journal_article: **72**; conference_proceedings: **4**; author_preprint: **7**; unspecified: **132**; unrecognized: **0**; conflicting_metadata: **0**
 - Sources explicitly marked `author_preprint` (without conflicting type metadata): **7 sources / 29 conditions / 19 states**
-- Target: 2000 verified sample states; remaining **1218**
+- Target: 2000 verified sample states; remaining **1212**
 
 Publication types use explicit `publication_type` metadata on Grade-A candidate rows before deduplication; pending and quarantined rows cannot classify verified sources. Non-DOI `original_conference_proceedings` also identifies conference proceedings. Missing-only labels are `unspecified`; unknown labels are `unrecognized`; disagreeing nonempty labels are `conflicting_metadata`, excluded from the author-preprint subtotal. Blank labels do not contradict an explicit source-level type. DOI presence and Grade-A numerical review do not establish journal publication or peer review.
 Unspecified or unrecognized publication types do not invalidate accepted numerical evidence. Zero explicitly marked author-preprint sources does not establish that no legacy source is a preprint.
 New author-preprint rows should explicitly record `publication_type=author_preprint` and `source_version`. These reporting fields do not change source identities, fingerprints or the evidence gate.
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `55e76e1c569347f5d6aa3c781253009a0134c1a8c025ef258f8263cea1ef458a`
+Snapshot SHA-256: `7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483`
 <!-- TG-LOI-SNAPSHOT:END -->
 
