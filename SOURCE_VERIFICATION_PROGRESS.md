@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **929 unique reviewed source/sample/washing states**, **1135 TG condition records**, and **253 original sources (251 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **939 unique reviewed source/sample/washing states**, **1152 TG condition records**, and **256 original sources (254 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **929 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 728 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 738 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1090,3 +1090,14 @@ PR [#78](https://github.com/PolyFT/textile-tga-database/pull/78) merged with hea
 B110 adds twelve new initial cotton fabric states and fifteen TG conditions, with zero legacy completions or existing-pair evidence upgrades. Fifteen LOI-only facts remain held. Main contains929 reviewed states,1135conditions,251DOIs and253overall sources. All592 offline tests passed. Three complete publisher originals (77 native pages) were reviewed by one primary reviewer; no SI or independent-reviewer claim is made.
 
 Independent remote verification matched all11 batch file blobs, the complete5413339-byte master and the complete rebuilt report with zero errors. All original fields of1120 prior condition records, six concurrent processing-state files and the three read-only original hashes were preserved. Master SHA-256:`a0dabcfb1ac156050a3239be46951e36a0ea3cfbb6a659117a32a461d5a3b80e`;dataset snapshot:`82d73c80d4d1a995cca001a187d424811b420bc8132c0f444e26b210975cd3e7`. Public files contain concise facts, source locators, tests and validation results;original fulltexts,images,SI and private paths remain external. Release the owned lease after this proof is recorded.
+
+
+## b111 Local CH/PA/Ba, amino-acid and graphene cotton originals
+
+Three complete local publisher originals (38 native pages) and one complete official DOCX supplementary file add **ten new initial fabric states / seventeen TG conditions**, with zero legacy completions and zero existing-pair evidence upgrades. All76 concise fact rows remain in incoming;59 held facts remain outside the target. One primary reviewer checked every original page and all official DOCX7 tables/paragraphs plus12 rendered pages; six video supplements were not reviewed. Repeated gas conditions and LOI replicates do not increase the state count.
+
+- **CH/PA/Ba:** three states/six conditions. PA/Ba LOI18.0 versus unnamed Lewis-reference16.4 stays held; source T10 and zero R600 are preserved. Water-stirred HFT-only states receive no initial TG/LOI.
+- **Amino-acid finishes:** four states/eight conditions. Exact prose LOI and Table5 TG agree; CY600 remains600C while the scan ends700C. Air control second peak491.2C is char oxidation. Thirty-nine graph-only and three exact40LC LOI-only states stay held; unknown bath-percent basis and uncertainty type remain unknown.
+- **Graphene:** three initial states/three N2 conditions, Table1 LOI with SI TableS4 fixed-temperature masses. K2CO3 concentration60versus2mg/mL holds that fourth state. Nominal700C versus SI run-end near800C and LOI-standard edition09versus11 are retained without choosing corrections. Generic SI onset/midpoint and DSC peaks are raw metadata, not inferred T5/T10/DTG. Washed, binder, char and feed-ratio burn-only states remain held.
+
+Public evidence contains numerical facts and DOI/page/table/figure locators. Originals, full texts, SI, images and private paths remain external. Existing data and concurrent processing files are preserved; exact-head CI, ordinary merge and complete remote verification precede lease release.
