@@ -1,0 +1,137 @@
+{
+  "batch": "b97",
+  "review_completed_utc": "2026-10-01T07:55:18.292518+00:00",
+  "baseline_counts": [
+    802,
+    973,
+    217
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 20,
+    "accepted_condition_rows": 36,
+    "new_source_inventory_states": 20,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 37,
+    "total_native_numerical_TG_rows": 37,
+    "held_native_numerical_TG_conditions": 1,
+    "held_stage_or_qualitative_TG_fact_rows": 0,
+    "unmatched_LOI_only_fact_rows": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b97_local_teos_inorganic.csv",
+      "published_input_sha256": "84f550780d60fe3d55d171fec9c2a46ce72d13462a393d532e4ec55d3c4ae28f",
+      "unique_sample_states": 20,
+      "verified_conditions": 36,
+      "held_fact_rows": 1,
+      "accepted_measurement_fingerprints": [
+        "df830a7b8364466650c7a04e1bee17cda35c2bc07f37859aaa3d1c9d2bd34f52",
+        "6439447f49608bcbbc36ac497ae12fdb0be15974f506fa51ccd2937963c89fd9",
+        "1e80695854ce6e154f9e7ab42a536d9130a4b4c0163b62ec161eb808d2bada87",
+        "00ede695d7ff362f05600d288c0cf168d53cb5b9b65d26c4a2adcbc3f4825896",
+        "9accb076d51d4f46af3a3f0c8e5cecf8271690dbc39b7eaa385d1c844913173b",
+        "2e6a51a2b85fc784548006040090ab014aae3487142030f5d3a633d95ae5746d",
+        "3d8410ab0f0481045adcd7875edbaee105bc913de57061fc2eb271e2e56bf66c",
+        "b37449df9eb79cd23989bd158e8149bd5fd7a9c3906b0f117eb4e2c2668c3c58",
+        "fd1d4d1c621b1972941e38b733e078532c0c0958fb9c8cc9d4ddbed4545f7400",
+        "6dc88c171c51e91e348ab3dee8ec0bd18e2575ec4e849ae184b15e142350568b",
+        "e14cdbd2273d2e47e2e4294e771eff15718de2ed84d5454b4d49d63cff9f2130",
+        "5862d7ba1403a3085e5029a09870413dd5241412bf8cf39d5198662a42a1e8d6",
+        "b1be42dbc35e69247097a5161179b62b1d5c5e9652015b699ad35773c6752d14",
+        "96ec3ea5bb38d0701c3f3682efa33c6ae585259c8f5be16c1b374237eefa1737",
+        "a1e4e934e399cf8e3daca87c7155a0ad9789cc144274d0ee583fd31321bf4bbc",
+        "0576666a58fb9870e11cfa79676e20d416de3ba13d1bc2c9f8d7e359648b22cc",
+        "5acdde16d2e403ecef0bbc0189fca075128186acad4adf1d1c3100872be7d4ed",
+        "15167fed570b983fcfa331b7cdbdcdebcccc87c0e2d572bf8c47d1eb8bf19eda",
+        "be151a92214dc5cc75d2e347ebe9dfeec41124ec0ce454a8e22ad9510e070556",
+        "8bc631ce8083f303b28bd61081e47db2fb2480dcd1cb301377f51e043d4de65d",
+        "4a07297ef85fab9c1f053644a071725fcbb1100264448191296ffd319084e040",
+        "549b03f639608ca76ac79f1c9876563f2dfe20f3f6e24cdfa2a1775e64ebd18c",
+        "7a89f0ed0312c5486ff0535e9ffe0e91bb1f231d4e69245cb30a64610dcbfe0b",
+        "8db9c82d028016c2a4acf6fb106fa2f0ac13604d6c760fe067f577eb366f6f8b",
+        "de58ad0df390bf7b6eab42106c8bcc591fc3519230490d120439705cce800dad",
+        "0ecc2a3d1e720d0d0502725d615b8187d2b99521eecafa6f23149546b5c272ef",
+        "beab7f335002ee60a63de875dd218f5f1247ce0ac22b0c5f2d34774ef484f7b7",
+        "acafc2a4a2eeae66d8b8b03ae7b1740e7c6d0822d655c1b56422d893ba1fdb43",
+        "09bf5fce23b27d617ebcf501c3ed6753df8dd26637489f061bf2ea7d0286d2dd",
+        "9b22396419634d6db02498e4ecdfe894d761d2415ad322aa7c39c085636c96b6",
+        "f458f0abfc9f4cc7a76e66dae2c8d9a46e9d64ceed68e885a0a6fad07450bb1c",
+        "382ee6e3b9db8560d5afd7bf13675ecfe3e226ace20ab2074f0f4feb1d2221c5",
+        "6c861d876f67e596fa302945401befccd61c34ecb366032667a2f920fa85880c",
+        "336181ec9fbcf9a612fcfcd5d697e9e33b40aec04bdaf84520ff3a953d220e61",
+        "a53506a0ca7affd3d84b12f0d30500ed4e1e23a1d6f5a44bb9bd77c2fac4970f",
+        "89d3a258d7ca8b233db1f2d81495817fb1429fbbb45d8114d7534cd5a4e8ee62"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/app.32954",
+      "accepted_states": 16,
+      "accepted_condition_records": 32,
+      "held_fact_rows": 0,
+      "accepted_sample_labels": [
+        "COT",
+        "COT-TEOS1",
+        "COT-TEOS2",
+        "COT-TEOS3",
+        "COT15",
+        "COT15-TEOS1",
+        "COT15-TEOS2",
+        "COT15-TEOS3",
+        "COT35",
+        "COT35-TEOS1",
+        "COT35-TEOS2",
+        "COT35-TEOS3",
+        "PET",
+        "PET-TEOS1",
+        "PET-TEOS2",
+        "PET-TEOS3"
+      ],
+      "original_locators": [
+        "Publishedp1961identity;p1962materials/solgel;p1963TG/LOImethods;p1964TableI;p1966TableIII ownLOI;p1965/1966Figures4/5captions;p1967/1968prose",
+        "Publishedp1961identity;p1962materials/solgel;p1963TG/LOImethods;p1965TableII;p1966TableIII ownLOI;p1965/1966Figures4/5captions;p1967/1968prose"
+      ],
+      "review_scope": "Complete9-pageoriginaltext/nativepages1-9reviewed;cachedlocalonePDFonly;externalSIinventoryunchecked",
+      "disposition": "Sameown initialfabric labels inTablesI/II/III;all9originalpagesandnativepages1-9reviewed;no curve estimates. NativeT1*/T2*/T3* definedasmaximumweightlosstemperaturescalculatedfromdifferentialTGcurves,notT5/T10/Tonset. Preserve empty component positions:PETfirst actualpeak isnativeT2*,cottonair secondactualpeak isnativeT3*. Residue explicit700Cmaycontaininorganicsilica,notpurecarbonchar. Third800Cstageprose cites priorcelluloseliterature,notown700Crun. Material calledtextilefabric;weave/GSMandTGmass/flow/replicatesunknown. Cone100x100x0.5mm/3replicates/35kWm2notTG/LOIsize orreplicates. ISO4589-2editionunknown. NativeinstrumentstringPyris1TgAQ500 retainedwithoutchoosinginstrument. TEOS/H2Omolratios1:1/2:1/3:1notfabricadd-on;EtOH/TEOS0.07mol,HCl1wt%,dibutyltindiacetate0.9wt%percentagebasisnotmoreexplicit. Blend15/35percentcottonbasisunspecified;noassumedwtbasis. TableIII deltaTTI anddeltaHRRnotLOIuncertainty;no laundering or washingstate substitution. NoSIlistedandcachednativeinventoryonlyonePDF;externalSIinventoryunchecked. Oneprimaryreviewer;no independent review."
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2011.10.032",
+      "accepted_states": 4,
+      "accepted_condition_records": 4,
+      "held_fact_rows": 1,
+      "accepted_sample_labels": [
+        "AlCO",
+        "CO",
+        "TiCO",
+        "ZrCO"
+      ],
+      "original_locators": [
+        "Publishedp2093DOI/title;p2094materials/preparation/TGmethods;p2095Table2/LOImethods;p2096Table3;p2097-2099results/captions/conclusion/references"
+      ],
+      "review_scope": "Complete7-pageoriginalandnativepages1-7reviewed;noSIlisted;cachedonePDFonly;externalSIinventoryunchecked",
+      "disposition": "Complete7-pagejournaloriginalandnativepages1-7reviewed. OwnsameinitialfabriclabelsTable2TGandTable3LOI;no silica-derivedotherfabric or muffle-onlystate substitution. NativeTonset5% explicit5%thresholdmappedT5,notglobalTonset/T10/Tmax. Table2 R360/R500/R750 directTG;R1100 footnotec explicitlyseparatemufflethermaltest1100C1h,notTG/R800 or extra state. R750maycontaininorganicoxideresidue,notpurecarbonchar. InitialcottonFratelliBallesio200gsm/asreceived differsfromTEOS2011Klopmanbase;no sharedcontrolassignedsolelyfromcotton/LOI. SourceSiCO-specific80C15h/distilledwater60C1h versusgenericallsolutions100C30min120C15min scopeunresolved;SiCO held insteadchoosingorconcatenatingprotocols. OtherTi/Zr/Al genericfinalcoatprocedureexplicit;Si60Cwashnottransferred. Add-onA=(Wf-Wi)/Wi*100 afterimpregnation/heat;sourcepostwashweighingscopeunspecified;nativeAdenominatorpreserved. TGmassca10mgrawnotexact;Pyris1TGAQ500instrumentstringretainedwithoutchoosinginstrument. LOIISO4589edition/partandtestsize/repsunknown;vertical100x20mm/5reps andcone100x100x0.5mm/4reps/error2percentnotLOI/TGfields. Combustion/flammabilityconditioning23+/-1C24h50%RHexplicit;TGconditioningnotreported. Karl-Fisherca1g/100CnotTGmass/prehold. Thirdca800Cstageinproseapproximate,notextra exactDTGpeak. NoSIlistedandcachedonePDF;externalSIinventoryunchecked. Oneprimaryreviewer;no independent review."
+    }
+  ],
+  "verification_limit": "Two complete published journal originals including allmethods/results/tables/captions/referencesandnativepages1-9/1-7reviewed. Oneprimaryreviewer;noindependentreviewer orstatisticalindependenceclaim. Sameowninitialfabriclabelschecked;exactnumeric/gas/rampcomparisontoallpriorinputrows/knownaliasqueueandnativefabricpreparationchecked. Related8sourcesinitialscreensnotclaimedcompleteextractions. SiCO-specificvsgenericheat/washscopeheld. TGresidue/DTGcomponentpositions/T5andseparatemuffle1100C retained. OnlynumericalfactsandconciseDOI/page/table/figureprovenancepublic;fulltexts/SI/images/privatepathsexternal;librarystrictlyread-only.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 973,
+    "new_states": 20,
+    "new_conditions": 36,
+    "evidence_upgrades": 0,
+    "verified_states": 822,
+    "verified_conditions": 1009,
+    "verified_dois": 219,
+    "verified_sources": 221,
+    "offline_tests_passed": 481,
+    "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11",
+    "master_sha256": "c4fadf9bbadf65ffeedb081fd78f5a9fe0c5a2b75294cd28e75e5171ee6fe9aa",
+    "validation_errors": [],
+    "new_source_inventory_states": 20,
+    "newly_completed_existing_TG_only_states": 0,
+    "unchanged_inventory_records": 2
+  }
+}
