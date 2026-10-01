@@ -564,3 +564,10 @@ Four complete primary texts reviewed. Three accepted DOI sources add **14 genuin
 - 10.1016/j.polymdegradstab.2020.109286: zero accepted states. Complete primary review held because TG wool fibers versus LOI fabric lack proven form correspondence; nitrogen residue37/38% also conflicts. Fifty-washLOI has no same-stateTG.
 
 Explicit journal-article metadata corroborated by original publisher covers for the three accepted sources; manuscript version is recorded separately. Legacy missing-type cohorts and registered proceedings remain unchanged. No independent reviewer or curve-digitization claim. Fulltexts, SI and private paths remain outside repository; the library remains strictly read-only. Proposed total:561 states/651 conditions/135 DOI sources plus2 non-DOI sources; 1439 remain to2000. Normal exact-head CI, merge and independent postmerge readback required.
+
+
+## b76 original-source expansion with explicit preprint reporting
+
+This batch adds 28 genuinely new sample states at 43 TG conditions from 10 DOI sources. Four author preprints contribute 12 states at 21 conditions and are counted explicitly as preprints. Related final journal versions remain source-wide alias/reuse holds until independent cross-version adjudication. The total is 589 states, 694 conditions and 147 sources (145 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
