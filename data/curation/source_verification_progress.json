@@ -21,13 +21,12 @@
   "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": "20261001_b80",
   "writer_lease": {
-    "owner": "dot-source-review-b80-20261001",
-    "status": "released",
-    "batch_id": "20261001_b80",
-    "claimed_at_utc": "2026-10-01T02:27:27.874Z",
-    "scope": "12 independently original-reviewed new states/12 conditions from 2 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T02:47:14.204Z"
+    "owner": "codex-local-cspa-acpmpa-spma-20261001",
+    "status": "active",
+    "batch_id": "20261001_b81",
+    "claimed_at_utc": "2026-10-01T02:49:10.813Z",
+    "scope": "Six new original-reviewed initial CS/PA polyester/cotton, ACPMPA cotton and SPMA5 cotton sample states at eight TG conditions. Thirteen native TG rows preserved; three air conditions missing explicit ramp and two source-conflicted SPMA compound rows excluded. Original/SI evidence and source versions explicit; no fulltext/privatepaths uploaded.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary approved merge and three terminal merge-SHA postmerge checks plus independent remote verification."
   },
   "next_sources": [],
   "next_actions": [
