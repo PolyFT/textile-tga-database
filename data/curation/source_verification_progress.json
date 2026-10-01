@@ -21,13 +21,12 @@
   "publication_stage": "b96_merged_verified_lease_released",
   "last_merged_batch": "20261001_b95",
   "writer_lease": {
-    "owner": "dot-source-review-b96-20261001",
-    "status": "released",
-    "batch_id": "20261001_b96",
-    "claimed_at_utc": "2026-10-01T07:35:13.415Z",
-    "scope": "14 independently original-reviewed new states/20 conditions from 4 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks.",
-    "released_at_utc": "2026-10-01T07:47:45.948Z"
+    "owner": "codex-local-teos-inorganic-20261001",
+    "status": "active",
+    "batch_id": "20261001_b97",
+    "claimed_at_utc": "2026-10-01 07:51:06 UTC",
+    "scope": "Twenty newly paired textile states/thirty-six TG conditions from two complete local journal originals: PET/cotton/blend TEOS coatings and Ti/Zr/Al cotton coatings; one SiCO heat/wash scope hold. Preserve native DTG positions, T5 and separate muffle observations.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
