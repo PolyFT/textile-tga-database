@@ -1,0 +1,93 @@
+{
+  "batch": "b113",
+  "review_completed_utc": "2026-10-01T17:12:05.267850+00:00",
+  "baseline_counts": [
+    946,
+    1162,
+    257
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 56,
+    "complete_official_SIs_reviewed": 3,
+    "official_DOCX_SI_rendered_pages": 9,
+    "total_fact_rows": 69,
+    "held_fact_rows": 61
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b113_local_2020_cotton.csv",
+      "published_input_sha256": "2b387ef6f84fb48b79d5cf8c22204d3a5689ce2234cf7252be167db4f8c9bcbc",
+      "unique_sample_states": 4,
+      "verified_conditions": 8,
+      "held_fact_rows": 61,
+      "accepted_measurement_fingerprints": [
+        "bfc89c03fddd1de2c9d8e1ee22df657874cd0796cd963c9eda12d468dd3a0702",
+        "88920f50e52b431e31bb2f9133c26b5c640355933c01920763c13f875c87e940",
+        "e2091e563943d2b7955a5c6a8a8c27229a28f96c72d2dc09dc72066349a75f01",
+        "588dc99732bbc881146a0dd99368894b32a5669c96c8639a5fce62fb545bcb70",
+        "e9fcf3a6dd8bfe500815fd520979f398714aa407e3b749e9a01b514a6cd310e3",
+        "89c9a3d1b8cab72d1dbb7b2bcff1b54926577953ef52aedb37684ff007042df6",
+        "dea1f3cfdd7baee30dc732101c602dea1bc727ecda682286ae711470e3a22906",
+        "85e745c18dd28e5214ff0caee40dcb728c5cde7bd0e37a5aea54e038e9da9e99"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03003-1",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 17,
+      "disposition": "All15nativepages reviewed. OwnTable2initialLOI18.8/40.0/43.3/45.5;only Control and35wt% exactTable4T10/Tmax/R700 bothair/N2. Air292.57/381.89/1.39 and230.88/303.14/12.55;N2300.43/392.65/16.19 and204.29/306.81/42.26. GenericTmaxmaximumweight-loss not completion temperature despite looseprose. Fig8 15/25wt%TGcurvesnotdigitized;all13washedLOIstatesheldwithoutownwashedTG. Duplicated35wt50LCWG11.75/14.43rawunresolved. Table3/6literaturecomparisonnotownfacts;conechar1.54/34.76notTG;TGIR3557/2913/2297/1730/1068wavenumbersnotTGtemperature. OfficialSIcited,localonePDF;SIreviewpending. Do not approve curves/washed states without new evidence. CompleteofficialDOCX1FigS1NMRonly,allparagraphs/0tables/2renderedpagesreviewed;noadditionalTGLOI. Oneprimaryreviewer;noindependentreviewer/physicalreplicateclaim. Originals/fulltexts/SI/privatepaths external;DOIlocatorspublic."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03064-2",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 17,
+      "disposition": "All13nativepages reviewed. OwnTable1p8initialLOIcontrol18.3/20bath36.0/25bath39.1/30bath42.3;WG0/14.9/17.8/20.3;30bath50LCremainingWG15.2notnewdose. All15washedLOI10-50LCthreebathsTable1exactbutnoownwashedTG. Onlyinitialcontrol/30bathTable3p10N2Tonset307.3/229.5,Tmax374.7/285.6,R8003.9/36.8;airTonset1236.8/219.0,Tmax1352.1/280.2;controlTonset2443.1/Tmax2470.8secondaryoxidativecharstage;airR7000.0/16.4,R8000.0/2.0. Waterbelow100Cnotcanonicalpeak. Table3bothgases20Kmin40-800Pyris1p4;TGIRseparate. Conechar1.33/37.5notTG. 20/25initialnoownTG. SIcitedmissinglocalpending. SourceATTCCtypo/482x298densityunknownunitnotrepaired;massconcnotdryfinishfractions;washconditionsnotexplicitbesidesstandard. Oneprimaryreviewer. CompleteofficialDOCX1FigS1NMRonly,allparagraphs/0tables/2renderedpagesreviewed;noadditionalTGLOI. Oneprimaryreviewer;noindependentreviewer/physicalreplicateclaim. Originals/fulltexts/SI/privatepaths external;DOIlocatorspublic."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03063-3",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 15,
+      "disposition": "All13nativepagesreviewed;noSIcitedandlocalinventoryonePDF. Table2PDFp8/Fig5p9sameexplicit3curings50LCstateN2. NativeR90019.06control/22.02neatPBN/36.61PBN30/36.72PBN60/38.08PBN90/38.16PBN120versusFig5TGat800markedlylowerfabricresidues;cannotincreasemass900withoutreportedcause/changedcondition. SourceFig5looksoxidativebutmethodN2notchanged;noairinference. HoldentireTGrecordpendingclarification;exact50LCLOI37.6PBN30/40PBN120PDFp9retainedseparately. ControlLOI~19proseapproxandbackground18.4referencecannotcleanexact. PBN60/90ownLOIabsent. Table2Ta/Tb onset/maxare distinctstagesnotT5/T10;controlTa62/79.8earlywaternotdecomposition. RawTa/Tamax/Tb/Tbmax/Ra/Rb/R900preserved;do notrepairFigure5byTable2ordigitize. Fig7p10PBN30/120LOI5/10/20/30/50LCunlabelledcurvesnotexactbesidesexplicit50LC. AbstractPBN30LOI45ownbutwashstateunclassified(couldFig7first5LC)notinitialtransfer. Allcuring/dose/WGcurvesnotdigitized. PBNpowdernottextilepairedsample;XPSat%notdryfinishfractions. SourceLOIstandardASTMD6413-08mismatchheldrawnotcorrected;washMonograph6-201630Cwithoutdetergentnotacceleratedequiv. Oneprimaryreviewer;noindependentverificationclaim."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03057-1",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 12,
+      "disposition": "All15nativepagesreviewed. Table3p10initialC1-C4LOI19.5/21.5/23.5/29.0;Table4p11after10washingcycles19.5/20.5/22/27.5allnativeuncertainty.5typeunknown. NoownwashedTG. Methodend600p3vsFig4N2700/Fig5air800/prose700and800/Table2unspecifiedresidueT:allTGfactsheldpendingcondition/endpointclarification. NativeTable2T5/T10/Tmax+Residuepreservedrawgas2x4. ControlN2T5/T10/Tmax293.9/331.5/368.5andLOI19.5exactreusemainDOI10.1016/j.matchemphys.2020.123656Purecotton;newsourcecontrolheldpendingprovenancecannotcountanotherindependentsample. Earlierexistingrecordpreserved;numericmatchnotfraudclaim. NoR700/R800endpointinferredorMCCpeaktransfer. TGsmallmoisturelossT5notTonset;Table3MCC392/368/366/362notTGTmax. Table4washingweightlossbasisprewashfinishednotnewaddon. N2C4prose45vsTable44.9;airprose16.94/26.5vsTable16.9/26.9rawunresolved. Fig12oilcycling/contactanglesnotTGLOIwashedtransfer. SIcitedS1cone/S1char/S2SEM/S3contactangleawaitreview. Oneprimaryreviewer."
+    }
+  ],
+  "verification_limit": "Four complete local native publisher originals (56 pages), three complete official public DOCX supplements (59 paragraphs,1table,9 rendered pages) checked by one primary reviewer. PBN table/curve char conflict and LAP endpoint conflicts/control numeric reuse hold all their facts. No independent reviewer/physical replicate claim. No copyrighted originals/fulltext/images or private paths published.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1162,
+    "new_states": 4,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 950,
+    "verified_conditions": 1170,
+    "verified_dois": 259,
+    "verified_sources": 261,
+    "offline_tests_passed": 631,
+    "snapshot_sha256": "74d8c4cd2d05baa33563ec99974fd0cfadbd4bbbc381945ddaf165002c282a9b",
+    "master_sha256": "902c6a8ab944253a1d00b9ca92b597402eb1473ae47e1635c6aa7fddb02f533b",
+    "validation_errors": [],
+    "held_fact_rows": 61,
+    "complete_original_native_pages": 56,
+    "complete_official_SIs": 3,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

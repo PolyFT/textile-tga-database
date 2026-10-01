@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **946 unique reviewed source/sample/washing states**, **1162 TG condition records**, and **259 original sources (257 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **950 unique reviewed source/sample/washing states**, **1170 TG condition records**, and **261 original sources (259 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **946 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 745 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 749 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1125,3 +1125,15 @@ Public evidence contains numerical facts and DOI/page/table/figure locators. Ori
 ### b112 publication proof
 
 [PR #80](https://github.com/PolyFT/textile-tga-database/pull/80) merged as `a2c019b69795ebd01e43fa38bb9c86aed92bd8e8` after exact-head [validation run 36890464664](https://github.com/PolyFT/textile-tga-database/actions/runs/36890464664) passed on `c4f0f33ce64229dc81b7e71204ae6f1dbbc2aa34`. All621 offline tests, compilation and scientific validation pass; the three merge-triggered checks also succeeded. Independent remote verification confirms946 states,1162 conditions,257 DOI sources and259 total sources. All1152 prior condition records and their fields, eleven published file blobs, seven concurrent processing files, five original hashes and the official supplement hash are preserved. The complete 5666653-byte master has SHA256 `584369c85f1afec121698ca38ba872d2a632243d1903baddcc5f49818e5bd421`; the full remote report matches a fresh rebuild. Snapshot: `fc31e3335bb612b29ef3d0bffe2df329c3e3db9bc9bd7568ad87fc376d5b4fec`. Seven new pairs, zero evidence upgrades and zero legacy completions are published;66 held facts remain excluded. The writer lease is released only after this verified publication record is saved.
+
+
+## b113 Local 2020 reaction-finished and hybrid-coated cotton originals
+
+Four complete originals (56 native pages) and three complete official DOCX supplements add **four new source/sample/washing states / eight TG conditions**, with zero legacy completions and zero existing-pair evidence upgrades. All69 fact records remain in incoming;61 holds remain outside the target. One primary reviewer checked all original pages,59 supplement paragraphs,one table and nine rendered supplement pages.
+
+- **AGATMPA:** own initial control and35wt% finish have exact Table2 LOI and Table4 T10/Tmax/R700 in air and nitrogen at20K/min. T10 is neither T5 nor Tonset; loose completion wording does not redefine maximum mass-loss temperature. Two other doses have graph-only TG;13 washed LOI states have no matching washed TG. Duplicated washed weight-gain labels remain unresolved.
+- **AMHPE:** own control and30mass% finish have exact Table1 LOI and Table3 Tonset/Tmax/residues in both gases. Air R700 and R800 remain separate values and temperatures; the control second peak is char oxidation. Two other initial doses and15 washed LOI states have no own TG and stay held.
+- **PBN:** all15 facts remain held. Table2 R900 and same-state Figure5 TG curves contradict one another. Early control moisture peaks, approximate control LOI, unclassified abstract washing state and graph-only washed LOI stay raw. Three curing runs and50 washing cycles are never paired with initial measurements.
+- **Hydrophobic LAP/NH4-HMP/HTMS:** all12 facts remain held. Method600C, nitrogen Figure4 to700C, air Figure5 to800C and unqualified residue-table headings conflict. The control LOI and three nitrogen temperatures exactly match an existing different-source control; independence/provenance remains unresolved and the new control is not counted. This numeric match does not establish misconduct. Existing records are preserved. Washed LOI never borrows initial TG.
+
+The supplements contain NMR or cone/SEM/contact-angle evidence and do not supply additional TG-LOI pairs or resolve the held conflicts. Public evidence contains numerical facts and DOI/page/table/figure locators; originals, fulltexts, SI, images and local paths remain external. Exact-head checks and complete remote verification precede lease release.
