@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **620 unique reviewed source/sample/washing states**, **746 TG condition records**, and **155 original sources (153 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **631 unique reviewed source/sample/washing states**, **757 TG condition records**, and **158 original sources (156 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **620 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 419 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 430 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -608,3 +608,17 @@ PR #47 merged as 1be0c8558ebc96aaa6ca31540d5375128dd62f4b after all 351 tests an
 The accepted inventory contains 620 sample states, 746 TG conditions and 155 sources (153 DOI sources plus two registered proceedings). This batch adds 19 new states and zero evidence-only upgrades. The explicit author-preprint cohort contains five sources, 15 states and 24 conditions. Source-version holds and sample-scoped later-control holds remain active; all 715 previous condition records preserve every prior field. Fulltext caches remain private.
 
 Snapshot SHA-256: a071e0a580415b95406f2664c57f42e37a3db2e9124cb9d34de434e8c38d654d.
+
+
+## b79 Original local cotton and wet-spun viscose review
+
+Three complete original journal papers add **11 genuinely new initial sample states and 11 TG conditions**, with **zero existing-state evidence upgrades**. Twelve native TG rows are preserved, including one unpaired HPTP control outside the target. Original methods and numerical pages were visually checked; no curve estimates are admitted.
+
+- **10.1016/j.polymdegradstab.2012.07.016:** three PEPBP cotton states at native add-on 0/5.0/21.2%, LOI 19.4/25.7/33.8, matched through Tables 1 and 2. TG is static air, 10 C/min, 100–600 C; residues at 500/550/600 C retain their native temperatures. Initial decomposition temperature is stored as Tonset with its unspecified definition, never T5 or T10. The printed add-on formula uses final mass in the denominator. The 30 wt% bath example is not assigned to every add-on. The 11.7% add-on has LOI but no matching TG.
+- **10.1007/s12221-012-0718-3:** three initial HPTP viscose fibers, FRVF-3/4/5, at 12/16/20 wt%, LOI 28.4/28.6/34.7. TG is air at 10 C/min. TG maxima 272/267/262 C are distinct from DSC peaks. Residues 6.3/8.9/11.1% were assessed at *around* 590 C; that approximate temperature is preserved separately, with no clean R600/R800 field. Control LOI is not taken from a cited value or an unlabelled curve. Washed LOI has no washed TG.
+- **10.1007/s12221-015-1005-x:** five initial PMEP viscose fibers at 0/5/10/15/20%, own unwashed Table 2 LOI 19/27/31/33/35 and Table 4 TG. TG is nitrogen at 10 C/min to 500 C. Residues belong to 500 C; DSC Table 3 is excluded. Native peak-rate values and unit/chemical-notation anomalies are retained without correction. Nominal additive percentage is not measured post-spinning retention. Durability-washed LOI is not paired with initial TG.
+- Six additional sources are held in the batch manifest and review queue, with complete versus bounded review scopes explicit. AATMP cotton has a 700/800 C endpoint conflict and ambiguous TG recipe. PPy/PA cotton and DAP/urea nonwoven have powdered-TG versus fabric-LOI issues, with prior-source LOI reuse also unresolved for DAP/urea. Silk metal-salt TG lacks a reported ramp; wool PCFC residue cannot replace curve-only TG. The Cellulose fiber-blend source has complete official SI, including Table S2 and all seven embedded images, but TG form is not specified against its twisted-web LOI form; zero states admitted.
+
+Publication types and foreign-source reuse holds are preserved. No independent reviewer is claimed. The public repository contains only factual measurements, concise DOI/locator evidence, tests and validation outputs; fulltexts, SI files, private paths and caches remain outside it. Proposed total is **631 states / 757 conditions / 158 sources**, with **1369 states remaining to 2000**. Exact-head CI, normal merge and independent terminal postmerge verification are required before release.
+
+Local verification: **356 tests pass**, validation errors `[]`, compilation and diff checks pass. All **746 previous condition records preserve every previous field value**; only the eleven new conditions are added. Snapshot SHA-256: `3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2`.

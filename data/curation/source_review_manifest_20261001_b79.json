@@ -1,0 +1,146 @@
+{
+  "batch": "b79",
+  "review_completed_utc": "2026-10-01T02:15:06.891638+00:00",
+  "baseline_counts": [
+    620,
+    746,
+    153
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 11,
+    "accepted_condition_rows": 11,
+    "new_source_inventory_states": 11,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_source_reviews_held": 6,
+    "additional_TG_only_rows": 1,
+    "total_preserved_TG_rows": 12
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b79_local_pepbp_viscose.csv",
+      "published_input_sha256": "c0f95a6211add216624feb730459a30f4994d135f5e0978c5670b009937ded94",
+      "unique_sample_states": 11,
+      "verified_conditions": 11,
+      "additional_TG_only_rows": 1,
+      "accepted_measurement_fingerprints": [
+        "cf7767e19a862f0bb9f7c7dfa2846339b82baac9691d94692ba93e508094f7c4",
+        "0d55e38e015499371761adc85402ecdd9744a7423b096f2db4fb7edbc810c935",
+        "81ea139488bdd10355ee11487fa48255e979d3a3ec25db84ce5f03e10c573377",
+        "2e7d4cb83e3e1e40725b8b2ba5a0c91e1bc7222ae0dea37afc838831ada63fb3",
+        "718186943d78dbc535d3af08282a2b43daa5dc677169b1e43ea554ba7b9cd0c4",
+        "3186305b04f22964cf5002639a807d1ffbbd029caf5ec3a451a320e90098e90c",
+        "cdb4aab67f26099f5a7a88229630300e69bf3154e1a12c0eb7cba13a12cbe66b",
+        "1a69bbc8c2c2dada5ff517ea26336678077b9e37f383858974fbc1007709e273",
+        "71738b93c8963fbca39cee7d4c2d1dd98e635374b56d31fac6703d515c695d65",
+        "74c67dadcfdf81e4786684f401a82e0bcab28e6b8b9fde0eb2613cebe7566a33",
+        "e968e369447d02c2b94d828726953874a0f0c9046a2ba506603084d8252b2903"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-012-0718-3",
+      "accepted_states": 3,
+      "accepted_condition_records": 3,
+      "TG_only_records": 1,
+      "accepted_sample_labels": [
+        "FRVF-3",
+        "FRVF-4",
+        "FRVF-5"
+      ],
+      "original_locators": [
+        "Publishedp719 methods/sample codes;p720 Flammability;p721Figures6/10/11;p722ThermalStability"
+      ],
+      "review_scope": "Complete six-page primary text/tables/captions/references read; original method,LOI/TG/DSC plots and thermal numerical text viewed. No supplement listed in primary; external supplemental inventory not inspected.",
+      "disposition": "HPTP milling prepares additive before wetspinning; no fiber TG milling reported. Water stage50-140C/about3.5% is not a degradation peak. TG Tmax272/267/262 differs from DSC endothermic262/259/254, DSC main341/307 or secondary500. Residues6.3/8.9/11.1 at around590C, notR600/R800; approximate temperature is withheld from clean fixed-temperature fields. Approximate onsets230/250 are notT5/T10. Own control LOI is not taken from the cited about19% or curve estimates. FRVF-2 has no explicit numeric TG. After30washLOI27.5 for16% is not initial-state LOI. No washed values calculated by subtracting reported reductions. LOI standard/repetitions/uncertainty,TG mass/flow unknown; burning weight loss99.7% is notTG."
+    },
+    {
+      "DOI": "10.1007/s12221-015-1005-x",
+      "accepted_states": 5,
+      "accepted_condition_records": 5,
+      "TG_only_records": 0,
+      "accepted_sample_labels": [
+        "Viscose-PMEP-0",
+        "Viscose-PMEP-5",
+        "Viscose-PMEP-10",
+        "Viscose-PMEP-15",
+        "Viscose-PMEP-20"
+      ],
+      "original_locators": [
+        "Publishedp1006 preparation/methods;p1008Table2;p1009-1010TGtext/Table4;p1010Table5"
+      ],
+      "review_scope": "Complete seven-page primary text/tables/captions/references read; originalp1006 method,p1008LOI/DSC,p1010TG table pixels checked. No supplement listed in primary; external inventory not inspected.",
+      "disposition": "Table4 temperature header prints(%) but numeric TG prose explicitly specifies degreesC; use Tmax,not DSC Table3 peaks. Native rates11.08/37.27/60.13/101.10/153.70%/min retained without correction; precision does not imply independently established uncertainty. Control endTable338.32 versus prose338.33 kept as raw conflicting fields,not clean Tend. Remaining mass at500C consistent with endpoint/endstage,not800C. NativeZn2SO4 notation and viscosity-average molecular weight22127dl/g retained as printed,not corrected. Nominal PMEP ratio is not measured postspin retention. BS5651-1978 durabilitywash is described as equivalent50familylaunderings; no assumption of50performedtests and no afterwash TG. LOIstandard/mass/dimensions/repetitions/uncertainty,TGmass/flow unspecified; soundvelocity5averages notLOI/TGreplicates. N2 TG stays N2 despite prose oxidation discussion; noT5/T10/onset inferred."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2012.07.016",
+      "accepted_states": 3,
+      "accepted_condition_records": 3,
+      "TG_only_records": 0,
+      "accepted_sample_labels": [
+        "Control cotton",
+        "PEPBP-treated cotton, native add-on 5.0%",
+        "PEPBP-treated cotton, native add-on 21.2%"
+      ],
+      "original_locators": [
+        "Publishedp2488 Table1/Sections2.4-2.6;p2489 Table2/Section3.2"
+      ],
+      "review_scope": "Complete five-page primary text/tables/captions/references read; original p2488 methods/LOI andp2489 TG/DTG/table pixels viewed. No supplement listed in primary; external supplemental inventory not inspected.",
+      "disposition": "Native add-on formula uses final Wt denominator,not conventional initial-mass weight gain. Method provides a30wt%bath example but discusses varied bath concentrations without enumerating concentrations for5.0and21.2%nativeadd-ons; do not assign30wt%toallstates. NativeNa2HPO3catalyst label retained. Nativeinitialdecompositiontemperature definition unspecified,notT5/T10; no estimated peak heights or simulated-curve values admitted. No LOI/TG repeats or uncertainty reported; no flowing-gas rate assigned in staticair.11.7%LOI28.4hasno same-state TG; purePEPBP and calculated mixture curves lack paired textile LOI."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.03.014",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "complete_primary_held",
+      "disposition": "Complete43-page primary text/tables/captions/references read andall22 appendedfigure/scheme/highlightpages viewed, selectedmethod/numericalpixelsverified. MethodTG40-700C butTable2/bodyR800andDTGaxis800 conflict. TGgenericAATMPtreatedsample notexplicitlymappedto15%beyondadjacentTGIRcontext; catalystamountunspecified,optimizationseries variescuretemperature/time. Do not assume15%TG/LOI43.9assignment. Table1 controlLOI17.7\u00b10.5; nativeTable2controlT10310\u00b15/Tmax352\u00b13,treatedT10261\u00b12/Tmax277\u00b14; retain privately,zero accepted until exactstate/conditions resolved. TGIR7mg/N2/35-600CnotTGairmethod; waterpeaknotdecomposition,T10notonset; CONE/EDXpercentagesnotTG; R60020.2 printedFigure6d notsimulated orR800. DuplicateprimaryPDFsbyte-identical."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.06.029",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "complete_primary_text_held",
+      "disposition": "Complete primary cover/body/tables/captions/references/highlights textual read; notallprintedplotsviewed. Section2.3samplescutandgroundtopowdersforTGwhileLOIusesfabricstrips. Strictformrule blocksallpairedstates;0.1mol/Lpy24.8LOI cannotmapto0.3mol/LpyTGTable2. LOIcurvevalues notdigitized."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2012.02.008",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "bounded_method_table_review_held",
+      "disposition": "Methods andTable1/2 read,notcompleteprimary. TGexplicitgroundpowderversusLOInonwovenfabric. Table2LOIexplicitrepeats priorstudy[1]; source reusecheckrequired. No pairs admitted."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2020.109378",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "bounded_method_table_review_held",
+      "disposition": "Methods/Table1TG/LOIresults boundedtextreview; notcompleteprimary. OriginalTGheatingrate absent inmethod andwholetextkeywordsearch; treatedLOIonly26-28%range andunreviewedFigure8curves, dosagecrosswalknotresolved. Control24.3andTGownnativeavailable butnoassumedrate; notcounted."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2020.109469",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "bounded_method_table_review_held",
+      "disposition": "Methods andResults3.3-3.7 boundedtextreview; TGonlycurve nativeFigure11notyetviewed, noexplicitTGnumberfoundintext. Table1char15.9/24.3/29.7\u00b1uncertainties belongPCFCnotTG. No estimate/PCFCsubstitution; notcounted."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03203-9",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "complete_primary_and_official_SI_held",
+      "disposition": "Complete ten-page primary text/tables/captions/references read; complete official supplementary DOCX paragraphs/tables and all seven embedded images reviewed. Table S2 supplies 16 exact TG records, including three recipes with own prose LOI maxima 47.5/40.3/37.4. LOI uses twisted laboratory-carded fiber webs, while TG specimen form is not specified beyond pure/blended fibers; do not assume it is the same twisted web or cone laminate. No curve digitization; no inferred TG endpoint from plotted axes. Table S2 600C residual yields differ from CONE chars. Further specimen-form crosswalk required before any admission."
+    }
+  ],
+  "verification_limit": "Three complete local originals accepted; original numerical and method pixels checked. Six other sources held with explicitly bounded review scope. For the held Cellulose source, complete official supplementary paragraphs/tables and all seven embedded images reviewed; TG specimen-form crosswalk unresolved. One primary reviewer; no independent-reviewer or curve-digitization claim. No missing rates, fixed residue temperatures, washed TG, DSC peaks, PCFC residues or bath concentrations inferred. Fulltexts, source caches and private paths remain outside the repository; the metadata library is strictly read-only.",
+  "local_validation": {
+    "offline_tests_passed": 356,
+    "validation_errors": [],
+    "snapshot_sha256": "3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2",
+    "baseline_conditions_all_previous_field_values_preserved": 746,
+    "new_sample_states": 11,
+    "new_conditions": 11,
+    "existing_state_evidence_upgrades": 0
+  }
+}
