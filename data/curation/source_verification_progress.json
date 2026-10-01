@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T14:56:55Z",
-  "latest_batch_id": "20261001_b111",
-  "verified_condition_records": 1152,
-  "verified_unique_sample_states": 939,
-  "verified_dois": 254,
-  "numeric_pair_candidate_rows": 1605,
+  "as_of_utc": "2026-10-01T16:01:00.106826+00:00",
+  "latest_batch_id": "20261001_b112",
+  "verified_condition_records": 1162,
+  "verified_unique_sample_states": 946,
+  "verified_dois": 257,
+  "numeric_pair_candidate_rows": 1621,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 738,
+  "cumulative_newly_completed_or_new_source_sample_states": 745,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b111_merged_remote_verified_lease_released",
+  "publication_stage": "b112_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261001_b110",
   "writer_lease": {
     "owner": "codex-local-cej-paa-smb-20261001",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "B112:7newcottonsource/sample/washstates10conditions,zero upgrades/legacycompletions. Fivecompleteoriginals86nativepages+officialSMBDOCXSI. CEJAgNW1/2/3TG-onlyheld;PAAonly1percentR600exact,6graphTGheld;SMBwashedseparateR700notconechar,peakmetadataheld. ASGTMPAgas/rampconflict andDCTPmissingTGgasexcludealltheirfacts. Preserve66holds,allpriorfields/concurrentfiles;metadatareadonly;refreshlease/queue/PRbeforelaterpublisher.",
     "B111:10newinitialcottonstates17conditions;zero upgrades/legacycompletions. Three complete originals38nativepages+officialGrapheneDOCX7SI. PA/Ba18.0vsLewis16.4scope andK2CO3bath60vs2mg/mL held;39aminoLOIgraphonly,threeexact40LCLOI-only,washed/binder/char/feedratiofactsheld. N2/airnoextra states;sourceT10/R600,airsecondcharpeak,DSCvsDTG distinct. Unknown assay/recipe and source standard/endpoint conflicts preserved. Refreshmain/lease/queue/PRbeforelaterpublisher.",
     "B110:12newinitialGO-ZIF/HBPOPN/AM-CS-APPcottonstates15conditions,zero upgrades/legacycompletions;15HBLOIonlystatesheld. Threecompleteoriginals77nativepages. N2GOcontrol7.4Table/7.3proseR700blank;aircontrol3.2notGO3.4. HBN2thermaloxidativewordingconflictretained,noairinferred;homeLCequivalentsandwashedstatesdistinct. AM7Fig2printedLOIs/Table3TGonlyN2,R800notconechar/airphotos;bathversusaddon,ambientstart/unknownassayvaluespreserved. Metadatareadonly;refreshmain/lease/queue/PRbeforelaterpublisher.",
     "B108:6newinitialA-POSS/PAcottonstates12air/N2conditions,zero upgrades;3LOIonlyfactsheld. C3PDMS/TiO2N2R80033.6Table2versus33.7prose unresolvedblank;retainotherTGmetrics. T75typedsourcefieldnotT80;Table1molLversusmethodcombinedsolutionbasisunresolved;actualmeasuredfinishadd-onnotcomponentfractions. SIHTTP403unretrieved,washedTGneverborrowed. PreserveB107/alloldfields;metadatareadonly;refreshlease/queue/openPR before nextpublisher.",
@@ -723,7 +724,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1061,
+  "remaining_to_2000": 1054,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -771,9 +772,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 256,
+  "verified_sources": 259,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 931,
+  "verified_doi_sample_states": 938,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -807,7 +808,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1061,
+  "remaining_to_target": 1054,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -923,9 +924,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 111,
-      "sample_states": 364,
-      "condition_records": 477
+      "sources": 114,
+      "sample_states": 371,
+      "condition_records": 487
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1017,7 +1018,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1144,
+  "verified_doi_condition_records": 1154,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -2118,5 +2119,21 @@
       "verified_at_utc": "2026-10-01T14:56:09Z",
       "released_at_utc": "2026-10-01T14:56:55Z"
     }
+  },
+  "batch_b112": {
+    "accepted_unique_sample_states": 7,
+    "accepted_condition_rows": 10,
+    "new_source_inventory_states": 7,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 86,
+    "complete_official_SIs_reviewed": 1,
+    "official_DOCX_SI_rendered_pages": 3,
+    "total_fact_rows": 76,
+    "held_fact_rows": 66,
+    "tests_passed": 621,
+    "snapshot_sha256": "fc31e3335bb612b29ef3d0bffe2df329c3e3db9bc9bd7568ad87fc376d5b4fec"
   }
 }

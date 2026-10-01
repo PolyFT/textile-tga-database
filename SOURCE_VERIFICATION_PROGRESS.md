@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **939 unique reviewed source/sample/washing states**, **1152 TG condition records**, and **256 original sources (254 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **946 unique reviewed source/sample/washing states**, **1162 TG condition records**, and **259 original sources (257 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **939 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 738 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 745 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1108,3 +1108,15 @@ Public evidence contains numerical facts and DOI/page/table/figure locators. Ori
 [PR #79](https://github.com/PolyFT/textile-tga-database/pull/79) merged as `5e3d8986c2f77a7d397caa69a2af84e0b9915df4` after [exact-head validation run 36878304376](https://github.com/PolyFT/textile-tga-database/actions/runs/36878304376) succeeded on `3d0f17d0ecc6b707d8f4d642b79f90efea08b82d`: all609 offline tests, compilation, scientific validation and snapshot consistency. All three merge-triggered validation/rebuild/processing runs succeeded. Independent Git-tree/blob readback verifies all11 public blobs and the complete5,562,631-byte master, 939 reviewed states/1152 conditions/254 DOI/256 sources, errors=[]; all1135 prior condition fields and seven concurrent processing/discovery files match the actual pre-merge main. Source originals and the official SI hashes remain unchanged. Snapshot SHA-256:`81634890a350e6cd6d0627919c8ea543029756adb605316f0b45d8d249ec3a6b`; master SHA-256:`6fac4daedf6e61a99a72889a4540ca0fd61be44836e4f4a3460afe678651589a`.
 
 B111 adds10 genuinely new states/17 conditions, zero evidence upgrades and zero legacy completions. All59 holds remain outside the target. The owner releases the B111 single-writer lease after this complete publication proof; the next publisher must refresh main, PRs, source queue and lease. The next PEI/PA/AgNW cotton original is partially reviewed and not counted. Target2000 remains active,1061 states remaining.
+
+
+## b112 Local CEJ multilayer, PAA/ATP and sodium metaborate cotton originals
+
+Five complete local originals (86 native pages) and one complete official DOCX supplement add **seven new source/sample/washing states / ten TG conditions**, with zero legacy completions and zero existing-pair evidence upgrades. All76 concise fact rows remain in incoming;66 held facts stay outside the target. One primary reviewer checked every original page and the supplement's115 paragraphs,2tables and3 rendered pages.
+
+- **PEI/PA/AgNW:** three initial states/six air and nitrogen conditions. Intermediate AgNW doses have TG only. T5, air second char-oxidation peak and R800 remain distinct; TG-IR and EMI durability do not supply regular TG or washed LOI.
+- **PAA/ATP:** only the1percent ATP-feed cotton has explicit R60019.56 and LOI22.7. Six other formulations have exact LOI but graph-only TG and stay held. Relative char improvements do not yield invented absolute values.
+- **Sodium metaborate:** own control, initial finish and washed finish provide three separate states at air20C/min. Official TableS1 R700 and TableS2 LOI agree with main-text state labels. Cone char is separate. Native peak-mass metadata and washed peak/rate disagreements stay raw;9.4percent is washing weight loss, not remaining add-on.
+- **ASGTMPA and DCTP/TEA:** complete reviews preserve33 and17 held facts respectively. Contradictory regular TG gas/ramp wording and unreported TG gas prevent their admission; other assays cannot repair those gaps. Washed or other-dose LOI never borrows initial TG.
+
+Public evidence contains numerical facts and DOI/page/table/figure locators. Originals, full texts, SI, images and private paths remain external. Existing data and concurrent processing files are preserved; exact-head CI, ordinary merge and complete remote verification precede lease release.
