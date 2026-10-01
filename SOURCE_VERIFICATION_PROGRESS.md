@@ -1,6 +1,6 @@
 # Source verification progress — 2026-09-30
 
-The reviewed dataset contains **501 unique DOI/sample/washing states**, **577 TG condition records**, and **117 papers**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **507 unique DOI/sample/washing states**, **583 TG condition records**, and **119 papers**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **501 unique DOI/sample/washing states**, **577 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 300 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 306 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -515,3 +515,13 @@ Proposed total: 501 independent states, 577 TG conditions and 117 DOI. Strictly 
 ## Reviewed source identity schema
 
 PR #39 introduced an optional, registry-bound identity path for original conference proceedings without DOI identifiers. All 292 tests, exact-head snapshot CI and four postmerge workflows passed. The accepted master remained byte-identical at 501 sample states, 577 conditions and 117 DOI sources; no new observations or registered sources were added. The code-review mirror collision was fixed and regression-tested before merge. The writer lease has been released. Later source batches must independently register each original document and bind every observation review to its exact provenance; DOI and non-DOI cohorts remain separate.
+
+
+## b72 Local greige nonwoven and PAN woven source review
+
+Six genuinely new independent states add six verified TG conditions; zero evidence upgrades. Two complete locally held published primary articles were reviewed with original numerical table/prose pixels. Neither primary lists supplementary materials; publisher external inventories were inaccessible(403), so no claim is made that unidentified external files were inspected. All admitted numbers/methods and preparation are in the primary. Source caches and private paths remain outside the public repository and the library stays read-only.
+
+- DOI10.1016/j.polymdegradstab.2011.08.014: initial uncured Untreated,D1U2,D2 greige100g/m2 cotton nonwoven. Exact ownLOI21.6/30.0/30.0 in p.2015 Section3.1 pairs originalTable3 celluloseTp and explicitly600C char at nitrogen5C/min.0.8%P/3.4%N maps uniquely byTable1 toD1U2; char-lengthD1U3 typo and high-P1.6/1.7 descriptors retained. All11TGrows preserved,8unpaired. SourceTu urea peak andTf end temperature are not onset/extra peak. Parentheses areSDofthree runs; WLu headerunit inconsistency retained. D2D4 label unresolved. Bench furnace18C/min is notTGA. This resolves the previous original-fulltext access hold; no kinetics extrapolation used.
+- DOI10.1016/j.apsusc.2017.09.155: initialPAN,A-PAN,P-A-PAN plain-woven400g/m2 fabrics pair ownTable2/TG nitrogen10C/min andTable4 zero-cycleLOI18.1/25.2/34.1. Water-removal86/93C sourceTmax1 kept separate; sourceTmax2/3 numbering retained. A-PAN residue47.39vs47.59 withheld from cleanR800. PA reagent identity wording conflict retained. GenericfiberLOI17 is not ownfabric18.1. WashedLOI5/10/20cycle labels32.3/31.4/29.8 lack matchedTG and are not extra pairs.
+
+Four further source holds cover graph-onlyTG/LOI, MCC/PCFC substitution, manuscript figure/caption or scan-range conflicts, and unavailable listedSI/unresolved formulation links. Proposed total:507 independent states/583 TGconditions/119 DOI; 1493 remain to2000. Normal exact-head CI, merge and postmerge readback required.
