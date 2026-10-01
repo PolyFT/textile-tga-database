@@ -1,0 +1,75 @@
+{
+  "batch": "b108",
+  "review_completed_utc": "2026-10-01T12:14:13.483742+00:00",
+  "baseline_counts": [
+    911,
+    1108,
+    247
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 12,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "accepted_DOI_sources_added": 1,
+    "complete_native_primary_PDF_pages": 15,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 15,
+    "held_fact_rows": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b108_local_aposs.csv",
+      "published_input_sha256": "e3158bba85f56e898e4112e930abb6d4e835afd4cc6b52577175ccabbb3ab5f9",
+      "unique_sample_states": 6,
+      "verified_conditions": 12,
+      "held_fact_rows": 3,
+      "accepted_measurement_fingerprints": [
+        "1be5bc157c101816816428fc8690eb47fa1e78f5cb944d08e191385c98369c20",
+        "325ec64ba2b85cf155f306a67fa3904129f3f2817a2dbb8f2b7bb352084f9045",
+        "45c75f8751fd83d28cc7747048314906d704bc90d2b1729ffd133b9ba955f72a",
+        "9191b41bdc455bc48bf5a2ceb4efb0297f16594312589c3225a22f30094a17c7",
+        "82e50dec1b79d969049fade8f32dbd1c1b50ad79bfd496ec1c5600976a0c27c0",
+        "10e373b3d05c3df837a38d9af985d04cc7f43aefedb5652244dc7bf96ef8d594",
+        "d3701a9fae65c28c7fa75b40c9e078f0cb7a1d72125c41ef11fd1cf39e54051b",
+        "7d06f9cf00de6c0f6624d89259bbcf445fed4ee31acc344370a96a670455cb83",
+        "08983e876b989c759a093c1cc44cfc3318187e0e1cb852d716e4d25f81bf2d2a",
+        "69f71de9106d5b14fa07446913ee6cdeca84b97daa372e9def376bb531b1bf59",
+        "cfd9d2edd748f1de288036595a4436f87210e01845da22ec0e7de1d1aa24c7af",
+        "833cb07f6e4033017c02cacaa30219559eb421b9195586f6e4edc7edf7856a9f"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.cej.2020.125661",
+      "accepted_states": 6,
+      "accepted_conditions": 12,
+      "held_rows": 3,
+      "disposition": "All15native originalpages checked byoneprimaryreviewer;SIreferenced butnotretrieved:publisherHTTP403. Sixinitialsource-labelledfabricformulationsmap mainTables1/2/3;two gasconditions do notaddsample states. LOI HC-2GB/T5454-1997 size58x150mm;TG Q500020C/min30-800C. TGmass/flow/repeats andLOIrepeats/uncertaintiesunreported;VFT5repeats/cone35kWm2 are separateassays. T5is5%loss,notTonset/T10;Tmax1 celluloseprimarydecomposition andairTmax2charoxidation,notwaterloss;T75kepttypedsourcefield,notT80. Table2N2C3-PDMS-TiO2R80033.6conflictswithPDFp8prose33.7;canonicalresidue/R800blank for thiscondition;uncontestedT5/Tmax1retained. Table1A-POSS/PA molL.067/.134/.201 andmethod1/2/3mmol in30mLcombinedsolution have unresolved concentrationbasis;retainbothrawreports,finalcombinedbathconcentrationblank. Source-labels andbothTG/LOITableformulationsunambiguous. Totaldryweightgain is finishadd-on,notcomponentfractions. Prep40x40cm versuswashing>350x500mm size reports retainedwithoutcorrection. MissingSI does notauthorizewashedTG transfer;Cotton-PDMS-TiO2LOIonly andtwo5washLOIonly held. Initial source/sample states do notproveindependentphysicalreplicates."
+    }
+  ],
+  "verification_limit": "Complete original journalPDF15nativepages checked byoneprimaryreviewer;referencedSInotretrieved,ScienceDirectHTTP403,noSIreviewclaim. Sixsource/sampleinitialstates12gasconditions;noindependent-reviewer/physicalreplicateindependenceclaim. ThreeLOIonlystatesheld;N2R80033.6/33.7conflictblank;Table1concentrationbasisunresolvedrawmetadata. NoMCC/cone/VFT/washed/neatAPOSStransfer. Originals/fulltext/images/privatepaths excluded;metadatareadonly.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1108,
+    "new_states": 6,
+    "new_conditions": 12,
+    "evidence_upgrades": 0,
+    "verified_states": 917,
+    "verified_conditions": 1120,
+    "verified_dois": 248,
+    "verified_sources": 250,
+    "offline_tests_passed": 576,
+    "snapshot_sha256": "5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95",
+    "master_sha256": "afc7155107881c019c06762ee95fd75f995467dcec54a37c347ba5f8042d8e5b",
+    "validation_errors": [],
+    "held_fact_rows": 3,
+    "complete_original_native_pages": 15,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
