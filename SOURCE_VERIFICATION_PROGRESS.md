@@ -1059,3 +1059,12 @@ C3-PDMS-TiO2 N2 R800 is33.6% in Table2 versus33.7% in p8prose: both raw reports 
 Cotton-PDMS-TiO2LOI20.0 and five-detergent-wash(C3)5LOI24.0/(C3-PDMS-TiO2)5LOI28.0 lack ownmainTG and remain held; SI is pending. Wash protocol40C five12mincycles/ECE nonphosphatedetergent/DIrinse/dry45C8h stays distinct from50 abrasioncycles. Source fabric:detergent20:1byweight and specimen>350x500mm reports remain verbatim metadata; no inferred correction of this ratio or40x40cmpreparationgeometry. No initial TG is transferred to washed specimens. Source/sample states do not establish independent experimental replicates.
 
 Public evidence consists of concise facts and DOI/page/table/figure locators. All original files, fulltexts, images and private paths stay outside the repository; preserve previous records and concurrent processing state. Release the owned lease only after exact-head CI, ordinary merge, three successful terminal merge-SHA workflows and complete independent remote master/report verification.
+
+
+## b108 publication checkpoint
+
+PR [#77](https://github.com/PolyFT/textile-tga-database/pull/77) merged with head `dd2b99a06d1259d0a77433bf4b033f9257289ffb` as `0f1fabb1bcc7584de1537e9f9c78caf510eb4aca`. [Exact-head CI](https://github.com/PolyFT/textile-tga-database/actions/runs/36860663678) passed all576 offline tests, compilation, scientific validation and snapshot consistency. All three merge-SHA workflows (36860944697, 36860944722, 36860944773) completed successfully.
+
+B108 adds six new initial cotton states and twelve TG conditions, with zero legacy completions or existing-pair evidence upgrades. Three LOI-only facts remain held. Main contains917 reviewed states,1120 conditions,248DOIs and250sources. All15 native pages of the original were reviewed;referenced SI could not be retrieved because the publisher returnedHTTP403. No SI or independent-reviewer claim is made.
+
+Independent remote verification matched all11 batch file blobs, the complete 5306968-byte master and the complete rebuilt report with zero errors. All fields of1108 prior condition records, six concurrent processing-state files and the read-only original hash were preserved. Master SHA-256:`afc7155107881c019c06762ee95fd75f995467dcec54a37c347ba5f8042d8e5b`;dataset snapshot:`5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95`. Public files contain concise facts, source locators, tests and validation results;no original fulltexts,images,SI or private paths were published. Release the owned lease after this proof is recorded.
