@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T14:34:57.621866+00:00",
+  "as_of_utc": "2026-10-01T14:56:09Z",
   "latest_batch_id": "20261001_b111",
   "verified_condition_records": 1152,
   "verified_unique_sample_states": 939,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b111_validated_branch_pending_PR_merge",
+  "publication_stage": "b111_merged_remote_verified",
   "last_merged_batch": "20261001_b110",
   "writer_lease": {
     "owner": "codex-local-ch-fr-graphene-20261001",
@@ -2091,6 +2091,31 @@
     "total_fact_rows": 76,
     "held_fact_rows": 59,
     "tests_passed": 609,
-    "snapshot_sha256": "81634890a350e6cd6d0627919c8ea543029756adb605316f0b45d8d249ec3a6b"
+    "snapshot_sha256": "81634890a350e6cd6d0627919c8ea543029756adb605316f0b45d8d249ec3a6b",
+    "publication": {
+      "pr": "https://github.com/PolyFT/textile-tga-database/pull/79",
+      "head_sha": "3d0f17d0ecc6b707d8f4d642b79f90efea08b82d",
+      "merge_sha": "5e3d8986c2f77a7d397caa69a2af84e0b9915df4",
+      "validation_run": 36878304376,
+      "postmerge_runs": [
+        36878809684,
+        36878809332,
+        36878809463
+      ],
+      "all_three_postmerge_runs": "terminal success",
+      "remote_verified_states": 939,
+      "remote_verified_conditions": 1152,
+      "remote_verified_dois": 254,
+      "remote_verified_sources": 256,
+      "master_bytes": 5562631,
+      "master_sha256": "6fac4daedf6e61a99a72889a4540ca0fd61be44836e4f4a3460afe678651589a",
+      "snapshot_sha256": "81634890a350e6cd6d0627919c8ea543029756adb605316f0b45d8d249ec3a6b",
+      "public_blobs_verified": 11,
+      "previous_condition_records_all_fields_unchanged": 1135,
+      "concurrent_processing_files_preserved": 7,
+      "concurrent_preservation_baseline": "18127d99a7766e946df33134a636bcc067f62266",
+      "proof_doc_commit": "a9421195316754b8d825d5bcb7767d9e880a361c",
+      "verified_at_utc": "2026-10-01T14:56:09Z"
+    }
   }
 }
