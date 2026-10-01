@@ -1,0 +1,78 @@
+{
+  "batch": "b106",
+  "baseline_counts": [
+    893,
+    1085,
+    242
+  ],
+  "summary": {
+    "added_verified_unique_states": 10,
+    "added_verified_condition_records": 10,
+    "new_source_measurement_states": 10,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 3,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b106_glass_ddm2023.csv",
+      "DOI": "10.3390/molecules28135162",
+      "draft_sha256": "e503f48073fca5394397cfaf9078b2e84e0a5b16c38647cb67e10d2591a8b209",
+      "published_input_sha256": "90136227d37d5bb6921f27b6f281de9ec59b1f533830715eca630361d9099d56",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "4411e5708f6e9e36fb8ff9a0649ea91a2057557a77fb00eaf01fb71ba6351d33",
+        "d726a25be2f5d96b2f90d2bb02dcba7abea479a7e79e66883c37aa125a02b859",
+        "702ccecf4619b0d13a67a5954f9c7d2f44bc470ae94d65acee4197d87ba92252"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b106_glass_veil2024.csv",
+      "DOI": "10.3390/jcs8070268",
+      "draft_sha256": "d79a6c2904adf3a9cfe693c81bc3d2de2cac434d397f6a1d78e59390cacb4d65",
+      "published_input_sha256": "522cff9c8e2e8e7bf5948f9d045887c624ee1f6e14bf2b4ab28b15e679800a40",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "35083576b23fe96a961f49e1f8280476ee86228b30e56a1f50521bce6fcd7dea",
+        "c6f8bdee867576d77209eb2f9c1a885039ec021754b771808cbf3b91d8830813",
+        "d2485e78b4d2233fc9009ce58851dc2d586ac927a73657c91fa0f349b9714e33",
+        "57f199a11e902212dce516a365b5e5af1789947ec82776d5ab9b12f32b0f28bf"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b106_smpic2024.csv",
+      "DOI": "10.1016/j.compositesa.2024.108151",
+      "draft_sha256": "8d8633048ff3e430e107792feba0fe8b80c634437cb8acc95f3bd2c24bdedf98",
+      "published_input_sha256": "b8f8e637d1eee072c4aab09ffdaa6e82263cc91e3e39698528825a6c2b9de092",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "8408db27c2d9b0f45a63e4a812195720006d75bb253a1312d9d20fac1ce029d0",
+        "5eedb1708256b5904026cd288ac723b9348187a35424bee3e9869b35037332d7",
+        "186bfc67af4054766872616bca3ac7f14e40b698396819c2f2717d1acd8e0227"
+      ]
+    }
+  ],
+  "related_source_holds": [],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
