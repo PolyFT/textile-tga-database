@@ -1,0 +1,88 @@
+{
+  "batch": "b104",
+  "baseline_counts": [
+    883,
+    1072,
+    238
+  ],
+  "summary": {
+    "added_verified_unique_states": 4,
+    "added_verified_condition_records": 4,
+    "new_source_measurement_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 2,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b104_ttctg2023.csv",
+      "DOI": "10.13550/j.jxhg.20220737",
+      "draft_sha256": "fdaddc7e6e3a5329dce4d6850d28385ca90b279f4b692fe69647dce5679a9c77",
+      "published_input_sha256": "d44536feb426100c3d70ecb4a46433d2093d1d7b04d000414f13b27ee969e9bf",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "ab43f603fe170fe9b82dae00f258ae8576722758a6d5b25a0a9283a9c89993e9",
+        "3ddb78cc6cd3523df8dc50fc5bd7c4dae4ec74da9eeccdb65999cf671e65c153"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b104_gelatin_silica2019.csv",
+      "DOI": "10.3969/j.issn.1004-5309.2019.04.08",
+      "draft_sha256": "7c48d4e8e7c5a36007d5ef6843b33eedbf2da62b29fdc0ef2c347793f04cbaf0",
+      "published_input_sha256": "665ba00f850a74e0f6fec3be5c42700c69354cc1e71d07ab7ea74686e73a3463",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "6edb006ec9e01b0bd323539d6acb1c318eeea69873258df60dd25d893f5a7914",
+        "048adb2346dcaf0ff4e472fe6d58abb2ba3cd84c3ae5949e4d4f76bae9209e6b"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.3969/j.issn.1004-5309.2019.04.08",
+      "sample_state": "C",
+      "evidence_location": "https://hzkx.ustc.edu.cn/ch/reader/create_pdf.aspx?file_no=201928033&flag=1&journal_id=hzkx&year_id=2019; Tables 1, 4 and 5",
+      "details": "The same-team journal C repeats the silica\u2013KH570 pair LOI 22.2 and generic TG residue 41.4% already retained under conference C. Keep the journal C observation excluded from future admission; preparation differences do not establish independent measurement.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.3969/j.issn.1004-5309.2019.04.08",
+      "sample_state": "A",
+      "evidence_location": "https://hzkx.ustc.edu.cn/ch/reader/create_pdf.aspx?file_no=201928033&flag=1&journal_id=hzkx&year_id=2019; Tables 1, 4 and 5",
+      "details": "Untreated and silica-only pairs also repeat conference A/B; prior 2018 source TG repeats, and exact prior LOI remains unresolved. Do not admit as distinct.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.3969/j.issn.1004-5309.2019.04.08",
+      "sample_state": "B",
+      "evidence_location": "https://hzkx.ustc.edu.cn/ch/reader/create_pdf.aspx?file_no=201928033&flag=1&journal_id=hzkx&year_id=2019; Tables 1, 4 and 5",
+      "details": "Untreated and silica-only pairs also repeat conference A/B; prior 2018 source TG repeats, and exact prior LOI remains unresolved. Do not admit as distinct.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.3969/j.issn.1004-5309.2019.04.08",
+      "sample_state": "E",
+      "evidence_location": "https://hzkx.ustc.edu.cn/ch/reader/create_pdf.aspx?file_no=201928033&flag=1&journal_id=hzkx&year_id=2019; Tables 1, 4 and 5",
+      "details": "Same silica\u2013gelatin source state has repeated TG tuple 289.9/389.3/540.4/25.1; prior exact LOI remains unavailable. Retain reuse hold pending source-specific review.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
