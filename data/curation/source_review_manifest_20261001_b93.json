@@ -1,0 +1,125 @@
+{
+  "batch": "b93",
+  "review_completed_utc": "2026-10-01T06:39:21.653466+00:00",
+  "baseline_counts": [
+    765,
+    930,
+    206
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 11,
+    "accepted_condition_rows": 11,
+    "new_source_inventory_states": 11,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 38,
+    "total_native_numerical_TG_rows": 21,
+    "held_native_numerical_TG_conditions": 10,
+    "held_stage_or_qualitative_TG_fact_rows": 1,
+    "unmatched_LOI_only_fact_rows": 16
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b93_local_wool_viscose.csv",
+      "published_input_sha256": "aec4e88619064e9ec104f58a6f047a5cd98ee7e26bf9542982e57b5931938c2b",
+      "unique_sample_states": 11,
+      "verified_conditions": 11,
+      "held_fact_rows": 27,
+      "accepted_measurement_fingerprints": [
+        "7724678d31e52a98a2c5eedaa64d141d428d66d622e09e809da47e36fda7c084",
+        "aa81fcbfbe071653526106de1cd55641b5030a4de9a1d9beeca7b9cdb8d0add4",
+        "ef21bc0ac0e642ad07fe2291fe93c00ca5c10901d8de39d9aab5ff75ad82aa91",
+        "fa6f8cd475965844a5fe3f5a96f597c963d58de27aa0d0faffe393d5eead55f4",
+        "73bb5813a7c9e8d470682a82b229cfbb1dd0947d9ac0bbcd93c5f4b2b83a1a93",
+        "78017f05cf6bb03102f3dc4241148824970147604e38193ba04d04fba606663e",
+        "7c33c53ad8e8ca9f0b3e66f8219e5bc81a26b23b2365effd6e6f0efc67bdac19",
+        "a97be6fd70652daf871fdcb194a421eb3505ef1f8913c5026d891a98e677553e",
+        "2a81f6ac3b618a66493f31eee92c93583768890e0649ce6b7eb50c05f2c0866a",
+        "037a3703c4ac23033b088c99b18b355e70ac71579937c150d9dc1333d76f3bbe",
+        "e62368392391047575536c4507d4be2e1a90e8b1e23c5f981c0a77a32bf3c9f3"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/app.24217",
+      "accepted_states": 2,
+      "accepted_condition_records": 2,
+      "held_fact_rows": 3,
+      "accepted_sample_labels": [
+        "Fiber1",
+        "Fiber4"
+      ],
+      "original_locators": [
+        "Publishedp698materials/preparation/DOI;p699TableI/methods;p700TableIIairDSC;p701Figures2/3TG-DSCprose;p702TableIII"
+      ],
+      "review_scope": "Complete original methods/results/tables/captions/references reviewed and relevant native pages checked;no SI listed;cached local inventory checked separately,external SI inventory unchecked.",
+      "disposition": "Onlyfiber1/4 have numericalTG TableIII,with exact remainedmass11.61/27.65%;assessmenttemperature unknown,notR500. TG nitrogen20C/min differs from airDSC10C/min. TG heatingrange0-500 versus sampling50-500 retained;clean start unknown. All TableII and TableIII peak temperatures areDSC,notDTG Tmax,including drying108.26/104.90C. TableIII repeats PeakI/StageI columnlabels;prose distinguishesDSCI/II/III andTGI/II;source columns retained byposition without silently changinglabels. StageI moisture loss14.86/11.14%,StageII69.28/57.29% notT5/Tmax. Fiber2/3/5LOI28/29/33 have no ownnumericTG. NativeZn2SO4bathformula and alkoxy identity retained without chemical repair;percentagebasis notexplicitlydefined. Manufacturedesulphurizing/wash/oiling protocols andLOIstandard/size/repeats,TGmass/flow/repeats unknown. Fiberbundle ignitioncounts are45degreeburntest,notreplicates orLOI."
+    },
+    {
+      "DOI": "10.1007/s10570-016-0970-6",
+      "accepted_states": 1,
+      "accepted_condition_records": 1,
+      "held_fact_rows": 7,
+      "accepted_sample_labels": [
+        "Control viscose fiber fabric"
+      ],
+      "original_locators": [
+        "Publishedp2690materials/preparation;p2691methods;p2695-2696TGprose/Figures10-11;p2697owninitialLOIprose"
+      ],
+      "review_scope": "Complete original methods/results/tables/captions/references reviewed and relevant native pages checked;no SI listed;cached local inventory checked separately,external SI inventory unchecked.",
+      "disposition": "Own initialcontrolLOI17.1 andN2R80012.7 exact. GenericgraftedN2TGpeak306/airpeaks205,258C have no mappedGP6.1/6.8/7.5/8.7%,so no LOIassigned. GenericN2residueabout23.7 retainedrawapproximate,notcleanresidue. ControlN2peakabout335/initialabout280 andgraftedabout230 notexactthresholds/peaks. Controlairnearlynochar isnotnumericzero;stageboundsnotT5/onset/Tmax. Firststagebelow150Cmoisture distinct. SourceLOImethod citesASTMD6413-08,retainnativecitationandflag;do notcorrecttoD2863. ConeISO5600nativeandtriplicatesnotTG/LOI. Prep60C6h/0.1MKMnO4differsoptimization65C6h/0.15M;do notassignoptimizedconditions orDPAMPdose to genericTG. Airprosecomparisonto neatcotton in nitrogen is inconsistent,not a new cottonsample. Washingalmostunchanged has no exactnumericvalues/cyclelabel/TG;notadmitted."
+    },
+    {
+      "DOI": "10.1007/s10965-016-0954-0",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 17,
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "OriginalPDFp2 Table1synthesis;p4coating;p5LOI/TGmethods/Figures3-4;p6Tables3-4;p7-8thermalanalysis",
+        "OriginalPDFp2Table1,p4latexLOImethod"
+      ],
+      "review_scope": "",
+      "disposition": "Own Table3 fabricTG and Table4fabricLOI are formulation-matched. However sole method paragraph explicitly says DPOWPUs,10C/min30-600C; fabric-specific ramp attribution is not established. FabricN2 independently explicit in Figures3/4 and thermal analysis prose. Keep clean ramp/start/end/instrument blank and raw method information separate; all8 matched numerical facts held. Latex-film Table1LOI uses another specimen and standard,not fabricLOI. Native residue temperature480C,notR500/R600; retain nativeTmaxI/II/III numbering,including untreatedpolyester peak inIII. Table3FO2/DPO3polyesterT5 243.0/243.2 versus prose230-240 approximate range conflict retained. P/NTable4 repeats coating chemistry,not assumed fabricloading. Generic cotton30g/polyester26g coating weights are approximate,not gsm or exactaddon. Weave/GSM/purity/supplier,mass/flow/repeats and fabricLOI testT unknown. Horizontalburn3replicates do not become TG/LOIreplicates. No SIlisted,localinventory checked separately."
+    },
+    {
+      "DOI": "10.1016/0040-6031(96)02839-0",
+      "accepted_states": 8,
+      "accepted_condition_records": 8,
+      "held_fact_rows": 0,
+      "accepted_sample_labels": [
+        "I wool,untreated",
+        "II wool,(NH4)3H2PO4[Al(H2PO4)5]",
+        "III wool,(NH4)3Cl[Ca(H2PO4)4]",
+        "IV wool,(NH4)3Cl[Mg(H2PO4)4]",
+        "V wool,(NH4)3H2PO4[Zn(H2PO4)4]",
+        "VI wool,K(NH4)2Cl[Zn(H2PO4)4]",
+        "VII wool,Na3Cl[Zn(H2PO4)4]",
+        "VIII wool,H3PO4[Zn(H2PO4)2]"
+      ],
+      "original_locators": [
+        "Publishedp435title/PII;p436materials/thermalmethod;p437Table1/Figure1;p438-439discussion/references"
+      ],
+      "review_scope": "Complete original methods/results/tables/captions/references reviewed and relevant native pages checked;no SI listed;cached local inventory checked separately,external SI inventory unchecked.",
+      "disposition": "Native publisherPIIS0040-6031(96)02839-0 exactly matches DOI suffix;title/authors/volume284p435-439checked. Firstpageheader1995 conflicts with accepted2January1996/copyright1996/subsequentpageheaders1996;year1996 and conflict retained. Table1 generic char yield has no assessment temperature;no run-end orR600 assigned from Figure1. Secondexotherm isDTA inKelvin,notTG/DTG peak;activation energies notTGthresholds. Source complex chemical formulae retained literally,no valence correction. Seven reagents follow statedII-VIII order;eachindividual bath concentration unknown within0.06-0.10mol/L. Staticair10K/min explicit,no purgeflow inferred. Fibers fromsamewoolseries;assay specimen shaping unspecified,no separatelypreparedwovenfabric assumed. TGmass/repeats/runlimits and LOIstandard/instrument/size/repeats unknown. PreparativeCCl4/waterwash notdurability;postboil rinsing/drying unspecified. pH<3intro versus<=3conclusion retained."
+    }
+  ],
+  "verification_limit": "Four complete published journal originals reviewed, including source preparation, methods, tables, captions, prose and relevant native pages. One primary reviewer, no independent-reviewer claim. Only exact source-native numbers admitted; source-specific dose/peak/protocol ambiguities, curve-only and washed states remain outside target. Public numerical facts and DOI/page/table/figure provenance only;fulltexts/SI/images/private paths retained externally. Library strictly read-only.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 930,
+    "new_states": 11,
+    "new_conditions": 11,
+    "evidence_upgrades": 0,
+    "verified_states": 776,
+    "verified_conditions": 941,
+    "verified_dois": 209,
+    "verified_sources": 211,
+    "offline_tests_passed": 453,
+    "snapshot_sha256": "db32ff54a3b95a77100d511a398df636005f646d29e96b841396367978f63d5c",
+    "master_sha256": "460599b81fdff59eeee1aec5a756420310aa1516cce3e6668800dc48942d253c",
+    "validation_errors": []
+  }
+}
