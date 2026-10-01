@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T02:49:59.150299+00:00",
+  "as_of_utc": "2026-10-01T02:58:05.690Z",
   "latest_batch_id": "20261001_b81",
   "verified_condition_records": 777,
   "verified_unique_sample_states": 649,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b81_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b80",
+  "publication_stage": "b81_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b81",
   "writer_lease": {
     "owner": "codex-local-cspa-acpmpa-spma-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b81",
     "claimed_at_utc": "2026-10-01T02:49:10.813Z",
     "scope": "Six new original-reviewed initial CS/PA polyester/cotton, ACPMPA cotton and SPMA5 cotton sample states at eight TG conditions. Thirteen native TG rows preserved; three air conditions missing explicit ramp and two source-conflicted SPMA compound rows excluded. Original/SI evidence and source versions explicit; no fulltext/privatepaths uploaded.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary approved merge and three terminal merge-SHA postmerge checks plus independent remote verification."
+    "instruction": "Single publisher; release only after exact-head CI, ordinary approved merge and three terminal merge-SHA postmerge checks plus independent remote verification.",
+    "released_at_utc": "2026-10-01T02:58:05.690Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -1051,6 +1052,37 @@
       "verified_sources": 163,
       "offline_tests_passed": 367,
       "validation_errors": []
+    },
+    "publication": {
+      "baseline_conditions_all_previous_field_values_preserved": 769,
+      "new_states": 6,
+      "new_conditions": 8,
+      "evidence_upgrades": 0,
+      "snapshot_sha256": "e49178106a8e5e48adb2a53e2611ce16124fd5602d83ade8f656467955763877",
+      "master_sha256": "95562f03d35a25053973d5e9a275cab19ec7750017d6b669c6119649f2c459e3",
+      "verified_states": 649,
+      "verified_conditions": 777,
+      "verified_dois": 161,
+      "verified_sources": 163,
+      "offline_tests_passed": 367,
+      "validation_errors": [],
+      "merge_sha": "74d6c6e7edf681dfe4644eb3ce6f923e672aff3b",
+      "PR": 50,
+      "head_sha": "cc53043259750d51650b3b782383b6e4bb5d99e8",
+      "validation_run": 36808020145,
+      "fresh_main_rebuild_matches_report": true,
+      "old_conditions_all_previous_field_values_preserved": 769,
+      "independent_remote_master_blob_sha": "e5a5ccea9929b8ad9dfc01ebd7d4280c9433a1fb",
+      "independent_remote_master_sha256": "95562f03d35a25053973d5e9a275cab19ec7750017d6b669c6119649f2c459e3",
+      "independent_remote_master_bytes": 2782060,
+      "independent_remote_complete_report_match": true,
+      "changed_public_file_blobs_match": 11,
+      "postmerge_runs": [
+        36808117227,
+        36808117316,
+        36808117447
+      ],
+      "all_three_postmerge_runs": "terminal success"
     }
   }
 }
