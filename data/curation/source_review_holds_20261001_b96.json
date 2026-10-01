@@ -1,0 +1,246 @@
+[
+  {
+    "DOI": "10.1016/j.indcrop.2019.01.020",
+    "source": "silk_flavonoid2019",
+    "held_evidence": [
+      {
+        "scope": "All treated nitrogen/air states",
+        "reason": "No source-state-specific exact TG value established from main text; Figure12 TG curves not numerically estimated. Qualitative complete weight loss not converted into0%."
+      },
+      {
+        "scope": "Twenty-percent flavonoid-only LOIs23.8/24.7/24.0",
+        "reason": "Figure12 specifies5% flavonoids plus2g/L salts, not20% flavonoid-only thermal state; no cross-loading pairing."
+      },
+      {
+        "scope": "2g/L metal-only LOIs25.8/25.7",
+        "reason": "Exact LOIs available but no exact matchingTG scalar established in original text."
+      },
+      {
+        "scope": "10/20wash treated LOIs",
+        "reason": "Source gives about27% and graphs; no matching postwashTG."
+      },
+      {
+        "scope": "Table2 residues60.9/57.6/50.1/56.3/80.9/89.9",
+        "reason": "Cone calorimetry residue, notTG residue; do not substitute."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2016.10.003",
+    "source": "app_pna_glass2017",
+    "held_evidence": [
+      {
+        "scope": "20APP, both TG atmospheres",
+        "reason": "Table 4 LOI 30,1 (30.1) conflicts with LOI discussion APP endpoint 30.0; no selection, averaging or rounding repair."
+      },
+      {
+        "scope": "5APP and 5PNA air T5",
+        "reason": "Source prose extends lower treated T5 trend to air, but tabulated 361.5 and 361.7 \u00b0C exceed control 359.3 \u00b0C; canonical T5 blank, raw source values retained. R900 and tabulated DTG peak remain separate."
+      },
+      {
+        "scope": "Source version",
+        "reason": "Original accepted manuscript has a verified journal DOI on its publisher cover; final typeset numerical equivalence unverified. All later versions require reuse review."
+      },
+      {
+        "scope": "Additional degradation stages and rates",
+        "reason": "Only one DTG maximum is tabulated per condition; no stage peaks estimated from plots. Signed source rates retained raw."
+      },
+      {
+        "scope": "Composition and wash",
+        "reason": "Approximately 50 wt% glass and nominal resin-basis APP/PNA percentages are not converted into exact whole-laminate loading. No wash or aging state assigned."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3144/expresspolymlett.2024.58",
+    "source": "jute_dap2024",
+    "held_evidence": [
+      {
+        "sample": "UJE",
+        "reason": "LOI21 prose versus21.8 Table4. Hold whole control pair."
+      },
+      {
+        "sample": "UJ18DE",
+        "reason": "LOI26.8 Table4 versus35.5 pp787/792. Hold whole pair despite clean TG."
+      },
+      {
+        "sample": "pure epoxy and all free-jute thermal rows",
+        "reason": "No matching own LOI; do not transfer laminate measurements."
+      },
+      {
+        "sample": "all Table1/Figure13 literature comparators",
+        "reason": "Borrowed literature values, not additional original states."
+      },
+      {
+        "sample": "FRR treated-fabric drying temperature",
+        "reason": "Section2.2 70C versus Figure1 80C; retain both, do not select an exact temperature."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1002/pc.29911",
+    "source": "alpi_glass2025",
+    "held_evidence": [
+      {
+        "scope": "All residue and Tmax fields; air conditions",
+        "reason": "SI Table S1 unavailable. Glass-subtracted char, component-content totals and cone residues not substituted. Table 2 ZHS row total70.4 differs from its component sum; retained as a hold, no repair."
+      },
+      {
+        "scope": "E100:GF-BD and both synergist laminates",
+        "reason": "Measured LOI exists, but no own exact unambiguous TG scalar established outside unavailable SI. E100 control also occurs in related papers; future reuse audit required."
+      },
+      {
+        "scope": "All five resin-only specimens",
+        "reason": "Bulk thermosets, no prepared textile reinforcement; excluded from textile target."
+      },
+      {
+        "scope": "Commercial AlPi identity and particle-size mapping",
+        "reason": "Native LPS/HPS labels retained; OP1230/OP935 particle-size wording conflicts with low/high definitions. Do not silently invert labels or assign corrected particle size."
+      },
+      {
+        "scope": "Later source10.1002/pol.20250692",
+        "reason": "Later original explicitly attributes DGEBA flammability to this source; E100:GF-BD and AlPi/ZHS DGEBA states require future sample-scoped reuse review. Distinct novolac systems are not covered by this reuse hold."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/1528083711414963",
+    "title": "Flame retardant antibacterial cotton high-loft nonwoven fabrics",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/1528083711414963",
+    "review_scope": "Complete publisher indexed main body through conclusions; no PDF bytes or pixel claim.",
+    "reason": "Five prepared high-loft nonwoven blends have own measured LOIs 27, 26.3, 24.7, 26 and 18.9, but own methods and results contain physical properties, LOI, vertical burning and antibacterial assays only. No own TG method or numeric TG result. Introductory decomposition descriptions and earlier SRRC fiber LOI are not paired.",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.11909",
+    "title": "New developments in flame retardancy of glass-reinforced epoxy composites",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1002/app.11909",
+    "review_scope": "Original publisher indexed preparation, thermal method, results and conclusions; no original PDF bytes or pixels.",
+    "reason": "Nine final fabric-laminate LOIs are tabulated, but TGA studies individual components and resin/intumescent/fiber mixtures at separate 1:1 or 1:0.5:0.5 ratios. No whole-laminate TG bridge. Table III residual masses are derived cone quantities with glass subtraction, not own TG residues.",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2018.11.089",
+    "title": "A comparative study on effects of natural and synthesised nano-clays on the fire and mechanical properties of epoxy composites",
+    "original_url": "https://dataset-dl.liris.cnrs.fr/db_amethyst/PDFs/10.1016/j.compositesb.2018.11.089.pdf",
+    "review_scope": "Complete ten-page original published PDF indexed text, all main tables and captions, methods and thermal/LOI discussion. Direct PDF retrieval did not finish in the bounded attempt; no pixels inspected.",
+    "reason": "Four woven-glass laminate LOIs 22.1\u00b10.2, 32\u00b10.3, 31.7\u00b10.2 and 31.4\u00b10.3 are exact, and own TG methods are nitrogen, 10 \u00b0C/min. Whole-laminate thermal results appear only in Figure 10 curves and qualitative prose, with no exact own scalar established. No graph estimate or bulk epoxy-blend substitution.",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/mame.202400432",
+    "title": "Weaving Through Fire and Force: Fire Behavior and Fire Stability of Unidirectional, Bidirectional, and Woven Roving Glass-Fiber Composites",
+    "original_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mame.202400432",
+    "review_scope": "Original publisher indexed methods, thermal results and supporting-file link. Official supporting DOCX retrieval returned 403.",
+    "reason": "Main Table 3 mixes measured component-content estimation and calculated totals; section 3.1 explicitly subtracts glass and normalizes thermal data to resin. Clean raw whole-laminate T5, DTG maximum and residue require Table S1, unavailable in official SI. No glass-subtracted prose char or calculated component sum is accepted as whole-laminate TG. Source remains a retrieval lead, no numerical admission.",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/c4ta06486k",
+    "title": "Intergrowth charring for flame-retardant glass fabric-reinforced epoxy resin composites",
+    "original_url": "https://pubs.rsc.org/en/content/articlelanding/2015/ta/c4ta06486k",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Publisher identity, abstract and author-version link; no complete original numerical review.",
+    "reason": "Official author-version PDF was publicly listed and indexed at its first page, but opening https://pubs.rsc.org/en/content/getauthorversionpdf/C4TA06486K returned 403. The author page is request-only. No own exact state pairs verified; source remains an access-limited lead.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pol.20250692",
+    "title": "Char to the Rescue: Processing and Transfer of Flame-Retardant Epoxy Resins, Adjusting the Fire Behavior and Post-Fire Structural Integrity of Glass Fiber Composites",
+    "original_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/pol.20250692",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original publisher main methods and flammability passage plus institutional published PDF indexed text; SI unreviewed.",
+    "reason": "No own matched TG\u2013LOI established. Main flammability paragraph explicitly attributes DGEBA LOI/UL94 results to earlier pc.29911 and says similar novolac tests are future work. Do not pair referenced LOI or cone/DSC data as own TG\u2013LOI. Related DGEBA source observations require sample-specific reuse screening.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pc.28416",
+    "title": "A systematic investigation of the transfer of polyphosphate/inorganic silicate flame retardants from epoxy resins to layered glass fiber-reinforced composites and their post-furnace flexural properties",
+    "original_url": "https://4spepublications.onlinelibrary.wiley.com/doi/10.1002/pc.28416",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original publisher methods and results searched for own LOI; fiber-content TG method inspected. No SI review claim.",
+    "reason": "Own main work uses mechanical/thermomechanical and cone/furnace evaluation. No own LOI found in the complete indexed main LOI search. TGA is used for calculated fiber volume content, which is not automatically a raw residue fraction. Do not import LOI from related later papers.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.55988",
+    "title": "Investigating the changing dynamics of processing, temperature-based mechanics, and flame retardancy in the transfer of ammonium polyphosphate/inorganic silicate flame retardants from epoxy resins to glass fiber composites",
+    "original_url": "https://epub.uni-bayreuth.de/id/eprint/7977/1/J%20of%20Applied%20Polymer%20Sci%20-%202024%20-%20Sunder%20-%20Investigating%20the%20changing%20dynamics%20of%20processing%20temperature%E2%80%90based%20mechanics%20.pdf",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original 18-page institutional published-PDF indexed main; method and numeric-table screening, no pixels or SI claim.",
+    "reason": "Four final GF-BD laminate LOIs 30.9,36.3,35.0,45.1\u00b10.2 are in Table5, but no own TG scalar established in main. DSC curing and DMA glass-transition temperatures are not TG metrics. Related APP/InSi observations recur in later sources; do not pair cross-paper TG.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymertesting.2024.108610",
+    "title": "Char, gas, and action: Transfer of the flame-retardant modes of action in epoxy resins and their fiber-reinforced composites",
+    "original_url": "https://www.researchgate.net/publication/384951696_Char_Gas_and_Action_Transfer_of_the_Flame-Retardant_Modes_of_Action_in_Epoxy_Resins_and_their_Fiber-Reinforced_Composites",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original published main indexed author copy, thermal and flammability sections and SI locators; no SI or pixel claim.",
+    "reason": "Up to ten UD/BD fabric-laminate states are described, but exact original TG metrics reside in SI TableS2. Main carbonaceous char is approximate and glass-subtracted; pure-resin T5/Tmax cannot transfer to laminates. Own measured LOIs exist for several states, while control prose increments and Table5 differ. SI not recovered: public supplementary DOCX URL attempted returned403; actual file identity not verified. No graph estimate or component reconstruction.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymertesting.2025.108930",
+    "title": "Poly(m-phenylene isophthalamide)-graphene oxide composite separators: A pathway to safer and high-performance lithium-ion batteries",
+    "original_url": "https://doi.org/10.1016/j.polymertesting.2025.108930",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original publisher indexed thermal/LOI equation and Table1.",
+    "reason": "LOI is explicitly estimated from char residue using LOI=17.5+0.4CR. No own measured oxygen-index pair; Table1 cannot satisfy the measured-LOI requirement.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10973-022-11799-2",
+    "title": "Potential applications of basalt fibre composites in thermal shielding",
+    "original_url": "https://link.springer.com/article/10.1007/s10973-022-11799-2",
+    "publication_type": "journal_article",
+    "status": "source_screen_held",
+    "review_scope": "Original publisher materials, methods and main oxygen/LOI term screen.",
+    "reason": "Own woven/short-fiber/hybrid basalt composites use TG, horizontal UL94 and jet-fire testing. LOI25.1 appears in background as prior Gou work, not an own assay. No own numerical measured LOI established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/ijerph191811453",
+    "status": "no_own_TG_established",
+    "source_url": "https://repo.bg.wat.edu.pl/docstore/download/WAT245b2060abfe4c7993c9fb83ed8cfbf6/ijerph-19-11453.pdf?entityId=WATb5c1b11808b3482cb4e00d78e0811ae9&entityType=article",
+    "document_sha256": "30c89f8b893c5b9e3b222f5945b4d6f2cc9a76ac18cbdda1a0160a22f9e68878",
+    "reason": "Own methods describe measured LOI, cone calorimetry, DSC and oxygen-bomb calorimetry. Reported remaining masses are cone-test residues, not TG. No own thermogravimetric method or result established; do not substitute DSC temperatures or cone residue.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
