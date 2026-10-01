@@ -21,13 +21,12 @@
   "publication_stage": "b92_merged_verified_lease_released",
   "last_merged_batch": "20261001_b92",
   "writer_lease": {
-    "owner": "dot-source-review-b92-20261001",
-    "status": "released",
-    "batch_id": "20261001_b92",
-    "claimed_at_utc": "2026-10-01T06:23:29.450Z",
-    "scope": "16 independently original-reviewed new states/21 conditions from 3 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher. Release only after exact-head CI, merge, three postmerge checks and exact report/snapshot readback.",
-    "released_at_utc": "2026-10-01T06:35:10.702Z"
+    "owner": "codex-local-wool-viscose-20261001",
+    "status": "active",
+    "batch_id": "20261001_b93",
+    "claimed_at_utc": "2026-10-01T06:37:00.377Z",
+    "scope": "11 original-reviewed new wool/viscose states and 11 TG conditions from three accepted DOI sources; four complete original source reviews including 27 held facts.",
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three merge-SHA checks and exact report/master readback."
   },
   "next_sources": [],
   "next_actions": [
