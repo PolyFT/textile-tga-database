@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **676 unique reviewed source/sample/washing states**, **818 TG condition records**, and **172 original sources (170 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **682 unique reviewed source/sample/washing states**, **827 TG condition records**, and **176 original sources (174 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **676 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 475 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 481 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -674,3 +674,10 @@ Six complete local original primary articles were reviewed. Five sources add **1
 - **10.1007/s10570-020-03648-y:** complete original plus complete official SI review adds zero pairs. Table5 explicitly names TG cotton fibers while LOI uses cotton fabric; specimen-form equivalence is unresolved. Two native TG/LOI fact rows are held. SI literature comparators are not own new formulations. T10 and rapid-degradation Tend differ from onset and method endpoint; TG R70037.24 differs from MCC char36.8.
 
 All previous inputs, source-version holds and scoped reuse holds are preserved. Fulltexts, SI, images and privatepaths stay outside the repository and the literature library remains read-only. Proposed total **676 states /818 conditions /172 sources**, with **1324 states remaining to2000**. Exact-head CI, normal merge and independent terminal postmerge verification precede owned lease release.
+
+
+## b84 original-reviewed fiber and textile states
+
+This batch adds 6 genuinely new sample states at 9 TG conditions from 4 DOI sources. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 682 states, 827 conditions and 176 sources (174 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
