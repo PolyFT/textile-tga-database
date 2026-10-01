@@ -707,3 +707,10 @@ All previous inputs, source-version and sample-scoped reuse holds are preserved.
 This batch adds 9 genuinely new sample states at 10 TG conditions from 5 DOI sources. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 702 states, 851 conditions and 185 sources (183 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### b86 publication checkpoint
+
+PR #55 merged at `4363eab49c41cd3fbc6e6c884d3430d209140704`. Exact-head validation run `36816753992` passed for `7177873f8ad58778eb0722e8e141e3ba7bb9bf79`. All 403 tests passed; all 841 previous condition rows retain every existing field. All 17 changed public file blobs and the complete remote validation report matched the reviewed local snapshot.
+
+All three merge-commit checks passed: validation `36817063985`, master rebuild `36817064074`, and processing `36817064091`. The writer lease was released at `3d05987e62f13ecd5e2e3fa13bdb032d6e777739`. Main contains 702 states, 851 conditions and 185 sources (183 DOI sources and two registered non-DOI proceedings). Explicit author-preprint totals are seven sources, 19 states and 29 conditions; DOI presence does not establish peer review.
