@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01 08:58:10 UTC",
+  "as_of_utc": "2026-10-01T09:02:29.238Z",
   "latest_batch_id": "20261001_b99",
   "verified_condition_records": 1035,
   "verified_unique_sample_states": 848,
@@ -21,14 +21,12 @@
   "publication_stage": "b99_merged_verified_lease_released",
   "last_merged_batch": "20261001_b99",
   "writer_lease": {
-    "owner": "codex-local-polyester-native-20261001",
-    "status": "released",
-    "batch_id": "20261001_b99",
-    "claimed_at_utc": "2026-10-01T08:37:54.697Z",
-    "scope": "Four original-reviewed PET sol/pomegranate initial states/four TG conditions; three complete originals reviewed, eighteen native fact rows remain held for source conflicts, unpaired LOI, unresolved supplement/comparator scope. Preserve foreign b98 rows and publication proof.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and full remote master/report proof.",
-    "released_at_utc": "2026-10-01 08:58:10 UTC",
-    "release_reason": "PR68 exact-head CI and ordinary merge; all three merge-SHA workflows terminal success; complete remote report/master/all 1031 prior fields/three originals and inventories verified."
+    "owner": "dot-source-review-b100-20261001",
+    "status": "active",
+    "batch_id": "20261001_b100",
+    "claimed_at_utc": "2026-10-01T09:02:29.238Z",
+    "scope": "Nineteen independently original-reviewed textile and fiber states at nineteen TG conditions from five DOI sources; preserve metric-specific residue holds, assay preparation and mixed-atmosphere program.",
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
