@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **536 unique reviewed source/sample/washing states**, **616 TG condition records**, and **129 original sources (127 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **547 unique reviewed source/sample/washing states**, **637 TG condition records**, and **134 original sources (132 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **536 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 335 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 346 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -534,3 +534,16 @@ This batch adds 29 genuinely new sample states at 33 TG conditions: 21 states fr
 All numerical evidence, preparation and condition mappings passed independent original-source review. Contradictory residues, unmatched wash states, uncertain endpoints and possible reused controls remain held. The OPF refinement admits only its explicit low-temperature T5; it does not repair the conflicting residue temperature. Fulltexts remain private.
 
 B73 merged in PR #41 after all 302 tests and exact-head snapshot validation passed. All three postmerge workflows passed and the writer lease was released. Main now contains 536 reviewed states and 616 conditions from 129 sources: 127 DOI sources and two registered proceedings. The non-DOI cohort has eight states; original documents remain private. Nine separately identified author-preprint states have independent science review and remain queued for a later batch with explicit publication-type reporting and final-version reuse holds.
+
+
+## b74 Original local cotton and wool review
+
+Eleven genuinely new independent sample states add21 TG condition records from five complete original manuscripts; zero existing-pair evidence upgrades. All32 exact source TG rows retained, with11 unpaired rows excluded from target. Source/sample/wash states are counted once across atmospheres. Accepted batch is entirely DOI-backed; existing eight non-DOI states and two proceedings sources are preserved separately. Original text, tables, captions and references read; printed numerical pages viewed. No listed SI in main or distinct matching local supplement; external supplemental inventories not inspected. All source caches and private paths remain outside the repository, and the library remains strictly read-only.
+
+- 10.1016/j.polymdegradstab.2020.109312: three initial TTPBD-treated cotton states/six nitrogen-air conditions. Table1 LOI23.5/26.3/27.5 and Table2 TG. ControlLOI28.5 contradicts increasing-from-control prose and is held, not silently corrected to18.5. Bath10/20/30wt% differs from dry add-on7.0/13.2/17.6%. Reagent and control residue-at-Tmax discrepancies retained. WashedLOI has no matchedTG.
+- 10.1016/j.polymdegradstab.2020.109101: untreated wool, initial WS20B5, and exactly30wash WS20B5; six conditions. Table1/Table6 LOI25.0/36.0/29.6 with source SD and three repeats. Table5 T25/T50/T75 are percent-weight-loss thresholds, not DTG peaks. SourceS20B5 alias linked by unique20%SA+5%BTCA recipe; native label retained. Isothermal250C TG has no LOI and is distinct from240C FTIR pretreatment; both isothermal conditions held. No laundering-equivalence assumption.
+- 10.1016/j.polymdegradstab.2015.07.003: own untreated cottonLOI18.8 pairs Table1 Ton-set297C/Tmax358C/R60014%. Five treatedTGrows held for concentration/add-on/catalyst mapping and25/30% LOI branch discrepancies. Actual optimized23.7%add-on not assigned to25%TG. Vertical-burning char and washedLOI not TG substitutes.
+- 10.1016/j.polymdegradstab.2019.04.024: one untreated cotton state/two conditions. Own18.5LOI pairs printed N2R7007% and air28.76%residue at372C.372C is an explicit residue assessment temperature, not assignedTmax. About-values and generic treatedTG cannot be mapped to18/23/26%WG. No curve estimates.
+- 10.1016/j.polymdegradstab.2020.109302: Cotton and CS/LS/cotton17.0/25.2%weight-gain states/six conditions. N2TG-FTIR20Cmin/25mLmin differs from airTG10Cmin/30mLmin. T5 moisture threshold is not onset; Rmax is%/min. LS-only17.1%LOI24.7 versus26 conflict holds bothTGrows. CottonN2R70013 versus12.5 withheld; CS/LS25.2char27 versus27.1 preserves table integer precision. No guessed layer counts or component ratio.
+
+Proposed total:547 states/637 conditions/132 DOI sources plus2 non-DOI sources; 1453 remain to2000. Exact-head CI, normal merge and independent postmerge readback required.

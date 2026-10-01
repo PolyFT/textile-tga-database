@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T00:24:19.174Z",
-  "latest_batch_id": "20261001_b73",
-  "verified_condition_records": 616,
-  "verified_unique_sample_states": 536,
-  "verified_dois": 127,
-  "numeric_pair_candidate_rows": 1007,
+  "as_of_utc": "2026-10-01T00:29:30.615873+00:00",
+  "latest_batch_id": "20261001_b74",
+  "verified_condition_records": 637,
+  "verified_unique_sample_states": 547,
+  "verified_dois": 132,
+  "numeric_pair_candidate_rows": 1028,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 335,
+  "cumulative_newly_completed_or_new_source_sample_states": 346,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "b74_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b73",
     "pr": 41,
@@ -48,6 +48,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "b74 adds11 new original-reviewed cotton/wool states at21 conditions. Preserve untreated TTPBD LOI contradiction, DTCTNG treated loading/catalyst ambiguity, wool exactly30wash/isothermal250C distinction, ATEPAHP generic treated labels, CS/LS LS-only LOI and control N2char conflicts. MoistureT5 remains threshold; residue372C notTmax; N2/air methods distinct. Eleven native TG-only records excluded. Refresh main/queue/PR/lease before next publisher; library strictly read-only.",
     "B73 adds 21 DOI-backed and eight registered proceedings sample states. Preserve all original-state conflicts, unknown residue temperatures, metric-specific holds, and separate DOI/non-DOI cohort reporting.",
     "b72 adds six genuinely new local cotton nonwoven/PAN woven states, six TG conditions and eight unpairedTGrows. Preserve native urea/cellulose peaks/endpoints, moisture peaks, source SD/unit/recipe conflicts and unmatched washedLOI. Prior2011.08.014 access hold resolved by complete local original, not kinetics follow-on. Local metadata library strictly read-only; identity-check each original; private caches stay external. Refresh main/queue/PR/lease before next publisher.",
     "B71 adds nine new fiber-network, woven-laminate and Nomex membrane states at twelve TG conditions; 501 independent states now exceed500. Keep moisture T5, unknown BC residue temperature, source T2 and Nomex repeats distinct. User confirmed metadata SMB root; prioritize identity-checked local textile fulltexts using external-only caches. Refresh main/queue/open PR/lease before next publisher.",
@@ -686,7 +687,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1493,
+  "remaining_to_2000": 1453,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -734,9 +735,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 129,
+  "verified_sources": 134,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 528,
+  "verified_doi_sample_states": 539,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -770,7 +771,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1464,
+  "remaining_to_target": 1453,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -802,5 +803,18 @@
       "verified_non_doi_sample_states": 8,
       "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
     }
+  },
+  "batch_b74": {
+    "accepted_unique_sample_states": 11,
+    "accepted_condition_rows": 21,
+    "new_source_inventory_states": 11,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "additional_TG_only_rows": 11,
+    "total_preserved_TG_rows": 32,
+    "tests_passed": 308,
+    "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab",
+    "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
   }
 }
