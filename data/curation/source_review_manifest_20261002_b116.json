@@ -1,0 +1,126 @@
+{
+  "batch": "b116",
+  "review_completed_utc": "2026-10-01T20:47:15.893896+00:00",
+  "baseline_counts": [
+    964,
+    1189,
+    266
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 10,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 6,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 86,
+    "complete_official_SIs_reviewed": 1,
+    "total_fact_rows": 102,
+    "held_fact_rows": 92
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b116_local_textile.csv",
+      "published_input_sha256": "0658194e68d1ae494d0a2679c9ae50e757516626419b80ad5c4b6e98ab929752",
+      "unique_sample_states": 6,
+      "verified_conditions": 10,
+      "held_fact_rows": 92,
+      "accepted_measurement_fingerprints": [
+        "4dbca78a374321057dc2dedaded5d5a560645005bde266224628606023181023",
+        "3e2d53f7bcbfdde69ab87c251507c5e57f1588a55739c382863598f73f84e705",
+        "c61ec8a024212eaab6ab90cee6068b9471cecd86ef4cfa7ed9a662c200f8ac3b",
+        "0c49166776225e9b6e2b5320c22761d0320a14cc29fb3b37e61d964a49d6b5f0",
+        "e4b8e32a383499d39bb20f04964b96d51cff39823a1cfb4dae46daea7fbb7c78",
+        "cbf598ebde09cb7797485c76d92f402a1c8adf4b872e16268d2b51e82b86543e",
+        "38163aa3dbcde41896879ee9bd4f24691fdd78ee47d74f9549b2b2c9673dad02",
+        "88d7c501d84bbf9bba4718775769c0b3420bab32bb4652e78560b82d7c2ee1f1",
+        "83dfb1f7c3dffede9360687a00d07dfe0dc71ed5055515884f5d4440538819d8",
+        "7470b5a76438619964cdcf1149e792eae9b83abd1fc93a76ca88377e48be912b"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03218-2",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 3,
+      "disposition": "Table2/Figure5 explicitly initial blank andVCFRmodified fabrics only. No washedTG in all13pages. Table3washed10/20/30cs LOI only:3heldfacts, no reuseinitialTG. T5 is massloss threshold, notTonset. Table2Tmax matches main DTG roles; low-temperature moisture peak notassigned decomposition. Blank R80014table versus13.6prose retained separately; canonical residue remains blank pending adjudication; no rounding assumption. TG-IR nitrogen50mL/minp5 notborrowed as standaloneTGflow; DSC10C/min notTG15C/min. Cone Table4residue8.8/28.9 is notTG residue.",
+      "title": "Preparation of durable and flame retardant lyocell fabrics by using a biomass-based modifier derived from vitamin C",
+      "complete_original_pages": 13,
+      "supplement_review_status": "No SI cited in complete13page original; local DOI inventory contains one PDF; zero SI evidence claimed."
+    },
+    {
+      "DOI": "10.1007/s10118-014-1408-y",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 5,
+      "disposition": "Full10page original has no own LOI, onlyTG/verticalflame/MCC. Table2HRC/THR/Tp/PHRR cannot beLOI, itsMCC Tp cannotTG Tmax. p3method5/10/15BL versusTable1/Figs4/5/8 use10/20BL; p5prosecontrolbelow1.4 atabout550C versusTable1R5501.68/R6001.39; p5range14.5\u201325.8 versusTable1R60013.39\u201325.83; keepraw, no resolutionbyguessing. Table2unheadedtrailingcolumn andFig6duplicateunpresoaked10BLlabels do not establishLOI.",
+      "title": "Flame-retardant coating by alternate assembly of poly(vinylphosphonic acid) and polyethylenimine for ramie fabrics",
+      "complete_original_pages": 10,
+      "supplement_review_status": "p3PVPA synthesis/molecular-weight reference cites supportinginformation. Local DOIinventoryonlyonePDF. SI missing/notreviewed; zero SIcompletion claimed. Holdandcontinueotheravailablelocaloriginals; retrieveofficialSI onlyifneeded."
+    },
+    {
+      "DOI": "10.1007/s10570-019-02374-4",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 29,
+      "disposition": "OwnTGparagraphPDFp8 explicitly control and30% initial preparedcotton;Table3N2/Table4air. No TGforotherdosesoranylaunderedstate in complete16pages. All otherdose/washedfactsheld;no curveestimation.",
+      "title": "Highly efficient flame-retardant and soft cotton fabric prepared by a novel reactive flame retardant",
+      "complete_original_pages": 16,
+      "supplement_review_status": "NoSI cited in complete16pageoriginal;localDOIinventoryonePDF;zeroSIevidence claimed."
+    },
+    {
+      "DOI": "10.1007/s10570-019-02751-z",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 14,
+      "disposition": "Own control LOI absent fromcomplete11pages. Treated TG Fig6/thermal paragraph has no explicit dose or laundering state; do not borrow40% cone/LOI identity or resolve30% text error. TGmethodPDFp5 ends700C butresultsPDFp9/conclusionp10 andgraphp6 reach800C;raw33.2/4.7%at800 retained only. All TG/LOI facts held separately,zero verifiedpairs.",
+      "title": "Synthesis of a formaldehyde-free flame retardant for cotton fabric",
+      "complete_original_pages": 11,
+      "supplement_review_status": "NoSI cited in complete11pages;localDOIinventoryonePDF;zeroSIevidenceclaimed."
+    },
+    {
+      "DOI": "10.1007/s10570-019-02886-z",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 17,
+      "disposition": "Fig5PDFp8 explicitlypurecottonand40wt%initialADPTMPAcotton;Table3twoatmospheres. LOITable1PDFp6 owncontrol18.6/40%46.5. NootherdoseorwashedTG inoriginalorSI. T10notT5/Tonset;Tmax mainDTGcellulosedecomposition,notmoisture orairsecondoxidation503.83C. N2treatedR70042.03Table3PDFp8/conclusionp15 vs40.03prosep9 retainedraw;canonicalN2treatedresidueblank. p7/8airprose244.93C higherthan45C conflictsowncontrolT10=290.34;no45CcontrolTonset. Wash49C45minAATCC61-2006;nativeLCnotrenamed250homewash;detergent/liquor/postwashdry andhome-equivalenceunreported. ConeTable4char1.15/29.42 isnotTG. EDXatomicP2.68% notbulkaddon. Source3repeatstatementp5generic,notproof3physicalindependentsamples.",
+      "title": "Renewable vitamin B5 reactive N\u2013P flame retardant endows cotton with excellent fire resistance and durability",
+      "complete_original_pages": 17,
+      "supplement_review_status": "Completeofficialpublisher-linkedDOCXFigS1A-CthreeNMRspectra/caption;noTG/LOI"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2018.05.085",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 24,
+      "disposition": "ControlLOIabout16%PDFp7 notexact. TG-treateddose/stateunspecifiedinparagraphPDFp10andFig8PDFp18; 70g/L cone identity and90g/L TGIR identity notstandaloneTGidentity. Control/treatedTG char600C3.6/38.5 rawonly. Source286-384/250-321CrapidlossrangesnotT5/T10/Tonset/Tmax. Curve-onlyLOI notestimated. TGflow20mL/min notTGIR60;TGIR10mgmass notstandaloneTGmass. VBT60LCcharlength92/85mm notLOI/TG. Table1EDXdose30g/L vsprose70%;EDXP37.499weight%surface notbulkFRloading. No3repeatclaim borrowedfromcellculturethreeholes. Acceptedjournalmanuscript notfinalpublisherlayout.",
+      "title": "A concise water-solvent synthesis of highly effective, durable, and eco-friendly flame-retardant coating on cotton fabrics",
+      "complete_original_pages": 19,
+      "supplement_review_status": "NoSIcitedincomplete19pages;screenhit supplemented referscellcultureFBSmedium;onePDFlocalDOIinventory"
+    }
+  ],
+  "verification_limit": "Six complete local originals,86pages,five publisher PDFs plusone acceptedjournalmanuscript;one complete officialpublisher NMRsupplement. Oneprimaryreviewer,exactunconflictedTG/LOI only. RamieSIcitedbutmissinglocally andnotreviewed;ramieentirelyheld. Unresolveddose/form/wash/rate/LOI/TGmetric/residue conflicts retained. Noindependentreviewer/experimentalreplicateclaim. Nooriginal/fulltext/SI/image/privatepath upload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1189,
+    "new_states": 6,
+    "new_conditions": 10,
+    "evidence_upgrades": 0,
+    "verified_states": 970,
+    "verified_conditions": 1199,
+    "verified_dois": 269,
+    "verified_sources": 271,
+    "offline_tests_passed": 671,
+    "snapshot_sha256": "148af58605d2dd0a9b72594fcf98d207b232ebdbc5c19769a60786508b234826",
+    "master_sha256": "1bf5cb459fe314857c9314f510a8d10bf31fea7a63b1cda14d4c6744a69b29b2",
+    "validation_errors": [],
+    "held_fact_rows": 92,
+    "complete_original_native_pages": 86,
+    "complete_official_SIs": 1,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

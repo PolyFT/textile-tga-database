@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **964 unique reviewed source/sample/washing states**, **1189 TG condition records**, and **268 original sources (266 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **970 unique reviewed source/sample/washing states**, **1199 TG condition records**, and **271 original sources (269 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **964 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 763 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 769 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1178,3 +1178,17 @@ Only numerical facts and DOI/page/table/figure locators are public. Original fil
 ### b115 publication proof
 
 [PR #83](https://github.com/PolyFT/textile-tga-database/pull/83) merged as `a3cc8e4c64576ca1d9d11a697bf29487204980fa` after exact-head [validation run 36915330598](https://github.com/PolyFT/textile-tga-database/actions/runs/36915330598) passed on `6845608f161a884c2ce2c578ecab6e9809c68674`. All657 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms964 states,1189 conditions,266 DOI sources and268 total sources. All1178 prior condition records and their fields, eleven published file blobs, seven concurrent processing files and six original hashes are preserved. The complete5932848-byte master has SHA256 `f07a12012f7cac366657a2b7192ae61304d57f8e7235e1b6cc0d86a86e97f7e5`; the full remote report matches a fresh rebuild. Snapshot:`4566a899417c915c870ecf52b219e519046e196fa2a7729fcd6683a3f55ddde1`. Nine new pairs and eleven TG conditions are published; evidence upgrades and legacy completions are zero;58 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b116 Local lyocell, cotton and ramie originals
+
+Six complete local originals (86 pages: five native publisher PDFs and one publisher accepted manuscript), plus one complete official supplement, add **six new source/sample/washing states and ten TG conditions**. Existing-pair evidence upgrades and legacy completions are zero. All 102 fact records are preserved; 92 held records remain outside the target. One primary reviewer checked every original page and all three NMR spectra and the caption in the official B5 supplement.
+
+- **VCFR lyocell:** own initial control/GP24wt% fabric has LOI17/39.8 and exact Table2 T5/T50/main DTG peaks at15C/min in nitrogen. ControlR80014 in Table2 versus13.6 in prose stays raw; canonical residue is blank. Three washed states have LOI only.
+- **ADDTMPA cotton:** own control/30% initial fabrics explicitly match TG in nitrogen and air to LOI18/41.5. Table3/4 T10 and main DTG peaks are distinct from T5/Tonset; aircontrol second472.5C peak is char oxidation. Char is at600C although the test ends700C. Other concentrations and all washed states lack corresponding TG; unlabelled LOI curves are not estimated.
+- **B5 ADPTMPA cotton:** own control/40wt% initial fabrics have LOI18.6/46.5 and matching air/nitrogen TG at20K/min. Treated nitrogen char42.03 in Table3/conclusion versus40.03 in prose stays unresolved; canonical nitrogen residue is blank. Seventeen other-dose/washed facts have no own TG. The official supplement contains NMR only and supplies no additional pair or residue adjudication.
+- **PVPA/BPEI ramie:** all five native TG states remain held; the complete original reports vertical burning and MCC but no own LOI. Synthesis supplement is cited but unavailable locally and is not claimed reviewed. Source layer-count and residue prose/table discrepancies remain.
+- **ADGP cotton:** all14 facts remain held. No own control LOI is reported, treated TG dose/state is unspecified, and method endpoint700C conflicts with800C results. Table1 caption10-30% differs from actual10/20/40% rows; no silent source correction or borrowed40% cone identity.
+- **AMHMPA cotton:** the full accepted journal manuscript is explicitly labelled as this version. All24 facts remain held; own control LOI is about16%, standalone TG-treated dose is unspecified, and70g/L cone/90g/L TGIR identities are not transferred to TG. Raw600C char3.6/38.5 and exact/curve-only LOI facts remain distinct; no cytotoxicity or EDX metric is counted as TG/LOI.
+
+Numerical facts and DOI/page/table/figure locators are public. Originals, fulltext, supplements, images and local paths remain external. No independent reviewer or experimental-replicate claim is made. Exact-head checks, ordinary merge and independent complete remote verification precede lease release.
