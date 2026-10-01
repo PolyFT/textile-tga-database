@@ -1,0 +1,225 @@
+[
+  {
+    "DOI": "10.31788/RJC.2026.1919443",
+    "source": "pvpa_hydrogel2026",
+    "held_evidence": [
+      {
+        "source_sample_label": "TC40L",
+        "LOI_pct": 25,
+        "source_plus_minus": 0.2,
+        "washing_state": "After first home laundry",
+        "reason": "No own state-specific TG. Do not transfer TC40 initial TG; home-laundry procedure details are unreported."
+      },
+      {
+        "source_sample_label": "TC10",
+        "atmosphere": "N2",
+        "metric": "T10",
+        "raw_values_C": [
+          228,
+          321
+        ],
+        "reason": "Two source entries in the same T10 column; no choice or reinterpretation. Canonical T10 blank; T50/R600 remain independently specified."
+      },
+      {
+        "source_sample_label": "PVPA-BisMEP10% hydrogel alone",
+        "metric": "R600 34.1% and stage losses",
+        "reason": "Nontextile hydrogel specimen; not paired to fabric LOI."
+      },
+      {
+        "scope": "All textile states",
+        "metric": "DTG values and stage losses",
+        "reason": "Preserved raw only; no canonical peak-stage or residue conversion. The initial treated stage is mainly moisture and unreacted monomers."
+      },
+      {
+        "scope": "TC10\u2013TC40 recipes",
+        "reason": "Nominal percentages versus native gram/mM quantities and AAPH exponent inconsistency remain unresolved; no normalized loading or numerical repair."
+      },
+      {
+        "scope": "TC30 and TC40 nitrogen conditions",
+        "metric": "T50",
+        "source_native_values_C": {
+          "TC30": 427,
+          "TC40": 358
+        },
+        "reason": "Table 3 ordering conflicts with Figure 5(b) at 50% remaining mass. Both canonical values are blank. No swap, correction or graph estimate; T10 and R600 are retained independently."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/0040517519845685",
+    "source": "pepas2019",
+    "held_evidence": [
+      {
+        "sample": "F-PET / Table1 sample3 / nominal optimized250g/L",
+        "reason": "Own LOI conflict29.1 versus29.3 with dose ambiguity250 versus300g/L. Hold whole treated pair; TG residue6.004 at730 and peaks453.48/555.40 are not assigned another LOI."
+      },
+      {
+        "sample": "all other treated and20-laundry states",
+        "reason": "Exact LOI is insufficient without matched own TG."
+      },
+      {
+        "related_DOI": "10.1177/0040517515606360",
+        "sample": "future untreated PET control",
+        "reason": "Same-group related original cited; complete control evidence not retrieved. Require source-specific reuse audit before any future additional control; no blanket treated-source exclusion."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1021/ie300964g",
+    "source": "dhtp2012",
+    "held_evidence": [
+      {
+        "source_sample_label": "control",
+        "LOI_pct": 21,
+        "Tonset_C": 337.2,
+        "R600_pct": 0.4,
+        "reason": "Conservative possible-reuse hold against related original AATCC Review 2012 control: same style #423/LOI/TGA conditions but onset 337.7 and R600 0.36. Not established identical and no source-wide exclusion."
+      },
+      {
+        "source_sample_label": "1",
+        "LOI_pct": 24,
+        "Tonset_C": 309.9,
+        "R600_pct": 16.4,
+        "reason": "Individual Table 2 preparation/add-on row not recovered; do not infer from sequence or Figure 3."
+      },
+      {
+        "source_sample_label": "2",
+        "source_LOI_values": [
+          26,
+          27
+        ],
+        "Tonset_C": 310.5,
+        "R600_pct": 20.7,
+        "reason": "Table 3 and later comparison give LOI 26, while section 3.3 says fabric 2\u20137 increases from 27; unresolved original conflict."
+      },
+      {
+        "source_sample_label": "10",
+        "source_LOI_range": "27\u201328",
+        "Tonset_C": 304.3,
+        "R600_pct": 33.3,
+        "reason": "LOI is a range, not an exact point. Onset absolute/relative values also conflict by 0.2 \u00b0C."
+      },
+      {
+        "source_sample_label": "14",
+        "LOI_pct": 28,
+        "source_R600_table": 27.1,
+        "source_R600_indexed_prose": 271,
+        "source_onset_table": 307.7,
+        "source_onset_reduction": 29.7,
+        "reason": "No clean canonical TG retained: unresolved residue decimal/typography plus absolute/relative onset mismatch. No correction by plausibility or arithmetic back-calculation."
+      },
+      {
+        "source_sample_label": "8;13;15;17",
+        "reason": "Table 3 marks target assays not determined; no paired own exact LOI/TG."
+      },
+      {
+        "source_sample_label": "11;12;16",
+        "metric": "onset of degradation",
+        "reason": "Table 3 onsets 304.5/304.4/302.2 versus source reductions 32.9/33.0/35.2 from control 337.2 differ by 0.2 \u00b0C. CanonicalTonset blank, original values retained; clean R600/LOI pairs stay proposed."
+      },
+      {
+        "source_sample_label": "11",
+        "metric": "retained add-on",
+        "reason": "14.5\u00b10.3 in Table 2 and thermal discussion versus 13.9 in FTIR and SI S5. Both preserved; no canonical add-on."
+      },
+      {
+        "scope": "Related AATCC Review2012, 12(5):52\u201359",
+        "reason": "Non-DOI journal source remains outside current identifier gate. Control possible reuse is unresolved. Different cyanuric-chloride treated states are not excluded merely by common authors; their LOIs include 27\u201328/29\u201330 ranges and washed states need their own TG assignment."
+      },
+      {
+        "scope": "Main article source access",
+        "reason": "Main original is available only as indexed author-uploaded text in this review; direct main bytes and pixels unavailable after network restriction. Official SI was obtained from publisher Figshare with verified document hash. Some intervening main text spans remain inaccessible; independent bounded source QA required before admission."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/15280837221099632",
+    "title": "Chitosan and nano-TiO2 coating improves the flame retardancy of dyed and undyed denim fabrics by increasing the charring",
+    "publication_type": "journal_article",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/15280837221099632",
+    "review_scope": "Original publisher HTML methods, own thermal and flammability results, conclusion, and full-page searches for LOI and oxygen; no PDF bytes or pixel review",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own flammability method is ISO 15025 limited flame spread/vertical burning. Own TG has numerical residues and N2, 10 \u00b0C/min, but the only limiting oxygen index mention found is general introduction background. No own numerical measured LOI pair was established; do not substitute vertical burning or quoted literature.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.6000/1929-5995.2015.04.02.2",
+    "title": "Degradation Kinetics and Mechanical Studies of Intumescent Coated Cotton Fabric",
+    "publication_type": "journal_article",
+    "original_url": "https://www.lifescienceglobal.com/media/zj_fileseller/files/JRUPSV4N2A2-Arora.pdf",
+    "original_mirror_url": "https://pdfs.semanticscholar.org/1ea3/d05c3affcbe6e5749de36c5cf5ba7b69c124.pdf",
+    "review_scope": "Original indexed PDF methods and full-document searches for oxygen and LOI; not a complete page-by-page audit; official bytes returned 403",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own methods inspected describe TG, tensile strength and crease recovery. No own numerical LOI assay or values were established in the complete indexed-text term search. Do not substitute thermal stability for measured LOI.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "authors": "Satish Kumar; Sohan Lal; Sanjiv Arora",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/1558925020922214",
+    "title": "Flame-retardant treatment of wool and wool-rich blends: A study of bath composition",
+    "publication_type": "journal_article",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/1558925020922214",
+    "review_scope": "Bounded original methods and preparation review plus full-page assay-term searches; author-uploaded published original text where specified. Not complete PDF-byte or pixel review.",
+    "status": "held_no_own_matched_TG_LOI_pair",
+    "reason": "Own methods use vertical flame, smoke density, cone calorimetry and MCC. The reported char yield is weighed after MCC, not TG. Introductory LOI approximately 21% is cited PA6,6 background. No own measured LOI/TG pair established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2023.110571",
+    "title": "Development of non-combustible weaveable yarn through oxidative control of a textile acrylic fibre",
+    "publication_type": "journal_article",
+    "original_url": "https://www.researchgate.net/publication/374883230_Development_of_a_weaveable_fire-retardant_and_non-combustible_yarn_through_oxidation_control_of_acrylic_fibres",
+    "review_scope": "Bounded original methods and preparation review plus full-page assay-term searches; author-uploaded published original text where specified. Not complete PDF-byte or pixel review.",
+    "status": "held_no_own_matched_TG_LOI_pair",
+    "reason": "Own methods use TG under N2/air and direct horizontal/cyclic flame exposure. LOI values found are cited background or other studies; no own measured LOI pair established. Pilot-scale woven fabric is additionally distinct from the laboratory oxidized yarn states, so no equivalence is inferred from DSC similarity.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1155/2023/1619577",
+    "title": "Investigation on the Flammability and Washing Durability of Trevira CS and Its Blends with Cotton, Modal, and Acrylic Fabrics",
+    "publication_type": "journal_article",
+    "original_url": "https://www.researchgate.net/publication/372798441_Investigation_on_the_Flammability_and_Washing_Durability_of_Trevira_CS_and_Its_Blends_with_Cotton_Modal_and_Acrylic_Fabrics",
+    "review_scope": "Bounded original methods and preparation review plus full-page assay-term searches; author-uploaded published original text where specified. Not complete PDF-byte or pixel review.",
+    "status": "held_no_own_matched_TG_LOI_pair",
+    "reason": "Own LOI, flame resistance and wash testing are present, but no own numerical TG and TG method were established. TGA and thermogravimetric search matches are outside the paper in ResearchGate related-article summaries, not this study. Do not transfer those measurements.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/004051757404401107",
+    "status": "original_fulltext_not_retrieved",
+    "reason": "Publisher abstract confirms measured oxygen index and TG of indigo cotton but no exact matched numerical tables or own complete methods were retrieved. No pair admitted.",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/004051757404401107",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/00405175231199498",
+    "status": "original_fulltext_incomplete",
+    "reason": "Indexed publisher fragments describe own thermal methods but direct full-page opening yields restricted abstract/reference view. Exact own LOI values and complete preparation-to-TG mapping remain unverified; general cotton LOI about18 is background, not own measured control. N2/O2 flux wording also needs complete-original interpretation.",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1177/00405175231199498",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/0040-6031(76)85053-8",
+    "status": "original_fulltext_not_retrieved",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/0040603176850538",
+    "reason": "Publisher abstract verifies blend inventory and TG conditions but complete original and exact own LOI table were not retrieved. No cross-paper LOI borrowing or generic blend/control assignment.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/polym13030430",
+    "status": "paper_product_scope_held",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7866267/",
+    "reason": "Original explicitly prepares composite paper for wallpaper from beaten commercial Ca-alginate and FR-PA66 fibers by sheet forming. Three named paper states have matched LOI/TG, but final product is paper rather than an established textile form; do not relabel it as nonwoven to pass the form gate. Main original reviewed, SI not yet retrieved. No admissions.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]

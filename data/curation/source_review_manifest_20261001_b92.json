@@ -1,0 +1,89 @@
+{
+  "batch": "b92",
+  "baseline_counts": [
+    749,
+    909,
+    203
+  ],
+  "summary": {
+    "added_verified_unique_states": 16,
+    "added_verified_condition_records": 21,
+    "new_source_measurement_states": 16,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 3,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b92_pvpa_hydrogel2026.csv",
+      "DOI": "10.31788/RJC.2026.1919443",
+      "draft_sha256": "10ffa69ea0d246610e10ea7a0ca0185dfefe0b2b311239add7d78e209301ac5a",
+      "published_input_sha256": "f7b15ef1af17f0df007f3d1cd826ee087486b95f86a4ce8745d3b62bfba7b98f",
+      "states": 5,
+      "conditions": 10,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "2995c812125e634faeee5d0d86cb974625ff2dc34bd502d29a925781e11d87e6",
+        "386b6ec5ca6231c98ac7d8546782abc38b4cd3ced3d02a42534566778421b0ca",
+        "674602dd91ad039248a72abb9ef63fb6a1aae72038deb3670dfae4175c8c830f",
+        "5ef9251efd32d0a71a16cd895a9830622b86d2090569f1bc6c6593e4b2de03cc",
+        "08e39a2295cde212e3ca8b6e3ecc088f5b1e8718a50c41535f571b1def6e2ec2",
+        "0492e08cc42785df1ba19a67331017c23804b96b7f70b62d39e0dada7ecedf2b",
+        "ae44e71330ef8d9f1d891c78e8e8b85525d5a4ec488503c53ceb117b2edbfeb5",
+        "70ba09da43e99451ca210fa6b3c9deb40f296311f883af600a4b9656a53dde44",
+        "cde72e8df28e1ffe2915aab7d2c9493183c73d70df32ff94b2fedf0652135c50",
+        "e55a309e19b1bfcea596199377a34e342fff724a2e9c2482816685c6d40647ea"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b92_pepas2019.csv",
+      "DOI": "10.1177/0040517519845685",
+      "draft_sha256": "2c34e19b90bf62e563bff17ba85c53bdf9413f6e14ff536da95a06383d2f5a44",
+      "published_input_sha256": "612de36ca79902e7f56c5aa487419f308067c9b3087300e26026add69fc8f714",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "37ca79ae8886c242fd63f48175f2343e7399dec9646839c238fec32f05008bfd"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b92_dhtp2012.csv",
+      "DOI": "10.1021/ie300964g",
+      "draft_sha256": "3dea4ac77dc1d39f7e79ad863f76f1285f4294b9b077e60bc8d5000cf45e3acc",
+      "published_input_sha256": "23247d2cee163ca6ff3355f2d4e2f44ff42d50c626135906f2aea4004856ce4b",
+      "states": 10,
+      "conditions": 10,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "8692a18cb9b053270216c20e9150336c64b26528be0b2bd9431bc285078d9202",
+        "50c0a5ce9aab752444e6e1fb2e58d16c1c31ebab3de5dc59dc2200886c372944",
+        "cb47566531f89418860b361de25e56c5e6ccf169eeb3adbaa44f63cc79ce41f6",
+        "f3c07b913130003ac7f7a9f845d658d3a4adbf229f88077b38e24dc9217cd106",
+        "f9e72d0424205de01f8d57e2ca8700eb70c54c89b196499fde4ddc039d2bf9a2",
+        "648af2a0dc335938dcb6bdbbbdec368d0b1e88e0bace6468cc45328d55727240",
+        "69bf4f59917a29889b1b5e07205040cb868ad914bfb538aeb53786ee00539d5f",
+        "66db7e298f04c7808c8a88d391613cb211d80282a60db1a5c26046f3545e5953",
+        "ff73441e43b3041196235836413cf0413779abfa46502b6c76c84513596e769d",
+        "6718237581f414c48e5065f24851c2428dbb83113852ca531eca1911137f67ca"
+      ]
+    }
+  ],
+  "related_source_holds": [],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
