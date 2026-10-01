@@ -571,3 +571,12 @@ Explicit journal-article metadata corroborated by original publisher covers for 
 This batch adds 28 genuinely new sample states at 43 TG conditions from 10 DOI sources. Four author preprints contribute 12 states at 21 conditions and are counted explicitly as preprints. Related final journal versions remain source-wide alias/reuse holds until independent cross-version adjudication. The total is 589 states, 694 conditions and 147 sources (145 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+## b76 publication checkpoint
+
+PR #45 merged as 05e8f3e5acb73c25dd883c626e48462744ea7934 after all 338 tests and exact-head validation passed. The complete remote report and 23 relevant file blobs matched the reviewed local snapshot. Postmerge validation, master rebuild and processing checks all passed; the writer lease has been released.
+
+The accepted total is 589 sample states, 694 TG conditions and 147 sources (145 DOI sources plus two registered proceedings). This batch adds 28 genuinely new states and zero evidence-only upgrades. Four explicitly labelled author preprints contribute 12 states and 21 conditions; their related final journal versions remain source-wide reuse holds. All 651 previous condition records retain identical values in every existing field. Original fulltexts remain private.
+
+Snapshot SHA-256: 71c7fc5865d0995d9f89c05463b66be9d6e0c7a3bbc64ad4867f8ad6ddf96ad3.
