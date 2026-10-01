@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **782 unique reviewed source/sample/washing states**, **947 TG condition records**, and **213 original sources (211 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **788 unique reviewed source/sample/washing states**, **953 TG condition records**, and **215 original sources (213 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **782 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 581 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 587 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -836,3 +836,15 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [#63](https://github.com/PolyFT/textile-tga-database/pull/63) merged at `9a47e3f67f644db8455b1196b74f73619b56ea2c` after exact-head validation run `36827722828` passed. All 458 tests passed. All 13 batch-owned public file blobs and the complete validation report matched snapshot `55e76e1c569347f5d6aa3c781253009a0134c1a8c025ef258f8263cea1ef458a`; every prior field in all 941 condition rows was preserved. Concurrent main retry-state updates were preserved byte-for-byte, bringing the postmerge file comparison to 14 files. Three distinct merge-commit checks passed: validation, master rebuild and processing. The writer lease was released.
 
 Verified total: **782 unique states, 947 conditions, 213 sources (211 DOI sources and two registered proceedings)**. This batch adds six new-source polypropylene textile pairs, zero completed legacy TG-only pairs and zero evidence upgrades. Keep the five-percent-loss definitions, unknown LOI uncertainty type, actual modified-PP control formulation, draw-ratio conflict and held treated temperatures/LOIs. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Fulltexts remain private.
+
+
+## b95 Local PET and silk: complete TG-only pairs from printed LOI labels
+
+Five complete local published journal originals add **six newly paired textile states and six TG conditions**: **two new-source silk states and four existing PET TG-only states completed**, with **zero existing paired-state evidence upgrades**. Twenty-eight factual rows retain six accepted conditions,16 held native numerical TG facts and six LOI-only facts. One primary reviewer; no independent-reviewer claim or curve estimation.
+
+- **10.1002/app.20689:** Figure8 prints exact LOI19/28.7/21.4/25.5 for PET/PANI-g-PET/POAN-g-PET/POT-g-PET, completing the four pre-existing TG-only records. TableIII explicitly reports R7000.4/6.90/3.75/4.50%; TableIV gives two major DTG peaks for each. Moisture/HCl loss, step start/end temperatures, grafting efficiency and 2DTG kinetics are separate source fields. Native Figure8 PEF axis labels versus PET captions and TableIII loss/endmass inconsistencies remain explicit. NH3-dedoped reflectance/weight-loss specimens are not assigned to the regular final fabrics.
+- **10.1016/j.polymdegradstab.2008.10.024:** untreated silk LOI22.8/R60030.6 and exact20%HFPO/5.8%BTCA/4.6%NaH2PO2 silk after1HW LOI27.7/R60041.2 add two new-source states. Native Ti252/220 remains raw because the decomposition criterion is undefined. The control-specific laundering protocol is not separately reported; no control1HW claim is made. Five other exact LOIs lack same-state TG. Preserve Table4 30HFPO BTCA5.8 versus Table3/5 8.7; no washed-state substitution.
+- **10.1002/app.1497:** all13 facts remain held. Ten treated PET and PET/cotton TableII/III LOI/Rf pairs have explicit fabric50C/min/50-550C but no explicit fabric atmosphere. Earlier air methods name the DCTBPP compound and are not silently transferred. Generic residue assessment temperature is unknown. Untreated Rf0 conflicts with Ru13.1/11 and the curves; both native values are preserved without a clean control residue. F and Nr are separate from TG char yield. Washed PET LOI27 has no own TG. DOI identity was checked against official Wiley metadata matching the local original's authors/title/volume/pages.
+- **10.1016/j.tca.2011.01.007:** treated wool preparation92C in Tables4/5/7 and conclusion versus95C in TG prose remains unresolved; native LOI31.9/char33.34 are held. **10.1002/app.35353:** native treated LOI26.5/char31.06 is held for HCl versus formic-acid identity conflicts in experimental design/regression. The two related controls share authors, fabric,LOI25.4,third-stage391-597C and DSC enthalpy140.2, but differ in TG loss/char: possible sample-scoped reuse remains unresolved, so neither control adds a pair and no whole-paper alias is asserted. Generic char temperatures remain unknown; no stage boundary, DSC peak or21-run CCD burn-length response becomes a TG-LOI sample.
+
+All947 prior condition records retain every prior field. Only numerical facts and concise DOI/page/table/figure provenance are public; originals and local paths remain external and read-only. Proposed total **788 states /953 conditions**, with **1212 remaining to2000**. Exact-head CI, ordinary merge, three terminal merge-commit workflows and complete remote master/report readback precede lease release.
