@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T12:14:13.491348+00:00",
+  "as_of_utc": "2026-10-01T12:27:13.995Z",
   "latest_batch_id": "20261001_b108",
   "verified_condition_records": 1120,
   "verified_unique_sample_states": 917,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b108_validated_branch_pending_PR_merge",
+  "publication_stage": "b108_merged_verified_pending_lease_release",
   "last_merged_batch": "20261001_b107",
   "writer_lease": {
     "owner": "codex-local-aposs-20261001",
@@ -1985,6 +1985,41 @@
     "total_fact_rows": 15,
     "held_fact_rows": 3,
     "tests_passed": 576,
-    "snapshot_sha256": "5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95"
+    "snapshot_sha256": "5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95",
+    "publication": {
+      "status": "merged_verified",
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/77",
+      "head_sha": "dd2b99a06d1259d0a77433bf4b033f9257289ffb",
+      "merge_sha": "0f1fabb1bcc7584de1537e9f9c78caf510eb4aca",
+      "validation_run": 36860663678,
+      "postmerge_runs": [
+        36860944697,
+        36860944722,
+        36860944773
+      ],
+      "postmerge_status": "All three merge-commit workflows completed successfully: validation, master rebuild and processing.",
+      "snapshot_sha256": "5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95",
+      "master_sha256": "afc7155107881c019c06762ee95fd75f995467dcec54a37c347ba5f8042d8e5b",
+      "independent_remote_master_bytes": 5306968,
+      "previous_condition_records_all_fields_unchanged": 1108,
+      "remote_batch_file_blobs_matched": 11,
+      "independent_remote_complete_report_match": true,
+      "concurrent_retry_state_preserved": true,
+      "concurrent_state_files_preserved": 6,
+      "offline_tests_passed": 576,
+      "new_states": 6,
+      "new_conditions": 12,
+      "new_source_measurement_states": 6,
+      "newly_completed_legacy_pairs": 0,
+      "existing_paired_states_evidence_upgraded": 0,
+      "held_fact_rows": 3,
+      "verified_states": 917,
+      "verified_conditions": 1120,
+      "verified_dois": 248,
+      "verified_sources": 250,
+      "library_original_hashes_unchanged": 1,
+      "complete_original_native_pages": 15,
+      "proof_doc_commit": "97bcb6c9ac19cca4942904d97b71c6e57d24d7c7"
+    }
   }
 }
