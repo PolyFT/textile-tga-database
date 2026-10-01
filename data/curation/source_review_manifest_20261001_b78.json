@@ -1,0 +1,151 @@
+{
+  "batch": "b78",
+  "baseline_counts": [
+    601,
+    715,
+    148
+  ],
+  "summary": {
+    "added_verified_unique_states": 19,
+    "added_verified_condition_records": 31,
+    "new_source_measurement_states": 19,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 5,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 1,
+    "author_preprint_states_added": 3,
+    "author_preprint_conditions_added": 3
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b78_eggwhite_ha2021.csv",
+      "DOI": "10.1007/s10570-021-04208-8",
+      "draft_sha256": "435bbf810aef617b0dbd79deec6f1348af25d6a417cd4e834cd2f83d4428d33a",
+      "published_input_sha256": "10f005704e56d22c9eaf673564a99b3c37c4b5b83460901930c52a41ce0dbc0b",
+      "states": 4,
+      "conditions": 8,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "782d19fc87c4e161dbd208bce135bbeaf5c98d58f75bebe10909ae892886bd13",
+        "e5a8dce5fe28ad6dcbdf17c609c6905e875492700364e5d0b99a8737bfb93d50",
+        "5b2d1dda39e537dd3e157d0b9e455fa9d5d1403b044436756f625503c81b8ac0",
+        "33d94e1eaa0bacaabb5d6bf5339591a61a7bc40e78c88e5da949261ef807d81c",
+        "ff78207445b06f9b0c8058a61c35c9865859a0fca8335b9636e88fd547d7231a",
+        "43b62ca444e3b638c15624017c29db7fcc57b2b62971914067ca8181bb0afdf9",
+        "0b81dfea4af623283c40355c2451f0c5d821cf44b57755d19fa43816e1964eb3",
+        "463c9bcb3848dcbd23ca0ff30ba1ae70197a0b99cf8802a7824dec443b929956"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b78_radiant2019.csv",
+      "DOI": "10.1177/1558925019843615",
+      "draft_sha256": "ef64d9a1736200136e4388ac3bbf1f94c74c2d808bfafd242bdc71aaa8200e5f",
+      "published_input_sha256": "55423f2136ba6383c2eb2fe785e1d5627789881ce463dd2c72b2eee0bfd9f6fb",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "09a59944d9508a9a91b19a800623ef38b2c6a4435ccf35da307017a0fe651a11",
+        "581ff0155099ea2f628295cad82ebab20af5c8fa86ff8ef3ae8c11eebea70765"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b78_mtp2021.csv",
+      "DOI": "10.21203/rs.3.rs-315407/v1",
+      "draft_sha256": "d88fa9bf08c9ee15c855d098b5f929cd53761012c2a7f5b803ebb483f76ad342",
+      "published_input_sha256": "9df223c10dcd278cd1af04f4bb90a3c363f48f08294cf461f65384df84285865",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "d133d888358df21a79988c62906559ff35f4dc56644e8034fec6384a0f2a455b",
+        "9f500a4e93c7d2bf3d5afe313cf25a60f29820fb7febdd830a0103bb7518ded8",
+        "9e6adbe651e623b0c65ed4a71bda77fbd7156f96d677dafa6bdde28210962e69"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b78_dopo_insitu2025.csv",
+      "DOI": "10.1016/j.jaap.2025.107371",
+      "draft_sha256": "93ece39dd3445b1509ff771c19d26a423edcd2946e4488a1eee8db64623b3fea",
+      "published_input_sha256": "6db2dd64ea85b2e62126b3094153e8b481163a246c5801f910da5e6b1e4fea91",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "49760fff7d65e686fe6370e22df0b4f3becce9823e43c621dcc0baec17bc6090",
+        "3494bf87c0ffbf30cecc53dc76009b9b06ff6d729ef7740caa01c8c8e7f46ae7"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b78_phosphine2021.csv",
+      "DOI": "10.1016/j.cej.2020.128028",
+      "draft_sha256": "03cba11bc72dfd0ed9998830f615c41212728bd9a8f4fd3de6cad0419edafe17",
+      "published_input_sha256": "cdd8cc4c59fb37366defb5e237e8f305685f075eff59bb843064fcd6f6e86af4",
+      "states": 8,
+      "conditions": 16,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "61e7e07cba5b6e85c136329c285d85bbb9c7bc01ab245b0cbdc39e09487cb017",
+        "5b7916b547a922e3490f5e8e8497e7cdce0eef6cb67a5f7b23410dd987795d3a",
+        "0a3f7bdefe61b5ddd07cc7c1fb6305eeee5d9ef96502cf3a046cf77ad563afd9",
+        "e423c2ef69ffb441a04b7c9b4d8fa898f51b0c914bc93eef34776839c710e36a",
+        "830d755a372e826f026400e5b37326b359cf115fa7f764f92b8329fc741af8b1",
+        "8637e7f9c216d66a4ee15d9a5a74148c8a7735e00bc7c3e3ec8b05a4246a7fa5",
+        "44d912e97de762c7a5b9dcd253d0b1332ca22ab03a462f580573403d4622a851",
+        "693b9e96a7e6b0efddd972d11c52eb657137e5fb35cb91b5caf0383f3cec71fa",
+        "d7a391d5733b24549cf528a92d8ebba37ac1448caf92b1ef1b3d0dc533180555",
+        "b705756787d811f0f245422c6a6d61f688ffdf2ee6662aa80c997267623c7205",
+        "aa1359bae2cc599202d258115c1700354566f88f6b6bee257c372cbdfab4710f",
+        "92e4f7301798b394c91535de8b6e895ed524ccc81a22e99eddaddb0c33d46df5",
+        "b81560db6f5bc5653e992ef47a680db3122e495df14d4f829f6b7add09e4db8b",
+        "938ceb625ad64dac6a3a15a5d4b1bd19fd86146466c5a0f266df92f233767462",
+        "1f6341fd6829823c12f13a1b08dfd1a845ebba9e600069f51393651bfb802fcf",
+        "d2a1cb92deb29940f084f24de66ba27f09add8dbae6665119946af31c08e72ac"
+      ]
+    }
+  ],
+  "related_version_holds": [
+    {
+      "admitted_source_DOI": "10.1007/s10570-021-04208-8",
+      "related_version_DOI": "10.21203/rs.3.rs-188572/v1",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.21203/rs.3.rs-315407/v1",
+      "related_version_DOI": "10.1007/s10570-021-04076-2",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2021.106627",
+      "sample_state": "Control sample",
+      "evidence_location": "Original Tables 1, 2 and 5 and preparation/TG methods; https://doi.org/10.1016/j.porgcoat.2021.106627; related original preprint https://doi.org/10.21203/rs.3.rs-315407/v1",
+      "details": "Later-source control/PVA candidate requires explicit provenance and reuse adjudication against MTP C0/C1. Chitosan control and MTP C0 share T10/Tmax/R750 300/348/0.3, but LOI, maximum rate, fabric areal density and TG specimen mass differ. These partial coincidences neither establish independence nor invalidate the earlier source own pair. Retain MTP C0 once; the later C/PVA has no matching numerical TG in the reviewed source. Existing MP30/nCH30/MCHP30 treated states are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2021.106627",
+      "sample_state": "Cotton (control sample)",
+      "evidence_location": "Original Tables 1, 2 and 5 and preparation/TG methods; https://doi.org/10.1016/j.porgcoat.2021.106627; related original preprint https://doi.org/10.21203/rs.3.rs-315407/v1",
+      "details": "Later-source control/PVA candidate requires explicit provenance and reuse adjudication against MTP C0/C1. Chitosan control and MTP C0 share T10/Tmax/R750 300/348/0.3, but LOI, maximum rate, fabric areal density and TG specimen mass differ. These partial coincidences neither establish independence nor invalidate the earlier source own pair. Retain MTP C0 once; the later C/PVA has no matching numerical TG in the reviewed source. Existing MP30/nCH30/MCHP30 treated states are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2021.106627",
+      "sample_state": "C/PVA",
+      "evidence_location": "Original Tables 1, 2 and 5 and preparation/TG methods; https://doi.org/10.1016/j.porgcoat.2021.106627; related original preprint https://doi.org/10.21203/rs.3.rs-315407/v1",
+      "details": "Later-source control/PVA candidate requires explicit provenance and reuse adjudication against MTP C0/C1. Chitosan control and MTP C0 share T10/Tmax/R750 300/348/0.3, but LOI, maximum rate, fabric areal density and TG specimen mass differ. These partial coincidences neither establish independence nor invalidate the earlier source own pair. Retain MTP C0 once; the later C/PVA has no matching numerical TG in the reviewed source. Existing MP30/nCH30/MCHP30 treated states are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Author preprints are explicitly identified and separately counted; no journal or peer-review claim is inferred.",
+    "Related final versions remain source-wide alias/reuse holds pending explicit cross-version adjudication.",
+    "Different TG atmospheres add conditions, not independent sample states."
+  ]
+}

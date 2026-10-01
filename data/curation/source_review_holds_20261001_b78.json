@@ -1,0 +1,233 @@
+[
+  {
+    "DOI": "10.1007/s10570-021-04208-8",
+    "source": "eggwhite_ha2021",
+    "held_evidence": [
+      {
+        "scope": "CT nitrogen R800",
+        "reason": "Table 1: 0.2%; p 10 line 217: 0.28%. Canonical R800 blank; both values retained in evidence."
+      },
+      {
+        "scope": "CTW+HA nitrogen R800",
+        "reason": "Table 1, p 10 line 216 and conclusion p 25: 11.6%; p 10 line 231: 11.5%. Canonical R800 blank."
+      },
+      {
+        "scope": "T10 and Tmax canonical metric assignment",
+        "reason": "Table labels are clear but no expanded threshold or maximum-rate definition appears in the manuscript. Source-native temperatures retained; canonical temperatures blank. DTG curves are shown, without numerical estimation."
+      },
+      {
+        "scope": "CTHA+W reversed bilayer",
+        "reason": "Both TG atmospheres and 19.8% weight gain reported, but no explicit measured LOI for this state."
+      },
+      {
+        "scope": "CTW+HA durability water soak",
+        "reason": "Separate ISO 5651-1978 test: distilled water at 1:20 w/v with 0.5 g/L nonionic wetting agent, 30 min at room temperature; weight loss 9.67%. LOI described only as reduced by 2%, with no matched washed TG. No inferred LOI."
+      },
+      {
+        "scope": "Cited comparison materials in Tables 1/2",
+        "reason": "DNA, casein, hydrophobin and whey protein values are literature values; excluded from own states."
+      },
+      {
+        "scope": "Preprint version 10.21203/rs.3.rs-188572/v1",
+        "reason": "Same titled work and identical visible TG table rows; future source-wide alias/reuse hold. Do not add its states separately. No complete numerical equivalence or typeset equivalence assertion."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/1558925019843615",
+    "source": "radiant2019",
+    "held_evidence": [
+      {
+        "scope": "Pyrolyzed or convectively pre-exposed fabric states",
+        "reason": "These states are used in subsequent heat-protection and radiative optical tests; no separate matching LOI and TG values."
+      },
+      {
+        "scope": "Nomex secondary thermal decomposition peak",
+        "reason": "Text gives only a broad 560-570 \u00b0C interval; no exact peak extracted."
+      },
+      {
+        "scope": "Directional LOI states",
+        "reason": "Table 3 has warp/weft columns only for vertical combustion metrics. Do not duplicate the single LOI per fabric."
+      },
+      {
+        "scope": "TG and LOI conditioning duration, temperature and RH",
+        "reason": "General fabric conditioning cites GB/T 6529-2008. The detailed 24 h statement belongs to a separate thermal-protection method."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-315407/v1",
+    "source": "mtp2021",
+    "held_evidence": [
+      {
+        "scope": "Final journal DOI 10.1007/s10570-021-04076-2",
+        "reason": "Complete final journal unavailable; preview contains an added C8 TG curve. Final numerical equivalence unverified; future source-wide version/reuse hold, no coalescing."
+      },
+      {
+        "scope": "C2, C3, C4, C5 and C6 initial states",
+        "reason": "Measured initial LOI in Table 3 but no matching preprint TG row."
+      },
+      {
+        "scope": "C8 initial state",
+        "reason": "No preprint TG row; Table 1 lists PVA 10% and MTP 30%, identical to C7, but prose repeatedly calls C8 MTP alone. Recipe conflict retained."
+      },
+      {
+        "scope": "All Table 8 washed states",
+        "reason": "No washed TG. Preparation section gives 70 \u00b0C/1 h drying; results gives 60 \u00b0C/60 min. Initial TG cannot be reused."
+      },
+      {
+        "scope": "Neat MTP and PVA TG",
+        "reason": "These are neat chemical/polymer rows, not coated textiles; excluded."
+      },
+      {
+        "scope": "Tmax and mg/min loss rate",
+        "reason": "Source-native Tmax and maximum loss rate preserved; no conversion to percent-based rate, no expanded Tmax definition inferred."
+      },
+      {
+        "scope": "Coating concentration and weight gain",
+        "reason": "Table 1 percentage denominator not explicitly given. Source WG equation labels weight variables inconsistently; no dry add-on derived."
+      },
+      {
+        "scope": "Control/PVA candidates only in related chitosan follow-on DOI 10.1016/j.porgcoat.2021.106627",
+        "reason": "Independent reuse review read original chitosan Tables 1, 2 and 5 and methods. Exact later-source labels Control sample / Cotton (control sample) and C/PVA remain held, while accepted MP30/nCH30/MCHP30 are unaffected. The controls share T10/Tmax/R750 300/348/0.3, but maximum rate is 1.13 versus 1.19 mg/min, cotton areal density 142 versus 120 g/m\u00b2, TG mass 7\u20138 versus 6\u20137 mg and LOI 17.2 versus 17.1. These differences neither establish independent controls nor invalidate the internally consistent MTP pair. Retain MTP C0 as the single earlier-source control with reuse uncertainty; the later C/PVA lacks matched numerical TG. Do not describe the complete TG data as identical."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.jaap.2025.107371",
+    "source": "dopo_insitu2025",
+    "held_evidence": [
+      {
+        "scope": "Assay aliquot and joining-yarn selection limitation",
+        "reason": "Exact cotton-state assignments independently accepted. PET joining relates to the later 2 cm \u00d7 10 m strip; no separate PET-blend formulation is established. TG/LOI aliquot and joint selection are unreported. Do not infer PET absence, presence, negligible contribution or composition matching."
+      },
+      {
+        "scope": "Source Tmax canonical interpretation",
+        "reason": "Source text calls it maximum mass loss, not explicitly maximum rate. Canonical Tmax blank; raw 380/321 \u00b0C retained."
+      },
+      {
+        "scope": "Add-on normalization",
+        "reason": "16.3 \u00b1 1.7 wt% retained in raw fields. Source equation uses treated-mass denominator, so no conventional dry weight-gain conversion."
+      },
+      {
+        "scope": "Neat DOPOH TG row",
+        "reason": "Chemical-only T5 193/Tmax 274/R700 0.8 cannot be paired to coated-fabric LOI."
+      },
+      {
+        "scope": "Moving-strip and MCC results",
+        "reason": "Distinct instruments, atmospheres and metrics; not substituted for conventional TG."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.cej.2020.128028",
+    "source": "phosphine2021",
+    "held_evidence": [
+      {
+        "scope": "Piperazine molar ratio",
+        "reason": "Main general and SI prose use 1:1 TVPO:piperazine; main equation discussion uses 2:3. No canonical molar ratio assigned."
+      },
+      {
+        "scope": "General pre-steam drying duration",
+        "reason": "Main 10 min versus SI 5 min at 60 \u00b0C. Preserve both, leave duration unresolved. SS1-specific 5 min steps remain supported."
+      },
+      {
+        "scope": "Laundering standard edition",
+        "reason": "Main and SI heading AATCC 61-1996 versus SI text and silver durability prose AATCC 61-2013. Explicit 49 \u00b0C/45 min physical procedure retained."
+      },
+      {
+        "scope": "Source onset",
+        "reason": "97% mass remaining excluding moisture; source-native value only, not T5/T10."
+      },
+      {
+        "scope": "Other treatment and wash states",
+        "reason": "D1-D3, M1-M3, S1-S8, 50-wash S13/S16/50WSS1 and SS2 lack both exact matched LOI and TG for those exact states."
+      },
+      {
+        "scope": "Neat polymers and MCC",
+        "reason": "Poly-A/Poly-B TG are non-textile; main Table 3 is MCC and is not conventional TG."
+      },
+      {
+        "scope": "Representative Table 4 chemistry names",
+        "reason": "No direct assignment of PipEPO weight gain 21.8 or TPTEPO weight gain 44.3 to individual sample labels is made. Rounded LOI 27.4 is consistent with Table 2 S15 27.41; exact assay row retained."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.jclepro.2019.119620",
+    "title": "Sustainable reuse of fashion waste as flame-retardant mattress filing with ecofriendly chemicals",
+    "original_url": "https://digitalknowledge.cput.ac.za/bitstream/11189/8727/1/Sustainable_reuse_fashion_waste.pdf",
+    "document_sha256": "1cd4a6d1dc82967716362493c464501c1f9a9344c9e05abfc1d1e89acc6bbdb1",
+    "status": "hold_missing_exact_state_specific_TG_metric_and_blend_assignment",
+    "candidate_states": 4,
+    "reason": "Complete original reports measured LOI 19.1/26.5/27.4/28.8 for control/ammonium phosphate plus citric acid/CETAFLAM/APS mixture. Only control and ammonium-phosphate mixture underwent TG. TG prose offers approximate moisture loss, less/greater than 300 \u00b0C offsets and about 2% residual mass without unambiguous individual-state assignment. No exact canonical TGA metric can be extracted without graph estimation. Two measured source waste blends are not explicitly assigned to assays. TGA Pyris 1, 5 mg, ceramic crucible, 10 \u00b0C/min, 10 mL/min N2 then air switched at 700 \u00b0C; methods endpoint 850 \u00b0C versus prose test end 800 \u00b0C preserved as conflict.",
+    "review_scope": "Complete original published PDF and preparation/method/results review",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1021/acsami.1c05884",
+    "title": "High-Efficiency Flame Retardants of a P\u2013N-Rich Polyphosphazene Elastomer Nanocoating on Cotton Fabric",
+    "original_url": "https://pubs.acs.org/doi/10.1021/acsami.1c05884",
+    "status": "hold_original_main_fulltext_unavailable",
+    "reason": "Official abstract and supplement descriptions identify control and 1.9, 4.2, 5.3, 10.9 wt% coatings plus 9.7% after laundering, but no main original numerical TG/LOI tables or methods retrieved. SI description lists spectroscopy, mechanical and comparison data, not a replacement for original main state pairing.",
+    "review_scope": "Public original publisher abstract/preview plus targeted public fulltext retrieval",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107004",
+    "title": "Permanent P/N-rich polymeric coating capable of extinguishing flame on cotton fabrics",
+    "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S0300944022003010",
+    "status": "hold_original_main_fulltext_unavailable",
+    "reason": "Original publisher abstract and limited sections identify PMAP and a 4.9 wt% coating with 60 laundering cycles; full own TG/LOI tables and method conditions unavailable. Related PDMP paper requires cross-paper reuse review before any eventual admission.",
+    "review_scope": "Public original publisher abstract/preview plus targeted public fulltext retrieval",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.proeng.2017.12.114",
+    "title": "Pyrolysis Properties and Flame Retardant Effects of Fabrics Finished by Hybrid Silica-based Sols",
+    "original_url": "https://www.researchgate.net/publication/322998283_Pyrolysis_Properties_and_Flame_Retardant_Effects_of_Fabrics_Finished_by_Hybrid_Silica-based_Sols",
+    "status": "hold_LOI_ranges_and_threshold_only",
+    "candidate_states": 18,
+    "reason": "Original Table 2 reports all 18 own measured LOIs as intervals or a threshold: A <17.0 and B/C plus A0-C4 ranges. Do not collapse ranges or thresholds to point LOI values. TG methods air, 10 \u00b0C/min, room temperature to 950 \u00b0C are available, but single-point LOI cohort admission is not supported.",
+    "review_scope": "Original author-posted methods and LOI table review",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2025.111746",
+    "title": "Flame-retardant treatments of continuous flax fibres and rayon rovings: A novel approach for 3D-printing applications",
+    "original_url": "https://www.researchgate.net/publication/396813925_Flame-retardant_treatments_of_continuous_flax_fibres_and_rayon_rovings_a_novel_approach_for_3D-printing_applications",
+    "status": "exclude_fiber_TG_vs_printed_composite_LOI",
+    "reason": "Original Table 3 measured LOI belongs to 4 mm thick 3D-printed PLA composites, not the flax yarn and rayon roving specimens in fiber TG Figure 6. Do not transfer composite LOI to textile fiber states; plain yarn/roving specimens lack matched own LOI.",
+    "review_scope": "Original published article specimen-specific LOI and TG review",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/ma16237347",
+    "status": "screened_no_own_LOI_pair",
+    "source_url": "https://www.mdpi.com/1996-1944/16/23/7347",
+    "review_scope": "Indexed original publisher sections 3.6 and 4; direct page was rate-limited, so no claim of complete PDF review.",
+    "reason": "Own tests described are vertical flammability, oxidative TGA/DTGA and cone calorimetry. The LOI about18.9 is cited background for viscose, not an own assay. TG prose is approximate and no exact own TG\u2013LOI pair established. Do not join values from the related Heliyon blend paper, which separately lacks reported atmosphere.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-2356510/v1",
+    "status": "full_main_no_own_LOI_pair",
+    "source_url": "https://assets-eu.researchsquare.com/files/rs-2356510/v1/83781284-1d7f-42fa-8413-561a3e9a0f0a.pdf?c=1697490884",
+    "original_pdf_sha256": "7301df0cb990d61e8b900d0672a54e30c302d0e4ae0a289e171c81834a0a14b5",
+    "review_scope": "Complete original preprint downloaded and text screened; experimental TG and vertical-burning methods read. No numerical image estimate or separate SI claim.",
+    "reason": "Own fire performance is assessed by vertical burning and TG; no limiting-oxygen-index assay or own numerical LOI appears in the complete preprint main text. Review-cited PAN filters LOI30.9 is not this source data.",
+    "related_final_doi": "10.1007/s10570-023-05227-3",
+    "related_version_action": "Separate final version not reviewed or coalesced.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
