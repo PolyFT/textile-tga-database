@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "publication_stage": "publication_type_reporting_merged_and_postmerge_verified",
   "last_merged_batch": {
     "batch": "b74",
     "pr": "https://github.com/PolyFT/textile-tga-database/pull/42",
@@ -41,10 +41,11 @@
   },
   "writer_lease": {
     "owner": "dot-publication-type-reporting-20261001",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-10-01T00:41:02.792Z",
     "scope": "Reporting-only publication-type source/state/condition counters. No observations or identity/admission changes. Preserve547 states,637 conditions,134 sources and exact accepted master bytes.",
-    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks."
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks.",
+    "released_at_utc": "2026-10-01T00:52:12.126Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -836,5 +837,21 @@
       "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab",
       "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
     }
+  },
+  "publication_type_reporting": {
+    "pr": 43,
+    "merge_sha": "d6953b405dcc5378cef47dbb74d240bfef465217",
+    "validated_head": "18fa84e21da10c544148dfd07668e2b346fd6de2",
+    "validation_run": 36797543433,
+    "postmerge_runs": [
+      36798119756,
+      36798119765,
+      36798119807
+    ],
+    "verified_sample_states": 547,
+    "verified_condition_records": 637,
+    "verified_sources": 134,
+    "snapshot_sha256": "97aa4a30a14eb73383fa76f5e0f066417e0a62dede70238682348fa3d646d311",
+    "classification": "reporting_only_no_new_observations"
   }
 }
