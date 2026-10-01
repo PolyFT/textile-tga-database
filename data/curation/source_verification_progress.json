@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T07:55:18.306416+00:00",
+  "as_of_utc": "2026-10-01T08:13:08.882Z",
   "latest_batch_id": "20261001_b97",
   "verified_condition_records": 1009,
   "verified_unique_sample_states": 822,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b97_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b95",
+  "publication_stage": "b97_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b97",
   "writer_lease": {
     "owner": "codex-local-teos-inorganic-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b97",
     "claimed_at_utc": "2026-10-01 07:51:06 UTC",
     "scope": "Twenty newly paired textile states/thirty-six TG conditions from two complete local journal originals: PET/cotton/blend TEOS coatings and Ti/Zr/Al cotton coatings; one SiCO heat/wash scope hold. Preserve native DTG positions, T5 and separate muffle observations.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof."
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof.",
+    "released_at_utc": "2026-10-01T08:13:08.882Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -325,26 +326,27 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b96",
-    "pr": 65,
-    "merge_sha": "c3fc858d7fca3b6cb4151da6eb6f3e3f17402536",
-    "validated_head": "38503247df08b66eb613996366a8cdedaa91c98b",
-    "validation_run": 36831709333,
+    "batch_id": "20261001_b97",
+    "status": "merged_verified",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/66",
+    "head_sha": "e6b30c36f1c4ffce017e8e689c32e31aadd17f92",
+    "merge_sha": "b8d016367e3de2db298803e5429d00cd4ece96fe",
+    "validation_run": 36833629320,
     "postmerge_runs": [
-      36832018371,
-      36832018413,
-      36832018369
+      36834101566,
+      36834101616,
+      36834101598
     ],
-    "verified_sample_states": 802,
-    "verified_condition_records": 973,
-    "verified_dois": 217,
-    "verified_sources": 219,
-    "verified_non_doi_sources": 2,
-    "verified_non_doi_sample_states": 8,
-    "verified_author_preprint_sources": 7,
-    "verified_author_preprint_sample_states": 19,
-    "verified_author_preprint_condition_records": 29,
-    "snapshot_sha256": "455ee03d30cebfd52c26f45b222d892d1dc8dc9aa07f46ffa56baeada8102227"
+    "postmerge_status": "All three distinct merge-commit workflows terminal success; no approval bypass.",
+    "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11",
+    "master_sha256": "c4fadf9bbadf65ffeedb081fd78f5a9fe0c5a2b75294cd28e75e5171ee6fe9aa",
+    "previous_condition_records_all_fields_unchanged": 973,
+    "remote_exact_file_count": 11,
+    "independent_remote_complete_report_match": true,
+    "independent_remote_master_blob_sha": "7f0cb2b68edee1b63d397b72e3df2bbb0e45cfa3",
+    "independent_remote_master_bytes": 4362721,
+    "tests_passed": 481,
+    "concurrent_retry_state_preserved": true
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -1566,6 +1568,29 @@
     "held_stage_or_qualitative_TG_fact_rows": 0,
     "unmatched_LOI_only_fact_rows": 0,
     "tests_passed": 481,
-    "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11"
+    "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/66",
+    "publication": {
+      "status": "merged_verified",
+      "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/66",
+      "head_sha": "e6b30c36f1c4ffce017e8e689c32e31aadd17f92",
+      "merge_sha": "b8d016367e3de2db298803e5429d00cd4ece96fe",
+      "validation_run": 36833629320,
+      "postmerge_runs": [
+        36834101566,
+        36834101616,
+        36834101598
+      ],
+      "postmerge_status": "All three distinct merge-commit workflows terminal success; no approval bypass.",
+      "snapshot_sha256": "46c7e9b4ea94e21696bcf6be91f192097fea26fcb92920830f1e368af86cbd11",
+      "master_sha256": "c4fadf9bbadf65ffeedb081fd78f5a9fe0c5a2b75294cd28e75e5171ee6fe9aa",
+      "previous_condition_records_all_fields_unchanged": 973,
+      "remote_exact_file_count": 11,
+      "independent_remote_complete_report_match": true,
+      "independent_remote_master_blob_sha": "7f0cb2b68edee1b63d397b72e3df2bbb0e45cfa3",
+      "independent_remote_master_bytes": 4362721,
+      "tests_passed": 481,
+      "concurrent_retry_state_preserved": true
+    }
   }
 }
