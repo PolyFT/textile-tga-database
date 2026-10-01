@@ -1,0 +1,93 @@
+{
+  "batch": "b120",
+  "review_completed_utc": "2026-10-01T22:57:05.037792+00:00",
+  "baseline_counts": [
+    986,
+    1225,
+    273
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 7,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 36,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 41,
+    "held_fact_rows": 34
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b120_local_textile.csv",
+      "published_input_sha256": "1112fd8ec9dca17f94ac5574b27bb63df44958642b0a93e58cb32ddcdc4a42c4",
+      "unique_sample_states": 4,
+      "verified_conditions": 7,
+      "held_fact_rows": 34,
+      "accepted_measurement_fingerprints": [
+        "694ef30dd07a0381c4bda68bc8fcd115fbc27ce0441d1cb8e79925b7ac8d92ab",
+        "e9c85474e5a3fcfc25f7f5419b3fa3e9f18d47c7243ac85a41e99c281f71a36e",
+        "c8ee1fda7a7c86a650cdc95874c1abdaac31021727d5b7ca08fe298bfb1aaf7f",
+        "c38b63901db076a8c9e80311582ecd9f314fc4f2f60229bd2b77cf3c999c3e7d",
+        "3720560c080dd55f35305c04d332ea0ef3ff72e6c2485c6b492e8e7aa932a8c7",
+        "019156ad34299b3a9ff49c852f6faf77221758deff501b8dfcec926409e8fe5d",
+        "e0cbcdaf9e62c1dfb8bfb5f303c137779c90f7a649bfd3f4796ebcd685b171e2"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-016-5316-3",
+      "title": "Highly flame retardancy of cotton fabrics with a novel phosphorus/nitrogen/silicon flame-retardant treating system",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 9,
+      "pages": 7,
+      "disposition": "All7native/textpagesreviewed. Table1PDFp4(printed572)CO18.4,CO-FR0catalyst50gL22.5,FR50/100/150/200/250/300LOI27.5/29.9/30.8/31/32.7/33.9. The200gLrowduplicatesnativeCO-FR100label;preservedexplicitconcentrationdistinctionwithoutguessingcorrectedname. Table2PDFp5 untreatedcottonT5=309.8Tmax2=361.8R70015.9;soleuntreatedDTGeventappearsnativeTmax2column,noshifttoTmax1invented. Prosecharacterizescontrolcharasnegligibleversusprinted15.9;raw15.9retainedcanonicalresidueblankduetodescriptionconflict,whileownT5/DTGvalid. GenericFRtreatedTG:T5=248.5,DTG212.9/327.4/427.8,R70037.9butdoseunidentifiedall7pages. ConclusionjuxtaposesVBT150gLwithgenericTG,notexplicitsame-dosecrosswalk;notassigned150gL. PureFRsolidT5132.7/peaks139.2,353.1,439.5/R70041.9hasnoownLOIandisnotcotton. TG209F3N2RT-700C10C/min;mass/flow/repeatsunknown;three-measurementstatementpertainsverticalflamequantitiesnotTG/LOI. TableT5notgenericTonsetdespiteproseonsetword;noT10invented. LOIHC2GBT5454-1997dims58x150mm;VBT30x7.6cmnotLOIdims. Noownwash/agingTGLOIandnoSIcitedall7pages. Oneapprovedcontrolstate/condition;9heldsourcefacts;nogenericdose/powdertransfer,nocurveestimation.",
+      "SI_status": "NoSIcitedall7pages"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02608-5",
+      "title": "Synthesis of P\u2013N\u2013Si synergistic flame retardant based on a cyclodiphosphazane derivative for use on cotton fabric",
+      "accepted_states": 1,
+      "accepted_conditions": 2,
+      "held_rows": 19,
+      "pages": 15,
+      "disposition": "All15native/textpagesreviewed;noSIcited. OwnTable1partA(PDFp9)aircontrolT5=283.5T10=318.1Tmax=298.2R700=0;30percentFR189.9/243.7/289.4/34.1. NativecontrolTmax298.2retainedasauthorreported,no398.2correction/curveestimation. N2PDFp9proseandFig6p8exactR700control8.5/treated40.8;noexplicitN2peaktemperatures. MethodsPDFp5TG40-700C20K/minN2air. OwnTable3upperblockp12controlLOI18.2;20/30/40initial45.2/52.0/54.5. Abstractp1says30percentinitial52.9and50LC27.2versustextp11/Table3p12initial52.0/50LC27.9:both30percentTGconditionsheldcanonicalLOI/TGblank;raworiginalfactsretainednobest-valuechoice. FifteenwashedLOIstates10/20/30/40/50nativeLC,noownwashedTG;30percent50LCrawLOIconflictcanonicalblank. Other20/40initialLOIhave noowndoseTG. Table1partB(Liu2018b)andTable3lowerblock(Wang2016)arecitedliteraturecomparatorsnotownnewstates. PartB5/10/15BLnotCYDPstates. Nativephosphorousacidmaterialsp3versusphosphoricacidsynthesisp3-4/Scheme2preservedasprecursorconflictnotresolved. 20K/minsameC/mindifference;noconerefinedresidue51.32masslossorEDSsurfaceN/P/SiasbulkFRdose. Twoowncontrolgasconditions/oneindependentstateapproved;19heldfacts.",
+      "SI_status": "NoSIcitedall15pages"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02465-2",
+      "title": "Facile synthesis of novel reactive phosphoramidate siloxane and application to flame retardant cellulose fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 6,
+      "pages": 14,
+      "disposition": "All14native/textpagesreviewed,noSIcited. Table1PDFp6controlLOI18.2;DTSP10/20/30wtpercentbathLOI24.4/28.2/30.3withWG5/9/16. Thermaltextp8-9andFig8p10explicitcontrolandCotton-DTSP30only. N2owncontrolT5=280Tmax368R80011.2;DTSP30T5269Tmax315R80040.0. AirownexacttextR800control3.4/DTSP3017.5;noairnumericT5/Tmaxreported,nocurvedigitization. MethodsSTA6000N2air10C/min40-800Cp4. NativeT5masslossnotgenericTonset;nitrogencharatTmax42.0/75.2rawvariableresiduedistinctfromR80011.2/40.0. Coneresidue17.97notTGairR80017.5. Coatingbath30wtpercentnotfabricloading16WG;10/20doseTGabsent. Table4PDFp13DTSP30washed5/10/15/20LCLOI28.6/27.7/27.2/27.0withnoownwashedTG;preparationrinseinitialnotwash5LC. LOILFY606BGBT5454-1997dims150x58mm;five-replicatessentencepertainstensiletestnotLOI/TG. Fourapprovedgasconditions/twoindependentstates;6helddose/washfacts.",
+      "SI_status": "NoSIcitedall14pages"
+    }
+  ],
+  "verification_limit": "Three complete native primary originals36pages;alloriginalpageschecked;noSIcited,zeroSIcompleted;oneprimaryreviewer. PNSicontrolonlybecausegenericFRtreatedTGdoseunknown;T5notTonset;nativeTmax2orderkept;conflictingresidueheldraw. CYDPcontrolN2/airtwoTGconditions;30percentFRLOI52.9abstractversus52.0body/tableheld;washedTGabsent;literaturecomparatorblocksnotownstates. DTSPcontrol/30wtpercentbathWG16initialN2/air;airR800only,ownN2T5/Tmax;variableresidueatpeak/conecharseparate;noestimatedcurves/fulltext/image/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1225,
+    "new_states": 4,
+    "new_conditions": 7,
+    "evidence_upgrades": 0,
+    "verified_states": 990,
+    "verified_conditions": 1232,
+    "verified_dois": 276,
+    "verified_sources": 278,
+    "offline_tests_passed": 721,
+    "snapshot_sha256": "f3eefaddab7d5ba35bed19b88413d367b2b459caf0a04cecc307d1e745290ea1",
+    "master_sha256": "340a0d9abff18ec1ac3ca8535ef2254cdc499c8bc8368ef6afef8e1b9541c0f0",
+    "validation_errors": [],
+    "held_fact_rows": 34,
+    "complete_original_native_pages": 36,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 36,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
