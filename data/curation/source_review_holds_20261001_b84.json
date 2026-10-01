@@ -1,0 +1,237 @@
+[
+  {
+    "DOI": "10.1177/1528083718801360",
+    "source": "pi_ommt2018",
+    "held_evidence": [
+      {
+        "scope": "PI/M1, PI/M5, PI/M7",
+        "reason": "Exact TG Table 2 exists but LOI available only in unviewed Figure 7d; no explicit exact LOI retrieved. No graph estimation."
+      },
+      {
+        "scope": "Tdmax all five states",
+        "reason": "Source calls it highest weight decomposition temperature; no explicit maximum-rate definition. Source-native values retained, canonical Tmax blank."
+      },
+      {
+        "scope": "dW/dTmax all five states",
+        "reason": "Table gives 5.6/5.6/5.6/5.3/5.1 with unit %/\u00b0C. Pixel scale not checked; no conversion or canonical rate assigned."
+      },
+      {
+        "scope": "Nominal OMMT loading basis",
+        "reason": "Use named states and source applied masses; do not correct 8.3682 g denominator or <1 phr contradiction."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1007/s11814-022-1318-6",
+    "source": "anpp_wool2023",
+    "held_evidence": {
+      "DOI": "10.1007/s11814-022-1318-6",
+      "draft_sha256": "24bea10ac0f35f5e3299bd04d143c3165a60cf26310a6868e636662b344fb884",
+      "proposed_states": 2,
+      "proposed_conditions": 4,
+      "holds": [
+        {
+          "scope": "Initial 9.1%,18.7%,35.7% WG fabrics",
+          "reason": "Own measured LOIs exist, but source section 8 restricts TG to the 27.4% WG treatment."
+        },
+        {
+          "scope": "All 10,20,30,40,50 LC variants of all four treatment series",
+          "reason": "No matching washed TG. The source AATCC61-2006 wash is 40 \u00b0C,40 rpm,30 min with iron balls and standard detergent; one laboratory wash is stated equivalent to five family washes. No reinterpretation of the tabulated LC count."
+        },
+        {
+          "scope": "LOI and WG uncertainty statistics",
+          "reason": "Preserve native \u00b1 values; no source definition of SD/SE or LOI n."
+        },
+        {
+          "scope": "Comparative literature Table5 and CONE residues",
+          "reason": "Not own TG+LOI pairs."
+        },
+        {
+          "scope": "Synthesis apparatus and material interpretation inconsistencies",
+          "reason": "Only untreated wool and the 27.4% WG initial treated fabric have own TG. Table 1 and section 2 map this treated state to a nominal 30% ANPP solution, but the basis of that solution percentage is not stated; do not convert it to g/L or final material fraction. Table 2 uses 0 LCs for initial LOI; the preparation includes a flowing-water rinse, which is retained as a process wash. The later durability LOIs are not paired to baseline TG. LOI \u00b1 values and Table 1 WG \u00b1 values have no stated statistical definition or replicate count; no SD or n is invented. Five repetitions in the whiteness/tensile methods are not assigned to LOI or TG. The TG mass sentence explicitly says treated sample, so the control mass remains unspecified. LOI drying at 80 \u00b0C for 4 h is not silently assigned to TG. The source contains unrelated interpretation errors, including type I cellulose and L-glucose language for wool, a later 33.7% WG typo versus the defined 35.7% state, and a two-stage description of treated air degradation despite two tabulated rate peaks plus initial moisture loss; these are preserved as source limitations and not used to repair the numerical tables. The PDF header says INVITED REVIEW PAPER, while the body supplies an own Experimental section, original measured tables, and an ANPP row explicitly marked This work in Table 5. Publication type is journal_article and only those own measurements are proposed. The synthesis prose mentions 200 mL of 5% KMnO4 solution for formaldehyde absorption without a clear apparatus arrangement; no alternate synthesis arrangement is inferred. Current dedup uses the accessible 798-condition repository snapshot; parent must refresh against later batches before admission."
+        }
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/s11814-021-0744-1",
+    "source": "dbd_wool2021",
+    "held_evidence": {
+      "DOI": "10.1007/s11814-021-0744-1",
+      "draft_sha256": "a4d7ffe8bac8dbcd5d20f317dfa4118e58556395e506af9fba0c23c167a83708",
+      "proposed_states": 1,
+      "proposed_conditions": 2,
+      "holds": [
+        {
+          "scope": "All treated wool states",
+          "reason": "Generic TG/LOI labels do not explicitly assign the final loading or cure. Preserve the 200 g/800 mL preparation with 160 \u00b0C for 3 min and the 300 g/L, 90 s optimization separately."
+        },
+        {
+          "scope": "Treated nitrogen Tmax1",
+          "reason": "Table 4 gives 305 \u00b0C; prose gives 313 \u00b0C."
+        },
+        {
+          "scope": "Later washes",
+          "reason": "Antistatic wash tests do not establish corresponding TG/LOI states."
+        }
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/s11814-014-0095-2",
+    "source": "appcabt_cotton2014",
+    "held_evidence": {
+      "DOI": "10.1007/s11814-014-0095-2",
+      "draft_sha256": "bdb65658d458501191a90d0e8a25fe9a670bbc9c980be9161a8ef8d2e353536a",
+      "proposed_states": 1,
+      "proposed_conditions": 1,
+      "holds": [
+        {
+          "scope": "Untreated cotton control",
+          "reason": "Reuse-sensitive LOI 17.5, residue 8.8% at 600 \u00b0C and rounded onset/peaks 225/311/392 \u00b0C match earlier DOI 10.1007/s11814-013-0112-x. No second count proposed."
+        },
+        {
+          "scope": "Intermediate M, 10 wt%",
+          "reason": "Explicitly cited earlier 2013 LOI 26.1 and residue 23.0% at 600 \u00b0C, not a new 2014 state."
+        },
+        {
+          "scope": "Other add-ons",
+          "reason": "5, 15 and 25 wt% have no matched TG. The 25 wt% LOI also conflicts between Table 2 (28.3) and prose (28.2)."
+        },
+        {
+          "scope": "Source Tmax",
+          "reason": "323.3/500.7 \u00b0C retained raw; no explicit maximum-rate definition."
+        }
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.clet.2021.100319",
+    "title": "Chemically modified wool waste keratin for flame retardant cotton finishing",
+    "original_url": "https://www.researchgate.net/publication/355946813_Chemically_modified_wool_waste_keratin_for_flame_retardant_cotton_finishing",
+    "review_scope": "Author-uploaded indexed original methods, results, conclusion and references reviewed; no PDF pixels or SI retrieved. Publisher page returns Site Unavailable.",
+    "status": "held_fabric_TG_conditions_and_loading_unresolved",
+    "reason": "Nitrogen and 10 \u00b0C/min explicitly describe powdered keratin TGA in section 2.2.4.3; fabric TGA is stated only as 30\u2013500 \u00b0C. Figure 8 and section 3.7 have unspecified treated loading and residue more than 40%, not an exact value. Untreated cotton LOI 18 and terminal residue 10% are explicit but lack an unambiguous own fabric atmosphere/ramp assignment. Do not transfer powder TG conditions or choose 150/200 g/L from the LOI series. Original SI not obtained.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "evidence_sha256": "ac18e169ef03585e2668ee4356557bfb2004725010ec202a6c75303cd46dd895",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10118-019-2179-2",
+    "title": "Synthesis and AO Resistant Properties of Novel Polyimide Fibers Containing Phenylphosphine Oxide Groups in Main Chain",
+    "original_url": "https://www.cjps.org/rc-pub/front/front-article/download/6153094/lowqualitypdf/Synthesis%20and%20AO%20Resistant%20Properties%20of%20Novel%20Polyimide%20Fibers%20Containing%20Phenylphosphine%20Oxide%20Groups%20in%20Main%20Chain.pdf",
+    "review_scope": "Official 10-page PDF downloaded; own characterization and thermal/AO results checked; full text searched for LOI, oxygen index, flame and combustion.",
+    "status": "held_no_own_measured_LOI",
+    "reason": "This source reports fiber TGA and atomic oxygen resistance, but no own measured limiting oxygen index assay or values were found. Atomic oxygen exposure is not LOI.",
+    "document_sha256": "4cd0bdd25eb67e678c7bc7b523dc79957496f60cf484fcff325a178d4c72c7fa",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "evidence_sha256": "4cd0bdd25eb67e678c7bc7b523dc79957496f60cf484fcff325a178d4c72c7fa",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-026-07020-4",
+    "title": "Synergistic effect of nitrogen phosphorus biomass composite finishing on flame retardancy and UV resistance of cotton fabrics",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-026-07020-4",
+    "review_scope": "Original publisher abstract plus ResearchGate publisher first-page preview; no complete original fulltext retrieved.",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Multiple WK/TP/PPOA fabric preparations and highest LOI 31.03 are described, but exact TG values, assay conditions and state crosswalk are unavailable from the original preview. No values borrowed from citations.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.55911",
+    "title": "Investigation on UV/flame retardant protection of outdoor-applied cotton fabrics by tannic acid/phytic acid system",
+    "original_url": "https://www.researchgate.net/publication/381706680_Investigation_on_UVflame_retardant_protection_of_outdoor-applied_cotton_fabrics_by_tannic_acidphytic_acid_system",
+    "review_scope": "Author-page publisher preview, abstract and figure captions only; no complete original fulltext retrieved.",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Original abstract states 29.5 and 28.3 LOIs for two TA/PA recipes; no exact matched TG and complete own methods established from the original preview.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-022-05037-z",
+    "title": "Eco-friendly Modal/alginate knitted fabrics with intrinsic flame retardancy and wearability",
+    "publication_type": "journal_article",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-022-05037-z",
+    "public_original_mirror": "https://www.scribd.com/document/899347733/s10570-022-05037-z-1",
+    "review_scope": "Public original-text mirror sections for preparation, characterization, results, conclusion and references; original publisher identity/abstract checked. No downloaded PDF or pixel claim.",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Four knitted states have exact TG Tables 1/2 under nitrogen/air at 10 \u00b0C/min; Table 3 is cone calorimetry. Sole LOI 48.0 occurrence is cited background calcium-alginate fiber, not own Modal/blend data. Own characterization and results report CCT, TG and wearability, without an LOI assay or state-specific LOI values.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s11814-022-1346-2",
+    "title": "Microstructural and thermal investigation of the bioinspired and synthetic fire-retardant materials deposited on cotton using LBL process",
+    "original_url": "https://www.kiche.or.kr/journal/kjche/fulltext/40/4/943/26fa789a",
+    "review_scope": "Complete official nine-page original downloaded; own Experimental protocol, TG Table 2, MCC Table 3, vertical-flame results and conclusion checked. All LOI occurrences searched and traced to cited background.",
+    "status": "held_no_own_measured_LOI",
+    "reason": "Source reports four seven-bilayer cotton treatments and an untreated control with own TG, MCC and vertical-flame tests. No own LOI assay or numerical LOIs were established. Background LOI and MCC oxygen concentration cannot substitute for LOI.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "document_sha256": "5925e1f9013d7006d9a267950c49854135c636e5fbda95f71d82f0d4af465ab5",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s11814-013-0112-x",
+    "title": "Synthesis of a novel triazine flame retardant containing sulfur and its application to cotton fabrics",
+    "original_url": "https://www.kiche.or.kr/journal/kjche/fulltext/30/9/1687/ebc88e5c",
+    "review_scope": "Complete official four-page original text, preparation, results, tables and references reviewed as part of the APPCABT 2014 reuse audit.",
+    "status": "held_preparation_and_source_reuse_review",
+    "reason": "Own control and 10 wt% FR LOIs are 17.5/26.1 and residues at 600 \u00b0C are 8.8/23.0, with air/10 \u00b0C/min in Figure 4 caption. Fabric finishing recipe and own LOI assay method are not described in the original; synthesis conditions cannot be assigned to fabric finishing. Later APPCABT 2014 explicitly cites this treated FR as intermediate M and repeats the control tuple. No 2013 draft or cross-paper protocol transfer is proposed; earlier control and M require a bounded preparation/reuse decision before any future admission.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "document_sha256": "ce6781776b6e7a9f97cc68e7277a36e200a17ffa645484e98c6cc0650e4e2ca7",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.40584",
+    "title": "Effect of chicken-feather protein-based flame retardant on flame retarding performance of cotton fabric",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1002/app.40584",
+    "review_scope": "Original publisher abstract and references; original PDF open unsuccessful, no complete source retrieved.",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Own cotton TG and LOI are described by the abstract, but no complete preparation, numerical TG table or state crosswalk established. Secondary reviews and the distinct wool-keratin source are not substituted.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pen.70378",
+    "title": "Optimizing Processing and Formulation Strategies for Enhanced Thermal and Chemical Stability of Meltblown Polyphenylene Sulfide Nonwovens",
+    "status": "held_original_SI_numeric_TG_unretrieved",
+    "source_url": "https://4spepublications.onlinelibrary.wiley.com/doi/10.1002/pen.70378",
+    "scope": "Complete original publisher main text reviewed. Own LOI 34 is reported for pristine PPS and 3 wt% PEI nonwovens, with explicit Q50 nitrogen TGA at 10 \u00b0C/min. Main text places numerical TG evidence in Figures S1\u2013S4 and supplies no exact pair. Official 215.9 KB SI DOCX retrieval returned 403. No curve estimate or chemical-immersion weight loss is substituted. Exact processing settings and initial specimen identity still require SI review. No observations admitted.",
+    "SI_url": "https://4spepublications.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fpen.70378&file=pen70378-sup-0001-Figures.docx",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.7731/KIFSE.2015.29.2.025",
+    "title": "Na3PO4 Flame Retardant Treatment on Lyocell Fiber for Thermal Stability and Anti-oxidation Properties",
+    "status": "held_no_explicit_numeric_LOI",
+    "source_url": "https://www.kifsejournal.or.kr/upload/pdf/HJSBCY_2015_v29n2_25.pdf",
+    "original_pdf_sha256": "016403a643727aa8d3f033313f38b22516a94ac285646ddd14b23be00fdd2658",
+    "scope": "Complete eight-page original PDF text reviewed; Figure 7 on p.31 visually inspected. Four preparations (RL, NL-1, NL-2, NL-3) and exact air-TG Table 2 at 5, 10, 20 and 40 \u00b0C/min exist. The HC-2 LOI method uses measured oxygen and nitrogen flows, but Figure 7 has only unlabelled bars and error bars. No numerical LOI table or exact state-specific prose was found. Bar-height estimates, percentage-increase backcalculation and char-derived LOI are excluded. Nitrogen TGA at 10 \u00b0C/min is also reported, but residues are approximate. Preserve the printed preparation dimension 100 m \u00d7 100 mm without silently correcting it. Related lyocell controls require future reuse review.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.7731/KIFSE.2015.29.2.025",
+    "title": "Na3PO4 Flame Retardant Treatment on Lyocell Fiber for Thermal Stability and Anti-oxidation Properties",
+    "status": "held_graph_only_LOI",
+    "source_url": "https://www.kifsejournal.or.kr/upload/pdf/HJSBCY_2015_v29n2_25.pdf",
+    "original_document_sha256": "016403a643727aa8d3f033313f38b22516a94ac285646ddd14b23be00fdd2658",
+    "scope": "Official eight-page original text reviewed and Figure7 on p31 visually checked. Four prepared lyocell states RL/NL1/NL2/NL3 have own measured LOI assay and exact multi-rate airTG Table2, but LOI is unlabelled bar heights only; no exact numericalLOI in table/prose. No bar reading, inferred18%increase back-calculation, derivedIPDT substitution or approximate N2residue admission. Related2016 mixed-ammonium source remains separately held; no value transfer.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]

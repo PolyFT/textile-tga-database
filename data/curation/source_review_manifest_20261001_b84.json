@@ -1,0 +1,93 @@
+{
+  "batch": "b84",
+  "baseline_counts": [
+    676,
+    818,
+    170
+  ],
+  "summary": {
+    "added_verified_unique_states": 6,
+    "added_verified_condition_records": 9,
+    "new_source_measurement_states": 6,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 4,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b84_pi_ommt2018.csv",
+      "DOI": "10.1177/1528083718801360",
+      "draft_sha256": "58126ef7300d5d46106a5b92ced616061f3c356e9b3aa8792ebf58b25aa9056e",
+      "published_input_sha256": "e9454503658e06454cc177c8cfd819a4ef0fe5ea4bd10d7e102cf660a1c43da3",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "f6c0e17c60d6db3a725ec0c9d79b8f7d2818c6c22d07f432cacc56985479e72f",
+        "4e79015301b31e96f67e918759e6df18305e1a89846c711ffdfa97047326e409"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b84_anpp_wool2023.csv",
+      "DOI": "10.1007/s11814-022-1318-6",
+      "draft_sha256": "730394716227fd2520d1016fc08ae2549f894d2d22a6e086f66d866a81a36247",
+      "published_input_sha256": "dde5018b386761f8c9ed4de156b0c316cff9fb29440ac47d585fbc8a982bfbf8",
+      "states": 2,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "105cd81dbb47b88c06c297fd0056c4c98ea8a29bf4b01a67af91d1ff2ed83638",
+        "d6fc18c729ebaba96182e17ff1111f3d756f77fc20ebec5ba0cd865c3ef71e1c",
+        "8fb4be516e7c69f7547abb54e05ba440c6813f352c1b80174cdbb1cbaec4ad0a",
+        "a862280d440318ebdce98b4b0f70092b90d4a1711e3e228182a1c3ea00f1a15d"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b84_dbd_wool2021.csv",
+      "DOI": "10.1007/s11814-021-0744-1",
+      "draft_sha256": "a4d7ffe8bac8dbcd5d20f317dfa4118e58556395e506af9fba0c23c167a83708",
+      "published_input_sha256": "7a2c60ca2096411b939810b9649f1418f8d8c5830055e9689b67047c6b490cfd",
+      "states": 1,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "cc4efe06648cc872d4edf73d8f0e7bb5d74522614326c43d833ead1c8c7bdce3",
+        "1ab9e34ee4deef4a3912da8925bdcf6fa5082885fc27f7acb2ff330281813f56"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b84_appcabt_cotton2014.csv",
+      "DOI": "10.1007/s11814-014-0095-2",
+      "draft_sha256": "bdb65658d458501191a90d0e8a25fe9a670bbc9c980be9161a8ef8d2e353536a",
+      "published_input_sha256": "f71ed4398b2ea24c120f118b8a0c533c9429c1aa280ff8a419063ebecddfa9a3",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "05495790b2438870532bd8c1e400a142c4a429d280bcee3debe318e628c49654"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1007/s11814-014-0095-2",
+      "sample_state": "CFs",
+      "evidence_location": "https://doi.org/10.1007/s11814-014-0095-2; own Table2/3 and earlier original10.1007/s11814-013-0112-x",
+      "details": "Later untreated cotton comparator repeats earlier-source LOI17.5 and R6008.8 with rounded TG225/311/392 \u00b0C. Hold this2014 CFs comparator pending explicit reuse adjudication; do not add a second source/sample count. The distinct APPCABT10% treated state is outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
