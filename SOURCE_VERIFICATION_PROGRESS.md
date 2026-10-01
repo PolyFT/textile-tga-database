@@ -533,4 +533,4 @@ This batch adds 29 genuinely new sample states at 33 TG conditions: 21 states fr
 
 All numerical evidence, preparation and condition mappings passed independent original-source review. Contradictory residues, unmatched wash states, uncertain endpoints and possible reused controls remain held. The OPF refinement admits only its explicit low-temperature T5; it does not repair the conflicting residue temperature. Fulltexts remain private.
 
-The b73 writer lease remains active pending exact-head CI, merge and postmerge verification.
+B73 merged in PR #41 after all 302 tests and exact-head snapshot validation passed. All three postmerge workflows passed and the writer lease was released. Main now contains 536 reviewed states and 616 conditions from 129 sources: 127 DOI sources and two registered proceedings. The non-DOI cohort has eight states; original documents remain private. Nine separately identified author-preprint states have independent science review and remain queued for a later batch with explicit publication-type reporting and final-version reuse holds.
