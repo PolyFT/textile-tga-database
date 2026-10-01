@@ -21,13 +21,12 @@
   "publication_stage": "b90_merged_verified_lease_released",
   "last_merged_batch": "20261001_b90",
   "writer_lease": {
-    "owner": "dot-source-review-b90-20261001",
-    "status": "released",
-    "batch_id": "20261001_b90",
-    "claimed_at_utc": "2026-10-01T05:47:20.489Z",
-    "scope": "17 independently original-reviewed new states/17 conditions from 6 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher. Release only after exact-head CI, merge, three postmerge checks and exact report/snapshot readback.",
-    "released_at_utc": "2026-10-01T06:05:07.320Z"
+    "owner": "codex-local-wool-silk-20261001",
+    "status": "active",
+    "batch_id": "20261001_b91",
+    "claimed_at_utc": "2026-10-01T06:07:14.176Z",
+    "scope": "Four completely reviewed local journal originals;12 new wool/silk sample states and17 TG conditions;33 held facts. Preserve possible comparator reuse, crosslinker loading and endpoint conflicts.",
+    "instruction": "Single publisher; release after exact-head CI, normal merge, three postmerge checks and independent full report/master readback."
   },
   "next_sources": [],
   "next_actions": [
