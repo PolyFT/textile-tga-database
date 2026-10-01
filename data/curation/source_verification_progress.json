@@ -47,14 +47,12 @@
     "independent_readback": "Connector main report plus fresh-main rebuild agree; every old field unchanged; three distinct terminal merge-SHA checks succeeded."
   },
   "writer_lease": {
-    "owner": "codex-local-chapp-acmpep-20261001",
-    "status": "released",
-    "batch_id": "20261001_b77",
-    "claimed_at_utc": "2026-10-01T01:35:05.722Z",
-    "scope": "Three complete local journal originals and complete ACMPEP/TSPDP official SI;12new independentfabricstates/21TGconditions;4TG-only rows excluded. GP/FS complete primary held. Accepted DOI sources do notoverlapb76.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge, terminal postmerge checks and independent readback.",
-    "released_at_utc": "2026-10-01T01:47:43.052Z",
-    "release_reason": "Exact-head CI and normal PR46 merge, three terminal postmerge checks, independent remote report and fresh rebuild/hash/old694 field invariance verified."
+    "owner": "dot-source-review-b78-20261001",
+    "status": "active",
+    "batch_id": "20261001_b78",
+    "claimed_at_utc": "2026-10-01T01:49:49.720Z",
+    "scope": "Original-source textile expansion:11 states/15 conditions already independently approved. Additional phosphine-network source may enter only after independent exact-hash original-source QA before batch freeze. Preserve explicit publication types, source-version holds and sample-scoped reuse exclusions.",
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
