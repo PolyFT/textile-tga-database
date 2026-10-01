@@ -2189,14 +2189,14 @@
       "next_retry_utc": "2026-10-01T07:33:07.243585+00:00"
     },
     "10.1002/app.54976": {
-      "fingerprint": "380219c34afc74e6ee82",
+      "fingerprint": "fb30e56b85e663e5261e",
       "extractor_version": "6",
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 2,
-      "last_attempt_utc": "2026-09-30T23:09:15.899021+00:00",
-      "next_retry_utc": "2026-10-01T11:09:15.899021+00:00"
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-01T01:46:29.846954+00:00",
+      "next_retry_utc": "2026-10-01T07:46:29.846954+00:00"
     },
     "10.1002/fam.3182": {
       "fingerprint": "36a994d4dd3927206c83",
@@ -3163,6 +3163,6 @@
       "next_retry_utc": "2026-10-01T07:33:07.243585+00:00"
     }
   },
-  "last_run_utc": "2026-10-01T01:36:09.397133+00:00",
-  "last_examined_candidates": 25
+  "last_run_utc": "2026-10-01T01:46:29.846954+00:00",
+  "last_examined_candidates": 1
 }
