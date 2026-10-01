@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T17:28:15.260473+00:00",
-  "latest_batch_id": "20261002_b113",
-  "verified_condition_records": 1170,
-  "verified_unique_sample_states": 950,
-  "verified_dois": 259,
-  "numeric_pair_candidate_rows": 1629,
+  "as_of_utc": "2026-10-01T18:22:42.551317+00:00",
+  "latest_batch_id": "20261002_b114",
+  "verified_condition_records": 1178,
+  "verified_unique_sample_states": 955,
+  "verified_dois": 262,
+  "numeric_pair_candidate_rows": 1637,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 749,
+  "cumulative_newly_completed_or_new_source_sample_states": 754,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b113_merged_remote_verified_lease_released",
+  "publication_stage": "b114_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261002_b113",
   "writer_lease": {
     "owner": "codex-local-aphompa-ctsgp-aspbh-20261002",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "B114:5 new cotton source/sample states across8 conditions;zero upgrades/legacy completions. Four complete originals58pages and one officialDOCX13paragraphs0tables2renderedpages. APHOMPA onlycontrol/30percent N2 R600; R601/602 remain distinct;air ramp unknown held. CTSGP only untreated18.0paired;treated29.0vs28.8 initialLOI/dyed/washed held. ASPBH explicit350gL/owncontrol TGprose;aircontrol char blank under prose/curve conflict;N2treated peak ranges not inferred. GBAP TGdose/wash mapping unresolved;49 held facts excluded. Source chain/PBTCA metadata unresolved;no chemistry repair. All priorfields/concurrentfiles preserved;metadata read-only;refresh lease/main/PR/queue before later publisher.",
     "B113:4newcottonstates8gasconditions,zero upgrades/legacycompletions. Fourcompleteoriginals56pages/threeofficialDOCXSIs59paragraphs1table9renderedpages. AGATMPAonlycontrol/35wt%exactT10/Tmax/R700;AMHPEonlycontrol/30mass%exactTonset/Tmax/R700/R800. All other doses/washedLOI excluded without ownTG. PBN900Ctablecharversuscurveconflict and LAP600/700/800Cendpointconflicts/rawcontrolnumericreuse hold entire sources;61heldfacts preserved. Allpriorfields/concurrentfiles retained;metadatareadonly;freshlease/main/PR/queue before later publisher.",
     "B112:7newcottonsource/sample/washstates10conditions,zero upgrades/legacycompletions. Fivecompleteoriginals86nativepages+officialSMBDOCXSI. CEJAgNW1/2/3TG-onlyheld;PAAonly1percentR600exact,6graphTGheld;SMBwashedseparateR700notconechar,peakmetadataheld. ASGTMPAgas/rampconflict andDCTPmissingTGgasexcludealltheirfacts. Preserve66holds,allpriorfields/concurrentfiles;metadatareadonly;refreshlease/queue/PRbeforelaterpublisher.",
     "B111:10newinitialcottonstates17conditions;zero upgrades/legacycompletions. Three complete originals38nativepages+officialGrapheneDOCX7SI. PA/Ba18.0vsLewis16.4scope andK2CO3bath60vs2mg/mL held;39aminoLOIgraphonly,threeexact40LCLOI-only,washed/binder/char/feedratiofactsheld. N2/airnoextra states;sourceT10/R600,airsecondcharpeak,DSCvsDTG distinct. Unknown assay/recipe and source standard/endpoint conflicts preserved. Refreshmain/lease/queue/PRbeforelaterpublisher.",
@@ -725,7 +726,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1050,
+  "remaining_to_2000": 1045,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -773,9 +774,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 261,
+  "verified_sources": 264,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 942,
+  "verified_doi_sample_states": 947,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -809,7 +810,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1050,
+  "remaining_to_target": 1045,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -925,9 +926,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 116,
-      "sample_states": 375,
-      "condition_records": 495
+      "sources": 119,
+      "sample_states": 380,
+      "condition_records": 503
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1019,7 +1020,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1162,
+  "verified_doi_condition_records": 1170,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -2190,5 +2191,21 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/81",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b114": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 58,
+    "complete_official_SIs_reviewed": 1,
+    "official_DOCX_SI_rendered_pages": 2,
+    "total_fact_rows": 57,
+    "held_fact_rows": 49,
+    "tests_passed": 643,
+    "snapshot_sha256": "0297b8114bae75f2254c5a1acb100e5af8f849e47c326086aef79591ec434a81"
   }
 }
