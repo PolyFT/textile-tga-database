@@ -37,12 +37,12 @@
     "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
   },
   "writer_lease": {
-    "owner": "dot-source-identity-schema-20260930",
-    "status": "released",
-    "claimed_at_utc": "2026-09-30T23:48:14.593Z",
-    "scope": "Code-only registry-bound stable source identity schema; no new observations. Preserve all existing DOI identities and 501 states/577 conditions/117 DOI, with independent code QA at exact patch hash.",
-    "instruction": "Single publisher; release after exact-head CI, merge and terminal checks.",
-    "released_at_utc": "2026-09-30T23:59:25.491Z"
+    "owner": "codex-local-greige-pan-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-10-01T00:00:39.929Z",
+    "batch_id": "20261001_b72",
+    "scope": "Publish six independently source-verified local greige cotton nonwoven and PAN woven TG-LOI states, six conditions, eight excluded TG-only rows; library strictly read-only.",
+    "instruction": "Single publisher; release after exact-head CI, normal merge and terminal postmerge readback."
   },
   "next_sources": [
     "10.1016/j.polymdegradstab.2011.08.014"
