@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T08:13:08.882Z",
+  "as_of_utc": "2026-10-01T08:18:05.083Z",
   "latest_batch_id": "20261001_b97",
   "verified_condition_records": 1009,
   "verified_unique_sample_states": 822,
@@ -18,16 +18,15 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b97_merged_verified_lease_released",
+  "publication_stage": "b98_writer_claimed_for_independently_reviewed_sources",
   "last_merged_batch": "20261001_b97",
   "writer_lease": {
-    "owner": "codex-local-teos-inorganic-20261001",
-    "status": "released",
-    "batch_id": "20261001_b97",
-    "claimed_at_utc": "2026-10-01 07:51:06 UTC",
-    "scope": "Twenty newly paired textile states/thirty-six TG conditions from two complete local journal originals: PET/cotton/blend TEOS coatings and Ti/Zr/Al cotton coatings; one SiCO heat/wash scope hold. Preserve native DTG positions, T5 and separate muffle observations.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof.",
-    "released_at_utc": "2026-10-01T08:13:08.882Z"
+    "owner": "dot-source-review-b98-20261001",
+    "status": "active",
+    "batch_id": "20261001_b98",
+    "claimed_at_utc": "2026-10-01T08:18:05.083Z",
+    "scope": "Independently original-reviewed textile and laminate states, including explicit preprint classification and sample-scoped reuse holds. Admit only exact-hash approved drafts after fresh deduplication and full validation.",
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks."
   },
   "next_sources": [],
   "next_actions": [
