@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T22:43:55.618090+00:00",
-  "latest_batch_id": "20261002_b119",
-  "verified_condition_records": 1225,
-  "verified_unique_sample_states": 986,
-  "verified_dois": 273,
-  "numeric_pair_candidate_rows": 1684,
+  "as_of_utc": "2026-10-01T22:57:05.040594+00:00",
+  "latest_batch_id": "20261002_b120",
+  "verified_condition_records": 1232,
+  "verified_unique_sample_states": 990,
+  "verified_dois": 276,
+  "numeric_pair_candidate_rows": 1691,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 785,
+  "cumulative_newly_completed_or_new_source_sample_states": 789,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b119_merged_remote_verified_lease_released",
+  "publication_stage": "b120_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261002_b119",
   "writer_lease": {
     "owner": "codex-local-textile-b120-20261002",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "B120:4newsource/sample/washstates,7TGconditions,zeroevidenceupgrades/legacycompletions;3completeprimaryoriginals36pages;41facts34held;noSIcited. PNSicontrolvalidT5/Tmax2only;treatedTGdoseunknownandcontrolresidueconflictheldraw. CYDP30percentLOI52.9abstract/52.0bodyheld;owncontrol2gasconditions;washedTGabsent;comparisonblocksnotnewownstates. DTSPcontrol/30wtpercentbathWG16initialN2/air;noairtemperaturesborrowedfromN2;R800notpeak/conechar;10/20doseandwashedTGabsent. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B119:4newsource/sample/washstates,8TGconditions,zeroevidenceupgrades/legacycompletions;3completeprimaryoriginals32pages;46facts38held. PHMGP/SPBcotton4initialstatesinN2/air10C/min;genericTonsetnotT5;aircontrol360Table/358proseheldblank;R600notvariablepeak/VFT/HFTresidue. UV26factsheldmissinggas/ownwashedTG/crosslinkerLOIconflict. PA66primary12conditionsheldpendingunreadcitedSI;regularTGflowunknownseparateTGFTIR55mL/min;washedTable6VBTnotLOI. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B118:6newsource/sample/washstates,12TGconditions,zeroevidenceupgrades/legacycompletions;3completeoriginals29pages,noSIcited;43facts31held. Waterglass/U/APcotton6initialformulationsinN2andair10C/min;T5notgenericTonset;N2WG118Cwater/silanollossnotmainpeak374C;R600not800Cendpoint;aircontrolR600<1boundrawonly. Silk17factsheldmissingrate/curveLOI/washedTG;Mncotton14heldmissingTGheatingrate/washedTG;MCC1C/s600Cmass/chararenotTGconditions. Refreshmain/PR/lease/queue before nextpublisher.",
     "B117:6newsource/sample/washstates,6TGconditions,zeroevidenceupgrades/legacycompletions;4completeoriginals43pages,noSIcited;47facts41held. PCQSownfourstatesinitialCotton/PEI/30/30Cl;10/20layernoTG. Caseinall22heldnoLOI;ATPall6heldnoTG. Hyperbranchinitialgeneration3/4new,priorgeneration2explicitreuseandsharedcontrolheld;9washedLOIonly. T5/T10/mainDTG/water/residuetemperatureskeptdistinct;nogas/dose/wash/Cltransfer. Refreshmain/PR/lease/queue before nextpublisher.",
@@ -731,7 +732,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1014,
+  "remaining_to_2000": 1010,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -779,9 +780,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 275,
+  "verified_sources": 278,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 978,
+  "verified_doi_sample_states": 982,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -815,7 +816,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1014,
+  "remaining_to_target": 1010,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -931,9 +932,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 130,
-      "sample_states": 411,
-      "condition_records": 550
+      "sources": 133,
+      "sample_states": 415,
+      "condition_records": 557
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1025,7 +1026,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1217,
+  "verified_doi_condition_records": 1224,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -2401,5 +2402,20 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/87",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b120": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 7,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 36,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 41,
+    "held_fact_rows": 34,
+    "tests_passed": 721,
+    "snapshot_sha256": "f3eefaddab7d5ba35bed19b88413d367b2b459caf0a04cecc307d1e745290ea1"
   }
 }
