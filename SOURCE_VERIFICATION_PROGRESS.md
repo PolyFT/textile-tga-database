@@ -547,3 +547,8 @@ Eleven genuinely new independent sample states add21 TG condition records from f
 - 10.1016/j.polymdegradstab.2020.109302: Cotton and CS/LS/cotton17.0/25.2%weight-gain states/six conditions. N2TG-FTIR20Cmin/25mLmin differs from airTG10Cmin/30mLmin. T5 moisture threshold is not onset; Rmax is%/min. LS-only17.1%LOI24.7 versus26 conflict holds bothTGrows. CottonN2R70013 versus12.5 withheld; CS/LS25.2char27 versus27.1 preserves table integer precision. No guessed layer counts or component ratio.
 
 Proposed total:547 states/637 conditions/132 DOI sources plus2 non-DOI sources; 1453 remain to2000. Exact-head CI, normal merge and independent postmerge readback required.
+
+
+## Publication-type reporting verification
+
+PR #43 added explicit publication-type source, sample-state and condition totals without changing observations or source identity. All 321 tests and exact-head validation passed. Merge d6953b405dcc5378cef47dbb74d240bfef465217 passed validation, master rebuild and processing checks. The complete master remains byte-identical, with 547 states, 637 conditions and 134 sources (132 DOI sources and two registered proceedings). Current metadata labels 132 sources unspecified and two proceedings; zero explicitly marked preprints does not establish absence of legacy preprints. The reporting writer lease has been released.
