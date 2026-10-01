@@ -1,0 +1,111 @@
+{
+  "batch": "b86",
+  "baseline_counts": [
+    693,
+    841,
+    178
+  ],
+  "summary": {
+    "added_verified_unique_states": 9,
+    "added_verified_condition_records": 10,
+    "new_source_measurement_states": 9,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 5,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 2,
+    "author_preprint_states_added": 4,
+    "author_preprint_conditions_added": 5
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b86_triazine_cotton2013.csv",
+      "DOI": "10.1007/s11814-013-0112-x",
+      "draft_sha256": "3a089dbc0a814afe96ae1071a728cf299624a1a8bfc42ef8f67107db923d8f0e",
+      "published_input_sha256": "85bf1131cca30d2bb17342b1700baeac28b67cf2fc2f290a0c97780ef10c90f5",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "6054214b5333a4a005da5570ffed047d4b7ccf319ec54d560bf041b14a563f1b",
+        "3ae55e0cf4f009e38ff6ebe09eda0b9e4cc71b245c1b4dc8fbef8a7e17ac19c8"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b86_apgdpe2021.csv",
+      "DOI": "10.21203/rs.3.rs-494207/v1",
+      "draft_sha256": "79e8916c39905aecad7132a852a7d07e313267819a38fa2bafb640a7bb363f95",
+      "published_input_sha256": "0d43442fb9d3581a5a45567d6ae92f3f3aabd70767a10177173b7915ee2d2fe4",
+      "states": 1,
+      "conditions": 2,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "93ae5fcca99a4209b019b7557832c8e8fcf32322e8dcef33b0dc446050c651d7",
+        "a02c2964526e271e27fda7985c8cf54e85d69210a6acdc700399c85f200314c9"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b86_deta_ta_pa2021.csv",
+      "DOI": "10.21203/rs.3.rs-376887/v1",
+      "draft_sha256": "5296f8f92aaff65a8e2218323602e97e4479fe099c86e26c55641e218a7cca99",
+      "published_input_sha256": "ad23f3e3fe70ab56c719b52e46741672a852012e8f9da75d1dd1f97e44898f41",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "c2d007939e8ab5ae8e80bd6fde54a9f4cbb92f934c9284d3c9435e241b191a03",
+        "5ca85a424a2f972357ff17ce1feacc9ebed5aa5da1345c1a35e213e5d4b41813",
+        "085f767ff1daffcdc1d2272dcd0eadc8aef6bb305986f3da4315fbe6d71c1aba"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b86_peipa2018.csv",
+      "DOI": "10.1007/s10570-017-1577-2",
+      "draft_sha256": "8d3c4d723bd7776f367c25d7cf87d76e4f4eb43c02f5a8eb43a33972c99ecbc5",
+      "published_input_sha256": "6474109ff4c83894ed89fff228859d3a45a12a65976c22e8069d8308c6c8240d",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "8fd605c05b354e83dc939f0ec60e123671017db378bd6cbcccd000f6b93eb1b4",
+        "88d1ca691dedda62f11e45e9ed206e01c34a8b04e9077036ee5b321b4bb48328"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b86_jute_tin2017.csv",
+      "DOI": "10.1007/s40034-017-0092-1",
+      "draft_sha256": "0e6e12875dea073f8d0bf209b30b0b99b9fd32cf8eddad0d7ce22ddf90d1f7ff",
+      "published_input_sha256": "8650804ecc9c57a1d65267b1e871f147f17d2713f06bd6d5d20f3e83a8384055",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "6dc57b99a6dd1044880e6c7f268fd6d687f012233ee1eb7b6808adea636bedc2"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1007/s11814-014-0095-2",
+      "sample_state": "M",
+      "evidence_location": "10.1007/s11814-013-0112-x Table 3/Figure 4 and later 2014 original comparison",
+      "details": "Later intermediate M comparator repeats the earlier triazine-treated material data. Exclude it as an additional state until explicit observation-reuse adjudication; the distinct later CABT-containing treated state is unaffected.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.21203/rs.3.rs-494207/v1",
+      "related_version_DOI": "10.1007/s10570-021-04049-5",
+      "status": "open_source_wide_alias_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}

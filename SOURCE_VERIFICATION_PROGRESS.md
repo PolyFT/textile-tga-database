@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **693 unique reviewed source/sample/washing states**, **841 TG condition records**, and **180 original sources (178 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **702 unique reviewed source/sample/washing states**, **851 TG condition records**, and **185 original sources (183 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **693 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 492 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 501 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -700,3 +700,10 @@ Five complete local original articles add **11 genuinely new independent initial
 - **10.1007/s10570-021-03980-x:** own Cotton0/1/2/3 codes connect Table1's0/10/20/30wt% PEI-P baths to Tables2/3, adding four initial states/four N2 conditions. LOI18.1/31.4/35.8/38.7 pairs with exact T5/Tmax/R700. Regular TG mass5mg is distinct from TGIR10mg. Washed10/30/50homecycleLOI has no own TG. Source synthesis/recipe unknowns and catalyst basis are not inferred.
 
 All previous inputs, source-version and sample-scoped reuse holds are preserved. Public evidence contains only factual data and DOI/page/table/figure locators; fulltexts, supplements, images and private paths remain outside the repository. Published total **693 states /841 conditions /180 sources**, with **1307 states remaining to2000**. PR #54 merged as `ff5184cd2490e3b04dec372b53736b5e92fbece8` after exact-head CI run36815129223 passed on `f523b58f1a18faa6ac3e1117934ef46c893cdeca`. All396 offline tests passed. The three distinct postmerge runs36815251837/36815251867/36815251838 reached terminal success. All11 changed-file blobs, the full validation report and the master SHA-256 matched the reviewed snapshot; all827 previous condition rows retained their prior fields. Snapshot `9fe87f21872f6617c390ba337db4e1d9fe5b989baa6dc4f2171b9487116edead`; master SHA-256 `9bb0f8f81a45e99835695551165df021a18c7a247be8b649e0d800d3181a242e`. Owned lease release follows this verification.
+
+
+## b86 original-reviewed fiber and textile states
+
+This batch adds 9 genuinely new sample states at 10 TG conditions from 5 DOI sources. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 702 states, 851 conditions and 185 sources (183 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.

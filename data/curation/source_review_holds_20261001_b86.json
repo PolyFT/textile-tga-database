@@ -1,0 +1,325 @@
+[
+  {
+    "DOI": "10.1007/s11814-013-0112-x",
+    "source": "triazine_cotton2013",
+    "held_evidence": {
+      "DOI": "10.1007/s11814-013-0112-x",
+      "draft_sha256": "3a089dbc0a814afe96ae1071a728cf299624a1a8bfc42ef8f67107db923d8f0e",
+      "candidate_states": 2,
+      "candidate_conditions": 2,
+      "status": "Independent original-source review approved two bounded pairs; missing preparation and assay details remain explicit limitations.",
+      "holds": [
+        {
+          "scope": "Fabric preparation and LOI method details",
+          "reason": "Not supplied by this original. Direct own-assay state assignments support the bounded pairs; unavailable methods remain unknown and no transfer from 2014 is permitted."
+        },
+        {
+          "scope": "Canonical decomposition temperatures",
+          "reason": "Initial-decomposition threshold undefined; DTG-stage temperatures explicitly approximate. Preserve raw only."
+        },
+        {
+          "scope": "Later 2014 CFs control and intermediate M",
+          "reason": "Same source observations or reuse-sensitive control tuple; no second count."
+        }
+      ]
+    }
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-494207/v1",
+    "source": "apgdpe2021",
+    "held_evidence": [
+      {
+        "scope": "Control C0",
+        "LOI_source_raw": "about 18.0%",
+        "reason": "No exact unqualified own control LOI; introductory 18% is cited background, not substitute. Air residue dash is not zero."
+      },
+      {
+        "scope": "FRC1 and FRC2, initial and washed; FRC3 after 10/20/30/40/50 cycles",
+        "reason": "Exact LOIs exist in Table 2 but TG only identifies initial 40% APGDPE cotton; no concentration or wash transfer."
+      },
+      {
+        "scope": "FRC2, 30 laundering cycles",
+        "reason": "LOI 30.0 prose versus 30.3 Table 2; both preserved and unpaired."
+      },
+      {
+        "scope": "10.1007/s10570-021-04049-5",
+        "reason": "Final journal version future alias/reuse hold; no exact numerical equivalence established, do not import same specimens under both DOIs."
+      },
+      {
+        "scope": "Table 3 literature comparators and all cone/MCC substitutions",
+        "reason": "Not own matching textile TG/LOI states."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-376887/v1",
+    "source": "deta_ta_pa2021",
+    "held_evidence": [
+      {
+        "scope": "CF untreated reference",
+        "reason": "LOI16.5 in Table3.1 is accompanied by a literature citation in section3.1; no untreated observation admitted until source provenance is resolved."
+      },
+      {
+        "scope": "25/50/75%DTP",
+        "reason": "Measured LOI exists but no exact same-recipe TG; do not transfer100%DTP data."
+      },
+      {
+        "scope": "Rmax rate basis and unrelated editorial errors",
+        "reason": "Preserve source-native rate values/units and caption anomalies; no inferred unit correction."
+      },
+      {
+        "scope": "Future publication versions",
+        "reason": "Use actual preprint v1 DOI only. No final-journal version identified; future matching author/title and numerical states require reuse audit."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1007/s10570-017-1577-2",
+    "source": "peipa2018",
+    "held_evidence": [
+      {
+        "scope": "PEIPA 1:1 treated cotton",
+        "source_values": {
+          "LOI_initial": "24.8",
+          "T10_C": "216",
+          "Tmax_C": "326",
+          "R500_pct": "16.2"
+        },
+        "reason": "Add-on 33.8 wt% in abstract and LOI prose versus 33.4 wt% in vertical-burning, cone and conclusion passages; no unambiguous state loading assigned."
+      },
+      {
+        "scope": "After five laundering cycles: PEIPA 1:1 and PEIPA3:1/NeoFR",
+        "source_LOI_values": [
+          "18.4",
+          "23.2"
+        ],
+        "reason": "No washed textile TGA is supplied. AATCC TM 61-2013 Test 2A uses AATCC 1993 powder, 59 steel balls and 49 \u00b0C; no wash-TG transfer."
+      },
+      {
+        "scope": "Neat PEI/BPA/PEIPA 1:1, 2:1, 4:1, 8:1 Table 1",
+        "reason": "Neat polymer TG is not matched to cotton LOI."
+      },
+      {
+        "scope": "Canonical Tmax and crosslinked coating detailed recipe",
+        "reason": "Tmax raw preserved; exact 3:1 synthesis quantities, coating bath concentrations, wet pickup and extra final cure unreported. No inferred adjustments."
+      },
+      {
+        "scope": "Earlier NeoFR cotton controls under 10.1002/fam.1082 and 10.1016/j.polymdegradstab.2012.05.023",
+        "reason": "Future sample-scoped control reuse audit required before importing a matching control. Only metadata/abstracts retrieved; no identical numeric tuple established. This is not a source-wide exclusion of distinct treatments."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1007/s40034-017-0092-1",
+    "source": "jute_tin2017",
+    "held_evidence": [
+      {
+        "scope": "Individual stannate-only and boric-acid-only TG rows",
+        "source_Table4_mass_loss_at_500C_pct": [
+          "82",
+          "94"
+        ],
+        "reason": "Concentration omitted from Table 4 and Figure 1; no assignment to any Table 1 LOI concentration. Do not derive canonical residues or select 20% by proximity."
+      },
+      {
+        "scope": "Double-bath 15/15 and 25/25 treatments",
+        "reason": "LOI prose 29 versus Table 2 value 27 for 15/15; prose 34.5 versus Table 2 value 34 for 25/25; neither has exact matching TG."
+      },
+      {
+        "scope": "20/20 treatment after 1, 2 or 3 washes; single-agent treatments after first wash",
+        "reason": "Table 3 LOIs 33/32/31 and 22/23 have no washed TG. Source washing uses 0.1% nonionic detergent at 40 \u00b0C for 30 min, liquor ratio 1:50, IS 687-1979; retained only as held durability evidence."
+      },
+      {
+        "scope": "Earlier 2011 jute controls: Semi durable fire-retardant finishing of jute fabric and its thermal behaviour; Fire-retardant finishing of jute fabrics and its thermal behaviour using phosphorous and nitrogen based compound",
+        "reason": "Cited predecessor identities lack verified DOI here; future sample-scoped control-reuse check before admitting matching tuples. No source-wide hold of distinct treatments."
+      },
+      {
+        "scope": "Bleached jute control",
+        "source_LOI_pct": "20.5",
+        "source_prose_R500_pct": "6",
+        "reason": "Independent QA: Figure 1 curve a/c endpoints contradict the equal 6% residues implied by Table 4. Control pair removed from admission draft and retained in held_control.csv; no graph-derived replacement."
+      },
+      {
+        "scope": "20/20 boric-acid application unit",
+        "reason": "Table 2 labels % owf; source prose also says % solution. Preserve both without conversion to retained add-on; retained coating amount remains unknown."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2007.03.009",
+    "title": "Effect of phosphorus flame retardants on thermo-oxidative decomposition of cotton",
+    "publication_type": "journal_article",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S0141391007000857",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher original abstract/section snippets and author ResearchGate abstract retrieved. Six reagent series and own LOI/TG are described, but original quantitative tables and complete preparation/methods were not publicly retrieved. ResearchGate explicitly requests full text. Do not transfer figures or values from related Gaan/Sun papers.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/0040-6031(77)85082-X",
+    "title": "Thermoanalytical studies of flame-retardant polyester/cotton textile blends: a comparison of THPC-urea-PVBr and THPOH ammonia treatments",
+    "publication_type": "journal_article",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/004060317785082X",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Original publisher abstract only retrieved. Multiple blend ratios/treatments and own oxygen-index/TG tests are described, but no original numerical tables, exact heating rate or treatment details were obtained. No count proposed.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/0141-3910(94)90091-4",
+    "title": "Thermogravimetric analysis study of the mechanism of pyrolysis of untreated and flame retardant treated cotton fabrics under a continuous flow of nitrogen",
+    "publication_type": "journal_article",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/0141391094900914/pdf?md5=6116076beb2a7e426c045a6147fbd3a6&pid=1-s2.0-0141391094900914-main.pdf",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher original abstract only retrieved despite PDF-form URL. Own TG of commercial cotton finishes is described, but no full original methods/tables or measured LOI pair established. Conference presentation history does not supply missing original numerical evidence.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2019.02.006",
+    "title": "Synthesis and characterization of a phosphorous/nitrogen based sol-gel coating as a novel halogen- and formaldehyde-free flame retardant finishing for cotton fabric",
+    "publication_type": "journal_article",
+    "original_url": "https://iris.polito.it/handle/11583/2724901",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Public repository lists accepted manuscript but direct file retrieval returned 403 and web open failed. Publisher original abstract and methods preview describe TG, cone and flame spread; no own measured LOI pair established. No complete-paper review or definite absence claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2018.02.020",
+    "title": "Linear polyamidoamines as novel biocompatible phosphorus-free surface-confined intumescent flame retardants for cotton fabrics",
+    "publication_type": "journal_article",
+    "original_url": "https://air.unimi.it/handle/2434/561746",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Repository lists public accepted manuscript, but current retrieval returned 403. Original abstract establishes TG and flame spread/cone but no own measured LOI; no full original quantitative tables inspected.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2018.07.028",
+    "title": "Disulfide-containing polyamidoamines with remarkable flame retardant activity for cotton fabrics",
+    "publication_type": "journal_article",
+    "original_url": "https://air.unimi.it/handle/2434/593764",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Repository original metadata lists accepted manuscript, but public file click failed and direct landing retrieval returned 403. Abstract describes TG and vertical/horizontal burning; no own measured LOI pair established. No full-paper absence claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/C6RA21804K",
+    "title": "Fabrication of flame retardant coating on cotton fabric by alternate assembly of exfoliated layered double hydroxides and alginate",
+    "publication_type": "journal_article",
+    "original_url": "https://pubs.rsc.org/en/content/articlelanding/2016/ra/c6ra21804k",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Original landing and abstract retrieved; full HTML returned 403. Own vertical burning, MCC and TG-FTIR described, but no own measured LOI pair established; no MCC substitution or complete-source claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.45114",
+    "title": "A facile one-step synthesis of flame-retardant coatings on cotton fabric via ultrasound irradiation",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1002/app.45114",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Author ResearchGate entry is request-PDF only. Original abstract describes VBT and TG, but no exact matching TG/LOI original table obtained; complete original not retrieved.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.matchemphys.2018.08.058",
+    "title": "Durable flame retardant finishing of cotton fabrics with poly(amidoamine) dendrimer using citric acid",
+    "publication_type": "journal_article",
+    "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S0254058418307235",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Original publisher abstract gives maximum LOI 25.8 and describes own TG; public final tables/methods unavailable in bounded retrieval. Actual ResearchGate entry requests full text. No numeric pair proposed.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2020.108038",
+    "title": "Bio-based, nontoxic and flame-retardant cotton/alginate blended fibres as filling materials: Thermal degradation properties, flammability and flame-retardant mechanism",
+    "publication_type": "journal_article",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S1359836820311604",
+    "review_scope": "Bounded public original retrieval screening; no complete PDF reviewed",
+    "status": "held_original_evidence_incomplete",
+    "reason": "Original publisher abstract retrieved; author ResearchGate explicitly has no full text. Multiple blend states described but no exact original measured LOI/TG table and complete methods retrieved.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2022.110377",
+    "title": "Flame-retardant and thermal-protective polyimide-hydroxyapatite aerogel fiber-based composite textile for firefighting clothing",
+    "publication_type": "journal_article",
+    "original_url": "https://liutianxi.jiangnan.edu.cn/2023_4.pdf",
+    "review_scope": "Original nine-page main article indexed text; main methods/results/conclusion/references inspected, no original PDF bytes or SI retrieved",
+    "status": "held_missing_TGA_heating_rate_and_SI_state_details",
+    "reason": "Main method gives nitrogen and TG209F1 instrument but no TG heating rate. Table S1 and Figures S4/S5 containing full TG/LOI/state details were not retrieved; publisher returned 403, direct author PDF bytes returned 403. Main exact potential PI-HAP LOI39.8/T5 575.7 and rGO-4 LOI47.5/residue61.6 require the missing method and fiber-to-woven-fabric aliquot clarification; no gas or ramp borrowed from imidization. Untreated PI aerogel LOI is only above27, distinct from commercial PI34.8. Washed47.0 has no matching washedTG.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/C8NJ03686A",
+    "title": "Multi-functional wool fabrics by graft-copolymerisation with polystyrene sulphonate: their enhanced fire retardancy, mechanical properties, and stain-resistance",
+    "publication_type": "journal_article",
+    "original_url": "https://pubs.rsc.org/en/content/articlelanding/2018/nj/c8nj03686a",
+    "review_scope": "Original publisher abstract and author fulltext retrieval screen; complete main unavailable",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Own control/treatment LOI24.5/28.0 described in original abstract but no exact matching TG numeric metrics and complete original methods retrieved. Full HTML403; author ResearchGate requests PDF. No source-wide numerical extraction made.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/membranes14110244",
+    "title": "Design of High-Performance Electrospun Membranes for Protective Clothing Applications",
+    "publication_type": "journal_article",
+    "original_url": "https://www.mdpi.com/2077-0375/14/11/244",
+    "additional_original_url": "https://pdfs.semanticscholar.org/841f/201c27985e8d0e49f0adb5f5fd5110ab988e.pdf",
+    "review_scope": "Targeted original Table1, section3.1 and methods2.5\u20132.14; complete 20-page article not yet reviewed",
+    "status": "held_unverified_measured_LOI_and_specimen_identity",
+    "reason": "Table1 gives bulk phosphorus-containing polymers PI1\u20136 TG and LOI before section3.2 electrospinning; no own measured LOI instrument/procedure established in inspected methods, which describe UL94. Table1 cannot be transferred to subsequently electrospun PEEK/PI membranes. Numerical LOI matches common char-yield formula but that is an inference, not a source-confirmed calculation claim; all six remain unpaired.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pat.4720",
+    "title": "Synthesis of intrinsically flame-retardant copolyamides and their employment in PA6-fibers",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/pat.4720",
+    "review_scope": "Complete original publisher HTML through methods, Tables 1\u20138, conclusion, references and detailed SI figure listing; no SI DOCX content or PDF pixels",
+    "status": "held_bulk_precursor_TG_vs_blended_fabric_LOI",
+    "reason": "Table 4 TG is for Ref-PA6.6 and bulk FR-PA-1/3 precursors. Section 3.4 blends those with commercial PA6 at 1:9 before spinning FR-PA-4/5; Table 7 LOIs 22.5/38.7/36.5 \u00b10.2 belong to the washed/conditioned knitted PA6-reference/FR-PA-4/5 textiles. No corresponding textile TG was established. The SI listing gives TG only for precursor 1/3/PA6.6 and DSC for spun fibers. Do not pair differing formulations or transfer bulk TG. Additional original inconsistencies: Table 4 residual masses FR-PA-1/3 4.4/3.3 reverse prose 3.3/4.4; Td is defined as 5% mass loss but its table label is Tmax1; LOI conditioning is 88 h in methods versus 48 h in results. Zero states.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1021/acssuschemeng.4c07749",
+    "title": "Sustainable, Scalable, and Highly Flame-Retardant Cellulose-Containing Fabrics",
+    "status": "held_original_main_fulltext_unretrieved",
+    "source_url": "https://pubs.acs.org/doi/10.1021/acssuschemeng.4c07749",
+    "scope": "Official publisher abstract and SI description only. Abstract gives modified-PCF LOI32.7, but no exact same-state TG metric, assay conditions or full preparation. Main requires purchase; no purchase or author outreach performed. Author-profile listing is request-only. SI description lists spectroscopy, mechanical, wash and morphology evidence; its full file has not been reviewed. No inferred candidate-state capacity or numerical admission.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
