@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **844 unique reviewed source/sample/washing states**, **1031 TG condition records**, and **227 original sources (225 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **848 unique reviewed source/sample/washing states**, **1035 TG condition records**, and **228 original sources (226 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **844 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 643 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 647 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -892,3 +892,14 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [#67](https://github.com/PolyFT/textile-tga-database/pull/67) merged at `ce308be776b8b28c60c970bd2ae3c37bdca5fa77` after exact-head validation run `36836205823` passed on `7c5e46aadf3219da5a7ce038a394b68db5c97336`. All 490 tests passed. Merge-commit validation `36836672202`, master rebuild `36836672192` and processing `36836672155` reached terminal success. All 18 batch-owned public file blobs and the complete validation report match snapshot `b903d0c910a55b13cce70edac0e70592361d0b52819a2658ea227e4aca5c2a54`; every scientific field of the 1009 prior condition records is preserved.
 
 Verified totals are **844 states / 1031 conditions / 227 sources (225 DOI sources and two registered proceedings)**. This batch adds 22 newly paired states and 22 conditions. Four states come from an explicitly identified author preprint; the complete preprint cohort is now 8 sources / 23 states / 33 conditions. Four natural-laminate LOIs repeat an earlier LOI-only study, while this admitted original supplies the matched TG; the earlier sample labels remain reuse-excluded. No repeated version, extra atmosphere or evidence upgrade is counted as a new state. The owned lease was released at `cc4c1f74604b852e0e5ad1722f64b83643088c7c`, and latest-publication metadata identifies this batch. Original documents remain private; all metric, specimen and reuse holds remain active.
+
+
+## b99 Local polyester native labels and sample-scoped holds
+
+Three complete journal originals add **four new-source initial PET fabric states and four TG conditions**, with **zero completed legacy TG-only pairs and zero existing-pair evidence upgrades**. All 22 concise native fact rows remain public; 18 held rows stay outside the target. One primary reviewer; no independent-reviewer or statistical-independence claim.
+
+- **10.1007/s12221-019-9189-0:** FEP2/3/4/5 LOI25.1/26.2/25.5/25.3 are explicit printed Fig12 labels, not estimates. Own TG prose residues26.85/28.10/19.50/18.00 pair to the same initial PET fabric labels. FEP2 residue temperature remains unknown; FEP3/4/5 retain750C. N2,10Cmin,25-750C,30mLmin are TG methods; Table4 is DSC and supplies no TG peaks. FEP1controlLOI19.5/proseR7507.00 remains held because Fig5 powder/control legend and prose attribution conflict; FEP0powder is nontextile and has no LOI. PRP2/4/7g per20mL extraction does not become fabric add-on or bath wt%; the 90C preparative wash is distinct from antibacterial durability washing. Detailed sol preparation and generic4h stirring scopes remain explicit rather than inventing a combined sequence. Repeated FEP3 labels in one FTIR caption are retained as a caption issue; native panel labels, ordered prose and Fig10/11 crosswalk identify FEP4/5.
+- **10.1002/app.46414:** Six initial numerical TG/LOI conditions remain held while the mentioned SI is unretrieved and its scope is unknown. Native generic residues retain unknown temperatures; 800C run end is not R800. Source Tsecond stays a second-degradation-step observation, not a proven DTG maximum; signed DTGmax is percent/min. Table2 native LOI uncertainties and source GB/T2403-1993/130x65x4mm stay literal. Washed45-times/20min LOI31.0 has no own washed TG, so it supplies no pair. Preparative rinses are distinct from durability washes; Py-GC-MS and cone methods stay separate.
+- **10.1016/j.polymer.2021.123761:** Three states/six N2-air TG conditions and three lower-add-on LOI-only facts remain held for the related coating/control comparator audit. The related105971 original still needs correct source material after payload identity failed; no unrelated document supplies facts. Source86gcm-2 is retained raw and not silently corrected to GSM; free-gel TG, cone residues and Py-GC-MS protocols are not fabric TG/LOI fields.
+
+All1031 prior condition records preserve every field; prior DOI/queue/known-alias and exact LOI/residue/gas/ramp comparison found no accepted-row match. Only numerical facts and concise DOI/page/table/figure provenance are public. Local originals/caches/paths stay external and read-only. Proposed total **848 states /1035 conditions**, with **1152 remaining to2000**. Exact-head CI, ordinary merge, three successful merge-commit workflows and complete remote master/report readback precede owned-lease release.

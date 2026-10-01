@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T08:37:54.697Z",
-  "latest_batch_id": "20261001_b98",
-  "verified_condition_records": 1031,
-  "verified_unique_sample_states": 844,
-  "verified_dois": 225,
-  "numeric_pair_candidate_rows": 1436,
+  "as_of_utc": "2026-10-01T08:42:25.378144+00:00",
+  "latest_batch_id": "20261001_b99",
+  "verified_condition_records": 1035,
+  "verified_unique_sample_states": 848,
+  "verified_dois": 226,
+  "numeric_pair_candidate_rows": 1475,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 643,
+  "cumulative_newly_completed_or_new_source_sample_states": 647,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b98_merged_verified_lease_released",
+  "publication_stage": "b99_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261001_b97",
   "writer_lease": {
     "owner": "codex-local-polyester-native-20261001",
@@ -30,6 +30,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "b99adds4newFEP2-5PETstates4TGconditionsfromthreecompleteoriginalreviews;zeroevidenceupgrades. KeepFEP1powder/controllegendconflict,FEP2unknownresiduetemp,DSCnotTG,extractgramnotaddon/prewashnotdurability. WileySI403scope/PAPSrelatedprimaryidentity/comparatorholdsretain18nativefacts. Refreshmain/lease/queue/openPR beforelaterpublisher;metadataread-only.",
     "B98 admits measured-LOI fiber and textile states with exact preparation crosswalks, excludes calculated LOI and conflicting TG metrics, and retains related-source reuse holds.",
     "b97adds20newsourceinitialtextilestates36TGconditionsfromtwofulloriginals;zeroevidenceupgrades. KeepSiCOheat/washscopehold,nativeDTGcomponentpositions,700/750Cresidues,Tonset5%=T5,separate1100Cmuffleandcone/LOImethodscope. Related8localsourcesinitialscreensnotfullreviews. Refreshmain/foreignlease/queuebeforepublisher;metadataread-only.",
     "B96 admits measured-LOI fiber and textile states with exact preparation crosswalks, excludes calculated LOI and conflicting TG metrics, and retains related-source reuse holds.",
@@ -696,7 +697,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1156,
+  "remaining_to_2000": 1152,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -744,9 +745,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 227,
+  "verified_sources": 228,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 836,
+  "verified_doi_sample_states": 840,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -780,7 +781,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1156,
+  "remaining_to_target": 1152,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -896,9 +897,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 83,
-      "sample_states": 272,
-      "condition_records": 359
+      "sources": 84,
+      "sample_states": 276,
+      "condition_records": 363
     },
     "conference_proceedings": {
       "sources": 4,
@@ -990,7 +991,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1023,
+  "verified_doi_condition_records": 1027,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -1621,5 +1622,21 @@
       "remote_batch_file_blobs_matched": 18,
       "independent_remote_complete_report_match": true
     }
+  },
+  "batch_b99": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 22,
+    "total_native_numerical_TG_rows": 18,
+    "held_native_numerical_TG_conditions": 14,
+    "unmatched_LOI_only_fact_rows": 4,
+    "tests_passed": 498,
+    "snapshot_sha256": "ce368477c8d5e20bd83a8a62ffd3695e7633de0e3c9acec52e379f30f5ac2703"
   }
 }

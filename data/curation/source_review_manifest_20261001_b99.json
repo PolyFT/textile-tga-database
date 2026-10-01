@@ -1,0 +1,104 @@
+{
+  "batch": "b99",
+  "review_completed_utc": "2026-10-01T08:42:25.363976+00:00",
+  "baseline_counts": [
+    844,
+    1031,
+    225
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 22,
+    "total_native_numerical_TG_rows": 18,
+    "held_native_numerical_TG_conditions": 14,
+    "unmatched_LOI_only_fact_rows": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b99_local_polyester_native.csv",
+      "published_input_sha256": "15f2520804e194035eda8ebfc5d69593d5e386cbdf132a4524f8371846e5426f",
+      "unique_sample_states": 4,
+      "verified_conditions": 4,
+      "held_fact_rows": 18,
+      "accepted_measurement_fingerprints": [
+        "f1a2f3c2d18914b8af3c54b740eb7eb6c40a8f5cf7270d3d6f3219673102602c",
+        "617621cd83068584be81a2e25217041eb73aa80e1c56deac57100963e98e5334",
+        "093bd0b9f906d1120b6d8977f40a85194716d0bc57d85879cbe758566c9cdc8a",
+        "20e7a984236e42a2c1aa725d2ee500379fadeb52162e43075ea0a1817fe05d39"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/app.46414",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 7,
+      "accepted_sample_labels": [],
+      "review_scope": "Complete10-pageprimary/nativepages;SImentionedunretrieved,officialpageHTTP403;scopeunknown",
+      "disposition": "Complete10-pageprimarytext/nativepages1-10reviewed;SImentionedp1,localinventoryonePDFonly;officialWileypageHTTP403,SIunretrievedandscopeunknown,rowsheld. Table1TGandTable2sameinitialfabriclabels. NativeTonsetgenericonsetnotT5/T10. NativeTsecondseconddegradationstepnotestablishedDTGmaximum;rawonly. DTGmaxsignednegativepercent/minnottemperature. GenericResidueassessmenttemperatureunreported;runend800CnotR800. LOIuncertaintiesnativeplusminuswithtypeunspecified;notinventSD/SE. NativeLOIstandardGB/T2403-1993and130x65x4mmsizekeptliteral;notcorrectedstandard/thickness. FivespecimenaverageadjacentVFTmethodnotassignedLOI/TG;conetriplicatesseparate. PyGCMS300mgnative/helium1000CminnotregularTGmass/gas/ramp. Source0minstillSSPcontainsPApH2.5;0minmeansPASsoaktime,noinventPAfreechemistry. Preparativerinsesnotdurabilitywashing. P9massincreases7.9/8.3/8.5/8.5/8.6wt%andp2denominatorwordingliteral;nofabricaddonbasisinvented. SourceFig4SEM3minnotTable1/Table2extraformulation. 20minwash45LOI31.0exactprosebutnoownwashedTG;remainingwashedvaluescurveonlynotestimated. Oneprimaryreviewer;noindependentreviewclaim.",
+      "original_locators": [
+        "Published46414p1DOI/SInotice;p2materials/recipes;p3TG/LOI/washmethods;p4Tables1/2;p5-10results/captions/references"
+      ]
+    },
+    {
+      "DOI": "10.1007/s12221-019-9189-0",
+      "accepted_states": 4,
+      "accepted_condition_records": 4,
+      "held_fact_rows": 2,
+      "accepted_sample_labels": [
+        "FEP2",
+        "FEP3",
+        "FEP4",
+        "FEP5"
+      ],
+      "review_scope": "Complete10-pageprimary/nativepages1-10;noSIlisted,cachedonePDF;externalSIinventoryunchecked",
+      "disposition": "Complete10-pageprimary/nativepages1-10reviewed. Fig12nativeprintedLOIlabels19.5/25.1/26.2/25.5/25.3,notcurveestimated. P2599TGAproseexplicitFEP3/4/5residues28.10/19.50/18.00at750C;FEP2generic26.85assessmenttemperatureunspecified,notassigned750solelyfromrunend. Fig5FEP0/FEP1legend/prosemappingconflicts:grayFEP0curvevsprosepowder21.30andredFEP1curvevsprosecontrol7.00;holdcontrolandpowderfacts,neverrelabeloriginalfigure. OwnFEP2-5mappingTG/LOIdistinct,notaffectedbycontrolswap. Table4/415-425CdiscussionDSCnotDTGTmax. SourceTGstagerange4412-488Crawmalformed,notcorrectedexactpeak. FEP0powdermoisture6.88to120CnottextileTGdecompositionpeak. Detailedp2595solroute10mLPTMS5mLacetic/15minthenethanolwater60minthen10minPRNDaddition30minstir;genericp2594stir4hretainedasseparatescopes,notinventedcombinedtimeline. EtOH/wateramount/ratioandPRNDfractionaddedunreported;2/4/7gper20mLextractnotfabricaddonpercent;filteredPRNDyieldunknown. Figure4captionrepeatsFEP3for4/7g;nativepanellabelsFEP4/5,Fig10/11andorderedprosecrosswalkpreserved. Approx100percentwetuptakeandca6mgTGmassrawnotexact. Initial90Cprewashnot5/10/15/20antibacterialdurabilitywashes;no washedTGLOIpairs. LOI5x15cm/4replicates/20-25C40-45RHexplicit;mechanical4/antibacterial24hnotLOIconditioning. N2TG25-750C10Cmin30mLminnotDSC25-650orFig6DSC28-750. NoSIlisted,cachedonePDF;externalSIinventoryunchecked. Oneprimaryreviewer;cross-sourcepriorcomparisonpending.",
+      "original_locators": [
+        "Publishedp2594DOI/materials;p2595prep;p2596TG/LOIprotocol;p2597mapping;p2598-2599TGprose/Fig5/Table4DSC;p2601Fig12;p2602-2603conclusion/references",
+        "Publishedp2598-2599TGprose/Fig5"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.polymer.2021.123761",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_fact_rows": 9,
+      "accepted_sample_labels": [],
+      "review_scope": "Complete8-pageoriginal/nativepages1-8;noSIlisted,cachedonePDF;externalSIinventoryunchecked",
+      "disposition": "Complete8-pagejournaloriginal/nativepages1-8reviewed. Table1ownfabricLOIandTable3samefabricTG;threeotheradd-ons1/3/5percentLOI-only. Nitrogen/airnotextrasamples. NativeT5explicit5percentthresholdnotgenericonset. W700explicitTGresidue,notTable2cone4.9/8.1/7.5residue. SignedRmaxpercent/minretainednottemperature. DOPAisDOPO-derivedoxaphosphinicacid,notdopamine. Nativefabricmassperareareported86gcm-2implausible;rawonly,notcorrectedGSM. Addon100*(W1-W0)/W0initialuntreatedfabricbasis,notbathconcentration;bathconcentrationandwater/EtOHratiounreported. LOIstandard/specimens/repsunknown;GB/T5455-2014isVFTnotLOI. Cone5folded100x100mmpiecesnotTG/LOIreplicates. RegularTGmass/crucibleunknown;PyGCMS300microgram/1000Cmin/heliumnotTGmethods. FreegelFig1notfabric;PAPSDOPAsecondpeakFig1label445Cversusprose455Cconflictretainedoutsidefabricfacts. NoSIlisted,cachedonePDFonly,externalSIinventoryunchecked. Oneprimaryreviewer;cross-sourcecontrol/comparatorreuseauditpending;notapproved/notcounted. RelatedProgressOrganicCoatings105971localPDFiswrongCurrentBiologypayload;neverusedasevidence;correctrelatedoriginalneededbeforecomparatorscleared.",
+      "original_locators": [
+        "Publishedp1DOI/title;p2materials/synthesis/fabricprep;p3Table1/LOI/TGmethods;p4Fig4;p6Table3;p7TGdiscussion;p8references"
+      ]
+    }
+  ],
+  "related_source_hold": {
+    "DOI": "10.1016/j.porgcoat.2020.105971",
+    "status": "Correct related primary still needed; local payload identity failed, no facts taken under filename DOI."
+  },
+  "verification_limit": "Three complete published journal originals/text/nativepages1-8/1-10/1-10 reviewed. Oneprimaryreviewer;noindependentreviewer/statisticalindependenceclaim. PomegranateFEP2-5owninitialfabricTGproseandprintedFig12LOIlabels;control/powderTGlegendconflict held. FEP2genericresiduetempunknown;Table4DSCnotTG. Nativeextractweights/preparativewash/sourceprotocoluncertaintyretained. OfficialWileySIunretrieved/scopeunknownandPAPSrelatedcoating/controlauditpending;thosefactrowsnotcounted. Onlynumericfacts/conciseDOI/page/table/figureprovenancepublic;libraryread-only,alloriginals/fulltexts/images/privatepathsexternal.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1031,
+    "new_states": 4,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 848,
+    "verified_conditions": 1035,
+    "verified_dois": 226,
+    "verified_sources": 228,
+    "offline_tests_passed": 498,
+    "snapshot_sha256": "ce368477c8d5e20bd83a8a62ffd3695e7633de0e3c9acec52e379f30f5ac2703",
+    "master_sha256": "980a78613e184c3ae5e89f916f48f0042bd27ca95b3343c0c65d0fd5f316995e",
+    "validation_errors": [],
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0,
+    "unchanged_inventory_records": 3
+  }
+}
