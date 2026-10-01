@@ -1092,9 +1092,9 @@
       "grade": "C",
       "reason_code": "fetch_error",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-01T00:22:13.671983+00:00",
-      "next_retry_utc": "2026-10-01T06:22:13.671983+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-01T06:24:27.567753+00:00",
+      "next_retry_utc": "2026-10-01T18:24:27.567753+00:00"
     },
     "10.3390/polym15010218": {
       "fingerprint": "65c5c8fe0bcdeef05497",
@@ -3163,6 +3163,6 @@
       "next_retry_utc": "2026-10-01T07:33:07.243585+00:00"
     }
   },
-  "last_run_utc": "2026-10-01T01:46:29.846954+00:00",
+  "last_run_utc": "2026-10-01T06:24:27.567753+00:00",
   "last_examined_candidates": 1
 }
