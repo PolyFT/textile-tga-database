@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **887 unique reviewed source/sample/washing states**, **1076 TG condition records**, and **242 original sources (240 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **893 unique reviewed source/sample/washing states**, **1085 TG condition records**, and **244 original sources (242 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **887 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 686 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 692 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -996,3 +996,13 @@ PR [73](https://github.com/PolyFT/textile-tga-database/pull/73) merged as `964ab
 The merge-commit validation, master rebuild and processing runs (`36851813948`, `36851813914`, `36851814098`) all succeeded. Lease release commit: `936ba097c17f233657f743765fedb210383f8857`. The verified total is 887 unique states, 1,076 TG conditions and 242 sources (240 DOI sources plus two registered proceedings). Four new-source paired states were added, with no evidence-only upgrades. The author-preprint subgroup remains separately reported as eight sources, 23 states and 33 conditions.
 
 Sample-scoped journal A/B/C/E reuse guards are public. The earlier admitted conference C retains its original fields and remains the sole counted repeated observation. Only distinct journal D/F states were admitted; no source-wide exclusion or cross-publication method substitution was used.
+
+
+## b105 Local PEI/HCCP and iron phosphonate cotton originals
+
+Two complete original PDFs (22 native pages) and one complete official supporting DOCX (two converted pages) add **six new initial cotton states / nine TG conditions**, with zero legacy completions and zero evidence upgrades. All23 concise facts are retained;14 held records remain outside the target. One primary reviewer checked all native primary pages, figures, tables and methods and the full SI. Multiple gas conditions do not add sample states or establish independent physical specimens.
+
+- **10.1007/s10570-020-03047-3:** Three Cotton-P6H3/P8H4/P10H5 states have LOI25.3/28.5/33.8 in mainTable2PDFp7, nitrogenT5/Tmax/R700 in mainTable1PDFp6 and airT5/Tmax/R700 in officialSITableS1p2. Their measuredadd-ons15/18/23% are total finish, not reagent fractions. T5 remains5%massloss, notTonset. RegularTGQ50ca10mgambient-700C10Cmin is distinct from TGFTIRca15mg40-700C20Cmin;100Cpreheat/cooling removes water and does not create new aged specimens. Source gas flow60mL/s andbalance40mL/s retained raw, not corrected to mL/min. Untreated nitrogenLOI18.7/T5327/Tmax368/R7009.4/Rmax26.9 repeat03874-y, so both new control conditions remain held; its existing rows remain intact. HCCP is not the related THPC finish. Cotton-P10airTG has no ownLOI. One/two wash states have VFT only. NeatP6H3 scraped from glass, MCC peak temperatures andVFTchar do not become textileTG pairs.
+- **10.1007/s12221-021-0003-4:** Own uncoated cotton and FeP/APP/PEI-2BL/4BL have LOI17.8/25.4/28.0 (mainTable1PDFp6) and explicit nitrogenR8009.9/33.3/35.1 (mainthermalprosePDFp5/Fig6p6); only controlTmax374 is numerically stated. TreatedT5/Tmax and all air curves remain unestimated. TA-STDQ60050-800C20Cmin, flow/mass/replicates unknown. LOI130x60mm has three averaged samples; native plusminus statistic is undefined. APP/PEI2/4BLLOI20.2/23.1 lacks ownTG; no borrowed FeP data. Cone residues13.11/18.80 are not TG33.3/35.1. Table4 washed10/20/30LC has cone data only, no ownLOI/TG. Table3 PET/ramie comparison values come from cited studies. FeP/APP1:10 ratio and solution description stay source-native; measuredWG is not component loading.
+
+Related03874-y native methods/Table2/LOItext (PDFp4/6/7/8) were rechecked for control reuse; no new full-review claim or alteration of those existing measurements. DOI/table/figure/PDFpage locators are public; original PDFs, fulltexts, images, SI and private paths remain outside the repository. Release the owned lease only after exact-head CI, ordinary merge, all three terminal successful merge-SHA workflows and complete independent remote master/report verification.
