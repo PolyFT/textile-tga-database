@@ -41,13 +41,12 @@
     "unchanged_prior_condition_records": 637
   },
   "writer_lease": {
-    "owner": "codex-local-hc-cap-psi-20261001",
-    "status": "released",
-    "batch_id": "20261001_b75",
-    "claimed_at_utc": "2026-10-01T00:53:52.643Z",
-    "scope": "Three complete original cotton/polyester reviews and complete PSi official SI;14 genuinely new states/14 conditions;2TG-only records excluded. One additional complete wool text review held for form/residue conflicts.",
-    "instruction": "Single publisher; release after exact-head CI, normal merge, three terminal postmerge checks and independent readback.",
-    "released_at_utc": "2026-10-01T01:16:23.732Z"
+    "owner": "dot-source-review-b76-20261001",
+    "status": "active",
+    "batch_id": "20261001_b76",
+    "claimed_at_utc": "2026-10-01T01:17:10.000Z",
+    "scope": "28 independently original-reviewed new states/43 TG conditions from ten DOI sources: four explicit author preprints, four journal articles and two proceedings. Preserve source-version reuse holds and separate publication-type totals.",
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
