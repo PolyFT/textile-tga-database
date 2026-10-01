@@ -772,3 +772,10 @@ All three merge-commit checks completed successfully: validation `36820749731`, 
 This batch adds 17 newly verified paired states at 17 TG conditions from 6 DOI sources: 17 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 737 states, 892 conditions and 201 sources (199 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### B90 publication checkpoint
+
+PR [#59](https://github.com/PolyFT/textile-tga-database/pull/59) merged at `25f230bc6e041dcab9b0fdf44928a463b3b9c261` after exact-head validation run `36822252303` passed. All 431 tests passed. All 18 changed public file blobs and the complete validation report matched the reviewed snapshot `88f6c377b302d2454a7fbb00863d284512db2d7764b923d38b9f68e1394e493b`; all 875 prior condition rows preserved every prior field. Three distinct merge-commit checks (validation, master rebuild and processing) passed. The writer lease was released.
+
+Verified total: **737 unique states, 892 conditions, 201 sources (199 DOI sources and two registered proceedings)**. This batch adds 17 new-source paired states, zero completed legacy TG-only pairs and zero evidence upgrades. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Retain the PTAP/PVPA shared control once, all conflicting residue and peak holds, unknown methods and assay-specific preparation. Source fulltexts remain private.
