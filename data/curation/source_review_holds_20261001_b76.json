@@ -1,0 +1,299 @@
+[
+  {
+    "DOI": "10.21203/rs.3.rs-697928/v1",
+    "source": "pei_pa_gradient2021",
+    "held_evidence": [
+      {
+        "kind": "source_version",
+        "related_version_doi": "10.1080/15440478.2022.2044428",
+        "reason": "Final journal numerical equivalence unverified. Do not silently change preprint DOI or admit both versions; require source-wide alias/reuse review before later journal admission."
+      },
+      {
+        "kind": "recipe_metadata",
+        "reason": "See source_recipe_limitations: PA sequence chosen asC2 beyond three cycles and short-time drying/rinse restatement are not fully explicit; retain limitations, never invent recipe details."
+      },
+      {
+        "kind": "unmatched_LOI",
+        "states": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "reason": "Table2 long-immersion treatments have LOI but no corresponding tabulated TG; short-timeC2-1/2/3 are separate preparations."
+      },
+      {
+        "kind": "unmatched_wash",
+        "states": [
+          "C2-1 5LC",
+          "C2-1 10LC",
+          "C2-2 5LC",
+          "C2-2 10LC",
+          "C2-3 5LC",
+          "C2-3 10LC"
+        ],
+        "reason": "Table4 measuredLOI has no corresponding TG; only0 and20LC states proposed."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-1781201/v1",
+    "source": "psn2022",
+    "held_evidence": [
+      {
+        "type": "related_version",
+        "DOI": "10.1016/j.polymertesting.2022.107918",
+        "status": "future_alias_reuse_hold",
+        "reason": "Related final journal numeric equivalence unverified and authorship differs. Never substitute final DOI or count versions twice without exact cross-version audit."
+      },
+      {
+        "type": "LOI_only",
+        "states": [
+          "CT/PSN5",
+          "CT/PSN10"
+        ],
+        "reason": "No fabric TG for lower concentration states."
+      },
+      {
+        "type": "washed_LOI_only",
+        "states": [
+          "CT/PSN20 durability washes including50LC LOI26.4"
+        ],
+        "reason": "No matching washedTG; preparative rinse is not a durability-laundering state."
+      },
+      {
+        "type": "control_preparation_caveat",
+        "reason": "Table1 control includes5wt%DCD despite generic pure-cotton wording inSection3.2; exactTable1 recipe preserved for parent QA."
+      },
+      {
+        "type": "not_TG",
+        "reason": "Table3 residual mass1.2/20.5 is cone residue, notTG. NoMCC/DSC or char-image measurements imported."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-3748177/v1",
+    "source": "fpec2024",
+    "held_evidence": [
+      {
+        "scope": "F-PECinitial",
+        "LOI_Table2": "28.5\u00b10.5",
+        "LOI_conclusion": "28",
+        "TG": {
+          "T5_C": "269",
+          "source_Tmax_C": "314",
+          "R300_pct": "87.0",
+          "R370_pct": "48.2",
+          "R700_pct": "26.2"
+        },
+        "reason": "Conclusion p.11 numericLOI differs. Fluorinatedvariant chosenforF-PECnotexplicitlyassigned inpreprintmain. ActualpreprintSIunavailable;finaljournalSITableS1suggestsF0.5butequivalenceunverifiedandnottransferred."
+      },
+      {
+        "scope": "4/8/12/16/20waterwashedPECandF-PEC",
+        "reason": "OwnLOI available butno matchingwashedTG."
+      },
+      {
+        "scope": "relatedjournalversion",
+        "DOI": "10.1007/s10570-024-05944-3",
+        "reason": "Futurealias/reusehold;preprintp.2explicitlylinksVOR,butnumeric equivalenceunverified. OfficialSIretrievedseparately containsF0.1/F0.5/F0.75/F1.0LOIs,notTGandnotjoined topreprint."
+      }
+    ]
+  },
+  {
+    "DOI": "10.48550/arXiv.2202.05168",
+    "source": "pda_pha2022",
+    "held_evidence": [
+      {
+        "states": [
+          "cottonLOI17.4",
+          "PDA-cottonLOI17.7"
+        ],
+        "reason": "Sourcep.16only says no residue left at600C;no explicitnumerical0. Do notconvert qualitative wordingtoexactzero."
+      },
+      {
+        "states": [
+          "1BL",
+          "2BL"
+        ],
+        "reason": "TGresidues8.5/13.0explicitbutnumericLOIinunavailableTableS4;noestimation."
+      },
+      {
+        "states": [
+          "durabilitywashes",
+          "reverseorder12BL",
+          "noPDA14BL",
+          "180PDA7BL"
+        ],
+        "reason": "No matchedTG;do notimport50wash24.1or20.9asinitialLOI."
+      },
+      {
+        "scope": "SI",
+        "reason": "ReferencedSIabsentfrom37pagearXivPDF;arXivsourceendpointreturnedidenticalPDF;officialjournalSIaccess403,nochallengeoraccesschange."
+      },
+      {
+        "scope": "relatedjournal",
+        "DOI": "10.1016/j.apsusc.2022.152550",
+        "reason": "Numericalequivalenceunverified;futureversionalias/reusehold."
+      }
+    ]
+  },
+  {
+    "DOI": "10.5604/01.3001.0010.5372",
+    "source": "modacryl2017",
+    "held_evidence": [
+      {
+        "scope": "C100aironset",
+        "source_values": [
+          "345.62Figure2",
+          "345TGprose",
+          "350latercomparativeTG-IRparagraph"
+        ],
+        "action": "CanonicalTonsetblank;originalfigurevaluepreservedraw."
+      },
+      {
+        "scope": "N2residuetemperaturesandendpoint",
+        "reason": "Figure5residueannotationslacktemperature,axisextendsto860Cversusmethod850;genericresiduesandblankendpoint,preserve850asreportedmethodonly."
+      },
+      {
+        "scope": "C40:M60airresiduetemperature",
+        "reason": "Printed1.160%but850Cprosespecifiesthreeotherfabrics;noassignedtemperature."
+      },
+      {
+        "scope": "MCCandFTIR",
+        "reason": "NoMCCTmax/residue/ramp/replicateorFTIRpumprate/absorptionspectrapeak importedasTGnumericvalue."
+      },
+      {
+        "scope": "sourceerrors",
+        "reason": "M100airDTGsecondheight8.339printedpositive;source-signnotcorrected. ReferenceFig2einp63doesnotexist;notused. TypographicalduplicatehiddenPDFtextnotusedfornumbers."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1088/1757-899X/459/1/012050",
+    "source": "goat2018",
+    "held_evidence": [
+      {
+        "scope": "Canonical Tmax1/Tmax2",
+        "reason": "247/526 C are described only as maximum temperature of first/second weight loss, without a maximum-rate or DTG definition; retained in source_reported_Tmax1_C/source_reported_Tmax2_C only."
+      },
+      {
+        "scope": "Other four regions",
+        "reason": "Tropoja, Zagore, Vorfe and Permeti have mechanical fibre results only; no paired own LOI/TG."
+      },
+      {
+        "scope": "MCC values",
+        "reason": "MCC residue 0.24, heat-release temperature 351.1 C, ramp 1 K/s and nitrogen 80 mL/min are not TGA."
+      },
+      {
+        "scope": "Replicate states",
+        "reason": "Three Table 2 LOI repetitions describe the same Hasi fabric; no separate states or computed SD."
+      },
+      {
+        "scope": "TGA specimen wording",
+        "reason": "Methods say goat fibres; original results, Figure 2/Table 3 captions and Hasi-specific conclusion explicitly say goat fabric. Crosswalk remains subject to parent independent QA."
+      }
+    ]
+  },
+  {
+    "DOI": "10.5764/TCF.2008.20.4.008",
+    "source": "uv_mmep_tmep2008",
+    "held_evidence": [
+      {
+        "scope": "Table 3 washed states",
+        "reason": "1, 3 and 5 durability cycles report LOI without matching washed TGA. All 21 table entries excluded from pairing."
+      },
+      {
+        "scope": "Add-on and F conversion",
+        "reason": "Exact add-on curves are not digitized. F and Nr preserved source-native; no add-on back-calculation."
+      },
+      {
+        "scope": "Thermal stage range endpoints",
+        "reason": "Stored as source-native ranges; not recast into T5/T10 or canonical onsets."
+      },
+      {
+        "scope": "2007 DMEP control",
+        "related_original_url": "https://journal.kci.go.kr/ksdf/archive/articlePdf?artiId=ART001196830",
+        "reason": "Same authors, untreated LOI18.4/R8008.9 but DTGA395 versus391 here; older control withheld from any next draft until reuse resolved. No duplicate admitted here."
+      },
+      {
+        "scope": "Related Fibers and Polymers paper",
+        "related_doi": "10.1007/s12221-008-0105-2",
+        "reason": "Original fulltext unavailable in current retrieval; contains cured films and coated fabrics. Future states require source-specific numeric/form/reuse audit; no data merged."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/1528083719885013",
+    "source": "pa6_hpcp2021",
+    "held_evidence": [
+      {
+        "scope": "PA6/HPCP-10",
+        "reason": "Exact R800 1.69 and first-stage onset 388.05 are available, but exact LOI requires original Figure 12 printed labels. No graph interpolation or review-paper value substituted."
+      },
+      {
+        "scope": "5/7.5/12.5/15 wt% HPCP",
+        "reason": "No matching exact fiber TG values in the retrieved original; 15 wt% LOI 29.8 remains LOI-only."
+      },
+      {
+        "scope": "related 2019 PA6/phenoxyphosphazene paper",
+        "title": "Experimental investigation of mechanical, thermal, and flame-retardant property of polyamide 6/phenoxyphosphazene fibers",
+        "DOI": "10.1002/app.48458",
+        "reason": "Potential related source; no numerical equivalence asserted and no values borrowed. Future source-wide reuse review required."
+      }
+    ]
+  },
+  {
+    "DOI": "10.2991/ame-16.2016.169",
+    "source": "silica_cotton2016",
+    "held_evidence": [
+      {
+        "scope": "cot_control",
+        "reason": "Probable reused experiment across proceedings and journal. Journal Table 2 LOI 18.5 conflicts with prose 18.0; proceedings Table 1 gives 18.5. All control proposals held pending source conflict resolution. R600 13.3 agrees."
+      },
+      {
+        "scope": "cot_Si/P",
+        "reason": "Proceedings LOI 29.2 versus journal 29.4 for same apparent state and exact shared R600 29.7. Proceedings Tmax 262 in Table 1 versus 226 in prose. Whole candidate state held; no selection of convenient version."
+      },
+      {
+        "scope": "cot_Si T5",
+        "reason": "Source 47 \u00b0C is below stated 50 \u00b0C starting temperature; stored only in source_reported_T5_C."
+      },
+      {
+        "scope": "Related journal source",
+        "DOI": "10.2298/TSCI1603863G",
+        "reason": "No additional states; probable shared experiment. No cross-paper borrowing of methods, recipes or numeric values."
+      },
+      {
+        "scope": "Optimization plots",
+        "reason": "LOI curves have no exact printed values or matched TG per setting; no digitization."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1080/15440478.2022.2091711",
+    "source": "aatmpeg2022",
+    "held_evidence": [
+      {
+        "scope": "CFR-15 and CFR-20 initial states",
+        "reason": "Table 2 LOI 41.5/43.8 and weight gain 12.4/15.4 are measured, but Table 3 TG contains only control and CFR-25."
+      },
+      {
+        "scope": "All durability-washed treated states",
+        "reason": "Table 2 contains 10, 20, 30, 40 and 50 LCs; source uses AATCC 61-2013 2A. No matched washed TG; no initial-to-washed pairing."
+      },
+      {
+        "scope": "Raw cotton before NaOH",
+        "reason": "Separate XRD specimen only; own initial control LOI/TG belongs to NaOH-pretreated control."
+      },
+      {
+        "scope": "Tonset definition",
+        "reason": "Author-labelled onset of rapid degradation, no percentage loss threshold; retain Tonset only."
+      },
+      {
+        "scope": "Synthesis amount",
+        "reason": "Source-reported ATMP 0.1 mol (29.9 g, 50%) preserved as written, without silently correcting the reported concentration/mass."
+      }
+    ]
+  }
+]

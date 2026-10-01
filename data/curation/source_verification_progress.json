@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T01:16:23.732Z",
-  "latest_batch_id": "20261001_b75",
-  "verified_condition_records": 651,
-  "verified_unique_sample_states": 561,
-  "verified_dois": 135,
+  "as_of_utc": "2026-10-01T01:21:00.213549+00:00",
+  "latest_batch_id": "20261001_b76",
+  "verified_condition_records": 694,
+  "verified_unique_sample_states": 589,
+  "verified_dois": 145,
   "numeric_pair_candidate_rows": 1042,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 360,
+  "cumulative_newly_completed_or_new_source_sample_states": 388,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b75_merged_and_postmerge_verified",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b75",
     "pr": "https://github.com/PolyFT/textile-tga-database/pull/44",
@@ -50,6 +50,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "B76 explicitly labels author-preprint evidence and holds related final journal versions against duplicate sample admission. Preserve original-state, endpoint and wash limitations.",
     "b75 adds14 new exact initial cotton/polyester fabric states at14 TG conditions. HC2HC and CAPDPP remainTG-only. HC synthetic-air qualifier,60mLmin and10Cmin retained; moisture thresholds notpeaks. PSi complete official SI reviewed, Tonset5percent cleanT5; no COT-Si orwashed pairing. CAP conflicting residues/rates native-only; no controlNaOH assumption. Additional wool primary held for fiber/fabric mismatch. Preserve publication-type reporting; strictly read-only library; refresh main/PR/lease before next publisher.",
     "b74 adds11 new original-reviewed cotton/wool states at21 conditions. Preserve untreated TTPBD LOI contradiction, DTCTNG treated loading/catalyst ambiguity, wool exactly30wash/isothermal250C distinction, ATEPAHP generic treated labels, CS/LS LS-only LOI and control N2char conflicts. MoistureT5 remains threshold; residue372C notTmax; N2/air methods distinct. Eleven native TG-only records excluded. Refresh main/queue/PR/lease before next publisher; library strictly read-only.",
     "B73 adds 21 DOI-backed and eight registered proceedings sample states. Preserve all original-state conflicts, unknown residue temperatures, metric-specific holds, and separate DOI/non-DOI cohort reporting.",
@@ -79,7 +80,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -738,9 +739,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 137,
+  "verified_sources": 147,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 553,
+  "verified_doi_sample_states": 581,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -774,7 +775,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1439,
+  "remaining_to_target": 1411,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -923,5 +924,16 @@
   "verified_publication_type_metadata_issues": [],
   "verified_author_preprint_sources": 0,
   "verified_author_preprint_sample_states": 0,
-  "verified_author_preprint_condition_records": 0
+  "verified_author_preprint_condition_records": 0,
+  "batch_b76": {
+    "added_verified_unique_states": 28,
+    "added_verified_condition_records": 43,
+    "new_source_measurement_states": 28,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 10,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 4,
+    "author_preprint_states_added": 12,
+    "author_preprint_conditions_added": 21
+  }
 }

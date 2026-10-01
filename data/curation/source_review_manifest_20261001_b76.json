@@ -1,0 +1,227 @@
+{
+  "batch": "b76",
+  "baseline_counts": [
+    561,
+    651,
+    135
+  ],
+  "summary": {
+    "added_verified_unique_states": 28,
+    "added_verified_condition_records": 43,
+    "new_source_measurement_states": 28,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 10,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 4,
+    "author_preprint_states_added": 12,
+    "author_preprint_conditions_added": 21
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_pei_pa_gradient2021.csv",
+      "DOI": "10.21203/rs.3.rs-697928/v1",
+      "draft_sha256": "d582f87c31df47224fc462fa97932128832ce153c69a07d030da21e7f6869eee",
+      "published_input_sha256": "868eec00607636cf4cb61f4abf030c165e0b8a65dac08ee9aa5c01222b46569c",
+      "states": 7,
+      "conditions": 14,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "c4a1869184bc7be23b338365c489dd1d0e7118c22f0b5f5d0a55a11be37e72e6",
+        "aa4da81b5553e0139245f1ac0fb6a12a55f87ab8d79f25d992847717babe3bf1",
+        "75daab1a6646112edd55f63fed3660bd32b964749802ee271c8fc81b3b688d83",
+        "46e66c164804250ea729b95a89f4063aa3adc6ad143659571a6e24690b43397c",
+        "75a85926fb7352055905a9b1f972e51435845c02ffa6f8e29650162a64476e4b",
+        "046beb4d05f1eeedc3a440586ce9cd38ee983db15572f05ec3a733df39e9225f",
+        "f3ae2249cd89c3d79c25e9e2d40777c93b9c00d0bf79f0132f79a37a8a9e9d36",
+        "39ca12c6a20a5b88c175c618afd4fb565499f5cd03ee1f4c28b039997243bf88",
+        "8b60c5a9dc6008bee0be62fcefef6c4f32a312aa2cf05413952ba69753a55856",
+        "7c6deecc65111338cf64f2a21f3fca679fdaf32a88f2ee03d46d6d226ff3d22a",
+        "70a1b6ac07b6453d83849aa06a6f0c24dcc999f6b8e4412f29f0c88e3c2179c5",
+        "0880473381af13c7cd37f51c07482e9bbe585ee234593a55cb0175fcfeaf7f41",
+        "8443d4a1c9627fc906aaa51bc51d9357d08eec278f4a2004c7831b0d54e6d41b",
+        "058dcf3d5038239e7b8fcad644eeafa1b18034d36c23ee04acb75aac30f71dec"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_psn2022.csv",
+      "DOI": "10.21203/rs.3.rs-1781201/v1",
+      "draft_sha256": "796dc4fc41de30fe152428c50b7d72053ceefb3b13284547fcac1363ca569789",
+      "published_input_sha256": "7ff3e747b934ca4798744daf3ad62928198ab747143442e65ef4e753a08f4e4b",
+      "states": 2,
+      "conditions": 4,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "6d4b2002dc16ec0a1557c18f95bdd7d2bb0469d34b4e84fcdba55a78fbdb28ca",
+        "8046228f3efb0bf8d17dac712c53ec4f4c11de3ea3556daa1d43f8143a3c9f01",
+        "f78fee4348d5fcad4dfb5b8a22bb9af07f0d67a8b51ecd608c6a370dc218417e",
+        "55cdf457939c06f83343822be10b163f586ffacc5d8af57f846af5661720587e"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_fpec2024.csv",
+      "DOI": "10.21203/rs.3.rs-3748177/v1",
+      "draft_sha256": "eb9f6b331de09d6e7096c9bfd57619e541664e327fb1192a805dedd31be0bf2c",
+      "published_input_sha256": "af5bf3e852e7d308519b0592db089a4887730cd41c35adb5a03e96b97e0ce904",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "fb0bcca88be0cd71cff1f7c183064a7fa351855147fbe393b92b3a22864c8b93",
+        "ec04421dd2fba1d3a4833ba996a332f2e1ed737fec959d433e6584bdb812f32c"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_pda_pha2022.csv",
+      "DOI": "10.48550/arXiv.2202.05168",
+      "draft_sha256": "f2079d79fbe1705b0435666e116b528eb07b58e897bfdd7a5ba5c30107611fce",
+      "published_input_sha256": "5d5d659fcde5073cbbb3496cfa30dfa1815f322e123b02fb1911fbe00c43d8cc",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "c33e11bb771ffadd4df19d5125ffe166b614ea3d2e786f95c7da9ca4b54549c5"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_modacryl2017.csv",
+      "DOI": "10.5604/01.3001.0010.5372",
+      "draft_sha256": "e34364b1445d76534777390f1e99d9152fe65c180e4476d72c6fce8b0400e3bf",
+      "published_input_sha256": "4b7bef704c22f31b2c811282f93dcadbc27badf95f16b04d528bf32e4b382813",
+      "states": 4,
+      "conditions": 8,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "162736c8d23b86b10c9553c506045096ce5c30bc54d04334bc674fa0fcf59a57",
+        "996c9b2d1b6338531cfd5904bed746d3d342d07610ce7b2535f37ba47bca8a2a",
+        "8a9ff5ffe065321baa2f287e640121a5ae3ece33d6dd888615d60ba3be5f1c6e",
+        "fe55a717d5b099f72eab8a14d3c5011c35cbe9f03768636883e7a04f1aa635de",
+        "c10eea9e708c7ea654410927aa209cdaadc305c197cd0bf3edab1efbdbd8e3c6",
+        "ac47fc8b6496c6cff9df55bab38d4701d69201be3fb5ac3c8d05911928546d00",
+        "3ac7ba9c1fce7d9bca38d6a768ce602f6e1e540569cb7561bc02172a43f69b28",
+        "ab6f488f20c902cbeeecf3b872e9ec56d02be2b0bb579e1ba5a71a5d1391ba8b"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_goat2018.csv",
+      "DOI": "10.1088/1757-899X/459/1/012050",
+      "draft_sha256": "41f4a5dce9a47e59b653599cdf5d1a2f23a254c2d1ae5477d586798420f6cb3c",
+      "published_input_sha256": "cf9ab92b04c0a9c2a22a22eaad3c988957eb5741b4c46536ddad9271545d4a28",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "conference_proceedings",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "208725be31836fe026a68b75178a04326b90686834818ea4fb9b78aec2a88bfb"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_uv_mmep_tmep2008.csv",
+      "DOI": "10.5764/TCF.2008.20.4.008",
+      "draft_sha256": "cb293fdbb39618c1e4ab218eccbfaa34da94ee39b01b4046f72afb41d0a64ad0",
+      "published_input_sha256": "1530ade02a5b0d881ab861595300ac75e1ef5109bf0cfe921c5f481209c5e053",
+      "states": 7,
+      "conditions": 7,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "6adf0645119edf3976912974bdc8bb6f658d747638f4fa05f2fa48813b481751",
+        "4a2e0b05c20764d5dac003bfba0d05952cdc1dadfdc7a199b9fb1a15444e762a",
+        "e76ea5d9d0f7bb016bf08604b1ea7056b91036cc0baeb8ede047606273921f56",
+        "06f86bea02893b75492fb6e071ad4a8a1d7d1f521cb80027d5f4bb8be2b24291",
+        "122573cb5b82f4227806183d507e636b1d54ad97e135c678109889381785ea31",
+        "1f02c223fc8d4bf2bfbbbd6b72d64b73eba4c95954fd12c43da5a49b4559143b",
+        "b9268627f3b7c4e358fb82553030c98676ce6345f12a47180ac4a462bdada9f1"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_pa6_hpcp2021.csv",
+      "DOI": "10.1177/1528083719885013",
+      "draft_sha256": "4cd840317a067dec78b82fd98fb98f4eff96b4af04ae2beeb5e552e51864572c",
+      "published_input_sha256": "ef3bda19f92d4c7bd087f88a4f17f6d56c67965aafd0580f297688c773c39cce",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "06216e22f8bddeaafa504f34e7c25941a4b0935c5c6b1ae247ff9ce20d51100e"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_silica_cotton2016.csv",
+      "DOI": "10.2991/ame-16.2016.169",
+      "draft_sha256": "50b56fc952b40ef937b50c19b3355a4abd1776ab2258cc51bfa3c31bbd717473",
+      "published_input_sha256": "43f146e1a634cb2b98ad873f8ad7ccfda42ba51b33ed6ff396db71d00052b6ff",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "conference_proceedings",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "744abce9ad299bc4a29df5519fee18e750b0594b3a24ec071372cdb365f1d6c6"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b76_aatmpeg2022.csv",
+      "DOI": "10.1080/15440478.2022.2091711",
+      "draft_sha256": "c89ba0d94721ad6d524cbc78fbb0d69eaec439d0f9ffcf3318733ed6bd8cc4fc",
+      "published_input_sha256": "2845cca08e351cc381e8a38a95fde2d856f85a110a66ef5228920e4237cbc8df",
+      "states": 2,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "f36daca09e35a088b4d0a690c0a99d70c5498336f658ae8b7422892dca66e726",
+        "9fe55a5063b25de2ec2b81cbd1473137a7929c5ea614de462b717d97b95181bf",
+        "85fac8898bb26dd87c00ccb74cd8ff8e8dc10925a33915e2ade6cc801c59e32e",
+        "e6ff0d0fc0f4f1c89d29d260a9fa0514b08ad3a0d21b8919a2ba972cae2bfddf"
+      ]
+    }
+  ],
+  "related_version_holds": [
+    {
+      "admitted_preprint_DOI": "10.21203/rs.3.rs-697928/v1",
+      "related_final_DOI": "10.1080/15440478.2022.2044428",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "admitted_preprint_DOI": "10.21203/rs.3.rs-1781201/v1",
+      "related_final_DOI": "10.1016/j.polymertesting.2022.107918",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "admitted_preprint_DOI": "10.21203/rs.3.rs-3748177/v1",
+      "related_final_DOI": "10.1007/s10570-024-05944-3",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "admitted_preprint_DOI": "10.48550/arXiv.2202.05168",
+      "related_final_DOI": "10.1016/j.apsusc.2022.152550",
+      "status": "open_source_wide_alias_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.5764/TCF.2008.20.4.008",
+      "related_source_DOI": "10.1007/s12221-008-0105-2",
+      "status": "open_source_wide_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.1177/1528083719885013",
+      "related_source_DOI": "10.1002/app.48458",
+      "status": "open_source_wide_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.2991/ame-16.2016.169",
+      "related_source_DOI": "10.2298/TSCI1603863G",
+      "status": "open_source_wide_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Author preprints are explicitly identified and separately counted; no journal or peer-review claim is inferred.",
+    "Related final versions remain source-wide alias/reuse holds pending explicit cross-version adjudication.",
+    "Different TG atmospheres add conditions, not independent sample states."
+  ]
+}
