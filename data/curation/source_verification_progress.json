@@ -21,15 +21,13 @@
   "publication_stage": "b113_merged_remote_verified_lease_released",
   "last_merged_batch": "20261002_b113",
   "writer_lease": {
-    "owner": "codex-local-2020-cotton-20261002",
-    "status": "released",
-    "batch_id": "20261002_b113",
-    "claimed_at_utc": "2026-10-01T17:08:48.719234+00:00",
-    "expires_at_utc": "2026-10-01T18:38:48.719234+00:00",
-    "purpose": "Publish four complete local2020cotton reviews;4newstates8conditions61holds;metadatareadonly",
-    "previous_release_commit": "324595b0cd2ab9641744c3dba80fadecbabf8d2d",
-    "released_at_utc": "2026-10-01T17:28:15.260473+00:00",
-    "release_reason": "PR81 exact-head CI, ordinary merge, all three merge-triggered checks and complete independent main/blob/master/report/library/SI verification succeeded."
+    "owner": "codex-local-aphompa-ctsgp-aspbh-20261002",
+    "status": "active",
+    "batch_id": "20261002_b114",
+    "claimed_at_utc": "2026-10-01T18:20:10.724147+00:00",
+    "expires_at_utc": "2026-10-01T19:50:10.724147+00:00",
+    "purpose": "Publish four complete local2020cotton reviews;5newstates8conditions49holds;metadatareadonly",
+    "previous_release_commit": "70addf685ae04dcf2d7b9b98fbb9c6c2664a439f"
   },
   "next_sources": [],
   "next_actions": [
