@@ -1,0 +1,160 @@
+[
+  {
+    "DOI": "10.1007/s10118-017-1896-7",
+    "source": "pi_datppo2017",
+    "held_evidence": [
+      {
+        "scope": "Table 2 LOI column c, all seven rows",
+        "reason": "Calculated from char residue, not measured. Preserve only as explicitly excluded raw values."
+      },
+      {
+        "scope": "PI-6 prime and PI-6 double-prime",
+        "reason": "Different draw ratios have mechanical/structural data but no row-matched TG and measured LOI. No transfer from unprimed PI-6."
+      },
+      {
+        "scope": "Approximate DTG regions 550 and 600 \u00b0C",
+        "reason": "Approximate generic region descriptions; no exact state-specific Tmax extraction."
+      },
+      {
+        "scope": "10.1039/c6ra26941a pre-AO DATPPO PI-0/PI-2/PI-4/PI-6",
+        "reason": "Related same-family paper requires future reuse audit. No additional states or cross-paper values admitted here."
+      },
+      {
+        "scope": "10.1039/c6ra02344d",
+        "reason": "Different main-chain DAMPO monomer, draft ratio 3.8 and control T5/T10/R850 of 559/583/58.9 versus own 555/573/58. No LOI assay in original main methods; no transfer."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3724/SP.J.1095.2014.30424",
+    "source": "pi_dappo2014",
+    "held_evidence": [
+      {
+        "scope": "PI4 T5",
+        "source_table_C": 541,
+        "source_prose_C": 539,
+        "reason": "Internal exact numeric conflict; canonical blank. R80066 and LOI43 unaffected and independently repeated."
+      },
+      {
+        "scope": "General section 1.2 example synthesis quantities",
+        "reason": "Example corresponds to quantities outside the explicit four Table 1 ratios, and one reagent label is omitted in available indexed text. Do not distribute example masses or infer the omitted reagent."
+      },
+      {
+        "scope": "Exact final draw ratio",
+        "reason": "Only a shared range 1\u20133 at 480 \u00b0C is stated; preserve range, no exact state assignment. TG and LOI are in the same named Table 2 row."
+      },
+      {
+        "scope": "10.7503/cjcu20130785 phosphorus-free control",
+        "reason": "Same authors and ODA/PMDA/BPDA family in earlier paper; complete original numeric comparison still unavailable. Future control admission requires exact reuse audit; no additional earlier-paper state is proposed."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1002/pat.867",
+    "source": "epoxy_phosphonate2007",
+    "held_evidence": [
+      {
+        "scope": "TG Table 3 treated rows except monomer-3 fleece16.0%",
+        "reason": "Exact add-ons unmatched to LOI Table 4: monomer3 cloth8.0 vs13.8/17.4; twill8.2 vs11.3/12.7; monomer6 cloth8.5 vs14.5/18.3; twill9.0 vs7.8/13.1; fleece16.0 vs13.7/16.7. No rounding, interpolation or generic-chemistry pairing."
+      },
+      {
+        "scope": "Other Table 4 treated LOI rows",
+        "reason": "No same-add-on TG. Vertical-flame Table 5 add-ons and test outcomes are not TG evidence."
+      },
+      {
+        "scope": "Monomer TG and DSC",
+        "reason": "Different material state; no transfer of numeric values, gas flow, sample mass or pan to fabric TG."
+      },
+      {
+        "scope": "Polym. Preprints 2005;46(1):583\u2013584, reference10",
+        "reason": "Earlier disclosure cited for general instruments; not retrieved. Future source/state reuse review required before independent admission; no methods or values imported from it."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1021/acspolymersau.6c00154",
+    "source": "cstgp2026",
+    "held_evidence": [
+      {
+        "scope": "CS:TA:GP 1:5:7,1:7:7,1:7:5,1:7:9",
+        "reason": "Measured LOI exists, but no formulation-matched exact TG metric; no transfer from selected 1:9:7."
+      },
+      {
+        "scope": "TGA residue assessment temperature",
+        "reason": "Exact 3.4/22.4 generic residues retained, temperature blank; 600 \u00b0C is method endpoint only."
+      },
+      {
+        "scope": "VFT/MCC residues and peak temperatures",
+        "reason": "Different assays; never substitute as TGA."
+      },
+      {
+        "scope": "LOI \u00b1 statistic",
+        "reason": "General triplicate statement explicit; SD/SE designation absent."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-1976669/v1",
+    "related_version_doi": "10.1007/s10570-023-05242-4",
+    "title": "Hybrid Eco-friendly Coating on Bamboo Fabric through Taguchi Formulations for Flame and Thermal Resistance",
+    "publication_type": "author_preprint",
+    "source_version": "author preprint v1",
+    "original_url": "https://assets-eu.researchsquare.com/files/rs-1976669/v1/130f2a72-eecf-4f86-bb25-93087e7037c2.pdf?c=1697492361",
+    "document_sha256": "1cea37ebe1ea5f6095791a4acdaf0f4aa4a3a126f0bbc2ab1982580fd7086ad9",
+    "review_scope": "Complete official 22-page v1 PDF, including later-added version-of-record notice; own characterization, results and conclusion checked; final journal fulltext not reviewed",
+    "status": "held_no_own_measured_LOI_in_preprint",
+    "reason": "Nine Taguchi fabric formulations have TG under nitrogen and air, but the source evaluates burning by UL94 vertical testing and microcalorimetry, with no own LOI test or LOI numerical values. The 20% oxygen value in the methods is the MCC gas concentration, not LOI. Final journal cannot be assumed numerically equivalent or given a source-wide exclusion from this preprint review.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-1311636/v1",
+    "title": "A novel flame retardant material for fabricated cotton and its mixture with polyester (50/50)",
+    "publication_type": "author_preprint",
+    "source_version": "author preprint v1",
+    "original_url": "https://www.researchsquare.com/article/rs-1311636/v1",
+    "review_scope": "Original Research Square HTML methods and results plus author-posted indexed original sections; no downloaded PDF or figure-pixel review",
+    "status": "held_unmatched_TG_treatment_and_unresolved_exact_metric",
+    "reason": "LOI Tables 1/2 vary MtAPPM loading and cure temperature, while treated TG Figure 6 is described only as treated cotton and treated 50/50 cotton/PET with no exact loading/cure crosswalk. Thermal prose cites onset Table 1, but Table 1 contains LOI only. Exact native/candidate TG stage-end descriptions are not defined as T5/T10/Tmax/onset or a numerical residue, so no clean canonical TG is established. Do not infer graph values or turn the separate burned-fabric photograph description into zero TG residue. The source gives nitrogen and nominal heating rate 10/m with 50\u2013800 \u00b0C acquisition; unit wording and fabric areal-density units require original-pixel checking if reopened.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-022-04962-3",
+    "title": "Flame-retardant ramie fabrics with APP: flame retardancy, flame-retardant mechanism and mechanical properties",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-022-04962-3",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract and author-page publisher preview with available figure captions; no complete main PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher and ResearchGate original one-page preview only. Abstract LOI28.6 at about5%APP and figure captions identify RF/RF-APP5/7.5/10 TG under N2/air, but exact state TG values and complete own methods unavailable.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-023-05246-0",
+    "title": "A cleaner and sustainable preparation of green flame retardant and antibacterial lyocell fabric",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-023-05246-0",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract and author-page publisher preview with available figure captions; no complete main PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher and ResearchGate preview only. Abstract control18 and10wt%ESOPT30 LOI do not establish exact TG or conditions. Full text was labelled available on citation pages but the actual source page provides only a publisher preview.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-023-05452-w",
+    "title": "Production of flame-resistant bacterial cellulose using whey protein isolate or casein via physical entrapment and crosslinking",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-023-05452-w",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract and author-page publisher preview with available figure captions; no complete main PDF reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher/ResearchGate original first-page preview and figure captions only; numerical TG and complete own methods unavailable. Search citation snippets about BC/WPI/casein LOI are not sufficient original evidence. Existing related BC marine/cereal/citrus controls are reuse-sensitive; no values or protocols borrowed.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]

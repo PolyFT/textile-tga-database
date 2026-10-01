@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **649 unique reviewed source/sample/washing states**, **777 TG condition records**, and **163 original sources (161 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **666 unique reviewed source/sample/washing states**, **798 TG condition records**, and **167 original sources (165 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **649 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 448 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 465 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -647,3 +647,10 @@ Three complete local original journal articles add **6 genuinely new initial ind
 - **10.1016/j.cej.2021.130556** has complete primary text review but unreviewed critical SI formulations/airTG; official SI retrieval returns403. **10.1016/j.cej.2020.128361** has partial primary review and missing critical LOI/TG SI; both addzero states, with exact review limits in the manifest/queue.
 
 Previous inputs and foreign source-version/reuse holds are preserved. Public additions contain factual data and concise DOI/table/figure locators only; source fulltexts, SI, images and privatepaths remain outside the repository. Proposed total **649 states / 777 conditions / 163 sources**, with **1351 states remaining to2000**. Exact-head CI, normal merge and independent terminal postmerge verification must precede release.
+
+
+## b82 original-reviewed fiber and textile states
+
+This batch adds 17 genuinely new sample states at 21 TG conditions from 4 DOI sources. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 666 states, 798 conditions and 167 sources (165 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
