@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T04:57:08.197851+00:00",
+  "as_of_utc": "2026-10-01T05:06:28Z",
   "latest_batch_id": "20261001_b87",
   "verified_condition_records": 860,
   "verified_unique_sample_states": 707,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b87_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b86",
+  "publication_stage": "b87_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b87",
   "writer_lease": {
     "owner": "codex-local-adbspa-cotton-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b87",
     "claimed_at_utc": "2026-10-01T04:56:25Z",
     "scope": "Five new original-reviewed initial cotton states at nine TG conditions from four nonoverlapping published journal originals. Seven unpaired stage/approximate/LOI-conflict/formulation fact rows stay outside target. APGDPE final journal excluded against b86 related-preprint hold. Metadata strictly read-only.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge, three terminal postmerge checks and independent full-report/master readback."
+    "instruction": "Single publisher; release only after exact-head CI, normal merge, three terminal postmerge checks and independent full-report/master readback.",
+    "released_at_utc": "2026-10-01T05:06:28Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -1232,6 +1233,26 @@
     "held_SPPTMS_initial_LOI_conditions": 2,
     "additional_local_journal_review_excluded_for_related_preprint_reuse": 1,
     "tests_passed": 410,
-    "snapshot_sha256": "51daf9c49689d502a6fb67a73ccaf90c3c6d16f40ee1726f302ce9d6a0c52116"
+    "snapshot_sha256": "51daf9c49689d502a6fb67a73ccaf90c3c6d16f40ee1726f302ce9d6a0c52116",
+    "publication": {
+      "status": "merged_verified",
+      "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/56",
+      "head_sha": "79970269819bb67a7de747f952478de8f9c82806",
+      "merge_sha": "c7c61853117c9ebefa47f71b06a93e202c864fc1",
+      "validation_run": 36817725797,
+      "postmerge_runs": [
+        36817882740,
+        36817882725,
+        36817882680
+      ],
+      "postmerge_status": "Three distinct merge-SHA checks terminal success: validation, master rebuild and processing",
+      "snapshot_sha256": "51daf9c49689d502a6fb67a73ccaf90c3c6d16f40ee1726f302ce9d6a0c52116",
+      "master_sha256": "cd516a82125114338ff5281d167255ce5619847df042591fa356445d520e0ac7",
+      "previous_condition_records_all_fields_unchanged": 851,
+      "changed_public_file_blobs_match": 11,
+      "independent_remote_complete_report_match": true,
+      "independent_remote_master_sha256": "cd516a82125114338ff5281d167255ce5619847df042591fa356445d520e0ac7",
+      "tests_passed": 410
+    }
   }
 }
