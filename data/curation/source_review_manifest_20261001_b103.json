@@ -1,0 +1,77 @@
+{
+  "batch": "b103",
+  "review_completed_utc": "2026-10-01T10:20:33.304799+00:00",
+  "baseline_counts": [
+    881,
+    1068,
+    237
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 2,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 1,
+    "complete_primary_HTML_articles": 1,
+    "complete_native_primary_PDF_pages": 17,
+    "complete_official_SIs_reviewed": 2,
+    "complete_SI_pages": 5,
+    "total_fact_rows": 28,
+    "held_fact_rows": 24,
+    "related_original_rechecked": 1,
+    "related_native_pages_rechecked": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b103_local_pctsi.csv",
+      "published_input_sha256": "8da5cf2cff2b1d61ac6b8a0ea80f6c3ebcfcbfb6c81791690b6fd1501e5ebc86",
+      "unique_sample_states": 2,
+      "verified_conditions": 4,
+      "held_fact_rows": 24,
+      "accepted_measurement_fingerprints": [
+        "1ae8e62f833072dadd5363a16960d88a53a272a6d949233409a1032bc409b9a3",
+        "317639665e12dbf72b8002b517274ff7a6735bcc6f195f1ea82bcfc36568477b",
+        "385c319677b85187a77af17b87200dffe4d1d3695d11dbb46793f831829ff96b",
+        "adeaa8b7c37c83faad49bc191b8fa817055ae535da282d2d89ecaac91da1b8a9"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03016-w",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 12,
+      "disposition": "Complete cached published HTML body,all5native tables,graphicabstract/Scheme1/Figs1-12 and complete official2page supplementary DOC reviewed by oneprimaryreviewer. SI only SupplementaryFig1 1H/13CNMR. No PDF obtained; published HTML DOI/title/authors/2020volume27pp3531-3549 matched. Own LOI Table1 and TG Table2 name350/450g/L initial cotton directly; no optimum-state inference. 250g/L Table1 LOI24.8 maps to200g/L in prose; entire250pairedstate held despite Fig5label250; no inferred typo correction. ControlTmax N2369table/368prose,air344table/343prose held metric; all control LOI/TG Table2 values recur in previously reviewed04054-8 Table2,so control both conditions held for cross-source reuse,not additional target. Related original methods differ TG851/JF5 versus STA6000/LFY606B; identical values are a reuse concern,not proof of experimental identity. Related PPDMS linear polymer is not this cyclicPCTSi. Treatedair Fig6c terminal ordering of labelled curves appears inconsistent with Table2 residue ordering;air canonical residue/R800/temp blank,raw table retained; no curve estimates/relabeling. N2R80038.1/38.9 agrees prose;calculated29.9 excluded. Water onset135/peak162C weightloss3.2% not decomposition;Table2 onset andmax1/2 stay source-native,notT5/T10. Regular TG STA6000ca5mg40-800C10CminN2/air,gasflows unreported;TGFTIRca10mg40-700CN250mLmin separate. LOI150x58mmGB/T5454-1997LFY606B;VFT/cone/tensile repeats not LOI/TG repeats;conditioning/replicates unknown. PBTCA/urea dosage remains unknown,no borrowed other-paper values.80%wetpickup not measured weightgain; WG22.7/30.3% is total finish not PCTSi massfraction.300/400gL and5/10/15/20washLOI have no ownTG. WashGB/T8629-2001neutraldetergent2gL5min each,temp/liquorratio unknown. NeatPCTSi/FTIR/cone/calculated curves not textileTGpairs. No independent-reviewer or statistical-replicate-independence claim."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03370-9",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 12,
+      "disposition": "Complete17page published original,allnative pages/tables/figures and complete official3page supplementaryDOC reviewed by oneprimaryreviewer. SI identity matches;Fig1NMR,Fig2P=O/NH3gas intensities,Fig3synthesis mechanism;noadditionalTGLOI. NativeFig6caption PDFp9 explicitly500g/L for both nitrogen andair,so Table2treated row maps to Table1LOI29.5/500gL, not all100-400gL.500gL measuredweightgain32.3%total finish notagent fraction;80%wetpickup notadd-on. UntreatedLOI18.1table/prose agrees,but alluntreatedTable2TGvalues recur in04054-8Table2 withLOI18;both newcontrols held forTGvector reuse despiteLOIdifference,noexperimentalidentity assertion or alteration ofoldrecords. N2treatedonset205,secondstagestart295raw,peaks287/315,R80044.0 agree table/prose;aironset210,onlypeak306,R80023.8 agree. Waterlossbelow120C is notdecomposition;genericTonset notT5/T10;Table2stage numbering retained. RegularTG851ca5mg40-800C10CminN2/air20mLmin,eachsampletwice;TGFTIRSTA6000ca10mg40-700CN250mLmin andgaschamber250/pipe300C areseparate. LOILFY606BGB/T5454-1997 specimen150x58mm;LOIreplicates/conditioning unknown,notborrow TG/cone/tensile repeats. Clothweave/GSM/yarntex/purity/pretreatment notreported;no122gsm fromotherpaper. NativeScheme2pH3 versus preparationp3pH3.6 unresolved,no exactfabricrecipepHselected. SyntheticAPTMS116.53g/0.2mol andproduct138.93g/0.09mol inconsistent gram/mole labels retainedraw,notcorrected orused toinferfabricloading. Namedagent structure supported byScheme1/SI-NMR;no mass-derived syntheticstoichiometry inferred. Coneabstractchar23.5/THR4.5 versusTable3/prosechar16.5/THR4.2 and controlTHR6.5abstract/6.2Table3 areoutsideTG,notused. LowerbathfourLOIs andwashed5/10/15/20LOIs have no ownmatchedTG. WashGB/T8629-2001neutraldetergent2gL5min each,temperature/liquorratio unknown. No independent-reviewer/experimentalreplicateindependence claim;originals/SI/fulltext/images/privatepaths keptoutsidepublicrepo."
+    }
+  ],
+  "verification_limit": "Two complete original published sources with complete official SIs reviewed by one primary reviewer;related04054-8nativep3/4/7/8rechecked. PCTSi350/450concentrations explicitly matched;fourN2/airconditions countas2states. Both newcontrols held forcross-sourcereuse;SPDP-PTMSallstatesheld for pH3Scheme2/pH3.6preparation. PCTSi250LOIconcentrationconflictwholepairheld,airresidueorderingconcernmetricheld. No independentreviewer or experimentalreplicateindependence claim. No fulltexts,originals,images,SI orprivatepaths published;libraryreadonly.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1068,
+    "new_states": 2,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 883,
+    "verified_conditions": 1072,
+    "verified_dois": 238,
+    "verified_sources": 240,
+    "offline_tests_passed": 534,
+    "snapshot_sha256": "4c5e837a88a85e4085f517ef0a72a346c19f26b9c879444f8a7c1eb389394e60",
+    "master_sha256": "fec7e84b27a24cd474acfd4902b6e9ddf478654b072ea0ac96b71b35e310fa93",
+    "validation_errors": [],
+    "held_fact_rows": 24,
+    "complete_official_SIs": 2,
+    "unchanged_private_evidence_files": 23,
+    "new_source_inventory_states": 2,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

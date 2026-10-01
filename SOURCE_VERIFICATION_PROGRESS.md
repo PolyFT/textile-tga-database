@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **881 unique reviewed source/sample/washing states**, **1068 TG condition records**, and **239 original sources (237 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **883 unique reviewed source/sample/washing states**, **1072 TG condition records**, and **240 original sources (238 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **881 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 680 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 682 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -961,3 +961,13 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [71](https://github.com/PolyFT/textile-tga-database/pull/71) merged as `17d40f86e325143c54304d3041dadcfa385de017` after exact-head validation run `36846927946` passed on `e89f0ed008c724d63beb5956155e41344c64ce5b`. All 16 changed public file blobs and the complete validation report match the independently built snapshot. All 1,058 earlier condition records preserve every field; 519 local tests passed.
 
 The merge-commit validation, master rebuild and processing runs (`36847324381`, `36847324440`, `36847324422`) all succeeded. Lease release commit: `0a0a3cc3e680becaa8baaed035eb1676a479047f`. The verified total is 881 unique states, 1,068 TG conditions and 239 original sources, comprising 237 DOI sources and two registered proceedings. The author-preprint subgroup remains separately reported as eight sources, 23 states and 33 conditions. B102 adds ten new-source paired states and zero evidence-only upgrades; potentially reused silica controls remain held.
+
+
+## b103 Local cotton cyclic siloxane source and reuse holds
+
+Two complete published originals and their complete official supporting materials add **two new initial cotton states / four N2-air TG conditions** from PCTSi350/450g/L, with zero legacy completions and zero evidence upgrades. All 28 concise fact rows remain traceable; 24 held rows do not enter the target. One primary reviewer checked the cached HTML, five linked tables, graphic abstract/Scheme1/Figs1-12, the second paper's 17 native pages and both complete SIs (five converted pages). This does not establish independent experimental replicates.
+
+- **10.1007/s10570-020-03016-w:** Own Table1 LOI27.5/29.5 and Table2 TG name350/450g/L initial cotton. Four gas conditions count as two states. N2 R80038.1/38.9 agrees with prose; its calculated29.9 is excluded. Treated air residue remains raw only because Fig6c labelled terminal ordering appears inconsistent with Table2; no curve estimate or relabelling. Water onset135/peak162C is not decomposition; Table2 onset204/203N2 and211/210air and stage maxima stay source-native. Table1 250g/LLOI24.8 versus200g/Lprose remains a whole-pair hold. Both controls repeat04054-8 numerical conditions; source-control max369/368N2 and344/343air conflicts stay raw, with no new control count. PBTCA/urea amounts are unknown. RegularTGca5mg40-800C10Cmin has unknown flows; TGFTIRca10mg40-700CN250mLmin remains distinct. LOI150x58mmGB/T5454-1997 is separate from VFT, cone and tensile tests. The complete SI only contains NMR.
+- **10.1007/s10570-020-03370-9:** All12 facts held. Fig6caption explicitly500g/L links Table1LOI29.5 and Table2TG, but preparationp3pH3.6 versus Scheme2p5pH3 changes sol-gel conditions and remains unresolved. No pH selected. Source synthetic APTMS116.53g/0.2mol andproduct138.93g/0.09mol notation anomalies stay raw, without correction or loading inference. Control TG vectors repeat04054-8 despite ownLOI18.1 versus18, so both new controls remain held. TG851ca5mg40-800C10CminN2/air20mLmin/twice is distinct from STA6000TGFTIRca10mg40-700CN250mLmin. Native second onset295N2 is not Tmax2=315 orT5/T10;water below120C stays separate. Cone abstract/Table3 disagreements do not becomeTGresidue. Four lower concentrations andfour washedLOIs have no ownTG. Cloth weave,grammage andpretreatment are unreported; no122gsm borrowed. Complete SI includes NMR,gas intensities andsynthesis mechanism, with no additional pairs.
+
+Related **10.1007/s10570-021-04054-8** original methods and Tables1/2 (PDFp3/4/7/8) were rechecked: native control TG matches; its linear PPDMS and instruments differ. These are reuse concerns, not a claim of experimental identity or a change to its existing accepted records. All1068 prior condition rows preserve every field. Public provenance uses DOI/table/figure/PDFpage only; originals/fulltext/images/SI/privatepaths stay external. Proposed totals **883 states /1072 conditions**, **1117 remaining to2000**. Release the owned lease only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and full independent remote master/report proof.
