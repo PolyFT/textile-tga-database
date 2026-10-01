@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T06:17:49.705Z",
+  "as_of_utc": "2026-10-01T06:23:29.450Z",
   "latest_batch_id": "20261001_b91",
   "verified_condition_records": 909,
   "verified_unique_sample_states": 749,
@@ -21,13 +21,12 @@
   "publication_stage": "b91_merged_verified_lease_released",
   "last_merged_batch": "20261001_b91",
   "writer_lease": {
-    "owner": "codex-local-wool-silk-20261001",
-    "status": "released",
-    "batch_id": "20261001_b91",
-    "claimed_at_utc": "2026-10-01T06:07:14.176Z",
-    "scope": "Four completely reviewed local journal originals;12 new wool/silk sample states and17 TG conditions;33 held facts. Preserve possible comparator reuse, crosslinker loading and endpoint conflicts.",
-    "instruction": "Single publisher; release after exact-head CI, normal merge, three postmerge checks and independent full report/master readback.",
-    "released_at_utc": "2026-10-01T06:17:49.704Z"
+    "owner": "dot-source-review-b92-20261001",
+    "status": "active",
+    "batch_id": "20261001_b92",
+    "claimed_at_utc": "2026-10-01T06:23:29.450Z",
+    "scope": "16 independently original-reviewed states at21 TG conditions from PVPA-BisMEP hydrogel cotton, DHTP cotton and a PEPAS-paper PET reference. Preserve three hydrogel temperature conflicts, DHTP wash/cycle and onset/residue holds, and PEPAS treated-state LOI conflict.",
+    "instruction": "Single publisher. Release only after exact-head CI, merge, three postmerge checks and exact report/snapshot readback."
   },
   "next_sources": [],
   "next_actions": [
