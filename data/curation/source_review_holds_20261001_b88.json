@@ -1,0 +1,247 @@
+[
+  {
+    "DOI": "10.1177/15280837221114932",
+    "source": "pe_inline2022",
+    "held_evidence": [
+      {
+        "sample": "Control",
+        "TG": "Table 1 control 2250 m/min: T10 450, R600 0, TDTGmax 479",
+        "LOI": "Table 2 control 1000 m/min: 19.8",
+        "reason": "Different stated take-up speeds; no correction or control equivalence inferred."
+      },
+      {
+        "sample": "50 \u00b0C at 500 m/min",
+        "TG": "Table 1 10 cm: 452/0/472; 15 cm: 451/2.4/469 (T10/R600/TDTGmax)",
+        "LOI": "Table 2 21.2, length unreported",
+        "reason": "One LOI cannot be assigned to both distinct travel-length states."
+      },
+      {
+        "sample": "50 \u00b0C at 750 m/min",
+        "TG": "Table 1 10 cm: 452/0/476; 15 cm: 451/0/472",
+        "LOI": "Table 2 21.3, length unreported",
+        "reason": "One LOI cannot be assigned to both distinct travel-length states; conclusion names 15 cm only for MCC, not LOI."
+      },
+      {
+        "sample": "Subsequent hot-drawn/annealed states",
+        "reason": "Table 5 reports mechanical outcomes only; no matched TG/LOI for these additional prepared states."
+      },
+      {
+        "sample": "Background PE LOI 17.4",
+        "reason": "Cited background value, not own measured control. No MCC peak temperature used as TG."
+      },
+      {
+        "sample": "Earlier references 21 and 30",
+        "reason": "Reference 21 official proceedings pp 79\u201380 uses twin-screw ATH/APP/nanoclay/CNC blends and MCC; distinct from present PCO-900 surface bath states. Reference 30 DOI 10.1002/pen.25461 original abstract/method-paper identity inspected; full source unavailable, so future reuse review remains necessary if exact overlapping treated-state claims arise. No source-wide exclusion of unrelated future states."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/1528083703034627",
+    "source": "fluorochem2003",
+    "held_evidence": {
+      "treated_TG_states": 14,
+      "state_labels_per_fabric": [
+        "5 g/L, 20 psi",
+        "5 g/L, 40 psi",
+        "10 g/L, 20 psi",
+        "10 g/L, 40 psi",
+        "15 g/L, 20 psi",
+        "15 g/L, 40 psi",
+        "40 g/L, 20 psi"
+      ],
+      "fabrics": [
+        "Trevira CS",
+        "Kermel/viscose (50:50)"
+      ],
+      "reason": "TG Tables 5/6 lack leaching-state labels. Methods preamble says treated samples were leached for 30/60 min and then evaluated, while LOI Tables 1/2 have initial,30,60 columns. Cannot identify the TG-prepared state or assign any of those LOI columns. Even identical LOIs in several Kermel rows do not establish specimen identity.",
+      "other_LOI_states": "All other bath concentration/pressure and leaching variants lack uniquely mapped TG.",
+      "metric_holds": "Undefined-rate peak temperatures and all phase weight losses stay source-native; no char-yield calculation.",
+      "related_DOI_guard": "10.1177/1528083703032003004 and its printed raw identifier 10.1177/152808302032849 concern the same fabric family; any later numerical reuse claim requires exact original comparison. No source-wide ban on distinct future measured states."
+    }
+  },
+  {
+    "DOI": "10.14314/polimery.2017.861",
+    "source": "pa6wg2017",
+    "held_evidence": [
+      {
+        "sample": "All nitrogen Figure2 states",
+        "reason": "Nitrogen atmosphere is explicit, but specified TGA ramp/flow belongs to air in methods. Generic peak459.5 label is not unambiguously mapped to each series; approximate460 and relative0.5% residue increase do not create exact individual metrics."
+      },
+      {
+        "sample": "Other fifteen WG concentration/temperature variants and water-only120\u00b0C comparator",
+        "reason": "LOI is measured, but no separately matched exact air TG value. Water-only is not merged into unmodified control despite equal LOI24.2."
+      },
+      {
+        "sample": "Figure3 ignition527.9/532.9\u00b0C",
+        "reason": "Specific carbonization-product ignition annotations, not redefined T5/general decomposition onset or maximum-rate temperature."
+      },
+      {
+        "sample": "Earlier conference report, X-Ray Investigations of Polymer Structure, Ustro\u0144, 6\u20139 December2016",
+        "reason": "Article explicitly reports prior presentation of its material. Future proceedings source must be checked for reuse; no identifier invented or independent states proposed."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1007/s10570-016-1171-z",
+    "title": "Fire retardant finish of jute fabric with nano zinc oxide",
+    "publication_type": "journal_article",
+    "original_url": "https://www.researchgate.net/publication/311945047_Fire_retardant_finish_of_jute_fabric_with_nano_zinc_oxide",
+    "publisher_url": "https://link.springer.com/article/10.1007/s10570-016-1171-z",
+    "review_scope": "Complete original author-posted e-offprint text, printed pages 1143\u20131157, including methods, Tables 1\u20133, results, conclusion and references; no PDF bytes or figure pixels inspected",
+    "status": "held_only_approximate_TG",
+    "reason": "Table 3 explicitly labels its entire residue column Approximate residue left (%) at respective temperatures. Untreated has Nil at 500 \u00b0C; 10% PMS + 0.01% nano ZnO has approximate 5 at 500 \u00b0C. Do not convert Nil to exact zero or remove the approximation qualifier. No exact own T5, Tmax or other eligible TG metric established. Own Table 2 LOIs 20.5 and 35 are measured, but the remaining 11 LOI states lack corresponding TG, including the five-wash LOI 30. The conclusion only gives a five-percentage-point residue increase across 400\u2013500 \u00b0C, not a new exact absolute residue. Zero admitted states.",
+    "methods_summary": "TGA/DSC on finely crushed fibers taken from the corresponding fabrics, Q600, 10 \u00b0C/min, 30\u2013500 \u00b0C; air explicitly assigned in TG results. Sample mass fixed but not quantified. LOI measured with S. C. Dey tester according to ASTM D2863-77. Base fabric is bleached plain jute, 275 g/m\u00b2, distinct from the 220 g/m\u00b2 tin/boron paper.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1080/15440478.2015.1029190",
+    "title": "A Study on Durable Flame Retardancy of Jute",
+    "original_url": "https://www.tandfonline.com/doi/full/10.1080/15440478.2015.1029190",
+    "publication_type": "journal_article",
+    "review_scope": "Original abstract and bounded public fulltext retrieval screen only",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Original abstract reports up to 116% and 46% LOI improvement and generic treated residue 42% at 600 \u00b0C, without an exact original treatment-specific LOI/TG mapping or complete TG conditions. Publisher fulltext/PDF retrieval failed; ResearchGate is request-PDF only. No back-calculated LOI or numeric pair.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1515/aut-2023-0035",
+    "title": "Investigation of weave influence on flame retardancy of jute fabrics",
+    "original_url": "https://acris.aalto.fi/ws/portalfiles/portal/156751997/Investigation_of_weave_influence_on_flame_retardancy_of_jute_fabrics.pdf",
+    "publication_type": "journal_article",
+    "review_scope": "Complete nine-page repository version-of-record indexed text, methods, results, conclusion and references",
+    "status": "held_no_own_TG",
+    "reason": "Seven treated weave states have own measured LOI, but this original reports flammability and mechanical testing only, with no own TG method or numerical TG results. Related Polymers DOI 10.3390/polym16142049 reports TG for similarly named fabrics, but it includes an extra post-cure detergent wash absent here; cross-paper preparation equivalence is not established. Do not combine assays across papers.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/polym16142049",
+    "title": "Thermal Degradation and Chemical Analysis of Flame-Retardant-Treated Jute Fabrics",
+    "original_url": "https://www.mdpi.com/2073-4360/16/14/2049",
+    "additional_original_url": "https://www.researchgate.net/publication/382359753_Thermal_Degradation_and_Chemical_Analysis_of_Flame-Retardant-Treated_Jute_Fabrics",
+    "publication_type": "journal_article",
+    "review_scope": "Targeted original methods and TG results, original-text search for own LOI; complete nineteen-page original not fully reviewed",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Exact TG metrics and nitrogen / 10 \u00b0C/min method are present, but inspected original contains no own LOI result or method; LOI search hits refer to related/citing items rather than the main original. Earlier AUTEX DOI 10.1515/aut-2023-0035 has LOIs for similar labels, but the Polymers preparation adds a post-cure 0.15 g/L AATCC 193 detergent wash, 40 \u00b0C for 5 min and 70 \u00b0C drying for 30 min. No same-prepared-state cross-paper bridge established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10973-024-13398-9",
+    "title": "Investigation of flame-retardant characteristics of natural flax coated with hydrothermally synthesized calcium borate and organic PDA",
+    "publication_type": "journal_article",
+    "original_url": "https://link.springer.com/article/10.1007/s10973-024-13398-9",
+    "review_scope": "Complete original publisher HTML main methods, results, conclusion and references; no PDF or image inspection",
+    "status": "held_no_own_measured_LOI",
+    "reason": "Own characterizations are TG-DTA and cone calorimetry; LOI is mentioned only for cited earlier PDA-jute work. No own measured LOI test or numerical value is reported for the four flax states. TG method gives 1 \u00b0C/min but no atmosphere; do not substitute DTA or cone mass loss for TG or use cited LOI.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.70241",
+    "title": "Preparation and Characterization of Zinc Phosphinate Flame Retardant Masterbatch on Polyester Fibers\u2019 Thermal, Rheological, Physical and Mechanical Properties",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1002/app.70241",
+    "review_scope": "Original publisher abstract and references; bounded fulltext/PDF route search, no full main reviewed",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Publisher abstract reports neat/7% fiber LOI 20.5/24.5 and generic residue 5.7/10.7, but full original tables, TG conditions and spun-fiber versus precursor identity could not be established. Fulltext route failed. Masterbatch contains20 wt% OP950 and is added at3/5/7 wt%; no loading conversion or numeric pair proposed.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.2298/JSC210408063O",
+    "title": "Flame retardant characteristics of polymerized dopamine hydrochloride coated jute fabric and jute fabric composites",
+    "publication_type": "journal_article",
+    "original_url": "https://doiserbia.nb.rs/img/doi/0352-5139/2022/0352-51392100063O.pdf",
+    "review_scope": "Original thirteen-page final PDF indexed text through main conclusion; complete methods and all TG/LOI results inspected, references not all reviewed",
+    "status": "held_fabric_TG_vs_epoxy_composite_LOI",
+    "reason": "TG/DTG methods and Figure 6 refer to bare and PDA-coated jute fabrics/fibers, separately reserved before epoxy plate manufacture. Own LOI 19/23 is exclusively five-layer epoxy composite plates (ISO 4589,80\u00d710\u00d72.5 mm), not those fabrics. No same prepared-state pair. TGA gives N2 to 600 \u00b0C but no heating rate in inspected method. Torch-burn mass loss and cited cotton/flax LOIs are not substitutes.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/0040517516632478",
+    "title": "Preparation and characterizations of flame retardant melamine cyanurate/polyamide 6 composite fibers via in situ polymerization",
+    "publication_type": "journal_article",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/0040517516632478",
+    "review_scope": "Original publisher abstract and bounded public fulltext retrieval screen; full original not obtained",
+    "status": "held_original_fulltext_unavailable",
+    "reason": "Own abstract describes bulk MCA/PA6 composites and spun fibers separately and gives 8 wt% composite LOI 29.3, but no complete original TG/LOI specimen bridge or conditions retrieved. Publisher indexed PDF route returns abstract or error; author page requests fulltext. No bulk-to-fiber transfer.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/15280837221132322",
+    "title": "Microstructure design of polyester industrial yarns with excellent flame retardancy and high strength",
+    "status": "precursor_TG_to_final_yarn_LOI_bridge_held",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1177/15280837221132322",
+    "reason": "Original preparation distinguishes RP/FP1/FP2/FP3 melt-blend test samples from subsequently spun and drawn HT/FRHT1/FRHT2/FRHT3 yarns. Table1 TG is RP/FP and Table3 LOI is woven final yarn. No explicit TG on the final drawn yarn was established in the retrieved original section. Nominal chemical composition correspondence alone does not establish identical prepared state. No pair admitted. Table4 initial FRHT3 P content4980 also differs from Table3 5980; no durability transfer.",
+    "review_scope": "Original publisher methods, preparation, thermal section and Tables1\u20134 read; remainder/SI not yet exhausted.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.5121/msej.2018.5101",
+    "title": "Flammability Characteristics of Chemical Treated Woven Hemp Fabric",
+    "status": "hold_unassigned_TG_atmosphere_and_method_conflicts",
+    "source_url": "https://airccse.com/msej/papers/5118msej01.pdf",
+    "document_sha256": "cec28affa43e74eb9ff2e32e108775d2aec15bf77e234059e80f4cafcd2f4196",
+    "reason": "Original section2.4 states nitrogen and air but supplies one four-state TG/DTG series with no atmosphere assignment in Figure4/Table6 or adjacent prose. Do not infer N2 from curve shape. Methods scan30\u2013600C conflicts with explicit Figure4/Table6 values at800C. NaOH maximum-rate temperature320.528C inTable6 conflicts with360C prose. Four potential fabric states remain unadmitted despite explicit LOIs and numerical TG.",
+    "review_scope": "Official PDF bytes retrieved; preparation and both methods read; original page13 Figure4/Table6 visually inspected. Whole-source and related2016thesis/2018laminate reuse audit not yet completed.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.4028/www.scientific.net/AMR.884-885.73",
+    "source_url": "https://www.scientific.net/AMR.884-885.73",
+    "status": "bounded_fulltext_retrieval_hold",
+    "reason": "Publisher abstract confirms own LOI/TG on ZrO2 viscose. Author fulltext index exposes preparation fragment but complete methods and numerical TG have not been retrieved; no admission or fulltext-exhaustion claim.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s12221-014-0220-1",
+    "source_url": "https://link.springer.com/article/10.1007/s12221-014-0220-1",
+    "status": "bounded_fulltext_retrieval_hold",
+    "reason": "Publisher landing retrieved; complete original numerical LOI/TG and methods not yet available in this bounded search.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.carbpol.2015.09.026",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0144861715008735",
+    "status": "bounded_fulltext_retrieval_hold",
+    "reason": "Publisher abstract/introduction only. Complete original numerical pairs and methods unavailable in bounded public search; no inference from zinc content or qualitative stability.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.tca.2023.179488",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0040603123000576",
+    "status": "bounded_fulltext_retrieval_hold",
+    "reason": "Publisher abstract gives coated-wool LOI33.7 but no complete own TG/method evidence retrieved. No numerical pair admitted.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2017.08.014",
+    "title": "Flame retardant study of formalized polyvinyl alcohol fiber coated with melamine formaldehyde resins and the synergistic effect of copper ions",
+    "status": "hold_TG_graft_loading_identity_and_exact_LOI",
+    "source_url": "https://dataset-dl.liris.cnrs.fr/db_amethyst/PDFs/10.1016/j.polymdegradstab.2017.08.014.pdf",
+    "document_sha256": "fee6bafa56979a716aff799b5ea5dd9be470f4978add18eee5e7e3050e6d5381",
+    "reason": "Accepted original has exact LOI22.0/30.8 explicitly at5.1% acrylic-acid grafting, but TG Tables2/3 identify only PVF-g-AAMF/PVF-g-AAMFCu without graft-loading bridge. MCC alone reports MF35.0\u00b12.1%, which cannot establish TG composition or transfer a graph-derived LOI. Control LOI is qualified about19.0 and Figure3 has no printed data labels. No graphical estimate or arbitrary grafting-state mapping admitted. Methods TG endpoint700C conflicts with tables/prose800C; calculated residue is separately excluded.",
+    "review_scope": "Original41-page PDF retrieved. Relevant preparation/LOI/TG/MCC definitions and Tables1\u20133 read; Figure3 original page13 pixels inspected. Later model-resin and PyGC-MS tables do not define paired fiber LOI. No supplementary retrieval or final-version equality claimed.",
+    "candidate_states_admitted": 0,
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
