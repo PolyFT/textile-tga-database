@@ -1,0 +1,102 @@
+{
+  "batch": "b81",
+  "review_completed_utc": "2026-10-01T02:49:59.148097+00:00",
+  "baseline_counts": [
+    643,
+    769,
+    158
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_source_reviews_held": 2,
+    "held_air_conditions_missing_rate": 3,
+    "held_SPMA_compound_rows": 2,
+    "total_preserved_TG_rows": 13
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b81_local_cspa_acpmpa_spma.csv",
+      "published_input_sha256": "af52e6dff41e0c985f59e7b5e7e18be6d36ef3db5287f7b2fc4ece5c468b77e5",
+      "unique_sample_states": 6,
+      "verified_conditions": 8,
+      "held_native_TG_rows": 5,
+      "accepted_measurement_fingerprints": [
+        "66fa34e30199faea39cea3c84efc1e6c12d08b0a51dbcc765f22bf312ba649ad",
+        "9ca07afb95488acb1145f49a61da868eb57516e9a7eecae77a3e6ac5f4d6ee82",
+        "73b0a3f8ee6a45967dea53d84c03b92b9a1f5ed4bac8f7898aa45e2970ecacf9",
+        "f554f4a4a6a52e1bee34f814fa978ebd517f42f9ad5046b6da762d1401bbc663",
+        "4a5bf60a2f557cf0017febb3cb5fdf57fef04206b276353e357874f31661ad24",
+        "b10d8c7319b4141a6876758cabc5619fbc534b9db54ee552dda831584e586e22",
+        "34c977d76400024095568743a36b4f94f7666ca5d8d2a42956715c78e8a81065",
+        "0e209a6e366f1127f4b5fbc6bc482cdae4dc78e58ee477f5cb491b8fef0a8344"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s42114-021-00348-4",
+      "accepted_states": 1,
+      "accepted_condition_records": 1,
+      "held_native_TG_rows": 2,
+      "accepted_sample_labels": [
+        "SPMA-5"
+      ],
+      "original_locators": [
+        "Publishedp1156 materials;p1157 preparation;p1158-1159methods;p1160-1163results/Figures5-7;officialTablesS1-S6/FigureS1"
+      ],
+      "review_scope": "Complete11pageprimarytext/tables/captions/references read; nativep1157preparation,p1158LOImethod,p1159TGmethod,p1161-1163Figures5-7/thermal/washtext visuallychecked. Complete officialSI6tables/allparagraphs anditsoneembeddedFigureS1 image inspected.",
+      "disposition": "SPMA/SPAM notation differs in native text/S1; same definedcompoundcode context retained. SPMA5TableTi182.7 vsproserounded182 compatible; nativeTi notT5/T10andTa196-308 is range notTmax. TwoAPPformulations haveTi swapped betweentext190/199andTable199.7/190.2; preservedraw,notcorrected. Figure6C explicitlylabels800C29.8%,282C9.7%/min and192C,butpanelcaptionAPP1 vsTGIRproseAPP2 ambiguous; not assigned to regularTGAcleanmetrics orSPMA5. APP1Table/prosechar29.7,APP2Table28.2 preservedraw; APP2initialLOI29.8inFig5A/prose/S3 vswashingprosebefore28 conflicting; do notresolveusingcurveestimates. Fig7Bwashcurvehasno printednumericlabels andwashstatehasnoTG. LOIdirectionalS3 values keptsource-native; no recalculatedmeans/repeatsoruncertainty. Purecottonaround18notownexactTGpair. LOIrepeatsunknown; tenverticalflametestsnottenLOItests. StaticN2flowundefined; nocleanTmax fromTGIR282C,noconeSEMresidueused."
+    },
+    {
+      "DOI": "10.1016/j.ijbiomac.2020.11.022",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "held_native_TG_rows": 0,
+      "accepted_sample_labels": [
+        "35% ACPMPA-treated cotton",
+        "Raw cotton"
+      ],
+      "original_locators": [
+        "OriginalPDFp2-4 Sections2.3/2.4;p6-7 thermaltext/Figure5;p8 Tables1-3"
+      ],
+      "review_scope": "Complete ten-page original in-press journal primary text/tables/captions/references read; originalp3LOI/preparation,p4TGmethod,p8TG/LOI/CONEtables visually checked. No supplement listed in primary; external inventory not inspected.",
+      "disposition": "NativeTmax andrate%/C kept distinct fromwaterstage40-311/285/296/273C andfromT5/T10/Tonset. Char11.24/39.79/1.61/35.22% is notR700 solelybecauseTGends700C. Nativeprose gives N2treated697C andaircontrol656C; N2controlabove694C andairtreatedgenerictemperatureunknown stayblank. N2treated stage3lossTable24.23%vsprose26.96% retained as conflictingrawfacts,not corrected orrecomputed. Aircontrolglobalpeak371C vsstage2end368C retained; no inferredstagemaxremapping. Table4after50LCrowlabels30%vsprose/Figure9/Table5 35% discrepancy held; no washedTGpairs. CONEprose swaps THR/CO2ratio columns and callsitTable1; useTGTable1 andLOITable3,notCONEresidue18.90. Native synthesis masses/mol labels disagree with usualformula molarmass; recordasprinted,not corrected. No LOI/TG uncertainty,repeats,mass/flow,finaldryduration orpercentbasis inferred. In-presspublisherjournal version explicit,notassumedfinalpaginatedVoR."
+    },
+    {
+      "DOI": "10.1016/j.ijbiomac.2021.02.023",
+      "accepted_states": 3,
+      "accepted_condition_records": 3,
+      "held_native_TG_rows": 3,
+      "accepted_sample_labels": [
+        "PC-10BL",
+        "PC-20BL",
+        "Uncoated"
+      ],
+      "original_locators": [
+        "Publishedp141-142 methods/Table1;p144 Table3/Figure5/thermal text"
+      ],
+      "review_scope": "Complete seven-page primary text/tables/captions/references read; originalp141 preparation/LOI,p142 TG method/LOI table,p144 TG table andcurves visually checked. No supplement listed in primary; external inventory not inspected.",
+      "disposition": "Section2.2 heading prints PEI/PA on PET but body/materials/Figure1/title consistently specifyCS/PA polyester/cotton65/35; preserve heading discrepancy,do not substitutePEIorPET. Method gives10C/min underN2 only; no rate inferred forair. Method800C vsFigure5 axis700C retained; Table3 residue explicitly700C,not800C. Uncoated NaOHpretreatment unspecified,no assignment from treated preparation. PC-1/5/15BL LOI18.9/21.2/26.0 lack own numericTG; washed20BLLOI24.8 lackswashedTG. Table2CONE residue22.84 is notTG6.50. LOI/TG repeats,uncertainty,TGmass/flow unspecified; rateunits%/C not%/min; native stage numbers retained."
+    },
+    {
+      "DOI": "10.1016/j.cej.2021.130556",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "complete_primary_text_read_official_SI_403_pending",
+      "disposition": "Complete 12-page primary text/tables/captions/references read. TableS1 formulations,TableS2 airTG andSI washed-state evidence remain unreviewed; official article/CDN routes403. Do not claim fullSI review or import newstates before resolving scope. Main Table2 three N2states/LOITable3 facts retained in private source text; original pixels notyetreviewed."
+    },
+    {
+      "DOI": "10.1016/j.cej.2020.128361",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "review_scope": "primary_text_review_partial_SI_missing",
+      "disposition": "Primary most text/tables/captions/references read, remainingp3-4text/art not fullyreviewed. TableS2/S4/S5 criticalLOI/TG andexactsamplecrosswalk unresolved. NativeTCN2residue35.6%vs35.15%,unknowngenericresiduetemperatures,LOIstandardDINENISO15025andFeSO4hepta/hydrate6notation anomalies preserved. No rawcontrolcationization orFeimmersionduration/temp assumed. Washed/abrasion/solutionLOI cannot be assigned initialTG."
+    }
+  ],
+  "verification_limit": "Three complete local original articles accepted with explicit source versions; native methods/LOI/TG numerical and figure pixels checked. Complete official SPMA SI six tables and all paragraphs plus its one embedded image reviewed. One primary reviewer; no independent reviewer or curve-estimation claim. Two CEJ sources held with bounded scope and critical SI unreviewed. Three air ramps are missing; two SPMA compound rows retain source contradictions without approval. No endpoint-based residue temperature, washed TG, fixed Ti definition or TGIR peak inferred. Only factual data, DOI locators and concise evidence are public; fulltexts, SI files, private paths and caches remain external; library strictly read-only."
+}
