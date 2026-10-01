@@ -1,0 +1,120 @@
+{
+  "batch": "b102",
+  "baseline_counts": [
+    871,
+    1058,
+    233
+  ],
+  "summary": {
+    "added_verified_unique_states": 10,
+    "added_verified_condition_records": 10,
+    "new_source_measurement_states": 10,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 4,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b102_flax_dapu2020.csv",
+      "DOI": "10.3144/expresspolymlett.2020.50",
+      "draft_sha256": "e43647aa2804ace6aa46ac898356259bee1fef9f8e116f36097c1b90ef8916e6",
+      "published_input_sha256": "0e5e2b58d1389b6457cd5ac53493a6690dfeafce1d3be2147578ebf13141fdce",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "8a41f3e9c95de02e2b409a43cc8daa800002c06ff310457b6d6b21e439b5214e",
+        "31c4f3a1a25d19ce9bc2202cb3de6eabb735a095f3c21b3a5b5fd1d0a87f0967"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b102_microfiber_leather2024.csv",
+      "DOI": "10.11868/j.issn.1001-4381.2022.001044",
+      "draft_sha256": "be5c6b63b2e17566380690cccbc7429807b5300f54ab5caac460f277d029ac5a",
+      "published_input_sha256": "966dc168e547bf653a2a2d867045131d17486dce347ef52c1d81f64ba91b7119",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "377d73433575f046fde10225b32386ebe332336c588ff8e57c9ea6726c0a9440",
+        "c8a2b97168782a0b65c4dd69d020592ff51d5189383aac7fdb5f28f9e629f994",
+        "9299f4dda7c354d1c162388517397084db5f025ed9e0befd6b41176e40f0aecf"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b102_gf_psb2024.csv",
+      "DOI": "10.3390/polym16040544",
+      "draft_sha256": "f87aeb1dc578bc7ea55bb0d548626f7c617e8f22623364d1af78ea0caaa443cc",
+      "published_input_sha256": "8f4353d0fa30ce3d21a99b145fe2e548e6464ef9e9847dfe9abd6e94bdc954b0",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "e999c8799be32f4aef7d9f5855943c5874518c79b2e38f87ec630e66e41617ee",
+        "631a05e3e92d5bfbdf26f1d5ad583c427e3ad120ec75d228bd41c0a8f74f09e4"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b102_sio2_dopo2019.csv",
+      "DOI": "10.1109/ICFSFPE48751.2019.9055847",
+      "draft_sha256": "4a2b70403051fa55d6eaa190ce9522bc42e21d036f2684a7b8b2211d290ad89a",
+      "published_input_sha256": "ce179aa4919652579a6f6e885eab01237d4d2d8da1e527ae07f066bbae07c109",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "conference_proceedings",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "4b0d2afd97cc88269deb515d7d415e1cd8ba22ad03626ccb9bed0adf9063b41b",
+        "de3fccf94cbabd5100264ff81f078f85e78ec6e2ccb3557e82ed38446071312f",
+        "041775953c901ea5d051c892cb1f6ec7a89cfd66fcf6439eab4727d94c57cd2b"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1109/ICFSFPE48751.2019.9055847",
+      "sample_state": "A: untreated plain woven cotton fabric",
+      "evidence_location": "10.1109/ICFSFPE48751.2019.9055847 Tables II/III; 10.1016/j.proeng.2017.12.124 Table 4",
+      "details": "Untreated and silica-only source states repeat initial TG temperatures and residues across these originals. Independence or reuse remains unresolved; the earlier exact measured LOI table must be reviewed before any admission. Distinct KH570 and DOPO formulations are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1109/ICFSFPE48751.2019.9055847",
+      "sample_state": "B: SiO2 finished plain woven cotton fabric",
+      "evidence_location": "10.1109/ICFSFPE48751.2019.9055847 Tables II/III; 10.1016/j.proeng.2017.12.124 Table 4",
+      "details": "Untreated and silica-only source states repeat initial TG temperatures and residues across these originals. Independence or reuse remains unresolved; the earlier exact measured LOI table must be reviewed before any admission. Distinct KH570 and DOPO formulations are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.proeng.2017.12.124",
+      "sample_state": "I",
+      "evidence_location": "10.1109/ICFSFPE48751.2019.9055847 Tables II/III; 10.1016/j.proeng.2017.12.124 Table 4",
+      "details": "Untreated and silica-only source states repeat initial TG temperatures and residues across these originals. Independence or reuse remains unresolved; the earlier exact measured LOI table must be reviewed before any admission. Distinct KH570 and DOPO formulations are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.proeng.2017.12.124",
+      "sample_state": "AI",
+      "evidence_location": "10.1109/ICFSFPE48751.2019.9055847 Tables II/III; 10.1016/j.proeng.2017.12.124 Table 4",
+      "details": "Untreated and silica-only source states repeat initial TG temperatures and residues across these originals. Independence or reuse remains unresolved; the earlier exact measured LOI table must be reviewed before any admission. Distinct KH570 and DOPO formulations are outside this hold.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}

@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **871 unique reviewed source/sample/washing states**, **1058 TG condition records**, and **235 original sources (233 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **881 unique reviewed source/sample/washing states**, **1068 TG condition records**, and **239 original sources (237 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **871 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 670 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 680 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -947,3 +947,10 @@ All1054 prior condition rows preserve every field; known queues/aliases and prio
 ### B101 publication verification
 
 PR #70 (https://github.com/PolyFT/textile-tga-database/pull/70) merged at `99d304a7213ae4c43d50c2a359dcdcc323c33c57`; exact reviewed head `6e2653cde73a3e8d2b7cc938fe0a88cb50e6983a` passed CI run `36843206217`. Merge validation, rebuild and processing runs `36843536801`, `36843536804` and `36843536952` all finished successfully. All 513 offline tests passed, with zero validator errors. The verified total is **871 source/sample states and 1058 TG condition records**, comprising 233 DOI sources and two registered non-DOI sources. B101 adds four pairs and four conditions, with zero evidence upgrades; 33 held fact rows remain excluded. All 1054 earlier condition records preserve every existing field, and the three concurrent extraction-state files match the preceding main. All 11 changed public blobs and the complete rebuilt validation report match the reviewed snapshot. The independent remote master contains 4,840,648 bytes, SHA-256 `41dc3ad2e2f6dbbb76abadefc9b50730017990fdd9a83bf2552cdf6ebe5d993f`; snapshot SHA-256 `eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb`. All four original files and four local inventory entries retain their hashes. No fulltexts, source images, private paths or annotations were published. The owned B101 lease is eligible for release through the separately checked progress record. The 2000-state goal remains active, with 1129 states still required.
+
+
+## b102 original-reviewed fiber and textile states
+
+This batch adds 10 newly verified paired states at 10 TG conditions from 4 DOI sources: 10 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 881 states, 1068 conditions and 239 sources (237 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.

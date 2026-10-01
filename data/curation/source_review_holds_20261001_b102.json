@@ -1,0 +1,583 @@
+[
+  {
+    "DOI": "10.3144/expresspolymlett.2020.50",
+    "source": "flax_dapu2020",
+    "held_evidence": [
+      {
+        "sample": "5 w/V% DAP/U fabric",
+        "metrics": "R500 and entire pair",
+        "reason": "Prose R500 36% conflicts with Figure 3b marker below 35%; LOI 25 remains source-native. No graph substitute."
+      },
+      {
+        "sample": "20 w/V% DAP/U fabric",
+        "metrics": "Initial degradation temperature 243 \u00b0C; residue qualifier",
+        "reason": "No onset or threshold definition, so 243 \u00b0C is raw only. State-specific (38%) residue and later approximate-maximum wording are disclosed for bounded review."
+      },
+      {
+        "sample": "10 and 15 w/V% DAP/U fabrics",
+        "metrics": "TG",
+        "reason": "Table 3 LOIs 30 and 34 are measured, but own TG scalar values are only unlabelled plot points."
+      },
+      {
+        "sample": "20 w/V% total solution with DAP:U ratios 0:1, 1:4, 1:3, 1:2, 2:1, 3:1, 4:1, 1:0",
+        "metrics": "Exact matched pair",
+        "reason": "Most TG and LOI results are unlabelled plots; the explicit residue 38% for 1:2 and initial temperature 204 \u00b0C for 1:0 do not supply exact measured LOIs."
+      },
+      {
+        "sample": "Nine fX_mY PLA/flax laminates",
+        "metrics": "TG",
+        "reason": "LOI Table 5 belongs to completed laminates; no completed-laminate scalar TG is established. Cone residual masses are not TG."
+      },
+      {
+        "sample": "Five PLA matrix films",
+        "metrics": "Material form and LOI",
+        "reason": "Films are not prepared textiles; fitted LOI equation is not a measured state-specific LOI."
+      },
+      {
+        "sample": "185 \u00b0C for 5 min heat-exposed fabrics",
+        "metrics": "TG/LOI mapping",
+        "reason": "This exposure is separately used for mechanical evaluation, not an assigned TG/LOI condition."
+      }
+    ]
+  },
+  {
+    "DOI": "10.11868/j.issn.1001-4381.2022.001044",
+    "source": "microfiber_leather2024",
+    "held_evidence": {
+      "unpaired_own_LOI_states": [
+        "MFP-WPU25",
+        "MFP-WPU50",
+        "MFP-WPU75",
+        "MFP-WPU100/50",
+        "MFP-WPU100/60",
+        "MFP-WPU100/70",
+        "MFP-WPU100/80"
+      ],
+      "metric_holds": [
+        "All T0/T5/T50 values pending ordering/row-span verification",
+        "MFP-WPU100 graph-only residue",
+        "All Vmax values are rates, not temperatures",
+        "Cone residue and Raman/horizontal-burning contradictions"
+      ],
+      "source_access": "Full published HTML indexed; direct source bytes/figures403, no PDF/pixel claim",
+      "future_related_control_review": {
+        "DOI": "10.1016/j.porgcoat.2022.107286",
+        "scope": "Precursor WPU reference23; any future matching source control requires original-state comparison. No textile alias or additional observation is assumed."
+      }
+    }
+  },
+  {
+    "DOI": "10.3390/polym16040544",
+    "source": "gf_psb2024",
+    "held_evidence": [
+      {
+        "sample_state": "GF-PSB",
+        "metrics": "TG and pair",
+        "reason": "Measured LOI 47.7 \u00b1 0.1 exists, but no GF-PSB control TG row occurs in Table S1 or Figure 5. PSB 397/460/0.5 is the unreinforced resin, not this laminate."
+      },
+      {
+        "sample_state": "GF-PSB/DOPO-POSS-13 and -15",
+        "metrics": "TG and LOI",
+        "reason": "Only dielectric measurements are assigned; the 10 wt% values are not transferred."
+      },
+      {
+        "sample_state": "PSB, PSB/PX-200 and PSB/DOPO-POSS without glass",
+        "metrics": "Material form and pair",
+        "reason": "These are unreinforced resin specimens or dielectric films, not textile laminates. Precursor powder TG has no corresponding own textile LOI."
+      },
+      {
+        "sample_state": "Both treated GF-PSB laminates",
+        "metrics": "Specimen thickness",
+        "reason": "Preparation/Table 2 report 0.25 mm; LOI method reports 3.2 mm bars. No correction or stacking is inferred."
+      },
+      {
+        "sample_state": "GF-PSB/PX-200",
+        "metrics": "Complete formulation",
+        "reason": "Only the 10 wt% PX-200 loading is explicit; other base fractions are unreported."
+      },
+      {
+        "sample_state": "Both treated GF-PSB laminates",
+        "metrics": "LOI SD and replicate count",
+        "reason": "\u00b1 uncertainty is untyped and three repetitions occur under UL-94. Neither is inferred for LOI."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1109/ICFSFPE48751.2019.9055847",
+    "source": "sio2_dopo2019",
+    "held_evidence": [
+      {
+        "sample_state": "E",
+        "metrics": "Entire TG\u2013LOI pair",
+        "reason": "Preparation and sequential A\u2013F assignment identify SiO2\u2013DOPO; indexed Figure 5 legend instead names DOPO\u2013KH570. No correction is inferred.",
+        "raw_LOI": "22.0",
+        "raw_char_residue": "15.40"
+      },
+      {
+        "sample_state": "A\u2013F",
+        "metrics": "Tonset and Tmax1/2",
+        "reason": "The onset criterion and explicit maximum-rate definitions are unavailable; values remain source-native."
+      },
+      {
+        "sample_state": "A\u2013F",
+        "metrics": "Residue temperature",
+        "reason": "Table II does not explicitly assign a residue temperature. Method scan endpoint is not substituted."
+      },
+      {
+        "sample_state": "All",
+        "metrics": "Figure consistency",
+        "reason": "Original PDF bytes and figure pixels unavailable. No graph-derived estimates or pixel checks claimed."
+      },
+      {
+        "sample_state": "All",
+        "metrics": "Mass gain percentage",
+        "reason": "Table III mass gains are grams; no conversion to percentage add-on."
+      },
+      {
+        "sample_state": "All",
+        "metrics": "General LOI-increase range",
+        "reason": "Prose 1.6\u20133.0 range excludes Table III increases for C and F; individual table values retained without adjusting the range."
+      },
+      {
+        "sample_state": "A and B",
+        "metrics": "Entire pair; source-specific reuse",
+        "reason": "Earlier same-team DOI 10.1016/j.proeng.2017.12.124 original Table 4 repeats control initial temperature 288.2 \u00b0C / char residue 3.2%, and silica-only initial temperature 286.6 \u00b0C / char residue 29.6%. Independence or reuse is unresolved; earlier exact LOI Table 3 remains unavailable. Do not count these as new observations pending source-specific review.",
+        "related_DOI": "10.1016/j.proeng.2017.12.124",
+        "earlier_labels": [
+          "I",
+          "AI"
+        ]
+      }
+    ]
+  },
+  {
+    "DOI": "10.1021/ie400609t",
+    "title": "Green Jute-Based Cross-Linked Soy Flour Nanocomposites Reinforced with Cellulose Whiskers and Nanoclay",
+    "original_url": "https://pubs.acs.org/doi/10.1021/ie400609t",
+    "status": "held_original_main_unavailable_and_future_control_reuse",
+    "review_scope": "Original publisher abstract and SI description; public author page explicitly has no fulltext. No complete main or pixel claim.",
+    "reason": "Own exact TG/LOI tables, complete methods and state recipes not recovered. Same-team unfilled soy/jute control requires exact comparison to DOI 10.1002/app.37713 before repeated pairs are imported; exact current label unresolved. Distinct cellulose-whisker treatments are not excluded.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/0021998315580831",
+    "title": "Effect of zinc oxide and nanoclay on crosslinked jute-reinforced soy flour green nanocomposites",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/0021998315580831",
+    "status": "held_original_main_incomplete_and_future_control_reuse",
+    "review_scope": "Publisher abstract and author-hosted publisher first-page preview; exact thermal/LOI tables and complete own methods unavailable.",
+    "reason": "No exact matched finished-laminate pair established. Unfilled soy/jute comparator must be compared to DOI 10.1002/app.37713 before admission; no exact earlier label or wildcard exclusion invented. Distinct ZnO formulations are not excluded.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.carbpol.2012.03.012",
+    "title": "Effect of crosslinker and nanoclay on starch and jute fabric based green nanocomposites",
+    "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861712002238",
+    "status": "held_original_main_incomplete",
+    "review_scope": "Original publisher abstract and selected preparation excerpts; public author page states no fulltext.",
+    "reason": "Exact TG/LOI rows and complete assay conditions not recovered. Starch matrix is distinct from soy flour in DOI 10.1002/app.37713; no soy values or conditions are transferred and no duplicate claim is made.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.33140/amse/02/01/02",
+    "title": "Study of UV Stability and Physical Properties of Jute/Soy Flour Green Nanocomposites",
+    "original_url": "https://www.opastpublishers.com/open-access-articles/study-of-uv-stability-and-physical-properties-of-jutesoy-flour-green-nanocomposites.pdf",
+    "status": "held_no_exact_TG_scalar_recovered",
+    "review_scope": "Official original nine-page PDF indexed fulltext; own methods, Tables 1\u20134, thermal/LOI discussion and conclusions read. Direct PDF bytes403 and screenshot cache miss; no pixel claim. DOI independently verified by official issue contents and Crossref title query.",
+    "reason": "Seven exact measured LOIs and own N2/10 \u00b0C/min TG method are present, but TG data are shown in Figure 5 and no exact eligible scalar was recovered in the text/tables. No graph-coordinate extraction. Table 1 T5/N5 nanoclay cell is a dash despite the label and discussion; recipe conflict retained. Control LOI 42 differs from earlier soy/jute G50 LOI 38; label similarity alone is not reuse proof.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pc.71401",
+    "title": "Phosphorus-Functionalized Interfacial Architectures Enabling Synergistic Mechanical Reinforcement and Flame Retardancy in Basalt Fiber/Epoxy Composites",
+    "original_url": "https://4spepublications.onlinelibrary.wiley.com/doi/10.1002/pc.71401",
+    "status": "held_original_main_unavailable",
+    "review_scope": "Institutional original author/publication metadata and abstract; publisher route inaccessible. No complete main/PDF/pixel claim.",
+    "reason": "Exact state-specific measured LOI, TG metrics, own atmosphere/ramp and finished textile layup not recovered. Abstract comparison of DOPO-KH560 and DOPO-POSS systems is insufficient for admission.",
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.tca.2023.179468",
+    "title": "Flame retardant and water repellent poly(lactic acid) electrospun fabrics",
+    "original_url": "https://www.researchgate.net/publication/368825401_Flame_retardant_and_water_repellent_polylactic_acid_electrospun_fabrics",
+    "status": "held_corrupted_original_font_encoding",
+    "review_scope": "Author-uploaded publisher corrected proof is indexed, including own preparation/methods and Table 2, but its numeric and text glyphs are corrupt. Publisher direct page403; author PDF links unavailable. Separately identified SSRN version delivery403; no retry/bypass and no version equivalence claim.",
+    "reason": "Five potential same-fabric PLA-0/5/10/20/30 TG/LOI rows exist, but readable original table pixels or clean original text are required before canonical extraction. No numbers are reconstructed from font-substitution guesses. Related DOI versions 10.2139/ssrn.4284499 and 10.2139/ssrn.4283478 remain uncoalesced and reuse-held.",
+    "candidate_states": 5,
+    "related_version_dois": [
+      "10.2139/ssrn.4284499",
+      "10.2139/ssrn.4283478"
+    ],
+    "publication_type": "journal_article",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.cej.2023.143545",
+    "title": "An interlayer flame retardant method to effectively fire retardant and reinforce CF/EP composites by nanofiber film intercalation",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S1385894723022763",
+    "publication_type": "journal_article",
+    "status": "held_original_main_unavailable",
+    "review_scope": "Original publisher abstract and author publication page; author page explicitly has no full text.",
+    "reason": "Original abstract reports LOI 27.8 to 34.7 for PKHH/PEPA nanofiber interlayers, but matching exact laminate TG values, methods and complete preparation were not recovered.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compstruct.2024.118531",
+    "title": "Integrated design of flame retardancy, smoke suppression and structure of carbon fiber reinforced vinyl ester resin composites through intercalation of nanofiber membranes",
+    "original_url": "https://doi.org/10.1016/j.compstruct.2024.118531",
+    "publication_type": "journal_article",
+    "status": "held_original_main_unavailable",
+    "review_scope": "Bounded identity search and related-review discovery only; original full text not recovered.",
+    "reason": "Secondary review values cannot establish exact primary TG/LOI pairs, methods or recipes.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/nano12152685",
+    "title": "Phosphorylated Poly(vinyl alcohol) Electrospun Mats for Protective Equipment Applications",
+    "original_url": "https://www.researchgate.net/publication/362526312_Phosphorylated_Polyvinyl_alcohol_Electrospun_Mats_for_Protective_Equipment_Applications",
+    "publication_type": "journal_article",
+    "status": "held_no_measured_LOI_pair",
+    "review_scope": "Original indexed characterization passages and abstract; no PDF-byte or pixel claim.",
+    "reason": "The recovered own fire assay is micro-combustion calorimetry, with no measured own LOI established. TG characterizes PVAOP precursor products before mat processing; no finished-mat pair established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.5937/tekstind2501035N",
+    "title": "Finishing of polyamide fabric 6 and polyamide 6.6 fabric with some boron compounds",
+    "original_url": "https://www.researchgate.net/publication/390704049_Finishing_of_polyamide_fabric_6_and_polyamide_66_fabric_with_some_boron_compounds",
+    "publication_type": "journal_article",
+    "status": "held_no_own_TG_LOI_pair",
+    "review_scope": "Original indexed own methods, results and conclusion; no PDF-byte or pixel claim.",
+    "reason": "Own flammability uses ISO 6941 vertical flame times. LOI 28.6 refers to cited silk literature; no own TG plus measured LOI pair established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2026.112059",
+    "title": "Phosphorus- nitrogen- and sulfur (P/N/S)-containing oligomer for enhanced flame retardancy of cotton",
+    "original_url": "https://air.unimi.it/retrieve/handle/2434/1227837/3282695/Manuscript_compressed.pdf",
+    "publication_type": "journal_article",
+    "status": "held_no_measured_LOI",
+    "review_scope": "Original institutional 10-page PDF indexed own methods 2.7 and results; no PDF-byte or pixel claim.",
+    "reason": "Own combustion assays are horizontal/vertical flame spread and cone calorimetry, with no own measured LOI established. Exact TG values cannot be paired to oxygen-consumption calorimetry. The DVP-CYSS residue additionally differs between Table 2 (27.3) and prose (27.5).",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/polym17243313",
+    "title": "Chitosan-Branched Polyethyleneimine Hybrid Cationic Layer as an Effective Solution Towards Fire Vulnerability of Cotton Fabric",
+    "original_url": "https://www.researchgate.net/publication/398707783_Chitosan-Branched_Polyethyleneimine_Hybrid_Cationic_Layer_as_an_Effective_Solution_Towards_Fire_Vulnerability_of_Cotton_Fabric",
+    "publication_type": "journal_article",
+    "status": "held_no_measured_LOI",
+    "review_scope": "Publisher-provided original full text on author platform; preparation and full characterization 2.3 inspected. PMC presents a verification challenge, not interacted with. No PDF-byte or pixel claim.",
+    "reason": "Own fire tests are vertical burning and pyrolysis combustion flow calorimetry, not measured LOI. The 20% oxygen concentration is a PCFC operating condition.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/15280837251361229",
+    "title": "Novel vapor-phase assisted hydrothermal decomposition of cellulose waste for future recycling of textiles",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/15280837251361229",
+    "publication_type": "journal_article",
+    "status": "held_no_measured_LOI",
+    "review_scope": "Original publisher full indexed methods and own assay inventory; no PDF-byte or pixel claim.",
+    "reason": "Own methods include microscopy, color, FTIR, TG and DSC but no measured LOI. Cotton-derived carbonaceous solid is also described as pulverized to powders; it is not an established prepared-textile TG/LOI pair.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pc.71537",
+    "title": "Development of Flame Retarded Battery Casings Using Glass Fiber-Reinforced Epoxy Resin",
+    "original_url": "https://4spepublications.onlinelibrary.wiley.com/doi/10.1002/pc.71537",
+    "publication_type": "journal_article",
+    "status": "held_TG_matrix_LOI_laminate_mismatch",
+    "review_scope": "Original publisher indexed preparation, methods and Tables 2\u20134; no PDF-byte or pixel claim.",
+    "reason": "Exact TG Table 2 and Figure 2 characterize epoxy resin matrix formulations. Table 3 measured LOIs belong to 2 mm and 4 mm glass-fabric laminates; no own laminate TG scalar is established. Matrix TG cannot be transferred across the 60 mass% glass addition or laminate lay-ups.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2015.04.028",
+    "title": "Development of natural fibre reinforced flame retarded epoxy resin composites",
+    "original_url": "https://real.mtak.hu/39380/1/ERA_epoxi_elfogadott_kezirat_abrakkal_u.pdf",
+    "publication_type": "journal_article",
+    "status": "held_TG_precursor_fabric_LOI_laminate_mismatch",
+    "review_scope": "Original institutional 26-page manuscript indexed preparation, own assay methods, TG Table 1 and LOI Table 3, and their associated discussion. No PDF-byte or pixel claim.",
+    "reason": "TG explicitly characterizes NHF, THF, SiHF and SiTHF precursor hemp fabrics. LOI Table 3 characterizes reference and FR resin matrices plus completed hemp laminates; own fabric flammability is measured by cone calorimetry. No completed-laminate TG or measured fabric LOI is established.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.eng.2024.03.017",
+    "title": "Superior Mechanical Behavior and Flame Retardancy FRP via a Distribution Controllable 1D/2D Hybrid Nanoclay Synergistic Toughening Strategy",
+    "original_url": "https://www.engineering.org.cn/engi/EN/1159983254449218036",
+    "publication_type": "journal_article",
+    "status": "held_TG_atmosphere_and_numeric_evidence_unresolved",
+    "review_scope": "Original publisher indexed preparation, own methods and TG-IR discussion; original PDF indexed portions also inspected. Official PDF bytes returned 502 and ScienceDirect page 403; no PDF-byte or pixel claim. Supplement not recovered.",
+    "reason": "Finished basalt-fabric laminates and measured LOI are established, but own TG gas atmosphere and exact matched scalar values remain unrecovered. Methods give TG-IR 10 \u00b0C/min and separate kinetic rates 5/15/20/30 \u00b0C/min without resolved gas assignment. Figure 5 descriptions and kinetic curves cannot supply estimated scalars.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1021/ie403378w",
+    "title": "Synergistic Effect of Carbon Nanotube and Polyethersulfone on Flame Retardancy of Carbon Fiber Reinforced Epoxy Composites",
+    "original_url": "https://pubs.acs.org/doi/abs/10.1021/ie403378w",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract and SI description only; public full original methods/results not recovered.",
+    "reason": "Three CF/EP laminate formulations are described, but no exact own TG/LOI values with complete specimen preparation and TG conditions are recovered.",
+    "status": "held_original_main_unavailable",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compscitech.2019.107945",
+    "title": "Epoxy resin composites reinforced and fire-retarded by surficially-treated carbon fibers via a tunable and facile process",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S0266353819306414",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract and bounded fulltext search.",
+    "reason": "LOI43 appears in the abstract, but complete treatment inventory, matched numerical TG and methods were not recovered.",
+    "status": "held_original_main_unavailable",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.cej.2018.07.146",
+    "title": "Layer-by-layer assembled flame-retardant architecture toward high-performance carbon fiber composite",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S1385894718313871",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract, introduction, partial materials and conclusion; bounded public original search.",
+    "reason": "Only abstract-level LOI41 for six bilayers is recovered; complete own numerical TG/LOI inventory, preparation and TG method remain unavailable.",
+    "status": "held_original_main_incomplete",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2018.07.037",
+    "title": "Polydopamine induced natural fiber surface functionalization: a way towards flame retardancy of flax/poly(lactic acid) biocomposites",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S1359836818301197",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher abstract, partial raw materials and conclusion plus official author metadata.",
+    "reason": "LOIs19.1 and26.1 are explicit, but complete processing, whether non-crimp fabric remains intact, and own exact TG conditions/scalars are unrecovered. No precursor-fiber TG or abstract pair is used.",
+    "status": "held_original_main_incomplete",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/15280837221079273",
+    "title": "Preparation of a novel bio-flame-retardant liquid for flame retardancy of natural fibers and their composites",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/15280837221079273",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher indexed preparation, complete own assay methods and thermal/fire discussion for fibers and composites.",
+    "reason": "Own fire assays are UL94, MCC and cone calorimetry; no measured LOI is established for either fibers or finished composites.",
+    "status": "held_no_measured_LOI",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/1528083718760805",
+    "title": "Enhanced thermal properties of graphene-based poly (vinyl chloride) composites",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/1528083718760805",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher indexed article and own thermal Table2; search within original for LOI/oxygen index returned none.",
+    "reason": "Six fiber TG rows are exact but no own measured LOI was established in this bounded assay review.",
+    "status": "held_no_measured_LOI",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2022.109938",
+    "title": "Microfibrous cyclodextrin boosts flame retardancy of poly(lactic acid) II - phosphorous silane treatment further enhances the effectivity",
+    "original_url": "https://www.pt.bme.hu/publikaciok/1470_publ_1-s2.0-S0141391022001215-main.pdf",
+    "publication_type": "journal_article",
+    "review_scope": "Original institutional publisher PDF indexed preparation sections2.2\u20132.4 and characterization.",
+    "reason": "Electrospun cyclodextrin is ground with a hammer mill, melt-mixed as a3 wt% filler into PLA and hot-pressed into bulk plates for LOI. These are bulk filler composites, not prepared textile mats or textile laminates; precursor CD fiber TG has no own measured LOI.",
+    "status": "held_nontextile_bulk_filler_composites",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.15925/j.cnki.issn1005-3360.2025.06.002",
+    "title": "Preparation and Performance Study of High-temperature Resistant Flame-retardant Polyimide Protective Fiber",
+    "original_url": "https://cjournal.hep.com.cn/1005-3360/CN/PDF/10.15925/j.cnki.issn1005-3360.2025.06.002",
+    "publication_type": "journal_article",
+    "status": "held_source_numeric_plot_conflicts",
+    "review_scope": "Complete official five-page PDF retrieved; methods, recipes, results, conclusion and enlarged Figures3/4 inspected.",
+    "reason": "Four electrospun PI/D2000 states have printed T5 labels, but E-PI-1 515.3 and E-PI-2 516.7 appear in reversed dotted-marker order in Figure3a. Control LOI prose38.6 conflicts with Figure4 point visibly near38, so no exact substitute is estimated. E-PI-2 measured LOI47.4 remains usable only if its TG conflict is resolved; other two LOIs are unlabelled plot points. All residue statements say near/almost zero and cannot become exact zeros.",
+    "source_document_sha256": "b97105c34db19d527c95454ecf24dafaab0e01396f664dc5823493bef4a54f80",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1088/1757-899X/460/1/012033",
+    "title": "Effect of polyamide ratio on the flammability of wool/PA blended aircraft seat fabrics",
+    "original_url": "https://www.researchgate.net/publication/329895593_Effect_of_polyamide_ratio_on_the_flammability_of_woolPA_blended_aircraft_seat_fabrics",
+    "publication_type": "conference_proceedings",
+    "review_scope": "Original author-uploaded full text, own characterization and Tables II/III.",
+    "reason": "Ten own TG rows describe untreated and treated wool/PA fabrics, but LOI 25 for wool and 21 for PA occur only as cited background. Own fire assays are FAA vertical burning, smoke density and cone calorimetry; no own measured LOI established.",
+    "status": "held_no_measured_LOI",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.14504/ajr.8.4.5",
+    "title": "Single Step Mercerization and Formaldehyde-Free Polyfunctional Finishing on Cotton Fabrics",
+    "original_url": "https://journals.sagepub.com/doi/10.14504/ajr.8.4.5",
+    "publication_type": "journal_article",
+    "review_scope": "Original publisher indexed methods, own results and conclusion; exact LOI Table IV.",
+    "reason": "Fourteen cotton LOIs are measured, but no own thermogravimetric assay or numerical TG result was established. Thermal discussion does not supply matching TG evidence.",
+    "status": "held_no_matching_TG",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.16865/j.cnki.1000-7555.2020.0254",
+    "title": "Preparation and Performance of an Imidazole-Containing Aramid",
+    "original_url": "https://pmse.scu.edu.cn/gfzclkxygc/article/abstract/20201110?st=article_issue",
+    "publication_type": "journal_article",
+    "review_scope": "Official abstract and landing HTML; observed official PDF route returns a statement that full text has not been uploaded.",
+    "reason": "Only abstract LOI 46, approximate initial decomposition and residue above 58 at 800 \u00b0C are accessible; no complete original methods or exact paired TG state established.",
+    "status": "held_original_fulltext_unavailable",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/fam.2839",
+    "title": "Preparation and flame retardancy of flax fabric/polybenzoxazine laminates",
+    "original_url": "https://doi.org/10.1002/fam.2839",
+    "publication_type": "journal_article",
+    "review_scope": "Original abstract and public institutional-record route screened; no complete main recovered.",
+    "reason": "No exact own LOI and matching TG methods/scalars established from accessible original evidence.",
+    "status": "held_original_fulltext_unavailable",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/1464420716660874",
+    "title": "High-performance fire-resistant polymeric nanocomposite for aerospace applications",
+    "original_url": "https://www.researchgate.net/publication/305487535_High-performance_fire-resistant_polymeric_nanocomposite_for_aerospace_applications",
+    "publication_type": "journal_article",
+    "review_scope": "Complete indexed original own preparation, characterization, thermal and LOI discussion, conclusion and references read; figure pixels not inspected.",
+    "reason": "Own nitrogen / 10 \u00b0C/min TG is assigned to cotton/phenolic laminates and separate coating films, but laminate scalar temperatures 280/350/380/420 \u00b0C are only undefined thermal-stability limits. Coated LOI is about 35, nanofilled LOI up to 37 in results versus 35 in conclusion, with 2.5/7.5% loading assignment unresolved. No clean canonical paired scalar established; no film TG transferred.",
+    "status": "held_metric_or_method_scope",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-723535/v1",
+    "title": "Effect of Synthesized Chitosan Flame Retardant On Flammability, Thermal, And Mechanical Properties of Vinyl Ester/Bamboo Nonwoven Fiber Composites",
+    "original_url": "https://www.researchgate.net/publication/353505597_Effect_of_Synthesized_Chitosan_Flame_Retardant_On_Flammability_Thermal_And_Mechanical_Properties_of_Vinyl_EsterBamboo_Nonwoven_Fiber_Composites",
+    "publication_type": "author_preprint",
+    "review_scope": "Original 25-page preprint indexed methods, own result discussion and tables read; related journal DOI 10.1007/s10570-021-04252-4 verified from publisher and publisher preview, not assigned as data source.",
+    "reason": "Four finished bamboo nonwoven / VE laminate states have exact LOI and nitrogen/air TG Tables 1\u20132. However, the sole 20 \u00b0C/min TG ramp is explicitly under additive NCS characterization, while separate composite characterization lists only mechanical and cone assays; no composite ramp bridge is established. LOI instrument/standard is also unreported, Tmax 75% is not DTG maximum, and high-loading air residue is approximately 1.5 in prose versus 1.3 in table. Final-version numerical equivalence remains unverified.",
+    "status": "held_metric_or_method_scope",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-021-04252-4",
+    "title": "Effect of a synthesized chitosan flame retardant on the flammability, thermal properties, and mechanical properties of vinyl ester/bamboo nonwoven fiber composites",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-021-04252-4",
+    "publication_type": "journal_article",
+    "review_scope": "Publisher landing and original first-page preview only; full 25-page preprint reviewed separately.",
+    "reason": "Final journal main unavailable beyond publisher abstract/first-page preview. Do not transfer preprint 10.21203/rs.3.rs-723535/v1 tables or additive-only method to this DOI; future whole-family alias/reuse review required if either version qualifies.",
+    "status": "held_metric_or_method_scope",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2022.109897",
+    "title": "Influence of hydroxyl-terminated phosphoramidates on the flame retardancy of microfiber synthetic leather",
+    "reason": "Publisher original abstract and selected section snippets confirm the textile study, but complete numerical TG/LOI tables and methods not retrieved in this pass. Author page is request-only. No numerical observations borrowed from the citing 2024 microfiber article.",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0141391022000830",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.colsurfa.2022.128482",
+    "title": "A novel strategy to fabricate nylon 6 based flame retardant microfiber nonwoven fabric with durability",
+    "reason": "Publisher abstract confirms photo-grafted carboxyl groups and chromium-coordinated polyurethane-impregnated nylon6 nonwoven, but complete original quantitative TG and LOI tables/methods not retrieved. No review-derived or cited-only numerical pairs.",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0927775722002369",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/fam.2280",
+    "title": "Layer-by-layer assembly of halogen-free polymeric materials on nylon/cotton blend for flame retardant applications",
+    "source_url": "https://www.researchgate.net/publication/267396309_Layer-by-layer_assembly_of_halogen-free_polymeric_materials_on_nyloncotton_blend_for_flame_retardant_applications",
+    "reason": "Original author-uploaded publisher text: own TG Table I and VFT Table II, methods sections2.4\u20132.6 and conclusions contain no own LOI assay or measured LOI. LOI mentions on the host page belong to cited-publication abstracts. Legacy26 TG records cannot be completed with a measured pair from this original. Dip-coated TG specimens and spray-coated VFT specimens are separately prepared.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.matdes.2009.04.012",
+    "title": "Research on thermal properties of Nomex/Viscose FR fibre blended fabric",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0261306909001617",
+    "reason": "Original publisher abstract confirms seven own woven Nomex/ViscoseFR blend groups and LOI/TG testing, but complete original tables and sample-specific numerical LOIs were not retrieved. Public author page is request-only. Seven legacy TG records do not authorize reconstructed or review-derived pairs.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.proeng.2017.12.124",
+    "title": "Flame Retardant Effects of Fabrics Finished by Hybrid Nano-Micro Silica-based Sols",
+    "original_url": "https://www.researchgate.net/publication/322998901_Flame_Retardant_Effects_of_Fabrics_Finished_by_Hybrid_Nano-Micro_Silica-based_Sols",
+    "publication_type": "conference_proceedings",
+    "review_scope": "Bounded original preparation, sample-label Table 2, exact TG Table 4 and thermal prose read during a reuse audit. Own Table 3 LOI values and complete characterization are not yet recovered; no complete-PDF claim.",
+    "reason": "Control I and silica-only AI overlap two exact TG fields with later conference A/B; keep future reuse review sample-scoped. Earlier exact paired LOI table/method completeness not established in this bounded pass. Do not infer points from abstract 23.0\u201324.5 range or import another same-team paper\u2019s methods.",
+    "status": "held_original_completeness_and_family_reuse",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1126/sciadv.ade6066",
+    "title": "Extremely low thermal conductivity and high electrical conductivity of sustainable carbon-ceramic electrospun nonwoven materials",
+    "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10065829/",
+    "publication_type": "journal_article",
+    "review_scope": "Bounded original LOI method and result text; no complete own TG or supplementary review claimed.",
+    "reason": "Source records LOI 100 even though the sample immediately extinguished at 100% oxygen after removing the methane flame. This is a test-limit observation, not an exact sustained-combustion LOI. Preserve the endpoint qualification; no numerical point admission. Pure-carbon control is not independently established as an exact TG\u2013LOI pair in this bounded review.",
+    "status": "held_censored_LOI_endpoint",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
