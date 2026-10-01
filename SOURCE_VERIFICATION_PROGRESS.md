@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **802 unique reviewed source/sample/washing states**, **973 TG condition records**, and **219 original sources (217 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **822 unique reviewed source/sample/washing states**, **1009 TG condition records**, and **221 original sources (219 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **802 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 601 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 621 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -865,3 +865,13 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [#65](https://github.com/PolyFT/textile-tga-database/pull/65) merged at `c3fc858d7fca3b6cb4151da6eb6f3e3f17402536` after exact-head validation run `36831709333` passed on `38503247df08b66eb613996366a8cdedaa91c98b`. All 473 tests passed. Merge-commit validation `36832018371`, master rebuild `36832018413` and processing `36832018369` reached terminal success. All 16 batch-owned public file blobs and the complete validation report match snapshot `455ee03d30cebfd52c26f45b222d892d1dc8dc9aa07f46ffa56baeada8102227`; all 953 previous condition records preserve every scientific field. Concurrent retry state is preserved byte-for-byte.
 
 Verified totals are **802 states / 973 conditions / 219 sources (217 DOI sources and two registered proceedings)**. The batch adds 14 new-source states and 20 conditions, with no completed legacy pairs or existing-pair upgrades. Explicit author preprints remain 7 sources / 19 states / 29 conditions. The owned writer lease was released at `1930ec786ebea03515f4f51802d161c3034df9ec`; the latest-publication metadata now identifies this verified batch. Source documents remain private and all numerical, preparation and reuse holds remain active.
+
+
+## b97 Local sol-gel textile formulations and atmosphere records
+
+Two complete local published journal originals add **20 new-source initial textile states and 36 TG conditions**, with **zero completed legacy TG-only pairs and zero existing-pair evidence upgrades**. All 37 native numerical conditions remain public; the one held SiCO condition stays outside the target. One primary reviewer; no independent-reviewer or statistical-independence claim.
+
+- **10.1002/app.32954:** TablesI/II and TableIII supply 16 PET, cotton and 15/35%-cotton blend formulations, each with nitrogen/air TG and exact same-state LOI. Two atmospheres yield32 conditions, not32 samples. Native T1*/T2*/T3* are differential-TG weight-loss maxima; empty component positions remain in raw fields. PET nativeT2* is the first actual peak; air cotton nativeT3* is its second actual peak. R700 is explicitly reported and may contain inorganic silica; no pure-carbon-char interpretation. TEOS/H2O1:1/2:1/3:1 are molar ratios, not fabric add-on. Source70C24h preparation, unknown TG mass/flow/reps and native instrument string remain literal; cone100x100x0.5mm/three repeats are not TG/LOI metadata.
+- **10.1016/j.carbpol.2011.10.032:** Table2 and Table3 add own CO/TiCO/ZrCO/AlCO states: LOI19/22/21/22 and R7500/9/7/9%. Native Tonset5%316/293/284/296C maps to T5, not generic onset. Source R360/R500/R750 are TG observations; the separately footnoted1100C1h muffle residues and vertical-burn residues do not become TG endpoints or additional sample pairs. SiCO numeric LOI22/T5315/R75010 remains held for the silica-specific80C15h/60C1h preparative rinse versus the later generic100C30min/120C15min procedure scope; no sequence is chosen or invented. FratelliBallesio200gsm asreceived cotton is not assigned to the separate Klopman TEOS2011 fabric cohort. Unknown LOI size/reps and approximate TG massca10mg remain explicit; cone/vertical replicates stay separate.
+
+The source identities, known aliases/queue and exact prior metric/gas/ramp comparison were checked; all973 prior conditions retain every field. Eight related local originals were initially screened, not claimed as completed source extractions. Public facts use DOI/page/table/figure provenance; local originals/caches/paths stay external and read-only. Proposed total **822 states /1009 conditions**, with **1178 remaining to2000**. Exact-head CI, ordinary merge, three successful merge-commit workflows and complete remote master/report readback precede owned-lease release.
