@@ -1,0 +1,113 @@
+{
+  "batch": "b100",
+  "baseline_counts": [
+    848,
+    1035,
+    226
+  ],
+  "summary": {
+    "added_verified_unique_states": 19,
+    "added_verified_condition_records": 19,
+    "new_source_measurement_states": 19,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 5,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b100_ramie_multilayer2016.csv",
+      "DOI": "10.13801/j.cnki.fhclxb.20151013.005",
+      "draft_sha256": "64105fafd04c49ce07fd309e484614c9b266bab3a835e8d90f0fa9e7005b937e",
+      "published_input_sha256": "d2f3f79b91850b1450eb9ab55fd67837c3feab20c1f9325493eff3fbbb8bfe9d",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "53bb26f18886d7acc7499d173a3b8781738166952a7c83623d2cba16c3564ac6",
+        "32cdc4812df036b216a4f19a5ea03dd9adf32a1bad82db1d130cf1f03b69e209",
+        "7dd81316ee93c783a1f637e0d71d940816888dcc414f0cfaf35622ff101ea593"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b100_aramid_siloxane2026.csv",
+      "DOI": "10.13801/j.cnki.fhclxb.20251013.004",
+      "draft_sha256": "da83b47f6efe91c246e1fe80e53e4f9e5694f3c067ee81961a90ced8184e9917",
+      "published_input_sha256": "c8eaeb5a5cac06d6976078c971bb1683a8de524cd01fed39361222198a17ce76",
+      "states": 5,
+      "conditions": 5,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "ff4530d4bf4369e0d398cb8039d0734c9303a4653bc9fe8b7264ed622d3c01af",
+        "6a9efc8a522e4a84593660e4164f1e684b023b39632043a5734b7ab720b1662c",
+        "2e47dfd300141a48bd7538b4af36171d6b86d3f515d65e96c8c9c555a5899362",
+        "fe41c8677e1eb4d79721a6de357f9fdfdff8d928120bcd1b83ddc9b583fec799",
+        "9cd9ef8aea363a4a937a9b6e7a62cb11e762be62fe2ff9991954412eed6d5fec"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b100_aramid_uv2011.csv",
+      "DOI": "10.5764/TCF.2011.23.3.155",
+      "draft_sha256": "b6f5b4d21a535502c7e69752314d9d6762a2742c6f318c9230d67155dca8023e",
+      "published_input_sha256": "0071ee87dd86f8b07648474ac904ec6c1a8bd29d3449e604616f28568105a121",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "d7043f18787a6d86ba98dd99ec3eaab13630b960b54638e9f8a0252b6aa67a1e",
+        "8e8aa6e4c1b6d3d9b5ff326f1b44c66b9be3041b882381fd9d135a9d7c012684",
+        "3b5e5934ace101f06ee3f2081dac018ebc3e1b33a1d832529f49b5f85eb50dd7",
+        "ed40f3de42fd185501bfef444fcfc551996f8283abf071e601d63fc1eb325173"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b100_jute_soy2013.csv",
+      "DOI": "10.1002/app.37713",
+      "draft_sha256": "f7f6c5189a60cd592d951ed1c26d5d1da41b4e4a2b9e45ad3c7f6700caddf1fb",
+      "published_input_sha256": "2de06b854ba16aa471f99efb797fd74ec24aa69f72327b19a7df74f7db9ff237",
+      "states": 6,
+      "conditions": 6,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "5927c6210c37c0aeda3a29f99ceb932d7bec9e7414446614a3e56de40fb1feb4",
+        "c7c8184e4674d9c14769c4d8abc0029aa96ffb7ebbc10633f402c4acd9c6892d",
+        "96363d34fc4f50777bd2fb549f5ca4e3845031f740413658a7f77f6b49f6ddb5",
+        "895f33340034670b032fbfca15bc74f8ff30a541ea8f9ec429508ad500595fc9",
+        "bd69de6778c6aa10f9aaa62a5447e2dd0fdc6b0d4621c29c1fcce2319c1d2aca",
+        "506c53511bb7271402e395e9b99afa11c9beb16d67a0f3156781baaee43c5a6d"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b100_recycled_aramid2013.csv",
+      "DOI": "10.5764/TCF.2013.25.4.292",
+      "draft_sha256": "9015a19a00c273c0668e856469373fc257a5f76b41598136ec218c26c492b1aa",
+      "published_input_sha256": "94c458630c24397c27471e4d1c60e204409994fe7220e8ec293bcf12ffcd10d8",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "67ba9e534c08faca73b9025866298d933f6e5b737ff797f7134a136a708fca3f"
+      ]
+    }
+  ],
+  "related_source_holds": [],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
