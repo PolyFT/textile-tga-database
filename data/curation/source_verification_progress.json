@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T08:33:37.120Z",
+  "as_of_utc": "2026-10-01T08:37:54.697Z",
   "latest_batch_id": "20261001_b98",
   "verified_condition_records": 1031,
   "verified_unique_sample_states": 844,
@@ -21,13 +21,12 @@
   "publication_stage": "b98_merged_verified_lease_released",
   "last_merged_batch": "20261001_b97",
   "writer_lease": {
-    "owner": "dot-source-review-b98-20261001",
-    "status": "released",
-    "batch_id": "20261001_b98",
-    "claimed_at_utc": "2026-10-01T08:18:05.083Z",
-    "scope": "22 independently original-reviewed new states/22 conditions from 6 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge and all postmerge verification checks.",
-    "released_at_utc": "2026-10-01T08:33:37.120Z"
+    "owner": "codex-local-polyester-native-20261001",
+    "status": "active",
+    "batch_id": "20261001_b99",
+    "claimed_at_utc": "2026-10-01T08:37:54.697Z",
+    "scope": "Four original-reviewed PET sol/pomegranate initial states/four TG conditions; three complete originals reviewed, eighteen native fact rows remain held for source conflicts, unpaired LOI, unresolved supplement/comparator scope. Preserve foreign b98 rows and publication proof.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and full remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
