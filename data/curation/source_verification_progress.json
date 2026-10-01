@@ -21,13 +21,12 @@
   "publication_stage": "b81_merged_verified_lease_released",
   "last_merged_batch": "20261001_b81",
   "writer_lease": {
-    "owner": "codex-local-cspa-acpmpa-spma-20261001",
-    "status": "released",
-    "batch_id": "20261001_b81",
-    "claimed_at_utc": "2026-10-01T02:49:10.813Z",
-    "scope": "Six new original-reviewed initial CS/PA polyester/cotton, ACPMPA cotton and SPMA5 cotton sample states at eight TG conditions. Thirteen native TG rows preserved; three air conditions missing explicit ramp and two source-conflicted SPMA compound rows excluded. Original/SI evidence and source versions explicit; no fulltext/privatepaths uploaded.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary approved merge and three terminal merge-SHA postmerge checks plus independent remote verification.",
-    "released_at_utc": "2026-10-01T02:58:05.690Z"
+    "owner": "dot-source-review-b82-20261001",
+    "status": "active",
+    "batch_id": "20261001_b82",
+    "claimed_at_utc": "2026-10-01T02:58:53.211Z",
+    "scope": "17 independently reviewed PI fiber, epoxy-phosphonate fabric and CS/TA/guanidine-phosphate PA66 states at21 TG conditions. Only measured LOI; exact draw/add-on crosswalks, generic residue temperature limits and scoped related-source reuse holds preserved.",
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
