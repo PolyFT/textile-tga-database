@@ -1,0 +1,118 @@
+{
+  "batch": "b87",
+  "review_completed_utc": "2026-10-01T04:57:08.179128+00:00",
+  "baseline_counts": [
+    702,
+    851,
+    183
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 9,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "total_fact_rows": 16,
+    "total_native_numerical_TG_rows": 13,
+    "held_native_TG_conditions": 4,
+    "held_stage_or_approximate_TG_fact_rows": 3,
+    "held_PPDMS_formulation_conditions": 2,
+    "held_SPPTMS_initial_LOI_conditions": 2,
+    "additional_local_journal_review_excluded_for_related_preprint_reuse": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b87_local_cotton.csv",
+      "published_input_sha256": "68d2890fa84d6c80005d6764e93c703f51e175d43c4788adbc543b31bdd0b6bf",
+      "unique_sample_states": 5,
+      "verified_conditions": 9,
+      "held_fact_rows": 7,
+      "accepted_measurement_fingerprints": [
+        "b3fa6cc43fffe8f28abfa3d7ae8f62708bf56fc8d23b0beb190fc7a58fa266a7",
+        "729fc9af52b1219eb52b5d8e66a17efbcd44eddae3e22626cc1a6bcadf48add1",
+        "211ff4b04eadaa248daa7cc9f8827cbebc1bd928c1ec7a4508728020c43e6ba1",
+        "5f089605586b56ca87de4f4ebf80dfdeb29f0edfdbefeca1f11e83c3e1af8b3e",
+        "7fe9efbe78c86447d3857be56fb6582fb6cbf254d8f459bba590fed05c1308ae",
+        "8460a98caa0fb64bd6f936b4dade03478902504ee5ef3888c1c1e9a46ffe9b36",
+        "e1573134c914335aa762a1d620451d9c03b2ecfa840252dafc20b9cb30665c3c",
+        "b6fda4f4d84855459850fd3484875759ba9946a1b1ed73821208499415551241",
+        "6cf55f161f346c154b8ccc80373562266fd1fe7c5e0d49d50d63907443ff458f"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-021-03728-7",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "held_fact_rows": 0,
+      "accepted_sample_labels": [
+        "ADBSPA-cotton-4",
+        "Original cotton"
+      ],
+      "original_locators": [
+        "Publishedp3251 materials;p3252-3253 preparation/Schemes1-2/methods;p3257 Table1/Figure5;p3260 Table2/Figure8;p3262 washing prose"
+      ],
+      "review_scope": "Complete16page original text, tables, captions and references; native p3252-3253 preparation/Schemes1-2/methods, p3257 Table1/Figure5 and p3260 Table2/Figure8 reviewed. Original lists no supplementary materials; cached local file inventory contains only this primary PDF for the DOI. External supplement inventory not checked.",
+      "disposition": "Only original cotton and ADBSPA-cotton-4 have numerical TG. Other50/150/250gL baths and washed5/10/15/20cycle states are LOI-only. Native T10 is10wt% mass loss, not T5 or Tonset; residue at each Tmax is not fixed-temperature residue. IPDT is an integrated descriptor, not a peak or onset. Preparative rinse is separate from later detergent washes. One coating-code sentence says ASNDP amid otherwise ADBSPA preparation/labels; retained as an internal acronym inconsistency, not mapped to a different DOI. Synthesis formaldehyde3.003g/0.04mol and40% reagent description are retained without reconciling amount basis. Dicyandiamide5% basis unknown;35C stirring does not establish dip temperature. TG mass/flow/repeats and LOI repeats/plusminus statistic unknown; no guessed values. CONE25.1+-0.5% at250s is not TG43.5% at700C."
+    },
+    {
+      "DOI": "10.1007/s10570-021-03981-w",
+      "accepted_states": 1,
+      "accepted_condition_records": 2,
+      "held_fact_rows": 2,
+      "accepted_sample_labels": [
+        "Treated cotton,DOPO-AP300g/L"
+      ],
+      "original_locators": [
+        "OriginalPDFp3-4 preparation/methods;p5 own LOI prose;p6 Table1;p9 Figure7/Table2/TG prose;p10 TG residual prose;p11 Table3 CONE"
+      ],
+      "review_scope": "Complete14page first-online original text, tables, captions and references; native PDFp3-4 preparation/Schemes2-3/methods and PDFp9-10 Figure7/Table2/TG prose checked;PDFp5 own LOI prose reviewed. Original lists no supplementary materials; cached local file inventory contains only this primary PDF for the DOI. External supplement inventory not checked.",
+      "disposition": "Regular TG method40-700C conflicts with Table2 stage start35C; clean start temperature withheld, both native descriptions retained. Figure7 caption expressly links treated TG to300g/L;own LOI prose40.2 and WG21.46. Printed N2/air residuals39.81/16.19% at700C are TG;CONE15.99/1.23% are separate. Table2 reports stage intervals and mass loss, not T5/T10/Tonset/Tmax;stage1 includes dehydration/adsorbed water. No control residue is obtained by subtracting stage losses or estimating curves. TG-IR powder3-5mg does not establish regular TG specimen mass/form. Cotton weave/GSM/pretreatment,regular TG mass/flow/repeats,LOI specimen size/repeats,10wt% catalyst basis and final dry conditions unknown. 100/200gL and all washed states have no own matched numerical TG;50LCLOI26.4 is not initial40.2. No AATCC wash duration is inferred."
+    },
+    {
+      "DOI": "10.1007/s10570-021-04019-x",
+      "accepted_states": 1,
+      "accepted_condition_records": 1,
+      "held_fact_rows": 3,
+      "accepted_sample_labels": [
+        "Untreated cotton"
+      ],
+      "original_locators": [
+        "Publishedp8117-8118 preparation/Scheme1/methods;p8119 thermal350gLscope;p8121 Table1;p8122-8123 TGprose/Figure7;p8126 Table3/washingprose"
+      ],
+      "review_scope": "Complete14page original text,tables,captions,references;nativep8117-8118 preparation/Scheme1/methods,p8121 Table1,p8122-8123 TGprose/Figure7 andp8126 Table3/washingprose checked. Original lists no supplementary materials; cached local file inventory contains only this primary PDF for the DOI. External supplement inventory not checked.",
+      "disposition": "350gL TG state expressly identified in p8119 discussion/Figure7 caption, but initialLOI31.2 in abstract/Table1/Table3 conflicts with31.5 in p8126 washingprose;two treatedconditions held. OwncontrolLOI18 exact;air338/487C pyrolysis peaks explicit. ControlN2 has only approximate12.7%750C residue and unlabelled DTG curve,no numerical peak;one N2 fact row held. All750C residues explicitly qualified about in prose;store rawapproximatevalues outside cleanfixed-temperature fields. No curve estimation. Moisture35-200C losses are not decompositionpeaks. N2 treated native second/third overallstage peaks247/299 include precedingwaterstage;keep native stage numbers. Airprose first/secondpyrolysis245/289 excludeswater;keep separate numbering. RegularTG35-750C,5-10mg,N2/air,50mLmin differs fromTGIR25-800C. CONEchar26.1%notTGabout40.9/15.1. LOI specimen size/replicates,control weave/GSM/pretreatment,dipT andwashed protocol unknown. CONEtriplicates/tensilefive repeats not assignedTG/LOI. APTMS5.31g/0.006mol native synthesis ambiguity preserved; no repair."
+    },
+    {
+      "DOI": "10.1007/s10570-021-04054-8",
+      "accepted_states": 1,
+      "accepted_condition_records": 2,
+      "held_fact_rows": 2,
+      "accepted_sample_labels": [
+        "Untreated cotton"
+      ],
+      "original_locators": [
+        "OriginalPDFp2 materials;p3 preparation/Scheme1;p4 methods;p7 Table1/Figure4;p8 Table2;p11-13 washing prose"
+      ],
+      "review_scope": "Complete15page first-online original text,tables,captions,references;nativePDFp3-4 preparation/Scheme1/methods,p7 Table1/Figure4 andp8 Table2 checked. Original lists no supplementary materials; cached local file inventory contains only this primary PDF for the DOI. External supplement inventory not checked.",
+      "disposition": "TG Table2/Figure4 labels treated cotton without specifying which300/350/400gL bath or20.4/26.2/30.4WG state;two treated conditions held. Do not assume TG is the maximum400gL/LOI29.0 state from separate washing discussion. Own untreated Table1 LOI18.0 pairs with ownTable2 control TG. Tonset is the source-native onset label,definition unspecified;no assignment to T5/T10. N2 sourceTmax1/2 numbering retained;water evaporation below120C not labelled decomposition peak. RegularTG8515mg40-800C10CminN2/air differs fromTGFTIRSTA6000,10mg,50mLmin. Do not copy its flow or mass. IPDT is integrated descriptor not onset/peak,cone20.1%notTG39.0%. PBTCA crosslinker dose,cotton weave/GSM/pretreatment,dipT,50% solvent fraction basis,TGflow/repeats andLOI repeats unknown. All three exact initial bathLOIs and washed5/20cycleLOIs have no unambiguous same-formulation numerical TG crosswalk;heldtreated LOI stays blank."
+    }
+  ],
+  "verification_limit": "Four complete published local original journal articles reviewed, including native preparation, methods, numerical tables, captions and printed figure values. Originals list no supplementary materials and cached local inventory has only the primary PDFs; external supplement inventories not checked. One primary reviewer, no independent-reviewer claim. Only exact source-native numbers admitted. Approximate residues, stage intervals and unresolved LOI/formulation conflicts remain outside target. APGDPE final journal review is excluded from import because b86 admits its author preprint and holds related-version reuse; no duplicate journal state or unreviewed version-equivalence change. Public numerical facts and DOI/page/table/figure locators only; fulltexts, figures and private paths stay external.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 851,
+    "new_states": 5,
+    "new_conditions": 9,
+    "evidence_upgrades": 0,
+    "verified_states": 707,
+    "verified_conditions": 860,
+    "verified_dois": 187,
+    "verified_sources": 189,
+    "offline_tests_passed": 410,
+    "snapshot_sha256": "51daf9c49689d502a6fb67a73ccaf90c3c6d16f40ee1726f302ce9d6a0c52116",
+    "master_sha256": "cd516a82125114338ff5281d167255ce5619847df042591fa356445d520e0ac7",
+    "validation_errors": []
+  }
+}
