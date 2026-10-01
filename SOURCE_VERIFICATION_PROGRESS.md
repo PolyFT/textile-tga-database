@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **867 unique reviewed source/sample/washing states**, **1054 TG condition records**, and **233 original sources (231 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **871 unique reviewed source/sample/washing states**, **1058 TG condition records**, and **235 original sources (233 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **867 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 666 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 670 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -930,3 +930,15 @@ All source drafts passed independent original-evidence review. Generic residues 
 - Verified total: 867 states, 1,054 conditions and 233 sources, comprising 231 DOI sources and two registered proceedings. The author-preprint cohort remains separately labelled: eight sources, 23 states and 33 conditions
 
 All 19 B100 additions are new paired source states; no evidence upgrade or additional atmosphere is counted as a new state. Source-specific exclusions and raw method values remain explicit.
+
+
+## b101 Local cotton siloxane and native metric holds
+
+Four complete original journal papers (45 native pages) add **four new initial cotton fabric states / four TG conditions**, with **zero legacy completions and zero existing-pair evidence upgrades**. All 37 concise fact rows are retained; 33 held rows are excluded from the target. Review by one primary reviewer does not establish independent experimental replicates.
+
+- **10.1007/s12221-018-7874-z:** Control and PNPDMS350g/L cotton pair Table1 LOI18.00/29.82 with Table2 same-state TG. All subsequent treated fabric is explicitly350g/L on p862; lower concentrations have no own TG. The control381.16C peak stays in the printed stage2 column with stage1 blank. Initial temperatures335.00/203.44 are generic onset, not T5/T10. Treated DTG maxima204.95/333.78 are uncontested. Its residue conflict14.76Table2 versus14.67prose is retained raw; canonical residue/R800/temperature remain blank, with no selection or average. ControlR8006.59 is consistent. N2/20mLmin/10Cmin/roomtemperature-800C and GB/T5454-2009 remain distinct from synthesis and water-repellency methods.
+- **10.1007/s12221-019-9008-7:** Table1/2 control and GNCTSi250g/L cotton supply two initial pairs (LOI18/30.1). Selection250g/L for all other experiments is explicit p1343. Table2 first and second onsets are kept separate; the latter remains raw and is not T5/T10. R8001/29 is explicit; equal prose residues at500/738C are separate assessment points. TGair/20mLmin/10Cmin/25-800C is not the nitrogen synthesis gas. Bath urea5% and PBTCA10% are distinct from measured add-on18.5wt%owf. Grammage from another paper is not assigned. Four other concentrations and five durability-washed LOI rows have no own TG and remain held.
+- **10.1002/app.47280:** Eight-page original reviewed for the related PNCTSi/NCTSi chemistry and comparator audit; four N2/air numerical conditions, one200g/L LOI-only state, and four washed LOI rows remain held. Supporting information is mentioned and FigS1 is cited for13C-NMR, but its complete scope remains unretrieved after official-page403. Its cited PNPDMS350g/L comparison is not an extra observation. BTCA/water-acetone recipe is not the GNCTSi PBTCA/water-isopropanol recipe. Preparative NaOH wash is distinct from durability laundering.
+- **10.1007/s10570-019-02327-x:** Complete23-page original retains twelve held observations. Control LOI18.5prose/18printedFig5 conflicts. Printed N2 remaining-mass labels at216/283/331/383C do not become T5, onset, DTG maxima or final char yields. Air decomposition-stage peaks remain raw while their DTG definition is unresolved;150C water loss stays separate. Dynamic air/N2 and350C isothermal programs are distinct; air methods are not assigned to N2. Colour-table preparation scope differs from fire-finishing methods. Lower concentrations and three washed LOI states have no own TG. Dried extract, DSC and cone results are not textile TG pairs.
+
+All1054 prior condition rows preserve every field; known queues/aliases and prior numeric conditions were checked for accepted-row reuse. Public provenance uses DOI/page/table/figure only, with originals and private caches kept outside the repository. Proposed totals **871 states /1058 conditions**, **1129 remaining to2000**. Release the owned lease only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and full independent remote master/report proof.

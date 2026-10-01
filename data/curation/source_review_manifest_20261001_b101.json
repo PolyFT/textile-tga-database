@@ -1,0 +1,85 @@
+{
+  "batch": "b101",
+  "review_completed_utc": "2026-10-01T09:26:10.512361+00:00",
+  "baseline_counts": [
+    867,
+    1054,
+    231
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_official_SIs_reviewed": 0,
+    "complete_native_pages": 45,
+    "total_fact_rows": 37,
+    "held_fact_rows": 33
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b101_local_cotton_siloxane.csv",
+      "published_input_sha256": "7be18fef638ba9396f2c8aa235dc69d3c59b2380e0cf02f78a14352dbb166d64",
+      "unique_sample_states": 4,
+      "verified_conditions": 4,
+      "held_fact_rows": 33,
+      "accepted_measurement_fingerprints": [
+        "084212464762813ed8422bf70f513971829773444712aa40389670c8690adbda",
+        "882672c8379c30648e3db10964a09295e4e31575aed69fd287f46faf5c6e48f6",
+        "bc1721bb51601ccc83a3de437a277f3dffc0856f04c7471bf5c6db44e3528f73",
+        "791f39404ff5102515fd36d610c786f746817edd7ba28559baa13ebd6ee507a4"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-018-7874-z",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 3,
+      "disposition": "Complete7pagepublishedprimary/nativepages1-7reviewed. P862statesalllater treatedfabrics350g/L;Table2TGnotcopiedto200/250/300g/L. Table2controlmaximum381.16Cunderstage2withstage1blank,p863proseonlyonepeak;preservestage2,notshift. TreatedR800Table214.76versusprose14.67conflict;bothraw,canonicalresidue/R800blank;uncontestedonset203.44/max204.95/333.78admitted. InitialdecompositiontemperaturegenericnotT5/T10. SourceRTstartnotassumed25C. Ca80%wetpickupnotmeasuredaddon. NoLOI/TGmass/specimen/replicate/conditioninginvented. SourceATCCMethod22waterrepellencyisnotTG/LOI;dryingvacuum24hnotlaundering. EDSmass%notbulkcomposition/addon. Scheme1n8rawpolymerstructure. Fullsyntheticdetailreferences29and28notreconstructed. NoSIlisted,cachedonePDF,externalSIinventoryunchecked. App47280p5explicitlycitesownPNPDMS350g/Lcomparison;notextraindependentobservation. Oneprimaryreviewer;noindependentreviewer/replicateindependenceclaim."
+    },
+    {
+      "DOI": "10.1007/s12221-019-9008-7",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 9,
+      "disposition": "Complete7pagepublishedprimary/nativepages1-7reviewed. P1343Table1andproseexplicit250g/Lselectedforallotherexperiments;Table2treatedrowbelongs250notall100/150/200/300g/L. Table2Tonsetstages1/2separate,TonsetcanonicalfirstandsecondrawnotT5/T10. StageTmax1/2asprinted281/535or340/440. Table2R80029/1explicit;prose29at738C/control1at500Cretainedseparateassessmentpoint,notchangeR800temperature. TGair20mLmin10Cmin25-800CnotN2protectivesynthesisgas. GNCTSiagentnotphosphoruspolymer;PBTCA10%crosslinker/urea5%finishingbathseparatefrom18.5wt%measuredtotaladdon. Percentagebasisofbath5/10andwater/IPA1:1ratiounspecified,notinventmassorvolume. Grammage122fromPNPDMS/PNCTSiotherpaperNOTassignedhere. Preparativerinseunfixedagentnotdurabilitywash. Table4fivewashedstates29.8/29.1/28.3/26.8/26.3noownwashedTG,noinitialTGtransfer. WashGB/T8629-2001neutraldetergent2g/L5mineach,no temperature/liquorratioinvented. LOImass/specimens/reps/conditioningunreported. NoSIlisted,cachedonePDF,externalSIunchecked. Sourceapp47280NCTSiprecursorreadforrelatedcontrolcheck;differentair/nitrogenTGnumbersanddifferentGNCTSi/PNCTSifinish,notrepeatcomparisonrow. Oneprimaryreviewer,noexperimentalreplicateindependenceclaim."
+    },
+    {
+      "DOI": "10.1002/app.47280",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 9,
+      "disposition": "Complete8pagepublishedprimary/nativepages1-8reviewed;SImentionedp1andFigureS1C13NMRp4. LocalinventoryonePDFnoSI;officialWileypageHTTP403;SIscopeunretrieved,allrowsheld. P5explicitalllatertreatedfabric250g/Lnot200;PNPDMS350g/L29.8comparisoncites7874-zreference33notownPNCTSinornewobservation. TableIIairandTableIIIN2twoconditionsnottwoindependentsamples. Tonsetstage2rawnotT5/T10;controlN2Tmax361understage1(notstage2ofPNPDMSTable2). NativeTableII/IIIR8009.2/16.3andcontrol1/3.6;prosecontrol1at490retainedseparate. BathnativeBTCA10%notreplacewithGNCTSipaperPBTCA. Water:acetone1:1basisunreported,notwater/IPA. FirstNaOH1wt%washthen100C5mindryprepnotdurabilitywashing. Source47280footer2018/registry2018/PDFstored2019;year2018rawfooter,do notinventindependentedition. FourwashedLOIs29.3/27.9/26.8/26.2have noownTG. No SI completion or independent-reviewer claim."
+    },
+    {
+      "DOI": "10.1007/s10570-019-02327-x",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 12,
+      "disposition": "Complete23pagepublishedprimary/nativepages1-23reviewed. ControlLOI18.5prosep10vsFig5printed18unresolved,nochoice;100/200/400g/LtreatedLOI24/28/32agreesproseandFig5. Fig4N2exactprintedTGtemperature/remainingmasspairsnotthreshold/onset/DTGmax/finalresidue;noestimation/derivedT5 orTmax. Airprose375Cmass22/50notfinalchar;450Cmassloss80/60notinferredresidue20/40. Sourceairsecondmasslosspeakabout325/aromatisationpeak450rawonlyuntilDTGdefinitionclear;150C5%waterlossnotdecompositionpeak. Isothermal350C20minrampfrom50C20Cminseparate;3minmass40/50notfinalresidue. N2gasflow/rampnotassignedfromairmethods. DriedPREpowdernontextile/DSC160/195notfabricTG. Preparationp4MLR1:20versusTable5colourPREMLR1:30/pH7scopeunresolved;nativeextractpH4.5notassumedfinishingpH. 100/200g/LandthreewashedLOIstatesnoownTG;one/twocoldwash40C1:5030min30/29andhot>60C25notmatchedtoinitialTG. DyeingAcidRed76/basicMethyleneBlueotherstatesnotinitialTGLOI. LOIIS13501/30signition;VFT250x40mmnotLOIsize;conetriplicates35kWm2notTG/LOIreplicates. NoSIlisted,cachedonePDF;externalSIunchecked. Oneprimaryreviewer;allrowsheldforconflict/metricscope/protocolorunpairedstate."
+    }
+  ],
+  "verification_limit": "Four complete published originals/native45pages and all text reviewed by oneprimaryreviewer;no independentreviewer/experimentalreplicateindependenceclaim. PNPDMS350/GNCTSi250scopeexplicit,notallconcentrations. PNPDMS14.76/14.67residueconflictexcludedmetriconly,uncontestedonset/DTGmaxadmitted. PREcontrol18.5/18LOIconflict/TGmetricscopeholds;PNCTSimentionedSIunretrievedHTTP403holds. Onlyconcisenumericalfacts/DOI/page/table/figureprovenancepublic;originals/fulltexts/images/privatepathsexternal;metadatareadonly.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1054,
+    "new_states": 4,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 871,
+    "verified_conditions": 1058,
+    "verified_dois": 233,
+    "verified_sources": 235,
+    "offline_tests_passed": 513,
+    "snapshot_sha256": "eb902585d536943a7770fadd568f3fd8040cb88787ce5d24f2fe51e7d5838fbb",
+    "master_sha256": "41dc3ad2e2f6dbbb76abadefc9b50730017990fdd9a83bf2552cdf6ebe5d993f",
+    "validation_errors": [],
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0,
+    "unchanged_inventory_records": 4
+  }
+}
