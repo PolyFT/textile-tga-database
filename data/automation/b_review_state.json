@@ -19,28 +19,28 @@
       "status": "awaiting_evidence_review"
     },
     "10.1039/d1ra07410e": {
-      "attempts": 6,
-      "input_fingerprint": "222bdea4e60a47a0f87ae591570c3e27bfd06550b5567b81053db2f775be61d9",
-      "last_attempt_utc": "2026-09-30T23:58:11.849164+00:00",
-      "next_retry_utc": "2026-10-01T23:58:11.849164+00:00",
+      "attempts": 7,
+      "input_fingerprint": "99db8386c9d50da9f10f3ea58533aa6ab77f41ab50b3d24b7d358591f0277712",
+      "last_attempt_utc": "2026-10-01T00:08:39.927395+00:00",
+      "next_retry_utc": "2026-10-02T00:08:39.927395+00:00",
       "parser_version": "2",
       "reason_codes": [
         "atmosphere_unresolved",
         "evidence_review_required"
       ],
       "row_results": {
-        "25b46fd710e9b8046ddd96760ac122eafcfc7ef417bd49413dc2bcf73133d8e2": "atmosphere_unresolved",
-        "3bea523d418a78021ab8fa42b3995951001bf3eba7ebd1387a77332fe05ae629": "atmosphere_unresolved",
-        "42700b76c0e8744c74536326f832232c1f14457509895aabd9bdbde1d079ac65": "evidence_review_required",
-        "442057bbabefbb9d106fe7270397b800ba2a60fbc519ea3686f54fea2c9becc3": "evidence_review_required",
-        "4d1a4bfe99cb21089c8d2af835535bccb9dd648aadb320622d961c59c32a334f": "evidence_review_required",
-        "4fb7b3643cb0cc7a622241c071d173615aa8701fa0e17d9183e756baebc572af": "evidence_review_required",
-        "87f099179e647c0d629e4d3c9e5b64e181bbd5477c460f4d5aa37e19f5f7531d": "evidence_review_required",
-        "8880d94c507e8cec8fb445c20933ef09b581e18867a8e9c9c00763626ce098ff": "atmosphere_unresolved",
-        "990b38d33d40a6045829fd475ed881f4b7a6b6d0e929f7eee713e3d2710966ac": "evidence_review_required",
-        "d4a7dd066e2dfd45f470d79db2bd6432ff7a51078e5ce07ca2b123f67b7a95a9": "atmosphere_unresolved",
-        "e86a03ef6a228d06ea1ca1048a9b78101dd8c58f6a2cb6ce2d40a50f15d173b4": "atmosphere_unresolved",
-        "f20208f40bda67d0bf631ff4e6213c1ad0cbf9b55c130fc67a66d8dfafdb15cd": "evidence_review_required"
+        "27dbeeadeea8cc11b8d0eb4163b93b2b53e84c966a7a3f27bd67624fa89bca44": "evidence_review_required",
+        "284a56c92ee7dde6e05a8529d2f6831075b8c2ce668d46aac8ced971f7010aac": "atmosphere_unresolved",
+        "3688666d5c51df6d14ad8c721d1076d27fd206aefd7cd4f4296626c769a26361": "evidence_review_required",
+        "4299369df4dddb24b86a5269db650e2a96530bed85fa0222f50f4a9045a86791": "evidence_review_required",
+        "498d79ef27cc04afa1ca368c4984971084f57dd5bafa353afa4605583021385e": "atmosphere_unresolved",
+        "6d1a9a8c3a31275f1742fc59b03a71dfc4cd5c808de1176927024d088482d599": "atmosphere_unresolved",
+        "6eb9dc4d82b6151697aa03e9c7d4bfb3a2021d62efa79c6450e586e4ad991505": "evidence_review_required",
+        "b607d709a161ac2971b470d379d28c057d5963c28a13cdb8738e6d2c9ca1d378": "atmosphere_unresolved",
+        "d057374d9f0a6df56debf989f879fe1843702eae608bed544ac7c33636ed212c": "atmosphere_unresolved",
+        "e83ff39f1637a47c367afde4e132f66e67536f231e9f30ede4bdc2269962b1b0": "evidence_review_required",
+        "ef32f36f21b32a059aaa98b182ac0c6c41dd4cc1f2715ce43d35681f85c6d787": "evidence_review_required",
+        "f462b6c0d67bce02422f202c861dfe2a95ac1bcfda18a787ae3672860eefda25": "evidence_review_required"
       },
       "status": "retry_pending"
     },
