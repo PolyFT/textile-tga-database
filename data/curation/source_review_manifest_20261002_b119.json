@@ -1,0 +1,94 @@
+{
+  "batch": "b119",
+  "review_completed_utc": "2026-10-01T22:27:43.151784+00:00",
+  "baseline_counts": [
+    982,
+    1217,
+    272
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_native_primary_PDF_pages": 32,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 46,
+    "held_fact_rows": 38
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b119_local_textile.csv",
+      "published_input_sha256": "57f23d274c8b2e37d0a6f1e46d9d088ba993b602dfc9c6118e5c09effab9e155",
+      "unique_sample_states": 4,
+      "verified_conditions": 8,
+      "held_fact_rows": 38,
+      "accepted_measurement_fingerprints": [
+        "78e9ca494e94062da59eb0837bf83a83319bbeebeda8c0825f48ea3e970fc74e",
+        "2736b9cfc6508feca29430cec31e19da95c672bafcc13fb32644cc57ef8a3f84",
+        "360ebac71bd235e96e8348ab8886947f4d9fcc453d86a5c79d195bbc2bbd4604",
+        "1aa25c7fd2248ccff1042925f8ad3de06811581fde3b7625c7dc00199dc83cb0",
+        "b68fced12792042444432a2a3233f86e1abd1bef140f33f685f99caddfa5a683",
+        "f972ff8689efbe62810af742997da1cad58279257c949d567161e8c2a056b5a8",
+        "059b85eb894d192ca87ad0c515d0b73fbb94e2a96cb20657b1895dfec2d45971",
+        "92a9eb83f833a23ffad7d84b56d42faa5081453ebb028ff362578f3a4639e8f0"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-017-7628-3",
+      "title": "Synergistic UV-curable flame-retardant finish of cotton using comonomers of vinylphosphonic acid and acrylamide",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 26,
+      "pages": 6,
+      "disposition": "All6native/textpagesreviewed. Table2PDFp5(printed2332) reports sixinitialfabricstates[Tmax,R600,LOI]:Control350/7.3/20,VPA20 283/10.3/24,VPA20AAm10 280/22.6/26,VPA20AAm20 279/35.5/32,VPA20AAm30 257/36.5/40,VPA20AAm40 256/36.9/43. MethodPDFp2 Q50020C/minroomtemp-600C omits atmosphere/mass/flow/repeats;noN2orairinferredfromcharpyrolysis. Nr isdimensionlessresiduenumbernotTGresidue;Fweightfractionnotresidue. Table3PDFp6 washLOI14statesnoownwashedTG. Prosep5misrefersTable4butnativewashingtableisTable3. CrosslinkerinitialTable3LOI43conflictswithprosep5MBA34/TAHT36;doNOTresolvebyguess. Fig2othermonomerratiosareunlabelledLOIcurves,nodigitization. All26factsheldincluding6missinggasTGstates;0verifiedpairs. NoSIcitedall6pages. VPA20AAm50hasownaddonnofinalLOI/TGpairandismentionedincoverageonly. Table1P/Nbulkpercentnotbathcomposition.",
+      "SI_status": "NoSIcitedall6pages"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2020.105640",
+      "title": "Hybrid coatings for durable flame retardant and hydrophilic treatment of Polyamide 6.6 fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 12,
+      "pages": 14,
+      "disposition": "All14native/textprimarypagesreviewed. SixinitialfabricTable4LOI18.5/19.5/20.5/23/21.5/25 and Table5air/N2TG areexplicit. MethodQ5000IR20C/min3-5mgopenaluminapan;regularTGflow/start/end/repeatsunknown;55mL/minonlyTGFTIR nottransferred. Table5R700notmuffle600C10minchar;T5masslossnotgenericTonset;multipleDTGpeaksretainnativeorder. Table1GO/CSnamesversusCS/GOlaterareonecoatedstateeach;method2wtCS/1wtGOhasexplicitmaterialorder. PGandWGformulasprintedwithreversedweightsnotrecomputed;nativeTable1valuesretained. Table5exactair5BLR7004.73/5BLCSGOR7003.67notroundedprose4.7/3.7. WashedTable6isverticalburningonlynoLOI/TG;notpaired. SupplementcitedAppendixAp13butnotpresentexactcachedElsevierDOIinventorynoractualyearfolder;primaryDOIredirect500/ScienceDirect403;threeconventionalpublicmmc1doc/docx/pdfendpoint404notdocumentedlinks. EntireSIcoverageunverified;all12ownprimaryTGconditionsheldpendingSIreview,zeroapprovedpairs. NoSIcontentsassumed.",
+      "SI_status": "OfficialSIcited;unread;all12primaryfactsheldpendingcompleteSIreview"
+    },
+    {
+      "DOI": "10.1007/s10570-016-0928-8",
+      "title": "Boron-containing intumescent multilayer nanocoating for extinguishing flame on cotton fabric",
+      "accepted_states": 4,
+      "accepted_conditions": 8,
+      "held_rows": 0,
+      "pages": 12,
+      "disposition": "All12native/textpagesreviewed. FourinitialTable1TG/Table3LOIownfabricstatesControl/5BL/10BL/20BL:LOI18.5/24.5/29/41. Pyris1TG50-600C10C/minN2/air;TGflow/mass/repeats/LOIdimsunknown;MCC60C/min80mL/minnotTG. Table1N2Tonset359/329/317/309,mainTmax377/355/351/344,R6006.6/29.9/33.4/38.6. AirTable1Tonset360/334/314/311,Tmax1 384/360/356/332,Tmax2 556/555/537/blank,R6001.1/10.4/16.6/23.5. AircontrolTonset360Table1conflictswith358prosep5;canonicalaircontrolTonsetblank,butownpeaks/R600valid. GenericTonsetnotdefined5percent;notconvertedT5/T10. N2residuesatvariableTmax52.5/60.3/62.2/70.1remainrawdistinctfromR600. Table3VFT/HFTchar54.8-98.7notTG;noafterwash/agedownLOI/TG. NoSIcitedall12pages. NativeFig7captionVFTbutprosediscussesHFTnotusedTG. SurfaceSEMfibersdonotchangeownTGfabricmaterialform. Fourstates8conditionsnot8independentpairs;noestimatedcurves.",
+      "SI_status": "NoSIcitedall12pages"
+    }
+  ],
+  "verification_limit": "Three complete native primary originals32pages,zeroSIcompleted. PA66cites unreadSI and all12sourcefactsremainheldpendingSI;noSIcompletionclaim. Oneprimaryreviewer. PHMGP/SPBcotton4statesN2/air8conditions10C/min;R600notVFT/HFTchar. Aircontrolonset360Table1versus358proseheldblank;otherownpeaks/R600exact. UV26factsheldmissinggas/ownwashedTG/LOIconflicts;noestimatedcurves/fulltext/image/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1217,
+    "new_states": 4,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 986,
+    "verified_conditions": 1225,
+    "verified_dois": 273,
+    "verified_sources": 275,
+    "offline_tests_passed": 701,
+    "snapshot_sha256": "4318270e5746578cf91610fcc14d71a3ae064cf7c669af4668fc5c17badf0d8a",
+    "master_sha256": "0507fcfe67f301d72a63c052acacd3429104deee063fd79fcc0541722309b13b",
+    "validation_errors": [],
+    "held_fact_rows": 38,
+    "complete_original_native_pages": 32,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 32,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
