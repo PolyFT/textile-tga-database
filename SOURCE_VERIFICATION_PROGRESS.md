@@ -801,3 +801,10 @@ PR [#60](https://github.com/PolyFT/textile-tga-database/pull/60) merged at `b31e
 This batch adds 16 newly verified paired states at 21 TG conditions from 3 DOI sources: 16 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 765 states, 930 conditions and 208 sources (206 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### B92 publication checkpoint
+
+PR [#61](https://github.com/PolyFT/textile-tga-database/pull/61) merged at `c5efded7b6e481b42284c6a880dce3d29f83ba7e` after exact-head validation run `36824995652` passed. All 445 tests passed. All 14 changed public file blobs and the complete validation report matched snapshot `0205a0d195986a08a212253cc60932a410bfbe359d18d43d2cc70c6a32e7eeb4`; every prior field in all 909 condition rows was preserved. Three distinct merge-commit checks passed: validation, master rebuild and processing. The writer lease was released.
+
+Verified total: **765 unique states, 930 conditions, 208 sources (206 DOI sources and two registered proceedings)**. This batch adds 16 new-source paired states, zero completed legacy TG-only pairs and zero evidence upgrades. Two atmospheres for five hydrogel states remain ten conditions, not ten states. Keep the three hydrogel temperature holds, DHTP source/wash/metric limitations and the PET treated-LOI conflict. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Fulltexts remain private.
