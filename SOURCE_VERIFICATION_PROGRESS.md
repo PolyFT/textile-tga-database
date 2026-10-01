@@ -1021,3 +1021,10 @@ Independent remote verification matched all 11 batch file blobs and the complete
 This batch adds 10 newly verified paired states at 10 TG conditions from 3 DOI sources: 10 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 903 states, 1095 conditions and 247 sources (245 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### B106 publication verification
+
+PR #75 merged at `2448181a84a07ba4f9317e3300097b4b97adf0ee` after validation run `36855468479` passed on exact head `4ead04ae13c3a1661a4994dc9af58786869541c8`. Merge-commit validation, rebuild and processing runs `36855902423`, `36855902388` and `36855902329` all succeeded. All 14 changed public file blobs and the complete validation report matched the locally validated snapshot; all fields of the previous 1,085 condition records were preserved. The temporary workflow is absent. Local validation passed 554 tests and syntax checks.
+
+The verified total is 903 unique sample states, 1,095 TG conditions and 247 original sources (245 DOI sources and two registered proceedings). This batch adds ten new-source states, with no legacy completion or existing-pair evidence upgrade. Conflicting DDM peaks and SMPIC residues remain excluded; glass-veil generic residues retain unknown assessment temperatures. The B106 writer lease was released at `18c438fee9996087f211af33796aaeda13fdb52b` after these checks. Full original documents remain private.
