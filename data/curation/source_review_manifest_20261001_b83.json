@@ -1,0 +1,146 @@
+{
+  "batch": "b83",
+  "review_completed_utc": "2026-10-01T03:36:36.859806+00:00",
+  "baseline_counts": [
+    666,
+    798,
+    165
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 10,
+    "accepted_condition_rows": 20,
+    "new_source_inventory_states": 10,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "additional_source_reviews_held": 1,
+    "total_reviewed_originals": 6,
+    "total_preserved_TG_rows": 30,
+    "held_native_TG_rows": 10,
+    "held_ABTMPA_control_LOI_rows": 2,
+    "held_Fe_graft_duration_rows": 4,
+    "held_PLUEG_approximate_control_LOI_rows": 2,
+    "held_FRLO_material_form_rows": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b83_local_cotton.csv",
+      "published_input_sha256": "bb849802faac2f904d74d7d0727b35503eb457462eeb17e500278c1f3f5d7e67",
+      "unique_sample_states": 10,
+      "verified_conditions": 20,
+      "held_native_TG_rows": 10,
+      "accepted_measurement_fingerprints": [
+        "c630b1b7d26d8a8f82ad118379e5b216800cf167d89fe27a7d4d9cee8664cc00",
+        "0e93df1281bdde049f9d3166392d22ec6e14cd25e92553f48ab821d328dec307",
+        "352c238c1b9612498e583f399cb136d4420ab38b92e78abf88191b9b7781bd60",
+        "04a29c33de59298b3afd930b6c6e4ea426e12ec0fef1595bdf1261b7282c6b53",
+        "4a0f3dd2028c403901dc6f7f522bb4d53812624224d217cd01da91781ac734f2",
+        "b37ed4027bba2e1f53cbf54fb896cd784bff1b5ed34afad4f9880b6ad689b593",
+        "3321734b388d1c850c30d49c1f47d724f17611a51e684239fbf0e9e4caf6a9ec",
+        "253d8c3ba669cf2f6a9639109d1df0f018332b045919fff8413378b1d88f776a",
+        "37d9a2c9e6d5a546762283ac7ce77686c5ca994e7a9758563a6dd5c660369d30",
+        "a3a1e81c9bff7103d8a36baa55258020fbb6eb3fd3f77d90e4aff508704ae6c1",
+        "6c5ed442f85d2d2eb8e96997147e5571cdd502e83f90bf28d38556fc644b34bd",
+        "40c58cacb44040f3d37c523d6fa8824d5c2c32048395d86fd9812c270000d929",
+        "9694f31d05fcc148174faaf585cd129d0856d4c7c2dfb86a6e92aad6ae47ea0e",
+        "cc53a1b2433527d85688e14abd1214038bc7bf5a4361216cc4b91a1f16cbad40",
+        "64e740b6624db3e789b8743cbab71a3868f538f10283c29eb98f26675ef80866",
+        "4ed5d7d4cfdd33dfcecefdf8c39490fc2f7fd6019cc0f77d5f19e0262fdc157a",
+        "f3cc0688dd87ea342a246885e57d6cae02c0b1fc2317145411d84b8d997379b4",
+        "4455ceb4e25287a39db0fa848fbd7bfee65fbdf304fbbb5507acf44bebcc2e7c",
+        "e901fd538fa0ee320eb77bd90de52c60b2abc07efae172c3454c00706a18ab0a",
+        "db5af698094e407245346baf391bcc890a2438dee82226ae9fbafda6ee18fda9"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03615-7",
+      "accepted_states": 1,
+      "accepted_condition_records": 2,
+      "held_native_TG_rows": 2,
+      "accepted_sample_labels": [
+        "31% ABTMPA-treated cotton"
+      ],
+      "original_locators": [
+        "Publishedp1783-1785materials/preparation/TG/LOImethods;p1786-1788TGscope/prose/Table1/Figure5;p1790Table3LOI/prose"
+      ],
+      "review_scope": "Complete13pageprimarytext/tables/captions/referencesread;nativep1783-1785preparation/TG/LOImethods,p1788Table1/Figure5andp1790Table3/controlLOIconflictvisuallychecked. NoSIlistedprimary;externalinventorynotinspected.",
+      "disposition": "ControlLOITable3=17.5%vsprose17.1% unresolved;no cleancanonicalLOI orcontrolpair. Table1charrowphysicallyshiftedonecolumnleft; exactnumbersandFigure5nativeprintedtemperature/valuepointlabelsresolveTGassignment,notcolumnpositionintextparser. TreatedN2/airchar42.40/23.07%explicit600C,not700Cmethodendpoint;controlN2nativepoint688C1.60%,notR700. AirStage1range40-270vsStage2start302/269 preserved; noT5/T10/Tonset inferredfromsegmentboundariesor9.5/8.7%pointlabels. MCCPHRR291C/char30%notTGpeak/residue;MCCtextselfcomparescontrol13.3and2.3kJgandstandardASTME1354,alloutsideTG. TGIR320/380Cgasappearance notTmax. NativeLOIstandardD3163-2000 andVFT40nmflameheightunit anomaliesretained,notcorrected. Intro/materialssayphosphorousacid while synthesis/Scheme1H3PO4;BIS-TRIS16.07g/0.1mol labelsnativechemicalmassnotationinconsistent;do notrepairchemistryorcalculateloading. Dicyandiamideamount,bathratio,wetpickup,preparativeloadretention,rinses/dry,TGmass/flow,repeatsanduncertaintyunknown.21/26%initialLOI40.8/46.0andwashed31%LOI45.8/41.2lackmatchedTG;noaddedstates."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03632-6",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "held_native_TG_rows": 0,
+      "accepted_sample_labels": [
+        "Cotton-ASNDP-4",
+        "Uncoated sample"
+      ],
+      "original_locators": [
+        "Publishedp3791-3793materials/preparation/methods;p3795exactTG450g/Lscope;p3796Tables1/2/Figure4;p3797thermaltext/IPDT;p3802washing"
+      ],
+      "review_scope": "Complete17pageprimarytext/tables/captions/referencesread. Originalp3791-3793preparation/methods,p3795TGcrosswalk,p3796Tables1/2/Figure4visuallychecked. NoSIlistedinprimary;externalinventorynotinspected.",
+      "disposition": "Other150/250/350g/LformulationsLOI23.2/27.0/28.2have noownTGandareexcluded. Durabilitywashed450g/LLOI27.4after5,26.6after10,25.7after20hasnowashedTG. One49C45min0.15wt%detergent80rpmrunrepresents5washingcycles,not5assays. SourceIPDT1402.8Cisderivedintegralindex,notphysicalTGonset/peak/methodendpoint;do notreplace750C. ResidueatTmaxdistinctfromexplicitR750;CONEresidue22.4notTG42.3. NativeTGonsetnotT5/T10;noairsecondpeakestimated. Exactcontrolpretreatment,treatedimmersiontemperature,catalystpercentagebasis,totaldipnipcount,TGmass/flow/replicatesanduncertaintydispersionundefined;noconjecture. NativeH3PO3mass9.840g/0.12mol andformaldehyde9.009g/0.12mol labelsrecordedasprinted;commercial40%formaldehydesolution,nopuremasscorrection."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03636-2",
+      "accepted_states": 1,
+      "accepted_condition_records": 2,
+      "held_native_TG_rows": 4,
+      "accepted_sample_labels": [
+        "Pristine cotton"
+      ],
+      "original_locators": [
+        "Publishedp1811-1812materials/preparation/methods/Scheme1;p1815-1817Table1/Figure6/thermalprose;p1822-1823initialLOI/Table3/washing"
+      ],
+      "review_scope": "Complete18pageprimarytext/tables/captions/referencesread;nativep1811-1812preparation/Scheme1/methods,p1816Table1,p1817Figure6,p1823Table3visuallychecked. NoSIlistedinprimary;externalinventorynotinspected. Prior2019sourceboundedrecipe/controlcross-referenceonly.",
+      "disposition": "Fe grafting duration conflicts: main p1811 says60C6h; native Scheme1p1812 says methanol60C4h. BothFe-grafted andFe@DOPO statesheld; no durationselected. OwnpristineN2TmaxTable1=379C vsprose375C; ownpristineairT5Table1=337C vsprose325C; bothcleanconflictingmetricsblank. CleanpristineLOI18 andR8008.25N2/7.8air agree. WashmethodsAATCC61-2006 vsresultsGB/T17595-1998 unresolved;onlyinitialTGexists;allwashedLOIunpaired. DOPO-onlyLOI26.5Table3vs26conclusion andnoTG,excluded. Abstract24% iswashedFeDOPOafter12cycles,notinitial28.5. CONEresidue21.5% notTG46.8/36.6. TGIRtemperature/massnotcopiedintoregularTG. TGinstrumentmodel,mass,flow,replicates,uncertaintydefinition,fabricGSM/weaveandpristineultrasonicdurationunknown. Prior2019DOI02586-8boundedrecipe/controlcross-referenceonly,notcompletepriorreview;itsownpristineLOI17.5+/-0.1,R8009.0N2/1.8airdifferfromthissourceandnotimported."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03648-y",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "held_native_TG_rows": 2,
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Publishedp2481-2483preparation/LOI/TGmethods;p2486thermaldefinitions;p2488Table4initialLOI;p2489Table5/Figure5;officialSIcompleteFiguresS1-S4/TableS1"
+      ],
+      "review_scope": "Complete15pageprimarytext/tables/captions/referencesread;nativep2481-2483preparation/methods,p2488Table4,p2489Table5/Figure5visuallychecked. CompleteofficialSIallparagraphs/TableS1andall4embeddedNMR/TGIRimagesreviewed. SIprovidesnoTGfabric/fibercrosswalk.",
+      "disposition": "TGTable5fibersversusLOIfabricformunresolved;nofingerprintorapproval,noacceptedpairs. NativeT10weightloss10%,notT5/Tonset. TendrapiddegradationphaseboundarynotTGmethodendpoint. NativeR70037.24/8.61notMCC36.8/8.4;MCCPHRRpeak282.9/374.2notTG283.2/361.2. MCC1K/sN2:O2=4:1notregularTG20K/minN2. SIcomparesPyrovatex/FR-L/AASMP/P-N-Siliteraturesources,notownformulations. 15/20%initialandall10-50LCsLOIhavenomatchedTG;washed30%LOI29.7notpairedwithinitial37.24char. Wash49C45min150mL0.15%detergent50ballsAATCC61-2013No2A,oneassayrepresents5LCs;thisdoesnotgeneratewashedTG. TGflow/repeats,anduncertaintystatisticunknown."
+    },
+    {
+      "DOI": "10.1007/s10570-021-03714-z",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "held_native_TG_rows": 2,
+      "accepted_sample_labels": [
+        "40% PLUEGD-cotton",
+        "40% PLUEGD-cotton after50LCs"
+      ],
+      "original_locators": [
+        "Publishedp3810-3812preparation/LOI/TG/washingmethods;p3813LOInumericalprose/Figure3;p3815Table1add-on;p3817exact40%/50LCsTGscope;p3818Figure7printedTG/DTGcoordinates"
+      ],
+      "review_scope": "Complete16pageprimarytext/tables/captions/referencesread;nativep3810preparation,p3811LOImethod,p3812TG/washingmethod,p3813LOIprose,p3814Figure3,p3815Table1,p3817TGscope,p3818Figure7visuallychecked. NoSIlistedinprimary;externalinventorynotinspected.",
+      "disposition": "OwncontrolLOIreportedonlyabout18%,noprintedexactLOI,controlTGonlyrowsheld. PLU/PLUDallbathsand10/20/30%PLUEGDhaveLOIbutno ownTG,excluded. Native40%PLUEG/25%NaOH/5%catalystpercentagebasesundefined;noassignmentwt%orw/v. WashNo2A50LCsreported,butduration/assaycountconversionunspecified;noinvented45minor10assays. Native600Ccharpointsnot700Cendpoint. TGpeaksdegradationnotwater;TGIRgas340-360CnotTGpeak. Vmax%/Cnot%/min;notconverted. TGmass/flow/replicatesandLOIerrorbarnumerics/statisticunknown. Nativeadd-onplusminusstatisticundefined. NativeFigure1PLsynthesis100Ccompletestextreflux3h;NaOHtemperatureandcontrolpretreatmentunknown."
+    },
+    {
+      "DOI": "10.1016/j.ijbiomac.2021.07.130",
+      "accepted_states": 4,
+      "accepted_condition_records": 8,
+      "held_native_TG_rows": 0,
+      "accepted_sample_labels": [
+        "C0",
+        "FRC-20",
+        "FRC-25",
+        "FRC-30"
+      ],
+      "original_locators": [
+        "Publishedp252-253synthesis/fabricpreparation/methods/Table1;p254-256thermaltext/Table3/Figure4;p259Figure9IprintedLOI/WGpointlabels;p260conclusion/AppendixA;completeofficialSIH/C/Pspectra"
+      ],
+      "review_scope": "Complete11pageprimarytext/tables/captions/referencesread;nativep252-253synthesis/preparation/methods/Table1,p256Table3/Figure4,p259Figure9IinitialLOI/WGvisuallychecked,LOI/WGlabelsat220dpi. CompleteofficialSIall3paragraphlabelsH/C/Pandall3embeddedTIFFspectravisuallyreviewed;noSIassaytablesoradditionalformulations.",
+      "disposition": "AllwashedLOIincludingFRC30after50LC29.4,FRC25after50LC26.1,FRC20after30LC27.3lackmatchedwashedTGandareexcluded. Figure9IinitialWG14.6/16.7/18.4exactprintedlabels,notestimatednorbathconcentration. Table3airresidueatTmax2unitprintsCelsius;rawvalues4.5/26.1/27.7/29.1retainedwithoutcleanpercentassignment. DSC3-5mg/45mLmin/10CminnotTGconditions;regularTGmass/flowunknown. ASMPEApowder100-200Cwater/NH3stageandDSC100Cwaterendothermnotfabricdegradationpeaks. Figure6captionFRC35vsbodyFRC30typoTGIRonly,notnewstate. NativeTable6bendinglengthsincreasewhileprosesaysdecrease,outsideTG/LOI. MaterialslistNaOH/H2O2butnoexplicitcottonpretreatmentroute;nocaustic/peroxidepretreatmentinferred. Catalystnameprinted dicyandiamineinpreparationvsdicyandiamideinmaterials,nativewordingretained. SIthirdspectrumunderPheadinghasLYY13Cinstrumentlabel;noTG/LOIvaluesfromspectranuclearlabel. WashAATCC61-2013No2A49C45min;cycleconversion/detergent/steelballcountnotreportedinthissource,nocopyfromrelatedpapers. TG/LOIreplicatesanduncertaintyunknown."
+    }
+  ],
+  "verification_limit": "Six complete local original journal primary texts reviewed, with native preparation/method/table/figure pixels. Complete official FR-LO SI all paragraphs/TableS1/four embedded images and ASMPEA SI all labels/three embedded spectra reviewed. ASNDP,ABTMPA,FeDOPO,PLUEG have no SI listed in local primary; external SI inventories not inspected. FeDOPO cited2019 precursor receives bounded recipe/control cross-reference only, not complete prior review. One primary reviewer; no independent reviewer or curve estimation claim. No conflicting recipe, approximate LOI, unknown form equivalence, endpoint residue temperature or washed TG inferred. Public files contain factual data, concise DOI/page/table/figure locators and evidence limits only; library and local sources are read-only, originals/SI/images/privatepaths stay external."
+}
