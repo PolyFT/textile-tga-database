@@ -42,13 +42,12 @@
     "snapshot_sha256": "71c7fc5865d0995d9f89c05463b66be9d6e0c7a3bbc64ad4867f8ad6ddf96ad3"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b76-20261001",
-    "status": "released",
-    "batch_id": "20261001_b76",
-    "claimed_at_utc": "2026-10-01T01:17:10.000Z",
-    "scope": "28 independently original-reviewed new states/43 TG conditions from ten DOI sources: four explicit author preprints, four journal articles and two proceedings. Preserve source-version reuse holds and separate publication-type totals.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T01:33:30.880Z"
+    "owner": "codex-local-chapp-acmpep-20261001",
+    "status": "active",
+    "batch_id": "20261001_b77",
+    "claimed_at_utc": "2026-10-01T01:35:05.722Z",
+    "scope": "Three complete local journal originals and complete ACMPEP/TSPDP official SI;12new independentfabricstates/21TGconditions;4TG-only rows excluded. GP/FS complete primary held. Accepted DOI sources do notoverlapb76.",
+    "instruction": "Single publisher; release only after exact-head CI, normal merge, terminal postmerge checks and independent readback."
   },
   "next_sources": [],
   "next_actions": [
