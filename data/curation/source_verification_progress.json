@@ -20,34 +20,41 @@
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
   "publication_stage": "b77_validated_branch_pending_PR_merge",
   "last_merged_batch": {
-    "batch": "b76",
-    "pr": 45,
-    "merge_sha": "05e8f3e5acb73c25dd883c626e48462744ea7934",
-    "validated_head": "670c1935df3c8faf4d5d439cb8d33c80d054d26c",
-    "validation_run": 36801259044,
+    "batch": "b77",
+    "pr": 46,
+    "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/46",
+    "merge_sha": "518f5b8806164c6f41c6a07daafb56ec00750182",
+    "validated_head": "44e9e44df928d0dc50457166b9f71dda78dd1a01",
+    "validation_run": 36802471501,
     "postmerge_runs": [
-      36801443350,
-      36801443320,
-      36801443366
+      36802560012,
+      36802559985,
+      36802560033
     ],
-    "verified_sample_states": 589,
-    "verified_condition_records": 694,
-    "verified_dois": 145,
-    "verified_sources": 147,
+    "verified_sample_states": 601,
+    "verified_condition_records": 715,
+    "verified_dois": 148,
+    "verified_sources": 150,
     "verified_non_doi_sources": 2,
     "verified_non_doi_sample_states": 8,
     "verified_author_preprint_sources": 4,
     "verified_author_preprint_sample_states": 12,
     "verified_author_preprint_condition_records": 21,
-    "snapshot_sha256": "71c7fc5865d0995d9f89c05463b66be9d6e0c7a3bbc64ad4867f8ad6ddf96ad3"
+    "snapshot_sha256": "9e2e2a0b12a9192d1a356c65552cba30e38821c43bc48c88e0e80539b897082f",
+    "master_sha256": "6d7683f1ab85f2c113ef0ddfe196412a6fbb9b4d26c53afa9b85344aa4657320",
+    "previous_condition_records_unchanged": 694,
+    "tests_passed": 343,
+    "independent_readback": "Connector main report plus fresh-main rebuild agree; every old field unchanged; three distinct terminal merge-SHA checks succeeded."
   },
   "writer_lease": {
     "owner": "codex-local-chapp-acmpep-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b77",
     "claimed_at_utc": "2026-10-01T01:35:05.722Z",
     "scope": "Three complete local journal originals and complete ACMPEP/TSPDP official SI;12new independentfabricstates/21TGconditions;4TG-only rows excluded. GP/FS complete primary held. Accepted DOI sources do notoverlapb76.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge, terminal postmerge checks and independent readback."
+    "instruction": "Single publisher; release only after exact-head CI, normal merge, terminal postmerge checks and independent readback.",
+    "released_at_utc": "2026-10-01T01:47:43.052Z",
+    "release_reason": "Exact-head CI and normal PR46 merge, three terminal postmerge checks, independent remote report and fresh rebuild/hash/old694 field invariance verified."
   },
   "next_sources": [],
   "next_actions": [
@@ -950,6 +957,33 @@
     "reviewed_papers_added": 3,
     "additional_complete_primary_reviews_held": 1,
     "additional_TG_only_rows": 4,
-    "total_preserved_TG_rows": 25
+    "total_preserved_TG_rows": 25,
+    "publication": {
+      "batch": "b77",
+      "pr": 46,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/46",
+      "merge_sha": "518f5b8806164c6f41c6a07daafb56ec00750182",
+      "validated_head": "44e9e44df928d0dc50457166b9f71dda78dd1a01",
+      "validation_run": 36802471501,
+      "postmerge_runs": [
+        36802560012,
+        36802559985,
+        36802560033
+      ],
+      "verified_sample_states": 601,
+      "verified_condition_records": 715,
+      "verified_dois": 148,
+      "verified_sources": 150,
+      "verified_non_doi_sources": 2,
+      "verified_non_doi_sample_states": 8,
+      "verified_author_preprint_sources": 4,
+      "verified_author_preprint_sample_states": 12,
+      "verified_author_preprint_condition_records": 21,
+      "snapshot_sha256": "9e2e2a0b12a9192d1a356c65552cba30e38821c43bc48c88e0e80539b897082f",
+      "master_sha256": "6d7683f1ab85f2c113ef0ddfe196412a6fbb9b4d26c53afa9b85344aa4657320",
+      "previous_condition_records_unchanged": 694,
+      "tests_passed": 343,
+      "independent_readback": "Connector main report plus fresh-main rebuild agree; every old field unchanged; three distinct terminal merge-SHA checks succeeded."
+    }
   }
 }
