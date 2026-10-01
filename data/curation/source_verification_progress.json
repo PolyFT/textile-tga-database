@@ -21,13 +21,12 @@
   "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": "20261001_b82",
   "writer_lease": {
-    "owner": "dot-source-review-b82-20261001",
-    "status": "released",
-    "batch_id": "20261001_b82",
-    "claimed_at_utc": "2026-10-01T02:58:53.211Z",
-    "scope": "17 independently original-reviewed new states/21 conditions from 4 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T03:28:22.397Z"
+    "owner": "codex-local-asndp-plueg-asmpea-20261001",
+    "status": "active",
+    "batch_id": "20261001_b83",
+    "claimed_at_utc": "2026-10-01T03:33:31.850Z",
+    "scope": "Ten original-reviewed independent cotton initial/50LC states at20 TG conditions from five DOIs; 10 ambiguous native TG conditions retained outside target across six original-reviewed sources. No literature-library writes.",
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback."
   },
   "next_sources": [],
   "next_actions": [
