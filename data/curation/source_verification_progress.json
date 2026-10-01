@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T10:59:44.810084+00:00",
+  "as_of_utc": "2026-10-01T11:20:46Z",
   "latest_batch_id": "20261001_b105",
   "verified_condition_records": 1085,
   "verified_unique_sample_states": 893,
@@ -21,14 +21,12 @@
   "publication_stage": "b105_merged_verified_lease_released",
   "last_merged_batch": "20261001_b105",
   "writer_lease": {
-    "owner": "codex-local-peihccp-fep-20261001",
-    "status": "released",
-    "batch_id": "20261001_b105",
-    "claimed_at_utc": "2026-10-01T10:58:20.595Z",
-    "scope": "Six reviewed cotton states/nine conditions from complete local PEI-HCCP and FeP-APP-PEI originals;one complete official SI.23facts14held. Preserve B104 and allprior fields;reusedPEIcontrolbothgasconditionsheld,aircurves/washes/MCC/CCT excluded.",
-    "instruction": "Single publisher;release after exact-head CI,ordinary merge,three terminal successful merge-SHA workflows and complete independent remote master/report proof.",
-    "released_at_utc": "2026-10-01T11:17:08.453Z",
-    "release_reason": "Exact-head CI and all three merge-commit workflows succeeded; all 11 remote batch blobs, complete independent remote master/report, 1076 prior records, concurrent state and read-only hashes verified; public proof recorded."
+    "owner": "dot-source-review-b106-20261001",
+    "status": "active",
+    "batch_id": "20261001_b106",
+    "claimed_at_utc": "2026-10-01T11:20:46Z",
+    "scope": "Ten independently reviewed glass/carbon textile-laminate states at ten TG conditions from three original DOI sources. Preserve B105 and all prior observations, conflicting DDM peaks and SMPIC residues, generic residue temperatures and scoped future comparator reuse holds.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge and terminal postmerge proof. Do not overwrite an active lease."
   },
   "next_sources": [],
   "next_actions": [
