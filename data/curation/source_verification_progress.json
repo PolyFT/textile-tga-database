@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T04:54:00Z",
+  "as_of_utc": "2026-10-01T04:56:25Z",
   "latest_batch_id": "20261001_b86",
   "verified_condition_records": 851,
   "verified_unique_sample_states": 702,
@@ -18,16 +18,15 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b86_merged_verified_lease_released",
+  "publication_stage": "b87_lease_claimed",
   "last_merged_batch": "20261001_b86",
   "writer_lease": {
-    "owner": "dot-source-review-b86-20261001",
-    "status": "released",
-    "batch_id": "20261001_b86",
-    "claimed_at_utc": "2026-10-01T04:35:25Z",
-    "scope": "9 independently original-reviewed new states/10 conditions from 5 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher. Release only after exact-head CI, normal merge, postmerge checks and exact report/snapshot verification.",
-    "released_at_utc": "2026-10-01T04:54:00Z"
+    "owner": "codex-local-adbspa-cotton-20261001",
+    "status": "active",
+    "batch_id": "20261001_b87",
+    "claimed_at_utc": "2026-10-01T04:56:25Z",
+    "scope": "Five new original-reviewed initial cotton states at nine TG conditions from four nonoverlapping published journal originals. Seven unpaired stage/approximate/LOI-conflict/formulation fact rows stay outside target. APGDPE final journal excluded against b86 related-preprint hold. Metadata strictly read-only.",
+    "instruction": "Single publisher; release only after exact-head CI, normal merge, three terminal postmerge checks and independent full-report/master readback."
   },
   "next_sources": [],
   "next_actions": [
