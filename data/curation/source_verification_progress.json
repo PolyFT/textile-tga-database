@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T06:39:21.656388+00:00",
+  "as_of_utc": "2026-10-01T06:50:13.405Z",
   "latest_batch_id": "20261001_b93",
   "verified_condition_records": 941,
   "verified_unique_sample_states": 776,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b93_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b92",
+  "publication_stage": "b93_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b93",
   "writer_lease": {
     "owner": "codex-local-wool-viscose-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b93",
     "claimed_at_utc": "2026-10-01T06:37:00.377Z",
     "scope": "11 original-reviewed new wool/viscose states and 11 TG conditions from three accepted DOI sources; four complete original source reviews including 27 held facts.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three merge-SHA checks and exact report/master readback."
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three merge-SHA checks and exact report/master readback.",
+    "released_at_utc": "2026-10-01T06:50:13.405Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -1426,6 +1427,24 @@
     "held_stage_or_qualitative_TG_fact_rows": 1,
     "unmatched_LOI_only_fact_rows": 16,
     "tests_passed": 453,
-    "snapshot_sha256": "db32ff54a3b95a77100d511a398df636005f646d29e96b841396367978f63d5c"
+    "snapshot_sha256": "db32ff54a3b95a77100d511a398df636005f646d29e96b841396367978f63d5c",
+    "publication": {
+      "status": "merged_verified",
+      "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/62",
+      "head_sha": "50d5c07fcda5ea7ae1aaf99f6fa13b4cda9b4c9b",
+      "merge_sha": "4feaf77ead0a0a331c8b2771ed1871d604ecb840",
+      "validation_run": 36826198308,
+      "postmerge_runs": [
+        36826341964,
+        36826342045,
+        36826342091
+      ],
+      "postmerge_status": "All three distinct merge-commit workflows terminal success; no approval bypass.",
+      "snapshot_sha256": "db32ff54a3b95a77100d511a398df636005f646d29e96b841396367978f63d5c",
+      "master_sha256": "460599b81fdff59eeee1aec5a756420310aa1516cce3e6668800dc48942d253c",
+      "previous_condition_records_all_fields_unchanged": 930,
+      "remote_exact_file_count": 11,
+      "independent_remote_complete_report_match": true
+    }
   }
 }
