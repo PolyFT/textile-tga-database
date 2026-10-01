@@ -1,0 +1,81 @@
+{
+  "batch": "b105",
+  "review_completed_utc": "2026-10-01T10:59:44.797653+00:00",
+  "baseline_counts": [
+    887,
+    1076,
+    240
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 9,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 1,
+    "complete_SI_pages": 2,
+    "total_fact_rows": 23,
+    "held_fact_rows": 14,
+    "related_original_rechecked": 1,
+    "related_native_pages_rechecked": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b105_local_peihccp_fep.csv",
+      "published_input_sha256": "f2522b8788aad0c33b1832c8cc2c26efceafeba0e5add81b71b902429bfac58d",
+      "unique_sample_states": 6,
+      "verified_conditions": 9,
+      "held_fact_rows": 14,
+      "accepted_measurement_fingerprints": [
+        "fae447a701dfe3120ef7aeb22d505a8b0c44930972a0e5b1531a7196bfe505fe",
+        "7d909f3a483ccfbbc5f40e0e3ca763adf942d1be4f0e6e476e3eeeb6d12ae8f2",
+        "dffe773e651859c3b4dda13047181606b1d7d8839e6ab977a306036321606f8c",
+        "cc48f5262fb670bfacd3c7cc5e35b1543ad3519c2d982cbc9e860512dc27c517",
+        "a257c84a2076797ce4e285e07e1d369ecab517ea4ade2113600e875c3dbb7557",
+        "cf9b63c990c5b839bfdec9a152ee8b906e5367fa6529f3dc1c7ae1df3a7e29c3",
+        "3d83f41ba44b70e11cc0457fa982c0a9eb52bd255d4adf3364c3cc2bc936e03c",
+        "46b22d14b0dce55b5bb8079b056f1ba8e2c65c692e320df69b75ad895fef6b98",
+        "b3a38710b5c5bf656339fb72c7ab002e9fe41d7f0d54e19d0edcbf29a0c0c7ff"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-020-03047-3",
+      "accepted_states": 3,
+      "accepted_conditions": 6,
+      "held_rows": 6,
+      "disposition": "Complete10nativePDFpages and complete2pageofficialDOCX SI reviewed. Table1N2 andSITableS1air exact samples match Table2LOI. Main gasflow60mL/s andbalance40mL/s kept raw;no inferredmL/min. TG preheat100C/cool toambient removes water,not a new aged specimen. RegularTGca10mg/ambient-700C10Cmin distinctfromTGFTIRca15mg40-700C20Cmin,250Cpipe/cell. MCC1C/s/Tp/THR andVFTchar are notTG;MCCtriplicates notLOI/TGreplicates. LOIuncertainty/conditioning/repeats unknown. SI Cotton-P10airTG hasnoownLOI;washed1/2states VFTonly. NeatP6H3polymer scrapedfromglass is not textileTG. UntreatedN2LOI18.7/T5327/Tmax368/R7009.4/Rmax26.9 repeat03874-y;holdbothnewcontrolconditions for reuse,retainalloldrecords;no proof of specimenidentity. HCCP differsfromTHPC inrelatedpaper."
+    },
+    {
+      "DOI": "10.1007/s12221-021-0003-4",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "held_rows": 8,
+      "disposition": "Complete12nativeoriginalpages reviewed;noSIcited. NitrogenTmax374/R8009.9control andR80033.3/35.1FeP/APP/PEI2/4BL are explicit mainp5prose/Fig6p6,LOITable1p6. TreatedT5/Tmax andallairnumbers onlycurves:canonicalblank/noestimates. WaterlossFeP/APPbelow200C is not textiledecompositionmax. TG50-800C20Cmin;mass/flow/replicates unknown. LOI130x60mm3samplesaverage with nativeplusminus statistic unspecified. APP/PEI2/4BL ownLOI20.2/23.1 hasnoownTGcurve,noborrowedFeP TG. Table2/CCT residues13.11/18.80 are notTG33.3/35.1. Table4washed10/20/30LC hasCCTonly,noownLOI/TG;49C45minAATCC61-2006soap0.15%SDBS equals5homeLCpercycleasreported. Table3comparisonPET/ramievalues fromcitedstudies,notthiscotton. FeP/APPsolution massratio retainedraw;no inference on component massfractions fromWG. Oneprimaryreviewer,noindependentphysicalreplicateclaim."
+    }
+  ],
+  "verification_limit": "Two complete original journal PDFs and one complete official supplement reviewed by one primary reviewer;related03874-y nativep4/6/7/8 rechecked. Six source/sample states,9gasconditions;no independent-reviewer/physical-replicate-independence claim. Reusedcottoncontrolbothconditionsheld;noaircurveestimates,noMCC/CCT/VFT transfers. Originals/fulltext/images/SI/privatepaths excluded;metadatareadonly.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1076,
+    "new_states": 6,
+    "new_conditions": 9,
+    "evidence_upgrades": 0,
+    "verified_states": 893,
+    "verified_conditions": 1085,
+    "verified_dois": 242,
+    "verified_sources": 244,
+    "offline_tests_passed": 550,
+    "snapshot_sha256": "3b99ecc6be6b281ed94f7ae014744319f8d0406a200a257e641d4d357a44eef2",
+    "master_sha256": "aee8c4f28a5e3db1a4ac586c4dcedb2be905fc563d9cf5ecbe6595a23cac2bcb",
+    "validation_errors": [],
+    "held_fact_rows": 14,
+    "complete_official_SIs": 1,
+    "unchanged_private_evidence_files": 2,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
