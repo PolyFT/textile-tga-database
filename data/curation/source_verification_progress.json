@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T05:29:05Z",
+  "as_of_utc": "2026-10-01T05:31:10.477Z",
   "latest_batch_id": "20261001_b88",
   "verified_condition_records": 867,
   "verified_unique_sample_states": 714,
@@ -18,16 +18,15 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b88_merged_verified_lease_released",
+  "publication_stage": "b89_lease_claimed",
   "last_merged_batch": "20261001_b88",
   "writer_lease": {
-    "owner": "dot-source-review-b88-20261001",
-    "status": "released",
-    "batch_id": "20261001_b88",
-    "claimed_at_utc": "2026-10-01T05:09:25Z",
-    "scope": "7 independently original-reviewed new states/7 conditions from 3 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher. Release only after exact-head CI, normal merge, three postmerge checks and full report/snapshot verification.",
-    "released_at_utc": "2026-10-01T05:29:05Z"
+    "owner": "codex-local-amop-apctsi-20261001",
+    "status": "active",
+    "batch_id": "20261001_b89",
+    "claimed_at_utc": "2026-10-01T05:31:10.477Z",
+    "scope": "Three complete local cotton journal originals and two complete official SIs:6 new initial sample states/8 TG conditions. Preserve3 held numerical TG conditions,1 approximate generic TG fact and16 unmatched LOI-only facts. AMOP T10/residue720C;APCTSi residue750C/generic dose hold;PAA ZnO dose/peak conflict. Library strictly read-only;no fulltexts/private paths published.",
+    "instruction": "Single publisher. Release only after exact-head CI, normal merge, three distinct postmerge checks and full report/snapshot/master readback."
   },
   "next_sources": [],
   "next_actions": [
