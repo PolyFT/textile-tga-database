@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T10:20:33.311995+00:00",
+  "as_of_utc": "2026-10-01T10:39:58.879Z",
   "latest_batch_id": "20261001_b103",
   "verified_condition_records": 1072,
   "verified_unique_sample_states": 883,
@@ -21,14 +21,12 @@
   "publication_stage": "b103_merged_verified_lease_released",
   "last_merged_batch": "20261001_b103",
   "writer_lease": {
-    "owner": "codex-local-pctsi-20261001",
-    "status": "released",
-    "batch_id": "20261001_b103",
-    "claimed_at_utc": "2026-10-01 10:18:01 UTC",
-    "scope": "Two new PCTSi initial cotton states/four N2-air conditions; two complete sources with official SIs,28facts24held. Exclude controls matching04054-8,250gL LOI concentration conflict,SPDP-PTMS preparation pH3/3.6 conflict,LOI-only concentrations/washes and calculated curves. Preserve all B102 data/publication proof.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete independent remote master/report proof.",
-    "released_at_utc": "2026-10-01T10:35:16.790Z",
-    "release_reason": "PR72 exact-head CI and three merge-SHA checks successful; all public blobs and independent remote master/full report verified; B103 complete."
+    "owner": "dot-source-review-b104-20261001",
+    "status": "active",
+    "batch_id": "20261001_b104",
+    "claimed_at_utc": "2026-10-01T10:39:58.879Z",
+    "scope": "Four independently reviewed TTCTG and distinct gelatin/silica cotton states; preserve all B103 data. Publish sample-scoped journal A/B/C/E reuse guards, retaining conference C as the sole counted repeated observation.",
+    "instruction": "Single publisher; release after exact-head CI, ordinary merge, complete remote snapshot verification and all three successful merge-commit workflows."
   },
   "next_sources": [],
   "next_actions": [
