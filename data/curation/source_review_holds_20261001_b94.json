@@ -1,0 +1,142 @@
+[
+  {
+    "DOI": "10.3390/polym7020220",
+    "source": "pp_masterbatch2015",
+    "held_evidence": [
+      {
+        "scope": "mf1\u2013mf5 residues",
+        "reason": "No exact numeric residue reported; prose no char/no residues is not encoded as0%."
+      },
+      {
+        "scope": "mf2\u2013mf5 Tmax",
+        "reason": "Only collective473\u2013480\u00b0C range, no individual mapping; kept raw."
+      },
+      {
+        "scope": "mf5 other structures",
+        "reason": "200g/m\u00b2 nonwoven,110g/m\u00b2 jersey and380g/m\u00b2 rib have no matching own LOI/TG pair."
+      },
+      {
+        "scope": "LOI uncertainty and method",
+        "reason": "\u00b10.5 preserved, type/n/instrument/standard/dimensions unreported; no assignment from cone or thickness methods."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3390/polym13152553",
+    "source": "pp_ifr2021",
+    "held_evidence": [
+      {
+        "source_state": "mPP-IFR-25",
+        "reason": "LOI28 in main section3.3.1 conflicts with29.1 in abstract/conclusion. No selection based on agreement with graph."
+      },
+      {
+        "source_state": "mPP-IFR-10/15/20",
+        "reason": "Only unlabelled Figure7 LOI points. Additionally Figure 10 first treated legend15 conflicts with SI TableS3 first treated label10."
+      },
+      {
+        "source_state": "mPP-IFR-30 and PP-IFR-30",
+        "reason": "No exact own LOI/TG pair established; PP-IFR-30 with no compatibilizer is a separate chip/rheology formulation, not merged into mPP series."
+      },
+      {
+        "source_state": "mPP/25% T5 relation",
+        "reason": "Source32.3 \u00b0C increase disagrees with SI absolute239.4/271.9. Canonical control T5 blank; no repaired values."
+      },
+      {
+        "source_state": "mPP native Tmax/Td",
+        "reason": "349.9/364.8 retained raw. No canonical peak or loss threshold assigned from undefined Td."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1002/app.55765",
+    "title": "Improvement of thermal stability, flame retardancy, hydrophobicity, tear and wear performance of polyester fabrics with graphene nanoplatelet coating",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/app.55765",
+    "review_scope": "Complete original publisher indexed HTML searched for LOI/oxygen; own methods Table5, section2.2, own flammability results and conclusion reviewed. No PDF or pixel claim.",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own five fabric states are evaluated by TGA and BS5852 Part1 Source0 smoldering-cigarette ignition, not an own LOI test. No own numerical measured LOI found; neither cigarette damage nor thermal stability can replace LOI.",
+    "evidence_cache": [],
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/molecules200611236",
+    "title": "Understanding the Mechanism of Action of Triazine-Phosphonate Derivatives as Flame Retardants for Cotton Fabric",
+    "publication_type": "journal_article",
+    "original_url": "https://www.mdpi.com/1420-3049/20/6/11236",
+    "original_mirror_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6272508/",
+    "review_scope": "Original fulltext HTML thermal/mechanism study and document searches for LOI/oxygen; bounded assay screen, no PDF or pixel claim.",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own TPN1/TPN3 cotton work concerns TG-FTIR and solid-state NMR decomposition mechanisms. The found limiting-oxygen-index mention belongs to a cited reference, not an own numerical measured LOI result. Earlier fire results are not transferred into these thermal specimens.",
+    "evidence_cache": [],
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1155/2015/586904",
+    "title": "Preparation and Characterization of Some Nanometal Oxides Using Microwave Technique and Their Application to Cotton Fabrics",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1155/2015/586904",
+    "original_mirror_url": "https://www.researchgate.net/publication/275223850_Preparation_and_Characterization_of_Some_Nanometal_Oxides_Using_Microwave_Technique_and_Their_Application_to_Cotton_Fabrics",
+    "status": "held_no_own_numeric_TG_established",
+    "reason": "Own five cotton LOIs are measured and tabulated, but own characterization describes FTIR, elemental/atomic absorption analysis, SEM/EDX, TEM and LOI; no TG assay or own numerical TG found in the original indexed document. No thermal method or curve can be transferred from related nanoparticle papers.",
+    "review_scope": "Original indexed author/publisher fulltext methods section 2.4, Table 3 LOI, conclusions, and whole-document TGA/thermogravimetric term search; no PDF or pixel claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/c4ra14943b",
+    "title": "Intumescent multilayer hybrid coating for flame retardant cotton fabrics based on layer-by-layer assembly and sol\u2013gel process",
+    "publication_type": "journal_article",
+    "original_url": "https://pubs.rsc.org/en/content/articlehtml/2015/ra/c4ra14943b",
+    "original_mirror_url": "https://www.researchgate.net/publication/270663621_Intumescent_multilayer_hybrid_coating_for_flame_retardant_cotton_fabrics_based_on_layer-by-layer_assembly_and_sol-gel_process",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own SiN/PA cotton methods and results use TG, vertical burning, cone calorimetry and TG-FTIR. No own LOI method or numerical value appears in the complete original indexed-text LOI/oxygen-index search; all matched LOI hits belong to later citing-article summaries after the original ends. Do not substitute those summaries or cone results.",
+    "review_scope": "Original author-uploaded published pp 10647\u201310655, own characterization pp 10648\u201310649 and full original-scope LOI search; no PDF or pixel claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s11998-025-01151-2",
+    "title": "New type of composite hydrogel based on natural polysaccharides and sodium polyacrylate for the production of fire-resistant fabrics",
+    "publication_type": "journal_article",
+    "original_url": "https://link.springer.com/article/10.1007/s11998-025-01151-2",
+    "original_mirror_url": "",
+    "status": "held_no_own_measured_LOI_established",
+    "reason": "Own hydrogel/cotton series is tested by TG/DSC, PCFC and horizontal Bunsen-burner reaction-to-fire tests. The only LOI mentions in the original fulltext are introduction background/cited prior work, including untreated cotton 18.4 and cited PNIPAAm/SA/PVA cotton 18\u201329. They are not own measured LOIs and cannot be paired with this source TG.",
+    "review_scope": "Complete original publisher HTML available; own preparation/characterization, full LOI/oxygen-index term search and fire-test definition reviewed; bounded assay screen, no PDF or pixel claim.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/sstr.202400439",
+    "title": "Hollow Structured-Controllable Polyimide Nanofibers with Extreme Conditions Tolerance for Efficient Thermal Insulation",
+    "publication_type": "journal_article",
+    "original_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/sstr.202400439",
+    "review_scope": "Original complete publisher HTML, own thermal discussion, formulation labels, methods and official SI link; SI retrieval returned403, no PDF/pixel review",
+    "status": "held_missing_TG_rate_and_source_state_mapping",
+    "reason": "Own measured hollow-PI LOI30.8 and explicit T5 577.5 are reported, but TG method gives Q500 and nitrogen without heating rate. The thermal Figure1 uses generic PI in the hollow-fiber discussion, while structure optimization labels solid PI and hollow PI-1/2/3/4; source-state-specific TG-to-LOI assignment is not established. Official SI remains unread after403. Cotton/PET19.8/19.9 have no own corresponding numericTG established. No imidization temperatures, literature values or generic PI numbers are substituted.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/polym12030657",
+    "status": "bulk_bar_LOI_scope_held",
+    "source_url": "https://www.mdpi.com/2073-4360/12/3/657",
+    "reason": "Original publisher Table3 explicitly identifies LOI measurements on0.8mm bars. Fiber-forming polymer title does not establish tested textile-fiber specimens. No bar-to-fiber transfer.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.jaap.2016.10.030",
+    "status": "complete_original_not_retrieved",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0165237016304880",
+    "reason": "Own calcium-alginate and viscose nonwoven tests are described by publisher original snippets, but complete thermal and LOI numerical tables/methods unavailable. Author page offers request-only access. No borrowing of generic fiber LOI or cone residue.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]

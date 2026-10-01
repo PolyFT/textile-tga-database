@@ -1,0 +1,61 @@
+{
+  "batch": "b94",
+  "baseline_counts": [
+    776,
+    941,
+    209
+  ],
+  "summary": {
+    "added_verified_unique_states": 6,
+    "added_verified_condition_records": 6,
+    "new_source_measurement_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 2,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b94_pp_masterbatch2015.csv",
+      "DOI": "10.3390/polym7020220",
+      "draft_sha256": "63581deed8567388bfc79c09c679270a86c911fca21d9a97953902454321babe",
+      "published_input_sha256": "6d74a4ddd7687f1be8994b90ca41a73590c596454e112980ed052e4c05873a17",
+      "states": 5,
+      "conditions": 5,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "ceafb9f96f81d6d21a4a761a1aca39bdf06876cc413a99d9c3cc23d80d4b5fb0",
+        "04b04c5cebf02d73c210c15c5146f165c93ed3ad0ee5b3f1f377e931b9e22e96",
+        "34a457064bbbba7e06fd11a7227ef378d4d774d249ad6cb323462947c51a1d69",
+        "ee57c1934c4b6f0b4fd6fe6e308559908f4e60ba0b171e4a451320934f9b4960",
+        "b05c0d21f1ad32efd51d0f18d2bb1a4613ce65e1858660debfddaf1c9544e0f6"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b94_pp_ifr2021.csv",
+      "DOI": "10.3390/polym13152553",
+      "draft_sha256": "b46f557db2ed4a1cd9e71188d1aae8842e9343e6805e0afd9940b3659bfd3d11",
+      "published_input_sha256": "014c7fab7d645684c7b8e66abc02627feee81b6d6b970d11acd34c714fe2daa0",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "87a52e300833cdd165b2d43a4f97f928c402bff040690b8b1b086a7c1a326db0"
+      ]
+    }
+  ],
+  "related_source_holds": [],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
