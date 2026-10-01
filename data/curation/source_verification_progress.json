@@ -37,13 +37,11 @@
     "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
   },
   "writer_lease": {
-    "owner": "codex-local-greige-pan-20261001",
-    "status": "released",
-    "claimed_at_utc": "2026-10-01T00:00:39.929Z",
-    "batch_id": "20261001_b72",
-    "scope": "Publish six independently source-verified local greige cotton nonwoven and PAN woven TG-LOI states, six conditions, eight excluded TG-only rows; library strictly read-only.",
-    "instruction": "Single publisher; release after exact-head CI, normal merge and terminal postmerge readback.",
-    "released_at_utc": "2026-10-01T00:07:47.002Z"
+    "owner": "dot-source-review-b73-20261001",
+    "status": "active",
+    "claimed_at_utc": "2026-10-01T00:10:28.305Z",
+    "scope": "29 independently approved states at33 conditions:21 DOI-backed states and8 official proceedings states with independently approved document identities. Separate DOI/non-DOI cohorts; no original fulltexts.",
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal verification."
   },
   "next_sources": [],
   "next_actions": [
