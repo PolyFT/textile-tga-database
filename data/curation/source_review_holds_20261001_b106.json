@@ -1,0 +1,204 @@
+[
+  {
+    "DOI": "10.3390/molecules28135162",
+    "source": "glass_ddm2023",
+    "held_evidence": [
+      {
+        "scope": "Five Table 1 residue entries",
+        "reason": "Residue column has no explicit atmosphere assignment, while own method tests argon and helium/oxygen. All retained raw; no canonical residue or temperature."
+      },
+      {
+        "scope": "Helium/oxygen series for all five states",
+        "reason": "No exact tabulated oxidative TG peak or assigned residue. Figure 1c\u2013d is not digitized."
+      },
+      {
+        "scope": "6.5% and 9.8% DDM-DOPO",
+        "reason": "Approximately 2 mm specimens with LOI 26.1/26.4; TG entries are dashes."
+      },
+      {
+        "scope": "Composition normalization",
+        "reason": "Native Table 3 recipe ED-22 100, hardener 5 and additive 1.5/3 versus percentage labels. No final total-laminate fraction inferred."
+      },
+      {
+        "scope": "Uncertainty",
+        "reason": "Table 1 \u00b12 \u00b0C values have no statistical definition; LOI \u00b10.1 is method accuracy, not SD."
+      },
+      {
+        "scope": "Both 1.5% and 3% DDM-DOPO inert Tmax and pairs",
+        "raw_Tmax_C": [
+          438,
+          444
+        ],
+        "reason": "Figure 1b ordering reverses Table 1; no independent printed anchor determines the wrong value. Both pairs excluded. No graph-derived replacement."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3390/jcs8070268",
+    "source": "glass_veil2024",
+    "held_evidence": [
+      {
+        "scope": "Unskinned Control, C-N1-D4, C-N3-D2 and C-N4-D1",
+        "reason": "Exact LOI labels but no numerical TG for these states."
+      },
+      {
+        "scope": "Residue temperature",
+        "reason": "Generic residue labels lack explicit temperatures; canonical residue temperature blank despite the 800 \u00b0C scan endpoint."
+      },
+      {
+        "scope": "Peak LOI ranking",
+        "reason": "Body calls 31.6% the peak, whereas Figure 3b, abstract and conclusion give C-N3-D2 32.3%. C-N2-D3 printed 31.6 is retained with disclosed conflict; C-N3-D2 lacks TG."
+      },
+      {
+        "scope": "53.2% control naming",
+        "reason": "Body calls C-N0-D0 control and abbreviates residue label to C; Figure 3a explicitly identifies C-N0-D0. Do not assign 53.2% to the separate unskinned Control."
+      },
+      {
+        "scope": "Treated formulation denominator",
+        "reason": "Table 1 sums to 99 wt%. No renormalization or assignment of missing 1% to PEO."
+      },
+      {
+        "scope": "Related 2023/2024 polyurethane veil sources",
+        "reason": "Only abstracts and references are publicly accessible in the retrieved routes; exact control/numeric equivalence unverified. Future state-level reuse review required; no transfer of recipes or methods.",
+        "related_DOIs": [
+          "10.1177/00405175221147729",
+          "10.1177/00405175241242148"
+        ],
+        "future_comparator_scope": "Untreated/unmodified glass-veil control and Ni-only comparator must be compared to current C-N0-D0 and C-N5-D0. Earlier labels are unavailable and not invented; no whole-source exclusion."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1016/j.compositesa.2024.108151",
+    "source": "smpic2024",
+    "held_evidence": [
+      {
+        "scope": "SMPIC-20 and SMPIC-25 R800",
+        "reason": "Section 3.1 gives 77.3 and 78.8 respectively; Figure 2c blue/green numerical annotations give 78.8 and 77.3. Both held, no swapped correction or estimated substitute."
+      },
+      {
+        "scope": "All printed Figure 2c DTG inset temperatures",
+        "reason": "Retain source-native 605/612/614/608/616 \u00b0C for SMPIC-10/15/20/25/30; no named own maximum-rate definition or canonical Tmax assignment."
+      },
+      {
+        "scope": "SMPI/CF control LOI 48.9",
+        "reason": "No own numerical TG for the same laminate. Source cites pure SMPI resin 63.6% from earlier10.1016/j.compositesa.2022.107237; original Table2 calls this M-SMPI film and gives63.63%."
+      },
+      {
+        "scope": "DMA glass-transition temperatures",
+        "reason": "404/407/412/409/398 \u00b0C are DMA Tg, not mass-loss thresholds."
+      },
+      {
+        "scope": "Post-ablation and later thermal/shape states",
+        "reason": "No own state-specific TG/LOI pairs; initial results not transferred."
+      },
+      {
+        "scope": "Preparation and SI limits",
+        "reason": "Whole-PAA additive basis and general0.5\u20131.5mm thickness are preserved without normalization; CF fraction and ply count unreported. Main complete; cited supplementary mechanisms/FTIR/actuation unavailable."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/00405175221147729",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/00405175221147729",
+    "status": "future_sample_scoped_reuse_review",
+    "reason": "Original publisher abstract only accessible. Before importing untreated/unmodified glass-veil controls or Ni-only comparators, compare original preparation and TG/LOI observations to 10.3390/jcs8070268 C-N0-D0 and C-N5-D0. Exact earlier labels and full-table equivalence are unknown; no synthetic labels, blanket source exclusion or cross-paper metric transfer. Distinct treatments require separate original review.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/00405175241242148",
+    "source_url": "https://journals.sagepub.com/doi/10.1177/00405175241242148",
+    "status": "future_sample_scoped_reuse_review",
+    "reason": "Original publisher abstract only accessible. Before importing untreated/unmodified glass-veil controls or Ni-only comparators, compare original preparation and TG/LOI observations to 10.3390/jcs8070268 C-N0-D0 and C-N5-D0. Exact earlier labels and full-table equivalence are unknown; no synthetic labels, blanket source exclusion or cross-paper metric transfer. Distinct treatments require separate original review.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.carpta.2026.101107",
+    "title": "Aqueous Kabachnik-Fields synthesis of HMF-functionalized chitosan for thermally-stable LBL coatings on cotton fabrics",
+    "source_url": "https://hohpublica.uni-hohenheim.de/server/api/core/bitstreams/2c812357-dbc9-4bc3-914d-edd7242e427b/content",
+    "source_document_sha256": "23af335372eb6971caba76973a7c4679ec03cd22a7cc75d7f1ab011650cc41fc",
+    "reason": "Complete institutional publisher PDF retrieved. Own methods and results are chemical characterization, cotton coating and thermal screening. Conclusions explicitly place VFT, LOI and MCC in future validation work; no own measured LOI pair is available. Neither thermal synergy nor char formation may be converted into LOI.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s42114-025-01578-6",
+    "title": "Janus graphene-Al2O3: aramid hybrid fabric for multifunctional passive cooling and flame retardancy",
+    "source_url": "https://link.springer.com/article/10.1007/s42114-025-01578-6",
+    "reason": "Original open publisher main methods/results/conclusions describe radiative cooling, moisture management and cone fire measurements. Oxygen-index statements occur only as cited generic introduction thresholds; no own measured LOI or TG assay is established in the main. Cone char, heat-release reductions and flame exposure cannot be paired as TG/LOI. Supporting information exists but was not reviewed in this bounded screen.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/D5MA00343A",
+    "title": "A ternary multiscale nanocomposite system based on functionalized graphene oxide, carbon fibers and bio-based polybenzoxazine for electromagnetic shielding",
+    "source_url": "https://pubs.rsc.org/en/content/articlehtml/2025/ma/d5ma00343a",
+    "reason": "Original methods and thermal discussion explicitly calculate LOI from TG residual mass using LOI = 17.5 + 0.4 \u00d7 residual mass. Table 4 LOI values are calculated, not independently measured oxygen-index observations. All such pairs excluded; no conversion into measured textile LOI.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/mame.202400325",
+    "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mame.202400325",
+    "reason": "Original sections 2.3 and 3.1.2 explicitly test coating-only PA6 specimens for LOI, while Table 4 TG tests the five-layer PA6.6 fabric-reinforced APC laminates. These are different specimen compositions and cannot be paired. Recycled rAPC material is fully melted with 50 mass% primary PA6 into homogeneous molded specimens, with textile architecture no longer retained; do not relabel it as original woven laminate.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1039/C7RA04078D",
+    "source_url": "https://pubs.rsc.org/en/content/articlehtml/2017/ra/c7ra04078d",
+    "reason": "Original Table 2 reports measured LOI20.5/25.5 for untreated/treated hemp fibers, but no exact corresponding fiber TG mass-loss scalar is established; FTIR/XRD of heat-treated residues cannot replace TG. Table 3 numerical TG instead concerns melt-compounded hemp/PP molded composites. Own recovered TG method gives20 C/min25\u2013600 C but does not resolve gas atmosphere. Do not cross-pair fiber LOI with polymer-composite TG or assume gas.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/0734904117748118",
+    "title": "Flame retardance of modified graphene to pure cotton fabric",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/0734904117748118",
+    "review_scope": "Publisher original abstract and reference page; main fulltext unavailable, linked SI not reviewed",
+    "reason": "No complete own TG/LOI numeric inventory or preparation/assay pairing established. Do not borrow combustion claims or secondary values.",
+    "status": "hold_original_evidence_incomplete",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.porgcoat.2022.107066",
+    "title": "Durable flame retardant and dip-resistant coating of polyester fabrics by plasma surface treatment and UV-curing",
+    "original_url": "https://doi.org/10.1016/j.porgcoat.2022.107066",
+    "review_scope": "Legacy TG-only completion lead; original abstract and public route search, no complete original recovered",
+    "reason": "Abstract reports PETD3/T4.5 LOI24 and23.5 after10 washes, with nitrogen residue26.7 versus9.7 control, but own complete methods, ramp and exact wash-state bridge are unavailable. Do not transfer legacy conditions or treat this as a new source.",
+    "status": "hold_original_evidence_incomplete",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.compositesb.2019.107458",
+    "title": "High flame retardancy of oxidized polyacrylonitrile fibers prepared by effective plasma-assisted thermal stabilization and electron-beam irradiation",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S1359836819328446",
+    "review_scope": "Original abstract/selected sections and public-original route search",
+    "reason": "Four T/ET/PT/EPT preparations appear and maximum LOI50.9 is reported, but full original numerical inventory, exact own TG conditions and matched treatment bridge were not recovered.",
+    "status": "hold_original_evidence_incomplete",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10973-019-08751-2",
+    "title": "Thermal stability and flame retardant properties of calcium- and magnesium-hypophosphite-finished cotton fabrics and the evaluation of interaction with clay and POSS nanoparticles",
+    "original_url": "https://link.springer.com/article/10.1007/s10973-019-08751-2",
+    "review_scope": "Original publisher abstract and references; subscription-only fulltext and no public original route found",
+    "reason": "Own LOI24.2 for CaHP/OA-POSS19:1 is stated, but exact complete TG/state tables and methods are unavailable. Do not use secondary newsletter rounded LOIs or cone residue.",
+    "status": "hold_original_evidence_incomplete",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s10570-025-06679-5",
+    "title": "Dithiophosphate-and alkoxysilyl-functionalized polysiloxane as a durable flame-retardant and hydrophobic modifier for cotton fabrics",
+    "original_url": "https://link.springer.com/article/10.1007/s10570-025-06679-5",
+    "review_scope": "Original publisher abstract, public author preview and references only; no whole-source claim",
+    "reason": "Original abstract establishes TG and heat-release testing, but own measured LOI and complete numerical methods/pairing not established. Later related10.3390/ma19020265 is separately atmosphere-conflicted and cannot supply missing own evidence.",
+    "status": "hold_original_evidence_incomplete",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.4191/kcers.2011.48.6.537",
+    "title": "Preparation of Mg(OH)2 Dispersion and its Application to PET Non-woven Textile as Flame Retardant Coating",
+    "original_url": "https://www.jkcs.or.kr/upload/pdf/SRMHB8_2011_v48n6_537.pdf",
+    "review_scope": "Complete six-page official original read; Figure7/8 pixels checked",
+    "status": "hold_own_TG_conditions_metric_and_state_mapping",
+    "document_sha256": "78f3c596106257e1e99c6671da840a7c7f9bc3c8a94656e41ff29545193f1f21",
+    "reason": "Own TG ramp and atmosphere absent. Table1 decomposition temperatures514/519/551 are not defined as mass-loss thresholds or maximum-rate TG peaks; Figure8 pairs TG with DSC. Residues are approximate about10%/35%. Figure7 LOI has no printed point labels; treated prose is >30 only, and FR PET1/2 TG labels lack exact binder/loading/coating-count bridge across multiple tested formulations. No inferred point or DSC-to-Tmax mapping.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
