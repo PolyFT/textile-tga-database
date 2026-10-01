@@ -21,14 +21,12 @@
   "publication_stage": "merged_verified_lease_released",
   "last_merged_batch": "20261001_b104",
   "writer_lease": {
-    "owner": "dot-source-review-b104-20261001",
-    "status": "released",
-    "batch_id": "20261001_b104",
-    "claimed_at_utc": "2026-10-01T10:39:58.879Z",
-    "scope": "4 independently original-reviewed new states/4 conditions from 2 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge, complete remote snapshot verification and all three successful merge-commit workflows.",
-    "released_at_utc": "2026-10-01T10:56:55.397Z",
-    "release_reason": "PR73 exact-head CI, ordinary merge, all three merge-commit workflows and complete remote snapshot proof succeeded."
+    "owner": "codex-local-peihccp-fep-20261001",
+    "status": "active",
+    "batch_id": "20261001_b105",
+    "claimed_at_utc": "2026-10-01T10:58:20.595Z",
+    "scope": "Six reviewed cotton states/nine conditions from complete local PEI-HCCP and FeP-APP-PEI originals;one complete official SI.23facts14held. Preserve B104 and allprior fields;reusedPEIcontrolbothgasconditionsheld,aircurves/washes/MCC/CCT excluded.",
+    "instruction": "Single publisher;release after exact-head CI,ordinary merge,three terminal successful merge-SHA workflows and complete independent remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
