@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **601 unique reviewed source/sample/washing states**, **715 TG condition records**, and **150 original sources (148 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **620 unique reviewed source/sample/washing states**, **746 TG condition records**, and **155 original sources (153 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **601 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 400 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 419 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -592,3 +592,10 @@ Three complete original journal sources add **12 genuinely new initial textile s
 - 10.1016/j.polymdegradstab.2016.03.003: a fourth complete primary source is held, with zero accepted states. LOI 71.2 versus 71.6, a possible instrument ceiling, ambiguity between one- and two-step treatments, and possible control reuse require resolution. Dry-cleaning MCC measurements do not provide durability TG–LOI pairs.
 
 Publication types and source versions are explicit; no independent second-reviewer or curve-digitization claim is made. Fulltexts, supplements, caches and private paths remain outside the repository; the library is strictly read-only. All 343 tests pass, the validator reports no errors, and all 694 previous condition records retain identical values in every existing field. Proposed total: **601 states / 715 conditions / 150 sources**; **1399 remain** to 2000. Exact-head CI, normal merge and independent postmerge readback are required before releasing the publication lease.
+
+
+## b78 original-source expansion with explicit preprint reporting
+
+This batch adds 19 genuinely new sample states at 31 TG conditions from 5 DOI sources. Explicit author-preprint contributions are 3 states at 3 conditions from 1 sources. Related publication versions remain source-wide alias/reuse holds until independent cross-version adjudication; additional later controls are held only at their exact sample labels. The total is 620 states, 746 conditions and 155 sources (153 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
