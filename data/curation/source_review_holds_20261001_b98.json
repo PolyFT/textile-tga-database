@@ -1,0 +1,280 @@
+[
+  {
+    "DOI": "10.1007/s10973-018-7735-4",
+    "source": "carbon_foam2019",
+    "held_evidence": [
+      {
+        "scope": "All residues and T5/onset",
+        "reason": "TG traces have no exact residue annotation; 69/45 or other Table3/Figure6 masses are cone observations. Thermal stage boundaries are not T5/onset."
+      },
+      {
+        "scope": "Elevated-temperature LOI observations",
+        "reason": "Exact labelled LOIs preserved in inventory, but no further preparation state created; intermediate temperature assignment would require coordinates and is not used."
+      },
+      {
+        "scope": "TG peak prose qualifier",
+        "reason": "Source prose says close to; canonical integer temperatures come from explicit original Figure2 annotations, with qualifier retained. No additional precision implied."
+      },
+      {
+        "scope": "TG aliquot and material architecture",
+        "reason": "Finished laminate and sandwich assayed, but exact weave and through-thickness aliquot selection are unreported; no pure-skin or pure-PVC substitution."
+      },
+      {
+        "scope": "Related later source10.1007/s10973-025-14585-y",
+        "reason": "Same author group and commercial epoxy/carbon family, but separate vacuum-bag skins and autoclaved carbon/epoxy core tested in air. No own LOI established there; no method/value transfer or inferred reuse alias."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3390/molecules26154581",
+    "source": "natural_laminates2021",
+    "held_evidence": [
+      {
+        "scope": "Twenty aged LOI states and additional 7-day TG points",
+        "reason": "Exact matched-state TG scalars absent; Figure 10 coordinates not extracted."
+      },
+      {
+        "scope": "Wool/PP T50_C",
+        "raw_source_value": "399 \u00b0C",
+        "reason": "Table 4 and Figure 10 baseline agree but Figure 8c1 appears incompatible with 50% mass at this temperature. Metric left blank; no replacement."
+      },
+      {
+        "scope": "Wool/PLA label in section 2.3.1",
+        "reason": "Only table-defined Wool/PP composition exists; source explicitly did not prepare Wool/PLA. No separate Wool/PLA state or corrected unseen formulation inferred."
+      },
+      {
+        "scope": "T10/T50 abbreviated definitions; DTA versus DTG",
+        "reason": "Mass-loss definition comes from section 2.4. DTA temperatures are not DTG and no separate onset/max-rate temperatures inferred from informal prose."
+      },
+      {
+        "scope": "Five component-only TG rows",
+        "reason": "No own matched textile LOI; neat matrices excluded and cited fibre LOIs are background."
+      },
+      {
+        "scope": "Nominal feed ordering",
+        "reason": "Later web/fabric40:60 wording and earlier fabric/web40:60 wording differ. Retain actual Table 1 fibre/polymer fractions; no inversion or conversion."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-4898470/v1",
+    "source": "mpd_thpc2024",
+    "held_evidence": [
+      {
+        "scope": "PMT/PHT-1,2,4,5 and all durability-washed states",
+        "reason": "Own LOI or MCC observations lack matched exact own TG; no initial-to-washed transfer."
+      },
+      {
+        "scope": "All canonical onset, DTG temperatures and fixed-temperature residues",
+        "reason": "Approximate369 \u00b0C prose is not an exact defined metric; residual weights have no explicit assessment temperature, so scan-end800 \u00b0C is not assigned."
+      },
+      {
+        "scope": "Final journal10.1007/s10570-025-06393-2",
+        "reason": "Version equivalence and sample reuse require independent adjudication; do not substitute final DOI or count again."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1590/1517-7076-rmat-2025-0914",
+    "source": "flax_mhch2026",
+    "held_evidence": [
+      {
+        "scope": "S2/S3/S5/S7/S8/S9",
+        "reason": "Exact measured LOI not recovered; original Figure8 pixels unavailable. No graph coordinates inferred."
+      },
+      {
+        "scope": "S10",
+        "reason": "Section3.5 exact LOI24.4 conflicts with Table5 and conclusion >24.4. Preserve both; no admission."
+      },
+      {
+        "scope": "Broad hybrid labels",
+        "reason": "S4 and S6 are single-hydroxide formulations by Table1 and results paragraph; conclusion calls them hybrid. Preserve actual source-native table compositions, do not invent second filler."
+      },
+      {
+        "scope": "S5/S8/S9 R600 and group maxima",
+        "reason": "Generic increasing-residue claim conflicts with these rows being below S1; highest-per-group claim for S7 differs from S6. No data swap or reconstruction."
+      },
+      {
+        "scope": "Tonset definition",
+        "reason": "Source explicitly calls To onset degradation, without threshold/tangent algorithm; no T5/T10 conversion."
+      },
+      {
+        "scope": "Source cone and other properties",
+        "reason": "HRR/THR/burning time/rate and mechanical prose contain discrepancies; no conversion into canonical TG or LOI."
+      },
+      {
+        "scope": "Original image access",
+        "reason": "No full PDF bytes or Figure7/8 pixels retrieved. Indexed own tables and state-specific prose support the bounded extraction; visual conflict checking remains unavailable."
+      },
+      {
+        "scope": "S6 R600_pct",
+        "raw_source": "9.23% at600\u00b0C; Table3",
+        "canonical_disposition": "blank",
+        "reason": "S6 exceeds S7=9.21 despite thermal prose explicitly calling S7 highest CH-group residue. Raw retained; no numerical swap."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1039/d0ra02126a",
+    "source": "bamboo_kenaf2020",
+    "held_evidence": [
+      {
+        "scope": "Component-only nanoclay TG and epoxy/nanoclay morphology",
+        "reason": "Not finished textile specimens; no measured matching textile LOI."
+      },
+      {
+        "scope": "Whole-laminate nanoclay fraction, ply count and resin/hardener ratio",
+        "reason": "Nominal1wt% and totalfibre40% are retained as source reported; exact denominators/ply architecture or cure-agent ratio not reconstructed."
+      },
+      {
+        "scope": "Additional TG thresholds/onset, rates and graphical values",
+        "reason": "No graph estimates or extra thresholds inferred. Only original tabulated T10, DTG maxima and specified-temperature residues retained."
+      },
+      {
+        "scope": "Related earlier unfilled bamboo/kenaf family",
+        "related_dois": [
+          "10.1007/s10973-018-7918-z",
+          "10.1016/j.polymertesting.2019.106054",
+          "10.1016/j.compositesb.2018.11.039"
+        ],
+        "reason": "Related preparation, thermal/mechanical and weathering studies; exact repeated control TG has not been resolved from full originals. No earlier method/value substitution or automatic alias; future unfilled50:50 control pairing requires reuse review. Native earlier sample label not invented."
+      },
+      {
+        "scope": "Source-native units and summaries",
+        "reason": "LOI CF/d table\u00b0C conflicts with methodvol%; thermal495\u2212434 described60; coneTTI32versus38; these do not replace the precise own TG/LOI table values."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1002/app.1981.070260912",
+    "source": "chance1981",
+    "held_evidence": [
+      {
+        "scope": "All TG residual percentages",
+        "reason": "Table II600\u00b0C header versus530\u00b0C footnote row binding unresolved; Ic numerical residue also unreadable. Preserve source-native, no canonical residue."
+      },
+      {
+        "scope": "Earlier Chance/Timpa TM-DABT cotton and controls",
+        "reason": "Possible reused preparation or measurements; future sample-scoped comparison needed before admission from prior studies. No whole-source alias asserted."
+      },
+      {
+        "scope": "Pure compounds Ia\u2013Ie",
+        "reason": "Not finished textile states; no standalone fabric oxygen-index assignment to these thermal observations."
+      },
+      {
+        "scope": "Id and Ie all prospective paired data",
+        "reason": "Exact TableII rows exist but directly relevant thermal-discussion continuation is missing in retrieved original. Preserve privately until independently checked; do not import held_Id_Ie.csv."
+      }
+    ]
+  },
+  {
+    "DOI": "10.3390/polym12112452",
+    "title": "Flax/PP and Flax/PLA Thermoplastic Composites: Influence of Fire Retardants on the Individual Components",
+    "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7690717/",
+    "review_scope": "Indexed original methods and main results/discussion/conclusion; no full PDF-byte claim",
+    "reason": "Own thermal/PCFC work; LOI discussion gives cited neat-matrix values from reference36. No own measured textile LOI established; PCFC HRC/THR not substituted.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.3390/polym17091255",
+    "title": "Obtaining Polyacrylonitrile Carbon Nanofibers by Electrospinning for Their Application as Flame-Retardant Materials",
+    "original_url": "https://www.mdpi.com/2073-4360/17/9/1255",
+    "review_scope": "Original indexed Table5 and explicit equation2, author-uploaded original text",
+    "reason": "Eight Table5 LOIs are calculated as17.5+0.4 times residue at1000\u00b0C, not measured oxygen-index tests. All eight excluded.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.matpr.2020.08.649",
+    "title": "Mechanical and fire performance of aluminium hydroxide filled E-Glass/phenolic hybrid composites",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S2214785320365317",
+    "review_scope": "Original indexed author fulltext method/results gate; publisher identity verified; no full PDF-byte claim",
+    "reason": "Own methods and results cover mechanical and UL94 tests, no own TGA or measured LOI established. Later research abstracts appended to page are not this original source.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.14447/jnmes.v24i4.a03",
+    "title": "Ammonium Polyphosphate Reinforced E-Glass/Phenolic Hybrid Composites for Primary E-Vehicle Battery Casings \u2013A Study on Fire Performance",
+    "original_url": "https://www.iieta.org/download/file/fid/71695",
+    "review_scope": "Official original7-pagePDF indexed complete methods/results/conclusion; no pixel or PDF-byte claim",
+    "reason": "Six exact own LOIs19.5/20.6/21.4/22.5/24.1/25.3 exist, but thermal work is accelerated heat ageing followed by impact tests; no TGA experiment or numerical TG pair.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1021/acs.langmuir.6c02189",
+    "title": "Photothermal-Responsive and Flame-Retardant CB/APP/PNIPAM Electrospun Composite Membrane for Efficient Oil\u2013Water Separation",
+    "original_url": "https://pubs.acs.org/langd5/article/doi/10.1021/acs.langmuir.6c02189/5276946/Photothermal-Responsive-and-Flame-Retardant-CB-APP",
+    "review_scope": "Official indexed abstract and SI TableS1 plus public Figshare metadata; no main fulltext or PDF-byte claim",
+    "reason": "Four SI TG rows Control/1/2/3 recovered, but exact main preparation/state assignments and TG atmosphere/rate/LOI assay method remain unavailable. Main abstract only gives control16.1 and final26.3. Official public SI identity10.1021/acs.langmuir.6c02189.s002 verified; file download403, no attempts to bypass. No source-state pair established.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1021/acsomega.8b01511",
+    "title": "Poly(ether ether ketone)-Grafted Graphene Oxide Interconnects Enhance Mechanical, Dynamic Mechanical, and Flame-Retardant Properties in Epoxy Laminates",
+    "original_url": "https://pubs.acs.org/doi/abs/10.1021/acsomega.8b01511",
+    "review_scope": "Original indexed flammability and thermal-results paragraph and figures2/3 captions; bounded numeric gate, no full PDF/pixel claim",
+    "reason": "Own control LOI30 and approximate treated31.5/32 described, but thermal paragraph only says stable up to300\u00b0C with graph-only degradation curves. No source-defined exact TG scalar established; stability phrase is not mapped toT5/onset and graph values not estimated.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/app.47801",
+    "title": "Fire properties of carbon fiber reinforced polymer improved by coating nonwoven flame retardant mat for aerospace application",
+    "original_url": "https://onlinelibrary.wiley.com/doi/10.1002/app.47801",
+    "review_scope": "Original TableI, preparation, characterization, TablesII/VIII and thermal conclusions from publicly indexed14-page published-paper mirror, identity checked against publisher/author preview; no PDF-byte/pixel claim",
+    "reason": "Coated pairs held: shared labels represent both9-ply and6-ply core plates with2 fixed outer mats, changing full-specimen composition. TG cutting instructions do not identify plate set; LOI geometry identifies flame set but cannot assignTG. Independent reviewer confirmed this is beyond unspecified aliquot handling. Uncoated control may receive a separate bounded review later; no approval here.",
+    "status": "source_screen_held",
+    "private_candidate_states": 0,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1007/s12221-026-01381-0",
+    "title": "Boric Acid Influence on Ammonium Phytate Finish for Eco-Efficient Flame Retardancy of Cuprammonium Fabrics",
+    "status": "no_own_measured_LOI_established",
+    "source_url": "https://link.springer.com/article/10.1007/s12221-026-01381-0",
+    "reason": "Own fabric TG and vertical combustion results are reported, but the LOI values in the indexed original are literature examples attributed to references 29 and 33. No own oxygen-index method or result is established. Do not pair own Table 4 thermal values with cited cotton LOIs.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-1562179/v1",
+    "related_version_doi": "10.1007/s10570-022-04829-7",
+    "status": "whole_scan_heating_rate_unresolved",
+    "source_url": "https://assets-eu.researchsquare.com/files/rs-1562179/v1/4cc299dc-1e9f-4744-8504-4a90eda86a0d.pdf?c=1654028046",
+    "document_sha256": "6c42d0ebfcfc4205094a0643b29912400ce4d6f51d9fbc8c4a65bd1fda9a17ac",
+    "reason": "Preprint section2.4 assigns10C/min only to reaching100C, followed by ambiguous for3min and continued to700C for1min wording. Later-interval ramp is unresolved; separate TG-IR100\u2013650C/10 cannot be transferred to preceding standalone TG comparison. LOI16.2/36.1 and initial onset212.85/212.12 are source-native facts only. CP-C2 R600 wording increased by29.94 versus1.22-fold increase is unresolved, and claimed globalTmax conflicts with earlier deeper DTG peak; no graph replacement. Two prospective pairs held; independent reviewer confirmed method-scope hold only.",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-4072779/v1",
+    "related_version_doi": "10.1007/s00396-024-05292-5",
+    "status": "TG_coating_powder_versus_finished_fabric_unresolved",
+    "source_url": "https://assets-eu.researchsquare.com/files/rs-4072779/v1/c0162dc9-2f7a-4e55-bb1a-8f075e07551f.pdf?c=1711033235",
+    "document_sha256": "afa798ea0818f4e116f280bdc8e03e489162272d545ced2da618a68f607c457f",
+    "reason": "The PVA/IPPP@SiO2-n labels name gel coatings before cotton application. TG method explicitly tests powders and thermal section tests coating composites, while LOI Table3 is finished cotton. The four-component cotton sentence interprets curve shapes without stating finished fabric was powdered or weighed for TG; whole-fabric mass basis remains unresolved. Four explicit solid-residue numbers6.9/18.1/25.3/34.9 cannot be paired to textileLOIs24.1/26.4/29.1/30.2. Figure9 caption also shifts b\u2013f labels; no graph estimation. Independent scope review confirmed hold.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]

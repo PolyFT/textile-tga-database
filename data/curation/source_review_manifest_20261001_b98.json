@@ -1,0 +1,163 @@
+{
+  "batch": "b98",
+  "baseline_counts": [
+    822,
+    1009,
+    219
+  ],
+  "summary": {
+    "added_verified_unique_states": 22,
+    "added_verified_condition_records": 22,
+    "new_source_measurement_states": 22,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 6,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 1,
+    "author_preprint_states_added": 4,
+    "author_preprint_conditions_added": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_carbon_foam2019.csv",
+      "DOI": "10.1007/s10973-018-7735-4",
+      "draft_sha256": "2e647c8b1c1bb20445e6aad8e6e14da32b8b0f77b8c6fe74a39a40e9979b8ff4",
+      "published_input_sha256": "df81b2685a12976bcecc0fee3b7101f646d58c4dc31ae8c98b3aac59f7090500",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "366f0cd516a3835f33178d03682bf1f81484deb878dfb1497cf33fbd4b0c3245",
+        "22c53a58b6a3e5d146d53a5bc3b54c526e0bac94ac51b9ef052c4969dbc09ac0"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_natural_laminates2021.csv",
+      "DOI": "10.3390/molecules26154581",
+      "draft_sha256": "2a165aaf669e6905fff871220d997dce951c77ec2cf090e7dbd60d224e9bd7d9",
+      "published_input_sha256": "1b57dd152dcef3cb15931853f020f45b6a06436bbf04ae8c8a2d62fb43cffb63",
+      "states": 5,
+      "conditions": 5,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "07182513cfffb4ed86e6dbb18ecbc3713af4ab0cc60e042a262c5801792ecd14",
+        "e7750b73ca41efcb12bf164e31584bdad7e4ef8ee589e5c59d1616a296f42980",
+        "10aaf355dac8f9bcb06b5d55685a857d45e80c23cdc814b695ddc112fb2f09e0",
+        "754f661fbea94c2ea70e7fe6d7de7a821e4377736aaa6b638c41c645e00cae9e",
+        "939ee227a5281bb0a9d749887085085629859eca17a620918793f633971b5169"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_mpd_thpc2024.csv",
+      "DOI": "10.21203/rs.3.rs-4898470/v1",
+      "draft_sha256": "ccbb3d884d540db6802d8245b0182baf98cf324082db835dadf7543d62e54c37",
+      "published_input_sha256": "15b030eb6a1e88425651920824f007483220ab1de48c32dcc0dd0b8e20563167",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "author_preprint",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "46f4982af46a1d0c6356af5eaa94f8b4c46743cfe2eaba4ce036d36bd38a7347",
+        "358f2e4377d173df7b8e6583857d6174a41d812325dec2502ff84559b73a0640",
+        "95a531f5aaca0e9bdf7f65a304ba2de78b4430e73f7e0051fa91ec97f897248e",
+        "5d0a4638dc3e78f961118fd3d92924f769a72818a20bedb47fd9062bd1085419"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_flax_mhch2026.csv",
+      "DOI": "10.1590/1517-7076-rmat-2025-0914",
+      "draft_sha256": "358c3ce38df3580eb849ec02362487a0438f4be3e9a2fc6a096cfa9310caea49",
+      "published_input_sha256": "2306d54d5ae5a8f45ef198a37f781c4dc793435be753bbdf7114bf8538c8834f",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "7d85e2545452169d8cc4378609c58572ca7e6d37caf77fbb568153052cd8e33e",
+        "0b01119daf6a6d8527b190e8495267d7cddcccb61ad9785258015ca7b631d665",
+        "5ca00bec759e0ab6cfdb709cf25861b2147bd89c8e15373d7124f314218bf866"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_bamboo_kenaf2020.csv",
+      "DOI": "10.1039/d0ra02126a",
+      "draft_sha256": "21ada8325f942cd3bad17a671a3f39384326c2615046b668acb1b06b0946bf1f",
+      "published_input_sha256": "d0b5b33233d9bd7c2a4b79135181d07497b111a9116ab6d601996a421569c710",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "d0a2cd97a9aa32e8f396de5636a0032c8ca70c8791c0473b976d0c12b844fda7",
+        "9d39c52af3ef11e7d722a6e20d19d8e6b12ae6ada82bd5273bad9a0c479ae57c",
+        "584576ffe53c98ea0ab2944ca5bc099e7245229669912de04445a52f6c33fa19",
+        "4385b6a82d97b64401d160edf5bdffa7a9ea32de9f0991fca11893ddb2ae28d9"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b98_chance1981.csv",
+      "DOI": "10.1002/app.1981.070260912",
+      "draft_sha256": "9d15e61928f13264076ccd283f73201a40c5270277e9a8c5760729efd1dfc601",
+      "published_input_sha256": "5a7e1cda9e464480a2759f798919b26603c00be86d98f4014c96597c7e4d909c",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "6d4c2d2c5b2a2a9e34f91ababbf2080f4fea7f462989a85b22c577297f2b13c8",
+        "345b38402f99b2ad3b01732e3e0bf4a8ac13fef80221d81afadd05a691bc0fa4",
+        "e68f8b13ddadbbd5285fe03ffb11a630d793117455fdbbdbcfd415016a3f75bf",
+        "3c078810106f419cd3d97e701bfa9168f8a6becc6a578a4b6e6be251dbf6d1d9"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1016/j.compositesb.2018.09.013",
+      "sample_state": "Jute/PP",
+      "evidence_location": "10.3390/molecules26154581 Tables 1/3/4; 10.1016/j.compositesb.2018.09.013 exact repeated earlier composition and LOI",
+      "details": "Exact repeated composition and measured LOI; earlier original has no TG assay and cannot create an additional independent paired observation.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2018.09.013",
+      "sample_state": "Jute/PLA",
+      "evidence_location": "10.3390/molecules26154581 Tables 1/3/4; 10.1016/j.compositesb.2018.09.013 exact repeated earlier composition and LOI",
+      "details": "Exact repeated composition and measured LOI; earlier original has no TG assay and cannot create an additional independent paired observation.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2018.09.013",
+      "sample_state": "Sisal/PP",
+      "evidence_location": "10.3390/molecules26154581 Tables 1/3/4; 10.1016/j.compositesb.2018.09.013 exact repeated earlier composition and LOI",
+      "details": "Exact repeated composition and measured LOI; earlier original has no TG assay and cannot create an additional independent paired observation.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2018.09.013",
+      "sample_state": "Sisal/PLA",
+      "evidence_location": "10.3390/molecules26154581 Tables 1/3/4; 10.1016/j.compositesb.2018.09.013 exact repeated earlier composition and LOI",
+      "details": "Exact repeated composition and measured LOI; earlier original has no TG assay and cannot create an additional independent paired observation.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "admitted_source_DOI": "10.21203/rs.3.rs-4898470/v1",
+      "related_version_DOI": "10.1007/s10570-025-06393-2",
+      "status": "open_source_wide_alias_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
