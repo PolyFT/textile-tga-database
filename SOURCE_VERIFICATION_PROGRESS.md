@@ -1,6 +1,6 @@
-# Source verification progress — 2026-09-30
+# Source verification progress — 2026-10-01
 
-The reviewed dataset contains **507 unique DOI/sample/washing states**, **583 TG condition records**, and **119 papers**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **536 unique reviewed source/sample/washing states**, **616 TG condition records**, and **129 original sources (127 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **507 unique DOI/sample/washing states**, **583 TG
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 306 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 335 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -525,3 +525,12 @@ Six genuinely new independent states add six verified TG conditions; zero eviden
 - DOI10.1016/j.apsusc.2017.09.155: initialPAN,A-PAN,P-A-PAN plain-woven400g/m2 fabrics pair ownTable2/TG nitrogen10C/min andTable4 zero-cycleLOI18.1/25.2/34.1. Water-removal86/93C sourceTmax1 kept separate; sourceTmax2/3 numbering retained. A-PAN residue47.39vs47.59 withheld from cleanR800. PA reagent identity wording conflict retained. GenericfiberLOI17 is not ownfabric18.1. WashedLOI5/10/20cycle labels32.3/31.4/29.8 lack matchedTG and are not extra pairs.
 
 Four further source holds cover graph-onlyTG/LOI, MCC/PCFC substitution, manuscript figure/caption or scan-range conflicts, and unavailable listedSI/unresolved formulation links. Proposed total:507 independent states/583 TGconditions/119 DOI; 1493 remain to2000. Normal exact-head CI, merge and postmerge readback required.
+
+
+## b73 original textile sources and registered proceedings
+
+This batch adds 29 genuinely new sample states at 33 TG conditions: 21 states from eight DOI sources and eight states from two official conference proceedings. The complete inventory now contains 536 reviewed sample states and 616 conditions. The DOI cohort contains 528 states from 127 DOI sources; the non-DOI cohort contains eight states from two independently registered original documents.
+
+All numerical evidence, preparation and condition mappings passed independent original-source review. Contradictory residues, unmatched wash states, uncertain endpoints and possible reused controls remain held. The OPF refinement admits only its explicit low-temperature T5; it does not repair the conflicting residue temperature. Fulltexts remain private.
+
+The b73 writer lease remains active pending exact-head CI, merge and postmerge verification.

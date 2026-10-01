@@ -556,6 +556,69 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_cepam2018.csv",
+      "accepted_rows": 1,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_cloisite2020.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_nam_beltwide2010.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_opf2020_t5.csv",
+      "accepted_rows": 1,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_pesbo2023.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_phemsurf2017.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_ttf_bpei2018.csv",
+      "accepted_rows": 2,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_uv_taep2011.csv",
+      "accepted_rows": 8,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261001_b73_wool_zirconium.csv",
+      "accepted_rows": 3,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -836,9 +899,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1449,
-  "legacy_field_complete_condition_records": 829,
-  "numeric_pair_candidate_rows": 974,
+  "all_loaded_rows": 1482,
+  "legacy_field_complete_condition_records": 862,
+  "numeric_pair_candidate_rows": 1007,
   "eligible_pending_condition_records": 237,
   "quarantined_condition_records": 9,
   "quarantine_reason_counts": {
@@ -846,35 +909,35 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 4
   },
-  "strict_tg_loi_pairs": 583,
-  "verified_exact_condition_records": 583,
-  "verified_exact_sample_states": 507,
-  "verified_exact_dois": 119,
-  "verified_exact_sources": 119,
-  "verified_non_doi_sources": 0,
-  "verified_doi_condition_records": 583,
-  "verified_non_doi_condition_records": 0,
-  "verified_doi_sample_states": 507,
-  "verified_non_doi_sample_states": 0,
+  "strict_tg_loi_pairs": 616,
+  "verified_exact_condition_records": 616,
+  "verified_exact_sample_states": 536,
+  "verified_exact_dois": 127,
+  "verified_exact_sources": 129,
+  "verified_non_doi_sources": 2,
+  "verified_doi_condition_records": 608,
+  "verified_non_doi_condition_records": 8,
+  "verified_doi_sample_states": 528,
+  "verified_non_doi_sample_states": 8,
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 142,
-  "candidate_sample_states": 778,
-  "rows_with_numeric_loi": 1020,
-  "rows_with_any_tg_numeric": 1339,
+  "candidate_dois": 150,
+  "candidate_sample_states": 807,
+  "rows_with_numeric_loi": 1053,
+  "rows_with_any_tg_numeric": 1372,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 101,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1493,
+  "remaining_to_target": 1464,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 334,
-    "T5_C": 198,
-    "Tonset_C": 105,
-    "R600_pct": 158,
-    "R700_pct": 101,
+    "Tmax1_C": 343,
+    "T5_C": 213,
+    "Tonset_C": 109,
+    "R600_pct": 173,
+    "R700_pct": 108,
     "R800_pct": 82
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "8abdbddde5e6ef0c6004bfcc643042acc19b44c5ecfce3d4e8f1970fadc62f46"
+  "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
 }

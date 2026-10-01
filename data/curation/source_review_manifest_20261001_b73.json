@@ -1,0 +1,254 @@
+{
+  "batch": "b73",
+  "baseline_counts": [
+    507,
+    583,
+    119
+  ],
+  "summary": {
+    "added_verified_unique_states": 29,
+    "added_verified_condition_records": 33,
+    "new_source_measurement_states": 29,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 8,
+    "non_DOI_sources_added": 2,
+    "DOI_states_added": 21,
+    "non_DOI_states_added": 8
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_wool_zirconium.csv",
+      "DOIs": [
+        "10.1016/j.tca.2011.03.029",
+        "10.1177/0734904110373205"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "786321e3ced05292e286f164bb5164ddfdc2357273c1f227a7933aa992004acc",
+      "published_input_sha256": "bf6f4b2d73f519937849b021dcabed3c20b40362883e00042b216365ffdec55a",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "4a510ff8e6a5982444f06a4a31a32f24bfa1043cbab75a47bc56d433bd28c6c7",
+        "316da69eb65d52be9be06a77d335b2e09c9b977965937d2b7df8c96596ca3a85",
+        "ec4768143bee83e5630fde8ce9eb622eb040aec9b3d3c2b52324a928b05a0db7"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_uv_taep2011.csv",
+      "DOIs": [
+        "10.1016/j.tca.2010.11.014"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "fedacfbc966d0969168a38fd22057cd7d85451e67747a9244d37be1e8251a2cb",
+      "published_input_sha256": "75d9c892d465fb8c5747175f3f36e04e9c056fde6da49bd64dad3ce80538a0ba",
+      "states": 4,
+      "conditions": 8,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "3744753d2db64aaed900b6e90d714bfcee4bfd120790f9c7fe9cbf8d2ac93fe8",
+        "10ed80fb1ea112f4ec17b81ff1e661bd334f358578a4b3947ecf790fa76191f3",
+        "013059d67d888ddd7a7cf8500e2c6ad6248388f154bc8f36b2569c10cec60f05",
+        "668c99ae5e70898cb0d1fb0b0d1b41bafd2d1e4a9318fb4e06bdd3896a50a810",
+        "58e3a9ca31be90425785bf5e02d81fe99c1e01df9c524af0793d79908935c6a1",
+        "6e250a37184a54f3ae8b540617bfa2fc521b498ee70cbd770aeebc306f5fbacc",
+        "51f3e3ee6f32bc22f19189ed27e87141ba7b820f62beaf3b6882b540d391551d",
+        "1671bcbfa39a2eb0731bdcb88fec87418ec94e80a303db8dfd516c04617bab69"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_cepam2018.csv",
+      "DOIs": [
+        "10.5755/j01.ms.24.4.18606"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "7fadcb7fbef88bb14cd68cf6eeb8940993c268bdc923942b6237bf1f8ba786d8",
+      "published_input_sha256": "caa8a1e4599057677ae0f0cc74dc721b7ae536404c28813af6181438bdb62cba",
+      "states": 1,
+      "conditions": 1,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "7db1e449165cfbca257ded811265e9745ba9a61ebcc9ad132fb77e3abe77fe22"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_opf2020_t5.csv",
+      "DOIs": [
+        "10.1177/1558925019898946"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "f3c074bc618b104003bc2283c4bcf7e7906352f31563d8fb42f438621d39db62",
+      "published_input_sha256": "ad993f19cf8123c84278b60dc34c1f8cfceacbaf33fc0bc7fbc4ce8b1a33d6b9",
+      "states": 1,
+      "conditions": 1,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "5f6fda76be5b49f882dfbc861908e648c9c96535f3c9fbc87c3e45cd8d8ef151"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_pesbo2023.csv",
+      "DOIs": [
+        "10.17482/uumfd.1258916"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "fcf0f4a9ae62d6daaf746b03716b63f86e2b4bc223156c030797bc3ba7370f86",
+      "published_input_sha256": "9a427ec49f05ac6d155beaa9f472cf4ec3fdf11d0ed4d2346d98a76f3bf341be",
+      "states": 6,
+      "conditions": 6,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "2c3ce0bfd8cd127655a551162b3b6fbde6ac5572a0437f07761f3b3daf86c02d",
+        "9348bd9a014903f675281a9fc90fd8f8b4e042ab262214598ee7334dec321e51",
+        "f213ac0d0eb2875460eec25e2e9b43bba2bc13ce6247cb497560002ea5d84fe4",
+        "6b72c198a6c808ce3349171429fbe441fe714b38a0283288b3ec714ac2386eb8",
+        "c380fb00e86129d27f98e18720a713573b173923691b6b9b004811d522fffd7b",
+        "d9629908e355b48a06a5251297cc2a876aec3e02a6ef8271d59abbc98f89bfbb"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_cloisite2020.csv",
+      "DOIs": [
+        "10.32710/tekstilvekonfeksiyon.675352"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "11729e83ecc8361d5d836a835fa70623f81b52ac7bef05d86b8d68c6fd38e8ee",
+      "published_input_sha256": "18aae24b485ee69892a9a7ff4c5cc0e97374cdae97fe6c2e43f4777c40d772d4",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "16530f2780418ca329b0f94c30b3a2acfba059edb54a34829ef1e122ea5547c9",
+        "d36f00df3503c2d85ef075bb01a0369ce6cba9d0a04785b5a99c55630daa3580",
+        "e06faa239ef2844f953245533a9e6bf92de53165adcbac8b60587b0c16e8fc58"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_phemsurf2017.csv",
+      "DOIs": [
+        "10.5958/0974-4150.2017.00115.8"
+      ],
+      "stable_source_id": "",
+      "draft_sha256": "d9b810781781edd04faa024f7f4d9c255bccfacc40e9eeb274aafea7a121e065",
+      "published_input_sha256": "d4d4b5cfbd786d9156e2194256ea8b1d086c2158941edd00dbcc6c2c98baac4b",
+      "states": 3,
+      "conditions": 3,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "9340cb87fc67171f4fd77c19b4d72f8d87a6ffaec851bce90eec7baac5b1793c",
+        "5430e4c078d3536e9469658e563ee2f4aae133de51fd8c6653fa3afbe4d025ca",
+        "085414e89629fc2e5333ce431a0e5d4b780069f3836a34b4615b9845ce431620"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_nam_beltwide2010.csv",
+      "DOIs": [],
+      "stable_source_id": "proceedings:cotton.org:beltwide:2010:10123",
+      "draft_sha256": "609a73e09d4a3946b9d3c89c20e433df3d294f60ce11ba380e69de8d3cef91ec",
+      "published_input_sha256": "d22fd614adab8710a25dfe9a34b8a36eab0f88e8b8919674374f4f1edcd491f1",
+      "states": 6,
+      "conditions": 6,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "823972e4745d8e27a6caed705f402e3e7f838bb6539c2afe61a5fd72caddb1b1",
+        "d0bce501cd8877aed0d427d9fa2f685330bc801e603985b6e76ad0649cff22e5",
+        "91a8e7a255d460c8936fb7e7df669a1a57997d45e63ce54afddf3344e75baa56",
+        "1fe8e5f4aabc82b3a96503d6cde683242edf7c8ff43a4ba8ef619c0b0d316627",
+        "d1400f6763cb85aacf0f76f1834ff4cc0b776e2b6729f58dbcbd037ee0bb43d4",
+        "d307c6fe406cc86de2aada85e0ebefa055f09bfc6978598a62d40358613435e2"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b73_ttf_bpei2018.csv",
+      "DOIs": [],
+      "stable_source_id": "proceedings:ttf.hr:phd-students-day:2018:magovac-66-67",
+      "draft_sha256": "78ab5f40ce1ef0731c437ac5ee7b03aba51bac75df17f81dd38e6b7419006798",
+      "published_input_sha256": "9fcb1c9fbf60de7aac50aa69ea9809776dff32066178bbced2662f5ba30ddbc6",
+      "states": 2,
+      "conditions": 2,
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "2f76be8ab76bfe01bd6eb35095d9f766a309232eaad27b336924d03f50592f81",
+        "b30ef41ced46d0bc90ec4bfc0bb7cc75b7ca4689cdb48940b94351e1827beae7"
+      ]
+    }
+  ],
+  "limitations": [
+    "Only exact original-source numerical pairs are admitted; fulltexts remain private.",
+    "DOI and non-DOI cohorts are reported separately; no synthetic DOI is created.",
+    "Multiple atmospheres add conditions, not sample states.",
+    "OPF admits only explicit low-temperature T5; contradictory residues remain held.",
+    "Generic residues retain unknown assessment temperatures, while explicit 594.30 C and 600 C values retain their own temperatures.",
+    "Registered original proceedings require exact document identity and separate fingerprint-bound observation reviews."
+  ],
+  "additional_source_screens": [
+    {
+      "DOI": "10.1039/d5ra00402k",
+      "status": "held_missing_TG_atmosphere_after_complete_SI",
+      "reason": "Original main XML and complete official SI (10 pages) retrieved. Main gives heating rate 10 C/min but no TG atmosphere; SI contains theoretical calculations, EDX and LOI/washing tables, no thermal atmosphere. Missing atmosphere remains unresolved; no pairs admitted. Pooled residue ranges are not individual numerical observations.",
+      "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11969332/supplementaryFiles",
+      "supplement_pdf_sha256": "9535b290ddea8fc1e6ac309d851d5431f67b0eac3c0e80e9b6fbf071f14637c0"
+    },
+    {
+      "DOI": "10.1007/s10570-016-0949-3",
+      "status": "held_original_fulltext_missing",
+      "reason": "Original first-page publisher preview and TG figure caption available; complete methods and exact LOI/TG tables not retrieved. Main abstract100 g/L LOI cannot be paired with TGcaption80 g/L. No pair admitted.",
+      "source_url": "https://www.researchgate.net/publication/301704164_A_novel_durable_and_high-phosphorous-containing_flame_retardant_for_cotton_fabrics"
+    },
+    {
+      "DOI": "10.1007/s10570-021-03780-3",
+      "status": "held_original_fulltext_missing",
+      "reason": "Only original abstract/first-page preview and figure captions retrieved. Own numerical LOI not established; fulltext TG/method evidence incomplete. No pair admitted.",
+      "source_url": "https://www.researchgate.net/publication/349964156_Preparation_and_flame_retardant_properties_of_cotton_fabrics_treated_with_resorcinol_bisdiphenyl_phosphate"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2023.110366",
+      "status": "held_original_fulltext_missing",
+      "reason": "Publisher metadata and author-university research summary available, but original fulltext numeric TG/LOI and condition crosswalk not retrieved. No pair admitted.",
+      "source_url": "https://www.ryongnamsan.edu.kp/univ/en/research/success/ddb30680a691d157187ee1cf9e896d03"
+    },
+    {
+      "DOI": "10.1177/1528083703035390",
+      "status": "held_no_exact_TG_metric_rate_crosswalk",
+      "reason": "Original 18-page publisher PDF indexed text reviewed. Six Table3 LOIs are numerical, but Figures2-8 TG curves have no printed per-state metrics; degradation interval prose lacks a specific heating-rate link. Methods list five ramps for kinetics, not a unique rate for each qualitative thermal statement. Cotton/PESFR blend30/70 TG versus overall woven11/89 also needs sample-identity distinction. Do not digitize curves or import IKP kinetic parameters as TG temperatures.",
+      "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/1528083703035390"
+    },
+    {
+      "DOI": "",
+      "official_identifier": "Texas Tech Textile Topics volume XIV no10 June1986",
+      "status": "held_no_exact_TG_and_missing_ramp",
+      "reason": "All four original scanned pages visually checked. TablesI/II contain measured and calculated OI separately; Vinyon37.0 is explicitly literature-sourced, not own measurement. Air TG appears only as unlabeled curves and approximate pooled thermal descriptions; no heating rate reported. No exact-condition pair. Nominal70/30 versus actual69/31 cotton/Cordelan must remain distinct unless original bridge established.",
+      "source_url": "https://www.depts.ttu.edu/fbri/newsletter/PDFs/ttjun86.pdf"
+    },
+    {
+      "DOI": "10.1177/073490418300100205",
+      "status": "held_original_fulltext_not_retrieved",
+      "reason": "Publisher abstract and first indexed original page confirm cotton/wool blend inventory and TG/LOI experiments. Original numerical tables and methods not retrieved; CiteSeer document returned404, publisherPDF cache miss. No secondary values admitted.",
+      "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/073490418300100205"
+    },
+    {
+      "DOI": "10.1007/s12221-008-0070-9",
+      "status": "held_wash_state_crosswalk",
+      "reason": "Complete author-uploaded original text read: Table4 has exact control and25.62%weight-gain TG onsets/Tmax/R700; Table3 exact LOI columns explicitly1HL and30HL. Thermal sample wash history is not linked to1HL or30HL, and Figure2 initial LOI plotted without text numeric labels. Do not assign1HL LOI to initial TG. Control prose22.8 repeatsTable3 1HL comparator and is not separate evidence of initial unwashed LOI.",
+      "source_url": "https://www.researchgate.net/publication/238360589_Flame_resistant_modification_of_silk_fabric_with_vinyl_phosphate"
+    },
+    {
+      "DOI": "10.3390/coatings15060699",
+      "status": "held_no_own_measured_LOI",
+      "reason": "Original publisher indexed methods/results give TG and vertical burning, but no own measured LOI. Introductory LOI29.0 belongs to a cited PET fabric and cannot be assigned to this nylon/cotton inventory.",
+      "source_url": "https://www.mdpi.com/2079-6412/15/6/699"
+    },
+    {
+      "DOI": "10.3390/coatings13111852",
+      "status": "held_no_own_measured_LOI",
+      "reason": "Complete publisher-author fulltext on ResearchGate covers thermal stability, thermal management and antibacterial properties. No measured LOI found in original text; absent oxygen-index testing must not be replaced by TG/DSC/fire-protection claims.",
+      "source_url": "https://www.researchgate.net/publication/375044935_AgNWs-Silane_Coatings_for_the_Functionalization_of_Aramid_Woven_Fabrics"
+    },
+    {
+      "DOI": "10.3390/coatings10121257",
+      "status": "held_no_own_measured_LOI",
+      "reason": "Original publisher methods report N2/10 C/min TG and vertical flame test GB/T5455. No measured LOI established; original thermal values and afterflame/char length cannot establish TG-LOI pairs.",
+      "source_url": "https://www.mdpi.com/2079-6412/10/12/1257"
+    }
+  ]
+}

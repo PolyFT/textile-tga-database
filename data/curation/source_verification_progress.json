@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T00:07:47.002Z",
-  "latest_batch_id": "20261001_b72",
-  "verified_condition_records": 583,
-  "verified_unique_sample_states": 507,
-  "verified_dois": 119,
-  "numeric_pair_candidate_rows": 974,
+  "as_of_utc": "2026-10-01T00:10:37.675727+00:00",
+  "latest_batch_id": "20261001_b73",
+  "verified_condition_records": 616,
+  "verified_unique_sample_states": 536,
+  "verified_dois": 127,
+  "numeric_pair_candidate_rows": 1007,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 306,
+  "cumulative_newly_completed_or_new_source_sample_states": 335,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -17,8 +17,8 @@
     "existing_states_evidence_upgraded": 25,
     "condition_partial_candidates_excluded_from_target": 2
   },
-  "counting_rule": "Unique DOI/sample/washing state. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target samples. Evidence promotion differs from discovery.",
-  "publication_stage": "merged_and_postmerge_verified",
+  "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
+  "publication_stage": "source_batch_awaiting_exact_head_validation",
   "last_merged_batch": {
     "batch": "b72",
     "pr": "https://github.com/PolyFT/textile-tga-database/pull/40",
@@ -45,6 +45,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "B73 adds 21 DOI-backed and eight registered proceedings sample states. Preserve all original-state conflicts, unknown residue temperatures, metric-specific holds, and separate DOI/non-DOI cohort reporting.",
     "b72 adds six genuinely new local cotton nonwoven/PAN woven states, six TG conditions and eight unpairedTGrows. Preserve native urea/cellulose peaks/endpoints, moisture peaks, source SD/unit/recipe conflicts and unmatched washedLOI. Prior2011.08.014 access hold resolved by complete local original, not kinetics follow-on. Local metadata library strictly read-only; identity-check each original; private caches stay external. Refresh main/queue/PR/lease before next publisher.",
     "B71 adds nine new fiber-network, woven-laminate and Nomex membrane states at twelve TG conditions; 501 independent states now exceed500. Keep moisture T5, unknown BC residue temperature, source T2 and Nomex repeats distinct. User confirmed metadata SMB root; prioritize identity-checked local textile fulltexts using external-only caches. Refresh main/queue/open PR/lease before next publisher.",
     "B70 adds seven cotton states at nine thermal conditions. Keep generic residue assessment temperature unknown, preserve120 C prehold and official uncertainty, and retain original-paper conflicts and unmatched states as holds.",
@@ -71,7 +72,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -728,10 +729,10 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 119,
-  "verified_non_doi_sources": 0,
-  "verified_doi_sample_states": 507,
-  "verified_non_doi_sample_states": 0,
+  "verified_sources": 129,
+  "verified_non_doi_sources": 2,
+  "verified_doi_sample_states": 528,
+  "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
     "accepted_condition_rows": 6,
@@ -763,5 +764,19 @@
       "snapshot_sha256": "8abdbddde5e6ef0c6004bfcc643042acc19b44c5ecfce3d4e8f1970fadc62f46",
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
+  },
+  "remaining_to_target": 1464,
+  "batch_b73": {
+    "added_verified_unique_states": 29,
+    "added_verified_condition_records": 33,
+    "new_source_measurement_states": 29,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 8,
+    "non_DOI_sources_added": 2,
+    "DOI_states_added": 21,
+    "non_DOI_states_added": 8,
+    "tests_passed": 302,
+    "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d",
+    "additional_sources_screened_and_held": 11
   }
 }
