@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T00:10:37.675727+00:00",
+  "as_of_utc": "2026-10-01T00:24:19.174Z",
   "latest_batch_id": "20261001_b73",
   "verified_condition_records": 616,
   "verified_unique_sample_states": 536,
@@ -18,30 +18,33 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "source_batch_awaiting_exact_head_validation",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
-    "batch": "b72",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/40",
-    "merge_sha": "80bf4503d3f49aef52c1db79ab190644b2b626c0",
-    "validated_head_sha": "d15622bd4d3757ae037337ef0d153e1e79123c38",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36794220940",
+    "batch": "b73",
+    "pr": 41,
+    "merge_sha": "e1ad10e85baddd6a56f323d874d0f975ace6fb7c",
+    "validated_head": "0c33dc38236518a8dc5c3421119037de939e9f00",
+    "validation_run": 36795358039,
     "postmerge_runs": [
-      36794324222,
-      36794324224,
-      36794324233
+      36795722287,
+      36795722306,
+      36795722277
     ],
-    "verified_sample_states": 507,
-    "verified_condition_records": 583,
-    "verified_dois": 119,
-    "snapshot_sha256": "8abdbddde5e6ef0c6004bfcc643042acc19b44c5ecfce3d4e8f1970fadc62f46",
-    "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
+    "verified_sample_states": 536,
+    "verified_condition_records": 616,
+    "verified_dois": 127,
+    "verified_sources": 129,
+    "verified_non_doi_sources": 2,
+    "verified_non_doi_sample_states": 8,
+    "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
   },
   "writer_lease": {
     "owner": "dot-source-review-b73-20261001",
-    "status": "active",
+    "status": "released",
     "claimed_at_utc": "2026-10-01T00:10:28.305Z",
     "scope": "29 independently approved states at33 conditions:21 DOI-backed states and8 official proceedings states with independently approved document identities. Separate DOI/non-DOI cohorts; no original fulltexts.",
-    "instruction": "Single publisher; release after exact-head CI, merge and terminal verification."
+    "instruction": "Single publisher; release after exact-head CI, merge and terminal verification.",
+    "released_at_utc": "2026-10-01T00:24:19.174Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -72,7 +75,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -316,21 +319,23 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b71",
-    "pr": "https://github.com/PolyFT/textile-tga-database/pull/38",
-    "merge_sha": "20929f7e57e2b4aaf92be9f582a34b10ac02a731",
-    "validated_head_sha": "5226433b6baeb8c673bed9894807cba06140484a",
-    "validation_run": "https://github.com/PolyFT/textile-tga-database/actions/runs/36791467460",
+    "batch": "b73",
+    "pr": 41,
+    "merge_sha": "e1ad10e85baddd6a56f323d874d0f975ace6fb7c",
+    "validated_head": "0c33dc38236518a8dc5c3421119037de939e9f00",
+    "validation_run": 36795358039,
     "postmerge_runs": [
-      36791610376,
-      36791610377,
-      36791610318
+      36795722287,
+      36795722306,
+      36795722277
     ],
-    "verified_sample_states": 501,
-    "verified_condition_records": 577,
-    "verified_dois": 117,
-    "snapshot_sha256": "7e63fe4ae496d486d003d475e4507484ee08e6ce3836b22912dfa6ebc97438e2",
-    "master_sha256": "3456b14f7d7abb3db3320b61ef6a67de077e32e7b864764b9c43d5b3f2e2ec5f"
+    "verified_sample_states": 536,
+    "verified_condition_records": 616,
+    "verified_dois": 127,
+    "verified_sources": 129,
+    "verified_non_doi_sources": 2,
+    "verified_non_doi_sample_states": 8,
+    "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -777,6 +782,25 @@
     "non_DOI_states_added": 8,
     "tests_passed": 302,
     "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d",
-    "additional_sources_screened_and_held": 11
+    "additional_sources_screened_and_held": 11,
+    "publication_checkpoint": {
+      "batch": "b73",
+      "pr": 41,
+      "merge_sha": "e1ad10e85baddd6a56f323d874d0f975ace6fb7c",
+      "validated_head": "0c33dc38236518a8dc5c3421119037de939e9f00",
+      "validation_run": 36795358039,
+      "postmerge_runs": [
+        36795722287,
+        36795722306,
+        36795722277
+      ],
+      "verified_sample_states": 536,
+      "verified_condition_records": 616,
+      "verified_dois": 127,
+      "verified_sources": 129,
+      "verified_non_doi_sources": 2,
+      "verified_non_doi_sample_states": 8,
+      "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
+    }
   }
 }
