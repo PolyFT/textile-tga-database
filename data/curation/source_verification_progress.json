@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T13:26:00.091967+00:00",
+  "as_of_utc": "2026-10-01T13:46:04Z",
   "latest_batch_id": "20261001_b110",
   "verified_condition_records": 1135,
   "verified_unique_sample_states": 929,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b110_merged_verified_pending_lease_release",
+  "publication_stage": "b110_merged_verified_lease_released",
   "last_merged_batch": "20261001_b110",
   "writer_lease": {
     "owner": "codex-local-go-hb-am-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b110",
     "claimed_at_utc": "2026-10-01T13:25:10Z",
     "expires_at_utc": "2026-10-01T14:55:10.000Z",
     "scope": "Twelve original-reviewed initial cotton fabric states at fifteen TG conditions from three local publisher originals (77 native pages); fifteen unmatched HBPOPN LOI-only states held. GO nitrogen control residue conflict excluded; preserve all unknown methods and source recipe/gas terminology issues.",
-    "instruction": "Single writer; release after exact-head CI, ordinary merge, three merge-SHA and three release-SHA terminal successful checks and independent complete remote master/report verification."
+    "instruction": "Single writer; release after exact-head CI, ordinary merge, three merge-SHA and three release-SHA terminal successful checks and independent complete remote master/report verification.",
+    "released_at_utc": "2026-10-01T13:46:04Z",
+    "release_reason": "PR78 exact-head CI, ordinary merge, all three terminal merge-SHA checks and complete independent remote master/report/blob/library verification succeeded."
   },
   "next_sources": [],
   "next_actions": [
@@ -2072,7 +2074,8 @@
       "verified_sources": 253,
       "library_original_hashes_unchanged": 3,
       "complete_original_native_pages": 77,
-      "proof_doc_commit": "857e6abeb548a3e001862760493cd72cd670a865"
+      "proof_doc_commit": "857e6abeb548a3e001862760493cd72cd670a865",
+      "released_at_utc": "2026-10-01T13:46:04Z"
     }
   }
 }
