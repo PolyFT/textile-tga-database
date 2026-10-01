@@ -1,0 +1,146 @@
+{
+  "batch": "b90",
+  "baseline_counts": [
+    720,
+    875,
+    193
+  ],
+  "summary": {
+    "added_verified_unique_states": 17,
+    "added_verified_condition_records": 17,
+    "new_source_measurement_states": 17,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 6,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_petpoy2017.csv",
+      "DOI": "10.14314/polimery.2017.848",
+      "draft_sha256": "f4b22a44acdb957301524633b2e57c1fcded0800d09e0ce5db148a7d87695609",
+      "published_input_sha256": "1156ee06283d8291647b793e7599d7d11e2e396a8d87dcec8c455046fed2c1e3",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "657098a8532abeb70194aef80d55b0156c0c4c2640481a17e637b5469b285b7e",
+        "b648c6440cdd5e7ebb8bab02e46f833ca89d174e6591181d4c141a081b9a5867",
+        "5de5b64a969124221cfead65bf69503c77c0d5fed61964c3d8f0d267acf70ddc",
+        "c2c184e6fa379c629fbbff21295d788411a302b455226132443d909248c4946f"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_pla_dp1502016.csv",
+      "DOI": "10.1177/1528083715606105",
+      "draft_sha256": "344ff59a48da8ad49cc598b2ecd42484916d40360a6b99e9f7d14efd37325a1c",
+      "published_input_sha256": "a5bbb61b751a81b5f9c146d7d9717cac5541fe567cdda960b7cb6222103e1e8e",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "40454a9c66514ba7d0df494d6da2b735f1c1e25b34c0fa2932d3a32a40ac4229",
+        "8c2ec99b39651ba2a32ec5cc917840019c82907cc5f7ff72cb3ede6b7dabc97d"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_hppa_cotton2008.csv",
+      "DOI": "10.5764/tcf.2008.20.5.001",
+      "draft_sha256": "b86fcfcabc5d7fa168b251088cb07b98832b67bc377b1d7b5db889e079467d7e",
+      "published_input_sha256": "2f67532504f6af5f1296af19743fc3a7d2ab76ad6ee72fe44d660b99aad01f9a",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "6594048099e106e29b8374d1d44bd5e64c25d5bedd988ff0796bccffdeb8135a"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_mattress2013.csv",
+      "DOI": "10.1177/0734904112468703",
+      "draft_sha256": "16523933a07f6ce2a39e37c145d629c9667dcf3ccdf007087921d3dba1485cd5",
+      "published_input_sha256": "e4c2c4d29d59ce13d1aa8758cc10d12b7f7728abd2d0051c915fcf0bb9b879f9",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "1ea99c3c90537aec6754b1ea3a0cbe87cfe82f701024bfb0f68fe0312d552f47"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_pvpa_cotton2022.csv",
+      "DOI": "10.31788/RJC.2022.1547069",
+      "draft_sha256": "88fe9affaf629f48cc6fb77d046cb53aa950288403966ad5e6cce08b3c6c6e85",
+      "published_input_sha256": "831367844d28eba809474a50b09faa5f0d8b8be0d1d6055e73b6eb71bcb48416",
+      "states": 6,
+      "conditions": 6,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "0a589e1323d5289a754311c39e7b0210a6ae525c430be33397259da81fb042e0",
+        "94c3dae241f1de8a4879dd02a78da679881c71d8e2f25c5e756f1adb021ae7bf",
+        "de5aa37e41b3fe519c1b939adb7bf6797d932e4c9ec96cb5d3845c84fa1f2b9c",
+        "c8ca796cc5e6a177810cd75094c87ac8a6e460beade8c7debaa90c1bebade718",
+        "f93e7e03757291edc2de5f0137c84d734c3ea892425fbaf373369835dd6074d5",
+        "bef96019e4e6d43ab621f688b9fc2a38e1821b8390606a24fb174821d03ce90b"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b90_ptap_cotton2022.csv",
+      "DOI": "10.14233/ajchem.2022.23915",
+      "draft_sha256": "f660be554661c7cb391b341c815965709ba07ca90ae35f5b25be7faf92fda39f",
+      "published_input_sha256": "d508d3a0379144ef23b7f2bfd8151fc4850a2eef165d3a18cb8e226c75d68cd4",
+      "states": 3,
+      "conditions": 3,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "efb8d01ec43729231218931dbf8d025055abcb9d92184c490491872d125eb733",
+        "cfca0c1cb0dda25e9743ed52dc00fdca816dd3c6bd4a0ca4c536062613847193",
+        "32fdd6db40a1995d3de765cf1d1ca6746c1aa76804311f7059c51018be421d1a"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.31788/RJC.2022.1547069",
+      "sample_state": "CF",
+      "evidence_location": "Original PTAP Table 4 and PVPA control thermal and LOI tables",
+      "details": "The same control LOI 18.5, T10 327 C and R600 6.1% is retained once under DOI 10.14233/ajchem.2022.23915. Hold the later PVPA control; distinct treated PVPA states are unaffected.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.31788/RJC.2022.1547069",
+      "sample_state": "CF-Control",
+      "evidence_location": "Original PTAP Table 4 and PVPA control thermal and LOI tables",
+      "details": "The same control LOI 18.5, T10 327 C and R600 6.1% is retained once under DOI 10.14233/ajchem.2022.23915. Hold the later PVPA control; distinct treated PVPA states are unaffected.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.31788/RJC.2022.1547069",
+      "sample_state": "Control",
+      "evidence_location": "Original PTAP Table 4 and PVPA control thermal and LOI tables",
+      "details": "The same control LOI 18.5, T10 327 C and R600 6.1% is retained once under DOI 10.14233/ajchem.2022.23915. Hold the later PVPA control; distinct treated PVPA states are unaffected.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
