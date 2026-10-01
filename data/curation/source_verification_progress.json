@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T09:26:10.526706+00:00",
+  "as_of_utc": "2026-10-01T09:50:17.480Z",
   "latest_batch_id": "20261001_b101",
   "verified_condition_records": 1058,
   "verified_unique_sample_states": 871,
@@ -21,14 +21,12 @@
   "publication_stage": "b101_merged_verified_lease_released",
   "last_merged_batch": "20261001_b101",
   "writer_lease": {
-    "owner": "codex-local-cotton-siloxane-20261001",
-    "status": "released",
-    "batch_id": "20261001_b101",
-    "claimed_at_utc": "2026-10-01 09:25:17 UTC",
-    "scope": "Four original-reviewed initial cotton states/four TG conditions from two sources; four complete originals45nativepages,37concise facts33held. Preserve b100 data/publication proof; PNPDMS residue conflict withheld only metric; no transfer of optimized TG to other concentrations/washes.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete remote master/report proof.",
-    "released_at_utc": "2026-10-01T09:43:45.636Z",
-    "release_reason": "Exact-head CI, ordinary PR70 merge, three successful merge-SHA workflows, 513 tests, complete remote master/report proof and unchanged original hashes verified."
+    "owner": "dot-source-review-b102-20261001",
+    "status": "active",
+    "batch_id": "20261001_b102",
+    "claimed_at_utc": "2026-10-01T09:50:17.480Z",
+    "scope": "Independent original-source textile TG–LOI states from approved flax and microfiber drafts; additional pending silica conference source only after independent exact-hash approval. Preserve all B101 data and source holds.",
+    "instruction": "Single publisher; release after exact-head validation, ordinary merge, complete remote snapshot verification and successful postmerge checks."
   },
   "next_sources": [],
   "next_actions": [
