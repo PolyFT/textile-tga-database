@@ -32,3 +32,4 @@ jobs:
           git rm .github/workflows/b82_materialize.yml
           git commit -m 'build: materialize b82 reviewed snapshot and remove temporary workflow'
           git push origin HEAD:data/source-verification-20261001-b82
+# Retry after making source regressions independent of derived snapshot timing.

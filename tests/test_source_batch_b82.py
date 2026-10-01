@@ -45,8 +45,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 def rows(doi):
-    with (ROOT / 'data/tg_loi_master.csv').open(newline='') as handle:
-        return [r for r in csv.DictReader(handle) if r['DOI'].lower() == doi]
+    result = []
+    for path in sorted((ROOT / 'data/incoming').glob('verified_source_batch_20261001_b82_*.csv')):
+        with path.open(newline='') as handle:
+            result.extend(r for r in csv.DictReader(handle) if r['DOI'].lower() == doi)
+    return result
 
 class PiEpoxySourceGuards(unittest.TestCase):
     def test_datppo_uses_measured_column_not_char_calculation(self):
