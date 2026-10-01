@@ -1,0 +1,126 @@
+{
+  "batch": "b82",
+  "baseline_counts": [
+    649,
+    777,
+    161
+  ],
+  "summary": {
+    "added_verified_unique_states": 17,
+    "added_verified_condition_records": 21,
+    "new_source_measurement_states": 17,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 4,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b82_pi_datppo2017.csv",
+      "DOI": "10.1007/s10118-017-1896-7",
+      "draft_sha256": "985633f311ed695f3ff5b462db49c3d32b6c62a2eca33bb506a207836f2536a7",
+      "published_input_sha256": "c268f12e222a90f43f7991862d8397b09ec1898d30c18f76135320e68ff9885e",
+      "states": 7,
+      "conditions": 7,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "194e763f1e71e576bc65f7581da229a3586e48685eeb47edf339fb0aa216471e",
+        "f7a30d575ce1f0fdd07dc0ddc096bbe33fe91dc1abd9aae0b89e85e574344fe2",
+        "3f5e52100dbff662ae1c89ee498c89e928ee2bf86a8819db3fd23ab164373695",
+        "d6b77021cfcb769fa340960e054957f6a19b614f20788948eceb3738feb51f6d",
+        "bb50e68f25c509bb0f99a12225c10e9ad04bab6517491921761bdf8a65689ed4",
+        "797525e99a2e2eb93de2ec79b2e124a1f6bd1c1d47cdd5f03061f70a8968e6f8",
+        "7cf6faab0b284c1f95e6678ca0f290b5f2504be504c4cae640ad894b022f5e44"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b82_pi_dappo2014.csv",
+      "DOI": "10.3724/SP.J.1095.2014.30424",
+      "draft_sha256": "63fd70a4cc193f0f45152ebfd3ff8c36c0ada867d02f8f9fc86a52edcdd80c63",
+      "published_input_sha256": "d717b9114dc151f40adcfca7ca969184a9f2a0421d88db20024119f1bea1a9ab",
+      "states": 4,
+      "conditions": 4,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "a347d4b1c1a5dce30fbb38d2c660c9b33b7909eae0e08ec54c41856ee1f93fe8",
+        "60dda36b651014ded1dc63a127d96d70b5e5465da3f4e2e5dab442acefceafa5",
+        "57cc58fdce65dd58a3c75f7af329e898b3c84984d81f9457fc746c55abd0f3f4",
+        "71a2fd59f5762291c8b50c24d14569e08780885b1427357a13b3e95aaa3af318"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b82_epoxy_phosphonate2007.csv",
+      "DOI": "10.1002/pat.867",
+      "draft_sha256": "185c09697b8fbd9f45ad2ed383c448ad61bf6908765a3032586a327ce154d927",
+      "published_input_sha256": "0c528858d123a1b18a2c10d1a5cbb952af4f1d656cd79f4e80eea9564aa2f1b4",
+      "states": 4,
+      "conditions": 8,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "7a1662c37fc413832b63fca5ad0f37b444e9c5a8f23db84e377e945e9a811e64",
+        "04ee55407e5b0f7846ea7e3b721e3d6ac414c154d7ba089d12ceb79f5b5f7f1e",
+        "c5591843591da4ea4576cfc8d9a88ae7692607592ffadd45fba4002d68e658d5",
+        "e68c3238df62e98c38b1ef5a18f452bbea89961f0fe8b676c342f0710be01728",
+        "3a85b367043f8f9a70603c5c17db0c006df98b646ed41a5a1435d52e62445937",
+        "ae63818eac7d81e1cee662789b70841e490c970efe59c29cd45be457ec2ca50b",
+        "e5cf2b2092ca6321e9b1e5eb1d5e07c49892bc544cc241d71c3bb8bff9dc0593",
+        "48d47c06d5fa9f94f6403ebb789cce3e67aa8958b4a331ab70c6c24f49e16593"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b82_cstgp2026.csv",
+      "DOI": "10.1021/acspolymersau.6c00154",
+      "draft_sha256": "877ad7376163b77bc7e216947decf137dc518d704481c17c559b96ae4b304704",
+      "published_input_sha256": "4cb1fd0ea3cb71249ed5381d2fecc3681fef21c2291164c6bd7f83e268f2b000",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "f81214e7bbd944c19b578a55b68797efd9355869cb8dd8c939fb94906dac4162",
+        "9e855b4ad87d09d60264311af5c9c53f4742519c5a56f1b9a1d387ea3a6a3357"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1039/c6ra26941a",
+      "sample_state": "PI-0",
+      "evidence_location": "https://doi.org/10.1039/c6ra26941a; original p.5437 supplementary-material description and fabrication section, reference16",
+      "details": "Future pre-atomic-oxygen-exposure PI-0 observations require specimen and measurement reuse adjudication against admitted DATPPO fiber source10.1007/s10118-017-1896-7. The related original explicitly identifies PI-0/PI-2/PI-4/PI-6 before and after exposure and cites the admitted fiber study. This hold concerns pre-exposure states only; genuinely distinct post-exposure states require their own measured LOI/TG evidence and are not automatically transferred or excluded.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1039/c6ra26941a",
+      "sample_state": "PI-2",
+      "evidence_location": "https://doi.org/10.1039/c6ra26941a; original p.5437 supplementary-material description and fabrication section, reference16",
+      "details": "Future pre-atomic-oxygen-exposure PI-2 observations require specimen and measurement reuse adjudication against admitted DATPPO fiber source10.1007/s10118-017-1896-7. The related original explicitly identifies PI-0/PI-2/PI-4/PI-6 before and after exposure and cites the admitted fiber study. This hold concerns pre-exposure states only; genuinely distinct post-exposure states require their own measured LOI/TG evidence and are not automatically transferred or excluded.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1039/c6ra26941a",
+      "sample_state": "PI-4",
+      "evidence_location": "https://doi.org/10.1039/c6ra26941a; original p.5437 supplementary-material description and fabrication section, reference16",
+      "details": "Future pre-atomic-oxygen-exposure PI-4 observations require specimen and measurement reuse adjudication against admitted DATPPO fiber source10.1007/s10118-017-1896-7. The related original explicitly identifies PI-0/PI-2/PI-4/PI-6 before and after exposure and cites the admitted fiber study. This hold concerns pre-exposure states only; genuinely distinct post-exposure states require their own measured LOI/TG evidence and are not automatically transferred or excluded.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1039/c6ra26941a",
+      "sample_state": "PI-6",
+      "evidence_location": "https://doi.org/10.1039/c6ra26941a; original p.5437 supplementary-material description and fabrication section, reference16",
+      "details": "Future pre-atomic-oxygen-exposure PI-6 observations require specimen and measurement reuse adjudication against admitted DATPPO fiber source10.1007/s10118-017-1896-7. The related original explicitly identifies PI-0/PI-2/PI-4/PI-6 before and after exposure and cites the admitted fiber study. This hold concerns pre-exposure states only; genuinely distinct post-exposure states require their own measured LOI/TG evidence and are not automatically transferred or excluded.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
