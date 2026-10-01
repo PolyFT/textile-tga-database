@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **788 unique reviewed source/sample/washing states**, **953 TG condition records**, and **215 original sources (213 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **802 unique reviewed source/sample/washing states**, **973 TG condition records**, and **219 original sources (217 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **788 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 587 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 601 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -851,3 +851,10 @@ All947 prior condition records retain every prior field. Only numerical facts an
 
 
 PR [#64](https://github.com/PolyFT/textile-tga-database/pull/64) merged at `5e94c0875a4c95f76a47d483ac9018d95067a679` after exact-head validation run `36829625836` passed. All 466 tests passed. Three distinct merge-commit workflows reached terminal success: processing `36829816307`, validation `36829816311`, and master rebuild `36829816505`. All 11 batch-owned public file blobs, the complete remote report and independently fetched 4,015,410-byte master blob match snapshot `7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483` and master SHA-256 `29a2ca50fc1899da81175b833e74e01ffea32da20b7cab233332435d6f08b9cc`. Every prior field of all 947 conditions is preserved; concurrent candidate/retry updates are preserved. Five originals and six local inventory records remain hash-unchanged. Verified total: **788 sample states / 953 TG conditions / 215 sources (213 DOI sources and two registered proceedings)**. This batch has **two new-source states, four newly completed TG-only pairs, zero existing-pair evidence upgrades and six added conditions**; all 22 held facts remain excluded. The owned b95 lease is ready for release after this proof is recorded.
+
+
+## b96 original-reviewed fiber and textile states
+
+This batch adds 14 newly verified paired states at 20 TG conditions from 4 DOI sources: 14 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 802 states, 973 conditions and 219 sources (217 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.

@@ -1,0 +1,123 @@
+{
+  "batch": "b96",
+  "baseline_counts": [
+    788,
+    953,
+    213
+  ],
+  "summary": {
+    "added_verified_unique_states": 14,
+    "added_verified_condition_records": 20,
+    "new_source_measurement_states": 14,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 4,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b96_silk_flavonoid2019.csv",
+      "DOI": "10.1016/j.indcrop.2019.01.020",
+      "draft_sha256": "e5068a1572a6950e7ce97824443d5f4db3731855d938710ae9d96430578fe757",
+      "published_input_sha256": "df830e7e239365990378ace67c8b1e1a6a9aecb85822b1118e4644dfe6e1de76",
+      "states": 1,
+      "conditions": 1,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "076218a42ba4ceaeaff7ed50fe4ce33a2098f85aadded646414e7f867051be98"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b96_app_pna_glass2017.csv",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "draft_sha256": "50bb0e3d44368ebf2f698218d4f7e667b340f171e96753236b662fbe48ed2cab",
+      "published_input_sha256": "adeb08384023124128b313c9efac6bddad5cb8e91b281efdef8ce694163feb0b",
+      "states": 6,
+      "conditions": 12,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "62e876f03235001fbdbd94f81dcba2fd4964905c18ea2275045960d57ab82017",
+        "7dc74f72bd5c5b7f5e48c2f817fea22084bf31096b943064a923451bf38b9dba",
+        "2c096507bc6a21ae388933c2c98e167ec815d720e88cc0af4cf8b299328179c7",
+        "8a66dccb18b3ccf2742d6395e23dd59decbd945bbd2c013d8af0364758b07728",
+        "81c5ed125de7b5d43c07d6dbf88a9ff483ccadf64ca81dd733f6bfad81b069e6",
+        "ff93bfac26cccf08a4612256c49db58cd19aca45ba93d956d867cc61014f006a",
+        "4028827c322c0815d21c50470276d2c0a15e4db7661b141166b14c88aed3cc8c",
+        "c7d260a8ecb6155f46128e5fa35fa683e65348babbdddb043939076ebea37ba6",
+        "dabf954133b6ecbec1dbbd05c817edfbec6af47563a82eb804bff96af7185149",
+        "2c3b475fb50128e9c753c7bce1bf3f165b0797d6a2b90a8e8b0f9860f734df24",
+        "b870b82e945c1fd3af860eef991ff28ddfb449fbbe1a26908a0f8a45e5d5ab10",
+        "18932ff28e1863d951144c01c4597e443c95eb7ab41283451c99041e1ff73469"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b96_jute_dap2024.csv",
+      "DOI": "10.3144/expresspolymlett.2024.58",
+      "draft_sha256": "7f63ebb0311dba7413ed44d93b319c5d3c8d01b636635e49b44b5dee0cb2209c",
+      "published_input_sha256": "fbe806f8c8a29808a3c329a53b2eac7372eccfbaf80287fd64243fc15224dffb",
+      "states": 5,
+      "conditions": 5,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "e02f4c051382d618369221cd94a6cf26909e6831380da28e05632305b1a53b7b",
+        "c3994c8ffa62b80f25492ceeebea1691ee2c7f9ced0463ecbafbdd8202469610",
+        "7c8361a56575344dbef4a65b4d0c55eaebe17ffed7ee63325951bb4e66fa4aed",
+        "b581f3dab824cb28a3f328e952597e62db0a96b7985e1f2ed33cc58fdc40235d",
+        "e304a0ca3916b5aff6da66fa28648066cb73218b79e330f22e901856dbddc73c"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b96_alpi_glass2025.csv",
+      "DOI": "10.1002/pc.29911",
+      "draft_sha256": "ab3321d9c82aeb0412c30d6a18e7ffa174b6d4f5b0f4a15f118a164e8712925c",
+      "published_input_sha256": "a386480da854baaa80346c6dd4931e18dd23447cfaaee275f55eb7709ded6ae0",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "legacy_TG_records": [],
+      "accepted_measurement_fingerprints": [
+        "b15ccfc5c480a7c4fed51df50d7d3becb1475308508d8d0bdb00d2dfc0a1112d",
+        "e2b1c9952ef82950452a834fe29eba686b834f1faf95ce255d7bcec854ad400f"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.1002/pol.20250692",
+      "sample_state": "E100:GF-BD",
+      "evidence_location": "https://onlinelibrary.wiley.com/doi/full/10.1002/pol.20250692; Table 2 and attribution of DGEBA flammability to 10.1002/pc.29911",
+      "details": "Later DGEBA comparison state requires original-source reuse adjudication. It is not asserted to be an exact alias of the admitted 30% AlPi states; distinct novolac states are outside this guard.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1002/pol.20250692",
+      "sample_state": "E70InSi6APP24:GF-BD",
+      "evidence_location": "https://onlinelibrary.wiley.com/doi/full/10.1002/pol.20250692; Table 2 and attribution of DGEBA flammability to 10.1002/pc.29911",
+      "details": "Later DGEBA comparison state requires original-source reuse adjudication. It is not asserted to be an exact alias of the admitted 30% AlPi states; distinct novolac states are outside this guard.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.1002/pol.20250692",
+      "sample_state": "E70ZHS6\u03bcAldietPO2_24:GF-BD",
+      "evidence_location": "https://onlinelibrary.wiley.com/doi/full/10.1002/pol.20250692; Table 2 and attribution of DGEBA flammability to 10.1002/pc.29911",
+      "details": "Later DGEBA comparison state requires original-source reuse adjudication. It is not asserted to be an exact alias of the admitted 30% AlPi states; distinct novolac states are outside this guard.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Only measured LOI values are admitted; calculated values and unmatched preparation states remain excluded.",
+    "Explicit assessment temperatures are preserved; generic final residues retain unknown temperatures.",
+    "Process rinsing, test-specific preparation and related-source reuse holds remain explicit."
+  ]
+}
