@@ -740,3 +740,10 @@ All three merge-commit checks completed successfully: validation `36817882740`, 
 This batch adds 7 newly verified paired states at 7 TG conditions from 3 DOI sources: 5 new-source states and 2 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 714 states, 867 conditions and 192 sources (190 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### b88 publication checkpoint
+
+PR #57 merged at `923a6efb0e1f682ee88dedf137ab7b26d134609b`. Exact-head validation run `36819255497` passed for `5afe4c6dfd63cd81b272abcb290cbdf37b4c35ab`. All 415 regression tests passed; all 860 previous condition rows retain every existing field. All 14 changed public file blobs and the complete remote validation report matched the local reviewed snapshot. The temporary branch workflow is absent.
+
+All three merge-commit checks passed: validation `36819741336`, master rebuild `36819741337` and processing `36819741339`. The writer lease was released at `800c221540f2a87f231cfd7a48319027264400b0`. Main contains 714 states, 867 conditions and 192 sources (190 DOI sources and two registered non-DOI proceedings). The batch adds five new-source states and two newly completed legacy TG-only pairs, with zero upgrades of already paired states. Explicit author-preprint totals remain seven sources, 19 states and 29 conditions.
