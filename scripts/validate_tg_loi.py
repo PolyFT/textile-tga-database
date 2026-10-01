@@ -40,6 +40,8 @@ ISSUES = DATA / 'curation/known_pairing_issues.csv'
 README = ROOT / 'README.md'
 SNAPSHOT_START = '<!-- TG-LOI-SNAPSHOT:START -->'
 SNAPSHOT_END = '<!-- TG-LOI-SNAPSHOT:END -->'
+PUBLICATION_TYPES = ('journal_article', 'conference_proceedings', 'author_preprint')
+PUBLICATION_TYPE_CATEGORIES = PUBLICATION_TYPES + ('unspecified', 'unrecognized', 'conflicting_metadata')
 
 
 def num(values):
@@ -114,6 +116,58 @@ def numeric_errors(df):
         if bad.any():
             errors.append(f'{col}: {int(bad.sum())} values outside 0–100%')
     return errors
+
+
+def publication_type_report(master, reviewed_rows):
+    """Describe verified sources without changing scientific admission or identity.
+
+    Inspect Grade-A candidate rows for each source before deduplication.
+    Missing labels add no assertion; disagreeing nonempty labels are conflicts.
+    """
+    counts = {kind: {'sources': 0, 'sample_states': 0, 'condition_records': 0}
+              for kind in PUBLICATION_TYPE_CATEGORIES}
+    sources = {}
+    for row in master.to_dict('records'):
+        identity = source_identity(row)
+        if identity not in sources:
+            sources[identity] = {'types': set(), 'states': set(), 'conditions': set()}
+        sources[identity]['states'].add(row['sample_state_id'])
+        sources[identity]['conditions'].add(row['pair_key'])
+    for row in reviewed_rows.to_dict('records'):
+        source = sources.get(source_identity(row))
+        if source is None:
+            continue
+        declared = normalize_label(row.get('publication_type'))
+        if declared:
+            source['types'].add(declared)
+        if (not normalize_doi(row.get('DOI'))
+                and clean(row.get('source_type')) == 'original_conference_proceedings'):
+            source['types'].add('conference_proceedings')
+    issues = []
+    for identity, source in sorted(sources.items()):
+        types = source['types']
+        if not types:
+            kind = 'unspecified'
+        elif len(types) > 1:
+            kind = 'conflicting_metadata'
+        else:
+            declared = next(iter(types))
+            kind = declared if declared in PUBLICATION_TYPES else 'unrecognized'
+        counts[kind]['sources'] += 1
+        counts[kind]['sample_states'] += len(source['states'])
+        counts[kind]['condition_records'] += len(source['conditions'])
+        if kind in {'unrecognized', 'conflicting_metadata'}:
+            issues.append({'source_identity': identity, 'category': kind,
+                           'observed_types': sorted(types)})
+    preprints = counts['author_preprint']
+    return {
+        'verified_publication_type_counts': counts,
+        'verified_publication_type_metadata_issues': issues,
+        'verified_author_preprint_sources': preprints['sources'],
+        'verified_author_preprint_sample_states': preprints['sample_states'],
+        'verified_author_preprint_condition_records': preprints['condition_records'],
+        'publication_type_basis': 'Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.',
+    }
 
 
 def build_tables(df, issues=None):
@@ -197,7 +251,7 @@ def build_tables(df, issues=None):
     doi_master = master[master.DOI.map(normalize_doi).ne('')]
     non_doi_master = master[master.DOI.map(normalize_doi).eq('')]
     report = {
-        'report_version': 4,
+        'report_version': 5,
         'source_identity_schema_version': SCHEMA_VERSION,
         'source_imports': df.attrs.get('source_imports', []),
         'malformed_source_rows_quarantined': len(df.attrs.get('source_import_quarantine', [])),
@@ -219,6 +273,7 @@ def build_tables(df, issues=None):
         'verified_non_doi_condition_records': int(len(non_doi_master)),
         'verified_doi_sample_states': int(doi_master.sample_state_id.nunique()),
         'verified_non_doi_sample_states': int(non_doi_master.sample_state_id.nunique()),
+        **publication_type_report(master, result[result.pair_quality.eq('A')]),
         'doi_target_basis': 'evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples',
         'candidate_dois': int(result.DOI.map(normalize_doi).replace('', pd.NA).nunique()),
         'candidate_sample_states': int(result.sample_state_id.nunique()),
@@ -250,6 +305,9 @@ def snapshot_digest():
 def update_readme(report):
     if not README.exists():
         return
+    publication_counts = report['verified_publication_type_counts']
+    publication_summary = '; '.join(
+        f"{kind}: **{publication_counts[kind]['sources']}**" for kind in PUBLICATION_TYPE_CATEGORIES)
     block = '\n'.join([
         SNAPSHOT_START,
         '## Current TG–LOI evidence snapshot', '',
@@ -262,7 +320,12 @@ def update_readme(report):
         f"- DOI cohort: **{report['verified_exact_dois']} sources / {report['verified_doi_condition_records']} conditions / {report['verified_doi_sample_states']} states**",
         f"- Reviewed non-DOI cohort: **{report['verified_non_doi_sources']} sources / {report['verified_non_doi_condition_records']} conditions / {report['verified_non_doi_sample_states']} states**",
         f"- Overall reviewed sources: **{report['verified_exact_sources']}**; source identity schema **{report['source_identity_schema_version']}**",
+        f"- Recorded publication types (disjoint Grade-A source identities): {publication_summary}",
+        f"- Sources explicitly marked `author_preprint` (without conflicting type metadata): **{report['verified_author_preprint_sources']} sources / {report['verified_author_preprint_condition_records']} conditions / {report['verified_author_preprint_sample_states']} states**",
         f"- Target: 2000 verified sample states; remaining **{report['remaining_to_target']}**", '',
+        'Publication types use explicit `publication_type` metadata on Grade-A candidate rows before deduplication; pending and quarantined rows cannot classify verified sources. Non-DOI `original_conference_proceedings` also identifies conference proceedings. Missing-only labels are `unspecified`; unknown labels are `unrecognized`; disagreeing nonempty labels are `conflicting_metadata`, excluded from the author-preprint subtotal. Blank labels do not contradict an explicit source-level type. DOI presence and Grade-A numerical review do not establish journal publication or peer review.',
+        'Unspecified or unrecognized publication types do not invalidate accepted numerical evidence. Zero explicitly marked author-preprint sources does not establish that no legacy source is a preprint.',
+        'New author-preprint rows should explicitly record `publication_type=author_preprint` and `source_version`. These reporting fields do not change source identities, fingerprints or the evidence gate.',
         'A missing new review field means pending documentation, not that a legacy measurement is wrong.',
         'Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.',
         f"Snapshot SHA-256: `{report['snapshot_sha256']}`", SNAPSHOT_END])
