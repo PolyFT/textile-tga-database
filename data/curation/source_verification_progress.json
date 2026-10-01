@@ -18,17 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b108_merged_verified_lease_released",
+  "publication_stage": "b109_writer_claimed_original_review",
   "last_merged_batch": "20261001_b107",
   "writer_lease": {
-    "owner": "codex-local-aposs-20261001",
-    "status": "released",
-    "batch_id": "20261001_b108",
-    "claimed_at_utc": "2026-10-01T12:10:45.997Z",
-    "scope": "Six initial A-POSS/PA cotton states/twelve air/N2 TG conditions from complete15nativepages;15facts/3LOI-onlyheld. R80033.6/33.7 conflictblank;concentrationbasisrawunresolved. SIunretrievedHTTP403. PreserveB107/alloldfields/concurrentstate.",
-    "instruction": "Single publisher;release after exact-head CI, ordinary merge,three terminal successful merge-SHA workflows and complete independent remote master/report proof.",
-    "released_at_utc": "2026-10-01T12:28:41.710Z",
-    "release_reason": "Exact-head CI and all three merge-commit workflows succeeded;all11remote batch blobs,complete independent remote master/report,1108priorrecords,six concurrentstatefiles andread-only originalhash verified;publicproofrecorded."
+    "owner": "dot-source-review-b109-20261001",
+    "status": "active",
+    "batch_id": "20261001_b109",
+    "claimed_at_utc": "2026-10-01T12:36:11.234Z",
+    "expires_at_utc": "2026-10-01T14:00:00Z",
+    "scope": "Sixteen independently original-reviewed fiber and textile-laminate sample states at twenty TG conditions from eight DOI sources. Preserve source-specific assay preparation, numerical conflicts and prior-source reuse holds.",
+    "instruction": "Single writer; release after exact-head CI, ordinary merge, all three merge-SHA and all three release-SHA terminal checks."
   },
   "next_sources": [],
   "next_actions": [
