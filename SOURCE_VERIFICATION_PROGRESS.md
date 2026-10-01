@@ -953,4 +953,11 @@ PR #70 (https://github.com/PolyFT/textile-tga-database/pull/70) merged at `99d30
 
 This batch adds 10 newly verified paired states at 10 TG conditions from 4 DOI sources: 10 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 881 states, 1068 conditions and 239 sources (237 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
-All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease was released after the exact-head and postmerge checks passed.
+
+
+### B102 publication verification
+
+PR [71](https://github.com/PolyFT/textile-tga-database/pull/71) merged as `17d40f86e325143c54304d3041dadcfa385de017` after exact-head validation run `36846927946` passed on `e89f0ed008c724d63beb5956155e41344c64ce5b`. All 16 changed public file blobs and the complete validation report match the independently built snapshot. All 1,058 earlier condition records preserve every field; 519 local tests passed.
+
+The merge-commit validation, master rebuild and processing runs (`36847324381`, `36847324440`, `36847324422`) all succeeded. Lease release commit: `0a0a3cc3e680becaa8baaed035eb1676a479047f`. The verified total is 881 unique states, 1,068 TG conditions and 239 original sources, comprising 237 DOI sources and two registered proceedings. The author-preprint subgroup remains separately reported as eight sources, 23 states and 33 conditions. B102 adds ten new-source paired states and zero evidence-only upgrades; potentially reused silica controls remain held.
