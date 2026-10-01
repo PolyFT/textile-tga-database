@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **561 unique reviewed source/sample/washing states**, **651 TG condition records**, and **137 original sources (135 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **589 unique reviewed source/sample/washing states**, **694 TG condition records**, and **147 original sources (145 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **561 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 360 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 388 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
