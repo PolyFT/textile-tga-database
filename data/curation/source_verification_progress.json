@@ -18,18 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b109_writer_claimed_original_review",
+  "publication_stage": "b110_writer_claimed_local_original_review",
   "last_merged_batch": "20261001_b107",
   "writer_lease": {
-    "owner": "dot-source-review-b109-20261001",
-    "status": "released",
-    "batch_id": "20261001_b109",
-    "claimed_at_utc": "2026-10-01T12:36:11.234Z",
-    "expires_at_utc": "2026-10-01T14:00:00Z",
-    "scope": "Sixteen independently original-reviewed fiber and textile-laminate sample states at twenty TG conditions from eight DOI sources. Preserve source-specific assay preparation, numerical conflicts and prior-source reuse holds.",
-    "instruction": "Single writer; release after exact-head CI, ordinary merge, all three merge-SHA and all three release-SHA terminal checks.",
-    "released_at_utc": "2026-10-01T13:15:10.825Z",
-    "release_reason": "User requested work stop. B109 observations remain unpublished: no data commit, branch advance, pull request or merge. Release only this owned lease; existing published baseline remains unchanged."
+    "owner": "codex-local-go-hb-am-20261001",
+    "status": "active",
+    "batch_id": "20261001_b110",
+    "claimed_at_utc": "2026-10-01T13:25:10Z",
+    "expires_at_utc": "2026-10-01T14:55:10.000Z",
+    "scope": "Twelve original-reviewed initial cotton fabric states at fifteen TG conditions from three local publisher originals (77 native pages); fifteen unmatched HBPOPN LOI-only states held. GO nitrogen control residue conflict excluded; preserve all unknown methods and source recipe/gas terminology issues.",
+    "instruction": "Single writer; release after exact-head CI, ordinary merge, three merge-SHA and three release-SHA terminal successful checks and independent complete remote master/report verification."
   },
   "next_sources": [],
   "next_actions": [
