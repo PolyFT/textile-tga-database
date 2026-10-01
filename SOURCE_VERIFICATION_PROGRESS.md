@@ -858,3 +858,10 @@ PR [#64](https://github.com/PolyFT/textile-tga-database/pull/64) merged at `5e94
 This batch adds 14 newly verified paired states at 20 TG conditions from 4 DOI sources: 14 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 802 states, 973 conditions and 219 sources (217 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### b96 publication checkpoint
+
+PR [#65](https://github.com/PolyFT/textile-tga-database/pull/65) merged at `c3fc858d7fca3b6cb4151da6eb6f3e3f17402536` after exact-head validation run `36831709333` passed on `38503247df08b66eb613996366a8cdedaa91c98b`. All 473 tests passed. Merge-commit validation `36832018371`, master rebuild `36832018413` and processing `36832018369` reached terminal success. All 16 batch-owned public file blobs and the complete validation report match snapshot `455ee03d30cebfd52c26f45b222d892d1dc8dc9aa07f46ffa56baeada8102227`; all 953 previous condition records preserve every scientific field. Concurrent retry state is preserved byte-for-byte.
+
+Verified totals are **802 states / 973 conditions / 219 sources (217 DOI sources and two registered proceedings)**. The batch adds 14 new-source states and 20 conditions, with no completed legacy pairs or existing-pair upgrades. Explicit author preprints remain 7 sources / 19 states / 29 conditions. The owned writer lease was released at `1930ec786ebea03515f4f51802d161c3034df9ec`; the latest-publication metadata now identifies this verified batch. Source documents remain private and all numerical, preparation and reuse holds remain active.
