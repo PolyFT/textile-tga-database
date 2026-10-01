@@ -1,0 +1,167 @@
+[
+  {
+    "DOI": "10.17780/ksujes.828681",
+    "source": "banana_peel2021",
+    "held_evidence": [
+      {
+        "scope": "Source preparation uncertainty",
+        "reason": "Banana-peel drying is printed 750 \u00b0C for 24 h. Preserve literal value as unresolved; do not repair from chemical plausibility."
+      },
+      {
+        "scope": "Coating dose and product name",
+        "reason": "150 g/1000 g versus 150 g/L; EOC FRD 41 BO versus ECO RFD 41 BO. Exact sample categories remain explicit; do not invent a corrected recipe."
+      },
+      {
+        "scope": "TG overall temperature range",
+        "reason": "Methods 32\u2013900 \u00b0C; results 28\u20131000 and 20\u2013900 \u00b0C. Canonical start/end left blank. N2 and 20 \u00b0C/min explicit, R880 lies within every stated range."
+      },
+      {
+        "scope": "Stage temperatures and intermediate residues",
+        "reason": "Source degradation-stage temperatures have no explicit maximum-rate or defined onset meaning; retained only in source-native field. R380/R420 remain source-native. M5 prose prints 38 \u00b0C for 62% while Table 3 prints 380 \u00b0C; no corrected canonical point. Prose N4 27% at 400 \u00b0C and M2 52% at 400 \u00b0C are separate from Table 3 points and are not recast."
+      },
+      {
+        "scope": "Other tests",
+        "reason": "DIN 54335 dimensions, ignition/burning-time repeats, and SEM conditions are not reassigned to LOI/TG. No laundering states or curves-only temperatures are added."
+      },
+      {
+        "scope": "Thesis reuse",
+        "reason": "This journal article explicitly contains part of coauthor Fehmi \u00c7a\u011flar Balaban\u2019s 2019 Nam\u0131k Kemal University master thesis, Bitkisel At\u0131k Ekstraktlar\u0131yla Yap\u0131lan Kaplama ve Emdirme \u0130\u015flemlerinin G\u00fc\u00e7 Tutu\u015furluk \u00dczerine Etkisinin \u0130ncelenmesi. Future thesis or derivative publication imports require source-specific reuse audit; do not count these ten fabric states again."
+      },
+      {
+        "scope": "PDF extent",
+        "reason": "Official PDF contains 17 pages ending at printed p 82 while metadata says 66\u201383. Last available page is references; methods, results and conclusion are present. No claim of having a missing p 83."
+      }
+    ]
+  },
+  {
+    "DOI": "10.21605/cukurovaumfd.1146075",
+    "source": "licorice2022",
+    "held_evidence": [
+      {
+        "scope": "Atmosphere",
+        "reason": "Own introductory p 354 description says air; p 356 detailed TG method says N2; section 4.2 p 359 says Figures 8\u201311 are in N2 and O2. Figures lack gas-labelled panels. This bounded candidate uses only A1/B1 paragraphs that explicitly name the particular state and N2; no gas-switch schedule or second-atmosphere result is inferred. Independent QA must decide if local assignments suffice."
+      },
+      {
+        "scope": "A3",
+        "reason": "LOI 20.6 in Table 4 versus 19.6 in prose. No selected value."
+      },
+      {
+        "scope": "B3",
+        "reason": "8.737% residual mass appears in an unlabeled p 360 paragraph before B4. B3 prose does not repeat an unambiguous final value. No graph estimate."
+      },
+      {
+        "scope": "A/B/A2/A4/B2/B4",
+        "reason": "Both this article and banana-peel DOI 10.17780/ksujes.828681 derive from Fehmi \u00c7a\u011flar Balaban\u2019s 2019 Nam\u0131k Kemal University thesis. Reviewer requires future reuse holds for licorice A/B controls and A2/A4/B2/B4 commercial states, mapping banana N1/M1/N3/N5/M3/M5. Only natural licorice A1/B1 are proposed here; thesis and other derivative imports require exact state reuse audit."
+      },
+      {
+        "scope": "Recipe",
+        "reason": "Table 2 heading Quantity (g/kg) coexists with 12 g extract and 250 mL water; section 3.2 calls padding 12 wt%, and section 4.4 says 12 g/250 g. Preserve actual listed ingredients without selecting a corrected concentration. Generic prose mentions acrylate-copolymer binder, but its padding amount and product are unspecified. Do not borrow quantified coating-binder recipe or pretreatment from related banana paper."
+      }
+    ]
+  },
+  {
+    "DOI": "10.1177/1558925020934124",
+    "title": "Sound absorption, thermal, and flame retardant properties of nonwoven wall cloth with waste fibers",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/1558925020934124",
+    "status": "hold_TG_raw_PA_fiber_vs_LOI_wool_PA_nonwoven_and_missing_atmosphere",
+    "candidate_states": 10,
+    "admitted_states": 0,
+    "review_scope": "Complete original publisher HTML; preparation, thermal method, Figure 7 description, Table 2 own LOIs and optimized treatment prose",
+    "reason": "Nine orthogonal-treatment nonwoven LOIs and one optimized nonwoven LOI 32.5 are measured. Original Figure 7 and thermal discussion assign the only TG curve to raw waste low-melting polyamide fibers. Its fastest-loss temperature is about 430 \u00b0C. No corresponding same-state LOI is measured for raw PA fibers. Do not transfer this TG to hot-pressed wool/PA blend or its titanium-finished states. TGA 10 mg chopped fiber powder, 10 \u00b0C/min, 25\u2013600 \u00b0C; atmosphere not reported. Background wool LOI 24\u201326 belongs to cited literature.",
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2024.110942",
+    "title": "Flame retardant and mechanically enhanced polyacrylonitrile fibers prepared by amination and phosphorylation",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S0141391024002866",
+    "status": "hold_original_fulltext_unavailable",
+    "review_scope": "Publisher original abstract and selected preview; author ResearchGate explicitly says no full text available; bounded public search",
+    "reason": "Own abstract has untreated/treated/washed LOI 17/32.5/26.5, but no full original methods and numerical matched TGA data retrieved. No values borrowed from related PAN papers.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2025.111218",
+    "title": "Combination of gallic acid, polyethyleneimine and metal ions: A durable flame retardant for silk fabric",
+    "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S0141391025000497",
+    "status": "hold_original_fulltext_unavailable",
+    "review_scope": "Publisher original abstract and selected materials/results preview; ResearchGate no-fulltext notice; bounded public search",
+    "reason": "Four treated silk LOIs are in original abstract, but complete own matched TGA table and conditions unavailable. Neither review tables nor related patent values are substituted for the journal original.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.polymdegradstab.2023.110347",
+    "title": "Flame-retardant and antibacterial properties of cotton fabrics treated by epichlorohydrin-modified aramid nanofibers, ionic liquid, and Cu ion",
+    "original_url": "https://www.researchgate.net/publication/369634992_Flame-retardant_and_antibacterial_properties_of_cotton_fabrics_treated_by_epichlorohydrin-modified_aramid_nanofibers_ionic_liquid_and_Cu_ion",
+    "status": "hold_missing_TG_heating_rate_and_control_LOI_conflict",
+    "review_scope": "Complete 11-page author-posted original indexed fulltext; own methods, Tables 1/3 and SI description reviewed; SI bytes unavailable",
+    "reason": "Two treated cotton states have exact LOI 30.0/28.5 and TG values under N2 and air, but main characterization omits TG heating rate and instrument. SI not retrieved, so no full-SI claim. Control LOI 18.5 abstract versus 18.0 Table 1 and results conflicts. Cot/AEP lacks TG. Related DOI 10.1002/pat.5860 is a prior AEP/IL treatment and requires reuse audit; its missing fulltext cannot supply this article methods. Source areal unit 160 g/cm\u00b2 is retained as suspicious, not silently changed.",
+    "candidate_states": 2,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1002/pat.5860",
+    "title": "Surface modification of epichlorohydrin-modified aramid nanofibers using ionic liquid to improve the fire safety and tensile strength of cotton fabrics",
+    "original_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pat.5860",
+    "status": "hold_original_fulltext_unavailable_and_related_source_reuse",
+    "review_scope": "Original publisher/author abstract and targeted public retrieval",
+    "reason": "Author abstract gives Cot/AEP/IL LOI 29.5 and N2/air TG qualitatively, but original full TGA numbers and methods unavailable. Later DOI 10.1016/j.polymdegradstab.2023.110347 has same treatment lineage and needs exact reuse audit; neither source may supply the other missing conditions.",
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1177/0040517514542143",
+    "title": "One pot denim washing and finishing using organo-montmorillonite: introducing nano mineral washing and finishing",
+    "original_url": "https://journals.sagepub.com/doi/10.1177/0040517514542143",
+    "status": "hold_incomplete_original_methods_access",
+    "review_scope": "Publisher original abstract; indexed published-article copy exposing Table 4 and discussion; bounded fulltext search",
+    "reason": "Three apparent denim states have printed DTG peaks 359/363.6/363 and LOI 19.2/22.9/24.8 in an indexed original-article copy. Complete original preparation/TG methods were not retrieved; atmosphere and ramp unverified. No admission from isolated table, no claim of complete PDF review.",
+    "candidate_states": 3,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.63665/jta.v85i6.05",
+    "title": "Mycelium-Based Flame Retardant Treatments for Textiles Using Extracts of Turkey Tail, Reishi, and Shiitake",
+    "original_url": "https://textileassociationindia.com/wp-content/uploads/2025/05/JTA-March-April-25-issue-1.pdf",
+    "status": "hold_missing_TG_atmosphere_and_heating_rate",
+    "review_scope": "Complete original seven-page article, printed pp 642\u2013648, extracted from official March\u2013April 2025 issue PDF pages 73\u201379; methods, Tables 1/2 and own char-yield prose reviewed",
+    "reason": "Nine treated textile states (cotton/polyester/linen, each Turkey Tail/Reishi/Shiitake) have own numerical LOI in Table 1 and TG char yield in Table 2. Method only identifies thermogravimetric char yield at 600 \u00b0C; TG atmosphere, heating rate, instrument, sample mass and gas flow are absent. No related-source condition transfer. Untreated controls have no numerical TG char yield (N/A); their LOI includes a cotton interval 17\u201320. Table 3 aggregates across different substrates and does not establish replicate SD for each fabric.",
+    "candidate_states": 9,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "document_sha256": "2cf2004683839f70d2d841477ff5b99a0e025335d0952ed8a102b32869b8baf8",
+    "document_hash_scope": "Full official issue PDF; article_extract.pdf is a derived seven-page extract, not the original downloaded bytes",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.7216/teksmuh.1939122",
+    "title": "Improvement of the Flame Retardant Performance of Cotton Fabrics Using Silane-Phosphate Based Sol-Gel System",
+    "original_url": "https://dergipark.org.tr/en/download/article-file/5955381",
+    "document_sha256": "15f94dc6aa8285378c93a5c9b02a4ae675b17bf17e20cd4684a4dab4e974730f",
+    "status": "independent_QA_hold_TG_residue_prose_figure_conflict",
+    "review_scope": "Complete official 12-page original; method, recipes, thermal Figure 3 and residue prose plus LOI/wash mapping independently reviewed",
+    "reason": "Washed PT-4-120W has valid measured LOI 28 and wash bridge. Prose states generic TG residue 5.7%, but Figure 3a weight-% TG traces remain above the lowest 20% gridline at displayed end. Methods tie ash to TG and define no separate assay or normalization. Missing residue temperature does not resolve metric identity. No clean canonical TG remains; no alternative residue inferred. Source Tmax has no maximum-rate definition. Initial coated LOI >52 is instrument-censored and not a point.",
+    "candidate_states": 1,
+    "admitted_states": 0,
+    "reviewed_at": "2026-10-01",
+    "held_draft_sha256": "4784a686a818c34c21c515d4fd614a022dd2dcc6e3e7c192184746a76be77d62",
+    "review_disposition": "unadmitted_source_screen"
+  },
+  {
+    "DOI": "10.1016/j.jcis.2022.03.003",
+    "status": "source_preview_only_no_original_numeric_TG_pair",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0021979722003824",
+    "review_scope": "Original publisher indexed abstract and experimental preview; direct main page returned403; author repository offers request-only fulltext. No purchase, account change or author contact.",
+    "reason": "Original abstract gives PAN/CNTs/APP nanofiber-filter LOI30.9, but no full original sample-specific numeric TG/method bridge was retrieved. A later review gives char68.7 without sufficient original context; that review number is not used.",
+    "review_disposition": "unadmitted_source_screen"
+  }
+]
