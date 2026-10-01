@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **666 unique reviewed source/sample/washing states**, **798 TG condition records**, and **167 original sources (165 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **676 unique reviewed source/sample/washing states**, **818 TG condition records**, and **172 original sources (170 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **666 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 465 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 475 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -660,3 +660,17 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR #51 merged as `5b99543efa26217c2bd5a1ad4ae82f9325cd5a79` after exact-head validation run 36810200610 passed on `7ce018c2592c1dd4ce85eb1831cbdf4a007309fe`. All 374 regression tests passed, including a run against the prior master before snapshot materialization. Source regressions read the reviewed incoming records so they remain independent of build order. Seventeen final-head files and the full validation report matched the local scientific snapshot; all 777 prior condition rows retained every existing field.
 
 The three postmerge checks (36810453920, 36810453780, 36810453834) passed before writer-lease release `1f633570ede7d4408dd8577bb0f7a5bf95344867`. This batch adds 17 new states and 21 conditions, bringing the dataset to 666 states, 798 conditions and 167 sources (165 DOI and two registered non-DOI sources). Explicit preprint counts remain five sources, 15 states and 24 conditions. Snapshot: `fe66b456b36cca0aa06cf1d1abcec6f706cd563ed1ed6dad28e033f0685996bf`. Calculated LOI, conflicting metrics and unmatched or reused specimens remain held; fulltexts remain private.
+
+
+## b83 Original cotton review: ASNDP, ABTMPA, Fe/DOPO, PLUEG and ASMPEA
+
+Six complete local original primary articles were reviewed. Five sources add **10 genuinely new independent cotton sample/washing states, 20 TG conditions and zero existing-state evidence upgrades**. Thirty native TG rows are preserved, with **10 conditions outside the verified target**. Original methods, numerical tables and printed figure coordinates were checked. Official FR-LO SI (all paragraphs, TableS1 and four images) and ASMPEA SI (all labels and three spectra) were reviewed in full. One primary reviewer; no independent-reviewer or curve-estimation claim. Other four primaries list no SI; their external SI inventories were not inspected.
+
+- **10.1007/s10570-020-03632-6:** own uncoated and 450g/L Cotton-ASNDP-4 initial states have four N2/air conditions. Tables1/2 and the explicit450g/L TG scope connect LOI18.6/29.5 to native Tonset, Tmax and R750. Native plus-minus values are retained without calling them standard deviations. IPDT1402.8 is a derived integral index, not a physical TG temperature. Other bath formulations and all washed states lack own TG.
+- **10.1007/s10570-020-03615-7:** initial31wt% ABTMPA cotton adds one state/two conditions, LOI50.2. Native Figure5 printed coordinates resolve the shifted Table1 char row: treated N2/air char42.40/23.07 explicitly600C. Two control TG rows remain unpaired because initial LOI17.5 in Table3 conflicts with17.1 in prose. Native air Tmax295 is retained; stage boundaries and moisture losses are not T5/T10. Native LOI standard D3163-2000 is not silently corrected.
+- **10.1007/s10570-020-03636-2:** own initial pristine cotton adds one state/two conditions, LOI18,R8008.25N2/7.8air. Pristine N2Tmax379Table/375prose and airT5337Table/325prose remain raw, with clean conflicting metrics blank. Four Fe-grafted/Fe@DOPO TG rows are held because preparation says60C6h in prose versus60C4h in Scheme1. The cited2019 precursor was read only for bounded recipe/control comparison; its assay values were not imported. DOPO-only and all washed LOI lack own TG.
+- **10.1007/s10570-021-03714-z:** exact40% PLUEGD cotton initial and after50LCs are separately paired, LOI42.7/28.6, at four N2/air conditions. Figure7 explicitly prints T10, degradation-peak and600Cchar coordinates; no curve estimation. Native% bath/catalyst/NaOH bases are unspecified. Two own-control TG rows stay unpaired because LOI is only approximately18. PLU/PLUD and lower baths lack own TG.
+- **10.1016/j.ijbiomac.2021.07.130:** four initial C0/FRC20/FRC25/FRC30 cotton states, LOI17.1/37.9/39.0/40.2, have eight Table3 N2/air TG conditions. Original Figure9Ia prints each exact initial LOI; Figure9Ib prints initial weight gains14.6/16.7/18.4. Table3 air second-peak residue header incorrectly prints Celsius: raw numbers and native unit are retained without assigning clean percent values. DSC conditions, ASMPEA-powder water peaks, CONE char and washed LOI are not substituted for fabric TG. Official SI contains only three spectra.
+- **10.1007/s10570-020-03648-y:** complete original plus complete official SI review adds zero pairs. Table5 explicitly names TG cotton fibers while LOI uses cotton fabric; specimen-form equivalence is unresolved. Two native TG/LOI fact rows are held. SI literature comparators are not own new formulations. T10 and rapid-degradation Tend differ from onset and method endpoint; TG R70037.24 differs from MCC char36.8.
+
+All previous inputs, source-version holds and scoped reuse holds are preserved. Fulltexts, SI, images and privatepaths stay outside the repository and the literature library remains read-only. Proposed total **676 states /818 conditions /172 sources**, with **1324 states remaining to2000**. Exact-head CI, normal merge and independent terminal postmerge verification precede owned lease release.

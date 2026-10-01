@@ -801,6 +801,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261001_b83_local_cotton.csv",
+      "accepted_rows": 30,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -1081,31 +1088,31 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 1687,
-  "legacy_field_complete_condition_records": 1044,
-  "numeric_pair_candidate_rows": 1192,
-  "eligible_pending_condition_records": 237,
-  "quarantined_condition_records": 9,
+  "all_loaded_rows": 1717,
+  "legacy_field_complete_condition_records": 1070,
+  "numeric_pair_candidate_rows": 1218,
+  "eligible_pending_condition_records": 241,
+  "quarantined_condition_records": 11,
   "quarantine_reason_counts": {
     "conflicting_measurements": 3,
     "possible_sample_alias": 4,
-    "specimen_form_mismatch": 4
+    "specimen_form_mismatch": 6
   },
-  "strict_tg_loi_pairs": 798,
-  "verified_exact_condition_records": 798,
-  "verified_exact_sample_states": 666,
-  "verified_exact_dois": 165,
-  "verified_exact_sources": 167,
+  "strict_tg_loi_pairs": 818,
+  "verified_exact_condition_records": 818,
+  "verified_exact_sample_states": 676,
+  "verified_exact_dois": 170,
+  "verified_exact_sources": 172,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 790,
+  "verified_doi_condition_records": 810,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 658,
+  "verified_doi_sample_states": 668,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 26,
-      "sample_states": 102,
-      "condition_records": 135
+      "sources": 31,
+      "sample_states": 112,
+      "condition_records": 155
     },
     "conference_proceedings": {
       "sources": 4,
@@ -1139,24 +1146,24 @@
   "verified_author_preprint_condition_records": 24,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 188,
-  "candidate_sample_states": 937,
-  "rows_with_numeric_loi": 1240,
-  "rows_with_any_tg_numeric": 1575,
+  "candidate_dois": 194,
+  "candidate_sample_states": 951,
+  "rows_with_numeric_loi": 1266,
+  "rows_with_any_tg_numeric": 1605,
   "rows_missing_atmosphere_among_pair_candidates": 33,
   "rows_missing_heating_rate_among_pair_candidates": 104,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 1334,
+  "remaining_to_target": 1324,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 467,
-    "T5_C": 266,
-    "Tonset_C": 133,
-    "R600_pct": 203,
-    "R700_pct": 141,
-    "R800_pct": 146
+    "Tmax1_C": 485,
+    "T5_C": 267,
+    "Tonset_C": 145,
+    "R600_pct": 209,
+    "R700_pct": 149,
+    "R800_pct": 148
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "fe66b456b36cca0aa06cf1d1abcec6f706cd563ed1ed6dad28e033f0685996bf"
+  "snapshot_sha256": "29e0d3ae3ad39bb84497cf653801021bc7279b9d8b36c5cd666923fd5752c876"
 }
