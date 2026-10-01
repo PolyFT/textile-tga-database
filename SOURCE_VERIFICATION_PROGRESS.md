@@ -599,3 +599,12 @@ Publication types and source versions are explicit; no independent second-review
 This batch adds 19 genuinely new sample states at 31 TG conditions from 5 DOI sources. Explicit author-preprint contributions are 3 states at 3 conditions from 1 sources. Related publication versions remain source-wide alias/reuse holds until independent cross-version adjudication; additional later controls are held only at their exact sample labels. The total is 620 states, 746 conditions and 155 sources (153 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+## b78 publication checkpoint
+
+PR #47 merged as 1be0c8558ebc96aaa6ca31540d5375128dd62f4b after all 351 tests and exact final-head validation passed. All 18 relevant remote file blobs and the complete validation report matched the reviewed local snapshot. Postmerge validation, master rebuild and processing checks passed; the writer lease has been released.
+
+The accepted inventory contains 620 sample states, 746 TG conditions and 155 sources (153 DOI sources plus two registered proceedings). This batch adds 19 new states and zero evidence-only upgrades. The explicit author-preprint cohort contains five sources, 15 states and 24 conditions. Source-version holds and sample-scoped later-control holds remain active; all 715 previous condition records preserve every prior field. Fulltext caches remain private.
+
+Snapshot SHA-256: a071e0a580415b95406f2664c57f42e37a3db2e9124cb9d34de434e8c38d654d.
