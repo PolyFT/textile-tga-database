@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T00:29:30.615873+00:00",
+  "as_of_utc": "2026-10-01T00:37:43.127Z",
   "latest_batch_id": "20261001_b74",
   "verified_condition_records": 637,
   "verified_unique_sample_states": 547,
@@ -18,33 +18,35 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b74_validated_branch_pending_PR_merge",
+  "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": {
-    "batch": "b73",
-    "pr": 41,
-    "merge_sha": "e1ad10e85baddd6a56f323d874d0f975ace6fb7c",
-    "validated_head": "0c33dc38236518a8dc5c3421119037de939e9f00",
-    "validation_run": 36795358039,
+    "batch": "b74",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/42",
+    "merge_sha": "c54afbb7f2efe205bd69ab46b25148839d183409",
+    "validated_head_sha": "8c637e4e005f08d0a061aee44a991eb761608158",
+    "validation_run": 36796691587,
     "postmerge_runs": [
-      36795722287,
-      36795722306,
-      36795722277
+      36796799778,
+      36796799784,
+      36796799912
     ],
-    "verified_sample_states": 536,
-    "verified_condition_records": 616,
-    "verified_dois": 127,
-    "verified_sources": 129,
+    "verified_sample_states": 547,
+    "verified_condition_records": 637,
+    "verified_dois": 132,
+    "verified_sources": 134,
     "verified_non_doi_sources": 2,
     "verified_non_doi_sample_states": 8,
-    "snapshot_sha256": "72cba617248761d628bc9ac9fdc6060a7520df5fa06cccbee4d0c27fa63a606d"
+    "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab",
+    "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
   },
   "writer_lease": {
     "owner": "codex-local-cotton-wool-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b74",
     "claimed_at_utc": "2026-10-01T00:27:14.778Z",
     "scope": "Five fully reviewed local original manuscripts; 11 new independent textile states,21 conditions,11 TG-only held records; preserve separate DOI/non-DOI cohorts.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
+    "released_at_utc": "2026-10-01T00:37:43.127Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -815,6 +817,26 @@
     "total_preserved_TG_rows": 32,
     "tests_passed": 308,
     "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab",
-    "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
+    "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b",
+    "publication": {
+      "batch": "b74",
+      "pr": "https://github.com/PolyFT/textile-tga-database/pull/42",
+      "merge_sha": "c54afbb7f2efe205bd69ab46b25148839d183409",
+      "validated_head_sha": "8c637e4e005f08d0a061aee44a991eb761608158",
+      "validation_run": 36796691587,
+      "postmerge_runs": [
+        36796799778,
+        36796799784,
+        36796799912
+      ],
+      "verified_sample_states": 547,
+      "verified_condition_records": 637,
+      "verified_dois": 132,
+      "verified_sources": 134,
+      "verified_non_doi_sources": 2,
+      "verified_non_doi_sample_states": 8,
+      "snapshot_sha256": "f63649cfeaad71bc74d7fea8b1a48020eda13c69935f33f4a24b68aa036b46ab",
+      "master_sha256": "445a31300c278bf28855fc58a25cc74630d0662e042132c6c18bc370d14c8b3b"
+    }
   }
 }
