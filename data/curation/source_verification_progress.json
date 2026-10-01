@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T03:36:36.862020+00:00",
+  "as_of_utc": "2026-10-01T03:43:31.191Z",
   "latest_batch_id": "20261001_b83",
   "verified_condition_records": 818,
   "verified_unique_sample_states": 676,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b83_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b82",
+  "publication_stage": "b83_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b83",
   "writer_lease": {
     "owner": "codex-local-asndp-plueg-asmpea-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b83",
     "claimed_at_utc": "2026-10-01T03:33:31.850Z",
     "scope": "Ten original-reviewed independent cotton initial/50LC states at20 TG conditions from five DOIs; 10 ambiguous native TG conditions retained outside target across six original-reviewed sources. No literature-library writes.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback."
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback.",
+    "released_at_utc": "2026-10-01T03:43:31.191Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -67,7 +68,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -311,26 +312,27 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b82",
-    "pr": 51,
-    "merge_sha": "5b99543efa26217c2bd5a1ad4ae82f9325cd5a79",
-    "validated_head": "7ce018c2592c1dd4ce85eb1831cbdf4a007309fe",
-    "validation_run": 36810200610,
+    "batch": "20261001_b83",
+    "pr": "https://github.com/PolyFT/textile-tga-database/pull/52",
+    "merge_sha": "8e952837cb72986e94423d7e7f32e290a9855c3e",
+    "validated_head_sha": "6d7909f5da11de49fbbd08facb0521e9429e6ab9",
+    "validation_run": 36811526859,
     "postmerge_runs": [
-      36810453920,
-      36810453780,
-      36810453834
+      36811622346,
+      36811622339,
+      36811622342
     ],
-    "verified_sample_states": 666,
-    "verified_condition_records": 798,
-    "verified_dois": 165,
-    "verified_sources": 167,
-    "verified_non_doi_sources": 2,
-    "verified_non_doi_sample_states": 8,
-    "verified_author_preprint_sources": 5,
-    "verified_author_preprint_sample_states": 15,
-    "verified_author_preprint_condition_records": 24,
-    "snapshot_sha256": "fe66b456b36cca0aa06cf1d1abcec6f706cd563ed1ed6dad28e033f0685996bf"
+    "postmerge_status": "Three distinct merge-SHA checks terminal success: validation, processing and master rebuild",
+    "verified_sample_states": 676,
+    "verified_condition_records": 818,
+    "verified_dois": 170,
+    "verified_sources": 172,
+    "snapshot_sha256": "29e0d3ae3ad39bb84497cf653801021bc7279b9d8b36c5cd666923fd5752c876",
+    "master_sha256": "2e14f4cba7d8ae4fcd485deed376201e7425397020e7e0b8ca1c418a4570e57c",
+    "tests_passed": 382,
+    "previous_condition_records_all_fields_preserved": 798,
+    "independent_readback": "Full connector main report and fresh-main recomputation match; independently fetched master Git blob hash/bytes match; all11 changed public file blobs match reviewed head",
+    "status": "merged_verified"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -1111,6 +1113,29 @@
     "held_ABTMPA_control_LOI_rows": 2,
     "held_Fe_graft_duration_rows": 4,
     "held_PLUEG_approximate_control_LOI_rows": 2,
-    "held_FRLO_material_form_rows": 2
+    "held_FRLO_material_form_rows": 2,
+    "publication": {
+      "batch": "20261001_b83",
+      "pr": "https://github.com/PolyFT/textile-tga-database/pull/52",
+      "merge_sha": "8e952837cb72986e94423d7e7f32e290a9855c3e",
+      "validated_head_sha": "6d7909f5da11de49fbbd08facb0521e9429e6ab9",
+      "validation_run": 36811526859,
+      "postmerge_runs": [
+        36811622346,
+        36811622339,
+        36811622342
+      ],
+      "postmerge_status": "Three distinct merge-SHA checks terminal success: validation, processing and master rebuild",
+      "verified_sample_states": 676,
+      "verified_condition_records": 818,
+      "verified_dois": 170,
+      "verified_sources": 172,
+      "snapshot_sha256": "29e0d3ae3ad39bb84497cf653801021bc7279b9d8b36c5cd666923fd5752c876",
+      "master_sha256": "2e14f4cba7d8ae4fcd485deed376201e7425397020e7e0b8ca1c418a4570e57c",
+      "tests_passed": 382,
+      "previous_condition_records_all_fields_preserved": 798,
+      "independent_readback": "Full connector main report and fresh-main recomputation match; independently fetched master Git blob hash/bytes match; all11 changed public file blobs match reviewed head",
+      "status": "merged_verified"
+    }
   }
 }
