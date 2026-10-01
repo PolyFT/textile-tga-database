@@ -1,0 +1,108 @@
+{
+  "batch": "b75",
+  "review_completed_utc": "2026-10-01T01:07:21.861144+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 14,
+    "accepted_condition_rows": 14,
+    "new_source_inventory_states": 14,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_complete_primary_reviews_held": 1,
+    "additional_TG_only_rows": 2,
+    "total_preserved_TG_rows": 16
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b75_local_hc_cap_psi.csv",
+      "published_input_sha256": "73650520e29f05d2d5ce212f4b6d3eaefaaf2418ed784d37d6b93b45e6b4fbe9",
+      "unique_sample_states": 14,
+      "verified_conditions": 14,
+      "additional_TG_only_rows": 2,
+      "accepted_measurement_fingerprints": [
+        "25145f48c5d8628d240d964aacbbb7fb6784d955504c9ac9d9e13d4688c6c706",
+        "689af6b93e6c766dc2c8083564fd3a3ca883a0a0633c2c4b2ed398cdba5d4121",
+        "3c8d71234fbc44da62b40f5693fcbd4446b25df7bfae59c1e5f0660116809733",
+        "e226cdf48ea22ad86a9355d6866f7e9fe3536d86fcf31fc8c079c46cbc84979f",
+        "5224d3e1b6826c8c98b0a268ede698aa35894316839366ee805a834003199ad4",
+        "4f911687f2205c1e6b6c32f31a1f3d48543e50111c7f122947043be635830a3c",
+        "c5ea265ce6dc6334a777cb9e5aacdc7c055875f2dfb633d3192fff02582ba9d5",
+        "bbf90001fa5222c3d00a40f8543a31199d08bfea4b7f53fd2e35fba157f965f1",
+        "dfa64d3be440270fac2999e6dbc0ac737ae5c80b5871b3f09ae6fc42ddda2dc1",
+        "833485473a0a66a9ae41fa0d273c586d3ca17d7e1ff0cb8b9bef3c6f08ea1597",
+        "e62310754dc6ebac8d79cf22de49b06f9de66fc3bad4e3a24c527f4940ef9e7a",
+        "e3b19905222c1240a2eef14c5db22c2a919ff2cf0750da3f8142f2ec722aa813",
+        "84978b523bd0a042fb18aa973e9dc32ce113b71199d83912f4faf0332a6414d2",
+        "d60781bcf441a2ee0ddfc201f6226127d8ddcfb41db1e9090b3a8825d5f9d2fc"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2016.02.009",
+      "accepted_states": 4,
+      "accepted_condition_records": 4,
+      "TG_only_records": 0,
+      "disposition": "NativeTonset5% is5%masslossT5,notaseparateoperationalonset. SourceVmaxnegative%/min values retainedwithout sign/unitconversion; nottemperature orresidue. Masslossaround3% below100Cmoisture notdecomppeak. MCC1Csec/O2-N2flow20/80 andTPHRR348.9/331.2/314/313.8 are notTGconditions/peaks. COT-Si11.4 hasMCConly andnoowninitialLOITable2/TGTable3;washed1/5/30soapingLOITable6 notinitialTG. TGmass/gasflow/replicates andLOIreplicates/uncertainty notreported. SI characterizes the synthesized PSi compound only; no additional TG/LOI measurements.",
+      "accepted_sample_labels": [
+        "COT",
+        "COT-PSi18.7",
+        "COT-PSi5.4",
+        "COT-PSi9.4"
+      ],
+      "original_locators": [
+        "Accepted manuscript numberedp3 preparation,p4 Table1/methods,p7 Table2,p9 Table3; completeofficialSI FiguresS1-S4"
+      ],
+      "review_scope": "Complete15-numbered-page localoriginal andcompleteofficialsupplementaryDOCXtext/captions/all4embedded31P,1H,13C NMR/FTIR spectra reviewed; same title/authors/productformula. SI containsnoadditionalTG/LOIrecords; retained privately."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2017.11.018",
+      "accepted_states": 6,
+      "accepted_condition_records": 6,
+      "TG_only_records": 1,
+      "disposition": "NativeT1/T5/T10 are1/5/10%mass-loss thresholds,notonsets orpeaks. Early1%loss notassignedasdecomposition orwaterpeakwithoutsourceassignment. SourceTmaxI/II Table3 retainedstageorder; PCFCTmax(Table4/5)notTG. Stageweightchangesnotchar orpercent-losstemperatures. Table3extra2HC absentTable1/Fig6,no fabricated2wt%recipe orLOI. Compoundnumber4 inSection2.3.1 vs3 inTable1/synthesis preserved as source numbering inconsistency; HT5HC/MT5CH/MT5H-W prose aliases notsilentlyoverwritten. InitialTGandLOIonly; five-washPCFC andEDSnotpairedTG/LOI. Syntheticair60mLmin notPCFCO2/N2flow20/80 or1Csec ramp. LOIexperimentalerror notSD; TGreplicates unspecified.",
+      "accepted_sample_labels": [
+        "10HC",
+        "1HC",
+        "5HC",
+        "Cotton",
+        "MT5HC",
+        "T5HC"
+      ],
+      "original_locators": [
+        "Accepted manuscript PDFpp5-7 methods;PDFp22 Table1;PDFp26 Table3;PDFp30 Figure6"
+      ],
+      "review_scope": "Complete36-page locallyheldprimary text,tables,captions,references reviewed; original numerical/method pixels viewed. No listedSI inprimary andno distinctmatchinglocalsupplement; externalinventorynotinspected."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.109028",
+      "accepted_states": 4,
+      "accepted_condition_records": 4,
+      "TG_only_records": 1,
+      "disposition": "Table2 Tonset5%footnote defines5%weightloss; cleanT5only,notTonset. OriginalFigure3CAP2endpointordering contradictsTable2CAP2/CAP3tiedhighest27.3%; allsource-tableendpoint/peakresiduesheldoutsidecleanfields pendingquantitativeconsistencyadjudication,notdigitized. Table2 Vmax%/minnegativevalues versusFigure3DTG%/C andmagnitudeinconsistencyretained,nosign/rampconversion. Temperatures retainexplicitTable2metrics andmatchedinitialTable3LOI. OwnUntreatedlabelmatchesTG/LOIbutexactcontrolalkalipretreatmentuncertain,noinventedNaOHhistory. DPPonlyTG,noLOITable3. Washed10cycleTable5LOI21.0/25.6/27.2/27.7 notinitial21.2/27.2/28.1/28.8; no washedTG. CONE massloss/relativecharincrease22.2%notTGchar. Statisticaltypeofprinteduncertainty andTGmass/replicatesmissing. Missingfabricgsm/weave notguessed.",
+      "accepted_sample_labels": [
+        "CAP1",
+        "CAP2",
+        "CAP3",
+        "Untreated"
+      ],
+      "original_locators": [
+        "Journalpreproof PDFpp5-7 methods;PDFp8 Table1;PDFp10 Table2/Figure3;PDFp12 Table3;PDFp20 Table5washedLOI"
+      ],
+      "review_scope": "Complete27-page localjournalpreproof text,tables,captions,references reviewed; original methods/recipe/numericalpages viewed. No listedSI inmain or distinctmatchinglocalrelatedfile;externalinventorynotinspected."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2020.109286",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "TG_only_records": 0,
+      "disposition": "Complete original text/tables/captions/references read. TG describes wool fibers whereas LOI describes fabric; no spinning/weaving crosswalk provided. Whole source held for material-form matching. Nitrogen residue37 vs38 percent conflicts; original-control assessment temperature unresolved. Washed50cycle LOI lacks same-state TG. No accepted measurements and no guessed form equivalence.",
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Original methods Section2; TG Figure6; LOI Table3; conclusion"
+      ],
+      "review_scope": "Complete locally held original primary read; no Grade-A numerical review or SI-completeness claim."
+    }
+  ],
+  "verification_limit": "Three accepted complete local originals and one additional complete primary held; one primary reviewer, no independent reviewer claim. Original numerical and method pages viewed. PSi complete official SI text/captions/four NMR-FTIR figures checked; no extra TG-LOI. HC and CAP no listed SI in main or distinct matching local supplemental file; external inventory not inspected. Conflicted clean residues/rates withheld; unsupported wash/form/recipe matches held. No curve digitization, private paths, source caches or copyrighted fulltexts published."
+}
