@@ -19,28 +19,28 @@
       "status": "awaiting_evidence_review"
     },
     "10.1039/d1ra07410e": {
-      "attempts": 8,
-      "input_fingerprint": "c536574ba1e6bbafc16e3e459a16f9eeb0a74ba3a9f715b2fa5c1926ff1deed9",
-      "last_attempt_utc": "2026-10-01T00:23:18.526521+00:00",
-      "next_retry_utc": "2026-10-02T00:23:18.526521+00:00",
+      "attempts": 9,
+      "input_fingerprint": "fe34608b16e57d065541ef4e27213cce12329c81099c480dae41cc5e7b4baecf",
+      "last_attempt_utc": "2026-10-01T00:38:47.285039+00:00",
+      "next_retry_utc": "2026-10-02T00:38:47.285039+00:00",
       "parser_version": "2",
       "reason_codes": [
         "atmosphere_unresolved",
         "evidence_review_required"
       ],
       "row_results": {
-        "27dbeeadeea8cc11b8d0eb4163b93b2b53e84c966a7a3f27bd67624fa89bca44": "evidence_review_required",
-        "284a56c92ee7dde6e05a8529d2f6831075b8c2ce668d46aac8ced971f7010aac": "atmosphere_unresolved",
-        "3688666d5c51df6d14ad8c721d1076d27fd206aefd7cd4f4296626c769a26361": "evidence_review_required",
-        "4299369df4dddb24b86a5269db650e2a96530bed85fa0222f50f4a9045a86791": "evidence_review_required",
-        "498d79ef27cc04afa1ca368c4984971084f57dd5bafa353afa4605583021385e": "atmosphere_unresolved",
-        "6d1a9a8c3a31275f1742fc59b03a71dfc4cd5c808de1176927024d088482d599": "atmosphere_unresolved",
-        "6eb9dc4d82b6151697aa03e9c7d4bfb3a2021d62efa79c6450e586e4ad991505": "evidence_review_required",
-        "b607d709a161ac2971b470d379d28c057d5963c28a13cdb8738e6d2c9ca1d378": "atmosphere_unresolved",
-        "d057374d9f0a6df56debf989f879fe1843702eae608bed544ac7c33636ed212c": "atmosphere_unresolved",
-        "e83ff39f1637a47c367afde4e132f66e67536f231e9f30ede4bdc2269962b1b0": "evidence_review_required",
-        "ef32f36f21b32a059aaa98b182ac0c6c41dd4cc1f2715ce43d35681f85c6d787": "evidence_review_required",
-        "f462b6c0d67bce02422f202c861dfe2a95ac1bcfda18a787ae3672860eefda25": "evidence_review_required"
+        "18712d1ba17ca80fbdb6a3fdb98777b0e7d96b913eaaf8e6ba741740d0529506": "atmosphere_unresolved",
+        "1a445abf8977b99eae028ec73de8b0a0a285b5778e67e47833476cc01bbc3814": "evidence_review_required",
+        "807d086f16f5cde8f5e590adf2ab51949744458143e65215e0f307ab92d66974": "atmosphere_unresolved",
+        "8d5c2fb25fa227374511532535cef230b0d01aa96b525f323ad6079907fc10d1": "evidence_review_required",
+        "99963d472a59cee94965a42a54d1e0bb4bfa18101a6fc0e4e86f14574a88b399": "evidence_review_required",
+        "99c6c366ff20969f8d2634088c354254cab75006b08decc6018a071d2b944368": "atmosphere_unresolved",
+        "aaaa124b73bcf387e969df7fdfdce7bc86fa7f9212970e212a75f2c02c02e257": "atmosphere_unresolved",
+        "ab3deb1a95d369575fd1ee114f768d3d45c1d323a43377befe4d510940f9be17": "atmosphere_unresolved",
+        "bd404b6065faa088c742568d4f14e2ec8696294a2c5906bfd985327ef33a1155": "evidence_review_required",
+        "d3c287ab7d5c12a493d7f4ba104b1151d88d1df53e09955f3dd87a9df70be945": "evidence_review_required",
+        "d494a13f298b79eca918e70b1a17ddd2b81da7aed23daa9929db20f50a68f4d3": "evidence_review_required",
+        "db635dbffcea1d487e4f457517f2d4bc54cd976bae12ee8e9338d4ebab84fe5d": "evidence_review_required"
       },
       "status": "retry_pending"
     },
@@ -176,23 +176,23 @@
       "status": "retry_pending"
     },
     "10.3390/molecules30163324": {
-      "attempts": 9,
-      "input_fingerprint": "2a8f577e7a5b1aaf953c3a9a58f820c3877b95ebccc4dc35e85e00bda611f9f0",
-      "last_attempt_utc": "2026-10-01T00:23:18.526521+00:00",
+      "attempts": 10,
+      "input_fingerprint": "1e1f9599fb8ae4da494106673aea9f075c459adcf930b0a27faf6dc415c333a0",
+      "last_attempt_utc": "2026-10-01T00:38:47.285039+00:00",
       "next_retry_utc": null,
       "parser_version": "2",
       "reason_codes": [
         "non_textile"
       ],
       "row_results": {
-        "0152cbfbacd48fca6ee56562a7211efd1c2436317debc9068ed1fa4c032a4449": "non_textile",
-        "0803af1465c634adfddab549fea1e780646de0298cc901c110a86a779fa39b97": "non_textile",
-        "483793a911e9ba3cf16b6cf2cff041ff492fc2f3248faa9f53bb5c2de31f447a": "non_textile",
-        "51057b343deee1856acb620320be583be8121ceb7e3a76f792d26cba114feea1": "non_textile",
-        "9e4beb51ab4bb35cba0b2c7f0b0e8f5182d00b633d16739a962654ec77a659ff": "non_textile",
-        "c890b539547b8bc94bb7425978faccb2800c17e3e05b26b3cc711ec24b173d3d": "non_textile",
-        "dc9b50bae2e18687421df26ced02f14d569e45d175770ee8bee79a9539fa48c4": "non_textile",
-        "e2cebb291eb12bc2fc6b10f2b797afb2ef5bf471383345c83a29ba1bee07245a": "non_textile"
+        "17d86bb17f1e0da7c81c02dcae0ea97692f0cb339c0b4c6fc81e75019c71d39b": "non_textile",
+        "1fb60edd21f24eec77bc29c37f1e474110d6d9abdc5fa990dde1070b7d054708": "non_textile",
+        "429d946d454857f7e5272f29e2800849da12631fdc688dab8b70cc6a657ef2fa": "non_textile",
+        "5c56e7f18e0e74197c693c95962e628eb6a0098a931f0f3c541be3324ff15001": "non_textile",
+        "8a77ec75f1a9a541a579fe05a66685af9d3d88905fff0a0aec7bca222991e7f8": "non_textile",
+        "e1e58b16458209715d7f23ae35fe97b6983061e070765cd2fff09242c0f7f418": "non_textile",
+        "e8e7edaf4868c89716099d8862c6ec2d8e71f3c827a6649ef6be40b96eb1234f": "non_textile",
+        "f26f36cc1e5028ca11b8a41146a919aea5297a7976e64868117c7922d1c8d085": "non_textile"
       },
       "status": "complete"
     },
