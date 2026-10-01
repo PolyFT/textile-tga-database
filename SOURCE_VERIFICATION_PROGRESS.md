@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **917 unique reviewed source/sample/washing states**, **1120 TG condition records**, and **250 original sources (248 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **929 unique reviewed source/sample/washing states**, **1135 TG condition records**, and **253 original sources (251 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **917 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 716 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 728 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1068,3 +1068,16 @@ PR [#77](https://github.com/PolyFT/textile-tga-database/pull/77) merged with hea
 B108 adds six new initial cotton states and twelve TG conditions, with zero legacy completions or existing-pair evidence upgrades. Three LOI-only facts remain held. Main contains917 reviewed states,1120 conditions,248DOIs and250sources. All15 native pages of the original were reviewed;referenced SI could not be retrieved because the publisher returnedHTTP403. No SI or independent-reviewer claim is made.
 
 Independent remote verification matched all11 batch file blobs, the complete 5306968-byte master and the complete rebuilt report with zero errors. All fields of1108 prior condition records, six concurrent processing-state files and the read-only original hash were preserved. Master SHA-256:`afc7155107881c019c06762ee95fd75f995467dcec54a37c347ba5f8042d8e5b`;dataset snapshot:`5d610a4fb0bf13cde8bb8426a45d20ec9c7784783a2d011c5790ec20defd2c95`. Public files contain concise facts, source locators, tests and validation results;no original fulltexts,images,SI or private paths were published. Release the owned lease after this proof is recorded.
+
+
+## b110 Local GO/ZIF, HBPOPN and AM/CS/APP cotton originals
+
+Three complete publisher originals (77 native PDF pages) add **twelve new initial fabric states / fifteen TG conditions**, with zero legacy completions and zero existing-pair evidence upgrades. All30 concise fact rows remain in incoming;15 HBPOPN LOI-only states remain outside the target. One primary reviewer checked every native page, tables, figures, captions and methods. No SI is cited in these complete originals; no SI or independent-reviewer claim is made. Different gas conditions do not add sample states or establish independent physical replicates.
+
+- **10.1016/j.matchemphys.2020.123656:** Three initial woven-cotton states / six N2 and air conditions map TG Table1 (PDFp18/printed15) to LOI Table2 (PDFp19/printed16). N2 control R700 conflicts (7.4 table versus 7.3 prose); only that metric and its endpoint are blank. Air control R700 is 3.2; 3.4 belongs to GO-cotton. Generic source Tmax, total-mass-loss T5/T10 and preparation rinses are kept distinct from additional DTG stages and durability washing.
+- **10.1016/j.carbpol.2019.115648:** Untreated and initial HBPOPN160g/L fabrics / two N2 conditions map LOI Table1 (PDFpp13–14) to explicit R800 2.5/31.5 in thermal prose (PDFp16) and conclusion (PDFp21). The later thermal-oxidative wording contradicts the N2 method/DTG caption and remains flagged; no air condition is inferred. Three other initial doses and twelve washed LOI states lack their own TG and remain held. One accelerated AATCC cycle equals five home laundering cycles in this source.
+- **10.1007/s10570-020-03140-7:** Seven initial CS/APP and AM-CS/APP fabric states / seven N2 conditions join recipes in Table1 (PDFp4), directly printed LOI labels in Fig2 (PDFp6), and numerical TG Table3 (PDFp9). R800 is distinct from cone residue; air dimensional-stability photos are not air TG. AM solution concentration, APP bath concentration and measured dry finish add-on retain their original bases. Ambient start, missing assay repeats and unreported extra DTG peaks are not filled in.
+
+Detailed source limitations, recipe uncertainties and publication versions remain in the observation fields and batch manifest.
+
+Public evidence contains concise facts and DOI/page/table/figure locators. Originals, fulltexts, images and private paths remain external. Preserve all existing rows and concurrent processing state; release the owned lease only after exact-head CI, ordinary merge, three successful merge-SHA checks and independent complete remote master/report verification.
