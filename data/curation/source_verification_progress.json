@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T06:50:13.405Z",
+  "as_of_utc": "2026-10-01T06:54:00.903Z",
   "latest_batch_id": "20261001_b93",
   "verified_condition_records": 941,
   "verified_unique_sample_states": 776,
@@ -21,13 +21,12 @@
   "publication_stage": "b93_merged_verified_lease_released",
   "last_merged_batch": "20261001_b93",
   "writer_lease": {
-    "owner": "codex-local-wool-viscose-20261001",
-    "status": "released",
-    "batch_id": "20261001_b93",
-    "claimed_at_utc": "2026-10-01T06:37:00.377Z",
-    "scope": "11 original-reviewed new wool/viscose states and 11 TG conditions from three accepted DOI sources; four complete original source reviews including 27 held facts.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three merge-SHA checks and exact report/master readback.",
-    "released_at_utc": "2026-10-01T06:50:13.405Z"
+    "owner": "dot-source-review-b94-20261001",
+    "status": "active",
+    "batch_id": "20261001_b94",
+    "claimed_at_utc": "2026-10-01T06:54:00.903Z",
+    "scope": "Six independently reviewed polypropylene textile states at six TG conditions: five needle-punched nonwoven formulations and one modified-PP spun-fiber control. Preserve unknown LOI methods/statistics, source draw conflict, held temperature metrics and all unmatched treated states.",
+    "instruction": "Single publisher. Release only after exact-head CI, merge, three postmerge checks and exact report/snapshot readback."
   },
   "next_sources": [],
   "next_actions": [
