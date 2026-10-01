@@ -1,0 +1,97 @@
+{
+  "batch": "b118",
+  "review_completed_utc": "2026-10-01T21:57:42.411171+00:00",
+  "baseline_counts": [
+    976,
+    1205,
+    271
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 12,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_native_primary_PDF_pages": 29,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 43,
+    "held_fact_rows": 31
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b118_local_textile.csv",
+      "published_input_sha256": "83aada3cb13f58976613ff27663fdb45f5c65069b52653c8879c4ae534314301",
+      "unique_sample_states": 6,
+      "verified_conditions": 12,
+      "held_fact_rows": 31,
+      "accepted_measurement_fingerprints": [
+        "b3b4c395de01e6b6141e19ba0c0d904216c941efd0f5521da292809cda1fa4ac",
+        "9900d832eb9fec6a4dab01e01f8ecf693c97aee6d6eddc9e295246e758fef630",
+        "390845022e97200d69d770af0c096044e622dcb37c699e29cd32d7a2c3ab80bb",
+        "c5e0ddd3d5d7a99b86bc8497609968942759df2c75085cf4be74eb47b5e9a14c",
+        "8cfcf4bd4f828f0f5712e834cf3e84f338e120e4addb6559024a858f7c3b4ef8",
+        "7de6cc70a06b096d9c1165daf7ca15551e9219b3ae91d225d1ac694d3aaec415",
+        "636c8473860e78fe631886c2a2ea338cc20ae4ac62d9663e4408ea2d6b06f76b",
+        "3f1e10bb3a0aa7d0493ceff6cbf91757178e26f40cf52874129d7f6ad35e9794",
+        "4d70ba45bd570c544065cc70322c71b0ac4bc72495f966de7bd8084966baa432",
+        "2f445ffb2764bc1eb49142c5398f9d87110810d325af175c608f6cd2672806fa",
+        "a3527bc5ec8ec8fd677541c6fbaa69de15be33b71492f41f17a76c1ec8ca59c4",
+        "0637c44aaed0ffd3e370a530ec904de61da07180169b14fb9b0e8cd43fbc6ffa"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.reactfunctpolym.2020.104731",
+      "title": "Synthesis of a reactive boron-based flame retardant to enhance the flame retardancy of silk",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 17,
+      "pages": 7,
+      "disposition": "All7native/textpagesreviewed. TGQ600SDT inairTable1Control/Silk1(150gL)/Silk2(300gL):T10=277.8/168.2/200.5,R125=93.6/91.5/92.9,R425=42.5/44.5/49.5,R700=0.3/17/19.4;heatingrate/mass/flow/repeatsunreportedall7pages. InitialLOIcontrol24.3 and50gL27.0explicitprosep5;Fig8unlabelledcurveothersnotdigitized;conclusionhigherthan28.6notexactdoses. Fig8isnotnumericallylabelled;prose50gL27.0andconclusionhigherthan28.6arepreservedwithoutassigningcurveestimates. Silk2fivewashesproseLOI26.5p6unconfirmedcurvep5;noownwashedTG. Table2PCFCchar22.5/33.6/37.5notTG. CottonborrowedreferenceLOInotownsilk. SilkBAinitial/washesonlycurves,prepBAconcentrationunknown. MethodLOIFTT0080GBT5454-1997dims/repeatsunknown;washing40C30min50to1detergent2gLpostdryunknown. FRGBCAE50/100/150/200/300gL+NaH2PO2catalyst50gL,pH3triethanolamine,roomtemp2dip2nip10min100plusminus5pickup,predryunknown,150C3mincure/thoroughrinseairdry;silk52gm2SuzhouJiaduolipurity/weaveunknown. NoSIcited. All17initial/washfactsheld;0approvedpairs. Missingrateandcurve-onlyLOIarenotinvented."
+    },
+    {
+      "DOI": "10.1007/s10570-015-0671-6",
+      "title": "Synergistic effects occurring between water glasses and urea/ammonium dihydrogen phosphate pair for enhancing the flame retardancy of cotton",
+      "accepted_states": 6,
+      "accepted_conditions": 12,
+      "held_rows": 0,
+      "pages": 11,
+      "disposition": "All11native/textpagesreviewed. FiveowninitialTable1formulationsplusCOTcontrol areexactTable2N2/Table3airTGandTable5LOI;actuallysixstates includingcontrol,12conditionsnot12independentpairs. TGAQ50050-800C10C/min60mL/minbothgases,ca10mgopenaluminapans,duplicated;residue600Cnotendpoint800. NativeTonset5percentexplicit5wtpercentmassloss mapsT5notgenericTonset. COTWG N2T5=118 linkedtowater/silanolbyprosep5;notmaindecompositionpeak374. AirTmax2charoxidationnotwaterpeak;variableTmaxresiduesnot600Cresidue. AircontrolR600<1.0boundrawonly canonicalresidueblank;stillownT5/mainDTG/Tmax2valid. LOITable5control19/WG20/U240AP11542/U120AP57.526/U240AP115WG47/U120AP57.5WG28. MethodASTMD2863 FireOxygenIndexinstrument0.5percentexperimentalerror;dims/repeatsunknown. Cone100x100mm/PCFC5mg60C/min80N2+20O2notLOI/TGconditions. Precombustionconditioning23plusminus1C48h50RHnotnecessarilyTG. WGbathsource32wtpercentstockand10gLlabelunconverted. NoSIcited;cachedinventoryonePDF. Noownwash/agedstates. Noexperimentallyindependentreviewerclaim.",
+      "SI_status": "NoSIcitedall11pages;cachedinventoryonePDF"
+    },
+    {
+      "DOI": "10.1002/vnl.21910",
+      "title": "Effective enhancement of intumescent flame retardant coating by coordinating manganese ions on cotton fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 14,
+      "pages": 11,
+      "disposition": "All11native/textpagesreviewed;localHTMLmethods2.3crosscheckedbutnotclaimedallHTMLreview. OwnTable1N2TGcontrol/5BL/10BL/15BL/Mn5/Mn10/Mn15:T10=322/298/292/292/288/287/285,Tmax349.4/331/332/331/329/325/324,R8009.9/27.7/25.7/27.5/29.4/35.9/38.2. TGA STAPT1600N2heatingrate/mass/flow/repeatsunreported;MCC1C/s600C4-5mgcannottransferTG. Table3unwashedLOI18.2/25.1/25.4/25.6/25.8/27.1/28.3;washed18.1/19.8/20.2/20.8/22.1/24.6/26.8butnoownwashedTG. All14held:7missingrateand7noownwashedTG. InitialTable2MCCchar3.65/28.1/28.4/28.6/25.4/32.6/34.7notTG;washedTable4MCCchar15.15/32.43notTG. LOI5801AVOUCHGBT5454120x50mm;standardyear/repeatsunknown. 70x160mmisVBTonly. SurfaceEDSatomicP/Mnnotbulkcomposition. NoSIcited;localPDF+HTMLmethodsread.",
+      "SI_status": "NoSIcitedall11pages;localPDFandHTMLmethodsavailable"
+    }
+  ],
+  "verification_limit": "Three complete nativepublisher originals29pages,zeroSIcited. Oneprimaryreviewer. Sixwaterglass/U/APcottoninitialstatesatN2andair,12conditionsnot12samples. AircontrolR600boundrawonly;nativeTonset5percentisT5masslossincludingpossiblewater/silanolloss,notgenericdecompositiononset. Silk/MncottonmissingTGheatingratesandwashedTGremainheld;MCCparametersnotTG. Noestimatedcurves/fulltext/image/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1205,
+    "new_states": 6,
+    "new_conditions": 12,
+    "evidence_upgrades": 0,
+    "verified_states": 982,
+    "verified_conditions": 1217,
+    "verified_dois": 272,
+    "verified_sources": 274,
+    "offline_tests_passed": 691,
+    "snapshot_sha256": "58cff0c972c91d75fa58588c13018bc3596ef7c3bb3e1cf1f65cd23ec0ed1aa6",
+    "master_sha256": "d609d95b469ed664eb69ec73d68b7fbbc39f72ca188b1a331ba1e37f2a56aba7",
+    "validation_errors": [],
+    "held_fact_rows": 31,
+    "complete_original_native_pages": 29,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
