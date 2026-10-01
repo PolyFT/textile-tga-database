@@ -1,0 +1,107 @@
+{
+  "batch": "b80",
+  "baseline_counts": [
+    631,
+    757,
+    156
+  ],
+  "summary": {
+    "added_verified_unique_states": 12,
+    "added_verified_condition_records": 12,
+    "new_source_measurement_states": 12,
+    "existing_paired_states_evidence_upgraded": 0,
+    "DOI_sources_added": 2,
+    "non_DOI_sources_added": 0,
+    "author_preprint_sources_added": 0,
+    "author_preprint_states_added": 0,
+    "author_preprint_conditions_added": 0
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b80_banana_peel2021.csv",
+      "DOI": "10.17780/ksujes.828681",
+      "draft_sha256": "9a2883c9685a2c1d1f9a115afb5fb749663933cd5d501b60b4a809a691dbf6d0",
+      "published_input_sha256": "599a059fe3074d7cb786cb6b7d099c514b318913af5972df71a8aa5475d8ca7d",
+      "states": 10,
+      "conditions": 10,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "1aedeb9bb52dda1a002c635105c577fb22dd0f092d42fd455f8ea9fd00b4f28a",
+        "2aa025d8dbba85bf93a4731a011e903420fcdd07a4dade1e2e8d0e0f62ee8963",
+        "1d461006714ebcc25c4f407803a4c9d4434aa4a7e6a4fd1a57cc82c3e141c172",
+        "3d813f9f125554a1b19ec6dc6bb50ec42c69f8d1c6d91ebf00cadd8eaa4ee651",
+        "442b238f4ef661c278e1741da6374b1684104583e5714daec1dbc21faeea1351",
+        "eb17ffd0725c010f1607c35cb798ee465fb9f21f236626a2c168e5c1a3814b67",
+        "5671f71e156ed3f0385e01810a49c89a73745fb79f01030267f5f0149d9c1872",
+        "2704468bd5e2869d659aa5d6bbb21173d4a042e464856a5eae409b5381c41c05",
+        "8ae89123d106cb38b692522d9138520d45da6956540aee9b3464f32ab2b856a2",
+        "7139aa1b975a0b2a43579d407d2b0aec25364b38dc68afd2d397378ea16a24d0"
+      ]
+    },
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b80_licorice2022.csv",
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "draft_sha256": "289d2059ca4fe581506b1626a82d35db92119475fda0e02062d0e9dbd8f42d85",
+      "published_input_sha256": "98b6ffa86b6b15bcd4ec47976c4808acb2949ddae079d4c612e31f0deeb6da97",
+      "states": 2,
+      "conditions": 2,
+      "publication_type": "journal_article",
+      "classification": "new_source_measurement_states",
+      "accepted_measurement_fingerprints": [
+        "df0928ac6cd8b2a125175e98b197ebcb41b49c953f1e4ed4aa283eae2eace0a4",
+        "6b9fd0b238a948a2b056ec90b65f6f7d404c0d7059665c5da86475818cd0a80e"
+      ]
+    }
+  ],
+  "related_source_holds": [
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "A",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator A maps to banana-paper N1 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "B",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator B maps to banana-paper M1 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "A2",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator A2 maps to banana-paper N3 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "A4",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator A4 maps to banana-paper N5 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "B2",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator B2 maps to banana-paper M3 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    },
+    {
+      "DOI": "10.21605/cukurovaumfd.1146075",
+      "sample_state": "B4",
+      "evidence_location": "https://dergipark.org.tr/tr/download/article-file/2547641; original Figures 8\u201311, Table 4 and thesis acknowledgement",
+      "details": "Later licorice-paper control/commercial comparator B4 maps to banana-paper M5 for provenance review. Both papers cite the same 2019 thesis; changed recipe wording or LOI/residue values alone does not establish a new independent specimen. Hold this exact label until original specimen provenance is resolved. Distinct licorice-treated labels A1/A3/B1/B3 are outside this hold and require separate metric, state and atmosphere QA.",
+      "status": "open_sample_scoped_reuse_hold"
+    }
+  ],
+  "limitations": [
+    "Fulltexts remain private; only numerical facts and provenance are public.",
+    "Residue assessment temperatures of 880, 884 and 885 °C are retained exactly; no endpoint or curve inference is used.",
+    "Literal 750 °C source drying text and other recipe uncertainties remain explicit; no silent correction is made.",
+    "Six later control/commercial comparator labels are reuse-held; distinct licorice natural treatments receive bounded nitrogen attribution."
+  ]
+}

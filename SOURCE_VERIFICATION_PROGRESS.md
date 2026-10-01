@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **631 unique reviewed source/sample/washing states**, **757 TG condition records**, and **158 original sources (156 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **643 unique reviewed source/sample/washing states**, **769 TG condition records**, and **160 original sources (158 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **631 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 430 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 442 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -622,3 +622,10 @@ Three complete original journal papers add **11 genuinely new initial sample sta
 Publication types and foreign-source reuse holds are preserved. No independent reviewer is claimed. The public repository contains only factual measurements, concise DOI/locator evidence, tests and validation outputs; fulltexts, SI files, private paths and caches remain outside it. Proposed total is **631 states / 757 conditions / 158 sources**, with **1369 states remaining to 2000**. Exact-head CI, normal merge and independent terminal postmerge verification are required before release.
 
 Local verification: **356 tests pass**, validation errors `[]`, compilation and diff checks pass. All **746 previous condition records preserve every previous field value**; only the eleven new conditions are added. Snapshot SHA-256: `3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2`.
+
+
+## b80 banana-peel and bounded licorice textile states
+
+This batch adds 12 genuinely new sample states at 12 TG conditions from 2 DOI sources. Ten banana-peel-paper states and two distinct licorice treatments retain their exact residue temperatures of 880, 884 or 885 °C. Six later-source control/commercial labels remain held for reuse adjudication. Source recipe uncertainties and global atmosphere wording remain disclosed. The total is 643 states, 769 conditions and 160 sources (158 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
+
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
