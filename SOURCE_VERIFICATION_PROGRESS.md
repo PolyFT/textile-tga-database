@@ -829,3 +829,10 @@ PR [#62](https://github.com/PolyFT/textile-tga-database/pull/62) merged at `4fea
 This batch adds 6 newly verified paired states at 6 TG conditions from 2 DOI sources: 6 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 782 states, 947 conditions and 213 sources (211 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+
+### B94 publication checkpoint
+
+PR [#63](https://github.com/PolyFT/textile-tga-database/pull/63) merged at `9a47e3f67f644db8455b1196b74f73619b56ea2c` after exact-head validation run `36827722828` passed. All 458 tests passed. All 13 batch-owned public file blobs and the complete validation report matched snapshot `55e76e1c569347f5d6aa3c781253009a0134c1a8c025ef258f8263cea1ef458a`; every prior field in all 941 condition rows was preserved. Concurrent main retry-state updates were preserved byte-for-byte, bringing the postmerge file comparison to 14 files. Three distinct merge-commit checks passed: validation, master rebuild and processing. The writer lease was released.
+
+Verified total: **782 unique states, 947 conditions, 213 sources (211 DOI sources and two registered proceedings)**. This batch adds six new-source polypropylene textile pairs, zero completed legacy TG-only pairs and zero evidence upgrades. Keep the five-percent-loss definitions, unknown LOI uncertainty type, actual modified-PP control formulation, draw-ratio conflict and held treated temperatures/LOIs. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Fulltexts remain private.
