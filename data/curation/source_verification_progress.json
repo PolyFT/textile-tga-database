@@ -21,15 +21,13 @@
   "publication_stage": "b115_merged_remote_verified_lease_released",
   "last_merged_batch": "20261002_b115",
   "writer_lease": {
-    "owner": "codex-local-fiber-b115-20261002",
-    "status": "released",
-    "batch_id": "20261002_b115",
-    "claimed_at_utc": "2026-10-01T19:27:30.151673+00:00",
-    "expires_at_utc": "2026-10-01T20:57:30.151673+00:00",
-    "purpose": "Publish six complete local textile originals75pages;9newstates11conditions58holds;metadatareadonly",
-    "previous_release_commit": "081fcdb5c33faceeb9b2995c8522fc1f64943f25",
-    "released_at_utc": "2026-10-01T19:49:00.153704+00:00",
-    "release_reason": "PR83 exact-head CI,ordinary merge,all three merge checks and complete independent main/blob/master/report/library verification succeeded."
+    "owner": "codex-local-textile-b116-20261002",
+    "status": "active",
+    "batch_id": "20261002_b116",
+    "claimed_at_utc": "2026-10-01T20:41:45.737301+00:00",
+    "expires_at_utc": "2026-10-01T22:11:45.737301+00:00",
+    "purpose": "Publish six complete local textile originals86pages;6newstates10conditions92holds;1officialSI;metadatareadonly",
+    "previous_release_commit": "02c26a69f36dbbaa332a1540027ea977a17287cf"
   },
   "next_sources": [],
   "next_actions": [
