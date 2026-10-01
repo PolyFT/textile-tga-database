@@ -510,3 +510,8 @@ Nine genuinely new independent states add twelve TG condition records; zero exis
 Twelve further source holds preserve failed access, original SI read status, form/condition conflicts, cited rather than own LOI, or absence of TG. CSNF-DACMC full main and SI contain MCC heat-release Tmax302C, which is not TG; it remains excluded. No abstract, graph estimate or candidate is counted toward the target.
 
 Proposed total: 501 independent states, 577 TG conditions and 117 DOI. Strictly exceeding500 needs 0 more; reaching2000 needs 1499. Exact-head CI, normal merge and independent main readback must precede lease release.
+
+
+## Reviewed source identity schema
+
+PR #39 introduced an optional, registry-bound identity path for original conference proceedings without DOI identifiers. All 292 tests, exact-head snapshot CI and four postmerge workflows passed. The accepted master remained byte-identical at 501 sample states, 577 conditions and 117 DOI sources; no new observations or registered sources were added. The code-review mirror collision was fixed and regression-tested before merge. The writer lease has been released. Later source batches must independently register each original document and bind every observation review to its exact provenance; DOI and non-DOI cohorts remain separate.
