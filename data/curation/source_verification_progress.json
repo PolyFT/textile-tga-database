@@ -21,13 +21,12 @@
   "publication_stage": "b83_merged_verified_lease_released",
   "last_merged_batch": "20261001_b83",
   "writer_lease": {
-    "owner": "codex-local-asndp-plueg-asmpea-20261001",
-    "status": "released",
-    "batch_id": "20261001_b83",
-    "claimed_at_utc": "2026-10-01T03:33:31.850Z",
-    "scope": "Ten original-reviewed independent cotton initial/50LC states at20 TG conditions from five DOIs; 10 ambiguous native TG conditions retained outside target across six original-reviewed sources. No literature-library writes.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback.",
-    "released_at_utc": "2026-10-01T03:43:31.191Z"
+    "owner": "dot-source-review-b84-20261001",
+    "status": "active",
+    "batch_id": "20261001_b84",
+    "claimed_at_utc": "2026-10-01T03:58:23.439Z",
+    "scope": "Six independently original-reviewed PI/OMMT membrane, ANPP wool, untreated DBD-study wool and APPCABT cotton states at nine TG conditions from four DOI sources. Preserve assay form limitations, native peak numbering, source-defined T5 and reused comparator holds.",
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
