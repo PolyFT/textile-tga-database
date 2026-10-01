@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **765 unique reviewed source/sample/washing states**, **930 TG condition records**, and **208 original sources (206 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **776 unique reviewed source/sample/washing states**, **941 TG condition records**, and **211 original sources (209 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **765 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 564 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 575 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -808,3 +808,15 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [#61](https://github.com/PolyFT/textile-tga-database/pull/61) merged at `c5efded7b6e481b42284c6a880dce3d29f83ba7e` after exact-head validation run `36824995652` passed. All 445 tests passed. All 14 changed public file blobs and the complete validation report matched snapshot `0205a0d195986a08a212253cc60932a410bfbe359d18d43d2cc70c6a32e7eeb4`; every prior field in all 909 condition rows was preserved. Three distinct merge-commit checks passed: validation, master rebuild and processing. The writer lease was released.
 
 Verified total: **765 unique states, 930 conditions, 208 sources (206 DOI sources and two registered proceedings)**. This batch adds 16 new-source paired states, zero completed legacy TG-only pairs and zero evidence upgrades. Two atmospheres for five hydrogel states remain ten conditions, not ten states. Keep the three hydrogel temperature holds, DHTP source/wash/metric limitations and the PET treated-LOI conflict. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Fulltexts remain private.
+
+
+## b93 Local wool and viscose: source-native metric distinctions
+
+Four complete local published journal originals add **11 genuinely new initial textile states and11 TG conditions**, with **zero existing-state evidence upgrades**. Thirty-eight factual rows retain11 accepted conditions,10 held native numericalTG conditions,1 stage/qualitativeTG fact and16 unpairedLOI observations. One primary reviewer; no independent-reviewer claim or curve estimation.
+
+- **10.1016/0040-6031(96)02839-0:** eight own wool fiber states I-VIII pair Table1LOI24/27/28/27.5/31/33.5/32.5/31 with char0.8/2.4/3.3/4.4/8.3/9.5/5.1/6.0%. Char assessment temperature is unknown; no fixed-temperature residue is inferred. Static air10K/min is explicit. DTA exotherms inKelvin and activation energies remain source fields, notTG/DTG peaks. Native complex formulae and individual bath-dose uncertainty are preserved. Publisher PII matches DOI; first-page1995 header conflicts with1996 acceptance/copyright/subsequent headers.
+- **10.1002/app.24217:** own blend-spun viscose Fiber1/Fiber4 pair LOI19/31 with TableIII remainedmass11.61/27.65%. NitrogenTG20C/min differs from airDSC10C/min. Generic residue temperature is unknown despite the500C run endpoint; noR500. DSC drying/decomposition peaks and repeated native TableIII columnlabels remain raw. Fiber2/3/5 have LOI only and are excluded. Native Zn2SO4 bath formula is retained literally.
+- **10.1007/s10570-016-0970-6:** only own untreated viscose woven control has exactLOI17.1/N2R80012.7. Approximate control peaks are raw, notcleanTGmetrics. Generic grafted nitrogen/air peaks have no exactGP6.1/6.8/7.5/8.7 crosswalk, so those4 exactLOIs remain unpaired; qualitative control-air residue is notzero. Source-native ASTM D6413-08 LOI citation conflict and preparation/optimization differences remain explicit.
+- **10.1007/s10965-016-0954-0:** all17 facts remain held. Eight fabric Table3/4 TG-LOI matches lack explicit fabric-specific ramp attribution: methods name DPOWPU polymers, so10C/min is notsilently assigned to fabrics. Nine latex-film LOIs do not provide textile TG pairs. Initial fabric recipes, native stage numbering and480C residues remain factual evidence outside target.
+
+All930 prior condition records retain every prior field. Only numerical facts and concise DOI/page/table/figure provenance are public; originals and local paths remain external and read-only. Proposed total **776 states /941 conditions**, with **1224 remaining to2000**. Exact-head CI, ordinary merge, three terminal postmerge workflows and complete remote master/report readback precede lease release.

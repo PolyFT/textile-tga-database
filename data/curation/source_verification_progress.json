@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T06:35:10.702Z",
-  "latest_batch_id": "20261001_b92",
-  "verified_condition_records": 930,
-  "verified_unique_sample_states": 765,
-  "verified_dois": 206,
-  "numeric_pair_candidate_rows": 1313,
+  "as_of_utc": "2026-10-01T06:39:21.656388+00:00",
+  "latest_batch_id": "20261001_b93",
+  "verified_condition_records": 941,
+  "verified_unique_sample_states": 776,
+  "verified_dois": 209,
+  "numeric_pair_candidate_rows": 1353,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 564,
+  "cumulative_newly_completed_or_new_source_sample_states": 575,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b92_merged_verified_lease_released",
+  "publication_stage": "b93_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261001_b92",
   "writer_lease": {
     "owner": "codex-local-wool-viscose-20261001",
@@ -30,6 +30,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "b93 adds11 new wool/viscose states and11conditions from3 accepted DOI sources;4complete originals reviewed,zero evidence upgrades. Retain27heldfacts:10nativeTGconditions,1stage/qualitativeTGfact and16LOI-only states. Genericchar temperatureunknown;staticair preserved;DTA/DSCnotTGpeaks;DPAMPgenericGPandcoatingfabricramp holds retained. Refreshmain/queue/lease/openPRbeforepublisher;metadata strictlyread-only.",
     "B92 admits measured-LOI fiber and textile states with exact preparation crosswalks, excludes calculated LOI and conflicting TG metrics, and retains related-source reuse holds.",
     "b91 adds12 new wool/silk states/17conditions from4 complete local journal originals;zero evidenceupgrades. Retain33 held facts,including9 numericalTGconditions. Preserve boronT10/T50/nativeT60,MEDP5vs10percentMBAA and unknown char temperature,silkR600N2/R700air method-end conflict,and wool exhaustion-vs-pad/possible comparator reuse holds. Refreshmain/queue/lease/openPRbeforepublisher;metadata read-only.",
     "B90 admits measured-LOI fiber and textile states with exact preparation crosswalks, excludes calculated LOI and conflicting TG metrics, and retains related-source reuse holds.",
@@ -690,7 +691,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1235,
+  "remaining_to_2000": 1224,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -738,9 +739,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 208,
+  "verified_sources": 211,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 757,
+  "verified_doi_sample_states": 768,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -774,7 +775,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1235,
+  "remaining_to_target": 1224,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -890,9 +891,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 65,
-      "sample_states": 197,
-      "condition_records": 262
+      "sources": 68,
+      "sample_states": 208,
+      "condition_records": 273
     },
     "conference_proceedings": {
       "sources": 4,
@@ -984,7 +985,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 922,
+  "verified_doi_condition_records": 933,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -1410,5 +1411,21 @@
       "remote_exact_file_count": 14,
       "independent_remote_complete_report_match": true
     }
+  },
+  "batch_b93": {
+    "accepted_unique_sample_states": 11,
+    "accepted_condition_rows": 11,
+    "new_source_inventory_states": 11,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 38,
+    "total_native_numerical_TG_rows": 21,
+    "held_native_numerical_TG_conditions": 10,
+    "held_stage_or_qualitative_TG_fact_rows": 1,
+    "unmatched_LOI_only_fact_rows": 16,
+    "tests_passed": 453,
+    "snapshot_sha256": "db32ff54a3b95a77100d511a398df636005f646d29e96b841396367978f63d5c"
   }
 }
