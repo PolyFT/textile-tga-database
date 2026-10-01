@@ -42,13 +42,12 @@
     "snapshot_sha256": "3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2"
   },
   "writer_lease": {
-    "owner": "codex-local-pepbp-viscose-20261001",
-    "status": "released",
-    "batch_id": "20261001_b79",
-    "claimed_at_utc": "2026-10-01T02:12:09.896Z",
-    "scope": "Frozen original-reviewed local PEPBP cotton and HPTP/PMEP wet-spun viscose: 11 genuinely new sample states / 11 conditions from 3 journal sources, plus 1 unpaired TG control. Six additional reviews held. Preserve foreign source/version holds and publication-type reporting.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T02:22:38.810Z"
+    "owner": "dot-source-review-b80-20261001",
+    "status": "active",
+    "batch_id": "20261001_b80",
+    "claimed_at_utc": "2026-10-01T02:27:27.874Z",
+    "scope": "12 independently original-reviewed banana-peel and bounded licorice fabric states/12conditions. Retain literal source recipe uncertainty, exact residue temperatures880/884/885°C and six sample-scoped reused comparator holds; no whole-source licorice exclusion.",
+    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
