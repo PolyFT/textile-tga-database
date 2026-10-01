@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **682 unique reviewed source/sample/washing states**, **827 TG condition records**, and **176 original sources (174 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **693 unique reviewed source/sample/washing states**, **841 TG condition records**, and **180 original sources (178 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **682 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 481 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 492 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -687,3 +687,16 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR #53 merged as `b563eeba6d772fa16c1ba886ab03a35ed6238397` after exact-head validation run 36813443302 passed on `17a952482d078835cd3626e5eeab0afc3d50480a`. All 389 regression tests passed before snapshot materialization. Seventeen final-head files and the full validation report matched the local snapshot; all 818 prior condition rows retained every existing field. The three postmerge checks (36813768386, 36813768396, 36813768454) passed before writer-lease release `1c825a2417422879c4eab79b4298234bc994289d`.
 
 This batch adds six new states and nine conditions, bringing the dataset to 682 states, 827 conditions and 176 sources (174 DOI and two registered non-DOI sources). Explicit preprint counts remain five sources, 15 states and 24 conditions. Snapshot: `25e3524d42754218827d432032c8a19e9f3939bf7e539ebdd4fe8295b9168d50`. Source-specific form limits, native stage numbering, undefined metrics, unmatched treatments and reused comparators remain explicit. Fulltexts remain private.
+
+
+## b85 Cotton networks: complete original and supplement review
+
+Five complete local original articles add **11 genuinely new independent initial cotton states and 14 TG conditions**, with **zero existing-state evidence upgrades**. All native methods and data tables/printed figure values were checked. Three complete official supplements were reviewed. Twenty native numerical TG rows and five curve-only sample fact rows are preserved; **six numerical conditions and all five curve-only states remain outside the verified target**. One primary reviewer; no independent-review or curve-estimation claim.
+
+- **10.1007/s10570-020-03645-1:** own uncoated control adds one state/two N2/air conditions, LOI18.0. Table2 T5/Tmax and residue at Tmax remain distinct. Control airR800 is a dash and stays blank. Four HPAE3/BTCA3 conditions are held: main initial LOI29.4/29.0 conflicts with28.7 in washing prose/SI, while HPAE3 preparative rinse state and initial weight gains differ. Complete official TableS1 and VFT image do not resolve these issues. Other baths and washed states lack own TG.
+- **10.1007/s10570-021-03716-x:** complete original and complete official SI add zero pairs. Figure5 explicitly prints initial LOI18.0/19.3/20.4/21.3/20.7 for five separate chlorination/chelation states, but TG metrics are only unlabelled curves. No curve coordinates are estimated. Native LOI size150x98mm and room-temperature TGstart are retained. Washed, metal comparator, storage and rechlorination states do not have own numerical TG/LOI pairs.
+- **10.1007/s10570-019-02586-8:** own pristine and APP-loaded initial fabric add two states/four N2/air conditions. Table1's native Tonset is expressly defined as5wt%massloss and therefore recorded as T5, with raw header retained. Two APP@PDA conditions are held because DDM modification state is unresolved between preparation/Scheme1/SI and the later superhydrophobic modification discussion. Complete official legacyDOC SI, including all three rendered figures, was reviewed. Washed10cycleLOI has no own TG; CONEchar39.8 is not TG39.0.
+- **10.1007/s10570-021-03874-y:** control and three PEI10wt%/THPC1,5,10wt% baths add four initial states/four N2 conditions. Table2 matches printed Figure5 LOI18.7/25.0/29.0/29.7 and R7009.4/30.2/36.7/37.6. Native nitrogen flow60mL/s is retained raw without silently substituting60mL/min; normal TG100Cpreheat/cool is documented separately. Washed1X/2X have VFT only. MCC heating/char and TGIR mass do not replace regular TG.
+- **10.1007/s10570-021-03980-x:** own Cotton0/1/2/3 codes connect Table1's0/10/20/30wt% PEI-P baths to Tables2/3, adding four initial states/four N2 conditions. LOI18.1/31.4/35.8/38.7 pairs with exact T5/Tmax/R700. Regular TG mass5mg is distinct from TGIR10mg. Washed10/30/50homecycleLOI has no own TG. Source synthesis/recipe unknowns and catalyst basis are not inferred.
+
+All previous inputs, source-version and sample-scoped reuse holds are preserved. Public evidence contains only factual data and DOI/page/table/figure locators; fulltexts, supplements, images and private paths remain outside the repository. Proposed total **693 states /841 conditions /180 sources**, with **1307 states remaining to2000**. Exact-head CI, normal merge and independent terminal postmerge verification precede owned lease release.
