@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **976 unique reviewed source/sample/washing states**, **1205 TG condition records**, and **273 original sources (271 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **982 unique reviewed source/sample/washing states**, **1217 TG condition records**, and **274 original sources (272 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **976 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 775 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 781 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1214,3 +1214,14 @@ Numerical facts and DOI/page/table/figure locators are public. Originals, fullte
 ### b117 publication proof
 
 [PR #85](https://github.com/PolyFT/textile-tga-database/pull/85) merged as `c2f3a4fe3ce829af530193c251e55f59e646fa3e` after exact-head [validation run 36929245049](https://github.com/PolyFT/textile-tga-database/actions/runs/36929245049) passed on `69327f5b9dc832ec08fdc2586c0798885ce45542`. All682 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms976 states,1205 conditions,271 DOI sources and273 total sources. All1199 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and four original hashes are preserved. The complete6079546-byte master has SHA256 `316dc4102e0c64ab1a502fb110051bab2b532b964f1a13f1c428311a8d85510f`; the full remote report matches a fresh rebuild. Snapshot:`4c5904c975bbefa35b0e7e211f162a5063cb09a4cd208ff67013e13c5daef2bc`. Six new pairs and six TG conditions are published; evidence upgrades and legacy completions are zero;41 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b118 Local water-glass cotton, borate silk and manganese coatings
+
+Three complete native publisher originals (29 pages) add **six new source/sample/washing states and twelve TG conditions**. Existing-pair evidence upgrades and legacy completions are zero. All43 fact records are preserved;31 held records remain outside the target. One primary reviewer checked every native and text page. No supplement is cited in these originals; a local HTML method section corroborates the missing TG heating rate in the manganese paper. Two byte-identical silk PDF filenames represent one source.
+
+- **Water-glass/U/AP cotton:** five initial formulations plus their untreated control have exact Table5 LOI19/20/42/47/26/28 and corresponding Table2 nitrogen/Table3 air TG rows at10C/min. Two atmospheres give12 conditions for6 states. Native Tonset5% explicitly means5wt% mass loss, recorded as T5. Nitrogen WG-only T5=118C includes the authors' water/silanol explanation and is distinct from its374C main decomposition peak. Air Tmax2 is char oxidation. Residue is at600C despite an800C method endpoint. Air-control R600<1.0 remains a raw bound; canonical residue stays blank. Residues at variable Tmax temperatures and PCFC/cone outputs are not fixed-temperature TG residues.
+- **GBCAE silk:** all17 initial/washed facts remain held. TG Table1 has air T10 and residues at125/425/700C for control/150/300g/L, but no heating rate is reported. Most dose/wash LOI values are unlabelled curves. Explicit prose values remain raw where unresolved; no curve estimate, other-dose TG or washed TG is borrowed. PCFC char is not TG char; instrument dimensions/repeats are not guessed.
+- **Manganese PEI/PSP cotton:** all14 initial/washed facts remain held. Seven initial Table1 TG rows have nitrogen T10/main DTG/R800, but no TG heating rate; the1C/s ramp,4-5mg mass and600C endpoint belong to MCC. Seven washed Table3 LOI rows have no corresponding washed TG. Initial MCC char34.7% and TG R80038.2% for Mn-15BL are distinct; washed MCC char32.43% is not washed TG. Native DI-rinse repeats are not converted into home laundry cycles. Surface EDS atomic percentages are not bulk formulation loadings.
+
+Numerical facts and DOI/page/table/figure locators are public. Originals, fulltext, images and local paths remain external. No independent reviewer claim is made. Exact-head checks, ordinary merge and independent complete remote verification precede lease release.
