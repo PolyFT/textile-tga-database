@@ -1,0 +1,98 @@
+{
+  "batch": "b121",
+  "review_completed_utc": "2026-10-01T23:45:14.487308+00:00",
+  "baseline_counts": [
+    990,
+    1232,
+    276
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 12,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 37,
+    "complete_official_SIs_reviewed": 2,
+    "total_fact_rows": 42,
+    "held_fact_rows": 30
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b121_local_textile.csv",
+      "published_input_sha256": "e5e6bde39d20193a2dabe2bdeb5c8762c32954c14684bf0bfd35c41d7644cc00",
+      "unique_sample_states": 6,
+      "verified_conditions": 12,
+      "held_fact_rows": 30,
+      "accepted_measurement_fingerprints": [
+        "af62ac6332f1fc5eebc312fe6ae797efbd9821d729bcf908865596f8b2eed47f",
+        "a485ea6cca4d53a80985b914cf94deae6b8b89bb140bd7b55e275a530dbf5643",
+        "ddba8cc12127d00553fd7f644822212eaf69d69612765dade84536b67d2c7e5f",
+        "898a83f5dc474e61a85d3d6b43ac7e161da28beaa75f23de787c8f791b1c93cd",
+        "eb86342bcb06d9c9fd3b1c7f21ed83265ed9a2ab73116e8998cf3036c494c3df",
+        "d5ab54b5c8f997488d4fa1a9626f6c59f6f482301f88e3aeba2900a3a388cc4d",
+        "90384a368a08ee6066001b0ffb706fe6b54fb2916c9b43cb55976d10a1175c96",
+        "af260321d8a190fa132226565dc2a648500dfdfbc4cf2110b6888e38dd6da6a0",
+        "c15421c820d8b88c1b2304bf0ea61986ca97fcf08ba0bb8687547e6d99841ec6",
+        "0f19c03720383832d2165cf503ea95a95dba927c12d178a5e60472d0e3eecb12",
+        "d776ef863f440cea25d9c9878f65a75487b611a8176c5630b64506b61750c4d3",
+        "e606dd25bf1a6a97ded9193fc83809a23d5a8ec7a1c0e79395fcc6cbdaf21281"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.apsusc.2019.145175",
+      "title": "Construction of anti-flame network structures in cotton fabrics with pentaerythritol phosphate urea salt and nano SiO2",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 9,
+      "pages": 11,
+      "disposition": "All11native/textpagesreviewed,noSIcited. OwnTable1p9OCFloi17.8plusminus.45/TCFSi31.8plusminus.84;uncertaintytype/repeatsnotreported. TCFSiunambiguously300g/LPEPAS125g/LCYPA+hydrothermalnanoSiO2;p4scopeappliessameunlessotherwisestated. Ownthermaltextp7airTonsetOCF292.73/TCFSi246.98andreportedmaximumdecompositiontemperature354.43/305.65withcorrespondingmasslossrates2943.38/452.44ug/min. AirR700p8OCF3.41/TCFSi15.02. N2R700p8OCF7.92/TCFSi37.94;N2numericonset/peaksnotreportedandnotestimatedfromFig11p9. Thirtyto110Cfirsteventexplicitwaterlossnotdecompositiononset;onsetsarenotT5/T10. MethodsTG209dryapproximately5mg10C/min30-700CN2airp4;flow/dryprotocol/repeatsunreported. LOIHC2CGBT5454-1997150x48mmnot58. Own11Table1samplelabels0-10retained:5TCFdoseLOIs22.6/27.6/29.4/24/29.6noowndoseTG;fourwashedTCF3/TCFSi20/50nativeLCLOI26.6/27.8/23/25.2noownwashedTG;washingprotocolcitesRefs25/26notreprinted,countsnotconvertedtohomecycles. Initialpostpreparationrinseisnot20LC. Fig12captionduplicatesTCFSiAF50TLandbodyafterflameversusabstractafterglowwordingnotusedasTGdata. XPS/EDSsurfacefractionsnotbulkSiO2loading;noFRpowder/fabricmixing. Twoindependentinitialstatesfourgasconditionsapproved;nineheldfacts.",
+      "SI_status": "NoSIcitedall11pages"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2017.05.054",
+      "title": "Durable flame retardant finishing of cotton fabrics with halogen-free organophosphonate by UV photoinitiated thiol-ene click chemistry",
+      "accepted_states": 4,
+      "accepted_conditions": 8,
+      "held_rows": 11,
+      "pages": 9,
+      "disposition": "All9native/textprimarypagespluscompletepublisherCDNSITableS1reviewed(XMLalltabledetails,foot/endnotesempty,nodrawingmedia,oneconvertednativepage). ExactofficialElsevierPIIS0144861717305714mmc1.docxwasinitiallyacandidateendpoint;HTTP200andTableS1sameDHTP2/5/8andallfourbreakingstrength/stiffnesspairs933.2/3.02,938.6/4.57,974.7/5.41,1058/5.85matchprimaryp8,establishingcontentidentity;notclaimingScienceDirectparentfulltextreview(403). OwnTable1p7TG10C/min30-800CN2air5mgopenaluminapan204F1p3;nativeTonset10percentisT10notT5/genericonset;R600notR800despitemethodendpoint800. OwnTable2p8onlyuntreatedandDHTP2/5/8LOI18.3/26.1/26.7/27.2;MPTES-onlypretreatedTGhasnoownLOIeventhoughcaptionmentionspretreated. AircontrolR600lessthan1.0rawboundcanonicalblank;ownT10/DTGpeaksvalid. VariableR@TmaxandmaximumratesnotfixedR600;waterlossbelow100Cexcluded. Eightconditions/fourinitialstatesapproved. DHTP8addon60.4Table2versus61.4prose/conclusionrawboth;addoncanonicalblank,doseidentity2/5/8explicitandnotambiguous. Table3zeroLCduplicatesinitialnotextra;LC1/5/30ninewashedLOIrecordsnoownwashedTG;ISO6330-2012flakedsoapwashT/dryprotocolunreported;EDXsurfacefractionsnotbulkloading. Elevenheldfacts(twoMPTES-onlyTG,ninewashedLOI).",
+      "SI_status": "CompletepublisherPIImatchedTableS1XML/native1page"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02900-4",
+      "title": "Preparation of a synergistic reactive flame retardant based on silicon, phosphorus and nitrogen and its application to cotton fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 10,
+      "pages": 17,
+      "disposition": "All17native/textprimarypagesandcompleteofficialSpringerparent-linkedSIreviewed(XMLalltabledetails,foot/endnotesempty,threeconvertednativepagesincludingEMFFig1Sreactionmechanism). Nativeonlinefirstpublished5December2019recordversionexplicit;laterassignedCellulose272020pp1799-1815publisherpage. OwnTable1p8untreatedLOI18,200/300/400gLLOI24.8/26.3/27.6WG25.2/33.2/42.4. OwnTable2p11untreatedairTonset294Tmax1=344Tmax2=489R800dash;N2Tonset312Tmax1=369Tmax2dashR80017.3. AirR800dashkeptblanknotzero;genericTonsetnotT5/T10. TGA85140-800C10KminN2airp5;flow/mass/repeatsunreported. TreatedTGTable2hasgenericlabelandno200/300/400dosecrosswalkanywhereincludingSI:airTonset220Tmax234/277R80019.1,N2Tonset221Tmax235/288R80042.0heldrawwithoutownLOI. Noassignmentto400gLfromabstract/conclusion/LOI27.6. ThreeinitialdoseLOIheldnoownmatchedTG. SI2STablewashedLC5/10/15LOI26.5/26.0/25.7genericdoseunreported,noownwashedTG;0LC27.6notadditionalstate. Wash0.5percentdetergent49C15min60rpmthenDIrinse/dry70C1h;detergentidentityunreported;fivetensiletestsnotLOI/TGreplicates. Fig8theoreticaltreatedcurveandpureFRpowdercurvenotownfabricobservations;cone16plusminus1notTG19.1. Zeroindependentnewstatesapproved;alltenfactsheld. Controlheldaspossiblecross-sourceduplicateof10.1007/s10570-020-03488-w:bothsameWeifangQirongcottonsupplier,overlappingZhengZhang/DezhengKong/LingSun/ChaohongDong/ZhouLuauthors,LOI18,N2Tonset312Tmax369R80017.3and10K/min40-800Cexactmatch;airmainTmax344alsoagrees. Numerical/author/supplieridentitysuggestssharedcontrolbutdoesnotproveexperimentalindependenceorformalalias;bothDOPOcontrolgasrecordsexcludedfromnewtargetpendingidentityadjudication. Existingpairedrowsunchanged;zeroevidenceupgradesclaimed.",
+      "SI_status": "CompleteofficialSpringerSIwholeXML/3nativepages/2tables1figure"
+    }
+  ],
+  "verification_limit": "Three complete primary originals37native/textpages plus2completeofficialSI4convertednativepages;oneprimaryreviewer. PEPAScontrol/TCFSi300gLPEPAS125gLCYPAplusnanoSiO2N2air;nativeaironsetnotT5/T10,numericN2temperaturesabsent;washed/lowerdoseTCFloinoTGheld. DHTPcontroland2/5/8wtpercent8conditions;nativeTonset10percentisT10,R600notTGmethodendpoint800,aircontrolboundraw;MPTES-onlypretreatmentTGnoLOI;8percentaddon60.4/61.4conflictrawbutexplicitdoseidentityknown;washedTGabsent. DOPOPiPSiall10factsheldincludingcontrol2conditionspossiblecrosssourcesharedcontrol;genericTGtreateddosenotassign400gL;airdashresiduenotzero;officialSIwashedrecordsnoownTG,doseunreported. Noestimatedcurves/fulltext/SI/image/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1232,
+    "new_states": 6,
+    "new_conditions": 12,
+    "evidence_upgrades": 0,
+    "verified_states": 996,
+    "verified_conditions": 1244,
+    "verified_dois": 278,
+    "verified_sources": 280,
+    "offline_tests_passed": 741,
+    "snapshot_sha256": "d7299b2a9a112fee22ffc717c80c00ff850d3b1e714be9e5d011008cac563498",
+    "master_sha256": "58c887c82ea35aa8a891a829a3618ab7e250b061e210f8be558d7a7fb2807543",
+    "validation_errors": [],
+    "held_fact_rows": 30,
+    "complete_original_native_pages": 37,
+    "complete_official_SIs": 2,
+    "unchanged_private_evidence_files": 41,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
