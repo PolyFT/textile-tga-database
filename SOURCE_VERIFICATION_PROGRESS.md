@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **955 unique reviewed source/sample/washing states**, **1178 TG condition records**, and **264 original sources (262 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **964 unique reviewed source/sample/washing states**, **1189 TG condition records**, and **268 original sources (266 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **955 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 754 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 763 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1159,3 +1159,17 @@ The supplement contains a synthesis mechanism only, with no additional TG/LOI me
 ### b114 publication proof
 
 [PR #82](https://github.com/PolyFT/textile-tga-database/pull/82) merged as `0dc66888e7e6d73e7c0b2150dc3bccf69d3264e2` after exact-head [validation run 36907631928](https://github.com/PolyFT/textile-tga-database/actions/runs/36907631928) passed on `ea92adf11a2869bfb10e833ee8c344921668ab8d`. All643 offline tests, compilation and scientific validation pass; the three merge-triggered checks also succeeded. Independent remote verification confirms955 states,1178 conditions,262 DOI sources and264 total sources. All1170 prior condition records and their fields, eleven published file blobs, seven concurrent processing files, four original hashes and one official supplement hash are preserved. The complete 5813197-byte master has SHA256 `bdf17abf42694f1d8a4f9eb2b0b3c853496e47e83557efc992a49efd30240299`; the full remote report matches a fresh rebuild. Snapshot: `0297b8114bae75f2254c5a1acb100e5af8f849e47c326086aef79591ec434a81`. Five new pairs, zero evidence upgrades and zero legacy completions are published;49 held facts remain excluded. The writer lease is released only after this verified publication record is saved.
+
+
+## b115 Local silk, lyocell, polyester and wool originals
+
+Six complete native originals (75 pages) add **nine new source/sample/washing states and eleven TG conditions**. Existing-pair evidence upgrades and legacy completions are zero. All 69 fact records are preserved; 58 held records remain outside the target. One primary reviewer checked every original page. No SI was cited or found in the local DOI inventory.
+
+- **Silk:** own initial control LOI23.5 matches Table1 TG. Exact Kelvin conversion retains residue at699.85C, never rounded toR700. Seven modified doses have bounded or graph-only LOI and remain held.
+- **Lyocell:** own control and30wtpercent finish after30 native laundry cycles retain unconflicted T10/residue measurements in both gases. Initial treated LOI44.6 versus40.6, all Table3 peak/figure disagreements, and N2control R80013.32 versus13.6 remain unresolved. Canonical disputed fields are blank;30LC is not renamed150LC.
+- **Polyester:** four initial ZnCl2 doses have matching own LOI and explicitly defined onset temperatures. Table2caption10percent despite four dose rows is retained. SourceTdmax is held because Figure5 uses DTA voltage units; source residual percentages have no explicit associated temperature and stay raw. Add-on denominatorWt and conflicting4to99percent prose are preserved. Three washed states have no own TG.
+- **Wool:** initial control/treated LOI24.1/26.6 pairs with Table5 air TG. The64C moisture peak stays separate from protein decomposition and char oxidation peaks. The5/15wash columns contain VBT only; dyed mechanical samples are separate.
+- **Ag-lyocell:** all19 facts remain held because the complete original supplies no TG heating rate. Six TG tests preserve native thresholds, residues and unresolved peak prose/table disagreements; no10C/min is borrowed.
+- **EADP-lyocell:** all12 facts remain held because standalone TG explicitly tests fibers and LOI explicitly tests separately supplied fabrics, without proof of the same form/state. Initial37.8 versus38 LOI and TG-dose mapping remain unresolved. N2residue800C and air residue700C are distinct; no graph estimates or washed TG transfer.
+
+Only numerical facts and DOI/page/table/figure locators are public. Original files, fulltext, images and private paths remain external. No source correction, independent reviewer or physical-replicate claim is made. Exact-head checks, ordinary merge and independent complete remote verification precede lease release.

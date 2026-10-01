@@ -1,0 +1,109 @@
+{
+  "batch": "b115",
+  "review_completed_utc": "2026-10-01T19:29:07.627066+00:00",
+  "baseline_counts": [
+    955,
+    1178,
+    262
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 11,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 6,
+    "accepted_DOI_sources_added": 4,
+    "complete_native_primary_PDF_pages": 75,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 69,
+    "held_fact_rows": 58
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b115_local_fiber.csv",
+      "published_input_sha256": "a3bafc8001173e3e32b933ba631dda503a2afc6273f25d86a58eb94d72b63e1f",
+      "unique_sample_states": 9,
+      "verified_conditions": 11,
+      "held_fact_rows": 58,
+      "accepted_measurement_fingerprints": [
+        "777438c30907720dfdbe12753e24fd2917efaaf7e9b6adc2ee19f563b6b5a0bd",
+        "3292792b0b8e28af2eef3259aa8c17e41d418ac1f2abd0b5af0c99aa839ad55a",
+        "0c23b3ad645169a9426aa9f4737e64c24b480fba218a6f49acc0aba3cf4b08d6",
+        "22ee009ec11a19d1b3d2f920bccb2ba05a31fc8c81643e260f9d2f3685694554",
+        "79793f3ded99277f9ef4c9b7ca84b062b8087a7c91ad595e0a678daa589fadb2",
+        "c8569fd90bd6d28c0d4af481f649612ee3eb6f7b1f6613aede28bd8adaeebb7b",
+        "54772941aa1378930e73bfc1e88184d0a6e74441119073e3c95407e0c2745479",
+        "a0fdc6e35a6efe65e9a0e3130e25aaae74275f8f80239c9ce35d65c6f317c8b0",
+        "b0fc804606bb9526ccc7ff495881eceea1ac3aea1dad9814751e0ca9dcb6cf9d",
+        "3898f2b5bd357a1e4316d615162e599e2e1bcdc1e5916b84053c0c8206a42561",
+        "14dc72d69ac2b058c03abcd426bbe8a371c74d4a7d940f408e4921568288f2ae"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.tca.2021.178929",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 7,
+      "disposition": "Only own control LOI23.5 is exact. All seven modified doses have bounded/graph-only LOI; no digitization or assigning27.4. Native temperatures K are converted by subtracting273.15 exactly; R973K is699.85C, not R700. T10/T50 are mass-loss thresholds, not onset/peak. No own washed TG or LOI; char length and surface EDS are not char mass."
+    },
+    {
+      "DOI": "10.1007/s10570-021-03975-8",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 15,
+      "disposition": "Initial30wtpercent LOI44.6 abstract versus40.6 Table1/prose unresolved. All Table3 Tmax differ from Figure6 DTG peak positions and remain raw, no estimated replacement. Graphic abstract N2 R80013.32/39.02 versus Table3/Figure6 13.6/38.8 unresolved; control N2 canonical residue blank. Own30LC TG/LOI and control air unconflicted thresholds/residues retainable. No borrowing TG-IR flow, other-dose TG or wet-rub/washed TG. Native30LC is not renamed150LC."
+    },
+    {
+      "DOI": "10.1007/s10965-019-1849-7",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 3,
+      "disposition": "Table2 has four explicit0/5/10/15percent ZnCl2 rows matching Table1/Figure4 legends despite caption parenthesis10percentZnCl2; retain caption discrepancy. Table Tdmax remains raw because Figure5 labelledDTGA has DTA(uV) axis. Onset is explicitly defined and supported by own prose. Residualwtpercent has no explicitly stated associated temperature; canonical residue remains blank despite500C test end. Printed add-on formula denominatorWt, notWo; p7 says4to99percent versus Table1 4to9percent; raw discrepancy retained. No washed TG."
+    },
+    {
+      "DOI": "10.1007/s12221-017-7244-2",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 2,
+      "disposition": "Own initial Table4 LOI24.1/26.6 matches control/treated Table5. First peak64C is moisture, not decomposition Tmax1. T5 thresholds are distinct from a moisture-stage boundary and do not establish Tonset. Preserve sourceTmax2 protein decomposition andTmax3 char oxidation separately. Conclusion20percent LOI improvement is a conflicting derived claim, not another absoluteLOI. Washed5/15cycle table columns contain VBT only, no own LOI or TG; dyed mechanical samples are not new TG-LOI pairs. Surface EDS is not whole loading."
+    },
+    {
+      "DOI": "10.1007/s10570-021-04000-8",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 19,
+      "disposition": "All held: complete original gives no standalone TG heating rate for either gas, so none is borrowed from other papers or TG-IR. Table1 treated N2 Tmax267.31/266.20 versus prose249.7/246.3 unresolved. Prose80C residue versus Table1/Figure6 800C retained raw. Air controlT5=110.35 is total mass-loss threshold, not decomposition onset. Washed LOIs have no own TG. Surface Ag43.89percent is not whole Ag loading; shared cone control profile with another paper is not proof of sample identity."
+    },
+    {
+      "DOI": "10.1007/s10570-018-2005-y",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 12,
+      "disposition": "All held: materials separately supply fibers and fabrics; standalone TG expressly fibers, LOI expressly fabrics, no demonstrated same form/state. Initial treated abstractLOI37.8 versus main38 unresolved; graph points not digitized. TG treated dose not explicitly assigned by TG section after multiple fabric doses. Method instrument Pyris1(STA449F3) inconsistency retained. Nitrogen residue800C and air residue700C are distinct. Air method endpoint800C is not air residue800C; TG-IR20K/min30mL/min8mg and MCC1C/s are separate tests. No washed TG; no wash-method conditions supplied."
+    }
+  ],
+  "verification_limit": "Six complete native publisher originals,75pages,one primary reviewer;no SI cited in originals or found in DOI inventory. Exact numerical facts only. Unresolved LOI, peak, residue-temperature, heating-rate and fiber/fabric identity records held. No independent reviewer or experimental-replicate claim. No originals/fulltext/images/private paths published.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1178,
+    "new_states": 9,
+    "new_conditions": 11,
+    "evidence_upgrades": 0,
+    "verified_states": 964,
+    "verified_conditions": 1189,
+    "verified_dois": 266,
+    "verified_sources": 268,
+    "offline_tests_passed": 657,
+    "snapshot_sha256": "4566a899417c915c870ecf52b219e519046e196fa2a7729fcd6683a3f55ddde1",
+    "master_sha256": "f07a12012f7cac366657a2b7192ae61304d57f8e7235e1b6cc0d86a86e97f7e5",
+    "validation_errors": [],
+    "held_fact_rows": 58,
+    "complete_original_native_pages": 75,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 9,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
