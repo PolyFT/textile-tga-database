@@ -21,13 +21,12 @@
   "publication_stage": "merged_and_postmerge_verified",
   "last_merged_batch": "20261001_b84",
   "writer_lease": {
-    "owner": "dot-source-review-b84-20261001",
-    "status": "released",
-    "batch_id": "20261001_b84",
-    "claimed_at_utc": "2026-10-01T03:58:23.439Z",
-    "scope": "6 independently original-reviewed new states/9 conditions from 4 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T04:12:09.154Z"
+    "owner": "codex-local-cotton-networks-20261001",
+    "status": "active",
+    "batch_id": "20261001_b85",
+    "claimed_at_utc": "2026-10-01T04:15:26.655Z",
+    "scope": "Eleven original-reviewed initial cotton states at14 TG conditions from four accepted DOI sources; five complete original reviews with three complete official SIs. Preserve six native numerical TG conditions and five curve-only states outside verified target. Metadata library strictly read-only.",
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback."
   },
   "next_sources": [],
   "next_actions": [
