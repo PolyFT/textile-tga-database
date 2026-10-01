@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T05:34:01.308142+00:00",
+  "as_of_utc": "2026-10-01T05:44:45.739Z",
   "latest_batch_id": "20261001_b89",
   "verified_condition_records": 875,
   "verified_unique_sample_states": 720,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b89_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b88",
+  "publication_stage": "b89_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b89",
   "writer_lease": {
     "owner": "codex-local-amop-apctsi-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b89",
     "claimed_at_utc": "2026-10-01T05:31:10.477Z",
     "scope": "Three complete local cotton journal originals and two complete official SIs:6 new initial sample states/8 TG conditions. Preserve3 held numerical TG conditions,1 approximate generic TG fact and16 unmatched LOI-only facts. AMOP T10/residue720C;APCTSi residue750C/generic dose hold;PAA ZnO dose/peak conflict. Library strictly read-only;no fulltexts/private paths published.",
-    "instruction": "Single publisher. Release only after exact-head CI, normal merge, three distinct postmerge checks and full report/snapshot/master readback."
+    "instruction": "Single publisher. Release only after exact-head CI, normal merge, three distinct postmerge checks and full report/snapshot/master readback.",
+    "released_at_utc": "2026-10-01T05:44:45.739Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -1300,6 +1301,20 @@
     "held_approximate_generic_TG_fact_rows": 1,
     "unmatched_LOI_only_fact_rows": 16,
     "tests_passed": 423,
-    "snapshot_sha256": "875f24f8033c1ae3fcf183f8a7c502788f155611a68be2a2d5c11490883953af"
+    "snapshot_sha256": "875f24f8033c1ae3fcf183f8a7c502788f155611a68be2a2d5c11490883953af",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/58",
+    "head_sha": "b4d55d953af0a06952354fad76c00db2a67cac04",
+    "merge_sha": "558fed756e120e091108e2fe9b856333fa8601fd",
+    "exact_head_CI_run": 36820618335,
+    "postmerge_checks": [
+      36820749731,
+      36820749736,
+      36820749727
+    ],
+    "all_three_postmerge_checks": "terminal success",
+    "complete_remote_main_report_matches": true,
+    "changed_public_file_blobs_match": 11,
+    "previous_condition_records_all_fields_unchanged": 867,
+    "master_sha256": "007c8a1eb5299111a125db025aacd09717e7f228e7a87b7e283bec913ad3a889"
   }
 }
