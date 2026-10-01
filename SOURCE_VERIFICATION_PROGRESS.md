@@ -986,4 +986,13 @@ All eleven changed public file blobs match the merged Git tree. Independent remo
 
 This batch adds 4 newly verified paired states at 4 TG conditions from 2 DOI sources: 4 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 887 states, 1076 conditions and 242 sources (240 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
-All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease was released after the exact-head and postmerge checks passed.
+
+
+### B104 publication verification
+
+PR [73](https://github.com/PolyFT/textile-tga-database/pull/73) merged as `964aba518b8fff173007f140ee07aad19a65a04a` after exact-head validation run `36851289871` passed on `54843f7db934a913d3e86f3b0f227d7628cd4e73`. All 14 changed public file blobs and the complete report match the independently built snapshot. Every field of all 1,072 earlier condition records is unchanged; 538 local tests passed.
+
+The merge-commit validation, master rebuild and processing runs (`36851813948`, `36851813914`, `36851814098`) all succeeded. Lease release commit: `936ba097c17f233657f743765fedb210383f8857`. The verified total is 887 unique states, 1,076 TG conditions and 242 sources (240 DOI sources plus two registered proceedings). Four new-source paired states were added, with no evidence-only upgrades. The author-preprint subgroup remains separately reported as eight sources, 23 states and 33 conditions.
+
+Sample-scoped journal A/B/C/E reuse guards are public. The earlier admitted conference C retains its original fields and remains the sole counted repeated observation. Only distinct journal D/F states were admitted; no source-wide exclusion or cross-publication method substitution was used.
