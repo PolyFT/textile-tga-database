@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T09:24:29.531Z",
+  "as_of_utc": "2026-10-01 09:25:17 UTC",
   "latest_batch_id": "20261001_b100",
   "verified_condition_records": 1054,
   "verified_unique_sample_states": 867,
@@ -21,14 +21,12 @@
   "publication_stage": "b100_merged_verified_lease_released",
   "last_merged_batch": "20261001_b100",
   "writer_lease": {
-    "owner": "dot-source-review-b100-20261001",
-    "status": "released",
-    "batch_id": "20261001_b100",
-    "claimed_at_utc": "2026-10-01T09:02:29.238Z",
-    "scope": "19 independently original-reviewed new states/19 conditions from 5 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof.",
-    "released_at_utc": "2026-10-01T09:24:29.531Z",
-    "release_reason": "Exact-head CI, all three merge-SHA workflows and complete remote master/report/file proof passed."
+    "owner": "codex-local-cotton-siloxane-20261001",
+    "status": "active",
+    "batch_id": "20261001_b101",
+    "claimed_at_utc": "2026-10-01 09:25:17 UTC",
+    "scope": "Four original-reviewed initial cotton states/four TG conditions from two sources; four complete originals45nativepages,37concise facts33held. Preserve b100 data/publication proof; PNPDMS residue conflict withheld only metric; no transfer of optimized TG to other concentrations/washes.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three terminal successful merge-SHA workflows and complete remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
