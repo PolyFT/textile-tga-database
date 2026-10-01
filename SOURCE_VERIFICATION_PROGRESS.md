@@ -915,4 +915,18 @@ Four genuinely new initial polyester sample states and four TG conditions were a
 
 This batch adds 19 newly verified paired states at 19 TG conditions from 5 DOI sources: 19 new-source states and 0 completed legacy TG-only pairs. Measured LOI is separated from char-derived calculations, conflicting TG metrics remain held, and every pair uses its own preparation and assay evidence. Related-source and unmatched-state reuse holds remain explicit. The total is 867 states, 1054 conditions and 233 sources (231 DOI sources and 2 registered non-DOI proceedings). No extra atmosphere or numerical evidence upgrade is counted as a new state.
 
-All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. PR #69 is merged and its exact-head CI, complete remote snapshot verification and all three merge-commit workflows passed. The B100 writer lease has been released.
+
+
+### B100 publication verification
+
+- PR: https://github.com/PolyFT/textile-tga-database/pull/69
+- Exact reviewed head: `5c786dddd6ad9231ea188b7329472a4f1d11efe2`; validation run `36841484440`, attempt 2, passed
+- Merge commit: `95eebc55f0db9995e8a9c69cdc093423ad7eefe0`
+- Merge-commit validation, master rebuild and processing runs `36842077611`, `36842077781` and `36842077530` all passed
+- All 16 changed public file blobs and the complete validation report matched the reviewed snapshot; all 1,035 prior condition records retain every existing field
+- Snapshot: `3d10a2f0e76cc55610fc16c227aec21e912e3b0a61965f2690afc9848ea3e6e1`
+- Lease release: `40a9a6496212a0036e321a64d8f824f13f109fb3`
+- Verified total: 867 states, 1,054 conditions and 233 sources, comprising 231 DOI sources and two registered proceedings. The author-preprint cohort remains separately labelled: eight sources, 23 states and 33 conditions
+
+All 19 B100 additions are new paired source states; no evidence upgrade or additional atmosphere is counted as a new state. Source-specific exclusions and raw method values remain explicit.
