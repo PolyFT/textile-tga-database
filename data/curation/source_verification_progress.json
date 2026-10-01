@@ -21,13 +21,12 @@
   "publication_stage": "b94_merged_verified_lease_released",
   "last_merged_batch": "20261001_b94",
   "writer_lease": {
-    "owner": "dot-source-review-b94-20261001",
-    "status": "released",
-    "batch_id": "20261001_b94",
-    "claimed_at_utc": "2026-10-01T06:54:00.903Z",
-    "scope": "6 independently original-reviewed new states/6 conditions from 2 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher. Release only after exact-head CI, merge, three postmerge checks and exact report/snapshot readback.",
-    "released_at_utc": "2026-10-01T07:06:08.500Z"
+    "owner": "codex-local-polyester-silk-20261001",
+    "status": "active",
+    "batch_id": "20261001_b95",
+    "claimed_at_utc": "2026-10-01T07:07:17.781Z",
+    "scope": "Six newly paired textile states/six conditions: four existing PANI/PET TG-only states completed from native printed LOI labels, two new HFPO/silk states; five complete original reviews and explicit fabric-gas, control-reuse and wool-recipe holds.",
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof."
   },
   "next_sources": [],
   "next_actions": [
