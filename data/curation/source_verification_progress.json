@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T04:18:23.066117+00:00",
+  "as_of_utc": "2026-10-01T04:31:21.901Z",
   "latest_batch_id": "20261001_b85",
   "verified_condition_records": 841,
   "verified_unique_sample_states": 693,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b85_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b84",
+  "publication_stage": "b85_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b85",
   "writer_lease": {
     "owner": "codex-local-cotton-networks-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b85",
     "claimed_at_utc": "2026-10-01T04:15:26.655Z",
     "scope": "Eleven original-reviewed initial cotton states at14 TG conditions from four accepted DOI sources; five complete original reviews with three complete official SIs. Preserve six native numerical TG conditions and five curve-only states outside verified target. Metadata library strictly read-only.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback."
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and three terminal postmerge checks plus independent main readback.",
+    "released_at_utc": "2026-10-01T04:31:21.901Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -69,7 +70,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -313,26 +314,26 @@
     "reviewed_papers_added": 1
   },
   "latest_publication": {
-    "batch": "b84",
-    "pr": 53,
-    "merge_sha": "b563eeba6d772fa16c1ba886ab03a35ed6238397",
-    "validated_head": "17a952482d078835cd3626e5eeab0afc3d50480a",
-    "validation_run": 36813443302,
+    "batch": "b85",
+    "pr": 54,
+    "merge_sha": "ff5184cd2490e3b04dec372b53736b5e92fbece8",
+    "validated_head": "f523b58f1a18faa6ac3e1117934ef46c893cdeca",
+    "validation_run": 36815129223,
     "postmerge_runs": [
-      36813768386,
-      36813768396,
-      36813768454
+      36815251837,
+      36815251867,
+      36815251838
     ],
-    "verified_sample_states": 682,
-    "verified_condition_records": 827,
-    "verified_dois": 174,
-    "verified_sources": 176,
+    "verified_sample_states": 693,
+    "verified_condition_records": 841,
+    "verified_dois": 178,
+    "verified_sources": 180,
     "verified_non_doi_sources": 2,
     "verified_non_doi_sample_states": 8,
     "verified_author_preprint_sources": 5,
     "verified_author_preprint_sample_states": 15,
     "verified_author_preprint_condition_records": 24,
-    "snapshot_sha256": "25e3524d42754218827d432032c8a19e9f3939bf7e539ebdd4fe8295b9168d50"
+    "snapshot_sha256": "9fe87f21872f6617c390ba337db4e1d9fe5b989baa6dc4f2171b9487116edead"
   },
   "batch_b56": {
     "added_verified_unique_states": 3,
@@ -1163,6 +1164,27 @@
     "held_native_TG_conditions": 6,
     "held_curve_only_states": 5,
     "held_HPAE_LOI_and_rinse_conditions": 4,
-    "held_APP_PDA_DDM_conditions": 2
+    "held_APP_PDA_DDM_conditions": 2,
+    "tests_passed": 396,
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/54",
+    "publication": {
+      "status": "merged_verified",
+      "head_sha": "f523b58f1a18faa6ac3e1117934ef46c893cdeca",
+      "merge_sha": "ff5184cd2490e3b04dec372b53736b5e92fbece8",
+      "validation_run": 36815129223,
+      "postmerge_runs": [
+        36815251837,
+        36815251867,
+        36815251838
+      ],
+      "postmerge_status": "Three distinct merge-SHA checks terminal success: validation, processing and master rebuild",
+      "snapshot_sha256": "9fe87f21872f6617c390ba337db4e1d9fe5b989baa6dc4f2171b9487116edead",
+      "master_sha256": "9bb0f8f81a45e99835695551165df021a18c7a247be8b649e0d800d3181a242e",
+      "previous_condition_records_all_fields_unchanged": 827,
+      "independent_remote_complete_report_match": true,
+      "independent_remote_master_sha256": "9bb0f8f81a45e99835695551165df021a18c7a247be8b649e0d800d3181a242e",
+      "changed_public_file_blobs_match": 11,
+      "tests_passed": 396
+    }
   }
 }
