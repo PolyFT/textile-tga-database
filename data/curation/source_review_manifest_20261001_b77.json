@@ -1,0 +1,113 @@
+{
+  "batch": "b77",
+  "review_completed_utc": "2026-10-01T01:35:16.162533+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 21,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_complete_primary_reviews_held": 1,
+    "additional_TG_only_rows": 4,
+    "total_preserved_TG_rows": 25
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b77_local_chapp_acmpep.csv",
+      "published_input_sha256": "b056b93dc24db8dc6ed3536713af9eef1d558d6104e67e0bba4ee705f7cc93e5",
+      "unique_sample_states": 12,
+      "verified_conditions": 21,
+      "additional_TG_only_rows": 4,
+      "accepted_measurement_fingerprints": [
+        "fac3a9e7eba7f64c5b42b81a79f08253d9c00b8340ea46e5015325f1c94847a2",
+        "5a667a0657da072c221d4375b3536469fe4502933998325371313e699cdadffd",
+        "910c9d00144ac5056c82b198864bc10ba234ed9b57c37a74781569f6ed410f29",
+        "0f89f51ae6d8e18b60eedc7a627bd6d53a25f6b040f357c24a07ea37cf01b31c",
+        "ecf1c81a7257ed02d8fd041eece3836961432f7a03ec66a4390b913274dfd114",
+        "21451a17bed85f8a8fa6a9dbe0e57291a5601abc728967a05af222897204a236",
+        "c144ca400cb0bde460ab178da75b564cea5ca985724a6c813afcd0a34e240b40",
+        "487a9ba6cd1fa1812fa96f394fc468812d30f3c3fa94c2db6db0b5869b77e565",
+        "1257d16117318c4aaf8dfd144a246e9de0e11ee09a4a4374e88ddc7f481e15ad",
+        "333d50182923bc1139cb50c24be23f4e72180eeb22b53f4978362234d9340f98",
+        "581c1432bb06d476adfb0c3b298987a44fac9d8306505778d49020f9ccc55fd4",
+        "7e76793b5cea20117238d94c090faab8a973dad262fc9b05f4db5fcd9deb9dc6",
+        "2856c674ab7b85bad8365143449bf042d937618bcf5dbcce85203c9c1e403b27",
+        "264444cbb36c73059cf48baf0ddb190f82f9330fed2351a77f17dd7f33a11671",
+        "c19f346c26662213603234d7d18e0014997719a07ac2f3cb5403176e521688f7",
+        "5b82f6dccf86629b153e0797aadd6ecf16d3a5229853058df59a0fa04c36285d",
+        "d580dca39f31c798122c60110f00ca5d1aba4595022d59448ff47ed3a3ec1116",
+        "d21657b580636e3826af6225d31fde253764b7e319806f96c1a98d3365f965ec",
+        "2b90469f3d4bb53955ce164a549ec11721a57497d48e171a546d989110f88559",
+        "340167a3e7be3fd59f66ea045ce598c53038202c5b9a1e97f395543eb97af096",
+        "ca2c193947bee64489f2c2712f44ea4bfeed2646f980871fae230ed9c9e364a3"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.04.009",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "TG_only_records": 2,
+      "disposition": "Section3.1 explicitlyallsubsequenttests exceptLOI/verticalflame on30%ACMPEP; 20%/25%LOI39.2/40.1 and10-50cycleLOIseries lacksameTG,nofabrications.30%bath differs33.4%initialweightgain. OwninitialTG/LOIfabric correspondence throughSections2.3/3.1/3.5 andconclusion; fiberwording refersconstituentcottonstructure,notseparatespunfiberformulation; no conversiontofiberorpowder. NativeT5/T10/T50 mass-loss thresholds notonset; <100Cwater evaporation notTmax. Explicitfabricresidues760CnotR800; purecompound genericresiduetemperatureunknown. TGgasflow/mass/replicates andLOIreplicates/uncertainty missing; TG-IR8mg/40CstartnotTGmethod. Dicyandiamideamount andfinaldrytemperatureunspecified. SourceWGformula W0undefined andbefore/afterW1/W2 wording inconsistent; useprintedpositiveTable1/Table7 WGonly,norecalculation. SourceCONETTI/char/PHRR andverticalcharlengthprose/tableconflictsnotTG/LOI.50LCs describescommercial-launderingequivalent withone49C/45min/0.15wt%detergenttestequivalentfivecommercialwashes; noTGafter50LCs.",
+      "accepted_sample_labels": [
+        "30% ACMPEP-treated cotton",
+        "Control cotton"
+      ],
+      "original_locators": [
+        "Publishedpp146-148 Sections2.1-2.4/3.1;pp151-152 Table2 andTGtext;p154 Table7;officialSI FigsS1-S3"
+      ],
+      "review_scope": "Complete12-page publishedprimary text/tables/captions/references andcompleteofficialSI DOCXtext/captions/allthree embedded1H/13C/31PNMR spectra reviewed. SI productformula andnumbering matchmain; noextraTG/LOI. Duplicateoriginals byte-identical; allcachesexternal."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.108998",
+      "accepted_states": 6,
+      "accepted_condition_records": 9,
+      "TG_only_records": 2,
+      "disposition": "NativeTonset10% mapped onlyto10%masslossT10,notadditionalTonset. OriginalTmax1/2/3/4 positions retained; absentstages remainblank,no renumbering. NitrogenGSMTable3Tmax2=390C versusprose385C held outsidecleanTmax2; air385Cdistinct. Source purgeunitmL/s retained,notcorrectedtomL/min; sampleair/balanceN2 flows nottranslatedtoinventedgasfractions.100C30minTGhold distinctfromfabric preparation andMCC25-650C/1Csec/5mg/N2-80mLmin. Table2/3 residue600Cexplicit,notR850/finalendpoint despitegenericfinalresidue prose. Residuesatnativepeaktemperatures notunqualifiedchar yield. Table1 VFTresidualweightsnotTG. UncoatedLOIN/A; literature20-21%notownmeasurement. ThreeLOIaverages; uncertainty/TGreplicatesunspecified.25BL/U/THU nitrogenTGabsent,no copiesfromair. Initialsame-state only; no launderingdata borrowed.",
+      "accepted_sample_labels": [
+        "CH/APP-10BL",
+        "CH/APP-25BL",
+        "CH/APP-30BL",
+        "CH:GSM/APP-10BL",
+        "CH:THU/APP-10BL",
+        "CH:U/APP-10BL"
+      ],
+      "original_locators": [
+        "Journalpreproof numberedpp4-6 methods,p7 Table1,p10 Table2,p12 Table3"
+      ],
+      "review_scope": "Complete original primary cover/body/tables/captions/references/highlights/declaration read; printed method and numerical pages viewed. No listedSI inprimary andno distinctmatching localrelatedfile; duplicateoriginals byte-identical. External supplemental inventory notinspected."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2021.109620",
+      "accepted_states": 4,
+      "accepted_condition_records": 8,
+      "TG_only_records": 0,
+      "disposition": "T5 exactly5percentmassloss threshold,notTonset; controlN2T5 belowmain230-380Cdegradationrange notassignedaspeak orseparatemoistureassignment. RTmax isresidueassessedatTmax,notR700; Table1R700explicit,notR800evenTGendpoint800C. TG-IR40Cstart differsTGroomtemperature; conechar6/10/19 notTGresidue. Figure4directlyprintedtable LOI18.0/22.4/25.1/26.8,notcurveestimates. Bath10/20/30wt% notWG8/13/21%; initialprocesswaterrinsesnotdurabilitywash. MainSection2.2 31PNMR1.36ppm versusSection3.1/Figure2d12.7ppm andotherprintedNMRshift differences preserved,notchemicallycorrected. SI FiguresS1-S3 characterizePPTS/DTPprecursors;SI EDXchar elementalpercentagesnotTGmassresidue. VFTstandardprintedGB/T5445-2014notcorrected;LOIownGB/T5454-1997. Fabricweave/gsm,TGmass/gasflow/replicates,LOIrepeats/uncertaintynotreported;mechanical3tests notLOIreplicates. No aged/washedTGLOI.",
+      "accepted_sample_labels": [
+        "Control Viscose",
+        "Viscose-TSPDP-10",
+        "Viscose-TSPDP-20",
+        "Viscose-TSPDP-30"
+      ],
+      "original_locators": [
+        "Publishedpp2-3 methods andTable1;p5 Figure4 numericaltable; officialSI TableS1/FiguresS1-S5"
+      ],
+      "review_scope": "Complete9-page local publishedoriginal text,tables,captions,references read; originalmethod/numericalpixels viewed. CompleteofficialSI DOCXtitle/authors/text/TableS1andallfive embeddedNMR/EDX figures reviewed; no additionalTG/LOI. MatchingduplicatePDF byte-identical; sourcecachesprivate."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2016.03.003",
+      "accepted_states": 0,
+      "accepted_condition_records": 0,
+      "TG_only_records": 0,
+      "disposition": "Complete original primary text/tables/captions/references and selected original pixels reviewed. Figure9 directlyprintedLOI71.2 vsconclusionmaximum71.6 andpossiblemeasurementceilingconflict held. Figure10 includessecond-stagefluorosilane-treatedfabrics, butthermalprose P/G lacks exactone/twostepmapping; no assignmentofone-stepLOItohydrophobizedTG. Owncontrol18LOI withonset300/maximumweightloss340/approximately2%residueat480C notadmittedpendingpossiblecontrolreuseacrosssameauthorgroup145gsmperoxidebleachedfabric. Five drycleanMCC measurements cannot supplysame-stateTG/LOI.",
+      "accepted_sample_labels": [],
+      "original_locators": [
+        "Publishedp61 Figure9 andp62 Figure10/thermalprose;pp56-57 methods/Table1;p64conclusion"
+      ],
+      "review_scope": "Complete10-page primary read; originalFigure9/Figure10pixels viewed. No listedSIinprimary; no independentreview orcurve-digitization claim."
+    }
+  ],
+  "verification_limit": "Three complete local originals accepted and one complete additional primary held; one primary reviewer, no independent-reviewer claim. Printed numerical and method pages checked; complete ACMPEP/TSPDP official SI text, captions, tables and all embedded figures viewed, no extra TG-LOI. CHAPP no listedSI in main or distinctmatching localrelatedfile; external supplementalinventory not inspected. Duplicate originals byte-identical. Unknown assessment temperatures and conflicting peaks withheld without guessing. No curve digitization, private paths, source caches or copyrighted fulltexts published."
+}

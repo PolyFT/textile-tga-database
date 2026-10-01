@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T01:21:00.213549+00:00",
-  "latest_batch_id": "20261001_b76",
-  "verified_condition_records": 694,
-  "verified_unique_sample_states": 589,
-  "verified_dois": 145,
-  "numeric_pair_candidate_rows": 1042,
+  "as_of_utc": "2026-10-01T01:35:16.164363+00:00",
+  "latest_batch_id": "20261001_b77",
+  "verified_condition_records": 715,
+  "verified_unique_sample_states": 601,
+  "verified_dois": 148,
+  "numeric_pair_candidate_rows": 1106,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 388,
+  "cumulative_newly_completed_or_new_source_sample_states": 400,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b76_merged_and_postmerge_verified",
+  "publication_stage": "b77_validated_branch_pending_PR_merge",
   "last_merged_batch": {
     "batch": "b76",
     "pr": 45,
@@ -51,6 +51,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "b77 adds12 new exact initial textile states at21 TG conditions fromCHAPP polyester/ACMPEP cotton/TSPDP viscose. FourTG-only rows excluded; untreatedpolyesterLOIN/A notgeneric20-21%. Preserve100C30minTGprehold,nativemL/s purgeunits, originalstagenumbers andN2GSM390/385Cconflict. ACMPEP allnonLOItests30%bath, WG33.4%,fabricresidue760Cnot800C. TSPDP10/20/30bath vs8/13/21WG, directFigure4LOI,chemicalshiftconflictpreserved. CompleteACMPEP/TSPDP SIreviewed. GP/FS primaryheld fornativeLOIceiling/mapping/reuse. Preserve publicationtypes andotherpublisher changes;librarystrictlyread-only.",
     "B76 explicitly labels author-preprint evidence and holds related final journal versions against duplicate sample admission. Preserve original-state, endpoint and wash limitations.",
     "b75 adds14 new exact initial cotton/polyester fabric states at14 TG conditions. HC2HC and CAPDPP remainTG-only. HC synthetic-air qualifier,60mLmin and10Cmin retained; moisture thresholds notpeaks. PSi complete official SI reviewed, Tonset5percent cleanT5; no COT-Si orwashed pairing. CAP conflicting residues/rates native-only; no controlNaOH assumption. Additional wool primary held for fiber/fabric mismatch. Preserve publication-type reporting; strictly read-only library; refresh main/PR/lease before next publisher.",
     "b74 adds11 new original-reviewed cotton/wool states at21 conditions. Preserve untreated TTPBD LOI contradiction, DTCTNG treated loading/catalyst ambiguity, wool exactly30wash/isothermal250C distinction, ATEPAHP generic treated labels, CS/LS LS-only LOI and control N2char conflicts. MoistureT5 remains threshold; residue372C notTmax; N2/air methods distinct. Eleven native TG-only records excluded. Refresh main/queue/PR/lease before next publisher; library strictly read-only.",
@@ -695,7 +696,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1439,
+  "remaining_to_2000": 1399,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -743,9 +744,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 147,
+  "verified_sources": 150,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 581,
+  "verified_doi_sample_states": 593,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -779,7 +780,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1411,
+  "remaining_to_target": 1399,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -895,19 +896,19 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 3,
-      "sample_states": 14,
-      "condition_records": 14
+      "sources": 10,
+      "sample_states": 40,
+      "condition_records": 55
     },
     "conference_proceedings": {
-      "sources": 2,
-      "sample_states": 8,
-      "condition_records": 8
+      "sources": 4,
+      "sample_states": 10,
+      "condition_records": 10
     },
     "author_preprint": {
-      "sources": 0,
-      "sample_states": 0,
-      "condition_records": 0
+      "sources": 4,
+      "sample_states": 12,
+      "condition_records": 21
     },
     "unspecified": {
       "sources": 132,
@@ -926,9 +927,9 @@
     }
   },
   "verified_publication_type_metadata_issues": [],
-  "verified_author_preprint_sources": 0,
-  "verified_author_preprint_sample_states": 0,
-  "verified_author_preprint_condition_records": 0,
+  "verified_author_preprint_sources": 4,
+  "verified_author_preprint_sample_states": 12,
+  "verified_author_preprint_condition_records": 21,
   "batch_b76": {
     "added_verified_unique_states": 28,
     "added_verified_condition_records": 43,
@@ -939,5 +940,16 @@
     "author_preprint_sources_added": 4,
     "author_preprint_states_added": 12,
     "author_preprint_conditions_added": 21
+  },
+  "batch_b77": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 21,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "additional_complete_primary_reviews_held": 1,
+    "additional_TG_only_rows": 4,
+    "total_preserved_TG_rows": 25
   }
 }

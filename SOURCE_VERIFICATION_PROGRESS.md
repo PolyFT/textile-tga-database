@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **589 unique reviewed source/sample/washing states**, **694 TG condition records**, and **147 original sources (145 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **601 unique reviewed source/sample/washing states**, **715 TG condition records**, and **150 original sources (148 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **589 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 388 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 400 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -580,3 +580,15 @@ PR #45 merged as 05e8f3e5acb73c25dd883c626e48462744ea7934 after all 338 tests an
 The accepted total is 589 sample states, 694 TG conditions and 147 sources (145 DOI sources plus two registered proceedings). This batch adds 28 genuinely new states and zero evidence-only upgrades. Four explicitly labelled author preprints contribute 12 states and 21 conditions; their related final journal versions remain source-wide reuse holds. All 651 previous condition records retain identical values in every existing field. Original fulltexts remain private.
 
 Snapshot SHA-256: 71c7fc5865d0995d9f89c05463b66be9d6e0c7a3bbc64ad4867f8ad6ddf96ad3.
+
+
+## b77 Original local polyester, cotton and viscose review
+
+Three complete original journal sources add **12 genuinely new initial textile sample states and 21 TG conditions**, with **zero evidence-only upgrades**. Four TG-only rows remain outside the target; all 25 native TG rows are retained. Nitrogen and air measurements count once per independent sample state. Complete official ACMPEP and TSPDP supplements were reviewed, including every embedded figure, caption and table; neither supplies additional TG–LOI pairs.
+
+- 10.1016/j.polymdegradstab.2019.108998: six coated polyester states and nine conditions. Table 1 LOI values match the exact recipes and bilayer counts in Tables 2–3. Uncoated polyester has LOI=N/A and is excluded. Native Tonset10% is stored as T10; missing degradation stages retain their positions. Residues are reported at 600°C. The 100°C/30 min TG prehold and original mL/s purge units are preserved. Nitrogen GSM peak 2 conflicts between table (390°C) and prose (385°C), so the clean peak field is withheld.
+- 10.1016/j.polymdegradstab.2019.04.009: two initial woven cotton states and four conditions. Section 3.1 restricts TG to the 30% ACMPEP treatment; Table 7 initial LOI values are 17.8/42.0. Bath concentration (30%) differs from weight gain (33.4%). Fabric residue is explicitly assessed at 760°C, not 800°C. Other bath concentrations and washed LOI states lack matching TG. Pure-compound TG rows have no LOI. Missing catalyst amount and drying temperature remain unspecified.
+- 10.1016/j.polymdegradstab.2021.109620: four initial viscose fabric states and eight conditions. Table 1 TG matches the numerical table embedded in Figure 4 (LOI 18.0/22.4/25.1/26.8). Bath concentrations differ from weight gains. R700 and residue at Tmax are distinct; preparative rinses are not durability washing. The original NMR discrepancy is documented. Missing LOI repetitions, TG mass/flow and fabric construction are not guessed.
+- 10.1016/j.polymdegradstab.2016.03.003: a fourth complete primary source is held, with zero accepted states. LOI 71.2 versus 71.6, a possible instrument ceiling, ambiguity between one- and two-step treatments, and possible control reuse require resolution. Dry-cleaning MCC measurements do not provide durability TG–LOI pairs.
+
+Publication types and source versions are explicit; no independent second-reviewer or curve-digitization claim is made. Fulltexts, supplements, caches and private paths remain outside the repository; the library is strictly read-only. All 343 tests pass, the validator reports no errors, and all 694 previous condition records retain identical values in every existing field. Proposed total: **601 states / 715 conditions / 150 sources**; **1399 remain** to 2000. Exact-head CI, normal merge and independent postmerge readback are required before releasing the publication lease.
