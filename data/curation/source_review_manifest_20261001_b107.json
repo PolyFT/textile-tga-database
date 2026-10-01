@@ -1,0 +1,83 @@
+{
+  "batch": "b107",
+  "review_completed_utc": "2026-10-01T11:38:25.370721+00:00",
+  "baseline_counts": [
+    903,
+    1095,
+    245
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 13,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 27,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 24,
+    "held_fact_rows": 11
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b107_local_gcn_rgo.csv",
+      "published_input_sha256": "efaae1c6ef9f921d469a22c69d7ce22f2eb064bdb92e4c228e0eea2d1b5fa290",
+      "unique_sample_states": 8,
+      "verified_conditions": 13,
+      "held_fact_rows": 11,
+      "accepted_measurement_fingerprints": [
+        "6d1461b6928574aeb3d58ced9aee6aa84d99ac7d89c845f8ac8f43420d8e2517",
+        "66990f35c8e3e9c8a4f74d0f6279247fe148ef0e9062a15985cbfbaf64309956",
+        "b568df665996ed6c7e9bb2d5d4efd701f8d22e8317d25faa3067ebb9cb170c0b",
+        "145d4bc3a491038c25e1860fec0b453afcd6d99898c9e3296e6e51c0c3b07185",
+        "25c36a5016037e3f16c9ba96f5e59dac827ecc6b9e7b0ed6243d13179cfd2c6e",
+        "e41d7a35b1ea55764a09e0f6c57ada76741cd434db41f9b48f90bf1c2f19a330",
+        "b4498c1b7a18f8bf010ed481959d90de1eac1d80f6e5b7ac7b8f19c76f184498",
+        "9cbbc9f50c605e27892578962ea210e78412c06684a40ad14dd55b093e0f57d6",
+        "41691f92e8240430f175bb4b4c3fce6bbb9b7c0f6b3a3ec5fb1ed99fc2ff051f",
+        "0de8fed50320fafc9693647339a22776f1f830f2fe5b9c6a1d0013349ebb065a",
+        "b437b3be97e5de9c014efdc3bf405da2039ff73058a5788df7edd29282e33067",
+        "3d2dea6257895c3524027b7f54c9b404ef3c6c014c663bb1c57b3f07319d9fbe",
+        "d73532c1bda189bdf5a7adebfad839f2a810ff7b0527fafcb02124c4542bf07f"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10853-021-05877-3",
+      "accepted_states": 5,
+      "accepted_conditions": 10,
+      "held_rows": 6,
+      "disposition": "Complete14nativeoriginalpages reviewed. InitialcottonfabricTable1 formulations matchTables2air/3ArTG andFig4a/proseLOI PDFp7/9684. Fig3caption fibers are constituentfibersofown121g/m2fabric,notdifferent standalonefibers. Ar is argon,notnitrogen. Reportedresidue700C despite800Crunendpoint. TGmass/flow/repeats andLOIrepeats/uncertainties/conditioningunreported;do notborrowMCC5mg/O2flow20mLmin ormechanical4repeats. Table4MCC Tp is notDTGmax. PGairT5158.5C stayssourceT5 with earlycoatingdegradationcaveat,notTonset/T10 orassumedwaterpeak. Measuredadd-on is totalfinish,notcomponentfractions;nativeplusminusstatisticundefined. Fig8cwashedLOIexplicitlabels retainedasLOIonly:washedTGunreported. Washingprosep11claimsLOIincrease/lowerthanuntreated,contradictsFig8c;no correctioninferred;allwashedpairsheld. Source/sample/gas countsdonotproveindependentphysicalreplicates."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03356-7",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "held_rows": 5,
+      "disposition": "All13nativeoriginalPDFpages reviewed;publishedonline25July2020. Initial(rGO/CA)-1/-5/-10 labels inFig4TG/Table2p7 andFig5LOI/explicitprosep6 maptoownplainwoven120gsmfabric methods p2/3. Table2 explicitly calls DTG maxima secondstage:storeTmax2,firstpeak andT5curveonlyunknownblank. R600Table2rounded24.8/29.9/32.7 agreeswithprosep6moreprecision24.794/29.894/32.681;rawprose retained,noaveraging. ControlLOI18.0abstractp1 conflicts18.2prosep6:canonicalblank/controlpairheld. Materials p2 calls gamma-aminopropyltriethoxysilane PEI butmethodsp3 sayspolyethyleneimine:primerchemicalidentityunresolved,no silentcorrection. FinalAPPdip10minmethodsp3 vs1minTable1p6:actualdipdurationblank,bothrawreportsretained. BothTG andLOI use same initial(rGO/CA)-n state despiteunresolvedrecipe metadata;no separate1/10minstates invented. NaBH4 reduction andpreparativerinse precedefinalAPP;notdurabilitylaundering. Caprolactam-modifiedcasein describedbothanionic/cationic,chargeunresolved. Q500nitrogen30-600C10C/min ca5mg;flowunreported;desiccatorbeforeTGnotadditionalaging. Allabovetests3samplesaverageasprinted,uncertaintystatisticundefined. WashedstatesTable4p10haveVFTonly,noownLOI/TG. Washprotocol240mincalledfive45mincycles sourcearithmeticconflictretained,noequivalenthomewashcountinferred. ConeTable3residue2.3/8.7 andpeaktimes are notTG. Oneprimaryreviewer,nophysicalreplicateindependenceclaim."
+    }
+  ],
+  "verification_limit": "Two complete original journalPDFs27nativepages checked byoneprimaryreviewer;noSIcited in eitheroriginal,noSIreviewclaim. Eightsource/sampleinitialstates13gasconditions;noindependent-reviewer/physicalreplicateindependenceclaim. ControlLOIconflict,washedLOI/VFTonlyheld;ArnotN2,R700not800,DTGsecondstagepreserved;unresolvedAPPdiptime/primeridentitymetadata savedwithoutcorrection. Originals/fulltext/images/privatepaths excluded;metadatareadonly.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1095,
+    "new_states": 8,
+    "new_conditions": 13,
+    "evidence_upgrades": 0,
+    "verified_states": 911,
+    "verified_conditions": 1108,
+    "verified_dois": 247,
+    "verified_sources": 249,
+    "offline_tests_passed": 567,
+    "snapshot_sha256": "cb283ae0a221d7316b84bf499737e6fd04b6a97772d8c28bf3c5b81b6c8eba58",
+    "master_sha256": "eb31ab21660da365080284c394cd4067e60f253272b463c24a538cb58958997c",
+    "validation_errors": [],
+    "held_fact_rows": 11,
+    "complete_original_native_pages": 27,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
