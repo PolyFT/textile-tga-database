@@ -21,15 +21,13 @@
   "publication_stage": "b112_merged_remote_verified_lease_released",
   "last_merged_batch": "20261001_b112",
   "writer_lease": {
-    "owner": "codex-local-cej-paa-smb-20261001",
-    "status": "released",
-    "batch_id": "20261001_b112",
-    "claimed_at_utc": "2026-10-01T15:56:20.333919+00:00",
-    "expires_at_utc": "2026-10-01T17:26:20.333919+00:00",
-    "scope": "Seven new cotton source/sample/wash states, ten TG conditions; five complete originals86nativepages and one complete official DOCX SI;76facts/66holds including graph-only TG, missing gas and conflicting gas/ramp scope.",
-    "instruction": "Single writer; preserve prior data and concurrent processing files; release only after exact-head CI, ordinary merge, merge-SHA checks and independent complete remote verification.",
-    "released_at_utc": "2026-10-01T16:31:29.124429+00:00",
-    "release_reason": "PR80 exact-head CI, ordinary merge, all three merge-triggered checks and complete independent main/blob/master/report/library/SI verification succeeded."
+    "owner": "codex-local-2020-cotton-20261002",
+    "status": "active",
+    "batch_id": "20261002_b113",
+    "claimed_at_utc": "2026-10-01T17:08:48.719234+00:00",
+    "expires_at_utc": "2026-10-01T18:38:48.719234+00:00",
+    "purpose": "Publish four complete local2020cotton reviews;4newstates8conditions61holds;metadatareadonly",
+    "previous_release_commit": "324595b0cd2ab9641744c3dba80fadecbabf8d2d"
   },
   "next_sources": [],
   "next_actions": [
