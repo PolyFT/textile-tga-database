@@ -1,0 +1,102 @@
+{
+  "batch": "b117",
+  "review_completed_utc": "2026-10-01T21:29:02.707084+00:00",
+  "baseline_counts": [
+    970,
+    1199,
+    269
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 43,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 47,
+    "held_fact_rows": 41
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b117_local_textile.csv",
+      "published_input_sha256": "59b955bc6b0f383f6dd6c7f81aa77f6b5892260325bed3cc103c5d85c18cb2cb",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 41,
+      "accepted_measurement_fingerprints": [
+        "e8d55ef73b3a7bf2b16d75d4f52876bd23975229ec9bf433d531b4c63da17ba9",
+        "46ca63e4a3742551f0d2208cfd7af90c05a2720b4b3f24403cc8e8293118abfd",
+        "85b3f9c50352f3a26e90e6d866412816426b0e587598a7141673b307caa0f6c0",
+        "af2673b5d99a3b7a3e011a30f7efbf9ed67db47aecae8825f955ab6cb6fe7953",
+        "08d81a8f51eee5b196eefaae073ebfa0f9797ef898e126a6da5414b5e237a55b",
+        "83e1cee09d795e72b01e107b52ff18e404cd77e3aae5a04eee6ef70102f37313"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-019-02373-5",
+      "title": "Phosphorus-nitrogen-silicon-based assembly multilayer coating for the preparation of flame retardant and antimicrobial cotton fabric",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 2,
+      "disposition": "Own Table2 LOI sixstates;Fig6 fourTGcurves explicitCotton/CottonPEI/30/30Cl. All four DTG peaks author-labelled375/380/339/336;noestimation. Purecotton T5(defined5pctloss)312/R6008. Unchlorinated30 T5prose291/R60037. Chlorinated30 R60034/Tmax336;Cl0.80pctiodometricnotbulkFR. CottonPEI Tmax380labelonly no ownresidue. 10/20layerLOI25.3/27.8 heldnoTG. Layer/bilayerwords retainednative,nohalving. TGQ500N2 10C/min40-600C 5-10mg;flow/repeatsunknown;LOIGBT5454-1997 instrument/dims/repeatsunknown;30x8cm isVBT only. NativePCQSsynthesisparagraph calls85pctwhiteproducttriethylamineHCl ratherthanpolymer;notresolved. Table1weightgaininitial30=21.20+-0.17 notchlorinatedaddon;EDX3.75pctPsurface notbulkP. No wash/ageddata.",
+      "pages": 11,
+      "SI_status": "none_cited_in_complete11pages;one_localPDF"
+    },
+    {
+      "DOI": "10.1007/s12221-019-8826-y",
+      "title": "Flame Retardancy, Physiological Comfort and Durability of Casein Treated Cotton Fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 22,
+      "disposition": "Complete10pages ownTGAsevencontrol/casein5-30w/vpercentstates;noLOIanywhere. Table1nativeTonset10percent is10percentmassloss,notgenericTonset;Tmax1 andTmax2 differentstages. ResiduesatTmax1/Tmax2 arevariabletemperaturevalues notR600/700/800. Table1R800control<1 cannotset0or1. AtlasHMVhorizontalburn finalcharTable2 andwashed/aged/abradedTables4/5/6 notTGA,notLOI;noownwashed/agedTG. Test3repeat and50x100mm belongsHMV onlynotTG/LOI. TGair10C/min30-800C;flow/mass/repeatsunknown. Physiologicalcomfort65+-2RH20+-2C24h notTGconditioning;washpostcondition65RH25C24h distinct. NativeUVintensity500W/mKunresolvedunit retainedraw. NoSIcited.",
+      "pages": 10,
+      "SI_status": "Nonecitedincomplete10pageoriginal;localinventoryonePDF"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02709-1",
+      "title": "Attapulgite modified cotton fabric and its flame retardancy",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 6,
+      "disposition": "NoownTG/TGAanywhere12pages. InitialTable1LOIcontrol18.5/mercaptoKH59019.1/ATPclick25.6;nativewashedTable2times10/15/20LOI23.2/21.8/19.9,zero-time25.6duplicatesinitialnotnewstate. BackgroundLOIabout18/350CignitionandcitedPLA/PSresultsnotownsamples. FTIRbands/DLS/SEMburnimages/MSDnotTG. NoTGconditionsinvented;all6factsheld. LOIHC2C58x150mm3repeat;standardunknown. AATCC61-2003No1A .37wtpercentdetergent45min onecycle=fivecommercialwashes,Table2nativecountsunconverted;washtemperature/liquor/postdryunknown. Ballmilling/activation/KH570optimisationsarenotindependentTGLOIpairs;bulkATPaddonnotreported;surfaceEDSnotloading;nohealth-hazardtestingclaimed.",
+      "pages": 12,
+      "SI_status": "NoSIcitedincomplete12pages;onePDFinlocalinventory"
+    },
+    {
+      "DOI": "10.1007/s10570-021-03744-7",
+      "title": "Effect of treatment\u2010varying generation number of with hyperbranched polyphosphate ammonium salts on the fire retardant finish performance of cotton fabric",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 11,
+      "disposition": "Complete10native/textpages. OwnTable2initialLOI17.2/42/42.7/43 andFig3/proseT10=349/254/252/247,mainTmax383/330/307/290,R8002.5/31.4/33.1/34.8. OnlyHBPOPN3/4initialare2newpairs;PDFp2explicitlyreusesHBPOPN2fromLingGuo2020 DOI10.1016/j.carbpol.2019.115648 alreadyreviewed. ControlsameLOI17.2/R8002.5heldaspossiblecommonsample;generation2R80031.4hereversus31.5priorretainedraw,notcorrected/upgraded/recounted. NinewashedLOIfacts10/30/50nativeLCsnoownwashedTG. FirstTGstagewaternotmainpeak;T10notT5/Tonset;control600C97percentmasslossnotcanonical3percentresidue. TG N2 20K/min30-800C instrument/mass/flow/repeatsunknown;LOIM606BASTMD2863-2000dims/repeatsunknown;100x100mmisconeonly. AATCC61-2006specificwashconditions/homeequivalenceunknown. InitialaddonTable1G2/3/4=28.1/28.6/28.2,50LC14/14.5/14.3;EDXsurfaceP5.17/5.70/5.73notbulk. NoSIcited;localonePDF.",
+      "pages": 10,
+      "SI_status": "NoSIcitedincomplete10pages;localonePDF"
+    }
+  ],
+  "verification_limit": "Four complete nativepublisher originals43pages,zeroSIcited. Oneprimaryreviewer;exactTG/LOIinitialstatesonly;priorpaperreuseandsharedcontrolheldwithoutnewcounts;washedstateswithoutownTGheld. PCQSPEIsinglepeakcollisionwithwool/PPairsource20.7LOIdifferentmaterial/formulation/gas/LOIadjudicated;noaliasequivalence. Nocurveestimation/fulltext/image/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1199,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 976,
+    "verified_conditions": 1205,
+    "verified_dois": 271,
+    "verified_sources": 273,
+    "offline_tests_passed": 682,
+    "snapshot_sha256": "4c5904c975bbefa35b0e7e211f162a5063cb09a4cd208ff67013e13c5daef2bc",
+    "master_sha256": "316dc4102e0c64ab1a502fb110051bab2b532b964f1a13f1c428311a8d85510f",
+    "validation_errors": [],
+    "held_fact_rows": 41,
+    "complete_original_native_pages": 43,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 0,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **970 unique reviewed source/sample/washing states**, **1199 TG condition records**, and **271 original sources (269 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **976 unique reviewed source/sample/washing states**, **1205 TG condition records**, and **273 original sources (271 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **970 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 769 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 775 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1197,3 +1197,15 @@ Numerical facts and DOI/page/table/figure locators are public. Originals, fullte
 ### b116 publication proof
 
 [PR #84](https://github.com/PolyFT/textile-tga-database/pull/84) merged as `d2aec8fffffa6ce4babf8c32e45009a9a3778465` after exact-head [validation run 36924419342](https://github.com/PolyFT/textile-tga-database/actions/runs/36924419342) passed on `109d1fe4fc3cb5386c30cda9154ef37524b177e7`. All671 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms970 states,1199 conditions,269 DOI sources and271 total sources. All1189 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and six original hashes and one official supplement hash are preserved. The complete6005788-byte master has SHA256 `1bf5cb459fe314857c9314f510a8d10bf31fea7a63b1cda14d4c6744a69b29b2`; the full remote report matches a fresh rebuild. Snapshot:`148af58605d2dd0a9b72594fcf98d207b232ebdbc5c19769a60786508b234826`. Six new pairs and ten TG conditions are published; evidence upgrades and legacy completions are zero;92 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b117 Local cotton coatings and hyperbranched generations
+
+Four complete native publisher originals (43 pages) add **six new source/sample/washing states and six TG conditions**. Existing-pair evidence upgrades and legacy completions are zero. All47 fact records are preserved;41 held records remain outside the target. One primary reviewer checked all native and text pages; no supplement is cited in these originals.
+
+- **PCQS/PA multilayers:** own initial Cotton, Cotton-PEI,30-layer and30-layer-Cl fabrics have LOI18.2/18.7/29.8/28.5 and author-labelled main DTG peaks375/380/339/336C in nitrogen at10C/min. Control T5=312/R600=8 and unchlorinated30 T5=291/R600=37 are explicit; chlorinated30 has R600=34 but no own T5/add-on. PEI residue and10/20-layer TG remain unreported. Native layer/bilayer terminology is retained. A single PEI peak380C matches an air wool/PP source numerically, but material, formulation, gas and LOI differ; it is not shared-sample evidence.
+- **Casein cotton:** all22 facts remain held. Seven initial TG rows use native10percent mass-loss temperature, two DTG stages and residues at variable DTG temperatures; control R800<1 remains a bound. No own LOI is reported. Fifteen washed, aged and abraded horizontal-burn residues are not TG residues or LOI.
+- **Attapulgite cotton:** all6 initial/washed LOI facts remain held because no own TG is reported. Native10/15/20 laundering counts are preserved; the zero-time table row duplicates the initial treated state.
+- **Hyperbranched HBPOPN cotton:** generation3/4 initial160g/L fabrics have LOI42.7/43, T10=252/247, main DTG307/290 and R800=33.1/34.8 at20K/min in nitrogen. The paper explicitly reuses generation2 data from DOI10.1016/j.carbpol.2019.115648, already reviewed. Generation2 and the possibly shared control are held without recounting or changing prior rows; generation2 R80031.4 here versus31.5 in the prior source remains unresolved. Nine washed states have LOI only. Water evaporation is not the main decomposition peak;600C mass loss is not a directly reported residue.
+
+Numerical facts and DOI/page/table/figure locators are public. Originals, fulltext, images and local paths remain external. No independent reviewer or experimental-replicate claim is made. Exact-head checks, ordinary merge and independent complete remote verification precede lease release.
