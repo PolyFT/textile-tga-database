@@ -42,13 +42,12 @@
     "snapshot_sha256": "a071e0a580415b95406f2664c57f42e37a3db2e9124cb9d34de434e8c38d654d"
   },
   "writer_lease": {
-    "owner": "dot-source-review-b78-20261001",
-    "status": "released",
-    "batch_id": "20261001_b78",
-    "claimed_at_utc": "2026-10-01T01:49:49.720Z",
-    "scope": "19 independently original-reviewed new states/31 conditions from 5 DOI sources. Explicit publication types, washed-state evidence, source-version holds and sample-scoped later-control reuse holds preserved.",
-    "instruction": "Single publisher; release only after exact-head CI, merge and terminal postmerge verification.",
-    "released_at_utc": "2026-10-01T02:07:57.397Z"
+    "owner": "codex-local-pepbp-viscose-20261001",
+    "status": "active",
+    "batch_id": "20261001_b79",
+    "claimed_at_utc": "2026-10-01T02:12:09.896Z",
+    "scope": "Frozen original-reviewed local PEPBP cotton and HPTP/PMEP wet-spun viscose: 11 genuinely new sample states / 11 conditions from 3 journal sources, plus 1 unpaired TG control. Six additional reviews held. Preserve foreign source/version holds and publication-type reporting.",
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and terminal postmerge verification."
   },
   "next_sources": [],
   "next_actions": [
