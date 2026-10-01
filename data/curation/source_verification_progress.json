@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T07:12:49.160069+00:00",
+  "as_of_utc": "2026-10-01 07:31:20 UTC",
   "latest_batch_id": "20261001_b95",
   "verified_condition_records": 953,
   "verified_unique_sample_states": 788,
@@ -18,15 +18,16 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b95_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261001_b94",
+  "publication_stage": "b95_merged_verified_lease_released",
+  "last_merged_batch": "20261001_b95",
   "writer_lease": {
     "owner": "codex-local-polyester-silk-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b95",
     "claimed_at_utc": "2026-10-01T07:07:17.781Z",
     "scope": "Six newly paired textile states/six conditions: four existing PANI/PET TG-only states completed from native printed LOI labels, two new HFPO/silk states; five complete original reviews and explicit fabric-gas, control-reuse and wool-recipe holds.",
-    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof."
+    "instruction": "Single publisher; release only after exact-head CI, ordinary merge, three successful merge-SHA workflows and complete remote master/report proof.",
+    "released_at_utc": "2026-10-01 07:31:20 UTC"
   },
   "next_sources": [],
   "next_actions": [
@@ -1494,6 +1495,29 @@
     "held_stage_or_qualitative_TG_fact_rows": 0,
     "unmatched_LOI_only_fact_rows": 6,
     "tests_passed": 466,
-    "snapshot_sha256": "7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483"
+    "snapshot_sha256": "7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483",
+    "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/64",
+    "publication": {
+      "status": "merged_verified",
+      "publication_pr": "https://github.com/PolyFT/textile-tga-database/pull/64",
+      "head_sha": "8136c16da5a5c26064f5a4e1e8cfe11ff285e904",
+      "merge_sha": "5e94c0875a4c95f76a47d483ac9018d95067a679",
+      "validation_run": 36829625836,
+      "postmerge_runs": [
+        36829816307,
+        36829816311,
+        36829816505
+      ],
+      "postmerge_status": "All three distinct merge-commit workflows terminal success; no approval bypass.",
+      "snapshot_sha256": "7928819d12e4df82458b569b59e3d030c51459a47df314433320b96b47f4f483",
+      "master_sha256": "29a2ca50fc1899da81175b833e74e01ffea32da20b7cab233332435d6f08b9cc",
+      "previous_condition_records_all_fields_unchanged": 947,
+      "remote_exact_file_count": 11,
+      "independent_remote_complete_report_match": true,
+      "independent_remote_master_blob_sha": "c7ce99655300ae709ebc7e35ae16608fc0361c88",
+      "independent_remote_master_bytes": 4015410,
+      "tests_passed": 466,
+      "concurrent_retry_state_preserved": true
+    }
   }
 }
