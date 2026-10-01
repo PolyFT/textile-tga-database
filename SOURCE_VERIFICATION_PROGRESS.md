@@ -629,3 +629,9 @@ Local verification: **356 tests pass**, validation errors `[]`, compilation and 
 This batch adds 12 genuinely new sample states at 12 TG conditions from 2 DOI sources. Ten banana-peel-paper states and two distinct licorice treatments retain their exact residue temperatures of 880, 884 or 885 °C. Six later-source control/commercial labels remain held for reuse adjudication. Source recipe uncertainties and global atmosphere wording remain disclosed. The total is 643 states, 769 conditions and 160 sources (158 DOI sources and 2 registered non-DOI proceedings). No numerical evidence upgrade is counted as a new state.
 
 All source drafts passed independent original-evidence review. Generic residues retain unknown temperatures, and assay-specific preparation remains explicit. Fulltexts remain private. The writer lease remains active pending exact-head CI and postmerge checks.
+
+### B80 terminal publication checkpoint — 2026-10-01
+
+PR #49 merged as `360694ec3b7be3474fa09d96a120032ab57e52bc` after exact-head validation run 36807013834 passed on `66311e73e4efc144612cd4193c080a63028d6fc1`. All 362 regression tests passed. Fifteen final-head files and the complete validation report matched the locally verified snapshot; all 757 prior condition rows retained every existing field. The three postmerge checks (36807287306, 36807287298, 36807287330) passed before release commit `d721ce7ed73e62a61f1861a40294d28c57697065`.
+
+The admitted batch adds 12 new states and 12 conditions, bringing the reviewed total to 643 states, 769 conditions and 160 sources (158 DOI and two registered non-DOI sources). Explicit preprint counts remain five sources, 15 states and 24 conditions. The scientific snapshot is `c4988be3dfe9ad1fe49695cd9a38e8052e2ebf5892b4d3b7484dfb7303f3c249`. Original source documents remain private, and all conflicting metrics and six later comparator reuse holds remain excluded.
