@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-01
 
-The reviewed dataset contains **737 unique reviewed source/sample/washing states**, **892 TG condition records**, and **201 original sources (199 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **749 unique reviewed source/sample/washing states**, **909 TG condition records**, and **205 original sources (203 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **737 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 536 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 548 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -779,3 +779,15 @@ All source drafts passed independent original-evidence review. Generic residues 
 PR [#59](https://github.com/PolyFT/textile-tga-database/pull/59) merged at `25f230bc6e041dcab9b0fdf44928a463b3b9c261` after exact-head validation run `36822252303` passed. All 431 tests passed. All 18 changed public file blobs and the complete validation report matched the reviewed snapshot `88f6c377b302d2454a7fbb00863d284512db2d7764b923d38b9f68e1394e493b`; all 875 prior condition rows preserved every prior field. Three distinct merge-commit checks (validation, master rebuild and processing) passed. The writer lease was released.
 
 Verified total: **737 unique states, 892 conditions, 201 sources (199 DOI sources and two registered proceedings)**. This batch adds 17 new-source paired states, zero completed legacy TG-only pairs and zero evidence upgrades. Explicit author-preprint counts remain seven sources, 19 states and 29 conditions. Retain the PTAP/PVPA shared control once, all conflicting residue and peak holds, unknown methods and assay-specific preparation. Source fulltexts remain private.
+
+
+## b91 Local wool and silk: exact formulations and conservative comparator holds
+
+Four completely reviewed local publisher journal originals add **12 genuinely new initial wool/silk states and17 TG conditions**, with **zero existing-state evidence upgrades**. Fifty factual rows retain17 accepted conditions,9 held numericalTG conditions and24 unpairedLOI observations. One primary reviewer; no independent-reviewer claim or curve estimation. Publisher accepted manuscript and article-in-press versions are explicit; locators match the reviewed version.
+
+- **10.1016/j.matdes.2015.07.163:** five initial wool states have own Table1LOI25.4/26.1/29.0/29.9/29.4 and Table3T10/T50. Native T60 remains a separate source field. Regular nitrogenTG10C/min differs from MCC; no MCC Tmax or flow is assigned toTG. No exact residue percentage is reported. Preparative wash is separate from durability washing.
+- **10.1016/j.porgcoat.2014.01.023:** control and300g/L MEDP silk with5%MBAA/5%BAPO have exact char32/36% andLOI25.5/28.0. Table2 explicitly reports5%crosslinker. Figure4 uses10%MBAA,so its treatedTG is held separately. Char assessment temperature is unknown and not assigned600C. Table2 fused100g/LLOI text and Table4MPBP/200gL/initial28 conflict are preserved; washedLOI has no ownTG.
+- **10.1016/j.porgcoat.2017.06.025:** control/PA-BTCA/PA-TiO2-BTCA silk add3states/6conditions,LOI24.8/31.8/36.8. Native Table3 nitrogenR600 and airR700 remain explicit; methodsrunend600C versus airfigure/residue700C conflict leaves clean air runend blank. PCFC peaks/residues/repeats are notTG. PurePA compound and all washedLOIs remain unpaired.
+- **10.1016/j.tca.2018.05.011:** the publisher accepted journal manuscript admits onlyWool2/Wool3 exhaustion-assisted48gLPA20gLBTCA,.6/1.5gLTiO2,withLOI34.4/36.1 andTable4T20/T50/R700. Pad-only150/7/80formulations and washed states are held separately. Wool1LOI is only an unlabelled curve. Both control gases are held for possible sample-scoped comparator reuse against10.3390/polym8040122:matching controlLOI23.6 andairT20/T50,with differing residues/N2thresholds; reuse is not proven and no whole-paper alias is asserted. Nativeowf conversion inconsistencies remain unresolved.
+
+All892 prior condition rows retain every prior field. Only numerical facts, concise source findings and DOI/page/table/figure locators are public. Four original PDFs and duplicate library versions remain external and read-only. Proposed total **749 states /909 conditions /205 sources**, with **1251 remaining to2000**. Exact-head CI, ordinary merge, three terminal postmerge workflows and complete remote master/report readback precede release of the owned lease.

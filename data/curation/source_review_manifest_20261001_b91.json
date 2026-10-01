@@ -1,0 +1,132 @@
+{
+  "batch": "b91",
+  "review_completed_utc": "2026-10-01T06:09:43.028867+00:00",
+  "baseline_counts": [
+    737,
+    892,
+    199
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 17,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 50,
+    "total_native_numerical_TG_rows": 26,
+    "held_native_numerical_TG_conditions": 9,
+    "held_approximate_generic_TG_fact_rows": 0,
+    "unmatched_LOI_only_fact_rows": 24
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b91_local_wool_silk.csv",
+      "published_input_sha256": "48e11149f74f29dd28b24f44f52373a44bcf310e97402daf1be3e63f350bb70a",
+      "unique_sample_states": 12,
+      "verified_conditions": 17,
+      "held_fact_rows": 33,
+      "accepted_measurement_fingerprints": [
+        "9706719852c2dbd0f0ea602b678d5eb31d5980bb5be2617e4761628f40a55420",
+        "2116d1a09406dc06b1d7b71e45219092f3baf0d0f0c97d74562e5f4b0a8aeb3c",
+        "dc113094c50fcbf322071157ea45b6c47274ebc00f4fee5a041eeb01d32a524a",
+        "a4f04d0dae8a6a5c225a85d96e4dbb50db4be8f23840d788c0e5dff5a436725b",
+        "07cba77042d45bc63acf44a298d4631e7b1be09e935de8c9dbe06511d0517d07",
+        "e6bcceae87d60cbb07d8ea7aade4c3c80f158f5a5ed0038f178121f85661cb0c",
+        "cae4027d1a884a4bd6b17939681420aee28ae19167ceebfde806d48e1ccd235b",
+        "4161cb533dc77fc0259485d5c137f9a00f06dfaa30f97a3800e6aa7a0cfc583d",
+        "b829bc78938908179b6c7fd2c93296e2d196b7ec275a2d9de824d74aa3af1cf2",
+        "1d70229798d0644be72bf4130133d5f03cdbfec7fe27712712be03d147f6f4b2",
+        "36fa31f64c48f4d8121de9ab69fb2b66fe47286298dc3b4528d7d2104bb758fd",
+        "4c2b8c29fbcf1ded848f548d15185a74cfb979f6a9677dbb540d5fc1c7ae6190",
+        "793595f403a170e30b42ad5f3dbac9a7afd1381ac0ad93415d3559266eeaca32",
+        "c04f02eb52e375d9d6a26db77732dd1282e5d985ec60046c561e7a23be9e5a36",
+        "b4d531e07efaef2ebe4889b462553eb9e55c911f593d14254ec7e67e5d8e010b",
+        "077a427168b65724ab7a394861b6fb172e07d03af408adafb80e6bb6078a7808",
+        "bd3795d1dd099c576fc23f6fcbaf284fa8060c5fa11d08b8bcb7499899611515"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.matdes.2015.07.163",
+      "accepted_states": 5,
+      "accepted_condition_records": 5,
+      "held_fact_rows": 0,
+      "accepted_sample_labels": [
+        "Control",
+        "Si",
+        "Si/H3BO3",
+        "Si/NH4HB4O7",
+        "Si/Zn3B2O6"
+      ],
+      "original_locators": [
+        "Publishedp796 materials;p797Table1,preparation,methods/addonformula;p798Table3/Figure2b/TGprose;p799conclusions/references"
+      ],
+      "review_scope": "Complete4pagepublishedoriginaltext/all4nativepages,Tables1-3/Figures1-4/methods/conclusions/referenceschecked;noSIlisted.CachedlocalfileinventoryhasoneprimaryPDFandnoSI;externalSIinventorynotchecked.",
+      "disposition": "Table2Tmax309.3/317.2/304.7/307.7/315.5C areMCCheat-releasepeaks,notTGDTGmaxima;TGpeaks/residuepercentagesnotreportedexactly. NoR750curveestimate. NativeTable3T60 retainedseparately fromT10/T50. Regainwaterlossbelow220Cnot decompositionpeak. MCCabout5mg/N2flow80cm3min/O2flow20cm3min/rate1C unitsunspecified are not regularTGmass/flow/rate. Verticalburningfourrepeatsonly,notLOI/TGrepeats. RegularTGmass/flow/repeats,LOIsize/repeats,weave/GSM,control-specificprep,dipT/time,preparativewashmedium andfinaldrydurationunknown. Conclusion reversescontrol/treated smokeDs99.17/65.20 relativebody;untargetedconflictnotusedasTG/LOI. Nativechemicalformula retainedwithoutcorrection."
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2014.01.023",
+      "accepted_states": 2,
+      "accepted_condition_records": 2,
+      "held_fact_rows": 4,
+      "accepted_sample_labels": [
+        "MEDP300g/L,MBAA5%,BAPO5% silk",
+        "Untreated silk"
+      ],
+      "original_locators": [
+        "OriginalPDFp2 materials/preparation/methods;p4 Table1/Figure4;p5 Tables2/4 and own LOI prose"
+      ],
+      "review_scope": "Complete original text including preparation, methods, captions, tables, discussion and references reviewed; relevant native pages checked. No SI listed; cached local inventory has primary PDF only, external SI inventory unchecked.",
+      "disposition": "Table2 explicitly uses5%MBAA/5%BAPO and includes300g/L char36%/LOI28 in the same row. Figure4 uses10%MBAA/5%BAPO; its treated TG must not be paired with Table2LOI. Generic char assessment temperature unknown, not assigned to run end600C. Table2 control/100gL LOI typesetting fuses25.526.1; control25.5 is independently explicit in own prose. 200gL LOI27 lacks numericalTG. Table4 MPBP label and representative200gL initial28 conflict with Table2initial27; washed state held. Table1 stage limits and prose disagree, not onsets/DTG peaks. TGmass/flow/repeats and LOIsize/repeats unknown; concentration and MBAA percentage basis not inferred."
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2017.06.025",
+      "accepted_states": 3,
+      "accepted_condition_records": 6,
+      "held_fact_rows": 16,
+      "accepted_sample_labels": [
+        "Control silk",
+        "PA150g/L,BTCA80g/L silk",
+        "PA150g/L,TiO2 4g/L,BTCA80g/L silk"
+      ],
+      "original_locators": [
+        "Publishedp19-20 preparation/methods/Table1;p21 ownTiO2LOIprose;p22 TGprose;p23 Figures5/7 and Table3"
+      ],
+      "review_scope": "Complete original text including preparation, methods, captions, tables, discussion and references reviewed; relevant native pages checked. No SI listed; cached local inventory has primary PDF only, external SI inventory unchecked.",
+      "disposition": "Regular method says30-600C in both gases; Table3/Figure7 and TGprose explicitly report nitrogenR600 and airR700. Air run-end remains unknown, explicit R700 retained. No PCFC Tmax/residue or three PCFC repeats transferred to TG/LOI. Pure PA compound is not PA-treated silk. All durability-washed LOIs lack own numericalTG. PA-only weight gain3.7%Table1 vs3.84%prose retained as conflict; no clean value selected. Other TiO2 bath points only unlabelled curves, not estimated. TGmass4-5mg/flow20mLmin explicit; LOIsize/repeats unknown."
+    },
+    {
+      "DOI": "10.1016/j.tca.2018.05.011",
+      "accepted_states": 2,
+      "accepted_condition_records": 4,
+      "held_fact_rows": 13,
+      "accepted_sample_labels": [
+        "Wool-2,PA48g/L,BTCA20g/L,TiO2 .6g/L",
+        "Wool-3,PA48g/L,BTCA20g/L,TiO2 1.5g/L"
+      ],
+      "original_locators": [
+        "Manuscriptp5-8/PDFp6-9 materials/preparation/methods;p12/PDFp13 ownWool3LOI;p25/PDFp26 Figure4;p33-34/PDFp34-35 Tables1/2;p36/PDFp37 Table4"
+      ],
+      "review_scope": "Complete original text including preparation, methods, captions, tables, discussion and references reviewed; relevant native pages checked. No SI listed; cached local inventory has primary PDF only, external SI inventory unchecked.",
+      "disposition": "Publisher accepted journal manuscript,not final pagination or author preprint. Wool1/2/3 are exhaustion-assisted48g/LPA20g/LBTCA with0/.6/1.5g/LTiO2,not150/7/80pad-only fabric. Table4T20/T50/R700 native,not onset or peak. Wool1 LOI only unlabelled Figure4 curve,not estimated. Control held for possible related comparator reuse:prior10.3390/polym8040122 control sharesLOI23.6 and airT20 270/T50 399.9,while residues and N2thresholds differ; reuse not proven, no whole-source alias assumed. Source native150g/LPA=425%owf and0-1.5g/LTiO2=0-4.25%owf ranges conflict with liquor ratio;no conversion repaired. PurePA not treated fabric. All washedLOIs lack washedTG. TGmass/repeats and LOIsize/repeats unknown; no silk2017 mass transferred. Wool3 smoke prose21.4 vsTable324.8 nonTG conflict retained."
+    }
+  ],
+  "verification_limit": "Four complete local publisher journal originals, including an accepted manuscript and article-in-press proof, reviewed, including source preparation, methods, tables, captions, prose and relevant native pages. One primary reviewer, no independent-reviewer claim. Only exact source-native numbers admitted; source-specific dose/peak/protocol ambiguities, curve-only and washed states remain outside target. Public numerical facts and DOI/page/table/figure provenance only;fulltexts/SI/images/private paths retained externally. Library strictly read-only.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 892,
+    "new_states": 12,
+    "new_conditions": 17,
+    "evidence_upgrades": 0,
+    "verified_states": 749,
+    "verified_conditions": 909,
+    "verified_dois": 203,
+    "verified_sources": 205,
+    "offline_tests_passed": 439,
+    "snapshot_sha256": "a3750980f4ac18070645c190564a8f20b8283f66a26147613ddf3e8c9877f486",
+    "master_sha256": "7afb08e337d0bee3ba1dad974d62c56000fc873440620829dfe9bc2aba81cca6",
+    "validation_errors": []
+  }
+}
