@@ -1,0 +1,65 @@
+{
+  "batch": "b72",
+  "review_completed_utc": "2026-10-01T00:01:33.260654+00:00",
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "additional_TG_only_rows": 8,
+    "total_preserved_TG_rows": 14,
+    "screened_held_additional_papers": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261001_b72_local_greige_pan.csv",
+      "published_input_sha256": "76c5403c70681379e26e549ea39357eefd810c8ec779236ad4b60c5766112afe",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "additional_TG_only_rows": 8,
+      "accepted_measurement_fingerprints": [
+        "09bbc4e433ab1cc6f20b0eb538c6b0059899d14a39e167672c06b84563c1af36",
+        "31f7a5a893b5ce332ba1d0b08a36553a2db376bbf3357c710f6560e93b73609c",
+        "d5e355b6eeff67cd14951416ed4bb9458bb73fa86ace0772c280d78373460462",
+        "8e0be48ea1d90f3b96437d861ba84ba6bff5f0ac48c738031d35e482c3ba59c3",
+        "719d0fa78d82da449c38d2155f4d7c368f26b415dbd7294bdde687d11853bf15",
+        "3b9f80602345148d3904c095ccd0eea726a4fc719759ae50ab7287e93b8a4d7d"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2011.08.014",
+      "accepted_states": 3,
+      "disposition": "Complete nine-page local published primary reviewed. Initial uncured greige cotton nonwoven:Untreated,D1U2,D2 exact own LOI paired with originalTable3 nitrogen5C/min TG. All11nativeTGrows preserved;8without own exact LOI unpaired.0.8%P/3.4%N uniquely maps to Table1D1U2; char-length prose D1U3 descriptor conflict kept. D2 high-P descriptor1.6vs measured1.7 retained. Table3D2D4 not silently renamed to D2U4. Native ureaTu and celluloseTf are not Tonset/extra Tmax.600C char and SDthree runs retained. Bench furnace18C/min is a separate spectroscopy preparation."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2017.09.155",
+      "accepted_states": 3,
+      "disposition": "Complete nine-page local published primary reviewed. InitialPAN,A-PAN,P-A-PAN ownTable2 TG andTable4 zero-cycle LOI. Ownfabric control18.1%,not cited/genericfiber17%. Source moisture Tmax1(86/93C) kept outside clean decomposition peaks; sourceTmax2/3 numbering retained. A-PAN residue47.39vs47.59 conflict withheld. PA reagent naming discrepancy retained. WashedLOI32.3/31.4/29.8 for source5/10/20cycle labels has no corresponding TG; no repeated-state admission."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2016.06.119",
+      "accepted_states": 0,
+      "disposition": "Complete local eight-page primary reviewed. Five silk formulation states and washed LOI table; TG numerical discussion is largely curve-derived/approximate, with no printed numerical TG table. MCC peak temperatures not TG. No exact pair admitted."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2017.01.283",
+      "accepted_states": 0,
+      "disposition": "Complete local nine-page primary reviewed. Five initial/washed silkLOI states but TGFigure7 only qualitative/unlabelled curves. Table2 is MCC, not TG. No pair admitted."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2017.08.021",
+      "accepted_states": 0,
+      "disposition": "Local main methods/TGTable2 and originalLOI plot inspected; whole-source review incomplete. ExactTG10rows nitrogen/air10Cmin, but own treatedLOI only unlabelled curves and>33% prose; cannot assign exact values. Accepted manuscript figure/caption ordering mismatch and method600C versus air residue700C retained as holds. No pair admitted; no supplemental material reviewed."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2019.02.159",
+      "accepted_states": 0,
+      "disposition": "Local manuscript material/preparation/LOI/TG methods screened. Listed supplementary materials not yet retrieved and exact TG formulation label not resolved. Publisher publicfullroute403. Hold all proposed treated pairs until listedSI and sample mapping complete."
+    }
+  ],
+  "verification_limit": "Two complete locally held published primary PDFs, all body/captions/tables and original printed numerical table/prose pixels reviewed. Neither primary lists supplementary material. External publisher supplementary inventory was not accessible(403); no absence claim for unidentified external files. All accepted numerical facts, methods and preparation are in original primary. One primary-source reviewer, no independent reviewer claim. Four other source holds disclose partial/full review and SI status. No fulltext or private paths in public data."
+}
