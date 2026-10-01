@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-01T02:15:06.893692+00:00",
+  "as_of_utc": "2026-10-01T02:22:38.810Z",
   "latest_batch_id": "20261001_b79",
   "verified_condition_records": 757,
   "verified_unique_sample_states": 631,
@@ -18,36 +18,37 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b79_validated_branch_pending_PR_merge",
+  "publication_stage": "b79_merged_verified_lease_released",
   "last_merged_batch": {
-    "batch": "b78",
-    "pr": 47,
-    "merge_sha": "1be0c8558ebc96aaa6ca31540d5375128dd62f4b",
-    "validated_head": "ddb1ab95034ceb7b31261e715f1673f941a39115",
-    "validation_run": 36803834985,
+    "batch": "b79",
+    "pr": 48,
+    "merge_sha": "6416b1920bd7c60dee9afc497e33c7df1a278f54",
+    "validated_head": "7232c199cb1a52e9ea782b347018efee854e3134",
+    "validation_run": 36805107635,
     "postmerge_runs": [
-      36804187982,
-      36804188013,
-      36804187957
+      36805303609,
+      36805303681,
+      36805303674
     ],
-    "verified_sample_states": 620,
-    "verified_condition_records": 746,
-    "verified_dois": 153,
-    "verified_sources": 155,
-    "verified_non_doi_sources": 2,
-    "verified_non_doi_sample_states": 8,
-    "verified_author_preprint_sources": 5,
-    "verified_author_preprint_sample_states": 15,
-    "verified_author_preprint_condition_records": 24,
-    "snapshot_sha256": "a071e0a580415b95406f2664c57f42e37a3db2e9124cb9d34de434e8c38d654d"
+    "all_postmerge_checks": "terminal success",
+    "independent_remote_report": true,
+    "independent_remote_master_sha256": "032aeeb08a2d42920689faeef3774a29e46bfdd1bb8a0887592bfe02ee09aa3f",
+    "fresh_main_rebuild_matches": true,
+    "baseline_all_previous_field_values_preserved": 746,
+    "verified_sample_states": 631,
+    "verified_condition_records": 757,
+    "verified_dois": 156,
+    "verified_sources": 158,
+    "snapshot_sha256": "3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2"
   },
   "writer_lease": {
     "owner": "codex-local-pepbp-viscose-20261001",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261001_b79",
     "claimed_at_utc": "2026-10-01T02:12:09.896Z",
     "scope": "Frozen original-reviewed local PEPBP cotton and HPTP/PMEP wet-spun viscose: 11 genuinely new sample states / 11 conditions from 3 journal sources, plus 1 unpaired TG control. Six additional reviews held. Preserve foreign source/version holds and publication-type reporting.",
-    "instruction": "Single publisher; release only after exact-head CI, normal merge and terminal postmerge verification."
+    "instruction": "Single publisher; release only after exact-head CI, normal merge and terminal postmerge verification.",
+    "released_at_utc": "2026-10-01T02:22:38.810Z"
   },
   "next_sources": [],
   "next_actions": [
@@ -84,7 +85,7 @@
     "B49 original Figure14 printed labels resolve phytate source hold:9 existing pairs upgraded; one new PET/cottonControl admitted. Skip these10 states. Five treated PET/cotton states remain held for exact TG/residue-temperature proof; hydrogel fulltext/SI and MCC exclusions preserved. Metadata library path awaits user confirmation.",
     "B48 adds 21 new source-measurement states and one existing silk evidence upgrade; the six reviewed sources and explicit holds are in the b48 manifest. Do not repeat or import overlapping b47 preparation.",
     "B47 completed nine existing-pair evidence upgrades. ACS3c00028 main text is needed for five additional SI TG states; 8b00822 needs exact atmosphere attribution. Do not repeat completed heavy-cotton/PET states or promote washed/calculated/ambiguous candidates.",
-    "All accepted b42\u2013b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
+    "All accepted b42–b46 prepared pairs are now durable on main. Remaining named preparations are held, not unpublished Grade-A pairs. Seek new exact primary-source evidence or permitted local full texts; never convert conditions/candidates/held rows into target samples.",
     "2011.08.014 is a bibliographically confirmed lead lacking retrieved original full text. Do not substitute the 2012 kinetics follow-on's zero-rate extrapolated temperatures, averaged residues or reused LOI.",
     "B46 completes the reviewed guanidine and COT/MMT source rows. Five guanidine LOI-conflicted states and six PAA concentration-conflicted states remain held; do not repeat without new source evidence.",
     "The five b44 source reviews are complete. Avoid repeating 71071 cotton, PK nylon, BUCT PA66, ungrafted wool and DMPP cotton. Preserve all unmatched state, inferred-temperature and descriptor-conflict holds.",
@@ -1012,6 +1013,27 @@
       "new_sample_states": 11,
       "new_conditions": 11,
       "existing_state_evidence_upgrades": 0
+    },
+    "publication": {
+      "pr": 48,
+      "merge_sha": "6416b1920bd7c60dee9afc497e33c7df1a278f54",
+      "validated_head": "7232c199cb1a52e9ea782b347018efee854e3134",
+      "validation_run": 36805107635,
+      "postmerge_runs": [
+        36805303609,
+        36805303681,
+        36805303674
+      ],
+      "all_postmerge_checks": "terminal success",
+      "independent_remote_report": true,
+      "independent_remote_master_sha256": "032aeeb08a2d42920689faeef3774a29e46bfdd1bb8a0887592bfe02ee09aa3f",
+      "fresh_main_rebuild_matches": true,
+      "baseline_all_previous_field_values_preserved": 746,
+      "verified_sample_states": 631,
+      "verified_condition_records": 757,
+      "verified_dois": 156,
+      "verified_sources": 158,
+      "snapshot_sha256": "3f8fe9e7c38db22124f86ddf47b05e90c0293e78b036b35bef868f895ab442e2"
     }
   }
 }
