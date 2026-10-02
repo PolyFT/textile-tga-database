@@ -1,0 +1,82 @@
+{
+  "batch": "b130",
+  "review_completed_utc": "2026-10-02T05:05:55.121937+00:00",
+  "baseline_counts": [
+    1041,
+    1315,
+    294
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 28,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 8,
+    "held_fact_rows": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b130_local_textile.csv",
+      "published_input_sha256": "6778a5f4caba925b7c08127b6fae9662bfc5e82bbd1e9fef28f34ca11b2b6d4b",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 2,
+      "accepted_measurement_fingerprints": [
+        "4e06fd6fb70c353350343b1077a5eaefc0684c758fd7c64d77fe0379c782c9e8",
+        "fa12b5d0241390bae6433ad72e3a5c8b9580924ad7f71301c1f4b684971dc36f",
+        "9883c445041ccb0c61703ca402072a479941758c257a2c6b83d42071d8ae1652",
+        "04e30bf28551f69c061e962a473c5aec05c46873d103f73ef46cc63bdf1aec54",
+        "0f179c7aa81ebe6098ad52851b7c54ca30b2a9d6cb6f2ad351a0a66325d35464",
+        "c2e87fe6a49e6c2966405df1b97f3abce1102c0018a357744c2ab41ca89a76e3"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-018-1962-5",
+      "title": "Synthesis of zinc carbonate nanoneedles, a potential flame retardant for cotton textiles",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 1,
+      "pages": 15,
+      "disposition": "All15native/textpagesread. UnpaginatednativeSpringer2018online30July2018.100percentcotton118gm2,weaveunreported. OwnTable1p7fabricAcontrolBneutralnanoZnCO3CNaOHonlyDnanoplusalkali. These letters differ methodp4solutionAneutral/Bcombined/CNaOH,andFig3p8curvesApureFR/Bcontrol/Cneutral/Dcombined/Ealkali;joinonmaterialwordsnotletters.4percentw/vnanodispersionand2percentw/vNaOHnativep6;alkalinestatepH10asreported,neutralpHnumericunreported;NaOHdoseforcombinedandonlyalkaligiven native2percent throughout. Add-onTable1control dashblank/B4.5/C16/D9 measured(M2-M1)/M1oven-driedweights,notbathdose/compositefraction. Treated80C1hpad15m/min15kgf/cm2airdrytimeunreported140C3mincure;bathratio/pickupunreported.65percentRH24hconditionedbeforetest,tempunreported. LOIIS13501cited1992,ignition30s,dims/instrument/repsunreported;250x40mm12s38mmflamebelongsverticalIS1871methodA,notLOI. MainfabricTGp4TG50/MT5AIR2mL/min20C/min;mass/pan/temperaturelimitsunreported. PureFRcharacterizationp3AIR20C50-900Cnotborrowedtofabric. IntrofabricmethodbothAIR/N2butownnumericthermalTable2p9/Fig3p8withinAIRsection;noownnumericN2record. Table2p9rowscontrol/neutral/pureFR/alkali/combined: majorpeak375/320/390/325/280, R40025/22/70/40/48,R45020/20/70/34/44,R5501-2/20/70/30/42. OwnLOITable1p7A18/B21/C25/D30. ControlR550range1-2rawonlynotmidpoint;canonicalcontrolresidue25at400C;otherthree20/30/42at550CwithownR40022/40/48. Abstract>40at600notfixedR600value,dontborrow55042asR600. DTGexistsFig3rightDerivativeweightp8,soowncombinedTmax280consistentprose/Table2canuse;otherpeakvaluesrawbecausecontrol375vsaround380,neutral320tablevs400p8/tenChighercontrolp9andpureFR390tablevs240-280ownprose;alkali325tablevsaround330p8/native55Chigher280arithmeticconflict,nochosenothercanonicalTmax. Prosep8callsFig4D/EthermalthoughFig4isDSCandcallsmaximum40curveCwherecombinedisD;Table2explicitmaterialrowstemperatures governfixedresidue,donotrenamecurves. DSCwaterpeak80C/exotherm250notDTGpeaks. PureFRTable2R400/R450/R55070noownLOIheld1;4initialfabricstates4AIRconditionsapprove. NominalZnCO3XRDidentifiesZn5(CO3)2(OH)6andothershydratedsaltmixturesnativep4-5,notassumedpureZnCO3. AuthorcharincludesZnOinorganics,notpurecarbonmass. Table3EDXcarbon58.88notTGchar42. NoquantwashedTGLOIorSIcited;2/6percentoptimizationhasnoownLOITG,p6charlength40/WG12notextra pairs. Originals/privateevidenceoutsidepublicrepo.",
+      "SI_status": "NoSIcitedincompleteprimary"
+    },
+    {
+      "DOI": "10.1007/s10570-020-03383-4",
+      "title": "Exploration of flame retardant efficacy of cellulosic fabric using in-situ synthesized zinc borate particles",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 1,
+      "pages": 13,
+      "disposition": "All13native/textpagesread;unpaginatednativeSpringer2020online12Aug2020. Own100percentbleached1/1plainwoven150gm2cotton;controlandoptimized12percentaddoninitialtreatedcotton. Other10/20percentoptimizationhasflame/charlengthonlynotownLOI/TG,notextra pairs. Zincborateauthorassigned2ZnO.3B2O3.7H2Oheptahydratebased22percentcrystalwaterloss;XRDdifferentpublishedJCPDS,notindependentconfirmation. Recipep3-4reportedZn(NO3)2.6H2O9.47g0.05mol40mLDI,borax19.06g0.05mol60mLDI,25mL25wt/wtpercentNH3+50mLDI,50C1hpreparation;nativehydrate/mass/molnotrecalculated.4gfabric18hdiptemperatureunreported,120C4minmini-stenterdry. Paperin-situsynthesiswordingvspriorprepareddispersion30minsonicationp6uncertainroutepreserved;15minDLSsonicationseparate. Optimizedaddon12percentmeasuredusingbone-drytreated/controlnetpercent;formula/denominatorunreported,notassumedbathconcentration/compositemassfraction. OwnLOIprosep7control18/treated30,IS13501p4dims100x40mm,instrument/repsunreported;150x40mmvertical/100x100mmcone/50x40mmcharacterizationnotLOIorTGmass. MainTGp4MettlerToledoAIR20C/min2mL/min;explicitsameconditionsforfabrics;model/mass/pan/start/endunreported. Fig4p8nativehasTG+DTG,butTable1mainpeak375control/320treatedcalledonsetinprosep8,controlDTG380p7conflictsTable375;canonicalTonset/Tmax1blank,rawallvalues retained. Table1p8controlT5=310T10=370T50=380R500=6;treatedT5=280T10=310T50=410R500=45;T5includesnativeentrappedwater/dehydrationnotgenericdecomponset. Prosep9secondpeak520assignedtreatedcharoxidationwithownDTGcontext,keptrawsourcewithoutcurveestimates. PurepowderTableT5=100/T10=180waterloss,T50wordingmaintainapprox78percentthroughout,R50078/mainpeak250referenceheldnoLOI. Prosecontrol1-2percentcharhigherunlocatednotR500midpoint;treatedconclusionmorethan45rawqualifier vsTable45notinventednumericgreaterthan. MethodTGendunreported,Fig4ends600/purepowderconclusion700notborrowedtocotton. AuthorcharincludesZnborateinorganicsnotpurecarbon45;Table2EDXcharcarbon12.68notTG45. NoquantwashedTGLOI/noSIcited. Distinct150gm2sourcefromolder118gm2ZnCO3paperdespitecontrolLOI18;dedupfullprofileandmaterialstatebeforepublish. Originals/privateimagesremainoutsidepublicrepo.",
+      "SI_status": "No SI cited in complete primary"
+    }
+  ],
+  "verification_limit": "Two complete primary originals28native/textpages;oneprimaryreviewer;noSIcited. Four118gm2cotton states control/neutralnanoZnCO3/NaOH/combined matchedbyexplicitmaterialwordsacrossconflictinglettercodes;AIR20C/min2mL/min ownfixedR400/R550,controlR5501-2range rawnotmidpoint. OnlycombinedDTG280consistent,otherpeakconflictsraw. Two150gm2plainwovenzincboratecottoncontrol/12percentadd-onstates ownLOI18/30 and explicitT5/T10/T50/R5006/45;Tablemainpeak/proseonset/controlDTGconflictsraw. Powderwaterloss and purepowderresidue nottextileTG/LOI,twopureFRfactsheld. All6newinitialstates6AIRconditions;unknownmethodlimits,recipeuncertainties andinorganicresidueidentitypreserved. Nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1315,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1047,
+    "verified_conditions": 1321,
+    "verified_dois": 296,
+    "verified_sources": 298,
+    "offline_tests_passed": 903,
+    "snapshot_sha256": "48d0ba0be119bec3eb9a1ab5b46ab4aac89636da246f5780f9db12cd3afda6bd",
+    "master_sha256": "0fa9989526cdf972d6031a548573d73bd6d77ce2177e1e66dbf856917134c406",
+    "validation_errors": [],
+    "held_fact_rows": 2,
+    "complete_original_native_pages": 28,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 28,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
