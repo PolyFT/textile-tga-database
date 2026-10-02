@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1009 unique reviewed source/sample/washing states**, **1267 TG condition records**, and **285 original sources (283 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1013 unique reviewed source/sample/washing states**, **1273 TG condition records**, and **287 original sources (285 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1009 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 808 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 812 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1310,3 +1310,15 @@ Exact-head checks, ordinary merge, three terminal postmerge checks and complete 
 ### b123 publication proof
 
 [PR #91](https://github.com/PolyFT/textile-tga-database/pull/91) merged as `b20e3ba7536337ba049c092e63058bf641f33c41` after exact-head [validation run 36948455118](https://github.com/PolyFT/textile-tga-database/actions/runs/36948455118) passed on `179cc7c4ee174c6e0b7786de1b6e1d08ebbaefb3`. All779 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1009 states,1267 conditions,283 DOI sources and285 total sources. All1251 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and two original hashes are preserved. The complete6582523-byte master has SHA256 `3e10efedd945a9f857e5cd00234f7a78f6ffb6cc26b42d4104c165f4f5dc0416`; the full remote report matches a fresh rebuild. Snapshot:`152427a2678e2b35246548fcb8310eb0fc35456c69e06a10f752402c2089c3b9`. Nine new pairs and sixteen TG conditions are published; evidence upgrades and legacy completions are zero;22 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b124 Fixed-temperature residue, original measurement identity and held conflicts
+
+Four complete local originals (47 native/text pages) and one complete official SI (whole XML and six converted pages) add **four independent initial textile samples and six TG condition records**. Evidence upgrades and legacy completions are zero. Of 57 factual records, 51 remain held outside the target. One primary reviewer checked all primary/SI pages. Fulltexts, images, SI files and private paths stay outside this public repository.
+
+- **10.1007/s10570-013-0127-9:** own LOI results (PDFp9, printed765) give control18.5, freshN2plasma21.8, DBD20 and one-yearN2plasma21.2. Fig7p10 explicitly labels these four states but supplies curves only; generic about330C and320-380C decomposition text are not individual exact onset/peak values. Fig8 is DTA, not DTG. Char1.9/8.7/5.6/7.6% comes from complete-burning before/after weighing (Eq7p5/results p8-9), not TG residue. All four LOI facts remain held; fresh and aged states stay separate.
+- **10.1007/s10570-015-0641-z:** own results give control LOI16 (p4) and70g/L AHDTMPA LOI36 (p5). The same p5 explicitly selects70g/L for all following characterization. Own thermal textp8 gives control5.3% and treated42.1% at580C; Pyris1 uses N2,10C/min,40-600C and20mL/min (p4). This adds two states/two conditions. R580 is separate from method endpoint600. Rapid-loss ranges and approximately80/26% stage losses are not onset, T5, T10, peak temperature or char yield. Four other initial doses and four numerically stated washed LOIs lack own matching TG and remain held. Curves for other washed points are not estimated.
+- **10.1016/j.carbpol.2012.12.008:** own Tables1-3 (p4, printed2296) preserve13 initial LOIs across control, four binder-only formulations and four each Pyrovatex/MPD doses. TGA methodp3 reports PerkinElmer7DX only; gas and heating rate are absent. Generic treated TG doses are unmapped. Own TG prose p6 conflicts with direct instrument segment annotations in Fig4p5 (e.g. control333C versus segment215.87C); both remain raw, without choosing one as onset. Low-temperature water segments are distinct from decomposition. No char is derived from100 minus stage loss. All13 LOIs and3 raw TG facts remain held. LOI29C/46%RH is distinct from general20+/-2C/65+/-2%RH conditioning.
+- **10.1007/s10570-018-1964-3:** own Experimental p3-6 and own Tables1/3/4 supply measurements despite the native and publisher **Review Paper** label; that label is explicitly preserved. The existing broad journal_article category does not claim an original-research article label or use cited reference data. Thermal textp9 explicitly specifies250g/L for TG; own Table3p13 gives control18/250gL46.6 and Table4 gives23.82% WG. Own Table1p11 matches N2 and air, adding two states/four conditions. T10 means10wt% loss. N2 control R800 is8.08% in Table1/first prose and8.05% in later prose; both raw values remain, with canonical char blank while unconflicted T10/Tmax remain valid. Air control R800 dash stays blank; treated R800 is5.05%air/38.14%N2. TGIR8mg, gas-evolution peaks394/300C, and cone residues1.31/36.9% are separate. Three other doses and20 washed LOIs lack own TG and remain held. Complete publisher-linked SI contains NMR only (8 embedded images, no tables) and supplies no TG/LOI. No LOI dimensions are borrowed from cone specimens.
+
+Publication requires exact-head CI, ordinary merge, three successful postmerge checks, full remote-byte verification and release of the owned single-writer lease.

@@ -1326,6 +1326,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261002_b124_local_textile.csv",
+      "accepted_rows": 57,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -1606,9 +1613,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 3023,
-  "legacy_field_complete_condition_records": 1519,
-  "numeric_pair_candidate_rows": 1726,
+  "all_loaded_rows": 3080,
+  "legacy_field_complete_condition_records": 1525,
+  "numeric_pair_candidate_rows": 1732,
   "eligible_pending_condition_records": 276,
   "quarantined_condition_records": 11,
   "quarantine_reason_counts": {
@@ -1616,21 +1623,21 @@
     "possible_sample_alias": 4,
     "specimen_form_mismatch": 6
   },
-  "strict_tg_loi_pairs": 1267,
-  "verified_exact_condition_records": 1267,
-  "verified_exact_sample_states": 1009,
-  "verified_exact_dois": 283,
-  "verified_exact_sources": 285,
+  "strict_tg_loi_pairs": 1273,
+  "verified_exact_condition_records": 1273,
+  "verified_exact_sample_states": 1013,
+  "verified_exact_dois": 285,
+  "verified_exact_sources": 287,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1259,
+  "verified_doi_condition_records": 1265,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1001,
+  "verified_doi_sample_states": 1005,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 140,
-      "sample_states": 434,
-      "condition_records": 592
+      "sources": 142,
+      "sample_states": 438,
+      "condition_records": 598
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1664,17 +1671,17 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 318,
-  "candidate_sample_states": 1331,
-  "rows_with_numeric_loi": 2308,
-  "rows_with_any_tg_numeric": 2148,
+  "candidate_dois": 320,
+  "candidate_sample_states": 1335,
+  "rows_with_numeric_loi": 2362,
+  "rows_with_any_tg_numeric": 2154,
   "rows_missing_atmosphere_among_pair_candidates": 47,
   "rows_missing_heating_rate_among_pair_candidates": 114,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 991,
+  "remaining_to_target": 987,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 778,
+    "Tmax1_C": 782,
     "T5_C": 417,
     "Tonset_C": 193,
     "R600_pct": 314,
@@ -1683,5 +1690,5 @@
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "152427a2678e2b35246548fcb8310eb0fc35456c69e06a10f752402c2089c3b9"
+  "snapshot_sha256": "43b5d772b6e86dfabd7df3f7d9f9eee7a4fb23dd43250fd1487ccc39cdec218e"
 }
