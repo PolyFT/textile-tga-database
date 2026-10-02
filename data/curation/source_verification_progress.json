@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-02T05:23:49.738002+00:00",
-  "latest_batch_id": "20261002_b130",
-  "verified_condition_records": 1321,
-  "verified_unique_sample_states": 1047,
-  "verified_dois": 296,
-  "numeric_pair_candidate_rows": 1780,
+  "as_of_utc": "2026-10-02T05:38:13.498049+00:00",
+  "latest_batch_id": "20261002_b131",
+  "verified_condition_records": 1343,
+  "verified_unique_sample_states": 1059,
+  "verified_dois": 298,
+  "numeric_pair_candidate_rows": 1802,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 846,
+  "cumulative_newly_completed_or_new_source_sample_states": 858,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b130_merged_remote_verified_lease_released",
+  "publication_stage": "b131_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261002_b130",
   "writer_lease": {
     "owner": "codex-local-textile-b131-20261002",
@@ -26,11 +26,12 @@
     "batch_id": "20261002_b131",
     "claimed_at_utc": "2026-10-02T05:36:10.154121+00:00",
     "expires_at_utc": "2026-10-02T07:06:10.154121+00:00",
-    "purpose": "Publish two complete primary originals22pages;12newstates22conditions40heldfacts;SI2DOCXall10pages/SI1wholetimeline1Hzreviewed;metadatareadonly",
+    "purpose": "Publish2primaryoriginals22pages;12newstates22conditions40held;SI2all10renderedpages/SI1wholetimeline1Hzqualitativereview;metadatareadonly",
     "previous_release_commit": "c00996b230d0c742eaabf43c85b46f5c8b3ac968"
   },
   "next_sources": [],
   "next_actions": [
+    "B13112newstates22TGconditions0upgrades;2fullprimaryoriginals22pages;62facts40held. ISPAonlycontrol/optimalTG,25orthogonalLOIfactsheld. COTP10initialcodes20N2/AIRconditionsownprintedLOI/SI2TableS1;15washedLOIfactsheld. SI2all10renderedpagesreviewed;SI1whole49.876stimeline1Hz50framesqualitativeonly,noTG/LOIfromvideo. Main10C/minnotTGIR20;T10notT5;unknownconditionsretained. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B1306newstates6AIRconditions0upgrades;2fullprimaryoriginals28pages;8facts2pureFRheld. JoinZnCO3groupsbymaterialwordsnotconflictingletters;R550range rawnotmidpoint;onlycombinedDTG280consistent. ZincborateT5/T10totalweightloss notonset;mainpeak/onsetconflictsraw. Keepinorganicresidue/unknownmethodlimits;refreshmain/PR/lease/queuebefore nextpublisher.",
     "B1293newstates5TGconditions0upgrades;threefullprimaryoriginals31pages;43facts38held. THPON6missingrate/dose/conflictsheld;AEGDP22unpaired/conflicted/provenance/pureFRfactsheld;MCP10otherdose/pureFRfactsheld. NativegenericonsetnotT5/T10,printedR800notburnchar. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B1286newstates6N2TGconditions0upgrades;twofullprimaryoriginals28pages;15facts9held. Bamboo4washedLOIsheld;PETcotton2controlgasfactsLOIconflict,2coatedAIRfactsunfixedchar/curves,mixturedipunpairedheld. Refreshmain/PR/lease/queuebefore nextpublisher.",
@@ -742,7 +743,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 953,
+  "remaining_to_2000": 941,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -790,9 +791,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 298,
+  "verified_sources": 300,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1039,
+  "verified_doi_sample_states": 1051,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -826,7 +827,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 953,
+  "remaining_to_target": 941,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -942,9 +943,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 153,
-      "sample_states": 472,
-      "condition_records": 646
+      "sources": 155,
+      "sample_states": 484,
+      "condition_records": 668
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1036,7 +1037,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1313,
+  "verified_doi_condition_records": 1335,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -2786,5 +2787,20 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/98",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b131": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 22,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 2,
+    "total_fact_rows": 62,
+    "held_fact_rows": 40,
+    "tests_passed": 925,
+    "snapshot_sha256": "df32ebddad1df6c488a921478624a604d8e5ef9ca0717d0c7ea4e87f14b40edb"
   }
 }
