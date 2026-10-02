@@ -1,0 +1,92 @@
+{
+  "batch": "b123",
+  "review_completed_utc": "2026-10-02T00:51:33.012025+00:00",
+  "baseline_counts": [
+    1000,
+    1251,
+    281
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 16,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 21,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 38,
+    "held_fact_rows": 22
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b123_local_textile.csv",
+      "published_input_sha256": "f3cee6ded6d60fea7f5d5b39352f50c639f3f935e12b21b2b86ccfb71b5f3b7b",
+      "unique_sample_states": 9,
+      "verified_conditions": 16,
+      "held_fact_rows": 22,
+      "accepted_measurement_fingerprints": [
+        "37792dc5acb76214fe0971f11dc65fb23a90e4631649f6c3802ceea0e2338464",
+        "da8b29a18ab65437409fe11458d20dade89e779368cd45d0e81926d02d631ef1",
+        "84b430ad179c404316638c5678a08b1b30b3d0220a5a2cc4c110a1ff50219bf6",
+        "4dd531cbd010873ec491ccb581349b406ad9b5c426c483b1d65944b7e6fc47ce",
+        "af40e117b56998fa83982a4010c63c9c0842f54457be9e7fe1648eb4eaea2b16",
+        "5289c10e96b229f4ef2b68d3056afe24b6568faefc69ae7354c31f30c6de3c33",
+        "055aac40c500c96d646d791341658061a6ee7df5e42348241e27fd198c1be065",
+        "706e7c47e41237a9ad907125bddabb58a4588e211945f0cf6b4eb6a631b5efd8",
+        "b3283bfe4a98962e59c886e3c2b72eae74ff401186014a9ee63456cf23b842a9",
+        "eadf60f3d80e4b402bd7c68230af77e3404bd7b2d3b29a38baf0961b54eb868f",
+        "93b4c5ef450d04238dd19a69675f9ede559db4daac30cb1842d84f27067b0327",
+        "f4836c081ff8663ffdf2c3130bdbadbaeb4bca89905f2471acddcbd557beb518",
+        "3f3e179c268c032e173b8a852813252057717fbe9dc6ba42e3690b8903792448",
+        "e30f466131a2246275decfff05b8cdf41024ea3540c547272ed6bc51cec7d4c2",
+        "071e573666da595cb890b9cc0f547b6fef70ec8262e443338d8ef0c77fb2c44a",
+        "6dc9fa1cbc2987aa84649c91be360cb50aa17368edd83e2d5b0c8afa74950659"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-016-1163-z",
+      "title": "Synthesis and evaluation of an efficient, durable, and environmentally friendly flame retardant for cotton",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 22,
+      "pages": 12,
+      "disposition": "All12native/textpagesreviewed,noSIcited. OwnTable1PDFp5printed1163initialAPTTP80/110/140g/LLOI34.0/38.8/43.8WG14.4/16.8/22.4;owncontrolLOI18inresultstextp5notintro18citedreference. Samep5explicit140g/Lsamplechosenforalladditionalinvestigationsbelow,SEMtextp7WG22.4confirmsdose. Fig3ap7N2/3bp7air;Pyris1methodp4N240-600andair40-80020K/min;flowN220mL/minonlyairflowunreported,methodfinalN2flowphrasedretainednotclaimedairpurge. Ownairtextp7explicitR600treated21.3/control0.13;2states2airconditionsapproved. N2textremainingresidue43.5/11.8afterthisdegradationprocesswithNOexplicittemperature;numericallyreportedbutcannotassign600solelybycurve/methodendpoint,so2N2factsheldrawtemperatureblank. N2decompositionrangescontrol320-395/treated219-298notnativeonset/peakdefinitionskeptrawnotT5/T10/Tonset/Tmax. Airgenericmechanismranges300-400/400-800notmeasuredonsetsorDTGpeaks. TGIR8mg20K/minseparateSTA409PCnotPyris1TGmass;200CheatedtransferpipenotTGonset. Conechar32.0/control7.4notairTG21.3/.13,TTI6Table3vs9proseirrelevanttoTGretainednotused. TwootherinitialdoseLOIsnoownTGplus18washedLOIs5/10/20/30/40/50LCnoownwashedTGheld;AATCC61-2006Roachessoapingtester49C,detergent/cycleduration/dryingunreported,nohomewashconversion. Sourceyear2017native24:1159-1170despiteonline30December2016. Twoapprovedairpairs22heldfacts24facts.",
+      "SI_status": "NoSIcitedall12pages"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2018.04.031",
+      "title": "Borate cross-linked layer-by-layer assembly of green polyelectrolytes on polyamide 66 fabrics for flame-retardant treatment",
+      "accepted_states": 7,
+      "accepted_conditions": 14,
+      "held_rows": 0,
+      "pages": 9,
+      "disposition": "All9native/textpagesreviewed,noSIcited. OwnformulationsTable1PDFp3printed175,LOITable2PDFp5printed177andthermalTable4PDFp6printed178fullymatchsame7namedinitial100percentPA66woven100gm2control,5BL,10BL,5BL-B1W,10BL-B1W,5BL-B5W,10BL-B5W. OwnLOI19.5/21.0/21.0/21.5/21.5/22.0/21.5. Q5000IRN2air20C/minmethodp2;TGmass/mainpurgeflow/start/endrangeunreported;TGIR55mLminN2separatenotborrowed. Table4T-5percentisT5notsourcegenericinitialdecomposition/T10,firstDTGmaximumgasspecific;airsecondDTGcharoxidationnotN2peak. AllR800explicitTable4not450orcurveestimated;methodendpointnotassumedfromfigureaxis. Table4exact10BLB5WairR8009.1N212.4vsproserounded9/12retainedrawroundednotcontradictioncanonical. B1W/B5Wmeans1/5wtpercentboratebathNOTlaunderingstate;Table1nativeNa-tetraborate10/50gLcrosswalkkeptandimmersiontime/90Cheatdurationunreported. CS10gLPA20gLnot70wtpercentPAstock. LOIHC2ASTMD2863dims150x58x0.2mmnotcone100x100x0.6. AATCC61(2A)-1996nonionicdetergent38plusminus3CfivewashingcyclesTable5UL94onlynoownwashedLOI/TG,nofabricatedwashedpairs;nativeonecycleequivalentfivehomelaundriesretainedasauthorstatementnotnewcount. SaturatedSDSultrasonication10minseparatestabilityexperimentnotwashTG/LOI. XPSsurfacefractions/SEM/Raman/ConepHRRarenotTGresidues. Sevenindependentinitialstates14gasconditionsapproved,zeroheldTGLOIfactsfromthissource.",
+      "SI_status": "NoSIcitedall9pages"
+    }
+  ],
+  "verification_limit": "Two complete primary originals21native/textpages;oneprimaryreviewer;noSIcited. APTTPexplicit140gL/controlairR600only,N2reportedremainingcharwithunlocatedtemperatureheld,otherdose/washLOIheld;notguessonsetfromdecompositionrangeorborrowconechar/TGIRmass. BoratePA66sevennamedinitialformulations14gasconditions,T-5percent=T5,R800explicit,gasspecificpeaks,B1W/B5Wboratebathnotwashingstate,mainflow/rangeunreportednotborrowTGIR55mLmin. Crosslinkdip/90Cheatdurationunreportedannotated. Noestimatedcurves/fulltexts/images/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1251,
+    "new_states": 9,
+    "new_conditions": 16,
+    "evidence_upgrades": 0,
+    "verified_states": 1009,
+    "verified_conditions": 1267,
+    "verified_dois": 283,
+    "verified_sources": 285,
+    "offline_tests_passed": 779,
+    "snapshot_sha256": "152427a2678e2b35246548fcb8310eb0fc35456c69e06a10f752402c2089c3b9",
+    "master_sha256": "3e10efedd945a9f857e5cd00234f7a78f6ffb6cc26b42d4104c165f4f5dc0416",
+    "validation_errors": [],
+    "held_fact_rows": 22,
+    "complete_original_native_pages": 21,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 21,
+    "new_source_inventory_states": 9,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
