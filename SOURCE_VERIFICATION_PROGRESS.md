@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **996 unique reviewed source/sample/washing states**, **1244 TG condition records**, and **280 original sources (278 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1000 unique reviewed source/sample/washing states**, **1251 TG condition records**, and **283 original sources (281 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **996 unique reviewed source/sample/washing states
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 795 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 799 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1278,3 +1278,15 @@ Exact-head checks, ordinary merge, three terminal postmerge checks and complete 
 ### b121 publication proof
 
 [PR #89](https://github.com/PolyFT/textile-tga-database/pull/89) merged as `163c625193d769173516a0a58fa6941ca7f26b39` after exact-head [validation run 36942821389](https://github.com/PolyFT/textile-tga-database/actions/runs/36942821389) passed on `7153349f47cb2583360ff60549ce656c8c55c2c5`. All741 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms996 states,1244 conditions,278 DOI sources and280 total sources. All1232 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three original hashes are preserved. The complete6397237-byte master has SHA256 `58c887c82ea35aa8a891a829a3618ab7e250b061e210f8be558d7a7fb2807543`; the full remote report matches a fresh rebuild. Snapshot:`d7299b2a9a112fee22ffc717c80c00ff850d3b1e714be9e5d011008cac563498`. Six new pairs and twelve TG conditions are published; evidence upgrades and legacy completions are zero;30 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b122 Fiber identity and treatment lineage
+
+Four complete primary originals (41 native and text pages) add **four new independent initial sample states and seven TG condition records**. Evidence upgrades and legacy completions are zero. All44 factual records are preserved;37 held records remain outside the verified target. One primary reviewer checked all pages; no supplement is cited in these originals. Fulltexts, images and private paths remain outside this public repository.
+
+- **10.1007/s10570-018-2193-5:** own Table2(PDFp13) and thermal text(pp6-9) identify only control cotton and7%ASXPEA cotton, with LOI17.6/41.8 and nitrogen/air TG at20K/min,40-800C. The cotton is124.35g/m2. Own nitrogen R700 is8.6/38.7%; treated air R700 is15.3%, while control air remaining char is qualitative and kept blank. Native air decomposition onsets270/240C and control air DTG maximum346C are explicit. Nitrogen mass-loss range endpoints are neither onset nor peak; no air temperatures are copied. R700 is not the800C method endpoint, and air treated first-stage mass loss38.7% is separate from nitrogen R70038.7%. TGIR8mg and40-600C methods do not supply the main TG mass or endpoint. Native3/5/7/10% concentrations and Table1 bath30/50/70/100g/L are retained without assuming an unspecified percentage basis. Three other initial dose LOIs and fifteen washed LOIs lack same-state TG; eighteen facts are held.
+- **10.1007/s12221-011-0166-5:** own fiber Table5(PDFp7,printed172) reports PET/PET-FR/PET-ZnPCD LOI22/29/31, but the whole original has no own fiber TG. Table2(p4) TG belongs to bulk plastic compounds with20wt%total filler, whereas the fibers are produced by diluting the masterbatch to0.5wt%inorganic content before spinning. Plastic LOI dimensions are not assigned to fibers. All three textile LOI facts are held; zero pairs are added.
+- **10.1007/s13726-017-0595-0:** own Table3(PDFp8,printed122) reports PVDF porous fiber LOI24.2. Own thermal text(p5,printed119) and numerical Fig4c annotations(p6,printed120) report generic onset463.80C and DTG peak478.86C. The TG method is nitrogen,10C/min,25-800C; char is curve-only and left blank. DSC melting158.8C is a different measurement. The three successive drawing speeds2.6/3.5/4.8m/min describe one production sequence, not three independent samples. LOI uses10g of fibers paved100x40x2mm; cone dimensions and cone replicate counts do not supply LOI conditions. One state and one nitrogen condition are added.
+- **10.1016/j.porgcoat.2019.05.010:** the unique uncoated110g/m2 knitted PET control has own Table1(PDFp3,printed164) LOI21.1 with explicitly reported SD0.08. Own Tables3/4(p5,printed166) give nitrogen T10/Tmax/R600402C/436C/5.09% and air T10/Tmax1/Tmax2/R600401C/432C/564C/0.42%. Native onset T-10% is explicitly10wt%mass loss and recorded as T10, not generic onset or T5. TG uses10C/min,room temperature-650C; the reported residue is at600C. Table1 and alkali-treated Table2 reuse PET-1/5/10/20BL labels but report distinct add-ons and LOIs. Thermal Tables3/4 and Fig5 do not explicitly resolve which coated treatment lineage was tested, so both four-dose LOI series and eight treated TG records remain held. Only the uncoated control adds one independent state and two gas conditions.
+
+Exact-head checks, ordinary merge, three terminal postmerge checks and complete remote byte verification precede release of the owned writer lease.
