@@ -1,0 +1,82 @@
+{
+  "batch": "b128",
+  "review_completed_utc": "2026-10-02T03:57:10.436342+00:00",
+  "baseline_counts": [
+    1032,
+    1304,
+    290
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 28,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 15,
+    "held_fact_rows": 9
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b128_local_textile.csv",
+      "published_input_sha256": "d3d72b62786c76a05d4294e844fe825ed066f4bf2db005eb5d0bad3742e35238",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 9,
+      "accepted_measurement_fingerprints": [
+        "c70ac50814a079a8c9513bbde6c5393a74efd352edd26e60cf3f5d5e0329e10b",
+        "1b743d3d1516ab05ddd9c2e5617de1947eb9dbe6f8159533c881c4a0cef8b35c",
+        "86aa7e6f37f4d43cc7e109d651ff858f8a3664f0df1749442e4f0232a700f237",
+        "aee369c12a21b1a5bfd383eb0a3330c1a9f5aee219832a89eba3a816804e6063",
+        "311774981bb094df39dfa94297d186fb8221c29ffcb22c7161f60a7554b95d46",
+        "497932f4810104e8c28505d3369dbf4e2837aebdecf09c5d9b18f523768033e7"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-021-04056-6",
+      "title": "Durable flame retardant and mechanism of bamboo fabric through grafting based on arginine",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 4,
+      "pages": 18,
+      "disposition": "All18native/text pages reviewed; Cellulose2021,28:8187-8204;noSIcited,Dataavailability author-request statement is not a cited supplement. Own bamboo fabric160gm2,native three-layerfabric,TaianKainuo;fiber production route/weave unreported, not assumed regenerated or mechanically extracted. Native BF0/10/20/30 are0/10/20/30wtpercent aqueous ATTPMA finishing solutions, not dry loadings. Table2p9 WG0/17.8+/-0.5/26.3+/-0.7/33.8+/-0.4 uses(W2-W1)/W1 and five WG repeats; own LOI20.3+/-0.1,39.3+/-0.2,48.3+/-0.3,50.2+/-0.2. LOI ASTM-D2863 JF3 52x140mm four repeats; uncertainty statistic unreported, not assumedSD. ATTPMA synthesis arginine0.10mol/H3PO3.42mol/formaldehyde.42mol120C6h thenurea.9mol130C3h; compound yield95.4percent not fabric add-on. Finishing catalyst8wtpercent basis/explicitidentityunreported,dicyandiamine listed in materials; bathratio1:25mass fabric/solution75C1h,strained,cure182C7min,water rinse,dry95Ctimeunreported. Control is nativeBF0zeroFR finishing group, not silently described never-treated. Main TGp5 TAQ50 N2 10C/min to700C about5-10mg alumina crucibles40mL/min three repeats,start/uncoveredpan status unreported. Native Tonset explicitlydefined5percentmassloss=T5 not genericTonset/T10. Own Table4p11 BF0 T5/Tmax1/R700264/326/15.7,max2dashblank;BF10 241/260/295/43.2;BF20 240/255/291/44.9;BF30 235/248/288/46.6. Separate TGIRp6 TGA55 40-700C about5mg; do not borrow start40C into main TG or totalgas-release maxima380/373C into DTG fields. Table3conechar35.3percent is not TG46.6. Durabilityp6 GB/T8629-2001 referred method49C2gLneutraldetergent5min per cycle,native10/20/30/50cycles;Table7p15 BF30washedLOI48.3+/-0.3,47.6+/-0.1,46.7+/-0.2,44.5+/-0.2,no ownwashedTG so fourheld. Table7initialBF30duplicatesTable2not additional sample. Washed BF30-10cycles LOI48.3 equals initialBF20LOI48.3 but different formulation/state, never paired. Tensilemethodprose says cotton whereas primary material and quantitative TG/LOI tables identify bamboo; retain wording limitation. Fourinitialstates/fourN2conditions approved, fourwashedLOIfactsheld.",
+      "SI_status": "No SI cited in completeprimary"
+    },
+    {
+      "DOI": "10.1002/app.49253",
+      "title": "Improving the flame retardant properties of polyester\u2010cotton blend fabrics by introducing an intumescent coating via layer by layer assembly",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 5,
+      "pages": 10,
+      "disposition": "All10native/textpages reviewed;nativeWiley2020e49253,noSIcited. Own Testfabrics7436M65percentPET35percentcotton,plainwovenbleached154gm2,0.23mm,warp/weft52x58;initial1993AATCCdetergentwash removes chemicals not quantified durabilitycycles. Table1p5 initialLOI uncoated20.1+/-0.1,(PAH/APP)10BL26.3+/-0.3,(PAH-MEL/APP)10BL28.4+/-0.2,dipmixedPAH/MEL/APP26.8+/-0.3;nativeWG7.4+/-0.3/9.0+/-0.2/15.6+/-0.5,denominatordefinitionunreported. Abstractp1untreatedLOI20.8 conflicts Table1 andownp5prose20.1; untreatedbothgasfactsheld,nochosencontrolLOI. MainTGp3 Q50 bothair/N2 10C/minroomtemperature-700C about20mg,pan/flowunreported; PCFC1K/s5mg separate. Own N2thermalprosep7 definesT5percent uncoated360,PAHAPP290,PAHMELAPP300C; coated ownTable1LOIs match10BL initialfabric. N2residues19.4/23.4percent explicit but residue sentence lacks fixedtemperature,retain raw rather than guessedR700; no estimatedDTGpeakvalues. AIRprosep7roughchar~3wtpercent uncoated/~7PAHAPP andPAHMELAPPonlyqualitativehigher; correspondingtemperatureunfixed, ranges300-380/380-480/480-600 are stages not definedT5/Tonset/DTG. ThreeAIRrecordsheldwithoutnumericTGatfixedtemperature. MixturedipLOI26.8hasnoownmixtureTG held, do not substituteLbLthermalcurve. FabricPAA1wtpercent pH2HNO3 primer30s thenmethodstates similarwaferdeposition withmanualrinse/wring,70C24hfinaldry; wafer firstBL5min then1min successiveBL is reported but exactfabric firstdip duration/BPEIbase layer not separately specified,flag rather than invent. PAH1wtpercentpH4,APP1wtpercent APPpH referencednotreported,PAHMELpH4 butMELconcentrationunreported; PAAstock35wtpercent/HCl37stock/NaOH98puritynotbath. Siliconwafer5minplasma/500nmthickness/ellipsometrynanometers not fabric treatment/thickness. ISO105CO1washedSEM qualitative, noownwashedLOI/TG or count. LOIstandard/instrument/dimensionsunreported, allflammabilitytests native phrase duplicabletriplicate retained without assigning exactLOIreps;uncertaintystatisticnotassumedSD. Twoinitialcoatedstates/twoN2T5conditions approved, fivecontrol/air/mixturefactsheld.",
+      "SI_status": "No SI cited in completeprimary"
+    }
+  ],
+  "verification_limit": "Two complete primary originals28native/textpages;oneprimaryreviewer;noSIcited. FourinitialATTPMAbamboo states/fourN2conditions andtwoinitialPAHAPP/PAHMELAPP65PET35cotton states/twoN2T5conditions approved. Bamboo nativeTonset5percent mapsT5,ownfixedR700;washedBF30LOIsheldwithoutwashedTG. PETcottoncontrolLOI20.8abstractversus20.1tableheld;unfixedN2residue19.4/23.4rawonly,threeAIRrecordsandmixturedipheld. Unknownpreparationconditionspreserved,noTGIR/PCFC/waferparameterborrowing. Nineheldfactsoutsideverifiedtarget;noestimates/fulltexts/images/privatepathsuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1304,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1038,
+    "verified_conditions": 1310,
+    "verified_dois": 292,
+    "verified_sources": 294,
+    "offline_tests_passed": 869,
+    "snapshot_sha256": "73f176012dc17eedb9c9e520753db7e7f1c1ada317d53a50cadb2e859eb95224",
+    "master_sha256": "8602d1027d557a6feac4f01ce9dd36d6bf4be3a3b94ffd2bdce7c4a19acbf9c2",
+    "validation_errors": [],
+    "held_fact_rows": 9,
+    "complete_original_native_pages": 28,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 28,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
