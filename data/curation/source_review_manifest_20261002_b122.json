@@ -1,0 +1,103 @@
+{
+  "batch": "b122",
+  "review_completed_utc": "2026-10-02T00:19:21.122610+00:00",
+  "baseline_counts": [
+    996,
+    1244,
+    278
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 7,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 41,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 44,
+    "held_fact_rows": 37
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b122_local_textile.csv",
+      "published_input_sha256": "c35d1594b7508cc2a137ad728575ce86298d9c11018d9054676159ee27a2d97a",
+      "unique_sample_states": 4,
+      "verified_conditions": 7,
+      "held_fact_rows": 37,
+      "accepted_measurement_fingerprints": [
+        "b5b462d1ad73377e5d529a4b14891d26690f12bfbfda9b1f5b7ac0ed842b95f6",
+        "ed740b6e43f142517c974b8ad7f77a1a7640556de1fe4d54a654a0dc53f4e771",
+        "d917c0f60f9d17752c3d687cf85a1f05c07874db8709a7a9f0f32c14e51e7966",
+        "30ee0f9e11df5fe439362bf497702f056c798bd0fe75b470d0cc87664ef0b3b8",
+        "758087fe082069131ef540c76526df1cb8f8143dd339fa8c3acf097b69f589f5",
+        "413a60816834e4f54e60a1c3a712549daa54c9dd9c532c2b988047e85a0486f8",
+        "8b2112949d3d35dcaf466982e120d336ebca503680443135bd861f07489f47ba"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-018-2193-5",
+      "title": "Eco-friendly synthesis of a highly efficient phosphorus flame retardant based on xylitol and application on cotton fabric",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 18,
+      "pages": 16,
+      "disposition": "Complete16native/textpagesreviewed,noSIcited. OwnTable2PDFp13untreatedLOI17.6,ASXPEA3/5/7/10percentLOI32.5/36.5/41.8/45.2WG9.4/14.1/17.3/21.2. Thermaltextp6explicitowncontroland7percentonly,Fig4p9. Pyris1N2air40-800C20K/minp4;mass/flow/repeatsunreported. Aircontrolnativeinitialdecomposition270C,DTGmaximum346Cexplicitp7;treated7beginsdecompose240Cexplicitp7;noowntreatednumericalTmax. AirR700treated15.3p8-9;controlessentiallynoremainingcharqualitativenot0. N2R700control8.6/treated38.7p9exact;N2quickweightlossranges312-391/240-306notTonset/Tmaxnumericdefinitions,keptrawonly,noestimateFig4. Below100waterlossnotpolymerdecomposition;air7firststage240-298massloss38.7notN2R70038.7despitenumericcoincidence. TG-IRSTA409PCapproximately8mgN220K/min40-600Cp5distinctfromPyris1method;8mgand600endpointnotborrowed. OwnLOI17.6notintro18citedChen2018. Table1p11nativeconcentrationsgL30/50/70/100vs3/5/7/10percentinTable2bothretainedasnativecrosswalk,percentbasisnotassumed. FifteenwashedLOIrecords10-50nativeLCnoownwashTGandthreeotherinitialdoseLOIsnoownTGheld;AATCC61-2006RoachessoapingfastnesstesterwashT/detergent/timeunreportedandnohomecycleconversion. ConeR35.7notN2TG38.7;EDSelementweightfractionsnotspecimenbulkloading. Twoinitialindependentstatesfourgasconditionsapproved;eighteenheldfacts.",
+      "SI_status": "NoSIcitedall16pages"
+    },
+    {
+      "DOI": "10.1007/s12221-011-0166-5",
+      "title": "Investigation on flame retardancy of poly(ethylene terephthalate) for plastics and textiles by combination of an organo-modified sepiolite and Zn phosphinate",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 3,
+      "pages": 8,
+      "disposition": "All8native/textpagesreviewed,noSIcited. OwnfiberTable5PDFp7printed172PET/PET-FR/PET-ZnPCDLOI22/29/31. OwnTGTable2p4printed169andFig4arebulkcompounds:PETand20wtpercenttotalZnP/sepioliteformulations;Table4p5bulkLOI22/30/33/33/33notfiberLOI. Fiberproductionp2explicitPET10ZnP10CDmasterbatchdilutedto0.5wtpercentinorganiccontent,285C3200m/min48filaments174dtex,drawn/bulkedtexturedyarnforflammabilitytests,fabricdensity152gm2;threefibershaveNOownTGinwholeoriginal. NativeTGinstrumentPyris1TGAQ500isambiguousretainedasreported;bulkN2air10C/min50-800Capproximately10mgnotborrowedintofiberrecords. PlasticLOIdimensions80x6.5x3mmnotfiberLOIdimensions. ISO4589FIREmethodownbutfiberLOIdimensions/repeatsunknown;threeconeexperiments/SDnotLOIreplicatecount. CommercialLenglartPET-FRcompositionunknown. BulkcalculatedTGFig5,DSCmelting/crystallizationpeaksandconechararenotfiberTG. Zeroapprovedpairs,threefiberLOIfactsheld;20wtpercentbulkTGmustnotmatch0.5wtpercentfiber.",
+      "SI_status": "NoSIcitedall8pages"
+    },
+    {
+      "DOI": "10.1007/s13726-017-0595-0",
+      "title": "Scalable non-solvent-induced phase separation fabrication of poly(vinylidene fluoride) porous fiber with intrinsic flame-retardation and hydrophobic properties",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 0,
+      "pages": 10,
+      "disposition": "All10native/textpagesreviewed,noSIcited. OwnPVDFporousfiberoneinitialstateLOI24.2Table3PDFp8printed122andtextp7printed121. OwnTGDTGFig4cPDFp6printed120explicitannotationsOnset463.80C/Peak478.86Cconfirmthermaltextp5printed119;genericTonsetnotT5/T10,peakthermaldegradationDTGnotDSCmelting158.8C. NativeNetzschSTA409PC/PGN2only10C/min25-800Cmethodp4printed118;noaircopy,gasflow/TGmass/replicatesunreported. CharonlycurveFig4c,numericalfixed-temperaturecharunreportedandnotdigitized. PVDFMW46000015wtpercentDMFspinningdope,DIwatercoagulation25C100holes0.06mmspinner;serialthree drawingstages2.6/3.5/4.8m/minnotthreeindependentsamples;60Cdry,woundfiberapproximately18um. FIREASTMD2863LOI10gfiberpaved100x40x2mmnotwovenfabric,notcone2g100x100x4mm. Threereplicatesconeonlyand50tensilespecimensnotLOI/TGreplicatecounts. DSC50-350CnotTG25-800C. NoadditionalcitedcottonLOI/graphiteorPSreferencesaccepted. Journal2018Vol27pp115-124despiteonline21December2017. OneapprovedstateoneN2condition,zeroheldfacts.",
+      "SI_status": "NoSIcitedall10pages"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.05.010",
+      "title": "Intumescent flame retardant and anti-dripping of PET fabrics through layer-by-layer assembly of chitosan and ammonium polyphosphate",
+      "accepted_states": 1,
+      "accepted_conditions": 2,
+      "held_rows": 16,
+      "pages": 7,
+      "disposition": "All7native/textpagesreviewed,noSIcited. Table1PDFp3printed164ownbaselinePETcontrolLOI21.1SD0.08pairsuntreatedPETcontrolTGTable3/4PDFp5printed166:N2T10402Tmax436R6005.09;airT10401Tmax1432Tmax2564R6000.42. NativeonsetT-10percentexplicit10wtpercentmasslossnotT5/genericTonset;R600notTGendpoint650. DTG60HN2air10C/minroomtemperature-650methodp2;flow/TGmass/LOIdimensions/repeatsunreported. PETknitted110g/m2ShanghaiXinfanglian,detergent4g/L98C10minRTdry;alltestconditioning20plusminus2C65plusminus2percentRHover12h. CH/APPboth0.5wtpercentaqueouspH4HCl1Mstir24h,firstdip5mineachrinseDI1min60C2haftereachlayer;laterdips2minDI30secuntil1/5/10/20BL. Separate1MNaOH90C30minpretreatedseriesTable2PDFp4printed165REUSESSAMEPET-nBLlabelsbutdifferentLOI/addons. ThermalTable3/4/Fig5simplyuncoated/coatedPET-nBLwithoutunambiguousstatementofalkalipretreatmentlineage;wholeoriginaldoesnotidentifywhichsame-labelledcoatedserieswastestedbyTG. ThereforebothfourcoatedLOIseriesandeighttreatedTGrecordshelduntillineageresolved;onlyuniqueuncoatedPETcontrolapproved. Table1nonalkaliLOI22.1/24.4/25.5/26.2SD0.11/0.13/0.13/0.17addons0.57/5.8/7.3/8.9;Table2alkaliLOI22.5/24.9/26.6/26.5SD0.08/0.13/0.08/0.13addons1.1/7.8/13.6/15.1. NoLOIaverageoralkalitransfer;VFTcharlength/SEMchararenotTGresidue. Oneapprovedstate2conditions16heldfacts.",
+      "SI_status": "NoSIcitedall7pages"
+    }
+  ],
+  "verification_limit": "Four complete primary originals41native/textpages;oneprimaryreviewer;noSIcited. ASXPEAcontrol/7percentonly2gases,R700not800,aircontrolnearzeroqualitativeblank,otherdose/washLOIheld. PETfiber0.5percentloadinghasnoownTG,bulk20percentTGexcluded. PVDFoneN2fiberstateexplicitnativeonset/peak,numericcharmissingnotestimated,serialdrawspeedsnotindependentstates. CHAPPuncoatedcontrolonly2gases,T-10percent=T10,R600not650;samecoatedlabelsreusedalkali/nonalkaliwithunresolvedTGlineageheld. Noestimatedcurves/fulltexts/images/privatepathupload",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1244,
+    "new_states": 4,
+    "new_conditions": 7,
+    "evidence_upgrades": 0,
+    "verified_states": 1000,
+    "verified_conditions": 1251,
+    "verified_dois": 281,
+    "verified_sources": 283,
+    "offline_tests_passed": 761,
+    "snapshot_sha256": "e91829adbc3264baad75906d6027f116d82c14b30c40d9ed13ef49ea5bc22efd",
+    "master_sha256": "be2fe684f54b9d8ff198a7ac3a6c3e0c8f2d6ae239de74ce562112eabd60719f",
+    "validation_errors": [],
+    "held_fact_rows": 37,
+    "complete_original_native_pages": 41,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 41,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

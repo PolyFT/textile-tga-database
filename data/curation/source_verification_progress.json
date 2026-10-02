@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-01T23:59:19.996009+00:00",
-  "latest_batch_id": "20261002_b121",
-  "verified_condition_records": 1244,
-  "verified_unique_sample_states": 996,
-  "verified_dois": 278,
-  "numeric_pair_candidate_rows": 1703,
+  "as_of_utc": "2026-10-02T00:19:21.125560+00:00",
+  "latest_batch_id": "20261002_b122",
+  "verified_condition_records": 1251,
+  "verified_unique_sample_states": 1000,
+  "verified_dois": 281,
+  "numeric_pair_candidate_rows": 1710,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 795,
+  "cumulative_newly_completed_or_new_source_sample_states": 799,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b121_merged_remote_verified_lease_released",
+  "publication_stage": "b122_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261002_b121",
   "writer_lease": {
     "owner": "codex-local-textile-b122-20261002",
@@ -26,11 +26,12 @@
     "batch_id": "20261002_b122",
     "claimed_at_utc": "2026-10-02T00:18:27.062478+00:00",
     "expires_at_utc": "2026-10-02T01:48:27.062478+00:00",
-    "purpose": "Publish four complete local textile originals41primarypages noSIcited;4newstates7conditions37holds;metadatareadonly",
+    "purpose": "Publish4completeprimaryoriginals41pages,noSIcited;4newstates7conditions37held;metadatareadonly",
     "previous_release_commit": "69a91f1d67e8c2a54c67c5545cccb4ab28840a80"
   },
   "next_sources": [],
   "next_actions": [
+    "B122:4newsource/sample/washstates7TGconditionszeroevidenceupgrades/legacycompletions;4completeprimaryoriginals41pages44facts37held. ASXPEAcontrol/7percentinitialonly,R700explicitnot800,otherdoses/washLOIheld. PETfiberLOIhasnoownTGbulk20percentexcluded. PVDFoneN2fiberstate,explicitonset/DTGpeaknotDSC,charcurveonlyblank. CHAPPuniqueuncoatedcontrol2gases,T10notTonset,R600not650;bothsame-labelledcoatedLOIseriesand8genericTGfactsheldbecausealkalilineageunresolved. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B121:6newsource/sample/washstates,12TGconditions,zeroevidenceupgrades/legacycompletions;3completeprimaryoriginals37pages plus2completeofficialSI4nativepages;42facts30held. PEPAScontrol/TCFSi2gasconditions;nogas/washtransfer. DHTP4states8conditions,Tonset10percent=T10,R600not800;MPTES-onlynoLOI,washednoTG;addon60.4/61.4raw. DOPOPiPSiall10factsheld,controlpossiblysharedwith10.1007/s10570-020-03488-wsameN2multi-metricprofile/supplier/authorgroup;zeroevidenceupgrades;treateddosenotmappedto400gL;genericonsetnotT5,dashnotzero,washedSIrecordsnoownTG. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B120:4newsource/sample/washstates,7TGconditions,zeroevidenceupgrades/legacycompletions;3completeprimaryoriginals36pages;41facts34held;noSIcited. PNSicontrolvalidT5/Tmax2only;treatedTGdoseunknownandcontrolresidueconflictheldraw. CYDP30percentLOI52.9abstract/52.0bodyheld;owncontrol2gasconditions;washedTGabsent;comparisonblocksnotnewownstates. DTSPcontrol/30wtpercentbathWG16initialN2/air;noairtemperaturesborrowedfromN2;R800notpeak/conechar;10/20doseandwashedTGabsent. Refreshmain/PR/lease/queuebefore nextpublisher.",
     "B119:4newsource/sample/washstates,8TGconditions,zeroevidenceupgrades/legacycompletions;3completeprimaryoriginals32pages;46facts38held. PHMGP/SPBcotton4initialstatesinN2/air10C/min;genericTonsetnotT5;aircontrol360Table/358proseheldblank;R600notvariablepeak/VFT/HFTresidue. UV26factsheldmissinggas/ownwashedTG/crosslinkerLOIconflict. PA66primary12conditionsheldpendingunreadcitedSI;regularTGflowunknownseparateTGFTIR55mL/min;washedTable6VBTnotLOI. Refreshmain/PR/lease/queuebefore nextpublisher.",
@@ -733,7 +734,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 1004,
+  "remaining_to_2000": 1000,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -781,9 +782,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 280,
+  "verified_sources": 283,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 988,
+  "verified_doi_sample_states": 992,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -817,7 +818,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 1004,
+  "remaining_to_target": 1000,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -933,9 +934,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 135,
-      "sample_states": 421,
-      "condition_records": 569
+      "sources": 138,
+      "sample_states": 425,
+      "condition_records": 576
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1027,7 +1028,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1236,
+  "verified_doi_condition_records": 1243,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -2471,5 +2472,20 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/89",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b122": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 7,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_native_primary_PDF_pages": 41,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 44,
+    "held_fact_rows": 37,
+    "tests_passed": 761,
+    "snapshot_sha256": "e91829adbc3264baad75906d6027f116d82c14b30c40d9ed13ef49ea5bc22efd"
   }
 }
