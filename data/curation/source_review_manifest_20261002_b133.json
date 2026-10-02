@@ -1,0 +1,84 @@
+{
+  "batch": "b133",
+  "review_completed_utc": "2026-10-02T07:25:48.690054+00:00",
+  "baseline_counts": [
+    1063,
+    1347,
+    300
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 24,
+    "held_fact_rows": 16
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b133_local_textile.csv",
+      "published_input_sha256": "0cc20e263a647e27aee1b0ff0b058ca1b425f21827b47277b34d588b29a7efef",
+      "unique_sample_states": 8,
+      "verified_conditions": 8,
+      "held_fact_rows": 16,
+      "accepted_measurement_fingerprints": [
+        "975016365d72882f65fedfc51bdf5f6a5e76a4bc969ebdb153343036fdc9eea8",
+        "b80e5107d09bdfd2b0d3df5809029c9efe437e99f6f6c730deab57110a9ca6ec",
+        "b9dcf18896e3276a38e7f02a5f05f77ca7cc0c286e5288101cd24bc5b961dfb5",
+        "36d18e109157fa6b1532189f8cf9b32af37ce737e7ec5c5c4d48369f2b826f86",
+        "fb8d805b701dbb28c356656f3d6f1ef04da2401e76ec3b2eb84d509ae3c80954",
+        "c8c2241a435785b42bf0f9c40bffc5a3cd97fcac90c3c5726c248a54b6be1833",
+        "413a0302767a27e157805a306b619600ceafec0070f3867a35c9d3d7fd1b8e61",
+        "659723a6e101911f3bd90a124f02755cb3248a72ee4e565698b3444fe00532f5"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/pat.5335",
+      "title": "Coordination driven layer\u2010by\u2010layer deposition technology used for fabrication of flame retardant polyamide 66 fabric",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 12,
+      "pages": 10,
+      "disposition": "All 10 native/text pages reviewed; Polym Adv Technol 2021,32:3232-3241. Own 100% PA66 woven fabric 122g/m2, Zhongshan Demao. Wash with1.0wt% Na2CO3 aqueous solution then OVEN DRY90C15min; wash temperature/time unreported, not washing90C15min. Alternate2.85mol/L Al3+ and5wt% IP6, stockIP6 50wt%; each immersion followed DI rinse, pad approximately70% wetpickup, dry60C5min; first Al immersion20min then4min, IP6 time unreported. Final thoroughDIrinse/dry70C40min. Table1 PDFp3 printed3234 separates Al/IP6 with/without rinse and1/5/15/20BL. Table2 p5 printed3236 own initial LOIs: control19.6, Alwithout rinse21.7, Alrinsed20.5, IPwithout rinse19.5, IPrinsed19.3,1BL22.5,5BL23.2,15BL26.4,20BL27.8. Addons0/26.1/1.9/4.1/dash/dash/8.3/25.4/32.1%; formula/denominator unreported; dash not zero. MainTG p3 PerkinElmerTGA8000 STATIC AIR10C/min100-800C3.0-3.5mg; pan unreported. Table5 p8 printed3239 own T10/R800/Tmax: control370.5/0/418.3, rinsedAl326.4/13.12/375.4, rinsedIP6359.0/7.26/395.6,20BL101.2/19.62/431.2; no curve estimates, explicit zero valid. Prose control370.53 consistent rounding. 20BL T10=101.2 includes absorbed/coordination water, not PA66 decomposition onset; keep threshold and water note. Main DTG Tmax as reported Table5; secondary peaks unnumbered, no estimates. PureAl-IP6 salt119/67.67/108.5; low temperature Tmax corresponds water, no additiveLOI and cannot join textile. Other five initial LOI groups lack ownTG, held. LOI JF3 GB/T5454-1993, dimensions/repeats unreported; verticalCZF3 GB/T5455-1997 notLOI. MCC1C/s100-790C with900Ccombustor and4mg not mainTG. Table6 p9 printed3240 own10washing water-only vscommercial detergent: rinsedAl18.9/19.8,15BL24.4/22.1,20BL26.2/23.5, last label20LBL A native typo retained. Water modifiedAATCC124-2001 detergent omitted vs commercial procedure; time/temp/volume unreported. All6 washedLOI held without own washedTG, elemental P/Al/SEM/mechanical notTG. NoSI cited in complete primary. Four initialstates4AIR conditions;16facts12held.",
+      "SI_status": "No SI cited in complete primary"
+    },
+    {
+      "DOI": "10.1021/acsami.0c17778",
+      "title": "Facile Strategy to Fabricate the Flame Retardant Polyamide 66 Fabric Modified with an Inorganic\u2013Organic Hybrid Structure",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 4,
+      "pages": 12,
+      "disposition": "All12native/textpages reviewed; ACS Appl Mater Interfaces2021,13:9122-9133. Own100% wovenPA66 122g/m2 ZhongshanDemao; same supplier aspat5335 but different thermal profiles, no declared reuse. Wash1wt%Na2CO3 then ovenDRY90C15min; wash time/temp unreported. StepI aqueous15wt%AA/1wt%MBAAn/.5wt%Omnirad2959 RT30min pad60%wetpickup UVnative100W/cm2 12min underquartz, DIwash/extract6h/dry90C15min. StepII AA/MBAAnfabric in1mol/LFe3+30min,2dip2nip100%wetpickup cure80C10min,thoroughDIrinse/dry90C15min. SingleFe row1mol/L explicitTable1 but full singleFe finishing sequence not independently specified; do not silently borrow complete hybrid procedure. Author Fe reagent ferricchloridehexahydrate; nativeUV power units retained without correction. Table1 PDFp5 printed9126 control/AA-MBAAn/Fe/hybridLOI19.6/19/32.2/33.4. Table4 p8 printed9129 initialaddon35.7/5.2/39.4 andafter45washes30.6/1.3/34.8, formula/denominator unreported. MainTGp3 PerkinElmerTGA8000 staticAIR10C/min100-800C3.0-3.5mg;pan unreported. Table2 PDFp6 printed9127 same4codes T10/R800/Tmax:368/0/418.5,244.2/1.1/434.1,294.1/4.3/435.8,254.1/4.1/466.9; peakcounts2/5/3/5 are counts not temperatures, no secondaryDTG numeric estimates. Explicit R800 and zero retained; genericinitial prose does not change printedT10 toTonset/T5. Source DTGprose refers350-550Ctwopeaks then200Crapidloss, keep wording ambiguity raw not numericalTG; MCC cone/charphotos notTGA. LOIJF3GB/T5454-1993 dimensions/repeats unreported;verticalCZF3GB/T5455-1997 notLOI. Table5 p8 ownFe/hybrid washed20LC LOI21.7/28.1 and45LC20.3/27.8; all4held, no washedTG. AATCC124-2001 temperature/time/volume/detergent conditions not specified; no borrowed49C or acceleratedcycle conversion. WashedMCC/EDS/XPS andsinglefibremorphology notwashedfabricTG. MCCTHRprose28.1vsTable43.2 conflict unrelated toacceptedTG/LOI, not silently corrected. NoSI cited in complete primary. Fourinitialstates4AIR conditions;8facts4held.",
+      "SI_status": "No SI cited in complete primary"
+    }
+  ],
+  "verification_limit": "Two complete primary originals22native/textpages;oneprimaryreviewer;noSIcited. Four122gm2wovenPA66control/rinsedAl/rinsedIP6/20BLstates ownTable2LOI19.6/20.5/19.3/27.8 joinTable5T10/Tmax/R800 understaticAIR10C/min100-800C3-3.5mg. 20BL101.2T10includeswater,notpolyamideonset;no-rinse/otherBL5LOIgroups and6washedLOIsplus1neatsaltTGheld. Four122gm2wovenPA66control/AA-MBAAn/Fe/hybridstates ownTable1LOI19.6/19/32.2/33.4 joinTable2T10/Tmax/R800,samestaticAIRmethod;4washed20/45cycleLOIsheldwithoutwashedTG. Explicit0R800valid,peakcountsnottemperatures;secondaryDTGpeaksnotestimated. Same-suppliercontrols19.6LOIhaveseparate370.5/418.3versus368/418.5TGprofiles,no declaredreuse;fullprofilenumericdedupwith/withoutLOIanygasrun. NativeOVENDRY90C15minnotwashing90C15min;UV100W/cm2andunknownsingleFeprocedure/addondenominator preserved. Eightnewstates8AIRconditions24facts16held;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1347,
+    "new_states": 8,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1071,
+    "verified_conditions": 1355,
+    "verified_dois": 302,
+    "verified_sources": 304,
+    "offline_tests_passed": 963,
+    "snapshot_sha256": "1ac38bedf37e9498d6beba8c1d63dd430611aa5511eb4cb8e8f916d9a47db9a6",
+    "master_sha256": "8b4ba4878921fb901cf036b3bc27646c82c199cc83b7dc278e12ffbc7dc439ce",
+    "validation_errors": [],
+    "held_fact_rows": 16,
+    "complete_original_native_pages": 22,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 22,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
