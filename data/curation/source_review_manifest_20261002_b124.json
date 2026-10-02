@@ -1,0 +1,104 @@
+{
+  "batch": "b124",
+  "review_completed_utc": "2026-10-02T01:29:24.713990+00:00",
+  "baseline_counts": [
+    1009,
+    1267,
+    283
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 47,
+    "complete_official_SIs_reviewed": 1,
+    "total_fact_rows": 57,
+    "held_fact_rows": 51
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b124_local_textile.csv",
+      "published_input_sha256": "9c0d24351aae60405185b4fe28d31bb2c5f3e8ab0095a1061ca1d3d52010e112",
+      "unique_sample_states": 4,
+      "verified_conditions": 6,
+      "held_fact_rows": 51,
+      "accepted_measurement_fingerprints": [
+        "711b5b925b8a37b04ab897bd1697f8bfe6b84572fe6540dec1c9784cb3d369ce",
+        "f64fc2b8d71205babe9a32f4a5a917cef44e1073e542ecd73b9f494111f89cce",
+        "c39dbd4857b065abdd794b79ed2aba6bc943f92589ad6179172dfcc47290dbca",
+        "4820bb28cd70e9e95ff6e0527f24573836b5cbd7b007289ae8f716ed31aaa524",
+        "12a0b24fe7c350208cae358f3c5e877c26ea7f8aec3c01ed47082322d5b83e6a",
+        "583fc6f771e8ee00c77c524899581955b573c680f9161f06c619f5a7469a1511"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-013-0127-9",
+      "title": "Novel method for ultraviolet protection and flame retardancy of cotton fabrics by low-temperature plasma",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 4,
+      "pages": 12,
+      "disposition": "All12native/textpageschecked,noSIcited. OwnLOItextPDFp9printed765control18.5,N2LTP21.8,DBD20,N2LTPafter1year21.2. ASTM D2863-08five5x15cmspecimens,ownaveragereportedp9;varianceunreported. OwnTG/DTAmethodp5printed761Pyris1N28mgplatinumpan0319-0264,50-500C10C/min100mL/min. Fig7p10printed766labelsallfourstatesincludingagedN2butprovidescurvesonly. Thermaltextp10genericabout330Consetforuntreated/treatedand320-380rapidweightlossrange,withoutindividualexactdefinitions;notpromotedtoTonset/T5/T10/Tmax. Fig8isDTA,notDTG. Burning-testchar1.9control/8.7freshN2/5.6DBD/7.6agedN2fromweighingbefore/aftercompleteburningEq7p5andresultsp8-9,NOTTGresidueandhasnofixedTGtemperature. Agedtextphrasesreductionof7.6and21.2percentrespectively;retainnativewordingwithoutderivedreductionpercent. NoTGnumbersestimatedfromcurves;allfourLOIfactsheldoutsideverifiedtarget. Initialandoneyearstateskeptseparate.",
+      "SI_status": "NoSIcitedall12pages"
+    },
+    {
+      "DOI": "10.1007/s10570-015-0641-z",
+      "title": "Enhancement of flame retardancy of cotton fabrics by grafting a novel organic phosphorous-based flame retardant",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 8,
+      "pages": 10,
+      "disposition": "All10native/textpagesreviewed,noSIcited. Nativeonline6May2015PDFp1,pagesunpaginatedpublisheronlinefirst. Ownresultstextp4controlLOI16;ownp5AHDTMPA10/30/50/70/90g/LinitialLOI24/28/32/36/38. Explicitp5selects70g/Lforphysicalpropertiesandcharacterizationlistedbelow,notinferredfromhighestLOI. Ownthermaltextp8reportscontrol5.3percentashandtreated42.1percentresidueat580C;Fig7p9. Pyris1methodp4N240-60010C/min20mL/min,mass/pan/repeatsunreported. R580isexplicitnotendpoint600;rapidlossranges325-400control/290-320treatedandapproximately80/26percentweightlossarenotTonset/T5/T10/TmaxorR580. NoDTGreported. OwnLOIASTMD2863-2000M606Bp3,specimendimensions/repeatsunreported;Fig1errorbarsdefinitionunreportednotassignedSD. FourotherinitialdoseLOIsandfourexplicitwashedLOIs(30g/L10LC25;50g/L30LC27;70/90g/L50LC28each)lackownstateTGheld. OtherwashedLOIcurvesnotnumericallyestimated. InitialWG30g/L13.57/50g/L14.62andwashed30g/L10LC11.30/50g/L30LC10.41reportedp5;70/90g/L50LCWGapproximately12notmadeexactloading;70g/LinitialWGcurveonlyunreportednumeric. AATCC61-2006Roachessoaping49C,detergent/duration/dryingunreported,nohomewashconversion. VerticaltestcharlengthnotTGchar,IR/Raman/XRDpeaksnotthermalmetrics. Initialpreparationrunningwaterrinseis0durabilityLC. Twoindependentinitialsamples2N2conditions,8heldfacts10facts.",
+      "SI_status": "NoSIcitedall10pages"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2012.12.008",
+      "title": "Flame retardant cotton fabrics treated with organophosphorus polymer",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 16,
+      "pages": 6,
+      "disposition": "All6native/textpagesreviewed,noSIcited. OwnTables1-3PDFp4printed2296give13LOIfacts:control17,fourbinder-only17.4/17.3/17.3/17.3;Pyrovatex2/3/4/5percent18/18/18.5/18.3;MPD2/3/4/5percent18.7/18.6/19/19. NativeTables1-3percentbasisunreported;methodgper100mLretainedseparatelynotconvertedweightpercent. Resultsselectpolyvinylacetatebinder,butgenericPyrovatex/MPDTGFig4p5doseunmapped. TGAinstrumentPerkinElmer7DXp3only;gas/rate/flow/mass/pan/methodrangeunreportedall6pages. TGtextp6printed2298sayscontrolstarts333ends466C,Pyrovatex286-421,MPD307-395,stageweightloss86/70/78percent. Fig4directinstrumentannotationp5differs:controlmainsegment215.87-391.23loss50.085percentand391.23-525.10loss36.711;Pyrovatex127.95-421.87loss70.251;MPD118.26-395.97loss78.944. Thesearesegmentstart/endannotationsnotT5/T10/DTGpeaks;nativeproseconflictswithfigurestartsretainedrawnotresolved. Lowtemperaturewaterloss35.91-93.89control,24.42-125.84Pyrovatex,24.59-116.37MPDseparatefromdecomposition. Nocharcalculatedas100minusweightloss,nomethodrangefromplotaxis. ThreeTGrawfactsheldand13LOIfactsheld;0approved16held. LOIASTMD2863.81p2;ownLOItesting29C46percentRHp6distinctfromgeneralconditioning20+/-2C65+/-2percentRH24hp2. NoLOImass/replicates/dimensionsreported.",
+      "SI_status": "NoSIcitedall6pages"
+    },
+    {
+      "DOI": "10.1007/s10570-018-1964-3",
+      "title": "A novel reactive phosphorous flame retardant for cotton fabrics with durable flame retardancy and high whiteness due to self-buffering",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 23,
+      "pages": 19,
+      "disposition": "All19native/textprimarypagesandcompleteofficialSpringerparentlinkedSIwholeXML6convertednativepagesreviewed. SIcontainsNMRonly8embeddedmedia0tables3figures8panels,noTG/LOI/washTG. NativePDFp1andpublishermetadataexplicitReviewPaperretainedassource_native_article_type;publication_typejournal_articleisexistingbroadjournalcategory,notclaimingoriginalresearchlabel. OwnExperimentalp3-6andownTables1/3/4areauthorperformedmeasurements,notreferencepaperdata. Explicitthermaltextp9selects250g/LATEPEAforFig6TG/DTGandTable1p11;Table3p13owncontrolLOI18and250g/L46.6;WG23.82Table4samep13. Pyris1p4-5N2air40-80020K/min,mass/flow/pan/repeatsunreported. TGIRSTA409PCabout8mgN240-60020K/minseparate;TGIRgasevolution394/300CnotmainDTG374.75/289.45. Table1T10defined10wtpercentlossnotgenericonset/T5. AircontrolT10310.35Tmax352.27R800dashblanknotzero;air250T10256.34Tmax284.52R8005.05. N2controlT10318.93Tmax374.75R800Table8.08/prose8.08andlater8.05conflict;bothrawcanonicalcharblank,validT10/Tmaxpairretained. N2250T10257.58Tmax289.45R80038.14. Waterlossstagesnotadditionaldecompositionpeaks;airsecondDTGcurveonlyunreportednumericsblank. ConeTable2p12residue1.31/36.9differentfrommainTG,EDSsurfaceelementfractionsnotbulkloading. ThreeotherinitialdoseLOIsand20washedLOIs10-50LCacrossfourconcentrationslackownmatchedTGheld. AATCC61-2006Roaches49Cnativeonecycleequivfivehomemachinelaunderingsrecordednotconvertedindependentstates;detergent/duration/dryingunreported. LOIM606BASTMD2863-2000p6dims/repeatsunreported;cone100x100x0.32mmnotLOIdims/fabricTGgeometry. Twoinitialstates4gasconditions27facts23held. Source2018online1August2018publisheronlinefirstunpaginated;DOI/pagemapsretained.",
+      "SI_status": "CompleteofficialSpringerparentlinkedSIwholeXML6convertedpages8embeddedmedia0tables;NMRonly",
+      "native_article_type": "Review Paper",
+      "own_original_experimental_measurements": true
+    }
+  ],
+  "verification_limit": "Four complete local primary originals47native/textpages and one complete official SI6convertedpages/wholeXML;oneprimaryreviewer. Plasma4LOIfactsheldcurve-onlyTGandburningcharseparate. AHDTMPAexplicit70gL/control2N2pairsR580notendpoint600;8otherdose/washholds. MPD13LOIs3rawTGheldmissinggas/rate,text-figureconflictsandgenerictreateddoseunmapped. ATEPEAexplicit250gL/control4gasconditions,T10notTonset;N2controlchar8.08/8.05conflictheldblank,aircontroldashnot0,ownExperimentaldatawithnativeReviewPaperheaderpreserved;broadjournalarticlecategory. Otherdose/wash23holds;SIonlyNMR. Noestimates/fulltexts/images/privatepathsuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1267,
+    "new_states": 4,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1013,
+    "verified_conditions": 1273,
+    "verified_dois": 285,
+    "verified_sources": 287,
+    "offline_tests_passed": 799,
+    "snapshot_sha256": "43b5d772b6e86dfabd7df3f7d9f9eee7a4fb23dd43250fd1487ccc39cdec218e",
+    "master_sha256": "b34f421280a7098d7ac74c86d8b4e54f799a51e00665eb730669b6c8de8bb253",
+    "validation_errors": [],
+    "held_fact_rows": 51,
+    "complete_original_native_pages": 47,
+    "complete_official_SIs": 1,
+    "unchanged_private_evidence_files": 54,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
