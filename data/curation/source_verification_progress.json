@@ -21,15 +21,13 @@
   "publication_stage": "b126_merged_remote_verified_lease_released",
   "last_merged_batch": "20261002_b126",
   "writer_lease": {
-    "owner": "codex-local-textile-b126-20261002",
-    "status": "released",
-    "batch_id": "20261002_b126",
-    "claimed_at_utc": "2026-10-02T02:33:40.955780+00:00",
-    "expires_at_utc": "2026-10-02T04:03:40.955780+00:00",
-    "purpose": "Publish2completeoriginals40pages;4newstates8dynamicconditions26held;metadatareadonly",
-    "previous_release_commit": "363d01235191f4abb0eea97333b69b2f546bdcd9",
-    "released_at_utc": "2026-10-02T03:01:24.360507+00:00",
-    "release_reason": "PR94 exact-head CI,ordinary merge,all three merge checks and complete independent main/blob/master/report/library verification succeeded."
+    "owner": "codex-local-textile-b127-20261002",
+    "status": "active",
+    "batch_id": "20261002_b127",
+    "claimed_at_utc": "2026-10-02T03:12:58.833998+00:00",
+    "expires_at_utc": "2026-10-02T04:42:58.833998+00:00",
+    "purpose": "Publish three complete primary originals32pages;6newstates6conditions29heldfacts;onecitedSIunreadall10held;metadatareadonly",
+    "previous_release_commit": "9ff95aac68d1f4d142817a9b6101e8f615df254f"
   },
   "next_sources": [],
   "next_actions": [
