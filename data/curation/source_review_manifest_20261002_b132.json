@@ -1,0 +1,90 @@
+{
+  "batch": "b132",
+  "review_completed_utc": "2026-10-02T06:30:46.594039+00:00",
+  "baseline_counts": [
+    1059,
+    1343,
+    298
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 31,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 24,
+    "held_fact_rows": 20
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b132_local_textile.csv",
+      "published_input_sha256": "f8ddaaaf68424ae2fbea523cf53b67d4d01a908ef6fff2df7de44ae3bfa7ab7b",
+      "unique_sample_states": 4,
+      "verified_conditions": 4,
+      "held_fact_rows": 20,
+      "accepted_measurement_fingerprints": [
+        "cb7b45752e05739dc47c6676ea197e89857aaad75bf2fae5f16f33e3c3369a06",
+        "1c040dad9d23f1d3d2ed9f3488835779ef4e87e68af0ac71ab479c0241797a53",
+        "6e9ff2f620c947d0148105eade09d36948526d8422d4e94ec68287d8e150a9e5",
+        "0b2fd61c762b7545e90d469fa7e99283f75f7c9b359136389141230b2b16e9d3"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-019-8914-z",
+      "title": "Layer-by-Layer Self-assembly of Organic-inorganic Hybrid Intumescent Flame Retardant on Cotton Fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 2,
+      "pages": 7,
+      "disposition": "Complete native and text review, Fibers and Polymers 2019,20(3):538-544. Scoured/bleached cotton from Zhejiang Guandong; native construction 133x9x72/40s x40s, areal mass/weave unreported. Native method p2 printed539 states One hundred percent SiO2-PEI sol and Two hundred percent PA aqueous solution; concentration wording is unresolved and is NOT silently corrected to 1/2 percent. SiO2:PEI1:6w/w; PEI stock50wtpercent MW70000, SiO2 15nm. Sol pH5 acetic acid, 1h ultrasonication; PA pH6 using4MNaOH. Cotton45C1h predry, alternate SiO2PEI+/PA- first layer10min then1min, DI rinse before each immersion; final drying/pickup/bathratio unreported. Table1 p4 printed541 initial control/2/4/7bilayers add-ons0/11.3/17/27.7wtpercent with formula/denominator unreported; LOI18.2/26/29.1/33.7. Own TG Fig6 p5 printed542 ONLYcontrol/7bilayers: N2,10C/min40-600C5-10mg; instrument/flow/pan unreported. Explicit thermal prose generic Tonset310/246, not T5/T10; main decomposition375/323, but native DTG Fig6b explicitly labels control372 versus prose375: neither canonical control Tmax is selected; treated323 agrees. Explicit R6008/40.7; no curve estimates, EDX43.3/37.02/52.95 carbon percentages not TG8/40.7. Two other bilayers LOI only held. LOI GB/T5454-1997 instrument/dimensions/repeats unreported; YG815 30x8cm GB/T2406-93 belongs vertical test, not LOI. Author conclusion thermal oxidation wording does not change explicit own N2 into AIR; no washed TG/LOI or SI cited. Two initial states/two N2 conditions approved; two factual rows held.",
+      "SI_status": "No SI cited"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02503-z",
+      "title": "A reactive fluorine-free, efficient superhydrophobic and flame-retardant finishing agent for cotton fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 7,
+      "pages": 15,
+      "disposition": "Complete native/text review, unpaginated Springer Cellulose2019 published25May2019. Own100percentwoven cotton115gm2 native570x340, ChaotianmenChongqing, desized10g/LNaOH98C1h. NDOPA named N,N-dimethyl-octadecyl phosphate acrylamide by author, synthesis calls N,N-dimethylol acrylamide intermediate; native precursor prose says phosphoric acid whereas abstract says phosphorous acid. Retain source identity/synthesis ambiguity without reinterpretation. Native bath6/8/10percent mass concentration in ethanol,70C20min1:20w/v, UV2000W approx36cm3min,130C6mincure, runningwater2min then60C1hdry. Bath mass percent not measured addon/composite fraction. Native control pretreatment scope unreported. Initial LOI control17.8/6percent19.8/8percent20.5/10percent21 from own prosep6 andFig6p9; LOI instrument/standard/dimensions/repeats unreported, verticalYG815BASTMD6413-99 not LOI. Own TG p7/8/9/10 Fig7 ONLYcontrol and10percent NDOPA. Mainmethodp4 explicitly Pyris1N2 20K/min40-800C; mass/pan/flow unreported. N2 ownT5 defined5percentmassloss control281/treated239.4, R7005.5/20.9p7; no DTG, stage ranges342.9-410.7 and288.1-349.3 not Tmax. Source R700 not R800 despite method800 and plotend. AIR ownFigure7b exists, but AIR heating rate and instrument/range method linkage not explicit; these two conditions held rather than borrowing N2 method. AIR controlT5=231.5p8, generic treated initial173.0p9 does not explicitly define5percent; raw only. AIR controlR7000.29 in sentence with citationAlongiMalucelli2015, attribution uncertain; treatedR5505.4 notR700/800, both raw facts held; control1.19at542.8 not final char endpoint. Washing AATCC61-2006,49C0.15wtpercent sodiumdodecylbenzenesulfonate, author30LCs, time/volume/equivalence unreported; do not assume1accelerated=5domestic. Washed6/8/10percent LOI19/19.6/20.1p6/Fig6p9 all held without corresponding washed TG. Two other initial doses also held. SEM/EDX washed or burned specimens do not establish washed TG. EDX carbon50.16/47.92 not TG20.9. All15pages noSI cited; two initial states/two N2 conditions approved, seven facts held.",
+      "SI_status": "No SI cited"
+    },
+    {
+      "DOI": "10.1002/marc.202400536",
+      "title": "Enhancing Fire Safety and Softness: Efficacy of Ethanolamine Polyphosphate as a Fire Retardant for Textiles",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 11,
+      "pages": 9,
+      "disposition": "All9primarynative/textpages read, MacromolecularRapidCommunications2024,45,2400536. Own100percentcotton/polyester fromlocalstore, untreated thickness0.31/0.28mm; weave/areal mass unreported. p8 ethanolamine polyphosphate EAPP neutralizedpolyphosphoricacid115percentH3PO4basis79g/793gwater+ethanolamine61g, finalpH7; 15wtpercentaqueoussolution, no private annotations public. Spray/dip general, specificdoseexperiment spray-dry at120percentwetpickup; ambientdry detailedp6comparison, no durablewash claimed. Owncotton8initialcodes controlplus5/10/15/20/30/40/50wtpercentbaths; p4-5 explicitLOI17/24/32/36/43/51/59/67; measuredFRloading(M1-M0)/M0percent5.5/10.6/15.4/22/34.9/46.9/59.6, notcompositemassfraction or directbath concentration. Ownpolyestercontrol/15wtpercent LOI18/32p4. OwnLOIFTTOxygenIndexISO4589p4,150x58mmp8,repeats unreported. OnlyTGinprimaryFig2p3/mainmethodp8 testsneatEAPP liquid, PerkinElmerSTA600AIR20C/min30-900C20mg; no fabric TG. Raw source approximately10percentchar above800upto900 is interval, no fixedR900 guess; earlywater/moisture andCO2 notfabric decompositionpeak. ConeFig5 masslossversustime notTG. Therefore all10fabricLOIfacts and1neatadditiveTGfactheld, zero paired states. LocalHTML primary read SI section points to marc202400536-sup-0001-SuppMat.docx; publicofficialdownloadHTTP403 saved outside library, SI unread notabsence. Referenced SI1FTIR/SI2MAPDAPAPPcomparisonLOI/SI1cone table cannot be presumed empty or used withoutaccess. No borrowing additive TG to fabricLOI. Full primary reviewed but SI unresolved.",
+      "SI_status": "SI cited; official DOCX HTTP403, unread"
+    }
+  ],
+  "verification_limit": "Three complete primary originals31native/textpages;oneprimaryreviewer. SiO2PEIPA2initialcottonstatesN210C/min,Tonset310/246 andR6008/40.7;treatedTmax323,control375prosevs372nativeDTGconflict retainedraw. Native100/200percentbathwordingunresolved,notcorrectedto1/2percent;2/4bilayerLOIheld. NDOPA2initial115gm2cottonstatesN220K/min,explicitT5=281/239.4,R7005.5/20.9;stage rangesnotTmax,method800notR800. Other6/8percentand30LCwashedLOIheld;AIRmethodrateunreportednotborrowedN2. EAPPall10fabricLOIand1neatadditiveTGheld,zeroacceptedfabricpairs;officialSIHTTP403unreadnotabsence. Fournewstates4N2conditions24facts20held;noSIfullyreviewed;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1343,
+    "new_states": 4,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 1063,
+    "verified_conditions": 1347,
+    "verified_dois": 300,
+    "verified_sources": 302,
+    "offline_tests_passed": 945,
+    "snapshot_sha256": "2bdc9128bab868999e168850a5e1220ca7dbbde2ba05900aae758a0253e115a0",
+    "master_sha256": "37f45c87539ecbc1d302ddf0809ea6c68214de44c355a2a129535e093be488b5",
+    "validation_errors": [],
+    "held_fact_rows": 20,
+    "complete_original_native_pages": 31,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 31,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
