@@ -3180,8 +3180,18 @@
       "retryable": false,
       "attempt_count": 1,
       "last_attempt_utc": "2026-10-01T20:43:01.194261+00:00"
+    },
+    "10.1155/2023/4359057": {
+      "fingerprint": "055669f92d90dcf81f7c",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-02T00:54:09.681389+00:00",
+      "next_retry_utc": "2026-10-02T06:54:09.681389+00:00"
     }
   },
-  "last_run_utc": "2026-10-01T21:00:36.553350+00:00",
-  "last_examined_candidates": 8
+  "last_run_utc": "2026-10-02T00:54:09.681389+00:00",
+  "last_examined_candidates": 1
 }
