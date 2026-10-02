@@ -1,0 +1,93 @@
+{
+  "batch": "b125",
+  "review_completed_utc": "2026-10-02T01:56:45.076299+00:00",
+  "baseline_counts": [
+    1013,
+    1273,
+    285
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 17,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 39,
+    "complete_official_SIs_reviewed": 1,
+    "total_fact_rows": 29,
+    "held_fact_rows": 12
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b125_local_textile.csv",
+      "published_input_sha256": "1972329684cce0bbbdbb49364cc6fd34cbde4da70a5cc15f092ea9b86f8533b0",
+      "unique_sample_states": 9,
+      "verified_conditions": 17,
+      "held_fact_rows": 12,
+      "accepted_measurement_fingerprints": [
+        "ecffe8bb7cd5907a5c15d0d9c9973bf79c618e351956cf4ae890a9f5ad2e4dae",
+        "69151be55ad8bb08eb3b35e55dbd2ca1ee10ae064ce824f3aa27d76fb90a2ceb",
+        "175d16dc047d3b0bf5d701242afa8b22bc592a329da9a68d8b808bf8bc33b886",
+        "93ae05a4cd01c31e3c3cf0d8a5b6953b1235103116dc64c4c935caa57054bd7c",
+        "8e3d03f639053a4f2887ceacd958c65a13c31b698c0694aead73424004a812b9",
+        "752c1457d53538de22e9e125813f628baff716acd75b98ae2060695736915da2",
+        "433a73e444a1813d2af75ef95920e2d722c8f54a3e43cd36558b75ffd59f317b",
+        "05365e58214c971678bda04631a54242a274950e899d804b0677e71be68a9a6b",
+        "7a0706f0abb512053b5deefbfbf0267ee755b399b9ae32558ba1ab4eae3632c4",
+        "2b430eb55826b797a308a49df7c6bad84cd9740601ac648f11703356f3d220f4",
+        "8632dab170385cbd6a5860ae956306f69a628324927be50245d5f7d8d1eea3d3",
+        "9ab7fb37c94089eec0e33e9d2913f14879a38fb3c5a938cc375d04031be115c4",
+        "3262e11518cf3f78dece84cbf68deecffa5f0db5a9e36ad187aa884603153ae3",
+        "690b9bb4e5c804f53be8d3fc0a5e4be63976dbbeb59cd9b7d8d9543210935dca",
+        "62e89f65543eb917d8ec0669e5520eeedcec6989e7a894621f0eebfe595cc252",
+        "b518bb7342820cc632318badc33a189a1df9247d7cb45151a463dcd1c11b28ad",
+        "71481b547dbc5c2a996a6b9de61560885809c7102615309dfc3c324eca51dab6"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/app.32074",
+      "title": "A novel organophosphorus flame retardant: Synthesis and durable finishing of poly(ethylene terephthalate)/cotton blends",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 12,
+      "pages": 9,
+      "disposition": "All9native/textpagesreviewed,noSIcited. OwnTableIPDFp6printed3071explicitFR-T/Cafteronewashing,add-on20.6percent. OwnTableIIp7printed3072trial6afteronewashingDHDBP30wtpercent/CA12wtpercent/NaH2PO26wtpercentbath,add-on20.6,P2.64,LOI27.6+/-0.2;TableIIIwash1corroboratesSAMEstate,notsecondsample. TableIFRretention74.8/38.0/35.4percentat385/485/585C;onecurveoneTGcondition,R585canonical,otherfixedtemperaturesrawnotextraindependentTGconditions. TGSTA449CN210C/min40-590C45mL/min7.5mgaluminiumpansp3. OwnTableITon234C/maintextp6lowerby113Cversuscontrol347Cbutconclusionp9reducedto113Cconflict;bothraw,Toncanonicalblank. TableITmax274/413versusdirectFig5Blabels274.3/413.6rawprecisiondifference;canonicalpeaksleftblank,R585unconflicted. TableIuntreatedcontrolTGwashingstatusunreportedwhileLOITableIIcontrolunderAfterOneWashingheading,soNOcontrolpairassumed. SevenotherTableIIformulationsincludingcontrolhaveLOIwithoutownstate-matchedTG;threeadditionalTableIIIwash0/5/10statesLOIonly. SeparatecontrolTGrawandpureDHDBPnontextileTGrawheld. Eq1p3add-onuses(wt-wo)/wt,NOTwo;retainnative20.6basisnotconvertorlabelconventionalweightgain. NativeLOI+/-definition/repeats/dimensionsunreported;noSDclaim. Stageweightloss15/42.6notresidueatDTGpeak. Total13facts,1approvedstate1condition12held;0upgrades.",
+      "SI_status": "NoSIcitedall9pages"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2017.02.084",
+      "title": "A green approach to constructing multilayered nanocoating for flame retardant treatment of polyamide 66 fabric from chitosan and sodium alginate",
+      "accepted_states": 8,
+      "accepted_conditions": 16,
+      "held_rows": 0,
+      "pages": 30,
+      "disposition": "All30native/textprimarypagesandcompleteofficialAppendixAwholeXML/7convertednative/textpagesreviewed. LocalpublisheracceptedmanuscriptcoverDOI/PIIS014486171730214XnotfinaltypesetVoR;versionandPDF/printedpagecoordinatespreserved. OfficialElsevierCDNmmc1doc2001,494,528bytesmatchescoretitle/all8authors/eightsamplecodes/ownCS-PA-CS-OSAexperiment;publisherparent403doesnotpreventpublicsupplement200. OwnTable1primaryPDFp29printed28LOI19.5/21.3/21.7/21.3forSScontrol5/10/15QLand21.5/20.7/21.9/21.8forHTcontrol5/10/15QL. AppendixATableS1convertedPDFp6reports16gasconditionsforEXACTsameeightlabels. SSmeansscoured,HTmeans3MHCltreatedexplicitSI S2captionp3;noacidlineagemixing. OwnQ5000IRmainTG20C/minairandN2primaryp9printed8;mainTGmass/pan/flow/start/endunreported,TGIRN255mLminseparate. TableS1T-5percent=T5notgenericinitialdecomposition/Tonset;gas-specificTmax1,aironlyTmax2andTmax3,dashesblanknot0;R800explicitfixedtemperatureNOTassumedmethodendpoint. Thermalproseaverage5air/11N2forSSandHT10QLisroundedgroupaverageNOTindividualchar;canonicalexactTableS1SS4.2/10.5andHT5.6/11.4. OwnTable2p30printed29add-on7.9/14.9/14.1SSand9.3/15.8/16.5HTretainedcontroldashblanknot0. LOIHC2ASTMD2863specimens150x58mmthickness/repeatsunreported;cone100x10035kWseparate. SDSsaturatedultrasound10minstabilitycomparisonOSAversusSAUV-visnotlaunderedTGLOI;SIconecharphotosnotTGresidue;FTIRgasintensity/timepeaksnotDTGtemperatures. NoownwashedTGLOIdatainprimaryorSI,nofabricatedwashedrecords. BathconcentrationsandHCltime/tempmissingexplicitlyannotatednotborrowedfromotherpapers;quadralayermaterial/pretreatment/nativecodesandtestconditionsclear. Eightindependentstates16conditions0heldfromthissource;all32any-gasnumericprofileswith/withoutLOIshowNOexistingmatches.",
+      "SI_status": "CompleteofficialAppendixA7convertedpageswholeXML;identity/all8codesverified"
+    }
+  ],
+  "verification_limit": "Two complete local publisher originals39native/textpages plus complete officialAppendixA7convertedpages/wholeXML;oneprimaryreviewer. DHDBPonlyexplicittrial6afteronewashR585;Ton234table/113conclusionandpeakprecisiondifferencesrawcanonicalblank;unmatchedcontrolwashing/otherformulas/washes/purecompound12holds. CSOSA8SSHTstates16gas-specificTableS1conditionsT5notTonset,aironlythirdpeak/R800,roundedgroupaverage5/11notindividualresidue;acceptedmanuscriptversionretained,unreportedbath/HCltime/temp/TGrange/flowannotated,TGIR55separate. Noestimates/fulltexts/SI/images/privatepathsuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1273,
+    "new_states": 9,
+    "new_conditions": 17,
+    "evidence_upgrades": 0,
+    "verified_states": 1022,
+    "verified_conditions": 1290,
+    "verified_dois": 287,
+    "verified_sources": 289,
+    "offline_tests_passed": 817,
+    "snapshot_sha256": "a24c58e0bcec796719a86465739c7f771c107b76764a784ada50dfc81f45ec31",
+    "master_sha256": "d23413a059c961fd3ba7cfc9bb2d150cf39ec4e38f00d4c18118cfb9d41d3feb",
+    "validation_errors": [],
+    "held_fact_rows": 12,
+    "complete_original_native_pages": 39,
+    "complete_official_SIs": 1,
+    "unchanged_private_evidence_files": 46,
+    "new_source_inventory_states": 9,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
