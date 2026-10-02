@@ -1,0 +1,84 @@
+{
+  "batch": "b126",
+  "review_completed_utc": "2026-10-02T02:35:39.757533+00:00",
+  "baseline_counts": [
+    1022,
+    1290,
+    287
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 1,
+    "complete_native_primary_PDF_pages": 40,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 34,
+    "held_fact_rows": 26
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b126_local_textile.csv",
+      "published_input_sha256": "8d7159ee4011bda1521818a315551714fde87c44ad78185835c61697d42ecda5",
+      "unique_sample_states": 4,
+      "verified_conditions": 8,
+      "held_fact_rows": 26,
+      "accepted_measurement_fingerprints": [
+        "cce11b14f3f8545f5b2fcfdb0f104774085abf25b262cd764c6ba145d8ab56b6",
+        "c25952a967bcba9976ba67613315cc120bf9508541caf2d6ed22107a2b8aede3",
+        "e073b9f9c5d3304f05901b51eef6239b0205328849bb06de2ea2f72005bd3bb8",
+        "d8da0bfd8c2ab577c1ca00f85066045a3091aef240771e1bba5c4ddbee5a977a",
+        "32390ff95f5d7d475ff1dea82648b7e16e03c2bdd2cfee6fd90df91102a74acb",
+        "9f5e6baec91a13481f8eb974974d5e6a47783b32a4b86c5116e4e897b258ff43",
+        "3aca81c1965a1dcaafe8165f88348527698f36b88e107f9ffccc78aa33cf5400",
+        "e9c950fe1c5cc7128ecd7dd3da9e66f81fd37c8b3262873862a67bf837d17b99"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2004.11.013",
+      "title": "Durable flame retardant finishing of the nylon/cotton blend fabric using a hydroxyl-functional organophosphorus oligomer",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 19,
+      "pages": 8,
+      "disposition": "All8native/textpagesreviewed,noSIcited. OwnTGis100percentPA66woven59gm2Style306Aor100percentPA6knit73gm2Style304;LOIis50:50NYCOprinted216gm2BFUinmaterials/BDUintro. NOcross-materialpair. MettlerToledoTGA851AIR10C/min50-800C6-8mgcontinuousair,flowrate/panunreported;DSCaluminiumpans/range50-650separate. OwnPA66p3-4DTG412/379/398andR50010/21/17forcontrol/40percentFR2.6DMDHEU4.8TMMbeforewash/3homewashes;genericstartedloseweight360notT5/T10. OwnPA6Table3p4DTG424/343/395andR50010/23/15sameformulations/states;DSC425/342/397NOTDTG. Allsixpure-nylonTGrecordsheldwithoutownLOI. OwnNYCOTable8p7B1FR40XMM3.4TMM2.6andB2FR32XMM3.4TMM5.1bothcatalystRD0.2wetting0.2;B1LC0/1/10/20/40LOI29.3/28.4/27.2/26.1/24.5;LC50dashnot0. B2LC0/1/10/20/40/50LOI29.5/28.6/28.0/28.1/26.9/26.0. ElevenblendLOIfactsheldnoownblendTG. A1/A2Table4p5haveonlyFig5p6unlabelledLOIcurves,twocurve-onlyformulaeheldwithoutestimates. Allbathwtpercentbasedactivechemicalsolidsnotcommercialstock44/80/85percent. Double-dipdouble-nip90C3mindry165C2mincure;homeAATCC124-1996detergent1993approx46Cwash/drycycles,NOTaccelerated5x. Table4A1pickup78A280andTable6B178B277overridegeneral75;purePA6660/PA6150approx. PA6Table2initialP6.51versusprosep54.51andB1LC10Table7P1.15versusprose1.55conflictsrawonly. Table9charlengthcmnotTGcharpercent.19facts0approved.",
+      "SI_status": "NoSIcitedallprimarypages"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2013.03.066",
+      "title": "Intrinsic intumescent-like flame retardant properties of DNA-treated cotton fabrics",
+      "accepted_states": 4,
+      "accepted_conditions": 8,
+      "held_rows": 7,
+      "pages": 32,
+      "disposition": "All32native/textaccepted-manuscriptpagesreviewed,noSIcited;PDFpage=printedmanuscriptpage+1;coverPDFp1. OwnTable1PDFp20printed19reportsfourcottonstatesinN2andair;LOIownprosePDFp12printed11COT18andDNA5/10/19add-on23/25/28. Materials200gm2cottonFratelliBallesio;herring-spermDNApowderSigmaAldrichstored4CbeforeapplicationNOTfabricaging. Allbath2.5wtpercentDNApH5.5stir300rpm30C30min;impregnation1min30C30percentRH,rotarydrumremoveexcess,climaticdryconstantmass/30Covernight;5/10/19aremeasurednative(Wf-Wi)/Wiadd-onsNOTbathdoseorcompositefraction;applicationrepeatcountunreported. OwnQ500N2air10C/min50-800Cabout10mgopenaluminapans60mL/min. NativeTonset10percentdefined10percentweightlossmapsT10NOTgenericTonset. TmaxfromderivativeTG,at-peakresiduesdistinctfromR600;R600not800methodendpoint. AircontrolR6000explicitvalid0;dashesblank. SeparateTable1R350footfromisothermaltestsAIRramp50-35010C/minthen350C1h:13/30/35/42forCOT/DNA5/10/19;fouradditionalprotocolfactrecordsretainedoutsideverifiedconditionsbecauseexistingconditionidentityonlygas/ratecannotdistinguishramp-onlyandholdprotocols;canonicalTGblank,rawR350/60minnotdynamicR600. PureDNA2dynamicgasplus1isothermalreferenceheldnontextile/noLOI. LOIASTMD2863FIREinstrument;dimensions/repeatsunreported,horizontal25x100mm3repandcone50x50x0.5mm4repseparate. Generalflammability/combustionconditioning23+/-1C48h50percentRH. HorizontalTable2residues12.5/67/98andconeTable3residuesNOTTG;Table4thermocoupleTmaxNOTDTG. NativeFig1captionp19threepanels5/10/19versusprosep9fourincludingcontrol/nativefigurep25fourpanelsconflictretainednotusedforTG/LOImapping;Table1/ownLOIcodesunambiguous. Fig3annotationt35min/ramp50to35010notusedtocalculateholdtime;methodandexplicitfigure350C60minretained. ISO6330coatingcomesoffqualitativelimitwithoutwashedTGLOIorreportedwashcount,nofabricatedwashstates. PriorDNApaper10.1039/C3TA00107Ecitedbutnumericprofilesauditedacrossallsourceswith/withoutLOI. Fourstates8dynamicconditionsplus7heldfacts.",
+      "SI_status": "NoSIcitedallprimarypages"
+    }
+  ],
+  "verification_limit": "Two complete local publisher originals40native/textpages;noSIcited;oneprimaryreviewer. HFPOall19factsheldbecausepurePA6/PA66TGandNYCOblendLOIdifferentmaterials,andA1/A2curve-onlyLOInotestimated. DNAfourinitialcotton200gm2states8dynamicgasrecords,Tonset10=T10,R600/DTGat-peakresiduesseparate;fourdistinct350C1hisothermalprotocolfactsretainedoutsidegas/rate-onlyconditionidentityplus3pureDNAreferencesheld. Noestimates/fulltexts/images/privatepathsuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1290,
+    "new_states": 4,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1026,
+    "verified_conditions": 1298,
+    "verified_dois": 288,
+    "verified_sources": 290,
+    "offline_tests_passed": 835,
+    "snapshot_sha256": "96dd6fa728abf7d950904b4481ab098bcd97ebd2445be235aad38fe8e4d1ce48",
+    "master_sha256": "15e1d94b7db443e62e67ea36ae6ffd89a51f980cfdecd2f2022e19173d695be6",
+    "validation_errors": [],
+    "held_fact_rows": 26,
+    "complete_original_native_pages": 40,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 40,
+    "new_source_inventory_states": 4,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
