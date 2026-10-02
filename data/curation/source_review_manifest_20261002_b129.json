@@ -1,0 +1,91 @@
+{
+  "batch": "b129",
+  "review_completed_utc": "2026-10-02T04:29:37.528257+00:00",
+  "baseline_counts": [
+    1038,
+    1310,
+    292
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 3,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 3,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 31,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 43,
+    "held_fact_rows": 38
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b129_local_textile.csv",
+      "published_input_sha256": "ccca3ab02136ba9f263652c62f5d4b38869ab3d3acbd374af62e1643a20972e4",
+      "unique_sample_states": 3,
+      "verified_conditions": 5,
+      "held_fact_rows": 38,
+      "accepted_measurement_fingerprints": [
+        "619b27dac78d85e0d91a483f0218cd15bfca419640dfae4643e586aa84678bf1",
+        "0b465f28dfb6051a42a7b4ddca7f3b20570652395fb136a97ae346bd3b7de90c",
+        "8b4c1739aa052ed23e549a87a6236affc33440e5bf3d59ecb6b9e8bd80d14128",
+        "8957ef85f4badb8b3a9e86e4bea465e35e6c15a742ab8174484cca5072d9bab9",
+        "0909adeb2b64323974344b2b9bb023ad5d02acccb9477a07b95dff690e4d1ef3"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/pol.20230165",
+      "title": "Synthesis of trimethylolphosphine carbamate and its flame retardant application in cotton",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 6,
+      "pages": 10,
+      "disposition": "All10native/textpages read. Cotton290gm2. OwnTable1p5LOI18.19/21.68/22.25/25.10/27.34at0/10/15/20/25wtpercentbath. OwnTable3p7N2control/treatedT10explicit315.17/277.33,Tmax367.43/324.17,Tend385.83/337.16,R80014.22/40.44. MainTGinstrumentDSC2,butheatingrate/mass/flow/panunreported:allTGheld. OwnTGtreateddoseunmapped,Fig5genericlabelNOTFig6/Table4explicit25percentcone. ControlTmaxprose367.43vs324.17conflictsTable. Conclusionp10LOI22.34conflictsTable1/prosep627.34;nochosen25LOI. Tendrapidstageendnotexperimentendpoint. FiveLOIdosefacts plusgenericunmappedtreatedTGfact planned6held0valid. PretreatmentultrasonicDI50C20min,base60C40minbasechemistry/doseunreported,neutralDIrinse60Cconstantmass;finishstock50percentTHPON/formaldehyde,pH8-9NaOH6M75C2hthenpH3-4H3PO4andbath10/15/20/25wtpercent;diproomtemp5min90C3mindry160C4mincure. Native75-80percentWGbeforecuringnotassumeddryloading,individualEq1dryWGunreported. LOIFT T0077standard/dimensions/repsunreported. No washedquantTGLOI;Table2charlength0notTGzero. NoSIcited. Originalandprivateimagesoutsidepublicrepo.",
+      "SI_status": "NoSIcitedincompleteprimary"
+    },
+    {
+      "DOI": "10.1039/c7ta01106g",
+      "title": "Facile synthesis of an eco-friendly nitrogen\u2013phosphorus ammonium salt to enhance the durability and flame retardancy of cotton",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 22,
+      "pages": 12,
+      "disposition": "Full12native/textpages read. JMaterChemA2017,5:9970-9981. Purecottonscouredbleached133.27gm2,weaveunreported. AEGDP60/90/120gLDIwater,dicyandiamidecatalystamountunreported,70C1h1:20gpervolbath,padabout100percentpickup190C5mincure,runningwaterrinse60Cdrytimeunreported nativeprocedure repeatedonce ambiguity whichsteps repeated preserved. OwnWG(Wf-Wi)/Wi,Table3p9control0/doses16.1/20.1/23.7,120after50nativeLC14.8notinitial. MainTGp3Pyris1bothN2/AIR20Kmin40-800C,mass/pan/flowunreported. TGIRseparateSTA409PC8mgN230mLmin20Kmin notmainTGmass/flow. LOIASTMD2863-2000M606B,dimensions/repsunreported. WashAATCC61-2006soapingfastness native10/20/30/40/50LCnotunsupported5xconversion. OwnTable4p9doses60 LOI35.1/32.6/29.0/25.7/23.7/20.9;90 37.8/32.8/30.5/28.1/27.2/25.9;120 41.0/36.2/35.0/32.4/30.0/28.4at0/10/20/30/40/50LC. Ownthermalp5explicit120gLinitialmatch41.0;AIRR60027.94unambiguousexplicitprose. AIRcontrolnoresidue500Czeroexplicit,butLOI18.4p8citedref38andnotownTable4,holdpendingowncontrolprovenance. N2p5control14.92afterdecompunlocated;treated42.62percentmoreresidueambiguousnotabsoluteR,doNOTcalculate57.54;N2p6erroneouslyassignstreated14.92at600conflictscontrolp5,held. Fig3N2panelend600versusmethod800retainedsourceconflict notestimatedR800. Allrapiddecompranges160.6-244.7pureAEGDP/313.8-394.8control/252.9-296.8treatedN2and161-272/602-739pureAEGDP/299.5-364.9control/237.9-289.1treatedAIRrawonlynotdefinedT5/T10/Tonset/Tmax. PureFR45.15N2/11.98AIRresiduetempunlocatednoownLOIreferenceheld. 40-100Cwaterlossseparate. ConeTable1char24.9/0.09/0.08NOTTG,R500/R600nothorizon800.18dose/washLOIfacts plusAIRcontrol2N2initial2pureFR=23facts1approved22held planned. Unknownprep/reps preserved. Originals/privateevidenceoutsidepublicrepo.",
+      "SI_status": "NoSIcitedincompleteprimary"
+    },
+    {
+      "DOI": "10.1002/app.43555",
+      "title": "Synthesis of a melamine\u2010cyclotriphosphazene derivative and its application as flame retardant on cotton gauze",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 10,
+      "pages": 9,
+      "disposition": "All9native/textpages read. Own medicalabsorbentcottongauzefromdrugstore,arealmass/weaveunreported;native21s/110texwarp100texweftper10cm2retainoddunitwordingnotconvert. InitialDIwithdetergentpretreatmenttemp/time/doseunreported,distilledrinseairdryroomtemp. MCPetherizedHMMM/HCCP exactmethodp2-3: HMMM12g/K2CO38.28g.06molTBAB1mg50mLTHF,HCCP3.47g.01mol50mLTHFadded2h,N2RT12hthenreflux24h,methanol6mLthenreflux24h;vacuum40C72hproductdry,notfabrics. Gauze0/1/2/3/4/5bath0/5/10/15/20/25wtpercentMCPaqueous,dipRT1h,glassplate60C1hdry80C15mincure,DIwater10h80C15mindry;washweighing2or3timesnotassignedfixedcount,initialprocessingrinse notdurabilitywashing. LOIGB/T5454-1997JF3 140x52mm,repsunreported. MainTGSTA409PCN2andAIR10CminRT-800Cmass/pan/flowunreported. OwnTableIp6LOI16.9/23.5/24.6/25.4/26.5/25.8. Thermalprosep5explicitgauze0/4TonsetN2324.7/approx261.7AIR297.4/approx222.3,definitionnot5/10massloss so genericTonsetnotT5/T10. OwnFig3p5printedexplicitendpoint800annotationsN2gauze442.3/gauze08.0,MCP15.0/HMM/HCCP0.0;AIRgauze431.4/MCP8.9andreference0.0annotationgroupnotassignAIRgauze0exact0fromcurve. Explicitannotationsnotcurveestimates. Nativeproserawmaterials almostnoresidueafter800ambiguousqualitativenotnumeric0forN2gauze08.0. Mainthermalp5twoownfabricstates4gasconditions;otherdoses1/2/3/5noownnumericthermalresults,held4LOIfacts. MCP/HMM/HCCPpureFR2gaseachreference6held,noownLOI. TableIp6residualcarbon0/25.6/35.4/42.3/47.6/46.6 repeatedflameignitioncharweighingNOTTG;MCPburning54.9alsoNOTTG. Initialgauze3burnchar42.3coincidesgauze4N2TG42.3 butdifferentformula/experimentnotcrosspaired. PureFRorairblowburningnotTG. NoquantwashedLOI/TGadditionalstates. TableIafterflame0controlversusrapidburndescriptionirrelevanttoTGnumeric retainednotrewritten. NominalformulaC41H78Cl2N21O18P3/sourcePClweakband,notassumedhalogenfreefromabstractclaim. Twonativefabricstates/fourgasconditionsapproved;14facts10heldplanned. NoSIcited;original/fulltext/imagesoutsidepublicrepo.",
+      "SI_status": "NoSIcitedincompleteprimary"
+    }
+  ],
+  "verification_limit": "Three complete primary originals31native/textpages;oneprimaryreviewer;noSIcited. AEGDP120gLcottoninitialAIRR60027.94LOI41onecondition;MCPcottongauze0/20wtpercenttwostatesfourN2/AIRconditionsuseexplicitnativegenericTonsetandprintedR800annotations,notcurveestimates. THPONsixfactsallheldmissingrate/unmappedTGdose/nativeLOIandTmaxconflicts. AEGDP22factshelddose/washunpaired,N2residueconflicts/unfixedtemperatures,citedcontrolLOIprovenanceandpureFR;MCP10factsheldfourunpairedLOIdoses/sixpureFR.38heldfactsnotcounted;unknownconditionspreserved,noT5/T10/onset/Tmaxorcombustioncharinterchange;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1310,
+    "new_states": 3,
+    "new_conditions": 5,
+    "evidence_upgrades": 0,
+    "verified_states": 1041,
+    "verified_conditions": 1315,
+    "verified_dois": 294,
+    "verified_sources": 296,
+    "offline_tests_passed": 887,
+    "snapshot_sha256": "59d183d0a5aedc71e196683ef842ed5196ebd2144016575c228d3bcfe7bdb9c0",
+    "master_sha256": "deda37e67d1c0e64528406b1bf78f5938bbb21d86c09fb7f8e5dd49b8f777f07",
+    "validation_errors": [],
+    "held_fact_rows": 38,
+    "complete_original_native_pages": 31,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 31,
+    "new_source_inventory_states": 3,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
