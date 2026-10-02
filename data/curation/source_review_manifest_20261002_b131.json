@@ -1,0 +1,99 @@
+{
+  "batch": "b131",
+  "review_completed_utc": "2026-10-02T05:38:13.494904+00:00",
+  "baseline_counts": [
+    1047,
+    1321,
+    296
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 22,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 2,
+    "total_fact_rows": 62,
+    "held_fact_rows": 40
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b131_local_textile.csv",
+      "published_input_sha256": "5d025c7171107b5144c6d1d2022f1de7c8861eece10edd8193dfaf1e91dc7c45",
+      "unique_sample_states": 12,
+      "verified_conditions": 22,
+      "held_fact_rows": 40,
+      "accepted_measurement_fingerprints": [
+        "48ed50921e0b132ceb26941b67eeb535dc135de614151cdc1fab12657bfd6595",
+        "05926b91eb41988ebd0e3e87697e2aca7f1616b58b53a85799baf7526010a149",
+        "c3c9cdae7f375f64d733ba157f3ae6b27fb6b243f19a678ce749081f09ad1768",
+        "4edc10afa9d7de4c33ed5aa92e469999a83153625ff1392fbfcd454e66c5bb09",
+        "878779288d6f0918190e56821b110fe34306d3191625843baf50f3596f38f025",
+        "ffa1fc1adaf6a3a2ad931a9f0b9e31a72530d8ceaa309775f7ee5510ef4e35d1",
+        "7edf1a4eb5996298501f878aa3d9d16ab1277731dd09490272ebb4efb8d06afd",
+        "c286a661906457fe2f6760ce51ea7ac7413dd45173772987406646d9454a2367",
+        "635149dda1d686d52ff62c440c136dc3757c25fac72fffd22e262d4509fbad3e",
+        "3d28e7620db7202933eaab109f44bb1761fc8620e62cfa10029d0e0f2ba6b678",
+        "150c4f86ca8665b422c0f402962f8577bfdbc986b20c376ed4e51c7374f34a11",
+        "81000051a83d336408cabf74c721132ed63b3577854b1203f32ecd6be3c0d25e",
+        "f718119e36c69c2c4f9d766a4265798509fb47ad398db62e7773888206815758",
+        "d297e1799c144e20bd969113e13453151e9eaff9821fd6dcee3b1ce52d7d976c",
+        "e67b8e46c34142bf4e5f3caadb97f8eb6a551c29db01b79003f232d8e8478bfb",
+        "0f16839e4ba335e9357cfbc663058d4364284a952840a8e2d2c7f0af27fab835",
+        "d14500bb3aff3d12be73b82c10dc35aa2924ede5627409c3cfb57d9f8078d8cd",
+        "0d6716a4a692b46e0abae58a9d550e0ba672b568e36ef076061e594882b4f75a",
+        "dccd25a2e9f2c8965a08efbeeb51ac9e867e14030dff66310809f08d4dea10e6",
+        "614c9f3762f5c8dee8a05548c83f0ffcb1338fc8014d4425f8bc231f1bfd998c",
+        "b13fb23d2b6b8865c87062bed001ae3e1b3c140b1ed5f4c09aa9b7531de9fbd6",
+        "6aba650b9619f6161256c804c01c36d49bdfbd7de61c76a00c8f0baea5270edb"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-015-0388-z",
+      "title": "Enhanced flame retardancy of cotton fabrics with a novel intumescent flame-retardant finishing system",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 25,
+      "pages": 9,
+      "disposition": "All9native/textpagesread;FibersandPolymers2015,16(2):388-396,paperprintedpage387+PDFpage. Purecotton261gm2JiulongClothIndustrySuzhou,weaveunreported. ISPAimidazolespirocyclicphosphoramidateC10H14O6N4P2source synthesis/elementalanalysis,notunreactedSPDPC. FactorTable1PDFp3ISPA10/15/20/25/30wtpercent,phosphoricacid0/.5/1/1.5/2wtpercent,cyanuricacid0/.5/1/1.5/2wtpercent,cure140/150/160/170/180C;ownTable2p4twentyfiveorthogonaltrialcodesallLOI,noneofthemownTG. OptimalA5B4C5D4NOToneof25trials=30percentISPA1.5percentphosphoricacid2percentcyanuricacid170C3mincure,LOI36.6ownTable3p5. ControlLOI18.7Table2p4/Table3p5. Boil10gfabric500mLwater30min,RTdrycompletely,stir300mLfinishingaqueous30minRT,padapprox100percentwetpickup80C5mindry,cure3min;nativewtpercentbasisunreportednotdryaddon/compositemass. Initialcontrolwhetherboilpretreatedscopeunresolved,retainownpurecontrol. NoquantdurabilitywashedLOI/TG. MainTGp3Pyris1PerkinElmerN250mL/min10C/min50-800C3-5mgpanunreported;introoxidativetermnotAIRrecord. Explicitp5selectiononlycontrolandoptimalforTG+cone,doNOTpairtrial21/24highLOIwithoptimalTG. LOIp3JF3ASTMD2863-09dims130x60mm,repsunreported;5warp/5weftspecimensbelongsverticalASTMD6413-08notLOI. OwnFig2p5printed392annotationscontrolR6000.1treatedR60030,notcurveestimates;prosecontrolscarcelycharNOTzero. NativeDTGexplicitcontrolTmax1=350/Tmax2=525,optimalTmax1=300,agreeprosep6printed393. Prosefirstdegradationbegincontrol300/optimal168genericnotT5/T10;nativeTGcontrol277C98percent/optimal168C98percentremainingmassare2percentlossannotationsNOTT5/T10,keptrawallnochosenonsetthreshold. Nativeotherannotationscontrol379C21percent/optimal316C53percentretainedraw;notresidueendpoint/temp orT50interpolation. Generic300-380rangepurecontrolnotthreshold. SourceDTGprinted/proseunitspercent/minvsnativeVmaxnotborrowedtoheat rate. TGplotdisplay700-750vs800methodnotR800estimate. Cone154/98kWphrased57percenthigherand4/2.5MJ60percenthighernotTG/LOI;donotfixarithmetichere. All25orthogonalLOIfactsheldplus2ownN2states=27facts25held. NoSIcited,original/image/fulltextpathsremainprivate.",
+      "SI_status": "NoSIcitedincompleteprimary"
+    },
+    {
+      "DOI": "10.1007/s10570-021-03767-0",
+      "title": "Eco-friendly, efficient and durable fireproof cotton fabric prepared by a feasible phytic acid grafting route",
+      "accepted_states": 10,
+      "accepted_conditions": 20,
+      "held_rows": 15,
+      "pages": 13,
+      "disposition": "All13primarynative/textpagesread;Cellulose2021,28:3887-3899,printed3886+PDFpage. OfficialSI2DOCX486552bytesSHA572c568414920da6d8ef9871c5c1990badcce9db00f24c1a3fe72225dc1e2b22 downloadedfromofficiallandingoutside library;allDOCXparagraphs/mergedtablesand10renderedpagesread. OfficialSI1playerassettitlematches;49.876svideocompletetimeline50frames1Hzreviewed,qualitativeprep/drying/before-afterhandflameonly,numericTG/LOIneverfromvideo. MainpaperVideoS1conecontextvsactualhandflamedemo preservednotusedforconditions. Cotton145gm2Hangzhoulocalmarketweaveunreported. NaOH1molL90C30minpretreatment;pretreatedcottonPA/ureabathnative1:50stirRT30min130Cgraft30/60/90min,postwash/dryconditionsunreported;noinventedpretreatmentrinsing. COTcontrolnativeownrawcotton,alkalipretreatmentscopeunresolved. Table1p3nativeCOT:PA:ureamassratios1:1:2/1:2:4/1:3:6;PA70wtpercentstockwhethermassratioactiveacidbasisunreported,notdryequivalents/bathconcentrations. GR(M1-M0)/M0untreateddenom Table1codes1-30/60/90=5.5/7.7/8.1,2-30/60/90=8.6/10.1/10.5,3-30/60/90=9.8/11/12.3;notcompositionmassfractions. LOImainmethodp3ZR01QingdaoShanfangGBT5454-1997dims/repsunreported;5replicates25Cmechanical/fiveverticalnotLOI. OwncontrolLOI17.20prosep6printed3892,9treatedFig4ap7printed3893EXPLICITPRINTEDNUMBERSnotcurveestimates:29.47/29.77/32.6,37.03/39.03/40.77,38.73/39.97/42.53. SI4initial90minrounded32.6/40.8/42.5 consistentroundingnotextra states/conflict,keepmostprecisefigurevalues. MainTGp2TG209F1NetzschN2/AIR10C/min;mass/pan/flow/start/endunreported. SeparateTGIRp3N230mLmin20C/min30-800NOTmaingas/rate/range. SI2TableS1renderp3all10initialgroupsexplicitT10notT5/Tonset,TmaxN2single/AIRtwopeaks,R800. OwnnativeFig3p6bothgases10groups matchescodes,notTGcurveestimation. MainprosecontrolN2T10=339.75Tmax373.57R8006.32/AIRT10333.72Tmax354.52/484.91R8000.82 agreesSI;3-90N2T10227.32Tmax262.12R80039.33/AIRR8004.55agrees. VmaxSI negativepercent/C vsprimarypositivemagnitudesraw,notheatingrate/percentmin. NativewashAATCC61-2006modified2A49C45min150mL.15percentw/vdetergent6x12cm;onewash=5domesticLCsexplicit. SI4own90min10/20/30/40/50LCLOI1:28.4/24.5/23.3/23/22.4;2:32.6/30/28.3/27.3/25;3:33.6/30.5/29.5/29.3/28.3 all15held becauseNOwashedTG. SI5titleCOTP3-90butfirstheaderCOTP3-30 conflictrawverticalcharlength,notwashedTG. SI2TablesS2/S4citedotherpapersnotownLOITGduplicates. Mainconechar/EDXcarbon64.39/notTG39.33. Teninitialstates20gasconditions+15heldownwashedLOIfacts=35facts. Sourceconditionsknownexplicitgas/rate,unknownrestpreserved. OriginalPDF/SI/docx/video/images/text/cacheoutsidepublicrepo andreadonlymetadata.",
+      "SI_status": "SI2DOCXalltext/tables/10renderedpagesreviewed;SI1whole49.876stimeline1Hz50framesreviewed,noTG/LOIusedfromvideo"
+    }
+  ],
+  "verification_limit": "Two complete primary originals22native/textpages;oneprimaryreviewer. ISPA261gm2cottononlycontrol/optimalA5B4C5D4 ownLOI18.7/36.6,N210C/min,explicitprintedDTG350/525vs300 andR6000.1/30;25orthogonalLOIformulationsheldwithoutownTG. COTP145gm2cotton10initialcodes,ownprintedLOI17.20control/9Fig4anumericlabels joinofficialSI2DOCXTableS1bothgasesT10/Tmax/R800,20conditionsat10C/minnotseparateTGIR20. SI2allparagraphs/tables/10renderedpagesread;SI1whole49.876svideotimelineat1Hz50framesreviewedqualitativeonly,noTG/LOIfromvideo. All12newinitialstates22TGconditions;40heldfacts=25orthogonal+15washedLOIswithoutmatchingTG. Native98percentmassnotT5/T10;SI4roundedinitialLOIsnotnewstates,thirdpartycomparisonnotownresults;washoneacceleratedcycle=5domesticLCsexplicit;SI5caption/headerconflictretainednotTGchar. UnknownmainTGflow/mass/range andrecipebasisretained;nooriginal/fulltext/SI/video/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1321,
+    "new_states": 12,
+    "new_conditions": 22,
+    "evidence_upgrades": 0,
+    "verified_states": 1059,
+    "verified_conditions": 1343,
+    "verified_dois": 298,
+    "verified_sources": 300,
+    "offline_tests_passed": 925,
+    "snapshot_sha256": "df32ebddad1df6c488a921478624a604d8e5ef9ca0717d0c7ea4e87f14b40edb",
+    "master_sha256": "3a098679a6eee8458e31b88294f0bc3229c0cf707db19b1e552c56ab6b896c2a",
+    "validation_errors": [],
+    "held_fact_rows": 40,
+    "complete_original_native_pages": 22,
+    "complete_official_SIs": 2,
+    "unchanged_private_evidence_files": 34,
+    "SI_review_scope": "SI2allnumerictext/tables/10renderedpages;SI1wholetimeline49.876s1Hz50framesqualitativeonly",
+    "new_source_inventory_states": 12,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
