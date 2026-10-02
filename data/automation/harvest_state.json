@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runs": 69,
+  "runs": 70,
   "cycle": 2,
-  "next_query_index": 7,
+  "next_query_index": 26,
   "queries": {
     "\"flame retardant\" fabric LOI thermogravimetric": {
       "cursor": "IlsxNzcuMjA1NCwgMTYzNzg4NDgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMjE3MDYwOTY0J10i",
@@ -47,10 +47,10 @@
       "last_result_count": 25
     },
     "PA6 fabric limiting oxygen index thermogravimetric": {
-      "cursor": "IlsxLjQ3MjkyMiwgMTY3MjUzMTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTMwMjc1MjM3J10i",
-      "pages_scanned": 4,
-      "complete": false,
-      "last_result_count": 30
+      "cursor": "",
+      "pages_scanned": 5,
+      "complete": true,
+      "last_result_count": 16
     },
     "PA66 fabric limiting oxygen index TGA": {
       "cursor": "",
@@ -77,16 +77,16 @@
       "last_result_count": 20
     },
     "wool fabric flame retardant LOI thermogravimetric": {
-      "cursor": "Ils2NC43MTc3MSwgMTY2ODY0MzIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzA5NDcyMzQ4J10i",
-      "pages_scanned": 3,
+      "cursor": "Ils0MC40MTA0ODQsIDE3MDQwNjcyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMzg0NTY1NCddIg==",
+      "pages_scanned": 4,
       "complete": false,
       "last_result_count": 30
     },
     "silk fabric flame retardant LOI thermogravimetric": {
-      "cursor": "IlsyLjQ3ODY0NTYsIDE1Nzc4MzY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEzOTMyNDg3MSddIg==",
-      "pages_scanned": 4,
-      "complete": false,
-      "last_result_count": 30
+      "cursor": "",
+      "pages_scanned": 5,
+      "complete": true,
+      "last_result_count": 8
     },
     "polyacrylonitrile PAN fabric flame retardant LOI TGA": {
       "cursor": "",
@@ -95,10 +95,10 @@
       "last_result_count": 17
     },
     "polypropylene nonwoven flame retardant LOI TGA": {
-      "cursor": "IlsyLjE3ODQzMjUsIDEzMTM3MTIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI0OTgxNTQ1NyddIg==",
-      "pages_scanned": 4,
-      "complete": false,
-      "last_result_count": 30
+      "cursor": "",
+      "pages_scanned": 5,
+      "complete": true,
+      "last_result_count": 8
     },
     "aramid protective textile LOI thermogravimetric": {
       "cursor": "",
@@ -143,8 +143,8 @@
       "last_result_count": 19
     },
     "protective clothing textile LOI TGA flame retardant": {
-      "cursor": "IlsxNS4xNzkzODIsIDE3NzE4OTEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEzMTIxMTg2OCddIg==",
-      "pages_scanned": 4,
+      "cursor": "Ils1LjA4MDMxNCwgMTc2OTk5MDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTI3MTcyNjEzJ10i",
+      "pages_scanned": 5,
       "complete": false,
       "last_result_count": 30
     },
@@ -155,8 +155,8 @@
       "last_result_count": 8
     },
     "automotive textile flame retardant LOI TGA": {
-      "cursor": "Ils1MC43MTkxMjQsIDE3NTc1NDg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNDEzOTA5MCddIg==",
-      "pages_scanned": 4,
+      "cursor": "IlszMS40NzYxODEsIDE2OTQ5OTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4NjgzMjgwOCddIg==",
+      "pages_scanned": 5,
       "complete": false,
       "last_result_count": 30
     },
