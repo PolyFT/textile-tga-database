@@ -1,0 +1,138 @@
+{
+  "batch": "b146",
+  "review_completed_utc": "2026-10-03T17:42:11.834270+00:00",
+  "baseline_counts": [
+    1121,
+    1425,
+    316
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 20,
+    "accepted_condition_rows": 31,
+    "new_source_inventory_states": 20,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "accepted_DOI_sources_added": 5,
+    "complete_text_primary_PDF_pages": 79,
+    "complete_official_SIs_text_tables_reviewed": 3,
+    "total_fact_rows": 65,
+    "held_fact_rows": 34
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b146_local_textile.csv",
+      "published_input_sha256": "59757b12669f69c5b50976d57a256b13f001cba8390fed425d2fb77c296837b8",
+      "unique_sample_states": 20,
+      "verified_conditions": 31,
+      "held_fact_rows": 34,
+      "accepted_measurement_fingerprints": [
+        "8d8b418627bc71fc883f0bf57a095436b9412cb6ce531a86630bd698a8224b21",
+        "b7bfe0b295ab8ad316dc7227c8931fcb37fb0a0dd81350cede94624311cce692",
+        "bd85f20d8b4795bacad87f5e2be694c4c96501c78447ce1e9bfd27dcedc84b8f",
+        "7f8acebf68fc7a1bc59a9a52d20e92b67d008179ef4bcb5db16240179092d4b1",
+        "bd0d1e3cd5ece5356127e8b49208c99b41b997881ff9cda1d07b5f34b8444633",
+        "3336e17f35bbef72bd4c1418dd62ca0e42ac41f1213f65e48e7cbedd4857bffb",
+        "a86b74abd3d6124edac4fbaedeb3280cd6ac784f0ab2d74a2e42885dff6b0e76",
+        "54f64967915aa2dd358603c0929c5227755da22d096b01b116589e77ca54197e",
+        "4a8bdac5b841ea4686e90ccb5420e396b4c368ece438e93bc51a45f0e4a63a9c",
+        "ff069778272a4ab2455436fc2157a2076e873b133369acacf49506c0a63a1afb",
+        "8f329ece30ac8d76cc616823a6cc713ace25fbcc9da81f427f107faf9403a931",
+        "f447d942d88a65f78ae20ec6e9e37c89c8953062164a78ee3b2598d434f123fa",
+        "f40b3a33decd4b4f00a06e5c615ecf7e566dcb6d580c67090815560477163739",
+        "558b0e59574eee5dfd9488ad7f6c1deb7b96cc0987fc8640ecb83fb23bb2d11d",
+        "405e8316388474790131168923e20e143ef66b78717800694d3ec42c9adeca42",
+        "22399c9a150093899860655e5403903a22d9a8523be79fdbca431d1b81e41915",
+        "4be763b953bcd87a06a57b235a2cbc9ada53f7285c60a3e56063f00d0b1f56fb",
+        "9bf747e079f5c9f7070804ad86eafaaaedb157b99fa1932c5be022a71f9243b5",
+        "d75b7ba5d4ee697cb99c61b4cd9211ceccd1697e158e8422fe6ad501488edb21",
+        "ae0ed23aa47015bc320427beed9e0f0a25f96a7f22da5407eb45ae90f0724716",
+        "122c265356bdfd7ea26261eb0de7095a2a555a7a35aa49121699a719a70a0c3f",
+        "2ce005cff7b38509e12a448e819087996618f8eba4fc2091c0d885a0d7c6a08e",
+        "c898ed0f8765b2f7643bc2337ccd2b6623fa773c8f570094277ed48b233a8972",
+        "a145b64178974c67bc2943a2ea16a154b93c4992636fcf647cd4ad53810065c7",
+        "c38d166b99a6a3ae82437975f93709d3fd4486d164f7388c0e7a9295cc43e0d8",
+        "1a80c096570855caf0b4bf617ea4030387431721133aba4dd7832a351a4dd6f5",
+        "cf2da771306d4140abd104b30a1bc343db36664dd7456a8bc38e3ca199268e22",
+        "fa2ae2efff55d0d177a05e833052810ea19a96a061facaacce8a9297130c83a6",
+        "fedeca763fc0ddefb36d70fdf4c59140228c35b923a1ec49f16c9c5e46bc1cdc",
+        "289e962fd0649058adfa2c71082f20780c5d3db386172a92502ee85536574645",
+        "5f485f3b0bd0c06203eeaedc91ebcded5f6063199c40be8c67b454afb78e4df7"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.carbpol.2017.06.129",
+      "title": "A plant-based reactive ammonium phytate for use as a flame-retardant for cotton fabric",
+      "accepted_states": 1,
+      "accepted_conditions": 2,
+      "held_rows": 18,
+      "pages": 34,
+      "disposition": "Own115gsm570x340wovenpurecottonChaotianmenChongqing;5/10/20masspercentAPA+5masspercentdicyandiamide50C10minliquor1:20two-dip-two-nip200pickup170C5mincureRTflowwater1minprocessrinse80C30mindry. APAphytic7.723mL.015mol/urea5.405g.09mol110C60min120C15minfreeze-dryethanolpurify83.75yield. OwnTable1p32controlLOI17.8and16dose/nativeLCtreatedLOIstates;Pyris1N220Cminend600/AIR20Cminend800masspanflowstartunreportednotTGIR7.55mg40-600. Owncontrolp17N2T10=317R550=.91;native370maximumweightlosswordingretainedrawnotassignedTmax;AIRp18Tmax354exactR510=.02genericnotR500/R550,initial317criterionunknownnotT5/T10/onset. LOIM606BASTMD2863-2000dimsrepsunknown. TreatedTGdose/stateunassignedbyprimaryFig2captionorp17-18orSI;N2T10=257R55042.46rawonly,about298maxapproxnotcanonical;AIR266decompcriterionundefinednoratepeak. Treatall16ownLOIrecipe/washfactsandtwounassignedtreatedgasfactsheld. OwnAATCC61-2006detergent.37%40C45min40rpm200mL/500jar1cycle5homeequiv;nativeLCnotassumedlabcycles. SIcomparativeTableS1eightborrowedLOIrefsnotownmeasurements;seventext-linkedimagesunviewedunused. Table4weft41.31vsprose14.31conflict;Table3THR1.178vsprose1.1178conflictkeptnotTG. Publisheracceptedmanuscript2017-06-30notfinalVOR;finalpublicationyearblank. FourfullcontrolnumericprofilecomparisonswithandwithoutLOIvsallrawincoming+privateB140/B141:anygashitszero;Onecontrolstate/twoTGconditionsapprovedafterfulldedupand20scientificguards. Source admission completed for 1 initial textile states/2 conditions;20scientificguardsPASS;18 facts held.",
+      "SI_status": "AlloneofficialDOCXtext/TableS1reviewed;sevenembeddedimagesunviewedunused;ownpublisherPII/sixmatchingSIcaptions/synthesisAPA/thisstudyLOI43.2identity;SInotitleauthorsnotclaimed"
+    },
+    {
+      "DOI": "10.1007/s12221-019-9071-0",
+      "title": "Novel P/N/Si/S-containing Mononickel Complex as a Metal-based Intumescent Flame Retardant for Cotton Fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 5,
+      "pages": 9,
+      "disposition": "Ownplainwoven184gsmcottonTaiyuanChunguang;4wtNaOHscour3DIrinsesnaturaldry;EtOH:H2O4:1NiS100gL(native10.7wt%)/urea50gL(native5.7wt%)/boric30gL(native3.5wt%)40C1h2dip2nip70-80pickup80C5mindry160C3mincure. Nativebathwt%labelsnotmeasuredfabricdryaddon;nofinishingdurabilitywashreported. OwnTable2PDFp5printed1798andTable3PDFp6printed1799samecontrol/optimaltreatedfabric;LOI18.4/29.2HC2GB/T5454-1997150x58mm,repsunknown. ZCT-AN210Cmin25-7005-10mgpanflowunknown. Table2nativeTon-set321.7/238.5DTGmax370.3/344.2R7004.6/31.3. Table1pureNiSTon-setcriterion5percent;Table2cottoncriterionnotexplicitlyrestatedthereforecottonnativeTonsetretainedNOTautomaticallyT5. PureNiSTGnoLOIheld;fourSIexactLOIrecipefactswithoutownmatchingTGheld. SIoptimalrecipeverifiedsame29.2;noindependentsamplescreatedforrepeatedoptimalLOI. PrimarycallsIRFigureS1butSIIRFigureS4;captionnumberconflictkept. PrimaryTable4titleverticalLOIbutactualMCCPHRR/THR/heatTmax358.1/330.2NOTTGDTGpeaks. All9primarytextpagesandall10officialSItextpages/captionsread;8SIfiguresunviewedandunused. FourfullnumericprofilecomparisonswithandwithoutLOIvsallrawincomingplusprivateB140/B141foundzerohits. Ownpublisherjournal2019vol20p1794-1802identitynotDOIalone. Source admission completed for 2 initial textile states/2 conditions;20scientificguardsPASS;5 facts held.",
+      "SI_status": "Allofficial10PDFtextpages/prose/captionsreviewed;8SIfiguresunviewedunused;exacttitle/authors/publisherESMlinkmatched;noSIcurveestimates"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2020.109158",
+      "title": "Application of Chitosan and DOPO derivatives in fire protection of polyamide 66 textiles: Towards a combined gas phase and condensed phase activity",
+      "accepted_states": 5,
+      "accepted_conditions": 10,
+      "held_rows": 4,
+      "pages": 11,
+      "disposition": "Owninitialfive100gsmwovenPA66groups;Table1DOPA100/200gLwith/withoutCS20gL;Table3PDFp6T5/chronologicalDTGmaxima/R800N2andAIR20C/min;Table4PDFp7LOI19.5/22.2/23.3/23.5/24.5. NativeTmax/Tmax1/Tmax2columnmappingexplicit;waternotdecompositionpeak;N2unknownsecondpeaknotborrowed;AIRcontrolthirdpeakdashnotzero. Four5cyclewashedcone-onlyfactsheld;noownwashedTG/LOI. Native10W/20Wcontentnotwashcycles;initialprocesswashingdistinct. TGGCMS10C/minnotmain20. R800SD3notLOI/addonuncertainty. Addonbaselinecontrolnotfinalmassdenominator;unknownCSUVdose/timeandpercentagebasisretained. All11primarytextpagesreviewed;SIunread/accesslimitsdocumented;noSI/imageused. Twentyfullprofileswith/withoutLOIanygasagainstrawincomingplusprivateB141/B142anddistinctowngroupsfindzeroidenticalprofiles;5states10conditionsprivateapproved20guards.",
+      "SI_status": "AppendixA primaryPDFp10 cites SI;unread and no SI values used. Two same-DOI local PDFs have identical SHA256;no same-stem local SI found. Official DOI-linked publisher PII S0141391020300902 verified;landing403;candidate mmc1 DOCX/DOC/PDF addresses404;does not prove SI absent."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2020.109405",
+      "title": "Construction of nano-multilayer coatings on copolyester fabrics using UV-grafting mediated layer-by-layer self-assembly for improved anti-droplet and flame retardent performance",
+      "accepted_states": 7,
+      "accepted_conditions": 7,
+      "held_rows": 3,
+      "pages": 12,
+      "disposition": "OwnlabPET-co-CEPPA160gsmfabric;sevennamedinitialgroupsmatchprimaryTable1p3/Table2p6/Table3p7. NativeN210C/minT5/TmaxexactmeanLOI35.2/26.4/27.9/26.8/33.1/33.8/36.1;native\u00b1quantitiesbasisunknownnotassumedSD. Table2rawresidueTEMPunknownallcanonicalresidueblank;T5/Tmaxalonepaired. PrimaryTable1wtpercentvsprosemolLconflictandSI6000mg/ginvalidunitretained;exactbath/backboneconcentrationunknownnotcorrected. SI5/8/12differentgroupsnotaliasedtoinitial6/9/3/9/hybrid6+3;coatingaddonnotborrowed;PAA2.9confirmed. NativeLOIstandard5455notcorrected5454;VFTthree-repeatsnotLOI/TG. Initialprocessrinsesdistinct;washed5/10/20LOI30.4/26.4/29withoutownTGheld;wash0hybrid36.1repeatednotextra. ArticleInPressaccepted2020-10-17yearblank;finalVORunreviewed. All12primarytextpages/allofficialSItext3tablesread;12imagesunviewedunused;titlevariantnotexactmatch,allsixauthors/PII/distinctchemistry/captionsmatch. FourteenfullavailableTGprofilecomparisonswith/withoutLOIvsrawincomingplusprivateB142/B143anddistinctowngroupszeroidenticalprofiles;7initialstates7conditionsprivateapproved20guards.",
+      "SI_status": "OfficialpublisherPII/nativeDOCX2001510055bytes;allXMLbodytextandTablesS1/S2/S3reviewed;12embeddedimagesunviewedunused;SIrelateddrafttitlevariantnotverbatimmatch;allsixauthorsanddistinctFRPET/PAA/KH550/SBEbetaCD/DDP/captionsmatch;recipeandphosphorusunitconflictsretained"
+    },
+    {
+      "DOI": "10.1016/j.eurpolymj.2021.110320",
+      "title": "Bio-inspired and dual interaction-based layer-by-layer assembled coatings for superior flame retardancy and hydrophilicity of polyamide 6.6 textiles",
+      "accepted_states": 5,
+      "accepted_conditions": 10,
+      "held_rows": 4,
+      "pages": 13,
+      "disposition": "Own2021VOR147110320all13primarytextpages;noSIcited. Own100gsmwovenPA66SuzhouXinganlingpreviouslyscouredcontrol/PCSonly/2QL/4QL/8QL;ownLOITable3PDFp7values18.5/20.5/22/22.5/23.5joinTGTable5PDFp9N2/AIR20CminT5/chronologicalTmax1/2/3/R700. Main3-5mgopenaluminapan,flow/start/endunknownnotTGIR5mg55mLmin;R700notprogramendpoint/muffle500C10minchar. ControlN2secondpeak/AIRthirdpeakdashesnotzero;treatedN2secondpeaks461/462/459.6/448.5notAIRoxidationpeaks. PCSprose0.5vsTable1native5percentandME0.1vsTable1percentconflicts;actualbathunknownnotcorrected. QuartetsequenceCS/ME-OSA-CS/ME-PAversusprocesslastCS-PA-CS-OSAconflict;exactsequenceunknown. NativeWGEq1(A0-A1)/A0andweightgainpercentdefinitionambiguous;rawWG0/2.6/7.6/9.4/12.8notmassfraction. UV80W/cm340-360nmAIRdurationunreported;PI4percentbasisunknown. 8QLprose23versusownTable/abstract/conclusion23.5;explicit23.5notaveraged. Four20nativecyclevertical-onlyfactsheldNOwashedTG/LOI;wash38plusminus3Cversusnominal40C/onecycle5homeequivnotextrasamples. Twentyfullavailableprofileswith/withoutLOIvsrawincoming/privateB142/B143/B144/distinctowngroupszeroidenticalprofiles;5initialstates10conditionsprivateapproved20guards.",
+      "SI_status": "NoSIcitedincomplete13pageprimarytext;noSIvalueused"
+    }
+  ],
+  "verification_limit": "Five complete primary originals79textpages/all3availableofficialSItextandtables;oneprimaryreviewer;27SIimagesunviewedunused;DOPA-SIunread403/404limitexplicit. Twenty new states31conditions65facts34held;five accepted DOI sources;exact native measurements and all recipe/metric/form/washing/source-version limitations retained. 10.1016/j.carbpol.2017.06.129: Own115gsm570x340wovenpurecottonChaotianmenChongqing;5/10/20masspercentAPA+5masspercentdicyandiamide50C10minliquor1:20two-dip-two-nip200pickup170C5mincureRTflowwater1minprocessrinse80C30mindry. APAphytic7.723mL.015mol/urea5.405g.09mol110C60min120C15minfreeze-dryethanolpurify83.75yield. OwnTable1p32controlLOI17.8and16dose/nativeLCtreatedLOIstates;Pyris1N220Cminend600/AIR20Cminend800masspanflowstartunreportednotTGIR7.55mg40-600. Owncontrolp17N2T10=317R550=.91;native370maximumweightlosswordingretainedrawnotassignedTmax;AIRp18Tmax354exactR510=.02genericnotR500/R550,initial317criterionunknownnotT5/T10/onset. LOIM606BASTMD2863-2000dimsrepsunknown. TreatedTGdose/stateunassignedbyprimaryFig2captionorp17-18orSI;N2T10=257R55042.46rawonly,about298maxapproxnotcanonical;AIR266decompcriterionundefinednoratepeak. Treatall16ownLOIrecipe/washfactsandtwounassignedtreatedgasfactsheld. OwnAATCC61-2006detergent.37%40C45min40rpm200mL/500jar1cycle5homeequiv;nativeLCnotassumedlabcycles. SIcomparativeTableS1eightborrowedLOIrefsnotownmeasurements;seventext-linkedimagesunviewedunused. Table4weft41.31vsprose14.31conflict;Table3THR1.178vsprose1.1178conflictkeptnotTG. Publisheracceptedmanuscript2017-06-30notfinalVOR;finalpublicationyearblank. FourfullcontrolnumericprofilecomparisonswithandwithoutLOIvsallrawincoming+privateB140/B141:anygashitszero;Onecontrolstate/twoTGconditionsapprovedafterfulldedupand20scientificguards. Source admission completed for 1 initial textile states/2 conditions;20scientificguardsPASS;18 facts held. 10.1007/s12221-019-9071-0: Ownplainwoven184gsmcottonTaiyuanChunguang;4wtNaOHscour3DIrinsesnaturaldry;EtOH:H2O4:1NiS100gL(native10.7wt%)/urea50gL(native5.7wt%)/boric30gL(native3.5wt%)40C1h2dip2nip70-80pickup80C5mindry160C3mincure. Nativebathwt%labelsnotmeasuredfabricdryaddon;nofinishingdurabilitywashreported. OwnTable2PDFp5printed1798andTable3PDFp6printed1799samecontrol/optimaltreatedfabric;LOI18.4/29.2HC2GB/T5454-1997150x58mm,repsunknown. ZCT-AN210Cmin25-7005-10mgpanflowunknown. Table2nativeTon-set321.7/238.5DTGmax370.3/344.2R7004.6/31.3. Table1pureNiSTon-setcriterion5percent;Table2cottoncriterionnotexplicitlyrestatedthereforecottonnativeTonsetretainedNOTautomaticallyT5. PureNiSTGnoLOIheld;fourSIexactLOIrecipefactswithoutownmatchingTGheld. SIoptimalrecipeverifiedsame29.2;noindependentsamplescreatedforrepeatedoptimalLOI. PrimarycallsIRFigureS1butSIIRFigureS4;captionnumberconflictkept. PrimaryTable4titleverticalLOIbutactualMCCPHRR/THR/heatTmax358.1/330.2NOTTGDTGpeaks. All9primarytextpagesandall10officialSItextpages/captionsread;8SIfiguresunviewedandunused. FourfullnumericprofilecomparisonswithandwithoutLOIvsallrawincomingplusprivateB140/B141foundzerohits. Ownpublisherjournal2019vol20p1794-1802identitynotDOIalone. Source admission completed for 2 initial textile states/2 conditions;20scientificguardsPASS;5 facts held. 10.1016/j.polymdegradstab.2020.109158: Owninitialfive100gsmwovenPA66groups;Table1DOPA100/200gLwith/withoutCS20gL;Table3PDFp6T5/chronologicalDTGmaxima/R800N2andAIR20C/min;Table4PDFp7LOI19.5/22.2/23.3/23.5/24.5. NativeTmax/Tmax1/Tmax2columnmappingexplicit;waternotdecompositionpeak;N2unknownsecondpeaknotborrowed;AIRcontrolthirdpeakdashnotzero. Four5cyclewashedcone-onlyfactsheld;noownwashedTG/LOI. Native10W/20Wcontentnotwashcycles;initialprocesswashingdistinct. TGGCMS10C/minnotmain20. R800SD3notLOI/addonuncertainty. Addonbaselinecontrolnotfinalmassdenominator;unknownCSUVdose/timeandpercentagebasisretained. All11primarytextpagesreviewed;SIunread/accesslimitsdocumented;noSI/imageused. Twentyfullprofileswith/withoutLOIanygasagainstrawincomingplusprivateB141/B142anddistinctowngroupsfindzeroidenticalprofiles;5states10conditionsprivateapproved20guards. 10.1016/j.polymdegradstab.2020.109405: OwnlabPET-co-CEPPA160gsmfabric;sevennamedinitialgroupsmatchprimaryTable1p3/Table2p6/Table3p7. NativeN210C/minT5/TmaxexactmeanLOI35.2/26.4/27.9/26.8/33.1/33.8/36.1;native\u00b1quantitiesbasisunknownnotassumedSD. Table2rawresidueTEMPunknownallcanonicalresidueblank;T5/Tmaxalonepaired. PrimaryTable1wtpercentvsprosemolLconflictandSI6000mg/ginvalidunitretained;exactbath/backboneconcentrationunknownnotcorrected. SI5/8/12differentgroupsnotaliasedtoinitial6/9/3/9/hybrid6+3;coatingaddonnotborrowed;PAA2.9confirmed. NativeLOIstandard5455notcorrected5454;VFTthree-repeatsnotLOI/TG. Initialprocessrinsesdistinct;washed5/10/20LOI30.4/26.4/29withoutownTGheld;wash0hybrid36.1repeatednotextra. ArticleInPressaccepted2020-10-17yearblank;finalVORunreviewed. All12primarytextpages/allofficialSItext3tablesread;12imagesunviewedunused;titlevariantnotexactmatch,allsixauthors/PII/distinctchemistry/captionsmatch. FourteenfullavailableTGprofilecomparisonswith/withoutLOIvsrawincomingplusprivateB142/B143anddistinctowngroupszeroidenticalprofiles;7initialstates7conditionsprivateapproved20guards. 10.1016/j.eurpolymj.2021.110320: Own2021VOR147110320all13primarytextpages;noSIcited. Own100gsmwovenPA66SuzhouXinganlingpreviouslyscouredcontrol/PCSonly/2QL/4QL/8QL;ownLOITable3PDFp7values18.5/20.5/22/22.5/23.5joinTGTable5PDFp9N2/AIR20CminT5/chronologicalTmax1/2/3/R700. Main3-5mgopenaluminapan,flow/start/endunknownnotTGIR5mg55mLmin;R700notprogramendpoint/muffle500C10minchar. ControlN2secondpeak/AIRthirdpeakdashesnotzero;treatedN2secondpeaks461/462/459.6/448.5notAIRoxidationpeaks. PCSprose0.5vsTable1native5percentandME0.1vsTable1percentconflicts;actualbathunknownnotcorrected. QuartetsequenceCS/ME-OSA-CS/ME-PAversusprocesslastCS-PA-CS-OSAconflict;exactsequenceunknown. NativeWGEq1(A0-A1)/A0andweightgainpercentdefinitionambiguous;rawWG0/2.6/7.6/9.4/12.8notmassfraction. UV80W/cm340-360nmAIRdurationunreported;PI4percentbasisunknown. 8QLprose23versusownTable/abstract/conclusion23.5;explicit23.5notaveraged. Four20nativecyclevertical-onlyfactsheldNOwashedTG/LOI;wash38plusminus3Cversusnominal40C/onecycle5homeequivnotextrasamples. Twentyfullavailableprofileswith/withoutLOIvsrawincoming/privateB142/B143/B144/distinctowngroupszeroidenticalprofiles;5initialstates10conditionsprivateapproved20guards.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1425,
+    "new_states": 20,
+    "new_conditions": 31,
+    "evidence_upgrades": 0,
+    "verified_states": 1141,
+    "verified_conditions": 1456,
+    "verified_dois": 321,
+    "verified_sources": 323,
+    "offline_tests_passed": 1199,
+    "snapshot_sha256": "997590c7a0ef3022aa21e005845fdb270bcf68d55ef3f32bc59728ad6bab750a",
+    "master_sha256": "c7be1593c13d984e429c4fc539d5a9bdb1fab55dd5dabc99c4f781c25386a47b",
+    "validation_errors": [],
+    "held_fact_rows": 34,
+    "complete_original_text_pages": 79,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 3,
+    "unchanged_private_evidence_files": 8,
+    "new_source_inventory_states": 20,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
