@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-03T21:26:29.410522+00:00",
-  "latest_batch_id": "20261004_b151",
-  "verified_condition_records": 1521,
-  "verified_unique_sample_states": 1188,
-  "verified_dois": 335,
-  "numeric_pair_candidate_rows": 1985,
+  "as_of_utc": "2026-10-03T21:45:00.997991+00:00",
+  "latest_batch_id": "20261004_b152",
+  "verified_condition_records": 1527,
+  "verified_unique_sample_states": 1194,
+  "verified_dois": 337,
+  "numeric_pair_candidate_rows": 1999,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 987,
+  "cumulative_newly_completed_or_new_source_sample_states": 993,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b151_merged_remote_verified_lease_released",
+  "publication_stage": "b152_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261004_b151",
   "writer_lease": {
     "owner": "codex-local-textile-b152-20261004",
@@ -26,11 +26,12 @@
     "batch_id": "20261004_b152",
     "claimed_at_utc": "2026-10-03T21:42:57.877179+00:00",
     "expires_at_utc": "2026-10-03T23:12:57.877179+00:00",
-    "purpose": "Publish4completeprimaryoriginals45textpages;6newstates6conditions22heldfacts;SIunread-held;metadatareadonly;textonly",
+    "purpose": "Publish4primaryoriginals45textpages;6newstates6conditions22held;SIandfilm-fabricmappingholds;metadatareadonly;textonly",
     "previous_release_commit": "b0e99a3e162322dbf0de5ea78cc86065d953ef87"
   },
   "next_sources": [],
   "next_actions": [
+    "Four complete primary originals (45 native text pages) add six initial polyester textile states and six TG conditions; 28 factual records, 22 held. Twenty-seven scientific guards pass. Thirty-four gas/rate-agnostic residue-alias-normalized full-profile comparisons and twelve reduced-metric/rounding-risk comparisons find no identical profiles. RSC supplementary-group LOI and Wiley experimental methods are unread after access failures; those records remain held. All accepted numbers and methods are explicit in primary originals. Bulk OWPU film TG/LOI is distinct from coated DTY fabric LOI and stays outside textile counts. No images or curve estimates. 10.1016/j.porgcoat.2019.105323: All9ownVOR137(2019)105323primaryTEXTpages. Ownwoven100%PET106gsmWujiangSanlian;S0F/S1F/S2F/S3FinitialcoatedtextilesnotbulkWPUs. Table4PDFp6T5/Tmax1/Tmax2/R600265.5/290.2/427/8.9;263.1/287.5/390.6/12.1;238.6/281.7/385.2/13.8;178.2/244.3/381.3/16.6. NativeCTmax1/2arechar-at-peak92.8/36.1;92.6/65.8;91.2/66.4;87.1/57notfixed600residues. Table3p6LOI21.4/24.3/26.2/27.5;5reps150x58mmHC2GB/T5454-1997RT. NativeDiamond5700TGinstrumentnameN210Cmin30-600p2;masspanflowrepsunknown;Nicolet5700FTIRinstrumentnotvendorTGAinference. NativeT5onsetcriterion5%notundefinedTonset;firsthardsegmentandsecondsoftsegmentnativepeakindices. AllTable1p3feedwt%8componentsincludingwaterIPDI10.53PCL15.13DMPA1.14DHA.91FRC0/3.03/6.05/9.07TEA.85ADH.85H2O70.59/67.56/64.54/61.52;wetoriginalfeednotfinalcoatingfractions. PCL/DMPA/FRCvacuum4hpredrytemperatureunreported. IPDIadd60C30min/80C2hthenFRC2h45CTEA30minwater/ADHshear30minMEKdistillnominal30%emulsion;Tablefeedwaternotreconciledtofinalsolids.3wt601Hthickenernativebasisunspecified;knife1mm30mmin25C2passesonefaceabout40gsmaddon120C30scureRTdesiccator24hpretest. Mechanical-onlyRH65/20CnotassignedTGLOI. Table6p8washS3FprimeLOI26.8hasNOwashedTG;AATCC61-2013equiv5homewashprotocoltemperature/time/detergent/optionsunreportednot5labcyclesinferred. PristineLOI20.1hasNOownnumericTG;S0Fnotpristinecontrol. EDScharP1.30/1.71/2.39notbulkfabriccomposition. NoSI/images;Four native pairs deduplicated and staged for B152; publication pending. 10.1039/d3nr06604e: Full15nativeTEXTpages4811-4825;Table1PDF6TGfivegroupsFRPET/FPP/FPP-AM3/FPP-PM3/FPP-A5M1T5/Tmax/R700368.11/430.11/8.43;366.59/429.29/6.99;345.76/426.75/14.29;365.23/428.42/10.07;317.97/371.69/19.41. MainPDF8journal4818explicitinitialLOIFRPET32/FPP-A5M126;otherthreeTGgroupsLOIunreadFigS8SI. NativeLOIDyniscoGB/T5455-1997retainstandardasreported150x58mmrepsunknown;TGN2TG20910mLmin5-10mg25-70010Cminpanunknown. FRPETCEPPA-copolymerizedPET160gsmnotplainPET,ratio/processref38unread. PDA/PEIpH5acetatebuffer1.6gLPEI10DAHCl2NaIO46.4gL25C1hDIrinse3x30mindrytempunknown;APP10gLpH4HCl36.5gL24hstir;APP5min/DIrinse/30mindryrepeatPEI-APP5bilayers/PEI5minDIrinse30mindry/MXene10gL5min30mindryouter1bilayer. NativeQMXeneballmilledversusPMXenenonballmilleddistinctnotcrossassigned. SIFigS5/S8unread;allacceptedprospectivefactsprimary;threeTGonlyfactsheld;washsixthermoelectricvaluesnotLOI/TG;coneFOURLAYERS35kWm2notLOIform;TGIR550->500gasabsorptionnotTmax;RamanIDIGnotTGresidue;initialFRPETcleanEtOH/DI50C12h,SEM-onlydry50C12hnotuniversalTGcondition. Noimages/curves. LocalHTMLownidentitymatchedcheckedTG/LOImethod/nativeTable1;Supplement link not located in local HTML; candidate official URL returned404;no supplementary evidence used;Deduplicated and staged for B152; publication pending. 10.1002/adfm.202425093: All13ownVOR2025AdvFunctMater35e2425093TEXTpagesread;CF/CF-MA/CF-PIL4LOI19.5+-0.3/20.3+-0.2/28.1+-0.4explicitp5Fig4cp7caption. TG N2p4-5CFdecomposition305-351C/R35113;CFPIL4decomp259-308C/R30847.8explicitnotT5/Tonset/Tmax/R800;CFMAonlyqualitativeTGwithoutownnumeric. TGAheatingrate/program/model/masspanflowunreportedinmain/noexperimentalmethodssectionrequiresSI. Everypairhelduntilmethodsavailable. CFPIL2/4/6/8freeBMIMPF6:BVIMPF6weight2/4/6/8recipesTableS1SIunread;CFMAesterificationMAcelluloseOH/PILUVfree-radicalvinylcopolymerizationmainp2notexactcure. Source cottondensity/supplierunknown. Wash50LOI94.0percentretentionp5NOTabsoluteLOI26.414calculation;wash50TGunknown;wash30capacitivesensorresponseNOTwashedTGLOI. Conechar/EDSsurfacefractionsnotTGresidue/bulkcomposition;alarm143CnotTGonset. AllSIcitedunread;noimages/curveestimates;zeroapprovednotcounted. 10.1016/j.porgcoat.2016.03.020: All8nativeTEXTpagesownVOR97(2016)91-98read. Table3p94PDF4TGA/DTG/R500S0-5areBULKOWPUfilmspersection3.3p95NOTcoatedDTYfabric. Table6p97PDF7bulkfilmLOI21.8/22.8/24.2/28.4/29.0/29.2. Table8p98PDF8ownDTY/S0/S1/S2/S3/S4/S5FABRICLOI14.6/15.6/18.2/20.8/21.6/21.0/21.2;allsevenlackownfabricTGnumbersandheldnotborrowfilmTGdespitesamesamplenames. TGA METTLERTGA/DSC1N210Cmin30-600C;TGFTIRMSdistinctARGON40mLminRT-60010CminnotaliasN2curve. NativeT5notTonset;Td1-1/Td1-2/Td2nativeindicespreservenotsimplifyS0missingfirstshoulder. Source filmthickness3mm/TefloncastRT7days/vac70C48h/desiccatorRTnotfabricstate. FabricDTYsupplierZhejiangTransfarpolymeridentity/arealdensityunreported;2.5wt601Hemulsioncoatingtwice170C50s/about30gsmaddon;nofabricpreconditioninginferredfromfilm. LOIHC2CISO4589-1984RTfilm150x50x3mm/fabric150x50mmrepsunknown;DTYlow14.6notnormalize19orwrongfilm21.8. Table1PTMG2000/N330/TDI/BDO/DMPA/TEA/OP550recipefeedgnotfabricfinalfractions;nominalOP5500/4/8/12/16/20wtoriginalmaterialsnotwholefabricloading. Hydrostaticpressure/waterimmersionnotwashedTGorLOI. NoSIcited/noimages/curveestimates;zeroapprovedtextilepairs. Fresh main/PR/lease/queue before next publisher.",
     "Four complete primary originals (36 native text pages) add eight initial textile states and eleven TG conditions; 21 factual records, ten held. Twenty-two scientific guards pass. Twenty-two gas/rate-agnostic residue-alias-normalized full-profile comparisons and twenty additional partial-metric/precision-risk comparisons find no identical profiles. APP/BPEI supplement is cited but unread; all accepted facts are primary. RSC Table S5 and methods are unread after official-page 403 and candidate supplement URLs 404; all RSC facts remain held. No images or curve estimates. 10.1016/j.carbpol.2016.05.087: Own120gsmSichuanCottonPrintingDyeingfabric;initialcontrol/3wt/5wtAPP-BPEIweightgain;primaryTable1journalp437PDFp4T5/DTG/R400/R600twoatmospheres10Cmin;LOI18.4/21.0/22.2explicitsameinitialgroupsp437;TG209F1;TGmasspanflowstartendunreported;R600notinferredendpoint;TablefootnoteDTGmaximumlossrateoverridesloosemaximumweightlosswording. Primarypreparation1wtAPP/.2wtBPEI1.2:1vol12hstirRTdipsdry/repeatedtotargetwtgain/vac50C12hpretest;weightgainbasisnotexplicitEqnotfinalfraction. W3h/W6h40C300rpm.5wtAriel/DIrinsevac50C12hLOI21/20withNOownwashedTG;twoheld. FilmTGnotfabric;horizontal/coneresiduesnotTG. CitedSIunreadexplicit;allacceptedprospectivefactsprimary;S1p437/439citedLOI;noimages. All7TEXTpagesread,notyetduplicatechecked/staged/counted. 10.1002/app.49385: OwnfourfinisheddryspunMFfiberFMF/SiO2/PVA/both,notbulkresin/as-spun/dopedope. All12publisher2020e49385nativeTEXTpages. Table1p10T5/Tmax/R600278.3/386.8/35.2;298.9/394.7/35.9;228.8/365.4/32.3;260.6/374.5/34.0. Bodyp8R60035.22/35.86/32.33/33.98consistentroundingretainrawnotextraTG. Table2p10LOI42.3/42.7/40.4/41.1withp8sameexplicitmapping. Q500N240mLmin6mgaluminapanambient-60010Cminp4-5;LOIJF3fiberplait50x6x3mmstandard/repsunknown. PrecursorcompleteformulafullFMF-SiO2-PVAonlymel44.8/benzo11.9/paraform34.5/hydroxyoxapentylmel5.7/hexamethoxymel.7/modifiedSiO2.5/PVA1.9wt%feed;other3omitadditivesnotinferrenormalizedfeedpercentnorfinalfiberfraction. FeedpH990C6h;KH550modifiedSiO2actualmodificationprotocolref20notinvent. Fibersspinneret.12mmx100heatedacidgastype/tempunreported;postsolidification230-250C1hnotas-spun. T5includeswater/PVAdegradationnotdecompositionTonset. p8bodymasslossranges347-378/357-388/365-397/375-405separatequalitativeprocessdescriptionsnotadditionalTmaxorT5;noimages/SIcited. FTIRdopedopeoxidationnotTGAair;30daystoredDOPEnotagedfibers;DMSO7dayequilibriumswellingnotTG/LOIwashedstate;600residuecontainsSiO2notpurechar. AllTEXTread,notyetdedup/staged/counted. 10.1002/app.1992.070460312: Own4pages1992JAPS46pp467-470nativeTEXT. NativeCP-MNhydroxymethylated/Pyrovatexnylon6LOI31.4TableIp468andbodyp469/R7003.5explicitbodyp470;AIR10CminRT-700DT30B~3.2mgp468;panflowunknown. ControlTG N1.4p470+NLOI23.6body/abstractbutTableILOIlabelCP-NnotnativeN,controlmappingheldpendingexplicitadjudication. MNnoownnumericTG/LOI;DSCTableIIIII223/204/203melting and345/324/329onset459/450/434oxidationpeaksnotTG. Xraypyrolysis550C40min4.4932->.2781gnotTGresidue,donotcalculateR550. TableP2.92vsXrayoriginal2.73differenttestspecimenkeptnotbulkfractionreplacement. Hydroxymethylation36%formaldehydepH.9-1.070-80C1-2h/waterrinse;Pyrovatex10-50%5-30min150-180C2-6min rangesnotexactperformulavariants;abstract160-170Cnotassignedexactcuringtemperature. IR70hwaterextractionnotfunctionalstate;LOIstandardref2ASTMD2863-77dimensions/repsunreported. All4TEXTread;noSI/images;notyetdedup/staged/counted. 10.1039/d4ta04320k: All13own2024VORnativeTEXTpages24934-24946;ownPET/PUC/PUC-MHPP5.0/7.5LOI20/22/25.5/28p9and20wash7.5LOI27.3;Janus7.5-BPLOI28abstract/conclusion. OwnnumericalTG/methodsrequiredTableS5unread;7.0charprosehasnoexactgas/tempandcannotbeassignedR800/programendorborrowedconechar. Noimages/curveestimates. PETsupplierSichuanDongcai/thickness.6mm,arealdensityunreported;200g/m2coatingeachsideafterp4optimizationnot400/600variants. One-sidedMHPPanddualJanusBPstateskeptdistinct;washedTGnotborrowed. NativePUCprepolymerPCL10gHDI1.85gDMF10mL80C30minDBTDL1drop60minTHPO1g/DMF5mL15min;MHPP2.5/5/7.5wt25C3hDMF5mL120C24hcure;BP.5g/50mLDMFPUCamountunreported25C30min120C24hcure. Coatingfractionnotwholefabricfraction;pretreatmentref20unreadnotinvent. TGIR400-460bandnotDTGpeak;RamanIDIGnotresidue. Onlyownpublishedfacts,SIaccessfailureprivatecheckpoint;zeroverifiedpairs. Fresh main/PR/lease/queue before next publisher.",
     "Three complete primary originals (25 native text pages), plus all official supplementary text and Table S1; two supplementary images unviewed and unused. Eight textile states/eight TG conditions, 40 factual records, 32 held; six initial states and two one-wash states. Twenty-two scientific guards pass. Sixteen gas/rate-agnostic, residue-alias-normalized profile comparisons have no identical full profiles. 10.1016/j.porgcoat.2016.10.035: All8publisherARTICLEINPRESSnativeTEXTpages;2016/2017localcopiesidenticalSHAandoneDOI;localregistryjournalyear2017;retainAIPversion/nativePDFpaginationnotinventfinalVORpages. ExactUT/COTA/COTBinitialplusCOTAW/COTBWoneENISO6330:2000wash shareTable2/6TGandTable4measuredLOI. Tonset5%isT5;nativepeakindicesdifferentbefore/afterMEAleachingandneverrenumbered. Peak293/287MEAdecompositionnotwateraround100C. R750andnativepeak-residuevaluesexact;R600initial28/32proseversuslatergeneric25-30rangekeptrawwithscopeambiguitynotguessedwashed12-15assignment. MCCcalculatedLOI26/27/19notmeasured29/29/20/21;MCCN21C/snotAIR-TG30C/min. Allsamplesconditioned65+/-4RH20+/-2C;washingtemperature/time/detergentandLOIrepsunreported. NoSIcited/noimages. 10.1016/j.carbpol.2020.116173: All10ownVORprimaryTEXTpagesplusofficialSIallbodyTEXT/TableS1tensiledata;2imagesunviewedunused. OwnCS/AP/CSAPinitialfabricTable1TGandTable2LOIexact. ControlT5=298/T10=295inconsistent,boththresholdsheldraw;entirecontrolalsoheldbecauseLOI18/Tmax361/R70012.5and220gsmQirongfabricmatchpriorACS9b05523control;differentT10notindependenceproof. CSconcentrationunreported;nativeCS/APprocedurewordtwiceand1BLcomparisonretainedwithoutinventingcyclecountfromunreadFigureS1diagram. N2TG-FTIR10C/min50mL/min40-700C2repeats;nootherTGAconditioninvented. Rmaxpercent/Cnotresidueorheatingrate;CCTresidues/EDXsurfacepercentnotTG/bulkcomposition;LOIuncertaintydefinition/repsunknown;preparationrinsesnotdurability. 10.1016/j.surfcoat.2006.10.027: All7ownVORprimaryTEXTpages. Tables1-3andwashedheavycopolymerprovideLOIbutnoownnumericalTG/testmethod;TGAacknowledgmentnotdata. CannotborrowpreviousFRpaper2006.05.002TGforCF4/AC8/copolymer/washed/agedstates. Cotton120copolymerTable27.5versusbody28conflictretainedraw. Workingpressure0.66mbarandbasepressure0.4mbarareseparatelyqualifiednotautomaticallycontradictory;bodywashedstartingG34versusTable33.01notaliased. Aging30daysevaluatesSchmerberonly,noagedTG/LOI. NoSIcited/noimages;zeropairs. Fresh main/PR/lease/queue before next publisher.",
     "Fourcompleteprimaryoriginals39nativeTEXTpages;14initialtextilestates20TG117facts97held;32scienceguardsPASS;40gas/rateagnosticresidue-alias-normalizedprofilecomparisons,noidenticalfullprofiles;5singleonsetoverlapswithexplicitlydistinctchemistries/LOIsadjudicated,notreusedcontrols;PANcontrolcrosssourceheldbothgases. SPIpaperSIunreadexplicit;acceptedfactsallprimary. 10.1016/j.porgcoat.2020.105835: All8ownprimaryTEXTpages. MainTables1/2exactSPI5wt%/thiourea10wt%andcontrolgroups;Toneset5%/50%areT5/T50notTonset. First206peakbelowT5=244retainednative;notcorrected. Owncontrolfull354/393/403/R7002.8profilehasnoexistingrawmatch;403literaturecitationcontext retained,notproofreusedwholeprofile. Thiourea10LOIcannotborrow15TG. SPI5LOIcannotborrow15photosorneatSPI-TG. CitedS1/S2unread;officialownPIIidentified,CDNdocx/doc/pdf404notproofabsence. Allrequiredacceptednumbersinprimary;SI-dependentvariantsheld. Plusminusdefinitionunknown;cone3repsnotLOI. Noextraunreportedcureinvented;noimages. 10.1016/j.porgcoat.2021.106296: All10ownprimaryTEXTpages;fourinitialstateswithN2andair20C/minTG. Table4initialLOIpairedwithTables1/2;four10washLOIsheldwithoutwashedTG. TwentywashantibacterialnotTGLOI. Ag-freeAPP@PDA-SiO2state notassignedAg-finalTG. Abstractrelativeincrease9.5versustabledelta9.6raw-only;controlTable19.4notderived19.5. Partialmodifierrecipeandcontrolalkalitreatmentunassignedunknown. AluminaTGpanexplicit;massflowunknown. R700totalresidueincludesinorganicSiO2notpurecarbon. NoSIcited/noimages. 10.1016/j.porgcoat.2017.07.022: All9ownprimaryTEXTpages. OnlySiPAN/SiPPANinitialstatesacceptedatN2/air10C/min. PANcontrolT5=305/R80043.53sameexistingAPS2017.09.155;LOI18versus18.1doesnotproveindependence,bothgasrecordsheld. SiPNLOI42.1abstract/bodyversus34.1Table/conclusionunresolved,bothgasrecordsheld. N2nativeglobalTmax322/413preservedinoriginalheadingmetadata,notassignedchronologicalpeakindex;SiPintermediate324separate. AirnativeTmax1/Tmax2numberingpreserved;secondistotalcharoxidation,notinventedthirdindex. LowT5includeswater/ethanol;DSC-onset/MCCpeaksnotTG. Addon123.8%isweightgainnotfinalmassfraction. TwelvewashedLOIsnoTG. NoSIcited/noimages. 10.1016/j.surfcoat.2006.05.002: All12ownprimaryTEXTpages. ExactTable3initial120gsmcottoncontrolandfivegraftsmapTable2monomer/bath/EGDA/graftloading;allhaveargon10K/minTG. SourceonsetcriterionunknownNOTT5/T10. NativeTable3charat1060Cconflictsmethod20-650C;sixresiduemetricsheldnotchangedto650. SixTable4initialgraftloadingsdifferfromTables2/3;notaliased. Eight120gsmandthree210gsmwashedLOIslackwashedTG;210gsmLOI-onlyandhistoricPANTable6notborrowed. NeatpolymerfilmTG570CnotfabricTG. Tonset-onlymatchesdifferenttriazine/MGHP/ASXPEAchemistriesnotduplicatedPIGPformulations;LOIsdiffer. NoSIcited/noimages.;Freshmain/PR/lease/queue before nextpublisher.",
@@ -759,7 +760,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 812,
+  "remaining_to_2000": 806,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -807,9 +808,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 337,
+  "verified_sources": 339,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1180,
+  "verified_doi_sample_states": 1186,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -843,7 +844,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 812,
+  "remaining_to_target": 806,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -959,9 +960,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 192,
-      "sample_states": 613,
-      "condition_records": 846
+      "sources": 194,
+      "sample_states": 619,
+      "condition_records": 852
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1053,7 +1054,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1513,
+  "verified_doi_condition_records": 1519,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -3381,5 +3382,20 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/115",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b152": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 45,
+    "complete_official_SIs_text_tables_reviewed": 0,
+    "total_fact_rows": 28,
+    "held_fact_rows": 22,
+    "tests_passed": 1354,
+    "snapshot_sha256": "b2ad4a5ace1fa0d5a3c186a57aa1fd2b2c28330229dd39ac15bf18ae8cccd29d"
   }
 }
