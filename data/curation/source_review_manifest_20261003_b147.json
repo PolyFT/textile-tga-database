@@ -1,0 +1,95 @@
+{
+  "batch": "b147",
+  "review_completed_utc": "2026-10-03T18:20:09.570381+00:00",
+  "baseline_counts": [
+    1141,
+    1456,
+    321
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 18,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 48,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "total_fact_rows": 51,
+    "held_fact_rows": 33
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b147_local_textile.csv",
+      "published_input_sha256": "e98360df772c501a09c89898e249ec6ee8dffa76c8cea0c1512c2f2d2d9402a2",
+      "unique_sample_states": 9,
+      "verified_conditions": 18,
+      "held_fact_rows": 33,
+      "accepted_measurement_fingerprints": [
+        "00ade4db20938e2d2430feb210da065b2c22dd8a9d451dd42f12ac877c9b5108",
+        "c2d70a72a12a6d0ad5f133ebd5d3373be769ed8660b2669193a839a5861a5551",
+        "28ee2d74301bddbfd138d6537f1b3c10ab30f3bb7b5aea0e082f91e3164b123b",
+        "1da8b9f7f490157def3036d8f7587f00eed8f7795a6b215488ca2a576716e506",
+        "150ce49af739040a233b19776db8087e334b8308bd93d2ed94d30bc8e05d551f",
+        "79875f80300433c188b0da2a03954e3bc4f2ec5651480b3aaa68f824f72f1bcc",
+        "31a8717161cb5edef094a71ad1e3c7c33e2db0202f01b5ce74bd3ca67634fd45",
+        "5d08293b84de334cf0a8661b0ee8cac46882eeb6a46dc5c05991879de23ecf56",
+        "5430b7274d65452dd2708f5942b78dc1845257d4a986dbece754b5a23253b088",
+        "3b308e894cac81650a33581a1902caf97fa07548e990275459134c9f5c9387bc",
+        "4bb5e62f1c9a382011b8c81057a280a5c26c42b73d792fc47a75e86c6769797a",
+        "8862815e52deed1df11095b5ac965109c61b6901aec2a770d5eab4240292133e",
+        "af55c43e6396787b0e2048967b1225a467003d16469867497bca48e6465cfde3",
+        "386dc3c16e07e7222e936dcc149f76492d2ad70a684272c1ab5735d84f758015",
+        "d78a8f13a62888d4fb81ef320d580f09ab91a39f47e58ef35f27d090ed5ac116",
+        "c86d2359bd988b6aee676bc38b635529c38bcb59e32b3303ddaafc609ff434c9",
+        "d7c551d3893f452aaf1df197f77948fae9442eb93097f03690a4246699f546a4",
+        "4121e1d63444df747605337fb76a89382dc53fcdf9e5d635cba44ce67b73cd16"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.eurpolymj.2020.109483",
+      "title": "Sol-gel coatings from DOPO-alkoxysilanes: Efficacy in fire protection of polyamide 66 textiles",
+      "accepted_states": 4,
+      "accepted_conditions": 8,
+      "held_rows": 17,
+      "pages": 11,
+      "disposition": "Own2020VOR125109483all11TEXTpages. MainTGmass/pan/flow/start/endunreported;TGIR55mLminnotborrowed;R800explicitnotprogramend. OwncontrolAIRproseapprox464/589versusTable2exact466/597;Tablevaluesretained. SharedJiaxing100gsm/controlLOI19.5/N2T5=411/R8004.9withDOPA2020butTmax444vs459;independentcontrolunproven,bothgascontrolrowsheld. FourtreatedownTable2/Table3groupsmatch. 10W/20WarebathdoseNOTwashcount. CitedSIunread;officialownPIIcandidateCDN404notproofabsence;noSIvaluesused. FifteenTable6washedVFTstateshaveNOownwashedTG/LOI. Noimagesread/curvesestimated.",
+      "SI_status": "CitedAppendixAprimaryp10;localsame-stemPDFonly;officialownPIIS0014305719321470publisherpageverified;candidateCDNmmc1docx/doc/pdf404notproofabsence;SIunreadaccesslimit;noSIvaluesused"
+    },
+    {
+      "DOI": "10.1016/j.ijbiomac.2020.04.075",
+      "title": "Graphene oxide functionalized biomolecules for improved flame retardancy of Polyamide 66 fabrics with intact physical properties",
+      "accepted_states": 5,
+      "accepted_conditions": 10,
+      "held_rows": 16,
+      "pages": 37,
+      "disposition": "OwnJournalPreproofaccepted2020-04-10notfinalVOR;all37TEXTpages. OfficialSIallbodytext/TableS1read,onecolorimageunviewedunused. OwnprimaryLOITable4control20plusminus1vsSIcontrol21;primarymean20usedwithundefineduncertaintytype,notaveraged/replaced. SIinitialC/Daddon3.6/5.7versusprimary4.0plusminus.40/6.0plusminus.30retained;SIinitialA/B/C/Dnotextrasamples. MainTGmass/pan/flow/start/endunreported. NativeT10notT5/onset;AIRtwoannotatedpeaks/N2one;genericthree-stepproseNOTthirdnumericpeak. R700exact. LOI/residue/addonplusminusdefinitionandreplicatesunreportednotSD/SEassumed. NativeaddonEqtextunreadnotreconstructed;reportedTable1valuesnotfinalfabricmassfractions. ElevenSItrialLOIfactsandSIcontrolwithoutownTGandfourwashedconefactsheld. Noimagesread/curvesestimated.",
+      "SI_status": "OfficialownPIIS0141813020329299mmc1docxretrieved;exacttitle/all5authorsmatched;allnativeXMLbodytext/TableS1read;1embeddedcolorimageunviewedunused;noextraownTG"
+    }
+  ],
+  "verification_limit": "Two complete primary originals48TEXTpages;allofficialIJBIOMACSItext/TableS1read;oneimageunviewedunused;EPJSIunreadaccesslimitexplicit. Nine initial PA66 samples18TGconditions51facts33held;25scientificguardsPASS;36fullprofilesvsallrawincoming/distinctowngroupswithandwithoutLOIanygaszeroidenticalhits. 10.1016/j.eurpolymj.2020.109483: Own2020VOR125109483all11TEXTpages. MainTGmass/pan/flow/start/endunreported;TGIR55mLminnotborrowed;R800explicitnotprogramend. OwncontrolAIRproseapprox464/589versusTable2exact466/597;Tablevaluesretained. SharedJiaxing100gsm/controlLOI19.5/N2T5=411/R8004.9withDOPA2020butTmax444vs459;independentcontrolunproven,bothgascontrolrowsheld. FourtreatedownTable2/Table3groupsmatch. 10W/20WarebathdoseNOTwashcount. CitedSIunread;officialownPIIcandidateCDN404notproofabsence;noSIvaluesused. FifteenTable6washedVFTstateshaveNOownwashedTG/LOI. Noimagesread/curvesestimated. 10.1016/j.ijbiomac.2020.04.075: OwnJournalPreproofaccepted2020-04-10notfinalVOR;all37TEXTpages. OfficialSIallbodytext/TableS1read,onecolorimageunviewedunused. OwnprimaryLOITable4control20plusminus1vsSIcontrol21;primarymean20usedwithundefineduncertaintytype,notaveraged/replaced. SIinitialC/Daddon3.6/5.7versusprimary4.0plusminus.40/6.0plusminus.30retained;SIinitialA/B/C/Dnotextrasamples. MainTGmass/pan/flow/start/endunreported. NativeT10notT5/onset;AIRtwoannotatedpeaks/N2one;genericthree-stepproseNOTthirdnumericpeak. R700exact. LOI/residue/addonplusminusdefinitionandreplicatesunreportednotSD/SEassumed. NativeaddonEqtextunreadnotreconstructed;reportedTable1valuesnotfinalfabricmassfractions. ElevenSItrialLOIfactsandSIcontrolwithoutownTGandfourwashedconefactsheld. Noimagesread/curvesestimated.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1456,
+    "new_states": 9,
+    "new_conditions": 18,
+    "evidence_upgrades": 0,
+    "verified_states": 1150,
+    "verified_conditions": 1474,
+    "verified_dois": 323,
+    "verified_sources": 325,
+    "offline_tests_passed": 1224,
+    "snapshot_sha256": "b23ee05eec4d471e6538f445abc4e091b78caebdb22821ed59663598266755f3",
+    "master_sha256": "54086fd216979aba1a2750e501c154e8a8a63b7fc9dc7e33f4b9b684f0e6b93d",
+    "validation_errors": [],
+    "held_fact_rows": 33,
+    "complete_original_text_pages": 48,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 9,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
