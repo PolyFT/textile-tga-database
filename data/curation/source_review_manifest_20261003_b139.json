@@ -1,0 +1,97 @@
+{
+  "batch": "b139",
+  "review_completed_utc": "2026-10-03T15:34:27.459473+00:00",
+  "baseline_counts": [
+    1108,
+    1399,
+    313
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 10,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 30,
+    "held_fact_rows": 20
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b139_local_textile.csv",
+      "published_input_sha256": "380ccf1fc81f97cafac420c70ac9bd285c09f274f7b7709f4a06722caa1bd3b7",
+      "unique_sample_states": 5,
+      "verified_conditions": 10,
+      "held_fact_rows": 20,
+      "accepted_measurement_fingerprints": [
+        "f4e07accafd0c5dea4ae6442f35ea501a47eae96f009a9c04f767ed5ede9e5d6",
+        "79c8e0dbba8cdcd2126baa6e9850fdf79e70b2f6fe9e901d7b2124cc2e2a084e",
+        "df7ac0ebc6731e6d72f48f3a78840cdbcf1858e9d32d4d5ad9ff70cbcc590109",
+        "f1fea95933bedeaeba23c89dbf14f7b6d13714af0aba73ac53591b688797bef8",
+        "be520c5110837280d4f99ee692d371e6f7ec4f675f55cd7e5538be29afc93676",
+        "85891ba138b9e2b97ac5ca3ec7c3af545db628769c6aaf89379060fa4e2c4bd3",
+        "c8d39b00a568d6e9379d964472bf2fbb524479664eb27275d418e980fdcbefe7",
+        "4a9dfef56b33a79ac324ab093c269795d680927ff9478ea1b063f063142e3b4e",
+        "8f9b534cb1ed5308a48d61e6ceac2e1a02752bf44866d94bce107cfa23f7eca9",
+        "53150b09e5458efb790abc54e6552ecba6aa4d9fd8626190b0e9c52edfa53cc9"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.porgcoat.2019.01.010",
+      "title": "Few layer deposition and sol-gel finishing of organic-inorganic compounds for improved flame retardant and hydrophilic properties of polyamide 66 textiles: A hybrid approach",
+      "accepted_states": 5,
+      "accepted_conditions": 10,
+      "held_rows": 8,
+      "pages": 9,
+      "disposition": "Complete9primarytextpages;2019vol129p318-326. Own100percentPA66woven100gsmJiaxingWeavingIndustrypreviouslyscouredambientdry. CS10gL/PA20gL Table1not70wtPAstock. 2/5BLdepositionfirsteach5minsubsequenteach1minDIrinse1minnointerlayerdryfinalambientdry. APTES/BdAPTESnative50gLsolfinalbath;immersiondesignatedtimeunreported80percentwetpickup80C30mindry120C1hcureDIwash60C1hremoveunreactedprecursorsINITIALpostprocessstate,notdurabilitywash. APTES5.4mL0.023molHCl8.35mL0.1mol37.5percent/5.2mLEtOHambientreflux24h100mLDIfinalpH5NaOH4hstir;nativeratio0.3:1notrecalculated. BdAPTES5.4mL0.023molH3BO3.47g.008mol8.27mLEtOH70C1.5h2.55mLDIpH2.5HCl3.5h80C2h100mLDIpH5NaOH4hstir;ratio3:4:4:1native. Owninitial5groupscontrol/2BL-APTES/5BL-APTES/2BL-BdAPTES/5BL-BdAPTES;Table1addon0/8.9/13.2/3.7/7.7(W1-W)/W. LOITable3p5printed32219.5/20.2/20.4/19.8/20.6;HC2ASTMD2863150x58mmeditionrepeatsunknown. MainQ5000IR20C/minAIRandN2massflowpanstart/endunknownnotinfer800fromcharpoint. Table5p6printed323ownT5/AIRTmax1/AIRoxidationTmax2/R800AIRandN2gasspecificmetriccrosswalk. AIRcontrol395/459/594/3.4;2APTES280/464/560/5.6;5APTES261/465/556/5.7;2Bd340/464/570/4.4;5Bd327/461/567/5.9. N2control400/443/5.9;2APTES229/457/6.2;5APTES280/461/7.5;2Bd390/457/7.4;5Bd378/458/10.0;NO N2secondTmax. NativeTable5T-5percent5percentlossnotT10genericTonset. Pure5BLrow Table1/3/4/5/6footnoteDatafromRef6 2018Porgcoat121173-181 DOI10.1016/j.porgcoat.2018.04.031 alreadyB123;LOI21.2here vsownRef6main21.0source discrepancy plusR8004.3/9.6here vsfreshoriginalmustnotappendborrowedstateorupgrade. CurrentowncontrolTGdiffersRef6publishedcontrolAIR375462586R8003.6/N2407460R8004.7evenLOIsame19.5;notinferaliasfromLOIalone;freshfullprofilededuprequiredbeforeaccept. Allown5initialgroupsreportednofootnoteborrowedstatus;4hybridtreatmentsdistinctfrompreviousonlyLbL/boratecrosslink. WashAATCC61(2A)-1996nonionic38\u00b13Cnative5timeswashonecycle5homeequividentitykeptnotauto25;Table6verticaldrippingONLYnotwashedTGLOI. SDSsaturatedultrasonic10minUVvisstabilityseparatenotwasherstateTG. Conechar/IDIG4.11/.64notTG. NoSIcited;noimagesviewed.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2012.05.023",
+      "title": "A durable flame retardant for cellulosic fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 6,
+      "pages": 6,
+      "disposition": "Complete6primarytextpages;2012PDS97p2467-2472. Own100percentplaincotton180gsmChinaDyeWorksHongKong. NeoFRHCCP7g0.02mol50mLTHFaddedTEA12.1gAM8.79g0.12mol50mLTHF30min;RT20hN2filterrotavap90percentyield. PEIbranchedpadding2.75kg/cm2wetpickup70wtpercentvsfabric;80C5mindrythenNeoFRpaddingRTdry;concentrationsunreported. Dryweightgain(W2-W1)/W1. LOIISO4589-2FTT5specimensmean65percentRH20C24h;dimensionsunreported. TGNETZSCHSTA449CstaticAIR10C/min50-500C4-5mgpanunreported. OwncontrolLOIabout17.8p5markedapproximate;Tmax350p4explicitmaximumrate;firstloss320criterionunknownnotT5/T10;massloss95at500p4complementwouldR5005butretainrawuntilscopeverified. NeoFRp5T5=240Cexact5percentloss;R50036.5wtpercentexplicit. HoweverTGNeoFRdryweightgainunreported;ownLOIFig4hasmultiplegains4.8percentLOI21to26.5percentLOI33.8 andintermediatelabelsunannotated. CannotjoinNeoFRsingleTGrecordto26.5/33.8or4.8/21justbecauseotherTG/vertical/launder/tensilegainscalledsamelevel;LOInotlistedthere/noexactgainreported. PyrovatexLOI5.1percent22.8to25.8percent34.4NOOWNTG. Initialand20/30launderAATCC61-2006at49Cverticaltestcharlength76/103/110NeoFRvs73/86/98PyrovatexNOTTGresidueandnotwashedLOI. Noestimatedcurvelabels. HoldtreatedpairsforTGformulationidentity;approximatecontrolLOIheldoutsideexactlayer. NoSIcited;noimageviews.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    },
+    {
+      "DOI": "10.1016/j.ijbiomac.2018.08.043",
+      "title": "Fire-retardant multilayer assembled on polyester fabric from water-soluble chitosan, sodium alginate and divalent metal ion",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 6,
+      "pages": 7,
+      "disposition": "Complete7primarytextpages;2018vol119p1083-1089. Ownbrownpolyester192gsmweaveunreported. PVA2g20mLwater+SA60mL2percentpretreatfreeze-16C24hthawambient5h;CuSO4aqueous2mg/mL15min3waterwash;SA2percent30s3wash. Subsequent2percentWSC/2percentSA/CuII2mgmL/2percentSA/WSCrepeatedatambient3wash/freeze-dry24h. Nativelayersnotrecastbilayers;finalcoatingmassfractionunreported. MainTGTA V2.4FARGON20C/min20-800Cabout7mgpanflowunreported. MCC20oxygen80nitrogenmL/min1C/s700Cpyrolysis900CfurnaceNOTTGconditions. LOI130x50mmFTT0082ASTMD2863edition/repsunknown. Fig2p3groupscontrol/SA-CuII2/8layers/WSC-SA-CuII2/8/16layers. P4R650about3.3/ca4.8/4.4/8.7/4.5/6.1allmarkedapproximate;noexactDTGprintedtext. Fig5p4LOIcurvesforSA-CuII/WSC-SA-CuIIvariouslayersNOexactnumericLOIinwholeprimarytext;cannotestimateheights. Therefore0approvedpairs;6specifiedTGformulationstatesheldforunannotatedLOIandapproximateTGresidue. MCCPHRR343.31/214.29w/gandTHR46.11/38.49kJ/gnotTG;verticalextinction16/20/18/34/25snotTG. Prosep4assignsFig1bWSCandcSAoppositecaptionp2bSA8/cWSC16;notusedforTGLOIcrosswalk. NoownwashedLOI/TG;waterprocessrinsingnotdurabilitywash. NoSIcited;noimageviews.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    }
+  ],
+  "verification_limit": "Threecompleteprimaryoriginals22textpages;textonlynoimagesrenderedorviewed;oneprimaryreviewer. Fiveinitial100gsmwovenPA66groupscontrol/2BLAPTES/5BLAPTES/2BLBdAPTES/5BLBdAPTESownTable3LOI19.5/20.2/20.4/19.8/20.6joinsTable5AIRandN2T5/DTGmaxima/R800Q5000IR20C/min. AIRsecondpeakcharoxidationnotN2peak;800Ccharpointnotassumedprogramend;TGmass/pan/flow/start/endunreported. CS10gL/PA20gLnot70wtPAstock;2/5BLnotwashedstate;postcure60C1hDIprocesswashnotdurabilitywash;addon(W1-W)/Wnotbathdose. Pure5BLcomparativerowexplicitDatafromRef6alreadyreviewedDOI2018.04.031notnewpair;comparativeLOI21.2versusprimary21.0notusedtooverwrite. Fiveownwashedvertical-onlygroupsandborrowedwashedgroupheldnoownwashedLOITG;nativecycle/homeequivalenceunresolvednotauto25. NeoFRsixfactsheld:TGdryweightgainunreportedcannotchooseLOI21at4.8percentor33.8at26.5percent;controlLOIabout17.8notexact;PyrovatexNOOWNTG. PETWSC/SA/CuII6factsheld:LOIonlyunannotatedcurves;R650about/ca3.3/4.8/4.4/8.7/4.5/6.1explicitapproximate;ARGON20C/minnotMCCnitrogen1C/s;layersnotbilayers;waterprocessrinsingnotdurabilitywash. Five new states,10 conditions,30 facts,20 held;1 accepted DOI,3 reviewed papers;noSIcited;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1399,
+    "new_states": 5,
+    "new_conditions": 10,
+    "evidence_upgrades": 0,
+    "verified_states": 1113,
+    "verified_conditions": 1409,
+    "verified_dois": 314,
+    "verified_sources": 316,
+    "offline_tests_passed": 1079,
+    "snapshot_sha256": "a5f20e09b389f2f5b2ad0389ee722d763db71a0d8596f94b97bccf4057526fc9",
+    "master_sha256": "453fb62ac0f9fdc12d42b185860c147d744f55b593c7fcfbb8e9788bb808ae65",
+    "validation_errors": [],
+    "held_fact_rows": 20,
+    "complete_original_text_pages": 22,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
