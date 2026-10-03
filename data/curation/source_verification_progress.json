@@ -21,15 +21,13 @@
   "publication_stage": "b154_merged_remote_verified_lease_released",
   "last_merged_batch": "20261004_b154",
   "writer_lease": {
-    "owner": "codex-local-textile-b154-20261004",
-    "status": "released",
-    "batch_id": "20261004_b154",
-    "claimed_at_utc": "2026-10-03T23:11:54.710636+00:00",
-    "expires_at_utc": "2026-10-04T00:41:54.710636+00:00",
-    "purpose": "Publish9states14TG;3HTMLbodies10primarytables/2SI5tables/SEMcorrection;17held;textonly;metadatareadonly",
-    "previous_release_commit": "046867eb6c030c424a2b0d7669164c94246d0d60",
-    "released_at_utc": "2026-10-03T23:30:19.915701+00:00",
-    "release_reason": "PR118 exact-head CI,ordinary merge,all three merge checks and complete independent main/blob/master/report/library verification succeeded."
+    "owner": "codex-local-textile-b155-20261004",
+    "status": "active",
+    "batch_id": "20261004_b155",
+    "claimed_at_utc": "2026-10-03T23:45:51.697905+00:00",
+    "expires_at_utc": "2026-10-04T01:15:51.697905+00:00",
+    "purpose": "Publish3scientificHTMLbodies8nativetables;2newstates4conditions34heldfacts;caseincontrolreuseandTECHPAendpointheld;metadatareadonly;textonly",
+    "previous_release_commit": "9638a38e356cd6f0534dad4b492a958a1214799a"
   },
   "next_sources": [],
   "next_actions": [
