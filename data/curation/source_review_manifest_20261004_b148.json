@@ -1,0 +1,105 @@
+{
+  "batch": "b148",
+  "review_completed_utc": "2026-10-03T19:00:06.648813+00:00",
+  "baseline_counts": [
+    1150,
+    1474,
+    323
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_text_primary_PDF_pages": 35,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "total_fact_rows": 43,
+    "held_fact_rows": 35
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b148_local_textile.csv",
+      "published_input_sha256": "d7574d300ad1a902b2a27f00bf2aa02b0c96aa05b8bc7d423d9ce0851cf8767b",
+      "unique_sample_states": 8,
+      "verified_conditions": 8,
+      "held_fact_rows": 35,
+      "accepted_measurement_fingerprints": [
+        "1d9f5422a5a6c80d6d1b57894f826883b1d849eeca06223c5759fb85efe4d30c",
+        "b382809c8679b3c4941a35add409001d69a7df0cc141113688be2149c86ab576",
+        "c30c4931d5ea75f2f88296255aa030a626a9eff8a2d992b9021ae76dd539d2c2",
+        "307e836531d6dfe2c9ab5505d0b526091b32767ede54a236c898adaf2efde43a",
+        "d7a235de568ce6d84c3825fee60469bd6cfe56ab41fb3f121f833df867423de4",
+        "71cfdce3f76331e271ea454dd635bb52ea7d0626c1c605efd172df6e2a3f513b",
+        "37ef8a3ef81bce9930053ea9cfbdbe1a454146cb3f5cd4da396a317386221768",
+        "8997bdcdb34123a8b50d0eb31f24c9804f0f5c70bf9e38c0d9fded56bd1a1695"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2010.04.023",
+      "title": "Thermal behavior and fire performance of nylon-6,6 fabric modified with acrylamide by photografting",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 13,
+      "pages": 7,
+      "disposition": "All7ownVORprimaryTEXTpages. DP32.5initialgroup explicitlysharedbyTG/LOI;Fig2DP31.3versusFig3DP32.5at20wtAM40min process-screen discrepancy retained;no40min inferred for accepted specimen. Native startingdecomposition374 criterionundefined notT5/T10;firstDTG375amide-deaminationnotwater. Higherpeak440versusmaximumrate442conflict kept raw,canonicalhigherTmaxmissing. NoexactR600,notcurveestimated. MidTGDP16.6versusLOIDP16.9notaliased. ControlLOI19.8proseversus19.9Table4conflict;noexactTG. SixwashedLOIwithoutwashedTG held. NoSIcited;noimages.",
+      "SI_status": "NoSIcitedinallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2010.04.005",
+      "title": "Improving the flame retardancy of PET fabric by photo-induced grafting",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 2,
+      "pages": 9,
+      "disposition": "All9ownVORprimaryTEXTpages. OwnfourTable1samplelabels map to exactTGprose;native starting290/335/318 criterionundefined notT5/T10. Controlapproximateonsets350/486heldraw;R6506.0author-explicitnotderivedfrom94percentloss. DSC530/539/416/362 notDTGpeaks/TGonsets. Programstart/endunreported;R650notassignedprogramend. Gp28.4and22.5differentgroups;screenmaximum55.4notborrowed. Graftbath/timeandtotalFRbathconcentrationunknown;FRaddonbasisunreported,notfinalmassfraction. ATR-extractiondiscussionnotassignedasadditionalfunctional-testextraction. TheoreticalTG242/2.67notmeasuredsample. NoSIcited,noownwashedTG/LOI,noimages.",
+      "SI_status": "NoSIcitedinallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1016/j.polymertesting.2019.03.015",
+      "title": "Fabrication of poly(bis-benzimidazole imide) fibers with enhanced mechanical properties and high limit oxygen indexes",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 8,
+      "pages": 10,
+      "disposition": "All10ownVORprimaryTEXTpages. SixexactTable2TGprofiles of420Cdrawnfibers remainheld:LOI41homoand54PBIPIprose lack exactdrawing-state/per-formula mapping;Fig12nativeTEXTnoindividualvalues,noimage/digitization. ConclusionPI2with440/597conflictsTable2PI5values,notrepaired. Nativechar-yieldtemperatureunknown;900Cprogramendnotassignedresiduetemp. DMAglassTgnotTGonset;commercialcomparisonLOInotowncontrols. NoSIcited.",
+      "SI_status": "NoSIcitedinallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2020.145265",
+      "title": "Superwetting fabrics towards multifunctional applications: Oil/water separation, anti-fouling and flame-retardance",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "held_rows": 12,
+      "pages": 9,
+      "disposition": "All9ownVORprimaryTEXTpages and officialSIallbodyTEXT/TablesS1/S2;13embeddedimagesunviewedunused,no videos. Threeowninitialgroups haveexplicitprimaryLOI/R500andSIexactT5/T50/nativeTmax/R500. T5below106 includesearlywaterloss,NOTdecompositionTonset;TmaxretainsnativeSIheading. R500includesinorganicNiO,notpurecarbon;600CcalcinationnotTG500. XPSatompercentnotbulkfabricmassfraction. NiSO4/urea/NH4F5:5:3molarratio absoluteamountsunreported. Mainmass/pan/flowunknown. Sixhydrothermalmorphologyvariants andsixwashedwetting/masslossconditions lackownTG/LOI;held.",
+      "SI_status": "Own official DOI/PII matched SI;all native body text and TablesS1/S2 read;13embeddedimages unviewed unused;no videos accessed"
+    }
+  ],
+  "verification_limit": "Fourcompleteprimaryoriginals35TEXTpages;allofficialAPS-SIbodyTEXT/twoTablesread;13imagesunviewedunused,no videos. Eightinitialtextilesamples8TG43facts35held;27scienceguardsPASS;16fullavailableprofilesvsallrawincominganddistinctowngroupswith/withoutLOIanygaszeroidenticalhits. 10.1016/j.polymdegradstab.2010.04.023: All7ownVORprimaryTEXTpages. DP32.5initialgroup explicitlysharedbyTG/LOI;Fig2DP31.3versusFig3DP32.5at20wtAM40min process-screen discrepancy retained;no40min inferred for accepted specimen. Native startingdecomposition374 criterionundefined notT5/T10;firstDTG375amide-deaminationnotwater. Higherpeak440versusmaximumrate442conflict kept raw,canonicalhigherTmaxmissing. NoexactR600,notcurveestimated. MidTGDP16.6versusLOIDP16.9notaliased. ControlLOI19.8proseversus19.9Table4conflict;noexactTG. SixwashedLOIwithoutwashedTG held. NoSIcited;noimages. 10.1016/j.polymdegradstab.2010.04.005: All9ownVORprimaryTEXTpages. OwnfourTable1samplelabels map to exactTGprose;native starting290/335/318 criterionundefined notT5/T10. Controlapproximateonsets350/486heldraw;R6506.0author-explicitnotderivedfrom94percentloss. DSC530/539/416/362 notDTGpeaks/TGonsets. Programstart/endunreported;R650notassignedprogramend. Gp28.4and22.5differentgroups;screenmaximum55.4notborrowed. Graftbath/timeandtotalFRbathconcentrationunknown;FRaddonbasisunreported,notfinalmassfraction. ATR-extractiondiscussionnotassignedasadditionalfunctional-testextraction. TheoreticalTG242/2.67notmeasuredsample. NoSIcited,noownwashedTG/LOI,noimages. 10.1016/j.polymertesting.2019.03.015: All10ownVORprimaryTEXTpages. SixexactTable2TGprofiles of420Cdrawnfibers remainheld:LOI41homoand54PBIPIprose lack exactdrawing-state/per-formula mapping;Fig12nativeTEXTnoindividualvalues,noimage/digitization. ConclusionPI2with440/597conflictsTable2PI5values,notrepaired. Nativechar-yieldtemperatureunknown;900Cprogramendnotassignedresiduetemp. DMAglassTgnotTGonset;commercialcomparisonLOInotowncontrols. NoSIcited. 10.1016/j.apsusc.2020.145265: All9ownVORprimaryTEXTpages and officialSIallbodyTEXT/TablesS1/S2;13embeddedimagesunviewedunused,no videos. Threeowninitialgroups haveexplicitprimaryLOI/R500andSIexactT5/T50/nativeTmax/R500. T5below106 includesearlywaterloss,NOTdecompositionTonset;TmaxretainsnativeSIheading. R500includesinorganicNiO,notpurecarbon;600CcalcinationnotTG500. XPSatompercentnotbulkfabricmassfraction. NiSO4/urea/NH4F5:5:3molarratio absoluteamountsunreported. Mainmass/pan/flowunknown. Sixhydrothermalmorphologyvariants andsixwashedwetting/masslossconditions lackownTG/LOI;held.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1474,
+    "new_states": 8,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1158,
+    "verified_conditions": 1482,
+    "verified_dois": 326,
+    "verified_sources": 328,
+    "offline_tests_passed": 1251,
+    "snapshot_sha256": "16eaa5e4a0cec152c561e8493b4b60d8744ad26066bd9b73bcf6877ba42296e0",
+    "master_sha256": "23087367ea0e567d9031e28446d8b4fb0c288400db8642bc3fbe5017f30e2b7b",
+    "validation_errors": [],
+    "held_fact_rows": 35,
+    "complete_original_text_pages": 35,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "unchanged_private_evidence_files": 5,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
