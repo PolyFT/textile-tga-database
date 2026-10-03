@@ -1720,3 +1720,8 @@ Five same-state textile pairs and five TG records are supported by explicit prim
 - **10.1007/s10570-021-04191-0**: Two initial states approved: CTC155C45min and MTC600Wtotal4min; SI S3 TG and explicit body LOI. P3=T4 counted once; control processing unresolved; ten other TG groups lack own LOI; six SI tables read.
 
 Originals, full texts, supplementary files and local paths remain local.
+
+
+### b153 publication proof
+
+[PR #117](https://github.com/PolyFT/textile-tga-database/pull/117) merged as `5eaeee6eb30a37cb51a3fb1817a9b9c4a74b773b` after exact-head [validation run 37159227221](https://github.com/PolyFT/textile-tga-database/actions/runs/37159227221) passed on `ea46817f329b3b9982a21c3326b396ffefc05dbc`. All1381 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1199 states,1532 conditions,339 DOI sources and341 total sources. All1527 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and six primary original hashes, two official supplementary hashes and eight private text evidence hashes are preserved. The complete8978880-byte master has SHA256 `99fceb9b76d639042aaab08c7cd477046a36616fa31f7308f25f710a44f23f43`; the full remote report matches a fresh rebuild. Snapshot:`866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b`. Five new pairs and five TG conditions are published; evidence upgrades and legacy completions are zero;22 held facts remain excluded. Lease release follows this verified publication record.
