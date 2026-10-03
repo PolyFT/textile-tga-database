@@ -1,0 +1,81 @@
+{
+  "batch": "b141",
+  "review_completed_utc": "2026-10-03T17:00:23.579812+00:00",
+  "baseline_counts": [
+    1119,
+    1421,
+    315
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 2,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 38,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "total_fact_rows": 39,
+    "held_fact_rows": 35
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b141_local_textile.csv",
+      "published_input_sha256": "40d304d854e99e6f7122e0bf3f5cc774149a672bac7d4826a51b0965128d940f",
+      "unique_sample_states": 2,
+      "verified_conditions": 4,
+      "held_fact_rows": 35,
+      "accepted_measurement_fingerprints": [
+        "eb1fc202f08353c365a38c2a251597723913831ac3ff6ddb7496d6704427e4bf",
+        "1c5c203ea58e1a5dd022acc215a71e2055fbf93ab3550e125bf641da9303fe04",
+        "92bd810e9fa4bbbb57f1ab6ef37da3dde7d9df3d7a466fa3ccb6768f4446a716",
+        "17e617f693d787cab4043247c7829a3ad04fdf646e0a9b0c24fa2ed7d758ef27"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.carbpol.2018.08.078",
+      "title": "Straightforward one-step solvent-free synthesis of the flame retardant for cotton with excellent efficiency and durability",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 25,
+      "pages": 22,
+      "disposition": "Full22publisheracceptedprimarytextpages/completepage19recovered;accepted2018-08-19covernotfinalVOR. Ownscouredbleachedpurecotton124.89gsmChaotianmenChongqingweaveunknown. AHEDPAHEDPA10.30g.05mol/urea6.006g.100mol/ionizedwater20mL100C2hthen120C30minethanolprecipitation100Cdry98percentyield;nativeone-stepsolvent-freetitleversuswaterreactionretained. BathAHEDPA10/20/30/40percentbasisunreportedplus5percentdicyandiamidenative;70C40minsoak190C5mindryrunningwaterrinse80Cdry;initialprocessrinsenotdurabilitywash;WG(W2-W1)/W1. OwnLOIASTMD2863-2000M606BQingdaoShanfangdims/repsunknown. Table1p21fourbathrowsWG14.77/16.34/20.11/25.23;0LCLOI36.5/39.4/41.5/42.6;10LC32.3/35.9/39.3/40.7;20LC26.1/31.2/35.8/38.7;30LC24.3/28.7/32.1/36.9;40LC23.4/25.5/29.7/34.1;50LC21.8/23.0/26.2/29.5. Owncontrol18.4p9notborrowedintroreference18.4. OwnWG30percentafter50LC9.59and40percent13.97notextraindependentduplicatesof50LCrows. NativeLC0/10/20/30/40/50retained;AATCC61-2006soaping49C45minequivalent5commerciallaunderingsnotassumed50labcycles/250homerecords. MainTGonlyneatAHEDPA/control/30percentinitialp11-12;Pyris1N2/AIR20K/min40-800p8masspanflowunreported. CoupledTGIR8mgN220K/min40-600SEPARATEnotmainTGmass/end. Nativeprimaryproseabout289.8control/201.2treatedonsetgascriterionunlabellednotcanonicalTonset/T5/T10;waterbelow100notdecomp;R600onlyrelativeincreaseNOEXACTprimarynumbers;DTGmaximanotreported. CriticalexactthermalTableS1nowreadinofficialElsevierDOC6744064bytesSHA4bb3655f84fe0d8342443579ccc897efaeecaeb13cabbe5ed616e3856cd2dfb8;DOCX/PDF404notbarrieractualDOC200. IdentityownpublisherPII/distinctAHEDPAcompound/allthreeTGgroupsandfourSIcaptionsmatchprimary;SIhasnotitleauthorssoNOTclaimedtitle/authormatch. MacnativeDOCtoDOCXallXMLparagraphtext/TableS1read;conversionmayomitimages,fourSIfiguresunviewedunused. NativeTableS1N2Tonset/Tmax/R600AHEDPA140.8/250.1/16.0;control289.8/394.5/7.4;initial30treated201.2/299.0/44.4. AIRTonset1/Tmax1/Tonset2/Tmax2/R600/R800AHEDPA148.8/252.1/503.0/606.3/14.7/2.7;control267.4/371.1/443.5/467.6/.6/0;treated223.6/302.8/dash/dash/14.9/.5. NativeTonsetcriterionunreportednotT5/T10;treatedAIRsecondpeakdashesnotzeros;AIRcharoxidationseparate;R600vsR800notinterchanged;mainend800notTGIR600. NeatAHEDPAnoownLOIheldbothgas. Potentialcontrol+initial30percent2states4gas;other23LOIstatesnoownmatchingTG;Fresh8fullnumericcomparisonswithandwithoutLOIvsallincomingplusprivateB139/B140anddistinctownstatesfoundzeroidenticalprofiles;2initialstates4gasconditionsapproved. ConeTable3residue1.32/38.9notTG;verticalcharlength79/70/53/8150LCnotTG;unreportedwashedTGcannotborrowinitial. SIFig1vertical/S2cone/S3NMR/S4TGIRnotestimated. Of25LOIrecipe/statefacts,onlycontroland30percentinitialhaveownmatchingTG;23remainheld,plus2neatadditivegasfactsheld.",
+      "SI_status": "OfficialElsevierDOC200_6744064bytesidentitymatchedownPII_AHEDPA_threegroups_primaryonsets_fourcaptions;allSItextTableS1read;fourfiguresunviewedunused"
+    },
+    {
+      "DOI": "10.1002/app.1972.070160716",
+      "title": "Flame-retardant properties and thermal behavior of selected flame-retardant cotton fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 10,
+      "pages": 16,
+      "disposition": "1972JApplPolymSci16p1801-1816. Ownbleachedmercerized160x160combedcottontwill6.3oz/sqydTestFabricsInc;4finishesdipnipUSDA. THPCamidebath17.2percentTHPC10.9urea9.7TMM4.3TEA.5Triton57.4water85C2mindry140C4mincure;THPOHamide16.2THPOH11.4urea10.2TMM.5Triton61.7water85C2mindry140C4min;THPOHNH335THPOH.5Triton64.5water85C3mindryNH3vapor4-6min;THPCcyanamideLABELversusmethods712.5gPHOSPHONIUMHYDROXIDEchemicalconflictretainednotcorrectedtochloride. Everyowncontroland4finishinitialvs5launderAATCC124-1967standarddetergentwithoutbrightnertumbledhigh40min;detergentphosphoruspickupmeanswashedcontrolisownstate. TableIIIp6printed1806OIfractionsinitial.184/.287/.298/.300/.269;washed.182/.296/.300/.290/.258;normalizevolfractionx100onlywithsourcefractionretained. LOIGEtester6inx2.5inN2flow88psig132.3cc/snative;LOIstandardnotreporteddoNOTborrow45degreeASTMD1230orverticalD626. MainTGduPont950N25C/min0.2L/minp4;masspanstartendunreported;DSC40C/min25-450withsealedaluminum6dayP2O5vacuumisSEPARATE notborrowTGmass/pan/pretreatment/ramp/end. TableVp7firstloss/firstmajor/halfvolatile/endmajor/finalinitial260317334351360;215297308319325;215295307319325;215270280290295;205277290302305;washed280320335350360;245298308318325;250300312323325;245278289299295;260280293306315. Nativehalfvolatilizationmassbasisnotexplicitinitialmassvsvolatilefraction=>holdinterpretationratherthanassumeT50;firstlossnotautomaticallyT5/T10/genericonset. WashedNH3endmajor299versusfinal295inconsistentretained. TableVIp8TGAresidueinitial8.05/37.65/37.57/47.62/38.89washed7.59/39.78/38.16/47.83/37.08TEMPnotlabelledcannotborrowDSC450orTableVfinal. DSCresidues8.91/36.01/39.13/50.33/38.51andwashed11.12/39.96/37.97/46.05/40.70separatefromTG. All16textpages/figcaptions/referencesreviewed;noSIcited. NativeTGfactsremainprivatependingmetricdefinition/residuetemperature/dedup;0approved.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    }
+  ],
+  "verification_limit": "Twocompleteprimaryoriginals38textpagesandalloneofficialSItext/TableS1;oneprimaryreviewer;fourSIfiguresunviewedunused. Ownpurecotton124.89gsmcontrolLOI18.4andinitial30percentAHEDPALOI41.5joinSITableS1N2/AIRnativeTonset/DTGmaxima/R600andAIRR800;Pyris1main20K/min40-800CnotTGIR8mg40-600C. NativeTonsetcriterionunreportednotT5/T10;waterbelow100separate;AIRcharoxidationsecondpeakcontrol467.6notN2peak;treatedAIRsecondpeakdashesnotzero. N2R600control7.4/treated44.4;AIRR600.6/14.9andR8000/.5aretemperaturebound. Nativebath30percentbasisunknownnotfinalmassfraction;initialdryWG20.11notafter50LC9.59. Initialprocessrinse70C40minsoak190C5mindryrunningwater80Cdrynotdurabilitywash. Twenty-threeotherAHEDPAconcentration/washedLOIstatesNOmatchingTGandtwofreeAHEDPAgasrecordsNOownLOI/textileformheld. NativeLC10/20/30/40/50notassumedlabcyclecount;AATCC49C45minequivalent5commercialwashesretained. SIofficialDOCownpublisherPII/distinctcompound/threegroups/primaryonsets/fourcaptionsmatch;SInotitleauthorsnotclaimedmatched;Macnativeconversionmayomitimages. Accepted2018-08-19publishermanuscriptnotVOR;finalyearblank. Ten1972cottonbefore/after5launderfactsHELD:halfvolatilizationinitialmassvsvolatilefractionbasisunreportednotassumedT50;firstweightlossnotT5/T10/Tonset;TGresidueTEMPunknownnotDSC450orTableVfinal;TGN25C/minnotDSC40C/min;THPCcyanamidelabelversusphosphoniumhydroxidemethodconflictnotcorrected. HistoricalOIfractionx100exactunitconversiononly;washedcontroldetergentphosphoruspickupdistinctstate. Two new states,4 conditions,39 facts,35 held;1 accepted DOI,2 reviewed papers;nooriginal/fulltext/SI/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1421,
+    "new_states": 2,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 1121,
+    "verified_conditions": 1425,
+    "verified_dois": 316,
+    "verified_sources": 318,
+    "offline_tests_passed": 1119,
+    "snapshot_sha256": "d0ac79d000224b6d226fe4d8180f04adc1e120977d0fe2cc5b28fbe16a692141",
+    "master_sha256": "194865eee44447581a4478696b64bc191ad94108a17dfd5690b42ee140475ca4",
+    "validation_errors": [],
+    "held_fact_rows": 35,
+    "complete_original_text_pages": 38,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 2,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
