@@ -2194,9 +2194,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 3,
-      "last_attempt_utc": "2026-10-01T21:00:36.553350+00:00",
-      "next_retry_utc": "2026-10-02T21:00:36.553350+00:00"
+      "attempt_count": 4,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-05T13:26:42.699857+00:00"
     },
     "10.1002/fam.3182": {
       "fingerprint": "36a994d4dd3927206c83",
@@ -2361,9 +2361,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 3,
-      "last_attempt_utc": "2026-10-01T21:00:36.553350+00:00",
-      "next_retry_utc": "2026-10-02T21:00:36.553350+00:00"
+      "attempt_count": 4,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-05T13:26:42.699857+00:00"
     },
     "10.54392/irjmt26417": {
       "fingerprint": "2a662b080dfc7e0072e6",
@@ -2978,9 +2978,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 3,
-      "last_attempt_utc": "2026-10-01T21:00:36.553350+00:00",
-      "next_retry_utc": "2026-10-02T21:00:36.553350+00:00"
+      "attempt_count": 4,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-05T13:26:42.699857+00:00"
     },
     "10.1002/pat.3029": {
       "fingerprint": "e3093eecced5fb0b222b",
@@ -3168,9 +3168,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 3,
-      "last_attempt_utc": "2026-10-02T02:38:54.791770+00:00",
-      "next_retry_utc": "2026-10-03T02:38:54.791770+00:00"
+      "attempt_count": 4,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-05T13:26:42.699857+00:00"
     },
     "10.3390/molecules24173100": {
       "fingerprint": "006fc4cebd53a384da5b",
@@ -3190,8 +3190,28 @@
       "attempt_count": 3,
       "last_attempt_utc": "2026-10-02T20:02:46.445683+00:00",
       "next_retry_utc": "2026-10-03T20:02:46.445683+00:00"
+    },
+    "10.7216/teksmuh.1939122": {
+      "fingerprint": "fa6e0b28f6b121f7584b",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-03T19:26:42.699857+00:00"
+    },
+    "10.1002/app.40584": {
+      "fingerprint": "fd501eb9704f157ba987",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
+      "next_retry_utc": "2026-10-03T19:26:42.699857+00:00"
     }
   },
-  "last_run_utc": "2026-10-03T13:16:35.476306+00:00",
-  "last_examined_candidates": 25
+  "last_run_utc": "2026-10-03T13:26:42.699857+00:00",
+  "last_examined_candidates": 6
 }
