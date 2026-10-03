@@ -1,0 +1,93 @@
+{
+  "batch": "b138",
+  "review_completed_utc": "2026-10-03T14:54:14.100349+00:00",
+  "baseline_counts": [
+    1102,
+    1393,
+    311
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 27,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 35,
+    "held_fact_rows": 29
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b138_local_textile.csv",
+      "published_input_sha256": "b55504626c3a6cd4af891bb432852a2d6540c2dc42b26bd90d356c1a92c2e73d",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 29,
+      "accepted_measurement_fingerprints": [
+        "294e7ef076583a92ae93186dc71f9558900bd3dcfc77cac5134f1c18e0939c19",
+        "a1250304602f9515eb93673c9f8ce1cf9431ea840b8e5da3ff2afaa817e93d8f",
+        "f5d7f06878bf31ea76e540fc31871c77c0ddf653efc8b477f914a7045a3326c6",
+        "d1432988250cb9f1531b58f5df7788560f2ca18fd648769d64aab1431558a297",
+        "5279e4626402077179dff6c64cd72630ee4769a8a86bccdb11ee4890ece65f61",
+        "38f7d15eaf26a1ca4c5b41d1e72d657f5d0389fff7190b21fc009687815be503"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/pat.6162",
+      "title": "Jute woven fabric modified by phosphorus\u2010containing organosilicon compound reinforced flame retardant polylactic acid composites with enhanced flame retardant and mechanical properties",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 2,
+      "pages": 14,
+      "disposition": "Complete14primarytextpages;2023vol34p3617-3630. Own4filmstackedPLA/jutecompositesLOI20/35.5/23.5/34.1Table3p6joinownTable5p10T1nativeTd1percent/Tmax/R700. CONTROLTableT1292vsprosep9Td1373CONFLICT:canonicalcontrolT1/Tmaxblank,explicitR7006.5only;other3T1281/280/265,Tmax370/379/375,R70017.3/6/19.3. MethodcompositesN220C/min50-730CSTA80005-10mgliquidN2cutmaintainstackedform;panunreportedNOTborrowedfiberaluminapan;700charnot730end;MLR2.6/1.6/2.5/1.3percentperCnotheatingrate. 3layers114gsmplainjuteXitaotao/10PLAfilms;matrix100gPLAor80gPLA20gIFR(APP:triazine4:1);fiber15g;PCOC1.5gwhenmodified,10percentfibermassnotcompositewtfraction. PCOCethanol1:5spray70C1hvacuummethodsynthesisref30recipeunreported. Film185C0.2mm/stack185C6mincool8min3mmfinalmold. LOIASTMD2863-97130x6.5x3.2mmDynisco300800;LOIrepsunknownUL94fiveatleastnotborrowed;native3mmmoldvs3.2mmtestsizesretained. TwofreefabricTGTable2groupsheldNOLOI;fiberTd1/TmaxprosemisdescribesdirectionandvaluesnotjoinedtocompositeLOI. Table4CCTchar1.9/18.2/4/18.6notR700. Noestimatednumbers. LocalHTMLidentifies4officialSIvideos;unviewedpertextonlypreference,noSImeasurementsused.",
+      "SI_status": "4officialSIvideosidentifiedlocalHTML;unviewedpertextonlypreference;noSImeasurementsused"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2014.11.007",
+      "title": "Eco-friendly finishing agent for cotton fabrics to improve flame retardant and antibacterial properties",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 20,
+      "pages": 8,
+      "disposition": "Complete8primarytextpages;2015vol118p83-90not2014online/copyrightyear. Own230gsmplaincottonMisrMehalaEgypt. Bathpercentw/wexplicit;2dip2nip100percentpickup85C3mindry/secondTi baththen160C2mincure;methodp2alltreatedpropertiesafter10homewashdrycyclesAATCC1999technicalreport,abstractmethods5cyclesconflictretainednochosenwashcount. LOIASTMD2863-085specimens5x15cm,instrumentunreported. MainPyris1N210C/min50-600C8mg100mL/minplatinumpan03190264. Fig3aTi1.5/3/5/7/9w4BTCA6ChitP4SHP;Fig3bSHP3/4/5/6/8w4BTCA4ChitP9Ti;Fig3cChitP2/3/4/5/6w4BTCA6SHP9Ti;allunannotatedLOIexceptownproseupper8SHP22.7/6ChitP23andcontrol17.4. ThoseexplicitupperLOIgroupshaveSHP8/6vsTG4andChitP4/6;notborrowedfor4SHP6ChitPTG. TGFig5labels5groupscontrol/2depChit/2depChit9Ti/6ChitP9Ti4BTCA4SHP/6ChitP4BTCA4SHP;prosep5temperaturelists300/310/290/260vslaterproseswapslabels,notdefinedT5/T10/Tonset/Tmax. Weightloss66.6/77.35/63.834/44.85/40.91TEMPunknown,notconvertedtoR600orchar. 20uniqueformulationfactsALLHELD:control1+3Fig3series15+BTCA4SHP4and6ChitP4BTCA4SHPgroups2+depChitgroups2. FulltextnoSIcited;noimageviews/noestimates.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2009.02.009",
+      "title": "The anti-dripping intumescent flame retardant finishing for nylon-6,6 fabric",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 7,
+      "pages": 5,
+      "disposition": "Complete5primarytextpages;2009vol94p996-1000. Own100percentWOVENPA66165gsmHairongChengdu;APPIpolymerization10-20/APPII>20(notcommercialDP1000). Table1own8groupsAPPI:APPII:MEL:PER3:0:0:0,3:0:1:0,3:0:0:1,3:0:1:1,0:3:0:0,0:3:1:0,0:3:0:1,0:3:1:1;LOI23.5/27.5/25.3/27.9/21.7/22.1/21.1/22.9/addon30.2/38/34.9/40.6/2.5/3.8/3.4/4.6nativew/wdefinitionunknown. InitialAPPI2R75024explicitprosep3joinsLOI27.5;initialAPPI4Tmax310explicitDTGprosep3joinsLOI27.9. MainHENVENHCT1TGDSCstaticAIR10C/min25-800C2-3mgflowpanunknown. Moisture120/140notdecomponset;secondstep270approxnotcanonical;APPcomponent250/melaminePER300nottextileTmax. OtherAPPIresidue>13inequalitynotexact;noestimatedotherDTGpeaks;controlTmax410/onset350TGbutNOOWNLOIheld;APPIIonlyLOInoTG4held. TwoAPPIothergroupscurveonly2held =>9facts2accepted7held. APPIreported90wtpercentaq/APPII30wtpercentnativeconcentrationbasisambiguityretainednotcorrected;2dip2nip70percentpickup0.1MPa/135C4min. SourceabstractmentionswashingdurabilitybutnoreportedwashedLOI/TG/washcycles;no inventedrecords. LOIownJF3GB/T2403-1993dimsrepeatsunreported;notborrowedtensile25x4cm. NoSIcited;noimageviews.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    }
+  ],
+  "verification_limit": "Threecompleteprimaryoriginals27textpages;textonlynoimagesrenderedorviewed;oneprimaryreviewer. FourfilmstackedPLA/jutecompositesLOI20/35.5/23.5/34.1joinTable5R7006.5/17.3/6/19.3N220C/min50-730C5-10mg;controlTd1Table292versusprose373labelconflictleavesT1/Tmaxblank;otherthreeconsistentTd1/Tmaxretained;freejuteTGheldNOLOI;700charnot730programend. Compositepanunreportednotborrowedfiberalumina;MLRnotheatingrate;coneresiduesseparate. FourofficialSIvideosidentifiedlocalHTMLunviewedpertextonlypreference,noSImeasurementsused. Chitosan/TiO2cotton20factsALLHELD:LOI23isSHP6groupnotTG4;unannotatedcurvesnotestimated;unclassifieddecompositionlabels/conflictingsampleorder/5vs10washcountunresolved;weightlossTEMPunknownnotconvertedtochar. TwoownAPPI-treatedwovenPA66groupsSample2LOI27.5/R75024andSample4LOI27.9/Tmax310staticAIR10C/min25-800C2-3mg;firstloss120/140waternotdecomposition;APPII/control/inequality-onlycharheld. BathconcentrationAPPI90/APPII30sourceambiguityretained. Tmax310/rate10coincidenceswithfourcotton/PETrecordswithdifferentLOIareadjudicateddistinctmaterials,allhitsretained;notduplicatesourcePA66specimens. Sixnewstates6conditions35facts29held;2acceptedDOIs3reviewedpapers;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1393,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1108,
+    "verified_conditions": 1399,
+    "verified_dois": 313,
+    "verified_sources": 315,
+    "offline_tests_passed": 1059,
+    "snapshot_sha256": "4a9d4a742a9740cbeb96ee4317dc9567c6174f9f6fd47316e32a79733e1cb534",
+    "master_sha256": "a1d58618d8d9db29834c47bf30ae025490a51c7f70e79c9b3c9c454e850224fd",
+    "validation_errors": [],
+    "held_fact_rows": 29,
+    "complete_original_text_pages": 27,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 4,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
