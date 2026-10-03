@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1150 unique reviewed source/sample/washing states**, **1474 TG condition records**, and **325 original sources (323 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1158 unique reviewed source/sample/washing states**, **1482 TG condition records**, and **328 original sources (326 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1150 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 949 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 957 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1622,3 +1622,15 @@ The sol-gel control remains held against unresolved cross-source independence. P
 ### b147 publication proof
 
 [PR #111](https://github.com/PolyFT/textile-tga-database/pull/111) merged as `d92f9c28aafec6ce53c29a7ec3c8151a8c57e38b` after exact-head [validation run 37144156932](https://github.com/PolyFT/textile-tga-database/actions/runs/37144156932) passed on `27cd40ec905e73237667a352bdf6a7392ba90c38`. All1224 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1150 states,1474 conditions,323 DOI sources and325 total sources. All1456 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and two primary original hashes, one official SI hash and three private text evidence hashes are preserved. The complete8503676-byte master has SHA256 `54086fd216979aba1a2750e501c154e8a8a63b7fc9dc7e33f4b9b684f0e6b93d`; the full remote report matches a fresh rebuild. Snapshot:`b23ee05eec4d471e6538f445abc4e091b78caebdb22821ed59663598266755f3`. Nine new pairs and eighteen TG conditions are published; evidence upgrades and legacy completions are zero;33 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b148 native nylon, PET and coated cotton groups with process and metric holds
+
+Four complete primary originals (35 text pages), plus the text and two native tables of one official supplement, add **8 initial textile samples and 8 TG conditions**. Evidence upgrades and legacy completions are zero. Thirty-five of 43 factual records remain excluded. Thirteen supplementary images are unviewed and unused; no videos or curve estimates were used.
+
+- **10.1016/j.polymdegradstab.2010.04.023**: All7ownVORprimaryTEXTpages. DP32.5initialgroup explicitlysharedbyTG/LOI;Fig2DP31.3versusFig3DP32.5at20wtAM40min process-screen discrepancy retained;no40min inferred for accepted specimen. Native startingdecomposition374 criterionundefined notT5/T10;firstDTG375amide-deaminationnotwater. Higherpeak440versusmaximumrate442conflict kept raw,canonicalhigherTmaxmissing. NoexactR600,notcurveestimated. MidTGDP16.6versusLOIDP16.9notaliased. ControlLOI19.8proseversus19.9Table4conflict;noexactTG. SixwashedLOIwithoutwashedTG held. NoSIcited;noimages.
+- **10.1016/j.polymdegradstab.2010.04.005**: All9ownVORprimaryTEXTpages. OwnfourTable1samplelabels map to exactTGprose;native starting290/335/318 criterionundefined notT5/T10. Controlapproximateonsets350/486heldraw;R6506.0author-explicitnotderivedfrom94percentloss. DSC530/539/416/362 notDTGpeaks/TGonsets. Programstart/endunreported;R650notassignedprogramend. Gp28.4and22.5differentgroups;screenmaximum55.4notborrowed. Graftbath/timeandtotalFRbathconcentrationunknown;FRaddonbasisunreported,notfinalmassfraction. ATR-extractiondiscussionnotassignedasadditionalfunctional-testextraction. TheoreticalTG242/2.67notmeasuredsample. NoSIcited,noownwashedTG/LOI,noimages.
+- **10.1016/j.polymertesting.2019.03.015**: All10ownVORprimaryTEXTpages. SixexactTable2TGprofiles of420Cdrawnfibers remainheld:LOI41homoand54PBIPIprose lack exactdrawing-state/per-formula mapping;Fig12nativeTEXTnoindividualvalues,noimage/digitization. ConclusionPI2with440/597conflictsTable2PI5values,notrepaired. Nativechar-yieldtemperatureunknown;900Cprogramendnotassignedresiduetemp. DMAglassTgnotTGonset;commercialcomparisonLOInotowncontrols. NoSIcited.
+- **10.1016/j.apsusc.2020.145265**: All9ownVORprimaryTEXTpages and officialSIallbodyTEXT/TablesS1/S2;13embeddedimagesunviewedunused,no videos. Threeowninitialgroups haveexplicitprimaryLOI/R500andSIexactT5/T50/nativeTmax/R500. T5below106 includesearlywaterloss,NOTdecompositionTonset;TmaxretainsnativeSIheading. R500includesinorganicNiO,notpurecarbon;600CcalcinationnotTG500. XPSatompercentnotbulkfabricmassfraction. NiSO4/urea/NH4F5:5:3molarratio absoluteamountsunreported. Mainmass/pan/flowunknown. Sixhydrothermalmorphologyvariants andsixwashedwetting/masslossconditions lackownTG/LOI;held.
+
+Static air remains an explicit source qualifier alongside the canonical air atmosphere. Undefined native decomposition starts are not T5 or T10; low cotton T5 includes early water loss. DSC and theoretical temperatures, unresolved higher DTG peaks, unmapped polyimide LOI, unknown residue endpoints and washed combustion/wetting observations remain separate. Cotton R500 includes inorganic oxide. Unknown composition and test conditions remain unknown. Original fulltexts, SI, images and private paths remain outside the repository. Publication requires exact-head CI, ordinary merge, three successful merge checks, complete remote-byte verification and release of the owned lease.
