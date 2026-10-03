@@ -1736,3 +1736,8 @@ Nine initial cotton sample states and fourteen TG conditions use native primary 
 - **10.1007/s10570-022-04929-4**: Four initial N-PDBDPA cotton states, six TG records: primary Tables1/2, SI S1 methods and S2 air. All four primary tables and three SI tables reviewed. Four washedLOI states held; native Table4 washed30LOI31.8 versus body31.1 conflict retained; cone residues are separate.
 
 Originals, full texts, supplements, correction documents and local paths remain local.
+
+
+### b154 publication proof
+
+[PR #118](https://github.com/PolyFT/textile-tga-database/pull/118) merged as `70a1663d5a63ff5fc8edab4fefd21f67482d8802` after exact-head [validation run 37161343333](https://github.com/PolyFT/textile-tga-database/actions/runs/37161343333) passed on `cf9f56a5a00b66667a28589c8608a44a4fae687f`. All1412 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1208 states,1546 conditions,341 DOI sources and343 total sources. All1532 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, thirteen official table/supplement/correction original hashes and sixteen private text evidence hashes are preserved. The complete9066360-byte master has SHA256 `ddabcd3bb033f3a4fc6bb2bf67ffecfb9eb02e2615befe5f3b8c852b564b7deb`; the full remote report matches a fresh rebuild. Snapshot:`9f6b8622343121c2e94d414cd4053caad8518f8ad5bfc3b9baef286ccf263616`. Nine new pairs and fourteen TG conditions are published; evidence upgrades and legacy completions are zero;17 held facts remain excluded. Lease release follows this verified publication record.
