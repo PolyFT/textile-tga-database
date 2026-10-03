@@ -1,0 +1,649 @@
+{
+  "batch": "b151",
+  "review_completed_utc": "2026-10-03T20:59:41.588386+00:00",
+  "baseline_counts": [
+    1180,
+    1510,
+    332
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 11,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "complete_text_primary_PDF_pages": 36,
+    "complete_official_SIs_text_tables_reviewed": 0,
+    "total_fact_rows": 21,
+    "held_fact_rows": 10
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b151_local_textile.csv",
+      "published_input_sha256": "66f5fd571e32b9563bed5ccade0230d843d50d43495d892cb7e0a38d8b012b5b",
+      "unique_sample_states": 8,
+      "verified_conditions": 11,
+      "held_fact_rows": 10,
+      "accepted_measurement_fingerprints": [
+        "1d630b3770e678e0713c231a2201ac94d803a2e603cbb62d9a7f4dc3f5330bc0",
+        "47c9eff02b86b035a0d448214fec6f8500e2b93cada0c56c0c5f983e0b573cdb",
+        "e63101c06a27faac474d3287d504ad03a2bb88ce0558d25469fde4373c5916a7",
+        "a61234ac3d1fa7da49a9f47105c3cb6258c0bcea78f81a36ce137527745af4e8",
+        "28e72bb750a9fe8c68967697eb148ebb984cf5e7cac059f137ba01bc8de4ac55",
+        "5b63f0e11b9ede220c64419f615bd58117e354fa2b5ad4b746ec401206ebbfc0",
+        "853b01ada934521991d1c690fb865e6faf66105806c48739a398a6a8353db048",
+        "bd055c9709c743eb3f94220583f10eab1c90b8260f0e10d501231b49a7e9ad29",
+        "28f5f2c447dc2910e2c5abd682063f73405de132d002dbcbf458ef2642a4ae88",
+        "1eaa0cf3388ca5b3b726adb52a2e91af1d4789b3e31ee0aa1e3bd4e3c3ea6b23",
+        "d065065eba16fcb674aaaa65f030cfe613cb13fa557351f4251d0c6b9378a80e"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "title": "Flame retardation of cellulose-rich fabrics via a simplified layer-by-layer assembly",
+      "accepted_states": 3,
+      "accepted_conditions": 6,
+      "held_rows": 2,
+      "pages": 7,
+      "disposition": "Own120gsmSichuanCottonPrintingDyeingfabric;initialcontrol/3wt/5wtAPP-BPEIweightgain;primaryTable1journalp437PDFp4T5/DTG/R400/R600twoatmospheres10Cmin;LOI18.4/21.0/22.2explicitsameinitialgroupsp437;TG209F1;TGmasspanflowstartendunreported;R600notinferredendpoint;TablefootnoteDTGmaximumlossrateoverridesloosemaximumweightlosswording. Primarypreparation1wtAPP/.2wtBPEI1.2:1vol12hstirRTdipsdry/repeatedtotargetwtgain/vac50C12hpretest;weightgainbasisnotexplicitEqnotfinalfraction. W3h/W6h40C300rpm.5wtAriel/DIrinsevac50C12hLOI21/20withNOownwashedTG;twoheld. FilmTGnotfabric;horizontal/coneresiduesnotTG. CitedSIunreadexplicit;allacceptedprospectivefactsprimary;S1p437/439citedLOI;noimages. All7TEXTpagesread,Deduplicated and imported into the B151 branch; publication pending.",
+      "SI_status": "CitedS1/S2unread;allcandidateacceptedTGLOImethodfactsinprimary;unmatchedwashedstatesheld"
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "title": "Fabrication and characterization of melamine formaldehyde fibers with enhanced mechanical properties and high fire resistance by dry spinning",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 0,
+      "pages": 12,
+      "disposition": "OwnfourfinisheddryspunMFfiberFMF/SiO2/PVA/both,notbulkresin/as-spun/dopedope. All12publisher2020e49385nativeTEXTpages. Table1p10T5/Tmax/R600278.3/386.8/35.2;298.9/394.7/35.9;228.8/365.4/32.3;260.6/374.5/34.0. Bodyp8R60035.22/35.86/32.33/33.98consistentroundingretainrawnotextraTG. Table2p10LOI42.3/42.7/40.4/41.1withp8sameexplicitmapping. Q500N240mLmin6mgaluminapanambient-60010Cminp4-5;LOIJF3fiberplait50x6x3mmstandard/repsunknown. PrecursorcompleteformulafullFMF-SiO2-PVAonlymel44.8/benzo11.9/paraform34.5/hydroxyoxapentylmel5.7/hexamethoxymel.7/modifiedSiO2.5/PVA1.9wt%feed;other3omitadditivesnotinferrenormalizedfeedpercentnorfinalfiberfraction. FeedpH990C6h;KH550modifiedSiO2actualmodificationprotocolref20notinvent. Fibersspinneret.12mmx100heatedacidgastype/tempunreported;postsolidification230-250C1hnotas-spun. T5includeswater/PVAdegradationnotdecompositionTonset. p8bodymasslossranges347-378/357-388/365-397/375-405separatequalitativeprocessdescriptionsnotadditionalTmaxorT5;noimages/SIcited. FTIRdopedopeoxidationnotTGAair;30daystoredDOPEnotagedfibers;DMSO7dayequilibriumswellingnotTG/LOIwashedstate;600residuecontainsSiO2notpurechar. AllTEXTread,Deduplicated and imported into the B151 branch; publication pending.",
+      "SI_status": "NoSIcitedallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1002/app.1992.070460312",
+      "title": "Flame\u2010retarding modification of nylon 6 textile",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "held_rows": 1,
+      "pages": 4,
+      "disposition": "Own4pages1992JAPS46pp467-470nativeTEXT. NativeCP-MNhydroxymethylated/Pyrovatexnylon6LOI31.4TableIp468andbodyp469/R7003.5explicitbodyp470;AIR10CminRT-700DT30B~3.2mgp468;panflowunknown. ControlTG N1.4p470+NLOI23.6body/abstractbutTableILOIlabelCP-NnotnativeN,controlmappingheldpendingexplicitadjudication. MNnoownnumericTG/LOI;DSCTableIIIII223/204/203melting and345/324/329onset459/450/434oxidationpeaksnotTG. Xraypyrolysis550C40min4.4932->.2781gnotTGresidue,donotcalculateR550. TableP2.92vsXrayoriginal2.73differenttestspecimenkeptnotbulkfractionreplacement. Hydroxymethylation36%formaldehydepH.9-1.070-80C1-2h/waterrinse;Pyrovatex10-50%5-30min150-180C2-6min rangesnotexactperformulavariants;abstract160-170Cnotassignedexactcuringtemperature. IR70hwaterextractionnotfunctionalstate;LOIstandardref2ASTMD2863-77dimensions/repsunreported. All4TEXTread;noSI/images;Deduplicated and imported into the B151 branch; publication pending.",
+      "SI_status": "NoSIcitedallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1039/d4ta04320k",
+      "title": "Advanced Janus coatings for thermal management and synergistic flame retardancy in polyester fabric",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 7,
+      "pages": 13,
+      "disposition": "All13own2024VORnativeTEXTpages24934-24946;ownPET/PUC/PUC-MHPP5.0/7.5LOI20/22/25.5/28p9and20wash7.5LOI27.3;Janus7.5-BPLOI28abstract/conclusion. OwnnumericalTG/methodsrequiredTableS5unread;7.0charprosehasnoexactgas/tempandcannotbeassignedR800/programendorborrowedconechar. Noimages/curveestimates. PETsupplierSichuanDongcai/thickness.6mm,arealdensityunreported;200g/m2coatingeachsideafterp4optimizationnot400/600variants. One-sidedMHPPanddualJanusBPstateskeptdistinct;washedTGnotborrowed. NativePUCprepolymerPCL10gHDI1.85gDMF10mL80C30minDBTDL1drop60minTHPO1g/DMF5mL15min;MHPP2.5/5/7.5wt25C3hDMF5mL120C24hcure;BP.5g/50mLDMFPUCamountunreported25C30min120C24hcure. Coatingfractionnotwholefabricfraction;pretreatmentref20unreadnotinvent. TGIR400-460bandnotDTGpeak;RamanIDIGnotresidue. Onlyownpublishedfacts,SIaccessfailureprivatecheckpoint;zeroverifiedpairs.",
+      "SI_status": "CitedTableS1composition/TableS5TGandtestmethodsneeded;officiallanding403andcandidateofficialPDF/docx/docURLs404;unreadnotproofabsence;noSIvaluesused"
+    }
+  ],
+  "verification_limit": "Four complete primary originals (36 native text pages) add eight initial textile states and eleven TG conditions; 21 factual records, ten held. Twenty-two scientific guards pass. Twenty-two gas/rate-agnostic residue-alias-normalized full-profile comparisons and twenty additional partial-metric/precision-risk comparisons find no identical profiles. APP/BPEI supplement is cited but unread; all accepted facts are primary. RSC Table S5 and methods are unread after official-page 403 and candidate supplement URLs 404; all RSC facts remain held. No images or curve estimates. 10.1016/j.carbpol.2016.05.087: Own120gsmSichuanCottonPrintingDyeingfabric;initialcontrol/3wt/5wtAPP-BPEIweightgain;primaryTable1journalp437PDFp4T5/DTG/R400/R600twoatmospheres10Cmin;LOI18.4/21.0/22.2explicitsameinitialgroupsp437;TG209F1;TGmasspanflowstartendunreported;R600notinferredendpoint;TablefootnoteDTGmaximumlossrateoverridesloosemaximumweightlosswording. Primarypreparation1wtAPP/.2wtBPEI1.2:1vol12hstirRTdipsdry/repeatedtotargetwtgain/vac50C12hpretest;weightgainbasisnotexplicitEqnotfinalfraction. W3h/W6h40C300rpm.5wtAriel/DIrinsevac50C12hLOI21/20withNOownwashedTG;twoheld. FilmTGnotfabric;horizontal/coneresiduesnotTG. CitedSIunreadexplicit;allacceptedprospectivefactsprimary;S1p437/439citedLOI;noimages. All7TEXTpagesread,Deduplicated and imported into the B151 branch; publication pending. 10.1002/app.49385: OwnfourfinisheddryspunMFfiberFMF/SiO2/PVA/both,notbulkresin/as-spun/dopedope. All12publisher2020e49385nativeTEXTpages. Table1p10T5/Tmax/R600278.3/386.8/35.2;298.9/394.7/35.9;228.8/365.4/32.3;260.6/374.5/34.0. Bodyp8R60035.22/35.86/32.33/33.98consistentroundingretainrawnotextraTG. Table2p10LOI42.3/42.7/40.4/41.1withp8sameexplicitmapping. Q500N240mLmin6mgaluminapanambient-60010Cminp4-5;LOIJF3fiberplait50x6x3mmstandard/repsunknown. PrecursorcompleteformulafullFMF-SiO2-PVAonlymel44.8/benzo11.9/paraform34.5/hydroxyoxapentylmel5.7/hexamethoxymel.7/modifiedSiO2.5/PVA1.9wt%feed;other3omitadditivesnotinferrenormalizedfeedpercentnorfinalfiberfraction. FeedpH990C6h;KH550modifiedSiO2actualmodificationprotocolref20notinvent. Fibersspinneret.12mmx100heatedacidgastype/tempunreported;postsolidification230-250C1hnotas-spun. T5includeswater/PVAdegradationnotdecompositionTonset. p8bodymasslossranges347-378/357-388/365-397/375-405separatequalitativeprocessdescriptionsnotadditionalTmaxorT5;noimages/SIcited. FTIRdopedopeoxidationnotTGAair;30daystoredDOPEnotagedfibers;DMSO7dayequilibriumswellingnotTG/LOIwashedstate;600residuecontainsSiO2notpurechar. AllTEXTread,Deduplicated and imported into the B151 branch; publication pending. 10.1002/app.1992.070460312: Own4pages1992JAPS46pp467-470nativeTEXT. NativeCP-MNhydroxymethylated/Pyrovatexnylon6LOI31.4TableIp468andbodyp469/R7003.5explicitbodyp470;AIR10CminRT-700DT30B~3.2mgp468;panflowunknown. ControlTG N1.4p470+NLOI23.6body/abstractbutTableILOIlabelCP-NnotnativeN,controlmappingheldpendingexplicitadjudication. MNnoownnumericTG/LOI;DSCTableIIIII223/204/203melting and345/324/329onset459/450/434oxidationpeaksnotTG. Xraypyrolysis550C40min4.4932->.2781gnotTGresidue,donotcalculateR550. TableP2.92vsXrayoriginal2.73differenttestspecimenkeptnotbulkfractionreplacement. Hydroxymethylation36%formaldehydepH.9-1.070-80C1-2h/waterrinse;Pyrovatex10-50%5-30min150-180C2-6min rangesnotexactperformulavariants;abstract160-170Cnotassignedexactcuringtemperature. IR70hwaterextractionnotfunctionalstate;LOIstandardref2ASTMD2863-77dimensions/repsunreported. All4TEXTread;noSI/images;Deduplicated and imported into the B151 branch; publication pending. 10.1039/d4ta04320k: All13own2024VORnativeTEXTpages24934-24946;ownPET/PUC/PUC-MHPP5.0/7.5LOI20/22/25.5/28p9and20wash7.5LOI27.3;Janus7.5-BPLOI28abstract/conclusion. OwnnumericalTG/methodsrequiredTableS5unread;7.0charprosehasnoexactgas/tempandcannotbeassignedR800/programendorborrowedconechar. Noimages/curveestimates. PETsupplierSichuanDongcai/thickness.6mm,arealdensityunreported;200g/m2coatingeachsideafterp4optimizationnot400/600variants. One-sidedMHPPanddualJanusBPstateskeptdistinct;washedTGnotborrowed. NativePUCprepolymerPCL10gHDI1.85gDMF10mL80C30minDBTDL1drop60minTHPO1g/DMF5mL15min;MHPP2.5/5/7.5wt25C3hDMF5mL120C24hcure;BP.5g/50mLDMFPUCamountunreported25C30min120C24hcure. Coatingfractionnotwholefabricfraction;pretreatmentref20unreadnotinvent. TGIR400-460bandnotDTGpeak;RamanIDIGnotresidue. Onlyownpublishedfacts,SIaccessfailureprivatecheckpoint;zeroverifiedpairs.",
+  "canonical_profile_dedup_audit": [
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R400_pct",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2 initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2 initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/PVA initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/PVA initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2/PVA initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2/PVA initial finished fiber",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.1992.070460312",
+      "sample": "CP-MN initial nylon6 textile",
+      "independent_numeric_metrics": [
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.1992.070460312",
+      "sample": "CP-MN initial nylon6 textile",
+      "independent_numeric_metrics": [
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "partial_metric_reuse_risk_audit": [
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "Control cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "3wt% APP/BPEI cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.05.087",
+      "sample": "5wt% APP/BPEI cotton initial",
+      "gas": "air",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "Tmax2_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2 initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2 initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/PVA initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/PVA initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2/PVA initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C",
+        "LOI_pct"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/app.49385",
+      "sample": "FMF/SiO2/PVA initial finished fiber",
+      "gas": "N2",
+      "compared": [
+        "T5_C",
+        "Tmax1_C"
+      ],
+      "reason": "DropR400forcotton/dropR600roundingforMFtofindreusedpartialorhigherprecisionprofiles",
+      "hits": []
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1510,
+    "new_states": 8,
+    "new_conditions": 11,
+    "evidence_upgrades": 0,
+    "verified_states": 1188,
+    "verified_conditions": 1521,
+    "verified_dois": 335,
+    "verified_sources": 337,
+    "offline_tests_passed": 1327,
+    "snapshot_sha256": "46e300c197a0e4c731e9f8db2980eb8ba37bb341fa46a83b53e4806a166abb3e",
+    "master_sha256": "df46dbaeabb8df0015d7769fff0c9d5eb2e7dae16fa40b3908d9d8b6348aa3eb",
+    "validation_errors": [],
+    "held_fact_rows": 10,
+    "complete_original_text_pages": 36,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 0,
+    "unchanged_private_evidence_files": 4,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
