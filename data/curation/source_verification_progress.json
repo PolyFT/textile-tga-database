@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-03T17:00:23.583393+00:00",
+  "as_of_utc": "2026-10-03T17:17:16.954828+00:00",
   "latest_batch_id": "20261003_b141",
   "verified_condition_records": 1425,
   "verified_unique_sample_states": 1121,
@@ -18,8 +18,8 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b141_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261003_b140",
+  "publication_stage": "b141_merged_remote_verified_pending_lease_release",
+  "last_merged_batch": "20261003_b141",
   "writer_lease": {
     "owner": "codex-local-textile-b141-20261003",
     "status": "active",
@@ -3151,6 +3151,25 @@
     "total_fact_rows": 39,
     "held_fact_rows": 35,
     "tests_passed": 1119,
-    "snapshot_sha256": "d0ac79d000224b6d226fe4d8180f04adc1e120977d0fe2cc5b28fbe16a692141"
+    "snapshot_sha256": "d0ac79d000224b6d226fe4d8180f04adc1e120977d0fe2cc5b28fbe16a692141",
+    "publication": {
+      "head_sha": "c32b60ed2d55a84c4c5d0b55f66ea81b67905bfa",
+      "merge_sha": "85268b2b8fa15e745c02524b6954442765ae2ae1",
+      "validation_run": 37139130431,
+      "snapshot_sha256": "d0ac79d000224b6d226fe4d8180f04adc1e120977d0fe2cc5b28fbe16a692141",
+      "master_sha256": "194865eee44447581a4478696b64bc191ad94108a17dfd5690b42ee140475ca4",
+      "independent_remote_master_blob_sha": "39ed367a2848477fb57ffe27b7e959b811eaab7f",
+      "independent_remote_master_bytes": 8122788,
+      "postmerge_runs": [
+        37139371929,
+        37139371933,
+        37139371953
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 11,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/109",
+      "status": "merged_remote_verified"
+    }
   }
 }
