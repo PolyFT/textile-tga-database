@@ -1,0 +1,102 @@
+{
+  "batch": "b137",
+  "review_completed_utc": "2026-10-03T14:21:46.776454+00:00",
+  "baseline_counts": [
+    1087,
+    1378,
+    308
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 15,
+    "accepted_condition_rows": 15,
+    "new_source_inventory_states": 15,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 3,
+    "complete_text_primary_PDF_pages": 23,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 17,
+    "held_fact_rows": 2
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b137_local_textile.csv",
+      "published_input_sha256": "84134dc43e58315187d0e2925c98eacb22057ae5e23371aa7febcbf46fabf076",
+      "unique_sample_states": 15,
+      "verified_conditions": 15,
+      "held_fact_rows": 2,
+      "accepted_measurement_fingerprints": [
+        "d90a60b0adbb3e326e4560098764690f16f71fbd809eed652decef033785e2e8",
+        "33b6a36c5e9dc4562c58ca2ac1e4f14f6687d0ee6386be113553139533c1de2d",
+        "369a1b11765295466113f9b0d09c1a8e1b0f20028b9077a88002158f1adf0546",
+        "90b800e2d937388f68eac5964e423f31bc41b1fb222dab1fdcbf86c2615750a0",
+        "e00eeb3fe3daf5da67736b6a0590c3cfcf6ecfa6fc97930a733ee7583ebe7f9a",
+        "03a8b76f4f5b34ff1209b22f449d730725702ed3bf71c9814d38902febc350c1",
+        "32c06c70ae3ecafa14f1c35f12401ebf01ad72dbac7c1c77ad29f2c10b240d93",
+        "4ef026bb3a707f6c2ea20656d2842690653169be395584633373326c532ef724",
+        "ebfc5d2de0abf0c5b210bcaae3f4a66c5117b60e64b4f86db76770c52e715d48",
+        "e4f8834f28718f7c930a0359a660929d83bff037a8cb0bf4e4a62e8915cf97e2",
+        "5f53d8dd9a6c547ed67f31fd45e2ee6e485454bab8843ba900ade4e6493f7b27",
+        "94a200af26b13a4bf3fa239ed921d039e74d27a9ae4c8eee31c73ddf106d2397",
+        "ddeafb054571765c6aba79919076667b530878516e2b791d52111aacffe6e81d",
+        "55ef8af9a7f0134b26b07ff0e4be6df21c8fc86cd513f0c0771c531fa6d65517",
+        "8ef1c7eb9991a9a92ddcad31afc645ac5dd0cfee793ce1a5f79b11d598f79a5b"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1002/pi.2715",
+      "title": "Influence of ammonium polyphosphate on the flame retardancy and mechanical properties of ramie fiber-reinforced poly(lactic acid) biocomposites",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "held_rows": 1,
+      "pages": 7,
+      "disposition": "Complete7primarytextpages,printed242-248;2010volume59publication,2009online/copyrightnotpubyear. OwnPLA-NF/FPLA-NF/FPLA-FNF3acceptedLOI19.1/28.1/35.6Table2p3joinsownprosep3AIR400Cchar8.85/19.49/21.90. MethodAIR20C/min80mL/minambient-700Cmasspanunknown;400pointnotend700. Silane-treatedNFfibers1percentaq2h/70C6h,sourceKH570labeland3aminopropyltriethoxysilanedescriptionpreservedunresolvednotcorrected. FPLA-FNFTable1PLA59.5/APPmatrix5.2/ramie30/APPfiber5.3totalAPP10.5. PLA-FNFTable1APP5.3vsprose4.5conflict:wholegroupheldwithLOI25andrawchar13.31. APPfiber15percentabsorbed/5wtpercentethanolbathnotautomaticallycompositefraction. Moldedsheetswithramie,notunmodifiedfibers/cottonfabric. NoSIcited;moisture50-150intervalnotDTGpeak.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2013.06.014",
+      "title": "Flame retardant finishing of cotton fabric based on synergistic compounds containing boron and nitrogen",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 1,
+      "pages": 5,
+      "disposition": "Complete5primarytextpages,printed706-710. Owncontrolcuredsame160C3minLOI17.5p2and40gLB40gLTriHTAC30gLSHMHinitialfinishedLOI27.5p3,5joinownthermalp4R6006.30/40.45. MainTG209F1dryN210C/minroom-600Cflow/mass/panunknown. Sourceboricdehydration255-270notcottondecompositionTmax/onset;controlrapidloss309rawonly. Preparationdesized/scoured/bleachedShaoxingJinqiucotton2dip2nip100percentwetpickup95C3mindry160C3mincurepH6ammonia. Explicit40CwashingisFTIR/elementexperimentseparatefrominitialLOI/TG;washedLOI/TGunreported. TriHTAC40gLboric0groupLOI22p2heldnoownTG. OtherconcentrationseriesFigs1-3unannotatednotestimatedorassignedunknownsampledoses. N/BweightpercentnotTGchar. ASTMD2863edition/instrument/dimensions/repeatsunreported;notborrowed6tensilespecimens. NoSIcited.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    },
+    {
+      "DOI": "10.1002/pc.26685",
+      "title": "Flame-retardant, thermal and mechanical properties of PLA/ramie fiber composites",
+      "accepted_states": 10,
+      "accepted_conditions": 10,
+      "held_rows": 0,
+      "pages": 11,
+      "disposition": "Complete11primarytextpages,printed4244-4254. Tenowninitialinjection-moldedPLA/ramie20wtpercent/TGIC0.6wtpercentgroupsTable1p3share10matchingTable2TG/Table3LOIp5. PLA79.4control/49.4all30percentFRs;AlPi/MCA/SiO2specifiedwtpercent. T5native5labelnotgenericonset;Tmax1-3decompositionstages;dashmeansunreportednotzero. MainN210C/min30-600CPerkinElmerTGA8000mass/flow/panunknown. ControlR60011.4explicitprosep5;treatedTable2char14/13.4/13.2/12.7/15.1/20.5/19.7/27.8/22.7rawonlybecausetemperatureunlabelledinTable/prose;do notimputefixedtempfromprogramend. Sourcep6AlPi30charincrease22.8percentnotforcedtocorrectTable14/control11.4;rawconflictretained. Table4conechar13.5/23/16.5/20.7/30.5notTGchar. LOIstandardnativeGB/T2046-2009reportedexactly,possiblecodeissueflaggednotcorrected;JF5sheets80x10x4mm,repeatcountunreportedUL94fiverepsnotborrowed. Fibers4-6mm20-40um;ramie-moldedcompositesnotwovenfabric/unfilledPLA. NoSIcited.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    }
+  ],
+  "verification_limit": "Threecompleteprimaryoriginals23textpages;textonlynoimagesrenderedorviewed;oneprimaryreviewer. ThreehotpressedPLA/ramieAPPgroupsownLOITable2andAIR400Ccharprose20C/min80mL/minambient-700C;PLA-FNFAPP5.3Tablevs4.5proseconflictheld;silaneproduct/structureambiguityretained;2010volume not2009onlineyear. Twoinitialcuredcottoncontrol/B40gLTriHTAC40gLSHMH30gLgroupsLOI17.5/27.5joinR6006.30/40.45dryN210C/minroom-600C;boricwaterdehydration255-270notdecompositionpeak/onset;TriHTAC-onlyLOI22heldnoTG;40CFTIRwashnotjoinedtoinitialTG. TeninjectionmoldedPLA/ramie20wtpercent/TGIC0.6groupsTables1-3shareLOI/T5/Tmax1-3N210C/min30-600C;nativeT5notgenericTonset;missingpeakdashesnotzero. OnlycontrolR60011.4explicitprosecanonical;treatedTable2chartemperatureunlabelledrawonly;22.8percentcharincreaseproseconflictunresolved;coneresidueseparate. NativeLOIcodeGB/T2046-2009possibletyponotcorrected;80x10x4mmsheets;LOIrepeatsnotborrowedUL94. Fifteennewstates15conditions17facts2held;3acceptedDOIs3reviewedpapers;noSIcited;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1378,
+    "new_states": 15,
+    "new_conditions": 15,
+    "evidence_upgrades": 0,
+    "verified_states": 1102,
+    "verified_conditions": 1393,
+    "verified_dois": 311,
+    "verified_sources": 313,
+    "offline_tests_passed": 1039,
+    "snapshot_sha256": "09b3b5ceb91a40cac2463dd7ad02fc2a1152233e0c70ee6d98eff30093135a53",
+    "master_sha256": "fbfc8ffcc5e5188d6bc157ed7371f26f03990539895901a6e5880321e12a6ceb",
+    "validation_errors": [],
+    "held_fact_rows": 2,
+    "complete_original_text_pages": 23,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 15,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
