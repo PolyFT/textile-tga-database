@@ -1,0 +1,89 @@
+{
+  "batch": "b140",
+  "review_completed_utc": "2026-10-03T16:21:09.355222+00:00",
+  "baseline_counts": [
+    1113,
+    1409,
+    314
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 12,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 36,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "total_fact_rows": 27,
+    "held_fact_rows": 15
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b140_local_textile.csv",
+      "published_input_sha256": "b21ca4e5e3066387c462d7ebfbbaf7031bb1ee7ec9a5ff66d05ac3e1a4bdc2b2",
+      "unique_sample_states": 6,
+      "verified_conditions": 12,
+      "held_fact_rows": 15,
+      "accepted_measurement_fingerprints": [
+        "56b163b553bfea8f2dffe6c4cb10e271451440cad10d21249780c2a9b6e451d5",
+        "97b217cae31aa3b8872eb043846e4de47c915fe30dd7266ea624ce390c9306fe",
+        "e83f8742a7c47298c53dd6364000f9812b675578cc5cbda087276e7bf8c5a2b1",
+        "f385dae216213e919e7f536fec4f9f672776caca453824bc313a1ac4b371b982",
+        "81445c016d0dd21208cce799376b310454445feeffdf519ab9e3979da7bbc3e9",
+        "c30713cf60f988bf64903983dddf977846d892e780798b35c859f08589062173",
+        "3d57cbdc96cdca891d0f7d1c7461f019e181df48188d1f52c43d667559d08fb4",
+        "0f1f9659208e67ce547bc07b1fd68373d9d77eb7b3d8f2d15aa0f20db21a3226",
+        "3606625995593daf6cbce8dab151d00ab9aace8f01f621eac1d0c3d542aa15a2",
+        "66babc8aefbb043f5ca83595e7033d8e6ba8a617c6d3ce2aee39ccad42385eb1",
+        "f60b3339400062943c700730dc305c06320250af8f00ad6855ee5aafab29a4d9",
+        "124bca96c21f4423e3800fab88b4c1ceeee981c03fcf68ccd6b6234fb2d88c3b"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.ijbiomac.2019.11.220",
+      "title": "Chitosan-based flame retardant coatings for polyamide 66 textiles: One-pot deposition versus layer-by-layer assembly",
+      "accepted_states": 6,
+      "accepted_conditions": 12,
+      "held_rows": 8,
+      "pages": 30,
+      "disposition": "Complete30primaryPDFTEXTpagesofficialElsevierJournalPreproofaccepted27Nov2019/covercite2019notdefinitiveVOR;library2020folderNOTassumedpublicationyear. Own100percentPA66woven100gsmJiaxingWeavingIndustryscouredambientdry. CS1percent/PCS1percent/PAS.25percentnativebathpercentbasisnotexplicit;PCSsynthesisRef14notborrowedintoownmethod. Photo-initiator2-Hydroxy4prime(2hydroxyethoxy)2methylpropiophenoneconcentrationnotinreadabletext. OnepotpH5.5potlife30min5/10minsoaksUV;LbLfirsteach5min/subsequent1minDIrinse1minnointerlayerdry5/10BLUVorspecial10BLthermalcrosslink. UVduration/doseandheattemperature/durationonlydesignatedinreadableprimarytext;Scheme1imageconditionsunviewed/nottextreadable;notinferredandmustcarryconditionlimit. Own6groupscontrol/OP5MUV/OP10MUV/5BLUV/10BLUV/10BLthermalcrosslink. Table1PDFp16manuscript15LOI19\u00b11/21\u00b1.5/22\u00b1.5/21\u00b11/23\u00b1.5/22\u00b1.5uncertaintynotdefinedSD. Table2PDFp17MS16addoncontrolDASHnotzero/2.1/3.3/3.9/6.5/5.6native(W1-W)/Wnotbathfraction. LOIHC2ASTMD2863150x58mmmethodp8repeatsunknown. MainQ5000IRN2/AIR20C/minp9masspanflowstart/endunreported;TGIR55mLminN2separatecoupledtestnotborrowedmainflow. OwnofficialSI400655byteDOCX200SHAf68b13d6149d016982bf3326728ba06b3479a1f20ac13c8a274bb0f471b52cbe;titleauthorsandall6groupsmatched/allSItextandTableS1read/3solutionATR/MCCimagesunviewedandunused. TableS1AIR T5/Tmax1/Tmax2/R800control395/462/586/2.2;OP5M361/465/590/2.6;OP10M379/468/523/3.1;5BL337/448/609/2.4;10BLUV339/437/599/3.0;10BLthermal359/439/606/3.1. N2T5/Tmax1/R800control410/460/4.4;OP5M404/452/4.6;OP10M405/448/4.5;5BL398/441/4.8;10BLUV388/446/5.7;10BLthermal384/429/6.3. NativeT5explicitdefined5percentlossp12notT10onset;AIR2ndpeakcharoxidationnotN2peak;R800explicitSIpointnotunknownprogramend. Prosearound462/586and3.0-3.1rangealoneapproximate;useexactSItableonly. InitialTG/LOIsamenamecrosswalkclear,unknownprocessingdurationmarkedlimitnotguessed. Fourgroupscontrol/OP10MUV/10BLUV/10BLthermalafter5/10washcyclesTable3PDFp23MS22UL94ONLYnoownwashedLOI/TG =>8washedholds. AATCC61(2A)-1996nonionic38\u00b13Ceachnativecycle5homeequiv;noextra25/50independentsamples. Conechar/EDXPmassfractions/TGIRgasmaximaarenotmainTG. Noimageview;FreshfullnumericprofileswithandwithoutLOIvsallincomingplusprivateB138/B139anddistinctownformulationsfindzeroidenticalprofiles;6initialstates12gasconditionsapproved;8washedverticalonlyholds. Unknowntextlayerprocessingparametersretainedaslimits;finalyearblank.",
+      "SI_status": "OfficialElsevierCDNDOCX200identitymatchedtitleauthors6groups;allSItextandTableS1read;3embeddedsolution/ATR/MCCimagesunviewedandunused"
+    },
+    {
+      "DOI": "10.1016/s0141-3910(01)00172-0",
+      "title": "Flame retardant formulations for cotton",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 7,
+      "pages": 6,
+      "disposition": "Full6primarytextpages;2001PDS74p487-492. Twoownpadbatchbleachedcottonfabrics230and175gsm;tablesdoNOTidentifywhichfabricbelongsLOIvsTGgroup. SetaramMTBTGSYNTHETICAIRca10mg;nativePDFtextheatingrate7.5C/mmunitunresolvednotautocorrectmin. DSCPolymerLaboratoriesPLDSCca10mgN210C/minfrom30CNOTTGgas/ramp. LOIRheometricScientificISO4589-2nativewithin\u00b11volpercentreproducibilitynotSD;dims/repeatsunknown. Table3p4controlLOI19.4/IgnilysFDR200gL70percentpickup120CdryLOI41/15volpercentAPS-H3PO4pH4 80percentpickup180CdryLOI30/diGuaHP100gL80percentpickup120CdryLOI36. Table4p5controlR40022andabout300onset;Ignilys200gL70pickup120Cdrygenericonset244R40038;APS15volpercent80pickup120CdryR40045/about300NOTownLOI180Cstate;diGuaHP150gL100pickup70Cdryonset293R40040NOTLOI100gL120Cstate;APS20percent-H3PO4pH4+150gLdiGuaHP100pickup100Cdryonset290R40052NOownLOI. Therefore2potentialsamecontrol/IgnilysformulationsheldforunresolvedTGrateunitandtwofabricidentity;other5rowsdose/curestateunmatched;0approved. About300onset/about340DTGcontrolapproxnotexactT5/T10/Tmax. 400residuepointnotTGmethodend. APS20percentunacidifiedversusH3PO4seriesdistinct;volpercentnotmasspercent. NativeNFEN71-2hardwaterRTliquor1:20 10mintwicerepeatedDI2minrinse/dryseparateSoxhlet15g400mLDIboil2h15min;noownwashedTGLOI. SoakedMratingsnotLOI. DSCendothermnotTGdecomppeak;DP1570\u00b150notTG;noimageview.",
+      "SI_status": "NoSIcitedincompleteprimarytext"
+    }
+  ],
+  "verification_limit": "Twocompleteprimaryoriginals36textpagesandoneofficialSIcompleteTEXT/TableS1review;threeSIimagesunviewedandunused;oneprimaryreviewer. Sixinitial100gsmwovenPA66groupscontrol/OP5MUV/OP10MUV/5BLUV/10BLUV/10BLthermal;ownTable1LOI19/21/22/21/23/22joinsSupplementaryTableS1AIR/N2T5/DTGmaxima/R800Q5000IR20C/min. NativeT5specific5percentlossnotT10/onset;AIRcharoxidationsecondpeaknotN2peak;800Cresiduepointnotunreportedprogramend;TGIR55mL/minnotborrowedmainflow. NativeplusminusuncertaintynotdefinedSD;controldryaddondashnotzero;dryaddon(W1-W)/Wnotbathpercent. UVdose/durationandthermalcrosslinkT/timeunreadableinScheme1textlayer,retainedunknownwithlimit;notguessed. PublisheracceptedJournalPreproofaccepted2019-11-27notdefinitiveVOR;finalpublicationyearblank. OfficialCDNSIDOCXownexacttitle/authors/sixgroupsmatched;allSItext/TableS1reviewed. Eight5/10nativewashedvertical-onlyfactsNOOWNwashedLOITG;notextra25/50homeequivalentpairs. Seven2001cottonfactsHELD:230/175gsmfabricidentityunresolvedandnativeTG7.5C/mmunitnotcorrected;APS180CLOIcannotjoin120CTG;diGuaHP100gL80pickup120CLOInot150gL100pickup70CTG. SyntheticAIRTGnotDSCN2/rate10. Sixnewstates12conditions27facts15held;1acceptedDOI2reviewedpapers;nooriginal/fulltext/SI/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1409,
+    "new_states": 6,
+    "new_conditions": 12,
+    "evidence_upgrades": 0,
+    "verified_states": 1119,
+    "verified_conditions": 1421,
+    "verified_dois": 315,
+    "verified_sources": 317,
+    "offline_tests_passed": 1099,
+    "snapshot_sha256": "8681a20c3a9f0d1b2f9175e00ba249eac3b700af52af8f4ccfeda4c92c8007ff",
+    "master_sha256": "c7267ce89fd70edbd3b93628c1624f3f9965ffd49942ced62a49539f17123036",
+    "validation_errors": [],
+    "held_fact_rows": 15,
+    "complete_original_text_pages": 36,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
