@@ -1,0 +1,84 @@
+{
+  "batch": "b135",
+  "review_completed_utc": "2026-10-03T13:15:58.313476+00:00",
+  "baseline_counts": [
+    1075,
+    1362,
+    304
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "complete_native_primary_PDF_pages": 22,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 18,
+    "held_fact_rows": 10
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261002_b135_local_textile.csv",
+      "published_input_sha256": "9659cae48cbc4e80a133cd270aa3b71be63e9656c4056ab5ab24651c06df9b9b",
+      "unique_sample_states": 6,
+      "verified_conditions": 8,
+      "held_fact_rows": 10,
+      "accepted_measurement_fingerprints": [
+        "b33f15d99e17601e0e80e88d7e68dba9b6647b50461819ed5867b4b22cb6a667",
+        "9cb028f4f53e7ed01fc0b55874a9cb26808ec7906144910bfa74772e4199a025",
+        "902748cad1e3cce8f817bfdfef6048333e29a296a92879dbd2a96d813c9820cf",
+        "61f1e8132d6327c2c89342c85a763ef62849af1c99941b003b766788b0b71db1",
+        "109bff56e109bfa9ac3824f5df48794e1a2984654a76ec3c294f97b0b1173eaa",
+        "2611330abcb602a2f427a02bbcb5a1c6e772b52dbeecf3223cd2b7c8fcc08b52",
+        "7c7ef2402eaf2ec676a46d585af7149a8220f56afad36e0baa4a981c12e1f975",
+        "a833fce661368c68fc8e5070f04ab07ae8c71dbcb5850fdbafd51ecf5227dc14"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.porgcoat.2021.106271",
+      "title": "A bio-based flame retardant coating used for polyamide 66 fabric",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 10,
+      "pages": 11,
+      "disposition": "All11primarytext/nativepagesreviewed;noSIcited. Own100percentwovenPA66fabric122g/m2ZhongshanDemao. 1wtpercentNa2CO3washthenOVENDRY90C15min;washconditionsunreported. IP6aqueous15/25/35wtpercentstock50wtpercentactivebasisunreported;RT30min2dip2nip100percentwetpickup;dry70C6mineachside,DIrinse/dry80C20min. MainSTA409PCNETZSCHstaticAIRandN2,10C/min100-800C3-3.5mg;pan/flowunreported. LOIJF3GB5454-1993dims/repsunreported;verticalGB5455notLOI. Table1p4initialcontrol/15/25/35LOI19.6/26.3/31.8/32.3;abstract32.3butprosep3/conclusionp10say35LOI32.2:35bothgasconditionsHELDLOIconflict. Table3p5columnordercontrol35/25/15. N2T10/R800=347.98/6.14,291.01/31.63,305.49/24.80,323.39/12.25. AIRT10/R800=385.42/3.58,291.04/9.73,303.48/8.60,329.51/7.29. T10explicitnotgenericonset;DTGsecondarymaxnotestimated. FTIRheated418control335treatednotassignedto15/25. ControlLOI19.6same supplier plusMCC582.1/30.5/654identical10.1021/acsami.0c17778Table3 andtensile573N30percentidentical10.1002/pat.5335Table7;ref29citesACSsource. Noexplicitreusestatement;possiblecrosspapercontrolreuseUNRESOLVED,holdcontrolbothconditionsnotnewcount;previouspublishedcontrolsunchanged. Table6p9after20commercialdetergent/waterwash35=20.4/31.8,25=20.8/26.6,15=19/24.3;all6heldnowashedTG. AATCC124-2001watermodifiedwithoutdetergenttemp/time/volume/equivalenceunknown. Rawadd-oncontroldash/15=30.4/25=36.7/35=41.2denominatorunknownnotfraction;Pmolpercentnotresidue. ConeR37.9notTGR9.73;washedMCCprose15.4vsTable16notTG. Twoinitial15/25statesfourgasconditionspotentialafterdedup;14facts10held.",
+      "SI_status": "No SI cited in complete primary"
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.9b05523",
+      "title": "Ecofriendly Flame-Retardant Cotton Fabrics: Preparation, Flame Retardancy, Thermal Degradation Properties, and Mechanism",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 0,
+      "pages": 11,
+      "disposition": "All11primarytext/nativepagesreviewed;noSIcited. Own100percentcottonfabric220g/m2QirongWeifang;weaveunreported. GP108(3-piperazinylpropyl)methyldimethoxysilaneaq3/4/5wtpercentstir3hgel,pH4.5with50wtpercentphyticacid;Figure1stir2-3hversusmethod3h,keepmethod3h. Cotton1wtpercentNaOH100C1h,carefulwash/dry85C0.5h,weigh1minafteroven;GPAcoat1:30bath5minthen85C0.5hdryweigh1minafteroven. Methodp3calls3/4/5wtpercentGPAbutoriginalstartingbathGP108percentnotfinalcompositedose;PAaddquantityandfinalGPAconcentrationbasisunknown. Initialcontrol/FRcotton1/2/3LOITable2p6printed19251=18/22.5/26/29;increasedmass0/9.35/12.74/14.33wtpercentdenominatorunreported. MainTGFTIRPerkinElmerSTA6000withFrontierFTIR40-700C,N2flow50mL/min10C/min10plusminus0.2mg;pipe/cell280CnotTGendpoint;panunknown. OwnTable1p5printed19250T5/T10/Tmax/R700:control298/315/361/12.5;FR1=252/264/293/35.9;FR2=250/262/286/39.5;FR3=247/261/283/40.0. ExplicitT5/T10defined95/90percentmassremainp3;ownprosecontrol298T5attributesadsorbedwaterwithcitation44;retainT5withreportedwaterattribution,notwaterDTGpeak/notpolymerTonset. NativeRmax18.3/15.9/17.4/16.7headerpercent/Cplottedpercent/CnotC/min. ConeTable3R4.75/30.96/26.58/35.82notTGR700;EDXbefore/afterverticalburnnotTGchar. LOIinstrument/standard/dimensions/repeatsnotreportedinthecompleteprimary,GB5455and80x300mmverticalnotborrowedLOI. No washedLOI/TGreported. FourinitialstatesfourN2recordspotentialafterdedup;4facts0held unless duplicate/conditionsrulepreventsacceptance.",
+      "SI_status": "No SI cited in complete primary"
+    }
+  ],
+  "verification_limit": "Two complete primary originals22native/textpages;oneprimaryreviewer. IP6PA66initial15/25wtpercentbathLOI26.3/31.8 joinsownTable3T10/R800inN2/AIR10C/min100-800C;twoindependentstatesfourconditions.35LOI32.3Table/abstractversus32.2prose/conclusionconflictheld;controlpossiblecrosspaperreuseunresolvedheld,notdeclaredprovenreuse;6washedgroupsheld. FourGPAcottoncontrol/3/4/5bathgroupsLOI18/22.5/26/29 joinsownTable1T5/T10/Tmax/R700,40-700CN210C/min50mL/min10plusminus.2mg. Control298T5reportedwaterattributionretained,notwaterDTGpeak/notTonset;LOImethodunknownnotborrowedverticalstandard/dimensions. StartingGP108percentversusfinalGPApercentbasisandaddonbasisunknown. Sixnewstates8conditions18facts10held;noSIcited;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1362,
+    "new_states": 6,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1081,
+    "verified_conditions": 1370,
+    "verified_dois": 306,
+    "verified_sources": 308,
+    "offline_tests_passed": 999,
+    "snapshot_sha256": "1c8339ef64f8215ec0465a41f7cdfb25c9c3a292712d2e23c4d2f18abc15f11c",
+    "master_sha256": "8ba566d5685267b603ac94b560fbf97d88df0dc5ac4a1b54fc0e59f1e637f0ea",
+    "validation_errors": [],
+    "held_fact_rows": 10,
+    "complete_original_native_pages": 22,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 22,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
