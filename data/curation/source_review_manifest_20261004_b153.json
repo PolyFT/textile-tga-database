@@ -1,0 +1,748 @@
+{
+  "batch": "b153",
+  "review_completed_utc": "2026-10-03T22:33:38.418832+00:00",
+  "baseline_counts": [
+    1194,
+    1527,
+    337
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 6,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 7,
+    "complete_primary_HTML_body_reviews": 5,
+    "complete_official_SIs_text_tables_reviewed": 7,
+    "complete_official_SIs": 2,
+    "total_fact_rows": 27,
+    "held_fact_rows": 22,
+    "fully_held_other_primary_sources": 4
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b153_local_textile.csv",
+      "published_input_sha256": "057429f9677ed19797d1e063723e940175b0bc7de298a009d5ce2f48178028ef",
+      "unique_sample_states": 5,
+      "verified_conditions": 5,
+      "held_fact_rows": 22,
+      "accepted_measurement_fingerprints": [
+        "c84ba05578d51cdf797050d3c5c8f104cc342c26ff60aa0bc1323d92b14704f9",
+        "a1653a1e560cc009d8bb1c190324814e17d803fe6f28d0f17f162590c832db30",
+        "1899b6b3cba0adf74aca9940421c566fea7edcce466a56b52951415c8b470870",
+        "1a0ceeb2b4df6c0136e0fcc6a5ebd7b9db02126575ecec4f8170cbef3d9dc66d",
+        "e81400015c44cfd70f1958ce3e86a904cee296cc15881b731e44647e26316638"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-021-04317-4",
+      "title": "Construction of biological flame retardant layer on cotton fabric via photografting of nucleotide/amino acid monomers",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 0,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": "OwnfullHTMLbodyread;cottonDalianMarketweave/densityunknown;AMPNa2allylmodified75C6h/DMSO/AB/NaH/ethylacetateprecip/DCMetherrinse50Cdry;LCysallylmodwaterNaOHicebath/AB20C14h/HClisoelectricprecip/freezedry. Bathmonomers50%/AMPNa2:LCys1.8:0.2nativeoptimum;TPOamountunreported/UV5minintensity/wavelengthunknown/110C50mindry. HCT4TGmodelbutgas/ramp/programstartend/mass/pan/flowunreportedinprimarybodyandFig11caption;allpairsheld. Nativeundefineddecompositiontemperaturesraw341+-6.13/AMP300+-3.30/AMP-Cys290+-5.56NOTassumedT5/Tmax;massloss97.7+-1.70/controland77.2+-0.65/cyswithoutendpointnotR800/notderivedresidue. OwnexplicitLOI16.07/24.77/27.34raw/control/AMP/AMP-CysinFlameretardancy;introductiongenericcotton18.4notowncontrol. Washing20AMP-CysLOI25.18explicitconclusion/noownwashedTG;7.9%retentiondecreaseNOTabsoluteLOIdrop7.9;noestimatesforotherwashingstatesunreadTable5. LOILFY606BGB/T5454-1997replicatesatleast3;EDS/Raman/TGA/flammability/LOIatleast3;cone5fabrics35kWm2separatestandardISSO5660native;coneRnotTG. GB/T8629-2001wash2gLneutraldetergent5mincycle/washTGunreported. Tables1EDS/2cone/3AMPdoseLOI/4ratioLOI/5washedLOIonlycaptionscachedseparatelinksnotread;allprospectivepairshelduntilTGconditionsandnumerictypeevidenceavailable;fulltableextractionpending. Noimagesorcurveestimates/noverifiedstates.",
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    },
+    {
+      "DOI": "10.1002/pen.22179",
+      "title": "Polyester nanocomposite fibers with improved flame retardancy and thermal stability",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 0,
+      "original_format": "PDF",
+      "pages": 7,
+      "disposition": "Own2012all7TEXTpages;fivefinishedPET/PET-MB/.5/1/2nominalclayfibergroupsnativeTable5PDF5journal1152T5/T10/T20/T50297/346/369/402;299/351/375/405;322/377/403/427;343/385/407/430;362/390/409/433. TGN220Cmin50-500ShimadzuDTG60HPDF3;pan/mass/flow/repeatsunreported;DSCN220mLmin/290C5minquench50/secondheat20CminnotTGflow/preconditioning. LOIDyniscoASTMD2863PDF3-4compressionMOLDINGfibersintopolymerSHEET;TGcaptionFig7fibersNOTdemonstratedsamethermallyremoldedstate/form;allpairsheldunderuserform-statealignmentrule;only2clayLOI27explicitbodyPDF6;otherinitialanddyedLOIsFig10curveonlyunread/noimages/noestimates. FivefibergroupsTGonlyheldandone2clayremoldedsheetLOIonlyheld;dyedTGabsentdyedLOIonlycurveunreadheld. DSCcrystallization76/194/251etcnotTG;Table3PET246/252/234gMB4/8/16gcarrier30%clay;native1%recipe252+8=260gpreservednotcorrected/nominal0.5/1/2notcalculatedexactfractions. CompatibilizerOptimGE340GMA-LLDPEinMaterialsversusMA-g-LLDPEinMBpreparationunresolved;0.25wtcarrierbasisnotfinalfiberfraction. PETIV.73Reliance/LLDPEMFI55Clariant/MMTCrystalNanoclay;preextrudePETvac150C16h/MB60C4h;threezones270/285/290N2/1.5mquench/drawratio3/wind107mmin8denierperfilament. CarrierMBsevenzones100/120/130/150/165/175/180100RPM;controlPET-MB6.5%LLDPEforcompatibilizeroptimizationnotautomatically6.5%carrierineachclayrecipe. Dye1%DisperseOrange30HTHPconditionsunspecified/reductionclear70C20min2gLNaOH+2gLsodiumhydrosulfite/RTrinse1gLaceticneutralizewaterairdry;noownpostdyeTG. WashfastnessISO3 60C20min2gLsoap+2gLsoda50:1/light17hareseparatecolortestsnotTGLOIdurabilitystates. NoSI/images/curveestimates;zeroverifiedpairs;sheetvsfiberneedexplicitsourceadjudicationnotassumedsameform.",
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "title": "Preparation of durable flame retardant nylon-cotton blend fabrics by 3-glycidyloxypropyl trimethoxy silane associated with polyethyleneimine and phytic acid",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "staged_held_rows": 11,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "own_VOR": "Cellulose29(2022)7413\u20137430;9authors;DOI/title/nativecitation matched",
+        "own_substrate": "NY13/CO87 150gsm primary; additional NY30/CO70 160gsm,40/60 130gsm,50/50 150gsm only explicit LOI not own TG; do not mix compositions",
+        "initial_primary_LOI": "control18.5;PEI/PA26.3;G-PEI/PA29.8;LFY JF3 GB/T5454-1997 150x58mm5parallel initialspecimens",
+        "primary_TG": "Q50 N2 10Cmin25\u2013800C3\u20135mg3measurements;flow/panunreported. Initial controlR8009.9;PEI/PA T5=267/Tmax324/R80030.9;G-PEI/PA T5=278/Tmax329/R80039.1. All explicit Thermal stability body/Fig8/Table4 pointer; nativeTable4unread",
+        "washed_LOI": "G5/10/15cycles29.0/28.0/26.7;G20cycles25.8Conclusion;PEI/PA5cycles24.3;noownwashednumericTG. AATCCMonograph61\u20132003 40C45min/cycleequiv5commercialwash;donotassume5labcycles",
+        "other_blend_LOI": "NY30/CO70 control18.7/G29.0;40/60 control19.2/G26.0;50/50control19.8/G27.8;noowngroupnumericTG;held",
+        "preparation": "4wtNaOHboil3h/rinse;GPTMSsolpH4\u20135/HCl1molL1:40 65C4h initialdrytempunknown;PEI2wt65C2h;PA4wt dipduration/tempunreported;last2pad.2MPa80C4h/finalDIwashfullydry;reportedgain19.8%. GPTMSconcentrationunreportedinprimaryread;nativeformulationSIunread. Not charEDSsurfacecomposition",
+        "excluded": "Cone residue8.2/38.3 not TG9.9/39.1;waterlossbefore120CnotdecompositionTmax. Muffle200\u2013600C6mincharFTIRnotTGprogram;Ramanratio3.81/3.29notresidue. Fourfabricfolds100x100cone not LOI form",
+        "public_official_SI": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-022-04693-5/MediaObjects/10570_2022_4693_MOESM1_ESM.docx",
+        "SI_status": "Complete native DOCX XML text/TableS1 read;FigS1 caption only;no images;NO TG for other blends",
+        "evidence_method": "nativeHTMLtextonly;noimages/no curves",
+        "SI_other_blend_LOI_uncertainty": "all six sourceLOI plusminus0.1 unknown SD/SE;G weightgain20.1+/-1.0,21.2+/-0.9,21.1+/-1.0 at NY30,40,50 respectively;not wholefabric elementcomposition",
+        "primary_tables_status": "All5 official pages HTTP200 Client Challenge/no native tables;web Table1/Table4 inaccessible;native PDFlink also challenge nonPDF. Only explicit primary body values usable;not table read/absence"
+      },
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    },
+    {
+      "DOI": "10.1007/s10570-021-04346-z",
+      "title": "A phosphorous/nitrogen-containing flame retardant with UV-curing for polyester/cotton fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 0,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "own_VOR": "7authorsYang/Liu/Yang/Zheng/Ren/Zhang/Cheng;Cellulose29(2022)1263\u20131281",
+        "substrate": "OwnPET/CO65/35DahutongTianjin;densityunknown;no bulkmonomerTG textilepair",
+        "recipe": "NaOH20gL80C30min/acetoneSoxhlet24h/dry80Cconstant;EPPEMacetonebath200/250/300gL and Darocur1173 4wtbasisunknown;45C1h/10minultrasound/UV30minintensitywavelengthunknown/acetoneSoxhlet12h/dry80Cconstant. Native30wtEPPEMwording notconvert300gLexactmassfraction;PGEq1namesW1beforeW0after conflict not silently corrected",
+        "own_LOI": "control17.8/300gLtreated27.2/25LCtreated26.6 explicitFlameretardancy;200/250exactLOIunreadTable6. NativeCOIGB/T5456\u20131997 150x58;repsunknown retainasreported",
+        "own_TG": "N2controlnativepeaks355.9/429.3/R80011.2;treatedR80024.4;T5/TmaxonlyunreadTable3;aircontrolR8000.5/treated4.2 contextTable4;treated exactbathassociation toTGunproven;EPPEMbulkAIR T5=272.7/R80020.4nottextile",
+        "method_hold": "StandaloneTG gasconfirmedN2andairbutmodel/ramp/massflowprogramnotprovided. TG-FTIRSTA6000/Frontier N230mLmin20Cmin40\u2013900;TG-MSSTA449F3/QMS403CN2100mLmin10Kmin40\u2013900. Do not choose either forTable2/3/4;allpairedconditionsheld",
+        "washing": "49Cneutraldetergent2gLGB/T8629-2001;one45minwashdefined5cycles;not25labcycles. DryovenTEMPunreported;postwashTGnotreported",
+        "excluded": "TGIRgasH2OCO2peaks280/370C not DTG;airmonomer stages277.2\u2013316 etcnotfabricTmax;Raman3.26notresidue;XPSP/Nsurfacewt%notbulk;verticalburningcharlength200/250/30075/63/31mmnotTGchar"
+      },
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    },
+    {
+      "DOI": "10.1007/s10570-020-03020-0",
+      "title": "A novel high-molecular-weight flame retardant for cotton fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 0,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "own_VOR": "6authorsLiu/Wan/Chen/Chen/Zhang/Zhang;Cellulose27(2020)3501\u20133515",
+        "substrate": "100%wovencotton129.51gsm15.8texx13.6texChaotianmen;TGA Table4explicitcottonFIBERS whileLOI Table3fabric;samewovenlotfragmentformrequiresproof",
+        "recipe": "FRPAammoniumN,NbisphosphonomethylpolyacrylamideviscosityaverageMw3700notMnMw;PAM5g/H2O2 5mL/water100mL100C60min/formaldehyde11.4mL50C1h/H3PO413.7g3h/urea16.8g140CpH6/ethanolpurify60C24h. NativePAM(1,5g)compoundlabel1 not15g. CottonNaOH25wt25C5minneutralrinse/FRPA15/20/30wt+5wtdicyandiamide70C40min1:20wetpickup100/180C5min/DIwash/dry110C",
+        "own_LOI": "control18.1explicitTable3body;40.1abstractmaxunassignedtobath inunreadTable3;post50LC28.5Conclusionalso notexplicit30vs20;do not infer dosebasedmax",
+        "own_TG": "Pyris1 5mg40\u2013700C20KminN2andair60mLmin;Table4T10notT5/Tonset;nativeVmaxpercentperCnotpercentpermin. Initial30wtFRPA fiber AIRR70028.01,N2R70056.28;controlN2R700about1.88explicitapprox;AIRalmost0notexact0. Nativecontrolairdecomp308.29\u2013352.92/treated255.95\u2013282.51;N2control312.33\u2013352.85/treated268.79\u2013281.60 rangesnotTmax/T10",
+        "form_hold": "Table4andFig6explicitfiber/TGcharacterizationfiber versusLOIfabric;TGbodyalso usesfabric wordatVmax. No remoldingreportedbutactualspecimenmapping mustnotinfer;fiberpowderexplicitONLYTGIRSTA409PC/Tensor27notTGsamplepowderassumed;hold shapeunclear",
+        "washing": "AATCC61-2013 2Amodified60C50steelballsnotnative49C;cyclesdetergent/timeunreported;noownpostwashTG",
+        "excluded": "Waterbelow200Cnotdecomposition;EDXatomic%surfacecharnotbulk;masslossrangesnotTmax;bulkFRPAviscositynotfabricTG;conecharTTI/RamanmechanismnotTG"
+      },
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "title": "Facile microwave assisted flame retardant treatment for cotton fabric using a biobased industrial byproduct: phytic acid",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "staged_held_rows": 11,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "own_VOR": "7uniqueauthorsYu/Xia/Kiratitanavit/Kulkarni/Kumar/Mosurkal/Nagarajan;Cellulose28(2021)10655\u201310674",
+        "substrate": "100%wovencotton122gsmRobertKaufman;Na2CO3 5%boil1h/25C15min+60C15minDIwashingtwice/80Covernightdry",
+        "recipe": "Urea3.2g/DI8mL/PA50wt aqueousstock2mL/RT30min;stockvolume notexactsoluteg withoutdensity;pick-up300\u2013350%prewashing notfinalretention",
+        "initial_LOI": "ExplicitbodycomparisonMTC600W4minLOI30.5 andCTC155C45minLOI31.0. Pristine18.5 is not automaticallyprocessDI-MWcontrol. OI1GovmarkASTMD2863-2000dims/repsunknown",
+        "TG_methods": "DiscoveryTGA5500N2purge30mLminapprox5mg20CminRT\u2013600;pan/repsunreported. MCC1CsecN280mLmin150\u2013750combustor900O220mLmin notTG. Cone50kWm2 notTG",
+        "TG_S3": "Control340/386/6.5;CTC202/279/37.5;P1305/354/10.5;P2265/327/23.9;P3223/284/34.3;P4238/285/40.3;P5234/278/42.3;T1294/346/9.2;T2247/302/31.2;T3238/290/37.5;T4223/284/34.3;T5231/280/41.3;T6236/280/41.7;T7240/290/37.8;nativecolumnsT5/Tmax/R600 exactS3 footnotes;Wordrunsnoextra digitspaces",
+        "MTC_duplicate": "P3andT4 bothsame600W4min/bath/form/T5TmaxR600/LOI;oneindependentstate1TGrecord aliasesboth preserved;do not count2source labels",
+        "CTC": "samebathconvoven155C45minCTC;TableS1WA9wt;native155/170/185cross12conditions otherLOIs/TGunreadnotcrossmatched",
+        "MTC": "600Wtotal4min/MARS6fliphalfway2equalexposures not4mineachface;waterpostwash25C15min/60C15min twice/80Covernightinitialdry;primaryweightaddonP3 notexplicit9sinceonlysameWAcomparison;S1CTC9notassumeMTC9",
+        "held_control": "MethodscontrolDIwithoutFR600W4min vsLOIpristine18.5/TableS4/S5ControlN/A vsFig7untreated;exactcontrolprocessingmappingnotproven;holdTG+LOIeven thoughsamecontrolword",
+        "held_OTHER": "P1/P2/P4/P5/T1/T2/T3/T5/T6/T7TGnumericwithoutowngroupLOI;retain10TGonlyheld;noownwashedTGorabsoluteLOI forMTC-L/AD",
+        "contradictions": "PrimaryclaimsT3fiveormoremin butnativeSI S5T3=3min;S3T3T5/Tmax/R600238/290/37.5 retainednotremapT5group. PrimaryTable1unreadsoexactP/Tstateprocessnonpairedheld. MainP2R60023.9 matchesS3;R600notprogramestimated",
+        "washed": "AATCC135-2003MTC3homewashlosesFR;0.8%masslossnotTG;XPS2.6P/2.7NnotabsoluteLOI. MTCADafter3homewashes0.1%aceticacid60C15minDIrinse2x regainedVBT notTG/LOI",
+        "composition": "ICPbulkP3P2.10wt/N1.67wt/C38.61wt maincontrastsConclusionP2.2;retainnativeifstorednotnormalize;EDXS6surfacepercentnotbulk. Degreefunctionalization47repeatunits/6P not inferfabriccomponents",
+        "SI_scope": "All6nativetablesS1-S6/FigS1-S5captionsread;noimages;tablesS4S5MCCnotTGA"
+      },
+      "review_status": "source_reviewed_b153_approved_subset_with_holds"
+    }
+  ],
+  "verification_limit": "Five same-state textile pairs and five TG records are supported by explicit primary-body values and two official supplements (seven native XML tables). Six primary bodies were reviewed: five local HTML articles and one seven-page PDF. Full-size primary tables remain unread after access challenges; missing values and additional states are held. Twenty-two of 27 staged facts remain excluded; four additional reviewed sources yield no approved pairs. P3 and T4 are the same 600W/4min cotton state and identical profile, counted once. The pristine-versus-water-only microwave control remains held. NYCO weave and GPTMS concentration remain unreported. Thirty-two full-profile and ten reduced-metric comparisons include two reviewed single-char-yield coincidences with unrelated pure cotton; no unresolved reuse. All27 scientific guards pass; no images or curve estimates.",
+  "official_SI_text_table_reviews": [
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-022-04693-5/MediaObjects/10570_2022_4693_MOESM1_ESM.docx",
+      "native_tables": 1,
+      "review_method": "all native DOCX XML text and complete single TableS1 read;FigS1 caption only;no image reading"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-021-04191-0/MediaObjects/10570_2021_4191_MOESM1_ESM.docx",
+      "native_tables": 6,
+      "review_method": "EntirenativeDOCXXMLtext/all6tables/5Figcaptions;noimages;nativeWordruns concatenated withinparagraphs without insertingdigitspaces"
+    }
+  ],
+  "canonical_profile_dedup_audit": [
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "NYCO13/87 initial control fabric",
+      "metrics": [
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "NYCO13/87 initial control fabric",
+      "metrics": [
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": [
+        {
+          "DOI": "10.1016/j.tsep.2025.103946",
+          "sample_state": "Pure Cotton - 15\u00b0C/min",
+          "material_form": "\u5b9e\u9645\u7eba\u7ec7\u5e9f\u5f03\u7269",
+          "LOI_pct": "",
+          "atmosphere": "N2",
+          "heating_rate_C_min": "15",
+          "Tmax1_C": "376.4",
+          "R800_pct": "",
+          "residue_pct": "9.9",
+          "residue_temp_C": "800.0"
+        },
+        {
+          "DOI": "10.1007/s12221-021-0003-4",
+          "sample_state": "Uncoated",
+          "material_form": "100%woven cotton fabric;125.3g/m2;Chaotianmen",
+          "LOI_pct": "17.8",
+          "atmosphere": "N2",
+          "heating_rate_C_min": "20",
+          "Tmax1_C": "374",
+          "R800_pct": "9.9",
+          "residue_pct": "9.9",
+          "residue_temp_C": "800"
+        }
+      ],
+      "resolution": "SingleR8009.9coincidence;ownNY13/CO87not100%cotton125.3gsmLOI17.8oractualpurecottonwaste15CminwithoutLOI;ownLOI18.5+R8009.9haszerohits. Distinctsource/material/state;notmultiple-metricdatasetreuse."
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "G-PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "G-PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "CTC initial155C45min cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "CTC initial155C45min cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "MTC initial600Wtotal4min cotton fabric P3=T4",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "MTC initial600Wtotal4min cotton fabric P3=T4",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P1 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P1 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P2 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P2 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P4 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P4 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P5 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "P5 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T1 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T1 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T2 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T2 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T3 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T3 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T5 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T5 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T6 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T6 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T7 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "T7 initial microwave-treated cotton fabric",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "Control TG/pristine LOI processing unresolved",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "Control TG/pristine LOI processing unresolved",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "partial_metric_reuse_risk_audit": [
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "NYCO13/87 initial control fabric",
+      "metrics": [
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "NYCO13/87 initial control fabric",
+      "metrics": [
+        "R800_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": [
+        {
+          "DOI": "10.1016/j.tsep.2025.103946",
+          "sample_state": "Pure Cotton - 15\u00b0C/min",
+          "material_form": "\u5b9e\u9645\u7eba\u7ec7\u5e9f\u5f03\u7269",
+          "LOI_pct": "",
+          "atmosphere": "N2",
+          "heating_rate_C_min": "15",
+          "Tmax1_C": "376.4",
+          "R800_pct": "",
+          "residue_pct": "9.9",
+          "residue_temp_C": "800.0"
+        },
+        {
+          "DOI": "10.1007/s12221-021-0003-4",
+          "sample_state": "Uncoated",
+          "material_form": "100%woven cotton fabric;125.3g/m2;Chaotianmen",
+          "LOI_pct": "17.8",
+          "atmosphere": "N2",
+          "heating_rate_C_min": "20",
+          "Tmax1_C": "374",
+          "R800_pct": "9.9",
+          "residue_pct": "9.9",
+          "residue_temp_C": "800"
+        }
+      ],
+      "resolution": "SingleR8009.9coincidence;ownNY13/CO87not100%cotton125.3gsmLOI17.8oractualpurecottonwaste15CminwithoutLOI;ownLOI18.5+R8009.9haszerohits. Distinctsource/material/state;notmultiple-metricdatasetreuse."
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "G-PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04693-5",
+      "sample": "G-PEI/PA-NYCO13/87 initial fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "CTC initial155C45min cotton fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "CTC initial155C45min cotton fabric",
+      "metrics": [
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "MTC initial600Wtotal4min cotton fabric P3=T4",
+      "metrics": [
+        "Tmax1_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04191-0",
+      "sample": "MTC initial600Wtotal4min cotton fabric P3=T4",
+      "metrics": [
+        "Tmax1_C",
+        "R600_pct"
+      ],
+      "risk": "DropT5;controlonlyoneTGscalaravailable",
+      "gas_rate_agnostic": true,
+      "hits": []
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1527,
+    "new_states": 5,
+    "new_conditions": 5,
+    "evidence_upgrades": 0,
+    "verified_states": 1199,
+    "verified_conditions": 1532,
+    "verified_dois": 339,
+    "verified_sources": 341,
+    "offline_tests_passed": 1381,
+    "snapshot_sha256": "866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b",
+    "master_sha256": "99fceb9b76d639042aaab08c7cd477046a36616fa31f7308f25f710a44f23f43",
+    "validation_errors": [],
+    "held_fact_rows": 22,
+    "complete_original_text_pages": 7,
+    "complete_primary_HTML_bodies": 5,
+    "complete_primary_originals": 6,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 7,
+    "unchanged_private_evidence_files": 8,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
