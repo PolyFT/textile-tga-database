@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1141 unique reviewed source/sample/washing states**, **1456 TG condition records**, and **323 original sources (321 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1150 unique reviewed source/sample/washing states**, **1474 TG condition records**, and **325 original sources (323 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1141 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 940 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 949 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1607,3 +1607,13 @@ Native metric definitions, atmospheres, peak sequences, material form, launderin
 ### b146 publication proof
 
 [PR #110](https://github.com/PolyFT/textile-tga-database/pull/110) merged as `1c14515c6fcc58d66cc49e108f995f44f9d33758` after exact-head [validation run 37141927684](https://github.com/PolyFT/textile-tga-database/actions/runs/37141927684) passed on `33ad6a6285550388a3e03ec943aa913b2904137b`. All1199 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1141 states,1456 conditions,321 DOI sources and323 total sources. All1425 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and five primary original hashes, three official SI hashes and eight private text evidence hashes are preserved. The complete8375957-byte master has SHA256 `c7be1593c13d984e429c4fc539d5a9bdb1fab55dd5dabc99c4f781c25386a47b`; the full remote report matches a fresh rebuild. Snapshot:`997590c7a0ef3022aa21e005845fdb270bcf68d55ef3f32bc59728ad6bab750a`. Twenty new pairs and thirty-one TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b147 initial PA66 textile formulations with explicit provenance and SI limits
+
+Two complete primary originals (48 text pages) and all text and the native table of one available official supplement add **9 initial textile samples and 18 TG condition records**. Evidence upgrades and legacy completions are zero. Thirty-three of 51 factual records remain excluded. One supplementary color image is unviewed and unused. The other cited SI could not be retrieved; its accepted measurements are explicit own primary tables.
+
+- **10.1016/j.eurpolymj.2020.109483**: Own2020VOR125109483all11TEXTpages. MainTGmass/pan/flow/start/endunreported;TGIR55mLminnotborrowed;R800explicitnotprogramend. OwncontrolAIRproseapprox464/589versusTable2exact466/597;Tablevaluesretained. SharedJiaxing100gsm/controlLOI19.5/N2T5=411/R8004.9withDOPA2020butTmax444vs459;independentcontrolunproven,bothgascontrolrowsheld. FourtreatedownTable2/Table3groupsmatch. 10W/20WarebathdoseNOTwashcount. CitedSIunread;officialownPIIcandidateCDN404notproofabsence;noSIvaluesused. FifteenTable6washedVFTstateshaveNOownwashedTG/LOI. Noimagesread/curvesestimated.
+- **10.1016/j.ijbiomac.2020.04.075**: OwnJournalPreproofaccepted2020-04-10notfinalVOR;all37TEXTpages. OfficialSIallbodytext/TableS1read,onecolorimageunviewedunused. OwnprimaryLOITable4control20plusminus1vsSIcontrol21;primarymean20usedwithundefineduncertaintytype,notaveraged/replaced. SIinitialC/Daddon3.6/5.7versusprimary4.0plusminus.40/6.0plusminus.30retained;SIinitialA/B/C/Dnotextrasamples. MainTGmass/pan/flow/start/endunreported. NativeT10notT5/onset;AIRtwoannotatedpeaks/N2one;genericthree-stepproseNOTthirdnumericpeak. R700exact. LOI/residue/addonplusminusdefinitionandreplicatesunreportednotSD/SEassumed. NativeaddonEqtextunreadnotreconstructed;reportedTable1valuesnotfinalfabricmassfractions. ElevenSItrialLOIfactsandSIcontrolwithoutownTGandfourwashedconefactsheld. Noimagesread/curvesestimated.
+
+The sol-gel control remains held against unresolved cross-source independence. Primary pre-proof observations retain their document version and numerical differences from official SI. T5 and T10, 700 and 800 C residues, gas-specific peak sequences, native dose suffixes and durability washing states remain distinct. Unmatched SI trial formulations and washed combustion-only observations cannot borrow initial TG. Unreported uncertainty definitions and test conditions remain unknown. Original fulltexts, SI, images and private paths remain outside the repository. Publication requires exact-head CI, ordinary merge, three successful merge checks, complete remote-byte verification and release of the owned lease.
