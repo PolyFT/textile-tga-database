@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1208 unique reviewed source/sample/washing states**, **1546 TG condition records**, and **343 original sources (341 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1210 unique reviewed source/sample/washing states**, **1550 TG condition records**, and **344 original sources (342 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1208 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1007 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1009 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1741,3 +1741,14 @@ Originals, full texts, supplements, correction documents and local paths remain 
 ### b154 publication proof
 
 [PR #118](https://github.com/PolyFT/textile-tga-database/pull/118) merged as `70a1663d5a63ff5fc8edab4fefd21f67482d8802` after exact-head [validation run 37161343333](https://github.com/PolyFT/textile-tga-database/actions/runs/37161343333) passed on `cf9f56a5a00b66667a28589c8608a44a4fae687f`. All1412 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1208 states,1546 conditions,341 DOI sources and343 total sources. All1532 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, thirteen official table/supplement/correction original hashes and sixteen private text evidence hashes are preserved. The complete9066360-byte master has SHA256 `ddabcd3bb033f3a4fc6bb2bf67ffecfb9eb02e2615befe5f3b8c852b564b7deb`; the full remote report matches a fresh rebuild. Snapshot:`9f6b8622343121c2e94d414cd4053caad8518f8ad5bfc3b9baef286ccf263616`. Nine new pairs and fourteen TG conditions are published; evidence upgrades and legacy completions are zero;17 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b155 Glycerol-derived phosphorus/nitrogen cotton fabrics
+
+Two initial cotton sample states and four TG conditions use native Table4 and explicit own dose/WG/LOI mapping for glycerol-derived FR. Three original HTML scientific bodies and eight native primary tables were reviewed as text. Glycerol reference prose, remaining two casein and three TECHPA tables, and figure numeric annotations remain unread. Two air tests retain original initial identities and add conditions. Thirty-four of38 facts remain excluded: five casein facts with control reuse risk or dose/washing joins unproven;22 TECHPA facts with missing corresponding residue temperature or own TG;seven glycerol otherdose/washedLOI/bulkFR facts. The gas/rate-agnostic canonical audit retains16full and8reduced comparisons, normalizes residue aliases and explicitly preserves one held casein control hit to DOI10.1021/acssuschemeng.9b02474;approved records have no hits. Identical TGvalues across different cotton gsm/LOI are a provenance risk, not a proven duplicate;the control is not counted. All27 science guards pass. Native5percent/10percent massloss, decomposition peaks, percent-per-degree DTG rates, residue600 versusprogramend and cone char remain distinct;unknowns are not inferred. No images or curve estimates. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-022-04430-y**: All5 facts held. OwncontrolTmax362/R6009.25/DTG2.52percentperC identical to ACS DOI10.1021/acssuschemeng.9b02474 despite different cotton gsm/LOI; independent TG provenance unresolved, not a proven duplicate. Generic CADP TGdose versus40percent LOI unproven;50home washedTGcurves exist but native numerical annotations unread;gentlehand distinct. NativeTable2 surface analyses read;Tables1/3 and figure numeric annotations unread.
+- **10.1007/s10570-022-04416-w**: All22 facts held. NativeTable2 fourdose LOI series include17washedstates without ownwashedTG. Control/40gL finalresidualmass3.1/41.1 has no explicit corresponding temperature, so TGprogramend700 is not assigned as residue temperature. Undefined stage interval edges are not T5/T10/Tonset/Tmax. Three other primary tables and figure numeric annotations unread.
+- **10.1007/s10570-022-04558-x**: Two initial own plainwoven cotton states, four TG records from nativeTable4: own untreated and300gL/WG25.3 treated, N2/air. All six native primary tables and scientific body through dataavailability read;reference prose unread. Seven facts held: three other initial dose LOIs, two washed LOIs without ownTG and two bulkFR TGprofiles without owntextileLOI. Abstract initial225.9/221.8 are Table4 T10; T5/Tmax/residue600 remain distinct.
+
+Originals/fulltexts/native tables and local paths remain local.
