@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1194 unique reviewed source/sample/washing states**, **1527 TG condition records**, and **339 original sources (337 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1199 unique reviewed source/sample/washing states**, **1532 TG condition records**, and **341 original sources (339 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1194 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 993 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 998 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1706,3 +1706,17 @@ Four WPU-coated PET states retain the native T5, two DTG peaks, R600 and residue
 ### b152 publication proof
 
 [PR #116](https://github.com/PolyFT/textile-tga-database/pull/116) merged as `4896ed25cdc0582d5d6068092b2e16fd2c961eee` after exact-head [validation run 37156571370](https://github.com/PolyFT/textile-tga-database/actions/runs/37156571370) passed on `b9863431e2f15ccb6365cb4e0994e0eb0f765d4b`. All1354 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1194 states,1527 conditions,337 DOI sources and339 total sources. All1521 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and four primary original hashes and seven private evidence hashes are preserved. The complete8940756-byte master has SHA256 `884288c02c626d95270316c916dbe0d477153cac46c062cf59606f6e83df8fa8`; the full remote report matches a fresh rebuild. Snapshot:`b2ad4a5ace1fa0d5a3c186a57aa1fd2b2c28330229dd39ac15bf18ae8cccd29d`. Six new pairs and six TG conditions are published; evidence upgrades and legacy completions are zero;22 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b153 nylon-cotton and phosphorylated cotton fabrics
+
+Five same-state textile pairs and five TG records are supported by explicit primary-body values and two official supplements (seven native XML tables). Six primary bodies were reviewed: five local HTML articles and one seven-page PDF. Full-size primary tables remain unread after access challenges; missing values and additional states are held. Twenty-two of 27 staged facts remain excluded; four additional reviewed sources yield no approved pairs. P3 and T4 are the same 600W/4min cotton state and identical profile, counted once. The pristine-versus-water-only microwave control remains held. NYCO weave and GPTMS concentration remain unreported. Thirty-two full-profile and ten reduced-metric comparisons include two reviewed single-char-yield coincidences with unrelated pure cotton; no unresolved reuse. All27 scientific guards pass; no images or curve estimates. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-021-04317-4**: No approved pairs: TG atmosphere/ramp and undefined decomposition-temperature criterion unresolved; primary tables unread; washed LOI lacks own TG.
+- **10.1002/pen.22179**: No approved pairs: Table5 TGA concerns fibers; LOI uses compression-remolded sheets. All five fiber profiles and sheet LOI27 remain separate; dyed TG unavailable.
+- **10.1007/s10570-022-04693-5**: Three initial NY13/CO87 states approved using explicit LOI/TG body and native methods. Other blends and washes lack own TG; weave/GPTMS concentration unknown; primary tables unread; SI S1 reviewed.
+- **10.1007/s10570-021-04346-z**: No approved pairs: independent TG ramp unassigned; TG-FTIR20C/min and TG-MS10K/min cannot be selected for standalone TG tables. Primary tables unread; wash TG absent.
+- **10.1007/s10570-020-03020-0**: No approved pairs: fiber TGA versus fabric LOI correspondence unproven; 30%-bath LOI requires unread Table3. Maximum40.1 and washed28.5 are not assigned by guessing.
+- **10.1007/s10570-021-04191-0**: Two initial states approved: CTC155C45min and MTC600Wtotal4min; SI S3 TG and explicit body LOI. P3=T4 counted once; control processing unresolved; ten other TG groups lack own LOI; six SI tables read.
+
+Originals, full texts, supplementary files and local paths remain local.
