@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1172 unique reviewed source/sample/washing states**, **1502 TG condition records**, and **332 original sources (330 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1180 unique reviewed source/sample/washing states**, **1510 TG condition records**, and **334 original sources (332 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1172 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 971 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 979 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1656,3 +1656,14 @@ Cross-source checks normalize residue aliases and ignore gas and heating rate wh
 ### b149 publication proof
 
 [PR #113](https://github.com/PolyFT/textile-tga-database/pull/113) merged as `31aefd07b1ba4ae327afe3f29b58ce1222b5d0b6` after exact-head [validation run 37149192417](https://github.com/PolyFT/textile-tga-database/actions/runs/37149192417) passed on `2fffb547ad35369f493aff0313f8341fcf0ef1ba`. All1283 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1172 states,1502 conditions,330 DOI sources and332 total sources. All1482 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and four primary original hashes and four private text evidence hashes are preserved. The complete8708717-byte master has SHA256 `c749b638020b6ab37385a894c219dce7199f971c0f61ddfd5f255b034e318492`; the full remote report matches a fresh rebuild. Snapshot:`4391141e6ed0a987caf4d146b75da9f53cdcfc03f9532df85fb3e9f6d493392a`. Fourteen new pairs and twenty TG conditions are published; evidence upgrades and legacy completions are zero;97 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b150 coated cotton initial and one-wash states
+
+Three complete primary originals (25 native text pages), plus all official supplementary text and Table S1, add **8 textile sample states and 8 TG condition records**: six initial states and two one-wash states. Evidence upgrades and legacy completions are zero. Thirty-two of 40 factual records remain excluded. The supplement reports tensile strength and does not correct TG or LOI. Two supplementary images are unviewed and unused; no curve estimates were used.
+
+- **10.1016/j.porgcoat.2016.10.035**: All8publisherARTICLEINPRESSnativeTEXTpages;2016/2017localcopiesidenticalSHAandoneDOI;localregistryjournalyear2017;retainAIPversion/nativePDFpaginationnotinventfinalVORpages. ExactUT/COTA/COTBinitialplusCOTAW/COTBWoneENISO6330:2000wash shareTable2/6TGandTable4measuredLOI. Tonset5%isT5;nativepeakindicesdifferentbefore/afterMEAleachingandneverrenumbered. Peak293/287MEAdecompositionnotwateraround100C. R750andnativepeak-residuevaluesexact;R600initial28/32proseversuslatergeneric25-30rangekeptrawwithscopeambiguitynotguessedwashed12-15assignment. MCCcalculatedLOI26/27/19notmeasured29/29/20/21;MCCN21C/snotAIR-TG30C/min. Allsamplesconditioned65+/-4RH20+/-2C;washingtemperature/time/detergentandLOIrepsunreported. NoSIcited/noimages.
+- **10.1016/j.carbpol.2020.116173**: All10ownVORprimaryTEXTpagesplusofficialSIallbodyTEXT/TableS1tensiledata;2imagesunviewedunused. OwnCS/AP/CSAPinitialfabricTable1TGandTable2LOIexact. ControlT5=298/T10=295inconsistent,boththresholdsheldraw;entirecontrolalsoheldbecauseLOI18/Tmax361/R70012.5and220gsmQirongfabricmatchpriorACS9b05523control;differentT10notindependenceproof. CSconcentrationunreported;nativeCS/APprocedurewordtwiceand1BLcomparisonretainedwithoutinventingcyclecountfromunreadFigureS1diagram. N2TG-FTIR10C/min50mL/min40-700C2repeats;nootherTGAconditioninvented. Rmaxpercent/Cnotresidueorheatingrate;CCTresidues/EDXsurfacepercentnotTG/bulkcomposition;LOIuncertaintydefinition/repsunknown;preparationrinsesnotdurability.
+- **10.1016/j.surfcoat.2006.10.027**: All7ownVORprimaryTEXTpages. Tables1-3andwashedheavycopolymerprovideLOIbutnoownnumericalTG/testmethod;TGAacknowledgmentnotdata. CannotborrowpreviousFRpaper2006.05.002TGforCF4/AC8/copolymer/washed/agedstates. Cotton120copolymerTable27.5versusbody28conflictretainedraw. Workingpressure0.66mbarandbasepressure0.4mbarareseparatelyqualifiednotautomaticallycontradictory;bodywashedstartingG34versusTable33.01notaliased. Aging30daysevaluatesSchmerberonly,noagedTG/LOI. NoSIcited/noimages;zeropairs.
+
+The sol-gel paper uses native peak numbering before and after washing; T5 is distinct from an undefined decomposition onset. Its residue is measured at 750 C, not the 800 C program endpoint. Calculated MCC-derived LOI is excluded. The chitosan/phytate control is held for cross-source reuse and inconsistent T5/T10; three treated groups remain distinct. Plasma waterproofing LOI cannot borrow TG from an earlier flame-retardant paper. Unknown recipe and test details remain unknown. Publication requires exact-head CI, ordinary merge, successful merge checks, complete remote-byte verification and release of the owned lease. Original documents, full texts and private paths remain local.
