@@ -1,0 +1,95 @@
+{
+  "batch": "b136",
+  "review_completed_utc": "2026-10-03T13:50:53.318141+00:00",
+  "baseline_counts": [
+    1081,
+    1370,
+    306
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 23,
+    "complete_official_SIs_reviewed": 0,
+    "total_fact_rows": 60,
+    "held_fact_rows": 52
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261003_b136_local_textile.csv",
+      "published_input_sha256": "8580e1111e7333bc51b39aa2d9e34ed58326cc8f591a7c41a96916a5786c89d6",
+      "unique_sample_states": 6,
+      "verified_conditions": 8,
+      "held_fact_rows": 52,
+      "accepted_measurement_fingerprints": [
+        "6ed0762ac58ccce6ea390ff479402e2be651eccccf441915de9ba163b2374e4c",
+        "af63b496be972df430d43f7864690748d5b001183705f039e1b6ee833f3e1cb5",
+        "cbecce8b5c8466aac75ecc768f3c2cbd5c470315239fc24b8c2fe1468739378c",
+        "5e0d5c1ed25d05393ced94a6efd46eb149e1fdfe274a2a4220dd96601c8e85f5",
+        "341f9937bfc557fb6c5044f763d5e29a0b13abc7a4bbecc25ec403c985bc5794",
+        "8b44ee414f348f1359ad5ec83c8ee2c609aab828996e8c9cd5f2afb9bb422311",
+        "98e3b148513bff83c6fd28bf8a44b5925728983d7a767cdca07672e32503d5be",
+        "d5f3c23f01a53eb70b06f7a6beb1eb8506ed083cdc2655faad407e02118671b7"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1021/acssuschemeng.9b02474",
+      "title": "Novel High-Efficiency Casein-Based P\u2013N-Containing Flame Retardants with Multiple Reactive Groups for Cotton Fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 4,
+      "held_rows": 34,
+      "pages": 10,
+      "disposition": "All10primarynative/textpagesreviewed;noSIcited. Own113.2g/m2purecottonChaotianmenChongqing,weaveandpretreatmentunreported. Caseinhydrolysis17.08g100mL6molLHClreflux20h;H3PO30.25mol20.50gand37percentformaldehyde0.25mol20.27g110C3h;rotavap2-propanolpurificationovendry;intermediateDI/urea.3mol18g140C1hpHabout5,rotavapethanolpurificationdry. Figure1hydrolysis100Cnotexplicitmethodtemp,notinferred. Bath5/10/15/20/25/30concentrationbasisunspecified,5percentdicyandiamidecatalyst;20x20cmprepspecimens70C0.5h1:20liquorratio100percenttakeup,180C8mincureDIwash/dryconditionsunknown. Add-on=(W1-W0)/W0,Table1p4controlblank/5=4.3plusminus.2/10=7.2plusminus.3/15=8.8plusminus.3/20=10.9plusminus.3/25=13.6plusminus.4/30=16.1plusminus.4 notcompositefraction. LOIASTMD2863-2000M606Bdimensions/repsunknown,20x20cmprepnotLOIdims;ownprosep6/abstract/conclusioncontrol18.2/30initial39.5/30after40LC26.7. Fig4p4initial5/10/15/20/25andall10/20/30/40LCgroupsonlyunannotatedcurves,donotestimate. MainPyris1p4N2/AIR40-700C10C/min60mL/min8mgpanunknown. OwnFig6p5explicitprintedcoordinates: N2control90mass335/Tmax362/R6009.25;30treated90mass259/Tmax272/R60043.57;AIRcontrol90mass325/Tmax1=341/Tmax2=494/R600.53;AIR30treated90mass260/Tmax273/R60019.95. Ownprosep7callsTonset10percentweightloss,canonicalT10notgenericTonset;graphannotationnotcurveestimate. DTGrates2.52/2.35/4.04/3.25/.29percent/Cnotheatingrate. Mainprogram700notR700,coordinate600explicitnot800. TGsectionp7explicitbefore/after30percent,FTIR/CCTsame30;otherdoseownTGnotreported. NeatFRFig2p3annotatedT10=149,Tmax1=167/Tmax2=502,R60022.12,heldnoLOI. CCTTable2R3.6/16 notTG9.25/43.57,EDXatomiccarbonnotTGresidue. WashtesterRoachesAATCC61-200649C.15percentw/vWOBstandardreference detergent;time/volume/equivalenceunknown. All28washedgroups0/5/10/15/20/25/30x10/20/30/40LCheldnowashedTG, only30after40explicitLOI26.7restcurvevaluesnotchosen. Initial5othersheldnoTGplus28washedplusneatFR=34held;control30initialtwoindependentstates4conditionspotentialafterdedup38facts.",
+      "SI_status": "No SI cited in complete primary"
+    },
+    {
+      "DOI": "10.1002/pat.3041",
+      "title": "Durable flame\u2010retardant finishing for polyamide 66 fabrics by surface hydroxymethylation and crosslinking",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 7,
+      "pages": 5,
+      "disposition": "All5primarynative/textpagesreviewed;PolymAdvTechnol2013volume24p10-14,earlyonline25May2012/copyright2012,libraryfolder2012notpublicationyear. Own100percentwovenPA66fabric165gsmHairongChengdu.36percentformaldehydeaqunderN2boiling1h,waterwash;thioureaaqconcentrationunknown2dip2nip90C3mindry160C3mincurewetpickup85-95percent. Singlethioureatreatmentdetailedsequenceunknown. LOIJF3GB2403-1993dims/repsunknown;Table1p3printed12control/thiourea/hydroxymethyl/hybridLOI21.6/28/35.8/46.2plusminus1;addonrawdash/2/3/5.6plusminus1basisunknown;washedthiourea/hydroxymethyl/hybrid21.8/22/44.5plusminus1. Washingpostcure1wtpercentdetergentboiling30minstir/dry100C5min;no standardizedcycleequivalence. FTIRhybridexplicitboilingdetergentwashed30min;Table3TGloadingandwashstatusunannotated so treatedinitialversuswashed joinUNRESOLVED,notassumedinitial. MainHENVENHCT1TGDSCstaticAIR10C/minmass/pan/flow/tempRangeunknown;Fig2plot700notassignedmethodendpoint. Owncontrolp3startslose360C/maximumrate440C;Table3p4TOnset386,TInflection450,TEnd480,Wr4.14. Different onset/earliestloss definitions and TInflection vspeak definitionsunreported;do not force360=386or450=Tmax, heldcontrol pendingmetricadjudication. HydroxymethylTable3Tonset412/TInflection434/TEnd480/Wr7.08 vsproseresidue8.1;hybrid415/424/480/9.14vsprose9.2;fixedWrtemperatureunknownnotR700,stageend480notresiduetemp. All3treatedTG/LOIwashingjoinsheld;thioureaonlynoownTG. DSC430endoand225-260meltingnotTGmax. Sevenfactualinitial4/washed3statesallheld;0approvedpendingdefinitions/washingadjudication;noSIcited.",
+      "SI_status": "No SI cited in complete primary"
+    },
+    {
+      "DOI": "10.1016/j.reactfunctpolym.2018.03.005",
+      "title": "Adsorption and flame retardant properties of potassium diphenyl sulfonate on nylon 6 fabric",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 11,
+      "pages": 8,
+      "disposition": "All8primarytextpagesreviewed;native1-6previouslyreviewed,remaining7-8textonlyperuser2026-10-03preference. OwnwovenNYLON6notPA66,59g/m2WujiangZhiyuanwarp55.6dtex48Fweft50dtex34Fwarp75threads/cmweft50. KSSpotassiumdiphenylsulfonateaqowfonfabric;dipping40:1liquorvolume/fabricmasspH2diluteH2SO425Cthen2C/minheat70C60min;DIwash/airdry. MethodvariouspH/time/concentrationadsorptionnotallflamegroups;furtherexperiments70C. OwninitialFig7p5explicitannotatedcontrol/0.5/1/5/10/20owfLOI24.7/28/29.4/29.6/30/30.2;5LOI29.6ownconclusionp7agrees. OwnTGmainQ600TA30-600C10C/minAIRandN2flow20mL/minmass/panunreported. OwnTable1p6AIRcontrol1/5/10owfTonset410/402/390/362,Tend468/465/463/458,Tmaxa446/443/435/434,Tmaxb515/534/536/528. TonsetgenericinitialdegradationcriterionunreportednotT5/T10;Tmaxa/bfirst/seconddecompositionratepeaksnotDSCmelting;Tendnotcharfixedtemperature. N2same4curvesFig9p5butnoexactnumericalTGmetrics,heldnoestimatedmax/residue. AIRR550-600intervalcomparativenotfixedR600. Initial0.5/20LOIheldnoownTG. OwnLOIASTMD2863FTT0080dim/repsunreported;verticalD6413notLOI. Fixation10owfKSSthen15owfErionalRNpH3from25C2C/minto70C30min;initialfixedLOIslightlyhigheronlyunannotatedFig12b,heldnoownTG. WashRoachesWashTec-P4gLcommercialdetergent40C10min50:1,removegentlesqueeze/taprinse;explicit10cycles100minownsource-equivalence. Unfixed10nativecyclesLOI26.9p7;fixed10/20/40nativecycles29.7/29.6/28.5p7,all4heldnowashedTG;remainingunannotatedwashseriesvalues/countsnotguessed. ComparisonpriorarticlesLOI21.2/29.4etcnotown. SixinitialLOIgroups4AIRpotential/2held,4N2TGcurve-onlyheld,onefixedinitialandfourwashedexplicitLOIheld:15facts11held4states4AIRconditionspotentialafterdedup;unannotatedotherwashseriesrecordedinrawlimitationonly.",
+      "SI_status": "No SI cited in complete primary"
+    }
+  ],
+  "verification_limit": "Threecompleteprimaryoriginals23textpages;oneprimaryreviewer;textonlypreferenceactive. Caseincottoncontrol/30percentinitialLOI18.2/39.5joinsownexplicitFig6T10/Tmax/R600inN2/AIR10C/min40-700C60mL/min8mg;nativeTonsetdefined10percentlossisT10;600charpointnot700programend;AIRcontrolsecondpeak494. Priorprintedgraphannotationreviewretained;noadditionalimageview. Otherfiveinitialdoses,28washedstatesandneatFRheld. PATPA66all7factsheld:control360firstloss/440maxratevsTable386onset/450inflectiondefinitionsunresolved;treatedTGwashidentityunannotated;Wrtemperatureunknown;2013publicationnot2012folderyear. KSSwovenNYLON6notPA66:control/1/5/10owfinitialLOI24.7/29.4/29.6/30joinsownAIRTable1genericonset/twodecompositionmaxima30-600C10C/min20mL/min;TendnotcharT;noestimatedN2curvemetrics/fixedinitialLOI;wash/fixationstatesheld. Bathowfnotactualaddon;unknownmethodsremainunknown. Sixnewstates8conditions60facts52held;2acceptedDOIs3reviewedpapers;noSIcited;nooriginal/fulltext/image/privatepathuploaded",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1370,
+    "new_states": 6,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1087,
+    "verified_conditions": 1378,
+    "verified_dois": 308,
+    "verified_sources": 310,
+    "offline_tests_passed": 1019,
+    "snapshot_sha256": "e5405d17c3bf4458f629cf4850a28aa59b6ce65b3df49ae3b0de093e1610a96d",
+    "master_sha256": "7ea5da09b0d68b5704fbe585af819a72e2ce9b26004d89cf94fb95741a7abaf6",
+    "validation_errors": [],
+    "held_fact_rows": 52,
+    "complete_original_text_pages": 23,
+    "prior_native_pages_reviewed": 21,
+    "complete_official_SIs": 0,
+    "unchanged_private_evidence_files": 3,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
