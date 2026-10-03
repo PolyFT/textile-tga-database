@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-03T22:33:38.423295+00:00",
+  "as_of_utc": "2026-10-03T22:54:21.288860+00:00",
   "latest_batch_id": "20261004_b153",
   "verified_condition_records": 1532,
   "verified_unique_sample_states": 1199,
@@ -18,8 +18,8 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b153_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261004_b152",
+  "publication_stage": "b153_merged_remote_verified_pending_lease_release",
+  "last_merged_batch": "20261004_b153",
   "writer_lease": {
     "owner": "codex-local-textile-b153-20261004",
     "status": "active",
@@ -3434,6 +3434,25 @@
     "held_fact_rows": 22,
     "fully_held_other_primary_sources": 4,
     "tests_passed": 1381,
-    "snapshot_sha256": "866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b"
+    "snapshot_sha256": "866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b",
+    "publication": {
+      "head_sha": "ea46817f329b3b9982a21c3326b396ffefc05dbc",
+      "merge_sha": "5eaeee6eb30a37cb51a3fb1817a9b9c4a74b773b",
+      "validation_run": 37159227221,
+      "snapshot_sha256": "866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b",
+      "master_sha256": "99fceb9b76d639042aaab08c7cd477046a36616fa31f7308f25f710a44f23f43",
+      "independent_remote_master_blob_sha": "4b243295f8c9038e84bc07c3441ef1aa189dde2d",
+      "independent_remote_master_bytes": 8978880,
+      "postmerge_runs": [
+        37159470302,
+        37159470314,
+        37159470307
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 11,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/117",
+      "status": "merged_remote_verified"
+    }
   }
 }
