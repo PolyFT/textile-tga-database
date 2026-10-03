@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1199 unique reviewed source/sample/washing states**, **1532 TG condition records**, and **341 original sources (339 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1208 unique reviewed source/sample/washing states**, **1546 TG condition records**, and **343 original sources (341 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1199 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 998 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1007 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1725,3 +1725,14 @@ Originals, full texts, supplementary files and local paths remain local.
 ### b153 publication proof
 
 [PR #117](https://github.com/PolyFT/textile-tga-database/pull/117) merged as `5eaeee6eb30a37cb51a3fb1817a9b9c4a74b773b` after exact-head [validation run 37159227221](https://github.com/PolyFT/textile-tga-database/actions/runs/37159227221) passed on `ea46817f329b3b9982a21c3326b396ffefc05dbc`. All1381 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1199 states,1532 conditions,339 DOI sources and341 total sources. All1527 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and six primary original hashes, two official supplementary hashes and eight private text evidence hashes are preserved. The complete8978880-byte master has SHA256 `99fceb9b76d639042aaab08c7cd477046a36616fa31f7308f25f710a44f23f43`; the full remote report matches a fresh rebuild. Snapshot:`866e7a8eb7021cf8feb067baec7c3cab791a7e21ec2443d61e629b114d7c236b`. Five new pairs and five TG conditions are published; evidence upgrades and legacy completions are zero;22 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b154 TA/PA/PDMS and N-PDBDPA cotton fabrics
+
+Nine initial cotton sample states and fourteen TG conditions use native primary tables and two official supplements. All three primary HTML bodies, ten primary tables, five SI tables and one SEM-only correction were reviewed as text. Five air tests retain their original sample identities and are additional conditions. Seventeen of 31 staged facts remain excluded: eleven washedLOI-only states and six CDs-APP facts with unresolved standalone TG program or missing own TG. Native controlLOI19 from Table3/Conclusion versus body18, and washed30LOI31.8 from Table4 versus body31.1, are recorded with their conflicts. DTG rates remain percent per degree; water loss, T5/T10, first/second decomposition peaks, residue temperatures and cone residue remain distinct. Thirty-two full-profile and twenty-eight reduced-metric gas/rate-agnostic comparisons normalize residue aliases and have no hits. All31 source-specific science guards pass; no images or curve estimates. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-022-04829-7**: No approved pairs: independent TG ramp/hold program ambiguous; exact native Table1 loading and Table3 LOI read. Undefined Tonest and CP-C2 residue change wording remain raw; CP-C1/3 and washes lack own TG; five other primary tables unread.
+- **10.1007/s10570-023-05051-9**: Five initial TA/PA/PDMS cotton states, eight TG records: primary Tables2/3 and SI S1. All four primary tables, two SI tables and SEM-only correction reviewed. Table3/Conclusion controlLOI19 versus body18 discrepancy retained; seven washedLOI states have no own TG.
+- **10.1007/s10570-022-04929-4**: Four initial N-PDBDPA cotton states, six TG records: primary Tables1/2, SI S1 methods and S2 air. All four primary tables and three SI tables reviewed. Four washedLOI states held; native Table4 washed30LOI31.8 versus body31.1 conflict retained; cone residues are separate.
+
+Originals, full texts, supplements, correction documents and local paths remain local.
