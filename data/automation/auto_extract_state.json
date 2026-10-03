@@ -3210,8 +3210,28 @@
       "attempt_count": 2,
       "last_attempt_utc": "2026-10-03T19:26:59.730391+00:00",
       "next_retry_utc": "2026-10-04T07:26:59.730391+00:00"
+    },
+    "10.1177/0040517516652349": {
+      "fingerprint": "6b2b56269a3687cdf866",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-03T21:19:56.906960+00:00",
+      "next_retry_utc": "2026-10-04T03:19:56.906960+00:00"
+    },
+    "10.1002/app.1497": {
+      "fingerprint": "2623daf130efc71d5716",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-03T21:19:56.906960+00:00",
+      "next_retry_utc": "2026-10-04T03:19:56.906960+00:00"
     }
   },
-  "last_run_utc": "2026-10-03T20:09:36.208973+00:00",
-  "last_examined_candidates": 1
+  "last_run_utc": "2026-10-03T21:19:56.906960+00:00",
+  "last_examined_candidates": 2
 }
