@@ -1,0 +1,327 @@
+{
+  "batch": "b150",
+  "review_completed_utc": "2026-10-03T20:26:28.242536+00:00",
+  "baseline_counts": [
+    1172,
+    1502,
+    330
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 25,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "total_fact_rows": 40,
+    "held_fact_rows": 32
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b150_local_textile.csv",
+      "published_input_sha256": "fa57710e0f4c27da444f02abddda665322f8bc103e1c71a1e156e01042ea878a",
+      "unique_sample_states": 8,
+      "verified_conditions": 8,
+      "held_fact_rows": 32,
+      "accepted_measurement_fingerprints": [
+        "8d8a82935bdb970525a5ecbd942c14b364463cb2d1f692b8c0d857f13f409f50",
+        "0139b9971704b01e7b6da5d4bd1209599310b20caab4138eb196e9c6b57a12a4",
+        "293754f14f2b12baf47a73448206c11a8211e8f1051b52d49278e50c00fa192a",
+        "4f29a89fe53bee04f1ddcb4ac79c073df1159c35108f212fbc2ec0451a6275ed",
+        "c9e9d230ca4913e32f093f046028b735aa75a3fc2ca6e66f331111ddc5b57a7e",
+        "f3b2ad73633d08ea7da52317ee2603b79631d884f318c19cea975db9c223d4d7",
+        "6cfb8b7753c57ed6a2bedacb9a64c470da11c111b195451f2d352e195baa4ba3",
+        "b7f58c4b0ba15e999c0db1984b0de4b4dd5977eb91e82d90b44c07956ec2a1d6"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "title": "Thermal behaviour and flame retardancy of monoethanolamine-doped sol-gel coatings of cotton fabric",
+      "accepted_states": 5,
+      "accepted_conditions": 5,
+      "held_rows": 9,
+      "pages": 8,
+      "disposition": "All8publisherARTICLEINPRESSnativeTEXTpages;2016/2017localcopiesidenticalSHAandoneDOI;localregistryjournalyear2017;retainAIPversion/nativePDFpaginationnotinventfinalVORpages. ExactUT/COTA/COTBinitialplusCOTAW/COTBWoneENISO6330:2000wash shareTable2/6TGandTable4measuredLOI. Tonset5%isT5;nativepeakindicesdifferentbefore/afterMEAleachingandneverrenumbered. Peak293/287MEAdecompositionnotwateraround100C. R750andnativepeak-residuevaluesexact;R600initial28/32proseversuslatergeneric25-30rangekeptrawwithscopeambiguitynotguessedwashed12-15assignment. MCCcalculatedLOI26/27/19notmeasured29/29/20/21;MCCN21C/snotAIR-TG30C/min. Allsamplesconditioned65+/-4RH20+/-2C;washingtemperature/time/detergentandLOIrepsunreported. NoSIcited/noimages.",
+      "SI_status": "NoSIcitedallprimaryTEXTpages"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "title": "Fully bio-based coating from chitosan and phytate for fire-safety and antibacterial cotton fabrics",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "held_rows": 1,
+      "pages": 10,
+      "disposition": "All10ownVORprimaryTEXTpagesplusofficialSIallbodyTEXT/TableS1tensiledata;2imagesunviewedunused. OwnCS/AP/CSAPinitialfabricTable1TGandTable2LOIexact. ControlT5=298/T10=295inconsistent,boththresholdsheldraw;entirecontrolalsoheldbecauseLOI18/Tmax361/R70012.5and220gsmQirongfabricmatchpriorACS9b05523control;differentT10notindependenceproof. CSconcentrationunreported;nativeCS/APprocedurewordtwiceand1BLcomparisonretainedwithoutinventingcyclecountfromunreadFigureS1diagram. N2TG-FTIR10C/min50mL/min40-700C2repeats;nootherTGAconditioninvented. Rmaxpercent/Cnotresidueorheatingrate;CCTresidues/EDXsurfacepercentnotTG/bulkcomposition;LOIuncertaintydefinition/repsunknown;preparationrinsesnotdurability.",
+      "SI_status": "OfficialSIS0144861720303477verifiedDOI/title;allbodyTEXT/TableS1tensiledataread;2imagesunviewedunused,noTGorLOIcorrectioninSItext"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2006.10.027",
+      "title": "Towards multifunctional surfaces using the plasma-induced graft-polymerization (PIGP) process: Flame and waterproof cotton textiles",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 22,
+      "pages": 7,
+      "disposition": "All7ownVORprimaryTEXTpages. Tables1-3andwashedheavycopolymerprovideLOIbutnoownnumericalTG/testmethod;TGAacknowledgmentnotdata. CannotborrowpreviousFRpaper2006.05.002TGforCF4/AC8/copolymer/washed/agedstates. Cotton120copolymerTable27.5versusbody28conflictretainedraw. Workingpressure0.66mbarandbasepressure0.4mbarareseparatelyqualifiednotautomaticallycontradictory;bodywashedstartingG34versusTable33.01notaliased. Aging30daysevaluatesSchmerberonly,noagedTG/LOI. NoSIcited/noimages;zeropairs.",
+      "SI_status": "NoSIcitedallprimaryTEXTpages"
+    }
+  ],
+  "verification_limit": "Three complete primary originals (25 native text pages), plus all official supplementary text and Table S1; two supplementary images unviewed and unused. Eight textile states/eight TG conditions, 40 factual records, 32 held; six initial states and two one-wash states. Twenty-two scientific guards pass. Sixteen gas/rate-agnostic, residue-alias-normalized profile comparisons have no identical full profiles. 10.1016/j.porgcoat.2016.10.035: All8publisherARTICLEINPRESSnativeTEXTpages;2016/2017localcopiesidenticalSHAandoneDOI;localregistryjournalyear2017;retainAIPversion/nativePDFpaginationnotinventfinalVORpages. ExactUT/COTA/COTBinitialplusCOTAW/COTBWoneENISO6330:2000wash shareTable2/6TGandTable4measuredLOI. Tonset5%isT5;nativepeakindicesdifferentbefore/afterMEAleachingandneverrenumbered. Peak293/287MEAdecompositionnotwateraround100C. R750andnativepeak-residuevaluesexact;R600initial28/32proseversuslatergeneric25-30rangekeptrawwithscopeambiguitynotguessedwashed12-15assignment. MCCcalculatedLOI26/27/19notmeasured29/29/20/21;MCCN21C/snotAIR-TG30C/min. Allsamplesconditioned65+/-4RH20+/-2C;washingtemperature/time/detergentandLOIrepsunreported. NoSIcited/noimages. 10.1016/j.carbpol.2020.116173: All10ownVORprimaryTEXTpagesplusofficialSIallbodyTEXT/TableS1tensiledata;2imagesunviewedunused. OwnCS/AP/CSAPinitialfabricTable1TGandTable2LOIexact. ControlT5=298/T10=295inconsistent,boththresholdsheldraw;entirecontrolalsoheldbecauseLOI18/Tmax361/R70012.5and220gsmQirongfabricmatchpriorACS9b05523control;differentT10notindependenceproof. CSconcentrationunreported;nativeCS/APprocedurewordtwiceand1BLcomparisonretainedwithoutinventingcyclecountfromunreadFigureS1diagram. N2TG-FTIR10C/min50mL/min40-700C2repeats;nootherTGAconditioninvented. Rmaxpercent/Cnotresidueorheatingrate;CCTresidues/EDXsurfacepercentnotTG/bulkcomposition;LOIuncertaintydefinition/repsunknown;preparationrinsesnotdurability. 10.1016/j.surfcoat.2006.10.027: All7ownVORprimaryTEXTpages. Tables1-3andwashedheavycopolymerprovideLOIbutnoownnumericalTG/testmethod;TGAacknowledgmentnotdata. CannotborrowpreviousFRpaper2006.05.002TGforCF4/AC8/copolymer/washed/agedstates. Cotton120copolymerTable27.5versusbody28conflictretainedraw. Workingpressure0.66mbarandbasepressure0.4mbarareseparatelyqualifiednotautomaticallycontradictory;bodywashedstartingG34versusTable33.01notaliased. Aging30daysevaluatesSchmerberonly,noagedTG/LOI. NoSIcited/noimages;zeropairs.",
+  "canonical_profile_dedup_audit": [
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "UT initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "UT initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-A initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-A initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-B initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-B initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R750_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-A W one native wash",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R750_pct",
+        "residue_at_Tmax1_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-A W one native wash",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R750_pct",
+        "residue_at_Tmax1_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-B W one native wash",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R750_pct",
+        "residue_at_Tmax1_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.10.035",
+      "sample": "COT-B W one native wash",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R750_pct",
+        "residue_at_Tmax1_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "CS/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "CS/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "AP/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "AP/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "CS/AP/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.116173",
+      "sample": "CS/AP/cotton initial",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1502,
+    "new_states": 8,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1180,
+    "verified_conditions": 1510,
+    "verified_dois": 332,
+    "verified_sources": 334,
+    "offline_tests_passed": 1305,
+    "snapshot_sha256": "70d8740f5e4d50996d0f7f97ca609e871cd19d58bd8a2e3a975a2ba20fad5d3f",
+    "master_sha256": "1d983499ec4c4a3143a1a26baca97578dbc6ffb9b88c36d24fb7b310eb29f0f0",
+    "validation_errors": [],
+    "held_fact_rows": 32,
+    "complete_original_text_pages": 25,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "unchanged_private_evidence_files": 4,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
