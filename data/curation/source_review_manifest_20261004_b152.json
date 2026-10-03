@@ -1,0 +1,737 @@
+{
+  "batch": "b152",
+  "review_completed_utc": "2026-10-03T21:45:00.993810+00:00",
+  "baseline_counts": [
+    1188,
+    1521,
+    335
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 45,
+    "complete_official_SIs_text_tables_reviewed": 0,
+    "total_fact_rows": 28,
+    "held_fact_rows": 22
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b152_local_textile.csv",
+      "published_input_sha256": "41fa3ef57b007af1db172f1acbec6dd9e34cf9dba6e125394772a2e61e906d2d",
+      "unique_sample_states": 6,
+      "verified_conditions": 6,
+      "held_fact_rows": 22,
+      "accepted_measurement_fingerprints": [
+        "a2d345ad0279738456a5b8b6b08392075ee2990d84103671708a929baf8d3f26",
+        "5a0abde2155fb09945490b1fdc41e708138d53a1efa6cfca77e875c1318bc1a2",
+        "fc59f2397c4f593417008dc79303c75cafab7a2598b76c11a8a79b28a0db3607",
+        "a5def1158c549eb915fe9394d30111f918293c7db61a7891b64234ed3030e13d",
+        "fe6726b5fb61cd5021ced0ac65d57f531558c0d418aba8d9ed53015d5e035e75",
+        "74a2c960426c5177ff5410820fd4949804ff69b69d3d4f2979920b7f1839c4ec"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "title": "Synthesis and application of self-crosslinking and flame retardant waterborne polyurethane as fabric coating agent",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "held_rows": 2,
+      "pages": 9,
+      "disposition": "All9ownVOR137(2019)105323primaryTEXTpages. Ownwoven100%PET106gsmWujiangSanlian;S0F/S1F/S2F/S3FinitialcoatedtextilesnotbulkWPUs. Table4PDFp6T5/Tmax1/Tmax2/R600265.5/290.2/427/8.9;263.1/287.5/390.6/12.1;238.6/281.7/385.2/13.8;178.2/244.3/381.3/16.6. NativeCTmax1/2arechar-at-peak92.8/36.1;92.6/65.8;91.2/66.4;87.1/57notfixed600residues. Table3p6LOI21.4/24.3/26.2/27.5;5reps150x58mmHC2GB/T5454-1997RT. NativeDiamond5700TGinstrumentnameN210Cmin30-600p2;masspanflowrepsunknown;Nicolet5700FTIRinstrumentnotvendorTGAinference. NativeT5onsetcriterion5%notundefinedTonset;firsthardsegmentandsecondsoftsegmentnativepeakindices. AllTable1p3feedwt%8componentsincludingwaterIPDI10.53PCL15.13DMPA1.14DHA.91FRC0/3.03/6.05/9.07TEA.85ADH.85H2O70.59/67.56/64.54/61.52;wetoriginalfeednotfinalcoatingfractions. PCL/DMPA/FRCvacuum4hpredrytemperatureunreported. IPDIadd60C30min/80C2hthenFRC2h45CTEA30minwater/ADHshear30minMEKdistillnominal30%emulsion;Tablefeedwaternotreconciledtofinalsolids.3wt601Hthickenernativebasisunspecified;knife1mm30mmin25C2passesonefaceabout40gsmaddon120C30scureRTdesiccator24hpretest. Mechanical-onlyRH65/20CnotassignedTGLOI. Table6p8washS3FprimeLOI26.8hasNOwashedTG;AATCC61-2013equiv5homewashprotocoltemperature/time/detergent/optionsunreportednot5labcyclesinferred. PristineLOI20.1hasNOownnumericTG;S0Fnotpristinecontrol. EDScharP1.30/1.71/2.39notbulkfabriccomposition. NoSI/images;Four native pairs deduplicated and staged for B152; publication pending.",
+      "SI_status": "NoSIcited;allprimaryTEXTreviewed"
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "title": "Ti3C2Tx MXene-based hybrid nanocoating for flame retardant, early fire-warning and piezoresistive tension sensing smart polyester fabrics",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "held_rows": 3,
+      "pages": 15,
+      "disposition": "Full15nativeTEXTpages4811-4825;Table1PDF6TGfivegroupsFRPET/FPP/FPP-AM3/FPP-PM3/FPP-A5M1T5/Tmax/R700368.11/430.11/8.43;366.59/429.29/6.99;345.76/426.75/14.29;365.23/428.42/10.07;317.97/371.69/19.41. MainPDF8journal4818explicitinitialLOIFRPET32/FPP-A5M126;otherthreeTGgroupsLOIunreadFigS8SI. NativeLOIDyniscoGB/T5455-1997retainstandardasreported150x58mmrepsunknown;TGN2TG20910mLmin5-10mg25-70010Cminpanunknown. FRPETCEPPA-copolymerizedPET160gsmnotplainPET,ratio/processref38unread. PDA/PEIpH5acetatebuffer1.6gLPEI10DAHCl2NaIO46.4gL25C1hDIrinse3x30mindrytempunknown;APP10gLpH4HCl36.5gL24hstir;APP5min/DIrinse/30mindryrepeatPEI-APP5bilayers/PEI5minDIrinse30mindry/MXene10gL5min30mindryouter1bilayer. NativeQMXeneballmilledversusPMXenenonballmilleddistinctnotcrossassigned. SIFigS5/S8unread;allacceptedprospectivefactsprimary;threeTGonlyfactsheld;washsixthermoelectricvaluesnotLOI/TG;coneFOURLAYERS35kWm2notLOIform;TGIR550->500gasabsorptionnotTmax;RamanIDIGnotTGresidue;initialFRPETcleanEtOH/DI50C12h,SEM-onlydry50C12hnotuniversalTGcondition. Noimages/curves. LocalHTMLownidentitymatchedcheckedTG/LOImethod/nativeTable1;Supplement link not located in local HTML; candidate official URL returned404;no supplementary evidence used;Deduplicated and staged for B152; publication pending.",
+      "SI_status": "CriticalSIunread_accessfailure;onlyexplicitprimaryfactsused"
+    },
+    {
+      "DOI": "10.1002/adfm.202425093",
+      "title": "A Facile Strategy Based on Ionic Liquids to Modulate the Antibacterial, Flame\u2010Retardant, and Sensing Properties of Cotton Fabrics",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 4,
+      "pages": 13,
+      "disposition": "All13ownVOR2025AdvFunctMater35e2425093TEXTpagesread;CF/CF-MA/CF-PIL4LOI19.5+-0.3/20.3+-0.2/28.1+-0.4explicitp5Fig4cp7caption. TG N2p4-5CFdecomposition305-351C/R35113;CFPIL4decomp259-308C/R30847.8explicitnotT5/Tonset/Tmax/R800;CFMAonlyqualitativeTGwithoutownnumeric. TGAheatingrate/program/model/masspanflowunreportedinmain/noexperimentalmethodssectionrequiresSI. Everypairhelduntilmethodsavailable. CFPIL2/4/6/8freeBMIMPF6:BVIMPF6weight2/4/6/8recipesTableS1SIunread;CFMAesterificationMAcelluloseOH/PILUVfree-radicalvinylcopolymerizationmainp2notexactcure. Source cottondensity/supplierunknown. Wash50LOI94.0percentretentionp5NOTabsoluteLOI26.414calculation;wash50TGunknown;wash30capacitivesensorresponseNOTwashedTGLOI. Conechar/EDSsurfacefractionsnotTGresidue/bulkcomposition;alarm143CnotTGonset. AllSIcitedunread;noimages/curveestimates;zeroapprovednotcounted.",
+      "SI_status": "CriticalSIunread_accessfailure;onlyexplicitprimaryfactsused"
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "title": "Flame retardant modification of waterborne polyurethane fabric coating agent with high hydrostatic pressure resistance",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "held_rows": 13,
+      "pages": 8,
+      "disposition": "All8nativeTEXTpagesownVOR97(2016)91-98read. Table3p94PDF4TGA/DTG/R500S0-5areBULKOWPUfilmspersection3.3p95NOTcoatedDTYfabric. Table6p97PDF7bulkfilmLOI21.8/22.8/24.2/28.4/29.0/29.2. Table8p98PDF8ownDTY/S0/S1/S2/S3/S4/S5FABRICLOI14.6/15.6/18.2/20.8/21.6/21.0/21.2;allsevenlackownfabricTGnumbersandheldnotborrowfilmTGdespitesamesamplenames. TGA METTLERTGA/DSC1N210Cmin30-600C;TGFTIRMSdistinctARGON40mLminRT-60010CminnotaliasN2curve. NativeT5notTonset;Td1-1/Td1-2/Td2nativeindicespreservenotsimplifyS0missingfirstshoulder. Source filmthickness3mm/TefloncastRT7days/vac70C48h/desiccatorRTnotfabricstate. FabricDTYsupplierZhejiangTransfarpolymeridentity/arealdensityunreported;2.5wt601Hemulsioncoatingtwice170C50s/about30gsmaddon;nofabricpreconditioninginferredfromfilm. LOIHC2CISO4589-1984RTfilm150x50x3mm/fabric150x50mmrepsunknown;DTYlow14.6notnormalize19orwrongfilm21.8. Table1PTMG2000/N330/TDI/BDO/DMPA/TEA/OP550recipefeedgnotfabricfinalfractions;nominalOP5500/4/8/12/16/20wtoriginalmaterialsnotwholefabricloading. Hydrostaticpressure/waterimmersionnotwashedTGorLOI. NoSIcited/noimages/curveestimates;zeroapprovedtextilepairs.",
+      "SI_status": "NoSIcited;allprimaryTEXTreviewed"
+    }
+  ],
+  "verification_limit": "Four complete primary originals (45 native text pages) add six initial polyester textile states and six TG conditions; 28 factual records, 22 held. Twenty-seven scientific guards pass. Thirty-four gas/rate-agnostic residue-alias-normalized full-profile comparisons and twelve reduced-metric/rounding-risk comparisons find no identical profiles. RSC supplementary-group LOI and Wiley experimental methods are unread after access failures; those records remain held. All accepted numbers and methods are explicit in primary originals. Bulk OWPU film TG/LOI is distinct from coated DTY fabric LOI and stays outside textile counts. No images or curve estimates. 10.1016/j.porgcoat.2019.105323: All9ownVOR137(2019)105323primaryTEXTpages. Ownwoven100%PET106gsmWujiangSanlian;S0F/S1F/S2F/S3FinitialcoatedtextilesnotbulkWPUs. Table4PDFp6T5/Tmax1/Tmax2/R600265.5/290.2/427/8.9;263.1/287.5/390.6/12.1;238.6/281.7/385.2/13.8;178.2/244.3/381.3/16.6. NativeCTmax1/2arechar-at-peak92.8/36.1;92.6/65.8;91.2/66.4;87.1/57notfixed600residues. Table3p6LOI21.4/24.3/26.2/27.5;5reps150x58mmHC2GB/T5454-1997RT. NativeDiamond5700TGinstrumentnameN210Cmin30-600p2;masspanflowrepsunknown;Nicolet5700FTIRinstrumentnotvendorTGAinference. NativeT5onsetcriterion5%notundefinedTonset;firsthardsegmentandsecondsoftsegmentnativepeakindices. AllTable1p3feedwt%8componentsincludingwaterIPDI10.53PCL15.13DMPA1.14DHA.91FRC0/3.03/6.05/9.07TEA.85ADH.85H2O70.59/67.56/64.54/61.52;wetoriginalfeednotfinalcoatingfractions. PCL/DMPA/FRCvacuum4hpredrytemperatureunreported. IPDIadd60C30min/80C2hthenFRC2h45CTEA30minwater/ADHshear30minMEKdistillnominal30%emulsion;Tablefeedwaternotreconciledtofinalsolids.3wt601Hthickenernativebasisunspecified;knife1mm30mmin25C2passesonefaceabout40gsmaddon120C30scureRTdesiccator24hpretest. Mechanical-onlyRH65/20CnotassignedTGLOI. Table6p8washS3FprimeLOI26.8hasNOwashedTG;AATCC61-2013equiv5homewashprotocoltemperature/time/detergent/optionsunreportednot5labcyclesinferred. PristineLOI20.1hasNOownnumericTG;S0Fnotpristinecontrol. EDScharP1.30/1.71/2.39notbulkfabriccomposition. NoSI/images;Four native pairs deduplicated and staged for B152; publication pending. 10.1039/d3nr06604e: Full15nativeTEXTpages4811-4825;Table1PDF6TGfivegroupsFRPET/FPP/FPP-AM3/FPP-PM3/FPP-A5M1T5/Tmax/R700368.11/430.11/8.43;366.59/429.29/6.99;345.76/426.75/14.29;365.23/428.42/10.07;317.97/371.69/19.41. MainPDF8journal4818explicitinitialLOIFRPET32/FPP-A5M126;otherthreeTGgroupsLOIunreadFigS8SI. NativeLOIDyniscoGB/T5455-1997retainstandardasreported150x58mmrepsunknown;TGN2TG20910mLmin5-10mg25-70010Cminpanunknown. FRPETCEPPA-copolymerizedPET160gsmnotplainPET,ratio/processref38unread. PDA/PEIpH5acetatebuffer1.6gLPEI10DAHCl2NaIO46.4gL25C1hDIrinse3x30mindrytempunknown;APP10gLpH4HCl36.5gL24hstir;APP5min/DIrinse/30mindryrepeatPEI-APP5bilayers/PEI5minDIrinse30mindry/MXene10gL5min30mindryouter1bilayer. NativeQMXeneballmilledversusPMXenenonballmilleddistinctnotcrossassigned. SIFigS5/S8unread;allacceptedprospectivefactsprimary;threeTGonlyfactsheld;washsixthermoelectricvaluesnotLOI/TG;coneFOURLAYERS35kWm2notLOIform;TGIR550->500gasabsorptionnotTmax;RamanIDIGnotTGresidue;initialFRPETcleanEtOH/DI50C12h,SEM-onlydry50C12hnotuniversalTGcondition. Noimages/curves. LocalHTMLownidentitymatchedcheckedTG/LOImethod/nativeTable1;Supplement link not located in local HTML; candidate official URL returned404;no supplementary evidence used;Deduplicated and staged for B152; publication pending. 10.1002/adfm.202425093: All13ownVOR2025AdvFunctMater35e2425093TEXTpagesread;CF/CF-MA/CF-PIL4LOI19.5+-0.3/20.3+-0.2/28.1+-0.4explicitp5Fig4cp7caption. TG N2p4-5CFdecomposition305-351C/R35113;CFPIL4decomp259-308C/R30847.8explicitnotT5/Tonset/Tmax/R800;CFMAonlyqualitativeTGwithoutownnumeric. TGAheatingrate/program/model/masspanflowunreportedinmain/noexperimentalmethodssectionrequiresSI. Everypairhelduntilmethodsavailable. CFPIL2/4/6/8freeBMIMPF6:BVIMPF6weight2/4/6/8recipesTableS1SIunread;CFMAesterificationMAcelluloseOH/PILUVfree-radicalvinylcopolymerizationmainp2notexactcure. Source cottondensity/supplierunknown. Wash50LOI94.0percentretentionp5NOTabsoluteLOI26.414calculation;wash50TGunknown;wash30capacitivesensorresponseNOTwashedTGLOI. Conechar/EDSsurfacefractionsnotTGresidue/bulkcomposition;alarm143CnotTGonset. AllSIcitedunread;noimages/curveestimates;zeroapprovednotcounted. 10.1016/j.porgcoat.2016.03.020: All8nativeTEXTpagesownVOR97(2016)91-98read. Table3p94PDF4TGA/DTG/R500S0-5areBULKOWPUfilmspersection3.3p95NOTcoatedDTYfabric. Table6p97PDF7bulkfilmLOI21.8/22.8/24.2/28.4/29.0/29.2. Table8p98PDF8ownDTY/S0/S1/S2/S3/S4/S5FABRICLOI14.6/15.6/18.2/20.8/21.6/21.0/21.2;allsevenlackownfabricTGnumbersandheldnotborrowfilmTGdespitesamesamplenames. TGA METTLERTGA/DSC1N210Cmin30-600C;TGFTIRMSdistinctARGON40mLminRT-60010CminnotaliasN2curve. NativeT5notTonset;Td1-1/Td1-2/Td2nativeindicespreservenotsimplifyS0missingfirstshoulder. Source filmthickness3mm/TefloncastRT7days/vac70C48h/desiccatorRTnotfabricstate. FabricDTYsupplierZhejiangTransfarpolymeridentity/arealdensityunreported;2.5wt601Hemulsioncoatingtwice170C50s/about30gsmaddon;nofabricpreconditioninginferredfromfilm. LOIHC2CISO4589-1984RTfilm150x50x3mm/fabric150x50mmrepsunknown;DTYlow14.6notnormalize19orwrongfilm21.8. Table1PTMG2000/N330/TDI/BDO/DMPA/TEA/OP550recipefeedgnotfabricfinalfractions;nominalOP5500/4/8/12/16/20wtoriginalmaterialsnotwholefabricloading. Hydrostaticpressure/waterimmersionnotwashedTGorLOI. NoSIcited/noimages/curveestimates;zeroapprovedtextilepairs.",
+  "canonical_profile_dedup_audit": [
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S0-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S0-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S1-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S1-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S2-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S2-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S3-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S3-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "residue_at_Tmax1_pct",
+        "residue_at_Tmax2_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FRPET initial flame-retardant PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FRPET initial flame-retardant PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@A5-M1 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@A5-M1 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP initial PDA-PEI prelayer",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP initial PDA-PEI prelayer",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@AM-3 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@AM-3 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@PM-3 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@PM-3 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/adfm.202425093",
+      "sample": "CF initial cotton fabric",
+      "independent_numeric_metrics": [
+        "R351_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/adfm.202425093",
+      "sample": "CF initial cotton fabric",
+      "independent_numeric_metrics": [
+        "R351_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/adfm.202425093",
+      "sample": "CF-PIL-4 initial ionic-liquid grafted cotton fabric",
+      "independent_numeric_metrics": [
+        "R308_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1002/adfm.202425093",
+      "sample": "CF-PIL-4 initial ionic-liquid grafted cotton fabric",
+      "independent_numeric_metrics": [
+        "R308_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S0 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S0 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S1 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S1 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S2 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S2 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S3 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S3 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S4 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S4 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S5 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2016.03.020",
+      "sample": "S5 bulk OWPU film outside textile scope",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "Tmax3_C",
+        "R500_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "partial_metric_reuse_risk_audit": [
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S0-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S0-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S1-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S1-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S2-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S2-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S3-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct",
+        "LOI_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1016/j.porgcoat.2019.105323",
+      "sample": "S3-F initial coated PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "Tmax2_C",
+        "R600_pct"
+      ],
+      "risk": "IgnoreadditionalCTmaxmetrics",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FRPET initial flame-retardant PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "risk": "RoundedR700",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FRPET initial flame-retardant PET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "risk": "RoundedR700",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@A5-M1 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "risk": "RoundedR700",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1039/d3nr06604e",
+      "sample": "FPP@A5-M1 initial hybrid-coated FRPET fabric",
+      "independent_numeric_metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "risk": "RoundedR700",
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1521,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1194,
+    "verified_conditions": 1527,
+    "verified_dois": 337,
+    "verified_sources": 339,
+    "offline_tests_passed": 1354,
+    "snapshot_sha256": "b2ad4a5ace1fa0d5a3c186a57aa1fd2b2c28330229dd39ac15bf18ae8cccd29d",
+    "master_sha256": "884288c02c626d95270316c916dbe0d477153cac46c062cf59606f6e83df8fa8",
+    "validation_errors": [],
+    "held_fact_rows": 22,
+    "complete_original_text_pages": 45,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 0,
+    "unchanged_private_evidence_files": 7,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
