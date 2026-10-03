@@ -3197,21 +3197,21 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
-      "next_retry_utc": "2026-10-03T19:26:42.699857+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-03T19:26:59.730391+00:00",
+      "next_retry_utc": "2026-10-04T07:26:59.730391+00:00"
     },
     "10.1002/app.40584": {
       "fingerprint": "fd501eb9704f157ba987",
       "extractor_version": "6",
       "grade": "C",
-      "reason_code": "source_unavailable",
+      "reason_code": "fetch_error",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-03T13:26:42.699857+00:00",
-      "next_retry_utc": "2026-10-03T19:26:42.699857+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-03T19:26:59.730391+00:00",
+      "next_retry_utc": "2026-10-04T07:26:59.730391+00:00"
     }
   },
-  "last_run_utc": "2026-10-03T13:26:42.699857+00:00",
-  "last_examined_candidates": 6
+  "last_run_utc": "2026-10-03T19:26:59.730391+00:00",
+  "last_examined_candidates": 2
 }
