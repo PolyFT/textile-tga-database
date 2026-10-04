@@ -1,0 +1,2149 @@
+{
+  "batch": "b175_b176",
+  "review_completed_utc": "2026-10-04T09:19:59.134165+00:00",
+  "baseline_counts": [
+    1274,
+    1634,
+    369
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 18,
+    "accepted_condition_rows": 18,
+    "new_source_inventory_states": 18,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 4,
+    "accepted_DOI_sources_added": 3,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_HTML_bodies": 0,
+    "complete_text_primary_PDF_pages": 33,
+    "official_primary_tables_text_reviewed": 12,
+    "complete_official_SIs_text_tables_reviewed": 3,
+    "complete_official_SIs": 1,
+    "total_fact_rows": 52,
+    "held_fact_rows": 34,
+    "unbound_auxiliary_residue_metrics": 5,
+    "source_scientific_guards": 175,
+    "source_regression_tests": 40,
+    "canonical_comparisons": 136,
+    "publication_groups": 2,
+    "within_source_baseline_presentations_collapsed": 2
+  },
+  "source_groups": [
+    {
+      "batch": "b175",
+      "new_states": 7,
+      "new_conditions": 7,
+      "held": 18,
+      "scientific_guards": 74,
+      "csv_sha256": "a2bec0a1539062aca49563ccc382e60d869f83fb10f883a10645416402143030",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s12221-017-6922-4",
+          "title": "Properties of flame-retardant cellulose fibers with ionic liquid",
+          "potential_states": 5,
+          "potential_conditions": 5,
+          "staged_held_rows": 0,
+          "unbound_residue_metrics": 5,
+          "complete_native_PDF_pages": 7,
+          "own_primary_tables": 4,
+          "disposition": "Five own fiber Tmax/LOI labels; residual mass temperatures unknown and excluded from canonical char fields. Reported label basis and specimen assembly unknown, no guessed loading or DSC-to-TG transfer.",
+          "accepted_states": 5,
+          "accepted_conditions": 5
+        },
+        {
+          "DOI": "10.1007/s12221-016-5394-2",
+          "title": "Syntheses of flame-retardant cellulose esters and their fibers",
+          "potential_states": 0,
+          "potential_conditions": 0,
+          "staged_held_rows": 8,
+          "complete_native_PDF_pages": 8,
+          "own_primary_tables": 4,
+          "disposition": "Four membrane and four fiber LOI measurements retained. No exact numeric original TG metric; unqualified no-significant-residue never changed to zero; no curve reading or cross-form borrowing.",
+          "accepted_states": 0,
+          "accepted_conditions": 0
+        },
+        {
+          "DOI": "10.1016/j.carbpol.2016.11.034",
+          "title": "Influence of Na+ and Ca2+ on flame retardancy, thermal degradation, and pyrolysis behavior of cellulose fibers",
+          "potential_states": 2,
+          "potential_conditions": 2,
+          "staged_held_rows": 10,
+          "complete_native_PDF_pages": 18,
+          "own_primary_tables": 2,
+          "disposition": "Own Control andNa3# continuous numeric profiles provisionally paired; Na1#/Ca1# recipe conflict, missing2# TG, Ca paragraph sample mislabels and five nonconstant trigger programs held. Publisher accepted-version identity retained; no invented final publication date.",
+          "accepted_states": 2,
+          "accepted_conditions": 2
+        }
+      ]
+    },
+    {
+      "batch": "b176",
+      "new_states": 11,
+      "new_conditions": 11,
+      "held": 16,
+      "scientific_guards": 101,
+      "csv_sha256": "023cc89f4029e6b50e029e80bce5c1a783eaa406e5050852696e20b9ed896951",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-023-05682-y",
+          "title": "Flame-retardant anti-fibrillation Lyocell fibers prepared by online-treatment of coagulated filament",
+          "potential_states": 11,
+          "potential_conditions": 11,
+          "accepted_states": 11,
+          "accepted_conditions": 11,
+          "staged_held_rows": 16,
+          "native_scientific_body_lines": [
+            13,
+            88
+          ],
+          "official_primary_tables": 2,
+          "official_SI_native_tables": 3,
+          "within_source_repeated_baseline_presentations_collapsed": 2,
+          "disposition": "11distinct online-treated heat-set Lyocell initial profiles join exact full factor conditions/Table1 TG/SI S2 LOI;two repeated baseline presentationscollapsed.11washedstates lackownTG;CFcontrol has noCFLOI;HSF/RAHSFfour LOI stateslack ownTG. Conechar7.1/21.2/23.0 notTG R700. Conventionalposttreatmentandcoagulatedonlinefibersremainseparate."
+        }
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s12221-017-6922-4",
+      "title": "Properties of flame-retardant cellulose fibers with ionic liquid",
+      "potential_states": 5,
+      "potential_conditions": 5,
+      "staged_held_rows": 0,
+      "unbound_residue_metrics": 5,
+      "complete_native_PDF_pages": 7,
+      "own_primary_tables": 4,
+      "disposition": "Five own fiber Tmax/LOI labels; residual mass temperatures unknown and excluded from canonical char fields. Reported label basis and specimen assembly unknown, no guessed loading or DSC-to-TG transfer.",
+      "accepted_states": 5,
+      "accepted_conditions": 5
+    },
+    {
+      "DOI": "10.1007/s12221-016-5394-2",
+      "title": "Syntheses of flame-retardant cellulose esters and their fibers",
+      "potential_states": 0,
+      "potential_conditions": 0,
+      "staged_held_rows": 8,
+      "complete_native_PDF_pages": 8,
+      "own_primary_tables": 4,
+      "disposition": "Four membrane and four fiber LOI measurements retained. No exact numeric original TG metric; unqualified no-significant-residue never changed to zero; no curve reading or cross-form borrowing.",
+      "accepted_states": 0,
+      "accepted_conditions": 0
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2016.11.034",
+      "title": "Influence of Na+ and Ca2+ on flame retardancy, thermal degradation, and pyrolysis behavior of cellulose fibers",
+      "potential_states": 2,
+      "potential_conditions": 2,
+      "staged_held_rows": 10,
+      "complete_native_PDF_pages": 18,
+      "own_primary_tables": 2,
+      "disposition": "Own Control andNa3# continuous numeric profiles provisionally paired; Na1#/Ca1# recipe conflict, missing2# TG, Ca paragraph sample mislabels and five nonconstant trigger programs held. Publisher accepted-version identity retained; no invented final publication date.",
+      "accepted_states": 2,
+      "accepted_conditions": 2
+    },
+    {
+      "DOI": "10.1007/s10570-023-05682-y",
+      "title": "Flame-retardant anti-fibrillation Lyocell fibers prepared by online-treatment of coagulated filament",
+      "potential_states": 11,
+      "potential_conditions": 11,
+      "accepted_states": 11,
+      "accepted_conditions": 11,
+      "staged_held_rows": 16,
+      "native_scientific_body_lines": [
+        13,
+        88
+      ],
+      "official_primary_tables": 2,
+      "official_SI_native_tables": 3,
+      "within_source_repeated_baseline_presentations_collapsed": 2,
+      "disposition": "11distinct online-treated heat-set Lyocell initial profiles join exact full factor conditions/Table1 TG/SI S2 LOI;two repeated baseline presentationscollapsed.11washedstates lackownTG;CFcontrol has noCFLOI;HSF/RAHSFfour LOI stateslack ownTG. Conechar7.1/21.2/23.0 notTG R700. Conventionalposttreatmentandcoagulatedonlinefibersremainseparate."
+    }
+  ],
+  "verification_limit": "Combined B175-B176 original-text review adds18 initial textile-fiber states and18TG conditions from four complete scientific originals:three native PDFs33pages and one nativeHTML scientific body,12primarynative tables and one linkedDOCX with3native tables. Five ASO fiber states pair exact rate maxima withLOI;five residual masses have unreported endpoint and remain auxiliary,neverR600. The purchasedR80 identity,reportedwt% denominator and fiber-bundle assembly limitations are explicit;DSC peaks/gas never substituted forTG. Two own viscoseControl/Na3# continuousTG profiles joinLOI,with N220Cmin40mLmin and explicitly reportedR800;publisher Accepted Manuscript version preserved without inventing finalpublicationyear. Eight HPP fiber/membraneLOI records lackexactownTG;1#recipe conflict,Ca samplemislabels and five nonconstant trigger programs stayheld. Eleven online-treated Lyocell profiles join full factor recipes/MainTable1TG/SI S2LOI;two repeated baseline presentations collapsed. Eleven washed states,coagulatedCF TG and fourHSF/RAHSFLOI states stayheld. Conechar23.0/7.1notTG R70020.3. All34heldfacts excluded;175scienceguards40regressiontests136canonical comparisons;zero unresolved accepted multimetric hits,two Tmax-only collision groups have neither matching LOI nor matching whole available raw profiles. No scientific gate changes,curve estimates,inferred endpoints or original uploads.",
+  "canonical_profile_dedup_audit": {
+    "summary": {
+      "comparisons": 136,
+      "baseline_rows": 4696,
+      "approved_profile_hits": 0,
+      "endpoint_unknown": [],
+      "held_hit_comparisons": 0,
+      "full_canonical": 30,
+      "raw_unbound_residue_provenance": 10,
+      "rounding_profile_comparisons": 40,
+      "single_peak_coincidences": 10,
+      "unresolved_approved_multimetric_profile_hits": 0,
+      "single_peak_hit_comparisons": 2,
+      "unbound_residue_metrics": 5,
+      "scientific_limit": "No residue temperature inferred. Single-peak matches are recorded and compared with the complete available raw profile; they are not adjudicated sample aliases by value alone."
+    },
+    "comparisons": [
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_0wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_5wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_6wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [
+          {
+            "DOI": "",
+            "sample_state": "C-Zr-MOF",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "325.7",
+            "Tmax2_C": "500.9",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "\u539f\u6587Table 1"
+          }
+        ],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_7wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "single_peak_coincidence",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [
+          {
+            "DOI": "10.3390/ma15072537",
+            "sample_state": "O-C - 5\u00b0C/min",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "",
+            "atmosphere": "",
+            "heating_rate_C_min": "5",
+            "Tmax1_C": "320.0",
+            "Tmax2_C": "",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "2.19",
+            "residue_temp_C": "700.0",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "\u539f\u6587Table 3"
+          },
+          {
+            "DOI": "10.3390/fib6020031",
+            "sample_state": "Commercial fabric 1 FR/MLSE after water soak",
+            "washing_state": "after_water_soak_duration_unresolved",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "22.8",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "496",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Table 3 p.8, fabric 1, After soak row; Table 2 p.6, fabric 1, After Soak LOI column; Sections 2.1-2.4 pp.4-5; Table 1 p.4"
+          },
+          {
+            "DOI": "10.3390/fib6020031",
+            "sample_state": "Commercial fabric 4 FR/MLSE after water soak",
+            "washing_state": "after_water_soak_duration_unresolved",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "23.2",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "497",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Table 3 p.8, fabric 4, After soak row; Table 2 p.6, fabric 4, After Soak LOI column; Sections 2.1-2.4 pp.4-5; Table 1 p.4"
+          },
+          {
+            "DOI": "10.1007/s10570-020-03047-3",
+            "sample_state": "Cotton-P6H3",
+            "washing_state": "Initial prepared state;no durability laundering",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "25.3",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "34.9",
+            "R800_pct": "",
+            "residue_pct": "34.9",
+            "residue_temp_C": "700",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Main Table2,PDFp7;MainTable1,PDFp6;Fig3"
+          },
+          {
+            "DOI": "10.1016/j.cej.2020.128028",
+            "sample_state": "S10 after 5 simulated home laundry cycles",
+            "washing_state": "after one accelerated operation simulating 5 home laundry cycles, rinsing, drying and conditioning",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "24.5",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "5.1",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Official institutional 14-page final published PDF and 22-page supplement. Main p 4 methods and p 6 LOI Table 2; SI p 15 TG Table SI-5, pp 6-8 recipes and p 9 washing. Main method/LOI and SI method/TG pixels reviewed; no graph digitization."
+          },
+          {
+            "DOI": "10.1016/j.carbpol.2017.05.054",
+            "sample_state": "5%DHTP treated",
+            "washing_state": "Initialasprepared;preparationrinseincluded;0durabilitywashcycles",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "26.7",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "513",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "16.7",
+            "residue_temp_C": "600",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Materials/preparation/TG/LOImethodsPDFp3printed277;Table1Fig4p7printed281;Table2/3p8printed282;AppendixAp9;SITableS1"
+          },
+          {
+            "DOI": "10.1016/j.carbpol.2016.05.087",
+            "sample_state": "3wt% APP/BPEI cotton initial",
+            "washing_state": "Initial0durabilitywashing;vac50C12hpretest",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "21",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "502",
+            "R500_pct": "",
+            "R600_pct": "2.7",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "2.7",
+            "residue_temp_C": "600",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "OwnTable1/initialLOIjournalp437PDFp4;methods/preparationjournalp435PDFp2"
+          },
+          {
+            "DOI": "10.1007/s12221-023-00445-9",
+            "sample_state": "BPNFR_CF10_initial",
+            "washing_state": "unwashed_after_preparation_rinse",
+            "pairing_status": "held_standalone_TG_end750_versus_reported_R800_conflict",
+            "LOI_pct": "33.3",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "38.02",
+            "residue_pct": "38.02",
+            "residue_temp_C": "800",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "NativeTables1/2;officialSI TablesS1/S2;Thermal stability analysis;notTGIRmethod"
+          },
+          {
+            "DOI": "10.3390/ma11040483",
+            "sample_state": "PAN",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "17",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "420",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "44",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Methods \u00a72.5; Table 2; flame-retardancy discussion"
+          },
+          {
+            "DOI": "10.3390/ma15072537",
+            "sample_state": "O-C",
+            "washing_state": "untreated",
+            "pairing_status": "",
+            "LOI_pct": "18",
+            "atmosphere": "air",
+            "heating_rate_C_min": "5",
+            "Tmax1_C": "320",
+            "Tmax2_C": "",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "2.19",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Methods \u00a72.4; Table 1; Figure 7; Table 3"
+          },
+          {
+            "DOI": "10.3390/fib6020031",
+            "sample_state": "Commercial fabric 1 FR/MLSE after water soak",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "22.8",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "496",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Methods \u00a72.1, \u00a72.4; Tables 1\u20133"
+          },
+          {
+            "DOI": "10.3390/fib6020031",
+            "sample_state": "Commercial fabric 4 FR/MLSE after water soak",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "23.2",
+            "atmosphere": "air",
+            "heating_rate_C_min": "10",
+            "Tmax1_C": "320",
+            "Tmax2_C": "497",
+            "R500_pct": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "Methods \u00a72.1, \u00a72.4; Tables 1\u20133"
+          }
+        ],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1007/s12221-017-6922-4",
+        "sample": "ASO_8wt_reported_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Control_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Control_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Control_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Control_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na1#_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na1#_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na1#_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na1#_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na3#_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na3#_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na3#_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1016/j.carbpol.2016.11.034",
+        "sample": "NACA_Na3#_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA20_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA40_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA60_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_130C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_140C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_150C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR200_BTCA100_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR250_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR300_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_FR350_BTCA80_160C_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A lone Tmax coincidence, including with LOI, does not establish sample equivalence; whole available residue profile is checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-023-05682-y",
+        "sample": "OLRAF_CF_coagulated",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      }
+    ]
+  },
+  "official_missing_key_evidence_reviews": [
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05682-y/tables/1",
+      "original_sha256": "a7262173df86a478b8b623439e73ded747870e40f8ac87e4f7f222a06bac1807",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05682-y/tables/2",
+      "original_sha256": "c0421850abb21b2d48988c5c172faf521a77772fbe78945c34c0bda57483701e",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-023-05682-y/MediaObjects/10570_2023_5682_MOESM1_ESM.docx",
+      "original_sha256": "b396b2164510006bd35544f8f89c99f59382e5d0dff02e04b46f0ad1be6c45d7",
+      "review_method": "Original native table/supplement text;no images"
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1634,
+    "new_states": 18,
+    "new_conditions": 18,
+    "evidence_upgrades": 0,
+    "verified_states": 1292,
+    "verified_conditions": 1652,
+    "verified_dois": 372,
+    "verified_sources": 374,
+    "offline_tests_passed": 1950,
+    "snapshot_sha256": "8834b79b46b5d8178436c603187ecd0e128af91f4c3ff48c21eee0be0c91083a",
+    "master_sha256": "f293a6136f4eb12222f273bee1da88fe527eb2b6048bb85d1f92621479a2fe93",
+    "validation_errors": [],
+    "held_fact_rows": 34,
+    "complete_original_text_pages": 33,
+    "complete_primary_HTML_bodies": 0,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_originals": 3,
+    "library_originals_hash_verified": 4,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 3,
+    "complete_official_primary_tables": 12,
+    "official_corrections_reviewed": 0,
+    "unchanged_private_evidence_files": 10,
+    "new_source_inventory_states": 18,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}

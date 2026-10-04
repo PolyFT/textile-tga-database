@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1274 unique reviewed source/sample/washing states**, **1634 TG condition records**, and **371 original sources (369 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1292 unique reviewed source/sample/washing states**, **1652 TG condition records**, and **374 original sources (372 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1274 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1073 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1091 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1999,3 +1999,22 @@ Original fulltexts/supplements and local paths remain local.
 ### b172_b174 publication proof
 
 [PR #130](https://github.com/PolyFT/textile-tga-database/pull/130) merged as `9017198f059ad53c64fc366e3ff24b470628f291` after exact-head [validation run 37189292448](https://github.com/PolyFT/textile-tga-database/actions/runs/37189292448) passed on `5e25330e7ea26d96483d4c63903d85562f86a6c2`. All1910 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1274 states,1634 conditions,369 DOI sources and371 total sources. All1631 prior condition records and their fields, fifteen published file blobs, eight concurrent processing files and seven primary original hashes, twenty-nine official native-table/supplement original hashes and thirty-six private native text evidence hashes are preserved. The complete10005761-byte master has SHA256 `ceed8865e8961c9fa6f75cdb9aa0b7431aa7e60de3684cf7fe29dcd5b02b59a1`; the full remote report matches a fresh rebuild. Snapshot:`a604638bfa67b7013ed87b1fdaeae9193ab1fd897deeeb0abc8661c61f5f68d0`. Three new pairs and three TG conditions are published; evidence upgrades and legacy completions are zero;49 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b175_b176 combined native-text textile publication
+
+Combined B175-B176 original-text review adds18 initial textile-fiber states and18TG conditions from four complete scientific originals:three native PDFs33pages and one nativeHTML scientific body,12primarynative tables and one linkedDOCX with3native tables. Five ASO fiber states pair exact rate maxima withLOI;five residual masses have unreported endpoint and remain auxiliary,neverR600. The purchasedR80 identity,reportedwt% denominator and fiber-bundle assembly limitations are explicit;DSC peaks/gas never substituted forTG. Two own viscoseControl/Na3# continuousTG profiles joinLOI,with N220Cmin40mLmin and explicitly reportedR800;publisher Accepted Manuscript version preserved without inventing finalpublicationyear. Eight HPP fiber/membraneLOI records lackexactownTG;1#recipe conflict,Ca samplemislabels and five nonconstant trigger programs stayheld. Eleven online-treated Lyocell profiles join full factor recipes/MainTable1TG/SI S2LOI;two repeated baseline presentations collapsed. Eleven washed states,coagulatedCF TG and fourHSF/RAHSFLOI states stayheld. Conechar23.0/7.1notTG R70020.3. All34heldfacts excluded;175scienceguards40regressiontests136canonical comparisons;zero unresolved accepted multimetric hits,two Tmax-only collision groups have neither matching LOI nor matching whole available raw profiles. No scientific gate changes,curve estimates,inferred endpoints or original uploads. Evidence upgrades and legacy completions are zero.
+
+### b175
+
+7 new states;7 TG conditions;18 held facts.
+- **10.1007/s12221-017-6922-4**: 5 accepted states;5 accepted conditions. Five own fiber Tmax/LOI labels; residual mass temperatures unknown and excluded from canonical char fields. Reported label basis and specimen assembly unknown, no guessed loading or DSC-to-TG transfer.
+- **10.1007/s12221-016-5394-2**: 0 accepted states;0 accepted conditions. Four membrane and four fiber LOI measurements retained. No exact numeric original TG metric; unqualified no-significant-residue never changed to zero; no curve reading or cross-form borrowing.
+- **10.1016/j.carbpol.2016.11.034**: 2 accepted states;2 accepted conditions. Own Control andNa3# continuous numeric profiles provisionally paired; Na1#/Ca1# recipe conflict, missing2# TG, Ca paragraph sample mislabels and five nonconstant trigger programs held. Publisher accepted-version identity retained; no invented final publication date.
+
+### b176
+
+11 new states;11 TG conditions;16 held facts.
+- **10.1007/s10570-023-05682-y**: 11 accepted states;11 accepted conditions. 11distinct online-treated heat-set Lyocell initial profiles join exact full factor conditions/Table1 TG/SI S2 LOI;two repeated baseline presentationscollapsed.11washedstates lackownTG;CFcontrol has noCFLOI;HSF/RAHSFfour LOI stateslack ownTG. Conechar7.1/21.2/23.0 notTG R700. Conventionalposttreatmentandcoagulatedonlinefibersremainseparate.
+
+Original fulltexts/supplements and local paths remain local.
