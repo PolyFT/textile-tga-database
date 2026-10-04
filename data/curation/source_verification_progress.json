@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-04T18:33:32.116700+00:00",
+  "as_of_utc": "2026-10-04T18:33:35.775515+00:00",
   "latest_batch_id": "20261004_b219_b220",
   "verified_condition_records": 1719,
   "verified_unique_sample_states": 1345,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b219_b220_merged_remote_verified_pending_lease_release",
+  "publication_stage": "b219_b220_merged_remote_verified_lease_released",
   "last_merged_batch": "20261004_b219_b220",
   "writer_lease": {
     "owner": "codex-local-textile-b219_b220-20261004",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261004_b219_b220",
     "claimed_at_utc": "2026-10-04T18:05:50.061044+00:00",
     "expires_at_utc": "2026-10-04T19:35:50.061044+00:00",
     "purpose": "TwoPDF16pages5tables;7newstates7TG2held;93science42canonical3adjudicated1rawpaired0unresolved9regression;metadatareadonly/textonly",
-    "previous_release_commit": "b7bc241ad80ba00eba668cb3859fa86a70b4a3cd"
+    "previous_release_commit": "b7bc241ad80ba00eba668cb3859fa86a70b4a3cd",
+    "released_at_utc": "2026-10-04T18:33:35.775515+00:00",
+    "release_reason": "PR140 exact-head CI,ordinary merge,all three merge checks and complete independent main/blob/master/report/library verification succeeded."
   },
   "next_sources": [],
   "next_actions": [
