@@ -3197,19 +3197,19 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 2,
-      "last_attempt_utc": "2026-10-03T19:26:59.730391+00:00",
-      "next_retry_utc": "2026-10-04T07:26:59.730391+00:00"
+      "attempt_count": 3,
+      "last_attempt_utc": "2026-10-04T07:37:44.287259+00:00",
+      "next_retry_utc": "2026-10-05T07:37:44.287259+00:00"
     },
     "10.1002/app.40584": {
       "fingerprint": "fd501eb9704f157ba987",
       "extractor_version": "6",
       "grade": "C",
-      "reason_code": "fetch_error",
+      "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 2,
-      "last_attempt_utc": "2026-10-03T19:26:59.730391+00:00",
-      "next_retry_utc": "2026-10-04T07:26:59.730391+00:00"
+      "attempt_count": 3,
+      "last_attempt_utc": "2026-10-04T07:37:44.287259+00:00",
+      "next_retry_utc": "2026-10-05T07:37:44.287259+00:00"
     },
     "10.1177/0040517516652349": {
       "fingerprint": "6b2b56269a3687cdf866",
@@ -3252,6 +3252,6 @@
       "next_retry_utc": "2026-10-04T12:11:38.981877+00:00"
     }
   },
-  "last_run_utc": "2026-10-04T06:11:38.981877+00:00",
+  "last_run_utc": "2026-10-04T07:37:44.287259+00:00",
   "last_examined_candidates": 2
 }
