@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1256 unique reviewed source/sample/washing states**, **1612 TG condition records**, and **365 original sources (363 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1259 unique reviewed source/sample/washing states**, **1615 TG condition records**, and **367 original sources (365 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1256 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1055 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1058 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1926,3 +1926,14 @@ Original fulltexts/supplements and local paths remain local.
 ### b163_b168 publication proof
 
 [PR #127](https://github.com/PolyFT/textile-tga-database/pull/127) merged as `cbcd2f1c6312943a1246ef69e79f7c9dc27c1e8a` after exact-head [validation run 37182134939](https://github.com/PolyFT/textile-tga-database/actions/runs/37182134939) passed on `dbc212adcb0f89d9887782c4162a96e940fef41f`. All1757 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1256 states,1612 conditions,363 DOI sources and365 total sources. All1583 prior condition records and their fields, twentyone published file blobs, eight concurrent processing files and eighteen primary original hashes, seventy-two official native-table/supplement original hashes and ninety-two private text/fact evidence hashes are preserved. The complete9783842-byte master has SHA256 `ef5687988c5d6bf205841c38e99a73e5d11566449be2b63fc568ddf935883f5c`; the full remote report matches a fresh rebuild. Snapshot:`8e18120fee4ccc00028432bc9b42171bd61a05098da9669a0ff79ea2152b109b`. Twenty-two new pairs and twenty-nine TG conditions are published; evidence upgrades and legacy completions are zero;161 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b169 DMCFR20 lyocell and Control/AS24 cotton
+
+Three scientific HTML bodies and all18 primary native tables reviewed as text;no linked SI in local HTML,not global absence. Three new source/sample states add three TG conditions:one DMCFR20 lyocell N2 profile and two Control/AS24 cotton N2 R500 profiles. 57of60facts remain excluded for R800/LOI conflicts,unqualified dose mapping,unresolved partial control provenance,stage-weightloss/reported-char inconsistency or own otherdose/washedTG absence. No original metric is replaced with a calculated value. Missing mass-reference conditions remain unresolved;SS24 withdrawn from earlier private approval after the interval-char check. All29 source guards and66 gas/rate-agnostic canonical comparisons pass;zeroapprovedprofilehits,twoheldT50/R800partialcontrolhits remainunadjudicated. Ordinary program/temperature/criteria and fabric state remain source-specific;no images,curve estimates,guessed conditions or relaxed standards. Fresh combined B163-B168 closure and main/sourcequeue/lease checks required before publication. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-022-04690-8**: One initial DMCFR20 lyocell state/one N2 condition accepted:Table2 LOI30plusminus.1 joins Table5 T10/T50/Tmax/R800234.33/482.73/267.58/42.54;Q5000N250-80010Cmin;20wt chosen explicitly for subsequent experiments. T10notT5/Tonset;TGIR10minperCnotborrowed. FR20airR8009.10Table5vs9.15bodyholdswholecondition. Both prospective control gases held because native T50/R800 and cone-control profile partially coincide with Luffa;provenance unresolved,not an adjudicated duplicate. Two other-dose and twelve washed LOIs have no own TG;uncertainty type unknown not assumed SD.
+- **10.1007/s10570-022-04927-6**: All21 facts held:two own control gas conditions for unresolved DMCFR/Luffa partial control provenance;four treated TG conditions with unqualified FR/EDFR labels not explicitly mapped to20/30wt recipes;three dose-specific initial LOIs;12 washed LOIs without own TG. Native TG209F3N2air40-80010Cmin4-5mg;T5/T50/Tmax/R800 retained,at-Tmax remaining mass not final residue. Native T50=339.19/R80013.63 control overlap is a provenance risk despite different Tmax/threshold;not a resolved duplicate. No assumption of30wt default,borrowedTGIR50mLmin,curve estimates or washing multiplier.
+- **10.1007/s10570-023-05543-8**: Two initial cotton states/two N2 residue-only TG records accepted:Control LOI18/R50013.15 and AS24 LOI30.34/R50035.90 from Tables1/2 and own ambient-500N210Cmin method. SS24 LOI32.50/R50038.13 wholeconditionheld because six reported interval losses total61.74 with .13pct unreconciled reported-char closure discrepancy;reported38.13 unchanged,not replaced by derived38.26. ZA5 wholepairheld LOI38.30Table1vs38.00Table3 plus .35pct interval-char closure discrepancy. WithoutZAinitial38.20Table1vs38.30Table3 held. Seven other-recipe facts,two alternative conflicting initial LOIs,eight washed LOIs remain excluded. Interval losses/unqualified starts/DSC peaks not T5/T10/Tonset/Tmax;percent basis unknown not finalfabricloading;tenacity/inclined dimensions not LOI repetitions/dimensions.
+
+Originals/fulltexts/native tables and local paths remain local.
