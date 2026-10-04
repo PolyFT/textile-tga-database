@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-04T00:53:15.973080+00:00",
-  "latest_batch_id": "20261004_b156",
-  "verified_condition_records": 1559,
-  "verified_unique_sample_states": 1215,
-  "verified_dois": 344,
-  "numeric_pair_candidate_rows": 2036,
+  "as_of_utc": "2026-10-04T01:32:56.443528+00:00",
+  "latest_batch_id": "20261004_b157",
+  "verified_condition_records": 1561,
+  "verified_unique_sample_states": 1217,
+  "verified_dois": 346,
+  "numeric_pair_candidate_rows": 2046,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1014,
+  "cumulative_newly_completed_or_new_source_sample_states": 1016,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b156_merged_remote_verified_lease_released",
+  "publication_stage": "b157_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261004_b156",
   "writer_lease": {
     "owner": "codex-local-textile-b157-20261004",
@@ -26,11 +26,12 @@
     "batch_id": "20261004_b157",
     "claimed_at_utc": "2026-10-04T01:31:38.673316+00:00",
     "expires_at_utc": "2026-10-04T03:01:38.673316+00:00",
-    "purpose": "Publish6scientificHTMLbodies18primarytables/5officialSI23tables;2newstates2conditions54heldfacts;endpoint_provenance_conditions_layers_washesheld;metadatareadonly;textonly",
+    "purpose": "Publish2states2TG;6scientificHTMLbodies18primarytables/5SI23tables;54held;textonly;metadatareadonly",
     "previous_release_commit": "5aa0ffb2a07bcf807edab977d8aa0001670f7f46"
   },
   "next_sources": [],
   "next_actions": [
+    "Two initial cotton sample states and two TG conditions are supported by native primary tables and explicit sample/dose joins. Six primary scientific HTML bodies,18 native primary tables and five official supplements containing23 native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. Methionine29percent initial fabric has LOI43.9 and air residue25.73percent explicitly at567C, not at programend750C; native uncertainty2percent type unknown. LFPN initial two-immersion-cycle fabric has N2 T5=249.4C/Tmax269.3C/R700=47.3percent and LOI46.7. Fifty-four of56 facts remain excluded: eight methionine control/otherdose/wash/unknown N2 residue-endpoint facts;four CSAPP facts missing standalone TG conditions; six TSTDP dose-unbound or LOI-only facts; six conductive TG facts whose cited LOI TableS3 is absent from official native SI;three LFPN control/air facts;27 bio-derived layer/weightloss/washed facts. Thirty-three scientific guards pass. Ninety-two gas/rate-agnostic canonical comparisons normalize residue aliases and explicit temperatures, including arbitrary567C; approved profiles have no hits. Four held-hit comparisons retain CSAPP/LFPN control nearcoincidence as unresolved provenance, not proven reuse or independence. Native160g/cm2 areal-density units, methionine20/40C start conflict, CSAPP369.3/369.5 Tmax conflict, conductive34.8/38.4 residue conflict, and bio-derived LOI raw/report/body conflicts remain explicit. No weightloss-to-residue conversions, DTA/DSC-to-DTG conversions, guessed conditions, images or curve estimates. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Five initial cotton states and nine TG conditions use native source tables and explicit selected-dose mapping. Three original scientific HTML bodies, all seven primary tables and three official supplements containing15 native tables were reviewed as text; primary reference prose remains unread. PCS Control/FR1/FR2/FR3 each have N2 and air records; selected DSCFT300gL has one N2 record. Four air conditions are additional tests, not new sample identities. Twenty-five of34 facts remain excluded:14 DES facts with unsupported canonical TG metrics or layer/thickness/binder/wash joins; eight DSCFT control/otherdose/wash facts;three PCS washedLOI facts. All26 scientific guards pass. Twenty full-profile and18 reduced-metric gas/rate-agnostic comparisons normalize residue aliases and have no hits. DSCFT35-versus40C starting temperature remains blank with the conflict retained; native instrument naming conflict, PCS acid naming, WG formula prose and washedFR1WG7.8SI versus7.5body remain explicit. T5/T10/Tmax, percent-per-degree DTG rates, residue700/800 and cone char are kept distinct. DES220C weightloss, washweightloss and DTA300C are not converted into TG residue/peak criteria. No images, curve estimates or invented conditions. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Two initial cotton sample states and four TG conditions use native Table4 and explicit own dose/WG/LOI mapping for glycerol-derived FR. Three original HTML scientific bodies and eight native primary tables were reviewed as text. Glycerol reference prose, remaining two casein and three TECHPA tables, and figure numeric annotations remain unread. Two air tests retain original initial identities and add conditions. Thirty-four of38 facts remain excluded: five casein facts with control reuse risk or dose/washing joins unproven;22 TECHPA facts with missing corresponding residue temperature or own TG;seven glycerol otherdose/washedLOI/bulkFR facts. The gas/rate-agnostic canonical audit retains16full and8reduced comparisons, normalizes residue aliases and explicitly preserves one held casein control hit to DOI10.1021/acssuschemeng.9b02474;approved records have no hits. Identical TGvalues across different cotton gsm/LOI are a provenance risk, not a proven duplicate;the control is not counted. All27 science guards pass. Native5percent/10percent massloss, decomposition peaks, percent-per-degree DTG rates, residue600 versusprogramend and cone char remain distinct;unknowns are not inferred. No images or curve estimates. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Nine initial cotton sample states and fourteen TG conditions use native primary tables and two official supplements. All three primary HTML bodies, ten primary tables, five SI tables and one SEM-only correction were reviewed as text. Five air tests retain their original sample identities and are additional conditions. Seventeen of 31 staged facts remain excluded: eleven washedLOI-only states and six CDs-APP facts with unresolved standalone TG program or missing own TG. Native controlLOI19 from Table3/Conclusion versus body18, and washed30LOI31.8 from Table4 versus body31.1, are recorded with their conflicts. DTG rates remain percent per degree; water loss, T5/T10, first/second decomposition peaks, residue temperatures and cone residue remain distinct. Thirty-two full-profile and twenty-eight reduced-metric gas/rate-agnostic comparisons normalize residue aliases and have no hits. All31 source-specific science guards pass; no images or curve estimates. Exact-head CI, ordinary merge, three merge checks, independent complete remote proof and owned lease release are required.",
@@ -764,7 +765,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 785,
+  "remaining_to_2000": 783,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -812,9 +813,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 346,
+  "verified_sources": 348,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1207,
+  "verified_doi_sample_states": 1209,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -848,7 +849,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 785,
+  "remaining_to_target": 783,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -964,9 +965,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 201,
-      "sample_states": 640,
-      "condition_records": 884
+      "sources": 203,
+      "sample_states": 642,
+      "condition_records": 886
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1058,7 +1059,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1551,
+  "verified_doi_condition_records": 1553,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -3574,5 +3575,25 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/120",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b157": {
+    "accepted_unique_sample_states": 2,
+    "accepted_condition_rows": 2,
+    "new_source_inventory_states": 2,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 6,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 0,
+    "primary_HTML_scientific_bodies_reviewed": 6,
+    "official_primary_tables_text_reviewed": 18,
+    "complete_official_SIs_text_tables_reviewed": 23,
+    "complete_official_SIs": 5,
+    "official_corrections_reviewed": 0,
+    "total_fact_rows": 56,
+    "held_fact_rows": 54,
+    "fully_held_other_primary_sources": 4,
+    "tests_passed": 1498,
+    "snapshot_sha256": "0f107a506e8ceacfc4681d16780f9de4f7966e7f63b2d1497c9abcccddd60e26"
   }
 }
