@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1210 unique reviewed source/sample/washing states**, **1550 TG condition records**, and **344 original sources (342 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1215 unique reviewed source/sample/washing states**, **1559 TG condition records**, and **346 original sources (344 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1210 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1009 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1014 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1757,3 +1757,14 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b155 publication proof
 
 [PR #119](https://github.com/PolyFT/textile-tga-database/pull/119) merged as `f52c132f84c97aa6e9ffb12861b189f1441b758b` after exact-head [validation run 37163271252](https://github.com/PolyFT/textile-tga-database/actions/runs/37163271252) passed on `d3158c9d4017854d974fc438e10a7075dc35fbb7`. All1439 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1210 states,1550 conditions,342 DOI sources and344 total sources. All1546 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, eight official native-table original hashes and eleven private text evidence hashes are preserved. The complete9108048-byte master has SHA256 `5adac9b9d9e6f23974aa17a6e568ce96bb348a1cbcff8c3e729b5e7b7b677ba8`; the full remote report matches a fresh rebuild. Snapshot:`d341b1ec3dbaf099d1a213c5bfb9d145a261c968634f129c097b2f9e53a74a3e`. Two new pairs and four TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b156 PCS and selected DSCFT cotton fabrics
+
+Five initial cotton states and nine TG conditions use native source tables and explicit selected-dose mapping. Three original scientific HTML bodies, all seven primary tables and three official supplements containing15 native tables were reviewed as text; primary reference prose remains unread. PCS Control/FR1/FR2/FR3 each have N2 and air records; selected DSCFT300gL has one N2 record. Four air conditions are additional tests, not new sample identities. Twenty-five of34 facts remain excluded:14 DES facts with unsupported canonical TG metrics or layer/thickness/binder/wash joins; eight DSCFT control/otherdose/wash facts;three PCS washedLOI facts. All26 scientific guards pass. Twenty full-profile and18 reduced-metric gas/rate-agnostic comparisons normalize residue aliases and have no hits. DSCFT35-versus40C starting temperature remains blank with the conflict retained; native instrument naming conflict, PCS acid naming, WG formula prose and washedFR1WG7.8SI versus7.5body remain explicit. T5/T10/Tmax, percent-per-degree DTG rates, residue700/800 and cone char are kept distinct. DES220C weightloss, washweightloss and DTA300C are not converted into TG residue/peak criteria. No images, curve estimates or invented conditions. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-021-04216-8**: All14 facts held. Three hundred-degree DTA is not a TG peak; native TG prose only reports up-to40/35percent weightloss at220C for DES/GDES without exact layer/thickness binding. All13 official SI native tables/captions read; five LOI replica rows are tests, not independent samples. Thin220gsm/thick382gsm, binder-free/withSaraprintAC and washed states remain distinct;wash mass loss and char thickness are not TG residue. Primary dip2-3min versus SI S1220s conflict retained.
+- **10.1007/s10570-021-04235-5**: One initial DSCFT300gL cotton sample, one N2TG record from native Tables1/3 and explicit own optimum final selection300gL. All four native primary tables and SI text/captions reviewed;SI has no tables. Method start35C versus TG body40C remains unresolved with canonicalstart blank;gasN2/ramp10/end800 agree. Native Pyris1(TG209F3Germany) instrument naming conflict retained. Eight held facts: owncontrolTG without owncontrolLOI, four other initial dose LOIs including350gLalso28.2, and three washedLOIstates without ownTG.
+- **10.1007/s10570-022-04566-x**: Four initial PCS cotton states Control/FR1=5wt/FR2=7.5wt/FR3=10wt, eight N2/airTG records from nativePrimaryTable1 and officialSI S1. All three native primary tables and SI two tables/captions reviewed. Three after10LCLOIstates held without ownwashedTG;SI S2FR1WG7.8 versus body7.5 retained. Native phosphorous-versus-phosphoric acid naming and reversed WG before/after prose retained;original tabulated values used. Cone char24.6 versus TGR700FR224.7 remains distinct.
+
+Originals/fulltexts/native tables and local paths remain local.

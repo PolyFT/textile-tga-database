@@ -1,0 +1,964 @@
+{
+  "batch": "b156",
+  "review_completed_utc": "2026-10-04T00:34:26.722628+00:00",
+  "baseline_counts": [
+    1210,
+    1550,
+    342
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 9,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "complete_text_primary_PDF_pages": 0,
+    "primary_HTML_scientific_bodies_reviewed": 3,
+    "official_primary_tables_text_reviewed": 7,
+    "complete_official_SIs_text_tables_reviewed": 15,
+    "complete_official_SIs": 3,
+    "official_corrections_reviewed": 0,
+    "total_fact_rows": 34,
+    "held_fact_rows": 25,
+    "fully_held_other_primary_sources": 1
+  },
+  "files": [
+    {
+      "file": "data/incoming/verified_source_batch_20261004_b156_local_textile.csv",
+      "published_input_sha256": "60546c933b2ca183f8d307c43a0056d087a4165d9b62905231695597ce2786cb",
+      "unique_sample_states": 5,
+      "verified_conditions": 9,
+      "held_fact_rows": 25,
+      "accepted_measurement_fingerprints": [
+        "9fb4cf3ed2cd977f00fbf4fe51c4cb28d47c71071b504cad828212e514efc5f0",
+        "fc8a8a14a16a3c4b7842801a4b63e318ffc938ca47621e5b486a22ba70c8d23f",
+        "2e59a9a942c758cd20bb70fa3fc18c3448360d0834aab09417b0fe3462973099",
+        "1e9ee9285114a8f63b84e9f20054e9cb5780242fa93d7bf28a97e2a3f298fe0b",
+        "e02dad7896fa818cde0509129bc0f9a07488a09a30c0879a44a5ef764cd6bf23",
+        "c4b60041f00519d4a4b38a1469f2e3731dbfde5def33083cddb741f97d9149ba",
+        "edde527096a71de6e23de5a42b474339ff140f065e6766adeb8dfba3ee1f1e79",
+        "7add34a01053a90c72d16d642ca5d4a69570a9fa4d2a60cccb2a8b42a945f816",
+        "5c82f3b82b21c86a22124da94f2632945b8016c7b4b5009a34e4dba8150d7137"
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-021-04216-8",
+      "title": "Novel bio-inspired deep eutectic solvent and graphene functionalized deep eutectic solvent as an efficient flame retardant material for cotton fabric",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 14,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "material": "Ownthin0.27mm220gsm/thick0.41mm382gsmcottonMumbai;weaveunknown;TG/LOImustnotcrossmixthickness",
+        "recipe": "DES H3PO4/cholinechloride/guanidineHCl1:1:2molar70CN2;GO:DES2:1ratio6hbasisunreported/waterwash. Primarydip2-3min versusSI S1220sec100mL1mg/mL;50Covernight/1-4layers. Preparation conflict retained;Fig4TG layer/thickness/binder mapping unproven.",
+        "LOI": "AllSI S1 own means blank17.7/guanidine23/choline19.9/GO18.8/DES39.5/GDES52.5;five replicate tests not new samples. S8thin220gsm/thick382gsmDES39.5/40.2,GDES52.5/53.4;S2binder/washing states distinct. ASTM D2863-09 Dynisco55x59mm.",
+        "TG": "Air20C/minroomtemperature-800;ownblank/GO/DES/GDESFig4;onlyexplicitat220CDESweightlossup40%/GDES35%;notresidue/T40exact/Tmax. DTA300peaknotTmax;othermetricnativefigannotationunread;noimages/estimates.",
+        "washed": "AllSI S2native text reviewed;DES/GDES binder-free/withSaraprintAC initial and washed LOI explicit, but no own washed TG or exact binder amount. Washmassloss notTG.",
+        "SI": "AllofficialWordXMLtext13tables/captionsreviewed;STA6000PerkinElmerTGinstrument;noextraexactTGmetrics/layer/thicknessbinding.",
+        "exclude": "TableS3comparativepriorpapersnotownpairs;charthicknessS4-7notTGmasschar;DTA300notTGDTGpeak;fire exposuresecondsnotTmax",
+        "LOI_native_S1": {
+          "control": 17.7,
+          "guanidine": 23,
+          "cholinechloride": 19.9,
+          "GO": 18.8,
+          "DES": 39.5,
+          "GDES": 52.5,
+          "replicate_rows": 5,
+          "reported_mean_values_used": true
+        },
+        "thickness_S8": {
+          "thin_A_0.27mm220gsm": {
+            "DES": 39.5,
+            "GDES": 52.5
+          },
+          "thick_B_0.41mm382gsm": {
+            "DES": 40.2,
+            "GDES": 53.4
+          }
+        },
+        "wash_S2": {
+          "DES_binderfree": [
+            39.5,
+            27.1,
+            64.88
+          ],
+          "DES_withbinder": [
+            39.3,
+            37.1,
+            27.78
+          ],
+          "GDES_binderfree": [
+            52.5,
+            41.7,
+            55.09
+          ],
+          "GDES_withbinder": [
+            52.2,
+            50.8,
+            19.69
+          ],
+          "order": [
+            "LOI_before",
+            "LOI_after",
+            "washweightloss_pct_notTG"
+          ],
+          "method": "ISO2asreported;5g/Lsoap50:150C45min/DIrinseairdry;cyclesnumberunreported;SaraprintACbinderamountunreported"
+        },
+        "loading_S10_S11": {
+          "DES1_2_3_4coatings_addon_pct": [
+            14,
+            26,
+            37,
+            47
+          ],
+          "GDES1_2_3_4coatings_addon_pct": [
+            15,
+            28,
+            40,
+            50
+          ],
+          "coating_time_conflict": "Primary2-3minversusS1220s;S12GO/DES/GDES100mL1mg/mL;layercountofFig4TGunresolved"
+        },
+        "critical_hold": "OnlyDES/GDESreportedweightlossup40/35percentat220C;notcanonicalT5/T10/T40/Tmax/residuetemp. TGcurveannotationsunread/noestimates;cottonthickness/layer/binder/wash joinsnotproven. AllLOI-onlystatesexcluded. TableS1five testreplicatesnotindependentsamples;washmasslossnotTG;charthicknessnotTGmassresidue."
+      }
+    },
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "title": "A novel polydimethylsiloxane comb-shaped copolymer containing P\u2013N elements toward cotton fabrics: flame retardancy and antibacterial property",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "staged_held_rows": 8,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "material": "OwnscouredbleachedcottonQingdaoFenghuang;gsm/weaveunreported",
+        "recipe": "DSCFTwithPBTCA45C20min2dip2roll80%pickup80C5min140C5min;PBTCAamountunreported;postcurerinseunreported;controlnoFRcureassigned",
+        "methods": "NativePyris1(TG209F3Germanyasreported)N210C/min35-800methodsversus40-800TGbody,startconflictretained;flow/mass/pan/repsunknown. JF5BeijingAVICTimesASTMD2863-2000LOIdims/repsunknown.",
+        "LOI": "NativeTable1 doses150/200/250/300/350gL LOI23.8/24.8/26.6/28.2/28.2;selected optimum final300gL binds subsequent generic TG. OwncontrolLOIunreported, no generic intro borrowing. Table4LC0/5/10/15 LOI28.2/27.1/25.9/24.2;no washed TG.",
+        "TG": "AllnativeTable3 N2 T5/T10/Tmax/DTGpctperC/R800 Control311/329/368/1.87/17.30;selected300gLtreated258/277/295/1.40/42.74. Explicit own optimum300gL selection binds treated TG;350gL sameLOI not selectedTG. Controlheldmissing ownLOI. Methods35 versusbody40 start unresolved;gas/ramp/end agree.",
+        "exclude": "Antibacterialautoclave121C15minnotTGaging;cone232/174PHRRnotDTG;EDXsurfacefractionnotbulk;96.8/97.1antibacterialnotchar;nativeinstrumentPyris1versusTG209F3mismatchnotfixed.",
+        "native_Table1_initial_dose_WG_LOI": [
+          [
+            150,
+            7.94,
+            23.8
+          ],
+          [
+            200,
+            10.36,
+            24.8
+          ],
+          [
+            250,
+            11.64,
+            26.6
+          ],
+          [
+            300,
+            15.48,
+            28.2
+          ],
+          [
+            350,
+            16.63,
+            28.2
+          ]
+        ],
+        "native_Table3_N2_TG": {
+          "control": [
+            311,
+            329,
+            368,
+            1.87,
+            17.3
+          ],
+          "selected300gLtreated": [
+            258,
+            277,
+            295,
+            1.4,
+            42.74
+          ]
+        },
+        "native_Table3_order": [
+          "T5_C",
+          "T10_C",
+          "Tmax1_C",
+          "DTGmax_rate_pct_per_C",
+          "R800_pct"
+        ],
+        "dose_binding": "OwnFlameretardantperformanceexplicitfinalchosenoptimum300gL;followinggenericDSCFT-treatedTGTable3/Fig7;300gLconfirmedantibacterial/tensilecontexts;350gLalsoLOI28.2notTGgroup. Retainexplicitselectioncontext;noowncontrolLOIreported,do notborrowintro18.",
+        "native_Table4_washed_LOI": {
+          "0": 28.2,
+          "5": 27.1,
+          "10": 25.9,
+          "15": 24.2
+        },
+        "control_hold": "Table1nodose0/controlLOI;intro18genericnotowncontrol;controlTGheldnoownLOI",
+        "SI": "AllnativeSItext/captionsread;Mannichreactionmechanismonly0tables,noTG/recipe/washmethodsadded",
+        "TG_start_conflict": "Methods35CversusTGbody40C;canonicalstartunknownretainboth;gasN2/ramp10/end800agree",
+        "other_holds": "Initial150/200/250/350gLLOI-only;threewashedLOIswithoutownTG;noowncontrolLOI;flow/mass/pan/gsm/weaveunknown",
+        "cone_conflict": "Table2CO2/COcontrol22.5versusbody15.5;coneTHR31.7/3.1andPHRR232/174notTG;notneededforTG-LOIbinding"
+      }
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "title": "Biomass-based coating from chitosan for cotton fabric with excellent flame retardancy and improved durability",
+      "accepted_states": 4,
+      "accepted_conditions": 8,
+      "staged_held_rows": 3,
+      "original_format": "HTML",
+      "pages": null,
+      "disposition": {
+        "material": "Own100%cotton110gsmChaotianmenChongqing;weaveunreported;NaOH2wt100C3h80Covernightvacuumpreclean",
+        "recipe": "PCSCS10g/DI200mLaceticaciddrops/acid4.6g/formaldehydesolution4.58g80C6h/ureaamountunknown110C2h/ethanolprecipwash80C12h. AcidnamedphosphorousinMaterialsandphosphoricinpreparationretainconflict;donotassertvalence. FR1/2/3PCS5/7.5/10wtbath5wtdicyandiamide80Cstirdissolve/soak40mintempnotexplicit150%pickup180C10min/DIwash80Cvacuumovernight;feedfractionsnotfinalfabriccomposition;WGformulaW0/W1nativeprosedescriptionsreversednotrecomputed.",
+        "methods": "TG TGA550N2/air10C/min40-70020mL/min;mass/pan/repsunknown. LOIHC2CNanjingShangyuanASTMD2863-2000 150x50mm/repsunknown. SeparateTGIRsame10/40-700/20flowindependentlystatednotborrow.",
+        "LOI": "NativeprimaryTable1 owncontrol/FR1/FR2/FR3 initial LOI19/24.6/25.7/28.3 each\u00b1.2;uncertaintytype/repsunreported. ExplicitsameinitialsampleswithSI S1N2/airTG. Allprimarytables and officialSI S1/S2read as text.",
+        "TG": "NativeSI S1T5/Tmax/R700 N2 Control269.2/349.4/3.1,FR1266.9/316.1/14.4,FR2262.6/314/24.7,FR3246.5/303.4/36.3;airControl244.5/305.3/1.2,FR1265.4/296.5/2.6,FR2256.5/295.1/6.3,FR3240.5/291.3/6.9. TGA55010Cmin40-70020mLmin explicit. Body324nearlycomplete notTmax.",
+        "washed": "SI S2after10LC FR1/FR2/FR3 LOI21/23/23.5 each\u00b1.2;WG7.8/9.6/11.0. BodyFR1WG7.5 conflicts with S2 7.8\u00b1.2 retained/useS2. No ownwashedTG. ATCC61-2006asreported49C45min.15%sodiumdodecylbenzenesulfonate/equiv5domesticcycles;ballsunknown.",
+        "exclude": "ConeFR2R24.6/control6notTG;cone25kWm2FR3notignitednotLOI;mechanicalfive replicatesnotLOI/TGreplicates;XPSsurfaceP/Nnotbulk;mass-lossT5andfirstTmaxnotinterchanged;Supportinginformationexplicit.",
+        "native_primary_Table1_LOI_uncertainty": {
+          "Control": [
+            19,
+            0.2
+          ],
+          "FR1": [
+            24.6,
+            0.2
+          ],
+          "FR2": [
+            25.7,
+            0.2
+          ],
+          "FR3": [
+            28.3,
+            0.2
+          ]
+        },
+        "native_primary_Table1_WG_uncertainty": {
+          "Control": [
+            0,
+            null
+          ],
+          "FR1": [
+            11.3,
+            0.2
+          ],
+          "FR2": [
+            12.7,
+            0.1
+          ],
+          "FR3": [
+            14.1,
+            0.2
+          ]
+        },
+        "native_S1_TG": {
+          "N2_Control": [
+            269.2,
+            349.4,
+            3.1
+          ],
+          "N2_FR1": [
+            266.9,
+            316.1,
+            14.4
+          ],
+          "N2_FR2": [
+            262.6,
+            314,
+            24.7
+          ],
+          "N2_FR3": [
+            246.5,
+            303.4,
+            36.3
+          ],
+          "air_Control": [
+            244.5,
+            305.3,
+            1.2
+          ],
+          "air_FR1": [
+            265.4,
+            296.5,
+            2.6
+          ],
+          "air_FR2": [
+            256.5,
+            295.1,
+            6.3
+          ],
+          "air_FR3": [
+            240.5,
+            291.3,
+            6.9
+          ]
+        },
+        "native_S1_order": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "native_S2_after10_LOI": {
+          "FR1": [
+            21,
+            0.2
+          ],
+          "FR2": [
+            23,
+            0.2
+          ],
+          "FR3": [
+            23.5,
+            0.2
+          ]
+        },
+        "native_S2_after10_WG": {
+          "FR1": [
+            7.8,
+            0.2
+          ],
+          "FR2": [
+            9.6,
+            0.1
+          ],
+          "FR3": [
+            11,
+            0.2
+          ]
+        },
+        "washed_FR1_WG_conflict": "SI S2=7.8plusminus.2versusbody7.5;retain/useS2native;noownwashedTG",
+        "uncertainty_definition": "Nativeplusminus;SD/SE/repsunreported;five mechanicalreplicatesnottransferredtoLOI/TG",
+        "SI": "AllnativeSItext2tables/captionsread,all3primarytablesread;onlyinitial0LCstatesownTG;threewashedLOI-onlyheld",
+        "cone_conflict": "Table2FR2THR1.4plusminus.1versusbody1.3;conechar24.6/control6notTGR700FR224.7/control3.1N2"
+      }
+    }
+  ],
+  "verification_limit": "Five initial cotton states and nine TG conditions use native source tables and explicit selected-dose mapping. Three original scientific HTML bodies, all seven primary tables and three official supplements containing15 native tables were reviewed as text; primary reference prose remains unread. PCS Control/FR1/FR2/FR3 each have N2 and air records; selected DSCFT300gL has one N2 record. Four air conditions are additional tests, not new sample identities. Twenty-five of34 facts remain excluded:14 DES facts with unsupported canonical TG metrics or layer/thickness/binder/wash joins; eight DSCFT control/otherdose/wash facts;three PCS washedLOI facts. All26 scientific guards pass. Twenty full-profile and18 reduced-metric gas/rate-agnostic comparisons normalize residue aliases and have no hits. DSCFT35-versus40C starting temperature remains blank with the conflict retained; native instrument naming conflict, PCS acid naming, WG formula prose and washedFR1WG7.8SI versus7.5body remain explicit. T5/T10/Tmax, percent-per-degree DTG rates, residue700/800 and cone char are kept distinct. DES220C weightloss, washweightloss and DTA300C are not converted into TG residue/peak criteria. No images, curve estimates or invented conditions.",
+  "official_missing_key_evidence_reviews": [
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-021-04216-8/MediaObjects/10570_2021_4216_MOESM1_ESM.docx",
+      "original_sha256": "6b332899f6bf2f13057c76edc8b1259f18b02e18c77053f0e64a1a2b92bd547c",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04235-5/tables/1",
+      "original_sha256": "55af15ed5e259ba055d91d99218775990ab61c116ff7362d3b8f02f72de8d218",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04235-5/tables/2",
+      "original_sha256": "abc5d35fea66c4363ae84f25e3cab25a5063153bef9aaf083c2ba1c85f15a0db",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04235-5/tables/3",
+      "original_sha256": "a6e3e49a0c1514d14599ac0f3970760c94756f4d23d9513bb4405991ea54fb21",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04235-5/tables/4",
+      "original_sha256": "0198356390d0f04061a93ba57f96c36eb5b5ae47ef48e62a3c6c0db68c10a8a1",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-021-04235-5/MediaObjects/10570_2021_4235_MOESM1_ESM.docx",
+      "original_sha256": "3968c0a2859748bcc24598e9db7d86d06bccf9c5d151da8609217bd6d943ba43",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04566-x/tables/1",
+      "original_sha256": "7d5a09f8299670924345ccefeda833e1dbb0d07cb508ce6e962903b9c2da728e",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04566-x/tables/2",
+      "original_sha256": "ef49771a00907e07902efa00e486d6c0f3791be0d6909cdf88a749a179ab1628",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04566-x/tables/3",
+      "original_sha256": "d4a00c23b92a9c4a7326a6e91552e51c458d240ae15f9c5931e112b77dfe2d22",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-022-04566-x/MediaObjects/10570_2022_4566_MOESM1_ESM.docx",
+      "original_sha256": "fd6daabcf434d68c21df628c0d8ece0777bd3d07a3edb1782e5a0f6369c55315",
+      "review_method": "NativeHTMLtabletextorDOCXXMLtext/tables;noimages"
+    }
+  ],
+  "canonical_profile_dedup_audit": [
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "OwnDSCFT300gLinitialcotton initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "OwnDSCFT300gLinitialcotton initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "Untreated initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "Untreated initial cotton fabric",
+      "gas": "N2",
+      "comparison": "full",
+      "metrics": [
+        "T5_C",
+        "T10_C",
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "partial_metric_reuse_risk_audit": [
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "OwnDSCFT300gLinitialcotton initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-021-04235-5",
+      "sample": "OwnDSCFT300gLinitialcotton initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R800_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "N2",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnControlinitialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR1initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR2initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct",
+        "LOI_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    },
+    {
+      "DOI": "10.1007/s10570-022-04566-x",
+      "sample": "OwnFR3initialcotton110gsm initial cotton fabric",
+      "gas": "air",
+      "comparison": "reduced_drop_T5_T10",
+      "metrics": [
+        "Tmax1_C",
+        "R700_pct"
+      ],
+      "gas_rate_agnostic": true,
+      "residue_aliases_normalized": true,
+      "hits": []
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1550,
+    "new_states": 5,
+    "new_conditions": 9,
+    "evidence_upgrades": 0,
+    "verified_states": 1215,
+    "verified_conditions": 1559,
+    "verified_dois": 344,
+    "verified_sources": 346,
+    "offline_tests_passed": 1465,
+    "snapshot_sha256": "0efc8350c9ce6df65a51b5e15dd8ce596ca8aa5ff215c63cd631c7e5521be146",
+    "master_sha256": "3908a3d7dad092cfe77aed9f42c6a52ff9d41a151a831e052df5e14d902171bf",
+    "validation_errors": [],
+    "held_fact_rows": 25,
+    "complete_original_text_pages": 0,
+    "complete_primary_HTML_bodies": 0,
+    "primary_HTML_scientific_bodies_reviewed": 3,
+    "complete_primary_originals": 0,
+    "library_originals_hash_verified": 3,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 15,
+    "complete_official_primary_tables": 7,
+    "official_corrections_reviewed": 0,
+    "unchanged_private_evidence_files": 13,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
