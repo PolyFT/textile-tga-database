@@ -21,15 +21,13 @@
   "publication_stage": "b223_b225_merged_remote_verified_lease_released",
   "last_merged_batch": "20261004_b223_b225",
   "writer_lease": {
-    "owner": "codex-local-textile-b223_b225-20261004",
-    "status": "released",
-    "batch_id": "20261004_b223_b225",
-    "claimed_at_utc": "2026-10-04T19:02:13.181307+00:00",
-    "expires_at_utc": "2026-10-04T20:32:13.181307+00:00",
-    "purpose": "Sixsources40PDFpages1HTML;9newstates11TG48held;208science142canonical0hits17regression;readonlynative;15SIimagepartsunread",
-    "previous_release_commit": "66fb64cca57d4ea3287e9ccf9f7d70d2211c0ece",
-    "released_at_utc": "2026-10-04T19:36:12.000629+00:00",
-    "release_reason": "PR141 exact-head CI,ordinary merge,all three merge checks and complete independent main/blob/master/report/library verification succeeded."
+    "owner": "codex-local-textile-b237_b239-20261005",
+    "status": "active",
+    "batch_id": "20261005_b237_b239",
+    "claimed_at_utc": "2026-10-04T20:14:59.205507+00:00",
+    "expires_at_utc": "2026-10-04T21:44:59.205507+00:00",
+    "purpose": "Twosources24PDFpages;6newstates10TG9held;110science78canonical6adjudicatedscalarhits0unresolved5regression;readonlynative",
+    "previous_release_commit": "694c86541bfd5070585610a64e4953160b17ee8c"
   },
   "next_sources": [],
   "next_actions": [
