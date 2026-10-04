@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1271 unique reviewed source/sample/washing states**, **1631 TG condition records**, and **370 original sources (368 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1274 unique reviewed source/sample/washing states**, **1634 TG condition records**, and **371 original sources (369 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1271 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1070 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1073 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1968,3 +1968,29 @@ Original fulltexts/supplements and local paths remain local.
 ### b170_b171 publication proof
 
 [PR #129](https://github.com/PolyFT/textile-tga-database/pull/129) merged as `c0e62b113a1a259623e0494afd559835d2992eb5` after exact-head [validation run 37186430349](https://github.com/PolyFT/textile-tga-database/actions/runs/37186430349) passed on `c6c780442ad9d1eb03722847f213882c9a338fcb`. All1844 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1271 states,1631 conditions,368 DOI sources and370 total sources. All1615 prior condition records and their fields, thirteen published file blobs, eight concurrent processing files and six primary original hashes, twenty-four official native-table/supplement original hashes and thirty private native text evidence hashes are preserved. The complete9963741-byte master has SHA256 `5ee64a6b79a6d90db5de31e39363623bf46aa89f2a037281047f9b849478fea7`; the full remote report matches a fresh rebuild. Snapshot:`275a89a7cc89ece5dd4bbbc33742e73db9ad3be6e53aedbe5989f6f064bdfb1e`. Twelve new pairs and sixteen TG conditions are published; evidence upgrades and legacy completions are zero;60 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b172_b174 combined native-text textile publication
+
+Combined B172-B174 original-text review:3 new independent initial cotton fabric states and3TGconditions from7scientificHTMLbodies/26primarynative tables/3linkedDOCXsupplementswith6scientificnative tables. The eligible source explicitly joinsCotton/FC/SFC SI TablesS1/S2 with ordinaryN2/20Cmin and body-reported600Cresidue. Initial decomposition305/253/253has no reported criterion and remains auxiliary,notT5/T10/Tonset. All49otherfacts stay excluded:flax missing independentLOI,PN ordinaryTG missing ramp,rapeseed catalyst/LOI correspondence,TPP fiber/fabric scope,THEIC/ATHEIC chemicalidentity,partial lyocellcontrol provenance,unreported blendLOI/gas/ramp/charendpoint/formal correction body,and changed-state exactLOI/TG missing. Four changedcottonstates have onlyLOI>29;no measured29 or initialTG borrowing. All85source-scienceguards/66source regressiontests and130combinedcanonical comparisons pass;zeroaccepted profilehits;7held-hitcomparisons remainexcluded without asserting resolvedprovenance. Two unknown residue endpoints remainheld and are notassigned programtemperature. Original library/officialtexts remainprivate;no images,curveestimates,inferredvalues,scientificgate changes or privatepaths. Evidence upgrades and legacy completions are zero.
+
+### b172
+
+0 new states;0 TG conditions;27 held facts.
+- **10.1007/s10570-025-06897-x**: 0 accepted states;0 accepted conditions. Complete scientific native body/primarytables/linkedSI reviewed. No valid pairs:independent LOI missing,ordinary ramp missing,or unresolved catalyst/LOI correspondence. Sourcevalues preserved;no images/curves/guesseddata.
+- **10.1007/s10570-026-06988-3**: 0 accepted states;0 accepted conditions. Complete scientific native body/primarytables/linkedSI reviewed. No valid pairs:independent LOI missing,ordinary ramp missing,or unresolved catalyst/LOI correspondence. Sourcevalues preserved;no images/curves/guesseddata.
+- **10.1007/s12221-026-01505-6**: 0 accepted states;0 accepted conditions. Complete scientific native body/primarytables/linkedSI reviewed. No valid pairs:independent LOI missing,ordinary ramp missing,or unresolved catalyst/LOI correspondence. Sourcevalues preserved;no images/curves/guesseddata.
+
+### b173
+
+0 new states;0 TG conditions;18 held facts.
+- **10.1007/s10570-023-05148-1**: 0 accepted states;0 accepted conditions. Ordinary TG Methods explicitly fibers; TG Fig6/Table3 say fabrics; same source supplies both fibers and fabrics; LOI explicitly fabrics. Entire initial TG–LOI correspondence held, do not resolve specimen form from the title. All4nativeTG profiles and body LOI18/21.7/27.2/32.4/35.8/washed40LC28.3 preserved pending staging.
+- **10.1007/s10570-024-05756-5**: 0 accepted states;0 accepted conditions. Fabric preparation says30wt%THEIC while synthesis/results say phosphorylated ATHEIC; retain critical identity conflict without correction. SixTGconditions/dose-knownWG13.29/13.35/LOIs18.6/37.3/35.8 and washed20LC31.9/28.7 pending staging. ControlTable2T5 295,T50 339,Tmax338,R80013.6 plusconeTTI18/pHRR144.7/time45/THR5.5/char8.8 resemble prior heldcontrol profiles;rounding/provenance unresolved, no valid increment.
+- **10.1007/s10570-024-05808-w**: 0 accepted states;0 accepted conditions. No independently measuredLOI in complete scientific body/all3tables/SI paragraphs(no SI tables). Ordinary gas/ramp unreported; reported body char3.6/16.4 have unreported endpoint; no derived LOI or R700 assignment. Third peak457/rawdecomp265-383/shift265to380 not assigned TG T5/T10/Tonset/Tmax. LinkedcorrectionDOI10.1007/s10570-024-05864-2 official public preview supplies no correction body;localsearch pending. Allfacts held sourceversionpending.
+
+### b174
+
+3 new states;3 TG conditions;4 held facts.
+- **10.1007/s10570-021-04212-y**: 3 accepted states;3 accepted conditions. Own initial Cotton/FC/SFC TG andLOI joinedSI S1/S2;bodyR600andN2/20Cmin explicit. Initialdecompositioncriterion unknown notcanonicalTonset/T5/T10. Four changedstates reportonlyLOI>29,noownTG;entirestatesheld. Ultrasonicwashminute/cyclewording preserved;LOIuncertaintytype/loadingunknown;no images/curve estimates.
+
+Original fulltexts/supplements and local paths remain local.
