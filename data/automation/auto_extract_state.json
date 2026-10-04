@@ -3280,8 +3280,18 @@
       "attempt_count": 1,
       "last_attempt_utc": "2026-10-04T17:39:29.621845+00:00",
       "next_retry_utc": "2026-10-04T23:39:29.621845+00:00"
+    },
+    "10.1177/0040517519845685": {
+      "fingerprint": "14eb1e3b4ca290ff1eb5",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-04T21:28:08.869938+00:00",
+      "next_retry_utc": "2026-10-05T03:28:08.869938+00:00"
     }
   },
-  "last_run_utc": "2026-10-04T20:18:03.495856+00:00",
-  "last_examined_candidates": 24
+  "last_run_utc": "2026-10-04T21:28:08.869938+00:00",
+  "last_examined_candidates": 1
 }
