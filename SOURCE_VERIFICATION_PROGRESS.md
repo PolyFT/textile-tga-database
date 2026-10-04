@@ -2051,3 +2051,8 @@ Combined B177-B180 native-text review adds9 initialPANfiber states and9TGconditi
 - **10.1016/j.cej.2020.125410**: 4 accepted states;4 accepted conditions. Four owninitialPANcopolymer formulations joinMainTable1LOI/SIS3T5/twoDTGpeaks;ordinaryN220Cmin. Fourcharvalueshaveunknownendpointauxonly,neverR800. NativeactualS3tablelocatorpreserveddespitebodyS2reference;S4secondarycomparisonnotcounted;mufflecarbonization/TGIRnotborrowed.
 
 Original fulltexts/supplements and local paths remain local.
+
+
+### b177_b180 publication proof
+
+[PR #132](https://github.com/PolyFT/textile-tga-database/pull/132) merged as `3e8d7cbe59a9fdf4dfcf8a54067c787dfa87ec1f` after exact-head [validation run 37195114056](https://github.com/PolyFT/textile-tga-database/actions/runs/37195114056) passed on `f0ae0f0d1900e8055c19e2e3f6a7d223a0290da6`. All1981 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1301 states,1661 conditions,374 DOI sources and376 total sources. All1652 prior condition records and their fields, fifteen published file blobs, eight concurrent processing files and five primary original hashes, six official native-table/supplement original hashes and seventeen private native text/JSON evidence hashes are preserved. The complete10226307-byte master has SHA256 `91a60a82e86865f4fa2df7c445f6a3093c9076880c42055ba5f33c668533ff78`; the full remote report matches a fresh rebuild. Snapshot:`498be37575b3c799bf14b627d5505498c5551f3060331681e40d0fa9aae74c20`. Nine new pairs and nine TG conditions are published; evidence upgrades and legacy completions are zero;33 held facts remain excluded. Lease release follows this verified publication record.
