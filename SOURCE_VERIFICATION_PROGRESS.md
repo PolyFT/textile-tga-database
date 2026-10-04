@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1232 unique reviewed source/sample/washing states**, **1579 TG condition records**, and **354 original sources (352 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1234 unique reviewed source/sample/washing states**, **1583 TG condition records**, and **355 original sources (353 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1232 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1031 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1033 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1856,3 +1856,14 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b161 publication proof
 
 [PR #125](https://github.com/PolyFT/textile-tga-database/pull/125) merged as `6a629627ccd3afec1f0c16cabd9ed6c052876dbe` after exact-head [validation run 37177836908](https://github.com/PolyFT/textile-tga-database/actions/runs/37177836908) passed on `7768eae0910fa9db2e1bca19fe3ad20543bdea8c`. All1593 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1232 states,1579 conditions,352 DOI sources and354 total sources. All1575 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, eight official native-table/supplement original hashes and eleven private text evidence hashes are preserved. The complete9409587-byte master has SHA256 `e990dddf722d48f7146ce6b26204533ab8f2d7548ab48ef9655d5ab7549bf123`; the full remote report matches a fresh rebuild. Snapshot:`385151b8ac21e75908d0691731f4810342d0d9d17f66a0b035073b0641df7df0`. Four new pairs and four TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b162 HPDPP initial cotton fabrics
+
+Two initial HPDPP cotton states add four N2/air TG conditions. Three primary scientific HTML bodies and all15 native primary tables were reviewed as text;noSIlinks inlocalHTML,notglobalabsence. Primaryabstract/referenceprose andmostintroductionprose remainunread;Multilayerintro18-19alsoread. OwnHPDPPTable3Tonset/Tmax/R700 joinsControlbodyapproximately17.7 andFRC40LOI41.3. Approximately17.7is anexplicitreportednumberwithnativequalifierpreserved,notcurveestimateorextraprecision. StandalonePyris1N2/air40-70020Kminexplicit;twoinitialidentities,fourconditionrecords. Controlpretreatmentexplicit20pctNaOH5min/2pctaceticacid/tapwater;FRC40bath40wtHPDPP/WG17.37distinct. Seventeenof21factsremainexcluded:eightDTMHSordinaryTG-rampfacts;sixMultilayerunknownresiduetemperature/otherdose/washedfacts;threeHPDPPwashedLOIfacts. DTMHSonlyTGFTIRmethodisnotborrowedforordinaryN2/airTG;nativepercentperminuteDTGnotconverted. Multilayerresidual10.4/15.8/13.7/23.7notassigned800Cprogramend;approximately369decompositionnotexactTmax;water100notdecompositionpeak.24hourwashnot24LC. HPDPPnativeTonsetnotT5/T10;conecharandprior-paperLOIsnotownTG-LOI. All19scientificguards and56gas/rate-agnosticcanonicalcomparisons pass;fourunknownendpointsremainexplicitlyincomparable;freshB161mainreauditrequired. Noimages,curveestimates,guessedconditionsorcomputedresidue. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-025-06614-8**: AlleightowninitialN2/airTGLOIfactsheldforordinaryTGrampunreported. OnlygaseousSTA6000FTIRN210Cmin40-70050mLminmethodexplicit;notproofFig3/4ordinaryTGdatasetconditions. Tables1/2T5/T10/Tmax/R700andTable3ownCotton/DTMHS/AP/DTMHSAPLOI17.8/18.9/31.0/31.4retained. DTGnativepercentperminute notpercentperdegree. WG10.56/9.91/10.69notformulationfeedfractions. MCC/CCcharandMCCpeakHRRtemperaturenotTG. Allsixprimarytablesreviewed;Table6priorpapersnotownnewpairs;noSIlinklocalHTMLnotglobalabsence.
+- **10.1007/s10570-025-06393-2**: Allsixfactsheld:fourinitialCOT/PMT6/PHT6/PMTPHT3nativebodyresidualweights10.4/15.8/13.7/23.7lackexplicittemperature;initialPMTPHT5LOI33.5andPMTPHT3waterwashed24hourLOI26.6lackownTG. StandaloneSDTQ600N230-80010Cminnotproofresidueat800;Fig4captionnoresiduetemperature. COTdecompositionaround369notexactTmax;firstwater100notdecompositionpeak. Allfourprimarytablesphysicalproperties/MCC,notTGendpoint.24hourwash30Cnot24LC;noMCCpeak/ramp/massborrowed. PMTPHT3repeatedTables1/3notnewidentity;intro18-19incidentallyread,otherintro/abstract/referenceproseunread.
+- **10.1007/s10570-023-05528-7**: TwoinitialControl/FRC40statesfourN2/airTGconditionsfromNativeTable3Tonset/Tmax/R700andownbodyLOIapproximately17.7/41.3. Nativeapproximationqualifierpreserved,notcurveestimateorextraprecision. StandalonePyris1N2andair40-70020Kminexplicit;separateTGIRnotborrowed. Control20pctNaOH5min/2pctaceticacid/tapwaterpretreatmentexplicit;FRC40bath40wtHPDPP+6pctdicyandiamide1:2070C1h/twodip-pad180C5min/runningwater120Cdry. WG17.37notbath40wt. ThreewashedLOI29.7at50LC/26.5and26.1at30LCheldwithoutownTG;AATCC3AreportedLCnotmultipliedbyfivehomewashequivalence. NativeTonsetnotT5/T10;R700control0notcone2.5/9.5orVFTcharlength. Allfiveprimarytablesreviewed;otherpapercomparisonnotownnewpairs.
+
+Originals/fulltexts/native tables and local paths remain local.
