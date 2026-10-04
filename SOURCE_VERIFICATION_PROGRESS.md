@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1259 unique reviewed source/sample/washing states**, **1615 TG condition records**, and **367 original sources (365 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1271 unique reviewed source/sample/washing states**, **1631 TG condition records**, and **370 original sources (368 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1259 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1058 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1070 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1942,3 +1942,24 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b169 publication proof
 
 [PR #128](https://github.com/PolyFT/textile-tga-database/pull/128) merged as `8081922fbd8b4988d7822a956d0f1ea439ba5d65` after exact-head [validation run 37184171429](https://github.com/PolyFT/textile-tga-database/actions/runs/37184171429) passed on `81340739a8f65596046becac93087e579fb3ceac`. All1786 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1259 states,1615 conditions,365 DOI sources and367 total sources. All1612 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, eighteen official native-table original hashes and twenty-one private text evidence hashes are preserved. The complete9834478-byte master has SHA256 `bd0f16d936586493a70d25e4ca9c4bc9eb8916987d7bf18abe8481d90aca13fb`; the full remote report matches a fresh rebuild. Snapshot:`8fc27de578da73493f3dccdd0d2702778617ff6f0f3934ed2ed7affc9d284fbf`. Three new pairs and three TG conditions are published; evidence upgrades and legacy completions are zero;57 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b170_b171 combined native-text textile publication
+
+One publication combines two previously reviewed groups B170/B171:12 new independent source/sample/preparation/washing states and16TGconditions from six scientificHTMLbodies/21primarynative tables/three linkedDOCXsupplementswith11scientifictablesplusoneTOC. All facts and source dispositions are unchanged. Sixty of76facts stay held:PCzprogram/LOImean/coating/addon conflicts;nylon air malformedpeak or secondpeaks above program end;PALPAPordinaryfabricmethod scope;gammaapproximatecurve descriptions;missing own otherdose/cycle/washed/friction TG. PA/APDuniqueown samplelabels correspond between Table1/SIS1;individual treatment/loading remain explicitlyunreported,notborrowedfromAPDP. Sixteen accepted gas records count once per fabric state. All58sourceguards and149freshcombinedcanonical comparisons pass;zeroapprovedprofilehits/threeheld-hitcomparisons remainexcludedwithoutclaimingprovenanceadjudication. Noimages,curve estimates,derivedchar,guessedconditions,TGIR/bulk programborrow or loweredscientificstandards. Source groups retained separately in incomingfiles/tests and one public manifest/progress batch. Evidence upgrades and legacy completions are zero.
+
+### b170
+
+6 new states;6 TG conditions;20 held facts.
+- **10.1007/s10570-024-06263-3**: 0 accepted states;0 accepted conditions. Complete methods/results/conclusions/all primary native tables reviewed. PCz complete linked SI paragraphs/captions/seven scientific native tables plus one table of contents. Program/Tmax/mean/dose/missing-own-TG holds preserved;no source corrections,images or curve estimates.
+- **10.1007/s10570-024-06147-6**: 3 accepted states;3 accepted conditions. Complete methods/results/conclusions/all primary native tables reviewed. PCz complete linked SI paragraphs/captions/seven scientific native tables plus one table of contents. Program/Tmax/mean/dose/missing-own-TG holds preserved;no source corrections,images or curve estimates.
+- **10.1007/s12221-023-00442-y**: 3 accepted states;3 accepted conditions. Complete methods/results/conclusions/all primary native tables reviewed. PCz complete linked SI paragraphs/captions/seven scientific native tables plus one table of contents. Program/Tmax/mean/dose/missing-own-TG holds preserved;no source corrections,images or curve estimates.
+
+### b171
+
+6 new states;10 TG conditions;40 held facts.
+- **10.1007/s10570-024-06307-8**: 6 accepted states;10 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+- **10.1007/s10570-023-05728-1**: 0 accepted states;0 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+- **10.1007/s10570-024-06209-9**: 0 accepted states;0 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+
+Original fulltexts/supplements and local paths remain local.
