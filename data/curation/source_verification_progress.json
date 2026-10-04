@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-04T21:13:18.906597+00:00",
+  "as_of_utc": "2026-10-04T21:37:21.576969+00:00",
   "latest_batch_id": "20261005_b240_b243",
   "verified_condition_records": 1745,
   "verified_unique_sample_states": 1365,
@@ -18,8 +18,8 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b240_b243_combined_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261005_b237_b239",
+  "publication_stage": "b240_b243_merged_remote_verified_pending_lease_release",
+  "last_merged_batch": "20261005_b240_b243",
   "writer_lease": {
     "owner": "codex-local-textile-b240_b243-20261005",
     "status": "active",
@@ -5115,6 +5115,25 @@
       }
     ],
     "tests_passed": 2116,
-    "snapshot_sha256": "0d9bb821c3e2f5179d1506376966d9fd771b470592f5c989bce5b763d9dd9fa9"
+    "snapshot_sha256": "0d9bb821c3e2f5179d1506376966d9fd771b470592f5c989bce5b763d9dd9fa9",
+    "publication": {
+      "head_sha": "ece6351a6ce2ad86792a9696b5bb5d96a43968d0",
+      "merge_sha": "11207ef443d669d719ad7b1baf99446bf341aa63",
+      "validation_run": 37235693930,
+      "snapshot_sha256": "0d9bb821c3e2f5179d1506376966d9fd771b470592f5c989bce5b763d9dd9fa9",
+      "master_sha256": "bb17008d17bb9be1a9d8733a09716f28de418cf64fa3e665fcb7fc869a9eb5cb",
+      "independent_remote_master_blob_sha": "f2e3b2e51c3e384109b7a5322fb1186b924a3244",
+      "independent_remote_master_bytes": 11184866,
+      "postmerge_runs": [
+        37236068424,
+        37236068427,
+        37236068406
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 13,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/143",
+      "status": "merged_remote_verified"
+    }
   }
 }
