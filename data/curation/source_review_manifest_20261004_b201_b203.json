@@ -1,0 +1,871 @@
+{
+  "batch": "b201_b203",
+  "review_completed_utc": "2026-10-04T15:12:48.632618+00:00",
+  "baseline_counts": [
+    1318,
+    1684,
+    381
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 6,
+    "accepted_condition_rows": 6,
+    "new_source_inventory_states": 6,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_HTML_bodies": 1,
+    "HTML_link_discovery_only": 0,
+    "complete_text_primary_PDF_pages": 38,
+    "primary_tables_text_reviewed": 7,
+    "official_primary_tables_text_reviewed": 0,
+    "complete_official_SIs_text_tables_reviewed": 1,
+    "own_scientific_SI_tables_reviewed": 4,
+    "mixed_own_and_comparison_SI_tables_reviewed": 0,
+    "SI_index_tables_reviewed": 0,
+    "secondary_comparison_SI_tables_reviewed": 0,
+    "complete_official_SIs": 1,
+    "bibliographic_metadata_originals_reviewed": 0,
+    "total_fact_rows": 18,
+    "held_fact_rows": 12,
+    "unbound_auxiliary_residue_metrics": 0,
+    "source_scientific_guards": 99,
+    "source_regression_tests": 14,
+    "canonical_comparisons": 37,
+    "canonical_single_metric_hit_comparisons": 1,
+    "canonical_adjudicated_single_metric_hit_comparisons": 1,
+    "canonical_full_paired_profile_hits": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "publication_groups": 3,
+    "within_source_baseline_presentations_collapsed": 0
+  },
+  "source_groups": [
+    {
+      "batch": "b201",
+      "new_states": 3,
+      "new_conditions": 3,
+      "held": 0,
+      "scientific_guards": 46,
+      "csv_sha256": "9c3f1eeb426a441a21d125565e408477b58168d9d81d1a313d12b153f5c2c9a8",
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.coco.2019.05.005",
+          "title": "Hybrid organic-inorganic hydrophobic and intumescent flame-retardant coating for cotton fabrics",
+          "accepted_states": 3,
+          "accepted_conditions": 3,
+          "potential_states": 3,
+          "potential_conditions": 3,
+          "staged_held_rows": 0,
+          "complete_primary_PDF_text_pages": 27,
+          "unread_image_only_figure_appendix_pages": 4,
+          "primary_tables_reviewed": 1,
+          "publication_version": "ActualpublisherAcceptedManuscriptaccepted12May2019;uneditednotdefinitiveedition",
+          "disposition": "B201 complete27nativePDFtextpages reviewed;46 independent source guards,6 scientific regression tests,27 whole-canonical comparisons0hits and read-only projection1318/1684->1321/1687 passed. Three approved unpublished same-state cotton fabric pairs LOI18.2/29.6/28.2,ownDTG372/347/307,R6008/44/41,N2at10Cmin. T5_315/276/258 preserves explicit5percent sourcecriterion in singlecomparisonparagraph. Unreportedbilayers/addonbasis/finalcure/LOIgeometry remainunknown;publisheracceptedmanuscript not final-edition equivalence. Not yet public/countedinmain. Finish PR136 same saved release watchers37783/71248/61746;fresh API sync/finisher once;restore this next-private backup;then prepare following batch under fresh main/openPR/queue/version/lease checks.",
+          "independent_review_status": "passed46guards_6tests_27canonical_no_hits"
+        }
+      ]
+    },
+    {
+      "batch": "b202",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 8,
+      "scientific_guards": 15,
+      "csv_sha256": "711fc68bec74129326e23b177cdf72b14f02ed881c138b40acefa89ad1882586",
+      "source_findings": [
+        {
+          "DOI": "10.1021/acsapm.0c00421",
+          "title": "Morphology and Properties of Flame-Retardant Superhydrophobic Polymer Coatings Deposited on Cotton Fabrics from Supercritical CO<sub>2</sub>",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "potential_states": 0,
+          "potential_conditions": 0,
+          "staged_held_rows": 8,
+          "complete_primary_HTML_bodies": 1,
+          "primary_tables_reviewed": 2,
+          "linked_SI_reviewed": false,
+          "disposition": "EightowncottonLOIfactsheld:TGexpresslyneatpolyphosphazenemicrospheresnotcottonfabric. UncombinedNa22.2\u00b10.1Table2vs22.1\u00b10.6prosealsoheldraw;finalhydrophobicstate22.1\u00b10.6separate. NoTGconditions/metricsborrowed;8factsnot8pairs;fullbody2tables8captionsnativeonly."
+        }
+      ]
+    },
+    {
+      "batch": "b203",
+      "new_states": 3,
+      "new_conditions": 3,
+      "held": 4,
+      "scientific_guards": 38,
+      "csv_sha256": "d6ec416d5a7bda4920d288a80794f75cd4286a87e2b4212196015f96466386bf",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-020-03270-y",
+          "title": "Flame retardant effect of lignin/carbon nanotubes/potassium carbonate composite coatings on cotton roving",
+          "accepted_states": 3,
+          "accepted_conditions": 3,
+          "potential_states": 3,
+          "potential_conditions": 3,
+          "staged_held_rows": 4,
+          "complete_primary_PDF_text_pages": 11,
+          "primary_tables_reviewed": 4,
+          "complete_official_SIs_text_tables": 1,
+          "own_scientific_SI_tables": 4,
+          "disposition": "ThreepotentialsameinitialcottonrovingpairscontrolLOI17.1DTG370R6007.5/ligninLOI26.8sourceexplicitunchangedDTG370/uniqueternaryCNT1K1LOI38.5DTG269R60028.8. OrdinaryN2_10Cmin30-600. Fourhelddosefacts:genericCNTTGdoseunresolved,SIFigS2nativecaptionnoloadingandimagesnotread;CNT1LOI31.7vs32.0conflict;KonlyTGcurve. PrimaryMFTTmaxnotDTG/neatL-CNTnotroving;SItest-specificWGnotTGloading. All11primarypages/4tablesandlinkedDOCXall4tables/captionsreadtextonly."
+        }
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.coco.2019.05.005",
+      "title": "Hybrid organic-inorganic hydrophobic and intumescent flame-retardant coating for cotton fabrics",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "potential_states": 3,
+      "potential_conditions": 3,
+      "staged_held_rows": 0,
+      "complete_primary_PDF_text_pages": 27,
+      "unread_image_only_figure_appendix_pages": 4,
+      "primary_tables_reviewed": 1,
+      "publication_version": "ActualpublisherAcceptedManuscriptaccepted12May2019;uneditednotdefinitiveedition",
+      "disposition": "B201 complete27nativePDFtextpages reviewed;46 independent source guards,6 scientific regression tests,27 whole-canonical comparisons0hits and read-only projection1318/1684->1321/1687 passed. Three approved unpublished same-state cotton fabric pairs LOI18.2/29.6/28.2,ownDTG372/347/307,R6008/44/41,N2at10Cmin. T5_315/276/258 preserves explicit5percent sourcecriterion in singlecomparisonparagraph. Unreportedbilayers/addonbasis/finalcure/LOIgeometry remainunknown;publisheracceptedmanuscript not final-edition equivalence. Not yet public/countedinmain. Finish PR136 same saved release watchers37783/71248/61746;fresh API sync/finisher once;restore this next-private backup;then prepare following batch under fresh main/openPR/queue/version/lease checks.",
+      "independent_review_status": "passed46guards_6tests_27canonical_no_hits"
+    },
+    {
+      "DOI": "10.1021/acsapm.0c00421",
+      "title": "Morphology and Properties of Flame-Retardant Superhydrophobic Polymer Coatings Deposited on Cotton Fabrics from Supercritical CO<sub>2</sub>",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "potential_states": 0,
+      "potential_conditions": 0,
+      "staged_held_rows": 8,
+      "complete_primary_HTML_bodies": 1,
+      "primary_tables_reviewed": 2,
+      "linked_SI_reviewed": false,
+      "disposition": "EightowncottonLOIfactsheld:TGexpresslyneatpolyphosphazenemicrospheresnotcottonfabric. UncombinedNa22.2\u00b10.1Table2vs22.1\u00b10.6prosealsoheldraw;finalhydrophobicstate22.1\u00b10.6separate. NoTGconditions/metricsborrowed;8factsnot8pairs;fullbody2tables8captionsnativeonly."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03270-y",
+      "title": "Flame retardant effect of lignin/carbon nanotubes/potassium carbonate composite coatings on cotton roving",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "potential_states": 3,
+      "potential_conditions": 3,
+      "staged_held_rows": 4,
+      "complete_primary_PDF_text_pages": 11,
+      "primary_tables_reviewed": 4,
+      "complete_official_SIs_text_tables": 1,
+      "own_scientific_SI_tables": 4,
+      "disposition": "ThreepotentialsameinitialcottonrovingpairscontrolLOI17.1DTG370R6007.5/ligninLOI26.8sourceexplicitunchangedDTG370/uniqueternaryCNT1K1LOI38.5DTG269R60028.8. OrdinaryN2_10Cmin30-600. Fourhelddosefacts:genericCNTTGdoseunresolved,SIFigS2nativecaptionnoloadingandimagesnotread;CNT1LOI31.7vs32.0conflict;KonlyTGcurve. PrimaryMFTTmaxnotDTG/neatL-CNTnotroving;SItest-specificWGnotTGloading. All11primarypages/4tablesandlinkedDOCXall4tables/captionsreadtextonly."
+    }
+  ],
+  "verification_limit": "Two complete primary PDFs total38nativepages and one complete scientific HTML body were reviewed, with seven primary tables; one linked official DOCX supplement has four native tables and two figure captions. No images or curve estimates were used. The 27-page B201 publisher accepted manuscript is unedited and no definitive-edition equivalence is claimed. Six new independent textile states and six TG records are approved. B201 cotton control, SiO2/PEI/PPA and post-REPELLAN FF cotton have own LOI18.2/29.6/28.2, source-defined T5_315/276/258, DTG372/347/307 and explicit R6008/44/41 in N2 at10Cmin. The single comparison paragraph explicitly defines degradation onset as5percent mass loss; it is T5, not tangent Tonset. Bilayer count, final Repellan cure conditions and add-on denominator remain unreported. B203 cotton fiber roving control, lignin coating and unique lignin1percent/CNT1percent/K2CO3_1percent bath have own LOI17.1/26.8/38.5 and DTG370/370/269; control and ternary R600 are7.5/28.8 in N2 at10Cmin. The lignin peak370 is the source explicit unchanged-peak reference, not a curve estimate. The supplement reports different coating weight gains for MFT, LOI and MLC; LOI-specific gains are auxiliary and never assigned as TG loading. Twelve facts remain held. B202 eight own cotton-fabric LOI formulations have only neat-microsphere TG; no specimen-form join is allowed, and uncombined Na-microsphere LOI22.2Table2 versus22.1prose remains raw. B203 four dose facts remain held because generic CNT TG dose is unresolved, K-only TG is curve-only, or CNT1 LOI31.7Table3/body conflicts32.0Discussion. Fire-tube exhaust Tmax is not DTG, and neat lignin/CNT measurements are not roving TG. All99 independent science guards and14 source regression tests pass. The37 whole-canonical comparisons include one adjudicated single-DTG370 coincidence with six other records; none matches the own LOI26.8 and complete paired profiles have zero hits, with zero unresolved hits. This coincidence does not equate independently documented recipes and sample states. Source-version limits, condition gaps and sample states are preserved. Evidence upgrades and legacy completions are zero. Only factual data, concise provenance, necessary tests and validation outputs are public; fulltexts, supplements and private paths stay local.",
+  "canonical_profile_dedup_audit": {
+    "summary": {
+      "comparisons": 37,
+      "full": 12,
+      "reduced": 6,
+      "threshold_residue": 6,
+      "rounding_risk": 13,
+      "baseline_rows": 4914,
+      "approved_profile_hits": 1,
+      "held_hit_comparisons": 1,
+      "endpoint_unknown": [],
+      "held_hits_adjudicated": "AllcurrentincomingincludingmergedB198B200plusB201B202B203completeprofiles;gasrateagnostic;6potentialstates6TG12held. SingleDTG370coincidencesrequireexplicitsourceadjudication;noLOI/fume/TGform/loadinginference.",
+      "adjudicated_single_metric_hit_comparisons": 1,
+      "full_paired_profile_hits": 0,
+      "unresolved_profile_hits": 0,
+      "accepted_profile_hit_disposition": "Not duplicate: one DTG peak at370 alone coincides. All6hits lack matching independentLOI26.8;owncontrolLOI17.1isdistinctligninrecipe;otherDOIs/recipes and ownreportedLOIs/residue endpoints differ. NativeprimaryownlignincoatedrovinglabelandexplicitunchangedDTG370 plusownTable3LOI26.8supportthisformulation. FullTG+LOIcomparisons0hits;noownpeakorLOIborrowed."
+    },
+    "comparisons": [
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "Cotton_control_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.coco.2019.05.005",
+        "sample": "SiO2_PEI_PPA_RepellanFF_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_control_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_control_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_control_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_control_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": [
+          {
+            "DOI": "10.3390/ma15051758",
+            "sample_state": "CM",
+            "washing_state": "",
+            "pairing_status": "",
+            "LOI_pct": "",
+            "atmosphere": "",
+            "heating_rate_C_min": "",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "354.0",
+            "Tmax1_C": "370.0",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "10.96",
+            "residue_temp_C": "700.0",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          },
+          {
+            "DOI": "10.1016/j.polymdegradstab.2024.110764",
+            "sample_state": "COT/MMT (2% MMT add-on)",
+            "washing_state": "as prepared",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "18",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "",
+            "T10_C": "334",
+            "Tonset_C": "",
+            "Tmax1_C": "370",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "13",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          },
+          {
+            "DOI": "10.1002/pat.6162",
+            "sample_state": "FRPLA/F",
+            "washing_state": "Initial0durabilitycycles;preparationwash separate",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "35.5",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "20",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "370",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "17.3",
+            "R800_pct": "",
+            "residue_pct": "17.3",
+            "residue_temp_C": "700",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          },
+          {
+            "DOI": "10.1007/s10570-025-06683-9",
+            "sample_state": "CoreShell_TA_initial",
+            "washing_state": "initial_no_durability_wash_postcoating_rinse_unreported",
+            "pairing_status": "held_LOI_calculated_from_TGA_char_not_independent_measurement",
+            "LOI_pct": "31.56",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "260",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "370",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "16.46",
+            "R800_pct": "",
+            "residue_pct": "16.46",
+            "residue_temp_C": "700",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          },
+          {
+            "DOI": "10.1007/s10570-024-06209-9",
+            "sample_state": "GAMMA_BCF24_initial",
+            "washing_state": "initial",
+            "pairing_status": "held_approximate_DTG_curve_description_not_numeric_table",
+            "LOI_pct": "30.8",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "370",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "",
+            "residue_temp_C": "",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          },
+          {
+            "DOI": "10.1007/s10570-020-03270-y",
+            "sample_state": "Cotton_roving_control_initial",
+            "washing_state": "initial_unlaundered",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "17.1",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "370",
+            "Tmax2_C": "",
+            "R600_pct": "7.5",
+            "R700_pct": "",
+            "R800_pct": "",
+            "residue_pct": "7.5",
+            "residue_temp_C": "600",
+            "adjudication": "SingleDTG370coincidenceonly;LOIabsentordifferentfrom26.8;notfullpairedprofilematch."
+          }
+        ],
+        "adjudicated_not_duplicate": true,
+        "adjudication": "Not duplicate: one DTG peak at370 alone coincides. All6hits lack matching independentLOI26.8;owncontrolLOI17.1isdistinctligninrecipe;otherDOIs/recipes and ownreportedLOIs/residue endpoints differ. NativeprimaryownlignincoatedrovinglabelandexplicitunchangedDTG370 plusownTable3LOI26.8supportthisformulation. FullTG+LOIcomparisons0hits;noownpeakorLOIborrowed."
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_CNT1_K2CO3_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_CNT1_K2CO3_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_CNT1_K2CO3_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-020-03270-y",
+        "sample": "Cotton_roving_L_CNT1_K2CO3_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      }
+    ]
+  },
+  "official_missing_key_evidence_reviews": [
+    {
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs10570-020-03270-y/MediaObjects/10570_2020_3270_MOESM1_ESM.docx",
+      "original_sha256": "99e98fd93f35199fb900d1457880cc92cde4874538e4859d9fc76cab46c2c721",
+      "review_method": "OfficiallinkedDOCXSIallfourtest-specificnativeTablesS1-S4andFigS1S2captionsreviewed;imagesnotread;noTGloadingborrowed"
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1684,
+    "new_states": 6,
+    "new_conditions": 6,
+    "evidence_upgrades": 0,
+    "verified_states": 1324,
+    "verified_conditions": 1690,
+    "verified_dois": 383,
+    "verified_sources": 385,
+    "offline_tests_passed": 2053,
+    "snapshot_sha256": "7b58269376e0bedbd13f760446ec632cacff767065792ffd2be158b4afb59a77",
+    "master_sha256": "cb95a3405014e554a3ef19e9b4ffc64b19c672ab93d7aa38efd60ec8d8ecbdf0",
+    "validation_errors": [],
+    "held_fact_rows": 12,
+    "complete_original_text_pages": 38,
+    "complete_primary_HTML_bodies": 1,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_originals": 3,
+    "library_originals_hash_verified": 3,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 1,
+    "own_scientific_SI_tables": 4,
+    "mixed_own_and_comparison_SI_tables": 0,
+    "secondary_comparison_SI_tables": 0,
+    "SI_index_tables": 0,
+    "complete_official_primary_tables": 7,
+    "official_missing_primary_tables": 0,
+    "official_corrections_reviewed": 0,
+    "bibliographic_metadata_originals_reviewed": 0,
+    "unchanged_private_evidence_files": 6,
+    "canonical_comparisons": 37,
+    "canonical_single_metric_hit_comparisons": 1,
+    "canonical_adjudicated_single_metric_hit_comparisons": 1,
+    "canonical_full_paired_profile_hits": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "new_source_inventory_states": 6,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
