@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1315 unique reviewed source/sample/washing states**, **1679 TG condition records**, and **381 original sources (379 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1318 unique reviewed source/sample/washing states**, **1684 TG condition records**, and **383 original sources (381 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1315 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1114 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1117 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2167,3 +2167,25 @@ Original fulltexts/supplements and local paths remain local.
 ### b192_b197 publication proof
 
 [PR #135](https://github.com/PolyFT/textile-tga-database/pull/135) merged as `e3c4ffd07f3f5d97d9536ee7a90a9a1ab3b73b68` after exact-head [validation run 37206263988](https://github.com/PolyFT/textile-tga-database/actions/runs/37206263988) passed on `26295e889e2311e29d72ea95263b8ac553c8ab00`. All2023 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1315 states,1679 conditions,379 DOI sources and381 total sources. All1671 prior condition records and their fields, sixteen published file blobs, eight concurrent processing files and five library original hashes (four HTML scientific bodies and one complete15page PDF), twenty official table/supplement original hashes and twenty-eight private native text/JSON evidence hashes are preserved. The complete10517496-byte master has SHA256 `98126c18c8c82bdede03aeaf1c55d91ce560e514a4b6649c3d8002d93af6d880`; the full remote report matches a fresh rebuild. Snapshot:`9c58bb56a73706bf2e7a5fcd38d7126779ee3f8618f7a14361081932186071bd`. Four new pairs and eight TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b198_b200 combined native-text textile publication
+
+Three complete primary PDFs were reviewed as native text: a 37-page AHTTPA publisher preproof, an eight-page PA/silica-sol paper and a ten-page TiO2/HGM paper, including eleven primary tables. Eleven AHTTPA figure attachment pages contain native labels; their images were not read. Crossref metadata verifies the preproof bibliography only and does not verify the definitive edition. No linked SI completeness is claimed. Three new initial cotton sample-state pairs and five TG records are approved: AHTTPA control LOI18.0 and 40percent treated LOI39.6 with own Table3 N2/air R70016.88/37.03/1.97/9.76 at20Cmin; TiO2/HGM-source untreated cotton LOI17 with own Table1 DTG339.14 in air at10Cmin. Two gases count once per independent AHTTPA state. Undefined AHTTPA Ti remains auxiliary; N2 control Tmax397table versus98body is excluded while unambiguous R700 remains eligible. HGM control onset307.4table versus283body is excluded; unbound residues0.77/7.322/11.03/25 have no reported temperature and are never assigned700 from the program end. The HGM LOI specimen dimensions2cmx150cm are preserved as reported. Fifteen facts remain held: two initial and three washed AHTTPA dose facts without own TG or numerical curve LOI; six PA/silica-sol facts missing ordinary TG ramp or own sample mapping; four HGM dose facts because three LOI numbers19/20/21 are listed for four doses2/5/10/20. PA/silica-sol water peak50.6 is not a decomposition peak, and calculated Cotton3b residue6.2 is not measured Cotton3a residue13.8. Linked PA/silica-sol SI is unavailable at the public publisher entry with403; the blocked page is not scientific evidence. HGM MovieS1 describes infrared heat release, not TG/LOI measurements. All135 independent science guards,16 source regression tests and50 whole-batch canonical comparisons pass with zero accepted or held profile hits; raw excluded peaks/onsets are also audited. Evidence upgrades and legacy completions are zero. No standards are relaxed; no images, curve estimates, guessed conditions, originals or private paths are published. Evidence upgrades and legacy completions are zero.
+
+### b198
+
+2 new states;4 TG conditions;5 held facts.
+- **10.1016/j.ijbiomac.2020.09.174**: 2 accepted states;4 accepted conditions. TwoprovisionalowninitialcontrolLOI18.0and40percentAHTTPALOI39.6with4nativeTable3N2/AIRTGconditions. Ti308/244/297/241unknowncriterionauxonly;noT5/Tonsetinferred. N2controlDTG397Table3vs98bodyheldmetriccanonicalblank;unambiguousownR70016.88retained. OtherTmax299/372/304andR70037.03/1.97/9.76native. Twoinitial20/30dosevaluescurve-onlynotestimated;threeexplicitwashedLOI26.8/28.4/29.8heldwithoutownTG. Actualcure170C5min/70C1h/bathmassratio1:20/20Kmin40-700/Pyris1/5-8mg. Sourceprosecomparativeerrorsandpreproofeditionretained;notfinal-versionequivalence.
+
+### b199
+
+0 new states;0 TG conditions;6 held facts.
+- **10.1016/j.porgcoat.2020.105539**: 0 accepted states;0 accepted conditions. Sixheldfacts:4experimentalcottonTGairrowslackordinaryramp;owncontrol18/Cotton3_29.8LOIexplicitbutnotapproved;Cotton1/2curveLOInotestimated;CottonPA28.5/CottonSol18.7comparisonlabelsnoownTGmapping. Water50.6notdecomposition;Cotton3calculatedR6006.2notmeasured13.8. LinkedSIAppendixAmissingcriticalramp;publicpublisher403saved;doNOTguessramp/conditions/curvevalues.
+
+### b200
+
+1 new states;1 TG conditions;4 held facts.
+- **10.1016/j.porgcoat.2020.105553**: 1 accepted states;1 accepted conditions. OneprovisionalownuntreatedcottonLOI17/DTG339.14air10Cminpair. Nativecontrolonset307.4Table1vs283bodycanonicalblank;genericresidue0.77/7.322/11.03/25tempunreportedauxonlyNOTR700;weightloss99.26/92.93/89.05/74.89notconverted. FourHGM2/5/10/20statesheldbecauseownLOIlist19/20/21hasthreevaluesforfourdoses,notassignedevenlast21. LOIgeometry2cmx150cmretainedasanomaly. All10nativepages3tablesread;MovieS1IRnotTG/LOIvalues. Requireindependentmetric/stateQA/rawexcludedreuseauditbeforeapproval.
+
+Original fulltexts/supplements and local paths remain local.
