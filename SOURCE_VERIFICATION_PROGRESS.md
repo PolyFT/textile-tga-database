@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1220 unique reviewed source/sample/washing states**, **1566 TG condition records**, and **350 original sources (348 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1224 unique reviewed source/sample/washing states**, **1571 TG condition records**, and **351 original sources (349 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1220 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1019 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1023 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1808,3 +1808,14 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b158 publication proof
 
 [PR #122](https://github.com/PolyFT/textile-tga-database/pull/122) merged as `ee1317cac4e904af9b5e719d607907faef4ee64e` after exact-head [validation run 37171139700](https://github.com/PolyFT/textile-tga-database/actions/runs/37171139700) passed on `8f4ccdd64962f59160d4bf5f956092b6e9afda25`. All1523 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1220 states,1566 conditions,348 DOI sources and350 total sources. All1561 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, sixteen official native-table/supplement original hashes and nineteen private text evidence hashes are preserved. The complete9261117-byte master has SHA256 `efe5722aebd950b2967d3c0d958253e528e9f16f71f518ea53e2cb0dc72f1b3a`; the full remote report matches a fresh rebuild. Snapshot:`fab27996d98f44c7981ad0fe4c85d20fe359a9c336b04a944088a6f20243738b`. Three new pairs and five TG conditions are published; evidence upgrades and legacy completions are zero;26 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b159 TDBTZP initial cotton fabrics
+
+Four initial cotton sample states add five TG conditions from own TDBTZP source. Three primary scientific HTML bodies,16 native primary tables and one official supplement containingthree native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. NativeTable1 bindsControl/Cotton10/20/30LOI18.1/29.9/32.7/35.2 tobath0/100/200/300gL andactualWG0/8.6/17.3/26.5pct. FourN2conditions plusownControlair use standaloneTG85110Kmin35-750;controlair is additionaltest,notextraidentity. Eighteenof23facts excluded:fivePsynblendTmaxconflict/otherformulaLOIonlyfacts;fiveTDBTZPairinversion-residuetemperature/washedLOIfacts;eightBPNMmissingownabsoluteLOI/dosejoin/relativeLOI/washedfacts. Cotton20airT5=122>T10=116 andR10.9at700bodyvs750SI/conclusion remainheldwithoutswappingorchoosinganendpoint. Psyncontrol338.61vs336 andP1=326.57vs314.81Tmax remainheldwholeconditions. N2TDBCotton20/30T5=121/117withinnativewater40-200 aretotalmasslosscriteria,notdecompositiononset. NativeSIairRmaxdegreesCheaderunitconflict retained;noinferredrateunit. BPNMrelativeLOIsnotconverted and40.1notassigned450gL. All24scientificguards pass. Sixty-four gas/rate-agnostic full/reduced/threshold-residue/rounding-risk comparisons normalize residuealiases/temperatures andfindnohits. SeparateTGIR/DSCconditions,at-peakweightretention,conechar,washedstates andblendformsremain distinct. Noimages,curveestimates,guessedconditionsorcomputedresidue. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-024-06218-8**: Allfivefactsheld. Own98cotton2spandex280gsmworkweartwill,notpurecotton. Table3controlTmax338.61/Psyn1326.57 versusbody336/314.81 invalidatebothwholeTGconditions;nativeTable3T10/R600 andTable6LOI retained. OtherPsyn2/3/4 haveownLOI31.6/34.9/37.2 butnoownTG. Molarrecipe1:1:2/4/6/8notmassratio;15pctFRbasisunreported andmeasuredWG12.73/12.85/10.91/12.25 keptdistinct. SeparateDSCN2peaksnotDTG;washcharlengthnotTGmasscharorwashedLOI. All8nativeprimarytablesreviewed;noSIlinklocalHTML,notglobalabsence.
+- **10.1007/s10570-023-05506-z**: Fourinitialstates/fiveTGconditions:Control/Cotton10/20/30N2plusControlair,ownTable1LOI18.1/29.9/32.7/35.2,Table3N2/S2air. Bath100/200/300gL andactualWG8.6/17.3/26.5pctdistinctfromsamplelabels. StandaloneSI TG85110Kmin35-750;separateTGIR35-800/50mLminnotborrowed. Cotton20airT5=122>T10=116 andresidue10.9at700bodyversusS2/conclusion750holdthatwholecondition. FourwashedCotton30LOIs31.4/28.6/27.5/27.2have noownTG/washprotocolunreported. N2Cotton20/30T5=121/117withinwater40-200 retainedastotalmasslossnotdecompositiononset. SIairRmaxheaderdegreesCunitconflictretained;controlrateunitnotinferred. All4primarytables/completeofficialSItextandthreeSItablesreviewed.
+- **10.1007/s10570-023-05265-x**: Alleightfactsheld:fourinitialN2/airTGconditions lackownabsolutematchedLOI;optimizedmeglumine:boricacid1:4LOI40.1hasunboundbathdose;50/450gLrelativeLOI88/127.8pctnotconverted;washed30LCLOI30.5hasnoownwashedTG. StandaloneTGA/DSC2N2/air10Cmin30-800,Table1residue700notprogramend800. WeightretentionatDTGpeaksnotfinalresidue;cone22.6notTG23.5/36.7. SeparateTGIR30-700notstandaloneendpoint. All4nativeprimarytablescontainnoabsoluteowninitialLOI;Fig5/13imagesunread. NoSIlinklocalHTML,notglobalabsence.
+
+Originals/fulltexts/native tables and local paths remain local.
