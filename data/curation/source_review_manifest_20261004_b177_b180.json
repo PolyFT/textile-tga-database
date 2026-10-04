@@ -1,0 +1,2430 @@
+{
+  "batch": "b177_b180",
+  "review_completed_utc": "2026-10-04T10:05:49.909241+00:00",
+  "baseline_counts": [
+    1292,
+    1652,
+    372
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 9,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_HTML_bodies": 0,
+    "complete_text_primary_PDF_pages": 30,
+    "official_primary_tables_text_reviewed": 11,
+    "complete_official_SIs_text_tables_reviewed": 8,
+    "own_scientific_SI_tables_reviewed": 7,
+    "secondary_comparison_SI_tables_reviewed": 1,
+    "complete_official_SIs": 2,
+    "total_fact_rows": 42,
+    "held_fact_rows": 33,
+    "unbound_auxiliary_residue_metrics": 4,
+    "source_scientific_guards": 185,
+    "source_regression_tests": 31,
+    "canonical_comparisons": 155,
+    "publication_groups": 4,
+    "within_source_baseline_presentations_collapsed": 0
+  },
+  "source_groups": [
+    {
+      "batch": "b177",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 3,
+      "scientific_guards": 18,
+      "csv_sha256": "6c9f050c77c86833f99978595ae8dabfae6b55c9429a90bb359fc5ecb733eaaf",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-023-05668-w",
+          "title": "Preparation and properties of the flame-retardant viscose fibers based on the intumescent dithiocarboxyphosphate microcapsules",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 3,
+          "native_scientific_body_lines": [
+            13,
+            81
+          ],
+          "official_primary_tables": 4,
+          "disposition": "Three own air20CminviscoseTG-only profiles preserved;no independentLOI. Intro19andPVA31.8 are citations,notownVFmeasurements. R750notR800;ratepctperC;firstdecomposition/secondcharoxidation peaks distinguished;bodychar-increase mismatch unresolved. OriginalTGstart0Cpreservedinsourceconditionfield;canonicaltemperature-domainunchanged;notreplacedwith20C."
+        }
+      ]
+    },
+    {
+      "batch": "b178",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 30,
+      "scientific_guards": 28,
+      "csv_sha256": "da4711389b591d835580b62c34838f35cd921136672a6d8c733f0d1cc980cd70",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10692-018-9889-z",
+          "title": "Effect of Flame Retardants on Thermolysis and Combustion of Polyacrylonitrile Fiber",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 14,
+          "complete_native_PDF_pages": 3,
+          "own_primary_tables": 2,
+          "disposition": "8TGrows/4additionalrecipeOIrows/2aqueoustreatmentOIrows held. TGA gas/rampunreported;conditionedbodyfibers versusclothTable2/soakingstage unresolved. RawthermalTmaxcriterionunknown,notDTG. ExactR500/600/700/800/900retained;Table234.5notbodyrange34. No freshspunconditions borrowed."
+        },
+        {
+          "DOI": "10.1007/s10692-018-9923-1",
+          "title": "Flame-Retardant Effectiveness of Freshly Spun Polyacrylonitrile Fiber",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 16,
+          "complete_native_PDF_pages": 3,
+          "own_primary_tables": 3,
+          "disposition": "4freshTGprofiles and12form/soak/rinseOIrows held. OwncontrolOI19.0retained;freshdenominatorversusconditionednumerator12OIvalues distinct. TGgas/rampandnumericTGtestingstage missing;Ts/Tmax/Tfcriterionauxiliary;R900explicit. FreshovenprogramnotTGA;mixtureandtotal20%basis/esdefinition wordingunresolved,no corrections."
+        }
+      ]
+    },
+    {
+      "batch": "b179",
+      "new_states": 5,
+      "new_conditions": 5,
+      "held": 0,
+      "scientific_guards": 73,
+      "csv_sha256": "1f56d276cc3440e1aefe7d2ae0794fd69041d3df278ff0cd8808ff55cce27197",
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.cej.2019.123288",
+          "title": "Tannic acid-assisted green exfoliation and functionalization of MoS2 nanosheets: Significantly improve the mechanical and flame-retardant properties of polyacrylonitrile composite fibers",
+          "potential_states": 5,
+          "potential_conditions": 5,
+          "accepted_states": 5,
+          "accepted_conditions": 5,
+          "staged_held_rows": 0,
+          "complete_native_PDF_pages": 12,
+          "own_primary_tables": 1,
+          "official_SI_tables": 4,
+          "disposition": "Five own initial PAN formulation profiles joinmainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800;ordinaryN210Cmin distinctfromTGIR20Cmin. SI/fullbodymethod/form/char checks completed;publisherarticle-in-pressversion/unknownfinalyear retained. Fig6TGIRsamplecaption andnonTGauxiliarytypos preserved,not corrected."
+        }
+      ]
+    },
+    {
+      "batch": "b180",
+      "new_states": 4,
+      "new_conditions": 4,
+      "held": 0,
+      "scientific_guards": 66,
+      "csv_sha256": "48cd5e31c717a61e15527bb22bb374c74f5b6517315d4ee82ef5a253a60942af",
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.cej.2020.125410",
+          "title": "Interfacial growth of 2D bimetallic metal-organic frameworks on MoS2 nanosheet for reinforcements of polyacrylonitrile fiber: From efficient flame-retardant fiber to recyclable photothermal materials",
+          "potential_states": 4,
+          "potential_conditions": 4,
+          "accepted_states": 4,
+          "accepted_conditions": 4,
+          "staged_held_rows": 0,
+          "unbound_residue_metrics": 4,
+          "complete_native_PDF_pages": 12,
+          "own_primary_tables": 1,
+          "official_SI_tables": 4,
+          "disposition": "Four owninitialPANcopolymer formulations joinMainTable1LOI/SIS3T5/twoDTGpeaks;ordinaryN220Cmin. Fourcharvalueshaveunknownendpointauxonly,neverR800. NativeactualS3tablelocatorpreserveddespitebodyS2reference;S4secondarycomparisonnotcounted;mufflecarbonization/TGIRnotborrowed."
+        }
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-023-05668-w",
+      "title": "Preparation and properties of the flame-retardant viscose fibers based on the intumescent dithiocarboxyphosphate microcapsules",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 3,
+      "native_scientific_body_lines": [
+        13,
+        81
+      ],
+      "official_primary_tables": 4,
+      "disposition": "Three own air20CminviscoseTG-only profiles preserved;no independentLOI. Intro19andPVA31.8 are citations,notownVFmeasurements. R750notR800;ratepctperC;firstdecomposition/secondcharoxidation peaks distinguished;bodychar-increase mismatch unresolved. OriginalTGstart0Cpreservedinsourceconditionfield;canonicaltemperature-domainunchanged;notreplacedwith20C."
+    },
+    {
+      "DOI": "10.1007/s10692-018-9889-z",
+      "title": "Effect of Flame Retardants on Thermolysis and Combustion of Polyacrylonitrile Fiber",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 14,
+      "complete_native_PDF_pages": 3,
+      "own_primary_tables": 2,
+      "disposition": "8TGrows/4additionalrecipeOIrows/2aqueoustreatmentOIrows held. TGA gas/rampunreported;conditionedbodyfibers versusclothTable2/soakingstage unresolved. RawthermalTmaxcriterionunknown,notDTG. ExactR500/600/700/800/900retained;Table234.5notbodyrange34. No freshspunconditions borrowed."
+    },
+    {
+      "DOI": "10.1007/s10692-018-9923-1",
+      "title": "Flame-Retardant Effectiveness of Freshly Spun Polyacrylonitrile Fiber",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 16,
+      "complete_native_PDF_pages": 3,
+      "own_primary_tables": 3,
+      "disposition": "4freshTGprofiles and12form/soak/rinseOIrows held. OwncontrolOI19.0retained;freshdenominatorversusconditionednumerator12OIvalues distinct. TGgas/rampandnumericTGtestingstage missing;Ts/Tmax/Tfcriterionauxiliary;R900explicit. FreshovenprogramnotTGA;mixtureandtotal20%basis/esdefinition wordingunresolved,no corrections."
+    },
+    {
+      "DOI": "10.1016/j.cej.2019.123288",
+      "title": "Tannic acid-assisted green exfoliation and functionalization of MoS2 nanosheets: Significantly improve the mechanical and flame-retardant properties of polyacrylonitrile composite fibers",
+      "potential_states": 5,
+      "potential_conditions": 5,
+      "accepted_states": 5,
+      "accepted_conditions": 5,
+      "staged_held_rows": 0,
+      "complete_native_PDF_pages": 12,
+      "own_primary_tables": 1,
+      "official_SI_tables": 4,
+      "disposition": "Five own initial PAN formulation profiles joinmainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800;ordinaryN210Cmin distinctfromTGIR20Cmin. SI/fullbodymethod/form/char checks completed;publisherarticle-in-pressversion/unknownfinalyear retained. Fig6TGIRsamplecaption andnonTGauxiliarytypos preserved,not corrected."
+    },
+    {
+      "DOI": "10.1016/j.cej.2020.125410",
+      "title": "Interfacial growth of 2D bimetallic metal-organic frameworks on MoS2 nanosheet for reinforcements of polyacrylonitrile fiber: From efficient flame-retardant fiber to recyclable photothermal materials",
+      "potential_states": 4,
+      "potential_conditions": 4,
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "staged_held_rows": 0,
+      "unbound_residue_metrics": 4,
+      "complete_native_PDF_pages": 12,
+      "own_primary_tables": 1,
+      "official_SI_tables": 4,
+      "disposition": "Four owninitialPANcopolymer formulations joinMainTable1LOI/SIS3T5/twoDTGpeaks;ordinaryN220Cmin. Fourcharvalueshaveunknownendpointauxonly,neverR800. NativeactualS3tablelocatorpreserveddespitebodyS2reference;S4secondarycomparisonnotcounted;mufflecarbonization/TGIRnotborrowed."
+    }
+  ],
+  "verification_limit": "Combined B177-B180 native-text review adds9 initialPANfiber states and9TGconditions fromfive originals:four completePDFs30pages andone scientificHTMLbody,11primarytables andtwoDOCXsupplements8nativetables(7ownscientific,1secondarycomparison). FiveTA-MoS2/PANprofiles joinMainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800 usingordinaryN210Cmin;TGIR20Cmin andFig6captiondiscrepancy nottransferred;article-in-pressversion/unknownfinalyear explicit. FourCoZnZIF/PANprofiles joinMainTable1LOI/SIS3T5/twoDTGmaxima withordinaryN220Cmin;fourcharvalueshaveunknownendpointandstayauxiliary,neverR800. ActualSIS3TGlocatorretaineddespitebodyS2reference;SIS4otherstudiesnotcounted;muffleAIR3Cmin/600C2h notordinaryTG. ThreeviscoseTG-onlyprofiles lackindependentLOI;thirtyPANfacts haveunresolvedgas/ramp,cloth/fiber/formstateorTGphaseandallstayheld. OriginalviscoseTGstart0Cremainsexplicitsourceconditionauxiliary;canonical20-1500Ctemperature-domain unchanged. All33heldfacts excluded;185scienceguards31regressiontests155canonical comparisons;zero unresolved accepted multimetric hits;twoheldsingleR900coincidencesnotaliases. No scientificgatechanges,curveestimates,inferred endpoints or originaluploads.",
+  "canonical_profile_dedup_audit": {
+    "summary": {
+      "comparisons": 155,
+      "baseline_rows": 4748,
+      "approved_profile_hits": 0,
+      "endpoint_unknown": [],
+      "held_hit_comparisons": 0,
+      "full_canonical": 40,
+      "raw_unbound_residue_provenance": 8,
+      "rounding_profile_comparisons": 71,
+      "single_metric_coincidences": 8,
+      "unresolved_approved_multimetric_profile_hits": 0,
+      "single_metric_hit_comparisons": 2,
+      "unbound_residue_metrics": 4,
+      "scientific_limit": "No residue temperature inferred. Single-metric matches remain visible; all33held facts stayexcluded. Whole/reduced/rounding availableprofiles checked; numericcoincidence alone is not a samplealias."
+    },
+    "comparisons": [
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_DDPS_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_DDPS_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_DDPS_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_DDPS_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_MDDPS5_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_MDDPS5_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_MDDPS5_VF_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10570-023-05668-w",
+        "sample": "DDPSMC_MDDPS5_VF_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R750_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_Control_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_Control_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_Control_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_Control_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "full_canonical",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9889-z",
+        "sample": "PANCOND_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R500_pct",
+          "R600_pct",
+          "R700_pct",
+          "R800_pct",
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_Control_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_Control_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5St_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5St_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [
+          {
+            "DOI": "10.1007/s10692-018-9889-z",
+            "sample_state": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+            "washing_state": "source_treatment_stage_unresolved",
+            "pairing_status": "held_TG_gas_ramp_state_or_specimen_correspondence_unresolved",
+            "LOI_pct": "",
+            "atmosphere": "",
+            "heating_rate_C_min": "",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "",
+            "Tmax2_C": "",
+            "R500_pct": "68",
+            "R600_pct": "63",
+            "R700_pct": "57",
+            "R750_pct": "",
+            "R800_pct": "46",
+            "R900_pct": "33",
+            "residue_pct": "33",
+            "residue_temp_C": "900",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "PDFpp1-3printed318-320;Table1thermolysis/char;Table2clothOI;bodyafteraqueoustreatment"
+          }
+        ],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5Ur_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [
+          {
+            "DOI": "10.1007/s10692-018-9889-z",
+            "sample_state": "PANCOND_20PVT_2.5St_TGstate_unresolved",
+            "washing_state": "source_treatment_stage_unresolved",
+            "pairing_status": "held_TG_gas_ramp_state_or_specimen_correspondence_unresolved",
+            "LOI_pct": "",
+            "atmosphere": "",
+            "heating_rate_C_min": "",
+            "T5_C": "",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "",
+            "Tmax2_C": "",
+            "R500_pct": "68",
+            "R600_pct": "63",
+            "R700_pct": "57",
+            "R750_pct": "",
+            "R800_pct": "46",
+            "R900_pct": "33",
+            "residue_pct": "33",
+            "residue_temp_C": "900",
+            "source_unbound_residual_mass_pct": "",
+            "source_location": "PDFpp1-3printed318-320;Table1thermolysis/char;Table2clothOI;bodyafteraqueoustreatment"
+          }
+        ],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1007/s10692-018-9923-1",
+        "sample": "PANFRESH_20T2PVT_2.5Ur_2.5St_TGstate_unresolved",
+        "comparison": "single_metric_coincidence",
+        "metrics": [
+          "R900_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_PAN_initial",
+        "comparison": "rounding_risk_Tmax_exact_T5_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_0p5_initial",
+        "comparison": "rounding_risk_Tmax_exact_T5_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_1_initial",
+        "comparison": "rounding_risk_Tmax_exact_T5_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_MoS2_2_initial",
+        "comparison": "rounding_risk_Tmax_exact_T5_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2019.123288",
+        "sample": "TAMoS2_TA_MoS2_2_initial",
+        "comparison": "rounding_risk_Tmax_exact_T5_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_PAN_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "full_canonical",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "A single metric coincidence does not prove sample equivalence; full/reduced/available raw provenance profiles and source state are checked separately."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "reduced_drop_T5_T10",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_reduced_profile",
+        "metrics": [
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": true,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "raw_peak_and_unbound_residue_provenance",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "review_limit": "Unknown residue endpoint retained; no temperature assigned and no quantitative char comparison. Whole coincident reported numbers require original provenance review."
+      },
+      {
+        "DOI": "10.1016/j.cej.2020.125410",
+        "sample": "CoZnZIF_CoZnZIF_MoS2_2_initial",
+        "comparison": "rounding_raw_unbound_profile",
+        "include_LOI": false,
+        "gas_rate_agnostic": true,
+        "hits": [],
+        "temperature_tolerance_C": 0.1,
+        "raw_residue_tolerance_pct": 0.05,
+        "review_limit": "Provenance warning only; unknown residue endpoint not assigned."
+      }
+    ]
+  },
+  "official_missing_key_evidence_reviews": [
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05668-w/tables/1",
+      "original_sha256": "2a46e110b613f7f21821f9dca939fe24c514cc533c5baa8c98829d28cb013b88",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05668-w/tables/2",
+      "original_sha256": "d11b9727f519ce25bb68bb108e72f8e2fe13d90f3f69079cd0e85cbd8ed094f4",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05668-w/tables/3",
+      "original_sha256": "6517f55f1e1d04af6c39be860e34b1108b3bfee109d6b5b10d6127cf896e2c21",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-023-05668-w/tables/4",
+      "original_sha256": "8d56284d66badaee75e1e465f854a22ab448e5a3bb121c5eb9e7bdc513265d5a",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1385894719327007-mmc1.docx",
+      "original_sha256": "6a32bf9795b131ad003722f843897b86da8ef6eac79b85562ac9de3bd0daa3b8",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1385894720314029-mmc1.docx",
+      "original_sha256": "4801f7fe176d5f3fdcf18953a3e7937c9a30f928d9139fa230cae7cfcf7aae40",
+      "review_method": "Original native table/supplement text;no images"
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1652,
+    "new_states": 9,
+    "new_conditions": 9,
+    "evidence_upgrades": 0,
+    "verified_states": 1301,
+    "verified_conditions": 1661,
+    "verified_dois": 374,
+    "verified_sources": 376,
+    "offline_tests_passed": 1981,
+    "snapshot_sha256": "498be37575b3c799bf14b627d5505498c5551f3060331681e40d0fa9aae74c20",
+    "master_sha256": "91a60a82e86865f4fa2df7c445f6a3093c9076880c42055ba5f33c668533ff78",
+    "validation_errors": [],
+    "held_fact_rows": 33,
+    "complete_original_text_pages": 30,
+    "complete_primary_HTML_bodies": 0,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_originals": 4,
+    "library_originals_hash_verified": 5,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 8,
+    "own_scientific_SI_tables": 7,
+    "secondary_comparison_SI_tables": 1,
+    "complete_official_primary_tables": 11,
+    "official_corrections_reviewed": 0,
+    "unchanged_private_evidence_files": 17,
+    "new_source_inventory_states": 9,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
