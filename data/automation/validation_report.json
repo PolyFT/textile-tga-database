@@ -1564,6 +1564,13 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261004_b162_local_textile.csv",
+      "accepted_rows": 21,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -1844,31 +1851,31 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 4297,
-  "legacy_field_complete_condition_records": 1853,
-  "numeric_pair_candidate_rows": 2096,
+  "all_loaded_rows": 4318,
+  "legacy_field_complete_condition_records": 1861,
+  "numeric_pair_candidate_rows": 2112,
   "eligible_pending_condition_records": 320,
-  "quarantined_condition_records": 12,
+  "quarantined_condition_records": 16,
   "quarantine_reason_counts": {
     "conflicting_measurements": 3,
-    "possible_sample_alias": 4,
+    "possible_sample_alias": 8,
     "specimen_form_mismatch": 7
   },
-  "strict_tg_loi_pairs": 1579,
-  "verified_exact_condition_records": 1579,
-  "verified_exact_sample_states": 1232,
-  "verified_exact_dois": 352,
-  "verified_exact_sources": 354,
+  "strict_tg_loi_pairs": 1583,
+  "verified_exact_condition_records": 1583,
+  "verified_exact_sample_states": 1234,
+  "verified_exact_dois": 353,
+  "verified_exact_sources": 355,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1571,
+  "verified_doi_condition_records": 1575,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1224,
+  "verified_doi_sample_states": 1226,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 209,
-      "sample_states": 657,
-      "condition_records": 904
+      "sources": 210,
+      "sample_states": 659,
+      "condition_records": 908
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1902,24 +1909,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 396,
-  "candidate_sample_states": 1589,
-  "rows_with_numeric_loi": 3320,
-  "rows_with_any_tg_numeric": 2562,
+  "candidate_dois": 399,
+  "candidate_sample_states": 1599,
+  "rows_with_numeric_loi": 3341,
+  "rows_with_any_tg_numeric": 2578,
   "rows_missing_atmosphere_among_pair_candidates": 47,
-  "rows_missing_heating_rate_among_pair_candidates": 127,
+  "rows_missing_heating_rate_among_pair_candidates": 135,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 768,
+  "remaining_to_target": 766,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 1040,
+    "Tmax1_C": 1044,
     "T5_C": 603,
-    "Tonset_C": 223,
+    "Tonset_C": 227,
     "R600_pct": 358,
-    "R700_pct": 317,
+    "R700_pct": 321,
     "R800_pct": 321
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "385151b8ac21e75908d0691731f4810342d0d9d17f66a0b035073b0641df7df0"
+  "snapshot_sha256": "9ee6307453a787f04b14203766f0ac15beb2900c7879970168811e2010be27ca"
 }
