@@ -1844,6 +1844,20 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261004_b205_local_textile.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261004_b208_local_textile.csv",
+      "accepted_rows": 14,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -2124,9 +2138,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 4932,
-  "legacy_field_complete_condition_records": 2013,
-  "numeric_pair_candidate_rows": 2309,
+  "all_loaded_rows": 4950,
+  "legacy_field_complete_condition_records": 2025,
+  "numeric_pair_candidate_rows": 2321,
   "eligible_pending_condition_records": 368,
   "quarantined_condition_records": 34,
   "quarantine_reason_counts": {
@@ -2134,21 +2148,21 @@
     "possible_sample_alias": 15,
     "specimen_form_mismatch": 18
   },
-  "strict_tg_loi_pairs": 1690,
-  "verified_exact_condition_records": 1690,
-  "verified_exact_sample_states": 1324,
-  "verified_exact_dois": 383,
-  "verified_exact_sources": 385,
+  "strict_tg_loi_pairs": 1702,
+  "verified_exact_condition_records": 1702,
+  "verified_exact_sample_states": 1332,
+  "verified_exact_dois": 385,
+  "verified_exact_sources": 387,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1682,
+  "verified_doi_condition_records": 1694,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1316,
+  "verified_doi_sample_states": 1324,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 240,
-      "sample_states": 749,
-      "condition_records": 1015
+      "sources": 242,
+      "sample_states": 757,
+      "condition_records": 1027
     },
     "conference_proceedings": {
       "sources": 5,
@@ -2182,24 +2196,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 451,
-  "candidate_sample_states": 1750,
-  "rows_with_numeric_loi": 3863,
-  "rows_with_any_tg_numeric": 2840,
+  "candidate_dois": 453,
+  "candidate_sample_states": 1758,
+  "rows_with_numeric_loi": 3878,
+  "rows_with_any_tg_numeric": 2852,
   "rows_missing_atmosphere_among_pair_candidates": 54,
   "rows_missing_heating_rate_among_pair_candidates": 163,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 676,
+  "remaining_to_target": 668,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 1148,
-    "T5_C": 654,
+    "Tmax1_C": 1160,
+    "T5_C": 658,
     "Tonset_C": 236,
     "R600_pct": 371,
-    "R700_pct": 364,
-    "R800_pct": 361
+    "R700_pct": 368,
+    "R800_pct": 369
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "7b58269376e0bedbd13f760446ec632cacff767065792ffd2be158b4afb59a77"
+  "snapshot_sha256": "201f2f83d397374c9e26d77cdf0a88d4c5dd7ea60e85d4e3abea578e15b600dd"
 }

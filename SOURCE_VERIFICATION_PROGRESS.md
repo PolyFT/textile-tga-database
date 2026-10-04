@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1324 unique reviewed source/sample/washing states**, **1690 TG condition records**, and **385 original sources (383 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1332 unique reviewed source/sample/washing states**, **1702 TG condition records**, and **387 original sources (385 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1324 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1123 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1131 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2221,3 +2221,20 @@ Original fulltexts/supplements and local paths remain local.
 ### b201_b203 publication proof
 
 [PR #137](https://github.com/PolyFT/textile-tga-database/pull/137) merged as `cf7b935b37cb264d93430d645b86394f5a441c43` after exact-head [validation run 37212499788](https://github.com/PolyFT/textile-tga-database/actions/runs/37212499788) passed on `bdfcf65e83a088f7678ecad2ca2c3790c3af61d3`. All 2053 offline tests, compilation, scientific validation and all three merge checks passed. Independent verification confirms 1324 states, 1690 TG records, 383 DOIs and 385 sources. All 1684 prior records and fields, fourteen public blobs, eight concurrent bot files, three read-only library originals, one official DOCX supplement original and six private native evidence files are preserved. Two native-text PDFs total38pages, one complete scientific HTML body and seven primary tables were reviewed. All four linked SI native tables and two captions were reviewed without images; the B201 accepted manuscript is not asserted equivalent to the definitive edition. One single-DTG370 coincidence was individually adjudicated; there are zero full paired-profile and unresolved hits. The complete 10671830-byte master has SHA256 `cb95a3405014e554a3ef19e9b4ffc64b19c672ab93d7aa38efd60ec8d8ecbdf0` and the whole remote report matches a fresh rebuild. Snapshot: `7b58269376e0bedbd13f760446ec632cacff767065792ffd2be158b4afb59a77`. Six new pairs and six TG records are published, with zero upgrades and12heldfacts excluded. Lease release follows this verified publication record.
+
+
+## b205_b208 combined native-text textile publication
+
+Two complete primary sources were reviewed as native text: an eight-page published PLA-fiber PDF and one complete PA/ODA/TiO2 cotton scientific HTML body, including five primary tables. One publisher-linked DOCX supplement has three native tables: two own scientific tables and one mixed own/literature comparison table. Its full native body, five figure captions and references were read without images. Eight new independent textile sample-state pairs and twelve ordinary TG records are approved. Four melt-spun and hot-drawn PLA formulations contain final OP0/6/8/10wtpercent, with own Table2 T5_324.5/317.1/310.2/312.4, DTG362.1/364.7/364.5/371.3, measured R7000.59/0.67/1.06/1.21 and own prose LOI20.5/27.2/28.4/29.6; ordinary TG is air10Cminroomtemperature-700C5-10mg. The30percentOP masterbatch, neat additive, PyGCHe450C and rheometer die are not final fiber composition or ordinary TG conditions. Unknown numerical room temperature, gas flow, LOI geometry and repeats remain blank for that source. Four initial cotton fabric states CO/P-CO/PO-CO/POT-CO-5 join own SI S3 LOI18/45/45.5/48.5 with MainTable1 T10/DTG/explicitR800 in both air and N2 at10Cmin30-800C/chopped5-6mg. Two gases count once per independent cotton state. SI Section4 explicitly reports LOI GB/T5454-1997, JF5,150x58mm and five repeats; unrelated MCC, VFT or tensile conditions are not transferred. Source aircontrolR80010.3 versus N2control0.9 is corroborated by the body and table and retained without invented correction. COcontrol preconditioning assignment remains unqualified. PA bath molarity, TiO2/ODA spray concentrations and source GR8.5percent have separate bases. T5/T10 definitions and measured residue endpoints remain distinct; no guessed Tonset, flow, loading or moisture-decomposition substitution. Six facts remain held: ODA/ODATiO2/PT own LOI without own TG, POT1/3 doses lacking own numerical TG/LOI, and POT5after20domestic-equivalentwashes with only LOI>36.2 and no own washed TG. The SI washing method explicitly uses equivalent domestic-cycle labels, not a new unqualified wash conversion. No initial TG is cloned across dose, washing or UV states; foreign comparison rows are not pairs. All187 independent science guards, thirteen source regression tests and100 whole-canonical comparisons pass with zero accepted or held profile hits; all incoming and118 private stage tables are compared. Evidence upgrades and legacy completions are zero. Only facts, concise provenance, necessary tests and validation outputs may be public; original fulltexts, supplements, images and private paths stay local. Evidence upgrades and legacy completions are zero.
+
+### b205
+
+4 new states;4 TG conditions;0 held facts.
+- **10.1007/s12221-017-6877-5**: 4 accepted states;4 accepted conditions. Four own melt-spun hot-drawn PLAfiber pairs approved privately; complete8nativepages/4tables/9captions;63independentguards/6regressiontests/36canonical comparisons against4932incoming plus116private stage CSVs zero hits;readonly1324/1690to1328/1694. Pending prior PR137 full closure and fresh singlewriter publication gates. No re-extraction/reimport.
+
+### b208
+
+4 new states;8 TG conditions;6 held facts.
+- **10.1007/s10570-023-05146-3**: 4 accepted states;8 accepted conditions. FourpotentialownCO/P-CO/PO-CO/POTCO5initialcottonstateswithSIS3LOI18/45/45.5/48.5andMainTable1air/N2T10DTGmeasuredR800eightTG. Allcompleteprimarybody/1table/12captions/1SchemeandofficialDOCXallnativebody/3tables/5captions/referencesread;imagesunused. SISection4ownLOIGBT5454-1997JF5_150x58mm/n5. OrdinaryTGair/N210Cmin30-800/chopped5-6mg;unknownflowpanrepeatsblank. SourceaircontrolR80010.3vsN2.9nativeanomalyretained. Sixholds:ODA/ODATi/PTLOIwithoutownTG;POT1/3nodoseTG/LOI;POT5after20domesticwashesLOI>36.2bound/nownwashedTG. SIwashprocedureexplicitoneISOcycle=fivedomesticwashes;labelsdomesticasreported. Controlpretreatmentassignmentunqualifiednotinvented;SIforeigncomparisonrowsnotpairs. Independent124guards/7regressiontests and combined100canonical zero hits/read-onlyprojection passed; approved privately.
+
+Original fulltexts/supplements and local paths remain local.
