@@ -3217,9 +3217,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-03T21:19:56.906960+00:00",
-      "next_retry_utc": "2026-10-04T03:19:56.906960+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-04T03:21:00.096715+00:00",
+      "next_retry_utc": "2026-10-04T15:21:00.096715+00:00"
     },
     "10.1002/app.1497": {
       "fingerprint": "2623daf130efc71d5716",
@@ -3227,11 +3227,11 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-03T21:19:56.906960+00:00",
-      "next_retry_utc": "2026-10-04T03:19:56.906960+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-04T03:21:00.096715+00:00",
+      "next_retry_utc": "2026-10-04T15:21:00.096715+00:00"
     }
   },
-  "last_run_utc": "2026-10-03T21:19:56.906960+00:00",
+  "last_run_utc": "2026-10-04T03:21:00.096715+00:00",
   "last_examined_candidates": 2
 }
