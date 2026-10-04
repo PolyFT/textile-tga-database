@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1215 unique reviewed source/sample/washing states**, **1559 TG condition records**, and **346 original sources (344 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1217 unique reviewed source/sample/washing states**, **1561 TG condition records**, and **348 original sources (346 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1215 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1014 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1016 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1773,3 +1773,17 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b156 publication proof
 
 [PR #120](https://github.com/PolyFT/textile-tga-database/pull/120) merged as `48a49f79cf547fa3df9487d5b645287d953be6f2` after exact-head [validation run 37165554054](https://github.com/PolyFT/textile-tga-database/actions/runs/37165554054) passed on `29c648602534e48c03c7a68e670c0f4c3a8faec9`. All1465 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1215 states,1559 conditions,344 DOI sources and346 total sources. All1550 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, ten official native-table/supplement original hashes and thirteen private text evidence hashes are preserved. The complete9172143-byte master has SHA256 `3908a3d7dad092cfe77aed9f42c6a52ff9d41a151a831e052df5e14d902171bf`; the full remote report matches a fresh rebuild. Snapshot:`0efc8350c9ce6df65a51b5e15dd8ce596ca8aa5ff215c63cd631c7e5521be146`. Five new pairs and nine TG conditions are published; evidence upgrades and legacy completions are zero;25 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b157 Methionine and LFPN initial cotton fabrics
+
+Two initial cotton sample states and two TG conditions are supported by native primary tables and explicit sample/dose joins. Six primary scientific HTML bodies,18 native primary tables and five official supplements containing23 native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. Methionine29percent initial fabric has LOI43.9 and air residue25.73percent explicitly at567C, not at programend750C; native uncertainty2percent type unknown. LFPN initial two-immersion-cycle fabric has N2 T5=249.4C/Tmax269.3C/R700=47.3percent and LOI46.7. Fifty-four of56 facts remain excluded: eight methionine control/otherdose/wash/unknown N2 residue-endpoint facts;four CSAPP facts missing standalone TG conditions; six TSTDP dose-unbound or LOI-only facts; six conductive TG facts whose cited LOI TableS3 is absent from official native SI;three LFPN control/air facts;27 bio-derived layer/weightloss/washed facts. Thirty-three scientific guards pass. Ninety-two gas/rate-agnostic canonical comparisons normalize residue aliases and explicit temperatures, including arbitrary567C; approved profiles have no hits. Four held-hit comparisons retain CSAPP/LFPN control nearcoincidence as unresolved provenance, not proven reuse or independence. Native160g/cm2 areal-density units, methionine20/40C start conflict, CSAPP369.3/369.5 Tmax conflict, conductive34.8/38.4 residue conflict, and bio-derived LOI raw/report/body conflicts remain explicit. No weightloss-to-residue conversions, DTA/DSC-to-DTG conversions, guessed conditions, images or curve estimates. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-021-04255-1**: One initial29masspercent cottonfabric air pair:LOI43.9/residue25.73percent at explicit567C, notprogramend750. Stage intervals are notT5/T10/Tonset/Tmax. Eight facts held: owncontrolLOI missing, N2 residue endpoints unknown, other-dose and washedLOI without corresponding TG. All6primarytables/oneSIcrystallinitytable reviewed;native20/40Cstartconflict retained.
+- **10.1007/s10570-022-04923-w**: Four TG/LOI facts held: standaloneTGmethod/ramp missing;TGIR20Cmin50-700 cannot substitute. Own N2 controlTmax369.3table versus369.5body retained. Native160g/cm2densityunit unresolved. Air controlT5/R700 matches LFPN held control with.1CTmaxdifference; independence unresolved. All5primarytables andofficialSItext reviewed.
+- **10.1007/s10570-022-04991-y**: Six facts held: genericTGdose unbound toownLOI, initial100gLLOI26.7only, above300gLLOI higherthan29.9 is inequality. NativeTonsetnotT5;computedCALcurvesnotexperimentalTG. Cone300gLdoesnotbindstandaloneTG. All3primarytables reviewed; noSIlinkfoundinlocalHTML.
+- **10.1007/s10570-021-04293-9**: Six ownfabricTGfacts held withoutownnumericLOI. OfficialSI nativeXMLcontainsS1/S2TGtables butcitedLOITableS3absent. TG30-700notTGIR30-900;DTGrateswt%permin. NativeSI P-HNT6R70034.8 versusprimary38.4 retained. Assembly2/4/8cycleTGunreported;allSItext/two tables reviewed.
+- **10.1007/s10570-022-04436-6**: One initial two-immersion-cycle cottonLFPN pair:LOI46.7,N220Kmin,T5=249.4/Tmax269.3/R70047.3;DT50~10mgAl2O3pan35-750. Native160g/cm2unit and9.43wtloadingbasis unresolved. Threefacts held:bothcontrolsprovenance unresolved/airrampmissing. All4primarytables andofficialSItext reviewed;washingVFTdoesnotgivewashedTG/LOI.
+- **10.1007/s10570-022-04478-w**: Twenty-seven facts held: sixgenericLOI/twelvelayerLOI/fiveownfabricTGweightloss-only/fourwashedmassloss groups. InertTGgasidentityunknown;coatingcount unbound. Authorapproxweightloss notcomputedresidue;DTA/DSCnotDTG. S3reportedmeans/rawreplicas/mainconflicts andS4layerdifferences retained. AllSItext/20tables reviewed;bulkFR TGnotfabricTG.
+
+Originals/fulltexts/native tables and local paths remain local.
