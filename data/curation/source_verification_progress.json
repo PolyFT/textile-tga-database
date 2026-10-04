@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-04T15:40:16.738528+00:00",
-  "latest_batch_id": "20261004_b201_b203",
-  "verified_condition_records": 1690,
-  "verified_unique_sample_states": 1324,
-  "verified_dois": 383,
-  "numeric_pair_candidate_rows": 2309,
+  "as_of_utc": "2026-10-04T16:07:20.261788+00:00",
+  "latest_batch_id": "20261004_b205_b208",
+  "verified_condition_records": 1702,
+  "verified_unique_sample_states": 1332,
+  "verified_dois": 385,
+  "numeric_pair_candidate_rows": 2321,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1123,
+  "cumulative_newly_completed_or_new_source_sample_states": 1131,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b201_b203_merged_remote_verified_lease_released",
+  "publication_stage": "b205_b208_combined_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261004_b201_b203",
   "writer_lease": {
     "owner": "codex-local-textile-b205_b208-20261004",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "Two complete primary sources were reviewed as native text: an eight-page published PLA-fiber PDF and one complete PA/ODA/TiO2 cotton scientific HTML body, including five primary tables. One publisher-linked DOCX supplement has three native tables: two own scientific tables and one mixed own/literature comparison table. Its full native body, five figure captions and references were read without images. Eight new independent textile sample-state pairs and twelve ordinary TG records are approved. Four melt-spun and hot-drawn PLA formulations contain final OP0/6/8/10wtpercent, with own Table2 T5_324.5/317.1/310.2/312.4, DTG362.1/364.7/364.5/371.3, measured R7000.59/0.67/1.06/1.21 and own prose LOI20.5/27.2/28.4/29.6; ordinary TG is air10Cminroomtemperature-700C5-10mg. The30percentOP masterbatch, neat additive, PyGCHe450C and rheometer die are not final fiber composition or ordinary TG conditions. Unknown numerical room temperature, gas flow, LOI geometry and repeats remain blank for that source. Four initial cotton fabric states CO/P-CO/PO-CO/POT-CO-5 join own SI S3 LOI18/45/45.5/48.5 with MainTable1 T10/DTG/explicitR800 in both air and N2 at10Cmin30-800C/chopped5-6mg. Two gases count once per independent cotton state. SI Section4 explicitly reports LOI GB/T5454-1997, JF5,150x58mm and five repeats; unrelated MCC, VFT or tensile conditions are not transferred. Source aircontrolR80010.3 versus N2control0.9 is corroborated by the body and table and retained without invented correction. COcontrol preconditioning assignment remains unqualified. PA bath molarity, TiO2/ODA spray concentrations and source GR8.5percent have separate bases. T5/T10 definitions and measured residue endpoints remain distinct; no guessed Tonset, flow, loading or moisture-decomposition substitution. Six facts remain held: ODA/ODATiO2/PT own LOI without own TG, POT1/3 doses lacking own numerical TG/LOI, and POT5after20domestic-equivalentwashes with only LOI>36.2 and no own washed TG. The SI washing method explicitly uses equivalent domestic-cycle labels, not a new unqualified wash conversion. No initial TG is cloned across dose, washing or UV states; foreign comparison rows are not pairs. All187 independent science guards, thirteen source regression tests and100 whole-canonical comparisons pass with zero accepted or held profile hits; all incoming and118 private stage tables are compared. Evidence upgrades and legacy completions are zero. Only facts, concise provenance, necessary tests and validation outputs may be public; original fulltexts, supplements, images and private paths stay local. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Two complete primary PDFs total38nativepages and one complete scientific HTML body were reviewed, with seven primary tables; one linked official DOCX supplement has four native tables and two figure captions. No images or curve estimates were used. The 27-page B201 publisher accepted manuscript is unedited and no definitive-edition equivalence is claimed. Six new independent textile states and six TG records are approved. B201 cotton control, SiO2/PEI/PPA and post-REPELLAN FF cotton have own LOI18.2/29.6/28.2, source-defined T5_315/276/258, DTG372/347/307 and explicit R6008/44/41 in N2 at10Cmin. The single comparison paragraph explicitly defines degradation onset as5percent mass loss; it is T5, not tangent Tonset. Bilayer count, final Repellan cure conditions and add-on denominator remain unreported. B203 cotton fiber roving control, lignin coating and unique lignin1percent/CNT1percent/K2CO3_1percent bath have own LOI17.1/26.8/38.5 and DTG370/370/269; control and ternary R600 are7.5/28.8 in N2 at10Cmin. The lignin peak370 is the source explicit unchanged-peak reference, not a curve estimate. The supplement reports different coating weight gains for MFT, LOI and MLC; LOI-specific gains are auxiliary and never assigned as TG loading. Twelve facts remain held. B202 eight own cotton-fabric LOI formulations have only neat-microsphere TG; no specimen-form join is allowed, and uncombined Na-microsphere LOI22.2Table2 versus22.1prose remains raw. B203 four dose facts remain held because generic CNT TG dose is unresolved, K-only TG is curve-only, or CNT1 LOI31.7Table3/body conflicts32.0Discussion. Fire-tube exhaust Tmax is not DTG, and neat lignin/CNT measurements are not roving TG. All99 independent science guards and14 source regression tests pass. The37 whole-canonical comparisons include one adjudicated single-DTG370 coincidence with six other records; none matches the own LOI26.8 and complete paired profiles have zero hits, with zero unresolved hits. This coincidence does not equate independently documented recipes and sample states. Source-version limits, condition gaps and sample states are preserved. Evidence upgrades and legacy completions are zero. Only factual data, concise provenance, necessary tests and validation outputs are public; fulltexts, supplements and private paths stay local. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Three complete primary PDFs were reviewed as native text: a 37-page AHTTPA publisher preproof, an eight-page PA/silica-sol paper and a ten-page TiO2/HGM paper, including eleven primary tables. Eleven AHTTPA figure attachment pages contain native labels; their images were not read. Crossref metadata verifies the preproof bibliography only and does not verify the definitive edition. No linked SI completeness is claimed. Three new initial cotton sample-state pairs and five TG records are approved: AHTTPA control LOI18.0 and 40percent treated LOI39.6 with own Table3 N2/air R70016.88/37.03/1.97/9.76 at20Cmin; TiO2/HGM-source untreated cotton LOI17 with own Table1 DTG339.14 in air at10Cmin. Two gases count once per independent AHTTPA state. Undefined AHTTPA Ti remains auxiliary; N2 control Tmax397table versus98body is excluded while unambiguous R700 remains eligible. HGM control onset307.4table versus283body is excluded; unbound residues0.77/7.322/11.03/25 have no reported temperature and are never assigned700 from the program end. The HGM LOI specimen dimensions2cmx150cm are preserved as reported. Fifteen facts remain held: two initial and three washed AHTTPA dose facts without own TG or numerical curve LOI; six PA/silica-sol facts missing ordinary TG ramp or own sample mapping; four HGM dose facts because three LOI numbers19/20/21 are listed for four doses2/5/10/20. PA/silica-sol water peak50.6 is not a decomposition peak, and calculated Cotton3b residue6.2 is not measured Cotton3a residue13.8. Linked PA/silica-sol SI is unavailable at the public publisher entry with403; the blocked page is not scientific evidence. HGM MovieS1 describes infrared heat release, not TG/LOI measurements. All135 independent science guards,16 source regression tests and50 whole-batch canonical comparisons pass with zero accepted or held profile hits; raw excluded peaks/onsets are also audited. Evidence upgrades and legacy completions are zero. No standards are relaxed; no images, curve estimates, guessed conditions, originals or private paths are published. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Four primary HTML scientific bodies and one complete 15-page primary PDF were reviewed as native text, including 24 primary tables: 17 publisher-linked HTML tables and seven PDF tables. Three linked DOCX supplements contain 11 native tables: nine own scientific tables, one mixed own/comparison table and one index table. Four new initial cotton sample-state pairs and eight TG conditions are approved: one neat cotton control from the photoATRP source with own LOI19 and Table6 air/N2 T10, DTG maxima, R600 and R800; three PA/TA/VTS cotton states Cotton/FR-1/FR-2 with own Table4 LOI19/23/29, Table3 N2 T5/DTG/R800 and SI S1 air T10/two DTG maxima/R800. N2 and air conditions count once per independent sample. Ordinary TG methods remain distinct from TGIR, MCC, cone and flame-test conditions. Unknown ordinary flow, mass, replication and air scan range remain blank. Peak-bound residue is separated from endpoint residue; maximum loss rates reported in percent per degree remain raw without conversion. The photoATRP air control Table6 reports R8004.8 versus R6004.4; this native anomaly is explicitly retained without an invented correction. PA/TA/VTS FR-2 weight gain is9.5wt% in preparation versus9.3wt% in the conclusion; both native values are preserved and the unified loading field is blank, while own TG and LOI use the same FR-2 label. Thirty-four facts remain held: two cotton/steel curtain records lacking ordinary TG atmosphere/ramp; four coating-fabric LOI records without own fabric TG, where bulk weight loss and DSC cannot be substituted; 21 final APGDPE version facts under the existing B86 version/reuse hold, including FRC3 already counted once from the preprint with two gases and an approximately18% control LOI, plus other doses/washes lacking TG and a30.3-versus30.0 washed LOI conflict; six photoATRP TG profiles without their own LOI and Cg41 LOI30 without its own TG. No TG is copied across graft percentages, washed states, forms or versions. All411 independent scientific guards,14 source regression tests and132 whole-batch canonical comparisons pass with zero accepted profile hits; eight held profile-hit comparisons remain excluded. Evidence upgrades and legacy completions are zero. No gate changes, image readings, curve estimates, guessed values or original uploads. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
@@ -781,7 +782,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 676,
+  "remaining_to_2000": 668,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -829,9 +830,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 385,
+  "verified_sources": 387,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1316,
+  "verified_doi_sample_states": 1324,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -865,7 +866,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 676,
+  "remaining_to_target": 668,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -981,9 +982,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 240,
-      "sample_states": 749,
-      "condition_records": 1015
+      "sources": 242,
+      "sample_states": 757,
+      "condition_records": 1027
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1075,7 +1076,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1682,
+  "verified_doi_condition_records": 1694,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -4651,5 +4652,57 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/137",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b205_b208": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 12,
+    "new_source_inventory_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 1,
+    "complete_primary_HTML_bodies": 1,
+    "HTML_link_discovery_only": 0,
+    "complete_text_primary_PDF_pages": 8,
+    "primary_tables_text_reviewed": 5,
+    "official_primary_tables_text_reviewed": 1,
+    "complete_official_SIs_text_tables_reviewed": 3,
+    "own_scientific_SI_tables_reviewed": 2,
+    "mixed_own_and_comparison_SI_tables_reviewed": 1,
+    "SI_index_tables_reviewed": 0,
+    "secondary_comparison_SI_tables_reviewed": 0,
+    "complete_official_SIs": 1,
+    "bibliographic_metadata_originals_reviewed": 0,
+    "total_fact_rows": 18,
+    "held_fact_rows": 6,
+    "unbound_auxiliary_residue_metrics": 0,
+    "source_scientific_guards": 187,
+    "source_regression_tests": 13,
+    "canonical_comparisons": 100,
+    "canonical_full_paired_profile_hits": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "publication_groups": 2,
+    "within_source_baseline_presentations_collapsed": 0,
+    "source_groups": [
+      {
+        "batch": "b205",
+        "new_states": 4,
+        "new_conditions": 4,
+        "held": 0,
+        "scientific_guards": 63,
+        "csv_sha256": "4a833ee902eb57585c9600046202b0486adea6caf38587df52d358d9333004be"
+      },
+      {
+        "batch": "b208",
+        "new_states": 4,
+        "new_conditions": 8,
+        "held": 6,
+        "scientific_guards": 124,
+        "csv_sha256": "362a4e817e7c9c23749d639ff7eca00f6ba529b40d6ec30b0234f214826d9656"
+      }
+    ],
+    "tests_passed": 2066,
+    "snapshot_sha256": "201f2f83d397374c9e26d77cdf0a88d4c5dd7ea60e85d4e3abea578e15b600dd"
   }
 }
