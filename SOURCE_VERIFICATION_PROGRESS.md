@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1365 unique reviewed source/sample/washing states**, **1745 TG condition records**, and **398 original sources (396 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1371 unique reviewed source/sample/washing states**, **1757 TG condition records**, and **399 original sources (397 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1365 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1164 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1170 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2373,3 +2373,15 @@ Original fulltexts/supplements and local paths remain local.
 ### b240_b243 publication proof
 
 [PR #143](https://github.com/PolyFT/textile-tga-database/pull/143) merged as `11207ef443d669d719ad7b1baf99446bf341aa63` after exact-head [validation run 37235693930](https://github.com/PolyFT/textile-tga-database/actions/runs/37235693930). All2116 offline tests, compilation, scientific rebuild and committed snapshot checks passed. Independent remote master/report/blob checks confirm1365 reviewed states,1745 TG records,396 DOI/398sources,errors=[] and preservation of all1740 previous condition records and concurrent automation files. This batch adds5new pairs/5TG,0evidence upgrades and11held facts. All22PDFpages4tables22captions1scheme were read as native text;99separate source guards and6regression tests passed. The65 canonical comparisons retain2 source-adjudicated scalar coincidences and0paired-profile/duplicate/unresolved hits. One targeted official ASTM catalog check preserves the PAN source's wrong LOI standard citation; actual standard remains unknown. Snapshot SHA-256:`0d9bb821c3e2f5179d1506376966d9fd771b470592f5c989bce5b763d9dd9fa9`;master SHA-256:`bb17008d17bb9be1a9d8733a09716f28de418cf64fa3e665fcb7fc869a9eb5cb`. The owned single-writer lease is released only after successful checks and complete remote verification. No fulltexts,images or private paths are published.
+
+
+## b252 combined native-text textile publication
+
+Sixinitialglassmat/polyester wholecomposite states: ownTable3LOI21.7/22.2/22.1/21.6/21.5/21.0,Table2T10/R600 underbothN2andair10Cmin25-800C. Twelveconditions countassixsamples. T60auxiliary;measuredR600notR800/notpurecarbon;unreportedTGmass/flow/panblank. Glassmatreported300g/cm2 unitanomalyretained. Filler3wtpercentdenominatornotrenormalized;fiberabout20wtpercent/threeplies. Neatpolyestercomparator1excluded. All10pages4tables11capsnativefullread;110sourceguards3tests96canonicalchecks,16retainedsource-adjudicatedcoincidences0pairedhits0unresolved,strictreadonly6state12TGprojectionpassed. Comparatorcontextcheckusesexistingreviewedsourcefacts,notnewfullcomparatorreviews. These are separate passes by the same primary agent,not an independent human review. Unknown assay conditions remain blank;no curve estimates or guessed values. Original fulltexts,images and privatepaths remain local. Evidence upgrades and legacy completions are zero.
+
+### b252
+
+6 new states;12 TG conditions;1 held facts.
+- **10.1002/pc.23872**: 6 accepted states;12 accepted conditions. Sixinitialglassmat/polyester wholecomposite states: ownTable3LOI21.7/22.2/22.1/21.6/21.5/21.0,Table2T10/R600 underbothN2andair10Cmin25-800C. Twelveconditions countassixsamples. T60auxiliary;measuredR600notR800/notpurecarbon;unreportedTGmass/flow/panblank. Glassmatreported300g/cm2 unitanomalyretained. Filler3wtpercentdenominatornotrenormalized;fiberabout20wtpercent/threeplies. Neatpolyestercomparator1excluded. All10pages4tables11capsnativefullread;110sourceguards3tests96canonicalchecks,16retainedsource-adjudicatedcoincidences0pairedhits0unresolved,strictreadonly6state12TGprojectionpassed. Comparatorcontextcheckusesexistingreviewedsourcefacts,notnewfullcomparatorreviews.
+
+Original fulltexts/supplements and local paths remain local.
