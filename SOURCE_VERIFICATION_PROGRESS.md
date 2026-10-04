@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1234 unique reviewed source/sample/washing states**, **1583 TG condition records**, and **355 original sources (353 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1256 unique reviewed source/sample/washing states**, **1612 TG condition records**, and **365 original sources (363 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1234 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1033 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1055 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1872,3 +1872,52 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b162 publication proof
 
 [PR #126](https://github.com/PolyFT/textile-tga-database/pull/126) merged as `7d9679a4c3cbb60b34412e436c5a94a56d2b77fb` after exact-head [validation run 37179941468](https://github.com/PolyFT/textile-tga-database/actions/runs/37179941468) passed on `3dd89136c00921cca557b221d2166b9624b2aa92`. All1612 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1234 states,1583 conditions,353 DOI sources and355 total sources. All1579 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, fifteen official native-table original hashes and eighteen private text evidence hashes are preserved. The complete9458606-byte master has SHA256 `3ebc5457264ef3c4cf1abb2653192bfc4537c4d18c526661b9307c932a987046`; the full remote report matches a fresh rebuild. Snapshot:`9ee6307453a787f04b14203766f0ac15beb2900c7879970168811e2010be27ca`. Two new pairs and four TG conditions are published; evidence upgrades and legacy completions are zero;17 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b163_b168 combined native-text textile publication
+
+One publication combines six previously reviewed groups B163-B168:22 new independent source/sample/treatment/washing states and29 TG conditions from18 scientific HTML bodies,62 primary native tables and10 linked supplements with16 native tables. All facts and scientific dispositions are unchanged. 161of190facts remain held:missing own numeric TG or independent LOI,ordinary-ramp/oxygen-air/residue-temperature/wash correspondence,critical LOI/Tmax/water-stage/recipe conflicts and unadjudicated partial control/preprint-journal provenance. Accepted multiple gas tests count once per fabric state. B168 NG SI TableS3 caption only:its nonnative numeric/image body remains unreviewed. Abstract/reference prose and unreviewed introductions/images are outside completed scientific-body scope. All145 source guards and fresh358 combined canonical comparisons pass for the29 accepted conditions;34 held-hit comparisons remain excluded without claiming provenance adjudication. B165 Q50 specification fact evidence remains private with its public official source URL and page locator. No curves estimated,missing conditions guessed,original fulltexts uploaded or scientific gates lowered. Evidence upgrades and legacy completions are zero.
+
+### b163
+
+2 new states;2 TG conditions;58 held facts.
+- **10.1007/s12221-023-00408-0**: 2 accepted states;2 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+- **10.1007/s13726-024-01287-9**: 0 accepted states;0 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+- **10.1007/s10570-023-05512-1**: 0 accepted states;0 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
+
+### b164
+
+5 new states;7 TG conditions;23 held facts.
+- **10.1007/s10570-024-05944-3**: 0 accepted states;0 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+- **10.1007/s10570-023-05540-x**: 2 accepted states;4 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+- **10.1007/s10570-023-05306-5**: 3 accepted states;3 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+
+### b165
+
+2 new states;3 TG conditions;25 held facts.
+- **10.1007/s10570-023-05541-w**: 0 accepted states;0 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+- **10.1007/s10570-024-05860-6**: 2 accepted states;3 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+- **10.1007/s10570-024-06338-1**: 0 accepted states;0 accepted conditions. Allowninitialdose/conditionandwashednumericfactsstaged;unresolvedsourceconflictsandmissingmeasurementsheld;previousworkcomparisonandbulkFRnotownnewpairs.
+
+### b166
+
+3 new states;3 TG conditions;20 held facts.
+- **10.1007/s10570-024-05785-0**: 0 accepted states;0 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+- **10.1007/s10570-024-06177-0**: 0 accepted states;0 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+- **10.1007/s10570-025-06556-1**: 3 accepted states;3 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+
+### b167
+
+2 new states;2 TG conditions;27 held facts.
+- **10.1007/s10570-023-05287-5**: 1 accepted states;1 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+- **10.1007/s10570-023-05586-x**: 1 accepted states;1 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+- **10.1007/s10570-024-06172-5**: 0 accepted states;0 accepted conditions. Owninitialconditions/otherdose/washedfactsfullystaged;missingramp/LOIandconditionconflictsheld;body/SIancillaryconflictsretained.
+
+### b168
+
+8 new states;12 TG conditions;8 held facts.
+- **10.1007/s10570-025-06924-x**: 2 accepted states;4 accepted conditions. AllowninitialTG/LOIdoseandwashedfactsstaged;criticalwaterT5/LOIconflictsandmissingownTGheldwithoutcherrypicking.
+- **10.1007/s10570-022-04596-5**: 3 accepted states;5 accepted conditions. AllowninitialTG/LOIdoseandwashedfactsstaged;criticalwaterT5/LOIconflictsandmissingownTGheldwithoutcherrypicking.
+- **10.1007/s12221-025-00994-1**: 3 accepted states;3 accepted conditions. AllowninitialTG/LOIdoseandwashedfactsstaged;criticalwaterT5/LOIconflictsandmissingownTGheldwithoutcherrypicking.
+
+Original fulltexts/supplements and local paths remain local.
