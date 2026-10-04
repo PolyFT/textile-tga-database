@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1338 unique reviewed source/sample/washing states**, **1712 TG condition records**, and **389 original sources (387 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1345 unique reviewed source/sample/washing states**, **1719 TG condition records**, and **391 original sources (389 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1338 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1137 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1144 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2265,3 +2265,20 @@ Original fulltexts/supplements and local paths remain local.
 ### b209_b210 publication proof
 
 [PR #139](https://github.com/PolyFT/textile-tga-database/pull/139) merged as `f60d8eb544bce6262c3a6fee906035cd982975ca` after exact-head [validation run 37219860729](https://github.com/PolyFT/textile-tga-database/actions/runs/37219860729) passed on `bd8ae2e0e9b06d649991b2c0abee7f87d556fb14`. All 2079 offline tests, compilation, scientific validation and all three merge checks passed. Independent verification confirms 1338 states, 1712 TG records, 387 DOIs and 389 sources. All 1702 prior records and fields, thirteen public blobs, eight concurrent bot files, three read-only library originals, four official primary-table files and seven private native evidence files are preserved. Ten native PDF pages, two complete scientific HTML bodies and seven primary tables were reviewed. The UHMWPE SI index is reviewed but the linked DOCX returned403 and remains unread. Same fabric states are supported by own numeric values and explicit primary captions; cotton stock doses are not retained fractions, unknown TG ranges are not copied from MCC, and unknown char endpoints stay blank. The cotton CPPE N2 R80014.35/14.5 conflict is excluded. All75 canonical comparisons retain three explicitly adjudicated single-metric coincidences and zero full paired-profile or unresolved hits. The complete 10882631-byte master has SHA256 `deb86331f3511739621f648fbe786ef505e8600c2375e152d658471c7fd5a471` and the whole remote report matches a fresh rebuild. Snapshot: `aad29732ac707b70aa9263f50bceeb0f3eca015ab3e7814d5a8d1aaf7ab4c9c0`. Six new pairs and ten TG records are published, with zero upgrades, five held facts, two unbound char values and one conflicting residue metric excluded. Lease release follows this verified publication record.
+
+
+## b219_b220 combined native-text textile publication
+
+Two DOI originals supply seven new initial textile sample-state pairs and seven ordinary TG records, with zero evidence upgrades or legacy completions. All sixteen primary PDF pages, five primary tables and fourteen figure captions were reviewed as native text. Five alginic-acid/Zn alginate fiber formulations have own Table2 LOI24.5/30/31/32.4/35 and explicit p770 measured R80022.7/25/24.8/26/28.7. Ordinary TG is N2 at10Cmin,3mg,50mLmin,room-800C; numerical room temperature, LOI standard and replicate count are unreported and remain blank. Generic near-DTG210/250 and water loss are not individual canonical decomposition metrics. ZnSO4 bath4/8/10/25wtpercent and measured Zn/Ca contents have different bases. Two initial PLA nonwoven formulations have own p3043 LOI18.0/26.5 and Table3 control/23percent-weightgain T5_358.5/250.8,Tmax393.2/390.9,observed R8001.8/11.6. T50, DTG rate and calculated char are retained only as auxiliary source facts; calculated R8008.4 does not replace measured11.6. The23percent dose is fabric weight gain, not final retained additive mass fraction. Ordinary PLA TG is N2 at10Cmin25-800C,around5mg,60mLmin; LOI ASTM D2863-2000/JF3 uses15x6cm specimens and five parallel specimens. Cone geometry, repeat counts and char are not ordinary TG or LOI conditions. Unknown control pretreatment assignment, TG pan/replicates and LOI conditioning remain blank. Two PLA intermediate6/11percent formulations remain held because their own numerical LOI is not available in native text; no bar or curve was read. Linked VideoS1 shows neat TPA expansion and remains unread. All93 separate primary-agent scientific checks and nine source regression tests passed. Forty-two whole-canonical comparisons retain three exact adjudicated scalar-coincidence comparisons, including one raw LOI31/R80024.8 paired-scalar hit against a different viscose/maleic-graft/Na3 formulation. Both original recipes and TG profiles were checked; different polysaccharides, ions and treatment conditions establish distinct samples. Raw hits remain recorded; zero unresolved profile hits and zero duplicate sample-state hits are asserted, not zero raw paired hits. Two read-only library originals and two native text caches remain hash-bound. Public content contains factual values, concise DOI/page/table locators, necessary tests and validation; no fulltexts, images or local paths. Evidence upgrades and legacy completions are zero.
+
+### b219
+
+5 new states;5 TG conditions;0 held facts.
+- **10.1007/s12221-013-0767-2**: 5 accepted states;5 accepted conditions. All5primaryPDFpages2Tables4captionsreviewednativeonly;fiveinitialacid/Zn1-4alginatefiberstatesownTable2LOI24.5/30/31/32.4/35andexplicitp770orderedR80022.7/25/24.8/26/28.7approvedafter50sourceguards4regressions10canonicalcomparisonsandreadonlyprojection. ThreeexactscalarcoincidencecomparisonsretainoneLOI31/R80024.8pairoverlapwithdistinctviscose_Na3recipe;bothoriginalmethodsandprofilesadjudicatednotduplicate. N2_10Cmin3mg50mLminroom-800;numericroomtemp/LOIstandard/nunknownblank. GroupnearDTG210/250notindividualpeak;waternotdecomposition;ZnSO4bathdosevsretainedZn/Cacontentdistinct.
+
+### b220
+
+2 new states;2 TG conditions;2 held facts.
+- **10.1002/pat.5316**: 2 accepted states;2 accepted conditions. Full11nativeprimarypages/3Tables/10captionsreviewed. TwooriginalinitialPLA_nonwovenstatescontrolLOI18.0/T5_358.5/Tmax393.2/R800Exp1.8and23percentweightgainLOI26.5/T5_250.8/Tmax390.9/R800Exp11.6approvedafter43sourceguards5regressions32canonicalcomparisons0hitsandreadonlyprojection. Sixand11percentweightgainformulationsheldnoownnativeLOI. T50/DTGrate/calculatedcharauxiliaryonly;23percentweightgainnotfinalfraction;approx5mg/N2_10Cmin25-800/60mLmin;LOIASTMD2863-2000_JF3_15x6cm_fiveparallel. Unknowncontrolpretreatment/LOIconditioning/TGpanorreplicatesblank;VideoS1neatTPAexpansionunread. Noimages/curveestimatedvalues.
+
+Original fulltexts/supplements and local paths remain local.
