@@ -1,0 +1,1727 @@
+{
+  "batch": "b187_b191",
+  "review_completed_utc": "2026-10-04T12:25:03.229181+00:00",
+  "baseline_counts": [
+    1306,
+    1666,
+    375
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 4,
+    "complete_primary_HTML_bodies": 0,
+    "HTML_link_discovery_only": 0,
+    "complete_text_primary_PDF_pages": 14,
+    "official_primary_tables_text_reviewed": 13,
+    "complete_official_SIs_text_tables_reviewed": 9,
+    "own_scientific_SI_tables_reviewed": 7,
+    "mixed_own_and_comparison_SI_tables_reviewed": 1,
+    "secondary_comparison_SI_tables_reviewed": 1,
+    "complete_official_SIs": 3,
+    "total_fact_rows": 39,
+    "held_fact_rows": 34,
+    "unbound_auxiliary_residue_metrics": 0,
+    "source_scientific_guards": 349,
+    "source_regression_tests": 19,
+    "canonical_comparisons": 97,
+    "publication_groups": 5,
+    "within_source_baseline_presentations_collapsed": 0
+  },
+  "source_groups": [
+    {
+      "batch": "b187",
+      "new_states": 1,
+      "new_conditions": 1,
+      "held": 11,
+      "scientific_guards": 106,
+      "csv_sha256": "a005e540fc679138c5d743f4952ed9e5b6051215bd23009e6cfe58b07943492e",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-025-06858-4",
+          "title": "Durable nitrogen-phosphorus based flame retardant lyocell fiber",
+          "accepted_states": 1,
+          "accepted_conditions": 1,
+          "potential_states": 1,
+          "potential_conditions": 1,
+          "staged_held_rows": 11,
+          "primary_HTML_scientific_bodies_reviewed": 1,
+          "complete_official_SIs_text_tables": 6,
+          "own_scientific_SI_tables": 4,
+          "secondary_comparison_SI_tables": 1,
+          "disposition": "Oneprovisionalinitial15AAPPlyocellprofileLOI39/T5T50DTGmax/explicitR600,N21030-600. ElevenheldincludingcontrolDTG372.8vs327.88,otherdoseTGmissing,20/25initialLOIconflictsand15water32vs35/washTGmissing. ForeignS3/S4comparisonrowsnotnew. SIexplicit600resolvestreatedbodyendpointomission;body275.7vsSI275.66roundingcompatible.",
+          "mixed_own_and_comparison_SI_tables": 1
+        }
+      ]
+    },
+    {
+      "batch": "b188",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 5,
+      "scientific_guards": 33,
+      "csv_sha256": "3d5308d7189a84be26f4dcaa0a44f37fb0461d4b19289bd1bafe4f32165e4790",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-025-06414-0",
+          "title": "Innovative P/N flame retardant as filler for enhancing flame retardancy in lyocell fiber",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 5,
+          "primary_HTML_scientific_bodies_reviewed": 1,
+          "official_primary_tables": 3,
+          "disposition": "Allfiveownfiberfactsheld:fourinitialN2/AIRprofilesunqualifiedTGLOIdrawstate(ControlLOIalsoabsent);one30LCLOIonly. NativeFR-L10%-definedTonsetstoredT10;N2310/R70037.42 andAIRR70023.3preserved. ThreeFR-Ldrawratiosnot3pairedsamples;controlintro18notownLOI;initialTGnotborrowedwashed;cone25.75/bulkR78045.37notfiberTG;sourceTHPC65vs70retained."
+        }
+      ]
+    },
+    {
+      "batch": "b189",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 4,
+      "scientific_guards": 29,
+      "csv_sha256": "e5dc11e2f43196784c421d20e1539fb316de63238a6a1121d1239531d277ef21",
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.compositesb.2020.108298",
+          "title": "Amorphous cobalt borate nanosheets grown on MoS2 nanosheet for simultaneously improving the flame retardancy and mechanical properties of polyacrylonitrile composite fiber",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 4,
+          "complete_native_PDF_pages": 14,
+          "own_primary_tables": 1,
+          "disposition": "FourowninitialCoBiMoS2/PANformulations/Table1LOIhelduntilSI S3andfullSIread. PrimaryaboutPAN316.9/326.4/440.3preserved;otherTGabsolutevaluesnotderivedfromincrements;conechar7.42/14.12/19.05/27.55notR800. OrdinaryN22050-800vsTGIRRT8005mg;same2wt%relativePAN/2x90Cdraw80Cdry. SpecificCDNfiles404andAPIonlyidentitymetadata200,notglobalSIabsence;noembeddedPDFSI."
+        }
+      ]
+    },
+    {
+      "batch": "b190",
+      "new_states": 0,
+      "new_conditions": 0,
+      "held": 7,
+      "scientific_guards": 64,
+      "csv_sha256": "b8f4907f54d69ebb7a09d73f1f3d0e7a3a455710313ea43577827315e7e0525b",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-021-04309-4",
+          "title": "Novel P/Si based nanoparticles for durable flame retardant application on cotton",
+          "accepted_states": 0,
+          "accepted_conditions": 0,
+          "staged_held_rows": 7,
+          "primary_HTML_scientific_bodies_reviewed": 1,
+          "official_primary_tables": 6,
+          "official_SI_native_tables": 0,
+          "disposition": "ThreeinitialnativefiberTG/spunyarnLOIrecordsheldforphysicalformmapping;fourwashedLOIrecordsheldwithoutownTG. ExplicitT5/DTG/R700/measurednot theoreticalchar;plasmaonlycontrolkept;standalonePFRnotcottonpair;wovenUL94assemblynotTGorLOIassembly."
+        }
+      ]
+    },
+    {
+      "batch": "b191",
+      "new_states": 4,
+      "new_conditions": 4,
+      "held": 7,
+      "scientific_guards": 117,
+      "csv_sha256": "2db79ac83f7f745c8bf603d325a19d265da818c682d3e5069dc67c846d7914c8",
+      "source_findings": [
+        {
+          "DOI": "10.1007/s10570-022-04772-7",
+          "title": "Flame retardant and hydrophobic cotton using a unique phosphorus\u2013nitrogen\u2013silicon-containing coating",
+          "accepted_states": 4,
+          "accepted_conditions": 4,
+          "potential_states": 4,
+          "potential_conditions": 4,
+          "staged_held_rows": 7,
+          "primary_HTML_scientific_bodies_reviewed": 1,
+          "official_primary_tables": 4,
+          "official_SI_native_tables": 3,
+          "disposition": "Four independently reviewedinitialwoven-cottonstatesUntreated/C1/C2/C3with nativeTable2N2T5/DTG/R800andTable3LOI. C2-PDMSheldLOI25vs27;fourSIinitialsynergystatesandtwo10LCstatesheldwithoutownTG. MainC2versusSI4/4-12%coincidencenotadditionalcount. Stockconcentrationsnotcoatingweightgain;conechar/TGIRseparate."
+        }
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-025-06858-4",
+      "title": "Durable nitrogen-phosphorus based flame retardant lyocell fiber",
+      "accepted_states": 1,
+      "accepted_conditions": 1,
+      "potential_states": 1,
+      "potential_conditions": 1,
+      "staged_held_rows": 11,
+      "primary_HTML_scientific_bodies_reviewed": 1,
+      "complete_official_SIs_text_tables": 6,
+      "own_scientific_SI_tables": 4,
+      "secondary_comparison_SI_tables": 1,
+      "disposition": "Oneprovisionalinitial15AAPPlyocellprofileLOI39/T5T50DTGmax/explicitR600,N21030-600. ElevenheldincludingcontrolDTG372.8vs327.88,otherdoseTGmissing,20/25initialLOIconflictsand15water32vs35/washTGmissing. ForeignS3/S4comparisonrowsnotnew. SIexplicit600resolvestreatedbodyendpointomission;body275.7vsSI275.66roundingcompatible.",
+      "mixed_own_and_comparison_SI_tables": 1
+    },
+    {
+      "DOI": "10.1007/s10570-025-06414-0",
+      "title": "Innovative P/N flame retardant as filler for enhancing flame retardancy in lyocell fiber",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 5,
+      "primary_HTML_scientific_bodies_reviewed": 1,
+      "official_primary_tables": 3,
+      "disposition": "Allfiveownfiberfactsheld:fourinitialN2/AIRprofilesunqualifiedTGLOIdrawstate(ControlLOIalsoabsent);one30LCLOIonly. NativeFR-L10%-definedTonsetstoredT10;N2310/R70037.42 andAIRR70023.3preserved. ThreeFR-Ldrawratiosnot3pairedsamples;controlintro18notownLOI;initialTGnotborrowedwashed;cone25.75/bulkR78045.37notfiberTG;sourceTHPC65vs70retained."
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2020.108298",
+      "title": "Amorphous cobalt borate nanosheets grown on MoS2 nanosheet for simultaneously improving the flame retardancy and mechanical properties of polyacrylonitrile composite fiber",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 4,
+      "complete_native_PDF_pages": 14,
+      "own_primary_tables": 1,
+      "disposition": "FourowninitialCoBiMoS2/PANformulations/Table1LOIhelduntilSI S3andfullSIread. PrimaryaboutPAN316.9/326.4/440.3preserved;otherTGabsolutevaluesnotderivedfromincrements;conechar7.42/14.12/19.05/27.55notR800. OrdinaryN22050-800vsTGIRRT8005mg;same2wt%relativePAN/2x90Cdraw80Cdry. SpecificCDNfiles404andAPIonlyidentitymetadata200,notglobalSIabsence;noembeddedPDFSI."
+    },
+    {
+      "DOI": "10.1007/s10570-021-04309-4",
+      "title": "Novel P/Si based nanoparticles for durable flame retardant application on cotton",
+      "accepted_states": 0,
+      "accepted_conditions": 0,
+      "staged_held_rows": 7,
+      "primary_HTML_scientific_bodies_reviewed": 1,
+      "official_primary_tables": 6,
+      "official_SI_native_tables": 0,
+      "disposition": "ThreeinitialnativefiberTG/spunyarnLOIrecordsheldforphysicalformmapping;fourwashedLOIrecordsheldwithoutownTG. ExplicitT5/DTG/R700/measurednot theoreticalchar;plasmaonlycontrolkept;standalonePFRnotcottonpair;wovenUL94assemblynotTGorLOIassembly."
+    },
+    {
+      "DOI": "10.1007/s10570-022-04772-7",
+      "title": "Flame retardant and hydrophobic cotton using a unique phosphorus\u2013nitrogen\u2013silicon-containing coating",
+      "accepted_states": 4,
+      "accepted_conditions": 4,
+      "potential_states": 4,
+      "potential_conditions": 4,
+      "staged_held_rows": 7,
+      "primary_HTML_scientific_bodies_reviewed": 1,
+      "official_primary_tables": 4,
+      "official_SI_native_tables": 3,
+      "disposition": "Four independently reviewedinitialwoven-cottonstatesUntreated/C1/C2/C3with nativeTable2N2T5/DTG/R800andTable3LOI. C2-PDMSheldLOI25vs27;fourSIinitialsynergystatesandtwo10LCstatesheldwithoutownTG. MainC2versusSI4/4-12%coincidencenotadditionalcount. Stockconcentrationsnotcoatingweightgain;conechar/TGIRseparate."
+    }
+  ],
+  "verification_limit": "Four complete primary HTML scientific bodies and one complete 14-page primary PDF were reviewed as native text, with 13 official primary tables and three linked supplements containing nine native tables. Five new initial sample-state pairs are approved: one 15%-AAPP lyocell state with own S6 T5/T50/DTGmax/R600 and LOI39, plus four THPO/guanazole woven-cotton states Untreated/C1/C2/C3 with own Tables2-3 T5/DTGmax/R800/LOI. Ordinary methods are N2/10Cmin/30-600 for lyocell and N2/20Cmin/roomtemperature-800 for woven cotton; unknown numeric room temperature remains blank. Stock finishing concentrations, retained additive quantities and coating weight gains have distinct bases. Thirty-four facts remain held: eleven AAPP control/other-dose/washed states with unresolved control DTG or LOI conflicts/no own TG; five FR-P lyocell gas/wash records with unqualified draw-state mapping/control LOI or washed TG absent; four CoBi/MoS2 PAN formulations awaiting native SI S3, retaining reported approximations and increments without computing absolute metrics; seven P/Si cotton records with fiber TG versus spun-yarn LOI form mismatch and no own washed TG; seven THPO/guanazole PDMS/synergy/wash records with main LOI25 versus abstract/conclusion/SI27 or no own TG. No initial TG is cloned across washes, doses, draw ratios or SI aliases. Unknown gas/ramp/mass/geometry are not borrowed across TGIR/MCC/cone/UL94 tests; TG residue endpoints are explicit, never inferred from program end. All 349 independent scientific guards, 19 scientific regression tests and 97 canonical profile comparisons pass with zero accepted hits. Nine SI tables comprise seven own tables, one mixed own/comparison table and one foreign comparison table; comparison rows are not new pairs. No gate changes, curve estimates, guessed values or original uploads.",
+  "canonical_profile_dedup_audit": {
+    "summary": {
+      "comparisons": 97,
+      "full": 30,
+      "reduced": 10,
+      "threshold_residue": 22,
+      "rounding_risk": 35,
+      "baseline_rows": 4813,
+      "approved_profile_hits": 0,
+      "held_hit_comparisons": 0,
+      "endpoint_unknown": [],
+      "held_hits_adjudicated": "All39nativefacts/fiveDOIsagainstfreshPR133releasedmainandallintrabatchprofiles;full/reduced/thresholdresidue/roundinggasrateagnostic. Fiveacceptedprofilehitsmustbezero;34heldretainform/LOIconflicts/drawstatemapping/missingSInumerics/noownwashedorotherdoseTG."
+    },
+    "comparisons": [
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_0_initial_postbake",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "T50_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06858-4",
+        "sample": "AAPP_15_initial_postbake",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R600_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T10_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T10_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "air",
+        "comparison": "full",
+        "metrics": [
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_FR-L_initial_drawstate_unqualified",
+        "gas": "air",
+        "comparison": "full",
+        "metrics": [
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "air",
+        "comparison": "full",
+        "metrics": [
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-025-06414-0",
+        "sample": "FRP_control_initial_drawstate_unqualified",
+        "gas": "air",
+        "comparison": "full",
+        "metrics": [
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.compositesb.2020.108298",
+        "sample": "CoBiMoS2_PAN_initial_2xdraw",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.compositesb.2020.108298",
+        "sample": "CoBiMoS2_PAN_initial_2xdraw",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.compositesb.2020.108298",
+        "sample": "CoBiMoS2_PAN_initial_2xdraw",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.compositesb.2020.108298",
+        "sample": "CoBiMoS2_PAN_initial_2xdraw",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "Tmax2_C"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "Co_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-021-04309-4",
+        "sample": "pCo-PFR_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R700_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "Untreated_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C1_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C2-PDMS_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1007/s10570-022-04772-7",
+        "sample": "C3_initial",
+        "gas": "N2",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      }
+    ]
+  },
+  "official_missing_key_evidence_reviews": [
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-025-06858-4/MediaObjects/10570_2025_6858_MOESM1_ESM.docx",
+      "original_sha256": "0e523f7918287119efbc29cdf54b3d97ccfca00b662af9455d2e29aea4ef3994",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-025-06414-0/tables/1",
+      "original_sha256": "f18dc049a22f3a1f61f548617710e1f4bb2fcfee6f40669882300b1834142e0b",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-025-06414-0/tables/2",
+      "original_sha256": "3f11fdc67036f691b8ab9d94b9e9b6be2852b152e9bb9ee322cd25ae1d27f337",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-025-06414-0/tables/3",
+      "original_sha256": "5139fea19c4d165fc17958a195b4a8b18bed079d71edf94e3b0142a5fb6d1e5c",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/1",
+      "original_sha256": "69fd079d3a6b4f36668ea7720a83eab75f686a98a7b1532195c2c918a487cded",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/2",
+      "original_sha256": "9f49f75c91ddc71d0d5dd4126903905c39f242caa16f26d5e99acd5f4c6273a7",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/3",
+      "original_sha256": "6cd3f2e7cd224f346ce21e7cfc5ab1d8cf2f29d4a3501ea7bf2b736776476a40",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/4",
+      "original_sha256": "5b0d14f3df74ac20dfe1053524fcaf5a253095674eabdd1a8c02d7c236e212b4",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/5",
+      "original_sha256": "16832e71637fde7e0b06c9c51a6db8757335b38664137313c79ba8bc2144295f",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-021-04309-4/tables/6",
+      "original_sha256": "238fdae5102423b58fd16f31a48d01a998d37f0b72a8457f9d7d4bedede928ba",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-021-04309-4/MediaObjects/10570_2021_4309_MOESM1_ESM.docx",
+      "original_sha256": "631fed5c8bdede8d49403136bee7ed82c8b77be5256e6c86a59b90de7a2f5a0a",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04772-7/tables/1",
+      "original_sha256": "7852f923c8582f8b522ac2c42d27a6e3a8cf38710ff321283c7eaaa7bab3cba1",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04772-7/tables/2",
+      "original_sha256": "c02416ada9355b7daa9b6d261499a5faaedf7307f11a83289050594ae6b6dddf",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04772-7/tables/3",
+      "original_sha256": "2c4fa2ae3cadf6f3f0152a6e3241eade7159ec2bdef776d6763c44a9ddfc1954",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://link.springer.com/article/10.1007/s10570-022-04772-7/tables/4",
+      "original_sha256": "9b2b8d46918e09a5cd1c1ce881f4cfc457189d4e9fb139c4366ff90662bc8bb7",
+      "review_method": "Original native table/supplement text;no images"
+    },
+    {
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10570-022-04772-7/MediaObjects/10570_2022_4772_MOESM1_ESM.docx",
+      "original_sha256": "f126da19aca4f1940adca3769a1a366c37c3c946a2a7a3fe57205dac0d6688d1",
+      "review_method": "Original native table/supplement text;no images"
+    }
+  ],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1666,
+    "new_states": 5,
+    "new_conditions": 5,
+    "evidence_upgrades": 0,
+    "verified_states": 1311,
+    "verified_conditions": 1671,
+    "verified_dois": 377,
+    "verified_sources": 379,
+    "offline_tests_passed": 2009,
+    "snapshot_sha256": "8c041fae980791b592a17892440435db33ecb821f3841b3c5dc54b9a362c6934",
+    "master_sha256": "f907b7921c8f90a7fda82aab34060f3947a87f38a78709187aa29945802d5b71",
+    "validation_errors": [],
+    "held_fact_rows": 34,
+    "complete_original_text_pages": 14,
+    "complete_primary_HTML_bodies": 0,
+    "primary_HTML_scientific_bodies_reviewed": 4,
+    "complete_primary_originals": 5,
+    "library_originals_hash_verified": 5,
+    "prior_native_pages_reviewed": 0,
+    "complete_official_SIs_text_tables": 9,
+    "own_scientific_SI_tables": 7,
+    "mixed_own_and_comparison_SI_tables": 1,
+    "secondary_comparison_SI_tables": 1,
+    "complete_official_primary_tables": 13,
+    "official_corrections_reviewed": 0,
+    "unchanged_private_evidence_files": 22,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
