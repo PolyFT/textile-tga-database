@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-04T04:13:35.658961+00:00",
-  "latest_batch_id": "20261004_b160",
-  "verified_condition_records": 1575,
-  "verified_unique_sample_states": 1228,
-  "verified_dois": 351,
-  "numeric_pair_candidate_rows": 2086,
+  "as_of_utc": "2026-10-04T04:34:46.402682+00:00",
+  "latest_batch_id": "20261004_b161",
+  "verified_condition_records": 1579,
+  "verified_unique_sample_states": 1232,
+  "verified_dois": 352,
+  "numeric_pair_candidate_rows": 2096,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1027,
+  "cumulative_newly_completed_or_new_source_sample_states": 1031,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b160_merged_remote_verified_lease_released",
+  "publication_stage": "b161_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261004_b160",
   "writer_lease": {
     "owner": "codex-local-textile-b161-20261004",
@@ -26,11 +26,12 @@
     "batch_id": "20261004_b161",
     "claimed_at_utc": "2026-10-04T04:30:15.937356+00:00",
     "expires_at_utc": "2026-10-04T06:00:15.937356+00:00",
-    "purpose": "Publish3scientificHTMLbodies6primarytables/2SI6tables;4newstates4conditions34heldfacts;ordinaryramp_airOxygen_T75_wash_UV_GlowLOIholds;metadatareadonly;textonly",
+    "purpose": "Publish4states4TG;3scientificHTMLbodies6primarytables/2SI6tables;34held;textonly;metadatareadonly",
     "previous_release_commit": "9d55f2c6998bcb1ca81bcf85aca6ca13bae97b1f"
   },
   "next_sources": [],
   "next_actions": [
+    "Four initial cotton states add four N2 TG conditions from the own PEI/PA/FeAl source. Three primary scientific HTML bodies,six relevant primary tables and two official supplements containing six native tables were reviewed as text. Seven Glow nontarget primary tables remain explicitly unread;primary introductions/abstract/reference prose remain unread. Native PEI Table2 N2 T5/Tmax/R750 joins own Cotton/Al/Fe/FeAl LOI18/32.5/28.5/35.0;standaloneTGA800040-75010Cmin is unambiguous. Four air conditions remain held because Methods says OXYGEN while Table2/Fig7 says AIR. FeAl35+-0.5 initial SI zero-baseline corroboration retains global >=3 meansSD with exactn unknown. T75 is native75pct mass-loss criterion in auxiliary fields,notT50/T80;AlT5 early mass loss is not decomposition onset. Thirty-four of38 facts excluded:three UV ordinary-ramp/prewashed facts;22PEIair/washed/UVagedfacts;nineGlowLOI-onlyfacts. UV SI10min irradiation is bulk synthesis,notfabric cure duration;ordinaryTG conditions are not borrowed from coupled TGIR. PEI separateTGIR40-70050Cmin and IRseconds are not ordinaryTG conditions/temperatures. Water2LC24.8 is kept native despite nonmonotonicity;no correction to34.8. All23scientific guards and58 gas/rate-agnostic canonical full/reduced/threshold-residue/rounding-risk comparisons pass;freshB160main reaudit required. Noimages,curveestimates,guessedconditions or computed residue. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Four initial cotton states add four TG conditions from own Banana and improvedProban sources. Three primary scientific HTML bodies and all17nativeprimarytables were reviewed as text; noofficialSIlinks inlocalHTML,notassertionglobalabsence;primaryintroductions/abstracts/referenceprose remainunread. BananaFS1/FS6 useownTable2labels/Table3LOI18.3/27.5andTable4directremainingmassR400/R5000/0and40/26 underN210Cmin50-600. R500not600programend,water100CremainingmassnotT5 andgeneric330CnotassignedTmax. BPSconcentration100-400pctvolumeconcentrationnotfabricloading. ProbanC0/C40 useexplicitbodyTmax375/321,R7009.04/34.67andnativeTable2LOI17.2/31.2 underN220Cmin25-700. C40finalperoxidewashisinitialpreparation,notagedstate;WG28.5notbath40wt. Thirty-nineof43factsremainexcluded:nineBananaotherdose/washedfacts;20Probaninitialaircurves/intermediate-otherdose/washedfacts;tencore-shellTG-with-computedLOIfacts. Core-shellLOIderivedfromTGcharyieldneveradmittedasindependentexperimentalLOI;rawtable/bodyTGconflicts retained. NativecoreTGstart0Cretainedrawsourcefieldwhilecanonicalunknown;physicalvalidationrangeunchanged andinvalid0Cguardverified. All23scientificguards pass. Sixty-six gas/rate-agnostic full/reduced/threshold-residue/rounding-risk comparisons normalize residuealiases/temperatures andfindnohits;freshB159mainreauditrequired. Noimages,curveestimates,guessedconditions,computedresidue,orLOIderivedfromTGadmissions. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Four initial cotton sample states add five TG conditions from own TDBTZP source. Three primary scientific HTML bodies,16 native primary tables and one official supplement containingthree native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. NativeTable1 bindsControl/Cotton10/20/30LOI18.1/29.9/32.7/35.2 tobath0/100/200/300gL andactualWG0/8.6/17.3/26.5pct. FourN2conditions plusownControlair use standaloneTG85110Kmin35-750;controlair is additionaltest,notextraidentity. Eighteenof23facts excluded:fivePsynblendTmaxconflict/otherformulaLOIonlyfacts;fiveTDBTZPairinversion-residuetemperature/washedLOIfacts;eightBPNMmissingownabsoluteLOI/dosejoin/relativeLOI/washedfacts. Cotton20airT5=122>T10=116 andR10.9at700bodyvs750SI/conclusion remainheldwithoutswappingorchoosinganendpoint. Psyncontrol338.61vs336 andP1=326.57vs314.81Tmax remainheldwholeconditions. N2TDBCotton20/30T5=121/117withinnativewater40-200 aretotalmasslosscriteria,notdecompositiononset. NativeSIairRmaxdegreesCheaderunitconflict retained;noinferredrateunit. BPNMrelativeLOIsnotconverted and40.1notassigned450gL. All24scientificguards pass. Sixty-four gas/rate-agnostic full/reduced/threshold-residue/rounding-risk comparisons normalize residuealiases/temperatures andfindnohits. SeparateTGIR/DSCconditions,at-peakweightretention,conechar,washedstates andblendformsremain distinct. Noimages,curveestimates,guessedconditionsorcomputedresidue. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
     "Three initial cotton sample states add five TG conditions from two own original sources. Three primary scientific HTML bodies,14 native primary tables and two official supplements containingthree native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. CPAS/HP source contributesonly its explicitlylabelled ownCottoncontrol withLOI18 andtwoN2/airconditions;generictreatedFR/H/FRHdosesremainunresolved. Glu/Ca source contributesownCOTcontrol withLOI17.8/twogases andinitialCOTGluCaairLOI33.6/Tonset221.5/Tmax291.3/R8005.6. Two repeatedgasconditions do not add sampleidentities. Twenty-six of31 facts remain excluded:13 CPAS genericdose/washedfacts;tenBPNFR programendpoint/airthreshold/washedfacts;threeGluCa N2peakconflict/washed/rechelatedfacts. StandaloneBPNFR SI TG209F3end750 versusallTable2R800,andairT5>T10 inversions arekeptraw,notcorrectedusingseparateTGIRend800. TreatedGluCaN2Tmax287.8tableversus270.5body remainsheld;Table1Ga spellingiscrosswalkedtoCaCl2-preparedCa fabric withrawlabelandtypographicinference documented. All25 scientificguards pass. Seventy-two gas/rate-agnostic full/reduced/threshold-residue/rounding-risk comparisons normalize residuealiases/temperatures andfind noidenticalprofiles. T10/T50/Tonset/Tmax,waterloss,DTGpercentperminute/degree andTGresidueversusconechar staydistinct. Noimages,curveestimates,guessedconditionsorcomputedresidue. Exact-head CI, ordinary merge,three mergechecks,complete independent remote proof and owned lease release required.",
@@ -768,7 +769,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 772,
+  "remaining_to_2000": 768,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -816,9 +817,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 353,
+  "verified_sources": 354,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1220,
+  "verified_doi_sample_states": 1224,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -852,7 +853,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 772,
+  "remaining_to_target": 768,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -968,9 +969,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 208,
-      "sample_states": 653,
-      "condition_records": 900
+      "sources": 209,
+      "sample_states": 657,
+      "condition_records": 904
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1062,7 +1063,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1567,
+  "verified_doi_condition_records": 1571,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -3734,5 +3735,25 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/124",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b161": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 3,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 0,
+    "primary_HTML_scientific_bodies_reviewed": 3,
+    "official_primary_tables_text_reviewed": 6,
+    "complete_official_SIs_text_tables_reviewed": 6,
+    "complete_official_SIs": 2,
+    "official_corrections_reviewed": 0,
+    "total_fact_rows": 38,
+    "held_fact_rows": 34,
+    "fully_held_other_primary_sources": 2,
+    "tests_passed": 1593,
+    "snapshot_sha256": "385151b8ac21e75908d0691731f4810342d0d9d17f66a0b035073b0641df7df0"
   }
 }

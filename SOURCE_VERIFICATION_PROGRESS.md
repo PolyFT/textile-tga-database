@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1228 unique reviewed source/sample/washing states**, **1575 TG condition records**, and **353 original sources (351 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1232 unique reviewed source/sample/washing states**, **1579 TG condition records**, and **354 original sources (352 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1228 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1027 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1031 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1840,3 +1840,14 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b160 publication proof
 
 [PR #124](https://github.com/PolyFT/textile-tga-database/pull/124) merged as `eedf113b22013e2d069f74dbc8f009c343c12851` after exact-head [validation run 37175563598](https://github.com/PolyFT/textile-tga-database/actions/runs/37175563598) passed on `3cd8a24df516032facc95cc0cb219654d6f05bf0`. All1570 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1228 states,1575 conditions,351 DOI sources and353 total sources. All1571 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and three primary original hashes, seventeen official native-table/supplement original hashes and twenty private text evidence hashes are preserved. The complete9355802-byte master has SHA256 `094f5b5ccd7a90476a4c43ef6161f5bd31c97a88ef637040d23fd412bc0f973a`; the full remote report matches a fresh rebuild. Snapshot:`7c4fceccb6b3a1d6a53b8ed9cf0597907f8d50866249c7581d207ad059ad873c`. Four new pairs and four TG conditions are published; evidence upgrades and legacy completions are zero;39 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b161 PEI/PA/FeAl initial cotton fabrics
+
+Four initial cotton states add four N2 TG conditions from the own PEI/PA/FeAl source. Three primary scientific HTML bodies,six relevant primary tables and two official supplements containing six native tables were reviewed as text. Seven Glow nontarget primary tables remain explicitly unread;primary introductions/abstract/reference prose remain unread. Native PEI Table2 N2 T5/Tmax/R750 joins own Cotton/Al/Fe/FeAl LOI18/32.5/28.5/35.0;standaloneTGA800040-75010Cmin is unambiguous. Four air conditions remain held because Methods says OXYGEN while Table2/Fig7 says AIR. FeAl35+-0.5 initial SI zero-baseline corroboration retains global >=3 meansSD with exactn unknown. T75 is native75pct mass-loss criterion in auxiliary fields,notT50/T80;AlT5 early mass loss is not decomposition onset. Thirty-four of38 facts excluded:three UV ordinary-ramp/prewashed facts;22PEIair/washed/UVagedfacts;nineGlowLOI-onlyfacts. UV SI10min irradiation is bulk synthesis,notfabric cure duration;ordinaryTG conditions are not borrowed from coupled TGIR. PEI separateTGIR40-70050Cmin and IRseconds are not ordinaryTG conditions/temperatures. Water2LC24.8 is kept native despite nonmonotonicity;no correction to34.8. All23scientific guards and58 gas/rate-agnostic canonical full/reduced/threshold-residue/rounding-risk comparisons pass;freshB160main reaudit required. Noimages,curveestimates,guessedconditions or computed residue. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-025-06460-8**: All3factsheld:twoinitialpristine/CCPDHMPordinaryTGconditionslackordinaryramp;one3watercycleprewashedLOIlacksownTG. OnlycoupledTGIR50-80010CminN250mLminmethodexplicit;notborrowedforFig3. NativeinitialT5/Tmax1/Tmax2/R800andTable1LOIretained. SI10minUVbelongsbulkCCPDHMPsynthesis,notfabricUVduration. Native20g/253gsm/dimensionsdiscrepancyretained. All3primarytables/completeofficialSI1tablereviewed;bulkTGandstageweightlossnotfabricTGchar.
+- **10.1007/s10570-024-05979-6**: FourinitialCotton/Al/Fe/FeAlstatesfourN2TGconditionsfromTable2T5/Tmax/R750andownbodyLOI18/32.5/28.5/35. StandaloneTGA8000N240-75010Cminunambiguous;MethodsOXYGENversusTable2AIRholdsallfourairconditions. FeAlSI S3/S4zero-baseline35+-0.5corroboratesinitialLOI/globalmeanSD>=3exactnunknown. NativeT75auxnotT50/T80;AlT5earlymasslossnotTonset. Fourteenwater/soapwashedandfourUVagedLOI-onlystatesheldwithoutownTG. SIwater2LC24.8notcorrected34.8. FeAlcombinedbathbasisandLBLtotalcyclesnotguessed;separateTGIR40-70050Cminnotborrowed. Both2primarytables/allSI5tablesreviewed.
+- **10.1007/s10570-023-05125-8**: All9initialBlank/SP1-4/SC1-4LOIfactsheldnoownTGreportedscientificbody/all8captions. Table6LOI17/39/40/42/42/51/52/54/55explicit;onlyownLOITable6read,sevenunrelatednontargettablesexplicitlyunread. SPscreenprintbinderandSCsiliconerubbersprayrecipeskeptdistinct;1/5/10/15pigmentfeednotfinalfabricfractions. Charwidth17/18mmnotLOIuncertainty/TGmasschar. Washedcharlengthconflictretained;noownwashedLOIorTG. NoSIlinklocalHTMLnotglobalabsence.
+
+Originals/fulltexts/native tables and local paths remain local.
