@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1292 unique reviewed source/sample/washing states**, **1652 TG condition records**, and **374 original sources (372 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1301 unique reviewed source/sample/washing states**, **1661 TG condition records**, and **376 original sources (374 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1292 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1091 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1100 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2023,3 +2023,31 @@ Original fulltexts/supplements and local paths remain local.
 ### b175_b176 publication proof
 
 [PR #131](https://github.com/PolyFT/textile-tga-database/pull/131) merged as `8c3535c20d4a887fdd17f5cabd065dc3212697fa` after exact-head [validation run 37192009780](https://github.com/PolyFT/textile-tga-database/actions/runs/37192009780) passed on `5e5674f62c02ef193d85d685d5de299925ecb2ec`. All1950 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1292 states,1652 conditions,372 DOI sources and374 total sources. All1634 prior condition records and their fields, thirteen published file blobs, eight concurrent processing files and four primary original hashes, three official native-table/supplement original hashes and ten private native text/JSON evidence hashes are preserved. The complete10141218-byte master has SHA256 `f293a6136f4eb12222f273bee1da88fe527eb2b6048bb85d1f92621479a2fe93`; the full remote report matches a fresh rebuild. Snapshot:`8834b79b46b5d8178436c603187ecd0e128af91f4c3ff48c21eee0be0c91083a`. Eighteen new pairs and eighteen TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b177_b180 combined native-text textile publication
+
+Combined B177-B180 native-text review adds9 initialPANfiber states and9TGconditions fromfive originals:four completePDFs30pages andone scientificHTMLbody,11primarytables andtwoDOCXsupplements8nativetables(7ownscientific,1secondarycomparison). FiveTA-MoS2/PANprofiles joinMainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800 usingordinaryN210Cmin;TGIR20Cmin andFig6captiondiscrepancy nottransferred;article-in-pressversion/unknownfinalyear explicit. FourCoZnZIF/PANprofiles joinMainTable1LOI/SIS3T5/twoDTGmaxima withordinaryN220Cmin;fourcharvalueshaveunknownendpointandstayauxiliary,neverR800. ActualSIS3TGlocatorretaineddespitebodyS2reference;SIS4otherstudiesnotcounted;muffleAIR3Cmin/600C2h notordinaryTG. ThreeviscoseTG-onlyprofiles lackindependentLOI;thirtyPANfacts haveunresolvedgas/ramp,cloth/fiber/formstateorTGphaseandallstayheld. OriginalviscoseTGstart0Cremainsexplicitsourceconditionauxiliary;canonical20-1500Ctemperature-domain unchanged. All33heldfacts excluded;185scienceguards31regressiontests155canonical comparisons;zero unresolved accepted multimetric hits;twoheldsingleR900coincidencesnotaliases. No scientificgatechanges,curveestimates,inferred endpoints or originaluploads. Evidence upgrades and legacy completions are zero.
+
+### b177
+
+0 new states;0 TG conditions;3 held facts.
+- **10.1007/s10570-023-05668-w**: 0 accepted states;0 accepted conditions. Three own air20CminviscoseTG-only profiles preserved;no independentLOI. Intro19andPVA31.8 are citations,notownVFmeasurements. R750notR800;ratepctperC;firstdecomposition/secondcharoxidation peaks distinguished;bodychar-increase mismatch unresolved. OriginalTGstart0Cpreservedinsourceconditionfield;canonicaltemperature-domainunchanged;notreplacedwith20C.
+
+### b178
+
+0 new states;0 TG conditions;30 held facts.
+- **10.1007/s10692-018-9889-z**: 0 accepted states;0 accepted conditions. 8TGrows/4additionalrecipeOIrows/2aqueoustreatmentOIrows held. TGA gas/rampunreported;conditionedbodyfibers versusclothTable2/soakingstage unresolved. RawthermalTmaxcriterionunknown,notDTG. ExactR500/600/700/800/900retained;Table234.5notbodyrange34. No freshspunconditions borrowed.
+- **10.1007/s10692-018-9923-1**: 0 accepted states;0 accepted conditions. 4freshTGprofiles and12form/soak/rinseOIrows held. OwncontrolOI19.0retained;freshdenominatorversusconditionednumerator12OIvalues distinct. TGgas/rampandnumericTGtestingstage missing;Ts/Tmax/Tfcriterionauxiliary;R900explicit. FreshovenprogramnotTGA;mixtureandtotal20%basis/esdefinition wordingunresolved,no corrections.
+
+### b179
+
+5 new states;5 TG conditions;0 held facts.
+- **10.1016/j.cej.2019.123288**: 5 accepted states;5 accepted conditions. Five own initial PAN formulation profiles joinmainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800;ordinaryN210Cmin distinctfromTGIR20Cmin. SI/fullbodymethod/form/char checks completed;publisherarticle-in-pressversion/unknownfinalyear retained. Fig6TGIRsamplecaption andnonTGauxiliarytypos preserved,not corrected.
+
+### b180
+
+4 new states;4 TG conditions;0 held facts.
+- **10.1016/j.cej.2020.125410**: 4 accepted states;4 accepted conditions. Four owninitialPANcopolymer formulations joinMainTable1LOI/SIS3T5/twoDTGpeaks;ordinaryN220Cmin. Fourcharvalueshaveunknownendpointauxonly,neverR800. NativeactualS3tablelocatorpreserveddespitebodyS2reference;S4secondarycomparisonnotcounted;mufflecarbonization/TGIRnotborrowed.
+
+Original fulltexts/supplements and local paths remain local.
