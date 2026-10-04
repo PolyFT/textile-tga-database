@@ -1921,3 +1921,8 @@ One publication combines six previously reviewed groups B163-B168:22 new indepen
 - **10.1007/s12221-025-00994-1**: 3 accepted states;3 accepted conditions. AllowninitialTG/LOIdoseandwashedfactsstaged;criticalwaterT5/LOIconflictsandmissingownTGheldwithoutcherrypicking.
 
 Original fulltexts/supplements and local paths remain local.
+
+
+### b163_b168 publication proof
+
+[PR #127](https://github.com/PolyFT/textile-tga-database/pull/127) merged as `cbcd2f1c6312943a1246ef69e79f7c9dc27c1e8a` after exact-head [validation run 37182134939](https://github.com/PolyFT/textile-tga-database/actions/runs/37182134939) passed on `dbc212adcb0f89d9887782c4162a96e940fef41f`. All1757 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1256 states,1612 conditions,363 DOI sources and365 total sources. All1583 prior condition records and their fields, twentyone published file blobs, eight concurrent processing files and eighteen primary original hashes, seventy-two official native-table/supplement original hashes and ninety-two private text/fact evidence hashes are preserved. The complete9783842-byte master has SHA256 `ef5687988c5d6bf205841c38e99a73e5d11566449be2b63fc568ddf935883f5c`; the full remote report matches a fresh rebuild. Snapshot:`8e18120fee4ccc00028432bc9b42171bd61a05098da9669a0ff79ea2152b109b`. Twenty-two new pairs and twenty-nine TG conditions are published; evidence upgrades and legacy completions are zero;161 held facts remain excluded. Lease release follows this verified publication record.
