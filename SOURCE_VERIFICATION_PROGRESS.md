@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1301 unique reviewed source/sample/washing states**, **1661 TG condition records**, and **376 original sources (374 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1306 unique reviewed source/sample/washing states**, **1666 TG condition records**, and **377 original sources (375 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1301 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1100 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1105 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2056,3 +2056,35 @@ Original fulltexts/supplements and local paths remain local.
 ### b177_b180 publication proof
 
 [PR #132](https://github.com/PolyFT/textile-tga-database/pull/132) merged as `3e8d7cbe59a9fdf4dfcf8a54067c787dfa87ec1f` after exact-head [validation run 37195114056](https://github.com/PolyFT/textile-tga-database/actions/runs/37195114056) passed on `f0ae0f0d1900e8055c19e2e3f6a7d223a0290da6`. All1981 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1301 states,1661 conditions,374 DOI sources and376 total sources. All1652 prior condition records and their fields, fifteen published file blobs, eight concurrent processing files and five primary original hashes, six official native-table/supplement original hashes and seventeen private native text/JSON evidence hashes are preserved. The complete10226307-byte master has SHA256 `91a60a82e86865f4fa2df7c445f6a3093c9076880c42055ba5f33c668533ff78`; the full remote report matches a fresh rebuild. Snapshot:`498be37575b3c799bf14b627d5505498c5551f3060331681e40d0fa9aae74c20`. Nine new pairs and nine TG conditions are published; evidence upgrades and legacy completions are zero;33 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b181_b185 combined native-text textile publication
+
+Five complete native-text PDFs (68 pages) and 20 primary tables were reviewed; one local HTML was used only to locate a Wiley supplement link. Five initial DOPO-polysilsesquioxane woven-cotton states join own Table 4 TG and Table 5 LOI, with ordinary air/10 C min, explicit R800, extrapolated Tonset and peak-bound residue fields. Sol concentrations and measured add-ons have distinct bases. Three undefined second DTG peaks remain blank; no T5/T10 substitution, moisture-peak substitution, or vertical/cone test dimensions assigned to LOI. Online-first version retained without inventing final issue year. Eighteen facts remain held: four FGNS/PAN TG-only profiles lacking independent LOI and unavailable SI; four MPZSN/PAN text profiles pending full SI; five multifunctional cotton TG-only profiles without LOI; five MgO/cellulose LOI and unbound-char profiles lacking explicit residue temperature even after native SI review. Nine raw char percentages remain auxiliary, never assigned a program endpoint. The official MgO SI contains three figure captions and one BET table, not a fiber residue-temperature table; its TMA caption scope differs from the body cross-reference and is documented. Primary table totals include a comparison table and a standard test-liquid table, not additional TG sample counts. All 179 source-science guards, nine source regression tests and 106 canonical comparisons pass; zero accepted profile hits. Four held single-T5 coincidences do not establish aliases; ten raw-char provenance comparisons have zero hits. No scientific gate changes, curve estimates, guessed values or original uploads. Evidence upgrades and legacy completions are zero.
+
+### b181
+
+0 new states;0 TG conditions;4 held facts.
+- **10.1002/pc.25478**: 0 accepted states;0 accepted conditions. Four owninitialFGNS/PANTGprofiles(T5/threeDTGmaxima/explicitR800,N220Cmin40-800)preserved;noindependentprimaryLOI. Intro17citations/MCCnotpaired;SIdownload403unreviewed. DSC/mufflechar/MCCmethod/mass/repeatsnotborrowed;unusualreportedpumpunitpreserved.
+
+### b182
+
+0 new states;0 TG conditions;4 held facts.
+- **10.1016/j.cej.2019.04.209**: 0 accepted states;0 accepted conditions. AllfourbodyT5/LOIprofilespreservedpendingfullSIreview;unboundcharauxiliaryandunreportedDTGpeaktemperaturesnotinferred;ordinaryN210CminnotTGIR20.
+
+### b183
+
+5 new states;5 TG conditions;0 held facts.
+- **10.1007/s10570-015-0599-x**: 5 accepted states;5 accepted conditions. AllfiveinitialSiDOPOcottonfabricTable4TG/Table5LOIpairs;extrapolatedTonset/twoDTGpeakswith3undefinedsecondpeaks/peak-boundresidues/explicitR800/AIR10/1mg/n2. Solconcentrationsdistinctfrommeasuredadd-on;LOIdimensions/nunknownnotvertical/cone. Onlinefirstversion/noinventedfinalissue. Independent 72 science guards, 40 source canonical comparisons, nine source tests and whole-batch audit completed; five accepted states.
+
+### b184
+
+0 new states;0 TG conditions;5 held facts.
+- **10.1007/s10570-014-0293-4**: 0 accepted states;0 accepted conditions. FiveTGonlystaticAIR10/600cottonprofiles/Tonset/DTGpeak/peakresidue/explicitR600;all13pagesnoownLOI. Verticalafterflame9/afterglow9notLOI;hybridcomponentorderrawmappingpreserved;8otherrecipesnoquantitativeTGnotestimated.
+
+### b185
+
+0 new states;0 TG conditions;5 held facts.
+- **10.1016/j.carbpol.2017.08.096**: 0 accepted states;0 accepted conditions. AllfiveownLOI/explicitrawcharfactsheldforunreportedresiduetemperatureafterfullprimaryandnativeSIreview. OrdinaryN220/40mLmin/RT800notTMA3/90 ormuffle4001h;LOI3g100x40x2notcone10g100x100x4. Dosebases/ICPrawcalculations/source1#typoexplicit. NoestimatedTGpeak orR800inference.
+
+Original fulltexts/supplements and local paths remain local.
