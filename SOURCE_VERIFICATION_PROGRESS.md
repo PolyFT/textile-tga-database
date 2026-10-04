@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1345 unique reviewed source/sample/washing states**, **1719 TG condition records**, and **391 original sources (389 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1354 unique reviewed source/sample/washing states**, **1730 TG condition records**, and **394 original sources (392 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1345 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1144 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1153 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2287,3 +2287,40 @@ Original fulltexts/supplements and local paths remain local.
 ### b219_b220 publication proof
 
 [PR #140](https://github.com/PolyFT/textile-tga-database/pull/140) merged as `c9e4ea559e47ca0d41bae3e3d0fd3b501851de9c` after exact-head [validation run 37223756535](https://github.com/PolyFT/textile-tga-database/actions/runs/37223756535) passed on `86cc5d0ca4bd5a4016181cb87ee46d66e305ee23`. All 2088 offline tests, compilation, scientific validation and three merge checks passed. Independent verification confirms 1345 states, 1719 TG records, 389 DOIs and 391 sources. All 1712 prior records and fields, thirteen public blobs, eight concurrent bot files, two read-only library originals and two native caches are preserved. Sixteen primary PDF pages, five tables and fourteen captions were reviewed as text. Seven pairs/sevenTG are new; zero upgrades, two unknown-LOI PLA intermediate formulations held. Forty-two canonical comparisons preserve three adjudicated scalar-coincidence comparisons including one raw paired-scalar LOI31/R80024.8 coincidence with a distinct viscose Na formulation. Zero unresolved hits and zero duplicate sample-state hits are confirmed. PLA measured char is separate from calculated char, weightgain is not final additive fraction, and alginate generic DTG peaks remain noncanonical. Full remote master SHA256 `d45c9fd1deb74bbfed667bd811b763477998955eb50d1f10d974b76808f1c804`, bytes 10945922, and whole fresh report agree. Snapshot `03355da236e98eebf9fd920c3348eca198d0690f12602d81e074ae82f4a7218b`. Linked neat-TPA VideoS1 is unread; no curves/images were estimated. Lease release follows this verified record.
+
+
+## b223_b225 combined native-text textile publication
+
+Six source reviews provide nine new textile sample-state pairs and eleven ordinary TG records; evidence upgrades and legacy completions are zero. Four alginic-acid/Ba/Cu/Zn wet-spun fibers have own Table2 LOI24/45/30/42 and Table1 DTG peaks with measured R9000.63/34.2/16.1/16.2, under air10Cmin. Source T-5percent values63/53/51/52C lie in the explicitly defined40-170C water-desorption region and remain auxiliary water-loss facts; canonical T5/T10/Tonset are blank. Second DTG peaks may include char oxidation/inorganic carbonate transformations; metal-containing residue is not pure carbon. Direct chloride-bath wet spinning is distinguished from previously published sulfate ion-exchange preparations by both original recipes. Four cotton states are initial CO(OP),initial CO(FAS+OP),ten-wash CO(OP),ten-wash CO(FAS+OP), with own prose LOI34/34/28/25. Table3 static-air10Cmin TG supplies all four states; Table4 static-air2Cmin supplies two initial states, adding TG conditions without adding samples. At2Cmin OP/FAS+OP have no defined second DTG peak; those fields remain blank. Tonset is not T5 and peak-bound residual mass is not R700. Cotton finishes use80plusminus1percent wet pickup,dry120C,cure150C5min,neutralisation,and14days network formation; washes use40C30min detergent5gL and post-wash190C10s ironing. Bath concentrations are not retained fractions; OP-RB excludes melamine resin/phosphoric acid and is not an OP alias. The published edition is2014. Four initial control/FAS TG conditions remain held because the prose baseline LOI19 is not assigned unambiguously to either formulation; four1/5wash records have figure-only LOI; OP-RB has no own TG/LOI, totaling nine cotton holds. One initial calciumalginate fiber has own prose LOI34 and ordinary measured residue12.5percent at900C under air10Kmin, equivalent to10Cmin. Its TG program bounds,mass,flow,thresholds and DTG peaks are unreported and blank;900C is the residue endpoint, not an inferred program end. CaCl2bath4.5wtpercent is not retained calcium content; separate2h tube-furnace/XRD and cone-calorimeter residueabout25percent are not ordinary TG. Viscose LOI17 with cone residue9percent remains one LOI-only hold. The other38 held facts comprise seven same-PA6-fabric Table1 T5/Tmax and Table2 LOI records lacking ordinary TG atmosphere,19 acrylic/modacrylic LOI/draw states lacking own numerical fiber TG,and12 PAN/PVA LOI/treatment states whose MCC HRR peaks are not DTG. Chemical-synthesis nitrogen does not supply PA6 TG gas; seven Yc endpoint temperatures are unreported and canonical residue fields remain blank despite a700C program end. The full PA6 primary HTML, two official primary tables, and native DOCX body/two PyGC tables/three captions were read;15 embedded SI image parts remain unread. Acrylic neat-additive DSC/water-loss values are not fiber TG. PAN/PVA blend fractions differ from20wtpercent spinning-dope concentration, and HHA/NaOH states remain distinct. Forty primary PDF pages,one full primary HTML body,19 PDF tables,two official primary tables,58 primary figure captions and one scheme were read as native text. All208 separate primary-agent source guards and17 source regression tests passed; this is a separate review by the same agent, not an independent human reviewer. The142 full/reduced/temperature-bound-residue/rounding canonical comparisons cover current incoming records and private stages, disregard gas/rate for reuse screening, and find zero raw profile hits,zero unresolved approved hits and zero duplicate sample-state hits. Six read-only library originals,nine native caches and three official evidence files remain hash-bound. All48 held facts remain outside GradeA and the target count. Unknown assay geometry,replicates,conditioning and other conditions remain blank or explicitly qualified; no curves or figures are estimated. Public content includes factual data,DOI/page/table locators,explicit holds,tests and validation, without fulltexts,images or local paths. Evidence upgrades and legacy completions are zero.
+
+### b213
+
+0 new states;0 TG conditions;7 held facts.
+- **10.1007/s12221-026-01413-9**: 0 accepted states;0 accepted conditions. Seven own same-fabric Table1T5/Tmax andTable2LOI facts retained condition-partial;ordinary TG atmosphere unreported in full primary/native SI. ReactionN2cannot supplyTGgas. Every Yc endpoint unreported, so all canonical residue fields blank. Source concentration/ratio bases/controlpreconditioning/geometrydifferences remain unqualified. ZeroGradeAapprovals,noimages/curveestimates/washjoin.
+
+### b216
+
+0 new states;0 TG conditions;19 held facts.
+- **10.1007/bf01191947**: 0 accepted states;0 accepted conditions. Allsevennativepages/sixTablesI-VI/thirteenfigurecaptions/Conclusion/referencesread. TablesIII-VIsupply19ownfiberLOI/drawingstates;ordinaryTGair20Cmin3mgbutonlycurvesandqualitativeprose,nounambiguousnumericalfiberTGmetrics. Neatadditivewaterloss/DSCexothermsarenotfiberTG. Noimages/curveestimates;zeroapprovedpairs.
+
+### b221
+
+0 new states;0 TG conditions;12 held facts.
+- **10.1002/app.43006**: 0 accepted states;0 accepted conditions. All9primaryPDFpages5Tables10captionsConclusionreferencesreadnativeonly;12ownLOIstatesfourPAN_PVAblendformulationsbefore/HHA1h/HHAplusNaOH2hheldnoordinaryTG. TableIVTmax1/2explicitHRRpeaktemperaturesfromMCCnotTG_DTGemperature. NeitherthermoformingnorMCCranges/conditionsareTG;TableIboilingwater1hstatesnotLOIstates. SIglobalavailabilitynotasserted;0approvedpairs.
+
+### b223
+
+4 new states;4 TG conditions;0 held facts.
+- **10.1016/j.polymdegradstab.2012.03.004**: 4 accepted states;4 accepted conditions. Complete7primaryPDFpages3Tables12captionsnativeonlyreviewed. Fourinitialacid/Ba/Cu/ZnwetspunalginatefibersownLOI24/45/30/42,DTGmax1_250/254/248/238,max2_459/662/356/423,measuredresidue900C0.63/34.2/16.1/16.2approvedafter51sourceguards4source tests16canonicalcomparisons0hitsandreadonlyprojection4A. Air10Cmin5mgplatinumroom-900;gasflow/nunreported. Waterregion5percentloss63/53/51/52auxiliaryonlywithproseTonsetdefinitionconflict;canonicalT5/Tonsetblank. Peakspecificresiduesauxiliary/notR800. Differentdirectwetspinningchloridecoagulation16percentstretchrecipefromprevious2013acidconversion/ZnSO4ionexchangerecipe;bothoriginalhashesandtargetedMethodschecked. Bathconcentrations/retainedionsunreportedblank;CONE35vs50kWm2conflictnotTG. Noimagesorcurveestimates;SIglobalavailabilitynotasserted.
+
+### b224
+
+4 new states;6 TG conditions;9 held facts.
+- **10.1007/s10570-013-0103-4**: 4 accepted states;6 accepted conditions. All11primaryPDFpages5Tables9captionsnativeonlyread. FourcottonfabricstatesunwashedOP/FAS_OPownLOI34and10washironedOP28/FAS_OP25approvedafter62sourceguards6regressions96canonicalcomparisons0hitsandreadonlyprojection4states6A_TG. Tables3/4staticair10and2Cminforunwashedtwostates;10wash10Cminonly;ratesnotnewpairs. OwnTonset/Tmax1/Tmax2/observedR700;Table4single-stepOP/FAS_OPTmax2blank. NineheldfactsincludeCO_UN/FASbaseline19unboundfourTGconditions,1/5washLOIfigureonlyfourTGconditionsandOP_RBnoownTG_LOIonerow. OP_RBwithoutMR_H3PO4notOP;14daynetworkformationnot30dayformaldehydestorage;2LOIwarpmeasurementsnotphysicaln10/VFTn3. LOIgeometryconditioningunqualifiedblank/numericambientTGstartblank/gasstaticflowunknown/approx1mg;VFTgeometrynotLOI. Bathrecipesnotfinalretainedfractions;noimagesorcurveestimates.
+
+### b225
+
+1 new states;1 TG conditions;1 held facts.
+- **10.1142/s0256767909004527**: 1 accepted states;1 accepted conditions. One own initial calciumalginate fiber LOI34/R90012.5 pair approved after complete6page native review,23 separate source guards,2 canonical comparisons with zero hits,4 regression tests and readonly projection1state1TG. ViscoseLOI17 remainsheld;cone9percent is notTG. Finish PR140 exactrelease checks then freshmain/source/queue/PR/lease gates before nextpublication.
+
+Original fulltexts/supplements and local paths remain local.
