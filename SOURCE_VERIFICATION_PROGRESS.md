@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1217 unique reviewed source/sample/washing states**, **1561 TG condition records**, and **348 original sources (346 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1220 unique reviewed source/sample/washing states**, **1566 TG condition records**, and **350 original sources (348 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1217 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1016 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1019 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -1792,3 +1792,14 @@ Originals/fulltexts/native tables and local paths remain local.
 ### b157 publication proof
 
 [PR #121](https://github.com/PolyFT/textile-tga-database/pull/121) merged as `9413c4b06194035b9eb30e668cd112abd3a3114a` after exact-head [validation run 37168515476](https://github.com/PolyFT/textile-tga-database/actions/runs/37168515476) passed on `2c15e2cbaa194d428918e1a2a9638f0e935995b3`. All1498 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1217 states,1561 conditions,346 DOI sources and348 total sources. All1559 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and six primary original hashes, twenty-three official native-table/supplement original hashes and twenty-nine private text evidence hashes are preserved. The complete9217594-byte master has SHA256 `a3b0595a892f8ed72f6080ce2c8825a87269279cf74c4cc741d22b9f7a78e65b`; the full remote report matches a fresh rebuild. Snapshot:`0f107a506e8ceacfc4681d16780f9de4f7966e7f63b2d1497c9abcccddd60e26`. Two new pairs and two TG conditions are published; evidence upgrades and legacy completions are zero;54 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b158 Own CPAS control and Glu/Ca cotton fabrics
+
+Three initial cotton sample states add five TG conditions from two own original sources. Three primary scientific HTML bodies,14 native primary tables and two official supplements containingthree native tables were reviewed as text; primary introductions/abstracts/reference prose remain unread. CPAS/HP source contributesonly its explicitlylabelled ownCottoncontrol withLOI18 andtwoN2/airconditions;generictreatedFR/H/FRHdosesremainunresolved. Glu/Ca source contributesownCOTcontrol withLOI17.8/twogases andinitialCOTGluCaairLOI33.6/Tonset221.5/Tmax291.3/R8005.6. Two repeatedgasconditions do not add sampleidentities. Twenty-six of31 facts remain excluded:13 CPAS genericdose/washedfacts;tenBPNFR programendpoint/airthreshold/washedfacts;threeGluCa N2peakconflict/washed/rechelatedfacts. StandaloneBPNFR SI TG209F3end750 versusallTable2R800,andairT5>T10 inversions arekeptraw,notcorrectedusingseparateTGIRend800. TreatedGluCaN2Tmax287.8tableversus270.5body remainsheld;Table1Ga spellingiscrosswalkedtoCaCl2-preparedCa fabric withrawlabelandtypographicinference documented. All25 scientificguards pass. Seventy-two gas/rate-agnostic full/reduced/threshold-residue/rounding-risk comparisons normalize residuealiases/temperatures andfind noidenticalprofiles. T10/T50/Tonset/Tmax,waterloss,DTGpercentperminute/degree andTGresidueversusconechar staydistinct. Noimages,curveestimates,guessedconditionsorcomputedresidue. Evidence upgrades and legacy completions are zero.
+
+- **10.1007/s10570-024-05814-y**: One owninitialCottoncontrol state/twoN2-airTGconditions from nativeTables2/5,LOI18 andexplicitT10/T50/Tmax/R800 at20Cmin. Thirteenfactsheld: sixgenericFR/H/FRHTGdosebindings andsevenwashedLOIs. Nativeurea3g0.05mmol,Hmethod6wtversusS1H5/10/15,FRH4wtversusFig9FRH10,ConclusionLOI31versusTables35/34.3 andFRHR80034.21bodyversus34.2table retained. All6primarytables/officialSItextandoneS1surfaceat%table reviewed.
+- **10.1007/s12221-023-00445-9**: Alltenfactsheld:sixinitialTG/LOIfacts whose standaloneSI TG209F3program35-750conflictswithTable2R800;fourwashedLOIstateslackownTG. AirCF0T5=294>T10=251 andCF15T5=313>T10=291 physicallyinconsistent, keptrawwithoutswappingcolumns. SeparateTGIRSTA449F3program35-800notstandaloneendpoint. All5primarytables/officialSItextandtwoS1/S2materials-methodstables reviewed. DTGratespercentperC notpermin;measuredWGnotbath/finalfractions.
+- **10.1007/s10570-024-06121-2**: Two initialCOT/COTGluCa states/threeTGconditions:owncontrolN2/air andtreatedair. TreatedN2Tmax287.8Table1versus270.5body unresolved,thatconditionheld;two washed/rechelatedLOIstateslackownTG. Table1COTGluGa typo crosswalktoCaCl2-preparedCOTGluCa supportedbyExperimental/Fig7/Table2;rawlabelretained,noGaformulainvented. NativeTonsetcriterionnot5/10percent;R800explicit. All3primarytablesreviewed;noSIlinkcitedlocalHTML,noassertionglobalabsence.
+
+Originals/fulltexts/native tables and local paths remain local.
