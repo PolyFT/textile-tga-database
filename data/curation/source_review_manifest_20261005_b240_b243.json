@@ -1,0 +1,1175 @@
+{
+  "batch": "b240_b243",
+  "review_completed_utc": "2026-10-04T21:13:18.901546+00:00",
+  "baseline_counts": [
+    1360,
+    1740,
+    394
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 0,
+    "complete_primary_HTML_bodies": 0,
+    "targeted_official_comparator_HTML_checks": 0,
+    "targeted_official_standard_catalog_checks": 1,
+    "complete_text_primary_PDF_pages": 22,
+    "primary_tables_text_reviewed": 4,
+    "primary_figure_captions_text_reviewed": 22,
+    "primary_schemes_text_reviewed": 1,
+    "complete_official_SIs": 0,
+    "total_fact_rows": 16,
+    "held_fact_rows": 11,
+    "unbound_auxiliary_residue_metrics": 1,
+    "excluded_conflicting_metrics": 0,
+    "source_scientific_guards": 99,
+    "source_regression_tests": 6,
+    "canonical_comparisons": 65,
+    "canonical_adjudicated_not_duplicate_comparisons": 2,
+    "canonical_raw_hit_comparisons": 2,
+    "canonical_raw_paired_scalar_hit_comparisons": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "publication_groups": 2
+  },
+  "source_groups": [
+    {
+      "batch": "b240",
+      "csv_sha256": "b819c29e68624baffa352c08184c5fa95388f0e494887663e0caa4b77960c1ec",
+      "new_states": 3,
+      "new_conditions": 3,
+      "held": 7,
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.polymdegradstab.2019.109065",
+          "title": "Flame retardant efficiency of modified para-aramid fiber synergizing with ammonium polyphosphate on PP/EPDM",
+          "accepted_states": 3,
+          "accepted_conditions": 3,
+          "potential_states": 3,
+          "potential_conditions": 3,
+          "staged_held_rows": 7,
+          "complete_primary_PDF_pages": 12,
+          "primary_tables_reviewed": 4,
+          "figure_captions_read": 14,
+          "disposition": "Three whole para-aramid-containing PP/EPDM initial molded-sheet pairs: own Table1 LOI25.5/28/29 and Table2 T5/Tmax/R80027.2/28.0/28.9,N2_10Cmin5-8mgroom-800. Table1 wtpercent versus body phr anomaly retained; R350/Rmax/CONE/sintering not decomposition peaks. Five unmatched fiber-dose LOI facts and two fiber-free comparators excluded. All12 pages4tables14captions read;50separate guards,3regressiontests,41canonicalcomparisons0hits and strict readonly projection passed."
+        }
+      ]
+    },
+    {
+      "batch": "b243",
+      "csv_sha256": "966d6c201488a2d391197932b9004f8d0e83bef7fb74f2cfd085a566252253ee",
+      "new_states": 2,
+      "new_conditions": 2,
+      "held": 4,
+      "source_findings": [
+        {
+          "DOI": "10.1016/j.eurpolymj.2017.06.037",
+          "title": "UV-induced surface grafting polymerization for preparing phosphorus-containing flame retardant polyacrylonitrile fabric",
+          "accepted_states": 2,
+          "accepted_conditions": 2,
+          "potential_states": 2,
+          "potential_conditions": 2,
+          "staged_held_rows": 4,
+          "complete_primary_PDF_pages": 10,
+          "primary_tables_reviewed": 0,
+          "figure_captions_read": 8,
+          "schemes_read": 1,
+          "disposition": "Two initial150gm2 woven PAN pairs: own PAN LOI17.1/reported initial decomposition298.60C and FR-PAN-g-HEMA23 LOI32/R80040.55,N2_20Cminambient-800. Unknown onset criterion and misreported LOI standard explicitly qualified; no T5/T10/DSC/water peaks inferred. Three graft doses with figure-only LOI and one dose-unbound residue held. All10pages8captions1scheme read;49separate guards,3regressiontests,24canonicalcomparisons retaining2source-adjudicated scalar coincidences/0pairedhits/0unresolved and strict readonly projection passed."
+        }
+      ]
+    }
+  ],
+  "scientific_findings": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2019.109065",
+      "title": "Flame retardant efficiency of modified para-aramid fiber synergizing with ammonium polyphosphate on PP/EPDM",
+      "accepted_states": 3,
+      "accepted_conditions": 3,
+      "potential_states": 3,
+      "potential_conditions": 3,
+      "staged_held_rows": 7,
+      "complete_primary_PDF_pages": 12,
+      "primary_tables_reviewed": 4,
+      "figure_captions_read": 14,
+      "disposition": "Three whole para-aramid-containing PP/EPDM initial molded-sheet pairs: own Table1 LOI25.5/28/29 and Table2 T5/Tmax/R80027.2/28.0/28.9,N2_10Cmin5-8mgroom-800. Table1 wtpercent versus body phr anomaly retained; R350/Rmax/CONE/sintering not decomposition peaks. Five unmatched fiber-dose LOI facts and two fiber-free comparators excluded. All12 pages4tables14captions read;50separate guards,3regressiontests,41canonicalcomparisons0hits and strict readonly projection passed."
+    },
+    {
+      "DOI": "10.1016/j.eurpolymj.2017.06.037",
+      "title": "UV-induced surface grafting polymerization for preparing phosphorus-containing flame retardant polyacrylonitrile fabric",
+      "accepted_states": 2,
+      "accepted_conditions": 2,
+      "potential_states": 2,
+      "potential_conditions": 2,
+      "staged_held_rows": 4,
+      "complete_primary_PDF_pages": 10,
+      "primary_tables_reviewed": 0,
+      "figure_captions_read": 8,
+      "schemes_read": 1,
+      "disposition": "Two initial150gm2 woven PAN pairs: own PAN LOI17.1/reported initial decomposition298.60C and FR-PAN-g-HEMA23 LOI32/R80040.55,N2_20Cminambient-800. Unknown onset criterion and misreported LOI standard explicitly qualified; no T5/T10/DSC/water peaks inferred. Three graft doses with figure-only LOI and one dose-unbound residue held. All10pages8captions1scheme read;49separate guards,3regressiontests,24canonicalcomparisons retaining2source-adjudicated scalar coincidences/0pairedhits/0unresolved and strict readonly projection passed."
+    }
+  ],
+  "scientific_review_status": "Approved after99 separate source guards,6 regression tests,65 canonical comparisons retaining2 adjudicated scalar hits/0pairedhits/0unresolved and readonly5state5TGprojection;11heldexcluded",
+  "verification_limit": "Two complete primary PDF sources add five new textile-related sample-state pairs and five ordinary TG records; evidence upgrades and legacy completions are zero. Three are whole short para-aramid-containing PP/EPDM molded composites PP/EPDM-3,7,8. Table1 p2 gives LOI25.5/28/29 and formulations matrix65/APP34.5/AF0.5, matrix65/APP34.5/AF-P-Si0.5, matrix65/APP34/AF-P-Si1 wtpercent. Table2 p5 gives T5_344/363/350,Tmax471/471/472,R80027.2/28.0/28.9 under N2 at10C/min, room-temperature to800C,5-8mg. Table1 wtpercent versus body phr is retained as a source unit anomaly; no internal PP/EPDM ratio is invented. R350 is retained mass, Rmax is mass-loss rate, and neither is a decomposition temperature. Five other fiber-dose LOI records lack own printed TG metrics; two fiber-free comparators are outside textile scope. All seven remain held or excluded. Two are initial woven PAN fabric states with AN95/VA5 composition and150g/m2. Untreated PAN has own p9 LOI17.1 and reported p7 initial decomposition temperature298.60C; its unspecified onset criterion is retained, never called T5/T10/Tmax. FR-PAN-g-HEMA23 has own p9 LOI32 and p8 measured R80040.55 under N2 at20C/min,ambient to800C. It is HEMA-grafted fabric after phosphorylation and preparation rinsing, distinct from durability washing. Graft gain23percent uses original fabric mass as denominator, not final retained fraction; optimized UV conditions are not assigned to the characterized specimen. Three other graft doses have own onset but figure-bar-only LOI; generic graft R80028.9 is dose-unbound. These four remain held. Water-loss intervals, DSC exotherms, cone residues and stage boundaries are not canonical TG decomposition peaks. The PAN source cites ASTM D6413-08 for LOI despite explicitly describing an oxygen-index apparatus. The official ASTM catalog identifies that standard as a vertical textile flame test. The raw miscitation remains visible and the actual LOI standard stays unknown; no replacement standard or protocol certification is inferred. This is one targeted official catalog check, not a full standard or primary HTML review. All22 primary PDF pages,four tables,22 figure captions and one scheme were read as native text. Two originals,two native caches and a separate catalog fact record are hash-bound outside the library. All99 separate source guards and six source regression tests passed; these are separate passes by the same primary agent, not an independent human review. The65 canonical comparisons cover current incoming rows and private stages while ignoring gas/rate for reuse screening. Two raw scalar-coincidence comparisons are retained and adjudicated using original materials,recipes,form and own LOI: FR-PAN R80040.55 versus another untreated400g/m2 PAN control40.6, and held generic PAN-g-HEMA R80028.9 versus PP/EPDM-8. Neither supplies a reused paired profile; zero unresolved hits or duplicate sample states remain. Targeted comparator reads are not counted as full new-paper reviews. All11 held facts stay outside GradeA and the target count. Unknown assay conditions remain blank or explicitly qualified. No curve estimates, guessed values, copyrighted fulltexts, images, private paths or annotations are published.",
+  "canonical_profile_dedup_audit": {
+    "summary": {
+      "comparisons": 65,
+      "baseline_rows": 9024,
+      "incoming_baseline_rows": 5052,
+      "private_stage_files_compared": 140,
+      "raw_hit_comparisons": 2,
+      "raw_paired_profile_hit_comparisons": 0,
+      "raw_hit_presentations": 4,
+      "approved_profile_hits": 1,
+      "held_hit_comparisons": 1,
+      "unresolved_profile_hits": 0,
+      "endpoint_unknown": [],
+      "gas_rate_agnostic": true,
+      "residue_aliases_and_temperature_normalized": true,
+      "adjudicated_not_duplicate_comparisons": 2,
+      "canonical_duplicate_sample_states": 0,
+      "raw_hits_retained": true
+    },
+    "comparisons": [
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-1_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-2_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-3_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-7_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "reduced_drop_threshold",
+        "metrics": [
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "threshold_and_temperature_bound_residue",
+        "metrics": [
+          "T5_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2019.109065",
+        "sample": "PP_EPDM-8_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_risk_Tmax_with_exact_T5_and_residue",
+        "metrics": [
+          "T5_C",
+          "Tmax1_C",
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA49_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA49_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA49_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA49_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA74_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA74_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA74_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA74_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "Tonset_C"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "FR-PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "FR-PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "FR-PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "FR-PAN-g-HEMA23_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": [
+          {
+            "DOI": "10.1002/app.46752",
+            "sample_state": "PAN",
+            "washing_state": "Initial0durabilitycycles",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "17",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "312",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "324",
+            "Tmax2_C": "414",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "40.6",
+            "residue_pct": "40.6",
+            "residue_temp_C": "800"
+          },
+          {
+            "DOI": "10.1002/app.46752",
+            "sample_state": "PAN",
+            "washing_state": "Initial0durabilitycycles",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "17",
+            "atmosphere": "N2",
+            "heating_rate_C_min": "10",
+            "T5_C": "312",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "324",
+            "Tmax2_C": "414",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "40.6",
+            "residue_pct": "40.6",
+            "residue_temp_C": "800"
+          }
+        ],
+        "adjudications": [
+          {
+            "status": "distinct_original_specimen_not_duplicate",
+            "reason": "Own scoured 400 g/m2 untreated PAN control has LOI17.0 and R80040.6, N2 at10C/min (Materials, Characterization, TableII p7, TableIV p8). Incoming FR-PAN-g-HEMA23 is 150 g/m2 woven fabric after HEMA grafting and phosphorylation, own LOI32 and R80040.55 at20C/min. Different areal density, treatment and own LOI establish different specimens; only residue rounding coincides.",
+            "source_url": "https://doi.org/10.1002/app.46752",
+            "source_locators": "Materials/preparation and own TG/LOI tables or prose as specified in reason",
+            "review_scope": "Targeted original-text comparator check; not a new complete-paper review"
+          }
+        ],
+        "adjudication_status": "all_raw_scalar_hits_distinct_original_specimens"
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA_concentration_unbound_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA_concentration_unbound_initial",
+        "gas": "nitrogen",
+        "comparison": "full",
+        "metrics": [
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "residue_aliases_and_temperature_normalized": true,
+        "hits": [
+          {
+            "DOI": "10.1016/j.polymdegradstab.2019.109065",
+            "sample_state": "PP_EPDM-8_initial",
+            "washing_state": "initial_unlaundered",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "29",
+            "atmosphere": "nitrogen",
+            "heating_rate_C_min": "10",
+            "T5_C": "350",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "472",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "28.9",
+            "residue_pct": "28.9",
+            "residue_temp_C": "800"
+          },
+          {
+            "DOI": "10.1016/j.polymdegradstab.2019.109065",
+            "sample_state": "PP_EPDM-8_initial",
+            "washing_state": "initial_unlaundered",
+            "pairing_status": "verified_exact",
+            "LOI_pct": "29",
+            "atmosphere": "nitrogen",
+            "heating_rate_C_min": "10",
+            "T5_C": "350",
+            "T10_C": "",
+            "Tonset_C": "",
+            "Tmax1_C": "472",
+            "Tmax2_C": "",
+            "R600_pct": "",
+            "R700_pct": "",
+            "R800_pct": "28.9",
+            "residue_pct": "28.9",
+            "residue_temp_C": "800"
+          }
+        ],
+        "adjudications": [
+          {
+            "status": "distinct_original_specimen_not_duplicate",
+            "reason": "Own PP/EPDM-8 aramid-containing molded composite has matrix65/APP34/AF-P-Si1 wtpercent, LOI29, T5_350, Tmax472 and R80028.9, N2 at10C/min (Table1 p2, Table2 p5). Incoming generic PAN-g-HEMA is woven PAN fabric with graft dose unbound and no own numeric LOI. Different polymers, form and formulation establish different specimens. This scalar coincidence does not resolve missing LOI or qualify the held PAN record.",
+            "source_url": "https://doi.org/10.1016/j.polymdegradstab.2019.109065",
+            "source_locators": "Materials/preparation and own TG/LOI tables or prose as specified in reason",
+            "review_scope": "Targeted original-text comparator check; not a new complete-paper review"
+          }
+        ],
+        "adjudication_status": "all_raw_scalar_hits_distinct_original_specimens"
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA_concentration_unbound_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R800_pct",
+          "LOI_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      },
+      {
+        "DOI": "10.1016/j.eurpolymj.2017.06.037",
+        "sample": "PAN-g-HEMA_concentration_unbound_initial",
+        "gas": "nitrogen",
+        "comparison": "rounding_full_profile",
+        "metrics": [
+          "R800_pct"
+        ],
+        "gas_rate_agnostic": true,
+        "temperature_tolerance_C": 0.1,
+        "residue_tolerance_pct": 0.05,
+        "hits": []
+      }
+    ]
+  },
+  "official_missing_key_evidence_reviews": [],
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1740,
+    "new_states": 5,
+    "new_conditions": 5,
+    "evidence_upgrades": 0,
+    "verified_states": 1365,
+    "verified_conditions": 1745,
+    "verified_dois": 396,
+    "verified_sources": 398,
+    "offline_tests_passed": 2116,
+    "snapshot_sha256": "0d9bb821c3e2f5179d1506376966d9fd771b470592f5c989bce5b763d9dd9fa9",
+    "master_sha256": "bb17008d17bb9be1a9d8733a09716f28de418cf64fa3e665fcb7fc869a9eb5cb",
+    "validation_errors": [],
+    "held_fact_rows": 11,
+    "complete_original_text_pages": 22,
+    "complete_primary_HTML_bodies": 0,
+    "primary_HTML_scientific_bodies_reviewed": 0,
+    "targeted_official_comparator_HTML_checks": 0,
+    "targeted_official_standard_catalog_checks": 1,
+    "complete_primary_originals": 2,
+    "library_originals_hash_verified": 2,
+    "complete_official_SIs_text_tables": 0,
+    "complete_official_primary_tables": 0,
+    "primary_PDF_tables": 4,
+    "primary_figure_captions": 22,
+    "primary_schemes": 1,
+    "unchanged_private_evidence_files": 3,
+    "canonical_comparisons": 65,
+    "canonical_adjudicated_not_duplicate_comparisons": 2,
+    "canonical_raw_paired_scalar_hit_comparisons": 0,
+    "canonical_raw_hit_comparisons": 2,
+    "canonical_unresolved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "unbound_auxiliary_residue_metrics": 1,
+    "excluded_conflicting_metrics": 0,
+    "new_source_inventory_states": 5,
+    "newly_completed_existing_TG_only_states": 0
+  }
+}
