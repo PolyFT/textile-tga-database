@@ -1787,3 +1787,8 @@ Two initial cotton sample states and two TG conditions are supported by native p
 - **10.1007/s10570-022-04478-w**: Twenty-seven facts held: sixgenericLOI/twelvelayerLOI/fiveownfabricTGweightloss-only/fourwashedmassloss groups. InertTGgasidentityunknown;coatingcount unbound. Authorapproxweightloss notcomputedresidue;DTA/DSCnotDTG. S3reportedmeans/rawreplicas/mainconflicts andS4layerdifferences retained. AllSItext/20tables reviewed;bulkFR TGnotfabricTG.
 
 Originals/fulltexts/native tables and local paths remain local.
+
+
+### b157 publication proof
+
+[PR #121](https://github.com/PolyFT/textile-tga-database/pull/121) merged as `9413c4b06194035b9eb30e668cd112abd3a3114a` after exact-head [validation run 37168515476](https://github.com/PolyFT/textile-tga-database/actions/runs/37168515476) passed on `2c15e2cbaa194d428918e1a2a9638f0e935995b3`. All1498 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1217 states,1561 conditions,346 DOI sources and348 total sources. All1559 prior condition records and their fields, eleven published file blobs, eight concurrent processing files and six primary original hashes, twenty-three official native-table/supplement original hashes and twenty-nine private text evidence hashes are preserved. The complete9217594-byte master has SHA256 `a3b0595a892f8ed72f6080ce2c8825a87269279cf74c4cc741d22b9f7a78e65b`; the full remote report matches a fresh rebuild. Snapshot:`0f107a506e8ceacfc4681d16780f9de4f7966e7f63b2d1497c9abcccddd60e26`. Two new pairs and two TG conditions are published; evidence upgrades and legacy completions are zero;54 held facts remain excluded. Lease release follows this verified publication record.
