@@ -1802,6 +1802,27 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261004_b198_local_textile.csv",
+      "accepted_rows": 9,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261004_b199_local_textile.csv",
+      "accepted_rows": 6,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261004_b200_local_textile.csv",
+      "accepted_rows": 5,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -2082,9 +2103,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 4894,
-  "legacy_field_complete_condition_records": 2002,
-  "numeric_pair_candidate_rows": 2296,
+  "all_loaded_rows": 4914,
+  "legacy_field_complete_condition_records": 2007,
+  "numeric_pair_candidate_rows": 2303,
   "eligible_pending_condition_records": 368,
   "quarantined_condition_records": 34,
   "quarantine_reason_counts": {
@@ -2092,21 +2113,21 @@
     "possible_sample_alias": 15,
     "specimen_form_mismatch": 18
   },
-  "strict_tg_loi_pairs": 1679,
-  "verified_exact_condition_records": 1679,
-  "verified_exact_sample_states": 1315,
-  "verified_exact_dois": 379,
-  "verified_exact_sources": 381,
+  "strict_tg_loi_pairs": 1684,
+  "verified_exact_condition_records": 1684,
+  "verified_exact_sample_states": 1318,
+  "verified_exact_dois": 381,
+  "verified_exact_sources": 383,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1671,
+  "verified_doi_condition_records": 1676,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1307,
+  "verified_doi_sample_states": 1310,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 236,
-      "sample_states": 740,
-      "condition_records": 1004
+      "sources": 238,
+      "sample_states": 743,
+      "condition_records": 1009
     },
     "conference_proceedings": {
       "sources": 5,
@@ -2140,24 +2161,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 446,
-  "candidate_sample_states": 1739,
-  "rows_with_numeric_loi": 3835,
-  "rows_with_any_tg_numeric": 2822,
+  "candidate_dois": 449,
+  "candidate_sample_states": 1744,
+  "rows_with_numeric_loi": 3847,
+  "rows_with_any_tg_numeric": 2834,
   "rows_missing_atmosphere_among_pair_candidates": 54,
-  "rows_missing_heating_rate_among_pair_candidates": 161,
+  "rows_missing_heating_rate_among_pair_candidates": 163,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 685,
+  "remaining_to_target": 682,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 1138,
+    "Tmax1_C": 1142,
     "T5_C": 651,
     "Tonset_C": 236,
     "R600_pct": 366,
-    "R700_pct": 360,
+    "R700_pct": 364,
     "R800_pct": 361
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "9c58bb56a73706bf2e7a5fcd38d7126779ee3f8618f7a14361081932186071bd"
+  "snapshot_sha256": "09a3036c04c3f5e5402e8d3f783855bc054bbe5388559117be478d4275f183bb"
 }
