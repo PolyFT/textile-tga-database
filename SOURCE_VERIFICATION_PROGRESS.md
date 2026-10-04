@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1311 unique reviewed source/sample/washing states**, **1671 TG condition records**, and **379 original sources (377 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1315 unique reviewed source/sample/washing states**, **1679 TG condition records**, and **381 original sources (379 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1311 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1110 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1114 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2130,3 +2130,35 @@ Original fulltexts/supplements and local paths remain local.
 ### b187_b191 publication proof
 
 [PR #134](https://github.com/PolyFT/textile-tga-database/pull/134) merged as `845a5d129c302dbb867969a2d3ba22659f14fe29` after exact-head [validation run 37202364156](https://github.com/PolyFT/textile-tga-database/actions/runs/37202364156) passed on `4c199c193b85de40b8093d76a0d622e4c5a9b015`. All2009 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1311 states,1671 conditions,377 DOI sources and379 total sources. All1666 prior condition records and their fields, seventeen published file blobs, eight concurrent processing files and five library original hashes (four HTML scientific bodies and one complete14page PDF), sixteen official table/supplement original hashes and twenty-two private native text/JSON evidence hashes are preserved. The complete10402886-byte master has SHA256 `f907b7921c8f90a7fda82aab34060f3947a87f38a78709187aa29945802d5b71`; the full remote report matches a fresh rebuild. Snapshot:`8c041fae980791b592a17892440435db33ecb821f3841b3c5dc54b9a362c6934`. Five new pairs and five TG conditions are published; evidence upgrades and legacy completions are zero;34 held facts remain excluded. Lease release follows this verified publication record.
+
+
+## b192_b197 combined native-text textile publication
+
+Four primary HTML scientific bodies and one complete 15-page primary PDF were reviewed as native text, including 24 primary tables: 17 publisher-linked HTML tables and seven PDF tables. Three linked DOCX supplements contain 11 native tables: nine own scientific tables, one mixed own/comparison table and one index table. Four new initial cotton sample-state pairs and eight TG conditions are approved: one neat cotton control from the photoATRP source with own LOI19 and Table6 air/N2 T10, DTG maxima, R600 and R800; three PA/TA/VTS cotton states Cotton/FR-1/FR-2 with own Table4 LOI19/23/29, Table3 N2 T5/DTG/R800 and SI S1 air T10/two DTG maxima/R800. N2 and air conditions count once per independent sample. Ordinary TG methods remain distinct from TGIR, MCC, cone and flame-test conditions. Unknown ordinary flow, mass, replication and air scan range remain blank. Peak-bound residue is separated from endpoint residue; maximum loss rates reported in percent per degree remain raw without conversion. The photoATRP air control Table6 reports R8004.8 versus R6004.4; this native anomaly is explicitly retained without an invented correction. PA/TA/VTS FR-2 weight gain is9.5wt% in preparation versus9.3wt% in the conclusion; both native values are preserved and the unified loading field is blank, while own TG and LOI use the same FR-2 label. Thirty-four facts remain held: two cotton/steel curtain records lacking ordinary TG atmosphere/ramp; four coating-fabric LOI records without own fabric TG, where bulk weight loss and DSC cannot be substituted; 21 final APGDPE version facts under the existing B86 version/reuse hold, including FRC3 already counted once from the preprint with two gases and an approximately18% control LOI, plus other doses/washes lacking TG and a30.3-versus30.0 washed LOI conflict; six photoATRP TG profiles without their own LOI and Cg41 LOI30 without its own TG. No TG is copied across graft percentages, washed states, forms or versions. All411 independent scientific guards,14 source regression tests and132 whole-batch canonical comparisons pass with zero accepted profile hits; eight held profile-hit comparisons remain excluded. Evidence upgrades and legacy completions are zero. No gate changes, image readings, curve estimates, guessed values or original uploads. Evidence upgrades and legacy completions are zero.
+
+### b192
+
+0 new states;0 TG conditions;2 held facts.
+- **10.1007/s12221-023-00316-3**: 0 accepted states;0 accepted conditions. TwoownhybridcottonsteelcurtainTG_LOIfactsheldforunreportedordinarygas/ramp;LOI19/29.2andnative593.91Cresidue14.90/38.95retained. Table4begin/endundefinedcriterionauxiliarynotT5/Tonset/Tmax;weightlossnotresidue;noR600rounding;14UVrecipesnot14thermalfirepairs;20LCUVtestnotwashedTG/LOI.
+
+### b194
+
+0 new states;0 TG conditions;4 held facts.
+- **10.1007/s10570-022-04783-4**: 0 accepted states;0 accepted conditions. FourreportedfabricLOImeans17.6/18.2/18/34.1andall5replicateseachretained;noownfabricTG. BulkadditiveS2weightloss20ish/14.31/41.68notderivedresidueorfabricTG;S6ourscopelabelcontradictsprimaryFig4bulk. S3DSCnotTG/100Cwaternotdecomppeak. S7washweightsandforeigncomparisonrowsnotnewTG_LOIpairs;SIindextablecountseparate.
+
+### b195
+
+0 new states;0 TG conditions;21 held facts.
+- **10.1007/s10570-021-04049-5**: 0 accepted states;0 accepted conditions. Publisher15pageversionreviewednative:21factsheldunderexistingB86finalversionalias/reusehold. FRC3N2/AIRfullymatchesalreadycountedpreprintonepairedstate2TG—notnew. ControlLOIabout18.0remainsheldfornoexactunqualifiedvalue. All17otherdose/washfactsheldnoTGborrow;FRC230LC30.3vs30.0conflictretained. Noadditionalpairedcount;publishevidenceupgradewouldrequireseparateversionadjudication.
+
+### b196
+
+1 new states;2 TG conditions;7 held facts.
+- **10.1007/s10570-022-04982-z**: 1 accepted states;2 accepted conditions. OneprovisionalowninitialneatcottoncontrolLOI19withTable6air/N2T10/DTG/R600/R800;airpeakbound11.1at468notendpoint. Other6TGprofilesheldwithoutownLOI;Cg41LOI30heldwithoutownTG. WashedCg41assayHFTonlynoTG/LOI;Cg22/Cg33/Cg53/Cg64plusmelamine/chitosanHFT/VFTstatesnotnewpairedfacts. Airnativeendpointincrease0.4retainedwithoutinventingcorrection;nofigureestimates.
+
+### b197
+
+3 new states;6 TG conditions;0 held facts.
+- **10.1007/s10570-022-05005-7**: 3 accepted states;6 accepted conditions. ThreeprovisionalsameinitialCotton/FR-1/FR-2N2andAIRTGprofilesplusnativeLOITable4. N2T5andAIRT10distinct;AIRR8000/7.8/9.3notN2R80013/23/36orcone3/8.3/35. OrdinaryAIRramp10butscanrange/mass/flowunreported;N2Q50035-80010notTGIR40-800flow50. FR2loading9.5preparationvs9.3conclusionmetadataheldasrawconflict;canonicalloadingblankwithoutguessinganddoesnotchangeexplicitmatchingownFR2labels. Exactweaveunknown;noforcedwovenclassification.
+
+Original fulltexts/supplements and local paths remain local.
