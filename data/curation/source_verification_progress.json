@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-04T06:48:35.290541+00:00",
+  "as_of_utc": "2026-10-04T07:10:54.477316+00:00",
   "latest_batch_id": "20261004_b169",
   "verified_condition_records": 1615,
   "verified_unique_sample_states": 1259,
@@ -18,8 +18,8 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b169_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261004_b163_b168",
+  "publication_stage": "b169_merged_remote_verified_pending_lease_release",
+  "last_merged_batch": "20261004_b169",
   "writer_lease": {
     "owner": "codex-local-textile-b169-20261004",
     "status": "active",
@@ -3925,6 +3925,25 @@
     "held_fact_rows": 57,
     "fully_held_other_primary_sources": 1,
     "tests_passed": 1786,
-    "snapshot_sha256": "8fc27de578da73493f3dccdd0d2702778617ff6f0f3934ed2ed7affc9d284fbf"
+    "snapshot_sha256": "8fc27de578da73493f3dccdd0d2702778617ff6f0f3934ed2ed7affc9d284fbf",
+    "publication": {
+      "head_sha": "81340739a8f65596046becac93087e579fb3ceac",
+      "merge_sha": "8081922fbd8b4988d7822a956d0f1ea439ba5d65",
+      "validation_run": 37184171429,
+      "snapshot_sha256": "8fc27de578da73493f3dccdd0d2702778617ff6f0f3934ed2ed7affc9d284fbf",
+      "master_sha256": "bd0f16d936586493a70d25e4ca9c4bc9eb8916987d7bf18abe8481d90aca13fb",
+      "independent_remote_master_blob_sha": "350387beeafed375f7fce29f95741848f7b49e3d",
+      "independent_remote_master_bytes": 9834478,
+      "postmerge_runs": [
+        37184432060,
+        37184432030,
+        37184432026
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 11,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/128",
+      "status": "merged_remote_verified"
+    }
   }
 }
