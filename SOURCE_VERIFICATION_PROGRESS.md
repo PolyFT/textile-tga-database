@@ -1963,3 +1963,8 @@ One publication combines two previously reviewed groups B170/B171:12 new indepen
 - **10.1007/s10570-024-06209-9**: 0 accepted states;0 accepted conditions. Native facts and scientific exclusions retained;see combined source manifest.
 
 Original fulltexts/supplements and local paths remain local.
+
+
+### b170_b171 publication proof
+
+[PR #129](https://github.com/PolyFT/textile-tga-database/pull/129) merged as `c0e62b113a1a259623e0494afd559835d2992eb5` after exact-head [validation run 37186430349](https://github.com/PolyFT/textile-tga-database/actions/runs/37186430349) passed on `c6c780442ad9d1eb03722847f213882c9a338fcb`. All1844 offline tests, compilation and scientific validation passed; all three merge-triggered checks succeeded. Independent remote verification confirms1271 states,1631 conditions,368 DOI sources and370 total sources. All1615 prior condition records and their fields, thirteen published file blobs, eight concurrent processing files and six primary original hashes, twenty-four official native-table/supplement original hashes and thirty private native text evidence hashes are preserved. The complete9963741-byte master has SHA256 `5ee64a6b79a6d90db5de31e39363623bf46aa89f2a037281047f9b849478fea7`; the full remote report matches a fresh rebuild. Snapshot:`275a89a7cc89ece5dd4bbbc33742e73db9ad3be6e53aedbe5989f6f064bdfb1e`. Twelve new pairs and sixteen TG conditions are published; evidence upgrades and legacy completions are zero;60 held facts remain excluded. Lease release follows this verified publication record.
