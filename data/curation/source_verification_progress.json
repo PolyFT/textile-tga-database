@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-04T11:41:42.922688+00:00",
-  "latest_batch_id": "20261004_b181_b185",
-  "verified_condition_records": 1666,
-  "verified_unique_sample_states": 1306,
-  "verified_dois": 375,
-  "numeric_pair_candidate_rows": 2269,
+  "as_of_utc": "2026-10-04T12:25:03.233297+00:00",
+  "latest_batch_id": "20261004_b187_b191",
+  "verified_condition_records": 1671,
+  "verified_unique_sample_states": 1311,
+  "verified_dois": 377,
+  "numeric_pair_candidate_rows": 2282,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1105,
+  "cumulative_newly_completed_or_new_source_sample_states": 1110,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b181_b185_merged_remote_verified_lease_released",
+  "publication_stage": "b187_b191_combined_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261004_b181_b185",
   "writer_lease": {
     "owner": "codex-local-textile-b187_b191-20261004",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "Four complete primary HTML scientific bodies and one complete 14-page primary PDF were reviewed as native text, with 13 official primary tables and three linked supplements containing nine native tables. Five new initial sample-state pairs are approved: one 15%-AAPP lyocell state with own S6 T5/T50/DTGmax/R600 and LOI39, plus four THPO/guanazole woven-cotton states Untreated/C1/C2/C3 with own Tables2-3 T5/DTGmax/R800/LOI. Ordinary methods are N2/10Cmin/30-600 for lyocell and N2/20Cmin/roomtemperature-800 for woven cotton; unknown numeric room temperature remains blank. Stock finishing concentrations, retained additive quantities and coating weight gains have distinct bases. Thirty-four facts remain held: eleven AAPP control/other-dose/washed states with unresolved control DTG or LOI conflicts/no own TG; five FR-P lyocell gas/wash records with unqualified draw-state mapping/control LOI or washed TG absent; four CoBi/MoS2 PAN formulations awaiting native SI S3, retaining reported approximations and increments without computing absolute metrics; seven P/Si cotton records with fiber TG versus spun-yarn LOI form mismatch and no own washed TG; seven THPO/guanazole PDMS/synergy/wash records with main LOI25 versus abstract/conclusion/SI27 or no own TG. No initial TG is cloned across washes, doses, draw ratios or SI aliases. Unknown gas/ramp/mass/geometry are not borrowed across TGIR/MCC/cone/UL94 tests; TG residue endpoints are explicit, never inferred from program end. All 349 independent scientific guards, 19 scientific regression tests and 97 canonical profile comparisons pass with zero accepted hits. Nine SI tables comprise seven own tables, one mixed own/comparison table and one foreign comparison table; comparison rows are not new pairs. No gate changes, curve estimates, guessed values or original uploads. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Five complete native-text PDFs (68 pages) and 20 primary tables were reviewed; one local HTML was used only to locate a Wiley supplement link. Five initial DOPO-polysilsesquioxane woven-cotton states join own Table 4 TG and Table 5 LOI, with ordinary air/10 C min, explicit R800, extrapolated Tonset and peak-bound residue fields. Sol concentrations and measured add-ons have distinct bases. Three undefined second DTG peaks remain blank; no T5/T10 substitution, moisture-peak substitution, or vertical/cone test dimensions assigned to LOI. Online-first version retained without inventing final issue year. Eighteen facts remain held: four FGNS/PAN TG-only profiles lacking independent LOI and unavailable SI; four MPZSN/PAN text profiles pending full SI; five multifunctional cotton TG-only profiles without LOI; five MgO/cellulose LOI and unbound-char profiles lacking explicit residue temperature even after native SI review. Nine raw char percentages remain auxiliary, never assigned a program endpoint. The official MgO SI contains three figure captions and one BET table, not a fiber residue-temperature table; its TMA caption scope differs from the body cross-reference and is documented. Primary table totals include a comparison table and a standard test-liquid table, not additional TG sample counts. All 179 source-science guards, nine source regression tests and 106 canonical comparisons pass; zero accepted profile hits. Four held single-T5 coincidences do not establish aliases; ten raw-char provenance comparisons have zero hits. No scientific gate changes, curve estimates, guessed values or original uploads. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Combined B177-B180 native-text review adds9 initialPANfiber states and9TGconditions fromfive originals:four completePDFs30pages andone scientificHTMLbody,11primarytables andtwoDOCXsupplements8nativetables(7ownscientific,1secondarycomparison). FiveTA-MoS2/PANprofiles joinMainTable1LOI withSIS4T5/twoDTGmaxima/explicitR800 usingordinaryN210Cmin;TGIR20Cmin andFig6captiondiscrepancy nottransferred;article-in-pressversion/unknownfinalyear explicit. FourCoZnZIF/PANprofiles joinMainTable1LOI/SIS3T5/twoDTGmaxima withordinaryN220Cmin;fourcharvalueshaveunknownendpointandstayauxiliary,neverR800. ActualSIS3TGlocatorretaineddespitebodyS2reference;SIS4otherstudiesnotcounted;muffleAIR3Cmin/600C2h notordinaryTG. ThreeviscoseTG-onlyprofiles lackindependentLOI;thirtyPANfacts haveunresolvedgas/ramp,cloth/fiber/formstateorTGphaseandallstayheld. OriginalviscoseTGstart0Cremainsexplicitsourceconditionauxiliary;canonical20-1500Ctemperature-domain unchanged. All33heldfacts excluded;185scienceguards31regressiontests155canonical comparisons;zero unresolved accepted multimetric hits;twoheldsingleR900coincidencesnotaliases. No scientificgatechanges,curveestimates,inferred endpoints or originaluploads. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Combined B175-B176 original-text review adds18 initial textile-fiber states and18TG conditions from four complete scientific originals:three native PDFs33pages and one nativeHTML scientific body,12primarynative tables and one linkedDOCX with3native tables. Five ASO fiber states pair exact rate maxima withLOI;five residual masses have unreported endpoint and remain auxiliary,neverR600. The purchasedR80 identity,reportedwt% denominator and fiber-bundle assembly limitations are explicit;DSC peaks/gas never substituted forTG. Two own viscoseControl/Na3# continuousTG profiles joinLOI,with N220Cmin40mLmin and explicitly reportedR800;publisher Accepted Manuscript version preserved without inventing finalpublicationyear. Eight HPP fiber/membraneLOI records lackexactownTG;1#recipe conflict,Ca samplemislabels and five nonconstant trigger programs stayheld. Eleven online-treated Lyocell profiles join full factor recipes/MainTable1TG/SI S2LOI;two repeated baseline presentations collapsed. Eleven washed states,coagulatedCF TG and fourHSF/RAHSFLOI states stayheld. Conechar23.0/7.1notTG R70020.3. All34heldfacts excluded;175scienceguards40regressiontests136canonical comparisons;zero unresolved accepted multimetric hits,two Tmax-only collision groups have neither matching LOI nor matching whole available raw profiles. No scientific gate changes,curve estimates,inferred endpoints or original uploads. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
@@ -777,7 +778,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 694,
+  "remaining_to_2000": 689,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -825,9 +826,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 377,
+  "verified_sources": 379,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1298,
+  "verified_doi_sample_states": 1303,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -861,7 +862,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 694,
+  "remaining_to_target": 689,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -977,9 +978,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 232,
-      "sample_states": 731,
-      "condition_records": 991
+      "sources": 234,
+      "sample_states": 736,
+      "condition_records": 996
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1071,7 +1072,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1658,
+  "verified_doi_condition_records": 1663,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -4307,5 +4308,76 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/133",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b187_b191": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 5,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 4,
+    "complete_primary_HTML_bodies": 0,
+    "HTML_link_discovery_only": 0,
+    "complete_text_primary_PDF_pages": 14,
+    "official_primary_tables_text_reviewed": 13,
+    "complete_official_SIs_text_tables_reviewed": 9,
+    "own_scientific_SI_tables_reviewed": 7,
+    "mixed_own_and_comparison_SI_tables_reviewed": 1,
+    "secondary_comparison_SI_tables_reviewed": 1,
+    "complete_official_SIs": 3,
+    "total_fact_rows": 39,
+    "held_fact_rows": 34,
+    "unbound_auxiliary_residue_metrics": 0,
+    "source_scientific_guards": 349,
+    "source_regression_tests": 19,
+    "canonical_comparisons": 97,
+    "publication_groups": 5,
+    "within_source_baseline_presentations_collapsed": 0,
+    "source_groups": [
+      {
+        "batch": "b187",
+        "new_states": 1,
+        "new_conditions": 1,
+        "held": 11,
+        "scientific_guards": 106,
+        "csv_sha256": "a005e540fc679138c5d743f4952ed9e5b6051215bd23009e6cfe58b07943492e"
+      },
+      {
+        "batch": "b188",
+        "new_states": 0,
+        "new_conditions": 0,
+        "held": 5,
+        "scientific_guards": 33,
+        "csv_sha256": "3d5308d7189a84be26f4dcaa0a44f37fb0461d4b19289bd1bafe4f32165e4790"
+      },
+      {
+        "batch": "b189",
+        "new_states": 0,
+        "new_conditions": 0,
+        "held": 4,
+        "scientific_guards": 29,
+        "csv_sha256": "e5dc11e2f43196784c421d20e1539fb316de63238a6a1121d1239531d277ef21"
+      },
+      {
+        "batch": "b190",
+        "new_states": 0,
+        "new_conditions": 0,
+        "held": 7,
+        "scientific_guards": 64,
+        "csv_sha256": "b8f4907f54d69ebb7a09d73f1f3d0e7a3a455710313ea43577827315e7e0525b"
+      },
+      {
+        "batch": "b191",
+        "new_states": 4,
+        "new_conditions": 4,
+        "held": 7,
+        "scientific_guards": 117,
+        "csv_sha256": "2db79ac83f7f745c8bf603d325a19d265da818c682d3e5069dc67c846d7914c8"
+      }
+    ],
+    "tests_passed": 2009,
+    "snapshot_sha256": "8c041fae980791b592a17892440435db33ecb821f3841b3c5dc54b9a362c6934"
   }
 }
