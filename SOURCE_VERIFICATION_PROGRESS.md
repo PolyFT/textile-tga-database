@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1318 unique reviewed source/sample/washing states**, **1684 TG condition records**, and **383 original sources (381 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1324 unique reviewed source/sample/washing states**, **1690 TG condition records**, and **385 original sources (383 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1318 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1117 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1123 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2194,3 +2194,25 @@ Original fulltexts/supplements and local paths remain local.
 ### b198_b200 publication proof
 
 [PR #136](https://github.com/PolyFT/textile-tga-database/pull/136) merged as `4e8fb246b2cde119824cb25121268520654bccc1` after exact-head [validation run 37209395274](https://github.com/PolyFT/textile-tga-database/actions/runs/37209395274) passed on `8aa9968741b07f995536b458e8645aed0a2a4335`. All 2039 offline tests, compilation, scientific validation and all three merge checks passed. Independent verification confirms 1318 states, 1684 TG records, 381 DOIs and 383 sources. All 1679 prior records and fields, fourteen public blobs, eight concurrent bot files, three read-only library originals, one bibliographic metadata original and seven private native evidence files are preserved. Three complete native-text PDFs total55pages and eleven primary tables; eleven preproof figure attachment pages were read as native labels without image interpretation; no linked SI completeness or definitive-edition numerical review is claimed. The complete 10590520-byte master has SHA256 `5e4377f257c5c1776b2131055911c45fe93e860a5a7c0142673a5665e2a6071c` and the whole remote report matches a fresh rebuild. Snapshot: `09a3036c04c3f5e5402e8d3f783855bc054bbe5388559117be478d4275f183bb`. Three new pairs and five TG records are published, with zero upgrades and15heldfacts excluded. Lease release follows this verified publication record.
+
+
+## b201_b203 combined native-text textile publication
+
+Two complete primary PDFs total38nativepages and one complete scientific HTML body were reviewed, with seven primary tables; one linked official DOCX supplement has four native tables and two figure captions. No images or curve estimates were used. The 27-page B201 publisher accepted manuscript is unedited and no definitive-edition equivalence is claimed. Six new independent textile states and six TG records are approved. B201 cotton control, SiO2/PEI/PPA and post-REPELLAN FF cotton have own LOI18.2/29.6/28.2, source-defined T5_315/276/258, DTG372/347/307 and explicit R6008/44/41 in N2 at10Cmin. The single comparison paragraph explicitly defines degradation onset as5percent mass loss; it is T5, not tangent Tonset. Bilayer count, final Repellan cure conditions and add-on denominator remain unreported. B203 cotton fiber roving control, lignin coating and unique lignin1percent/CNT1percent/K2CO3_1percent bath have own LOI17.1/26.8/38.5 and DTG370/370/269; control and ternary R600 are7.5/28.8 in N2 at10Cmin. The lignin peak370 is the source explicit unchanged-peak reference, not a curve estimate. The supplement reports different coating weight gains for MFT, LOI and MLC; LOI-specific gains are auxiliary and never assigned as TG loading. Twelve facts remain held. B202 eight own cotton-fabric LOI formulations have only neat-microsphere TG; no specimen-form join is allowed, and uncombined Na-microsphere LOI22.2Table2 versus22.1prose remains raw. B203 four dose facts remain held because generic CNT TG dose is unresolved, K-only TG is curve-only, or CNT1 LOI31.7Table3/body conflicts32.0Discussion. Fire-tube exhaust Tmax is not DTG, and neat lignin/CNT measurements are not roving TG. All99 independent science guards and14 source regression tests pass. The37 whole-canonical comparisons include one adjudicated single-DTG370 coincidence with six other records; none matches the own LOI26.8 and complete paired profiles have zero hits, with zero unresolved hits. This coincidence does not equate independently documented recipes and sample states. Source-version limits, condition gaps and sample states are preserved. Evidence upgrades and legacy completions are zero. Only factual data, concise provenance, necessary tests and validation outputs are public; fulltexts, supplements and private paths stay local. Evidence upgrades and legacy completions are zero.
+
+### b201
+
+3 new states;3 TG conditions;0 held facts.
+- **10.1016/j.coco.2019.05.005**: 3 accepted states;3 accepted conditions. B201 complete27nativePDFtextpages reviewed;46 independent source guards,6 scientific regression tests,27 whole-canonical comparisons0hits and read-only projection1318/1684->1321/1687 passed. Three approved unpublished same-state cotton fabric pairs LOI18.2/29.6/28.2,ownDTG372/347/307,R6008/44/41,N2at10Cmin. T5_315/276/258 preserves explicit5percent sourcecriterion in singlecomparisonparagraph. Unreportedbilayers/addonbasis/finalcure/LOIgeometry remainunknown;publisheracceptedmanuscript not final-edition equivalence. Not yet public/countedinmain. Finish PR136 same saved release watchers37783/71248/61746;fresh API sync/finisher once;restore this next-private backup;then prepare following batch under fresh main/openPR/queue/version/lease checks.
+
+### b202
+
+0 new states;0 TG conditions;8 held facts.
+- **10.1021/acsapm.0c00421**: 0 accepted states;0 accepted conditions. EightowncottonLOIfactsheld:TGexpresslyneatpolyphosphazenemicrospheresnotcottonfabric. UncombinedNa22.2±0.1Table2vs22.1±0.6prosealsoheldraw;finalhydrophobicstate22.1±0.6separate. NoTGconditions/metricsborrowed;8factsnot8pairs;fullbody2tables8captionsnativeonly.
+
+### b203
+
+3 new states;3 TG conditions;4 held facts.
+- **10.1007/s10570-020-03270-y**: 3 accepted states;3 accepted conditions. ThreepotentialsameinitialcottonrovingpairscontrolLOI17.1DTG370R6007.5/ligninLOI26.8sourceexplicitunchangedDTG370/uniqueternaryCNT1K1LOI38.5DTG269R60028.8. OrdinaryN2_10Cmin30-600. Fourhelddosefacts:genericCNTTGdoseunresolved,SIFigS2nativecaptionnoloadingandimagesnotread;CNT1LOI31.7vs32.0conflict;KonlyTGcurve. PrimaryMFTTmaxnotDTG/neatL-CNTnotroving;SItest-specificWGnotTGloading. All11primarypages/4tablesandlinkedDOCXall4tables/captionsreadtextonly.
+
+Original fulltexts/supplements and local paths remain local.
