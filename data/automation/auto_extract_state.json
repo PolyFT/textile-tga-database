@@ -3237,9 +3237,9 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
-      "attempt_count": 1,
-      "last_attempt_utc": "2026-10-04T06:11:38.981877+00:00",
-      "next_retry_utc": "2026-10-04T12:11:38.981877+00:00"
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-04T12:26:07.265410+00:00",
+      "next_retry_utc": "2026-10-05T00:26:07.265410+00:00"
     },
     "10.1177/1558925020920887": {
       "fingerprint": "36f25f1030090ad33473",
@@ -3247,11 +3247,31 @@
       "grade": "C",
       "reason_code": "source_unavailable",
       "retryable": true,
+      "attempt_count": 2,
+      "last_attempt_utc": "2026-10-04T12:26:07.265410+00:00",
+      "next_retry_utc": "2026-10-05T00:26:07.265410+00:00"
+    },
+    "10.1177/0040517518805373": {
+      "fingerprint": "b2e4ef558d5ef6abfe1a",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
       "attempt_count": 1,
-      "last_attempt_utc": "2026-10-04T06:11:38.981877+00:00",
-      "next_retry_utc": "2026-10-04T12:11:38.981877+00:00"
+      "last_attempt_utc": "2026-10-04T12:26:07.265410+00:00",
+      "next_retry_utc": "2026-10-04T18:26:07.265410+00:00"
+    },
+    "10.1177/1558925019870301": {
+      "fingerprint": "edf6dcdc7aacac5171fe",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-04T12:26:07.265410+00:00",
+      "next_retry_utc": "2026-10-04T18:26:07.265410+00:00"
     }
   },
-  "last_run_utc": "2026-10-04T07:37:44.287259+00:00",
-  "last_examined_candidates": 2
+  "last_run_utc": "2026-10-04T12:26:07.265410+00:00",
+  "last_examined_candidates": 4
 }
