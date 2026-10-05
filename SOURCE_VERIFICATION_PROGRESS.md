@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1388 unique reviewed source/sample/washing states**, **1779 TG condition records**, and **403 original sources (401 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1397 unique reviewed source/sample/washing states**, **1788 TG condition records**, and **405 original sources (403 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1388 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1187 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1196 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2434,3 +2434,20 @@ Original fulltexts/supplements and local paths remain local.
 ### b261_b262 publication proof
 
 [PR #146](https://github.com/PolyFT/textile-tga-database/pull/146) merged as `9f1453980d715a7f1e317f44a665212e3ad6fe7e` after exact-head [validation run 37246203204](https://github.com/PolyFT/textile-tga-database/actions/runs/37246203204). All2131offline tests,compilation,rebuild andsnapshot checks passed. Independentremote master/report/blob checks confirm1388reviewedstates1779TG401DOI403sources,errors=[];all1765previousconditionrecordsandconcurrentautomationfilespreserved. Thisbatch9newstates14TG0upgrades1excluded. All15PDFpages10tables20caps2schemesreadnative;158sourceguards6regressiontests193canonicalcomparisons10raw47presentations6source-adjudicatedacceptedcoincidences4excludedAPsharedmetriccomparisonsreuseunresolved1numericLOI/R700partialcoincidence0acceptedduplicates/unresolved. BothpapersrawTonsetfootnotesdefineT5;globalTmaxnotunreportedearlierpeak;measuredwholeR700notnormalizedmatrixresidueorconeresidue;unknownprogramme/moldingconditionsnottransferred. FiveAPstateswithtwoatmospherescount5samples10tests. FiberfreeAPpowderwithoutLOIoutsideallpairtargets;333.2/R70074.4overlapand323.3vs323.4T5keptliteral. Snapshot SHA-256:`666d6732fe17c65ca5e6784e33b886dc8237f3a9eb07922e97077579e9037978`;master SHA-256:`800000e8a970c0cd198b73b3f871fc554cdb7bd82a2379fef6e77865dc3688ce`. Ownedlease releasedonlyafterallchecksandfullremoteproof. No fulltexts,images orprivatepaths published.
+
+
+## b272_b276 combined native-text textile publication
+
+Nine new initial whole fiber-composite states add nine nitrogen TG records from two original journal papers. DOI10.1002/app.45126 contributes three GF30/PA66 pressure-molded control,AlPi16,and DPOH16 recipes: TableIII LOI23.6/34.2/28.5 and TableII measured R70029.1/30.4/30.1 at20C/min. Its Td2 values367/363/361C are explicitly2percent mass loss and remain auxiliary; T5,T10,Tonset,and Tmax stay blank. All mixtures were pressure-molded270C50MPa as3mm specimens. The8D8A pair is held because LOI33.9 in TableIII conflicts with33.6 in later prose; six LOI-only recipes and pure DPOH powder also remain excluded. DOI10.1002/vnl.21521 contributes six GF15/PA6 injection-molded recipes: LGFPA6,MMT5,OP15,OP20,OP15/MMT5,and OP15/OMMT5. Table4 LOI21.6/23.2/28.0/31.9/31.5/32.5 matches Table2 T10/Tmax/real R800 underN2,20C/min,60mL/min,about10mg in platinum. Its raw Tonset is explicitly10percent mass loss, so canonical T10 is used and T5/generic Tonset stay blank. All test specimens were injection-molded230-260C. OMMT-only TG label5 versus LOI label6 remains held; pure PA6 and three additive powders are excluded from the fiber target. Theoretical residue and DR,cone residue,EDX composition,and MCC peaks do not replace measured TG. Nominal compositions and unknown loading bases,uncertainty types,replicates,and molding parameters are preserved. All18PDFpages10tables16captions1scheme were read as native text;166 same-primary-reviewer separate-source guards,6 regression tests,and strict9state/9TG projection passed. Across124 gas/rate-agnostic canonical comparisons,7 numerical-hit comparisons/15 presentations remain recorded:6 accepted residue-only coincidences have different documented fabric/composite recipes and LOI,and1 excluded powder coincidence is outside the pair target. There are0 paired-profile hits,0 accepted duplicates,and0 unresolved accepted profiles. Two legacy candidate contexts and three held comparator sources were not upgraded; comparator context review is not a new full-original review. This batch retains22 fact rows,with13 held or excluded,zero legacy completions,and zero existing-pair evidence upgrades. No curves were estimated and no fulltexts,images,or private paths are published. Evidence upgrades and legacy completions are zero.
+
+### b272
+
+3 new states;3 TG conditions;8 held facts.
+- **10.1002/app.45126**: 3 accepted states;3 accepted conditions. Three initial GF30/PA66 pressure-molded control/AlPi16/DPOH16 states pair own TableIII LOI with measured TableII R700 under N2 at20C/min. Raw Td2 means2percent mass loss and remains auxiliary. Eight conflicting, TG-missing, or powder-only facts are held or excluded. All8PDFpages4tables7captions1scheme reviewed as native text;67source guards and3regression tests passed.
+
+### b276
+
+6 new states;6 TG conditions;5 held facts.
+- **10.1002/vnl.21521**: 6 accepted states;6 accepted conditions. Six initial GF15/PA6 injection-molded states pair own Table4 LOI with Table2 T10/Tmax/measured R800 under N2 at20C/min,60mL/min,about10mg. Raw Tonset is explicitly10percent weight loss,so stored asT10. OMMT5-TG versus OMMT6-LOI remains held;purePA6 andthree additive powders excluded. All10PDFpages6tables9captions reviewed as native text;99source guards and3regression tests passed.
+
+Original fulltexts/supplements and local paths remain local.
