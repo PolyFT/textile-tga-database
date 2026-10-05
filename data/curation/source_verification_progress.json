@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-05T17:07:30.258064+00:00",
+  "as_of_utc": "2026-10-05T17:37:50.860765+00:00",
   "latest_batch_id": "20261005_b312",
   "verified_condition_records": 1866,
   "verified_unique_sample_states": 1467,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b312_source_verified_precursor_branch_pending_PR",
-  "last_merged_batch": "20261005_b310",
+  "publication_stage": "b312_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261005_b312",
   "writer_lease": {
     "owner": "codex-local-material-b312-20261005",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261005_b312",
     "claimed_at_utc": "2026-10-05T17:03:42.609606+00:00",
     "expires_at_utc": "2026-10-05T18:33:42.609606+00:00",
     "purpose": "3 new matched moulded PA1012 precursor pairs/3 TG;45 existing states/61 TG scope review from4 prior original-reviewed cohorts;prospective target183/219;2 whole source conflicts held;44 source guards,5 regressions,61 canonical comparisons/3 raw residue-only coincidences/0 duplicates;preserve1863 prior TG fields and actual material/state/condition evidence",
-    "previous_release_commit": "363d0ad5d689f5c84495109352288201b5d2d3c5"
+    "previous_release_commit": "363d0ad5d689f5c84495109352288201b5d2d3c5",
+    "released_at_utc": "2026-10-05T17:37:50.860765+00:00",
+    "release_reason": "PR155 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
   },
   "next_sources": [],
   "next_actions": [
@@ -6114,6 +6116,67 @@
       "input_master_sha256": "48266be6f803df430494bca99a0e23a59afa6866dd4ae190ed82c63fc8fd00dd",
       "scope_registry_sha256": "ebeb7c36ca9a118733e1fa6e28e59711810977f89c36ca57e7d29c12ad41e61b",
       "textile_master_sha256": "1e3bd71e49ccdba50bbcade8b4714797776754d1f21bca6cb1335eca1692183a"
+    },
+    "publication": {
+      "head_sha": "db474b20adf68ecbf5488f4215992485584b9a79",
+      "merge_sha": "be9cfc5874ad7abfb36ce247f7f295ebb98f3135",
+      "validation_run": 37347675617,
+      "snapshot_sha256": "486ff7c53635a9a1ba7a5269fc003ab1ccf1c94905721f660e95314473fa71a6",
+      "master_sha256": "48266be6f803df430494bca99a0e23a59afa6866dd4ae190ed82c63fc8fd00dd",
+      "independent_remote_master_blob_sha": "c987d0e7450654c0bb3ac6bdb849dec6734aa737",
+      "independent_remote_master_bytes": 12280086,
+      "postmerge_runs": [
+        37348439926,
+        37348439585,
+        37348439953
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 14,
+      "textile_scope_report": {
+        "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+        "target_unique_sample_states": 3000,
+        "verified_target_sample_states": 183,
+        "verified_target_condition_records": 219,
+        "verified_target_sources": 20,
+        "verified_sample_states_by_material_class": {
+          "fiber_forming_polymer": 1,
+          "fiber_forming_polymer_composite": 10,
+          "textile_cloth": 143,
+          "textile_fibre": 29,
+          "textile_nonwoven": 0,
+          "textile_precursor_material": 0,
+          "textile_yarn": 0
+        },
+        "verified_condition_records_by_material_class": {
+          "fiber_forming_polymer": 1,
+          "fiber_forming_polymer_composite": 18,
+          "textile_cloth": 171,
+          "textile_fibre": 29,
+          "textile_nonwoven": 0,
+          "textile_precursor_material": 0,
+          "textile_yarn": 0
+        },
+        "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+        "verified_textile_sample_states": 183,
+        "verified_textile_condition_records": 219,
+        "verified_textile_sources": 20,
+        "remaining_to_target": 2817,
+        "excluded_non_textile_sample_states": 0,
+        "excluded_non_textile_condition_records": 0,
+        "pending_scope_sample_states": 1284,
+        "pending_scope_condition_records": 1647,
+        "scope_audit_complete": false,
+        "legacy_broad_sample_states": 1467,
+        "legacy_broad_condition_records": 1866,
+        "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+        "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+        "input_master_sha256": "48266be6f803df430494bca99a0e23a59afa6866dd4ae190ed82c63fc8fd00dd",
+        "scope_registry_sha256": "ebeb7c36ca9a118733e1fa6e28e59711810977f89c36ca57e7d29c12ad41e61b",
+        "textile_master_sha256": "1e3bd71e49ccdba50bbcade8b4714797776754d1f21bca6cb1335eca1692183a"
+      },
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/155",
+      "status": "merged_remote_verified"
     }
   }
 }
