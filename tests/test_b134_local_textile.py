@@ -16,7 +16,7 @@ class TextileB134Tests(unittest.TestCase):
  def test_fourstates_sevenconditions_not31facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(4,7));self.assertEqual(len(self.rows),31)
  def test_24held_facts_without_chosen_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),24);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),24);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_mame_only_three_initialgroups_paired(self):
   rr=[r for r in self.source(A)if r['pairing_status']=='verified_exact'];self.assertEqual(len(rr),6);self.assertEqual({r['sample_state']for r in rr},{'PristineCotton','TABLoadedCotton','TABPDACotton'})
  def test_ta_only_two_tgconditions_no_borrowed_loi(self):

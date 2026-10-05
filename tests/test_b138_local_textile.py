@@ -16,7 +16,7 @@ class TextileB138Tests(unittest.TestCase):
  def test_sixstates_sixconditions_not35facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(6,6));self.assertEqual(len(self.rows),35)
  def test_twenty_nine_holds_no_canonical_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),29);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),29);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_jute_four_composites_not_six_fabrics(self):
   rr=[r for r in self.source(A)if r['pairing_status']=='verified_exact'];self.assertEqual(len(rr),4);self.assertTrue(all('Film-stacked'in r['material_form']for r in rr));self.assertEqual({r['LOI_pct']for r in rr},{'20','35.5','23.5','34.1'})
  def test_jute_control_conflicting_labels_raw_only(self):

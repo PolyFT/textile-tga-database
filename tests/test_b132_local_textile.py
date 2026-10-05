@@ -16,7 +16,7 @@ class TextileB132Tests(unittest.TestCase):
  def test_four_verified_states_and_conditions_not24facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(4,4));self.assertEqual(len(self.rows),24)
  def test_all20_held_facts_excluded_and_without_chosen_tg_fields(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),20);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),20);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_only7bilayer_matches_its_tg_other2and4_held(self):
   rr=self.source(H);self.assertEqual(len(rr),4);self.assertEqual({r['source_bilayers']for r in rr if r['pairing_status']=='verified_exact'},{'0','7'});r=self.exact(H,'CottonSiO2PEIPA7bilayers');self.reject(r,LOI_pct='26');self.reject(r,LOI_pct='29.1')
  def test_native372_and_prose375_control_conflict_no_chosen_tmax(self):

@@ -24,7 +24,7 @@ class TextileB128Tests(unittest.TestCase):
  def test_bamboo_dtg_and_fixed_char_not_cone_or_gasrelease_peaks(self):
   r=self.exact(B,'BF-30');self.assertEqual((r['residue_pct'],r['residue_temp_C']),('46.6','700'));self.reject(r,residue_pct='35.3',R700_pct='35.3');self.reject(r,Tmax1_C='373');self.assertFalse(self.exact(B,'BF-0')['Tmax2_C'])
  def test_bamboo_four_washed_lois_remain_without_tg(self):
-  rr=[r for r in self.source(B)if r['pairing_status']!='verified_exact'];self.assertEqual([r['LOI_pct']for r in rr],['48.3','47.6','46.7','44.5']);self.assertEqual([r['source_native_laundering_cycles']for r in rr],['10','20','30','50']);self.assertTrue(all(r['source_wash_cycle_min']=='5'and r['source_wash_temperature_C']=='49'and r['source_neutral_detergent_g_L']=='2'and all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.source(B)if r['pairing_status']!='verified_exact'];self.assertEqual([r['LOI_pct']for r in rr],['48.3','47.6','46.7','44.5']);self.assertEqual([r['source_native_laundering_cycles']for r in rr],['10','20','30','50']);self.assertTrue(all(r['source_wash_cycle_min']=='5'and r['source_wash_temperature_C']=='49'and r['source_neutral_detergent_g_L']=='2'and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_bamboo_bath_dose_and_measured_wg_not_same_loading(self):
   r=self.exact(B,'BF-30');self.assertEqual((r['source_ATTPMA_bath_wt_pct'],r['source_Table2_WG_pct'],r['source_WG_definition']),('30','33.8','(W2-W1)/W1*100'));self.assertFalse(r.get('additive_loading_wt_pct'));self.assertIn('basis/explicitidentityunreported',r['treatment_method']);self.assertEqual(r['source_catalyst_bath_wt_pct'],'8')
  def test_bamboo_loi_geometry_repeats_and_uncertainty_not_other_tests(self):
@@ -38,11 +38,11 @@ class TextileB128Tests(unittest.TestCase):
  def test_pet_cot_explicit_residue_unfixed_temp_raw_not_r700(self):
   r=self.exact(P,'(PAH-MEL/APP)10');self.assertEqual(r['source_reported_residue_pct'],'23.4');self.assertTrue(all(not r[k]for k in ['R700_pct','residue_pct','char_pct','residue_temp_C','char_temp_C']));self.reject(r,R700_pct='23.4',residue_pct='23.4',residue_temp_C='700')
  def test_pet_cot_control20point1_20point8_conflict_held_both_gases(self):
-  rr=[r for r in self.source(P)if r['sample_state']=='Uncoated'];self.assertEqual(len(rr),2);self.assertTrue(all(r['source_Table1_LOI_pct']=='20.1'and r['source_abstract_LOI_pct']=='20.8'and not r['LOI_pct']and all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.source(P)if r['sample_state']=='Uncoated'];self.assertEqual(len(rr),2);self.assertTrue(all(r['source_Table1_LOI_pct']=='20.1'and r['source_abstract_LOI_pct']=='20.8'and not r['LOI_pct']and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_pet_cot_three_air_records_not_estimated_or_temp_assumed(self):
-  rr=[r for r in self.source(P)if r['source_reported_atmosphere']=='air'];self.assertEqual(len(rr),3);self.assertTrue(all(r['pairing_status']!='verified_exact'and all(not r[k]for k in pairing.TG_FIELDS)for r in rr));self.assertEqual({r['source_reported_rough_residue_pct']for r in rr},{'3','7',''})
+  rr=[r for r in self.source(P)if r['source_reported_atmosphere']=='air'];self.assertEqual(len(rr),3);self.assertTrue(all(r['pairing_status']!='verified_exact'and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr));self.assertEqual({r['source_reported_rough_residue_pct']for r in rr},{'3','7',''})
  def test_pet_cot_mixed_dip_not_same_treatment_as_lblyield(self):
-  r=next(r for r in self.source(P)if r['sample_state']=='PAH/MEL/APP mixture dip');self.assertEqual((r['LOI_pct'],r['source_Table1_weightgain_pct']),('26.8','15.6'));self.assertTrue(all(not r[k]for k in pairing.TG_FIELDS));self.assertIn('noLbL',r['composition']);self.assertEqual(self.exact(P,'(PAH-MEL/APP)10')['source_Table1_weightgain_pct'],'9')
+  r=next(r for r in self.source(P)if r['sample_state']=='PAH/MEL/APP mixture dip');self.assertEqual((r['LOI_pct'],r['source_Table1_weightgain_pct']),('26.8','15.6'));self.assertTrue(all(not r.get(k,'')for k in pairing.TG_FIELDS));self.assertIn('noLbL',r['composition']);self.assertEqual(self.exact(P,'(PAH-MEL/APP)10')['source_Table1_weightgain_pct'],'9')
  def test_pet_cot_missing_recipe_and_loi_conditions_not_wafer_or_stock(self):
   r=self.exact(P,'(PAH-MEL/APP)10');self.assertTrue(all(not r.get(k)for k in ['LOI_standard','LOI_instrument','LOI_sample_dimensions_mm','LOI_repeats','source_MEL_bath_wt_pct']));self.assertIn('MELdoseunreported',r['treatment_method']);self.assertIn('fabricdurations/BPEIbaseuncertain',r['treatment_method']);self.assertIn('65percentPET/35percentcotton',r['material_form']);self.assertIn('154g/m2,0.23mm',r['material_form'])
 if __name__=='__main__':unittest.main()

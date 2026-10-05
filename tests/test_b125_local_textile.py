@@ -28,9 +28,9 @@ class TextileB125Tests(unittest.TestCase):
  def test_dhdbp_cross_table_wash1_is_corroboration_not_second_sample(self):
   r=self.row(DH,'Trial6-PETcotton-after1wash');self.assertEqual((r['source_TableIII_same_state_LOI_pct'],r['source_TableIII_same_state_LOI_uncertainty_pct']),('27.6','0.2'));self.assertEqual(sum(r['sample_state']=='Trial6-PETcotton-after1wash' for r in self.source(DH)),1)
  def test_dhdbp_unwashed_and_five_ten_wash_lois_do_not_borrow_tg(self):
-  rr=[self.row(DH,f'Trial6-PETcotton-after{x}washes') for x in [0,5,10]];self.assertEqual([r['LOI_pct'] for r in rr],['36.8','25.6','25.1']);self.assertTrue(all(all(not r[k] for k in pairing.TG_FIELDS) for r in rr));self.assertTrue(all(r['pairing_status']!='verified_exact' for r in rr))
+  rr=[self.row(DH,f'Trial6-PETcotton-after{x}washes') for x in [0,5,10]];self.assertEqual([r['LOI_pct'] for r in rr],['36.8','25.6','25.1']);self.assertTrue(all(all(not r.get(k,'') for k in pairing.TG_FIELDS) for r in rr));self.assertTrue(all(r['pairing_status']!='verified_exact' for r in rr))
  def test_dhdbp_control_loi_and_tg_washing_lineage_not_assumed(self):
-  a=self.row(DH,'Trial0-PETcotton-after1wash');b=self.row(DH,'UntreatedT-C-TGonly');self.assertEqual(a['LOI_pct'],'17.2');self.assertFalse(b['LOI_pct']);self.assertEqual(b['washing_state'],'Unreported');self.assertEqual(b['source_weight_retention_585C_pct'],'24.8');self.assertTrue(all(not r[k] for r in [a,b] for k in pairing.TG_FIELDS))
+  a=self.row(DH,'Trial0-PETcotton-after1wash');b=self.row(DH,'UntreatedT-C-TGonly');self.assertEqual(a['LOI_pct'],'17.2');self.assertFalse(b['LOI_pct']);self.assertEqual(b['washing_state'],'Unreported');self.assertEqual(b['source_weight_retention_585C_pct'],'24.8');self.assertTrue(all(not r.get(k,'') for r in [a,b] for k in pairing.TG_FIELDS))
  def test_dhdbp_pure_compound_and_stage_losses_do_not_become_textile_char(self):
   r=self.row(DH,'PureDHDBP-nontextile-TGonly');self.assertFalse(r['LOI_pct']);self.assertNotEqual(r['pairing_status'],'verified_exact');r=self.row(DH,'Trial6-PETcotton-after1wash');self.assertEqual((r['source_stage_weight_loss1_pct'],r['source_stage_weight_loss2_pct'],r['char_pct']),('15','42.6','35.4'));self.rejected(r,char_pct='85',residue_pct='85')
  def test_cs_osa_eight_native_codes_have_sixteen_gas_records(self):

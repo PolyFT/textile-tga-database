@@ -16,7 +16,7 @@ class TextileB142Tests(unittest.TestCase):
  def test_three_states_four_records_not_twentyseven_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(3,4));self.assertEqual(len(self.rows),27)
  def test_twenty_three_holds_no_canonical_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),23);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),23);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_exact_ten_percent_loss_not_generic_onset(self):
   r=self.exact();self.assertEqual(r['T10_C'],'317');self.assertFalse(r['T5_C']);self.assertFalse(r['Tonset_C']);self.reject(r,T10_C='',Tonset_C='317')
  def test_nitrogen_ambiguous_peak_kept_raw(self):
@@ -73,7 +73,7 @@ class TextileB143Tests(unittest.TestCase):
  def test_five_states_not_ten_gases_or_fourteen_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(5,10));self.assertEqual(len(self.rows),14)
  def test_four_washed_cone_facts_not_paired(self):
-  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),4);self.assertTrue(all(not r['LOI_pct']and all(not r[k]for k in pairing.TG_FIELDS)for r in h));self.assertTrue(all('after5nativewashingcycles'in r['sample_state']for r in h))
+  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),4);self.assertTrue(all(not r['LOI_pct']and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in h));self.assertTrue(all('after5nativewashingcycles'in r['sample_state']for r in h))
  def test_t5_not_t10_or_onset(self):
   r=self.exact('PA66-D-10W');self.assertEqual(r['T5_C'],'368');self.assertFalse(r['T10_C']);self.assertFalse(r['Tonset_C']);self.reject(r,T5_C='',T10_C='368')
  def test_air_nitrogen_columns_not_swapped(self):
@@ -130,7 +130,7 @@ class TextileB144Tests(unittest.TestCase):
  def test_seven_initial_states_not_ten_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(7,7));self.assertEqual(len(self.rows),10)
  def test_three_washed_loi_facts_no_canonical_tg(self):
-  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),3);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in h));self.assertEqual({r['LOI_pct']for r in h},{'30.4','26.4','29'})
+  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),3);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in h));self.assertEqual({r['LOI_pct']for r in h},{'30.4','26.4','29'})
  def test_native_t5_not_t10_or_onset(self):
   r=self.exact('FRPET');self.assertEqual(r['T5_C'],'387.2');self.assertFalse(r['T10_C']);self.assertFalse(r['Tonset_C']);self.reject(r,T5_C='',Tonset_C='387.2')
  def test_maximum_rate_tmax_not_negative_dtg_rate(self):
@@ -187,7 +187,7 @@ class TextileB145Tests(unittest.TestCase):
  def test_five_states_not_ten_gases_or_fourteen_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(5,10));self.assertEqual(len(self.rows),14)
  def test_four_washed_vertical_facts_no_tg_loi(self):
-  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),4);self.assertTrue(all(not r['LOI_pct']and all(not r[k]for k in pairing.TG_FIELDS)for r in h));self.assertTrue(all('after20nativewashingcycles'in r['sample_state']for r in h))
+  h=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(h),4);self.assertTrue(all(not r['LOI_pct']and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in h));self.assertTrue(all('after20nativewashingcycles'in r['sample_state']for r in h))
  def test_native_t5_not_t10_or_onset(self):
   r=self.exact('PA6.6-g-PCS-8QL');self.assertEqual(r['T5_C'],'278');self.assertFalse(r['T10_C']);self.assertFalse(r['Tonset_C']);self.reject(r,T5_C='',T10_C='278')
  def test_air_nitrogen_columns_cannot_swap(self):

@@ -16,7 +16,7 @@ class TextileB135Tests(unittest.TestCase):
  def test_sixstates_eightconditions_not18facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(6,8));self.assertEqual(len(self.rows),18)
  def test_tenholds_no_chosen_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),10);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),10);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_porg_only15_25_initialpaired(self):
   rr=[r for r in self.source(A)if r['pairing_status']=='verified_exact'];self.assertEqual(len(rr),4);self.assertEqual({r['sample_state']for r in rr},{'IP6_15PA66','IP6_25PA66'})
  def test_35_loiconflict_notresolved_by_tablepreference(self):
