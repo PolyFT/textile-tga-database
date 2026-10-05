@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-05T00:33:29.418897+00:00",
-  "latest_batch_id": "20261005_b261_b262",
-  "verified_condition_records": 1779,
-  "verified_unique_sample_states": 1388,
-  "verified_dois": 401,
-  "numeric_pair_candidate_rows": 2410,
+  "as_of_utc": "2026-10-05T01:10:24.661233+00:00",
+  "latest_batch_id": "20261005_b272_b276",
+  "verified_condition_records": 1788,
+  "verified_unique_sample_states": 1397,
+  "verified_dois": 403,
+  "numeric_pair_candidate_rows": 2422,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 2000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1187,
+  "cumulative_newly_completed_or_new_source_sample_states": 1196,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b261_b262_merged_remote_verified_lease_released",
+  "publication_stage": "b272_b276_combined_validated_branch_pending_PR_merge",
   "last_merged_batch": "20261005_b261_b262",
   "writer_lease": {
     "owner": "codex-local-textile-b272-b276-20261005",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "Nine new initial whole fiber-composite states add nine nitrogen TG records from two original journal papers. DOI10.1002/app.45126 contributes three GF30/PA66 pressure-molded control,AlPi16,and DPOH16 recipes: TableIII LOI23.6/34.2/28.5 and TableII measured R70029.1/30.4/30.1 at20C/min. Its Td2 values367/363/361C are explicitly2percent mass loss and remain auxiliary; T5,T10,Tonset,and Tmax stay blank. All mixtures were pressure-molded270C50MPa as3mm specimens. The8D8A pair is held because LOI33.9 in TableIII conflicts with33.6 in later prose; six LOI-only recipes and pure DPOH powder also remain excluded. DOI10.1002/vnl.21521 contributes six GF15/PA6 injection-molded recipes: LGFPA6,MMT5,OP15,OP20,OP15/MMT5,and OP15/OMMT5. Table4 LOI21.6/23.2/28.0/31.9/31.5/32.5 matches Table2 T10/Tmax/real R800 underN2,20C/min,60mL/min,about10mg in platinum. Its raw Tonset is explicitly10percent mass loss, so canonical T10 is used and T5/generic Tonset stay blank. All test specimens were injection-molded230-260C. OMMT-only TG label5 versus LOI label6 remains held; pure PA6 and three additive powders are excluded from the fiber target. Theoretical residue and DR,cone residue,EDX composition,and MCC peaks do not replace measured TG. Nominal compositions and unknown loading bases,uncertainty types,replicates,and molding parameters are preserved. All18PDFpages10tables16captions1scheme were read as native text;166 same-primary-reviewer separate-source guards,6 regression tests,and strict9state/9TG projection passed. Across124 gas/rate-agnostic canonical comparisons,7 numerical-hit comparisons/15 presentations remain recorded:6 accepted residue-only coincidences have different documented fabric/composite recipes and LOI,and1 excluded powder coincidence is outside the pair target. There are0 paired-profile hits,0 accepted duplicates,and0 unresolved accepted profiles. Two legacy candidate contexts and three held comparator sources were not upgraded; comparator context review is not a new full-original review. This batch retains22 fact rows,with13 held or excluded,zero legacy completions,and zero existing-pair evidence upgrades. No curves were estimated and no fulltexts,images,or private paths are published. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Two complete original sources provide9initialGF30-PA6 wholecompression-moldedstatepairs and14TGconditions. FiveAP0/10/15/20/25recipes TableIVLOI22.5/24.3/25.2/27.5/30.1 linkTablesII/III T5/Tmax1/Tmax2/R700 underN2andair10Cmin40-700C60mLmin~5mg. BothrawTonsetfootnotesdefine5percentweightloss=T5;genericTonsetblank. N2controlsingle454.1peak andairAProwsmissingsecondpeaksremainliteral. MeasuredwholeR700notnormalizedmatrixchar0/5.9/6.2/7.8/6.7 orcone30/42/47/54/60. FourHPA-2TBA-Al0/15/20/25recipes Table1LOI22/30.5/32/34 linkTable2T5_411/364/361/363,Tmaxglobal472/461/460/460,R70030/32/33/34_N2_20Cmin100mLmin;700measuredresidueendpointnotunknownprogrammeend. Earlierqualitativestagehasnoownpeak;air/kineticscurve-onlyconditionsnotinvented. APsourcecompression240C10MPa3min andHPA-sourceunknownmoldingT/P/time remainseparate;no protocoltransfer. HPAmixturesratio/purity andPA6matrixfractionunreported/notcalculated. OnefiberfreeAPpowderN2TGwithoutLOI remains excluded;its333.2/R70074.4 overlapwithotherAPsource is retained with323.3vs323.4T5 andpossible reuse unresolved,nevercounted. All15PDFpages10tables20caps2schemesConclusionsReferencesreadnative;158same-primary-agentseparate-sourceguards6regressiontests193canonicalcomparisons10raw47presentations6adjudicatedapprovedcoincidences4excludedAPreuseunresolved;oneLOI/R700partialcoincidence differswholematerial/form/recipe;zeroacceptedduplicates/unresolved. Comparatorcontextusesexistingreviewedfacts andexplicitlyunreviewedlegacycandidatesnotupgraded,notnewfullcomparatororiginalreviews. EmptyLOIfieldmatchesnotpairedprofiles. Strict9state14TGprojectionpassed;fiveAPstateswithtwoatmospherescountas5samples/10tests. Unreportedconditionsblank;nocurvesestimated,fulltexts/images/privatepaths published. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Twooriginalsources provide8initialfiber-containingstates8TGconditions: fourANF-network/RPUFaerogels andfourGF30-PBT/AP10/15/20/25compression-moldedbars. OwnANFTable4LOI22.5/23/25.8/24.3 matchesTable3Tmax1/Tmax2/R800_N2_10Cmin25-800C;targetedlocalpublisherHTMLcolspan2 bindscombined25-420Cmassloss. ActualLOIvolpercentnotrelativeincrease;muffle350C10minaircharnotTG;MethodsLOIn10 versuscombinedresultsn3 ambiguityretainedwithrepeatfieldblank;ANFbathsnotfinalfiberfractions/T-bathandMDImassunknown;originalT-RPUFrounded100.01totalretained. PBTTable1LOI23.2/27/28.5/32.5 matchesTable2T5/Tmax/R700_N2_10Cmin60mLmin,Fig4captionbinds10rate despiteMethods5/10/20/40kineticsrates;T5notTonset and700residueendpointnotprogrammeend. ControlPBTLOI20Table1versus22Section3.1conflictheld,APpowderTG-onlyandfiberfreeRPUFexcluded;3heldfactsnotaccepted. Full23PDFpages10tables20captions1scheme/1targetedHTMLTable3readnative;124sourceguards6regressiontests114canonicalcomparisons1adjudicatedsingleR700coincidence2rawpresentations0paired/duplicate/unresolvedhits;strict8state8TGreadonlyprojectionpassed. Comparatorcontextusesexistingreviewedsourcefacts,notnewfullcomparatororiginalreview. Sameprimaryagentseparatepasses,notindependenthumanreview. Unreportedconditionsremainblank;nocurve estimates,fulltexts,images orprivatepaths published. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
     "Sixinitialglassmat/polyester wholecomposite states: ownTable3LOI21.7/22.2/22.1/21.6/21.5/21.0,Table2T10/R600 underbothN2andair10Cmin25-800C. Twelveconditions countassixsamples. T60auxiliary;measuredR600notR800/notpurecarbon;unreportedTGmass/flow/panblank. Glassmatreported300g/cm2 unitanomalyretained. Filler3wtpercentdenominatornotrenormalized;fiberabout20wtpercent/threeplies. Neatpolyestercomparator1excluded. All10pages4tables11capsnativefullread;110sourceguards3tests96canonicalchecks,16retainedsource-adjudicatedcoincidences0pairedhits0unresolved,strictreadonly6state12TGprojectionpassed. Comparatorcontextcheckusesexistingreviewedsourcefacts,notnewfullcomparatorreviews. These are separate passes by the same primary agent,not an independent human review. Unknown assay conditions remain blank;no curve estimates or guessed values. Original fulltexts,images and privatepaths remain local. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
@@ -790,7 +791,7 @@
       "snapshot_sha256": "11916ed5b6709fdf33ae363aaf6dd4c94ecb5f56d462ab68268f2b529507c76f"
     }
   },
-  "remaining_to_2000": 612,
+  "remaining_to_2000": 603,
   "batch_b71": {
     "accepted_unique_sample_states": 9,
     "accepted_condition_rows": 12,
@@ -838,9 +839,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 403,
+  "verified_sources": 405,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1380,
+  "verified_doi_sample_states": 1389,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -874,7 +875,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 612,
+  "remaining_to_target": 603,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -990,9 +991,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 258,
-      "sample_states": 813,
-      "condition_records": 1104
+      "sources": 260,
+      "sample_states": 822,
+      "condition_records": 1113
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1084,7 +1085,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1771,
+  "verified_doi_condition_records": 1780,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -5343,5 +5344,62 @@
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/146",
       "status": "merged_remote_verified"
     }
+  },
+  "batch_b272_b276": {
+    "accepted_unique_sample_states": 9,
+    "accepted_condition_rows": 9,
+    "new_source_inventory_states": 9,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 2,
+    "accepted_DOI_sources_added": 2,
+    "primary_HTML_scientific_bodies_reviewed": 0,
+    "complete_primary_HTML_bodies": 0,
+    "targeted_official_primary_HTML_tables": 0,
+    "targeted_official_comparator_HTML_checks": 0,
+    "targeted_official_standard_catalog_checks": 0,
+    "complete_text_primary_PDF_pages": 18,
+    "primary_tables_text_reviewed": 10,
+    "primary_figure_captions_text_reviewed": 16,
+    "primary_schemes_text_reviewed": 1,
+    "complete_official_SIs": 0,
+    "total_fact_rows": 22,
+    "held_fact_rows": 13,
+    "unbound_auxiliary_residue_metrics": 0,
+    "excluded_conflicting_metrics": 0,
+    "source_scientific_guards": 166,
+    "source_regression_tests": 6,
+    "canonical_comparisons": 124,
+    "canonical_adjudicated_not_duplicate_comparisons": 7,
+    "canonical_adjudicated_approved_scalar_comparisons": 6,
+    "canonical_excluded_powder_scalar_comparisons": 1,
+    "canonical_raw_hit_comparisons": 7,
+    "canonical_raw_hit_presentations": 15,
+    "canonical_raw_paired_scalar_hit_comparisons": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "canonical_excluded_additive_unresolved_comparisons": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "unreviewed_candidate_contexts_not_upgraded": 2,
+    "held_comparator_sources_not_upgraded": 3,
+    "publication_groups": 2,
+    "source_groups": [
+      {
+        "batch": "b272",
+        "new_states": 3,
+        "new_conditions": 3,
+        "held": 8,
+        "csv_sha256": "8cce897baec65e26ae6a88929e11a83cf848ab52b905edc1d9b414360903129f"
+      },
+      {
+        "batch": "b276",
+        "new_states": 6,
+        "new_conditions": 6,
+        "held": 5,
+        "csv_sha256": "d56101b6741f6578bae05b22c0e600fd12edae439b61e20960198b282c59d699"
+      }
+    ],
+    "tests_passed": 2137,
+    "snapshot_sha256": "eda45a00ae4de13ebe67aaff4ccae993b9fc122c54a37ac35637924ce1308ca8"
   }
 }
