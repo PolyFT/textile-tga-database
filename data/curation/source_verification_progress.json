@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-05T14:31:41.785981+00:00",
+  "as_of_utc": "2026-10-05T15:06:17.021879+00:00",
   "latest_batch_id": "20261005_b309",
   "verified_condition_records": 1848,
   "verified_unique_sample_states": 1449,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b309_source_and_textile_scope_validated_branch_pending_PR",
-  "last_merged_batch": "20261005_b307_b308",
+  "publication_stage": "b309_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261005_b309",
   "writer_lease": {
     "owner": "codex-local-textile-b309-20261005",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261005_b309",
     "claimed_at_utc": "2026-10-05T14:26:18.732847+00:00",
     "expires_at_utc": "2026-10-05T15:56:18.732847+00:00",
     "purpose": "4 new PET-knit pairs/4 TG; 78-state incremental textile scope registry and export; 48 original guards, 4 source regressions, 10 scope regressions; 28 canonical comparisons; preserve all1844 existing TG fields and writer guards",
-    "previous_release_commit": "281ed2ccd7f07afd17b76fc354a7962c0e01d56d"
+    "previous_release_commit": "281ed2ccd7f07afd17b76fc354a7962c0e01d56d",
+    "released_at_utc": "2026-10-05T15:06:17.021879+00:00",
+    "release_reason": "PR153 exact-head CI, ordinary merge, three merge checks and independent full broad/textile master/report/blob/oldfield/source verification passed."
   },
   "next_sources": [],
   "next_actions": [
@@ -5830,6 +5832,44 @@
       "input_master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
       "scope_registry_sha256": "687bf5847f52abedaa69a1ffd747932ad4767e86eb2fd5bf64829625d3321d44",
       "textile_master_sha256": "8f907d96184b718493c4faf165853882e9826ff882fc8e1dd71a5ad63178a512"
+    },
+    "publication": {
+      "head_sha": "0b2623a27866f997d4dc4df8f7f7f255e1ad5959",
+      "merge_sha": "71ba4fe1cd1c4d6bd5d7daa431e2bd09f624b226",
+      "validation_run": 37327248643,
+      "snapshot_sha256": "21d4106c72466cc5285cad2c5897ef190eec9c38821142164f2e9697a00956b7",
+      "master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+      "independent_remote_master_blob_sha": "1bde35fb3dab74c0d727ccf6b1316f94ca192784",
+      "independent_remote_master_bytes": 12120621,
+      "postmerge_runs": [
+        37327843434,
+        37327842847,
+        37327843486
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 19,
+      "textile_scope_report": {
+        "target_unique_sample_states": 3000,
+        "verified_textile_sample_states": 78,
+        "verified_textile_condition_records": 82,
+        "verified_textile_sources": 8,
+        "remaining_to_target": 2922,
+        "excluded_non_textile_sample_states": 9,
+        "excluded_non_textile_condition_records": 9,
+        "pending_scope_sample_states": 1362,
+        "pending_scope_condition_records": 1757,
+        "scope_audit_complete": false,
+        "legacy_broad_sample_states": 1449,
+        "legacy_broad_condition_records": 1848,
+        "counting_rule": "Admit only evidence-reviewed textile cloth, yarn, nonwoven or source-confirmed textile fibre/application; one source/sample/treatment/washing state is counted once across TG conditions. Paper sheets and dispersed-fibre engineering plastics are excluded. Unknown scope is pending and uncounted.",
+        "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+        "input_master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+        "scope_registry_sha256": "687bf5847f52abedaa69a1ffd747932ad4767e86eb2fd5bf64829625d3321d44",
+        "textile_master_sha256": "8f907d96184b718493c4faf165853882e9826ff882fc8e1dd71a5ad63178a512"
+      },
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/153",
+      "status": "merged_remote_verified"
     }
   }
 }
