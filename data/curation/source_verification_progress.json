@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-05T13:39:03.705170+00:00",
+  "as_of_utc": "2026-10-05T14:01:29.654304+00:00",
   "latest_batch_id": "20261005_b307_b308",
   "verified_condition_records": 1844,
   "verified_unique_sample_states": 1445,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b307_b308_validated_branch_pending_PR_merge",
-  "last_merged_batch": "20261005_b304",
+  "publication_stage": "b307_b308_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261005_b307_b308",
   "writer_lease": {
     "owner": "codex-local-textile-b307_b308-20261005",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261005_b307_b308",
     "claimed_at_utc": "2026-10-05T13:36:55.050346+00:00",
     "expires_at_utc": "2026-10-05T15:06:55.050346+00:00",
     "purpose": "15 source-confirmed cotton textile states/15 TG; 18 native PDF pages; 81 source guards; 3 regressions; 179 canonical comparisons, zero hits; read-only originals",
-    "previous_release_commit": "e307803668c80d287dc93bf0f3ffc64b8e793bb1"
+    "previous_release_commit": "e307803668c80d287dc93bf0f3ffc64b8e793bb1",
+    "released_at_utc": "2026-10-05T14:01:29.654304+00:00",
+    "release_reason": "PR152 exact-headCI/ordinarymerge/allthree mergechecks/fullremote master/report/blob/oldfield/libraryverification succeeded."
   },
   "next_sources": [],
   "next_actions": [
@@ -5747,6 +5749,25 @@
     "strict_textile_global_count": null,
     "strict_scope_audit_pending": true,
     "tests_passed": 2158,
-    "snapshot_sha256": "f768c062d0802c01e35b18b189cb5a1c7288d552f8bcdc62245570c4722b2a31"
+    "snapshot_sha256": "f768c062d0802c01e35b18b189cb5a1c7288d552f8bcdc62245570c4722b2a31",
+    "publication": {
+      "head_sha": "e6283dde4609203f415146e07a2aa38ec18aa4c5",
+      "merge_sha": "8c9204eea1996a76bce227faa5f7220268def787",
+      "validation_run": 37319010694,
+      "snapshot_sha256": "f768c062d0802c01e35b18b189cb5a1c7288d552f8bcdc62245570c4722b2a31",
+      "master_sha256": "50e7a04cfb141a1b54f242321344fff89863d037065f00c55bae4ebb19614746",
+      "independent_remote_master_blob_sha": "906654fd3d005f13e3a9da7643bbd4b33491a199",
+      "independent_remote_master_bytes": 12074503,
+      "postmerge_runs": [
+        37319767253,
+        37319767210,
+        37319767228
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 11,
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/152",
+      "status": "merged_remote_verified"
+    }
   }
 }
