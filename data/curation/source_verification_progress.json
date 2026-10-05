@@ -21,15 +21,13 @@
   "publication_stage": "b304_merged_remote_verified_lease_released",
   "last_merged_batch": "20261005_b304",
   "writer_lease": {
-    "owner": "codex-local-textile-b304-20261005",
-    "status": "released",
-    "batch_id": "20261005_b304",
-    "claimed_at_utc": "2026-10-05T12:40:59.024831+00:00",
-    "expires_at_utc": "2026-10-05T14:10:59.024831+00:00",
-    "purpose": "8stricttextilecottonstates8N2TG3holds;15PDFpages;48sourceguards3regressions126canonical2partial6presentations0duplicates0unresolved;readonlynative",
-    "previous_release_commit": "233e279136b3d05e6ceaaf0cd37bb3b31b80dee5",
-    "released_at_utc": "2026-10-05T13:14:23.584529+00:00",
-    "release_reason": "PR151 exact-headCI/ordinarymerge/allthree mergechecks/fullremote master/report/blob/oldfield/libraryverification succeeded."
+    "owner": "codex-local-textile-b307_b308-20261005",
+    "status": "active",
+    "batch_id": "20261005_b307_b308",
+    "claimed_at_utc": "2026-10-05T13:36:55.050346+00:00",
+    "expires_at_utc": "2026-10-05T15:06:55.050346+00:00",
+    "purpose": "15 source-confirmed cotton textile states/15 TG; 18 native PDF pages; 81 source guards; 3 regressions; 179 canonical comparisons, zero hits; read-only originals",
+    "previous_release_commit": "e307803668c80d287dc93bf0f3ffc64b8e793bb1"
   },
   "next_sources": [],
   "next_actions": [
