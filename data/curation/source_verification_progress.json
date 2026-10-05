@@ -21,15 +21,13 @@
   "publication_stage": "b321_combined_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b321",
   "writer_lease": {
-    "owner": "codex-local-material-b321-20261006",
-    "status": "released",
-    "batch_id": "20261006_b321",
-    "claimed_at_utc": "2026-10-05T21:44:00.721057+00:00",
-    "expires_at_utc": "2026-10-05T23:14:00.721057+00:00",
-    "previous_release_commit": "6429457be90cd139f8079b6cff3e28b83b779c8e",
-    "purpose": "B321/B322/B324combined17newWF_WPP/PP/GFPA6Tpairs20TG;3oldwoolstates6TGexplicitT25/T75bindingandscopeupgrades,zero numericchanges.202sourceguards22private20portabletests;267freshcanonicalcomparisonsunchanged.1908oldmainfieldsretainedexcept6authorizedwoolfingerprints/reviewer/date;T30preserved.8newholds2oldisothermalholds/2componentTG-onlypreserved.Prospective405/501;B322B324donotreimport.",
-    "released_at_utc": "2026-10-05T22:12:52.340135+00:00",
-    "release_reason": "PR159 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
+    "owner": "codex-local-material-b325-20261006",
+    "status": "active",
+    "batch_id": "20261006_b325",
+    "claimed_at_utc": "2026-10-05T22:27:26.165515+00:00",
+    "expires_at_utc": "2026-10-05T23:57:26.165515+00:00",
+    "previous_release_commit": "4e901fc0e07084eb18457d7db07fa2bae3df6557",
+    "purpose": "B325/B326 combined11 new PEIC_PP/PET_BPDI sample states15TG;106source guards15private15portabletests;160fresh profile comparisons unchanged, zero paired duplicates.1928old scientific fields/fingerprints preserved.8contested air metric cells held without header repair;22unique native primary pages2sources3local identical-copy paths.Prospective416/516;B326bundled,do not reimport."
   },
   "next_sources": [],
   "next_actions": [
