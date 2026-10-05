@@ -21,15 +21,13 @@
   "publication_stage": "b313_merged_remote_verified_lease_released",
   "last_merged_batch": "20261005_b313",
   "writer_lease": {
-    "owner": "codex-local-material-b313-20261005",
-    "status": "released",
-    "batch_id": "20261005_b313",
-    "claimed_at_utc": "2026-10-05T17:57:46.908779+00:00",
-    "expires_at_utc": "2026-10-05T19:27:46.908779+00:00",
-    "purpose": "15 new matched PA6-composite/aramid-paper/EPDM-PP precursor pairs,20 TG conditions;8 whole-pair/component facts and5 N2 residue-temperature metric conflicts held;actualbulk/paper forms preserved;118 source guards,10 regressions,229 fresh canonical comparisons,11 resolved raw coincidences;all1866 prior TG fields preserved;prospective target198/239. B315 bundled and must not publish separately.",
-    "previous_release_commit": "b0e1d33cd64428fdd3a9b79f500495e8e6bbb539",
-    "released_at_utc": "2026-10-05T18:30:49.084565+00:00",
-    "release_reason": "PR156 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
+    "owner": "codex-local-material-b317-20261006",
+    "status": "active",
+    "batch_id": "20261006_b317",
+    "claimed_at_utc": "2026-10-05T18:44:40.457518+00:00",
+    "expires_at_utc": "2026-10-05T20:14:40.457518+00:00",
+    "previous_release_commit": "32c367c2149145fdebc2a1b21cfb3f18cc174f10",
+    "purpose": "11newLDPE/PVApairs17TG;93oldscope112TGbundledB318documentaryreview,nooriginalnumericupgrades.117sourceguards/8regressions/221canonicalcomparisons/34resolvedR700coincidences;all1886oldfieldsretain;prospective302/368;7LOI-onlyholdsremainheld. B318mustnotpublishseparately."
   },
   "next_sources": [],
   "next_actions": [
