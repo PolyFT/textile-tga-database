@@ -14,14 +14,22 @@ def scientific_issues(row):
         issues.append('source_recipe_auxiliary_columns_mismatch')
     return issues
 class SourceChecks(unittest.TestCase):
-    def test_four_potential_and_one_unresolved(self):
-        self.assertEqual((len(rows),len(good),len({p.sample_state_id(r)for r in good})),(5,4,4))
+    def test_three_reviewed_and_two_held(self):
+        self.assertEqual((len(rows),len(good),len({p.sample_state_id(r)for r in good})),(5,3,3))
         self.assertTrue(all(not scientific_issues(r)for r in good))
         self.assertEqual(json.loads((R/'data/curation/source_review_manifest_20261006_b327.json').read_text())['source_guard_count'],45)
     def test_no_recipe_repair(self):
         r=by['3CB23APP_recipe_unresolved']; self.assertIn('held_recipe',r['pairing_status'])
         self.assertTrue(all(not r[k]for k in ['PP_wt_pct','PPMA_wt_pct','CB_wt_pct','APP_wt_pct','reviewed_measurement_fingerprint']))
         changed=dict(r,pairing_status='verified_exact',sample_state='3CB22APP'); self.assertTrue(p.evidence_issues(changed))
+    def test_rounded_control_reuse_remains_held(self):
+        r=by['PP']; self.assertIn('held_control',r['pairing_status'])
+        self.assertEqual(r['reviewed_measurement_fingerprint'],'')
+        self.assertTrue(p.evidence_issues(dict(r,pairing_status='verified_exact')))
+        a=json.loads((R/'data/curation/source_review_manifest_20261006_b327.json').read_text())['source_family_control_amendment']
+        self.assertTrue(a['integer_rounding_compatible'])
+        self.assertFalse(a['exact_paired_duplicate_proven'])
+        self.assertEqual((a['new_pairs_retained'],a['old_scope_states_retained']),(3,100))
     def test_whole_composite_not_free_maleic_anhydride(self):
         r=by['7CB18APP']; self.assertEqual(tuple(r[k]for k in ['PP_wt_pct','PPMA_wt_pct','CB_wt_pct','APP_wt_pct']),('65','10','7','18'))
         self.assertIn('graftcontent0.8',r['composition']); self.assertEqual(by['PP']['PPMA_wt_pct'],'0')

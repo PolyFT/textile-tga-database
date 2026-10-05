@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-05
 
-The evidence-reviewed broad master contains **1530 unique source/sample/washing states**, **1947 TG condition records**, and **428 original sources (426 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **520 reviewed target states /635 TG records** are admitted. **1010 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
+The evidence-reviewed broad master contains **1529 unique source/sample/washing states**, **1946 TG condition records**, and **428 original sources (426 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **519 reviewed target states /634 TG records** are admitted. **1010 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
 
 ## Batches
 
@@ -2664,3 +2664,8 @@ Local original 10.1016/j.compositesb.2019.107038 adds four truly new pairs/four 
 B328 admits100 already source-verified cloth states/115 TG records across16 cohorts, with zero old numeric or evidence upgrades. Existing preparation/wash/air/N2 branches and metric conflicts retained. Two missing source identities/material forms were partially checked using local native text: 145gsm cotton (10.1016/j.polymdegradstab.2017.11.018) and206gsm knitted polyester (10.1016/j.polymdegradstab.2019.108998), each pp1-3 and targeted material paragraphs pp4,5,7. Duplicate local PDF copies count once; no16-source full-original reread claim. 223445 full-profile comparisons and source/title/alias checks; three PVPA controls remain held, prior Ajchem control retained once. B328 is bundled here and must not be reimported separately.
 
 Target520states/635TG comprises399cloth/488TG,37fibres/37TG,11polymers/17TG,73polymer-composites/93TG.1010 historical states remain scope-pending;3000 target remains2480 short. No images or online papers; fulltexts/private paths remain local.
+
+
+### b327 source-family control amendment (before merge)
+
+Nine native pages of local original10.1016/j.polymdegradstab.2012.01.031 were examined. Table2 PDFp4 reports neatPP air10Cmin T5/T10/peak276/282/320, integer-rounding compatible with B327275.8/281.5/320.1. Exact priorPPLOI is curve-only (Figure8PDFp5); it is not estimated. Independent control provenance is unresolved, so the B327PP wholepair is held without numerical repair, alongside3CB22/23APP. Earlier b327four-pair/520/635 statements above describe the superseded branch proposal. Final prospective addition isthree new composite pairs/threeTG plus100oldscope states115TG,zero oldnumeric/evidence upgrades;target519states634TG,2481short of3000. Current main remains416states516TG until ordinary PR/headchecks and merge. Fresh2256-test validation and amended preservation proof required; prior head5c35af8must not be merged.
