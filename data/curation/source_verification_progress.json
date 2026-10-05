@@ -21,15 +21,13 @@
   "publication_stage": "b317_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b317",
   "writer_lease": {
-    "owner": "codex-local-material-b317-20261006",
-    "status": "released",
-    "batch_id": "20261006_b317",
-    "claimed_at_utc": "2026-10-05T18:44:40.457518+00:00",
-    "expires_at_utc": "2026-10-05T20:14:40.457518+00:00",
-    "previous_release_commit": "32c367c2149145fdebc2a1b21cfb3f18cc174f10",
-    "purpose": "11newLDPE/PVApairs17TG;93oldscope112TGbundledB318documentaryreview,nooriginalnumericupgrades.117sourceguards/8regressions/221canonicalcomparisons/34resolvedR700coincidences;all1886oldfieldsretain;prospective302/368;7LOI-onlyholdsremainheld. B318mustnotpublishseparately.",
-    "released_at_utc": "2026-10-05T19:21:56.699634+00:00",
-    "release_reason": "PR157 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
+    "owner": "codex-local-material-b319-20261006",
+    "status": "active",
+    "batch_id": "20261006_b319",
+    "claimed_at_utc": "2026-10-05T20:29:04.317937+00:00",
+    "expires_at_utc": "2026-10-05T21:59:04.317937+00:00",
+    "previous_release_commit": "676e12449824addc1e42200f5fb70cd811eebcc7",
+    "purpose": "5newPP/PA6pairs5TG;78oldscope102TGbundledB320documentaryreview,numericupgrades0.28sourceguards/7privatechecks/6portablechecks/60freshcanonicalcomparisons/10resolvedR600coincidences;all1903oldfieldsretain;T30originaldefinitionone-lineTG_FIELDSsupport;prospective385/475;EG10LOI-onlyheld. B320mustnotpublishseparately."
   },
   "next_sources": [],
   "next_actions": [
