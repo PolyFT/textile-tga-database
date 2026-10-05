@@ -14,9 +14,9 @@ class ScopeScientificGates(unittest.TestCase):
  def test_two_TG_atmospheres_count_one_state(self):
   self.assertEqual(len(COTTON),2);accepted,report=scope.classify(COTTON,subset(COTTON))
   self.assertEqual((report['verified_textile_sample_states'],len(accepted)),(1,2))
- def test_cellulose_fibre_paper_remains_outside_target(self):
+ def test_previous_paper_exclusion_requires_expanded_scope_reassessment(self):
   d=subset([PAPER]);accepted,report=scope.classify([PAPER],d)
-  self.assertEqual((len(accepted),report['excluded_non_textile_sample_states']),(0,1))
+  self.assertEqual((len(accepted),report['excluded_non_textile_sample_states'],report['pending_scope_sample_states']),(0,0,1))
   d['entries'][0]['decision']='admit_textile'
   with self.assertRaisesRegex(ValueError,'Non-textile class'):scope.classify([PAPER],d)
  def test_same_numbers_do_not_authorize_cloth_to_fibre_substitution(self):
@@ -42,6 +42,9 @@ class ScopeScientificGates(unittest.TestCase):
  def test_partial_or_curve_only_numeric_evidence_is_not_exported(self):
   for changed in [{'pairing_status':'pending_source_review'},{'numeric_evidence_type':'curve_estimate'}]:
    with self.assertRaisesRegex(ValueError,'evidence-reviewed master'):scope.classify([dict(COTTON[0],**changed)],subset([COTTON[0]]))
+ def test_material_class_cannot_change_between_TG_conditions(self):
+  d=subset(COTTON);d['entries'][1]['scope_class']='fiber_forming_polymer'
+  with self.assertRaisesRegex(ValueError,'Conflicting material classes'):scope.classify(COTTON,d)
  def test_identity_fields_cannot_be_reduced_to_pass(self):
   d=subset(COTTON);d['scope_identity_fields'].remove('material_form_TGA')
   with self.assertRaisesRegex(ValueError,'identity fields'):scope.classify(COTTON,d)

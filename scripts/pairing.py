@@ -116,6 +116,31 @@ def sample_state_id(row):
         ).encode()).hexdigest()[:20]
 
 
+# Explicitly expanded by the user: fibre-forming polymers and precursors may be
+# tested as resin, film or bulk specimens without a claimed textile application.
+# Shared specimen form and all ordinary numeric/source review gates still apply.
+MATERIAL_SCOPE_CLASSES = {'fiber_forming_polymer', 'textile_precursor_material',
+                          'fiber_forming_polymer_composite'}
+MATERIAL_SCOPE_FIELDS = ['DOI', 'sample_state', 'washing_state', 'composition',
+                         'material_form_TGA', 'material_form_LOI', 'source_title',
+                         'source_location', 'source_preparation', 'treatment_state',
+                         'material_scope_class', 'source_material_scope_evidence',
+                         'source_material_scope_locator']
+
+
+def material_scope_fingerprint(row):
+    payload = {field: clean(row.get(field)) for field in MATERIAL_SCOPE_FIELDS}
+    return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def material_scope_review_matches(row):
+    return (clean(row.get('material_scope_class')) in MATERIAL_SCOPE_CLASSES
+            and all(clean(row.get(field)) for field in
+                    ['source_material_scope_evidence', 'source_material_scope_locator',
+                     'material_scope_reviewed_by', 'material_scope_reviewed_at'])
+            and clean(row.get('reviewed_material_scope_fingerprint')) == material_scope_fingerprint(row))
+
+
 def measurement_fingerprint(row):
     """A review cannot silently authorize changed numbers or measurement conditions."""
     measurements = {k: normalized_rate(row.get(k)) for k in
@@ -194,8 +219,11 @@ def evidence_issues(row):
         reasons.append('specimen_forms_review_pending')
     elif tga != loi:
         reasons.append('specimen_form_mismatch')
-    elif not re.search(r'\b(?:fabric|textile|fibers?|fibres?|yarn|nonwoven|woven|knitted)\b', tga):
+    elif (not re.search(r'\b(?:fabric|textile|fibers?|fibres?|yarn|nonwoven|woven|knitted)\b', tga)
+          and not material_scope_review_matches(row)):
         reasons.append('reviewed_specimen_not_textile')
+    if clean(row.get('material_scope_class')) and not material_scope_review_matches(row):
+        reasons.append('material_scope_review_pending_or_stale')
     if clean(row.get('numeric_evidence_type')) not in {'tabulated', 'explicit_text'}:
         reasons.append('numeric_evidence_review_pending')
     return reasons

@@ -11,11 +11,11 @@ from pathlib import Path
 import pandas as pd
 try:
     from .pairing import (TG_FIELDS, clean, evidence_issues, measurement_fingerprint,
-                         normalize_doi, normalize_label, normalized_atmosphere,
+                         normalize_doi, normalize_label, normalized_atmosphere, material_scope_review_matches,
                          pair_key, reviewed_metadata, source_identity, source_group_key, sample_state_id)
 except ImportError:
     from pairing import (TG_FIELDS, clean, evidence_issues, measurement_fingerprint,
-                                normalize_doi, normalize_label, normalized_atmosphere,
+                                normalize_doi, normalize_label, normalized_atmosphere, material_scope_review_matches,
                                 pair_key, reviewed_metadata, source_identity, source_group_key, sample_state_id)
 
 try:
@@ -220,7 +220,8 @@ def build_tables(df, issues=None):
         if clean(row.get('direct_numeric_use')).lower() not in {'yes', 'tg+loi', '是'}:
             pending.append('direct_numeric_use_review_pending')
         form = reviewed_form or normalize_label(row.get('material_form'))
-        if not re.search(r'fabric|textile|fiber|fibre|woven|knit|yarn', form):
+        if (not re.search(r'fabric|textile|fiber|fibre|woven|knit|yarn', form)
+                and not material_scope_review_matches(row)):
             pending.append('textile_form_review_pending')
         row['pair_quality'] = 'quarantine' if substantive else ('pending_review' if pending else 'A')
         row['review_reasons'] = ';'.join(dict.fromkeys(substantive + pending))
