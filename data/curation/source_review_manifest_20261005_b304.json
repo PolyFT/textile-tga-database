@@ -1,0 +1,372 @@
+{
+  "batch": "b304",
+  "review_completed_utc": "2026-10-05T12:44:22.287616+00:00",
+  "baseline_counts": [
+    1422,
+    1821,
+    408
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 8,
+    "accepted_condition_rows": 8,
+    "new_source_inventory_states": 8,
+    "new_strict_textile_states": 8,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 15,
+    "primary_tables_text_reviewed": 5,
+    "primary_figure_captions_text_reviewed": 8,
+    "total_fact_rows": 11,
+    "held_fact_rows": 3,
+    "metric_level_conflict_facts": 1,
+    "source_scientific_guards": 48,
+    "source_regression_tests": 3,
+    "canonical_comparisons": 126,
+    "canonical_raw_hit_comparisons": 2,
+    "canonical_raw_hit_presentations": 6,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "strict_textile_global_count": null,
+    "strict_scope_audit_pending": true
+  },
+  "scientific_findings": [
+    {
+      "DOI": "10.1007/s10570-018-2206-4",
+      "title": "Flammability and combustion behavior of cotton fabrics treated by the sol gel method using ionic liquids combined with different anions",
+      "accepted_states": 8,
+      "accepted_conditions": 8,
+      "potential_states": 8,
+      "potential_conditions": 8,
+      "staged_held_rows": 3,
+      "metric_level_conflict_facts": 1,
+      "complete_primary_PDF_pages": 15,
+      "primary_tables_reviewed": 5,
+      "figure_captions_read": 8,
+      "source_textile_scope": "source_confirmed_textile_fabric",
+      "disposition": "Eight new initial180gsm cotton-fabric TG-LOI pairs from DOI10.1007/s10570-018-2206-4:CFcontrol,MCPTS-PF6/TFSI/acetate andPCPTS-Cl/PF6/TFSI/acetate. OwnTable2N2T10/DTGpeaks/explicitR600 at10Cmin25-800C25mLmin matches ownTable4LOI for samefabric/coating/processstate. Full15PDFpages/fiveTables/eightcaptiontexts reviewed native. No images/curveestimates. MCPTS-Cl23.33Table4versus23.0body wholepairheld;bothBF4noownLOIheld. T10notTonset/T5;R600not800Cendpoint;MCC/fire-residue methodsnottransferred;unknownTGmass/n andLOIgeometry-standard anomaly retained. Solgelparent chloride andseparate anionexchange histories distinct;DIprocessrinse notdurabilitywashing. Actualtextilefabric/source-explicittextileapplication;notpaper/dispersed-fiberengineeringplastic. 48sourceguards/3regressiontests/126profilecomparisons;tworesidue-onlycomparisons/sixpresentations retained andadjudicated fromexistingcuratedrecipecontexts,withoutupgradingcomparatororiginals. Zeroacceptedduplicates/unresolved. Full-field1821oldTGpreserved inprivateprojection;legacybroadtotal1422/1821to1430/1829 isnotstricttextileglobalcount. Globaltextile-scopeauditpending. 8newstricttextilestates8TG,0evidenceupgrades/legacycompletions,3heldfacts. Approvedlocallypendingfreshsinglewriter/main/PR/source/canonicalchecks andpublication."
+    }
+  ],
+  "verification_limit": "Eight new initial180gsm cotton-fabric TG-LOI pairs from DOI10.1007/s10570-018-2206-4:CFcontrol,MCPTS-PF6/TFSI/acetate andPCPTS-Cl/PF6/TFSI/acetate. OwnTable2N2T10/DTGpeaks/explicitR600 at10Cmin25-800C25mLmin matches ownTable4LOI for samefabric/coating/processstate. Full15PDFpages/fiveTables/eightcaptiontexts reviewed native. No images/curveestimates. MCPTS-Cl23.33Table4versus23.0body wholepairheld;bothBF4noownLOIheld. T10notTonset/T5;R600not800Cendpoint;MCC/fire-residue methodsnottransferred;unknownTGmass/n andLOIgeometry-standard anomaly retained. Solgelparent chloride andseparate anionexchange histories distinct;DIprocessrinse notdurabilitywashing. Actualtextilefabric/source-explicittextileapplication;notpaper/dispersed-fiberengineeringplastic. 48sourceguards/3regressiontests/126profilecomparisons;tworesidue-onlycomparisons/sixpresentations retained andadjudicated fromexistingcuratedrecipecontexts,withoutupgradingcomparatororiginals. Zeroacceptedduplicates/unresolved. Full-field1821oldTGpreserved inprivateprojection;legacybroadtotal1422/1821to1430/1829 isnotstricttextileglobalcount. Globaltextile-scopeauditpending. 8newstricttextilestates8TG,0evidenceupgrades/legacycompletions,3heldfacts. Approvedlocallypendingfreshsinglewriter/main/PR/source/canonicalchecks andpublication.",
+  "canonical_profile_dedup_audit": {
+    "status": "two_residue_only_comparisons_adjudicated_no_duplicate_found",
+    "basis": "Existing curated original-source contexts plus complete new source review; comparator originals not reread here, and comparator evidence is not upgraded.",
+    "comparisons": 126,
+    "raw_hit_comparisons": 2,
+    "raw_hit_presentations": 6,
+    "paired_profile_hits": 0,
+    "accepted_duplicate_states": 0,
+    "unresolved_accepted_profile_hits": 0,
+    "new_source_potential_states": 8,
+    "held_new_facts": 3,
+    "reviews": [
+      {
+        "new_sample": "MCPTS_BF4_initial_180gsm_cotton",
+        "new_pairing_status": "pending_source_review",
+        "presentations": [
+          {
+            "raw_hit": {
+              "DOI": "10.1007/s10570-019-02374-4",
+              "sample_state": "Treated cotton;30%ADDTMPA",
+              "washing_state": "Initialpreparedfabric;preparationrinse distinctfromdurabilitylaundering",
+              "pairing_status": "verified_exact",
+              "LOI_pct": "41.5",
+              "atmosphere": "air",
+              "heating_rate_C_min": "10",
+              "T5_C": "",
+              "T10_C": "274.8",
+              "Tonset_C": "",
+              "Tmax1_C": "290.0",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "25.31",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "25.31",
+              "residue_temp_C": "600"
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.1007/s10570-019-02374-4",
+                "sample_state": "Treated cotton;30%ADDTMPA",
+                "washing_state": "Initialpreparedfabric;preparationrinse distinctfromdurabilitylaundering",
+                "material_form": "Cotton fabric;121.65g/m2;Chaotianmen Market Chongqing;purity/weave unreported.",
+                "composition": "Treated cotton;30%ADDTMPA",
+                "treatment_method": "ADDTMPA native aqueous bath concentration; DCD mass concentration5%; fabric20x20cm;70C2h;liquor1:20;pickupabout60%;180C8min cure;DIrinse;60Cdry. Synthesis:1,3-diaminopropane0.1mol7.4g,phosphorous acid0.4mol32.8g,water100mL; formaldehyde0.4mol36.36g33% added40C,100C120min;urea0.4mol24g110Cabout60min,pHabout6; ethanolprecipitation,filter,60C24h dry. Product explicitly a mixture with varying ammonium substitution;not a unique pure structure.",
+                "pairing_status": "verified_exact",
+                "pairing_evidence": "Owncontrolcotton/30%ADDTMPAinitialfabric;doseexplicitTGparagraphPDFp8,Table3N2PDFp9/Table4airPDFp10,ownLOIprosePDFp6 18/41.5. Sameinitialpreparation/form/state. All16pagesreviewed;noSIcited. Otherdoses/washesnotassignedTG;T10notTonset;600Ccharat10C/minnotendpoint700C.",
+                "source_location": "Table4PDFp10/Fig5PDFp9;dose mappingPDFp8;LOIownprosePDFp6;TGmethodsPDFp5",
+                "LOI_pct": "41.5",
+                "T10_C": "274.8",
+                "Tmax1_C": "290.0",
+                "Tmax2_C": "",
+                "R600_pct": "25.31"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "ADDTMPA-treated cotton with LOI41.5,T10=274.8,Tmax=290 differs from MCPTS_BF4 silane ionic-liquid coating. Only R600=25.31 coincides. New BF4 pair remains held for missing LOI."
+          },
+          {
+            "raw_hit": {
+              "DOI": "10.1007/s10570-019-02374-4",
+              "sample_state": "Treated cotton;30%ADDTMPA",
+              "washing_state": "Initialpreparedfabric;preparationrinse distinctfromdurabilitylaundering",
+              "pairing_status": "verified_exact",
+              "LOI_pct": "41.5",
+              "atmosphere": "air",
+              "heating_rate_C_min": "10",
+              "T5_C": "",
+              "T10_C": "274.8",
+              "Tonset_C": "",
+              "Tmax1_C": "290.0",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "25.31",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "25.31",
+              "residue_temp_C": "600"
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.1007/s10570-019-02374-4",
+                "sample_state": "Treated cotton;30%ADDTMPA",
+                "washing_state": "Initialpreparedfabric;preparationrinse distinctfromdurabilitylaundering",
+                "material_form": "Cotton fabric;121.65g/m2;Chaotianmen Market Chongqing;purity/weave unreported.",
+                "composition": "Treated cotton;30%ADDTMPA",
+                "treatment_method": "ADDTMPA native aqueous bath concentration; DCD mass concentration5%; fabric20x20cm;70C2h;liquor1:20;pickupabout60%;180C8min cure;DIrinse;60Cdry. Synthesis:1,3-diaminopropane0.1mol7.4g,phosphorous acid0.4mol32.8g,water100mL; formaldehyde0.4mol36.36g33% added40C,100C120min;urea0.4mol24g110Cabout60min,pHabout6; ethanolprecipitation,filter,60C24h dry. Product explicitly a mixture with varying ammonium substitution;not a unique pure structure.",
+                "pairing_status": "verified_exact",
+                "pairing_evidence": "Owncontrolcotton/30%ADDTMPAinitialfabric;doseexplicitTGparagraphPDFp8,Table3N2PDFp9/Table4airPDFp10,ownLOIprosePDFp6 18/41.5. Sameinitialpreparation/form/state. All16pagesreviewed;noSIcited. Otherdoses/washesnotassignedTG;T10notTonset;600Ccharat10C/minnotendpoint700C.",
+                "source_location": "Table4PDFp10/Fig5PDFp9;dose mappingPDFp8;LOIownprosePDFp6;TGmethodsPDFp5",
+                "LOI_pct": "41.5",
+                "T10_C": "274.8",
+                "Tmax1_C": "290.0",
+                "Tmax2_C": "",
+                "R600_pct": "25.31"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "ADDTMPA-treated cotton with LOI41.5,T10=274.8,Tmax=290 differs from MCPTS_BF4 silane ionic-liquid coating. Only R600=25.31 coincides. New BF4 pair remains held for missing LOI."
+          }
+        ]
+      },
+      {
+        "new_sample": "PCPTS_acetate_initial_180gsm_cotton",
+        "new_pairing_status": "verified_exact",
+        "presentations": [
+          {
+            "raw_hit": {
+              "DOI": "10.2115/fiber.28.9_359",
+              "sample_state": "MXD-6",
+              "washing_state": "commercial_sample_no_durability_wash_reported",
+              "pairing_status": "verified_exact",
+              "LOI_pct": "23",
+              "atmosphere": "air",
+              "heating_rate_C_min": "15",
+              "T5_C": "",
+              "T10_C": "",
+              "Tonset_C": "",
+              "Tmax1_C": "",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "17.0",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "",
+              "residue_temp_C": ""
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.2115/fiber.28.9_359",
+                "sample_state": "MXD-6",
+                "washing_state": "commercial_sample_no_durability_wash_reported",
+                "material_form": "commercial textile fibers; source fabric construction unspecified by row",
+                "composition": "",
+                "treatment_method": "",
+                "pairing_status": "verified_exact",
+                "pairing_evidence": "Exact material/trade labels occur in the shared commercial sample inventory (section 2.1), TG Table 3 and LOI Table 4. LOI fabric form is explicit; TG geometry is not separately specified. The common source inventory and exact same-material rows provide the identity bridge; identical assay geometry is not asserted. Powdered 25 mg specimens and 30 C/min belong to the separate flash-point test, not TG.",
+                "source_location": "Original Japanese article pp 360,364-365; Tables 3 and 4.",
+                "LOI_pct": "23",
+                "T10_C": "",
+                "Tmax1_C": "",
+                "Tmax2_C": "",
+                "R600_pct": "17.0"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "Commercial MXD-6 specimen LOI23 differs from PCPTS-acetate-coated180gsm cotton LOI21.33. Only R600=17 coincides; no comparator evidence upgrade."
+          },
+          {
+            "raw_hit": {
+              "DOI": "10.1016/j.ijbiomac.2019.08.049",
+              "sample_state": "PA/Ba/PA/Ba",
+              "washing_state": "Initial prepared state;precleaning/mercerizationnotdurabilitywaterwash",
+              "pairing_status": "held_LOI_synergy_reference_scope_unresolved",
+              "LOI_pct": "",
+              "atmosphere": "N2",
+              "heating_rate_C_min": "15",
+              "T5_C": "",
+              "T10_C": "278.6",
+              "Tonset_C": "",
+              "Tmax1_C": "332.4",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "17.0",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "17.0",
+              "residue_temp_C": "600"
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.1016/j.ijbiomac.2019.08.049",
+                "sample_state": "PA/Ba/PA/Ba",
+                "washing_state": "Initial prepared state;precleaning/mercerizationnotdurabilitywaterwash",
+                "material_form": "Cotton fabric;121g/m2;Hongda Fabric Industry,Hebei;weavepatternunreported",
+                "composition": "PA/Ba/PA/Ba",
+                "treatment_method": "Precleanwithcommondetergent,ethanol,DIwater;dry60C6h. CoatedfabricsNaOH10wt%RT10minmercerizationbeforedeposition,ovendrytemperatureunreported;controlmercerizationunreported. CH1wt%DIinitialpH2HCl,stir>24h;PA3wt%bathpreparedfrom70wt%aqueousstock,stir24h;bothadjustpH4beforedeposition. BaCl2aqueous4g/L. Fourordereddepositonsbyname,eachdip5min,pad,dry80C3min;finaldry60C3h;wetpickup/catalystunreported.",
+                "pairing_status": "held_LOI_synergy_reference_scope_unresolved",
+                "pairing_evidence": "Owninitial121g/m2cottonfabricfourorderedcoatings;exactTable1Table4source labels,regularN2/airTGrate15andLOI;no washedfabrics/constituentfiber/MCC transfer",
+                "source_location": "MainTable1PDFp5/307;Table4PDFp7/309;methodsPDFp2/304",
+                "LOI_pct": "",
+                "T10_C": "278.6",
+                "Tmax1_C": "332.4",
+                "Tmax2_C": "",
+                "R600_pct": "17.0"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "PA/Ba/PA/Ba phytic-acid/barium coating on121gsm cotton has T10=278.6,Tmax=332.4 and unresolved LOI. New PCPTS-acetate cotton has T10=286.3,Tmax=290/351,LOI21.33. Comparator LOI hold retained."
+          },
+          {
+            "raw_hit": {
+              "DOI": "10.21825/autex.63672",
+              "sample_state": "Untreated CO/PES",
+              "washing_state": "",
+              "pairing_status": "",
+              "LOI_pct": "",
+              "atmosphere": "N2",
+              "heating_rate_C_min": "10",
+              "T5_C": "",
+              "T10_C": "",
+              "Tonset_C": "",
+              "Tmax1_C": "",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "17",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "",
+              "residue_temp_C": ""
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.21825/autex.63672",
+                "sample_state": "Untreated CO/PES",
+                "washing_state": "",
+                "material_form": "plain-weave mattress ticking",
+                "composition": "50/50 cotton/polyester",
+                "treatment_method": "",
+                "pairing_status": "",
+                "pairing_evidence": "",
+                "source_location": "Experimental section; Table 2",
+                "LOI_pct": "",
+                "T10_C": "",
+                "Tmax1_C": "",
+                "Tmax2_C": "",
+                "R600_pct": "17"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "Untreated50/50 cotton/polyester differs from PCPTS-acetate-coated cotton. Only R600=17 coincides; comparator blank LOI and unverified status retained."
+          },
+          {
+            "raw_hit": {
+              "DOI": "10.1016/j.ijbiomac.2019.08.049",
+              "sample_state": "PA/Ba/PA/Ba",
+              "washing_state": "Initial prepared state;precleaning/mercerizationnotdurabilitywaterwash",
+              "pairing_status": "held_LOI_synergy_reference_scope_unresolved",
+              "LOI_pct": "",
+              "atmosphere": "N2",
+              "heating_rate_C_min": "15",
+              "T5_C": "",
+              "T10_C": "278.6",
+              "Tonset_C": "",
+              "Tmax1_C": "332.4",
+              "Tmax2_C": "",
+              "R500_pct": "",
+              "R600_pct": "17.0",
+              "R700_pct": "",
+              "R800_pct": "",
+              "residue_pct": "17.0",
+              "residue_temp_C": "600"
+            },
+            "existing_curated_contexts": [
+              {
+                "DOI": "10.1016/j.ijbiomac.2019.08.049",
+                "sample_state": "PA/Ba/PA/Ba",
+                "washing_state": "Initial prepared state;precleaning/mercerizationnotdurabilitywaterwash",
+                "material_form": "Cotton fabric;121g/m2;Hongda Fabric Industry,Hebei;weavepatternunreported",
+                "composition": "PA/Ba/PA/Ba",
+                "treatment_method": "Precleanwithcommondetergent,ethanol,DIwater;dry60C6h. CoatedfabricsNaOH10wt%RT10minmercerizationbeforedeposition,ovendrytemperatureunreported;controlmercerizationunreported. CH1wt%DIinitialpH2HCl,stir>24h;PA3wt%bathpreparedfrom70wt%aqueousstock,stir24h;bothadjustpH4beforedeposition. BaCl2aqueous4g/L. Fourordereddepositonsbyname,eachdip5min,pad,dry80C3min;finaldry60C3h;wetpickup/catalystunreported.",
+                "pairing_status": "held_LOI_synergy_reference_scope_unresolved",
+                "pairing_evidence": "Owninitial121g/m2cottonfabricfourorderedcoatings;exactTable1Table4source labels,regularN2/airTGrate15andLOI;no washedfabrics/constituentfiber/MCC transfer",
+                "source_location": "MainTable1PDFp5/307;Table4PDFp7/309;methodsPDFp2/304",
+                "LOI_pct": "",
+                "T10_C": "278.6",
+                "Tmax1_C": "332.4",
+                "Tmax2_C": "",
+                "R600_pct": "17.0"
+              }
+            ],
+            "decision": "distinct_material_or_recipe_residue_only_coincidence",
+            "reason": "PA/Ba/PA/Ba phytic-acid/barium coating on121gsm cotton has T10=278.6,Tmax=332.4 and unresolved LOI. New PCPTS-acetate cotton has T10=286.3,Tmax=290/351,LOI21.33. Comparator LOI hold retained."
+          }
+        ]
+      }
+    ]
+  },
+  "strict_scope_evidence": "PrimaryPDF1abstractexplicittextileapplication;PDF3Materials180gsmcottonfabric;PDF5sameuntreated/treatedcottonfabricTG+LOI;PDF13textilefinishingconclusion. Actualfabricfinishingnotpapermaking/dispersedfiberengineeringplastic.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1821,
+    "new_states": 8,
+    "new_conditions": 8,
+    "evidence_upgrades": 0,
+    "verified_states": 1430,
+    "verified_conditions": 1829,
+    "verified_dois": 409,
+    "verified_sources": 411,
+    "offline_tests_passed": 2155,
+    "snapshot_sha256": "5ebe49e2b830ce65141aaacc8f46ffd0c2799a32ea3dc11f954ea026a164f6d8",
+    "master_sha256": "75b1f07b82050c4dedb18498007075f91c6813a5bdc8b0fcf824c1b7b4edcf12",
+    "validation_errors": [],
+    "held_fact_rows": 3,
+    "metric_level_conflict_facts": 1,
+    "LOI_wording_limitation_rows": 0,
+    "complete_original_text_pages": 15,
+    "complete_primary_HTML_bodies": 0,
+    "complete_primary_originals": 1,
+    "library_originals_hash_verified": 1,
+    "complete_official_SIs_text_tables": 0,
+    "primary_PDF_tables": 5,
+    "primary_figure_captions": 8,
+    "supplementary_tables": 0,
+    "supplementary_figure_captions": 0,
+    "targeted_official_primary_HTML_method_unit_checks": 0,
+    "unchanged_private_evidence_files": 9,
+    "canonical_comparisons": 126,
+    "canonical_adjudicated_not_duplicate_comparisons": 2,
+    "canonical_raw_hit_comparisons": 2,
+    "canonical_raw_hit_presentations": 6,
+    "canonical_raw_LOI_containing_partial_hit_comparisons": 0,
+    "canonical_full_profile_hits": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "new_source_inventory_states": 8,
+    "newly_completed_existing_TG_only_states": 0,
+    "new_strict_textile_states": 8,
+    "strict_textile_global_count": null
+  }
+}
