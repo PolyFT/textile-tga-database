@@ -1,0 +1,25 @@
+{
+  "batch": "b326",
+  "publication_batch": "b325_combined",
+  "review_completed_utc": "2026-10-05T22:29:36.910981+00:00",
+  "source": {
+    "DOI": "10.1016/j.polymdegradstab.2018.07.017",
+    "title": "Effect of biphenyl biimide structure on the thermal stability, flame retardancy and pyrolysis behavior of PET",
+    "primary_review": "Complete11nativePDFpages;Table1 PDFp3 composition;Table2 PDFp5 TG;Table3 PDFp6 LOI;Methods2.4 PDFp3;explicitR700/metricdefinitions PDFp4.4tables9figurecaptions1scheme36references. Native table text coordinates confirm original physical headers;identical local copy counted once.",
+    "new_states": 4,
+    "new_TG": 8,
+    "held_fact_rows": 0,
+    "held_metric_cells": 8
+  },
+  "source_scientific_guards": 59,
+  "source_regression_tests": 8,
+  "scientific_findings": "Four covalent PET/BPDI copolyester states,8 N2/air10Cmin40-700 TG. Preserve nominal and NMR mol%,not wt%. Native air headings physically Tmax1,T5,Tmax2,R700;first peak below T5 and qualitative threshold trend conflicts table. Hold8 canonical air T5/firstpeak cells without swapping labels;preserve source raw header values;retain independently explicit air secondpeak/R700. N2 T5 is5wt%loss,notTonset. LOI120x6.5x3.2mm,natleast5;original plusminus type unknown. TG approx5mgAl2O3,flow/nunknown;DSC/PyGC methods not borrowed.",
+  "verification_limit": "Complete own native original text;no images or online literature. Local attachment inventory bounded;missing auxiliary SI not assumed absent globally. Comparator documentary contexts inspected;original comparators not reread or upgraded.",
+  "privacy": "Only facts and DOI/page/Table/Figure locators public;fulltexts and private paths remain local.",
+  "canonical_comparisons": 76,
+  "raw_hit_comparisons": 6,
+  "raw_hit_presentations": 23,
+  "raw_paired_profile_hit_comparisons": 0,
+  "unresolved_approved_profile_hits": 0,
+  "duplicate_sample_state_hits": 0
+}
