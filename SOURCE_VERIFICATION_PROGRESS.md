@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1405 unique reviewed source/sample/washing states**, **1804 TG condition records**, and **407 original sources (405 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1413 unique reviewed source/sample/washing states**, **1812 TG condition records**, and **409 original sources (407 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1405 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1204 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1212 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2478,3 +2478,20 @@ Original fulltexts/supplements and local paths remain local.
 ### b282_b284 publication proof
 
 [PR #148](https://github.com/PolyFT/textile-tga-database/pull/148) merged as `3c661b44d49d965fab26ee66d3e2419e6ae001cb` after exact-head [validation run 37254750283](https://github.com/PolyFT/textile-tga-database/actions/runs/37254750283). All2143offline tests,compilation,rebuild and snapshot checks passed. Separate complete remote master/report/blob checks confirm1405reviewedstates1804TG405DOI407sources,errors=[];all1788previousconditionrecordsandconcurrentautomationfilespreserved. Thisbatch8newstates16TG0upgrades4purecomponentexcluded. All18primaryPDFpages10tables17captions read as native text;229same-primary-sourceguards6regression236canonical14raw48presentations0pairedprofilehits0duplicates0unresolved. GF15commercialPETstockisnotfinalGFloading;nominalGF30otheroriginalandraw10totalAHP_MCratio2:1arepreserved. T3auxiliaryandoriginalsparseDTGcolumnslotsarenotremappedtoT5/T10/Tonsetorfilledpeaks. R700/R650aremeasuredwholecompositeresidues;ordinaryTGandTGIRremainseparate. PowderCeHPP72.6tableversus71.9proseandAHP74withunknownresiduetemperatureremainexcluded. Snapshot SHA-256:`fce718abd79e2e5e99bb8aef16e93c47ebb6e47c3bf6de25bb69df6aaa977afe`;master SHA-256:`62a9b7909e6623de163b8180fc9967814756a9fd9fc1b9a0806387809b46eae1`. Owned lease released only after all checks and complete remote proof. No fulltexts,images or private paths published.
+
+
+## b286_b289 combined native-text textile publication
+
+Eightnewinitialfiber-materialstatesaddeightN2TGconditionsfromtwooriginals. Fourcontinuous11plywovenS-glass/PA6RTMlaminatesHPCTP0/10/20/30withinresinmatrixLOI27.2/27.8/28.8/30.9matchT5/DTG/measuredwholeR600;GFabout67wtpercentnotexactandwholeHPCTPfractionnotcalculated. FourAIRrecordsremainheldforTableair/FigoxygenandINERT-onlyramp;twoHPCTPpowderswithoutLOIexcluded. SeparateacetoneSoxhlet24hTGIR25-800C10mg60mLminnotordinaryinitialTG. FourhotpressedcellulosefiberpaperstatesLOI20.7/99.5/99.5/99.5matchofficialS1TableS1T10N2at10Cmin30-800C50mLmin;sourceTonsetmeans10percentlossnotgenericTonset. ControlglobalTmax394.34retained;controlR80017.35versus19.63heldauxiliary. ThreepaperTmaxvaluesheldforS1global434.75/445.07/475.33versusbodycellulosecomponent460/470/480identity;theirR80027.61/47.39/41.99retained. LOImethodandinstrumentrangeunreported,99.5retainedasreportedwithoutceilinginterpretation. Fillerfractions/replicates/unknownconditionsnotguessed;wholemineral+carbonresiduesnotcarbon-only. Complete16PDFpages4primarytables15capsplusoneprimaryHTML46Refs6capsandcompleteofficialS1native3tables7capsreadwithoutimages/curveestimates. 155same-primary-sourceguards6regressions;individualcanonical148comparisons2held-onlyresiduecoincidences3presentations0acceptedhits/duplicates/unresolved. Combined148canonicalcomparisons0acceptedhitsandstrict8state8TGprojection1405/1804to1413/1812passed;all1804oldrecordfieldspreservedinmemoryandserializedCSV. Eightcombinedstatesapprovedlocallypendingpublication;2held-onlyresiduehits3presentationsremainunapproved. Fourmetricconflictfactsareseparatefromsixheldfactrows. Noexistingevidenceupgradesorlegacycompletions. Evidence upgrades and legacy completions are zero.
+
+### b286
+
+4 new states;4 TG conditions;6 held facts; 0 metric-level conflict facts.
+- **10.1002/pc.26431**: 4 accepted states;4 accepted conditions. Fourinitial11plycontinuouswovenS-glass/PA6RTMlaminateswithHPCTP0/10/20/30withinresinmatrixLOI27.2/27.8/28.8/30.9matchTable2N2T5/DTG/measuredwholeR600at10Cmin30-600C. Fourstates4TG;GFabout67wtpercent/about45volpercentapproximate,wholelaminateHPCTPfractionnotcalculated. T5notgenericTonset;separateacetoneSoxhlet24hTGIR25-800C10mg60mLminnotborrowed. FourAIRrecordsheldforTableair/FigureoxygenconflictandINERT-onlyramp;twoHPCTPpowderswithoutLOIexcluded. All16PDFpages4tables15captionsreadnative,localHTMLTables1-3targetedcrosschecked;officialS1DOCX403unreadable. 101sourceguards3regression118canonicalcomparisons0acceptedhits0pairedhits0acceptedduplicates0unresolvedaccepted;2residue-onlyhits3presentationsconfinedtoheldAIR/powderremainunapproved. Strict4state4TGprojection1405/1804to1409/1808preserveseveryfieldofall1804oldrowsinmemoryandserializedCSV. Locallyapprovedpendingfreshmain/sourcealiases/queue/PR/leaseandcanonicalrefreshbeforepublication.
+
+### b289
+
+4 new states;4 TG conditions;0 held facts; 4 metric-level conflict facts.
+- **10.1007/s10570-023-05319-0**: 4 accepted states;4 accepted conditions. FournewinitialhotpressedcellulosefiberpaperstatesPurecellulose/MH3H/MH3D/MH7DS1TableS2LOI20.7/99.5/99.5/99.5matchTableS1T10N2_10Cmin30-800C50mLmin5-20mgsourcerange. ControlglobalTmax394.34retained;controlresidue17.35vs19.63conflictheldauxiliary. TreatedR80027.61/47.39/41.99temperaturebound;treatedS1globalTmax434.75/445.07/475.33versusbodycellulosecomponent460/470/480heldauxiliaryidentityunresolved. Tonsetsourceexplicit10percentloss=>T10notgenericonset/T5. LOImethod/instrument/geometry/replication/rangeunknown;99.5reportedasoriginalnumericvalue,noinstrumentceilinginferred. Wholemineral+carbonresidue,nofillerfractionorreactionphasebalanceguessed. FullprimaryHTML46Refs6capsandcompleteofficialS1native3tables7capsread;noimages/curveestimates. 54sourceguards3regression30canonical0hits0duplicates0unresolved;strict4state4TGprojection1405/1804to1409/1808preservesall1804oldfieldsmemoryandserializedCSV. Fourmetricconflictfactsnotfourheldsamplepairs. Approvedlocallypendingfreshmain/sourcequeue/aliases/PR/lease/canonicalrefreshbeforepublication.
+
+Original fulltexts/supplements and local paths remain local.
