@@ -1977,6 +1977,20 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261005_b261_local_textile.csv",
+      "accepted_rows": 11,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261005_b262_local_textile.csv",
+      "accepted_rows": 4,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -2257,9 +2271,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 5092,
-  "legacy_field_complete_condition_records": 2088,
-  "numeric_pair_candidate_rows": 2396,
+  "all_loaded_rows": 5107,
+  "legacy_field_complete_condition_records": 2102,
+  "numeric_pair_candidate_rows": 2410,
   "eligible_pending_condition_records": 373,
   "quarantined_condition_records": 34,
   "quarantine_reason_counts": {
@@ -2267,21 +2281,21 @@
     "possible_sample_alias": 15,
     "specimen_form_mismatch": 18
   },
-  "strict_tg_loi_pairs": 1765,
-  "verified_exact_condition_records": 1765,
-  "verified_exact_sample_states": 1379,
-  "verified_exact_dois": 399,
-  "verified_exact_sources": 401,
+  "strict_tg_loi_pairs": 1779,
+  "verified_exact_condition_records": 1779,
+  "verified_exact_sample_states": 1388,
+  "verified_exact_dois": 401,
+  "verified_exact_sources": 403,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 1757,
+  "verified_doi_condition_records": 1771,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1371,
+  "verified_doi_sample_states": 1380,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 256,
-      "sample_states": 804,
-      "condition_records": 1090
+      "sources": 258,
+      "sample_states": 813,
+      "condition_records": 1104
     },
     "conference_proceedings": {
       "sources": 5,
@@ -2315,24 +2329,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 468,
-  "candidate_sample_states": 1817,
-  "rows_with_numeric_loi": 3998,
-  "rows_with_any_tg_numeric": 2946,
+  "candidate_dois": 470,
+  "candidate_sample_states": 1826,
+  "rows_with_numeric_loi": 4012,
+  "rows_with_any_tg_numeric": 2961,
   "rows_missing_atmosphere_among_pair_candidates": 61,
   "rows_missing_heating_rate_among_pair_candidates": 163,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 621,
+  "remaining_to_target": 612,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 1195,
-    "T5_C": 677,
+    "Tmax1_C": 1209,
+    "T5_C": 691,
     "Tonset_C": 243,
     "R600_pct": 385,
-    "R700_pct": 388,
+    "R700_pct": 402,
     "R800_pct": 391
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "15df01a0489c85136ae9780419f486ded4210639a66d502f90d365b978d56d15"
+  "snapshot_sha256": "666d6732fe17c65ca5e6784e33b886dc8237f3a9eb07922e97077579e9037978"
 }

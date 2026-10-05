@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-02
 
-The reviewed dataset contains **1379 unique reviewed source/sample/washing states**, **1765 TG condition records**, and **401 original sources (399 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
+The reviewed dataset contains **1388 unique reviewed source/sample/washing states**, **1779 TG condition records**, and **403 original sources (401 DOI sources and 2 registered non-DOI proceedings)**. The near-term target is 500 unique states; **0 remain**. The long-term target remains 2000.
 
 ## Batches
 
@@ -8,7 +8,7 @@ The reviewed dataset contains **1379 unique reviewed source/sample/washing state
 - b39: 81 additional reviewed states, represented by 97 TG conditions. Of these, 56 are new-source or newly completed pairs; 25 are existing states upgraded with source evidence or missing conditions
 - b40: 21 additional reviewed states and 31 conditions, comprising 5 new alginate/aramid/PTFE laminate states and 16 existing states with verified source evidence
 - b41: 59 additional reviewed states and 59 conditions from seven papers; all 59 were existing numeric sample states upgraded with primary-source evidence. There are zero genuinely new scientific states in this batch
-- Cumulative: 1178 new/newly completed paired states and 201 existing paired states with upgraded evidence
+- Cumulative: 1187 new/newly completed paired states and 201 existing paired states with upgraded evidence
 - Two new cotton candidates lack a reported TG heating rate and remain outside the verified layer
 
 ## Scientific safeguards
@@ -2412,3 +2412,20 @@ Original fulltexts/supplements and local paths remain local.
 ### b254_b259 publication proof
 
 [PR #145](https://github.com/PolyFT/textile-tga-database/pull/145) merged as `2b96d62f992d7c89c9f728a6409bb0e8ffb901a4` after exact-head [validation run 37243277799](https://github.com/PolyFT/textile-tga-database/actions/runs/37243277799). All2125offline tests,compilation,rebuild andsnapshot checks passed. Independent remote master/report/blob checks confirm1379reviewedstates1765TG399DOI401sources,errors=[];all1757previousconditionrecordsandconcurrentautomationfilespreserved. Thisbatch8newstates8TG0upgrades3held. All23PDFpages10tables20caps1scheme andtargetedpublisherHTMLTable3readnative;124sourceguards6regressiontests114canonicalcomparisons1adjudicatedsingleR700coincidence2presentations0paired/duplicate/unresolvedhits. ActualLOInotrelativeincrease;R800_N2notmuffle350Cchar;ANFbathsnotfiberwtfraction;LOIn10vsn3ambiguityqualified. PBTcontrolLOI20Table1vs22Section3.1held;T5notTonset,R700notR800,lossratecolumnnottemperature. Snapshot SHA-256:`15df01a0489c85136ae9780419f486ded4210639a66d502f90d365b978d56d15`;master SHA-256:`b935f34f27ac67882e05328578fae18721f7b6ebf03d912dd0b30f618f1fa034`. Ownedwriterlease releasedonlyafterallchecksandfullremoteproof. No fulltexts,images orprivatepaths published.
+
+
+## b261_b262 combined native-text textile publication
+
+Two complete original sources provide9initialGF30-PA6 wholecompression-moldedstatepairs and14TGconditions. FiveAP0/10/15/20/25recipes TableIVLOI22.5/24.3/25.2/27.5/30.1 linkTablesII/III T5/Tmax1/Tmax2/R700 underN2andair10Cmin40-700C60mLmin~5mg. BothrawTonsetfootnotesdefine5percentweightloss=T5;genericTonsetblank. N2controlsingle454.1peak andairAProwsmissingsecondpeaksremainliteral. MeasuredwholeR700notnormalizedmatrixchar0/5.9/6.2/7.8/6.7 orcone30/42/47/54/60. FourHPA-2TBA-Al0/15/20/25recipes Table1LOI22/30.5/32/34 linkTable2T5_411/364/361/363,Tmaxglobal472/461/460/460,R70030/32/33/34_N2_20Cmin100mLmin;700measuredresidueendpointnotunknownprogrammeend. Earlierqualitativestagehasnoownpeak;air/kineticscurve-onlyconditionsnotinvented. APsourcecompression240C10MPa3min andHPA-sourceunknownmoldingT/P/time remainseparate;no protocoltransfer. HPAmixturesratio/purity andPA6matrixfractionunreported/notcalculated. OnefiberfreeAPpowderN2TGwithoutLOI remains excluded;its333.2/R70074.4 overlapwithotherAPsource is retained with323.3vs323.4T5 andpossible reuse unresolved,nevercounted. All15PDFpages10tables20caps2schemesConclusionsReferencesreadnative;158same-primary-agentseparate-sourceguards6regressiontests193canonicalcomparisons10raw47presentations6adjudicatedapprovedcoincidences4excludedAPreuseunresolved;oneLOI/R700partialcoincidence differswholematerial/form/recipe;zeroacceptedduplicates/unresolved. Comparatorcontextusesexistingreviewedfacts andexplicitlyunreviewedlegacycandidatesnotupgraded,notnewfullcomparatororiginalreviews. EmptyLOIfieldmatchesnotpairedprofiles. Strict9state14TGprojectionpassed;fiveAPstateswithtwoatmospherescountas5samples/10tests. Unreportedconditionsblank;nocurvesestimated,fulltexts/images/privatepaths published. Evidence upgrades and legacy completions are zero.
+
+### b261
+
+5 new states;10 TG conditions;1 held facts.
+- **10.1002/app.32860**: 5 accepted states;10 accepted conditions. Five initial30wtpercentGF-PA6/AP0,10,15,20,25 wholecompression-moldedstates have ownTableIVLOI22.5/24.3/25.2/27.5/30.1 plusTablesII/III T5/Tmax1/Tmax2/R700_N2/air10Cmin40-700C60mLmin~5mg. RawTonsetfootnotesdefineT5;absentTmax2blank;normalizedmatrixresidue/coneresiduesneverreplacewholeTGresidue. APpowderonlyN2TG/noLOIoutsidefiberscopeheld. All7pages6tables8captions1schemeConclusionsReferencesreadnative;106separate sourceguards3tests141canonicalcomparisons;oneaccepted scalarcoincidenceadjudicated/foursharedpureAPcomparisonsreuseunresolvedexcluded;strict5state10TGprojectionpassed. Approvedlocallypendingpublication.
+
+### b262
+
+4 new states;4 TG conditions;0 held facts.
+- **10.1016/j.polymdegradstab.2011.03.010**: 4 accepted states;4 accepted conditions. FourinitialwholeGF30-PA6/HPA-2TBA-Al0/15/20/25 recipes ownTable1LOI22/30.5/32/34 plusTable2T5_411/364/361/363,Tmaxglobal472/461/460/460,R70030/32/33/34_N2_20Cmin100mLmin. RawTonsetfootnotedefinesT5;globalTmaxnotfirstchronologicalpeak;qualearlierstagehasnoownpeak;700residueendpointnotprogrammeend. NoairnumericTG orcurve-onlykineticsratesadded. All8pages4tables12caps1schemeConclusionReferencesreadnative;52separate sourceguards3tests52canonicalcomparisons5source-adjudicatedscalarcoincidences31presentationsincluding1LOI/R700partialcoincidence;zeroacceptedduplicates/unresolved;strict4state4TGprojectionpassed. Twolegacycandidatecontextsremainunreviewed/notupgraded. Approvedlocallypendingcombinedpublication.
+
+Original fulltexts/supplements and local paths remain local.
