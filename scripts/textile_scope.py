@@ -15,8 +15,11 @@ SCOPE_FIELDS = ['DOI', 'sample_state', 'washing_state', 'material_form_TGA',
                 'material_form_LOI', 'composition', 'source_title', 'source_location',
                 'TG_locator', 'LOI_locator', 'conditions_locator', 'pairing_evidence',
                 'source_preparation', 'treatment_state', 'source_textile_scope_evidence',
-                'source_textile_scope_status']
+                'source_textile_scope_status', 'material_scope_class',
+                'source_material_scope_evidence', 'source_material_scope_locator',
+                'reviewed_material_scope_fingerprint']
 TEXTILE_CLASSES = {'textile_cloth', 'textile_yarn', 'textile_nonwoven', 'textile_fibre'}
+MATERIAL_CLASSES = TEXTILE_CLASSES | pairing.MATERIAL_SCOPE_CLASSES
 DECISIONS = {'admit_textile', 'exclude_non_textile', 'hold_scope'}
 
 
@@ -33,7 +36,7 @@ def observation_key(row):
 
 def classify(rows, registry):
     """No admission by title/form keywords; require the exact manual evidence binding."""
-    if registry.get('schema_version') != 1 or registry.get('scope_identity_fields') != SCOPE_FIELDS:
+    if registry.get('schema_version') != 2 or registry.get('scope_identity_fields') != SCOPE_FIELDS:
         raise ValueError('Unsupported textile-scope registry schema or identity fields')
     entries = {}
     for entry in registry['entries']:
@@ -47,10 +50,11 @@ def classify(rows, registry):
                       'scope_evidence', 'source_locator', 'scope_reviewed_by', 'scope_reviewed_at']:
             if not entry.get(field):
                 raise ValueError('Missing textile-scope evidence: ' + field)
-        if entry['decision'] == 'admit_textile' and entry['scope_class'] not in TEXTILE_CLASSES:
+        if entry['decision'] == 'admit_textile' and entry['scope_class'] not in MATERIAL_CLASSES:
             raise ValueError('Non-textile class cannot be admitted')
         entries[key] = entry
     admitted, seen = [], set()
+    state_classes = {}
     decisions, conditions, pending = {}, {key: 0 for key in DECISIONS}, []
     for row in rows:
         if pairing.evidence_issues(row):
@@ -72,6 +76,10 @@ def classify(rows, registry):
         decisions[state] = decision
         conditions[decision] += 1
         if decision == 'admit_textile':
+            scope_class = entry['scope_class']
+            if state in state_classes and state_classes[state] != scope_class:
+                raise ValueError('Conflicting material classes across TG conditions')
+            state_classes[state] = scope_class
             admitted.append(row)
     if set(entries) - seen:
         raise ValueError('Stale textile-scope observation is absent from the reviewed master')
@@ -80,7 +88,14 @@ def classify(rows, registry):
     all_states = {pairing.sample_state_id(row) for row in rows}
     pending_states = all_states - state_decisions['admit_textile'] - state_decisions['exclude_non_textile']
     report = {
+        'scope_definition': 'Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.',
         'target_unique_sample_states': registry['target_unique_sample_states'],
+        'verified_target_sample_states': len(state_decisions['admit_textile']),
+        'verified_target_condition_records': len(admitted),
+        'verified_target_sources': len({pairing.source_identity(row) for row in admitted}),
+        'verified_sample_states_by_material_class': {name: sum(value == name for value in state_classes.values()) for name in sorted(MATERIAL_CLASSES)},
+        'verified_condition_records_by_material_class': {name: sum(entries[observation_key(row)]['scope_class'] == name for row in admitted) for name in sorted(MATERIAL_CLASSES)},
+        'legacy_counter_aliases': 'verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.',
         'verified_textile_sample_states': len(state_decisions['admit_textile']),
         'verified_textile_condition_records': len(admitted),
         'verified_textile_sources': len({pairing.source_identity(row) for row in admitted}),
