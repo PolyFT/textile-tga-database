@@ -126,25 +126,25 @@ Tests use local fixtures and mocked requests. A passing test suite is not a clai
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
 
-- Legacy field-complete condition records: **2231** (not a scientific Grade-A count)
-- Numeric TG–LOI candidate rows: **2550**, across **489 DOI**
+- Legacy field-complete condition records: **2251** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **2570**, across **492 DOI**
 - Field-complete, unflagged condition records awaiting evidence review: **380**
 - Quarantined condition records: **34**; originals and reasons retained
 - Malformed input CSV records quarantined separately: **1**
-- Evidence-reviewed exact Grade-A conditions / sample states: **1908 / 1498**
-- DOI cohort: **420 sources / 1900 conditions / 1490 states**
+- Evidence-reviewed exact Grade-A conditions / sample states: **1928 / 1515**
+- DOI cohort: **423 sources / 1920 conditions / 1507 states**
 - Reviewed non-DOI cohort: **2 sources / 8 conditions / 8 states**
-- Overall reviewed sources: **422**; source identity schema **1**
-- Recorded publication types (disjoint Grade-A source identities): journal_article: **277**; conference_proceedings: **5**; author_preprint: **8**; unspecified: **132**; unrecognized: **0**; conflicting_metadata: **0**
+- Overall reviewed sources: **425**; source identity schema **1**
+- Recorded publication types (disjoint Grade-A source identities): journal_article: **280**; conference_proceedings: **5**; author_preprint: **8**; unspecified: **132**; unrecognized: **0**; conflicting_metadata: **0**
 - Sources explicitly marked `author_preprint` (without conflicting type metadata): **8 sources / 33 conditions / 23 states**
-- Target: 2000 verified sample states; remaining **502**
+- Target: 2000 verified sample states; remaining **485**
 
 Publication types use explicit `publication_type` metadata on Grade-A candidate rows before deduplication; pending and quarantined rows cannot classify verified sources. Non-DOI `original_conference_proceedings` also identifies conference proceedings. Missing-only labels are `unspecified`; unknown labels are `unrecognized`; disagreeing nonempty labels are `conflicting_metadata`, excluded from the author-preprint subtotal. Blank labels do not contradict an explicit source-level type. DOI presence and Grade-A numerical review do not establish journal publication or peer review.
 Unspecified or unrecognized publication types do not invalidate accepted numerical evidence. Zero explicitly marked author-preprint sources does not establish that no legacy source is a preprint.
 New author-preprint rows should explicitly record `publication_type=author_preprint` and `source_version`. These reporting fields do not change source identities, fingerprints or the evidence gate.
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `3ab183e590cb38af05e9d35e823958eb7ecf8c33c86c3257b3d6205885851b74`
+Snapshot SHA-256: `bff637814af91ca5b1ebb70619e1053672e8bc37e586135263cd99524d302485`
 <!-- TG-LOI-SNAPSHOT:END -->
 
 
@@ -153,7 +153,7 @@ Snapshot SHA-256: `3ab183e590cb38af05e9d35e823958eb7ecf8c33c86c3257b3d6205885851
 
 The active target is **3000 original-source-verified,deduplicated sample states** for urban textiles,fibres,fibre-forming polymers and precursors. PET,aramid and other eligible fibre-forming materials may be tested as resin,film or bulk specimens without a textile-use statement. Record the actual whole specimen form;TG andLOI still require the same formulation,form,treatment andwashing state. Fibre/polymer-containing composites are classified separately and are never relabeled as finished fabrics. Ordinary city-use plastics are not automatically admitted.
 
-Use [the target-material master](data/tg_loi_textile_master.csv) and [scope report](data/automation/textile_scope_report.json):**385 states /475 TG records**,comprising**296 cloth states /367 TG**,**37 fibre states /37 TG**,**4 polymer states /5 TG**,and**48 polymer-composite states /66 TG**. Another**1113 broad reviewed states await scope review** and contributezero to this incremental target count. The broader master preserves historical facts;its total and historical2000-state benchmark are not this target. Former paper exclusions remain pending expanded eligibility review. Earlier textile-only scope reports are historical.
+Use [the target-material master](data/tg_loi_textile_master.csv) and [scope report](data/automation/textile_scope_report.json):**405 states /501 TG records**,comprising**299 cloth states /373 TG**,**37 fibre states /37 TG**,**5 polymer states /7 TG**,and**64 polymer-composite states /84 TG**. Another**1110 broad reviewed states await scope review** and contributezero to this incremental target count. The broader master preserves historical facts;its total and historical2000-state benchmark are not this target. Former paper exclusions remain pending expanded eligibility review. Earlier textile-only scope reports are historical.
 
 After the ordinary evidence-gated rebuild,run `python scripts/textile_scope.py`. [Scope decisions](data/curation/textile_scope_registry.json) require documentary material evidence and are bound to both the reviewed measurement fingerprint and material,composition,preparation,washing and source-locator identity. Raw resin/film/bulk forms require an explicit fibre-forming material class,evidence locator,reviewer,date and matching material-scope fingerprint. Missing or changed bindings fail;keywords alone cannot admit records. Different atmospheres or ramps count as conditions of one sample state. Scope adjudication reusing prior reviewed facts is distinct from new pairs and original-source evidence upgrades.
 
