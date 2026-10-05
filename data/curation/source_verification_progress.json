@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-05T22:29:36.921896+00:00",
+  "as_of_utc": "2026-10-05T22:57:47.019054+00:00",
   "latest_batch_id": "20261006_b325",
   "verified_condition_records": 1943,
   "verified_unique_sample_states": 1526,
@@ -18,16 +18,18 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b325_combined_B326_branch_pending_PR",
-  "last_merged_batch": "20261006_b321",
+  "publication_stage": "b325_combined_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261006_b325",
   "writer_lease": {
     "owner": "codex-local-material-b325-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b325",
     "claimed_at_utc": "2026-10-05T22:27:26.165515+00:00",
     "expires_at_utc": "2026-10-05T23:57:26.165515+00:00",
     "previous_release_commit": "4e901fc0e07084eb18457d7db07fa2bae3df6557",
-    "purpose": "B325/B326 combined11 new PEIC_PP/PET_BPDI sample states15TG;106source guards15private15portabletests;160fresh profile comparisons unchanged, zero paired duplicates.1928old scientific fields/fingerprints preserved.8contested air metric cells held without header repair;22unique native primary pages2sources3local identical-copy paths.Prospective416/516;B326bundled,do not reimport."
+    "purpose": "B325/B326 combined11 new PEIC_PP/PET_BPDI sample states15TG;106source guards15private15portabletests;160fresh profile comparisons unchanged, zero paired duplicates.1928old scientific fields/fingerprints preserved.8contested air metric cells held without header repair;22unique native primary pages2sources3local identical-copy paths.Prospective416/516;B326bundled,do not reimport.",
+    "released_at_utc": "2026-10-05T22:57:47.019054+00:00",
+    "release_reason": "PR160 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
   },
   "next_sources": [],
   "next_actions": [
@@ -6789,6 +6791,67 @@
       "input_master_sha256": "9bf73db4ab60600f1b14ce433e19cf9d02040342f83a4672f0a202e7f73e25c7",
       "scope_registry_sha256": "508ad57dbcfed4417d1f43f33eb7fe3823806ac1d0e3aca201e62933d178086d",
       "textile_master_sha256": "65e18aab79057a1f95af0efea296109e936df84908bfec5ddfc74bc0f07fc42e"
+    },
+    "publication": {
+      "head_sha": "843411ac318a94484d3592b4904341e3e5e20e45",
+      "merge_sha": "55b40901441dc3fdf62afec2c7d67a203c00b045",
+      "validation_run": 37383444616,
+      "snapshot_sha256": "888608fd76d4985afc0093267865859d362d2b8f27dd52457fb07ada2969c87d",
+      "master_sha256": "9bf73db4ab60600f1b14ce433e19cf9d02040342f83a4672f0a202e7f73e25c7",
+      "independent_remote_master_blob_sha": "cefcd5535a4ecac773951df9be34ff32d2ca4b26",
+      "independent_remote_master_bytes": 12856839,
+      "postmerge_runs": [
+        37384135703,
+        37384135713,
+        37384135810
+      ],
+      "complete_remote_main_report_matches": true,
+      "concurrent_retry_state_preserved": true,
+      "changed_public_file_blobs_match": 17,
+      "textile_scope_report": {
+        "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+        "target_unique_sample_states": 3000,
+        "verified_target_sample_states": 416,
+        "verified_target_condition_records": 516,
+        "verified_target_sources": 52,
+        "verified_sample_states_by_material_class": {
+          "fiber_forming_polymer": 10,
+          "fiber_forming_polymer_composite": 70,
+          "textile_cloth": 299,
+          "textile_fibre": 37,
+          "textile_nonwoven": 0,
+          "textile_precursor_material": 0,
+          "textile_yarn": 0
+        },
+        "verified_condition_records_by_material_class": {
+          "fiber_forming_polymer": 16,
+          "fiber_forming_polymer_composite": 90,
+          "textile_cloth": 373,
+          "textile_fibre": 37,
+          "textile_nonwoven": 0,
+          "textile_precursor_material": 0,
+          "textile_yarn": 0
+        },
+        "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+        "verified_textile_sample_states": 416,
+        "verified_textile_condition_records": 516,
+        "verified_textile_sources": 52,
+        "remaining_to_target": 2584,
+        "excluded_non_textile_sample_states": 0,
+        "excluded_non_textile_condition_records": 0,
+        "pending_scope_sample_states": 1110,
+        "pending_scope_condition_records": 1427,
+        "scope_audit_complete": false,
+        "legacy_broad_sample_states": 1526,
+        "legacy_broad_condition_records": 1943,
+        "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+        "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+        "input_master_sha256": "9bf73db4ab60600f1b14ce433e19cf9d02040342f83a4672f0a202e7f73e25c7",
+        "scope_registry_sha256": "508ad57dbcfed4417d1f43f33eb7fe3823806ac1d0e3aca201e62933d178086d",
+        "textile_master_sha256": "65e18aab79057a1f95af0efea296109e936df84908bfec5ddfc74bc0f07fc42e"
+      },
+      "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/160",
+      "status": "merged_remote_verified"
     }
   }
 }
