@@ -42,5 +42,7 @@ jobs:
         run: python -m compileall -q scripts tests
       - name: Validate scientific ranges and evidence-gated pairability
         run: python scripts/validate_tg_loi.py
+      - name: Export source-admitted textile pairs
+        run: python scripts/textile_scope.py
       - name: Check committed snapshot consistency
-        run: git diff --exit-code -- README.md data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv
+        run: git diff --exit-code -- README.md data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json

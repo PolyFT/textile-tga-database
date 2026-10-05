@@ -1,0 +1,19 @@
+{
+  "target_unique_sample_states": 3000,
+  "verified_textile_sample_states": 78,
+  "verified_textile_condition_records": 82,
+  "verified_textile_sources": 8,
+  "remaining_to_target": 2922,
+  "excluded_non_textile_sample_states": 9,
+  "excluded_non_textile_condition_records": 9,
+  "pending_scope_sample_states": 1362,
+  "pending_scope_condition_records": 1757,
+  "scope_audit_complete": false,
+  "legacy_broad_sample_states": 1449,
+  "legacy_broad_condition_records": 1848,
+  "counting_rule": "Admit only evidence-reviewed textile cloth, yarn, nonwoven or source-confirmed textile fibre/application; one source/sample/treatment/washing state is counted once across TG conditions. Paper sheets and dispersed-fibre engineering plastics are excluded. Unknown scope is pending and uncounted.",
+  "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+  "input_master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+  "scope_registry_sha256": "687bf5847f52abedaa69a1ffd747932ad4767e86eb2fd5bf64829625d3321d44",
+  "textile_master_sha256": "8f907d96184b718493c4faf165853882e9826ff882fc8e1dd71a5ad63178a512"
+}

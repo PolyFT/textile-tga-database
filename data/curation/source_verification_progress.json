@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-05T14:01:29.654304+00:00",
-  "latest_batch_id": "20261005_b307_b308",
-  "verified_condition_records": 1844,
-  "verified_unique_sample_states": 1445,
-  "verified_dois": 411,
-  "numeric_pair_candidate_rows": 2483,
+  "as_of_utc": "2026-10-05T14:31:41.785981+00:00",
+  "latest_batch_id": "20261005_b309",
+  "verified_condition_records": 1848,
+  "verified_unique_sample_states": 1449,
+  "verified_dois": 412,
+  "numeric_pair_candidate_rows": 2487,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 3000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1244,
+  "cumulative_newly_completed_or_new_source_sample_states": 1248,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b307_b308_merged_remote_verified_lease_released",
+  "publication_stage": "b309_source_and_textile_scope_validated_branch_pending_PR",
   "last_merged_batch": "20261005_b307_b308",
   "writer_lease": {
     "owner": "codex-local-textile-b309-20261005",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "Continue the textile-only target from the fingerprint-bound scope export, not broad legacy counts. Audit pending source groups and add fully reviewed textile sample pairs in batches.",
     "Continue source-confirmed textile pairs toward 3000; first verify this batch through PR checks and merge, then finish the legacy textile-scope audit. Broad master totals do not establish textile-only progress.",
     "Eight new initial180gsm cotton-fabric TG-LOI pairs from DOI10.1007/s10570-018-2206-4:CFcontrol,MCPTS-PF6/TFSI/acetate andPCPTS-Cl/PF6/TFSI/acetate. OwnTable2N2T10/DTGpeaks/explicitR600 at10Cmin25-800C25mLmin matches ownTable4LOI for samefabric/coating/processstate. Full15PDFpages/fiveTables/eightcaptiontexts reviewed native. No images/curveestimates. MCPTS-Cl23.33Table4versus23.0body wholepairheld;bothBF4noownLOIheld. T10notTonset/T5;R600not800Cendpoint;MCC/fire-residue methodsnottransferred;unknownTGmass/n andLOIgeometry-standard anomaly retained. Solgelparent chloride andseparate anionexchange histories distinct;DIprocessrinse notdurabilitywashing. Actualtextilefabric/source-explicittextileapplication;notpaper/dispersed-fiberengineeringplastic. 48sourceguards/3regressiontests/126profilecomparisons;tworesidue-onlycomparisons/sixpresentations retained andadjudicated fromexistingcuratedrecipecontexts,withoutupgradingcomparatororiginals. Zeroacceptedduplicates/unresolved. Full-field1821oldTGpreserved inprivateprojection;legacybroadtotal1422/1821to1430/1829 isnotstricttextileglobalcount. Globaltextile-scopeauditpending. 8newstricttextilestates8TG,0evidenceupgrades/legacycompletions,3heldfacts. Approvedlocallypendingfreshsinglewriter/main/PR/source/canonicalchecks andpublication.",
     "Nine new initial cellulose-fiber paper states: three kraft-cellulose controls/LMw/HMw PEI-SHMP papers,three CM-Domsjo dissolving-fiber papers,and three PVAm wet-strength paper controls/directly LbL-treated papers. Table4 LOI20/19.5/24.5;20.5/21/24;20/20/21.5 matches Table3 T10/Tmax/measured whole-paper R800 under N2 at10C/min,40-800C,50mL/min. Source Tonset10% explicitly means10%massloss and is T10,not generic onset/T5;moisture peaks and HFT/VFT residues are excluded. Source mass10plusminus1mg is retained without inventing exact mass or replication;70uLAl2O3 pan unit targeted against official Methods because native PDF lacks the micro glyph. TG andLOI explicitly test paper sheets,not fiber-versus-paper mixtures. Fiber suspension deposition startsPEI;wet-strength sheet deposition startsanionicSHMP afterPVAm10mg/gfiberfeed. Distinct source stocks,PEI molecular masses,CMdegree0.026 and deposition routes preserved;feed is not retained coating fraction. Actualgrammage,SHMP retainedfraction,LOI geometry/replication/uncertainty/conditioning,TG replication/conditioning and postdip drying programme remain unknown. Ambiguous body increase20-25/21-25% and qualitative no-increase claims retained as wording limitations;only explicit Table4 measurements used,without guessing alternate endpoints,relative gains,uncertainty or significance. Complete19primaryPDFpages/fourTables/11captions and complete officialSI native oneAFMroughnessTable/threecaptions read;no images/curve estimates. 86sourceguards/three regressiontests;108canonical comparisons/20partial-hit comparisons/58presentations retained and adjudicated from source recipe context;zero full-profile hits,duplicates or unresolved accepted comparisons. Six raw LOI-containing comparisons are partial coincidences,not full-profile matches. Strict9state/9TG projection1413/1812to1422/1821 passed and all1812oldfields preserved in memory and serializedCSV. Zero existing evidence upgrades,legacy completions or held whole pairs. Approved locally pending fresh main/source aliases/queue/openPR/lease/canonical refresh and publication checks. Exact CI, ordinary merge, three postmerge checks, independent full proof and owned lease release required.",
@@ -844,9 +845,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 413,
+  "verified_sources": 414,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1437,
+  "verified_doi_sample_states": 1441,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -880,7 +881,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": null,
+  "remaining_to_target": 2922,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -996,9 +997,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 268,
-      "sample_states": 870,
-      "condition_records": 1169
+      "sources": 269,
+      "sample_states": 874,
+      "condition_records": 1173
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1090,7 +1091,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1836,
+  "verified_doi_condition_records": 1840,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -5663,15 +5664,25 @@
   },
   "textile_only_target_scope": {
     "target_unique_states": 3000,
-    "status": "strict_scope_audit_pending",
-    "verified_textile_only_states": null,
-    "legacy_broad_fiber_states": 1445,
-    "legacy_broad_TG_conditions": 1844,
+    "status": "incremental_scope_registry_active",
+    "verified_textile_only_states": 78,
+    "legacy_broad_fiber_states": 1449,
+    "legacy_broad_TG_conditions": 1848,
     "b294_textile_target_new_states": 0,
     "b294_paper_states_excluded_from_textile_target": 9,
     "counting_rule": "Require documented textile material, processing or application;fiber keyword alone is insufficient. Paper handsheets and dispersed-fiber engineering plastics are not textile-target admissions. Ambiguous applications remain outside the target until original-source scope review.",
     "b304_new_strict_textile_states": 8,
-    "b307_b308_new_strict_textile_states": 15
+    "b307_b308_new_strict_textile_states": 15,
+    "verified_textile_TG_conditions": 82,
+    "verified_textile_sources": 8,
+    "scope_audit_complete": false,
+    "pending_legacy_scope_states": 1362,
+    "excluded_non_textile_states": 9,
+    "b309_new_strict_textile_states": 4,
+    "registry": "data/curation/textile_scope_registry.json",
+    "master": "data/tg_loi_textile_master.csv",
+    "report": "data/automation/textile_scope_report.json",
+    "remaining_to_target": 2922
   },
   "batch_b304": {
     "accepted_unique_sample_states": 8,
@@ -5719,7 +5730,7 @@
       "status": "merged_remote_verified"
     }
   },
-  "remaining_to_3000": null,
+  "remaining_to_3000": 2922,
   "batch_b307_b308": {
     "accepted_unique_sample_states": 15,
     "accepted_condition_rows": 15,
@@ -5766,6 +5777,59 @@
       "changed_public_file_blobs_match": 11,
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/152",
       "status": "merged_remote_verified"
+    }
+  },
+  "batch_b309": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "new_strict_textile_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 7,
+    "primary_tables_text_reviewed": 3,
+    "primary_figure_captions_text_reviewed": 8,
+    "total_fact_rows": 4,
+    "held_fact_rows": 0,
+    "held_metric_facts": 2,
+    "source_step_mass_balance_limitations": 1,
+    "source_scientific_guards": 48,
+    "source_regression_tests": 4,
+    "scope_regression_tests": 10,
+    "canonical_comparisons": 28,
+    "canonical_raw_hit_comparisons": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "scope_admitted_existing_states": 74,
+    "legacy_scope_states_adjudicated": 51,
+    "existing_recent_source_scope_states": 23,
+    "scope_textile_states": 78,
+    "scope_textile_TG_records": 82,
+    "scope_excluded_paper_states": 9,
+    "scope_pending_old_states": 1362,
+    "strict_scope_audit_complete": false,
+    "tests_passed": 2172,
+    "snapshot_sha256": "21d4106c72466cc5285cad2c5897ef190eec9c38821142164f2e9697a00956b7",
+    "textile_scope_report": {
+      "target_unique_sample_states": 3000,
+      "verified_textile_sample_states": 78,
+      "verified_textile_condition_records": 82,
+      "verified_textile_sources": 8,
+      "remaining_to_target": 2922,
+      "excluded_non_textile_sample_states": 9,
+      "excluded_non_textile_condition_records": 9,
+      "pending_scope_sample_states": 1362,
+      "pending_scope_condition_records": 1757,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1449,
+      "legacy_broad_condition_records": 1848,
+      "counting_rule": "Admit only evidence-reviewed textile cloth, yarn, nonwoven or source-confirmed textile fibre/application; one source/sample/treatment/washing state is counted once across TG conditions. Paper sheets and dispersed-fibre engineering plastics are excluded. Unknown scope is pending and uncounted.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+      "scope_registry_sha256": "687bf5847f52abedaa69a1ffd747932ad4767e86eb2fd5bf64829625d3321d44",
+      "textile_master_sha256": "8f907d96184b718493c4faf165853882e9826ff882fc8e1dd71a5ad63178a512"
     }
   }
 }
