@@ -21,15 +21,13 @@
   "publication_stage": "b325_combined_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b325",
   "writer_lease": {
-    "owner": "codex-local-material-b325-20261006",
-    "status": "released",
-    "batch_id": "20261006_b325",
-    "claimed_at_utc": "2026-10-05T22:27:26.165515+00:00",
-    "expires_at_utc": "2026-10-05T23:57:26.165515+00:00",
-    "previous_release_commit": "4e901fc0e07084eb18457d7db07fa2bae3df6557",
-    "purpose": "B325/B326 combined11 new PEIC_PP/PET_BPDI sample states15TG;106source guards15private15portabletests;160fresh profile comparisons unchanged, zero paired duplicates.1928old scientific fields/fingerprints preserved.8contested air metric cells held without header repair;22unique native primary pages2sources3local identical-copy paths.Prospective416/516;B326bundled,do not reimport.",
-    "released_at_utc": "2026-10-05T22:57:47.019054+00:00",
-    "release_reason": "PR160 exact-head CI, ordinary merge, three merge checks and independent full master/report/blob/oldfield/source verification passed."
+    "owner": "codex-local-material-b327-20261006",
+    "status": "active",
+    "batch_id": "20261006_b327",
+    "claimed_at_utc": "2026-10-05T23:10:50.082960+00:00",
+    "expires_at_utc": "2026-10-06T00:40:50.082960+00:00",
+    "previous_release_commit": "614326ad6e6f09c710495ed17ba278f43c6b318d",
+    "purpose": "Four new CB/APP/PP pairs4TG plus100 existing cloth scope states115TG;zero old numeric/evidence upgrades.45 source guards6 private7 portable tests;63 new-source comparisons and223445 old full-profile comparisons,zero full duplicates.1943 old fields/fingerprints preserved. One3CB22/23APP recipe held.25 full new native pages;two partial old identity/material reviews,not16full rereads. Prospective520states635TG;B328bundled,do not reimport."
   },
   "next_sources": [],
   "next_actions": [
