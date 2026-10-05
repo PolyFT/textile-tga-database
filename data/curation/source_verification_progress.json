@@ -1,14 +1,14 @@
 {
-  "as_of_utc": "2026-10-05T19:21:56.699634+00:00",
-  "latest_batch_id": "20261006_b317",
-  "verified_condition_records": 1903,
-  "verified_unique_sample_states": 1493,
-  "verified_dois": 419,
-  "numeric_pair_candidate_rows": 2545,
+  "as_of_utc": "2026-10-05T20:32:47.870716+00:00",
+  "latest_batch_id": "20261006_b319",
+  "verified_condition_records": 1908,
+  "verified_unique_sample_states": 1498,
+  "verified_dois": 420,
+  "numeric_pair_candidate_rows": 2550,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 3000,
-  "cumulative_newly_completed_or_new_source_sample_states": 1292,
+  "cumulative_newly_completed_or_new_source_sample_states": 1297,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "batch_b39": {
     "added_verified_unique_states": 81,
@@ -18,7 +18,7 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b317_merged_remote_verified_lease_released",
+  "publication_stage": "b319_PP_PA6_T30_and_b320_scope_branch_pending_PR",
   "last_merged_batch": "20261006_b317",
   "writer_lease": {
     "owner": "codex-local-material-b319-20261006",
@@ -31,6 +31,7 @@
   },
   "next_sources": [],
   "next_actions": [
+    "ContinuelocalCSV-guidednativePDF/HTMLprecursors;EG10LOI-onlyheld,noTGreuse. B32078oldscopeadmissionsbundledhere,no reimport. Audit1113oldscopependingstateswithdocumentaryforms;relatedpublicationversionsremainheld.",
     "ContinueavailablelocalprecursororiginalsincludingPP/PA6;keep7LDPELOI-onlyholds,4mechanical-onlyrecipesand3PVAcomponentTG-onlyfactsoutsidepairedcount. B318scope93oldstatesbundledhere;do notreimport. Audit1191oldscopependingstateswithdocumentaryforms.",
     "Continuelocal-onlyLDPEandPVAoriginals;11candidatefilm/bulkstatesarenotyetapprovedorscope-counted. B315EPDM/PPbundledintob313;do notreimport. FivePA6N2residuetemperatures,aramidcurve-onlycompositesandTPE0LOIconflictstayheld.",
     "ContinuepreparedlocalmaterialbatchB313 anddocumentaryexpandedmaterialscopeaudit;target183states/219TG,broad1467/1866separate. PA1010matrixlabelandLOI26.2vs26.3conflictsremainheld. Noonlinepaperqueriesorpageimages.",
@@ -847,9 +848,9 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 421,
+  "verified_sources": 422,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 1485,
+  "verified_doi_sample_states": 1490,
   "verified_non_doi_sample_states": 8,
   "batch_b72": {
     "accepted_unique_sample_states": 6,
@@ -883,7 +884,7 @@
       "master_sha256": "9dbd4aa67b4452bcec7077ee737864cd15e54def0dedc89a93ef487187165292"
     }
   },
-  "remaining_to_target": 2698,
+  "remaining_to_target": 2615,
   "batch_b73": {
     "added_verified_unique_states": 29,
     "added_verified_condition_records": 33,
@@ -999,9 +1000,9 @@
   },
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 276,
-      "sample_states": 918,
-      "condition_records": 1228
+      "sources": 277,
+      "sample_states": 923,
+      "condition_records": 1233
     },
     "conference_proceedings": {
       "sources": 5,
@@ -1093,7 +1094,7 @@
     "author_preprint_states_added": 3,
     "author_preprint_conditions_added": 3
   },
-  "verified_doi_condition_records": 1895,
+  "verified_doi_condition_records": 1900,
   "verified_non_doi_condition_records": 8,
   "batch_b79": {
     "accepted_unique_sample_states": 11,
@@ -5667,18 +5668,18 @@
   "textile_only_target_scope": {
     "target_unique_states": 3000,
     "status": "superseded_by_user_expanded_urban_material_target_scope",
-    "verified_textile_only_states": 218,
-    "legacy_broad_fiber_states": 1493,
-    "legacy_broad_TG_conditions": 1903,
+    "verified_textile_only_states": 296,
+    "legacy_broad_fiber_states": 1498,
+    "legacy_broad_TG_conditions": 1908,
     "b294_textile_target_new_states": 0,
     "b294_paper_states_excluded_from_textile_target": 9,
     "counting_rule": "Historical finished-textile subcount only;current3000-state eligibility and accounting are governed by urban_material_target_scope and its fingerprint-bound expanded registry. Prior broad material exclusions are not current authority.",
     "b304_new_strict_textile_states": 8,
     "b307_b308_new_strict_textile_states": 15,
-    "verified_textile_TG_conditions": 265,
+    "verified_textile_TG_conditions": 367,
     "verified_textile_sources": 13,
     "scope_audit_complete": false,
-    "pending_legacy_scope_states": 1191,
+    "pending_legacy_scope_states": 1113,
     "excluded_non_textile_states": 0,
     "b309_new_strict_textile_states": 4,
     "registry": "data/curation/textile_scope_registry.json",
@@ -5733,7 +5734,7 @@
       "status": "merged_remote_verified"
     }
   },
-  "remaining_to_3000": 2698,
+  "remaining_to_3000": 2615,
   "batch_b307_b308": {
     "accepted_unique_sample_states": 15,
     "accepted_condition_rows": 15,
@@ -6021,13 +6022,13 @@
     "target_unique_states": 3000,
     "status": "incremental_expanded_material_registry_active",
     "scope_definition": "Urban textiles,fibres,fibre-forming polymers and precursors;matched resin/film/bulk forms may qualify without textile-use prose.",
-    "verified_target_sample_states": 302,
-    "verified_target_condition_records": 368,
-    "verified_target_sources": 35,
+    "verified_target_sample_states": 385,
+    "verified_target_condition_records": 475,
+    "verified_target_sources": 46,
     "verified_sample_states_by_material_class": {
       "fiber_forming_polymer": 4,
-      "fiber_forming_polymer_composite": 43,
-      "textile_cloth": 218,
+      "fiber_forming_polymer_composite": 48,
+      "textile_cloth": 296,
       "textile_fibre": 37,
       "textile_nonwoven": 0,
       "textile_precursor_material": 0,
@@ -6035,17 +6036,17 @@
     },
     "verified_condition_records_by_material_class": {
       "fiber_forming_polymer": 5,
-      "fiber_forming_polymer_composite": 61,
-      "textile_cloth": 265,
+      "fiber_forming_polymer_composite": 66,
+      "textile_cloth": 367,
       "textile_fibre": 37,
       "textile_nonwoven": 0,
       "textile_precursor_material": 0,
       "textile_yarn": 0
     },
     "scope_audit_complete": false,
-    "pending_scope_states": 1191,
+    "pending_scope_states": 1113,
     "excluded_non_textile_states": 0,
-    "remaining_to_target": 2698,
+    "remaining_to_target": 2615,
     "registry": "data/curation/textile_scope_registry.json",
     "master": "data/tg_loi_textile_master.csv",
     "report": "data/automation/textile_scope_report.json"
@@ -6437,6 +6438,77 @@
       },
       "pr_url": "https://github.com/PolyFT/textile-tga-database/pull/157",
       "status": "merged_remote_verified"
+    }
+  },
+  "batch_b319": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "existing_scope_reclassifications": 78,
+    "scope_existing_states_adjudicated": 78,
+    "scope_existing_TG_adjudicated": 102,
+    "accepted_DOI_sources_added": 1,
+    "held_whole_pair_fact_rows": 1,
+    "held_metric_facts": 0,
+    "recipe_mechanical_only_inventory": 0,
+    "TG_only_component_inventory": 0,
+    "source_scientific_guards": 28,
+    "source_regression_tests": 6,
+    "private_compatibility_regressions": 7,
+    "canonical_comparisons": 60,
+    "canonical_raw_hit_comparisons": 3,
+    "canonical_raw_hit_presentations": 10,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "verified_target_sample_states": 385,
+    "verified_target_condition_records": 475,
+    "scope_pending_states": 1113,
+    "scope_audit_complete": false,
+    "tests_passed": 2213,
+    "snapshot_sha256": "3ab183e590cb38af05e9d35e823958eb7ecf8c33c86c3257b3d6205885851b74",
+    "textile_scope_report": {
+      "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+      "target_unique_sample_states": 3000,
+      "verified_target_sample_states": 385,
+      "verified_target_condition_records": 475,
+      "verified_target_sources": 46,
+      "verified_sample_states_by_material_class": {
+        "fiber_forming_polymer": 4,
+        "fiber_forming_polymer_composite": 48,
+        "textile_cloth": 296,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "verified_condition_records_by_material_class": {
+        "fiber_forming_polymer": 5,
+        "fiber_forming_polymer_composite": 66,
+        "textile_cloth": 367,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+      "verified_textile_sample_states": 385,
+      "verified_textile_condition_records": 475,
+      "verified_textile_sources": 46,
+      "remaining_to_target": 2615,
+      "excluded_non_textile_sample_states": 0,
+      "excluded_non_textile_condition_records": 0,
+      "pending_scope_sample_states": 1113,
+      "pending_scope_condition_records": 1433,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1498,
+      "legacy_broad_condition_records": 1908,
+      "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "3fb1250f9e7c7646105c5240d8076fa4fe28bc0157238a6406e08e1e5424f39a",
+      "scope_registry_sha256": "40a6b5b250da7ae8db31ae1672804829c830b6a8c51a158233c6829bc6b13a87",
+      "textile_master_sha256": "e9a590ec49dd851eb531b0004c1dabafdab4dc8d9bea654fa0e571624da96b37"
     }
   }
 }

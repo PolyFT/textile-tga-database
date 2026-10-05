@@ -1,0 +1,247 @@
+{
+  "batch": "b319",
+  "review_completed_utc": "2026-10-05T20:32:47.845630+00:00",
+  "sources": [
+    {
+      "DOI": "10.1002/app.50682",
+      "title": "Influence of nano silica hybrid expandable graphite on flammability, thermal stability, and mechanical property of polypropylene/polyamide 6 blends",
+      "primary_review": "Scientificbodyacross11nativePDFpages,5tables,8figurecaptions,43referencesread;plottedaxistextnotusedforestimatingcurves. Truncatedpage6toolwindowwasrereadcompletely;noimages.",
+      "new_candidate_states": 5,
+      "new_candidate_TG": 5
+    }
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 5,
+    "accepted_condition_rows": 5,
+    "new_source_inventory_states": 5,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "existing_scope_reclassifications": 78,
+    "scope_existing_states_adjudicated": 78,
+    "scope_existing_TG_adjudicated": 102,
+    "accepted_DOI_sources_added": 1,
+    "held_whole_pair_fact_rows": 1,
+    "held_metric_facts": 0,
+    "recipe_mechanical_only_inventory": 0,
+    "TG_only_component_inventory": 0,
+    "source_scientific_guards": 28,
+    "source_regression_tests": 6,
+    "private_compatibility_regressions": 7,
+    "canonical_comparisons": 60,
+    "canonical_raw_hit_comparisons": 3,
+    "canonical_raw_hit_presentations": 10,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "verified_target_sample_states": 385,
+    "verified_target_condition_records": 475,
+    "scope_pending_states": 1113,
+    "scope_audit_complete": false
+  },
+  "source_limits": {
+    "PP/PA6": "Wholeinitialinjection-mouldedPP/PA6bulkstrips,notfibres/fabric. FiveownTable3TGrowsjoinexactTable1LOIrecipe codes;EG10ownLOI25.7hasnoTable3TGandnotborrowedfromEG15. T10/T30/T50explicit10/30/50wtpercentlossnotT5orTonset;TpDTGmaximumnotDSCTm/Tc. TGAQ50N2,10C/min20-700C;residueexplicit600Cnotend700C. TGflow/mass/pan/nunknown;DSCN2flow50ml/minnotborrowedforTG. LOIJF4ASTMD2863-2013,120x6.5x3.2mm;notUL94127x12.7x2.7orcone100x100x3. LOI/TGnunknown,mechanicalatleast5specimensand23+-2Cnotborrowed. ConeTable2residues6.8/16.3/25.9/30.5/26.4notTGresidues0.2/4.4/12.6/11.5/9.9. IntroPPLOI17.4citedRef7notownPP/PA6LOI19.1. nEGnominalfractionwholehybrid;retainedSiO2fraction/TEOSdoseunreported. MechanicalparagraphwrongTable1pointerversusTable5andSEMbodyrepeatnEG10versuscaptionnEG15notTG/LOIconflicts."
+  },
+  "mechanical_only_inventory": [],
+  "excluded_component_inventory": [],
+  "SI_status": "NoSIcitationidentifiedinprimaryscientifictextoravailableexact-DOIlocalinventory;noonlinequery,noglobalabsenceclaim.",
+  "existing_scope_review": {
+    "manual_source_reviews": {
+      "10.17780/ksujes.828681": {
+        "states": 10,
+        "TG": 10,
+        "forms": [
+          "plain-woven cotton fabric",
+          "plain-woven cotton/polyester fabric"
+        ],
+        "basis": "OwnTable1twoplainwovenfabricsspecifiescottonandcotton/polyester;N1-N5/M1-M5exactsubstrate/finishcodebridgeTables1/2andFigures5-10. Initialno-postfinish-rinse/durabilitywashidentitiesretained.",
+        "locator": "Table1p70;Table2/methodsp71;thermalcodecrosswalkpp74-76;ownLOIFigures9/10p77"
+      },
+      "10.1007/s10570-021-03767-0": {
+        "states": 10,
+        "TG": 20,
+        "forms": [
+          "Cotton fabric,145g/m2,localHangzhoumarket; weave unreported"
+        ],
+        "basis": "Own145gsmcottonfabric:COTandnineP1/P2/P3-timecodes;initial0durabilitycyclesjoinofficialSI2TableS1TGandownprintedFig4aLOI. N2/airtwoconditionsnotnewsamples;TGIR20rampnotmainTG10.",
+        "locator": "OwnMaterialsp2/Table1p3/Fig3p6/Fig4ap7;officialSI2TableS1"
+      },
+      "10.3390/polym18070819": {
+        "states": 9,
+        "TG": 9,
+        "forms": [
+          "cotton woven fabric",
+          "cotton/PET core-yarn woven fabric",
+          "PET fabric"
+        ],
+        "basis": "OwnCO/CO-PET/PETthreefabricgroupswithcontrol/PVAmPA/ChiPAcoatings:sharedTable4andFigures11/14identities. Initial0durabilitylaundering;fabriccoatingsnotneatadditiveTG.",
+        "locator": "Materials/prepSections2.2/2.3pp5-6;Table4p13;Figure11;printedFigure14LOIp16"
+      },
+      "10.1002/pat.3029": {
+        "states": 8,
+        "TG": 8,
+        "forms": [
+          "cotton print cloth fabric",
+          "cotton twill fabric"
+        ],
+        "basis": "Owncottonprintcloth/twillCN-3fouradd-onsforeachactualconstruction;Tables1/3/4joinexactafter-cureadd-ons. Initialunwashedstates;40CdurabilityretentionnotownTGpairs.",
+        "locator": "Ownmethodp1556;Tables1/3/4;originalpp1555-1563"
+      },
+      "10.3390/fib9110069": {
+        "states": 7,
+        "TG": 7,
+        "forms": [
+          "cotton fabric"
+        ],
+        "basis": "Own119gsmchemicallybleachedcottonfabriccontroland8/10/12BLwith/withoutCuSO4Cu2+:Table1recipes/LOIjoinTable4TG. DIdepositionrinsesnotdurabilitywash. Onset1andtwoDTGpeaksretainoriginaldefinitions.",
+        "locator": "Methodspp2-3;Table1p4;Table4p6"
+      },
+      "10.21203/rs.3.rs-697928/v1": {
+        "states": 7,
+        "TG": 14,
+        "forms": [
+          "woven cotton fabric"
+        ],
+        "basis": "Own105gsmwovenfabricauthorpreprint:uncoatedcontrolplusC2-1/2/3initialandafter20LCs. Tables3/4and5/6explicitlyjoinstate-specificLOI/TG;twoTGgasesnotindependentsamples. Preprintidentityretained;publicationreuseauditrequired.",
+        "locator": "Originalauthorpreprintpp3-10;Tables3-6;Table6explicit20LCs"
+      },
+      "10.5764/TCF.2008.20.4.008": {
+        "states": 7,
+        "TG": 7,
+        "forms": [
+          "plain-woven cotton fabric"
+        ],
+        "basis": "Own115gsmplainweavecotton:untreated/MMEP10/30/100/TMEP10/30/100UV-curedfabric. SameTables1/2codes;initialpreparationwater-rinse distinctfromTable3durabilitywash. Even100percentappliedfinishisfabric,notneatcuredfilm.",
+        "locator": "MethodsSections2.1/2.2;Table1/2;beginningp10;Table3durabilitycontext"
+      },
+      "10.1016/j.porgcoat.2018.04.031": {
+        "states": 7,
+        "TG": 14,
+        "forms": [
+          "100percent PA66 woven fabric,100g/m2,JiaxingWeavingIndustryYangzhouChina;previouslyscoured/roomtemperatureairdried"
+        ],
+        "basis": "Own100gsm100percentPA66wovenfabric;seveninitialcontrol/5BL/10BL/boratefinishcodesTables1/2/4. B1W/B5Wmeanboratebathnotwash;N2/air20Cminconditions. NoownwashedTG/LOI;TGIRflownotborrowed.",
+        "locator": "Ownmethodsp2;Table1p3;Table2p5;Table4/Fig6p6;Table5p8washedUL94only"
+      },
+      "10.1016/j.polymdegradstab.2020.109405": {
+        "states": 7,
+        "TG": 7,
+        "forms": [
+          "Own laboratory PET-co-CEPPA160gsm copolyester fabric,FRPET;not pure PET or resin specimen"
+        ],
+        "basis": "Own160gsmPET-co-CEPPAfabricseveninitialFRPET/PAA/K-S/K-D/hybridcodesjoinprimaryTables1/2/3andFig5. Native/SIrecipeconflictsremainannotated;unknownbackbone/residueendpointnotfilled. InitialstatesnotwashedLOI-onlystates.",
+        "locator": "Ownmaterials/processpp2-3;Table1p3;TGTable2p6;LOITable3p7;SIconflictTablesS1/S2"
+      },
+      "10.3390/polym15010007": {
+        "states": 6,
+        "TG": 6,
+        "forms": [
+          "PET fabric"
+        ],
+        "basis": "OwnPETfabricF-0/GM50/100/150/200/250:Section3.3.2explicit700Cresidue andTable5exactLOIcodes. GMdoseisbathconcentrationnotadd-on;precoatwashnotdurabilitywash. PowderTables1-4andCM/MwithoutquantitativefabricTGnotadmitted.",
+        "locator": "Sections2.1/2.4/2.5/2.6;Section3.3.2explicitR700;Figure5b;Table5"
+      }
+    },
+    "original_source_texts_reread": false,
+    "numeric_evidence_upgrades": 0,
+    "scope_existing_states": 78,
+    "scope_existing_TG": 102
+  },
+  "canonical_adjudication": "All60freshcomparisonsmatchpriorindividualdecisions. ThreeR600-onlycomparisons/tenpresentationsarecottonfabricsversuswholePPPA6anddistinctthreshold/DTG/LOI;zero pairedprofileduplicates. Originalcomparatortextsnotreread. B320194106profilecomparisonsfindN3/M3LOI19.9R88012coincidence,documented100percentcottonversus50cotton50PETsubstrates;relatedpublicationversionsremainheld.",
+  "schema_change": "OwnTable3p7explicit30wtpercentloss;includeinTG_FIELDSsochangingT30requiresnewscientificreview;numericrangevalidatoralreadyhandlesT*_C.",
+  "scope_rule": "ActualinjectionmouldedPPPA6compositesadmittedunderexpandedfibreformingprecursorscope;old78scopeadmissionsnotnewpairs. B320deltaonly;102oldscopebindingsretainownforms/states;zerooldnumericupgrades.",
+  "privacy": "ReadonlylocaloriginalnativePDFtext/HTML,noimages/noonlinepapers;publicDOI/page/Table/Figurelocatorsonly.Fulltexts/privatepathsstaylocal.",
+  "schema_test_compatibility": {
+    "affected_existing_test_files": 19,
+    "missing_optional_metric_columns": "Retainedasmissing;nonemptyoriginalmetricsremainasserted,fingerprintbound,andrangechecked",
+    "all_historical_source_CSV_fields_unchanged": true,
+    "T30_absence_mutation_guard_in_new_source_test": true
+  },
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1903,
+    "new_states": 5,
+    "new_conditions": 5,
+    "evidence_upgrades": 0,
+    "existing_scope_reclassifications": 78,
+    "scope_existing_states_adjudicated": 78,
+    "scope_existing_TG_adjudicated": 102,
+    "verified_states": 1498,
+    "verified_conditions": 1908,
+    "verified_dois": 420,
+    "verified_sources": 422,
+    "offline_tests_passed": 2213,
+    "snapshot_sha256": "3ab183e590cb38af05e9d35e823958eb7ecf8c33c86c3257b3d6205885851b74",
+    "master_sha256": "3fb1250f9e7c7646105c5240d8076fa4fe28bc0157238a6406e08e1e5424f39a",
+    "validation_errors": [],
+    "held_fact_rows": 1,
+    "held_metric_facts": 0,
+    "source_scientific_guards": 28,
+    "source_regressions": 6,
+    "private_compatibility_regressions": 7,
+    "canonical_comparisons": 60,
+    "canonical_raw_hit_comparisons": 3,
+    "canonical_raw_hit_presentations": 10,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "textile_scope_report": {
+      "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+      "target_unique_sample_states": 3000,
+      "verified_target_sample_states": 385,
+      "verified_target_condition_records": 475,
+      "verified_target_sources": 46,
+      "verified_sample_states_by_material_class": {
+        "fiber_forming_polymer": 4,
+        "fiber_forming_polymer_composite": 48,
+        "textile_cloth": 296,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "verified_condition_records_by_material_class": {
+        "fiber_forming_polymer": 5,
+        "fiber_forming_polymer_composite": 66,
+        "textile_cloth": 367,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+      "verified_textile_sample_states": 385,
+      "verified_textile_condition_records": 475,
+      "verified_textile_sources": 46,
+      "remaining_to_target": 2615,
+      "excluded_non_textile_sample_states": 0,
+      "excluded_non_textile_condition_records": 0,
+      "pending_scope_sample_states": 1113,
+      "pending_scope_condition_records": 1433,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1498,
+      "legacy_broad_condition_records": 1908,
+      "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "3fb1250f9e7c7646105c5240d8076fa4fe28bc0157238a6406e08e1e5424f39a",
+      "scope_registry_sha256": "40a6b5b250da7ae8db31ae1672804829c830b6a8c51a158233c6829bc6b13a87",
+      "textile_master_sha256": "e9a590ec49dd851eb531b0004c1dabafdab4dc8d9bea654fa0e571624da96b37"
+    },
+    "verified_target_states": 385,
+    "verified_target_TG": 475,
+    "scope_audit_complete": false,
+    "unchanged_private_evidence_files": 26,
+    "complete_primary_native_PDF_pages_PP_PA6": 11,
+    "no_images_or_online_literature": true,
+    "T30_scientific_review_binding": true,
+    "original_new_source_cohorts": 1,
+    "original_existing_scope_cohorts": 10,
+    "existing_scope_original_texts_reread": false,
+    "publication_components": [
+      "b319_PP_PA6_T30",
+      "b320_old_scope_bundled_do_not_reimport"
+    ],
+    "existing_scope_full_profile_comparisons": 194106,
+    "existing_scope_full_profile_raw_hits": 2,
+    "existing_scope_full_profile_resolved_distinct_substrate_hits": 2,
+    "existing_scope_full_profile_unresolved_hits": 0,
+    "existing_scope_unbound_residue_records": 0,
+    "existing_scope_unknown_residue_temperatures_not_resolved": true
+  }
+}

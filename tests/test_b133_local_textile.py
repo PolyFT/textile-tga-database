@@ -16,7 +16,7 @@ class TextileB133Tests(unittest.TestCase):
  def test_eight_verified_not_twentyfour_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(8,8));self.assertEqual(len(self.rows),24)
  def test_all16_held_without_chosen_tg_fields(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),16);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),16);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_rinsed_al_loi20point5_not_unrinsed21point7(self):
   r=self.exact(A,'Al3PA66rinsed');self.assertEqual(r['LOI_pct'],'20.5');self.reject(r,LOI_pct='21.7');self.assertEqual(len([x for x in self.source(A)if x['pairing_status'].startswith('held_other')]),5)
  def test_rinsed_ip6_loi19point3_not_unrinsed19point5(self):

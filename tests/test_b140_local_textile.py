@@ -15,7 +15,7 @@ class TextileB140Tests(unittest.TestCase):
  def test_six_states_not_twelve_gas_tests_or_twentyseven_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(6,12));self.assertEqual(len(self.rows),27)
  def test_fifteen_holds_no_canonical_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),15);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),15);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_native_t5_not_t10_or_onset(self):
   r=self.exact('PA66-OP-10M-UV');self.assertEqual(r['T5_C'],'405');self.assertFalse(r['T10_C']);self.assertFalse(r['Tonset_C']);self.reject(r,T5_C='',T10_C='405')
  def test_supplement_air_nitrogen_columns_cannot_swap(self):

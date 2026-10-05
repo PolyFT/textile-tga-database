@@ -16,7 +16,7 @@ class TextileB131Tests(unittest.TestCase):
  def test_twelve_states_twenty_two_conditions_not62facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(12,22));self.assertEqual(len(self.rows),62)
  def test_all40_held_orthogonal_and_wash_facts_have_no_paired_tg(self):
-  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),40);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)and not r['material_form_TGA']for r in rr))
+  rr=[r for r in self.rows if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),40);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)and not r['material_form_TGA']for r in rr))
  def test_ispa_native_dtg_and_fixed600_residue_not_estimates(self):
   c=self.exact(I,'Purecottoncontrol');o=self.exact(I,'ISPAoptimalA5B4C5D4');self.assertEqual((c['Tmax1_C'],c['Tmax2_C'],c['R600_pct'],o['Tmax1_C'],o['R600_pct']),('350','525','0.1','300','30'));self.assertFalse(o['Tmax2_C']);self.assertFalse(c['R800_pct']);self.assertFalse(o['R800_pct'])
  def test_ispa_scarcely_char_not_control_zero(self):

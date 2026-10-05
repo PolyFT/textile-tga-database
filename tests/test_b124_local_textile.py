@@ -32,13 +32,13 @@ class TextileB124Tests(unittest.TestCase):
  def test_ahdtmpa_own_control16_and_unreported_initial70wg(self):
   self.assertEqual(self.row(AH,'Control cotton')['LOI_pct'],'16');self.assertFalse(self.row(AH,'AHDTMPA70 cotton')['source_WG_pct']);r=self.row(AH,'AHDTMPA70-LC50');self.assertEqual(r['source_approximate_washed_WG_pct'],'12');self.assertFalse(r['source_WG_pct'])
  def test_ahdtmpa_four_other_doses_four_washes_do_not_borrow_tg(self):
-  rr=[r for r in self.source(AH)if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),8);self.assertEqual(sum(bool(r['source_native_LC'])for r in rr),4);self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=[r for r in self.source(AH)if r['pairing_status']!='verified_exact'];self.assertEqual(len(rr),8);self.assertEqual(sum(bool(r['source_native_LC'])for r in rr),4);self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_mpd_thirteen_own_lois_preserved_outside_target(self):
   rr=[r for r in self.source(MP)if r['LOI_pct']];self.assertEqual(len(rr),13);self.assertEqual(self.row(MP,'MPD2percent cotton')['LOI_pct'],'18.7');self.assertEqual(self.row(MP,'Pyrovatex5percent cotton')['LOI_pct'],'18.3');self.assertTrue(all(r['pairing_status']!='verified_exact'for r in rr))
  def test_mpd_gas_rate_unreported_and_generic_dose_unmapped(self):
   rr=self.source(MP);self.assertEqual(len(rr),16);self.assertTrue(all(not r['atmosphere']and not r['heating_rate_C_min']for r in rr));r=self.row(MP,'MPD cotton generic TG raw');self.assertFalse(r['LOI_pct']);self.assertIn('doseunmapped',r['limitations'])
  def test_mpd_prose_and_direct_figure_starts_not_silently_reconciled(self):
-  r=self.row(MP,'Untreated cotton TG raw');self.assertEqual((r['source_prose_decomposition_start_C'],r['source_Fig4_segment_start_C']),('333','215.87'));r=self.row(MP,'Pyrovatex cotton generic TG raw');self.assertEqual((r['source_prose_decomposition_start_C'],r['source_Fig4_segment_start_C']),('286','127.95'));self.assertTrue(all(not r[k]for r in self.source(MP)for k in pairing.TG_FIELDS))
+  r=self.row(MP,'Untreated cotton TG raw');self.assertEqual((r['source_prose_decomposition_start_C'],r['source_Fig4_segment_start_C']),('333','215.87'));r=self.row(MP,'Pyrovatex cotton generic TG raw');self.assertEqual((r['source_prose_decomposition_start_C'],r['source_Fig4_segment_start_C']),('286','127.95'));self.assertTrue(all(not r.get(k,'')for r in self.source(MP)for k in pairing.TG_FIELDS))
  def test_mpd_water_stage_not_onset_and_massloss_not_derived_char(self):
   r=self.row(MP,'MPD cotton generic TG raw');self.assertEqual((r['source_Fig4_low_temperature_water_start_C'],r['source_Fig4_segment_weight_loss_pct']),('24.59','78.944'));self.assertFalse(r['Tonset_C']);self.assertFalse(r['char_pct']);self.assertEqual(r['source_LOI_test_C'],'29');self.assertEqual(r['source_general_conditioning_C'],'20+/-2')
  def test_atepea_explicit250gl_has_four_gas_records_two_states(self):
@@ -50,7 +50,7 @@ class TextileB124Tests(unittest.TestCase):
  def test_atepea_tgir_mass_and_gaspeaks_cone_char_not_main_tg(self):
   r=self.row(AT,'ATEPEA250 cotton','N2');self.assertEqual((r['Tmax1_C'],r['char_pct'],r['residue_temp_C']),('289.45','38.14','800'));self.assertEqual(r['source_TGIR_mass_mg'],'8');self.assertFalse(r.get('source_TG_mass_mg'));self.rejected(r,Tmax1_C='300');self.rejected(r,char_pct='36.9',residue_pct='36.9');self.assertFalse(r['Tmax2_C'])
  def test_atepea_twenty_native_washed_states_no_own_tg(self):
-  rr=[r for r in self.source(AT)if r['source_native_LC']];self.assertEqual(len(rr),20);self.assertEqual({r['source_native_LC']for r in rr},{'10','20','30','40','50'});self.assertTrue(all(all(not r[k]for k in pairing.TG_FIELDS)for r in rr));self.assertEqual(self.row(AT,'ATEPEA250-LC50')['LOI_pct'],'27.2')
+  rr=[r for r in self.source(AT)if r['source_native_LC']];self.assertEqual(len(rr),20);self.assertEqual({r['source_native_LC']for r in rr},{'10','20','30','40','50'});self.assertTrue(all(all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr));self.assertEqual(self.row(AT,'ATEPEA250-LC50')['LOI_pct'],'27.2')
  def test_atepea_native_review_header_and_own_experimental_basis_retained(self):
   rr=self.source(AT);self.assertTrue(all(r['source_native_article_type']=='Review Paper'and r['publication_type']=='journal_article'for r in rr));self.assertTrue(all('OwnExperimental' in r['source_own_measurement_basis']and 'NMRonly' in r['supplement_review_status']for r in rr));self.assertTrue(all(not r.get('LOI_sample_dimensions_mm')for r in rr))
 if __name__=='__main__':unittest.main()

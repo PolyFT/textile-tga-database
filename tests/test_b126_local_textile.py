@@ -16,7 +16,7 @@ class TextileB126Tests(unittest.TestCase):
  def test_four_states_eight_dynamic_conditions_not_thirtyfour_facts(self):
   z=v.build_tables(pd.DataFrame(self.rows).fillna(''),v.issue_list())[3];self.assertFalse(z['errors']);self.assertEqual((z['verified_exact_sample_states'],z['verified_exact_condition_records']),(4,8));self.assertEqual(len(self.rows),34);self.assertEqual(sum(r['pairing_status']!='verified_exact'for r in self.rows),26)
  def test_hfpo_all_nineteen_facts_remain_held(self):
-  rr=self.source(HF);self.assertEqual(len(rr),19);self.assertTrue(all(r['pairing_status']!='verified_exact'and all(not r[k]for k in pairing.TG_FIELDS)for r in rr))
+  rr=self.source(HF);self.assertEqual(len(rr),19);self.assertTrue(all(r['pairing_status']!='verified_exact'and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr))
  def test_hfpo_pure_pa6_knit_pa66_woven_not_nyco_loi(self):
   rr=[r for r in self.source(HF)if r['pairing_status']=='held_pure_nylon_TG_no_own_LOI'];self.assertEqual(len(rr),6);self.assertTrue(all(not r['LOI_pct']for r in rr));self.assertEqual(len({r['material_form']for r in rr}),2);self.assertTrue(any('PA6knit' in r['material_form']for r in rr));self.assertTrue(any('PA66woven' in r['material_form']for r in rr))
  def test_hfpo_pa6_dsc_not_dtg(self):
@@ -44,9 +44,9 @@ class TextileB126Tests(unittest.TestCase):
  def test_dna_r600_not_method_endpoint_and_explicit_zero_valid(self):
   r=self.dynamic('COT','air');self.assertEqual((r['R600_pct'],r['residue_pct'],r['residue_temp_C'],r['TG_end_C']),('0','0','600','800'));self.assertFalse(pairing.evidence_issues(r));self.reject(r,residue_temp_C='800')
  def test_dna_separate_isothermal_protocol_retained_without_dynamic_merge(self):
-  rr=[r for r in self.source(DN)if r['pairing_status'].startswith('held_distinct_isothermal')];self.assertEqual(len(rr),4);self.assertEqual([r['source_isothermal_R350_pct']for r in rr],['13','30','35','42']);self.assertTrue(all(r['source_isothermal_hold_C']=='350'and r['source_isothermal_hold_min']=='60'and r['source_isothermal_ramp_rate_C_min']=='10'and not r['heating_rate_C_min']and all(not r[k]for k in pairing.TG_FIELDS)for r in rr));self.assertEqual(self.dynamic('COT_DNA_19%','air')['R600_pct'],'19')
+  rr=[r for r in self.source(DN)if r['pairing_status'].startswith('held_distinct_isothermal')];self.assertEqual(len(rr),4);self.assertEqual([r['source_isothermal_R350_pct']for r in rr],['13','30','35','42']);self.assertTrue(all(r['source_isothermal_hold_C']=='350'and r['source_isothermal_hold_min']=='60'and r['source_isothermal_ramp_rate_C_min']=='10'and not r['heating_rate_C_min']and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr));self.assertEqual(self.dynamic('COT_DNA_19%','air')['R600_pct'],'19')
  def test_dna_three_pure_compound_references_have_no_textile_loi(self):
-  rr=[r for r in self.source(DN)if r['pairing_status'].startswith('held_pure_DNA')];self.assertEqual(len(rr),3);self.assertTrue(all(not r['LOI_pct']and all(not r[k]for k in pairing.TG_FIELDS)for r in rr));self.assertEqual({r['source_reported_R600_pct']for r in rr if r.get('source_reported_R600_pct')},{'50','49'})
+  rr=[r for r in self.source(DN)if r['pairing_status'].startswith('held_pure_DNA')];self.assertEqual(len(rr),3);self.assertTrue(all(not r['LOI_pct']and all(not r.get(k,'')for k in pairing.TG_FIELDS)for r in rr));self.assertEqual({r['source_reported_R600_pct']for r in rr if r.get('source_reported_R600_pct')},{'50','49'})
  def test_dna_alumina_pan_flow_and_unknown_loi_dimensions_not_other_tests(self):
   rr=[r for r in self.source(DN)if r['pairing_status']=='verified_exact'];self.assertTrue(all((r['TG_pan'],r['TG_flow_mL_min'],r['TG_start_C'],r['TG_end_C'])==('Openaluminapans','60','50','800')for r in rr));self.assertTrue(all(not r.get('LOI_sample_dimensions_mm')and not r.get('LOI_repeats')for r in rr));self.assertTrue(all('acceptedmanuscript' in r['source_document_version']and 'PDFp20printed19' in r['TG_locator']for r in rr))
 if __name__=='__main__':unittest.main()
