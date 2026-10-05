@@ -21,15 +21,13 @@
   "publication_stage": "b309_merged_remote_verified_lease_released",
   "last_merged_batch": "20261005_b309",
   "writer_lease": {
-    "owner": "codex-local-textile-b309-20261005",
-    "status": "released",
-    "batch_id": "20261005_b309",
-    "claimed_at_utc": "2026-10-05T14:26:18.732847+00:00",
-    "expires_at_utc": "2026-10-05T15:56:18.732847+00:00",
-    "purpose": "4 new PET-knit pairs/4 TG; 78-state incremental textile scope registry and export; 48 original guards, 4 source regressions, 10 scope regressions; 28 canonical comparisons; preserve all1844 existing TG fields and writer guards",
-    "previous_release_commit": "281ed2ccd7f07afd17b76fc354a7962c0e01d56d",
-    "released_at_utc": "2026-10-05T15:06:17.021879+00:00",
-    "release_reason": "PR153 exact-head CI, ordinary merge, three merge checks and independent full broad/textile master/report/blob/oldfield/source verification passed."
+    "owner": "codex-local-textile-b310-20261005",
+    "status": "active",
+    "batch_id": "20261005_b310",
+    "claimed_at_utc": "2026-10-05T15:39:23.361876+00:00",
+    "expires_at_utc": "2026-10-05T17:09:23.361876+00:00",
+    "purpose": "15 new cotton-fabric pairs/15 TG;42 historical material scope states/58 TG;135 prospective target states/155 TG;127 cloth states plus8 PET composite states;9 previous paper exclusions pending material reassessment;64 original guards,4 scientific regressions;195 canonical comparisons/6 documented residue-only coincidences/0duplicate states; preserve all1848 existing TG fields and writer guards",
+    "previous_release_commit": "103c5c17c8d0e36cf3363f6dfce73f96b8558bb5"
   },
   "next_sources": [],
   "next_actions": [
