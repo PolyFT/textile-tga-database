@@ -9,6 +9,7 @@ on:
       - "data/scatter_ready.csv"
       - "scripts/validate_tg_loi.py"
       - "scripts/pairing.py"
+      - "scripts/textile_scope.py"
       - "scripts/source_identity.py"
       - "scripts/csv_ingest.py"
       - "data/curation/**"
@@ -44,11 +45,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
+      - name: Export source-admitted textile pairs
+        run: python scripts/textile_scope.py
       - name: Commit master and report
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv README.md
+          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json README.md
           if git diff --cached --quiet; then
             echo "No master changes"
             exit 0

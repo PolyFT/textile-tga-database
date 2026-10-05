@@ -1,0 +1,171 @@
+{
+  "batch": "b309",
+  "review_completed_utc": "2026-10-05T14:31:41.781386+00:00",
+  "baseline_counts": [
+    1445,
+    1844,
+    411
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 4,
+    "accepted_condition_rows": 4,
+    "new_source_inventory_states": 4,
+    "new_strict_textile_states": 4,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "reviewed_papers_added": 1,
+    "accepted_DOI_sources_added": 1,
+    "complete_text_primary_PDF_pages": 7,
+    "primary_tables_text_reviewed": 3,
+    "primary_figure_captions_text_reviewed": 8,
+    "total_fact_rows": 4,
+    "held_fact_rows": 0,
+    "held_metric_facts": 2,
+    "source_step_mass_balance_limitations": 1,
+    "source_scientific_guards": 48,
+    "source_regression_tests": 4,
+    "scope_regression_tests": 10,
+    "canonical_comparisons": 28,
+    "canonical_raw_hit_comparisons": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "scope_admitted_existing_states": 74,
+    "legacy_scope_states_adjudicated": 51,
+    "existing_recent_source_scope_states": 23,
+    "scope_textile_states": 78,
+    "scope_textile_TG_records": 82,
+    "scope_excluded_paper_states": 9,
+    "scope_pending_old_states": 1362,
+    "strict_scope_audit_complete": false
+  },
+  "source": {
+    "DOI": "10.1007/s12221-014-1895-z",
+    "title": "Thermal performance and flammability of poly(ethylene terephthalate) fabrics grafted with different monomers followed by electron beam irradiation",
+    "scope_evidence": "PDF1/1895 actualplain-knittedPET100gsm andexplicitclothing/furniture/industrialtextiles;PDF2clothgrafting;Tables1/2/3samefabric"
+  },
+  "verification_limit": "Four new initial plain-knitted PET textile states (100 g/m2) from DOI10.1007/s12221-014-1895-z match Table2 DTG maxima and Table3 LOI, with Table1 grafting degrees identifying PET/AAc55.4/AAm25.98/DMVP10.9. Ordinary TG uses air (Table1),10 C/min and room-temperature to600 C (Methods); numeric starting temperature, mass, pan, flow and replication are unreported. Preserve every Table2 Ti/Tm/Tf triplet and all13 Table1 stage ranges, mass losses and end residues. Ti is a step-start temperature, not T5/T10. Moisture50-160 C is not assigned a decomposition Tmax. AAm Table1 R6001.7 versus body3.34 and AAc firstTi194 versus body242 remain raw auxiliary holds; neither changes uncontested DTG/LOI identities. DMVP Table1 stepII mass-loss63.02 and end-residue27.6 do not close against preceding87.92; retain the published numbers and a nonclosure flag without inferring replacements. LOI Methods/body swap GB/T5454/5455, so preserve both raw statements and leave canonical standard unknown. Preparative NaOH/Soxhlet/boiling-water extraction is not durability laundering. The specific assay dose and monomer-bath concentration are not borrowed from graft-yield plots. Complete7 primary native-text pages,3 tables,8 captions and27 references reviewed;48 source guards,four scientific regressions and28 refreshed canonical comparisons passed,with zero hits. Zero old numerical evidence upgrades or legacy completions;two auxiliary metric holds,one raw mass-balance limitation,and no held whole pair. All1844 prior TG records and every provided new field remain unchanged. No full texts,images or private paths are published.",
+  "source_profile_audit": {
+    "comparisons": 28,
+    "raw_hit_comparisons": 0,
+    "unresolved_profile_hits": 0,
+    "gas_rate_agnostic": true,
+    "residue_aliases_and_temperature_normalized": true
+  },
+  "scope_review_findings": [
+    {
+      "source_identity": "10.1007/s10570-018-2206-4",
+      "admitted_sample_states": 8,
+      "admitted_TG_records": 8,
+      "basis": "recent_complete_native_original_source_review",
+      "evidence": "PrimaryPDF1abstractexplicittextileapplication;PDF3Materials180gsmcottonfabric;PDF5sameuntreated/treatedcottonfabricTG+LOI;PDF13textilefinishingconclusion. Actualfabricfinishingnotpapermaking/dispersedfiberengineeringplastic."
+    },
+    {
+      "source_identity": "10.1007/s12221-014-2495-7",
+      "admitted_sample_states": 10,
+      "admitted_TG_records": 10,
+      "basis": "recent_complete_native_original_source_review",
+      "evidence": "PrimaryPDF1cottontextilepurpose;PDF2Kcoateractualcloth;PDF3Table2samefabricTG;PDF7Table4LOI;PDF8textileconclusions"
+    },
+    {
+      "source_identity": "10.1007/s12221-026-01461-1",
+      "admitted_sample_states": 17,
+      "admitted_TG_records": 17,
+      "basis": "existing_original_source_review_reused_for_scope; no new full-text or numerical rereview claimed",
+      "evidence": "Sections2.1/2.2 and preparationTable3 identify 70/30 wool/polyamide2/2twill fabric. Table7p3780 TG and Table13p3783 own LOI use initial specimen codes, while washedTables9-11 remain separate."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2015.03.061",
+      "admitted_sample_states": 5,
+      "admitted_TG_records": 5,
+      "basis": "recent_complete_native_original_source_review",
+      "evidence": "PrimaryPDF1keywordsFabrics/textiles;PDF2actualcleanedcotton259gsm dip-pad-dry;PDF6Tables2/3samefabric;PDF8textilefinishingconclusions"
+    },
+    {
+      "source_identity": "10.3390/fib6020031",
+      "admitted_sample_states": 27,
+      "admitted_TG_records": 27,
+      "basis": "existing_original_source_review_reused_for_scope; no new full-text or numerical rereview claimed",
+      "evidence": "Table1p4 and Sections2.1-2.4pp4-5 identify nine commercial woven cellulosic textiles. Table2p6 LOI and Table3pp8-9 TG explicitly match each textile before/after soaking. Separate textile/PU-foam match tests are excluded; unresolved soak duration is preserved."
+    },
+    {
+      "source_identity": "10.3390/polym16101409",
+      "admitted_sample_states": 4,
+      "admitted_TG_records": 8,
+      "basis": "existing_original_source_review_reused_for_scope; no new full-text or numerical rereview claimed",
+      "evidence": "Sections 2.1/2.3/2.4 identify cotton fabric and define coating add-on; supplementary Table S1 TG and main Table1 LOI match each initial fabric state. Preparation scouring/rinsing is not durability washing."
+    },
+    {
+      "source_identity": "10.5958/0974-4150.2017.00115.8",
+      "admitted_sample_states": 3,
+      "admitted_TG_records": 3,
+      "basis": "existing_original_source_review_reused_for_scope; no new full-text or numerical rereview claimed",
+      "evidence": "Materials identify plain woven cotton110g/m2 with warp/weft/ends/picks. Original HTML Tables1/2/3 distinguish initial CF/CCF-A/CCF-C from AL/CL laundered specimens; only initial TG/LOI identities are paired."
+    }
+  ],
+  "scope_full_profile_audit": {
+    "records_compared": 78,
+    "states": 74,
+    "baseline_records": 1844,
+    "full_profile_coincidences": 0,
+    "gas_rate_agnostic": true,
+    "residue_temperature_aliases_normalized": true,
+    "limit": "Numeric coincidence audit alone does not prove independence; original-source identity, recipe and reuse evidence govern."
+  },
+  "scope_rule": "Existing reviewed primary-source fabric/method/washing evidence is reused for the four older DOI cohorts. This is textile-scope adjudication, not a new full-text or numerical review. Every scope observation is bound to the reviewed measurement and material/state/documentary hash; unmatched old scope is pending and contributes zero to target.",
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1844,
+    "new_states": 4,
+    "new_conditions": 4,
+    "evidence_upgrades": 0,
+    "verified_states": 1449,
+    "verified_conditions": 1848,
+    "verified_dois": 412,
+    "verified_sources": 414,
+    "offline_tests_passed": 2172,
+    "snapshot_sha256": "21d4106c72466cc5285cad2c5897ef190eec9c38821142164f2e9697a00956b7",
+    "master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+    "validation_errors": [],
+    "held_fact_rows": 0,
+    "held_metric_facts": 2,
+    "source_step_mass_balance_limitations": 1,
+    "complete_original_text_pages": 7,
+    "primary_PDF_tables": 3,
+    "primary_figure_captions": 8,
+    "complete_primary_originals": 1,
+    "source_scientific_guards": 48,
+    "source_regressions": 4,
+    "scope_regressions": 10,
+    "canonical_comparisons": 28,
+    "canonical_raw_hit_comparisons": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "new_strict_textile_states": 4,
+    "newly_completed_existing_TG_only_states": 0,
+    "new_source_inventory_states": 4,
+    "textile_scope_report": {
+      "target_unique_sample_states": 3000,
+      "verified_textile_sample_states": 78,
+      "verified_textile_condition_records": 82,
+      "verified_textile_sources": 8,
+      "remaining_to_target": 2922,
+      "excluded_non_textile_sample_states": 9,
+      "excluded_non_textile_condition_records": 9,
+      "pending_scope_sample_states": 1362,
+      "pending_scope_condition_records": 1757,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1449,
+      "legacy_broad_condition_records": 1848,
+      "counting_rule": "Admit only evidence-reviewed textile cloth, yarn, nonwoven or source-confirmed textile fibre/application; one source/sample/treatment/washing state is counted once across TG conditions. Paper sheets and dispersed-fibre engineering plastics are excluded. Unknown scope is pending and uncounted.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "b7ffe3ff72bb5ee1a07ef84c4f19002810c6b5b78b00411e21eb8b0af1003ba6",
+      "scope_registry_sha256": "687bf5847f52abedaa69a1ffd747932ad4767e86eb2fd5bf64829625d3321d44",
+      "textile_master_sha256": "8f907d96184b718493c4faf165853882e9826ff882fc8e1dd71a5ad63178a512"
+    },
+    "strict_textile_global_count": 78,
+    "scope_audit_complete": false,
+    "scope_admitted_existing_states": 74,
+    "scope_legacy_adjudications": 51,
+    "scope_recent_source_reviews": 23,
+    "unchanged_private_evidence_files": 8
+  }
+}

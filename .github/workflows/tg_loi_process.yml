@@ -57,11 +57,13 @@ jobs:
         run: python scripts/review_b_tg_loi.py
       - name: Rebuild strict paired master
         run: python scripts/validate_tg_loi.py
+      - name: Export source-admitted textile pairs
+        run: python scripts/textile_scope.py
       - name: Commit processing outputs
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/automation data/incoming data/tg_loi_master.csv data/tg_loi_candidates.csv README.md
+          git add data/automation data/incoming data/tg_loi_master.csv data/tg_loi_candidates.csv data/tg_loi_textile_master.csv README.md
           if git diff --cached --quiet; then
             echo "No processing changes"
             exit 0
