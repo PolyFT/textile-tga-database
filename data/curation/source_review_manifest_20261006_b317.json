@@ -1,0 +1,329 @@
+{
+  "batch": "b317",
+  "review_completed_utc": "2026-10-05T18:47:29.272721+00:00",
+  "sources": [
+    {
+      "DOI": "10.1002/app.50317",
+      "title": "Synergistic effects of aluminum hydroxide, red phosphorus, and expandable graphite on the flame retardancy and thermal stability of polyethylene",
+      "primary_review": "LDPEall12nativePDFpages,4tables,7figurecaptions,Scheme1,45refs",
+      "new_candidate_states": 5,
+      "new_candidate_TG": 5
+    },
+    {
+      "DOI": "10.1002/vnl.22070",
+      "title": "Enhancing thermal stability, mechanical properties, and flammability of polyvinyl alcohol using amide\u2010functionalized hydrogel and zinc oxide nanoparticles",
+      "primary_review": "PVAcompleteprimaryHTMLabstractandSections1-4,4tables/footnotes;native15pagePDFversion,11figureand2schemecaptions,printedlocators;notall15nativePDFpagesreread",
+      "new_candidate_states": 6,
+      "new_candidate_TG": 12
+    }
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 11,
+    "accepted_condition_rows": 17,
+    "new_source_inventory_states": 11,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "existing_scope_reclassifications": 93,
+    "scope_existing_states_adjudicated": 93,
+    "scope_existing_TG_adjudicated": 112,
+    "accepted_DOI_sources_added": 2,
+    "held_whole_pair_fact_rows": 7,
+    "held_metric_facts": 0,
+    "recipe_mechanical_only_inventory": 4,
+    "TG_only_component_inventory": 3,
+    "source_scientific_guards": 117,
+    "source_regression_tests": 8,
+    "canonical_comparisons": 221,
+    "canonical_raw_hit_comparisons": 11,
+    "canonical_raw_hit_presentations": 34,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "verified_target_sample_states": 302,
+    "verified_target_condition_records": 368,
+    "scope_pending_states": 1191,
+    "scope_audit_complete": false
+  },
+  "source_limits": {
+    "LDPE": "Wholeinjected/hotpressedLDPEbulk,notfabricorfibre. OriginalT5=5percentmassloss,notgenericTonset;ATHdehydrationaround220CqualitativenotwholeprimaryTmax. R600andR900areexplicitdistinctendpointsinthesameTGrecord,not2experiments;noR800interpolation. LOIplusminusuncertaintytypeandnnotdefined;mechanicalfiveindependenttestsnotborrowedforTGorLOI. Modifier5wt%relativeATH/RP;Table1modifiedpowderfractionsliteral,notpurefillerfractions. Structuralcharsfromfurnace300/600C3h/900Cnotinitialsamples. LDPE15POE4wt%andownLOI25.4cannotborrowLDPE10TG.",
+    "PVA": "Wholeinitialsolution-castfilm,notwovenfabricorfibre. T5/T10/T50literalmasslossthresholds,notTonset;initialadsorbedwaterlossaround100Cmayaffectlowthresholds,distinctfrommaindecompositionTmax. N2thirdDTGpeaknotobservedandkeptblank;airthirdpeakretainsitsownslot. ExplicitCYat700C,notinferredTGprogramend;start/end,mass,flow,pan,nunreported. DSC_Tg74-86CandPCFCpHRRpeaktemperaturesarenotTGmax. PureZnO/VZnO/Zn-g-CPcomponentR800notwholefilmR700. LOIstandard,geometry,thickness,conditioning,nunreported;UL94ASTMD4804andPCFCmass2-4mg/n3andmechanicaln5notborrowed. Table1nominalinputmassfractionsignoreMBAandAPSasexplicitlystated;notcompletefinalretainedcomposition. SourceUL94bodyTable2pointerdiffersfromactualTable3;notTG/LOInumericconflict."
+  },
+  "mechanical_only_inventory": [
+    {
+      "sample": "LDPE11",
+      "literal_recipe": {
+        "LDPE": "84.5",
+        "ATHMgst": "-",
+        "RPPMHS": "-",
+        "EG": "5",
+        "RPMgst": "5.25",
+        "ATHPMHS": "5.25",
+        "ATHraw": "-",
+        "RPraw": "-",
+        "POE": "-"
+      },
+      "status": "recipe_mechanical_only_no_own_TG_LOI_pair"
+    },
+    {
+      "sample": "LDPE12",
+      "literal_recipe": {
+        "LDPE": "84.5",
+        "ATHMgst": "5.25",
+        "RPPMHS": "-",
+        "EG": "5",
+        "RPMgst": "5.25",
+        "ATHPMHS": "-",
+        "ATHraw": "-",
+        "RPraw": "-",
+        "POE": "-"
+      },
+      "status": "recipe_mechanical_only_no_own_TG_LOI_pair"
+    },
+    {
+      "sample": "LDPE13",
+      "literal_recipe": {
+        "LDPE": "84.5",
+        "ATHMgst": "-",
+        "RPPMHS": "5.25",
+        "EG": "5",
+        "RPMgst": "-",
+        "ATHPMHS": "5.25",
+        "ATHraw": "-",
+        "RPraw": "-",
+        "POE": "-"
+      },
+      "status": "recipe_mechanical_only_no_own_TG_LOI_pair"
+    },
+    {
+      "sample": "LDPE14",
+      "literal_recipe": {
+        "LDPE": "85",
+        "ATHMgst": "-",
+        "RPPMHS": "-",
+        "EG": "5",
+        "RPMgst": "-",
+        "ATHPMHS": "-",
+        "ATHraw": "5",
+        "RPraw": "5",
+        "POE": ""
+      },
+      "status": "recipe_mechanical_only_no_own_TG_LOI_pair"
+    }
+  ],
+  "excluded_component_inventory": [
+    "ZnO",
+    "VZnO",
+    "Zn-g-CP"
+  ],
+  "SI_status": "NoSIcitationidentifiedinownscientifictextsoravailableexact-DOIlocalinventory;noonlinequery,noglobalabsenceclaim.",
+  "existing_scope_review": {
+    "manual_source_reviews": {
+      "10.1038/s41598-024-71071-5": {
+        "states": 13,
+        "TG": 13,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "cotton fabric"
+        ],
+        "basis": "OwncottonfabricTable1finish/mercerizationcodes;TGTables2/3joinownFig8printedLOIbeforeorafter10washcycles. Formulationandwashingidentitiesretainthirteenoriginallyverifiedstates. Nomodifier-onlyTGorinitial/washedmixing.",
+        "locator": "Materials/Modification/Washing/Analyticalmethods;Tables1-3;Figure8printedLOI;Figures6-7and9-12stateidentities"
+      },
+      "10.11419/senshoshi1960.38.271": {
+        "states": 11,
+        "TG": 22,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "cotton fabric"
+        ],
+        "basis": "OwncottonfabricpreparedbyFYR/NMApad-steamfinishes;elevenuntreated/FYR/NMA/F/Nexactcodesjoinrecipe/LOITable1andTGTables2/3. TwoTGrampsaretestconditionsonly;preparativehot-waterextractionnotlaunderingstate.",
+        "locator": "Originalpp272-277;Tables1-3;Experimental2.1-2.5"
+      },
+      "10.3390/ma11101842": {
+        "states": 11,
+        "TG": 11,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "silk habotai fabric"
+        ],
+        "basis": "OwnMaterialsidentifyhabotaisilkfabric;elevenSilk/silicasol/synergistcoatinglabelsjoinLOITable2andTGTable4. Initialwholefinishedfabric,notburnedcharorisolatedadditive;blankwashingstateresolvedaspreparedinexistingpairingevidence.",
+        "locator": "Materials/Preparation/Characterization2.1-2.3;Table2LOI;Table4TG"
+      },
+      "10.1002/pc.26685": {
+        "states": 10,
+        "TG": 10,
+        "scope_class": "fiber_forming_polymer_composite",
+        "forms": [
+          "Injection-molded PLA/ramie fiber composite sheet,ramie20wtpercent4-6mm20-40um;notwovenfabric"
+        ],
+        "basis": "OwnPLAisfibre-formingpolymerandramieisa textilefibreconstituent;actualinjection-mouldedwholePLA/ramie20wtpercentcompositeexplicitlyretainedunderexpandedprecursorscope. TenTable1codesjoinTables2/3TGandLOI. Unlabelledtreatedcharresiduetemperaturesandconflictingcharproseremainheld;nonumericfieldschanged.",
+        "locator": "Materials/PreparationPDFp2;Table1p3;TG/LOIMethodp3;Tables2-3p5"
+      },
+      "10.1155/2019/7150736": {
+        "states": 9,
+        "TG": 9,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "PET 2/1 twill woven fabric"
+        ],
+        "basis": "Own275gsmPET2/1twillwovenfabric,Table1ninecontrol/ZnB/binderfinishcodesjoinTable4TGandTable5zero-durability-cycleLOI. Preparativecleaning/neutralizationprecedeassays;later10/20washLOIandisolatedZnBpowderTGnotborrowed.",
+        "locator": "Materials/Methodspp2-3;Table1recipes;Table4p5TG;Table5p9initialLOI"
+      },
+      "10.3390/fib6040085": {
+        "states": 9,
+        "TG": 9,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "bleached mercerized cotton twill fabric, source-defined microwave treatment",
+          "untreated bleached mercerized cotton twill fabric"
+        ],
+        "basis": "OwnbleachedmercerizedcottontwillcontrolandmicrowavefinishrecipesTable1usefabricTGAandfabric-stripLOI,matchedTables2/3. Nineinitialwholefabricstates;notconstituentpowderorunreportedlaunderingstates.",
+        "locator": "Methods2.1-2.5pp2-3;Table1recipe;Table2TGp5;Table3LOIp6"
+      },
+      "10.1016/0040-6031(96)02839-0": {
+        "states": 8,
+        "TG": 8,
+        "scope_class": "textile_fibre",
+        "forms": [
+          "NewZealand wool fibers;assay specimen shaping unspecified"
+        ],
+        "basis": "OwnMaterialsidentifyNewZealandwoolfibres;untreatedIandsevenreagent-treatedII-VIIIstateshaveownTGresidueandmeasuredLOIinsharedTable1. Assayspecimenshapingunknownretained;DTAexothermsnotrelabelledTGpeaks.",
+        "locator": "Publishedp436Materials/Thermalmethod;Table1p437;pp438-439discussion"
+      },
+      "10.1016/j.carbpol.2017.02.084": {
+        "states": 8,
+        "TG": 16,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "100percent PA66 woven fabric,100g/m2,YangzhouCityJiaxingWeavingIndustryChina;SSscouredandHT3MHClpretreatmentseparatenamedstates"
+        ],
+        "basis": "Own100percentPA66wovenfabric100gsm;SSscouredandHT3MHClpretreatedcontrolsand5/10/15QLfinishesjoinprimaryTable1andAppendixATableS1exacteightcodes. TwoTGgasescountconditions;SS/HTidentitiesandinitial0durabilitywashretained. Powderorcoating-onlyassaysnotborrowed.",
+        "locator": "MaterialsPDFp7;LbLprep8;TG/LOIMethod9;primaryTable1p29/Table2p30;AppendixATableS1p6"
+      },
+      "10.3390/polym16081044": {
+        "states": 7,
+        "TG": 7,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "polyamide 56 fabric"
+        ],
+        "basis": "OwnPA56fabric61gsm;Table2TGandTable4LOIexactsevenfabricfinishcodesmatchE/P=PEI/STPPandE/P/M-xmelamineformulations. DIpreparativerinsesnotdurabilitylaundering;wholeinitialfabricsnotstandalonecross-linkingnetwork.",
+        "locator": "Materials/Assay2.1/2.5/2.6;Preparation3.1;Table2TG;Table4LOI"
+      },
+      "10.1007/s10570-020-03140-7": {
+        "states": 7,
+        "TG": 7,
+        "scope_class": "textile_cloth",
+        "forms": [
+          "Plain woven cotton fabric;150g/m2;Shaoxing Quanying Textile Co.LTD"
+        ],
+        "basis": "Own150gsmplainwovencottoncontroland5/10/15bilayerCS/APPversusAM-CS/APPfinishrecipes;Table1exactcodesjoinFig2directLOIandTable3tabulatedN2TG. Wholeinitialfabric,nototheratmosphere/wash/fibre/conespecimen.",
+        "locator": "MethodsPDFpp3-4;Table1p4;Fig2p6;Table3p9;thermalprosepp7-9"
+      }
+    },
+    "original_source_texts_reread": false,
+    "numeric_evidence_upgrades": 0,
+    "scope_existing_states": 93,
+    "scope_existing_TG": 112
+  },
+  "canonical_adjudication": "All221freshcomparisonsmatchpriorindividualdecisions.11R700-onlycoincidencecomparisons/34presentationsarefabric-versus-filmorPZH4-versusPZH12recipe/LOI/DTGdistinct;zero pairedprofileduplicates. Originalcomparatortextswerenotreread;held/missingLOIfactsnotpromoted.",
+  "scope_rule": "Wholeinjected/hotpressedLDPEandcastPVAfilmexplicitlyretainedunderexpandedfibre-formingprecursorscope. Differentgasandresiduetemperaturearenotnewstates.93oldscopeadmissionsnotnewnumericpairs. B318deltaonly,notfullolderregistryoverwrite.",
+  "privacy": "ReadonlylocaloriginalnativePDFtext/HTML,noimages/noonlinepapers;publicDOI/page/Table/Figurelocatorsonly.Fulltexts/privatepathsstaylocal.",
+  "existing_scope_full_profile_audit": {
+    "status": "no_cross_state_full_profile_coincidence_found",
+    "admitted_records_compared": 112,
+    "admitted_states": 93,
+    "baseline_master_records": 1903,
+    "comparisons": 213136,
+    "own_full_profile_containment_not_equal_column_set": true,
+    "gas_rate_agnostic": true,
+    "residue_temperature_aliases_normalized": true,
+    "unbound_residue_records": 8,
+    "unbound_residue_limit": "Unknown residue endpoints retain a separate raw metric key; never equated with R600/R800 or programme endpoint. Absence of a matched profile does not resolve the unreported temperature.",
+    "claim_limit": "This is a numeric full-profile coincidence audit, not proof that every absent/reduced/relabelled historical duplicate is excluded; source/sample aliases and source-reuse evidence remain required."
+  },
+  "local_validation": {
+    "previous_condition_records_all_fields_unchanged": 1886,
+    "new_states": 11,
+    "new_conditions": 17,
+    "evidence_upgrades": 0,
+    "existing_scope_reclassifications": 93,
+    "scope_existing_states_adjudicated": 93,
+    "scope_existing_TG_adjudicated": 112,
+    "verified_states": 1493,
+    "verified_conditions": 1903,
+    "verified_dois": 419,
+    "verified_sources": 421,
+    "offline_tests_passed": 2207,
+    "snapshot_sha256": "a4d710162a99ed3e00d1b61fcdf2bad3380e8c22a5b4f5ad997ca11157df03f3",
+    "master_sha256": "b0171cdd2e812671a3d87249a91783bbbb9c30a119cee5c51829ee4501566c12",
+    "validation_errors": [],
+    "held_fact_rows": 7,
+    "held_metric_facts": 0,
+    "source_scientific_guards": 117,
+    "source_regressions": 8,
+    "canonical_comparisons": 221,
+    "canonical_raw_hit_comparisons": 11,
+    "canonical_raw_hit_presentations": 34,
+    "canonical_unresolved_approved_profile_hits": 0,
+    "canonical_duplicate_sample_state_hits": 0,
+    "textile_scope_report": {
+      "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+      "target_unique_sample_states": 3000,
+      "verified_target_sample_states": 302,
+      "verified_target_condition_records": 368,
+      "verified_target_sources": 35,
+      "verified_sample_states_by_material_class": {
+        "fiber_forming_polymer": 4,
+        "fiber_forming_polymer_composite": 43,
+        "textile_cloth": 218,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "verified_condition_records_by_material_class": {
+        "fiber_forming_polymer": 5,
+        "fiber_forming_polymer_composite": 61,
+        "textile_cloth": 265,
+        "textile_fibre": 37,
+        "textile_nonwoven": 0,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+      "verified_textile_sample_states": 302,
+      "verified_textile_condition_records": 368,
+      "verified_textile_sources": 35,
+      "remaining_to_target": 2698,
+      "excluded_non_textile_sample_states": 0,
+      "excluded_non_textile_condition_records": 0,
+      "pending_scope_sample_states": 1191,
+      "pending_scope_condition_records": 1535,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1493,
+      "legacy_broad_condition_records": 1903,
+      "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "b0171cdd2e812671a3d87249a91783bbbb9c30a119cee5c51829ee4501566c12",
+      "scope_registry_sha256": "48f20b27e8df58d63e7fcc93f3ebd0978cd7078382918a5b19f5e271f10e3032",
+      "textile_master_sha256": "578bfdaa60f427815fb771efb763c6c466756fce4c9144693bf5db6815ead94c"
+    },
+    "verified_target_states": 302,
+    "verified_target_TG": 368,
+    "scope_audit_complete": false,
+    "unchanged_private_evidence_files": 24,
+    "complete_primary_native_PDF_pages_LDPE": 12,
+    "complete_primary_HTML_scientific_body_PVA": true,
+    "PVA_primary_PDF15pages_version_captions_and_targeted_locators_only": true,
+    "original_new_source_cohorts": 2,
+    "original_existing_scope_cohorts": 10,
+    "existing_scope_original_texts_reread": false,
+    "publication_components": [
+      "b317_LDPE_PVA",
+      "b318_old_scope_bundled_do_not_reimport"
+    ],
+    "existing_scope_full_profile_comparisons": 213136,
+    "existing_scope_full_profile_hits": 0,
+    "existing_scope_unbound_residue_records": 8,
+    "existing_scope_unknown_residue_temperatures_not_resolved": true
+  }
+}
