@@ -3290,8 +3290,38 @@
       "attempt_count": 1,
       "last_attempt_utc": "2026-10-04T21:28:08.869938+00:00",
       "next_retry_utc": "2026-10-05T03:28:08.869938+00:00"
+    },
+    "10.1021/ie400180f": {
+      "fingerprint": "3f0edbd1e83bf2fc2355",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-05T01:07:37.676943+00:00",
+      "next_retry_utc": "2026-10-05T07:07:37.676943+00:00"
+    },
+    "10.1021/acsami.5b02141": {
+      "fingerprint": "f135aeded51dc52a16dd",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-05T01:07:37.676943+00:00",
+      "next_retry_utc": "2026-10-05T07:07:37.676943+00:00"
+    },
+    "10.1002/1097-0126(200010)49:10<1079::aid-pi468>3.0.co;2-z": {
+      "fingerprint": "c6c7436dd35175a374bc",
+      "extractor_version": "6",
+      "grade": "C",
+      "reason_code": "source_unavailable",
+      "retryable": true,
+      "attempt_count": 1,
+      "last_attempt_utc": "2026-10-05T01:07:37.676943+00:00",
+      "next_retry_utc": "2026-10-05T07:07:37.676943+00:00"
     }
   },
-  "last_run_utc": "2026-10-05T00:40:05.844754+00:00",
-  "last_examined_candidates": 2
+  "last_run_utc": "2026-10-05T01:07:37.676943+00:00",
+  "last_examined_candidates": 3
 }
