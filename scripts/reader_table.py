@@ -38,7 +38,7 @@ def reading_row(row, entry):
     error_fields = sorted(key for key in row if re.search(
         r'uncert|plusminus|error|statistic|replicat|deviation|repeats', key, re.I))
     note_fields = sorted(key for key in row if re.search(
-        r'unknown|limit|note|definition|assign', key, re.I)
+        r'unknown|ambiguous|limit|note|definition|assign', key, re.I)
         or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
     loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]

@@ -1,0 +1,380 @@
+{
+  "batch": "B384",
+  "status": "SOURCE_APPROVED_PRIVATE_BUNDLE_PENDING_NORMAL_PUBLICATION_GATES",
+  "baseline_complete_main_commit": "db3c66d8eee13fb2c0a34e0f1d535d93985e393e",
+  "unique_new_sample_states": 8,
+  "new_TG_conditions": 8,
+  "new_DOIs": 3,
+  "evidence_upgrades": 0,
+  "old_scope_upgrades": 0,
+  "merge_and_peer_additional_count": 0,
+  "currently_published_from_this_bundle": 0,
+  "public_source_facts": {
+    "batch": "B384",
+    "new_unique_sample_states": 8,
+    "new_TG_conditions": 8,
+    "evidence_upgrades": 0,
+    "old_scope_upgrades": 0,
+    "merge_and_peer_second_count": 0,
+    "source_findings": [
+      {
+        "DOI": "10.1002/pc.23781",
+        "new_states": 3,
+        "samples": [
+          "A3",
+          "B2",
+          "C3"
+        ],
+        "locators": "Methods/Table1 PDFp2\u20133;LOI Table2 PDFp3;TG Table3 PDFp5 and body p6;local HTML Tables1\u20133 crosscheck",
+        "facts": "Common FR/WRPA6 preparation reaches twin-screw compounds, dried pellets and injection-molded composites; matching own series TG/LOI supported. T5/T10/T50 are source mass-loss thresholds. T(max) lacks DTG peak definition and residues lack temperature, retained as raw facts only. WRPA6 ratio85/15/5/5/5 not normalized; encapsulated phosphorus pure fraction not inferred. A0 control remains wholeheld."
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2017.12.001",
+        "new_states": 2,
+        "samples": [
+          "PP",
+          "PP/IFR-3"
+        ],
+        "locators": "Materials/preparation PDFp2;Table1/methods PDFp3;thermal body PDFp5\u20136;Table3 PDFp7",
+        "facts": "General preparation includes PP100 and sheets cut for measurements; experimental Table3 TG and own LOI matched. Ti means5% mass loss, not Tonset; R800 exact including zero. Calculated mixture, agent curves, cone residue and TG-FTIR conditions are excluded. Generic PP controls require source/supplier/preparation identity review; different gas/rate alone is not evidence of independence."
+      },
+      {
+        "DOI": "10.1002/pat.5638",
+        "new_states": 3,
+        "samples": [
+          "TPU/ANF0.250",
+          "TPU/ANF-PC0.180",
+          "TPU/ANF-PC0.250"
+        ],
+        "locators": "Generic composite preparation/methods PDFp2;Table1 PDFp3;thermal body PDFp7\u20138;Table3 and definitions PDFp10;local HTML critical sections/Tables1/3",
+        "facts": "Composite preparation includes casting/drying and175\u00b15C molded plaques for declared series. Exact TG cutting/aliquot geometry remains unknown. Ungrafted ANF does not inherit PC50:1/4h grafting. T5/T30 are mass-loss thresholds and Tmax is maximum degradation-rate temperature. All char fractions have unbound temperature and are not R750. PC0.125 recipe99.975% and neat TPU processing chain remain wholeheld. THRI is calculated, not a TG peak."
+      }
+    ],
+    "processed_source_queue_facts": [
+      {
+        "DOI": "10.1002/pc.23781",
+        "source_version": "Published primary native PDF8pages;crosschecked local HTML Tables1\u20133",
+        "source_locator": "PDFpp1\u20138 complete;Table1/Materials/SpecimensPreparation/LOI/TGmethodsPDFp2printed2091;TGmethodcontinuation/Table2PDFp3printed2092;Fig5captionPDFp4printed2093;Table3PDFp5printed2094;TGbodyPDFp6printed2095;localHTMLTables1\u20133 crosscheck",
+        "source_status": "complete_available_primary_source_approved_and_other_records_held",
+        "source_approved_unique_states": 3,
+        "wholeheld_condition_rows": 1,
+        "LOI_only_states": 7,
+        "wholeheld_issues": [
+          "Table3T(max) is not established DTGmaximum-rate: body calls A0same492C endtemperature and treatedsample complete-degradation-temperature, no DTG definition. CanonicalTmax blank. Residues wt% exact ownTG but no specified temperature; no R500/R600/R700/endtemp assignment. WRPA6weight85/15/5/5/5 ratio not normalized. RPencapsulation/masterbatch content not inferred. ZBwaterloss370C not invented decompositionpeak. No curves read. Wearultrasonicacetone/dry not transferred toTG/LOI."
+        ],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1002/pc.28635",
+        "source_version": "Published primary native PDF16pages;local HTML Table2 and SI link inspected",
+        "source_locator": "CompletePDFpp1\u201316;Methods/Table1PDFpp3\u20135;ThermalanalysisPDFp6 TablesS1/S2;own LOITable2PDFp9;ConclusionPDFp14;localHTMLTable2/SIsection inspected;DOI SIlinkpc28635-sup-0001-supinfo.docx",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 2,
+        "LOI_only_states": 18,
+        "wholeheld_issues": [
+          "Table1 abbreviation footnote misnames PDAP as difluoroalkoxy whereas synthesis/body establish diaryloxy; rawfootnoteconflict retained without switchingchemistry. TgDSC and gasIRwavenumbers notTGpeaks. TGFTIR800C notordinaryTG600C. Primaryordinarymethod onlyN2; aircurves do notborrowgasflow/rate withoutsupplement. T(onset) expressly5percent loss; purePZ residues34.2/2.2 have unspecified temperature and remainraw-only. No numericTGinterpolation forPA6states; 30vol%GF means x-Gseries10.5vol%actualPZat15label, not15vol%wholecomposite."
+        ],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1016/j.polymdegradstab.2013.09.029",
+        "source_version": "Published primary native PDF10pages",
+        "source_locator": "PDFpp1\u201310 complete;Methods/Table1PDFp3;ownThermalTable3PDFp6;UL94/GWT/conePDFpp3/7/8;referencesPDFpp9\u201310",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 0,
+        "LOI_only_states": 0,
+        "wholeheld_issues": [],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1007/s12221-019-8284-6",
+        "source_version": "Published journal primary PDF",
+        "source_locator": "Whole9primaryPDFpages/printed120\u2013128;materials/preparationPDFp2;firetestPDFp3;agentTGPDFp4Fig7;compositeTGFig8andLOITable1PDFp5",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 0,
+        "LOI_only_states": 5,
+        "wholeheld_issues": [],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2013.07.001",
+        "source_version": "Published journal primary PDF",
+        "source_locator": "Whole9PDFpages/printed1\u20139;\u00a72.1/2.3/2.4andTable1PDFp2;definitionsPDFp3;N2Table2PDFp4;airTable3PDFp5;thermalbodyPDFp5and7",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 10,
+        "LOI_only_states": 0,
+        "wholeheld_issues": [
+          "NoTGform/posthotpressbridge;mass/pan/flow/range/nunknown;LOIn/errorunknown;hotpresstemperatureunknown;N2LaHP10R80049.9Table2vs39.9bodyheldmetricblank. Early342/339/338LaHPdecompositionnotwater;matrixstage410/400/396/395separate;thirdstagecharbreakdown/airphosphineoxidationnotrenumbered;GF+LaPoxide residue notpurecarbon. Cone/DMA/nfive mechanicalnotTG/LOI."
+        ],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2017.12.001",
+        "source_version": "Published journal primary PDF",
+        "source_locator": "Whole12primaryPDFpages/printed223\u2013234;materials/preparation\u00a72.1/2.3PDFp2;Table1PDFp3;TG/LOImethods\u00a72.4.5/2.4.6PDFp3;thermalbodyPDFpp5\u20136;Table3PDFp7",
+        "source_status": "complete_available_primary_source_approved_and_other_records_held",
+        "source_approved_unique_states": 2,
+        "wholeheld_condition_rows": 0,
+        "LOI_only_states": 5,
+        "wholeheld_issues": [],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1002/app.45041",
+        "source_version": "Published primary nativePDF; all pages reviewed",
+        "source_locator": "Rawmaterials/sampleprepPDFp2;Characterization/TableIPDFp3;matrix-onlyTGscopePDFp4/Fig4PDFp5;TableIownLOI\u00b1SD andbodyp4;PDFall1\u20138",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 0,
+        "LOI_only_states": 3,
+        "wholeheld_issues": [],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1002/pat.5638",
+        "source_version": "Published primary nativePDF; all pages reviewed",
+        "source_locator": "FullPDF1\u201315;Methods\u00a72.1/2.2/2.3PDFp2printed1832;Table1PDFp3printed1833;Thermal\u00a73.4PDFp7printed1837/Table3footnotePDFp10printed1840;localHTMLsame sections/Tables1/3",
+        "source_status": "complete_available_primary_source_approved_and_other_records_held",
+        "source_approved_unique_states": 3,
+        "wholeheld_condition_rows": 2,
+        "LOI_only_states": 0,
+        "wholeheld_issues": [
+          "All5TG charvalues unknown temperature remainrawonly, notR750. IsolatedANF488.9/ANFPC522.1Tmax prose contradicts decreased33.2 and does not transfer. PC0.125 Table1TPU99.850+PC.125=99.975 not100; retain andwholehold, notinfer99.875. Neatcontrolprocessing unproved. Conechar/Raman/PyGC350/450notTGmetrics; Table3THRI188.2 versus printedformula no recomputation/correction. Primary15nativePDFpages and targetedlocalHTMLsections/tablecells, nofullDOMclaim."
+        ],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      },
+      {
+        "DOI": "10.1016/j.compscitech.2014.08.021",
+        "source_version": "Published primary nativePDF; all pages reviewed",
+        "source_locator": "CompletePDF1\u20138;\u00a72.3/2.4PDFp2printed27;LOITable3PDFp5printed30;TGdefinitionPDFp6printed31/Table4PDFp7printed32",
+        "source_status": "complete_available_primary_no_approved_pair_reopen_only_new_specific_local_evidence",
+        "source_approved_unique_states": 0,
+        "wholeheld_condition_rows": 4,
+        "LOI_only_states": 0,
+        "wholeheld_issues": [
+          "Native text only; no image, curve digitization or inferred missing value."
+        ],
+        "published_in_this_private_bundle": 0,
+        "merge_additional_count": 0
+      }
+    ]
+  },
+  "original_hash_stat": [
+    {
+      "DOI": "10.1002/pc.23781",
+      "original_sha256": "2cddb47795b21e3882be9648690b349c5fda9b90a907f51492dcc2f4c61b5524",
+      "size": 513633,
+      "mtime_ns": 1774743158000000000
+    },
+    {
+      "DOI": "10.1016/j.compositesa.2017.12.001",
+      "original_sha256": "74219c4c9fe38095d2aaf06ab574d1dbe0d69eb3c4a09750dfd205d62294c9af",
+      "size": 5465482,
+      "mtime_ns": 1782006200000000000
+    },
+    {
+      "DOI": "10.1002/pat.5638",
+      "original_sha256": "41cc6e929ddfe22aad7a70eb2a66a2d03e44395539ac4e9327780815c27e32c4",
+      "size": 8570006,
+      "mtime_ns": 1774752818000000000
+    }
+  ],
+  "actual_scientific_tests": 12,
+  "actual_scientific_tests_exit": 0,
+  "samecommit_validator_scope_allfield_HTML_exit": 0,
+  "baseline_all1989_oldfields_preserved": true,
+  "all8_provided_fields_preserved": true,
+  "private_scope_prediction_not_main": [
+    780,
+    965
+  ],
+  "new_scope_bindings": 8,
+  "private_comparisons": 994082,
+  "full_profile_hits": 0,
+  "own_subset_hits": 0,
+  "partial_screens_adjudicated": 21,
+  "full_profile_does_not_prove_universal_independence": true,
+  "source_approval_records": [
+    {
+      "DOI": "10.1002/pc.23781",
+      "primary": "B367",
+      "independent_peer": "B371",
+      "states": 3,
+      "TG": 3
+    },
+    {
+      "DOI": "10.1016/j.compositesa.2017.12.001",
+      "primary": "B372",
+      "independent_peer": "B376",
+      "parent_critical": "B383",
+      "states": 2,
+      "TG": 2
+    },
+    {
+      "DOI": "10.1002/pat.5638",
+      "primary": "B375",
+      "independent_peer": "B378",
+      "parent_critical": "B381",
+      "states": 3,
+      "TG": 3
+    }
+  ],
+  "public_factual_payload_sha256": {
+    "publication_proposed.csv": "bc69f2eb97320df16db4324d262cc0292ef9ad529e52af323cf949f139645f36",
+    "scope_decisions_delta.json": "b8949103705de9db4abc41c7c209bf554b40b95d074b06b6caf913847ab70871",
+    "test_b384_scientific_guards.py": "f4cc884f9c6e846f342f59ccc1506d607df6bb6704b4986e598f478912411f2f"
+  },
+  "progress_classification_correction": {
+    "previous_wrong_counts": [
+      623,
+      776
+    ],
+    "correct_finished_subset": [
+      558,
+      711
+    ],
+    "excludes_fibres_from_finished_subcount": 65,
+    "scientific_value_changes": 0,
+    "evidence_upgrades": 0,
+    "legacy_sources13": "Historical earlier counting basis only; not current source count"
+  },
+  "finished_textile_only_states": 558,
+  "finished_textile_only_TG": 711,
+  "material_class_states": {
+    "fiber_forming_polymer": 13,
+    "fiber_forming_polymer_composite": 144,
+    "textile_cloth": 553,
+    "textile_fibre": 65,
+    "textile_nonwoven": 5,
+    "textile_precursor_material": 0,
+    "textile_yarn": 0
+  },
+  "material_class_TG": {
+    "fiber_forming_polymer": 19,
+    "fiber_forming_polymer_composite": 170,
+    "textile_cloth": 706,
+    "textile_fibre": 65,
+    "textile_nonwoven": 5,
+    "textile_precursor_material": 0,
+    "textile_yarn": 0
+  },
+  "scientific_limits": "Exact TG geometry/cut unreported remains unknown; ambiguous peak labels and unknown-temperature residues stay raw qualifiers; calculated thermal indexes not TG peaks; source controls/preparation/SI gaps retained. Missing gas/rate, whole-state ambiguity and scope holds are not admitted.",
+  "scope_entries": [
+    {
+      "source_identity": "10.1002/pc.23781",
+      "sample_state_id": "52168313c78328b04a35",
+      "reviewed_measurement_fingerprint": "5faf96304b668ccd56e62b80f7766671c2b71f1e06824d5c696cba79093278f1",
+      "scope_identity_sha256": "1c650f163c165b52ba58b432bf04b2b5b2f32e737a7b784bbca22f07f24933aa",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "CompleteoriginalPA6formulation_generic_specimenspreparation_TG_LOItablebridge_primaryprivate_peerpending",
+      "scope_evidence": "Own prepared PA6-containing glass-fiber/PTFE/UHMWPE/lubricant composite with Table1 exact FRrecipe and common generic SpecimensPreparation; actual injectionmolded form preserved, not represented as textilecloth",
+      "source_locator": "Materials/Table1/SpecimensPreparationPDFp2;Table2PDFp3;Table3PDFp5",
+      "scope_reviewed_by": "codex-local-native-b367;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1002/pc.23781",
+      "sample_state_id": "f3da9a6aca172ac4bb73",
+      "reviewed_measurement_fingerprint": "c4088e1bff5dd00cf8574a0aca166d337204430c40895b0693778c9b7b7260aa",
+      "scope_identity_sha256": "6ae41c52e1d236889f84f99c57edd362cc891035c2c3b1d772f8399d8fb0cbb9",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "CompleteoriginalPA6formulation_generic_specimenspreparation_TG_LOItablebridge_primaryprivate_peerpending",
+      "scope_evidence": "Own prepared PA6-containing glass-fiber/PTFE/UHMWPE/lubricant composite with Table1 exact FRrecipe and common generic SpecimensPreparation; actual injectionmolded form preserved, not represented as textilecloth",
+      "source_locator": "Materials/Table1/SpecimensPreparationPDFp2;Table2PDFp3;Table3PDFp5",
+      "scope_reviewed_by": "codex-local-native-b367;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1002/pc.23781",
+      "sample_state_id": "bf71d4b412c6023dbd75",
+      "reviewed_measurement_fingerprint": "ef5d6f6180210696ddd64d847df58d0017712fd803f85e26b2b837497db165a7",
+      "scope_identity_sha256": "7e55b906544f2d86f80f65dea6dcb242dcb7ada152060fe470883620fd7d37ff",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "CompleteoriginalPA6formulation_generic_specimenspreparation_TG_LOItablebridge_primaryprivate_peerpending",
+      "scope_evidence": "Own prepared PA6-containing glass-fiber/PTFE/UHMWPE/lubricant composite with Table1 exact FRrecipe and common generic SpecimensPreparation; actual injectionmolded form preserved, not represented as textilecloth",
+      "source_locator": "Materials/Table1/SpecimensPreparationPDFp2;Table2PDFp3;Table3PDFp5",
+      "scope_reviewed_by": "codex-local-native-b367;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.compositesa.2017.12.001",
+      "sample_state_id": "c515448425dda2db2c34",
+      "reviewed_measurement_fingerprint": "b037eab7fb300e22129954404120e40b0039b2a256dcd6ddeff201a8494aa249",
+      "scope_identity_sha256": "14d5dd75a6035f23afd2f4b65dbbc14c53c62dfa0fd4bbae242a4181eb4fa17c",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "complete_native_allrecipes_statebridge_and_sourceprofile_adjudication",
+      "scope_evidence": "Source\u00a72.1PP T30S andTable1wholePP100orPP80/ZrPdMCA5/APP15;PPfiber-formingpolymeroritsFRcomposite;bulkhotpressform admittedbyuser-expanded precursor scope;no textileapplication inferred.",
+      "source_locator": "\u00a72.1/2.3PDFp2;Table1PDFp3;Table3PDFp7",
+      "scope_reviewed_by": "codex-local-native-b372",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.compositesa.2017.12.001",
+      "sample_state_id": "c8f1463d72bbd34e1e26",
+      "reviewed_measurement_fingerprint": "12603f46b1813042cf8a0a069089ced386a0ff0ee56131b9eaf57027832e766b",
+      "scope_identity_sha256": "ccdba8c2f8f9b8542e971736b1b87c468c5aec0a663bfab4c30a51a0596d3833",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "complete_native_allrecipes_statebridge_and_sourceprofile_adjudication",
+      "scope_evidence": "Source\u00a72.1PP T30S andTable1wholePP100orPP80/ZrPdMCA5/APP15;PPfiber-formingpolymeroritsFRcomposite;bulkhotpressform admittedbyuser-expanded precursor scope;no textileapplication inferred.",
+      "source_locator": "\u00a72.1/2.3PDFp2;Table1PDFp3;Table3PDFp7",
+      "scope_reviewed_by": "codex-local-native-b372",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1002/pat.5638",
+      "sample_state_id": "ea022731e6e5f33e762b",
+      "reviewed_measurement_fingerprint": "8985322177ea392bf0bc48f2fd0aac34a271cc28afb9cafd7bc053dc155494ca",
+      "scope_identity_sha256": "05c57c835c574446a2f4feeea82f74e61ce78cb1152ddec9d309e6aca002ea1f",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Explicitpara-aramid_component_common_unrestricted_composite_preparation_native_exact_tables_primary_peerpending",
+      "scope_evidence": "Actual prepared TPUcomposite contains explicit para-aramidnanofibres from named XGPF1203AF supplier, not purefoam orcity-use inference; formulation/form preserved",
+      "source_locator": "Methods/Materials\u00a72.1/2.2PDFp2,Tables1/3PDFp3/10",
+      "scope_reviewed_by": "codex-local-native-b375;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1002/pat.5638",
+      "sample_state_id": "b1fefb51aef02ff1d175",
+      "reviewed_measurement_fingerprint": "aae333bbbd148f0486416f3804addb004b7e6b0c7f43df12926ba5b3c0373451",
+      "scope_identity_sha256": "2f65836b490d71fbd8b22215c98d557e7a90da2ad7686f7815f4805af6e06d58",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Explicitpara-aramid_component_common_unrestricted_composite_preparation_native_exact_tables_primary_peerpending",
+      "scope_evidence": "Actual prepared TPUcomposite contains explicit para-aramidnanofibres from named XGPF1203AF supplier, not purefoam orcity-use inference; formulation/form preserved",
+      "source_locator": "Methods/Materials\u00a72.1/2.2PDFp2,Tables1/3PDFp3/10",
+      "scope_reviewed_by": "codex-local-native-b375;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1002/pat.5638",
+      "sample_state_id": "8ae1a8d5da57c3035721",
+      "reviewed_measurement_fingerprint": "030eb46193d00774bc0360966ff34d9bac2ba528d16d787cdb067d904cc6012d",
+      "scope_identity_sha256": "9e3c1f906a18d74e7eb4056f22811b7f27923a1ffbb2e70c808370e60e785353",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Explicitpara-aramid_component_common_unrestricted_composite_preparation_native_exact_tables_primary_peerpending",
+      "scope_evidence": "Actual prepared TPUcomposite contains explicit para-aramidnanofibres from named XGPF1203AF supplier, not purefoam orcity-use inference; formulation/form preserved",
+      "source_locator": "Methods/Materials\u00a72.1/2.2PDFp2,Tables1/3PDFp3/10",
+      "scope_reviewed_by": "codex-local-native-b375;primaryreviewer_peerpending",
+      "scope_reviewed_at": "2026-10-06"
+    }
+  ]
+}
