@@ -52,6 +52,8 @@ def reading_row(row, entry):
                    'source_residue_temperature_status', 'source_TG_flow_mL_min',
                    'source_TG_mass_mg', 'source_TG_mass_qualifier', 'source_TG_pan',
                    'max_mass_loss_rate', 'rate_unit', 'source_Rmax_pct_per_C',
+                   'source_Rpeak_pct_per_min', 'source_Rpeak_magnitude_pct_per_min',
+                   'source_Rpeak_original_combined_cell', 'source_LOI_sample_dimensions_mm',
                    'source_LOI_dimensions_mm',
                    'LOI_specimen_geometry', 'LOI_standard', 'LOI_instrument'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]

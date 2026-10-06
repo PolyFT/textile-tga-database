@@ -385,5 +385,37 @@ class ReaderPerDegreeMassLossTests(unittest.TestCase):
             self.assertEqual(display[label], '')
 
 
+class ReaderSignedRateTests(unittest.TestCase):
+    def test_signed_source_rate_preserves_unit_and_does_not_change_peak(self):
+        row = dict(source_Rpeak_pct_per_min='−20.7',
+                   source_Rpeak_magnitude_pct_per_min='20.7',
+                   source_Rpeak_original_combined_cell='433.6 / −20.7',
+                   source_Rpeak_definition='signed maximum weight-loss rate, %/min',
+                   Tmax1_C='433.6', source_Rpeak_C='999')
+        original = row.copy()
+        display = show(row)
+        for key in ['source_Rpeak_pct_per_min', 'source_Rpeak_magnitude_pct_per_min',
+                    'source_Rpeak_original_combined_cell', 'source_Rpeak_definition']:
+            self.assertIn(key + '=' + row[key], display['限制与不确定性'])
+        self.assertEqual(display['Tmax1 (℃)'], '433.6')
+        self.assertEqual(display['其他TG温度（℃）'], '')
+        self.assertNotIn('999', str(display))
+        self.assertEqual(row, original)
+
+    def test_zero_source_rate_is_not_missing_or_a_temperature(self):
+        display = show(dict(source_Rpeak_pct_per_min='0',
+                            source_Rpeak_definition='signed loss rate, %/min'))
+        self.assertIn('source_Rpeak_pct_per_min=0', display['限制与不确定性'])
+        for label in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+            self.assertEqual(display[label], '')
+
+    def test_source_LOI_dimensions_remain_in_LOI_details(self):
+        display = show(dict(source_LOI_sample_dimensions_mm='80×10×4',
+                            source_TG_sample_dimensions_mm='999'))
+        self.assertIn('source_LOI_sample_dimensions_mm=80×10×4', display['LOI补充（原文）'])
+        self.assertNotIn('80×10×4', display['限制与不确定性'])
+        self.assertNotIn('999', str(display))
+
+
 if __name__ == '__main__':
     unittest.main()
