@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1370,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b384_branch_pending_PR",
+  "publication_stage": "b384_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-b384-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b384",
     "claimed_at_utc": "2026-10-06T06:52:35.266331+00:00",
     "expires_at_utc": "2026-10-06T08:22:35.266331+00:00",
     "previous_release_commit": "db3c66d8eee13fb2c0a34e0f1d535d93985e393e",
-    "purpose": "8 new verified sample states/8TG; zero old scope, evidence or numeric changes; current772/957,780/965 only prospective"
+    "purpose": "8 new verified sample states/8TG; zero old scope, evidence or numeric changes; current772/957,780/965 only prospective",
+    "released_at_utc": "2026-10-06T07:22:10.726548+00:00",
+    "reason": "Merged original factual batch verified remotely with both scientific workflows successful; owned lease released"
   },
   "next_sources": [],
   "next_actions": [
@@ -595,5 +597,28 @@
       "evidence_upgrades": 0,
       "legacy_sources13": "Historical earlier counting basis only; not current source count"
     }
+  },
+  "publication_b384": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/170",
+    "merge_sha": "e6b1bea7c93608f2ab6c10a1f96ae9c395d57665",
+    "validated_head_sha": "3cdc7a90128430ea54a24285f65246500e50c643",
+    "new_pairs": 8,
+    "new_TG": 8,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 780,
+    "verified_target_condition_records": 965,
+    "verified_target_sources": 140,
+    "full_remote_public_files_verified": 18,
+    "all1989old_fields_preserved": true,
+    "all8new_provided_fields_preserved": true,
+    "tests": 2311,
+    "postmerge_runs": [
+      37427887794,
+      37427887728
+    ],
+    "original_files_unchanged": true
   }
 }
