@@ -1,0 +1,526 @@
+{
+  "batch": "B415",
+  "status": "PRIVATE_SOURCEAPPROVED_FINAL_READY_NOT_PUBLISHED",
+  "new_sample_states": 8,
+  "new_TG_records": 8,
+  "new_paired_source_DOIs": 3,
+  "processed_source_DOIs": 7,
+  "scope_only_states": 0,
+  "evidence_upgrades": 0,
+  "peer_second_count": 0,
+  "published": 0,
+  "raw_observations": 52,
+  "wholeheld_states": 10,
+  "wholeheld_TG": 14,
+  "LOI_only_states": 19,
+  "TG_only_states": 6,
+  "TG_only_records": 11,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1021/acsomega.9b00346",
+      "role": "complete_available_primary_no_own_LOI",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "wholeheld_states": 0,
+      "TG_only_states": 5,
+      "TG_only_records": 10,
+      "LOI_only_states": 0,
+      "locator": "PDFpp1–14;Table1 p5;§2.2 p4;methods p12",
+      "note": "Complete primary has TG/UL94/CONE, no own LOI assay. Original Tmax explicitly denotes80wt%massloss, not DTG peak. Oxidative table O2 versus body air not equated. This is primary-only negative, not global absence of other sources or SI."
+    },
+    {
+      "DOI": "10.1021/am200940z",
+      "role": "source_pairs_and_retained_holds",
+      "new_sample_states": 1,
+      "new_TG_records": 1,
+      "wholeheld_states": 2,
+      "LOI_only_states": 7,
+      "locator": "§2.3p3;Table1p3;Table4p5;Table6p7",
+      "note": "EVA2 is one prepared sample with22.5wt%MCAPP and7.5wt%PA6, LOI31,T5318.8,R70012.3. Source first/second maximumweightloss temperatures351.4/477.9 remain unmapped raw metrics. EVA0/EVA4 preparation/scope holds; water-aged specimens lack paired TG. Literal method airflow not converted to nitrogenflow."
+    },
+    {
+      "DOI": "10.1016/j.compositesa.2021.106423",
+      "role": "source_pairs_and_retained_holds",
+      "new_sample_states": 2,
+      "new_TG_records": 2,
+      "wholeheld_states": 1,
+      "LOI_only_states": 6,
+      "locator": "§2.3p3;ordinaryTG§2.4p3;§3.3p5;Table1p6",
+      "note": "Only PSA20/POSC20 own numericR70013.8/13.4 andLOI27/32 admitted. ReportedFR20wt% basis not further specified; PA680wt% not inferred. TableS3 unavailable in bounded local lookup; other curve values not estimated; neatPA6 preparation wholehold."
+    },
+    {
+      "DOI": "10.1002/app.49027",
+      "role": "source_pairs_and_metric_holds",
+      "new_sample_states": 5,
+      "new_TG_records": 5,
+      "wholeheld_states": 1,
+      "LOI_only_states": 0,
+      "locator": "Table1p2;§2.3p2–3;§2.4p3–4;Table2p5;§3.4p7",
+      "note": "Five modifiedPA6 prepared composites have own LOI/T5 and defined maximumdecompositionrate peaks. TG conditions are p4, LOI method p3–4. TableR800 conflicts method terminal700 and stays raw-only; no R700 inference, even zero. NeatPA6 processing wholehold; finalPDMS coating fraction unknown."
+    },
+    {
+      "DOI": "10.1007/s10570-020-03333-0",
+      "new_pairs": 0,
+      "new_TG": 0,
+      "scope_upgrades": 0,
+      "evidence_upgrades": 0,
+      "review": "complete_primary_source_wholeheld_sameform_origin_unresolved",
+      "candidate_states_held": 2,
+      "candidate_TG_held": 4,
+      "locator": "PDFp4materials/preparation;p6ordinaryTG/clothLOI;p8ownLOI17/37.6;p10Table4N2/p11Table5airR700",
+      "finding": "Own ordinary TG and own LOI present. Fibres supplied and partlywoven into fabrics; actual ordinaryTG aliquot form unspecified whileLOIexplicitlyfabric. Shared chemistry does not prove same processed form; no wholepairadmission. Tables explicitlyR700; program800 doesnotassignR800. Bath150/200gL onlyverticalburning/weightgain, notnumericTGLOI."
+    },
+    {
+      "DOI": "10.1007/s10570-021-03681-5",
+      "new_pairs": 0,
+      "new_TG": 0,
+      "scope_upgrades": 0,
+      "evidence_upgrades": 0,
+      "review": "complete_primary_source_wholeheld_fibreTG_vs_clothLOI",
+      "candidate_states_held": 2,
+      "candidate_TG_held": 2,
+      "washed_LOI_only": 3,
+      "isolated_modifier_TG_only": 1,
+      "locator": "PDFp3(3203)fibresORfabrics/treatments/airTG;p4(3204)fabricLOI150×58mm;p8(3208)Table5airfibresR900/Table4isolatedASPPEA;p12(3212)Table6washLOI/Table7cone",
+      "finding": "Separate fibre/fabric treatments; explicit fibre ordinaryTG vs fabricLOI without same-form aliquotbridge. Washed90/270/450min LOI lacks samewashfabricTG. AirR9004.95/7.45 are absolute; 51%relativeincrease/abstract51wt% preserved as ambiguity, notR51. Cone residues are notTG; isolatedASPPEAR90016.5 is one modifierTGrecord not threeindependentsamples."
+    },
+    {
+      "DOI": "10.1007/s10570-021-03931-6",
+      "new_pairs": 0,
+      "new_TG": 0,
+      "scope_upgrades": 0,
+      "evidence_upgrades": 0,
+      "review": "complete_primary_source_wholeheld_fibreTG_vs_clothLOI",
+      "candidate_states_held": 2,
+      "candidate_TG_held": 4,
+      "washed_LOI_only": 3,
+      "locator": "PDFp3–4CM1.5/FR20preparation; p4TGfibre/LOIfabricmethods; p11Table4air/N2R800; p12Table5initial/washLOI; p13Table6MCCexcluded",
+      "finding": "Ordinary TGexplicitlyfibres whileLOImethodexplicitlyoriginal/modified/washedfabrics; Table5fibreslabel alone does not close actualwoven/aliquotchain. R800validrawvalues3.1/7.1air15.1/31.8N2 preserved; no new pairs. Washed5/10/15cycles LOI remainsLOIonly. ±.1 and n3 reported but statisticalkindnotdefined. AlCl3bath20wt%notretainedAl20%, EDS1.41wt% and XPS1.63at% not interconverted."
+    }
+  ],
+  "source_approval": {
+    "primary": "B409",
+    "independent_peer": "B411",
+    "root": "B414",
+    "actual_exits": [
+      0,
+      0,
+      0
+    ]
+  },
+  "supersedes": {
+    "original_primary_payload_sha256": "0675ee1ab53eab3cb1f3c5fd9508c3fe69d9af5fa0f1f13d0f5a084d13f5ae46",
+    "normative_derived_payload_sha256": "78b5b8515e2be5c2063e267b9702d9536f52d53f1fd5470330adf7ba4631a571",
+    "original_primary_unmodified": true,
+    "total_patches": 29,
+    "scientific_provided_fields": 22,
+    "scope_fingerprints": 7,
+    "measurement_fingerprints_unchanged": true,
+    "patches": [
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-1; initial prepared material",
+        "field": "LOI_locator",
+        "before": "PDFp2Table1; p3§2.4 ASTM specimen; p7§3.4 own results",
+        "after": "PDFp2Table1; p3–4§2.4 ASTM/specimen; p7§3.4 own results",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-1; initial prepared material",
+        "field": "TG_locator",
+        "before": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p3§2.4 rate20",
+        "after": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p4§2.4 rate20",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-1; initial prepared material",
+        "field": "conditions_locator",
+        "before": "PDFp3§2.4 gas/rate/samplemass; p5Table2 air",
+        "after": "PDFp4§2.4 gas/rate/samplemass; p5Table2 air",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-1; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "b818d3cb941ee4fe22c390cd6ae3d7818a1cf443f72b46916400790fb12e6b3a",
+        "after": "9c6a1dbe25107309fcf2eda2f55a5d2ed0935a530c216a33831a4ab4aae0b398",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-1; initial prepared material",
+        "field": "source_location",
+        "before": "PDFp2–3§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "after": "PDFp2–4§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-2; initial prepared material",
+        "field": "LOI_locator",
+        "before": "PDFp2Table1; p3§2.4 ASTM specimen; p7§3.4 own results",
+        "after": "PDFp2Table1; p3–4§2.4 ASTM/specimen; p7§3.4 own results",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-2; initial prepared material",
+        "field": "TG_locator",
+        "before": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p3§2.4 rate20",
+        "after": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p4§2.4 rate20",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-2; initial prepared material",
+        "field": "conditions_locator",
+        "before": "PDFp3§2.4 gas/rate/samplemass; p5Table2 air",
+        "after": "PDFp4§2.4 gas/rate/samplemass; p5Table2 air",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-2; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "f15ecf986576d655d24e0253b5d5233e76f3fb460dfc70394164d4bba821713f",
+        "after": "41dc1a6d10a51b83ae4628a988cd8c11e44f9fc86a18b00dbc4ce1f01e6cd2f0",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-2; initial prepared material",
+        "field": "source_location",
+        "before": "PDFp2–3§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "after": "PDFp2–4§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-3; initial prepared material",
+        "field": "LOI_locator",
+        "before": "PDFp2Table1; p3§2.4 ASTM specimen; p7§3.4 own results",
+        "after": "PDFp2Table1; p3–4§2.4 ASTM/specimen; p7§3.4 own results",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-3; initial prepared material",
+        "field": "TG_locator",
+        "before": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p3§2.4 rate20",
+        "after": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p4§2.4 rate20",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-3; initial prepared material",
+        "field": "conditions_locator",
+        "before": "PDFp3§2.4 gas/rate/samplemass; p5Table2 air",
+        "after": "PDFp4§2.4 gas/rate/samplemass; p5Table2 air",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-3; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "3e879e542c4378923f7807d22edd4022cfe64d6f928f102770ba873a750192c9",
+        "after": "9c4e0cca380de2db9bbde4f3b5ccf02664d99b43c2ed22c0dda80d89e01af204",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-3; initial prepared material",
+        "field": "source_location",
+        "before": "PDFp2–3§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "after": "PDFp2–4§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-4; initial prepared material",
+        "field": "LOI_locator",
+        "before": "PDFp2Table1; p3§2.4 ASTM specimen; p7§3.4 own results",
+        "after": "PDFp2Table1; p3–4§2.4 ASTM/specimen; p7§3.4 own results",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-4; initial prepared material",
+        "field": "TG_locator",
+        "before": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p3§2.4 rate20",
+        "after": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p4§2.4 rate20",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-4; initial prepared material",
+        "field": "conditions_locator",
+        "before": "PDFp3§2.4 gas/rate/samplemass; p5Table2 air",
+        "after": "PDFp4§2.4 gas/rate/samplemass; p5Table2 air",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-4; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "2ee9e855e570b029c31ac2c2dd77432019353392c69bed71349cd8b7585b4b0d",
+        "after": "cb1c3eec2cbae26023a7dcbc46a5040cc973241110efff809bb9e972e4a62d81",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-4; initial prepared material",
+        "field": "source_location",
+        "before": "PDFp2–3§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "after": "PDFp2–4§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-5; initial prepared material",
+        "field": "LOI_locator",
+        "before": "PDFp2Table1; p3§2.4 ASTM specimen; p7§3.4 own results",
+        "after": "PDFp2Table1; p3–4§2.4 ASTM/specimen; p7§3.4 own results",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-5; initial prepared material",
+        "field": "TG_locator",
+        "before": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p3§2.4 rate20",
+        "after": "PDFp5Table2/Fig4 explicit air; p6§3.3 definitions; p4§2.4 rate20",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-5; initial prepared material",
+        "field": "conditions_locator",
+        "before": "PDFp3§2.4 gas/rate/samplemass; p5Table2 air",
+        "after": "PDFp4§2.4 gas/rate/samplemass; p5Table2 air",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-5; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "fb9b094bd08421dcd53ae5e52967fb347d6795ab170fed97c7707d00b08f66dc",
+        "after": "dab2e65331900f007083cf45032a46fd69a57003e451685d607319cdd42b9831",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1002/app.49027",
+        "sample_state": "PA6-5; initial prepared material",
+        "field": "source_location",
+        "before": "PDFp2–3§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "after": "PDFp2–4§2.1–2.4/Table1; p5Table2/Fig4; p6–7§3.3–3.4; p8References",
+        "reason": "Native source method p4 versus imprecise p3 locator",
+        "locator": "PDFp3–4§2.4",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2021.106423",
+        "sample_state": "PA6-PSA20%; initial prepared material",
+        "field": "composition",
+        "before": "PA680wt%;PSA20wt%; literal§2.3 fillerweight ratios no inventedfeed normalization",
+        "after": "PA6 with PSA20wt% flame retardant as reported in §2.3 weight-ratio series; percentage basis not further specified; PA6 fraction/final retained composition not inferred",
+        "reason": "Native reportedFR20wt% does not explicitly reportPA680%; preserve basisunknown",
+        "locator": "PDFp3§2.3",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2021.106423",
+        "sample_state": "PA6-PSA20%; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "277be53a1da678e0ade108d6df4913b10436b87e323a6538d3461221223a4e1e",
+        "after": "25a87f4ac47d54e3a6cea6e1095d49feca8ff72aa184f8f206131894ba4418fb",
+        "reason": "Native reportedFR20wt% does not explicitly reportPA680%; preserve basisunknown",
+        "locator": "PDFp3§2.3",
+        "kind": "derived_scope_binding_refresh"
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2021.106423",
+        "sample_state": "PA6-POSC20%; initial prepared material",
+        "field": "composition",
+        "before": "PA680wt%;POSC20wt%; literal§2.3 fillerweight ratios no inventedfeed normalization",
+        "after": "PA6 with POSC20wt% flame retardant as reported in §2.3 weight-ratio series; percentage basis not further specified; PA6 fraction/final retained composition not inferred",
+        "reason": "Native reportedFR20wt% does not explicitly reportPA680%; preserve basisunknown",
+        "locator": "PDFp3§2.3",
+        "kind": "explicit_scientific_providedfield_correction"
+      },
+      {
+        "DOI": "10.1016/j.compositesa.2021.106423",
+        "sample_state": "PA6-POSC20%; initial prepared material",
+        "field": "reviewed_material_scope_fingerprint",
+        "before": "48f6256d81f2f535b8906eaad4127376f9486d53afffb55547904a0b8e89bc5b",
+        "after": "cd77c6deafb4dc22d038bfff2660ea703bb27d30d3b412613ea4db805568c172",
+        "reason": "Native reportedFR20wt% does not explicitly reportPA680%; preserve basisunknown",
+        "locator": "PDFp3§2.3",
+        "kind": "derived_scope_binding_refresh"
+      }
+    ]
+  },
+  "source_read_boundaries": {
+    "primary": {
+      "10.1021/acsomega.9b00346": "All14nativePDFpages/lines1–716;all51originalreferences;mainpublishedPDF(notSI);3tablesand12nativeFigcaptions; noownLOI.",
+      "10.1021/am200940z": "All8nativePDFpages/lines1–434,all24originalreferences; correspondingHTMLnativebodylines234–688 scientificAbstract/Introduction/Materials/Methods/Results/Conclusion,6DOMtables/all9nativecaptions; HTMLreferencesownbibliography identifiedPDFall24 alreadyread; expandedlinkedreferenceabstractsnotownassays.",
+      "10.1016/j.compositesa.2021.106423": "All11nativePDFpages/lines1–663;all58originalreferences;2mainnumericLOI/CONEtablesand11nativeFigcaptions; SI cited but noindexed/same-stemlocalfile; TableS3missing.",
+      "10.1002/app.49027": "All8nativePDFpages/lines1–343;all21originalreferences;3tablesand6nativeFigcaptions; publishedprimaryPDF(notSI); explicitmethod/table residualtemperature conflict."
+    },
+    "independent_peer": {
+      "ownPDFs": 4,
+      "ownPDFpages": 41,
+      "samepaperHTML_DOMtables": 6,
+      "ownreferencelist_entries": 154,
+      "cited_original_reads": 0,
+      "full_SI_recovered": 0,
+      "read_claim": "Whole4PDFmain andalltables/captions/footnotes/refs. HTMLDOM6tables/SIlinks only,notwholeHTML. Bounded7existingindexes+adjacentfilenamesSInegative only."
+    },
+    "root": "Critical original-native methods/preparation/TG/LOI/criterion/table passages from3 paired PDFs and Methods/results negative check forOmega; primary and independentpeer each complete4PDFs41pages, additional primaryHTML6tables; no root fulltext read claim",
+    "B415": "Inherited frozen primary/independentpeer/root source proof and exact guards; no new original全文 reading."
+  },
+  "local_SI_boundary": "Seven pre-existing indexes and DOI-stem sibling filenames plus localHTMLlinks only; no global NAS absence or recovered SI claim.",
+  "expected_post_B406_main_NOT_CURRENT": null,
+  "expected_after_B415_NOT_MAIN": null,
+  "finalready": true,
+  "raw_observations_held_or_unpaired": 44,
+  "thin_queue_only_source_approval": {
+    "primary": "B408",
+    "independent_peer": "B413",
+    "root": "B416",
+    "new_pairs": 0,
+    "new_TG": 0,
+    "original_fact_records": 17,
+    "root_actual_exit": 0,
+    "root_critical_only_read_claim": "Critical preparation/TG/LOI form assignment passages of3 originals; primary and independentpeer complete49pages separately; no root full49-page read claim",
+    "peer_facts_sha256": "68c1654ab11d737a88b7a877c23b1a61c57610caf81a0363b702e9589f450146",
+    "source_hold_boundary": "All3 sources contain ownTG andownLOI; held for missing sameform correspondence, not noTG or known different batches. No network/SI universal absence claim. These17held facts are not effective samples."
+  },
+  "baseline_commit": "4a2a3d758cada53efb79b502c53a54a94f25bcc4",
+  "baseline_target": [
+    817,
+    1008,
+    151
+  ],
+  "baseline_rows": 2031,
+  "private_prediction_NOTMAIN": [
+    825,
+    1016,
+    154
+  ],
+  "private_rows": 2039,
+  "source_counts": {
+    "new_states": 8,
+    "new_TG": 8,
+    "new_paired_sources": 3,
+    "processed_sources": 7,
+    "evidence_upgrades": 0,
+    "scope_only_states": 0,
+    "peer_secondcount": 0,
+    "published": 0,
+    "raw_observations": 52,
+    "held_unpaired": 44,
+    "wholeheld_states": 10,
+    "wholeheld_TG": 14,
+    "LOIonly": 19,
+    "TGonly_states": 6,
+    "TGonly_records": 11
+  },
+  "profile_summary": {
+    "canonical_comparisons": 295656,
+    "raw_comparisons": 429946,
+    "canonical_full": 0,
+    "canonical_subset": 0,
+    "canonical_partial": 6,
+    "raw_full": 0,
+    "raw_subset": 0,
+    "raw_partial": 24
+  },
+  "reader_patch": {
+    "scope": "Exact identical residual text aliases deduplicated for display only",
+    "authorized2files_sha256": {
+      "scripts/reader_table.py": "9f5769e079a04e142aba0b8805b38aa9aa5b37d5b316f1442655554d6b90857d",
+      "tests/test_reader_table.py": "433dab3389d4b875c15b8905753fcde5fd8525f7e281defc4a77e096b1206540"
+    },
+    "science_fields_changed": 0,
+    "other24cells_exact": true,
+    "source_root_actual_tests21_exit0": true
+  },
+  "public_raw_52_allowed": false,
+  "source_read_B415": "0 new original fulltext reads; inherited frozen primary/independentpeer/root source review, exactoriginal/proof/inputguards",
+  "scientific_test_code_sha256": "599074911d4839dfe0e3673ec11fe1b354c6922fa175a0067454bf9a6b3d7912",
+  "publication_locator_metadata_corrections": [
+    {
+      "DOI": "10.1002/app.49027",
+      "field": "processed_source_queue_facts.locator",
+      "before": "Table1p2;§2.3p2–3;§2.4p3–4;Table2p5;§3.4p6",
+      "after": "Table1p2;§2.3p2–3;§2.4p3–4;Table2p5;§3.4p7",
+      "reason": "Original native page verified; thin queue locator corrected to match already-correct scientific provided-row locator",
+      "source_locator": "Table1p2;§2.3p2–3;§2.4p3–4;Table2p5;§3.4p7",
+      "scientific_fields_changed": 0,
+      "scope_fingerprints_changed": 0,
+      "measurement_fingerprints_changed": 0
+    },
+    {
+      "DOI": "10.1016/j.compositesa.2021.106423",
+      "field": "processed_source_queue_facts.locator",
+      "before": "§2.3p3;ordinaryTG§2.4p4;§3.3p5;Table1p6",
+      "after": "§2.3p3;ordinaryTG§2.4p3;§3.3p5;Table1p6",
+      "reason": "Original native page verified; thin queue locator corrected to match already-correct scientific provided-row locator",
+      "source_locator": "§2.3p3;ordinaryTG§2.4p3;§3.3p5;Table1p6",
+      "scientific_fields_changed": 0,
+      "scope_fingerprints_changed": 0,
+      "measurement_fingerprints_changed": 0
+    }
+  ],
+  "superseded_frozen_manifest_sha256": "4de740cc8a66610e20f214892812f9bc550a0f7d8213526bcfd20451d3856c29"
+}

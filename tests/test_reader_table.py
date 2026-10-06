@@ -237,5 +237,19 @@ class ReaderOriginalMethodTests(unittest.TestCase):
         self.assertIn(note, d['限制与不确定性'])
 
 
+class ReaderResidueDisplayTests(unittest.TestCase):
+    def test_actual_PA11_same_residue_aliases_display_once(self):
+        row=dict(R700_pct='9.6',residue_pct='9.6',residue_temp_C='700')
+        original=dict(row)
+        self.assertEqual(show(row)['残余质量（温度:质量%）'], '700℃: 9.6%')
+        self.assertEqual(row, original)
+
+    def test_different_temperature_and_peak_zero_residues_remain_distinct(self):
+        row=dict(R700_pct='0',R800_pct='0',residue_pct='0',residue_temp_C='700',
+                 residue_at_Tmax1_pct='0')
+        self.assertEqual(show(row)['残余质量（温度:质量%）'],
+                         '700℃: 0%; 800℃: 0%; Tmax1: 0%')
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -76,7 +76,7 @@ def reading_row(row, entry):
             value(row, 'material_form_TGA'), value(row, 'composition'),
             labelled(row, ['treatment_state', 'washing_state']), value(row, 'LOI_pct'),
             value(row, 'T5_C'), value(row, 'T10_C'), value(row, 'Tonset_C'), value(row, 'Tmax1_C'),
-            '; '.join(residual), value(row, 'atmosphere'), value(row, 'heating_rate_C_min'),
+            '; '.join(dict.fromkeys(residual)), value(row, 'atmosphere'), value(row, 'heating_rate_C_min'),
             labelled(row, other), preparation,
             row.get('DOI') or row.get('stable_source_id', ''),
             row.get('source_title') or row.get('title', ''),
