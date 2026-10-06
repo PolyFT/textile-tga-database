@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-06T02:38:29.780239+00:00",
+  "as_of_utc": "2026-10-06T03:06:44.566321+00:00",
   "latest_batch_id": "20261006_b351",
   "verified_condition_records": 1970,
   "verified_unique_sample_states": 1547,
@@ -18,16 +18,19 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b351_branch_pending_PR",
-  "last_merged_batch": "20261006_b329",
+  "publication_stage": "b351_merged_verified_lease_released",
+  "last_merged_batch": "20261006_b351",
   "writer_lease": {
     "owner": "codex-local-material-b351-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b351",
     "claimed_at_utc": "2026-10-06T02:35:57.363894+00:00",
     "expires_at_utc": "2026-10-06T04:05:57.363894+00:00",
     "previous_release_commit": "d8f9c40d64cc52420f3020dd291481ca7a662288",
-    "purpose": "Twelve new native-source exact cotton and PP-composite sample states17TG from4DOI;zero old evidence/numeric/scope upgrades.693 frozen input guards,206754 external/80 direct comparisons,zero full or unresolved profiles. All1953 old records preserved. Target609/769 is prospective;current597/752. Other parallel batches not imported."
+    "purpose": "Twelve new native-source exact cotton and PP-composite sample states17TG from4DOI;zero old evidence/numeric/scope upgrades.693 frozen input guards,206754 external/80 direct comparisons,zero full or unresolved profiles. All1953 old records preserved. Target609/769 is prospective;current597/752. Other parallel batches not imported.",
+    "released_at_utc": "2026-10-06T03:06:44.566321+00:00",
+    "publication_merge_sha": "4293a3be6979be0022eff9b53cd34b30312295f3",
+    "release_basis": "Ordinary PR165 exact-head success, all three postmerge checks terminal success, full remote public bytes/master/both reports and all1953prior scientific fields preserved"
   },
   "next_sources": [],
   "next_actions": [
@@ -7325,6 +7328,28 @@
       "input_master_sha256": "dcda6e1031fef6ec35a4f95d6aa97b0b2bbd4e5179f16e7ed2c17f23bc2fa769",
       "scope_registry_sha256": "91a944ca9825eb9c07798f5ce271156cfbeec1cde33d94f07eafbf4bb4b209a0",
       "textile_master_sha256": "d91b3c62346e767f704233e5c2006caca83e7a19359a0b559d140e478be54e91"
+    },
+    "publication": {
+      "PR": "https://github.com/PolyFT/textile-tga-database/pull/165",
+      "head_sha": "b4025a4f4f98c92ada35d0b594f8d701aaebf593",
+      "merge_sha": "4293a3be6979be0022eff9b53cd34b30312295f3",
+      "head_validation_run": 37405494089,
+      "postmerge_runs": [
+        37406078867,
+        37406078934,
+        37406078967
+      ],
+      "offline_tests": 2268,
+      "new_pairs": 12,
+      "new_TG": 17,
+      "scope_existing_states": 0,
+      "scope_existing_TG": 0,
+      "evidence_upgrades": 0,
+      "numeric_values_changed": 0,
+      "full_remote_master_and_reports_verified": true,
+      "all1953prior_scientific_fields_and_fingerprints_preserved": true,
+      "private_evidence_unchanged": true,
+      "concurrent_automation_preserved": true
     }
   }
 }
