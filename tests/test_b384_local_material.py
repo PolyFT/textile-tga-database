@@ -31,7 +31,7 @@ class B384ScienceBoundaries(unittest.TestCase):
   for r in ROWS:
    if r['DOI']==PA:self.assertIn('85/15/5/5/5 retained as ratio',r['composition']);self.assertIn('without inferred pure phosphorus fraction',r['composition']);self.assertIn('TGaliquot cutting/geometry',r['source_preparation'])
  def test_PP_own_experimental_Ti_is5percent_with_zero_residue(self):
-  rs=[r for r in ROWS if r['DOI']==PP];self.assertEqual([(r['LOI_pct'],r['T5_C'],r['Tmax1_C'],r['R800_pct'])for r in rs],[('18.0','278','347','0'),('32.5','293','365','20.6')]);self.assertTrue(all(r['residue_temp_C']=='800'and not r['Tonset_C']and '5.0wt%massloss'in r['source_Ti_definition']for r in rs));self.assertEqual(reader.reading_row(rs[0],{'scope_class':'fiber_forming_polymer'})[10],'800℃: 0%; 800℃: 0%')
+  rs=[r for r in ROWS if r['DOI']==PP];self.assertEqual([(r['LOI_pct'],r['T5_C'],r['Tmax1_C'],r['R800_pct'])for r in rs],[('18.0','278','347','0'),('32.5','293','365','20.6')]);self.assertTrue(all(r['residue_temp_C']=='800'and not r['Tonset_C']and '5.0wt%massloss'in r['source_Ti_definition']for r in rs));self.assertEqual(reader.reading_row(rs[0],{'scope_class':'fiber_forming_polymer'})[10],'800℃: 0%')
  def test_TPU_specific_branch_no_grafting_on_ungrafted_ANF(self):
   for r in ROWS:branch(r)
   r=dict(next(r for r in ROWS if r['DOI']==TPU and r['sample_state'].startswith('TPU/ANF0.250')));r['treatment_method']='ANF-PC50:1 grafting RT4h'
