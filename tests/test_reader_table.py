@@ -61,6 +61,19 @@ class ReaderTableTests(unittest.TestCase):
         self.assertEqual(display['Tmax1 (℃)'], '')
         self.assertNotIn('999', str(display))
 
+    def test_ambiguous_source_temperature_is_a_note_not_a_peak(self):
+        for raw in ['514', '517', '550']:
+            row = dict(source_Tmax_ambiguous_C=raw, source_Tmax_C='999',
+                       source_Tmax_definition='maximum label; DTG rate definition unresolved',
+                       Tmax1_C='')
+            display = dict(zip(reader.HEADERS, reader.reading_row(
+                row, {'scope_class': 'fiber_forming_polymer_composite'})))
+            self.assertIn('source_Tmax_ambiguous_C=' + raw,
+                          display['限制与不确定性'])
+            self.assertEqual(display['Tmax1 (℃)'], '')
+            self.assertEqual(display['其他TG温度（℃）'], '')
+            self.assertNotIn('999', str(display))
+
     def test_loi_error_definition_and_replicates_are_not_guessed(self):
         row = dict(LOI_pct='27', LOI_standard_deviation='0.2', LOI_replicates='5',
                    LOI_n_reported='5', source_LOI_plusminus_pct='0.3',
