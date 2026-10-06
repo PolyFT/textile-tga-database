@@ -155,5 +155,67 @@ class ReaderTableTests(unittest.TestCase):
         self.assertIn(f'**{report["target_unique_sample_states"]}**', text)
 
 
+def show(row):
+    return dict(zip(reader.HEADERS, reader.reading_row(row, {'scope_class': 'textile_fibre'})))
+
+class ReaderOriginalMethodTests(unittest.TestCase):
+    def test_unknown_temperature_raw_residue_is_qualified_note_only(self):
+        d = show(dict(source_raw_residue_pct='1.3',
+                      source_residue_temperature_status='Original Table3 temperature unreported; program endpoint is not a binding',
+                      TG_end_C='800', source_residue_pct='999'))
+        self.assertIn('source_raw_residue_pct=1.3', d['限制与不确定性'])
+        self.assertIn('source_residue_temperature_status=Original Table3 temperature unreported', d['限制与不确定性'])
+        self.assertEqual(d['残余质量（温度:质量%）'], '')
+        self.assertEqual(d['其他TG温度（℃）'], '')
+        self.assertNotIn('999', d['限制与不确定性'])
+
+    def test_raw_maximum_label_is_not_a_defined_rate_peak(self):
+        for value in ['464.2', '387.0', '380.1', '381.4', '457.6', '461.8']:
+            d = show(dict(source_raw_Tmax_C=value, source_Tmax_definition='maximum weight loss temperature; rate criterion unreported', source_Tmax_C='999'))
+            self.assertIn('source_raw_Tmax_C=' + value, d['限制与不确定性'])
+            self.assertEqual(d['Tmax1 (℃)'], '')
+            self.assertEqual(d['其他TG温度（℃）'], '')
+            self.assertNotIn('999', str(d))
+
+    def test_conflicted_raw_T70_keeps_two_definitions(self):
+        for value in ['442', '466']:
+            d = show(dict(source_raw_T70_C=value, source_T70_definition='Methods 70% versus table footnote 10% mass loss; conflict'))
+            self.assertIn('source_raw_T70_C=' + value, d['限制与不确定性'])
+            self.assertIn('Methods 70% versus table footnote 10%', d['限制与不确定性'])
+            self.assertEqual(d['其他TG温度（℃）'], '')
+            self.assertEqual(d['T10 (℃)'], '')
+
+    def test_raw_MF_method_retains_approximation_without_filling_canonical_fields(self):
+        row = dict(source_TG_flow_mL_min='40', source_TG_mass_mg='6', source_TG_mass_qualifier='About', source_TG_pan='Alumina')
+        d = show(row)
+        for k,v in row.items(): self.assertIn(k+'='+v, d['限制与不确定性'])
+        self.assertEqual(d['气体流量 (mL/min)'], '')
+        self.assertEqual(row['source_TG_mass_qualifier'], 'About')
+
+    def test_maximum_mass_loss_rate_and_unit_do_not_become_Tmax(self):
+        d = show(dict(max_mass_loss_rate='153.7', rate_unit='%/min', Tmax1_C='294.19'))
+        self.assertIn('max_mass_loss_rate=153.7', d['限制与不确定性'])
+        self.assertIn('rate_unit=%/min', d['限制与不确定性'])
+        self.assertEqual(d['Tmax1 (℃)'], '294.19')
+        self.assertNotIn('153.7', d['其他TG温度（℃）'])
+
+    def test_LOI_geometry_and_method_do_not_become_TG_replicates(self):
+        row = dict(source_LOI_dimensions_mm='50x6x3', LOI_specimen_geometry='110x55mm', LOI_standard='GB/T5454-1994', LOI_instrument='JF-3', LOI_replicates='9')
+        d = show(row)
+        for k,v in row.items(): self.assertIn(k+'='+v, d['LOI补充（原文）'])
+        self.assertNotIn('LOI_replicates=9', d['限制与不确定性'])
+
+    def test_preparation_context_note_labels_excluded_method_background(self):
+        actual = 'PEI6% then PA6% only; one cycle; no LAP/CH'
+        background = 'LAP8g+CH0.8g; other study branches'
+        note = '本行不采用LAP/CH；其他分支背景不是本行处理'
+        d = show(dict(treatment_method=actual, source_preparation=background, source_preparation_scope_note=note))
+        self.assertTrue(d['制备与处理'].startswith(actual))
+        self.assertIn('文献其他分支的方法背景', d['制备与处理'])
+        self.assertIn(background, d['制备与处理'])
+        self.assertIn(note, d['制备与处理'])
+        self.assertIn(note, d['限制与不确定性'])
+
+
 if __name__ == '__main__':
     unittest.main()
