@@ -1,0 +1,211 @@
+{
+  "batch": "b351",
+  "review_completed_utc": "2026-10-06T02:38:29.780086+00:00",
+  "sources": [
+    {
+      "DOI": "10.1002/app.40584",
+      "approved_states": [
+        "1#",
+        "2#",
+        "3#",
+        "4#"
+      ],
+      "conditions": 4,
+      "evidence": "Own Table I recipes, Table III LOI, Table V seven retention temperatures; PDF p3 explicitly razor-pulverized treated and untreated cotton fabric. Finished 1-3 initial 90 C/15 min dip, 90 C/3 min dry, 140 C/3 min cure; 4 unfinished supplier cotton does not inherit curing. Seven retention points constitute one TG test per state. Residue 900 C differs from TG programme end 1000 C. Decomposition interval endpoints are not Tmax/Tonset/T5/T10; bath dosage/weight gain are not retained component fraction.",
+      "locators": "PDF p2-3; Tables I/III/V on PDF p3/p4/p7",
+      "new_states": 4,
+      "new_TG": 4,
+      "title": "Effect of Chicken-Feather Protein-Based Flame Retardant on Flame Retarding Performance of Cotton Fabric"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2020.115891",
+      "approved_states": [
+        "PP/SA@LDHs(70/30)"
+      ],
+      "conditions": 1,
+      "evidence": "Explicit SA-series melt/molding and liquid-nitrogen aliquot chain bridges TG/LOI. LOI 30.9 +/-0.1; air 10 C/min; independently reported total residue 19.5% at 800 C. Table/body T10/T50 conflict retained raw with normalized fields blank; neither version selected. Pure PP and PP/LDHs-C controls remain whole held because their forming chain is not individually established. Supersedes old B337 three-state approval.",
+      "locators": "Sections 2.3/2.4.2 PDF p3; Section 3.2.3 PDF p5; Table 1 PDF p6",
+      "new_states": 1,
+      "new_TG": 1,
+      "title": "Fabrication of green alginate-based and layered double hydroxides flame retardant for enhancing the fire retardancy properties of polypropylene"
+    },
+    {
+      "DOI": "10.1021/acsami.1c05884",
+      "approved_states": [
+        "control",
+        "cotton-PDMP-1.9%",
+        "cotton-PDMP-10.9%",
+        "cotton-PDMP-4.2%",
+        "cotton-PDMP-5.3%"
+      ],
+      "conditions": 10,
+      "evidence": "Same initial109g/m2plain-woven cotton and measuredPDMPadd-on1.9/4.2/5.3/10.9%labels in ownTGTable1/LOITable2;air/N2 eachfive tests countfive samples. TG20C/min50mL/min30-800Capprox5mg alumina;below100C moisture excluded. Tmaxmaximumweightlossrate andR600/R800 explicit. UndefinedTonset rawonly;Eq1nativeformula inaccessible,denominator notasserted. Initial9.7%/50Lcfinal7.8%onlyLOI30.3/28.6 excluded;isolatedPDMPnoLOI. MainprimaryHTMLcomplete5tables;9pageSI native text, no primaryPDFclaim.",
+      "locators": "PrimaryHTMLExperimental Materials/Deposition and Film Growth Characterization/Instrumentation and Methods;Results;Tables1/2;Fig2;durabilityFig10;SI TableS3 ownrow",
+      "new_states": 5,
+      "new_TG": 10,
+      "title": "High-Efficiency Flame Retardants of a P\u2013N-Rich Polyphosphazene Elastomer Nanocoating on Cotton Fabric"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2016.03.059",
+      "approved_states": [
+        "IFR20",
+        "NS4_IFR16"
+      ],
+      "conditions": 2,
+      "evidence": "Ownprepared115gsmplaincotton; commonLOI/TGtreatedfabricmethods. Bath20wt%IFR or16wt%IFR+4wt%modifiednanoSiO2,individualAPP/PER/MELratio unknown.90C4min/150C2min,purewaterpreparationwash/naturaldry. N2 10Cmin20mLmin30-800C5-10mg. LOI29.3/31.5;T5 164/161.4includesearlywater/solvent;unnumberedTmax302.6/296.4preserves sourcechar-formationreactionordinal separately.R50041.78/42.01table,R80031.85/34.36same-sourceexplicitTGprose;oneTGtestperstate. PureCFdonorcontrolheld;MFTCunassignedgasheld. Full14pageaccepteduneditedmanuscript;noVORclaim.",
+      "locators": "MethodsPDFp4-5;Table2PDFp5-6;Table3PDFp8;R800ownTGprosePDFp7",
+      "new_states": 2,
+      "new_TG": 2,
+      "title": "Influence of nano-silica on flame resistance behavior of intumescent flame retardant cellulosic textiles: Remarkable synergistic effect?"
+    }
+  ],
+  "negative_or_held_source_reviews": [
+    {
+      "DOI": "10.1021/acsami.5b02507",
+      "status": "complete_local_primary_and_SI_no_own_LOI",
+      "note": "Own primary flame/cone tests and9TG-only states18conditions; no own LOI. PrimaryHTML+5pageSI; donor oxygen-index values not transferred."
+    },
+    {
+      "DOI": "10.1021/bm300873b",
+      "status": "complete_local_primary_and_SI_no_own_TG_LOI",
+      "note": "PrimaryHTML+onepageSI;6MCC-only states. MCC not substituted for TG or LOI."
+    },
+    {
+      "DOI": "10.1016/j.apsusc.2020.145323",
+      "status": "complete_available_primary_no_own_LOI",
+      "note": "27page journalpreproof;4TG-only states Table1. No own LOI; associatedvideo/EDX material notfound in bounded cachedindices, no whole-library absence claim."
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2014.11.064",
+      "status": "complete_available_primary_no_own_LOI",
+      "note": "11page primary;Secs2.1-2.7 PDFp2-3/Table2p4/thermalPDFp5-6. ThreeTG-only states;45degree flame/burningtime/charlength notLOI."
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2018.08.044",
+      "status": "complete_available_primary_no_own_LOI_SI_gap",
+      "note": "30page acceptedmanuscript;Secs2.1-2.5 PDFp7-10/Table1-2p30/TG PDFp12-14. ThreeTG-only states6conditions. Horizontal/cone/washcharlength notLOI. FigS1/TableS1-S3 referencedSI notlocated in7cachedpublisherindices and specificyearfolders;no globalabsence claim."
+    },
+    {
+      "DOI": "10.1021/acsami.4c10660",
+      "status": "complete_local_scientific_primary_and_SI_no_own_LOI",
+      "note": "Unique primaryHTMLscientific sections plus9pageSI;LOI18 introduction donor refs29/30. Postflamechar andTGIRgas/MCC notpairedTGmass/LOI. Primary/SI surfactantvolume conflict retained, notcorrected."
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2019.05.013",
+      "status": "complete_primary_pair_held_TG_atmosphere_unassigned",
+      "note": "9nativepages;MFTCownLOI21.5 conclusion, TGTable1 methodbothN2/air without samplegasassignment;wholeheld. ThreeotherstatesTG-only/LOIgraph notestimated;AppendixUV/wettability notcriticalmissingTGconditions."
+    }
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 12,
+    "accepted_condition_rows": 17,
+    "new_source_inventory_states": 12,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "existing_paired_TG_evidence_upgraded": 0,
+    "existing_numeric_values_changed": 0,
+    "scope_existing_states_adjudicated": 0,
+    "scope_existing_TG_adjudicated": 0,
+    "accepted_DOI_sources_added": 4,
+    "portable_scientific_tests": 4,
+    "external_profile_comparisons": 206754,
+    "direct_crossbatch_comparisons": 80,
+    "full_profile_duplicates": 0,
+    "unresolved_approved_profile_hits": 0,
+    "verified_target_sample_states": 609,
+    "verified_target_condition_records": 769,
+    "scope_pending_states": 938,
+    "scope_audit_complete": false,
+    "prior_master_rows_preserved": 1953,
+    "negative_or_held_sources_reviewed": 7
+  },
+  "excluded": [
+    "PPcontrol andPP/LDHs-C wholeholds fromsupersededB337",
+    "isolatedPDMP TGonly",
+    "9.7%initial/50Lc7.8% durabilityLOIonly",
+    "5b02507 nineTGonlystates",
+    "B352PureCFcontrol donorLOI/controlprocessing unresolved andMFTC TGatmosphereunassigned"
+  ],
+  "source_readscope": {
+    "Wiley_primary_native_pages": 8,
+    "Elsevier_PP_primary_native_pages": 9,
+    "ACS_primary": "complete unique scientific HTML sections,not PDF primary",
+    "ACS_SI_native_pages": 9,
+    "surfcoat_primary": "14pageaccepteduneditedmanuscript,notversionofrecord"
+  },
+  "verification_limit": "Local native originals and inherited explicit documentary adjudications; comparative originals not newly reread. Source-specific guards and peer review retained privately. Seven unrelated negative/held reviews add no verified pairs.",
+  "privacy": "Only factual data and DOI/page/table/figure locators public; fulltexts and local paths remain private.",
+  "schema_change": null,
+  "publication_validation": {
+    "all1953prior_scientific_and_state_fields_and_fingerprints_preserved": true,
+    "all17new_provided_fields_preserved": true,
+    "new_states": 12,
+    "new_conditions": 17,
+    "evidence_binding_upgrade_states": 0,
+    "evidence_binding_upgrade_TG": 0,
+    "old_numeric_values_changed": 0,
+    "scope_existing_states_adjudicated": 0,
+    "scope_existing_TG_adjudicated": 0,
+    "verified_states": 1547,
+    "verified_conditions": 1970,
+    "verified_dois": 432,
+    "verified_sources": 434,
+    "offline_tests_passed": 2268,
+    "snapshot_sha256": "ad28a3fc68fa3d68686fe450185b1c031576fb191cb6082403b027cac1842885",
+    "master_sha256": "dcda6e1031fef6ec35a4f95d6aa97b0b2bbd4e5179f16e7ed2c17f23bc2fa769",
+    "validation_errors": [],
+    "portable_tests": 4,
+    "external_profile_comparisons": 206754,
+    "direct_crossbatch_comparisons": 80,
+    "full_profile_duplicates": 0,
+    "unresolved_approved_profile_hits": 0,
+    "textile_scope_report": {
+      "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+      "target_unique_sample_states": 3000,
+      "verified_target_sample_states": 609,
+      "verified_target_condition_records": 769,
+      "verified_target_sources": 89,
+      "verified_sample_states_by_material_class": {
+        "fiber_forming_polymer": 11,
+        "fiber_forming_polymer_composite": 79,
+        "textile_cloth": 477,
+        "textile_fibre": 37,
+        "textile_nonwoven": 5,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "verified_condition_records_by_material_class": {
+        "fiber_forming_polymer": 17,
+        "fiber_forming_polymer_composite": 100,
+        "textile_cloth": 610,
+        "textile_fibre": 37,
+        "textile_nonwoven": 5,
+        "textile_precursor_material": 0,
+        "textile_yarn": 0
+      },
+      "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
+      "verified_textile_sample_states": 609,
+      "verified_textile_condition_records": 769,
+      "verified_textile_sources": 89,
+      "remaining_to_target": 2391,
+      "excluded_non_textile_sample_states": 0,
+      "excluded_non_textile_condition_records": 0,
+      "pending_scope_sample_states": 938,
+      "pending_scope_condition_records": 1201,
+      "scope_audit_complete": false,
+      "legacy_broad_sample_states": 1547,
+      "legacy_broad_condition_records": 1970,
+      "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+      "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
+      "input_master_sha256": "dcda6e1031fef6ec35a4f95d6aa97b0b2bbd4e5179f16e7ed2c17f23bc2fa769",
+      "scope_registry_sha256": "91a944ca9825eb9c07798f5ce271156cfbeec1cde33d94f07eafbf4bb4b209a0",
+      "textile_master_sha256": "d91b3c62346e767f704233e5c2006caca83e7a19359a0b559d140e478be54e91"
+    },
+    "verified_target_states": 609,
+    "verified_target_TG": 769,
+    "scope_audit_complete": false,
+    "no_images_or_online_literature": true,
+    "schema_changes": 0,
+    "concurrent_automation_files_byte_preserved": true
+  }
+}
