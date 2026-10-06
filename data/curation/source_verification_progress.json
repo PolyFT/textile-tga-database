@@ -21,16 +21,13 @@
   "publication_stage": "b361_merged_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-local-material-scope-b361-20261006",
-    "status": "released",
-    "batch_id": "20261006_b361",
-    "claimed_at_utc": "2026-10-06T03:24:46.467265+00:00",
-    "expires_at_utc": "2026-10-06T04:54:46.467265+00:00",
-    "previous_release_commit": "10b8fe4a59c8316dbda0eb85a74efc528a10edfb",
-    "purpose": "Eight new original-verified cloth states8TG3DOI and59 existing scope-only states64TG18sourcecohorts;zero old numeric/evidence changes;one existing aramid control remains scope-held. Current609/769;676/841 only prospective. Parallel new source batches excluded.",
-    "released_at_utc": "2026-10-06T04:20:43.234826+00:00",
-    "publication_merge_sha": "034a45626030991a2d640b0534c2dc32e09ab864",
-    "release_basis": "Ordinary PR166 exact-head success, all three postmerge checks terminal success, full remote public bytes/master/both reports and all1970prior scientific fields preserved"
+    "owner": "codex-reader-first-cleanup-20261006",
+    "status": "active",
+    "batch_id": "repository_cleanup_20261006",
+    "claimed_at_utc": "2026-10-06T04:37:15.340357+00:00",
+    "expires_at_utc": "2026-10-06T06:07:15.340357+00:00",
+    "previous_release_commit": "8a61650df7ca61b81cb4e831666a223f45cd1597",
+    "purpose": "Reader-first CSV export and lossless historical archive; zero new samples and zero scientific value/state changes; existing full regression tests and ordinary PR approvals retained."
   },
   "next_sources": [],
   "next_actions": [
