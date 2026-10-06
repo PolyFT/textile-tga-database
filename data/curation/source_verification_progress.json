@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-06T04:20:43.234826+00:00",
+  "as_of_utc": "2026-10-06T05:23:19.299856+00:00",
   "latest_batch_id": "20261006_b361",
   "verified_condition_records": 1978,
   "verified_unique_sample_states": 1555,
@@ -11,16 +11,19 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1354,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b361_merged_verified_lease_released",
+  "publication_stage": "reader_first_repository_organization_verified",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-reader-first-cleanup-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "repository_cleanup_20261006",
     "claimed_at_utc": "2026-10-06T04:37:15.340357+00:00",
     "expires_at_utc": "2026-10-06T06:07:15.340357+00:00",
     "previous_release_commit": "8a61650df7ca61b81cb4e831666a223f45cd1597",
-    "purpose": "Reader-first CSV export and lossless historical archive; zero new samples and zero scientific value/state changes; existing full regression tests and ordinary PR approvals retained."
+    "purpose": "Reader-first CSV export and lossless historical archive; zero new samples and zero scientific value/state changes; existing full regression tests and ordinary PR approvals retained.",
+    "released_at_utc": "2026-10-06T05:23:19.299856+00:00",
+    "publication_merge_sha": "6d9bd9dfc6f83a5f4d4c87615e37c77a74f18617",
+    "release_basis": "Ordinary PR167 exact-head success, both retained postmerge scientific checks passed, remote full master/export/report bytes and233 immutable archive identities verified"
   },
   "next_sources": [],
   "next_actions": [
@@ -484,5 +487,31 @@
       "concurrent_automation_preserved": true
     }
   },
-  "history_archive": "docs/archive/source-verification-through-b361.json"
+  "history_archive": "docs/archive/source-verification-through-b361.json",
+  "repository_cleanup_20261006": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/167",
+    "merge_sha": "6d9bd9dfc6f83a5f4d4c87615e37c77a74f18617",
+    "head_validation_run": 37416942424,
+    "postmerge_runs": {
+      "validation": 37417557190,
+      "rebuild": 37417557221
+    },
+    "offline_tests": 2283,
+    "reader_page": "index.html",
+    "expanded_reading_fields": 25,
+    "reader_access": "Download index.html and open it in a browser; online Pages setup pending repository settings permission",
+    "Pages_activation": "blocked_current_token_missing_Pages_write_HTTP403",
+    "verified_target_states": 676,
+    "verified_target_TG": 841,
+    "sources": 110,
+    "new_pairs": 0,
+    "evidence_upgrades": 0,
+    "scientific_values_changed": 0,
+    "archived_files": 233,
+    "all_old_scientific_tests_retained": true,
+    "all_scientific_data_bytes_unchanged": true,
+    "remote_public_tree_verified": true,
+    "active_workflows": 2,
+    "inactive_retired_workflows": 42
+  }
 }

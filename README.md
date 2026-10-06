@@ -1,6 +1,8 @@
 # 城市纺织材料 TG–LOI 数据库
 
-**[打开 TG–LOI 网页表格](https://polyft.github.io/textile-tga-database/)**
+**[下载 TG–LOI 网页表格（HTML）](index.html)**
+
+下载后用浏览器打开，即可离线搜索、筛选和查看完整证据。在线阅读地址待首次启用 GitHub Pages 后开放。
 
 一张表查看样品、组成与处理状态、LOI、TG 指标、测试条件及文献来源。支持搜索、材料／气氛筛选、数值排序和展开完整注记。
 
