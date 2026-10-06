@@ -42,7 +42,8 @@ def reading_row(row, entry):
         or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
     loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]
-    other = sorted(key for key in row if re.fullmatch(r'T\d+_C|Tmax[234]_C', key)
+    other = sorted(key for key in row if (re.fullmatch(r'T\d+_C|Tmax[234]_C', key)
+                   or key == 'source_T70_C')
                    and key not in {'T5_C', 'T10_C'})
     residual = []
     for key in sorted((key for key in row if re.fullmatch(r'R\d+_pct', key)),

@@ -48,6 +48,19 @@ class ReaderTableTests(unittest.TestCase):
         for note in row.values():
             self.assertIn(note, display[20])
 
+    def test_source_T70_retains_original_field_and_definition(self):
+        row = dict(T30_C='289.8', T50_C='334.8', source_T70_C='472.3',
+                   source_T70_definition='temperature at 70% mass loss',
+                   source_T75_C='999', Tmax1_C='')
+        display = dict(zip(reader.HEADERS, reader.reading_row(
+            row, {'scope_class': 'fiber_forming_polymer_composite'})))
+        self.assertEqual(display['其他TG温度（℃）'],
+                         'T30_C=289.8; T50_C=334.8; source_T70_C=472.3')
+        self.assertIn('source_T70_definition=temperature at 70% mass loss',
+                      display['限制与不确定性'])
+        self.assertEqual(display['Tmax1 (℃)'], '')
+        self.assertNotIn('999', str(display))
+
     def test_loi_error_definition_and_replicates_are_not_guessed(self):
         row = dict(LOI_pct='27', LOI_standard_deviation='0.2', LOI_replicates='5',
                    LOI_n_reported='5', source_LOI_plusminus_pct='0.3',
