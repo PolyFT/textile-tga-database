@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-06T05:23:19.299856+00:00",
+  "as_of_utc": "2026-10-06T05:30:53.854526+00:00",
   "latest_batch_id": "20261006_b361",
   "verified_condition_records": 1978,
   "verified_unique_sample_states": 1555,
@@ -14,16 +14,13 @@
   "publication_stage": "reader_first_repository_organization_verified",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-reader-first-cleanup-20261006",
-    "status": "released",
-    "batch_id": "repository_cleanup_20261006",
-    "claimed_at_utc": "2026-10-06T04:37:15.340357+00:00",
-    "expires_at_utc": "2026-10-06T06:07:15.340357+00:00",
-    "previous_release_commit": "8a61650df7ca61b81cb4e831666a223f45cd1597",
-    "purpose": "Reader-first CSV export and lossless historical archive; zero new samples and zero scientific value/state changes; existing full regression tests and ordinary PR approvals retained.",
-    "released_at_utc": "2026-10-06T05:23:19.299856+00:00",
-    "publication_merge_sha": "6d9bd9dfc6f83a5f4d4c87615e37c77a74f18617",
-    "release_basis": "Ordinary PR167 exact-head success, both retained postmerge scientific checks passed, remote full master/export/report bytes and233 immutable archive identities verified"
+    "owner": "codex-reader-layout-20261006",
+    "status": "active",
+    "batch_id": "reader_layout_20261006",
+    "claimed_at_utc": "2026-10-06T05:30:53.854526+00:00",
+    "expires_at_utc": "2026-10-06T06:30:53.854526+00:00",
+    "previous_release_commit": "1b10fabf02069755672104fa2eef23f2f4270723",
+    "purpose": "Fix narrow-window source column and tall rows; preserve all reader JSON and scientific data bytes"
   },
   "next_sources": [],
   "next_actions": [
