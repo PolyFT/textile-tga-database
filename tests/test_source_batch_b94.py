@@ -53,7 +53,7 @@ class B94PolypropyleneEvidenceTests(unittest.TestCase):
         self.assertIn('32.3', text)
 
     def test_no_private_paths_in_public_holds(self):
-        text = (ROOT / 'data/curation/source_review_holds_20261001_b94.json').read_text()
+        text = (ROOT / 'data/curation/archive/source_review_holds_20261001_b94.json').read_text()
         for marker in ['/workspace/', '/tmp/', 'new-textile-cache/', 'new-textile-prep/']:
             self.assertNotIn(marker, text)
 

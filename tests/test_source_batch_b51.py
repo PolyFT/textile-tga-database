@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import measurement_fingerprint,evidence_issues
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b51.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b51.json'
 def files():return json.loads(M.read_text())['files']
 def rows():
     result=[]
@@ -35,7 +35,7 @@ class Batch51(unittest.TestCase):
         self.assertFalse(r['gas_flow_mL_min']);self.assertFalse(r['TGA_sample_mass_reported']);self.assertEqual(r['numeric_evidence_type'],'explicit_text');self.assertIn('no_durability_washes',r['washing_state'])
     def test_held_sources_not_admitted(self):
         accepted={r['DOI'] for r in rows()};self.assertEqual(accepted,{'10.1016/j.polymdegradstab.2026.112025','10.1080/15440478.2022.2145405'})
-        h=json.loads((R/'data/curation/source_review_holds_20260930_b51.json').read_text());held={r['DOI'] for r in h}
+        h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b51.json').read_text());held={r['DOI'] for r in h}
         self.assertTrue({'10.1016/j.eurpolymj.2024.112804','10.1016/j.porgcoat.2022.107018','10.1016/j.mtla.2026.102691'} <= held)
     def test_shared_td_tg_group_has_one_canonical_admission(self):
         td=next(r for r in rows() if r['sample_state']=='TD')

@@ -15,7 +15,7 @@ class AramidBmiSourceTests(unittest.TestCase):
     def setUpClass(cls):
         with (ROOT / 'data/incoming/verified_source_batch_20261001_b60.csv').open(newline='') as f:
             cls.rows = list(csv.DictReader(f))
-        with (ROOT / 'data/curation/source_review_additional_LOI_conditions_20261001_b60.csv').open(newline='') as f:
+        with (ROOT / 'data/curation/archive/source_review_additional_LOI_conditions_20261001_b60.csv').open(newline='') as f:
             cls.hot_loi = list(csv.DictReader(f))
 
     def test_five_ramps_do_not_inflate_independent_sample_count(self):

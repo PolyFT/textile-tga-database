@@ -5,7 +5,7 @@ import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
 R=Path(__file__).resolve().parents[1]
-M=R/'data/curation/source_review_manifest_20260930_b48.json'
+M=R/'data/curation/archive/source_review_manifest_20260930_b48.json'
 def rows():
     result=[]
     for f in json.loads(M.read_text())['files']:
@@ -57,5 +57,5 @@ class Batch48(unittest.TestCase):
     def test_held_sources_not_admitted(self):
         dois={x['DOI'].lower() for x in rows()}
         self.assertTrue(dois.isdisjoint({'10.1177/1528083718813527','10.1039/c7ra13228j','10.3390/ma15144791','10.1016/j.polymdegradstab.2009.03.017'}))
-        holds=json.loads((R/'data/curation/source_review_holds_20260930_b48.json').read_text())
+        holds=json.loads((R/'data/curation/archive/source_review_holds_20260930_b48.json').read_text())
         self.assertTrue(any(h.get('DOI')=='10.1021/acs.chas.4c00050' and h.get('hold_scope')=='S5 entire TG-LOI pair' for h in holds))

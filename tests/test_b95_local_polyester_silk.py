@@ -35,7 +35,7 @@ class PolyesterSilkEvidence(unittest.TestCase):
   base=v.load_all();old=base.loc[base.DOI.astype(str).str.lower().eq('10.1002/app.20689')&base.LOI_pct.astype(str).eq('')]
   self.assertEqual(len(old),4)
   self.assertEqual(set(old.sample_state),{'PET','PANI-g-PET','POAN-g-PET','POT-g-PET'})
-  with(ROOT/'data/curation/source_review_manifest_20261001_b95.json').open()as f:
+  with(ROOT/'data/curation/archive/source_review_manifest_20261001_b95.json').open()as f:
    import json;summary=json.load(f)['summary']
   self.assertEqual((summary['new_source_inventory_states'],summary['newly_completed_pairs'],summary['existing_paired_states_evidence_upgraded']),(2,4,0))
  def test_hfpo_same_one_handwash_and_raw_ti(self):

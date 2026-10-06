@@ -17,7 +17,7 @@ class SourceChecks(unittest.TestCase):
     def test_three_reviewed_and_two_held(self):
         self.assertEqual((len(rows),len(good),len({p.sample_state_id(r)for r in good})),(5,3,3))
         self.assertTrue(all(not scientific_issues(r)for r in good))
-        self.assertEqual(json.loads((R/'data/curation/source_review_manifest_20261006_b327.json').read_text())['source_guard_count'],45)
+        self.assertEqual(json.loads((R/'data/curation/archive/source_review_manifest_20261006_b327.json').read_text())['source_guard_count'],45)
     def test_no_recipe_repair(self):
         r=by['3CB23APP_recipe_unresolved']; self.assertIn('held_recipe',r['pairing_status'])
         self.assertTrue(all(not r[k]for k in ['PP_wt_pct','PPMA_wt_pct','CB_wt_pct','APP_wt_pct','reviewed_measurement_fingerprint']))
@@ -26,7 +26,7 @@ class SourceChecks(unittest.TestCase):
         r=by['PP']; self.assertIn('held_control',r['pairing_status'])
         self.assertEqual(r['reviewed_measurement_fingerprint'],'')
         self.assertTrue(p.evidence_issues(dict(r,pairing_status='verified_exact')))
-        a=json.loads((R/'data/curation/source_review_manifest_20261006_b327.json').read_text())['source_family_control_amendment']
+        a=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b327.json').read_text())['source_family_control_amendment']
         self.assertTrue(a['integer_rounding_compatible'])
         self.assertFalse(a['exact_paired_duplicate_proven'])
         self.assertEqual((a['new_pairs_retained'],a['old_scope_states_retained']),(3,100))
@@ -46,7 +46,7 @@ class SourceChecks(unittest.TestCase):
             with self.subTest(key=key):
                 changed=dict(by['7CB18APP']); changed[key]=value; self.assertTrue(scientific_issues(changed))
     def test_partial_coincidences_not_complete_duplicates(self):
-        a=json.loads((R/'data/curation/source_review_manifest_20261006_b327.json').read_text())
+        a=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b327.json').read_text())
         self.assertEqual((a['canonical_comparisons'],a['LOI_plus_R700_only_hit_groups'],a['complete_paired_profile_duplicates'],a['unresolved_approved_profile_hits']),(63,1,0,0))
         self.assertEqual(a['raw_hit_presentations'],39)
 if __name__=='__main__': unittest.main()

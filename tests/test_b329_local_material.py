@@ -38,7 +38,7 @@ class SourceFacts(unittest.TestCase):
    bad=copy.deepcopy(r);bad['PPMA_wt_pct']='10';self.assertFalse(native_constraints(bad))
   self.assertEqual(select(D15,'5CB')['PPMA_wt_pct'],'10');self.assertEqual(select(D15,'5CB')['PP_wt_pct'],'')
  def test_curve_only_and_TG_only_not_counted(self):
-  held=json.loads((R/'data/curation/source_review_manifest_20261006_b329.json').read_text());self.assertEqual(len(held['LOI_curve_only_2012']),5);self.assertEqual(len(held['TG_only_2015']),2);self.assertEqual({r['sample_state']for r in ROWS if r['DOI']==D12},{'PPCB10'});self.assertFalse({'1CF5CB','5CF5CB'}&{r['sample_state']for r in ROWS})
+  held=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b329.json').read_text());self.assertEqual(len(held['LOI_curve_only_2012']),5);self.assertEqual(len(held['TG_only_2015']),2);self.assertEqual({r['sample_state']for r in ROWS if r['DOI']==D12},{'PPCB10'});self.assertFalse({'1CF5CB','5CF5CB'}&{r['sample_state']for r in ROWS})
  def test_source_state_binding_rejects_mutation(self):
   for r in ROWS:
    self.assertFalse(p.evidence_issues(r));bad=copy.deepcopy(r);bad['material_form_LOI']='washed woven textile';self.assertTrue(p.evidence_issues(bad));bad=copy.deepcopy(r);bad['T5_C']=str(float(r['T5_C'])+1);self.assertTrue(p.evidence_issues(bad))

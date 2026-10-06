@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b61.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b61.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if tag in x['file']);return list(csv.DictReader((R/f).open()))
 class Batch61(unittest.TestCase):
@@ -36,4 +36,4 @@ class Batch61(unittest.TestCase):
   for r in m.to_dict('records'):self.assertIn('hold for 20 min',r['TGA_preconditioning']);self.assertIn('2 mm squares',r['TGA_specimen_preparation'])
  def test_source_hashes_and_holds(self):
   for f in json.loads(M.read_text())['files']:self.assertEqual(hashlib.sha256((R/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b61.json').read_text());self.assertEqual(len(h),9);s=json.dumps(h);self.assertIn('NMA-4',s);self.assertIn('21.5',s);self.assertIn('10.34133/research.0910',s)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b61.json').read_text());self.assertEqual(len(h),9);s=json.dumps(h);self.assertIn('NMA-4',s);self.assertIn('21.5',s);self.assertIn('10.34133/research.0910',s)

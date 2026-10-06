@@ -5,7 +5,7 @@ import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
 R=Path(__file__).resolve().parents[1]
-M=R/'data/curation/source_review_manifest_20260930_b56.json'
+M=R/'data/curation/archive/source_review_manifest_20260930_b56.json'
 def rows():
  return list(csv.DictReader((R/json.loads(M.read_text())['files'][0]['file']).open()))
 class Batch56(unittest.TestCase):
@@ -25,5 +25,5 @@ class Batch56(unittest.TestCase):
    self.assertFalse(r.get('add_on_pct'));self.assertIn(r['source_reported_weight_gain_pct'],['44.4','44.7','46.4']);self.assertIn('reverse',r['weight_gain_definition_status'])
  def test_hash_and_holds(self):
   for f in json.loads(M.read_text())['files']:self.assertEqual(hashlib.sha256((R/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b56.json').read_text());self.assertEqual(len(h),4)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b56.json').read_text());self.assertEqual(len(h),4)
   s=json.dumps(h);self.assertIn('17.2 versus 17.1',s);self.assertIn('MCHP30/alone',s);self.assertIn('all post-wash states',s)

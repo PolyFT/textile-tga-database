@@ -5,7 +5,7 @@ import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
 R=Path(__file__).resolve().parents[1]
-M=R/'data/curation/source_review_manifest_20260930_b55.json'
+M=R/'data/curation/archive/source_review_manifest_20260930_b55.json'
 def rows():
  return list(csv.DictReader((R/json.loads(M.read_text())['files'][0]['file']).open()))
 class Batch55(unittest.TestCase):
@@ -28,5 +28,5 @@ class Batch55(unittest.TestCase):
     self.assertEqual('Then dipinSiO2' in method,'SiO2' in s)
  def test_hash_and_holds(self):
   for f in json.loads(M.read_text())['files']:self.assertEqual(hashlib.sha256((R/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b55.json').read_text());self.assertEqual(len(h),4)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b55.json').read_text());self.assertEqual(len(h),4)
   s=json.dumps(h);self.assertIn('41.4',s);self.assertIn('41.3',s);self.assertIn('25.6',s);self.assertIn('all10LCstates',s)

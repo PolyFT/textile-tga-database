@@ -5,7 +5,7 @@ import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
 R=Path(__file__).resolve().parents[1]
-M=R/'data/curation/source_review_manifest_20260930_b54.json'
+M=R/'data/curation/archive/source_review_manifest_20260930_b54.json'
 def rows():
  f=json.loads(M.read_text())['files'][0]['file']
  return list(csv.DictReader((R/f).open()))
@@ -34,5 +34,5 @@ class Batch54(unittest.TestCase):
    self.assertEqual(r['TGA_specimen_preparation'],'finely powdered aliquots of the same wet-spun fibers');self.assertEqual(r['LOI_specimen_preparation'],'braided specimens of the same wet-spun fibers')
  def test_input_hash_and_screen_holds(self):
   for f in json.loads(M.read_text())['files']:self.assertEqual(hashlib.sha256((R/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b54.json').read_text());self.assertEqual(len(h),6)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b54.json').read_text());self.assertEqual(len(h),6)
   self.assertTrue(any(x['DOI']=='10.3390/fib6020036' and x['status']=='excluded_no_own_LOI' for x in h))

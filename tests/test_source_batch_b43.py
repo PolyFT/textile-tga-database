@@ -52,6 +52,6 @@ class SourceBatchB43Tests(unittest.TestCase):
         self.assertEqual([r['R700_pct'] for r in sorted(data,key=lambda r:r['sample_state'])],['15.9','17.6','17.9'])
         self.assertTrue(all(r.get('LOI_uncertainty_type','').lower()!='sd' for r in data))
     def test_manifest_hashes_bind_reviewed_files(self):
-        manifest=json.loads((ROOT/'data/curation/source_review_manifest_20260930_b43.json').read_text())
+        manifest=json.loads((ROOT/'data/curation/archive/source_review_manifest_20260930_b43.json').read_text())
         for item in manifest['files']:
             path=ROOT/item['file'];self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),item['published_input_sha256'])

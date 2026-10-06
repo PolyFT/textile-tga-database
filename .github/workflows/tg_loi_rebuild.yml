@@ -10,6 +10,7 @@ on:
       - "scripts/validate_tg_loi.py"
       - "scripts/pairing.py"
       - "scripts/textile_scope.py"
+      - "scripts/reader_table.py"
       - "scripts/source_identity.py"
       - "scripts/csv_ingest.py"
       - "data/curation/**"
@@ -51,7 +52,7 @@ jobs:
         run: |
           git config user.name "tg-loi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json README.md
+          git add data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json README.md TG_LOI.csv docs/MAINTENANCE.md
           if git diff --cached --quiet; then
             echo "No master changes"
             exit 0

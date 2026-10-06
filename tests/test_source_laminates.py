@@ -13,7 +13,7 @@ class LaminateSourceTests(unittest.TestCase):
     def setUpClass(cls):
         with (ROOT / 'data/incoming/verified_source_batch_20261001_b58.csv').open(newline='') as f:
             cls.rows = list(csv.DictReader(f))
-        with (ROOT / 'data/curation/source_review_condition_partial_20261001_b58.csv').open(newline='') as f:
+        with (ROOT / 'data/curation/archive/source_review_condition_partial_20261001_b58.csv').open(newline='') as f:
             cls.partial = list(csv.DictReader(f))
 
     def test_same_fabric_table_pairs_and_reviewed_measurements(self):

@@ -71,7 +71,7 @@ class B100TextileEvidence(unittest.TestCase):
         self.assertFalse(r.get('Tmax1_C'))
         self.assertFalse(r.get('R800_pct'))
     def test_public_holds_exclude_private_paths(self):
-        t=(ROOT/'data/curation/source_review_holds_20261001_b100.json').read_text()
+        t=(ROOT/'data/curation/archive/source_review_holds_20261001_b100.json').read_text()
         for marker in ['/workspace/','/tmp/','new-textile-cache/','new-textile-prep/']:
             self.assertNotIn(marker,t)
 

@@ -5,7 +5,7 @@ import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
 R=Path(__file__).resolve().parents[1]
-M=R/'data/curation/source_review_manifest_20260930_b50.json'
+M=R/'data/curation/archive/source_review_manifest_20260930_b50.json'
 def files():return json.loads(M.read_text())['files']
 def rows():
     result=[]
@@ -36,7 +36,7 @@ class Batch50(unittest.TestCase):
     def test_possible_reused_control_and_unpaired_sources_excluded(self):
         self.assertNotIn('Control',{x['sample_state'] for x in rows()})
         self.assertEqual({x['DOI'] for x in rows()},{'10.1007/s12221-020-9965-x','10.1016/j.aiepr.2024.03.001'})
-        holds=json.loads((R/'data/curation/source_review_holds_20260930_b50.json').read_text())
+        holds=json.loads((R/'data/curation/archive/source_review_holds_20260930_b50.json').read_text())
         self.assertTrue(any(h.get('related_DOI')=='10.11648/j.ijmsa.20200904.11' and h.get('values',{}).get('R600_pct')==13.9 for h in holds))
         self.assertTrue(any(h.get('DOI')=='10.1177/1528083717750885' for h in holds))
 

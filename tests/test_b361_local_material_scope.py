@@ -14,7 +14,7 @@ import pairing as p
 import validate_tg_loi as v
 import textile_scope as scope
 with(R/'data/incoming/verified_source_batch_20261006_b361_local_material.csv').open()as h:ROWS=list(csv.DictReader(h))
-ENTRIES=json.loads((R/'data/curation/source_review_manifest_20261006_b361.json').read_text())['bindings']
+ENTRIES=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b361.json').read_text())['bindings']
 EXPECTED={'10.1016/j.surfcoat.2015.05.023':{'Untreated','10 P','10 A','10 BL'},'10.1039/c5ra09963c':{'Pristine cotton','Superhydrophobic sample'},'10.1007/s10904-022-02395-w':{'CF/EVA/SiO2','CF/EVA/Al2O3'}}
 def check_state_matrix(rows):
  assert len(rows)==8

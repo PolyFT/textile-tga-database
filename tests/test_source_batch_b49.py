@@ -29,13 +29,13 @@ class Batch49(unittest.TestCase):
         self.assertFalse(r.get('Tmax1_C'));self.assertFalse(r.get('Tonset_C'))
         self.assertEqual(r['gas_flow_mL_min'],'50');self.assertEqual(r['existing_state_status'],'new_source_inventory_state')
     def test_partial_states_stay_outside_target(self):
-        with (R/'data/curation/source_review_condition_partial_20261001_b49.csv').open(newline='') as f:d=list(csv.DictReader(f))
+        with (R/'data/curation/archive/source_review_condition_partial_20261001_b49.csv').open(newline='') as f:d=list(csv.DictReader(f))
         self.assertEqual(len(d),8);m,_,_,r=build_tables(pd.DataFrame(d));self.assertTrue(m.empty);self.assertEqual(r['verified_exact_sample_states'],0)
         pda=next(r for r in d if r['sample_state']=='PDA-2h');self.assertEqual(pda['residue_pct'],'14.3');self.assertFalse(pda['residue_temp_C'])
-        h=json.loads((R/'data/curation/source_review_holds_20261001_b49.json').read_text());self.assertTrue(any(x['reason']=='no_TG_measurement' for x in h))
+        h=json.loads((R/'data/curation/archive/source_review_holds_20261001_b49.json').read_text());self.assertTrue(any(x['reason']=='no_TG_measurement' for x in h))
     def test_existing_source_queue_is_updated_once(self):
         with (R/'data/curation/source_review_queue.csv').open(newline='') as f:d=[r for r in csv.DictReader(f) if r['DOI']=='10.3390/polym18070819']
         self.assertEqual(len(d),1);self.assertEqual(d[0]['verified_unique_sample_states'],'9');self.assertEqual(d[0]['status'],'source_reviewed_batch_b49')
     def test_manifest_binds_factual_input_and_counts(self):
-        m=json.loads((R/'data/curation/source_review_manifest_20261001_b49.json').read_text());self.assertEqual(m['summary']['existing_paired_states_evidence_upgraded'],9);self.assertEqual(m['summary']['new_source_inventory_states'],1)
+        m=json.loads((R/'data/curation/archive/source_review_manifest_20261001_b49.json').read_text());self.assertEqual(m['summary']['existing_paired_states_evidence_upgraded'],9);self.assertEqual(m['summary']['new_source_inventory_states'],1)
         for x in m['files']:self.assertEqual(hashlib.sha256((R/x['file']).read_bytes()).hexdigest(),x['published_input_sha256'])

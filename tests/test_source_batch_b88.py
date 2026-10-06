@@ -7,7 +7,7 @@ def rows(tag):
     with (ROOT/f'data/incoming/verified_source_batch_20261001_b88_{tag}.csv').open(newline='') as f:return list(csv.DictReader(f))
 class SourceBatchB88Tests(unittest.TestCase):
     def test_review_bound_inputs_count_seven_states_without_upgrading_old_pairs(self):
-        m=json.loads((ROOT/'data/curation/source_review_manifest_20261001_b88.json').read_text());all_rows=[]
+        m=json.loads((ROOT/'data/curation/archive/source_review_manifest_20261001_b88.json').read_text());all_rows=[]
         for source in m['files']:
             p=ROOT/source['file'];self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),source['published_input_sha256'])
             with p.open(newline='') as f:data=list(csv.DictReader(f))
@@ -39,6 +39,6 @@ class SourceBatchB88Tests(unittest.TestCase):
         treated=next(r for r in data if float(r['LOI_pct'])==27.5)
         self.assertIn('5 g/dm³ Pretepon G',treated['washing_state']);self.assertIn('60 °C for 30 min',treated['washing_state']);self.assertIn('fiber',treated['limitations'].lower())
     def test_public_holds_omit_private_paths(self):
-        text=(ROOT/'data/curation/source_review_holds_20261001_b88.json').read_text()
+        text=(ROOT/'data/curation/archive/source_review_holds_20261001_b88.json').read_text()
         for marker in ['/workspace/','/tmp/','new-textile-cache/','new-textile-prep/','/root/']:self.assertNotIn(marker,text)
 if __name__=='__main__':unittest.main()
