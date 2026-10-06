@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1457,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b483_branch_pending_PR",
-  "last_merged_batch": "20261007_b466",
+  "publication_stage": "b483_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b483",
   "writer_lease": {
     "owner": "codex-local-material-b483-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b483",
     "claimed_at_utc": "2026-10-06T18:08:22.101159+00:00",
     "expires_at_utc": "2026-10-06T19:38:22.101159+00:00",
     "previous_release_commit": "25769f35f9b81156e90f05f8734ebdfee43237d2",
-    "purpose": "12 existing sample states/20 existing TG conditions documentary scope review;20 existing scope holds preserved;3 completed zero-admission sources. Newpairs0/evidenceupgrades0/all oldmasterfields unchanged. Main876/1079/165; projected888/1099/170 pending ordinary PR."
+    "purpose": "12 existing sample states/20 existing TG conditions documentary scope review;20 existing scope holds preserved;3 completed zero-admission sources. Newpairs0/evidenceupgrades0/all oldmasterfields unchanged. Main876/1079/165; projected888/1099/170 pending ordinary PR.",
+    "released_at_utc": "2026-10-06T18:34:34.780516+00:00",
+    "reason": "Normal PR178 merge, exact-head integration review and both main workflows passed; remote factual bytes verified. Release only owned B483 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B483 documentary scope only:12 existing samples/20 TG;0 newpairs/0 newTG/0 evidenceupgrades/all2102masterfields unchanged.20 scopeheld states retained;3 completed zero-pair sources retain9 wholeholds. Branch888/1099/170 not formal main before ordinary PR, exact-head and remote closure. B480/B481 six local sources still private, not admitted.",
+    "B483 merged and remote verified:12 existing samples/20 TG scoped,0 newpairs/0 newTG/0 evidenceupgrades, formal888/1099/170. Continue private B480/B481 source adjudication, B487 new local fulltext and B490 oldscope review; none of their unmerged proposals is counted.",
     "B466:new9 original-source sample states/9TG conditions/2positiveDOIs; processed6sources including4zero. main867/1070/163; branch876/1079/165 pending ordinary PR/remote proof. Old numerical/evidence/scope upgrades0. PP/AF undefined degradation intervals raw-only; AF40 residual conflict held. PurePP own preparation with same-group prior/batch unknown annotation. AF/MAF foam sourceT5 defined5wtloss andR700; peak stage roles raw-only. Curves, FWO, MSD/CCT not ordinaryTG numerics.",
     "B454:new32original-source sample states/44TG conditions/6DOIs;main835/1026/157, branch867/1070/163 pending ordinary PR/remote proof. Old numerical/evidence/scope upgrades0. PBT2%raw/K conversion distinct;PP undefinedstart rawonly;DBDPE10dR650 conflict blank;woodPP recipe-conflict held. Mixed raw/context/calculated views not TG record count.",
     "B440:4 new PAN woven fabric states/4TG and1 aramid composite aerogel fibre/1TG;10 additional source reviews remain held/unpaired. No old evidence/numeric/scope upgrades. Target835/1026/157 is a branch prediction until ordinary merge and remote proof. PAN initial decomposition criterion is raw-only; approximate residues retained. PET separate assays do not close ordinaryTG versus injectedLOI processing history.",
@@ -1019,5 +1021,32 @@
     "fibre_TG": 76,
     "polymer_precursor_states": 216,
     "polymer_precursor_TG": 263
+  },
+  "publication_b483": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/178",
+    "PR_number": 178,
+    "merge_sha": "08a2a73c4b0cb3c87de928923e81f1401917b72b",
+    "validated_head_sha": "4d4ca17e0bf2da7622a0e03ceaa6821a5827ce6e",
+    "new_pairs": 0,
+    "new_TG": 0,
+    "scope_existing_states": 12,
+    "scope_existing_TG": 20,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "verified_target_sample_states": 888,
+    "verified_target_condition_records": 1099,
+    "verified_target_sources": 170,
+    "full_remote_public_files_verified": 10,
+    "unchanged_other_existing_files": 856,
+    "all2102_old_fields_preserved": true,
+    "all1079_reader_rows25_fields_preserved": true,
+    "tests": 2481,
+    "review_scope": "B485 publication integration review; prior B471 author disclosed, original source approval separately by root and source-specific peers",
+    "postmerge_runs": [
+      37511076083,
+      37511076015
+    ],
+    "original_files_unchanged": true,
+    "progress_SHA_metadata_corrected": 3
   }
 }
