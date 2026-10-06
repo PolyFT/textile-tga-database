@@ -43,6 +43,8 @@ def reading_row(row, entry):
                    'source_raw_Tmax_C', 'source_raw_T70_C', 'source_raw_residue_pct',
                    'source_initial_decomposition_C', 'source_initial_decomposition_qualifier',
                    'source_raw_initial_decomposition_temperature_C',
+                   'source_raw_initial_decomposition_C',
+                   'source_raw_initial_decomposition_qualifier', 'source_residue_qualifier',
                    'source_residue_temperature_status', 'source_TG_flow_mL_min',
                    'source_TG_mass_mg', 'source_TG_mass_qualifier', 'source_TG_pan',
                    'max_mass_loss_rate', 'rate_unit', 'source_LOI_dimensions_mm',

@@ -274,5 +274,43 @@ class ReaderCottonInitialRawTests(unittest.TestCase):
         self.assertNotIn('998', str(d))
         self.assertTrue(all(d[k] == '' for k in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)']))
 
+
+
+class ReaderPANRawNotesTests(unittest.TestCase):
+    def test_four_actual_PAN_temperatures_and_residue_qualifiers_notes_only(self):
+        # DOI10.1016/j.surfcoat.2004.11.030 PDFp7/§3.6/Fig9 and residuebody650C;
+        # primary candidate states are still pending source approval.
+        for sample, temperature, initial_qualifier, residue in [
+                ('Virgin PAN;untreated fabric', '280', 'around', '58'),
+                ('DEAEP;as-prepared rinsed fabric', '235', 'Unqualified reported onset', '61'),
+                ('DEAMP;as-prepared rinsed fabric', '240', 'Unqualified reported onset', '65'),
+                ('DMAMP;as-prepared rinsed fabric', '245', 'Unqualified reported onset', '65')]:
+            row = dict(sample_state=sample, source_raw_initial_decomposition_C=temperature,
+                       source_raw_initial_decomposition_qualifier=initial_qualifier,
+                       source_residue_qualifier='about for treated61/65%;source comparison58% forvirgin unqualified',
+                       R650_pct=residue, residue_pct=residue, residue_temp_C='650')
+            original = row.copy()
+            d = show(row)
+            for key in ['source_raw_initial_decomposition_C',
+                        'source_raw_initial_decomposition_qualifier', 'source_residue_qualifier']:
+                self.assertIn(key + '=' + row[key], d['限制与不确定性'])
+            for key in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+                self.assertEqual(d[key], '')
+            self.assertEqual(d['残余质量（温度:质量%）'], '650℃: ' + residue + '%')
+            self.assertEqual(row, original)
+
+    def test_unapproved_PAN_temperature_aliases_do_not_widen_note_whitelist(self):
+        row = dict(source_raw_initial_C='999', source_initial_temperature_C='998',
+                   source_raw_initial_decomposition_C='235',
+                   source_raw_initial_decomposition_qualifier='Unqualified reported onset',
+                   source_residue_qualifier='about for treated61/65%;source comparison58% forvirgin unqualified')
+        d = show(row)
+        self.assertIn('source_raw_initial_decomposition_C=235', d['限制与不确定性'])
+        self.assertNotIn('999', str(d))
+        self.assertNotIn('998', str(d))
+        for key in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）',
+                    '残余质量（温度:质量%）']:
+            self.assertEqual(d[key], '')
+
 if __name__ == '__main__':
     unittest.main()
