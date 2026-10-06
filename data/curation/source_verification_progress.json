@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1457,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b540_source_and_reuse_approved_pending_single_writer_PR",
-  "last_merged_batch": "20261007_b522",
+  "publication_stage": "b540_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b540",
   "writer_lease": {
     "owner": "codex-local-combined-b540-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b540",
     "claimed_at_utc": "2026-10-06T23:17:16.654542+00:00",
     "expires_at_utc": "2026-10-07T00:47:16.654542+00:00",
     "previous_release_commit": "c376db231e4a974269d361616c28ae10e98236bd",
-    "purpose": "Source-supported and deduplicated 17 new states/21 TG;0 scope-only states and0 numerical evidence upgrades. Prediction954/1178/188 awaits normal PR and exact-head checks."
+    "purpose": "Source-supported and deduplicated 17 new states/21 TG;0 scope-only states and0 numerical evidence upgrades. Prediction954/1178/188 awaits normal PR and exact-head checks.",
+    "released_at_utc": "2026-10-06T23:41:37.878133+00:00",
+    "reason": "Normal PR merge, exact-head nonauthor integration review and both main workflows passed; all remote public bytes verified. Release only owned B540 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B540 approved17newstates/21TG;0oldscope/upgrades. Prediction954/1178/188 remains branch-only pending normal PR/exacthead/main checks. Sparse FR-PA6-2 LOI-only source identity unknown; no automatic paired duplicate inferred. PA11/PAN wholeholds and PVA endpoint/residue conflicts retained.",
+    "B540 merged and remote verified:17 genuinely new samples/21 TG,0 existing scope-only and0 numerical evidence upgrades, formal954/1178/188. B531/B538 followups remain private and uncounted pending complete source/peer/reuse review. Undefined TG metrics, missing residue temperature and whole-state conflicts remain held.",
     "B522 merged and remote verified:19 genuinely new samples/25 TG,0 existing scope-only and0 numerical evidence upgrades, formal937/1157/184. New B526/B527 local-source batches remain private and uncounted pending complete source/peer/reuse review. Unknown TG definitions and whole-state conflicts remain held.",
     "B511 merged and remote verified:16 genuinely new samples/17 TG,13 existing scope states/15 existing TG,0 numerical evidence upgrades, formal918/1132/180. B507 twelve and B513 seven private candidate states require remaining root and full frozen-corpus reuse gates; none counted. Held cotton controls and composite panels remain excluded.",
     "B488 merged and remote verified:1 genuinely new RCF fibre/1 TG,0 evidenceupgrades/0 oldscopeadmissions, formal889/1100/171. B487/B489 five new candidates require precise context derivation and root/source approval; B490/B491 13oldscope/15TG source-supported private, woven laminates await user category boundary; B494/B495 new local fulltext ongoing, none yet counted.",
@@ -1244,5 +1246,32 @@
       "PLA own Ref28/33 previous synthesis/mechanics papers not newly read in full; source all-sample preparation and own measured Table1 provide positive test evidence, not nohit alone.",
       "Two original malformed quarantine boundaries remain; no fabricated missing data. Raw method quantities and ambiguous peaks are not canonical TG discriminators."
     ]
+  },
+  "publication_b540": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/182",
+    "PR_number": 182,
+    "merge_sha": "0f1f58bce7dd2f41ae9cf1d21c6337484985c718",
+    "validated_head_sha": "bde8b253fc87689bf42ffa86b1c81d495131f609",
+    "new_pairs": 17,
+    "new_TG": 21,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "verified_target_sample_states": 954,
+    "verified_target_condition_records": 1178,
+    "verified_target_sources": 188,
+    "full_remote_public_files_verified": 20,
+    "unchanged_other_existing_files": 874,
+    "old_all_field_cells_exact": 7282275,
+    "all_old_registry_entries_exact": true,
+    "old_reader_changes": 0,
+    "tests": 2701,
+    "review_scope": "B542 nonauthor exact-head integration; B534 frozen corpus and latest-main retained-context source reuse; B528/B529 full source peers, B536 two-T5 derivative check, B539 root21 critical original pages with inherited57 full native PDF pages plus scientific HTML, and B540 combined root source/reuse approval. Historical raw annotation advisories are explicitly superseded; sparse single-LOI identity and two malformed historical records remain disclosed.",
+    "postmerge_runs": [
+      37546974650,
+      37546974608
+    ],
+    "source_guards_actual_exit": 0
   }
 }
