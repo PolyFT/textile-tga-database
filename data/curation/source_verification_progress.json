@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1457,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b488_branch_pending_PR",
-  "last_merged_batch": "20261007_b483",
+  "publication_stage": "b488_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b488",
   "writer_lease": {
     "owner": "codex-local-material-b488-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b488",
     "claimed_at_utc": "2026-10-06T18:52:00.945465+00:00",
     "expires_at_utc": "2026-10-06T20:22:00.945465+00:00",
     "previous_release_commit": "5e79893601a133e134763afd867553babfa25f26",
-    "purpose": "One genuinely new RCF fibre pair/one TG, native source + non-author root approved. Six completed source reviews, five zero-pair decisions retained. Main888/1099/170; prediction889/1100/171 pending normal PR."
+    "purpose": "One genuinely new RCF fibre pair/one TG, native source + non-author root approved. Six completed source reviews, five zero-pair decisions retained. Main888/1099/170; prediction889/1100/171 pending normal PR.",
+    "released_at_utc": "2026-10-06T19:34:42.695776+00:00",
+    "reason": "Normal PR179 merge, exact-head integration review and both main workflows passed; remote factual bytes verified. Release only owned B488 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B488 branch:1 new RCF fibre/1 TG,0 old evidence upgrade/0 old scope admission. LOI approximately18%,R80012.13wt%,N2/10Cmin/50mLmin; undefined317.78 peak rawonly. Six completed source reviews include five zero-pair outcomes. Prediction889/1100/171 remains branch-only until normalPR/CI/remote closure. B487/B490 private proposals remain unapproved.",
+    "B488 merged and remote verified:1 genuinely new RCF fibre/1 TG,0 evidenceupgrades/0 oldscopeadmissions, formal889/1100/171. B487/B489 five new candidates require precise context derivation and root/source approval; B490/B491 13oldscope/15TG source-supported private, woven laminates await user category boundary; B494/B495 new local fulltext ongoing, none yet counted.",
     "B483 merged and remote verified:12 existing samples/20 TG scoped,0 newpairs/0 newTG/0 evidenceupgrades, formal888/1099/170. Continue private B480/B481 source adjudication, B487 new local fulltext and B490 oldscope review; none of their unmerged proposals is counted.",
     "B466:new9 original-source sample states/9TG conditions/2positiveDOIs; processed6sources including4zero. main867/1070/163; branch876/1079/165 pending ordinary PR/remote proof. Old numerical/evidence/scope upgrades0. PP/AF undefined degradation intervals raw-only; AF40 residual conflict held. PurePP own preparation with same-group prior/batch unknown annotation. AF/MAF foam sourceT5 defined5wtloss andR700; peak stage roles raw-only. Curves, FWO, MSD/CCT not ordinaryTG numerics.",
     "B454:new32original-source sample states/44TG conditions/6DOIs;main835/1026/157, branch867/1070/163 pending ordinary PR/remote proof. Old numerical/evidence/scope upgrades0. PBT2%raw/K conversion distinct;PP undefinedstart rawonly;DBDPE10dR650 conflict blank;woodPP recipe-conflict held. Mixed raw/context/calculated views not TG record count.",
@@ -1068,5 +1070,32 @@
     "fibre_TG": 77,
     "polymer_precursor_states": 216,
     "polymer_precursor_TG": 263
+  },
+  "publication_b488": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/179",
+    "PR_number": 179,
+    "merge_sha": "75b05ff87b48f41f031daa02b0e48789c2292480",
+    "validated_head_sha": "37e14405c33afecc6e1e36f571e85aea815b4010",
+    "new_pairs": 1,
+    "new_TG": 1,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "verified_target_sample_states": 889,
+    "verified_target_condition_records": 1100,
+    "verified_target_sources": 171,
+    "full_remote_public_files_verified": 16,
+    "unchanged_other_existing_files": 853,
+    "all2102_old_fields_preserved": true,
+    "all1099_reader_rows25_fields_preserved": true,
+    "tests": 2500,
+    "review_scope": "B492 non-author RCF critical original-source and exact-head integration review; root B484 source approval and B481/B486 negative-source review inherited with actual reading scopes disclosed",
+    "postmerge_runs": [
+      37519119148,
+      37519119201
+    ],
+    "original_files_unchanged": true,
+    "progress_SHA_metadata_corrected": 3
   }
 }
