@@ -14,16 +14,13 @@
   "publication_stage": "reader_first_repository_organization_verified",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-reader-layout-20261006",
-    "status": "released",
-    "batch_id": "reader_layout_20261006",
-    "claimed_at_utc": "2026-10-06T05:30:53.854526+00:00",
-    "expires_at_utc": "2026-10-06T06:30:53.854526+00:00",
-    "previous_release_commit": "1b10fabf02069755672104fa2eef23f2f4270723",
-    "purpose": "Fix narrow-window source column and tall rows; preserve all reader JSON and scientific data bytes",
-    "released_at_utc": "2026-10-06T05:52:03.686536+00:00",
-    "publication_merge_sha": "8390eb5aa9b05a43cd7f41f5b2af64d8bd33dfc8",
-    "release_basis": "PR168 exact-head full scientific checks and both postmerge checks passed; full remote page/template verified; all other public blobs and embedded dataset unchanged"
+    "owner": "codex-local-material-scope-b369-20261006",
+    "status": "active",
+    "batch_id": "20261006_b369",
+    "claimed_at_utc": "2026-10-06T06:12:19.780913+00:00",
+    "expires_at_utc": "2026-10-06T07:42:19.780913+00:00",
+    "previous_release_commit": "468e7811371aaf863aeac04d4abf3ca60897fcd9",
+    "purpose": "8 new verified sample states/11TG and88 existing scope states/105TG; zero old evidence or numeric changes; current676/841,772/957 only prospective"
   },
   "next_sources": [],
   "next_actions": [
