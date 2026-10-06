@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1406,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b415_branch_pending_PR",
+  "publication_stage": "b415_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-b415-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b415",
     "claimed_at_utc": "2026-10-06T10:45:30.322904+00:00",
     "expires_at_utc": "2026-10-06T12:15:30.322904+00:00",
     "previous_release_commit": "4a2a3d758cada53efb79b502c53a54a94f25bcc4",
-    "purpose": "8 new original-source polymer/composite samples/8TG from3 DOIs plus4 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main817/1008; projected825/1016 pending normal PR merge."
+    "purpose": "8 new original-source polymer/composite samples/8TG from3 DOIs plus4 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main817/1008; projected825/1016 pending normal PR merge.",
+    "released_at_utc": "2026-10-06T11:45:19.326790+00:00",
+    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B415 lease"
   },
   "next_sources": [],
   "next_actions": [
@@ -716,5 +718,47 @@
     "raw_original_condition_facts": 52,
     "held_or_unpaired_facts": 44,
     "reader_display_alias_dedup_only": true
+  },
+  "publication_b415": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/173",
+    "PR_number": 173,
+    "merge_sha": "b4a38b995de526c411f4bd74fa41645a51840fe3",
+    "validated_head_sha": "cf28c551213a231a91e16dcd2cad145540486163",
+    "new_pairs": 8,
+    "new_TG": 8,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 825,
+    "verified_target_condition_records": 1016,
+    "verified_target_sources": 154,
+    "full_remote_public_files_verified": 19,
+    "unchanged_other_existing_files": 833,
+    "all2031old_fields_preserved": true,
+    "all8new_provided_fields_preserved": true,
+    "tests": 2365,
+    "postmerge_runs": [
+      37454776774,
+      37454776794
+    ],
+    "original_files_unchanged": true,
+    "locator_metadata_only_corrections": 2,
+    "progress_SHA_metadata_corrected": 3,
+    "supplemental_coverage": {
+      "actual_header_scientific_CSV": 482,
+      "additional_scientific_and_numericaggregate_CSV": 132,
+      "aggregate_numeric_views_compared": 92,
+      "accepted_presentations": 163379,
+      "comparisons": 3920304,
+      "work_root_actual_headers": 10,
+      "old_reader_presentations_mapped_to_original_incoming": 841,
+      "workroot_comparisons": 20184,
+      "source_condition_facts": 52,
+      "admitted_TG": 8,
+      "held_original_facts": 44,
+      "new_scientific_source_facts": 0,
+      "wholepair_downselect": 0
+    }
   }
 }
