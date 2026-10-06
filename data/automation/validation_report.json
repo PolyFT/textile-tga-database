@@ -2229,6 +2229,27 @@
       "column_aliases": {}
     },
     {
+      "source_file": "data/incoming/verified_source_batch_20261007_b487_local_material.csv",
+      "accepted_rows": 5,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261007_b504_local_precursors.csv",
+      "accepted_rows": 5,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
+      "source_file": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "accepted_rows": 7,
+      "quarantined_rows": 0,
+      "wrapper_removed": false,
+      "column_aliases": {}
+    },
+    {
       "source_file": "data/incoming/verified_tg_batch_20260921_b12_multisubstrate_cpz.csv",
       "accepted_rows": 12,
       "quarantined_rows": 0,
@@ -2509,9 +2530,9 @@
     }
   ],
   "malformed_source_rows_quarantined": 1,
-  "all_loaded_rows": 5489,
-  "legacy_field_complete_condition_records": 2428,
-  "numeric_pair_candidate_rows": 2747,
+  "all_loaded_rows": 5506,
+  "legacy_field_complete_condition_records": 2445,
+  "numeric_pair_candidate_rows": 2764,
   "eligible_pending_condition_records": 382,
   "quarantined_condition_records": 34,
   "quarantine_reason_counts": {
@@ -2519,21 +2540,21 @@
     "possible_sample_alias": 15,
     "specimen_form_mismatch": 18
   },
-  "strict_tg_loi_pairs": 2103,
-  "verified_exact_condition_records": 2103,
-  "verified_exact_sample_states": 1659,
-  "verified_exact_dois": 466,
-  "verified_exact_sources": 468,
+  "strict_tg_loi_pairs": 2120,
+  "verified_exact_condition_records": 2120,
+  "verified_exact_sample_states": 1675,
+  "verified_exact_dois": 472,
+  "verified_exact_sources": 474,
   "verified_non_doi_sources": 2,
-  "verified_doi_condition_records": 2095,
+  "verified_doi_condition_records": 2112,
   "verified_non_doi_condition_records": 8,
-  "verified_doi_sample_states": 1651,
+  "verified_doi_sample_states": 1667,
   "verified_non_doi_sample_states": 8,
   "verified_publication_type_counts": {
     "journal_article": {
-      "sources": 321,
-      "sample_states": 1075,
-      "condition_records": 1419
+      "sources": 327,
+      "sample_states": 1091,
+      "condition_records": 1436
     },
     "conference_proceedings": {
       "sources": 5,
@@ -2567,24 +2588,24 @@
   "verified_author_preprint_condition_records": 33,
   "publication_type_basis": "Disjoint existing source identities; metadata from Grade-A candidate rows before deduplication. Pending and quarantined rows cannot classify verified sources. Missing-only types are unspecified; unknown labels are unrecognized; disagreeing nonempty labels are conflicting_metadata. Non-DOI original_conference_proceedings implies conference_proceedings. Author-preprint totals count only sources explicitly marked author_preprint without type conflicts; zero does not establish absence of legacy preprints. DOI presence and Grade A do not establish journal publication or peer review.",
   "doi_target_basis": "evidence-reviewed unique DOI/sample/washing states; multiple TG conditions do not add independent samples",
-  "candidate_dois": 535,
-  "candidate_sample_states": 2106,
-  "rows_with_numeric_loi": 4377,
-  "rows_with_any_tg_numeric": 3312,
+  "candidate_dois": 541,
+  "candidate_sample_states": 2122,
+  "rows_with_numeric_loi": 4394,
+  "rows_with_any_tg_numeric": 3329,
   "rows_missing_atmosphere_among_pair_candidates": 65,
   "rows_missing_heating_rate_among_pair_candidates": 167,
   "target_pairs": 2000,
   "target_basis": "evidence-reviewed unique source/sample/washing states; multiple TG conditions do not add independent samples",
-  "remaining_to_target": 341,
+  "remaining_to_target": 325,
   "plot_ready_verified_counts": {
-    "Tmax1_C": 1441,
-    "T5_C": 863,
+    "Tmax1_C": 1452,
+    "T5_C": 876,
     "Tonset_C": 252,
-    "R600_pct": 474,
-    "R700_pct": 501,
-    "R800_pct": 463
+    "R600_pct": 478,
+    "R700_pct": 507,
+    "R800_pct": 469
   },
   "grade_note": "Missing review metadata means pending documentation, not scientifically invalid. Legacy count is field completeness only. Alias candidates are not automatically merged.",
   "errors": [],
-  "snapshot_sha256": "939da272a039fe9d9ed58847656829e44b25d2517038709865d360fc45e02b8c"
+  "snapshot_sha256": "5f674b35977d6a8a666d1f57f1c83d3d3989a07306497ab5cca5dca0b162edd1"
 }
