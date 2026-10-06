@@ -14,15 +14,13 @@
   "publication_stage": "b369_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-local-material-scope-b369-20261006",
-    "status": "released",
-    "batch_id": "20261006_b369",
-    "claimed_at_utc": "2026-10-06T06:12:19.780913+00:00",
-    "expires_at_utc": "2026-10-06T07:42:19.780913+00:00",
-    "previous_release_commit": "468e7811371aaf863aeac04d4abf3ca60897fcd9",
-    "purpose": "8 new verified sample states/11TG and88 existing scope states/105TG; zero old evidence or numeric changes; current676/841,772/957 only prospective",
-    "released_at_utc": "2026-10-06T06:33:55.026742+00:00",
-    "reason": "Merged original factual batch verified remotely with both scientific workflows successful; owned lease released"
+    "owner": "codex-local-material-b384-20261006",
+    "status": "active",
+    "batch_id": "20261006_b384",
+    "claimed_at_utc": "2026-10-06T06:52:35.266331+00:00",
+    "expires_at_utc": "2026-10-06T08:22:35.266331+00:00",
+    "previous_release_commit": "db3c66d8eee13fb2c0a34e0f1d535d93985e393e",
+    "purpose": "8 new verified sample states/8TG; zero old scope, evidence or numeric changes; current772/957,780/965 only prospective"
   },
   "next_sources": [],
   "next_actions": [
