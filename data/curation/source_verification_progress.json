@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-06T05:30:53.854526+00:00",
+  "as_of_utc": "2026-10-06T05:52:03.686536+00:00",
   "latest_batch_id": "20261006_b361",
   "verified_condition_records": 1978,
   "verified_unique_sample_states": 1555,
@@ -15,12 +15,15 @@
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-reader-layout-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "reader_layout_20261006",
     "claimed_at_utc": "2026-10-06T05:30:53.854526+00:00",
     "expires_at_utc": "2026-10-06T06:30:53.854526+00:00",
     "previous_release_commit": "1b10fabf02069755672104fa2eef23f2f4270723",
-    "purpose": "Fix narrow-window source column and tall rows; preserve all reader JSON and scientific data bytes"
+    "purpose": "Fix narrow-window source column and tall rows; preserve all reader JSON and scientific data bytes",
+    "released_at_utc": "2026-10-06T05:52:03.686536+00:00",
+    "publication_merge_sha": "8390eb5aa9b05a43cd7f41f5b2af64d8bd33dfc8",
+    "release_basis": "PR168 exact-head full scientific checks and both postmerge checks passed; full remote page/template verified; all other public blobs and embedded dataset unchanged"
   },
   "next_sources": [],
   "next_actions": [
@@ -497,7 +500,7 @@
     "reader_page": "index.html",
     "expanded_reading_fields": 25,
     "reader_access": "Download index.html and open it in a browser; online Pages setup pending repository settings permission",
-    "Pages_activation": "blocked_current_token_missing_Pages_write_HTTP403",
+    "Pages_activation": "blocked_current_token_not_authorized_for_Pages_creation_HTTP403",
     "verified_target_states": 676,
     "verified_target_TG": 841,
     "sources": 110,
@@ -510,5 +513,24 @@
     "remote_public_tree_verified": true,
     "active_workflows": 2,
     "inactive_retired_workflows": 42
+  },
+  "reader_layout_20261006": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/168",
+    "merge_sha": "8390eb5aa9b05a43cd7f41f5b2af64d8bd33dfc8",
+    "head_validation_run": 37419143784,
+    "postmerge_runs": [
+      37420017892,
+      37420017966
+    ],
+    "scientific_dataset_sha256": "37430c8da4d554eee9d4fce45676996f521d2e51c360ed6347399a3f30cad220",
+    "scientific_values_changed": 0,
+    "new_pairs": 0,
+    "new_TG": 0,
+    "evidence_upgrades": 0,
+    "verified_target_states": 676,
+    "verified_target_TG": 841,
+    "sources": 110,
+    "offline_tests": 2283,
+    "reading_fields": 25
   }
 }
