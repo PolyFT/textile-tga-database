@@ -312,5 +312,54 @@ class ReaderPANRawNotesTests(unittest.TestCase):
                     '残余质量（温度:质量%）']:
             self.assertEqual(d[key], '')
 
+class ReaderB439RawNotesTests(unittest.TestCase):
+    def test_actual_PP_start_and_PBT_kelvin_fields_are_notes_only(self):
+        # DOI10.1016/j.polymdegradstab.2005.05.023 §3.2, and2009.04.014 Table2.
+        cases = [dict(source_raw_starting_degradation_temperature_C='259',
+                      source_raw_starting_degradation_definition='operational criterion unreported; notT5/Tonset'),
+                 dict(source_raw_T2pct_K='632', source_raw_T2pct_C='358.85',
+                      source_raw_T2pct_definition='beginning2%massloss; notT5/Tonset',
+                      source_Tmax1_K='675', source_Tmax2_K='735',
+                      source_residue_temperature_K='1000',
+                      source_temperature_conversion='ExactK−273.15; integerKprecision retained; errorglyph unresolved')]
+        for row in cases:
+            original = row.copy()
+            d = show(row)
+            for key, raw in row.items():
+                self.assertIn(key + '=' + raw, d['限制与不确定性'])
+            for key in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)',
+                        '其他TG温度（℃）', '残余质量（温度:质量%）']:
+                self.assertEqual(d[key], '')
+            self.assertEqual(row, original)
+
+    def test_raw_temperature_whitelist_does_not_allow_unapproved_names(self):
+        row = dict(source_raw_T2pct_C='364.85', source_raw_starting_degradation_C='999',
+                   source_raw_T3pct_K='998', source_Tmax3_K='997')
+        d = show(row)
+        self.assertIn('source_raw_T2pct_C=364.85', d['限制与不确定性'])
+        for value in ['999', '998', '997']:
+            self.assertNotIn(value, str(d))
+        for key in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)']:
+            self.assertEqual(d[key], '')
+
+    def test_PBT_error_magnitude_is_not_an_invented_signed_statistic(self):
+        row = dict(LOI_pct='19', LOI_uncertainty_pct='1',
+                   LOI_uncertainty_type='source error magnitude; native sign unresolved',
+                   source_LOI_error_raw='/C6 1', source_LOI_error_sign_status='native_glyph_unresolved',
+                   source_LOI_error_definition='LOI error magnitude1percentagepoint; sign/type unresolved',
+                   source_mass_error_wt_pct='1', source_temperature_error_K='2',
+                   source_TG_error_raw='Table2 error /C6 1wt% and /C6 2K',
+                   source_TG_error_sign_status='native_glyph_unresolved')
+        d = show(row)
+        self.assertEqual(d['LOI (%)'], '19')
+        for key in ['LOI_uncertainty_pct', 'LOI_uncertainty_type', 'source_LOI_error_raw',
+                    'source_LOI_error_sign_status', 'source_LOI_error_definition']:
+            self.assertIn(key + '=' + row[key], d['LOI补充（原文）'])
+        for key in ['source_mass_error_wt_pct', 'source_temperature_error_K',
+                    'source_TG_error_raw', 'source_TG_error_sign_status']:
+            self.assertIn(key + '=' + row[key], d['限制与不确定性'])
+        self.assertNotIn('±', str(d))
+        self.assertNotIn('SD=', str(d))
+
 if __name__ == '__main__':
     unittest.main()
