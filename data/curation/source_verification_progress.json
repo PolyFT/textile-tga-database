@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-06T01:01:57.861060+00:00",
+  "as_of_utc": "2026-10-06T01:31:50.287857+00:00",
   "latest_batch_id": "20261006_b333",
   "verified_condition_records": 1953,
   "verified_unique_sample_states": 1535,
@@ -18,16 +18,19 @@
     "condition_partial_candidates_excluded_from_target": 2
   },
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b333_scope_branch_pending_PR",
+  "publication_stage": "b333_merged_verified_lease_released",
   "last_merged_batch": "20261006_b329",
   "writer_lease": {
     "owner": "codex-documentary-scope-b333-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b333",
     "claimed_at_utc": "2026-10-06T01:00:03.706589+00:00",
     "expires_at_utc": "2026-10-06T02:30:03.706589+00:00",
     "previous_release_commit": "26c78e4eb19412497d101a12e21d86aa3f4894c4",
-    "purpose": "Scope-only review18existing original-verified cloth states34TG fromthree sources;zero new numeric/source evidence. 66402 master profilecomparisons plus329246 allincoming/private-stage reportingprecision comparisons andtitles/aliases allclear. Preserve all1953 broadscientificfields/fingerprints. Prospective543675notcurrent525641;1972fibres19held."
+    "purpose": "Scope-only review18existing original-verified cloth states34TG fromthree sources;zero new numeric/source evidence. 66402 master profilecomparisons plus329246 allincoming/private-stage reportingprecision comparisons andtitles/aliases allclear. Preserve all1953 broadscientificfields/fingerprints. Prospective543675notcurrent525641;1972fibres19held.",
+    "released_at_utc": "2026-10-06T01:31:50.287857+00:00",
+    "publication_merge_sha": "bcf292478ff7241efcf8b03d110aa5700821cde6",
+    "release_basis": "OrdinaryPR163 exactheadsuccess,allthree postmergechecks terminalsuccess,fullremote publicblob/master/bothreportmatch andall1953oldscientificfacts preserved"
   },
   "next_sources": [],
   "next_actions": [
@@ -7187,6 +7190,28 @@
     "verified_target_condition_records": 675,
     "scope_pending_states": 992,
     "scope_audit_complete": false,
-    "held_1972_fibre_scope_states_not_promoted": 19
+    "held_1972_fibre_scope_states_not_promoted": 19,
+    "publication": {
+      "PR": "https://github.com/PolyFT/textile-tga-database/pull/163",
+      "head_sha": "6385d022607f364fe9a103ad41e9f41ccce11ab7",
+      "merge_sha": "bcf292478ff7241efcf8b03d110aa5700821cde6",
+      "head_validation_run": 37397586094,
+      "postmerge_runs": [
+        37398204763,
+        37398204411,
+        37398205269
+      ],
+      "offline_tests": 2264,
+      "new_pairs": 0,
+      "new_TG": 0,
+      "scope_existing_states": 18,
+      "scope_existing_TG": 34,
+      "evidence_upgrades": 0,
+      "numeric_values_changed": 0,
+      "full_remote_master_and_reports_verified": true,
+      "all1953prior_scientific_fields_and_fingerprints_preserved": true,
+      "private_evidence_unchanged": true,
+      "concurrent_automation_preserved": true
+    }
   }
 }
