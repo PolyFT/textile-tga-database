@@ -159,6 +159,26 @@ def show(row):
     return dict(zip(reader.HEADERS, reader.reading_row(row, {'scope_class': 'textile_fibre'})))
 
 class ReaderOriginalMethodTests(unittest.TestCase):
+    def test_undefined_initial_temperature_retains_source_value_and_approximation(self):
+        for value, qualifier in [('267.5', ''), ('327.2', 'around')]:
+            row = dict(source_initial_decomposition_C=value,
+                       source_initial_decomposition_qualifier=qualifier,
+                       source_initial_definition='loss percent/extrapolation criterion unreported; not T5/T10/Tonset')
+            d = show(row)
+            self.assertIn('source_initial_decomposition_C=' + value, d['限制与不确定性'])
+            if qualifier:
+                self.assertIn('source_initial_decomposition_qualifier=around', d['限制与不确定性'])
+            self.assertIn(row['source_initial_definition'], d['限制与不确定性'])
+            for key in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+                self.assertEqual(d[key], '')
+            self.assertEqual(row['source_initial_decomposition_C'], value)
+
+    def test_unreviewed_initial_field_is_not_added_to_display_whitelist(self):
+        d = show(dict(source_initial_C='999', source_initial_decomposition_C='267.5',
+                      source_initial_definition='criterion unreported'))
+        self.assertIn('source_initial_decomposition_C=267.5', d['限制与不确定性'])
+        self.assertNotIn('999', str(d))
+
     def test_unknown_temperature_raw_residue_is_qualified_note_only(self):
         d = show(dict(source_raw_residue_pct='1.3',
                       source_residue_temperature_status='Original Table3 temperature unreported; program endpoint is not a binding',

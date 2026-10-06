@@ -1,0 +1,391 @@
+{
+  "batch": "B406",
+  "status": "branch_pending_publication",
+  "new_sample_states": 10,
+  "new_TG_records": 13,
+  "new_source_DOIs": 4,
+  "old_scope_admissions": 0,
+  "evidence_upgrades": 0,
+  "peer_merge_second_count": 0,
+  "actually_published": 0,
+  "private_prediction_NOTMAIN": [
+    817,
+    1008
+  ],
+  "private_paired_sources_prediction": 151,
+  "private_broad_prediction": [
+    1599,
+    2031
+  ],
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1021/acsapm.3c01598",
+      "role": "new_source_pairs",
+      "new_sample_states": 4,
+      "new_TG_records": 4,
+      "old_evidence_upgrades": 0,
+      "scope_only_states": 0,
+      "scope_only_TG": 0,
+      "source_review_locator": "Primary§2.1/3.5;SIp4SLS/p5ordinaryTG/p11–13thermalstate/TableS3/p14FigS8nativeprintedLOI",
+      "checkpoint_note": "FourownSLSprocessedPA12states,LOI20.6/24.5/23.5/25.7fromnativeprintedFigS8annotations,notbarheightestimate;TableS3N2ordinaryTG10CminTonset/T50/maximumrateTmax/R700. LOImethod/geometry/replicatesunknown. PowderDSC/TGIR20notborrowed;100+2feedbasisandunreportedMxenesuspensionnotnormalized."
+    },
+    {
+      "DOI": "10.1021/acsapm.4c03632",
+      "role": "new_source_pairs",
+      "new_sample_states": 3,
+      "new_TG_records": 6,
+      "old_evidence_upgrades": 0,
+      "scope_only_states": 0,
+      "scope_only_TG": 0,
+      "source_review_locator": "Primary§2.1–2.4/3.2ownLOIprose/3.3.2TG;SIp1TableS1recipes/p3TableS5TG",
+      "checkpoint_note": "PA6initial220Ccastmatchingthreeformulas;air/N2sixconditionscountthree states. ExactT5used; sixpeaklabelsremainqualifiedraw;RWtemperatureunknownexceptexplicitair10ADP/3PDBD6.5%at800. NeatPA6,13ADP,powderPDBDTGonlynotpaired;UL94tablecaptionnotnumericLOI."
+    },
+    {
+      "DOI": "10.1021/acsami.5b10287",
+      "role": "new_source_pairs",
+      "new_sample_states": 1,
+      "new_TG_records": 1,
+      "old_evidence_upgrades": 0,
+      "scope_only_states": 0,
+      "scope_only_TG": 0,
+      "source_review_locator": "Primary2.3/2.4.7/2.4.8;3.6Table4experimental;3.7ownLOI",
+      "checkpoint_note": "OnlyownHTN15wt%BM@AlPPi1moldedhybridexperimentalT5/Tmax/R700andLOI28.0. Table4calculated/isolatedBMnotownhybridexperimentalTG;neatHTNprepnotbridgedremainsheld. Hybrid1:1molar/bodymasscontextunresolvednotfabricated."
+    },
+    {
+      "DOI": "10.1021/acsami.7b06250",
+      "role": "new_source_pairs",
+      "new_sample_states": 2,
+      "new_TG_records": 2,
+      "old_evidence_upgrades": 0,
+      "scope_only_states": 0,
+      "scope_only_TG": 0,
+      "source_review_locator": "Primary2.4/2.5;Table1formulas/Table3LOI;3.3Figure10N2prose;§4S7R700temperature",
+      "checkpoint_note": "OnlyowninitialS3/S7N2R7009.6/21.5plusLOI24.9±0.3/29.2±0.4;undefinedinitial267.5/around327.2rawnotesnotT5/T10/Tonset. AirresiduesunknownTremainheld;program700alone nottemperaturebinding. S1priorcohortunresolvednotnew. S5air groupingdifference, exactexcludedsetunchanged."
+    },
+    {
+      "DOI": "10.1021/acsapm.4c00340",
+      "role": "complete_available_source_wholeheld_not_counted",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "old_evidence_upgrades": 0,
+      "scope_only_states": 0,
+      "scope_only_TG": 0,
+      "source_review_locator": "Primary2.2.3preparation/2.3Methods;localSIownformula/thermal/LOIdata;completeprimaryandSIreview",
+      "checkpoint_note": "PLAandPLA10MPTnumbersremainwholeheldforpostprocessingTGLOIcorrespondence;mechanicalinjectionchainnotassumedLOIspecimen/TGcut. SourcepowderFTIRnotbridged;undefinedTmax/unknownresidueTnotcanonical;0newpairedsource."
+    }
+  ],
+  "scope_delta": [
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "4190c1fa5d46ca5af900",
+      "reviewed_measurement_fingerprint": "d1e9555dd35f3032b9f9602041f74c4afc92de92abf14207b1ca631410857164",
+      "scope_identity_sha256": "b628e1d66c5887896107ffb9f7191ebd2d51e8e3b5e6df58efb9a3ed1502e85b",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "4190c1fa5d46ca5af900",
+      "reviewed_measurement_fingerprint": "5b08eaf4e414b0ecee25f018042d9ae5c4fb87b821807d4b6cf9c1f8b2c9463f",
+      "scope_identity_sha256": "b628e1d66c5887896107ffb9f7191ebd2d51e8e3b5e6df58efb9a3ed1502e85b",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "bf18fd22e18ea2dc71c2",
+      "reviewed_measurement_fingerprint": "e09a9fd279770e0049226e562e5f7fa4f9f296935f72b9f7fa0a131f724bc901",
+      "scope_identity_sha256": "eadf2bcdf875926624057a6ff3f742348523499b934d32528d5e569745a537ed",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "bf18fd22e18ea2dc71c2",
+      "reviewed_measurement_fingerprint": "363b46c9ee59083998f390394656b70975617b3cef49fb1d34a2ec5b7f1e9a3a",
+      "scope_identity_sha256": "eadf2bcdf875926624057a6ff3f742348523499b934d32528d5e569745a537ed",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "3adfbfb7c801d79c7dfc",
+      "reviewed_measurement_fingerprint": "62eb8b39bd9ed85c14ebf2405b5b67d81f4760f2e5c3f151fd9de96ee32aed1a",
+      "scope_identity_sha256": "f688bff90cbc6b2bfeb379f895e5453ef384d9d94acc0fcf678553160bee376f",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.4c03632",
+      "sample_state_id": "3adfbfb7c801d79c7dfc",
+      "reviewed_measurement_fingerprint": "970057379ac2287abaa1c85d01b9478f9575f97bf157799c71439ffa1a01bda7",
+      "scope_identity_sha256": "f688bff90cbc6b2bfeb379f895e5453ef384d9d94acc0fcf678553160bee376f",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA6thermoplasticpolyamideformulation,preparedcastbulkmaterial;matchedbulkformseligibleasfiberformingpolymer/compositeunderuserauthorizedscope,notclaimedcloth",
+      "source_locator": "PublishedHTML§2.1–2.4/3.2/3.3.2;localSIPDFp1TableS1/S2,p2TableS4,p3TableS5;allprimarybody/SI3pagesread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.3c01598",
+      "sample_state_id": "754ccd79ff37a0fd9857",
+      "reviewed_measurement_fingerprint": "bdca52835e2edb58b4161458c0f144e843b73fb983ebe02ea0ad011749cd75ff",
+      "scope_identity_sha256": "f4f70436ee4e8f9fb4d15c4860e98291cf889edbb123496e3511cb48140970b0",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA12/Nylon12thermoplasticWanfabPN500Wandexplicitfiller,laser-sinteredbulkstate,eligiblefiberformingpolymer/compositeunderauthorizedscope;powderDSCnotjoinedtoLOI",
+      "source_locator": "PublishedHTMLallbody2.1/3.2/3.5;complete18pageSI:2materials/3powders/4SLS/5thermal/11–13N2thermal/TableS3/14FigS8;ownallbodyread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.3c01598",
+      "sample_state_id": "84cd59011498bfd75faa",
+      "reviewed_measurement_fingerprint": "4a7707751f01259303f185e2e16e490a1bf58334a1192af8618e24f99a27fb5d",
+      "scope_identity_sha256": "b8e214126fadb0c867d905c380b0b4240a667ce716f51ae7a7ad0f2e2ef16732",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA12/Nylon12thermoplasticWanfabPN500Wandexplicitfiller,laser-sinteredbulkstate,eligiblefiberformingpolymer/compositeunderauthorizedscope;powderDSCnotjoinedtoLOI",
+      "source_locator": "PublishedHTMLallbody2.1/3.2/3.5;complete18pageSI:2materials/3powders/4SLS/5thermal/11–13N2thermal/TableS3/14FigS8;ownallbodyread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.3c01598",
+      "sample_state_id": "132a4ed26dc5e921dba8",
+      "reviewed_measurement_fingerprint": "280064ddc9a827ac40df2657f8579dd39386828dcff0d464c00b65b1a88d1a61",
+      "scope_identity_sha256": "aef2b6d03763bbb85c1835ad48923ba688d768ade8a3f1dc69f6d18e7189e4fd",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA12/Nylon12thermoplasticWanfabPN500Wandexplicitfiller,laser-sinteredbulkstate,eligiblefiberformingpolymer/compositeunderauthorizedscope;powderDSCnotjoinedtoLOI",
+      "source_locator": "PublishedHTMLallbody2.1/3.2/3.5;complete18pageSI:2materials/3powders/4SLS/5thermal/11–13N2thermal/TableS3/14FigS8;ownallbodyread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsapm.3c01598",
+      "sample_state_id": "08530f4712250c56cb13",
+      "reviewed_measurement_fingerprint": "f93b7e375a663a13d62e4abd96d8023aff8fbbf655acbea712dfead9dfb0aafe",
+      "scope_identity_sha256": "d193819e843cd54b23413963ebdcf66fdfc4ebdf7c0cfeacc0720c088a68d60a",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_samepreparedstates_nativeprimaryandSI;primarypendingpeer_parent",
+      "scope_evidence": "ActualPA12/Nylon12thermoplasticWanfabPN500Wandexplicitfiller,laser-sinteredbulkstate,eligiblefiberformingpolymer/compositeunderauthorizedscope;powderDSCnotjoinedtoLOI",
+      "source_locator": "PublishedHTMLallbody2.1/3.2/3.5;complete18pageSI:2materials/3powders/4SLS/5thermal/11–13N2thermal/TableS3/14FigS8;ownallbodyread",
+      "scope_reviewed_by": "codex-native-b395-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsami.5b10287",
+      "sample_state_id": "015f4d2d8a3da0b7af85",
+      "reviewed_measurement_fingerprint": "c8eb671a2b79611787a55b124e39526fb3ea4aa2eda6c642c4fdb61d2c0ebebd",
+      "scope_identity_sha256": "059c6300789a477d0290f4f37d8ac1957410ec34a269e8dcb415b414ea1e09d2",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_genericstandardformedstates;primarypendingpeer_parent",
+      "scope_evidence": "ActualsemiaromaticPA6,T/D,TthermoplasticZytelHTN501andexplicit15wt%hybridcompound;genericpreparedstandardbarsscope",
+      "source_locator": "Primary§2.3/2.4.7–2.4.8/3.5–3.7;DOMTable4experimentalrows;completebodyand3pageSI",
+      "scope_reviewed_by": "codex-native-b402-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsami.7b06250",
+      "sample_state_id": "f82d9588ad7c636ac7e7",
+      "reviewed_measurement_fingerprint": "1d8938e648dd98c1a0d73a446ada554b411ac6304c113c5eaa9a43ddf3181271",
+      "scope_identity_sha256": "44f9a8d90ac9c3e4eb7c61c2c8c35c0654d738f099d52bfa8c3d5dd9a9d8d371",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_genericstandardformedstates;primarypendingpeer_parent",
+      "scope_evidence": "ActualArkemaPA11thermoplasticandTable1preparedhotpressedformulations;eligiblefiberformingpolymer/compositebulknotcloth",
+      "source_locator": "Primary§2.1/2.4/2.5/3.2–3.3/4;DOMTables1/3;Figure10caption;completeHTMLbody;duplicatePDFboundedp3/5/7/11",
+      "scope_reviewed_by": "codex-native-b402-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1021/acsami.7b06250",
+      "sample_state_id": "2f2a685d824b852aa100",
+      "reviewed_measurement_fingerprint": "ef28f2bd5f6541e342eefe08e0695c1d3d2d8a9695bb7b7b9c855262c76bfc1c",
+      "scope_identity_sha256": "3df25718e7c1f9c09824bd63fd93c4fad47e6d7c2ff97a73f88ffed0657407b5",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Actualownpolyamidebulkseries_genericstandardformedstates;primarypendingpeer_parent",
+      "scope_evidence": "ActualArkemaPA11thermoplasticandTable1preparedhotpressedformulations;eligiblefiberformingpolymer/compositebulknotcloth",
+      "source_locator": "Primary§2.1/2.4/2.5/3.2–3.3/4;DOMTables1/3;Figure10caption;completeHTMLbody;duplicatePDFboundedp3/5/7/11",
+      "scope_reviewed_by": "codex-native-b402-primary_pendingpeer",
+      "scope_reviewed_at": "2026-10-06"
+    }
+  ],
+  "excluded_B402_condition_keys": [
+    [
+      "10.1021/acsami.5b10287",
+      "HTN",
+      "N2"
+    ],
+    [
+      "10.1021/acsami.7b06250",
+      "S1",
+      "N2"
+    ],
+    [
+      "10.1021/acsami.7b06250",
+      "S3",
+      "air"
+    ],
+    [
+      "10.1021/acsami.7b06250",
+      "S5",
+      "N2"
+    ],
+    [
+      "10.1021/acsami.7b06250",
+      "S5",
+      "air"
+    ],
+    [
+      "10.1021/acsami.7b06250",
+      "S7",
+      "air"
+    ],
+    [
+      "10.1021/acsapm.4c00340",
+      "PLA",
+      "N2"
+    ],
+    [
+      "10.1021/acsapm.4c00340",
+      "PLA/10MPT",
+      "N2"
+    ]
+  ],
+  "held_classification_note": "Exact8excludedDOI/sample/gas recordsunchanged;S5air primarywholeheld/peercondition bucket only. No S1air explanation.",
+  "public_factual_payload_sha256": {
+    "publication_proposed.csv": "5234e04f57d2764bcf61345d794eb29c1f8fe01d83107e2bddefb9ecf54d39fc",
+    "scope_decisions_delta.json": "434ee9849168c5818d5bb4a3a909a70a5b2fa51211d7f837e006908a9ce402d9",
+    "test_b406_scientific_guards.py": "804bb268d74b8d7a27e90d892a042d66b9d592d12684d2953e7229fcebcb2fbe"
+  },
+  "sourceapproval": {
+    "B395_B401_B403": true,
+    "B402_B404_B407": true,
+    "root_source_actual_exits": [
+      0,
+      0
+    ],
+    "source_payload_fields_changed": 0
+  },
+  "source_limits": [
+    "PA6undefinedmaximum labels raw only, unreported residual temperature never inferred from program800; oneexplicitR800air ternary remainsdefined.",
+    "PA12exactnativeprinted decimalLOIannotations; no imagesorcurveestimation. UnknownLOIprotocol and unmatchedtests remainunknown.",
+    "PA11undefinedinitial267.5/around327.2 rawonly; canonicalT5/T10/Tonsetblank. LOI±0.3/±0.4 remainsundefinedstatistic,notSD/nfromUL94.",
+    "B394 existingapprovedbaseline notsecondimport. B4050new andPLAholdarecomparisonfacts,notautomaticadmissions."
+  ],
+  "finalready": true,
+  "finalfrozen": true,
+  "baseline_complete_main_commit": "54d21e3961f24320395da76e8cee79aeb327c289",
+  "baseline_target": [
+    807,
+    995
+  ],
+  "baseline_rows": 2018,
+  "private_projected_rows": 2031,
+  "source_review_complete_original_SHA_evidence": [
+    {
+      "DOI": "10.1021/acsapm.4c03632",
+      "role": "local_SI_PDF",
+      "sha256": "34bd8f317e92ee13c6aa78e4193d0079f521096318719ae08b643ed9c704de1c",
+      "size": 148837
+    },
+    {
+      "DOI": "10.1021/acsapm.3c01598",
+      "role": "local_SI_PDF",
+      "sha256": "cc67504edee456acada982e59f0ba18b93a7fe783b5c81638c12851c803c6ea3",
+      "size": 1513106
+    },
+    {
+      "DOI": "10.1021/acsapm.3c01598",
+      "role": "published_primary_HTML",
+      "sha256": "5b7af965092ff633858a98f1f6ed1cb66800d6ff29252423fe6ae45a497f1596",
+      "size": 8979210
+    },
+    {
+      "DOI": "10.1021/acsapm.4c03632",
+      "role": "published_primary_HTML",
+      "sha256": "9eabc295c47f7ac22e67aad69f173b064c37f5493598915a1f40f3b0ff202ba0",
+      "size": 6631266
+    },
+    {
+      "DOI": "10.1021/acsapm.4c00340",
+      "role": "local_SI_PDF",
+      "sha256": "54a97332dee26321787d2b5f28f9dd13f11f471c3551287f392994fab4c4f340",
+      "size": 895670
+    },
+    {
+      "DOI": "10.1021/acsapm.4c00340",
+      "role": "published_primary_HTML",
+      "sha256": "342006d34330f6fc026e11521510508b3a8fc6741b52e303fb0fd1e9f0e007f2",
+      "size": 6342242
+    },
+    {
+      "DOI": "10.1021/acsami.5b10287",
+      "role": "local_SI_PDF",
+      "sha256": "94cf670142ec179d0d5feabab3141a4db45a5e7f74ccf2b45b31648a8f36be53",
+      "size": 495943
+    },
+    {
+      "DOI": "10.1021/acsami.7b06250",
+      "role": "published_primary_PDF_duplicate",
+      "sha256": "0ecb0ae6064cc3476b265e7a824ce5031e4f07fd9b49f2c5bc1a51b29111d0cc",
+      "size": 2546501
+    },
+    {
+      "DOI": "10.1021/acsami.5b10287",
+      "role": "published_primary_HTML",
+      "sha256": "040784750efad6e490b19e5b87ddd397a6dc97e4a8b6e94eadc5eae1ecd4af6e",
+      "size": 7677496
+    },
+    {
+      "DOI": "10.1021/acsami.7b06250",
+      "role": "published_primary_HTML",
+      "sha256": "c6abb6b9263f763b314670aa456a66e6af0caa5f32e1e004cf6238baa5259de3",
+      "size": 8094784
+    }
+  ],
+  "reader_only_patches": {
+    "scripts/reader_table.py": "836a625359f0dafafa960082ae9d7a5ecfb2472dfbaa73a781a890125f4344d9",
+    "tests/test_reader_table.py": "00e17886d5eb0267d2259ab6c1b9ebb7a8f89134b22048b65f6ef59ff01bdfd6"
+  },
+  "reader_semantic_tests_actual": 19,
+  "scientific_guard_tests_actual": 16,
+  "sourceprofile_comparisons": 743053,
+  "sourceprofile_full_duplicate_hits": 0,
+  "unresolved_source_identity_hits": 0
+}
