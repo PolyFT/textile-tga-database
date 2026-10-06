@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1362,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b369_branch_pending_PR",
+  "publication_stage": "b369_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-scope-b369-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b369",
     "claimed_at_utc": "2026-10-06T06:12:19.780913+00:00",
     "expires_at_utc": "2026-10-06T07:42:19.780913+00:00",
     "previous_release_commit": "468e7811371aaf863aeac04d4abf3ca60897fcd9",
-    "purpose": "8 new verified sample states/11TG and88 existing scope states/105TG; zero old evidence or numeric changes; current676/841,772/957 only prospective"
+    "purpose": "8 new verified sample states/11TG and88 existing scope states/105TG; zero old evidence or numeric changes; current676/841,772/957 only prospective",
+    "released_at_utc": "2026-10-06T06:33:55.026742+00:00",
+    "reason": "Merged original factual batch verified remotely with both scientific workflows successful; owned lease released"
   },
   "next_sources": [],
   "next_actions": [
@@ -545,5 +547,28 @@
     "verified_target_sample_states": 772,
     "verified_target_condition_records": 957,
     "old_numeric_changes": 0
+  },
+  "publication_b369": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/169",
+    "merge_sha": "8d81baa883513c59ae71721802a6b30d91bd4950",
+    "validated_head_sha": "d6d3ba7ae6efac4846100d43f95e7254c7ad3691",
+    "new_pairs": 8,
+    "new_TG": 11,
+    "scope_existing_states": 88,
+    "scope_existing_TG": 105,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 772,
+    "verified_target_condition_records": 957,
+    "verified_target_sources": 137,
+    "full_remote_public_files_verified": 18,
+    "all1978old_fields_preserved": true,
+    "all11new_provided_fields_preserved": true,
+    "tests": 2297,
+    "postmerge_runs": [
+      37423661562,
+      37423661533
+    ],
+    "original_files_unchanged": true
   }
 }
