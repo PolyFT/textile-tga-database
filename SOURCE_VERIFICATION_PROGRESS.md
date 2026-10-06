@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-05
 
-The evidence-reviewed broad master contains **1547 unique source/sample/washing states**, **1970 TG condition records**, and **434 original sources (432 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **609 reviewed target states /769 TG records** are admitted. **938 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
+The evidence-reviewed broad master contains **1555 unique source/sample/washing states**, **1978 TG condition records**, and **437 original sources (435 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **676 reviewed target states /841 TG records** are admitted. **879 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
 
 ## Batches
 
@@ -2762,3 +2762,16 @@ Target609states/769TG:477cloth/610TG,5nonwoven/5TG,37fibres/37TG,11polymers/17TG
 ### b351 publication proof
 
 [PR #165](https://github.com/PolyFT/textile-tga-database/pull/165) merged as `4293a3be6979be0022eff9b53cd34b30312295f3` after exact-head [validation run 37405494089](https://github.com/PolyFT/textile-tga-database/actions/runs/37405494089). All 2268 offline tests, compilation, numeric rebuild, scope export and snapshot checks passed; all three exact merge checks completed successfully. All 14 public blobs were independently read and matched, including the complete broad and target masters and both reports. All 1953 prior scientific/state fields and fingerprints remain unchanged; concurrent automation files preserved. This batch adds 12 original-source-verified sample states and 17 TG condition records from 4 DOI, with zero old numeric changes, evidence upgrades or scope reclassifications. Target 609 states /769 TG comprises 477 cloth /610 TG, 5 nonwoven /5 TG, 37 fibres /37 TG, 11 polymers /17 TG, and 79 polymer composites /100 TG; 938 historical states remain scope-pending. Broad totals:1547 states /1970 TG /432 DOI /434 sources. Seven local negative/held reviews contribute no valid pairs. Fulltexts and private paths remain local. Owned writer lease released in this atomic proof checkpoint; postrelease checks retained locally.
+
+
+## b361 new cotton facts and existing fibre-forming material scope
+
+Eight truly new cloth states /eight TG records across three DOI;59 existing states /64 TG records across18cohorts gain documentary material scope. Zero old numeric changes, original-source evidence upgrades or second fulltext verification claims. One aramid/epoxy zero-acid control remains scope-held because earlier control source identity is unresolved. All1970prior fields and fingerprints,including extra raw R1000 facts,remain intact;6portable scientific regressions.
+
+10.1016/j.surfcoat.2015.05.023: Ownuntreated/10P/10A/10BLcotton230g/m2;globalcoatedfabricmethodsandpurecontrolsstateexplicit;10P10Aarenot10bilayers. Tonsetnot5/10percentcriterion;secondDTGpeakischaroxidation. 5BL/20BLnoownLOI;20BLR600table7.6/body7.1held. Evidence:Materials/preparationPDFp7–8;TGp8/TableIp25;LOImethodp9/ownvaluesp15.
+
+10.1039/c5ra09963c: PristineandinitialnonPSsuperhydrophobiccottonownLOI18.3/21.6;conclusiontiesfluorinated158WCAto21.6beforePSintroduction;PSand5minwashstatesnoLOIinheritance. T5preservedoriginaldefinition;fluorination-onlyearlyT5102.3notmainonset. Vmaxsignnativefontunresolved,bodymagnitudeonlyoutsidecanonicalmetrics. Evidence:PDFp2–3methods;p4ownLOI;Table1p5;conclusionp6.
+
+10.1007/s10904-022-02395-w: Own30kGysolutioncoatedCF/EVA/SiO2andCF/EVA/Al2O3wholefabricsLOI25.3/27.5;N210Cmin;thirdstagestarts408ends497Cleaving2.6/13.8inorganicresiduesrespectively. R497notprogrammeend600andnotpurechar. Hybrid15.7temperaturemissingheld;CF/EVA179water/volatile5.3percentlossnotT5;untreatedCF18.8LOIonly;freecoatingfilmsnotborrowed. Evidence:Secs2.1/2.3/2.5/2.8;Sec3.3.1.3Sec11-content/Fig9;Sec3.3.3/Fig13.
+
+Scope-only classes:10fibres/10TG,1polymer/1TG,48polymer-composites/53TG. Current target676states/841TG:485cloth/618TG,5nonwoven/5TG,47fibres/47TG,12polymers/18TG,127polymer-composites/153TG;879historicalstatespending. Ten complete available local negative/held source reviews are retained in queue/manifest and add zero pairs. Native text only;no fulltexts/private paths published.
