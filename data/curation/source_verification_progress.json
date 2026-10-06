@@ -14,15 +14,13 @@
   "publication_stage": "b394_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-local-material-b394-20261006",
-    "status": "released",
-    "batch_id": "20261006_b394",
-    "claimed_at_utc": "2026-10-06T08:37:45.878431+00:00",
-    "expires_at_utc": "2026-10-06T10:07:45.878431+00:00",
-    "previous_release_commit": "bd26370a8ec6ede6de2fdc873b9b8caacbf1b1ce",
-    "purpose": "18 new original-source samples/21TG plus9 oldfibre scope states/9TG; no old numeric/evidence upgrades. Main780/965; projected807/995 pending normal PR merge.",
-    "released_at_utc": "2026-10-06T09:12:12.275967+00:00",
-    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B394 lease"
+    "owner": "codex-local-material-b406-20261006",
+    "status": "active",
+    "batch_id": "20261006_b406",
+    "claimed_at_utc": "2026-10-06T09:45:42.919011+00:00",
+    "expires_at_utc": "2026-10-06T11:15:42.919011+00:00",
+    "previous_release_commit": "54d21e3961f24320395da76e8cee79aeb327c289",
+    "purpose": "10 new original-source polymer/composite samples/13TG from4 DOIs; no old numeric/evidence/scope upgrades. Main807/995; projected817/1008 pending normal PR merge."
   },
   "next_sources": [],
   "next_actions": [
