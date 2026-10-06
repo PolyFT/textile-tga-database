@@ -1,6 +1,5 @@
-"""Deterministic, single-sheet reading view of the admitted TG–LOI master."""
-import csv
-import io
+"""Deterministic, single-page reading view of the admitted TG–LOI master."""
+import json
 import re
 from pathlib import Path
 
@@ -27,15 +26,22 @@ def value(row, key):
 
 
 def labelled(row, fields):
-    return '; '.join(f'{key}={row[key]}' for key in fields if row.get(key, '') != '')
+    return '; '.join(f'{key}={row[key]}' for key in dict.fromkeys(fields) if row.get(key, '') != '')
 
 
 def distinct_values(row, fields):
-    return '\n'.join(dict.fromkeys(row[key] for key in fields if row.get(key, '')))
+    return '\n'.join(dict.fromkeys(row[key] for key in dict.fromkeys(fields) if row.get(key, '')))
 
 
 def reading_row(row, entry):
     """Display exact field names; never infer a temperature or rename a peak."""
+    error_fields = sorted(key for key in row if re.search(
+        r'uncert|plusminus|error|statistic|replicat|deviation|repeats', key, re.I))
+    note_fields = sorted(key for key in row if re.search(
+        r'unknown|limit|note|definition|assign', key, re.I)
+        or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label'})
+    tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
+    loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]
     other = sorted(key for key in row if re.fullmatch(r'T\d+_C|Tmax[234]_C', key)
                    and key not in {'T5_C', 'T10_C'})
     residual = []
@@ -62,36 +68,33 @@ def reading_row(row, entry):
             row.get('TG_locator') or row.get('TG_source_location') or row.get('source_location', ''),
             row.get('LOI_locator') or row.get('LOI_source_location') or row.get('source_location', ''),
             row.get('conditions_locator') or row.get('conditions_source_location') or row.get('source_location', ''),
-            distinct_values(row, ['limitations', 'uncertainty_notes', 'verification_notes',
-                                 'onset_definition', 'source_T5_definition', 'source_Tmax_label',
-                                 'Tmax1_assignment', 'Tmax2_assignment', 'Tmax3_assignment',
-                                 'peak_assignment_note', 'source_residue_phase',
-                                 'source_residue_temperature_definition', 'source_TG_scan_range_reported',
-                                 'source_Tmax_definition', 'source_Tmax1_definition',
-                                 'source_Tmax2_definition', 'source_residue_definition']),
+            labelled(row, tg_notes),
             labelled(row, ['LOI_uncertainty_pct', 'LOI_uncertainty_type', 'LOI_statistic',
                            'LOI_reported_plus_minus', 'LOI_uncertainty_description', 'LOI_n',
                            'LOI_original', 'source_LOI_entry_raw', 'source_LOI_value_raw',
                            'LOI_standard_deviation', 'LOI_replicates', 'LOI_n_reported',
-                           'source_LOI_plusminus_pct', 'error_definition', 'source_LOI_error_definition']),
+                           'source_LOI_plusminus_pct', 'error_definition', 'source_LOI_error_definition'] + loi_notes),
             value(row, 'gas_flow_mL_min'), value(row, 'sample_state_id'), value(row, 'pair_key')]
 
 
-def csv_bytes(rows, registry):
+def page_bytes(rows, registry, report):
     entries = {tuple(entry[key] for key in ['source_identity', 'sample_state_id',
                'reviewed_measurement_fingerprint']): entry for entry in registry['entries']}
-    buffer = io.StringIO(newline='')
-    writer = csv.writer(buffer, lineterminator='\n')
-    writer.writerow(HEADERS)
-    for row in rows:
-        writer.writerow(reading_row(row, entries[observation_key(row)]))
-    return buffer.getvalue().encode('utf-8')
+    payload = {'headers': HEADERS,
+               'rows': [reading_row(row, entries[observation_key(row)]) for row in rows],
+               'meta': {'samples': report['verified_target_sample_states'],
+                        'records': report['verified_target_condition_records'],
+                        'sources': report['verified_target_sources'],
+                        'target': report['target_unique_sample_states']}}
+    encoded = json.dumps(payload, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
+    template = (Path(__file__).parent / 'reader_page.html').read_text()
+    return template.replace('__DATASET__', encoded).encode('utf-8')
 
 
 def export_reader_table(rows, registry, report, root):
     root = Path(root)
-    path = root / 'TG_LOI.csv'
-    body = csv_bytes(rows, registry)
+    path = root / 'index.html'
+    body = page_bytes(rows, registry, report)
     if not path.exists() or path.read_bytes() != body:
         path.write_bytes(body)
     start, end = '<!-- MATERIAL-TABLE-SNAPSHOT:START -->', '<!-- MATERIAL-TABLE-SNAPSHOT:END -->'

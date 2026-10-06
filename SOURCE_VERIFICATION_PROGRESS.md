@@ -1,6 +1,6 @@
 # 当前数据进度
 
-正式有效数量以 [范围审核报告](data/automation/textile_scope_report.json) 为准，目标为 3000 个经原文核验、去重的样品。首页与 CSV 阅读表由同一正式主表生成，不将候选数量计入目标。
+正式有效数量以 [范围审核报告](data/automation/textile_scope_report.json) 为准，目标为 3000 个经原文核验、去重的样品。首页与网页阅读表由同一正式主表生成，不将候选数量计入目标。
 
 最新数据批次 [B361 / PR #166](https://github.com/PolyFT/textile-tga-database/pull/166) 真正新增 8 个样品／8 条 TG 记录；另有 59 个旧样品／64 条 TG 记录完成适用范围审核。这批没有旧数值修改或证据升级。发布后有效总数为 676 个样品／841 条 TG 记录；879 个历史样品仍待范围审核。
 

@@ -1,5 +1,5 @@
 import csv
-import io
+import re
 import json
 import sys
 import unittest
@@ -10,6 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import reader_table as reader
 import textile_scope as scope
+
+
+REPORT = {'verified_target_sample_states': 1, 'verified_target_condition_records': 1, 'verified_target_sources': 1, 'target_unique_sample_states': 3000}
+
+def payload(body):
+    match = re.search(r'<script id="dataset" type="application/json">(.*?)</script>', body.decode(), flags=re.S)
+    return json.loads(match.group(1))
 
 
 class ReaderTableTests(unittest.TestCase):
@@ -53,22 +60,43 @@ class ReaderTableTests(unittest.TestCase):
             if key != 'LOI_pct':
                 self.assertIn(f'{key}={note}', display[21])
 
-    def test_csv_quoting_preserves_source_text_and_unicode(self):
-        row = dict(sample_state='Cotton,"A"\n洗涤', DOI='10.1234/中文', LOI_pct='18.0',
+    def test_original_tg_errors_and_undefined_statistics_are_preserved(self):
+        row = dict(T5_C='385', Tmax1_C='410', R700_pct='8.0',
+                   source_R700_plusminus_pct='1.2', source_T5_plusminus_C='6.3',
+                   source_TGA_unknowns='R700 is measured temperature, not inferred scan end',
+                   source_metric_limits='LOI repeat count does not establish TG repeats',
+                   source_Tmax_plusminus_C='2.9', source_TG_uncertainty_definition='uncertainty not defined',
+                   source_uncertainty_definition='not identified as SD',
+                   source_LOI_uncertainty_definition='plus/minus, statistic unspecified',
+                   source_LOI_reported_plusminus_pct='0.4', TGA_replicates='3')
+        display = reader.reading_row(row, {'scope_class': 'textile_cloth'})
+        self.assertEqual(display[6], '385')
+        self.assertEqual(display[9], '410')
+        self.assertEqual(display[10], '700℃: 8.0%')
+        for key in ['source_R700_plusminus_pct', 'source_T5_plusminus_C', 'source_Tmax_plusminus_C',
+                    'source_TG_uncertainty_definition', 'source_uncertainty_definition', 'TGA_replicates',
+                    'source_TGA_unknowns', 'source_metric_limits']:
+            self.assertIn(f'{key}={row[key]}', display[20])
+        for key in ['source_LOI_uncertainty_definition', 'source_LOI_reported_plusminus_pct']:
+            self.assertIn(f'{key}={row[key]}', display[21])
+
+    def test_html_payload_preserves_source_text_and_unicode(self):
+        row = dict(sample_state='Cotton,"A"\n洗涤 </script><img src=x onerror=alert(1)>', DOI='10.1234/中文', LOI_pct='18.0',
                    source_location='p. 3; Table 2', source_title='Title, with comma',
                    atmosphere='N2', heating_rate_C_min='10', washing_state='50 cycles')
         key = scope.observation_key(row)
         entry = dict(zip(['source_identity', 'sample_state_id', 'reviewed_measurement_fingerprint'], key),
                      scope_class='textile_cloth')
-        body = reader.csv_bytes([row], {'entries': [entry]})
-        parsed = list(csv.DictReader(io.StringIO(body.decode('utf-8'), newline='')))
+        body = reader.page_bytes([row], {'entries': [entry]}, REPORT)
+        parsed = payload(body)['rows']
         self.assertEqual(len(parsed), 1)
-        self.assertEqual(parsed[0]['样品'], row['sample_state'])
-        self.assertEqual(parsed[0]['DOI／来源编号'], row['DOI'])
-        self.assertEqual(parsed[0]['TG气氛'], 'N2')
-        self.assertEqual(parsed[0]['升温速率 (℃/min)'], '10')
-        self.assertEqual(parsed[0]['LOI页码／表／图'], row['source_location'])
-        self.assertEqual(body, reader.csv_bytes([row], {'entries': [entry]}))
+        self.assertEqual(parsed[0][0], row['sample_state'])
+        self.assertEqual(parsed[0][15], row['DOI'])
+        self.assertEqual(parsed[0][11], 'N2')
+        self.assertEqual(parsed[0][12], '10')
+        self.assertEqual(parsed[0][18], row['source_location'])
+        self.assertNotIn(b'</script><img', body)
+        self.assertEqual(body, reader.page_bytes([row], {'entries': [entry]}, REPORT))
 
     def test_every_reading_record_matches_accepted_master(self):
         with (ROOT / 'data/tg_loi_textile_master.csv').open(newline='') as handle:
@@ -76,25 +104,24 @@ class ReaderTableTests(unittest.TestCase):
         registry = json.loads((ROOT / 'data/curation/textile_scope_registry.json').read_text())
         entries = {tuple(entry[key] for key in ['source_identity', 'sample_state_id',
                    'reviewed_measurement_fingerprint']): entry for entry in registry['entries']}
-        body = reader.csv_bytes(source, registry)
-        with (ROOT / 'TG_LOI.csv').open(newline='') as handle:
-            public = list(csv.reader(handle))
-        expected = [reader.HEADERS] + [reader.reading_row(row, entries[scope.observation_key(row)]) for row in source]
-        self.assertEqual(public, expected)
-        self.assertEqual((ROOT / 'TG_LOI.csv').read_bytes(), body)
-        self.assertEqual(len({row[-2] for row in public[1:]}), len({row['sample_state_id'] for row in source}))
-        for raw, row in zip(source, public[1:]):
+        report = json.loads((ROOT / 'data/automation/textile_scope_report.json').read_text())
+        body = reader.page_bytes(source, registry, report)
+        public = payload((ROOT / 'index.html').read_bytes())
+        expected = [reader.reading_row(row, entries[scope.observation_key(row)]) for row in source]
+        self.assertEqual(public['rows'], expected)
+        self.assertEqual((ROOT / 'index.html').read_bytes(), body)
+        self.assertEqual(len({row[-2] for row in public['rows']}), len({row['sample_state_id'] for row in source}))
+        for raw, row in zip(source, public['rows']):
             self.assertEqual(row[5:10], [raw.get(key, '') for key in ['LOI_pct', 'T5_C', 'T10_C', 'Tonset_C', 'Tmax1_C']])
             self.assertEqual(row[11:13], [raw.get(key, '') for key in ['atmosphere', 'heating_rate_C_min']])
 
     def test_missing_documentary_binding_is_not_silently_exported(self):
         with self.assertRaises(KeyError):
-            reader.csv_bytes([{'sample_state': 'Unreviewed', 'LOI_pct': '30'}], {'entries': []})
+            reader.page_bytes([{'sample_state': 'Unreviewed', 'LOI_pct': '30'}], {'entries': []}, REPORT)
 
-    def test_no_duplicate_csv_records_or_stale_front_page(self):
-        with (ROOT / 'TG_LOI.csv').open(newline='') as handle:
-            rows = list(csv.DictReader(handle))
-        self.assertEqual(len(rows), len({row['测试记录ID'] for row in rows}))
+    def test_no_duplicate_page_records_or_stale_front_page(self):
+        rows = payload((ROOT / 'index.html').read_bytes())['rows']
+        self.assertEqual(len(rows), len({row[24] for row in rows}))
         report = json.loads((ROOT / 'data/automation/textile_scope_report.json').read_text())
         text = (ROOT / 'README.md').read_text()
         self.assertIn(f'**{report["verified_target_sample_states"]}**', text)
