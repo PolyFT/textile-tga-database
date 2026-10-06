@@ -72,7 +72,7 @@ class B102TextileEvidence(unittest.TestCase):
             self.assertIn('3.2', row['LOI_specimen_preparation'])
 
     def test_public_holds_exclude_private_paths(self):
-        text = (ROOT / 'data/curation/source_review_holds_20261001_b102.json').read_text()
+        text = (ROOT / 'data/curation/archive/source_review_holds_20261001_b102.json').read_text()
         for marker in ['/workspace/', '/tmp/', 'new-textile-cache/', 'new-textile-prep/']:
             self.assertNotIn(marker, text)
 

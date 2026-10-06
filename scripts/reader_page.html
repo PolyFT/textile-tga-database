@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>城市纺织材料 TG–LOI 数据表</title>
+<style>
+:root{color-scheme:light;font-family:Arial,"PingFang SC",sans-serif;color:#203346;background:#f5f7fa}body{margin:0;padding:24px}header,main{max-width:1600px;margin:auto}h1{font-size:26px;margin:0 0 12px}p{line-height:1.6;margin:8px 0;color:#506274}a{color:#17658d}#stats{font-size:17px;color:#203346;font-weight:600}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select,button{font:inherit;padding:10px;border:1px solid #c6d1da;border-radius:6px;background:white;color:inherit}input{min-width:280px;flex:1}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}.tablebox{overflow:auto;border:1px solid #d6dfe6;border-radius:8px;background:white}table{width:100%;border-collapse:collapse;font-size:14px}th{background:#e8eff5;position:sticky;top:0;z-index:1;white-space:nowrap;text-align:left}th button{background:transparent;border:0;padding:12px 8px;font-weight:bold}td{padding:12px 10px;vertical-align:top;border-top:1px solid #e6ebef}td:first-child{min-width:150px;max-width:260px}td:nth-child(2){min-width:120px;max-width:240px}td small{display:block;color:#657587;margin-top:6px;font-size:12px;white-space:pre-wrap}tbody tr:hover{background:#f2f7fb}.detail td{background:#f8fafc}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin:0}.facts div{padding:10px;background:white;border:1px solid #e1e8ed;border-radius:4px}.facts dt{font-weight:bold;margin-bottom:6px}.facts dd{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}#status{margin:12px 0;color:#506274}.pager{display:flex;align-items:center;gap:12px;margin:16px 0}.num{font-variant-numeric:tabular-nums;white-space:nowrap}.source{overflow-wrap:anywhere;max-width:190px}.empty{text-align:center;padding:36px}@media(max-width:650px){body{padding:14px}h1{font-size:22px}input{min-width:180px}.controls{gap:8px}}
+</style></head><body>
+<header><h1>城市纺织材料 TG–LOI 数据表</h1><p id="stats"></p>
+<p>每行是一条 TG 测试记录，同一样品的不同测试条件保留多行。数值按原文报告；空白表示没有可采用的数据。点击“详情”查看配方、制备、完整限制及证据位置。</p>
+<p>T5、T10、Tonset 与 Tmax 不互换；残余质量可能包含无机组分，不能一概当作纯炭。不同形态、洗涤或老化状态不可混用。<a href="https://github.com/PolyFT/textile-tga-database">仓库与完整证据</a></p></header>
+<main><div class="controls"><input id="search" type="search" placeholder="搜索样品、配方或 DOI" aria-label="搜索样品、配方或DOI"><select id="material" aria-label="材料类别"><option value="">全部材料</option></select><select id="gas" aria-label="TG气氛"><option value="">全部气氛</option></select><select id="size" aria-label="每页记录数"><option value="50">每页 50 条</option><option value="100">每页 100 条</option><option value="200">每页 200 条</option></select><button id="reset">清除筛选</button></div>
+<p id="status" role="status" aria-live="polite"></p><div class="tablebox"><table><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div><div class="pager"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div></main>
+<script id="dataset" type="application/json">__DATASET__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('dataset').textContent),all=data.rows;
+const cols=[['样品／状态',0],['材料／形态',1],['LOI (%)',5],['T5 (℃)',6],['T10 (℃)',7],['Tonset (℃)',8],['Tmax1 (℃)',9],['残余质量（温度:质量%）',10],['TG条件',11],['文献来源',15],['详情',null]];
+const numeric=new Set([5,6,7,8,9]),byId=id=>document.getElementById(id);
+let page=0,sort=null,ascending=true,selected=all;
+byId('stats').textContent=`已核验 ${data.meta.samples} 个样品 · ${data.meta.records} 条 TG 记录 · ${data.meta.sources} 篇来源 · 目标 ${data.meta.target} 个样品`;
+for(const [id,col]of[['material',1],['gas',11]])for(const value of [...new Set(all.map(r=>r[col]))].filter(Boolean).sort()){const opt=document.createElement('option');opt.value=opt.textContent=value;byId(id).append(opt)}
+function note(cell,text){if(text){const small=document.createElement('small');small.textContent=text;cell.append(small)}}
+for(const [label,key]of cols){const th=document.createElement('th'),button=document.createElement('button');button.textContent=label;if(key!==null)button.onclick=()=>{ascending=sort===key?!ascending:true;sort=key;page=0;render()};else button.disabled=true;th.append(button);byId('head').append(th)}
+function render(){
+ const term=byId('search').value.trim().toLocaleLowerCase(),material=byId('material').value,gas=byId('gas').value;
+ selected=all.filter(r=>(!material||r[1]===material)&&(!gas||r[11]===gas)&&(!term||r.some(v=>v.toLocaleLowerCase().includes(term))));
+ if(sort!==null)selected.sort((a,b)=>{if(!a[sort])return b[sort]?1:0;if(!b[sort])return-1;const cmp=numeric.has(sort)?Number(a[sort])-Number(b[sort]):a[sort].localeCompare(b[sort],'zh-CN');return ascending?cmp:-cmp});
+ const size=Number(byId('size').value),pages=Math.max(1,Math.ceil(selected.length/size));page=Math.min(page,pages-1);byId('body').replaceChildren();
+ for(const row of selected.slice(page*size,(page+1)*size)){
+  const tr=document.createElement('tr');let detail=null;
+  for(const [label,key]of cols){const td=document.createElement('td');
+   if(key===null){const button=document.createElement('button');button.textContent='展开';button.setAttribute('aria-expanded','false');button.onclick=()=>{if(detail){detail.remove();detail=null;button.textContent='展开';button.setAttribute('aria-expanded','false');return}detail=document.createElement('tr');detail.className='detail';const cell=document.createElement('td'),dl=document.createElement('dl');cell.colSpan=cols.length;dl.className='facts';for(let i=0;i<data.headers.length;i++){const box=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=data.headers[i];dd.textContent=row[i]||'未报告／无可采用数据';box.append(dt,dd);dl.append(box)}cell.append(dl);detail.append(cell);tr.after(detail);button.textContent='收起';button.setAttribute('aria-expanded','true')};td.append(button)}
+   else if(key===15){td.className='source';if(/^10\./.test(row[key])){const a=document.createElement('a');a.href='https://doi.org/'+encodeURI(row[key]);a.textContent=row[key];a.target='_blank';a.rel='noopener';td.append(a)}else td.textContent=row[key]||'见详情';note(td,row[16])}
+   else{td.textContent=row[key]||'—';if(numeric.has(key))td.className='num';if(key===0)note(td,row[4]);if(key===1)note(td,row[2]);if(key===11)note(td,`升温速率 ${row[12]||'未报告'} ℃/min${row[22]?'；流量 '+row[22]+' mL/min':''}`)}tr.append(td)
+  }byId('body').append(tr)
+ }
+ if(!selected.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=cols.length;td.className='empty';td.textContent='没有符合条件的记录，请调整筛选。';tr.append(td);byId('body').append(tr)}
+ byId('status').textContent=`当前筛选：${new Set(selected.map(r=>r[23])).size} 个样品／${selected.length} 条 TG 记录（${selected.length? page*size+1:0}–${Math.min((page+1)*size,selected.length)}）`;
+ byId('page').textContent=`第 ${page+1} / ${pages} 页`;byId('prev').disabled=page===0;byId('next').disabled=page>=pages-1;
+}
+for(const id of['search','material','gas','size'])byId(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});
+byId('prev').onclick=()=>{page--;render()};byId('next').onclick=()=>{page++;render()};byId('reset').onclick=()=>{byId('search').value=byId('material').value=byId('gas').value='';page=0;sort=null;render()};render();
+</script></body></html>

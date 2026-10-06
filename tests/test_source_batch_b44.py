@@ -46,5 +46,5 @@ class SourceBatchB44Tests(unittest.TestCase):
         self.assertEqual({r['LOI_pct'] for r in data},{'28.7','30.2'})
         self.assertTrue(all('100%' not in r.get('composition','') for r in data))
     def test_manifest_hashes(self):
-        j=json.loads((ROOT/'data/curation/source_review_manifest_20260930_b44.json').read_text())
+        j=json.loads((ROOT/'data/curation/archive/source_review_manifest_20260930_b44.json').read_text())
         for item in j['files']:self.assertEqual(hashlib.sha256((ROOT/item['file']).read_bytes()).hexdigest(),item['published_input_sha256'])

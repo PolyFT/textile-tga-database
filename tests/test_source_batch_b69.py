@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b69.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b69.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if x['file'].endswith('_'+tag+'.csv'));return list(csv.DictReader((R/f).open()))
 class Batch69(unittest.TestCase):

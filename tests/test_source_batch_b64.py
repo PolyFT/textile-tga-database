@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b64.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b64.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if x['file'].endswith('_'+tag+'.csv'));return list(csv.DictReader((R/f).open()))
 class Batch64(unittest.TestCase):
@@ -32,7 +32,7 @@ class Batch64(unittest.TestCase):
   for r in m.to_dict('records'):
    self.assertIn('not reported',r['TGA_specimen_preparation']);self.assertIn('13 x 6 cm',r['LOI_specimen_preparation']);self.assertTrue(r['LOI_reported_plus_minus'])
  def test_held_controls_and_reused_comparisons(self):
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b64.json').read_text());s=json.dumps(h);self.assertIn('10.1002/pat.2008',s);self.assertIn('CN-1',s);self.assertIn('10.4236/msa.2014.511079',s);self.assertIn('control',s.lower());self.assertIn('ramp',s)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b64.json').read_text());s=json.dumps(h);self.assertIn('10.1002/pat.2008',s);self.assertIn('CN-1',s);self.assertIn('10.4236/msa.2014.511079',s);self.assertIn('control',s.lower());self.assertIn('ramp',s)
 
  def test_wool_residue_temperature_and_preparation(self):
   d=rows('woolboron2026');self.assertEqual(len(d),17)

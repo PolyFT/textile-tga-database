@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b67.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b67.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if x['file'].endswith('_'+tag+'.csv'));return list(csv.DictReader((R/f).open()))
 class Batch67(unittest.TestCase):
@@ -29,4 +29,4 @@ class Batch67(unittest.TestCase):
   for r in d.to_dict('records'):
    self.assertEqual(r['heating_rate_C_min'],'10');self.assertEqual(r['atmosphere'],'nitrogen');self.assertIn('initial',r['washing_state'])
  def test_whole_paper_holds(self):
-  h=(R/'data/curation/source_review_holds_20260930_b67.json').read_text();self.assertIn('4% SMSN',h);self.assertIn('cowhide',h);self.assertIn('washed',h);self.assertIn('4.59',h)
+  h=(R/'data/curation/archive/source_review_holds_20260930_b67.json').read_text();self.assertIn('4% SMSN',h);self.assertIn('cowhide',h);self.assertIn('washed',h);self.assertIn('4.59',h)

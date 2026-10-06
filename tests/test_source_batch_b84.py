@@ -12,7 +12,7 @@ def rows(tag):
         return list(csv.DictReader(f))
 class SourceBatchB84Tests(unittest.TestCase):
     def test_exact_inputs_remain_review_bound_and_counted_by_state(self):
-        manifest=json.loads((ROOT/'data/curation/source_review_manifest_20261001_b84.json').read_text())
+        manifest=json.loads((ROOT/'data/curation/archive/source_review_manifest_20261001_b84.json').read_text())
         all_rows=[]
         for source in manifest['files']:
             path=ROOT/source['file']
@@ -71,7 +71,7 @@ class SourceBatchB84Tests(unittest.TestCase):
         self.assertIn('possible_sample_alias',known_issues({'DOI':'10.1007/s11814-014-0095-2','sample_state':'CFs'},issues))
         self.assertNotIn('possible_sample_alias',known_issues(rows('appcabt_cotton2014')[0],issues))
     def test_public_holds_omit_private_cache_paths(self):
-        text=(ROOT/'data/curation/source_review_holds_20261001_b84.json').read_text()
+        text=(ROOT/'data/curation/archive/source_review_holds_20261001_b84.json').read_text()
         for marker in ['/workspace/','/tmp/','new-textile-cache/','new-textile-prep/','/root/']:
             self.assertNotIn(marker,text)
 if __name__=='__main__':

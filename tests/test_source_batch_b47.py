@@ -32,12 +32,12 @@ class Batch47(unittest.TestCase):
         self.assertEqual(set(d),{'AZ1','AZ2','AZ10'});self.assertFalse(d['AZ2']['T80_C'])
         self.assertTrue(all(r['TG_end_C']=='750' and r['atmosphere']=='N2' and r['gas_flow_mL_min']=='30' for r in d.values()))
         self.assertFalse(any(r.get('Tonset_C') for r in d.values()))
-        h=json.loads((R/'data/curation/source_review_holds_20261001_b47.json').read_text())
+        h=json.loads((R/'data/curation/archive/source_review_holds_20261001_b47.json').read_text())
         self.assertEqual(next(x['source_values'] for x in h if x.get('field')=='T80_C'),{'Table6':472,'Section3.7':471})
     def test_incomplete_condition_and_LOI_facts_are_not_verified(self):
-        with (R/'data/curation/source_review_condition_partial_20261001_b47.csv').open(newline='') as f:d=list(csv.DictReader(f))
+        with (R/'data/curation/archive/source_review_condition_partial_20261001_b47.csv').open(newline='') as f:d=list(csv.DictReader(f))
         self.assertEqual(len(d),8);m,_,_,r=build_tables(pd.DataFrame(d));self.assertTrue(m.empty);self.assertEqual(r['verified_exact_sample_states'],0)
         cotton=[x for x in d if x['DOI']=='10.1021/acsomega.8b00822'];self.assertEqual(len(cotton),3);self.assertTrue(all(not x['atmosphere'] for x in cotton))
     def test_manifest_input_hash(self):
-        m=json.loads((R/'data/curation/source_review_manifest_20261001_b47.json').read_text())
+        m=json.loads((R/'data/curation/archive/source_review_manifest_20261001_b47.json').read_text())
         for x in m['files']:self.assertEqual(hashlib.sha256((R/x['file']).read_bytes()).hexdigest(),x['published_input_sha256'])

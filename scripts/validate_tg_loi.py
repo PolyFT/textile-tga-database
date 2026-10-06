@@ -37,7 +37,7 @@ CANDIDATES = DATA / 'tg_loi_candidates.csv'
 QUARANTINE = OUT_DIR / 'pairing_quarantine.csv'
 IMPORT_QUARANTINE = OUT_DIR / 'source_import_quarantine.csv'
 ISSUES = DATA / 'curation/known_pairing_issues.csv'
-README = ROOT / 'README.md'
+README = ROOT / 'docs/MAINTENANCE.md'
 SNAPSHOT_START = '<!-- TG-LOI-SNAPSHOT:START -->'
 SNAPSHOT_END = '<!-- TG-LOI-SNAPSHOT:END -->'
 PUBLICATION_TYPES = ('journal_article', 'conference_proceedings', 'author_preprint')
@@ -323,7 +323,6 @@ def update_readme(report):
         f"- Overall reviewed sources: **{report['verified_exact_sources']}**; source identity schema **{report['source_identity_schema_version']}**",
         f"- Recorded publication types (disjoint Grade-A source identities): {publication_summary}",
         f"- Sources explicitly marked `author_preprint` (without conflicting type metadata): **{report['verified_author_preprint_sources']} sources / {report['verified_author_preprint_condition_records']} conditions / {report['verified_author_preprint_sample_states']} states**",
-        f"- Target: 2000 verified sample states; remaining **{report['remaining_to_target']}**", '',
         'Publication types use explicit `publication_type` metadata on Grade-A candidate rows before deduplication; pending and quarantined rows cannot classify verified sources. Non-DOI `original_conference_proceedings` also identifies conference proceedings. Missing-only labels are `unspecified`; unknown labels are `unrecognized`; disagreeing nonempty labels are `conflicting_metadata`, excluded from the author-preprint subtotal. Blank labels do not contradict an explicit source-level type. DOI presence and Grade-A numerical review do not establish journal publication or peer review.',
         'Unspecified or unrecognized publication types do not invalidate accepted numerical evidence. Zero explicitly marked author-preprint sources does not establish that no legacy source is a preprint.',
         'New author-preprint rows should explicitly record `publication_type=author_preprint` and `source_version`. These reporting fields do not change source identities, fingerprints or the evidence gate.',

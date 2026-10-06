@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b70.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b70.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if x['file'].endswith('_'+tag+'.csv'));return list(csv.DictReader((R/f).open()))
 class Batch70(unittest.TestCase):
@@ -26,4 +26,4 @@ class Batch70(unittest.TestCase):
  def test_seven_states_nine_conditions(self):
   d=pd.DataFrame(rows('boron2023')+rows('lpu2025'));m,_,_,v=build_tables(d);self.assertEqual(len(m),9);self.assertEqual(v['verified_exact_sample_states'],7);self.assertFalse(numeric_errors(d))
  def test_holds_preserve_conflicts_and_prior_screening(self):
-  h=(R/'data/curation/source_review_holds_20260930_b70.json').read_text();self.assertIn('31.9',h);self.assertIn('15 min',h);self.assertIn('polym15051183',h);self.assertIn('d5ra00402k',h)
+  h=(R/'data/curation/archive/source_review_holds_20260930_b70.json').read_text();self.assertIn('31.9',h);self.assertIn('15 min',h);self.assertIn('polym15051183',h);self.assertIn('d5ra00402k',h)

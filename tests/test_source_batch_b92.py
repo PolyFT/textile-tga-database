@@ -59,7 +59,7 @@ class B92OriginalEvidenceTests(unittest.TestCase):
         self.assertEqual((rows['12']['LOI_pct'], rows['12']['R600_pct']), ('30', '35.5'))
 
     def test_public_holds_have_no_private_paths(self):
-        text = (ROOT / 'data/curation/source_review_holds_20261001_b92.json').read_text()
+        text = (ROOT / 'data/curation/archive/source_review_holds_20261001_b92.json').read_text()
         for marker in ['/workspace/', '/tmp/', 'new-textile-cache/', 'new-textile-prep/']:
             self.assertNotIn(marker, text)
 

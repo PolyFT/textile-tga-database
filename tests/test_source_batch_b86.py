@@ -9,7 +9,7 @@ def rows(tag):
         return list(csv.DictReader(f))
 class SourceBatchB86Tests(unittest.TestCase):
     def test_review_bound_inputs_and_state_condition_counts(self):
-        m=json.loads((ROOT/'data/curation/source_review_manifest_20261001_b86.json').read_text());all_rows=[]
+        m=json.loads((ROOT/'data/curation/archive/source_review_manifest_20261001_b86.json').read_text());all_rows=[]
         for source in m['files']:
             p=ROOT/source['file'];self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),source['published_input_sha256'])
             with p.open(newline='') as f:data=list(csv.DictReader(f))
@@ -54,6 +54,6 @@ class SourceBatchB86Tests(unittest.TestCase):
         self.assertIn('corresponding',r['source_material_form_TGA_raw'])
         self.assertIn('solution',r['limitations']);self.assertIn('owf',r['limitations'])
     def test_public_holds_have_no_private_paths(self):
-        text=(ROOT/'data/curation/source_review_holds_20261001_b86.json').read_text()
+        text=(ROOT/'data/curation/archive/source_review_holds_20261001_b86.json').read_text()
         for marker in ['/workspace/','/tmp/','new-textile-cache/','new-textile-prep/','/root/']:self.assertNotIn(marker,text)
 if __name__=='__main__':unittest.main()

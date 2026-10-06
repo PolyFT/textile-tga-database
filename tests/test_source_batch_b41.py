@@ -62,5 +62,5 @@ class SourceBatchB41Tests(unittest.TestCase):
     def test_unresolved_sources_stay_outside_this_batch(self):
         blocked = {'10.3390/ma19020265', '10.1021/acsaenm.6c00308', '10.3390/polym18010127', '10.1039/d4mh01684j'}
         self.assertFalse(blocked & {r['DOI'] for r in source_rows()})
-        holds = json.loads((ROOT / 'data/curation/source_review_holds_20260930_b41.json').read_text())
+        holds = json.loads((ROOT / 'data/curation/archive/source_review_holds_20260930_b41.json').read_text())
         self.assertTrue(blocked <= {r['DOI'] for r in holds})

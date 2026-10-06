@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from scripts.pairing import evidence_issues,measurement_fingerprint
 from scripts.validate_tg_loi import build_tables,numeric_errors
-R=Path(__file__).resolve().parents[1];M=R/'data/curation/source_review_manifest_20260930_b59.json'
+R=Path(__file__).resolve().parents[1];M=R/'data/curation/archive/source_review_manifest_20260930_b59.json'
 def rows(tag):
  f=next(x['file'] for x in json.loads(M.read_text())['files'] if tag in x['file']);return list(csv.DictReader((R/f).open()))
 class Batch59(unittest.TestCase):
@@ -40,4 +40,4 @@ class Batch59(unittest.TestCase):
    if r['DOI']=='10.2115/fiber.28.9_359':self.assertEqual(r['TGA_specimen_preparation'],'not reported');self.assertIn('woven or knitted',r['LOI_specimen_preparation'])
  def test_source_hashes_and_holds(self):
   for f in json.loads(M.read_text())['files']:self.assertEqual(hashlib.sha256((R/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])
-  h=json.loads((R/'data/curation/source_review_holds_20260930_b59.json').read_text());self.assertEqual(len(h),10);s=json.dumps(h);self.assertIn('Kanekalon',s);self.assertIn('PZS treatment bath',s);self.assertIn('Carbon Fiber and Glass',s)
+  h=json.loads((R/'data/curation/archive/source_review_holds_20260930_b59.json').read_text());self.assertEqual(len(h),10);s=json.dumps(h);self.assertIn('Kanekalon',s);self.assertIn('PZS treatment bath',s);self.assertIn('Carbon Fiber and Glass',s)

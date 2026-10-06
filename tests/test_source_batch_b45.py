@@ -40,7 +40,7 @@ class SourceBatchB45Tests(unittest.TestCase):
     def test_conflicted_proban_onset_is_withheld(self):
         unw = next(r for r in rows() if r['sample_state'] == 'UNW')
         self.assertEqual(unw['Tonset_C'], '')
-        holds = json.loads((ROOT/'data/curation/source_review_holds_20261001_b45.json').read_text())
+        holds = json.loads((ROOT/'data/curation/archive/source_review_holds_20261001_b45.json').read_text())
         conflict = next(h for h in holds if h.get('sample_state') == 'UNW')
         self.assertEqual(set(conflict['source_values'].values()), {321.1, 321.61})
 
@@ -61,7 +61,7 @@ class SourceBatchB45Tests(unittest.TestCase):
         self.assertTrue(all(not r.get('gas_flow_mL_min') for r in data))
 
     def test_missing_conditions_stay_outside_verified_target(self):
-        with (ROOT/'data/curation/source_review_condition_partial_20261001_b45.csv').open(newline='') as handle:
+        with (ROOT/'data/curation/archive/source_review_condition_partial_20261001_b45.csv').open(newline='') as handle:
             data = list(csv.DictReader(handle))
         self.assertEqual(len(data), 5)
         self.assertTrue(all(not r['atmosphere'] for r in data))
@@ -72,6 +72,6 @@ class SourceBatchB45Tests(unittest.TestCase):
         self.assertFalse(cotton.get('Tmax1_C') or cotton.get('Tmax2_C'))
 
     def test_manifest_hashes(self):
-        manifest = json.loads((ROOT/'data/curation/source_review_manifest_20261001_b45.json').read_text())
+        manifest = json.loads((ROOT/'data/curation/archive/source_review_manifest_20261001_b45.json').read_text())
         for item in manifest['files']:
             self.assertEqual(hashlib.sha256((ROOT/item['file']).read_bytes()).hexdigest(), item['published_input_sha256'])

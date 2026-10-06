@@ -7,7 +7,7 @@ from pathlib import Path
 from scripts.pairing import evidence_issues, measurement_fingerprint, pair_key, sample_state_id
 from scripts.validate_tg_loi import known_issues
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / 'data/curation/source_review_manifest_20261001_b80.json'
+MANIFEST = ROOT / 'data/curation/archive/source_review_manifest_20261001_b80.json'
 def rows(tag):
     with (ROOT / f'data/incoming/verified_source_batch_20261001_b80_{tag}.csv').open(newline='') as handle:
         return list(csv.DictReader(handle))
@@ -16,7 +16,7 @@ def issues():
         return list(csv.DictReader(handle))
 class SourceBatchB80Tests(unittest.TestCase):
     def test_public_hold_export_does_not_include_private_cache_paths(self):
-        text = (ROOT / 'data/curation/source_review_holds_20261001_b80.json').read_text()
+        text = (ROOT / 'data/curation/archive/source_review_holds_20261001_b80.json').read_text()
         for marker in ['/workspace/', '/tmp/', 'new-textile-cache/', 'new-textile-prep/', '/root/']:
             self.assertNotIn(marker, text)
     def test_exact_inputs_and_unique_states_remain_review_bound(self):

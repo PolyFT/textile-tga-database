@@ -37,6 +37,6 @@ class SourceBatchB46Tests(unittest.TestCase):
         control=next(r for r in data if r['sample_state']=='COT' and r['atmosphere']=='air')
         self.assertEqual(control['R800_pct'],'0');self.assertEqual(control['Tmax2_C'],'472')
     def test_review_manifest_hashes(self):
-        j=json.loads((ROOT/'data/curation/source_review_manifest_20260930_b46.json').read_text())
+        j=json.loads((ROOT/'data/curation/archive/source_review_manifest_20260930_b46.json').read_text())
         self.assertEqual(j['summary']['held_guanidine_states'],5);self.assertEqual(j['summary']['held_PAA_states'],6)
         for f in j['files']:self.assertEqual(hashlib.sha256((ROOT/f['file']).read_bytes()).hexdigest(),f['published_input_sha256'])

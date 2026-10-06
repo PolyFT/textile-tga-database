@@ -69,7 +69,7 @@ class B90OriginalEvidenceTests(unittest.TestCase):
         self.assertFalse(any(r['DOI'] == '10.31788/RJC.2022.1547069' and r['sample_state'] == '*' and r['status'] == 'open' for r in issues))
 
     def test_public_holds_have_no_private_paths(self):
-        text = (ROOT / 'data/curation/source_review_holds_20261001_b90.json').read_text()
+        text = (ROOT / 'data/curation/archive/source_review_holds_20261001_b90.json').read_text()
         for marker in ['/workspace/', '/tmp/', 'new-textile-cache/', 'new-textile-prep/']:
             self.assertNotIn(marker, text)
 

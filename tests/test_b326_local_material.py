@@ -38,5 +38,5 @@ class SourceChecks(unittest.TestCase):
                 changed=dict(by['PET','air']);changed[key]=value
                 self.assertTrue(p.evidence_issues(changed))
     def test_canonical_profile_duplicates_resolved(self):
-        a=json.loads((R/'data/curation/source_review_manifest_20261006_b326.json').read_text());self.assertEqual((a['canonical_comparisons'],a['raw_paired_profile_hit_comparisons'],a['unresolved_approved_profile_hits'],a['raw_hit_presentations']),(76,0,0,23))
+        a=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b326.json').read_text());self.assertEqual((a['canonical_comparisons'],a['raw_paired_profile_hit_comparisons'],a['unresolved_approved_profile_hits'],a['raw_hit_presentations']),(76,0,0,23))
 if __name__=='__main__':unittest.main()

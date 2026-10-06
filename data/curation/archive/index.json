@@ -1,0 +1,1172 @@
+{
+  "archive_version": 1,
+  "archive_baseline_main_sha": "cbd6269012df8cbbcc7532397dd45cebf9b031a2",
+  "scientific_data_changes": 0,
+  "files": [
+    {
+      "original_path": "README.md",
+      "archived_path": "docs/archive/README-through-b361.md",
+      "sha256": "03b17d8d323d8de1420db77e5307522da2cf1f073eedeb98a302b40d9c9abf5e"
+    },
+    {
+      "original_path": "SOURCE_VERIFICATION_PROGRESS.md",
+      "archived_path": "docs/archive/source-verification-through-b361.md",
+      "sha256": "e9a4449297105307ff409405a88c5a28825511dbb78abd2affdcf1a0bb3e90bd"
+    },
+    {
+      "original_path": ".github/workflows/tg_loi_harvest.yml",
+      "archived_path": "docs/archive/workflows/tg_loi_harvest.yml",
+      "sha256": "77667593b52df1548e10048c654992deadc1f371ab2d9887a0739690fe627e0f"
+    },
+    {
+      "original_path": ".github/workflows/tg_loi_process.yml",
+      "archived_path": "docs/archive/workflows/tg_loi_process.yml",
+      "sha256": "0461fed15a5138e9344e13bf738c227fac7f264bae43d293c503d417fc38d0a4"
+    },
+    {
+      "original_path": "data/curation/source_verification_progress.json",
+      "archived_path": "docs/archive/source-verification-through-b361.json",
+      "sha256": "23117d2ef98b83e5f041811f4db0f4983f4858cba861563da0cbd0ec41401e56"
+    },
+    {
+      "original_path": "data/curation/c6ra26075f_source_hold.json",
+      "archived_path": "data/curation/archive/c6ra26075f_source_hold.json",
+      "sha256": "cc9b36ac416e8d8bad116760de396670030fd55dd456138585c4f07bce4d0dc0"
+    },
+    {
+      "original_path": "data/curation/cotton_batch6_source_issues.json",
+      "archived_path": "data/curation/archive/cotton_batch6_source_issues.json",
+      "sha256": "e79f19a0136981903991b1d96a16d0930e92fc26462c8b8067a624d562c4055a"
+    },
+    {
+      "original_path": "data/curation/cotton_batch7_source_issues.json",
+      "archived_path": "data/curation/archive/cotton_batch7_source_issues.json",
+      "sha256": "3b921bc5bd0dd0f27cb03066fd632235248209e6c604b5f371e0b39689821867"
+    },
+    {
+      "original_path": "data/curation/legacy_scatter_recovery_audit_20260930.json",
+      "archived_path": "data/curation/archive/legacy_scatter_recovery_audit_20260930.json",
+      "sha256": "376268d191cc9938e1b8a9ffe9377fe0a867b9919edc185f2c93ccc1a71636a4"
+    },
+    {
+      "original_path": "data/curation/legacy_scatter_recovery_pending_20260930.csv",
+      "archived_path": "data/curation/archive/legacy_scatter_recovery_pending_20260930.csv",
+      "sha256": "8124b0d65a5ea610dedb84ee8b171abd6c449562deaa94a020b2591d69a19e50"
+    },
+    {
+      "original_path": "data/curation/ma15072537_source_hold_20260930.json",
+      "archived_path": "data/curation/archive/ma15072537_source_hold_20260930.json",
+      "sha256": "e226a3b92968356ef9d0346c55b4e77ec02e9baeb6f9566c86dc0eee126bf305"
+    },
+    {
+      "original_path": "data/curation/recovered_legacy_diff.csv",
+      "archived_path": "data/curation/archive/recovered_legacy_diff.csv",
+      "sha256": "c9e8e297c22efc3a3c0861cfc91fa36ecf6b50048bf3ff464402d65fa0fdab8b"
+    },
+    {
+      "original_path": "data/curation/recovered_legacy_diff.json",
+      "archived_path": "data/curation/archive/recovered_legacy_diff.json",
+      "sha256": "a796f23246fa061ee9a211352a1cdf8021e3fa1e2d49e37a8c16e85369590571"
+    },
+    {
+      "original_path": "data/curation/recovered_legacy_diff.md",
+      "archived_path": "data/curation/archive/recovered_legacy_diff.md",
+      "sha256": "96dddffe287c6d8079bafeeef4c3df56a61a30418b1902318748acdbe0638b6f"
+    },
+    {
+      "original_path": "data/curation/source_review_additional_LOI_conditions_20261001_b60.csv",
+      "archived_path": "data/curation/archive/source_review_additional_LOI_conditions_20261001_b60.csv",
+      "sha256": "b25c41e08ffd57f95bde775d7963b6a007aa949fe849937e789db718d04c5532"
+    },
+    {
+      "original_path": "data/curation/source_review_additional_holds_20260930.csv",
+      "archived_path": "data/curation/archive/source_review_additional_holds_20260930.csv",
+      "sha256": "ca2fe58f9de5c2d9f2054bc52963c365d71f8d066b1a5ec1ba263fa4b43c16b9"
+    },
+    {
+      "original_path": "data/curation/source_review_condition_partial_20261001_b45.csv",
+      "archived_path": "data/curation/archive/source_review_condition_partial_20261001_b45.csv",
+      "sha256": "9a14e890f772a2252e281c5e238b6d2ea7d83e581bf04cd80d87221f2ef7e136"
+    },
+    {
+      "original_path": "data/curation/source_review_condition_partial_20261001_b47.csv",
+      "archived_path": "data/curation/archive/source_review_condition_partial_20261001_b47.csv",
+      "sha256": "6e0e7358003c261c5c039a63b4219ca5fbf2ff04813837ce98e2fa05f1558e7c"
+    },
+    {
+      "original_path": "data/curation/source_review_condition_partial_20261001_b49.csv",
+      "archived_path": "data/curation/archive/source_review_condition_partial_20261001_b49.csv",
+      "sha256": "7396d1a57a3100ed63c906771dcd38daea9109342c02c7369f65e99ba6a95092"
+    },
+    {
+      "original_path": "data/curation/source_review_condition_partial_20261001_b53.csv",
+      "archived_path": "data/curation/archive/source_review_condition_partial_20261001_b53.csv",
+      "sha256": "316c1d305821b7e3c806fb2fcb743db959def08fe4d941db4db40d98c79c07db"
+    },
+    {
+      "original_path": "data/curation/source_review_condition_partial_20261001_b58.csv",
+      "archived_path": "data/curation/archive/source_review_condition_partial_20261001_b58.csv",
+      "sha256": "72d8cfd9c91848eef628288c06742357ee9bcea9200a362932131bc8570e8fbd"
+    },
+    {
+      "original_path": "data/curation/source_review_crosswalk_20261001_b45.json",
+      "archived_path": "data/curation/archive/source_review_crosswalk_20261001_b45.json",
+      "sha256": "7d8c294f9c2ba6770e990343b777e40f4f556cc9b7f0d9e63df7879cc632a2d1"
+    },
+    {
+      "original_path": "data/curation/source_review_crosswalk_20261001_b47.json",
+      "archived_path": "data/curation/archive/source_review_crosswalk_20261001_b47.json",
+      "sha256": "0357109a7d1a32db9604bca3fcd3617bc6ecad73dff149d7c7ac5ff863817b4f"
+    },
+    {
+      "original_path": "data/curation/source_review_crosswalk_20261001_b49.json",
+      "archived_path": "data/curation/archive/source_review_crosswalk_20261001_b49.json",
+      "sha256": "ddf6aff5f4d0e1a28caa2ac840659dbc21505224e2ab766be7263f0fcd805063"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930.csv",
+      "archived_path": "data/curation/archive/source_review_holds_20260930.csv",
+      "sha256": "a1955acc760bc65fc693b055463eb4d06567a376eea08ccddf85da024e58f868"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b40.csv",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b40.csv",
+      "sha256": "32028371f30824247588357b3b34e2ca86ba21737ceb25f4a831bc73ff327331"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b41.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b41.json",
+      "sha256": "26c5a07e8a794ce7e64f7ca5aeec4345adeb881c3b71a4ad15d0c1e0aae9242c"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b42.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b42.json",
+      "sha256": "b35ab76f78e5745495458a838dd6285eec8b9b2065c8ef4a690843f65b25e513"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b43.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b43.json",
+      "sha256": "d52e15676a0ca7c449955642411d4f530ca83b3e6fb28361e356f981b5a3d2e1"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b44.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b44.json",
+      "sha256": "9733c6abe9b47dc08c8c10f7808a56b41972f4720b4c4bcdacba49f9bbbe3d25"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b46.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b46.json",
+      "sha256": "1f5da5783a509280751ff1dfb4b24eff74cab2a8d90a59eb9a7e5166d646911f"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b48.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b48.json",
+      "sha256": "65104f5cff6a6c57fc63a44a9a9962fbc70d0e576265a9e2ad37e3fae6d7a437"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b50.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b50.json",
+      "sha256": "948cdca67be402bb1ffc87b1b4bb9405e00356e30ba258b24ccea688fb5cc241"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b51.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b51.json",
+      "sha256": "2322456fb0f5de7fbe36dc347f05d183e602fd565d0cbd5484a29481f1641546"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b52.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b52.json",
+      "sha256": "be596363f1c5b52a5f57f2a53331dd28a41c7a31fd414bd4542402c8002104c6"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b54.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b54.json",
+      "sha256": "cdae06bdf1daffc82aeb6d69e2503c8a7220675e7d3f2131d1c7d96e8e6fc2be"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b55.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b55.json",
+      "sha256": "bc21ef6a56ab01c0d11104acf956ff630008e0ce18694a891ecd149599ccf326"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b56.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b56.json",
+      "sha256": "e652a0de03d32ce8d734b6ae52306090f381293d40dd6203c6be85805087725f"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b57.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b57.json",
+      "sha256": "e5fabc420080c3451a8edc4c0073a22396ba4ca974fb2ba4a3216aba322017db"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b59.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b59.json",
+      "sha256": "1e10c3f43910989838b25166cbbdea70bc7d2b3874890bf3ef73664fb1413b27"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b61.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b61.json",
+      "sha256": "4800a850100568fca5c0418f10953c4663c8120a3e716e06503848cffd3a3565"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b64.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b64.json",
+      "sha256": "2c963724c4970e1314ec4e7b3f715626699dc46e9f04eeb22052a83744ff3762"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b66.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b66.json",
+      "sha256": "98b46724fd0b0dfb3641aba2bba49158b20075955c477bf70e175a99c08c0399"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b67.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b67.json",
+      "sha256": "843246653ff464ee90a4a712bcfd93bd62bfffd4da3cce0b7371f55fbb11aebd"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b69.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b69.json",
+      "sha256": "225731e530a2a93e6225eaba54a4fe470400909a0821dbd95652995615b2d6d5"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20260930_b70.json",
+      "archived_path": "data/curation/archive/source_review_holds_20260930_b70.json",
+      "sha256": "70fd2a2a7aa4c1963428b105c1e48e4c435b3c2d5e959f740eb19d0820728d2b"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b100.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b100.json",
+      "sha256": "833ddc0a207c78cc675bb6294f2ea6f5bc70173f23cfe5d750241ba4579bffe8"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b102.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b102.json",
+      "sha256": "d7b6b510e7e978ad6c45ece5cd13ec1dfc08463112b04b85b239e3ddb4f45f25"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b104.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b104.json",
+      "sha256": "5dc1a85d8de6eb1f1725c44fbd4958de964d48f891fc7fd5d2d0f4737a75ab19"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b106.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b106.json",
+      "sha256": "99d01ff72f2af49e899561c30832d914c38e828d7d64e819c73809ee0ca06594"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b45.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b45.json",
+      "sha256": "fbb3c819b882b5e5959d5c8ddba9a7bfd39271358987392b638c9badd2d2257d"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b47.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b47.json",
+      "sha256": "a0e41ac35caee24f0c4f556299b383444646830ed161ea11b63505fd90377266"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b49.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b49.json",
+      "sha256": "2c5f2163a9e28e579fe56908218e8e937e8261565aaddbe21140d8032ef9b5df"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b53.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b53.json",
+      "sha256": "6d06ac1543fb8a06bc2f109147b888dac532bab7ae254ab7db1083bd388e2b2f"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b58.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b58.json",
+      "sha256": "c399a15af440862cf36748554153da9792ca7635b7cfb65d64fed9bf3a60cf1c"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b60.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b60.json",
+      "sha256": "cbdf398823d2e03d233d08a573a6a75797b2c62d7c08480b889d45ef88edd2a6"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b62.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b62.json",
+      "sha256": "24764431e32abd3b117b5d205d07c4257d5469417a77d318ff5a09e4f4d3d00f"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b63.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b63.json",
+      "sha256": "587f34f99bc32893926c53fec5fe2f117bd8563df97d5f0166613b26f02f6549"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b65.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b65.json",
+      "sha256": "79983076ff66eda569e8f2c6c7bf6e532f635fdd8b025e13e74fa55a1fb7441b"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b68.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b68.json",
+      "sha256": "7ff72df88bb622b0c3ccca1825923ccc14710e8502873298028192088353d00c"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b71.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b71.json",
+      "sha256": "a72ef8c650ab90fc73d087e93387c3a1e91f8e6caf42de11a3fc9f5e14cf0ec1"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b72.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b72.json",
+      "sha256": "eacfee96fc3e9ec67721584fce63d16a90b73d0fd2fc72a67015fa6d1e29bb00"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b73.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b73.json",
+      "sha256": "249f3ae5589647efeb5b69bd12bce21d8c85ef790c7522761cbdad51c99cba9a"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b74.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b74.json",
+      "sha256": "2eaabbc8f4f8eda4e7614b79bb64b95dccef328acb627037d325ee285b17f658"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b75.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b75.json",
+      "sha256": "a30d82e9483e372830b3fafbdd52401f002aa52d06a41c2696879d27b28f70eb"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b76.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b76.json",
+      "sha256": "57f8f8d6cb07a87248c3360b77baa3bed5bd3b03a3bd053749ddb1841335ee47"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b78.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b78.json",
+      "sha256": "a60770f55ff05006d62b585cbce75de6e1b309af67901c384b3d29abe05baaaf"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b80.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b80.json",
+      "sha256": "b33c64b5be6b0179dcefd0a47ff86d09250389877fd1dae0acf8643a8be45d7f"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b82.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b82.json",
+      "sha256": "073fbd80a6ea3f7ef0ae96c2da3f45bbf5393cbf67d6283edfa0e13a73e531ec"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b84.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b84.json",
+      "sha256": "0f909aef9023e800f06489536dccde7161703fd6f929e0103796e695a7e22d12"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b86.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b86.json",
+      "sha256": "e0c083065d910c0424a26927308630449782243d8d27d360b5e6506359b8dcef"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b88.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b88.json",
+      "sha256": "c45f9830dfd7025fcaef4c5436d017da1b2f63626a0142d872eea5d9f6f45f2c"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b90.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b90.json",
+      "sha256": "3b5869ab236037afb9f9001caae81094e2f83d6131512e52cbf44aefbe8fb9df"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b92.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b92.json",
+      "sha256": "218f794d14584c5921d477320f4533a83f527f82ac5312ecba2c7d8566f88b33"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b94.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b94.json",
+      "sha256": "c8ac9aa6fc277ba80ab9ab9ff52872b95a080d90200b642b84ebf784f7fe6e53"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b96.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b96.json",
+      "sha256": "81c6f5113ef1e879ce633d8c8e17d033474dc1356a4d636d69187957805160bd"
+    },
+    {
+      "original_path": "data/curation/source_review_holds_20261001_b98.json",
+      "archived_path": "data/curation/archive/source_review_holds_20261001_b98.json",
+      "sha256": "e427b69c570af7edd428bffa29c79fc8f124364a40f8a7ea749bff41058b8162"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b43.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b43.json",
+      "sha256": "501224c8cca3f4d23916ac512bbf9e86d2f392ae309c903835290c13f1d73f35"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b44.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b44.json",
+      "sha256": "523c2dac06f040e67c39ba715d851301b5fe931d3ba7abf83e6a3c165df80553"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b46.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b46.json",
+      "sha256": "e1e059b938406a2c5abd2a007a7ff28edc3031c4a7204dd74a55787a89c19c42"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b48.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b48.json",
+      "sha256": "4332495ebde0a9a04ed1fe0d456463809946ea38be7fd6ee646825645a889e8f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b50.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b50.json",
+      "sha256": "db88defd6fce38313c6d0adedd36c1abc26d1e60fa079e101c60bd07467bfc97"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b51.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b51.json",
+      "sha256": "39ad435ce97d3563c44b9f9359206b23437f3fce3716111c03067eaf16e19a6f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b52.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b52.json",
+      "sha256": "9a2625ffeed75569e559da342fdf488adb8222979e9b2f8af40de85003139e75"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b54.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b54.json",
+      "sha256": "8d7417a1892369381bc8d4d90c3e0c729da8b13f86a66cc10f6476839d79dd3e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b55.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b55.json",
+      "sha256": "1d6cb3ec7b96e5ab72a3c5037520bae8970b401e1da05a9fc191d6ef42d3caf8"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b56.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b56.json",
+      "sha256": "b2baa2075c40bff4947626ca8d2c85d64d5300339cb4e75589c434de9b664332"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b57.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b57.json",
+      "sha256": "020d260fe8fb1b21aec42ed730ff2725e05eabeaaf455545061a7ef745a9c3d5"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b59.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b59.json",
+      "sha256": "2f10684987f3e678595965668c531399e6cb4389d77390b935319907ba00f72a"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b61.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b61.json",
+      "sha256": "294b4714ce41658db633ca41e443ddae139310252dfff6a666a4885afe376c35"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b64.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b64.json",
+      "sha256": "a9684182f450b8e0c338a3b312d46283871bc1adecbde25686f4836458b87ebc"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b66.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b66.json",
+      "sha256": "76ab1d3e7bca15377f7a5eaeae5ce8ce04047c33afd2e7e14960e81f59232487"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b67.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b67.json",
+      "sha256": "0706c2a0efd64ce2a90408589369a4092ef82b737eaeb635a9473d4fcf484cf9"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b69.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b69.json",
+      "sha256": "3954d8dfb4d1d1625aa6677a65ebdab3ff35c5fb878259eb97ed3a9557da31c7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20260930_b70.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20260930_b70.json",
+      "sha256": "9552a410f2e9cff912a4d8faae5e8f3e9f51fb5b03c7a2a7fdd3d247a30e59e4"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b100.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b100.json",
+      "sha256": "ddb241994eae68364fcf2910ef30bc9982b3c5b9ad096ff637853a51b9cb8179"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b101.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b101.json",
+      "sha256": "52b04d6e08a9cc66236f55fa0690ca86423a39f37649e5045a5393e68ae0ff0d"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b102.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b102.json",
+      "sha256": "fff0475c127e2e9305db9d0cb0c88f75b47365214375340a64c202aeeb1c5b7b"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b103.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b103.json",
+      "sha256": "1cadd6ec3e3e6f79095267783c65a6b25cf3d1310dc0babfc695bb99ec3ea9b1"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b104.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b104.json",
+      "sha256": "d04ede684db6872c0c95479fae9ff7a152c581e373876cfa280fcb38363769da"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b105.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b105.json",
+      "sha256": "88a462a5e2b30a291814ad9a0d4a05246c5903d87b8680c1922b7afee3571ada"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b106.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b106.json",
+      "sha256": "a5037d8b12d1d316751f562838cc0c65a9d835e4c50cbf31597fecd17977d8cb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b107.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b107.json",
+      "sha256": "d2625371b8e253c7ffe683b1b528b30eb6985fb80de94a6c5d1eb7a0b876374e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b108.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b108.json",
+      "sha256": "3e24c1fe0efdb2d09a6d979836f7dac9b6b7dd324bb8315e9a8930bf97438bbc"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b110.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b110.json",
+      "sha256": "4ec3a116fe85b3e3a4ca79cc875718879a869e9141fc8cddb848656780047661"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b111.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b111.json",
+      "sha256": "7c238e0f78f8cc487ab8516d5f9bb7aa3480bd4ae2b38ef701835e4fa512b7e7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b112.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b112.json",
+      "sha256": "34e9305b1ff5f561e6ad02c2ad27decd4a488cbde89cf29b2afefd27667f70aa"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b45.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b45.json",
+      "sha256": "a5eb8fd182e80b4714fa6c0c913a0993262f9e8cf9890a69e093dcd623ecf5d1"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b47.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b47.json",
+      "sha256": "ea90a350b1d6d07503d01dac72dd8e66542778618872c7425ab8f705441662c8"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b49.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b49.json",
+      "sha256": "1376fc0e6038e65eecc5a1e39baafcbd7b84c94a46fddd51d8809330b2d658b6"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b53.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b53.json",
+      "sha256": "e6d5b017c3b764cf8e7ff4df97d02781d5987584372b24d59a3b7129d32d4cf3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b58.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b58.json",
+      "sha256": "b4fc848e200a659ef522e902ff3273534326d962990304e16ccfbe7a59a91117"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b60.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b60.json",
+      "sha256": "e24ca5468b5572a7ccd049069d73d78f3284532005b8c7573a3b4ce5c1d2ef2b"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b62.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b62.json",
+      "sha256": "8d6aeb70912bd14586fd4ad0cbe3e0eb04d06d3a540410c6e51356c499fdde1c"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b63.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b63.json",
+      "sha256": "ef287f7a6c6652cd8d3c74cc1b222ed90124165e54230729b83e792aad03ff09"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b65.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b65.json",
+      "sha256": "595472ea28975273fb7bb3b4ab14ae52eb627867e985dbdd97b3ff234da2a549"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b68.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b68.json",
+      "sha256": "89c91849021ffbd4c8ef22167531f50b9682fc39b9b71eaa3520d9c20e40a612"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b71.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b71.json",
+      "sha256": "9013a80620a8e847ecb3a7ebc2a2a9a815562286f4c96e70efb9a22d1a4c8e41"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b72.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b72.json",
+      "sha256": "a44decb74625f1234471e0e66f89dc4435294317118e5d12aeffdb9cc042fb13"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b73.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b73.json",
+      "sha256": "828977418c0748c1611f4a7f802d21c98ec4a705a865f92e13131cd6389fca44"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b74.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b74.json",
+      "sha256": "20b9e8ecc1ab17245cdcc34de86079f53741f36f5f2517507c53ad8cc4a23b67"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b75.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b75.json",
+      "sha256": "540b4451fbad0ef2472a73931c8a618b765f5a76afa33205196c6a055821a5f2"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b76.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b76.json",
+      "sha256": "a605dbe3442de640369ee19c9ed0cbd4bd27bc4074c993400bc7531df9d07b59"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b77.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b77.json",
+      "sha256": "e5817272566a435d4ab187d92226796aeaa2eadf2421279c5bc30f0bac6beee2"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b78.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b78.json",
+      "sha256": "4f1fd94b6c3cdd23cf0c17e87b7a6b738d2f1760684e323ae3251b5753c5405a"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b79.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b79.json",
+      "sha256": "74535b9a9d36035ca30edecef81947ef0a57878c3a78f6b3fe9d4ca4268d76f7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b80.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b80.json",
+      "sha256": "c5955cae8fffc12b4992264efaa28b5be20aa8a216a801b0a23a2071cf9bd8d1"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b81.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b81.json",
+      "sha256": "7d5b3415171091f0436a04254324f922b915c118388804033665e2bf823afc1c"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b82.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b82.json",
+      "sha256": "0a1758fb37938a3c7e46f4814a2e2d5327319d5749a12d8e7223b890c94321af"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b83.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b83.json",
+      "sha256": "c0786c662762779236de868006bee4d44e415749b33b89c1aaff42ebc9d6f5fe"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b84.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b84.json",
+      "sha256": "6d8ced05aed99277bb0bb7fab53f5703cb8e67957004eedcb579ab7378556727"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b85.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b85.json",
+      "sha256": "d2d4a9cdf467aa219b47f3aaba1017cfbfaf676536259bc2ef195bb0743e08b6"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b86.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b86.json",
+      "sha256": "66f95394fbc5c290e817c0dd08a88df8ada6f97daa3108e310146459f88321ec"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b87.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b87.json",
+      "sha256": "ee7e0e08b93dddd0c389a0a8bff6d464b3a89d68041f321ba6f34ae9b7b66585"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b88.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b88.json",
+      "sha256": "d3b5ce30dbbc426d77b9c031609bb0e232a5df2a2b79fad1187e4e024ea01c57"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b89.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b89.json",
+      "sha256": "1f53f8d0618fa177a6f634b45c175e277601213bcf0a24bd0b839af5e43538de"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b90.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b90.json",
+      "sha256": "95489147a750dd6e70ce800f8d226b64f76531ec5d3ee395d243e76368c75f37"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b91.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b91.json",
+      "sha256": "d256bc57f8e27ee2e141635f877848d4445f6b5800bd6773672827f2deeb54dd"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b92.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b92.json",
+      "sha256": "dce800feee2a2bd3be2e0694dce6aecfaffcd477df0e7da48d674b51aa9d96f6"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b93.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b93.json",
+      "sha256": "b053e5b49feeee23831aad1f3be8de1b336bd955d5e1ce3f27c44e5b3c8c424a"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b94.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b94.json",
+      "sha256": "3f2edcfbb3baac4245c53d4e23129377774bae260b1d317440b479139ba77bcf"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b95.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b95.json",
+      "sha256": "34e07973ba4099cc61a8b896ae119f837d8723ed53b572709ccb5d74ca3ffb21"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b96.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b96.json",
+      "sha256": "36cc24475a55de10f6e3e79bc7a4481511f300d244610526ad4fa30cd09bb5af"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b97.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b97.json",
+      "sha256": "76799558a1397be9ad116dadbc4745b2ff1a04d032bbf4514289c4fa5ca068f3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b98.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b98.json",
+      "sha256": "53f60872578c9a17b3a8542cec3fe152834e113b7b0d6efccd487563b5ecb811"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261001_b99.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261001_b99.json",
+      "sha256": "d4386d35678e812001a2a17ab0a0dcc0099f8f3c4592b50ef7c5541de78fcae3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b113.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b113.json",
+      "sha256": "b0b76e7cce8e96873b65d56b8d22177fe2f108e6815d206643da67bd66184294"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b114.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b114.json",
+      "sha256": "5fead72d2818df1774797a6de9d9ce2b4f7b314951fe5a87ca22629b462441bb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b115.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b115.json",
+      "sha256": "dba14a02e111842afb190febf43a12f022f029f012c13595f01233d405afcf3b"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b116.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b116.json",
+      "sha256": "33f4095c819fd733743a6ae9634d46aa4b4ddf925dad385b12b43f36371a876f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b117.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b117.json",
+      "sha256": "a9dd2e4981515acec6a74dd3cf54d5e382d0a09f03bbfe5271e5d9889823819a"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b118.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b118.json",
+      "sha256": "cdb26cb62a785ca13cfd7b7fbad12d7162c20a987a8de0c915de57b555fa11ca"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b119.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b119.json",
+      "sha256": "73cfd23082ccf66ea3ced7db81f2fcea99319d7577c9e76334c7758aa70bf6f9"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b120.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b120.json",
+      "sha256": "ef1e6cb71a75fd31616e9826e250a54c35c94fc53f37e93db97f9801e32f0d10"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b121.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b121.json",
+      "sha256": "775f99551b799738bcaf8ede120fa6e01af8da5af5bc75b40f5f9ebcfb931f5c"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b122.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b122.json",
+      "sha256": "6a703c18a15e20df9c490b76905eb4bf29a8a750f8bdbd613f557433f5ca5c57"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b123.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b123.json",
+      "sha256": "7581ef4984d3feeacfeca8ad042efad88f4fe770706fe9db0b13bf9a31aa05b6"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b124.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b124.json",
+      "sha256": "4b702d6ec3bf818428ea585c93018bf3e69d56f76d049365746b23108b1b3164"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b125.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b125.json",
+      "sha256": "f1dda9da79ad7fd275fbf9d26b2411afe726c339670bd1d18e7a23cfaf2fdfec"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b126.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b126.json",
+      "sha256": "b4f952909fa08b80aa7aa020d346bedbfaa647edbb174635bd81afb80ec4e4b5"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b127.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b127.json",
+      "sha256": "19739fa8427436b9ecd103cd0bab9cfd9f95da9115a2062c1f0fca4c65e521b3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b128.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b128.json",
+      "sha256": "82d9c0276f1cd8ba84b2bd9bf24a5b6bb8f0b89639276e144ce8263ed183c6f6"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b129.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b129.json",
+      "sha256": "608f6488e48461c6d70fd2993e929e3d5a7542ec25ceda4ce4c7dcb7e0670faf"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b130.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b130.json",
+      "sha256": "c3aa9fdda694bab54c03ed69aaf1a58d3a36d423641255badbaf7a5d03d4ab5e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b131.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b131.json",
+      "sha256": "96e60954b56755fad1014cc458c5f0c20e9de482327b75121bad19c70efb9e46"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b132.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b132.json",
+      "sha256": "b59f2a707439307d77e79fda9abb3419dd94272e9a2cb7b36dcb9ce2d07d97b5"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b133.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b133.json",
+      "sha256": "99097abeeff717ead7cd3039f94724f3e2b62ec12651bb7ef2e355517594fa7e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b134.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b134.json",
+      "sha256": "459b5ebcd9aeb2090aa4650e3a3f2acd28de729bb15692d21bd1290e95c82843"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261002_b135.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261002_b135.json",
+      "sha256": "008df9698051ed36cd58b8f6b20d17e0701a580d1a74e300aede43cd1c2021ef"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b136.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b136.json",
+      "sha256": "82ef65f44cf891e3a76ef665bf37e9a1271d943c4241b2cc533b6d591a45adef"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b137.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b137.json",
+      "sha256": "eead81b1a7f967fd9c728d9b4f65fb7699b6c19fdfa10e8077ebca3b1484237f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b138.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b138.json",
+      "sha256": "b0d68cbfe52f39db19f7813793d0ce5d476f8ddc13f1a549f68b2a0ca33053a9"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b139.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b139.json",
+      "sha256": "5b5002f3baaab88c35b717802f4efb234885a258b103b75ee1b907c0b45398a3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b140.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b140.json",
+      "sha256": "8c40df0f9d8dbeb5fc6de79c37d69d7cc4ef1fbd1690ebdb5d6f9b0e04c89dfd"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b141.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b141.json",
+      "sha256": "93605b298764f9247b45eb9f85abaf3181441f62e42c9e82146ca43df7d32fc2"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b146.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b146.json",
+      "sha256": "2f383251471fd3c1336a822c87e94cc66025c270bbd8e70fd1a29c7c00429e9f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261003_b147.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261003_b147.json",
+      "sha256": "da1db483255623d56500171802cc72ac9ed095a4f697a1da30fbbe4ee21a1593"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b148.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b148.json",
+      "sha256": "47f1ca56d0b345e66d7927846434dc5e123e956ba26cae195ce621d84851b488"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b149.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b149.json",
+      "sha256": "785f6082b01e91b04bf1f52513cc1ed68159befbd07ad786ff7d5e156281d04f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b150.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b150.json",
+      "sha256": "adf5ed790f8f6d622432a3638b065d0fae7143f6f4b15ca0a142e4c6874f447f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b151.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b151.json",
+      "sha256": "02e7b667f79028dd18d3fdb8b88649755d945d56096a38c4973bd794fa62779f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b152.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b152.json",
+      "sha256": "0a15ad34b92b3447db3d3724a8ffbb263eb390de051cf39d852b0d5fd213f554"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b153.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b153.json",
+      "sha256": "16192c17d29757b95e10df142cc53233519f6077e004965ea8616480bc2eeb1e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b154.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b154.json",
+      "sha256": "1e475caddfb426d986004fbc9f2183c59c08687ce47720ce181f005b91c31ec1"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b155.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b155.json",
+      "sha256": "41231bc591d7d6d866b8358654c8a97a4dde2af54cbd70dd66ad5e8c800f7018"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b156.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b156.json",
+      "sha256": "51ef06f166dc1bea1925dec6c78b8e19349334c1e2ec6e3514a5c15533996f81"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b157.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b157.json",
+      "sha256": "dca48df145c12f81626a76e111536ca679537632082e6c1ff4ae1d8d4dbda211"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b158.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b158.json",
+      "sha256": "e7cf61dbf55688f3909d9df455bedbbbe6bb5ccc83d5b647d28b478ec4947eed"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b159.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b159.json",
+      "sha256": "2f78d624389181cc8762db48a597c2dda1bb7ed111a926b65cefe697f52a240d"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b160.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b160.json",
+      "sha256": "113cd7108339505e6e9c85b9d15d9db78d0d91c739cfc04c0fe547a6dcd6ea75"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b161.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b161.json",
+      "sha256": "92465e9d1659fac1e951f89c03bb499fe89ead7d56373f6163a59cdcab223bef"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b162.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b162.json",
+      "sha256": "fb9b2fd1fc59ead429c46628e44ba048485bae8bda36fa54492161e915be5da7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b163_b168.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b163_b168.json",
+      "sha256": "f49141b6c68d48ca7ac22b3bca1265966b0e9c11e16dbb0cbfab824964335bf9"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b169.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b169.json",
+      "sha256": "a1e8d1c2ff6f18bb74ede4bb09086d0703adea15d46d09bb57e9763030fd8ad7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b170_b171.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b170_b171.json",
+      "sha256": "02ae08d0fdd3b193025409fb9a76d28469b4733c773313ced3bde8a6f5652ade"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b172_b174.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b172_b174.json",
+      "sha256": "dae7bed4ff9acd469163c51672c4ec2108209719a1c1f13b2dc57c317aff4486"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b175_b176.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b175_b176.json",
+      "sha256": "c6b33d698812ec9f77859f31ea675d573f5d77c7c02cc674d735d7d50a3e6edb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b177_b180.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b177_b180.json",
+      "sha256": "58c3e745b56828363df9870a18c915fb5acf41cf87e582b92a7a6d33418861db"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b181_b185.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b181_b185.json",
+      "sha256": "99a8d295af5f769cc4aec105882557f627c372693fd18b7678bb1120dac93c49"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b187_b191.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b187_b191.json",
+      "sha256": "068e637c47f73762d7fb359436c13973afe083dc714c7685dcd4756b425cd20f"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b192_b197.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b192_b197.json",
+      "sha256": "a0a5d7e259b908cecafc5779a12ea8ae574c5db44431204a879084193c5d83b3"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b198_b200.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b198_b200.json",
+      "sha256": "6219b1561f984eff827a2f90300ad45993f1325d0b7639938d97fa6e4b0e60b7"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b201_b203.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b201_b203.json",
+      "sha256": "81e675fc6ae7c20208b4bf75a0c7c1fe881a14129044bdb575dbe08f18c0cb42"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b205_b208.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b205_b208.json",
+      "sha256": "fbc35799787efaf606f759a8f19364067b47d087f8ab86a4564b0e15a15f2e3b"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b209_b210.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b209_b210.json",
+      "sha256": "307dce16748b9a328549cb8c2428240840fb79471cf188761cda6f909307dcf5"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b219_b220.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b219_b220.json",
+      "sha256": "669167665252f3bfa17fae778a119b29368f04a4119e3409478d66ab12b2495e"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261004_b223_b225.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261004_b223_b225.json",
+      "sha256": "e141ae2f7a623f2b478dcdac68ab9649ea9ec36ba9ecb6657fe1ac88e1e8a3c1"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b237_b239.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b237_b239.json",
+      "sha256": "1742b8166fd36ebbf8b523cb2c847bd675dcd86b3467af2aee4da340599196d8"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b240_b243.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b240_b243.json",
+      "sha256": "7676007b4194bf9169880fa995c776d5d0dcef58f7d490d2746f6c48d38e8287"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b252.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b252.json",
+      "sha256": "981f2770a414a0edc31f49e44f3997e067a9be445b60adebfbb3adc6471fbd25"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b254_b259.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b254_b259.json",
+      "sha256": "645250527cf71fa88d48e35935b43d43a9a5c7b8e33c6add9f54c3e9bf0ff4ea"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b261_b262.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b261_b262.json",
+      "sha256": "772b4e0ce8683ce6b35b666daa12022acc0087cd73ffd2833cf83b2accef06cb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b272_b276.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b272_b276.json",
+      "sha256": "8c42f521045075e86c402d0d8e9bc0f160eed44f6de53104baa9ca63cd6a6eff"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b282_b284.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b282_b284.json",
+      "sha256": "da6eb9218da58774eb6649abbd4882e0b4694c580d6f3964e6d05235653129f9"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b286_b289.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b286_b289.json",
+      "sha256": "49ed192cb17692b9edfca4eb9e6e9b6ad3bc2d6b1c43ade96dd065d3838e371c"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b294.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b294.json",
+      "sha256": "345f888c88d632dfd0a02d0d46d000ac8803d612ad41ca1666dd4ceee9182dc0"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b304.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b304.json",
+      "sha256": "bbd667712d10fa8f43e7a52552c86e8efeeb7f66e28914dda1314c461fa8fd20"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b307_b308.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b307_b308.json",
+      "sha256": "7f9fbec0815b9a4942a418c0f220420ecb3f0fe38fb499a51f29a55e2f902912"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b309.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b309.json",
+      "sha256": "9ab1ae8a04042d5fda3d6cd3e4e788bd5d68375e73dd99576db81bb4fc122b95"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b310.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b310.json",
+      "sha256": "0e4cf874b72b384f30c07c94d0d9db7ea723148424c2bffba1e0c6dfaf35e8c0"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b312.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b312.json",
+      "sha256": "9bba36e88d4f837865d9df2d80f44bba8810f3fabb1c8ea3486e47f692145554"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261005_b313.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261005_b313.json",
+      "sha256": "f24e126709234f169da6fcece121c7c0e2665a4b6544735e289786dd5b00a656"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b317.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b317.json",
+      "sha256": "bc059733c431dfb7e5bae7be0890ef9e77b50fb86c625721360cb9f8a05126e4"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b319.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b319.json",
+      "sha256": "c99a3992e8729f99641057c43aa9cf8b0dfce4c2945cb1f2f39ac54b7289b5eb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b321.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b321.json",
+      "sha256": "24ee80d60c061d380c76a60b33ab390aea9d177fe788e8de6bb3ab660d5f57e2"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b325.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b325.json",
+      "sha256": "1832e1f69d3df015964df6fa4625eafa8f970165af7585cf73006e5e9a5b05ca"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b326.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b326.json",
+      "sha256": "5451218fcc112a9ea13a1634fd4daa460aea7a6f6c4874a23b35cf8548e26824"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b327.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b327.json",
+      "sha256": "4b1c3de62547d3d6e237d36834f037090d5e0aa0946ec4aa1c5e143630f50520"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b329.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b329.json",
+      "sha256": "865404e80ab1022f4386f8ac4122801998cbcff8243f884017d8966ab71aae2a"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b333.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b333.json",
+      "sha256": "ac98911f3ff778a73ee8bdc1923eb6ac81e6093837d69a339f72bfcc53fb35ea"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b335.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b335.json",
+      "sha256": "d4a607412671edbd44b06b81e7c000c5e182db2eff620f3a59a6c6795bf30b09"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b351.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b351.json",
+      "sha256": "157adfc4507201493d6ed68d318eb3743d62bb605a2ce2575de184de410ce6bb"
+    },
+    {
+      "original_path": "data/curation/source_review_manifest_20261006_b361.json",
+      "archived_path": "data/curation/archive/source_review_manifest_20261006_b361.json",
+      "sha256": "dc192e8139f7f5abcdd0e72759ff50c5985acfc7cb51c12f77f4e78040b17187"
+    }
+  ]
+}

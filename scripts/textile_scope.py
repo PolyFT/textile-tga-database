@@ -119,7 +119,8 @@ def main():
     with master_path.open(newline='') as handle:
         reader = csv.DictReader(handle)
         columns, rows = reader.fieldnames, list(reader)
-    admitted, report = classify(rows, json.loads(registry_path.read_text()))
+    registry = json.loads(registry_path.read_text())
+    admitted, report = classify(rows, registry)
     buffer = io.StringIO(newline='')
     writer = csv.DictWriter(buffer, fieldnames=columns, lineterminator='\n')
     writer.writeheader()
@@ -133,6 +134,11 @@ def main():
                         (json.dumps(report, indent=2) + '\n').encode())]:
         if not path.exists() or path.read_bytes() != data:
             path.write_bytes(data)
+    try:
+        from .reader_table import export_reader_table
+    except ImportError:
+        from reader_table import export_reader_table
+    export_reader_table(admitted, registry, report, ROOT)
     print(json.dumps(report, indent=2))
 
 

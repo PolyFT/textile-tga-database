@@ -9,7 +9,7 @@ from scripts.pairing import evidence_issues, measurement_fingerprint, pair_key, 
 from scripts.source_identity import source_gate_issues
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / 'data/curation/source_review_manifest_20261001_b73.json'
+MANIFEST = ROOT / 'data/curation/archive/source_review_manifest_20261001_b73.json'
 
 
 def rows(tag):

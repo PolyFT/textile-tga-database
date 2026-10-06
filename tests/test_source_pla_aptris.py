@@ -40,5 +40,5 @@ class PLAAPTris(unittest.TestCase):
         self.assertNotEqual(altered['reviewed_measurement_fingerprint'],measurement_fingerprint(altered))
         master,_,_,_=build_tables(pd.DataFrame([altered]))
         self.assertTrue(master.empty)
-        holds=json.loads((ROOT/'data/curation/source_review_holds_20261001_b68.json').read_text())
+        holds=json.loads((ROOT/'data/curation/archive/source_review_holds_20261001_b68.json').read_text())
         self.assertTrue(any(h['DOI']=='10.3390/ma12193095' and 'thermallybonded' in h['disposition'] for h in holds))

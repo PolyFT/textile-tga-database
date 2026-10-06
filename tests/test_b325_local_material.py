@@ -30,7 +30,7 @@ class SourceChecks(unittest.TestCase):
                 changed=dict(by['PP4']);changed[key]=value
                 self.assertTrue(p.evidence_issues(changed))
     def test_no_full_profile_duplicates(self):
-        a=json.loads((R/'data/curation/source_review_manifest_20261006_b325.json').read_text())
+        a=json.loads((R/'data/curation/archive/source_review_manifest_20261006_b325.json').read_text())
         self.assertEqual((a['canonical_comparisons'],a['raw_paired_profile_hit_comparisons'],a['unresolved_approved_profile_hits']),(84,0,0))
         self.assertEqual(a['raw_hit_presentations'],5)
 if __name__=='__main__':unittest.main()

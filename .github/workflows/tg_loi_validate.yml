@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
     paths:
+      - "index.html"
+      - "README.md"
+      - "docs/MAINTENANCE.md"
       - "data/**/*.csv"
       - "schema/**"
       - "scripts/**"
@@ -14,6 +17,9 @@ on:
       - ".github/workflows/tg_loi_validate.yml"
   pull_request:
     paths:
+      - "index.html"
+      - "README.md"
+      - "docs/MAINTENANCE.md"
       - "data/**/*.csv"
       - "schema/**"
       - "scripts/**"
@@ -45,4 +51,4 @@ jobs:
       - name: Export source-admitted textile pairs
         run: python scripts/textile_scope.py
       - name: Check committed snapshot consistency
-        run: git diff --exit-code -- README.md data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json
+        run: git diff --exit-code -- README.md index.html docs/MAINTENANCE.md data/tg_loi_master.csv data/tg_loi_candidates.csv data/automation/validation_report.json data/automation/pairing_quarantine.csv data/automation/source_import_quarantine.csv data/tg_loi_textile_master.csv data/automation/textile_scope_report.json
