@@ -1,0 +1,204 @@
+{
+  "batch": "B540",
+  "status": "SOURCE_AND_REUSE_APPROVED_PREMERGE_SNAPSHOT",
+  "root_source_and_reuse_approved": true,
+  "published": 0,
+  "published_new_pairs": 0,
+  "formal_main_before": [
+    937,
+    1157,
+    184
+  ],
+  "branch_prediction": [
+    954,
+    1178,
+    188
+  ],
+  "source_supported_new_unique_states": 17,
+  "source_supported_new_TG": 21,
+  "source_supported_old_scope_unique_states": 0,
+  "source_supported_old_scope_TG": 0,
+  "numerical_evidence_upgrades": 0,
+  "source_reviews": [
+    {
+      "DOI": "10.1002/app.43370",
+      "source_title": "Flame retardancy and thermal and mechanical performance of intercalated, layered double hydroxide composites of polyamide 11, aluminum phosphinate, and sulfamic acid",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "Four nominalrecipes/eightTGconditions wholehold: sameextrudate doesnotestablishTGpowder hadsameinjectionhistory asLOIbar. Purecontrol alsooutsideexplicitcompositeprep. Ownnumbers preserved, notnewadmissions.",
+      "evidence_locator": "PDFpp1-10TablesI-III"
+    },
+    {
+      "DOI": "10.1002/pat.4920",
+      "source_title": "Preparation of flame‐retardant polyamide 6 by incorporating <scp>MgO</scp> combined with <scp>g‐C<sub>3</sub>N<sub>4</sub></scp>",
+      "new_unique_states": 1,
+      "TG_conditions": 1,
+      "scientific_decision": "MCN20only1/1candidate basedonexplicitR80012.1. Purecontrolprocessingheld. OtherthreematchedfilledTGrows haveundefinedonset/Tmaxandunboundresiduetemp rawonly; totalMCN10TGhasmultiplefeedratioLOIbranchesunassigned. No800terminalborrow. FiveotherLOIstatesnotTGinterpolated. Source/peer/root and frozen-context reuse now accepted with original metric limits; primary snapshot remains historical.",
+      "evidence_locator": "PDFp6/1968Table2/section3.5; p7/1969continuation; PDFp3/1965Table1; p4/1966section3.1"
+    },
+    {
+      "DOI": "10.1002/app.50015",
+      "source_title": "Enhancing flame retardant and antistatic properties of polyamide 6 by a grafted multiwall carbon nanotubes",
+      "new_unique_states": 4,
+      "TG_conditions": 4,
+      "scientific_decision": "Fourfilledstates/4TGcandidate usingownT5/R700. Purecontrolhistoryheld. FiveothergraftdosesLOIonly; powderadditivesTGonly. UndefinedTmaxrawonly; FTIRselectedheatingpoints400/460/750notcanonicalTGvalues. Source/peer/root and frozen-context reuse now accepted with original metric limits; primary snapshot remains historical.",
+      "evidence_locator": "PDFp6/6of11Table4; p8section3.3 incorrectlycitesTable5; PDFp4/4of11Table2; p7section3.2"
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2019.107069",
+      "source_title": "Dual effect of dynamic vulcanization of biobased unsaturated polyester: Simultaneously enhance the toughness and fire safety of Poly(lactic acid)",
+      "new_unique_states": 8,
+      "TG_conditions": 8,
+      "scientific_decision": "primary_pending_non_author_root_fullreuse Source/peer/root and frozen-context reuse now accepted with original metric limits; primary snapshot remains historical.",
+      "evidence_locator": "PDFp4 Table1 TG columns; section3.3 and Fig3/FigS3 described in main; PDFp4 Table1 LOI column; p6 section3.4"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2010.09.008",
+      "source_title": "The influence of comonomers on the degradation and flammability of polyacrylonitrile: Design input for a new generation of flame retardants",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "complete_wholehold_processing_bridge; additional source conflicts preserved",
+      "evidence_locator": "PDFp3 Table2/footnotes;p2 Table1;p3 section2.2;pp4-7 source inconsistencies"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2014.02.020",
+      "source_title": "Preparation of a novel biobased flame retardant containing phosphorus and nitrogen and its performance on the flame retardancy and thermal stability of poly(vinyl alcohol)",
+      "new_unique_states": 4,
+      "TG_conditions": 8,
+      "scientific_decision": "Four own cast-film recipes/eightTG tests supported. B533/B536 restore only air PVA5 T5=275.2 and PVA10=253.1; conflicting air endpoint T5 and nitrogen PVA15 residue remain held.",
+      "evidence_locator": "PDFp5 Table4 air; PDFp4 section3.3 explicit metric definitions; PDFp3 Table2 own sample labels and formulation; section3.2 | PDFp5 Table5 nitrogen; PDFp4 section3.3 explicit metric definitions; PDFp3 Table2 own sample labels and formulation; section3.2"
+    }
+  ],
+  "inherited_complete_source_review": {
+    "B526_B528": {
+      "PDF_pages": 30,
+      "HTML_scientific_tables": 2
+    },
+    "B527_B529": {
+      "PDF_pages": 27
+    }
+  },
+  "root_critical_source_reading": {
+    "B539": {
+      "PDF_pages": 21,
+      "whole_papers_newly_read": false
+    }
+  },
+  "metric_derivation": {
+    "B533_B536": "Only two original-reported air middle-series T5 values restored;12 pub/raw CSVcells and2 scope measurement bindings. No new samples; endpoints and nitrogen residue conflict retained."
+  },
+  "reuse_boundary": {
+    "original_frozen_paths": 63873,
+    "unique_scientific_payloads": 1597,
+    "full_context_variants": 20073,
+    "quarantines": 2,
+    "reviewed_context_keys": 1855,
+    "current_main_source_family_contexts": 157,
+    "current_main_family_sources": 37,
+    "indexed_related_family_sources": 48
+  },
+  "numeric_comparisons": {
+    "v5": {
+      "canonical": 103866,
+      "raw": 118545
+    },
+    "index_bruteforce_proofs": 42,
+    "v5_multi": 33,
+    "v5_scalar_only": 373,
+    "latest_main_rows": 2145,
+    "latest_dual_comparisons": 90090,
+    "latest_multi": 29,
+    "latest_scalar_only": 60,
+    "within_queries": 13
+  },
+  "source_reuse_limits": [
+    "FR-PA6-2 oldLOI-only identity unreported: cannot assert proved distinct or duplicate; no numerical pair and own new source preparation/table evidence supports retaining candidate with limit.",
+    "vnl22070 Ref43 explicitly related citation retained; batch IDs unreported; no cross-source batch inference.",
+    "PLA own Ref28/33 previous synthesis/mechanics papers not newly read in full; source all-sample preparation and own measured Table1 provide positive test evidence, not nohit alone.",
+    "Two original malformed quarantine boundaries remain; no fabricated missing data. Raw method quantities and ambiguous peaks are not canonical TG discriminators."
+  ],
+  "sparse_scalar_identity_limit": {
+    "DOI": "10.3390/polym17040475",
+    "sample": "FR–PA6-2",
+    "old_role": "LOI-only rejected presentation, no paired TG fields",
+    "prior_LOI": "27.2",
+    "actual_query_index": 12,
+    "actual_query_LOI": "27",
+    "unknown": [
+      "composition",
+      "supplier",
+      "preparation",
+      "cohort"
+    ],
+    "decision": "Not proved distinct or same. One scalar does not identify a physical pair; no automatic duplicate/downselect. New own PLA/BUP/APP materials/preparation/test tables provide positive evidence. Keep identity limitation; root may hold on stricter residual-uncertainty judgment. Old rejection does not decide scope."
+  },
+  "sparse_scalar_decision": "Retain new own-source TPLA/APP20 based on explicit recipe/preparation and own paired table. Old FR-PA6-2 has only one LOI value and no TG pair or supplied formulation; its identity is not proven same or different. No automatic duplicate/downselect, no new admission of the old record, and no universal all-source-independence claim.",
+  "root_approval_receipt_sha256": "1ef22f70aeb14f0cc565f90acd2ab75a55a11d00907db92cbdbe76bb826507f2",
+  "source_stage_snapshots": [
+    "data/curation/archive/20261007/source_review_manifest_b526.json",
+    "data/curation/archive/20261007/source_review_manifest_b533.json"
+  ],
+  "stage_boundary": "Original pending-phase snapshots remain exact and carry no root/publication approval. This combined record approves selected source/reuse evidence before normal PR; formal totals require merge and remote checks.",
+  "source_annotation_guidance_supersedes_historical_nonpublication_notes": [
+    {
+      "DOI": "10.1002/app.43370",
+      "sample_state": "AlPi",
+      "field": "source_preparation_scope_note",
+      "old": "",
+      "guidance": "Isolated additive TG state only; generic matrix-composite preparation elsewhere in source_preparation is background and must not be assigned to this powder. No LOI or final composite forming state borrowed.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "DOI": "10.1002/app.43370",
+      "sample_state": "SA-LDH",
+      "field": "source_preparation_scope_note",
+      "old": "",
+      "guidance": "Isolated additive TG state only; generic matrix-composite preparation elsewhere in source_preparation is background and must not be assigned to this powder. No LOI or final composite forming state borrowed.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "DOI": "10.1002/app.50015",
+      "sample_state": "MWCNTs",
+      "field": "source_preparation_scope_note",
+      "old": "",
+      "guidance": "Isolated additive TG state only; generic matrix-composite preparation elsewhere in source_preparation is background and must not be assigned to this powder. No LOI or final composite forming state borrowed.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "DOI": "10.1002/app.50015",
+      "sample_state": "MWCNTs",
+      "field": "source_location",
+      "old": "PDFpp3-5sections2.1-2.4; PDFp6/6of11Table4; p8section3.3 incorrectlycitesTable5; ",
+      "guidance": "Use existing correct TG_locator PDFp7 section3.1/Fig3 PDFp3 for isolated additive numeric R800; Table4pp6 and §3.3p8 are composite background, not additive R provenance.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "DOI": "10.1002/app.50015",
+      "sample_state": "DOPO-MWCNTs",
+      "field": "source_preparation_scope_note",
+      "old": "",
+      "guidance": "Isolated additive TG state only; generic matrix-composite preparation elsewhere in source_preparation is background and must not be assigned to this powder. No LOI or final composite forming state borrowed.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "DOI": "10.1002/app.50015",
+      "sample_state": "DOPO-MWCNTs",
+      "field": "source_location",
+      "old": "PDFpp3-5sections2.1-2.4; PDFp6/6of11Table4; p8section3.3 incorrectlycitesTable5; ",
+      "guidance": "Use existing correct TG_locator PDFp7 section3.1/Fig3 PDFp3 for isolated additive numeric R800; Table4pp6 and §3.3p8 are composite background, not additive R provenance.",
+      "numeric_or_publication_impact": 0
+    },
+    {
+      "source": "10.1016/j.polymdegradstab.2010.09.008",
+      "primary_field": "source_metric_limits AN/VBA36.8",
+      "limit": "PDFp4 discusses higherVBA contents at18.2 without an exact isolated final-row label in that sentence; PDFp5 explicitly says17.3mol% belowPAN. Table2 final21.2 remains a conflict context; do not claim p4 explicitly labels17.3mol%. Wholehold20 unchanged; no request to alter scientific values."
+    }
+  ],
+  "changes": {
+    "old_master_fields": 0,
+    "old_scope_entries": 0,
+    "provided_scientific_fields": 0,
+    "new_scope_review_admin_entries": 21
+  },
+  "privacy": "Factual data and DOI/page/table/figure locators only; no fulltext, private notes or local paths."
+}
