@@ -1,6 +1,6 @@
 # Source verification progress — 2026-10-05
 
-The evidence-reviewed broad master contains **1535 unique source/sample/washing states**, **1953 TG condition records**, and **430 original sources (428 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **543 reviewed target states /675 TG records** are admitted. **992 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
+The evidence-reviewed broad master contains **1535 unique source/sample/washing states**, **1953 TG condition records**, and **430 original sources (428 DOI sources and 2 registered non-DOI proceedings)**. The expanded urban textile/fibre-forming-material target is **3000 states**; **597 reviewed target states /752 TG records** are admitted. **938 historical broad states remain scope-pending**. Candidates and scope-pending records are not the target count.
 
 ## Batches
 
@@ -2708,3 +2708,32 @@ Target543states/675TG:417cloth/522TG,37fibres/37TG,11polymers/17TG,78polymercomp
 ### b333 publication proof
 
 [PR #163](https://github.com/PolyFT/textile-tga-database/pull/163) merged as `bcf292478ff7241efcf8b03d110aa5700821cde6` after exact-head [validation run 37397586094](https://github.com/PolyFT/textile-tga-database/actions/runs/37397586094). All2264offline tests,compilation,numeric rebuild,scope export andsnapshotchecks passed;allthree exactmerge checks completed successfully. Fullremote publicblobs,broad master,targetmaster andbothreports match. All1953oldscientificrecords/fingerprints andbroadmasterbytes remainunchanged;concurrentautomation preserved. This batch admits18existingclothstates34TG across three original-reviewed sources,zero newnumericpairs/TG andzero evidenceupgrades,without claiming neworiginal fulltext rereads. Target543states/675TG comprises417cloth/522TG,37fibres/37TG,11polymers/17TG,78polymercomposites/99TG;992historical states remain scopepending. The1972fibre/fabric19states remainheld. Broad totals1535states/1953TG/428DOI/430sources. Fulltexts/privatepaths remainlocal. Ownedwriterlease released inthis atomicproofcheckpoint;postrelease checks recorded locally.
+
+
+## b335 documentary scope review of existing textile facts
+
+54 existing original-reviewed textile states /77 TG records across11sources are admitted:49cloth and5needlepunchedPPnonwovenstates. Zero newnumericpairs/TG,evidenceupgrades orneworiginalfulltextrereadclaims. Two LOIcontradictedPA66states4TG held from target:8QL23versus23.5;PA66N20plusminus1versusSI21. All1953broadscientificrecords/fingerprints/masterbytes unchanged. Fullprofile master150381 andprivateprecision745839comparisons clear;11exacttitles/aliases/issues checked.
+
+Own120gsmbleachedcottoncontrol/fivePIGPmonomerinitialgrafts Tables2/3same120gsmfabric,G/P/LOI/undefinedonset. Argon10Kmin;native1060Cresidueversus20-650programmeconflict remainsmetricheld. Neatfilms570C/historicPAN/210gsm/washedTable4graftloadingsnotborrowed. Soxhletpreparationrinsesnotdurabilitylaundering. DOI10.1016/j.surfcoat.2006.05.002.
+
+Own121gsmHongdacottonUncoated/PG4BL/PPA4BL/PGPPA2+2/4+4samefabricTable1/airArTables2/3/Fig4aexplicitLOI. Fibercaptions referconstituentfabricfibres. ArnotN2,R700not800end;earlyPGairT5158.5coatinglossnotrelabeledwater/Tmax. Allwashedpairsremainheldwithsourceprose/Fig8cconflict. DOI10.1007/s10853-021-05877-3.
+
+OwnSuzhou100gsmPA66wovencontrol/PCS/2QL/4QLsameTable1/3LOI/5TG initialUVgraftandquadralayers. Sourcebathconcentration/quartetorder/WGbasis/UVdurationlimits unchanged;notreconstructed. N2/airtwoTGconditionsone state;R700explicit. 8QLLOI23proseversus23.5table/abstract/conclusion unresolved,whole8QLstateheldfromnewtargetscope. DOI10.1016/j.eurpolymj.2021.110320.
+
+OwnJiaxing100gsmPA66wovenA/B/C/DinitialgroupsprimaryTable1/3TG/4LOI;Table1gLbathsnotfinalfabricfractions. N2/air20Cmin,T10notT5,R700explicit. SIadd-on/trial/washedconefacts notpairedwithprimaryTG. ControlPA66NprimaryLOI20plusminus1versusSI21 unresolved,wholecontrolheldfromnewtargetscope. DOI10.1016/j.ijbiomac.2020.04.075.
+
+Own100gsm40syarn120x60plainwovenPA66control/D10W/D20W/CSgD10W/CSgD20W Table1recipes/3TG/4LOI. 10W20WDOPAconcentrationcodesnotlaundrycycles. MainTG20Cminnotcoupled10Cmin. R800explicit,bathgL/wtpercentbasisconflictandUVtimeunknown staylimits;SIunreadnotused,preparationwashesnotdurabilitycone. DOI10.1016/j.polymdegradstab.2020.109158.
+
+Own100gsmPA66control/2or5BLAPTES/2or5BLBdAPTES Table1/3LOI/5TG. Initial60C1hDIpostcurewash notdurabilitywash. Pure5BLrowexplicitRef6donor excluded;owncontrolTGdiffersdonor despitecommonLOI. N2/airtwoTGconditions,sourceT5andR800retained;unknownmethodrange/flow/pannotinferred. DOI10.1016/j.porgcoat.2019.01.010.
+
+OwnwoolControl/Si/SiZn3B2O6/SiNH4HB4O7/SiH3BO3 initialTable1LOI/3TGsamefabric. Boron10wtpercentonTEOSnotwholefabric;regainwaternotdecomppeak,MCCmaxima/flow/massnotregularTG. NativeT10/T50/T60retained,sourceGSM/weave/controlprepunknown;postwashLOI notborrowed. DOI10.1016/j.matdes.2015.07.163.
+
+Own240gsmplaincottonUT/COTA/COTBinitialplusCOTAW/COTBWoneENISO6330wash,Tables2/6TGandTable4MEASUREDLOI. Oneactualwashedstateeachnotinitialtransfer;washsettingsunknown. Td5percentT5 andsourcepeakindicespreserved,293/287MEApeaksnotwater. CalculatedMCCLOIexcluded,R600ambiguouscell notassigned;AIPcopyversiononeDOInotnewarticle. DOI10.1016/j.porgcoat.2016.10.035.
+
+OwnplainwovencottonUntreated/4/9/13/23initialexactTable1recipes/7LOI/8TG andSec3.5crosswalk. NativeinitialdecompundefinedTonsetnotT5;sourceTmax jointlyTG/DTA withheldfromDTG. Table3completeburningchar and5durabilitycyclesnotregularTG;preparationultrasonicrinse notdurabilitywash. DOI10.1016/j.tca.2011.03.012.
+
+Ownplainwoven100cotton/100PET/50cotton50PET untreatedor400gLPVPPRPDCDA Table2LOI/Table4TG. Fiveexactstates includingtreatedcotton/blend;treatedPETLOIcensoredgreater38 andotherdoseTGmissing remainexcluded. OnlyR800usable;nativeT1/T2rangesnotnormalizedpeaks;no washedtransfer. DOI10.1177/1528083718772303.
+
+Ownfive290gsmneedlepunchedPPnonwovensmf1-5,Table1nominaliPP/MC/MPhfeed;Sec3.1selects290gsmcohort,Sec3.3 explicitlytakesfibres OF those same nonwoven fabricsforTG,Table5ownLOI. Thisdocumented aliquotbridge isnotrawspunfiber/fabricguess. Source5percentonsetmapsT5;group473-480DTGrangenotassigned,broadnocharstatementnotnumericalzero. Separate200gsm/jersey/rib,DSC,FMVSS,cone andotherreplicates notborrowed. DOI10.3390/polym7020220.
+
+Target597states/752TG:466cloth/594TG,5nonwoven/5TG,37fibres/37TG,11polymers/17TG,78polymercomposites/99TG;938historicalstates scopepending. 1972fibre/fabric19states remainheld. Fulltexts/privatepaths remainlocal.
