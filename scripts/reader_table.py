@@ -39,7 +39,12 @@ def reading_row(row, entry):
         r'uncert|plusminus|error|statistic|replicat|deviation|repeats', key, re.I))
     note_fields = sorted(key for key in row if re.search(
         r'unknown|ambiguous|limit|note|definition|assign', key, re.I)
-        or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label'})
+        or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label',
+                   'source_raw_Tmax_C', 'source_raw_T70_C', 'source_raw_residue_pct',
+                   'source_residue_temperature_status', 'source_TG_flow_mL_min',
+                   'source_TG_mass_mg', 'source_TG_mass_qualifier', 'source_TG_pan',
+                   'max_mass_loss_rate', 'rate_unit', 'source_LOI_dimensions_mm',
+                   'LOI_specimen_geometry', 'LOI_standard', 'LOI_instrument'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
     loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]
     other = sorted(key for key in row if (re.fullmatch(r'T\d+_C|Tmax[234]_C', key)
@@ -57,13 +62,21 @@ def reading_row(row, entry):
         key = f'residue_at_Tmax{suffix}_pct'
         if row.get(key, '') != '':
             residual.append(f'Tmax{suffix}: {row[key]}%')
+    if row.get('source_preparation_scope_note'):
+        preparation = distinct_values(row, ['treatment_method', 'TGA_specimen_preparation',
+                                             'LOI_specimen_preparation'])
+        preparation += '\n' + row['source_preparation_scope_note']
+        if row.get('source_preparation'):
+            preparation += '\n文献其他分支的方法背景：' + row['source_preparation']
+    else:
+        preparation = distinct_values(row, ['source_preparation', 'treatment_method',
+                                             'TGA_specimen_preparation', 'LOI_specimen_preparation'])
     return [value(row, 'sample_state'), CLASS_NAMES.get(entry['scope_class'], entry['scope_class']),
             value(row, 'material_form_TGA'), value(row, 'composition'),
             labelled(row, ['treatment_state', 'washing_state']), value(row, 'LOI_pct'),
             value(row, 'T5_C'), value(row, 'T10_C'), value(row, 'Tonset_C'), value(row, 'Tmax1_C'),
             '; '.join(residual), value(row, 'atmosphere'), value(row, 'heating_rate_C_min'),
-            labelled(row, other), distinct_values(row, ['source_preparation', 'treatment_method',
-                           'TGA_specimen_preparation', 'LOI_specimen_preparation']),
+            labelled(row, other), preparation,
             row.get('DOI') or row.get('stable_source_id', ''),
             row.get('source_title') or row.get('title', ''),
             row.get('TG_locator') or row.get('TG_source_location') or row.get('source_location', ''),
