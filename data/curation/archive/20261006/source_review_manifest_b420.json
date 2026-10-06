@@ -1,0 +1,382 @@
+{
+  "batch": "B420",
+  "status": "PRIVATE_SOURCEAPPROVED_FINAL_READY_NOT_PUBLISHED",
+  "new_sample_states": 5,
+  "new_TG_records": 5,
+  "new_paired_sources": 1,
+  "processed_sources": 4,
+  "evidence_upgrades": 0,
+  "scope_only_states": 0,
+  "peer_second_count": 0,
+  "published": 0,
+  "raw_views": 37,
+  "physical_condition_facts": 33,
+  "calculated_non_sample_views": 4,
+  "held_physical_condition_facts": 28,
+  "wholeheld_states": 11,
+  "wholeheld_TG": 15,
+  "LOIonly": 1,
+  "TGonly": 12,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "source_url": "https://doi.org/10.1007/s10570-019-02431-y",
+      "source_title": "Fabrication of environmentally-benign flame retardant cotton fabrics with hydrophobicity by a facile chemical modification",
+      "read_scope": "All12nativePDFpages; p7/8 re-read aftertooloutputtruncation; alloriginalreferences/p11–12; all11nativefigurecaptions/Table1MCC; SIvideosmentioned butnotavailableinindexed/sameDOIsteminputs",
+      "candidate_unique_states": 5,
+      "candidate_TG_records": 5,
+      "wholeheld_unique_states": 0,
+      "wholeheld_TG_records": 0,
+      "locators": [
+        "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References"
+      ],
+      "scientific_decision": "Five ownfabricF0–F4 numericLOI/TG correspondingwithair10CminexplicitR600; Frozen primary B412 + independent B417 + root B418 source verified; normal publication and closure still pending",
+      "parent_approved": 5,
+      "published": 0
+    },
+    {
+      "DOI": "10.1007/s10570-019-02884-1",
+      "source_url": "https://doi.org/10.1007/s10570-019-02884-1",
+      "source_title": "Washable, durable and flame retardant conductive textiles based on reduced graphene oxide modification",
+      "read_scope": "All9nativePDFpages/alloriginalreferences/p8–9; all6nativefigurecaptions; noSIfilecited/indexed",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "wholeheld_unique_states": 3,
+      "wholeheld_TG_records": 3,
+      "locators": [
+        "PDFp2–3 materials/preparation/characterization;p7 Fig6/body TGLOI;p8–9References"
+      ],
+      "scientific_decision": "OrdinaryTG10Cminexplicit butatmosphereunreported; threepairedstateswholeheld. rGO-only numericTG absent LOI-only. Branchpreparation uncertainty retained, no unknownconditions borrowed.",
+      "parent_approved": 0,
+      "published": 0
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2019.107037",
+      "source_url": "https://doi.org/10.1016/j.compositesb.2019.107037",
+      "source_title": "Ultra-small SiO2 nanospheres self-pollinated on flower-like MoS2 for simultaneously reinforcing mechanical, thermal and flame-retardant properties of polyacrylonitrile fiber",
+      "read_scope": "All36acceptedmanuscriptnativePDFpages readin1–13/14–25/26–36 blocks; all58originalreferences; all12nativefigurecaptions/twoSchemes; citedSIunavailableindexed/sameparentDOIstem, noNASwideabsenceclaim",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "wholeheld_unique_states": 4,
+      "wholeheld_TG_records": 4,
+      "locators": [
+        "AcceptedPDFp6–9 Materials/Wetspinning/Characterization;p19–20 ordinaryTG/p22 ownLOI;p29–36 all58references"
+      ],
+      "scientific_decision": "OrdinaryTG nitrogenexplicit butheatingrateunreported; fourpairedfiberstateswholeheld. TGIRmethodcannotlendordinaryconditions; citedSIunavailableinboundedinventory.",
+      "parent_approved": 0,
+      "published": 0
+    },
+    {
+      "DOI": "10.1021/acsami.1c05222",
+      "source_url": "https://doi.org/10.1021/acsami.1c05222",
+      "source_title": "Multifunctional MXene/Chitosan-Coated Cotton Fabric for Intelligent Fire Protection",
+      "read_scope": "All14nativeSIpages/9figurecaptions/6tables; completepublishedHTMLscientificbodyAbstract/Intro/MaterialsandMethods/Results/Conclusion/SupportingInformation/declarations,42ownbibliographyentries isolatedbeforeGoogleScholar expandedreferenceabstracts; HTMLoneDOMTable1 firewarncomparison isdonorcontextsnotownTGLOI; noMP4/image; Additional unprefixed DOI basename published mainPDF all10nativepages23020–23029 read in1–4/5–7/8–10 blocks including all42references andnativecaptions/Table1. No new source or sample; p23021ordinaryTG gives instrumentonly, noheatingrate; originalholdunchanged.",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "wholeheld_unique_states": 4,
+      "wholeheld_TG_records": 8,
+      "locators": [
+        "PublishedHTMLMaterials/Preparation/Characterization/FlameRetardancy; SI S-10/S-11 TG/S-12 TableS4 LOI; S-13durability",
+        "PublishedPDFp2/printed23021 Characterization; p6/printed23025 ownLOI; p8/printed23027SupportingInformation; p8–10all42References"
+      ],
+      "scientific_decision": "OrdinaryTGheatingrateunreported inbothcompletepublishedHTML andsameDOIpublished10pagePDF; fourpairedfabricstates/eightairN2conditionswholeheld. CFcontrolpreparationuncertainty retained; TGIRflow/programme notborrowed; nativeSIresidue800 temperatures preserved.",
+      "parent_approved": 0,
+      "published": 0
+    }
+  ],
+  "audit_metadata_patches": [
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F0; initial prepared fabric/fiber material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b412-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F0; initial prepared fabric/fiber material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F0; initial prepared fabric/fiber material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F1; initial prepared fabric/fiber material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b412-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F1; initial prepared fabric/fiber material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F1; initial prepared fabric/fiber material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F2; initial prepared fabric/fiber material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b412-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F2; initial prepared fabric/fiber material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F2; initial prepared fabric/fiber material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F3; initial prepared fabric/fiber material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b412-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F3; initial prepared fabric/fiber material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F3; initial prepared fabric/fiber material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F4; initial prepared fabric/fiber material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b412-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F4; initial prepared fabric/fiber material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    },
+    {
+      "DOI": "10.1007/s10570-019-02431-y",
+      "sample_state": "F4; initial prepared fabric/fiber material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Frozen B412 own-source extraction independently verified B417 and critically source-approved B418; update audit metadata only, no scientific values/form/preparation/locators changed",
+      "locator": "PDFp3 Materials/Functionalized; p4 Characterization; p6–7 ownLOI; p9–10 thermalbody/Fig9; p11–12References",
+      "kind": "audit_metadata_only"
+    }
+  ],
+  "scope_entry_audit_patches": [
+    {
+      "source_identity": "10.1007/s10570-019-02431-y",
+      "sample_state_id": "c09710f207b54b597b60",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Same source/science scope identity, approved B412/B417/B418 audit chain only"
+    },
+    {
+      "source_identity": "10.1007/s10570-019-02431-y",
+      "sample_state_id": "c52cb7cab08db914382c",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Same source/science scope identity, approved B412/B417/B418 audit chain only"
+    },
+    {
+      "source_identity": "10.1007/s10570-019-02431-y",
+      "sample_state_id": "eed563ecd487222a9bfc",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Same source/science scope identity, approved B412/B417/B418 audit chain only"
+    },
+    {
+      "source_identity": "10.1007/s10570-019-02431-y",
+      "sample_state_id": "001c7efadb9fd17cb22e",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Same source/science scope identity, approved B412/B417/B418 audit chain only"
+    },
+    {
+      "source_identity": "10.1007/s10570-019-02431-y",
+      "sample_state_id": "76722a82c3973d779f3f",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b412-primary_pendingpeer",
+      "after": "codex-native-primary-b412; independent-peer-b417; root-source-approved-b418; metadata-bundle-b420",
+      "reason": "Same source/science scope identity, approved B412/B417/B418 audit chain only"
+    }
+  ],
+  "scientific_fields_unchanged": true,
+  "measurement_scope_fingerprints_unchanged": true,
+  "source_review_chain": {
+    "primary": "B412",
+    "independent_peer": "B417",
+    "root": "B418",
+    "sourceapproved_actual_exits": [
+      0,
+      0,
+      0
+    ]
+  },
+  "source_read_boundaries": {
+    "primary": "Inherited frozen four sources: 81 complete nativePDFpages plus complete ownACSHTML scientificbody/reference42; primary sourcefacts specify exact per-source bounds",
+    "peer": "3adjacentyearfolders19765nonrecursiveentries; sixmatchingoriginalfiles allformats; no whole-library SIabsence claim",
+    "root": "Critical methods/preparation/TG/LOI/criterion passages only, not full81PDF pages or wholeHTML claim",
+    "B420": "No new originalfulltext reads; metadata assembly and source/proof guards only"
+  },
+  "current_last_closed_main_at_start": "4a2a3d758cada53efb79b502c53a54a94f25bcc4",
+  "start_closed_target": [
+    817,
+    1008,
+    151
+  ],
+  "B415_private825_prediction_not_baseline": false,
+  "expected_after_B415_B420_NOTMAIN": null,
+  "raw_initial_temperature294p1": "Source rawinitial294.1 and undefined criterion displayed only via exact authorizedrawfield whitelist; canonicalT5/Tonset remainblank",
+  "finalready": true,
+  "approved_material_scope_class_counts": {
+    "textile_cloth": 5
+  },
+  "user_material_category_counts": {
+    "finished_textiles": 5,
+    "fibres": 0,
+    "fiber_forming_polymers_and_precursors": 0
+  },
+  "baseline_commit": "bbf5b3a86c77527d12b202ae86d3f970bb45e3e4",
+  "baseline_target": [
+    825,
+    1016,
+    154
+  ],
+  "baseline_rows": 2039,
+  "private_prediction_NOTMAIN": [
+    830,
+    1021,
+    155
+  ],
+  "private_rows": 2044,
+  "source_counts": {
+    "new_states": 5,
+    "new_TG": 5,
+    "new_paired_sources": 1,
+    "processed_sources": 4,
+    "evidence_upgrades": 0,
+    "scope_only_states": 0,
+    "peer_secondcount": 0,
+    "published": 0,
+    "raw_views": 37,
+    "physical_condition_facts": 33,
+    "calculated_non_sample_views": 4,
+    "held_physical": 28,
+    "wholeheld_states": 11,
+    "wholeheld_TG": 15,
+    "LOIonly": 1,
+    "TGonly": 12
+  },
+  "profile_summary": {
+    "canonical_comparisons": 3670315,
+    "raw_comparisons": 6606251,
+    "canonical_full": 0,
+    "canonical_subset": 2,
+    "canonical_partial": 10,
+    "raw_full": 0,
+    "raw_subset": 0,
+    "raw_partial": 1022
+  },
+  "reader_patch": {
+    "scope": "Exact rawinitial field whitelist in rawnotes; original undefinedcriterion retained, noT5/Tonset inference",
+    "authorized2files_sha256": {
+      "scripts/reader_table.py": "6dfcdc6adec96023c7331dc0f1bba3a8728ba95db374a7313cc90d4fd58d334d",
+      "tests/test_reader_table.py": "853380d1935d88eef5ef34ebbfdbf0fb303e72e66d687306b6776b52cef2c93c"
+    },
+    "science_fields_changed": 0,
+    "other24cells_exact": true
+  },
+  "source_read_B420": "No new original fulltext reads; inherited B412 primary full81nativePDFpages+ownHTML/B417 independent completeownsource/B418 rootcritical excerpts; exactsourceproof/original/CSV guards",
+  "public_raw37_allowed": false,
+  "scientific_test_code_sha256": "37b37d28c925ebcd007fadeec5c32d0352698c9c4143776ae3d9be5417aecc16",
+  "actualheader_coverage": {
+    "current_root_CSVs": 484,
+    "external_comparator_or_originaltrace_CSVs": 477,
+    "own_query_or_projection_CSVs": 7,
+    "workroot_CSVs": 10,
+    "bound_reading_rows": 841,
+    "bound_original_source_files": 92,
+    "owncanonical_queries": 20,
+    "rawdiagnostic_queries": 36,
+    "calculated_views_not_samples": 4,
+    "unexplained_missing_paths": 0
+  }
+}

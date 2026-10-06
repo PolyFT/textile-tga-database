@@ -251,5 +251,28 @@ class ReaderResidueDisplayTests(unittest.TestCase):
                          '700℃: 0%; 800℃: 0%; Tmax1: 0%')
 
 
+
+class ReaderCottonInitialRawTests(unittest.TestCase):
+    def test_real_F0_initial_temperature_keeps_original_value_not_Tonset(self):
+        row = dict(sample_state='F0', LOI_pct='18.6', Tmax1_C='339.3',
+                   source_raw_initial_decomposition_temperature_C='294.1',
+                   source_raw_initial_temperature_definition='starts to decompose; criterion unreported; held raw')
+        before = row.copy()
+        d = show(row)
+        self.assertIn('source_raw_initial_decomposition_temperature_C=294.1', d['限制与不确定性'])
+        self.assertIn(row['source_raw_initial_temperature_definition'], d['限制与不确定性'])
+        self.assertTrue(all(d[k] == '' for k in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)']))
+        self.assertEqual(d['Tmax1 (℃)'], '339.3')
+        self.assertEqual(row, before)
+
+    def test_unapproved_raw_initial_aliases_are_not_generic_peaks(self):
+        row = dict(source_raw_initial_C='999', source_initial_temperature_C='998',
+                   source_raw_initial_decomposition_temperature_C='294.1',
+                   source_raw_initial_temperature_definition='criterion unreported')
+        d = show(row)
+        self.assertNotIn('999', str(d))
+        self.assertNotIn('998', str(d))
+        self.assertTrue(all(d[k] == '' for k in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)']))
+
 if __name__ == '__main__':
     unittest.main()
