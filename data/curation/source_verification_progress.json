@@ -14,15 +14,13 @@
   "publication_stage": "b483_merged_remote_verified_lease_released",
   "last_merged_batch": "20261007_b483",
   "writer_lease": {
-    "owner": "codex-local-material-b483-20261007",
-    "status": "released",
-    "batch_id": "20261007_b483",
-    "claimed_at_utc": "2026-10-06T18:08:22.101159+00:00",
-    "expires_at_utc": "2026-10-06T19:38:22.101159+00:00",
-    "previous_release_commit": "25769f35f9b81156e90f05f8734ebdfee43237d2",
-    "purpose": "12 existing sample states/20 existing TG conditions documentary scope review;20 existing scope holds preserved;3 completed zero-admission sources. Newpairs0/evidenceupgrades0/all oldmasterfields unchanged. Main876/1079/165; projected888/1099/170 pending ordinary PR.",
-    "released_at_utc": "2026-10-06T18:34:34.780516+00:00",
-    "reason": "Normal PR178 merge, exact-head integration review and both main workflows passed; remote factual bytes verified. Release only owned B483 lease."
+    "owner": "codex-local-material-b488-20261007",
+    "status": "active",
+    "batch_id": "20261007_b488",
+    "claimed_at_utc": "2026-10-06T18:52:00.945465+00:00",
+    "expires_at_utc": "2026-10-06T20:22:00.945465+00:00",
+    "previous_release_commit": "5e79893601a133e134763afd867553babfa25f26",
+    "purpose": "One genuinely new RCF fibre pair/one TG, native source + non-author root approved. Six completed source reviews, five zero-pair decisions retained. Main888/1099/170; prediction889/1100/171 pending normal PR."
   },
   "next_sources": [],
   "next_actions": [
