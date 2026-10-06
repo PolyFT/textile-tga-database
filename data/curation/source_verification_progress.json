@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1388,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b394_branch_pending_PR",
+  "publication_stage": "b394_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-b394-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b394",
     "claimed_at_utc": "2026-10-06T08:37:45.878431+00:00",
     "expires_at_utc": "2026-10-06T10:07:45.878431+00:00",
     "previous_release_commit": "bd26370a8ec6ede6de2fdc873b9b8caacbf1b1ce",
-    "purpose": "18 new original-source samples/21TG plus9 oldfibre scope states/9TG; no old numeric/evidence upgrades. Main780/965; projected807/995 pending normal PR merge."
+    "purpose": "18 new original-source samples/21TG plus9 oldfibre scope states/9TG; no old numeric/evidence upgrades. Main780/965; projected807/995 pending normal PR merge.",
+    "released_at_utc": "2026-10-06T09:12:12.275967+00:00",
+    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B394 lease"
   },
   "next_sources": [],
   "next_actions": [
@@ -633,5 +635,32 @@
     "verified_target_sample_states": 807,
     "verified_target_condition_records": 995,
     "locator_metadata_only_corrections": 6
+  },
+  "publication_b394": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/171",
+    "PR_number": 171,
+    "merge_sha": "1f509ed8f5d2a850df4e2843348864b6a0838a78",
+    "validated_head_sha": "c792abf5416ec1419eb9c07ef080b4b501cef481",
+    "new_pairs": 18,
+    "new_TG": 21,
+    "scope_existing_states": 9,
+    "scope_existing_TG": 9,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 807,
+    "verified_target_condition_records": 995,
+    "verified_target_sources": 147,
+    "full_remote_public_files_verified": 18,
+    "unchanged_other_existing_files": 828,
+    "all1997old_fields_preserved": true,
+    "all21new_provided_fields_preserved": true,
+    "tests": 2330,
+    "postmerge_runs": [
+      37440201605,
+      37440201529
+    ],
+    "original_files_unchanged": true,
+    "locator_metadata_only_corrections": 6,
+    "progress_SHA_metadata_corrected": 3
   }
 }
