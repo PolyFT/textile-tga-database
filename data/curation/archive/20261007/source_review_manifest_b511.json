@@ -1,0 +1,1647 @@
+{
+  "batch": "B511",
+  "status": "SOURCE_AND_SCOPE_REUSE_APPROVED_PREMERGE_SNAPSHOT",
+  "fixed_scientific_baseline": "42e88ec1757d7f55ba3585dfc506f62e1a3422db",
+  "source_supported_new_unique_states": 16,
+  "source_supported_new_TG_records": 17,
+  "source_supported_old_scope_unique_states": 13,
+  "source_supported_old_scope_TG_records": 15,
+  "held_old_scope_unique_states": 14,
+  "held_old_scope_TG_records": 21,
+  "numerical_evidence_upgrades": 0,
+  "published_new_pairs": 0,
+  "published_old_scope_admissions": 0,
+  "new17_reuse_adjudication": "B501 frozen complete-row corpus comparator audit and root eight source-specific case acceptance; no universal proof from absent numeric matches",
+  "old13_scope_reuse_adjudication": "B516 fixed v5 corpus incremental query and root thirteen-case documentary acceptance; 13 states/15 TG retained.",
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1039/c7py01315a",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 0,
+      "source_supported_new_TG_records": 0,
+      "source_supported_sample_states": [],
+      "source_locator": "PrimaryPDFp2-3(6310-6311)Preparation/Characterization/EB/Table1; p6-7(6314-6315)thermal stability/Table3 andfootnote; ownHTML Table1/Table3",
+      "scientific_decision": "All four initial PP/AAPP TG–LOI correspondences remain held: LOI/UL94 uses injection molding and CCT a separate compression branch; TG post-forming parent is unreported. EB36kGy has no own matched LOI. Source Tonset explicitly5% loss maps T5; maximum-decomposing temperature remains raw. No transfer of TGFTIR or cone conditions.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_review_complete_zero_admission_preserve_holds",
+      "original_source_view_counts": {
+        "wholeheld_states": 4,
+        "LOI_only_conditions": 3,
+        "TG_only_polymer_conditions": 4,
+        "modifier_TG_only_conditions": 2
+      }
+    },
+    {
+      "DOI": "10.1039/c7ra02863f",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 1,
+      "source_supported_new_TG_records": 1,
+      "source_supported_sample_states": [
+        "PP/MOSw"
+      ],
+      "source_locator": "PrimaryPDFp2-3(21656-21657)2.1-2.4; p5-7(21659-21661)3.3-3.5/Table2ordinaryTG/Table3LOI",
+      "scientific_decision": "PP/MOSw initial film only: LOI24.7 and explicit R70021.7 under N2/5Cmin supported. T05/Tpeak criteria remain undefined raw, not canonical T5/Tmax. PP/DDPMOSw residual temperature and neat PP preparation chain remain held; modifier/cone residue is separate.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "wholeheld_states": 2,
+        "modifier_TG_only_conditions": 1
+      }
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 4,
+      "source_supported_new_TG_records": 4,
+      "source_supported_sample_states": [
+        "PP",
+        "PP/EG/DOPO",
+        "PP/EG30",
+        "PP/MEG30"
+      ],
+      "source_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1recipes; p5(31700)Table3TG/Table4LOI; p6(31701)3.3 maximumrate definition",
+      "scientific_decision": "PP, PP/MEG30, PP/EG30 and PP/EG/DOPO initial standard-test series supported by Tables1/3/4 and common preparation. T5/T30/T50 mass-loss fractions and Tp maximum-rate defined; R600 is not700C program end. MEG10/20 LOI-only; modifier TG and XPS/cone quantities stay separate.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "LOI_only_conditions": 2,
+        "modifier_TG_only_conditions": 2
+      }
+    },
+    {
+      "DOI": "10.1039/c6ra28293h",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 0,
+      "source_supported_new_TG_records": 0,
+      "source_supported_sample_states": [],
+      "source_locator": "PrimaryPDFp2(19594)Processing/Measurement/Table1LOI; p5(19597)Table4TG/definitions",
+      "scientific_decision": "All six PA6 recipe states have own LOI and ordinary TG but remain wholeheld: flammability injection branch and rheology disks are separate; ordinary TG post-forming parent is unreported. Tmax1 is MCA and Tmax2 PA6 decomposition. Cone residue and droplet replicates do not supply TG residue or LOI n.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_review_complete_zero_admission_preserve_holds",
+      "original_source_view_counts": {
+        "wholeheld_states": 6,
+        "wholeheld_TG_conditions": 6
+      }
+    },
+    {
+      "DOI": "10.1039/c5ra18829f",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 3,
+      "source_supported_new_TG_records": 3,
+      "source_supported_sample_states": [
+        "PBT",
+        "PBT/CPPA15%",
+        "PBT/CPPA25%"
+      ],
+      "source_locator": "AcceptedManuscriptPDFp2-3(AMp1-2)Materials/Methods/Preparation; p4(AMp3)Table1LOI; p5(AMp4)Table2TG/footnotes",
+      "scientific_decision": "PBT, PBT/CPPA15% and PBT/CPPA25% supported as common compression-molded standard-test materials, with explicit same-manner neat standard. CPPA20 LOI26.2 versus26.8 conflict remains wholeheld. Source Tonset footnote5% maps T5; defined maximum-rate peaks and experimental R700 retained. Blend1wt%PTFE basis/control applicability unknown; no normalization.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "wholeheld_states": 1,
+        "wholeheld_TG_conditions": 1
+      }
+    },
+    {
+      "DOI": "10.1039/c7ra09868e",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 1,
+      "source_supported_new_TG_records": 2,
+      "source_supported_sample_states": [
+        "PP/25 wt% DPPIP"
+      ],
+      "source_locator": "PrimaryPDFp2-3(51920-51921)2.1-2.4; p4(51922)Table2ordinaryTG; p5(51923)Table4initial/afterwaterLOI andFig4",
+      "scientific_decision": "Only initial hot-pressed PP/25wt%DPPIP is supported, one physical state with N2 and air TG records. T5 and R700 explicit; Tmax criterion undefined and canonical peak blank. Neat PP forming chain remains held. Initial20/30wt% and after70C168h water-treated25wt% LOI-only, without borrowing initial TG.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "wholeheld_states": 1,
+        "wholeheld_TG_conditions": 2,
+        "LOIonly_conditions": 3
+      }
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 4,
+      "source_supported_new_TG_records": 4,
+      "source_supported_sample_states": [
+        "control cotton",
+        "cotton-APP",
+        "cotton-APP/LP",
+        "cotton-LP"
+      ],
+      "source_locator": "PublishedHTML§2/3.5/3.7; Table1/Table3; same-source mainPDFp7-8/printed12676-12677; SI§2.1-2.4 PDFp2-5/S2-S5; Main§3.6/Fig8; abstract/conclusion; SI§2.4p5/S5; SIp2/S2-S3 intermediate andTableS2UV only; not final17%LP LOI/TG row; Main§3.1/Fig2g TG qualitative comparison, no own LOI or textual numeric ordinaryTG; Fig8 curve labels not native numeric objects in readable body; no estimated LOI and no matching TG",
+      "scientific_decision": "Four initial cotton states (control, LP, APP, APP/LP) supported by own Table1 LOI/Table3 TG and applicable SI preparation. Raw Rmax2.30/1.01/1.23/1.16%/C are rate amplitudes, not temperatures or%/min. Durability LOI and intermediate/curve-only presentations remain separate.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "candidate": 4,
+        "wholeheld": 0,
+        "LOIonly": 1,
+        "TGonly": 0,
+        "nonnumeric": 4
+      }
+    },
+    {
+      "DOI": "10.1007/s10570-021-03833-7",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 0,
+      "source_supported_new_TG_records": 0,
+      "source_supported_sample_states": [],
+      "source_locator": "PDFp3-4 Methods;p11Thermalbehavior/Fig6;p14Table2;p15Flammability; full19p primary",
+      "scientific_decision": "Five cotton recipe states remain wholeheld: ordinary TG heating rate is unreported; Fig6 repeated final label conflicts with thermal-body label; treated-residue temperature and initial criterion stay unknown. Table2/body LOI cannot close these omissions. Cited control thermal context is not presumed an independent new specimen.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_review_complete_zero_admission_preserve_holds",
+      "original_source_view_counts": {
+        "candidate": 0,
+        "wholeheld": 5,
+        "LOIonly": 1,
+        "TGonly": 0,
+        "nonnumeric": 0
+      }
+    },
+    {
+      "DOI": "10.1002/adfm.202528112",
+      "review_category": "new_source_full_native_review",
+      "source_supported_new_unique_states": 3,
+      "source_supported_new_TG_records": 3,
+      "source_supported_sample_states": [
+        "CS-PA@TiO2-DFS",
+        "Janus-DFS",
+        "pure DFS"
+      ],
+      "source_locator": "PDFp2-4Methods;p6-8§3.4.1/3.4.2/Fig5;p12washing/abrasion; samepublishedHTMLcriticalcrosscheck; PDFp12§3.5; PDFp7§3.4.1 groupT10 unassigned without localTableS3; explicitTiO2R80027±0.5 andJanusR80029 retained; CS-PA wholeheld; pureDFSLOIexplicitPDFp1abstract",
+      "scientific_decision": "Pure DFS, CS-PA@TiO2-DFS and Janus-DFS supported: dedicated pure DFS own LOI and defined T10; treated states only explicit R80027±0.5/29 with own LOI. Group T10 not assigned to individual treated states; CS-PA wholeheld. Washing/abrasion LOI is not paired with initial TG.",
+      "source_and_new17_reuse_supported": true,
+      "published_new_pairs": 0,
+      "status": "source_and_reuse_supported_pending_exact_publication",
+      "original_source_view_counts": {
+        "candidate": 3,
+        "wholeheld": 1,
+        "LOIonly": 2,
+        "TGonly": 1,
+        "nonnumeric": 0
+      }
+    },
+    {
+      "DOI": "10.1002/app.37713",
+      "review_category": "old_scope_only_inherited_numerical_audit",
+      "scope_supported_old_unique_states": 0,
+      "scope_supported_old_TG_records": 0,
+      "scope_held_old_unique_states": 6,
+      "scope_held_old_TG_records": 6,
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "scientific_decision": "Woven jute/soy-flour thermoset laminate scope category remains unconfirmed; whole board not relabelled cloth.",
+      "genuinely_new_pairs": 0,
+      "numerical_evidence_upgrades": 0,
+      "new_full_article_reads": 0,
+      "status": "root_scope_reviewed_hold_preserved_not_selected_for_B516",
+      "reuse_review_applies_to": "Selected13states15TG only; all nonselected scope holds remain."
+    },
+    {
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "review_category": "old_scope_only_inherited_numerical_audit",
+      "scope_supported_old_unique_states": 0,
+      "scope_supported_old_TG_records": 0,
+      "scope_held_old_unique_states": 6,
+      "scope_held_old_TG_records": 12,
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "scientific_decision": "Woven glass/epoxy whole-panel scope remains pending user boundary; ASET mother form also unresolved. Existing20APP LOI conflict remains held outside these selected old rows.",
+      "genuinely_new_pairs": 0,
+      "numerical_evidence_upgrades": 0,
+      "new_full_article_reads": 0,
+      "status": "root_scope_reviewed_hold_preserved_not_selected_for_B516",
+      "reuse_review_applies_to": "Selected13states15TG only; all nonselected scope holds remain."
+    },
+    {
+      "DOI": "10.1007/s10570-023-05051-9",
+      "review_category": "old_scope_only_inherited_numerical_audit",
+      "scope_supported_old_unique_states": 4,
+      "scope_supported_old_TG_records": 6,
+      "scope_held_old_unique_states": 1,
+      "scope_held_old_TG_records": 2,
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "scientific_decision": "Four initial TA/PA/PDMS cotton states supported, with two extra air tests not new states. Control body18 versus19 in conclusion/table remains held both gases. Washed LOI is separate.",
+      "genuinely_new_pairs": 0,
+      "numerical_evidence_upgrades": 0,
+      "new_full_article_reads": 0,
+      "status": "root_source_scope_and_reuse_supported_pending_normal_PR",
+      "reuse_review_applies_to": "Selected13states15TG only; all nonselected scope holds remain."
+    },
+    {
+      "DOI": "10.1007/s10570-015-0599-x",
+      "review_category": "old_scope_only_inherited_numerical_audit",
+      "scope_supported_old_unique_states": 4,
+      "scope_supported_old_TG_records": 4,
+      "scope_held_old_unique_states": 1,
+      "scope_held_old_TG_records": 1,
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "scientific_decision": "Four coated initial cotton states supported. CO(Nc) No treatment versus old coating/14day descriptors stays held; five-cell correction advisory unapplied, not evidence upgrade.",
+      "genuinely_new_pairs": 0,
+      "numerical_evidence_upgrades": 0,
+      "new_full_article_reads": 0,
+      "status": "root_source_scope_and_reuse_supported_pending_normal_PR",
+      "reuse_review_applies_to": "Selected13states15TG only; all nonselected scope holds remain."
+    },
+    {
+      "DOI": "10.1007/s12221-013-0767-2",
+      "review_category": "old_scope_only_inherited_numerical_audit",
+      "scope_supported_old_unique_states": 5,
+      "scope_supported_old_TG_records": 5,
+      "scope_held_old_unique_states": 0,
+      "scope_held_old_TG_records": 0,
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "scientific_decision": "Five acid/Zn alginate fibre states supported by own fibre LOI and ordered R800. Cone fibrous-mat branch, group approximate peaks and water loss are not substituted.",
+      "genuinely_new_pairs": 0,
+      "numerical_evidence_upgrades": 0,
+      "new_full_article_reads": 0,
+      "status": "root_source_scope_and_reuse_supported_pending_normal_PR",
+      "reuse_review_applies_to": "Selected13states15TG only; all nonselected scope holds remain."
+    }
+  ],
+  "legacy_scope_observations": [
+    {
+      "pair_key": "10.1002/app.37713||s/j; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "26162494c9b6ceaba8585c74d91169968381b98c108b41eef11aed0daaa38d5f",
+      "sample_state_id": "ff61601a0fc9dcb793be",
+      "reviewed_measurement_fingerprint": "5927c6210c37c0aeda3a29f99ceb932d7bec9e7414446614a3e56de40fb1feb4",
+      "scope_identity_sha256": "578554bc28fc4f470a840d53ff61ebf12192316b0631eb8a5874d1f9d06d21f2"
+    },
+    {
+      "pair_key": "10.1002/app.37713||s/j/g30; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J/G30; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "9a981b81d124c05a69779bfec05677b9af77c279f38016b3c8c418c3b874d281",
+      "sample_state_id": "fd613f7aff74481cf044",
+      "reviewed_measurement_fingerprint": "c7c8184e4674d9c14769c4d8abc0029aa96ffb7ebbc10633f402c4acd9c6892d",
+      "scope_identity_sha256": "fb5c2c4699394d6b9bc375e962a6a0c1dd770c7784be61c49030f38999270d22"
+    },
+    {
+      "pair_key": "10.1002/app.37713||s/j/g50; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J/G50; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "e47946df9a73769169b8eeced09045c64d62f1f1196db180c80a843a5bb16bbb",
+      "sample_state_id": "dc4b466985c9f373ba94",
+      "reviewed_measurement_fingerprint": "96363d34fc4f50777bd2fb549f5ca4e3845031f740413658a7f77f6b49f6ddb5",
+      "scope_identity_sha256": "17b1b09d72eaad122b555176366dc8fa6f89eff4ca0a99e4bd30638beb252e62"
+    },
+    {
+      "pair_key": "10.1002/app.37713||s/j/g70; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J/G70; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "601d4764b3879543f35861cd4b549e28bd933370cb609658c54288e849f9fa84",
+      "sample_state_id": "252e03a4594822da5e5e",
+      "reviewed_measurement_fingerprint": "895f33340034670b032fbfca15bc74f8ff30a541ea8f9ec429508ad500595fc9",
+      "scope_identity_sha256": "d9773e8a4cdffa32c35cedf1fb355b29419fe114d206be0ae1ea8eb0fd1ce4c9"
+    },
+    {
+      "pair_key": "10.1002/app.37713||s/j/g50/m1; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J/G50/M1; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "6958d22e32b4da08fb8203283629e90f4a310334f4e9516ed5905b869c35e040",
+      "sample_state_id": "dc2d1954908ad5721977",
+      "reviewed_measurement_fingerprint": "bd69de6778c6aa10f9aaa62a5447e2dd0fdc6b0d4621c29c1fcce2319c1d2aca",
+      "scope_identity_sha256": "8876cf69cbde2384d1f9c77373240b8f3dcf694d8609126e98a043849aeb1fa9"
+    },
+    {
+      "pair_key": "10.1002/app.37713||s/j/g50/m5; initial 15-level jute fabric/soy-flour laminate||initial manufactured laminate after jute washing, dewaxing, alkali treatment, repeated rinsing and drying; no durability wash, humidity-exposed or aged loi/tg state assigned||n2||10",
+      "DOI": "10.1002/app.37713",
+      "sample_state": "S/J/G50/M5; initial 15-level jute fabric/soy-flour laminate",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current local PDF pp2–3 Materials/Methods, Table I and TG/LOI methods; p7 Table II; p8 Table III; inherited B100 published printed pp3988–3989,3993–3994.",
+      "nonempty_original_row_sha256": "e403872b49133ff63a00487d9a15780af94331089f3ea64756573cd43f4590bc",
+      "sample_state_id": "1b66c1d455867fed7ecd",
+      "reviewed_measurement_fingerprint": "506c53511bb7271402e395e9b99afa11c9beb16d67a0f3156781baaee43c5a6d",
+      "scope_identity_sha256": "f4178dbbd3e49b33589d87dc80267cb15e529d2e2243419b50f8fcd9cd96aea7"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||aset; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "ASET; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 0 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_reference_laminate_or_powder",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "ff10c05fa5ea510a06ea04113f349b9fd43cee58f2ef80f3bec51d13b30d4804",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "62e876f03235001fbdbd94f81dcba2fd4964905c18ea2275045960d57ab82017",
+      "scope_identity_sha256": "784692c7a8af78c6e0b8ab379a89b0ab9f58a9a6e212ea4fb742148b8fd652e0"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||aset; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "ASET; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 0 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_reference_laminate_or_powder",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "47d7784428c51ddb3ebf42a3bc5ae273d4d412777ec0c2747a4b6cdaa944ea5b",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "7dc74f72bd5c5b7f5e48c2f817fea22084bf31096b943064a923451bf38b9dba",
+      "scope_identity_sha256": "4cf4d27c9eb0e5e008dc21f2539ecd2911d9e1584a940a79c4879d31bf0a394a"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||5app; initial six-ply woven glass/epoxy laminate; epoxy composition with 5 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "5APP; initial six-ply woven glass/epoxy laminate; epoxy composition with 5 wt% APP and 0 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "df4700e2d27f04195c77bb7fc420c1870939188ed87a42cc1486d841c7af7e5b",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "2c096507bc6a21ae388933c2c98e167ec815d720e88cc0af4cf8b299328179c7",
+      "scope_identity_sha256": "d857658e4fdbd0f0554369a8b97c30fb03e07039585a8d02a3bbae32996f18cc"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||5app; initial six-ply woven glass/epoxy laminate; epoxy composition with 5 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "5APP; initial six-ply woven glass/epoxy laminate; epoxy composition with 5 wt% APP and 0 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "b3eef429d1c8cb67b0956e9b34e34dcf4dd2421af7ef645d0a4728e9b202c23c",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "8a66dccb18b3ccf2742d6395e23dd59decbd945bbd2c013d8af0364758b07728",
+      "scope_identity_sha256": "ff8cc37c92caef8106688021c2b61a1d7f72241192c04b7161a321cbea87f7eb"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||10app; initial six-ply woven glass/epoxy laminate; epoxy composition with 10 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "10APP; initial six-ply woven glass/epoxy laminate; epoxy composition with 10 wt% APP and 0 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "b73e6117f238b264d5c55fb4c52dc1f1e0209c07ef77e5afcec2647b9c595ecc",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "81c5ed125de7b5d43c07d6dbf88a9ff483ccadf64ca81dd733f6bfad81b069e6",
+      "scope_identity_sha256": "28f9ab78fe30cca620e1808325d2db00e9e7d6510051d7699305e97c01ef6b85"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||10app; initial six-ply woven glass/epoxy laminate; epoxy composition with 10 wt% app and 0 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "10APP; initial six-ply woven glass/epoxy laminate; epoxy composition with 10 wt% APP and 0 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "8d1e610b816ff301123be6c2cc8c091c33c3300be09e4483900f275256b744c9",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "ff93bfac26cccf08a4612256c49db58cd19aca45ba93d956d867cc61014f006a",
+      "scope_identity_sha256": "4d66abd7310acb9474093138737174cbb373fc6581395e4df826e2283e257eb7"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||5pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 5 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "5PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 5 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "432aae3b8c8cf48894f062be016da1cbbcffbfe0e36f715417d1b1431034a604",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "4028827c322c0815d21c50470276d2c0a15e4db7661b141166b14c88aed3cc8c",
+      "scope_identity_sha256": "9a328a3d5b15f86de47a99d5e50851c8fd2c6e4bba0eece606a510cf81a41af2"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||5pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 5 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "5PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 5 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "6f043756b859cbb23abb7aedea481980673499d8f97339e96b587dd76e44337f",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "c7d260a8ecb6155f46128e5fa35fa683e65348babbdddb043939076ebea37ba6",
+      "scope_identity_sha256": "655aa1148bc853d5ee754cf5c7f671f8a40a0589d8d1c0a4757b553635eb7e48"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||10pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 10 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "10PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 10 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "edbd3833748cfb66391b3bd5470432f1751b6fc8bdf63138ffbc99d0f687844e",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "dabf954133b6ecbec1dbbd05c817edfbec6af47563a82eb804bff96af7185149",
+      "scope_identity_sha256": "ad445cac64dbf9ae97865f879dc8cdf02dd0a8c9a504ac307c261668c3774f79"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||10pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 10 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "10PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 10 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "5ff4e0ab42449ef68f8ca8ca59f0e16862792a33019ef16a61ac2e869b4b439f",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "2c3b475fb50128e9c753c7bce1bf3f165b0797d6a2b90a8e8b0f9860f734df24",
+      "scope_identity_sha256": "bf182aa7ad52f3489c5b338f9522a6972b1c69c3b012e6a86c1708cfe350e7e2"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||20pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 20 wt% pna||initial manufactured laminate; no durability wash reported||n2||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "20PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 20 wt% PNA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "6a5d0b781437c867a75171d37cf2d064f962d267c3548e07b38c11f13e8e08a7",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "b870b82e945c1fd3af860eef991ff28ddfb449fbbe1a26908a0f8a45e5d5ab10",
+      "scope_identity_sha256": "b8093d90896b3178b731c29742d2ef1fb4dbdf965e295acec9b9074749453718"
+    },
+    {
+      "pair_key": "10.1016/j.compositesb.2016.10.003||20pna; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% app and 20 wt% pna||initial manufactured laminate; no durability wash reported||air||10",
+      "DOI": "10.1016/j.compositesb.2016.10.003",
+      "sample_state": "20PNA; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 20 wt% PNA",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "scope_unconfirmed_textile_containing_laminate",
+      "source_locator": "Current accepted-manuscript PDF pp4–6 §2.1/2.2 materials, six-sheet laminate preparation/Table1 and TG/LOI methods; p10 Table2; p11 Tables3/4; p12 LOI discussion.",
+      "nonempty_original_row_sha256": "dc4c7fa9d281d53e88cde62d75b9727da4875db32a092e608313188ad9de0469",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "18932ff28e1863d951144c01c4597e443c95eb7ab41283451c99041e1ff73469",
+      "scope_identity_sha256": "5a6a69fbf212db620b94294afd6ac3b1e70058ecd0b728504093dcd68ad3e177"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||cotton initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||n2||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "Cotton initial cotton fabric",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "811596a159616b6767092f7cf9952041b8ee8d2de0b7dcec7c8a416b8a79855d",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "0ff7729ed200f9e6f831226ffaf97dadbf1137eac0d7ca422dad33ce307f1295",
+      "scope_identity_sha256": "a6e738ba1e20ed6db82e27ea823aec9d68510cb5e62d72498747fdda3ac28c42"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-1% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||n2||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-1% PA-PDMS initial cotton fabric",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "834151d8d2c7f2235f802e08272889db788303ddedba253ead49e0c97f8a8bed",
+      "sample_state_id": "0948e0e04e277f1e5a79",
+      "reviewed_measurement_fingerprint": "23e6bc5c23ebba64eaed0e28f8945691801b2ce0250b08eeec1c61f025f19f18",
+      "scope_identity_sha256": "7931fad4d30fc6b8d87b406ab1ba5188143fcf322c4662598a09ccf8dec70a7a"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-2% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||n2||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-2% PA-PDMS initial cotton fabric",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "2ced205a8645db9aef7e633763d87a77c77d04bf85f37c9811ced57aa70ac3a2",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "4ee12bab4d4d85183484878ef6b310811811f3c576f3f396096c1c52cbd0a881",
+      "scope_identity_sha256": "e29cb491ba139ac25418d9b5838c1459502283694c1ed184c3483b72dc987046"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-4% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||n2||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-4% PA-PDMS initial cotton fabric",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "0e71883bcd15af839020621fa003282915a70a785ae1874dec9fd2fe6aea2b29",
+      "sample_state_id": "e2c6760786f94a181479",
+      "reviewed_measurement_fingerprint": "5b74af2ed99009e1cbddbb7b5dc696df857679429dcabed2e156cc0e4b377bdc",
+      "scope_identity_sha256": "5b96894c2747c64e3fb4875ba6001fef9bc3a7fab57c281693dbdec86f43bc6f"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-8% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||n2||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-8% PA-PDMS initial cotton fabric",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "f6e7aec26e13b0713af34b365c17c3054e958bc4713105fde1405dd35c0adcef",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "9b778c477cf334bde71ef991554d2f7fba46ed6ad1f8693bc819d35a9e88ba01",
+      "scope_identity_sha256": "dc1e815a0fc9f397a864f24c0754cb4556087dd19029e41c88828ef29c9cc264"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||cotton initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||air||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "Cotton initial cotton fabric",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "b6d162324a248da2a04531888461b395e02aca9f73ce3a8194f998a60e198abc",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "477d158cefcde2e5474bd9dc6ffabaa981a7714144d8e2109b44200c0791078f",
+      "scope_identity_sha256": "d6bad67d8c2799d968dac6c4c587e7b0a4f49d45d55be17a0a8d4ef657ae9d40"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-2% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||air||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-2% PA-PDMS initial cotton fabric",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "ab53aab832910ddddf3206f6931324d006604ffe1a745468b3dac5fc26cca70a",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "ac4007a07504359579c60a75f513c3abccb3e38067d1975a3f20d658508eb0e2",
+      "scope_identity_sha256": "e1da45f55426cb5fbe9d54a65255b3d9bd40919b1d80875b298bf34ddbfa5763"
+    },
+    {
+      "pair_key": "10.1007/s10570-023-05051-9||ta-8% pa-pdms initial cotton fabric||initial0durabilitycycles;processingrinsesdistinctfromlaundering||air||10",
+      "DOI": "10.1007/s10570-023-05051-9",
+      "sample_state": "TA-8% PA-PDMS initial cotton fabric",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current local HTML Materials and Sample preparation; Thermal stability/Thermo-oxidative stability; Flame retardance; inherited B154 Table2/3 and TableS1/thermal-oxidative review.",
+      "nonempty_original_row_sha256": "846a3040e7c167ab59350fdb2713e88de484a637288a5f545840098ba8122a70",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "324d29598ae56ef58daba82691280b275005420cd52cbd5da77176526f348497",
+      "scope_identity_sha256": "4e97b901cfee081ded472168985f408ef683bde259291fd3eaab6c6f021d12eb"
+    },
+    {
+      "pair_key": "10.1007/s10570-015-0599-x||sidopo_co_initial_14day_networkformation||initial_as_prepared_after14day_networkformation_no_postcoating_laundering||air||10",
+      "DOI": "10.1007/s10570-015-0599-x",
+      "sample_state": "SiDOPO_CO_initial_14day_networkformation",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "hold_scope",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "nonempty_original_row_sha256": "90ee42f4b4afaa0428a3ac80bd14624ffbedbf2fe115e759137c18d20705ca1d",
+      "sample_state_id": "3c758df161bdec62d4cb",
+      "reviewed_measurement_fingerprint": "b92d56c022866a066ccbd2c3b7ab6deedc58c601f42bcf5f2b58758f288aaa84",
+      "scope_identity_sha256": "351aa54d306929157aa613b6f6880f61866835be08318548e416c1292da13597"
+    },
+    {
+      "pair_key": "10.1007/s10570-015-0599-x||sidopo_co4_initial_14day_networkformation||initial_as_prepared_after14day_networkformation_no_postcoating_laundering||air||10",
+      "DOI": "10.1007/s10570-015-0599-x",
+      "sample_state": "SiDOPO_CO4_initial_14day_networkformation",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "nonempty_original_row_sha256": "42aa43e37afdcaea850dfdc75a5f98ddc8b2003fe9fd39c435ebec55ff5188a9",
+      "sample_state_id": "bf7d9e45f98b13cda0ed",
+      "reviewed_measurement_fingerprint": "245e031e26da57e16280186f1cdb2f36fa2ed15dc1babb2aca1c40230de675fc",
+      "scope_identity_sha256": "00d4234150f1c29ff24e7ae860d76f0ccb8b62080e64a93e3453ee9a4cf08ce3"
+    },
+    {
+      "pair_key": "10.1007/s10570-015-0599-x||sidopo_co8_initial_14day_networkformation||initial_as_prepared_after14day_networkformation_no_postcoating_laundering||air||10",
+      "DOI": "10.1007/s10570-015-0599-x",
+      "sample_state": "SiDOPO_CO8_initial_14day_networkformation",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "nonempty_original_row_sha256": "3fcd726cc1e4877db1c18445fe6cdd292ff5d3318d10f103b263ea4782caa961",
+      "sample_state_id": "a615867538c6a883965d",
+      "reviewed_measurement_fingerprint": "8a50bf7de0f3072b84f9ea297dc8cf8f9fa1f52b3f1ef6cc9ec1c0b6ffcd07b2",
+      "scope_identity_sha256": "6d2ba32d2a2edb377e32f870e726df88c6a942a656e67a75c9dc0ac91050a07c"
+    },
+    {
+      "pair_key": "10.1007/s10570-015-0599-x||sidopo_co16_initial_14day_networkformation||initial_as_prepared_after14day_networkformation_no_postcoating_laundering||air||10",
+      "DOI": "10.1007/s10570-015-0599-x",
+      "sample_state": "SiDOPO_CO16_initial_14day_networkformation",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "nonempty_original_row_sha256": "1d645b37e01295efb87f3488402b890939c9a9198b35b26c9bb02418709da2be",
+      "sample_state_id": "9d6a470a110a8c50a9d0",
+      "reviewed_measurement_fingerprint": "49cb9ae5ac80ec78a724b6e3e36d18333bfab4bf33f9d4e1d74b64bf08cee5d0",
+      "scope_identity_sha256": "6833a8169192c2e24f4242245a1afb5b9ba915ff8a6574b4c070ea1183615367"
+    },
+    {
+      "pair_key": "10.1007/s10570-015-0599-x||sidopo_co32_initial_14day_networkformation||initial_as_prepared_after14day_networkformation_no_postcoating_laundering||air||10",
+      "DOI": "10.1007/s10570-015-0599-x",
+      "sample_state": "SiDOPO_CO32_initial_14day_networkformation",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "source_locator": "Current PDF p3 materials/pad-dry-cure/after-sol-application14days; p4 Table1 No treatment; p5 TG/LOI methods; p10 Table4; p11 Table5.",
+      "nonempty_original_row_sha256": "be2e7bf85ad076a2cd9b07a63d08990e2f40e7444fb574bdbd2e0bdba62152fc",
+      "sample_state_id": "5cdf1d9f96ab140b7f74",
+      "reviewed_measurement_fingerprint": "0237f1cd8da9c36b2ba16aafba7b03b507fb94e44005ad84361c761d6a71e0b7",
+      "scope_identity_sha256": "425721720ba8bd73cac4126c4053270695564b944255daf87858252374701d32"
+    },
+    {
+      "pair_key": "10.1007/s12221-013-0767-2||alginic_acid_fiber_initial||initial_unlaundered||n2||10",
+      "DOI": "10.1007/s12221-013-0767-2",
+      "sample_state": "Alginic_acid_fiber_initial",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "nonempty_original_row_sha256": "f941da397e0ae1aa50eb99054ae754a4a633b6598e57b2932a146011203e92a6",
+      "sample_state_id": "d74bff8b4bdaf24a1116",
+      "reviewed_measurement_fingerprint": "76b893e3504d54502adddb6a8502f315fe08f868cad5618120b1d66305ef80fe",
+      "scope_identity_sha256": "315e40b4b45e4f413b5cd23f34298bfb89acd12f9d51cabd8069d9c7459bed74"
+    },
+    {
+      "pair_key": "10.1007/s12221-013-0767-2||1alg-zn_initial||initial_unlaundered||n2||10",
+      "DOI": "10.1007/s12221-013-0767-2",
+      "sample_state": "1Alg-Zn_initial",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "nonempty_original_row_sha256": "64939a6546214cf41e9f2e0b169ba391263add7ee59d3400e3e5fef11565da0b",
+      "sample_state_id": "30f66793ed82d883f1a6",
+      "reviewed_measurement_fingerprint": "8c6b865965755b7b026df18e8f5dc6053994aeb35e5feefc7a07c048813df86a",
+      "scope_identity_sha256": "86652b2c417f884e5dbc8c64800b635d6510dd9695814110f30c5d930c5bb711"
+    },
+    {
+      "pair_key": "10.1007/s12221-013-0767-2||2alg-zn_initial||initial_unlaundered||n2||10",
+      "DOI": "10.1007/s12221-013-0767-2",
+      "sample_state": "2Alg-Zn_initial",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "nonempty_original_row_sha256": "9a02501803ff1409461e80cc2c37f4f6d8dc65a9aca99016d8f9c45a17f03a6c",
+      "sample_state_id": "84f3098cc9e1eef94825",
+      "reviewed_measurement_fingerprint": "ff9d257161b038a8805a8f7d6ac997c951a47032cf03732b2beafd27a68965af",
+      "scope_identity_sha256": "6e48e1320de5afb02ccaa0d306b44649e0b1dda64ebf5bd72aa9eb6aff9788b7"
+    },
+    {
+      "pair_key": "10.1007/s12221-013-0767-2||3alg-zn_initial||initial_unlaundered||n2||10",
+      "DOI": "10.1007/s12221-013-0767-2",
+      "sample_state": "3Alg-Zn_initial",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "nonempty_original_row_sha256": "2a6442dd2c068a78fcac9fb2c92f26fc334f32e86d24337a80c54b457d62e9b9",
+      "sample_state_id": "e70f7354f6ca525a7c28",
+      "reviewed_measurement_fingerprint": "cebba36204ad3ce2c9a034e36072a644191d3e78db2a98dd3e05c9427ec7e816",
+      "scope_identity_sha256": "f09efa56dd508d62f45c842976166f4847499b7981e850f194adfc7b81f4ad86"
+    },
+    {
+      "pair_key": "10.1007/s12221-013-0767-2||4alg-zn_initial||initial_unlaundered||n2||10",
+      "DOI": "10.1007/s12221-013-0767-2",
+      "sample_state": "4Alg-Zn_initial",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "source_locator": "Current PDF p1 materials/acid conversion/ion exchange; p2 ordinary TG and own LOI, Tables1/2; p3 separate cone assembly; p4 explicit ordered R800 prose.",
+      "nonempty_original_row_sha256": "8612c4414cacd1adc20fae90b8a4c483a8bd82e27ed3dcdadfcb596b72545874",
+      "sample_state_id": "26eaf1e896d08243befa",
+      "reviewed_measurement_fingerprint": "d8c210b18ed979a9108cff72102875d809b5193f2a47e4d1135b4134524608d6",
+      "scope_identity_sha256": "c41ac12a822bfd5276fb2f2081a10de9f9942e29a535eaf76f75578a257ec2fd"
+    }
+  ],
+  "nonempty_original_row_sha256_definition": "sha256(json.dumps(all nonempty original row fields, sort_keys=True, ensure_ascii=True, separators=(',',':')).encode('utf-8'))",
+  "new_selected_observations": [
+    {
+      "DOI": "10.1039/c7ra02863f",
+      "sample_state": "PP/MOSw",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "5",
+      "reviewed_measurement_fingerprint": "30dcba86e8053e03d45cbe23e36c0a9667f15548ed409e31fdb32afb51a8b92d",
+      "reviewed_material_scope_fingerprint": "76523da546104c9e0a74428d3b5de44cff62f5dbca039cd9054be7be83c7dded",
+      "LOI_locator": "PrimaryPDFp7(21661)Table3 LOI column and3.5prose",
+      "TG_locator": "PrimaryPDFp6(21660)Table2/3.4prose; Fig7 caption p6",
+      "conditions_locator": "PrimaryPDFp2-3(21656-21657)2.1-2.4"
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "sample_state": "PP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "286e3771099066045d2ff803c7987b3cd41e71ace8b956b8caf5ead1ec9344ef",
+      "reviewed_material_scope_fingerprint": "9635cf1534a3d37e959db8f636492a1fa282c3e5229d40ac9cf7973d4741d761",
+      "LOI_locator": "PrimaryPDFp5(31700)Table4/3.2",
+      "TG_locator": "PrimaryPDFp5(31700)Table3/footnote; p6(31701)3.3/Fig6/7",
+      "conditions_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1"
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "sample_state": "PP/MEG30",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "10e2a07757f0ff44c71f307e180cfbd5da1849f006d6117f9315d953d4241bdb",
+      "reviewed_material_scope_fingerprint": "cbc7e8494cbc708bda86e6df235ae86716cdbc3c7f2425d5dc904ecd53be3b0f",
+      "LOI_locator": "PrimaryPDFp5(31700)Table4/3.2",
+      "TG_locator": "PrimaryPDFp5(31700)Table3/footnote; p6(31701)3.3/Fig6/7",
+      "conditions_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1"
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "sample_state": "PP/EG30",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "13758d56056335a019d2da86da7f7f1f19412ba6abe6e2579f83c9ee583e5b35",
+      "reviewed_material_scope_fingerprint": "a4890d1899a59624d051450b4a2fd47e8023a273eb868b374534a6b8b63454ae",
+      "LOI_locator": "PrimaryPDFp5(31700)Table4/3.2",
+      "TG_locator": "PrimaryPDFp5(31700)Table3/footnote; p6(31701)3.3/Fig6/7",
+      "conditions_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1"
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "sample_state": "PP/EG/DOPO",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "dbfa20a99947ae1f9e205892d77f25704ed08c264701a5ec4d76f45fa6197c3d",
+      "reviewed_material_scope_fingerprint": "26480f8a6237816fe34a71e47cb8845d6caa9ec74f1d8a9904d45002cf25ef73",
+      "LOI_locator": "PrimaryPDFp5(31700)Table4/3.2",
+      "TG_locator": "PrimaryPDFp5(31700)Table3/footnote; p6(31701)3.3/Fig6/7",
+      "conditions_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1"
+    },
+    {
+      "DOI": "10.1039/c5ra18829f",
+      "sample_state": "PBT",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "e441f08183286e0503a8c2dd17c82c0d487fcbaef55742775718d1e5d7185173",
+      "reviewed_material_scope_fingerprint": "c18f94d48d887e38ac29ad0ff184c6c78d656d3826f2e6aaaa2984785ed18286",
+      "LOI_locator": "AcceptedManuscriptPrimaryPDFp4(AMp3)Table1; p2abstract; p4Flammability properties",
+      "TG_locator": "AcceptedManuscriptPrimaryPDFp5(AMp4)Table2/footnotes/Fig6",
+      "conditions_locator": "AcceptedManuscriptPrimaryPDFp2-3(AMp1-2)Materials/Methods/Preparation/Combustion test"
+    },
+    {
+      "DOI": "10.1039/c5ra18829f",
+      "sample_state": "PBT/CPPA15%",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "df08b975324acbce481508e53709d435094c0b646b3d69118ead30f8f9343142",
+      "reviewed_material_scope_fingerprint": "8091db0a27e7b75b4d58de386e36d9ee1672fb8373081df071bbd030e169e712",
+      "LOI_locator": "AcceptedManuscriptPrimaryPDFp4(AMp3)Table1; p2abstract; p4Flammability properties",
+      "TG_locator": "AcceptedManuscriptPrimaryPDFp5(AMp4)Table2/footnotes/Fig6",
+      "conditions_locator": "AcceptedManuscriptPrimaryPDFp2-3(AMp1-2)Materials/Methods/Preparation/Combustion test"
+    },
+    {
+      "DOI": "10.1039/c5ra18829f",
+      "sample_state": "PBT/CPPA25%",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "9daa6b3d5434239efe6b1c1ed9a8bf608655cda413a6cb7c23c566920810fe43",
+      "reviewed_material_scope_fingerprint": "0aef4dafd565b32138484c000db4927cfe9195203cc0f3fa8357d3949b358016",
+      "LOI_locator": "AcceptedManuscriptPrimaryPDFp4(AMp3)Table1; p2abstract; p4Flammability properties",
+      "TG_locator": "AcceptedManuscriptPrimaryPDFp5(AMp4)Table2/footnotes/Fig6",
+      "conditions_locator": "AcceptedManuscriptPrimaryPDFp2-3(AMp1-2)Materials/Methods/Preparation/Combustion test"
+    },
+    {
+      "DOI": "10.1039/c7ra09868e",
+      "sample_state": "PP/25 wt% DPPIP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "9a74237b9f23ad852d985572f5a951c2ce1b4b7e6019f5f9dd1b243614fe44c0",
+      "reviewed_material_scope_fingerprint": "af2317cec371ff26bf2c91c504f05045ccddd1e87671a19c698a1c67cd306495",
+      "LOI_locator": "PrimaryPDFp5(51923)Table4 initialLOI; p5/p8(51926)3.5/Conclusion",
+      "TG_locator": "PrimaryPDFp4(51922)Table2; p3(51921)3.3; p5Fig4caption",
+      "conditions_locator": "PrimaryPDFp2-3(51920-51921)2.1-2.4"
+    },
+    {
+      "DOI": "10.1039/c7ra09868e",
+      "sample_state": "PP/25 wt% DPPIP",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "5c6dfa2ef87a1047bd4d14d3c0ce7f03e10edaaf5b751944c7eae3a9ba9c3240",
+      "reviewed_material_scope_fingerprint": "af2317cec371ff26bf2c91c504f05045ccddd1e87671a19c698a1c67cd306495",
+      "LOI_locator": "PrimaryPDFp5(51923)Table4 initialLOI; p5/p8(51926)3.5/Conclusion",
+      "TG_locator": "PrimaryPDFp4(51922)Table2; p3(51921)3.3; p5Fig4caption",
+      "conditions_locator": "PrimaryPDFp2-3(51920-51921)2.1-2.4"
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "sample_state": "control cotton",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "6fe761b275d54d682b44403412cc12182b61f48508b749d9d0b8e6a153a1b6ce",
+      "reviewed_material_scope_fingerprint": "f05c13f6dc3b0cd9a41ac5e8f7482c4ba7a220e811001dfe3c5a8add20eda7b8",
+      "LOI_locator": "MainTable1/§3.5; mainPDFp7/printed12676",
+      "TG_locator": "MainTable3/§3.7; mainPDFp8/printed12677",
+      "conditions_locator": "SI§2.4 PDFp4/S4 ordinaryTG and LOI; preparationSIp2-3/S2-S3"
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "sample_state": "cotton-LP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "b48d29fba67fabad4c3df690657c5e10549c0415a7e282b4bd7c809f28a920d4",
+      "reviewed_material_scope_fingerprint": "cc582d762d052848a1f647ee679e4395087abaecd11302533bd835f38a3e1017",
+      "LOI_locator": "MainTable1/§3.5; mainPDFp7/printed12676",
+      "TG_locator": "MainTable3/§3.7; mainPDFp8/printed12677",
+      "conditions_locator": "SI§2.4 PDFp4/S4 ordinaryTG and LOI; preparationSIp2-3/S2-S3"
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "sample_state": "cotton-APP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "1e868ea733e66fb8edd78ee07734a2ba251ff35254b03369a070080b7abf4712",
+      "reviewed_material_scope_fingerprint": "56f4969c332cc6c889b1b8f912cee5faa5966b551c9d040171e66bd47fe9f73e",
+      "LOI_locator": "MainTable1/§3.5; mainPDFp7/printed12676",
+      "TG_locator": "MainTable3/§3.7; mainPDFp8/printed12677",
+      "conditions_locator": "SI§2.4 PDFp4/S4 ordinaryTG and LOI; preparationSIp2-3/S2-S3"
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "sample_state": "cotton-APP/LP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "reviewed_measurement_fingerprint": "c34b9c9d8c869feba5732fb1e9e464c5b7f4498367c5462956b1d47052b2c9ee",
+      "reviewed_material_scope_fingerprint": "20f0cb96417e3431100278e26df08cf38bba6a2dbe690032f3eca79ebd714b4a",
+      "LOI_locator": "MainTable1/§3.5; mainPDFp7/printed12676",
+      "TG_locator": "MainTable3/§3.7; mainPDFp8/printed12677",
+      "conditions_locator": "SI§2.4 PDFp4/S4 ordinaryTG and LOI; preparationSIp2-3/S2-S3"
+    },
+    {
+      "DOI": "10.1002/adfm.202528112",
+      "sample_state": "pure DFS",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "20",
+      "reviewed_measurement_fingerprint": "7c6e04096a2cfc8755ba4b653af016ca0a0a65add4b58415a054e816079bae5b",
+      "reviewed_material_scope_fingerprint": "91283ef4fa1fba59ab98e19dd0f76fed3614c2adb5f5a5885ab7d41780110915",
+      "LOI_locator": "PDFp1abstract pureDFS19.03/CS-PA@TiO235.3; p8§3.4.2 givesCS-PA34.03/CS-PA@TiO235.3/Janus35 respectively;Fig5cSDcaption",
+      "TG_locator": "PDFp6-7§3.4.1 ThermalStability/Fig5a,b; sourceTableS3 cited butnotlocallyreadable",
+      "conditions_locator": "PDFp2§2.2recipe;p3-4§2.3 ordinaryTG/LOI/allquantitativereplicas"
+    },
+    {
+      "DOI": "10.1002/adfm.202528112",
+      "sample_state": "CS-PA@TiO2-DFS",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "20",
+      "reviewed_measurement_fingerprint": "02ede6e6eae47790c70164869cd474d32673de57376a5620f262ee655de45b0b",
+      "reviewed_material_scope_fingerprint": "5fb5009c1e864b829dbff8bf6d7a44224fd425281e04c8627b8031f8cb49cc2b",
+      "LOI_locator": "PDFp1abstract pureDFS19.03/CS-PA@TiO235.3; p8§3.4.2 givesCS-PA34.03/CS-PA@TiO235.3/Janus35 respectively;Fig5cSDcaption",
+      "TG_locator": "PDFp6-7§3.4.1 ThermalStability/Fig5a,b; sourceTableS3 cited butnotlocallyreadable",
+      "conditions_locator": "PDFp2§2.2recipe;p3-4§2.3 ordinaryTG/LOI/allquantitativereplicas"
+    },
+    {
+      "DOI": "10.1002/adfm.202528112",
+      "sample_state": "Janus-DFS",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "20",
+      "reviewed_measurement_fingerprint": "116f8f5938a808e4392c330b0071b9ec18ecbe15358ba98e57f6ba710549bec5",
+      "reviewed_material_scope_fingerprint": "7f47cd18f2a90aa888e8db35cca0d7ddaa65e1bba86eb90d1af17279d3d07002",
+      "LOI_locator": "PDFp1abstract pureDFS19.03/CS-PA@TiO235.3; p8§3.4.2 givesCS-PA34.03/CS-PA@TiO235.3/Janus35 respectively;Fig5cSDcaption",
+      "TG_locator": "PDFp6-7§3.4.1 ThermalStability/Fig5a,b; sourceTableS3 cited butnotlocallyreadable",
+      "conditions_locator": "PDFp2§2.2recipe;p3-4§2.3 ordinaryTG/LOI/allquantitativereplicas"
+    }
+  ],
+  "original_source_review_manifests": {
+    "b487": "data/curation/archive/20261007/source_review_manifest_b487.json",
+    "b504": "data/curation/archive/20261007/source_review_manifest_b504.json",
+    "b505": "data/curation/archive/20261007/source_review_manifest_b505.json"
+  },
+  "read_scope": "Inherited full native new-source primary and independent source reviews; root critical rereads bounded. Old scope inherited numerical audits and bounded critical methods/tables; no new full review of five old sources. Metadata integration performs no original fulltext reading.",
+  "queue_count_definition": "verified_unique_sample_states retains broad numerical verified-state semantics; old counts unchanged, distinct from supported city-scope states. New supported sample counts do not represent merged main increments.",
+  "public_policy": "DOI/sample/page/table/figure and concise facts only; no fulltext/private paths.",
+  "original_source_view_count_limit": "Original candidate/held/LOI-only/TG-only/curve contexts are named views, not additional independent paired samples; selected rows are counted once by source/sample state.",
+  "root_source_and_reuse_approved": true,
+  "reuse_snapshot": {
+    "original_csv_presentations": 63873,
+    "unique_parsed_payloads": 1597,
+    "complete_contexts": 20073,
+    "new_condition_queries": 17,
+    "old_scope_condition_queries": 15,
+    "new_source_cases": 8,
+    "old_scope_source_cases": 13,
+    "unresolved_selected_cases": 0,
+    "historical_malformed_records_quarantined": 2,
+    "all_original_records_fully_decoded": false,
+    "basis": "Both canonical and complete qualified raw metrics; positive formulation/form/preparation evidence, never gas or absent-match independence."
+  },
+  "derived_from_unmodified_draft_sha256": "04437ab1a76d3c2e7787285f3769b66b581863b031ef9803a0bfe58c74886be8",
+  "new_input_provenance_admin_delta": [
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "control cotton",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "cotton-LP",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "cotton-APP",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "cotton-APP/LP",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "pure DFS",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "CS-PA@TiO2-DFS",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "CS-PA@TiO2-DFS",
+      "field": "source_row",
+      "before": "8",
+      "after": "7",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "Janus-DFS",
+      "field": "source_file",
+      "before": "publication_proposed.csv",
+      "after": "data/incoming/verified_source_batch_20261007_b505_local_textiles.csv",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    },
+    {
+      "role": "staged-b505-local-textiles",
+      "sample": "Janus-DFS",
+      "field": "source_row",
+      "before": "9",
+      "after": "8",
+      "reason": "Unchanged incoming retains primary stage provenance; existing canonical CSV ingester assigns actual public input file and physical CSV row."
+    }
+  ],
+  "reader_only_existing_note_changes": 10,
+  "reader_note_change": "Expose the existing source_Rmax_pct_per_C amplitude in notes; no temperature, LOI, material or measurement change.",
+  "legacy_scope_admin_delta": [
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "ff61601a0fc9dcb793be",
+      "reviewed_measurement_fingerprint": "5927c6210c37c0aeda3a29f99ceb932d7bec9e7414446614a3e56de40fb1feb4",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "ff61601a0fc9dcb793be",
+      "reviewed_measurement_fingerprint": "5927c6210c37c0aeda3a29f99ceb932d7bec9e7414446614a3e56de40fb1feb4",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "fd613f7aff74481cf044",
+      "reviewed_measurement_fingerprint": "c7c8184e4674d9c14769c4d8abc0029aa96ffb7ebbc10633f402c4acd9c6892d",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "fd613f7aff74481cf044",
+      "reviewed_measurement_fingerprint": "c7c8184e4674d9c14769c4d8abc0029aa96ffb7ebbc10633f402c4acd9c6892d",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "dc4b466985c9f373ba94",
+      "reviewed_measurement_fingerprint": "96363d34fc4f50777bd2fb549f5ca4e3845031f740413658a7f77f6b49f6ddb5",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "dc4b466985c9f373ba94",
+      "reviewed_measurement_fingerprint": "96363d34fc4f50777bd2fb549f5ca4e3845031f740413658a7f77f6b49f6ddb5",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "252e03a4594822da5e5e",
+      "reviewed_measurement_fingerprint": "895f33340034670b032fbfca15bc74f8ff30a541ea8f9ec429508ad500595fc9",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "252e03a4594822da5e5e",
+      "reviewed_measurement_fingerprint": "895f33340034670b032fbfca15bc74f8ff30a541ea8f9ec429508ad500595fc9",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "dc2d1954908ad5721977",
+      "reviewed_measurement_fingerprint": "bd69de6778c6aa10f9aaa62a5447e2dd0fdc6b0d4621c29c1fcce2319c1d2aca",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "dc2d1954908ad5721977",
+      "reviewed_measurement_fingerprint": "bd69de6778c6aa10f9aaa62a5447e2dd0fdc6b0d4621c29c1fcce2319c1d2aca",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "1b66c1d455867fed7ecd",
+      "reviewed_measurement_fingerprint": "506c53511bb7271402e395e9b99afa11c9beb16d67a0f3156781baaee43c5a6d",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1002/app.37713",
+      "sample_state_id": "1b66c1d455867fed7ecd",
+      "reviewed_measurement_fingerprint": "506c53511bb7271402e395e9b99afa11c9beb16d67a0f3156781baaee43c5a6d",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "62e876f03235001fbdbd94f81dcba2fd4964905c18ea2275045960d57ab82017",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "62e876f03235001fbdbd94f81dcba2fd4964905c18ea2275045960d57ab82017",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "7dc74f72bd5c5b7f5e48c2f817fea22084bf31096b943064a923451bf38b9dba",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "7dc74f72bd5c5b7f5e48c2f817fea22084bf31096b943064a923451bf38b9dba",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "2c096507bc6a21ae388933c2c98e167ec815d720e88cc0af4cf8b299328179c7",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "2c096507bc6a21ae388933c2c98e167ec815d720e88cc0af4cf8b299328179c7",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "8a66dccb18b3ccf2742d6395e23dd59decbd945bbd2c013d8af0364758b07728",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "8a66dccb18b3ccf2742d6395e23dd59decbd945bbd2c013d8af0364758b07728",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "81c5ed125de7b5d43c07d6dbf88a9ff483ccadf64ca81dd733f6bfad81b069e6",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "81c5ed125de7b5d43c07d6dbf88a9ff483ccadf64ca81dd733f6bfad81b069e6",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "ff93bfac26cccf08a4612256c49db58cd19aca45ba93d956d867cc61014f006a",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "ff93bfac26cccf08a4612256c49db58cd19aca45ba93d956d867cc61014f006a",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "4028827c322c0815d21c50470276d2c0a15e4db7661b141166b14c88aed3cc8c",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "4028827c322c0815d21c50470276d2c0a15e4db7661b141166b14c88aed3cc8c",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "c7d260a8ecb6155f46128e5fa35fa683e65348babbdddb043939076ebea37ba6",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "c7d260a8ecb6155f46128e5fa35fa683e65348babbdddb043939076ebea37ba6",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "dabf954133b6ecbec1dbbd05c817edfbec6af47563a82eb804bff96af7185149",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "dabf954133b6ecbec1dbbd05c817edfbec6af47563a82eb804bff96af7185149",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "2c3b475fb50128e9c753c7bce1bf3f165b0797d6a2b90a8e8b0f9860f734df24",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "2c3b475fb50128e9c753c7bce1bf3f165b0797d6a2b90a8e8b0f9860f734df24",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "b870b82e945c1fd3af860eef991ff28ddfb449fbbe1a26908a0f8a45e5d5ab10",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "b870b82e945c1fd3af860eef991ff28ddfb449fbbe1a26908a0f8a45e5d5ab10",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "18932ff28e1863d951144c01c4597e443c95eb7ab41283451c99041e1ff73469",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "18932ff28e1863d951144c01c4597e443c95eb7ab41283451c99041e1ff73469",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "0ff7729ed200f9e6f831226ffaf97dadbf1137eac0d7ca422dad33ce307f1295",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "0ff7729ed200f9e6f831226ffaf97dadbf1137eac0d7ca422dad33ce307f1295",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "0948e0e04e277f1e5a79",
+      "reviewed_measurement_fingerprint": "23e6bc5c23ebba64eaed0e28f8945691801b2ce0250b08eeec1c61f025f19f18",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "0948e0e04e277f1e5a79",
+      "reviewed_measurement_fingerprint": "23e6bc5c23ebba64eaed0e28f8945691801b2ce0250b08eeec1c61f025f19f18",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "4ee12bab4d4d85183484878ef6b310811811f3c576f3f396096c1c52cbd0a881",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "4ee12bab4d4d85183484878ef6b310811811f3c576f3f396096c1c52cbd0a881",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "e2c6760786f94a181479",
+      "reviewed_measurement_fingerprint": "5b74af2ed99009e1cbddbb7b5dc696df857679429dcabed2e156cc0e4b377bdc",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "e2c6760786f94a181479",
+      "reviewed_measurement_fingerprint": "5b74af2ed99009e1cbddbb7b5dc696df857679429dcabed2e156cc0e4b377bdc",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "9b778c477cf334bde71ef991554d2f7fba46ed6ad1f8693bc819d35a9e88ba01",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "9b778c477cf334bde71ef991554d2f7fba46ed6ad1f8693bc819d35a9e88ba01",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "477d158cefcde2e5474bd9dc6ffabaa981a7714144d8e2109b44200c0791078f",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a16aa24b20983d3f8a1f",
+      "reviewed_measurement_fingerprint": "477d158cefcde2e5474bd9dc6ffabaa981a7714144d8e2109b44200c0791078f",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "ac4007a07504359579c60a75f513c3abccb3e38067d1975a3f20d658508eb0e2",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "a66e208f8a9dbdfe9fb7",
+      "reviewed_measurement_fingerprint": "ac4007a07504359579c60a75f513c3abccb3e38067d1975a3f20d658508eb0e2",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "324d29598ae56ef58daba82691280b275005420cd52cbd5da77176526f348497",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-023-05051-9",
+      "sample_state_id": "19cd3bdf2ac3cf6c1f4e",
+      "reviewed_measurement_fingerprint": "324d29598ae56ef58daba82691280b275005420cd52cbd5da77176526f348497",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "3c758df161bdec62d4cb",
+      "reviewed_measurement_fingerprint": "b92d56c022866a066ccbd2c3b7ab6deedc58c601f42bcf5f2b58758f288aaa84",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "3c758df161bdec62d4cb",
+      "reviewed_measurement_fingerprint": "b92d56c022866a066ccbd2c3b7ab6deedc58c601f42bcf5f2b58758f288aaa84",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "bf7d9e45f98b13cda0ed",
+      "reviewed_measurement_fingerprint": "245e031e26da57e16280186f1cdb2f36fa2ed15dc1babb2aca1c40230de675fc",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "bf7d9e45f98b13cda0ed",
+      "reviewed_measurement_fingerprint": "245e031e26da57e16280186f1cdb2f36fa2ed15dc1babb2aca1c40230de675fc",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "a615867538c6a883965d",
+      "reviewed_measurement_fingerprint": "8a50bf7de0f3072b84f9ea297dc8cf8f9fa1f52b3f1ef6cc9ec1c0b6ffcd07b2",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "a615867538c6a883965d",
+      "reviewed_measurement_fingerprint": "8a50bf7de0f3072b84f9ea297dc8cf8f9fa1f52b3f1ef6cc9ec1c0b6ffcd07b2",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "9d6a470a110a8c50a9d0",
+      "reviewed_measurement_fingerprint": "49cb9ae5ac80ec78a724b6e3e36d18333bfab4bf33f9d4e1d74b64bf08cee5d0",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "9d6a470a110a8c50a9d0",
+      "reviewed_measurement_fingerprint": "49cb9ae5ac80ec78a724b6e3e36d18333bfab4bf33f9d4e1d74b64bf08cee5d0",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "5cdf1d9f96ab140b7f74",
+      "reviewed_measurement_fingerprint": "0237f1cd8da9c36b2ba16aafba7b03b507fb94e44005ad84361c761d6a71e0b7",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s10570-015-0599-x",
+      "sample_state_id": "5cdf1d9f96ab140b7f74",
+      "reviewed_measurement_fingerprint": "0237f1cd8da9c36b2ba16aafba7b03b507fb94e44005ad84361c761d6a71e0b7",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "d74bff8b4bdaf24a1116",
+      "reviewed_measurement_fingerprint": "76b893e3504d54502adddb6a8502f315fe08f868cad5618120b1d66305ef80fe",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "d74bff8b4bdaf24a1116",
+      "reviewed_measurement_fingerprint": "76b893e3504d54502adddb6a8502f315fe08f868cad5618120b1d66305ef80fe",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "30f66793ed82d883f1a6",
+      "reviewed_measurement_fingerprint": "8c6b865965755b7b026df18e8f5dc6053994aeb35e5feefc7a07c048813df86a",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "30f66793ed82d883f1a6",
+      "reviewed_measurement_fingerprint": "8c6b865965755b7b026df18e8f5dc6053994aeb35e5feefc7a07c048813df86a",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "84f3098cc9e1eef94825",
+      "reviewed_measurement_fingerprint": "ff9d257161b038a8805a8f7d6ac997c951a47032cf03732b2beafd27a68965af",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "84f3098cc9e1eef94825",
+      "reviewed_measurement_fingerprint": "ff9d257161b038a8805a8f7d6ac997c951a47032cf03732b2beafd27a68965af",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "e70f7354f6ca525a7c28",
+      "reviewed_measurement_fingerprint": "cebba36204ad3ce2c9a034e36072a644191d3e78db2a98dd3e05c9427ec7e816",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "e70f7354f6ca525a7c28",
+      "reviewed_measurement_fingerprint": "cebba36204ad3ce2c9a034e36072a644191d3e78db2a98dd3e05c9427ec7e816",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "26eaf1e896d08243befa",
+      "reviewed_measurement_fingerprint": "d8c210b18ed979a9108cff72102875d809b5193f2a47e4d1135b4134524608d6",
+      "field": "scope_review_basis",
+      "before": "Existing original numeric audit inherited; B491 non-author critical scope opinion and B500 bounded native form/state reread. Scope-only proposal, all existing scientific cells unchanged, no root approval or publication.",
+      "after": "Inherited completed numerical source audit; B491 independent critical review; B508 root bounded original-source scope opinion; B516 fixed-corpus reuse and B511 root physical-state case acceptance. Selected13oldstates15TG supported; all other holds retained. Original master facts unchanged; normal PR still pending."
+    },
+    {
+      "source_identity": "10.1007/s12221-013-0767-2",
+      "sample_state_id": "26eaf1e896d08243befa",
+      "reviewed_measurement_fingerprint": "d8c210b18ed979a9108cff72102875d809b5193f2a47e4d1135b4134524608d6",
+      "field": "scope_reviewed_by",
+      "before": "B500 after-peer documentary derivation against exact currentmain; root approval pending",
+      "after": "B500 documentary derivation;B491 independent;B508 root original scope;B516 reuse;B511 root integration"
+    }
+  ],
+  "queue_final_root_metadata_delta_cells": 10,
+  "queue_final_root_metadata_delta_role": "Two current workflow fields per five old sources, derived after immutable14-source draft; all older note prefixes and numerical verified counts retained."
+}

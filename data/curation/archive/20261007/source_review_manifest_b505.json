@@ -1,0 +1,91 @@
+{
+  "batch": "B505",
+  "baseline_commit": "42e88ec1757d7f55ba3585dfc506f62e1a3422db",
+  "status": "branch_pending_publication_complete_reuse_pending_NOT_MAIN",
+  "candidate_states": 7,
+  "candidate_TG_conditions": 7,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1021/acssuschemeng.4c05168",
+      "source_title": "Durable Flame-Retardant, Anti-UV, Photothermal, and Antibacterial Cotton Fabrics Based on Lignin and Ammonium Polyphosphate",
+      "source_url": "https://doi.org/10.1021/acssuschemeng.4c05168",
+      "status": "root_source_review_complete_pending_complete_reuse_and_publication",
+      "counts": {
+        "candidate": 4,
+        "wholeheld": 0,
+        "LOIonly": 1,
+        "TGonly": 0,
+        "nonnumeric": 4
+      },
+      "source_locations": [
+        "PublishedHTML§2/3.5/3.7; Table1/Table3; same-source mainPDFp7-8/printed12676-12677; SI§2.1-2.4 PDFp2-5/S2-S5",
+        "Main§3.6/Fig8; abstract/conclusion; SI§2.4p5/S5",
+        "SIp2/S2-S3 intermediate andTableS2UV only; not final17%LP LOI/TG row",
+        "Main§3.1/Fig2g TG qualitative comparison, no own LOI or textual numeric ordinaryTG",
+        "Fig8 curve labels not native numeric objects in readable body; no estimated LOI and no matching TG"
+      ],
+      "sourceapproved_new_pairs": 4,
+      "published_pairs": 0,
+      "candidate_unique_states": 4,
+      "candidate_TG_records": 4
+    },
+    {
+      "DOI": "10.1007/s10570-021-03833-7",
+      "source_title": "Smart flame retardant coating containing carboxymethyl chitosan nanoparticles decorated graphene for obtaining multifunctional textiles",
+      "source_url": "https://doi.org/10.1007/s10570-021-03833-7",
+      "status": "root_source_review_complete_pending_complete_reuse_and_publication",
+      "counts": {
+        "candidate": 0,
+        "wholeheld": 5,
+        "LOIonly": 1,
+        "TGonly": 0,
+        "nonnumeric": 0
+      },
+      "source_locations": [
+        "PDFp3-4 Methods;p11Thermalbehavior/Fig6;p14Table2;p15Flammability; full19p primary"
+      ],
+      "sourceapproved_new_pairs": 0,
+      "published_pairs": 0,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0
+    },
+    {
+      "DOI": "10.1002/adfm.202528112",
+      "source_title": "Smart Directional Wicking and Flame Retardant Coolmax/Cotton Woven Fabrics with Dual‐Faced Structures for Human Security Protection",
+      "source_url": "https://doi.org/10.1002/adfm.202528112",
+      "status": "root_source_review_complete_pending_complete_reuse_and_publication",
+      "counts": {
+        "candidate": 3,
+        "wholeheld": 1,
+        "LOIonly": 2,
+        "TGonly": 1,
+        "nonnumeric": 0
+      },
+      "source_locations": [
+        "PDFp2-4Methods;p6-8§3.4.1/3.4.2/Fig5;p12washing/abrasion; samepublishedHTMLcriticalcrosscheck",
+        "PDFp12§3.5",
+        "PDFp7§3.4.1 groupT10 unassigned without localTableS3; explicitTiO2R80027±0.5 andJanusR80029 retained; CS-PA wholeheld; pureDFSLOIexplicitPDFp1abstract"
+      ],
+      "sourceapproved_new_pairs": 3,
+      "published_pairs": 0,
+      "candidate_unique_states": 3,
+      "candidate_TG_records": 3
+    }
+  ],
+  "sourceapproved_unique_states": 7,
+  "sourceapproved_TG_conditions": 7,
+  "published": 0,
+  "oldmain_evidence_upgrade": 0,
+  "oldmain_scope_upgrade": 0,
+  "public_evidence_policy": "Facts and DOI/page/table/section locators only; no local paths or fulltexts",
+  "limits": "All facts require independent source peer and root decision. This preliminary baseline is fixed5e798; future publication must rebase to current closedmain and refresh full private corpus. Unknown preparation/assay data retained, durabilityLOI separate from initialTG.",
+  "source_counts": {
+    "processed_DOI": 3,
+    "positive_DOI": 2,
+    "zero_DOI": 1
+  },
+  "root_scienceapproved_unique_states": 7,
+  "root_scienceapproved_TG_conditions": 7,
+  "publication_blocking_complete_reuse": "B501 pending; finiteprofile does not establish fullcorpus",
+  "source_locator_note": "DedicatedpureDFSLOI_locator alreadyPDFp1abstract; no generic scope edit. SpringerTGPDFp11/Table2LOIp14/prosep15."
+}

@@ -1,0 +1,140 @@
+{
+  "status": "root_source_approved_prepublication_snapshot_NOT_YET_PUBLISHED",
+  "sourceapproved": 1,
+  "rootapproved": 1,
+  "published": 0,
+  "fixed_scientific_baseline": "25769f35f9b81156e90f05f8734ebdfee43237d2",
+  "proposed_new_unique_states": 5,
+  "proposed_TG_records": 5,
+  "proposed_paired_sources": 2,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1039/c7py01315a",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "wholeheld_states": 4,
+      "LOI_only_conditions": 3,
+      "TG_only_polymer_conditions": 4,
+      "modifier_TG_only_conditions": 2,
+      "source_review_locator": "PrimaryPDFp2-3(6310-6311)Preparation/Characterization/EB/Table1; p6-7(6314-6315)thermal stability/Table3 andfootnote; ownHTML Table1/Table3",
+      "scientific_decision": "All initial PP/AAPP TG-LOI correspondences held: source explicitly injection molds LOI/UL94 and separately compression molds CCT, but TG parent post-forming state not stated. EB36kGy rows no own EB LOI. Table Tonset explicitly5% loss retained asT5, temperature called maximumdecomposing remains raw notcanonicalratepeak. Modifier observations notpolymerpairs; no TGFTIR conditions transfer.",
+      "complete_native_PDF_pages_read": 10,
+      "bounded_local_SI_status": "MainS1-S5 references; metadataindex/immediateparentexactDOI onlymainPDFandHTML, no indexed matchinglocalSI in thosebounds; no globalabsence claim"
+    },
+    {
+      "DOI": "10.1039/c7ra02863f",
+      "candidate_unique_states": 1,
+      "candidate_TG_records": 1,
+      "wholeheld_states": 2,
+      "modifier_TG_only_conditions": 1,
+      "source_review_locator": "PrimaryPDFp2-3(21656-21657)2.1-2.4; p5-7(21659-21661)3.3-3.5/Table2ordinaryTG/Table3LOI",
+      "scientific_decision": "Primary PP/MOSw film proposal uses only LOI24.7 and measuredresidual21.7 underN2/5Cmin, specific700C residual-calculation binding pending independent/root review. T05/Tpeak originalraw criteria unknown, canonicalT5/Tmax blank. DDPMOSw26.1 residualtemperature withheld; neatPPcontrol preparing chain unresolved. MOSwmodifier stage losses andTable3 cone residues notpolymerTG.",
+      "complete_native_PDF_pages_read": 11,
+      "bounded_local_SI_status": "MainS1XPS/S2watercontactangle/S3SEM/S4MOSwTG/SchemeS1 referenced; metadataindex/immediateparentexactDOI PDFonly, no matchingSI in disclosedbounds"
+    },
+    {
+      "DOI": "10.1039/c7ra04232a",
+      "candidate_unique_states": 4,
+      "candidate_TG_records": 4,
+      "LOI_only_conditions": 2,
+      "modifier_TG_only_conditions": 2,
+      "source_review_locator": "PrimaryPDFp2-3(31697-31698)2.1-2.4/Table1recipes; p5(31700)Table3TG/Table4LOI; p6(31701)3.3 maximumrate definition",
+      "scientific_decision": "Primarypending: genericstandardtestbar preparation andTable1 includespurePP andcomposites; own PP,MEG30,EG30,EGDOPO Table3/Table4 initial records. T5/T30/T50 loss fractions andTp maximumrate defined;R600 stays600 not700 programend. MEG10/20 LOI-only, EG/MEGagentTG-only. XPSatom%C notTGresidue, mechanicalfive-repeats notLOIuncertainty; productgrafting percent notMEG retainedDOPO fraction.",
+      "complete_native_PDF_pages_read": 11,
+      "bounded_local_SI_status": "NoSI cited incompleteprimary; metadataindex/immediateparentexactDOI onlymainPDF"
+    }
+  ],
+  "scope_entries": [
+    {
+      "source_identity": "10.1039/c7ra02863f",
+      "sample_state_id": "8ba76790c83f24f07575",
+      "reviewed_measurement_fingerprint": "30dcba86e8053e03d45cbe23e36c0a9667f15548ed409e31fdb32afb51a8b92d",
+      "scope_identity_sha256": "2e9f864e034b3e046821bc7982d906919353ff1e959a4f98dc1c0ea1e25765af",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Primary full32-page native review + B489 non-author full32-page source review; root B498 12 critical original PDF pages including related Ref6, explicit context derivation; current-main projection and normal PR pending",
+      "scope_evidence": "Polypropylene polymer or PP composite in source Table formulations; common prepared polymer form and the same initial state for two assays",
+      "source_locator": "PrimaryPDFp2(21656)2.3;p5-7(21659-21661)3.3/3.4/Table2/Table3",
+      "scope_reviewed_by": "codex-b487-primary+b489-independent-source+b498-root-critical",
+      "scope_reviewed_at": "2026-10-07"
+    },
+    {
+      "source_identity": "10.1039/c7ra04232a",
+      "sample_state_id": "a175743d38f70423d067",
+      "reviewed_measurement_fingerprint": "286e3771099066045d2ff803c7987b3cd41e71ace8b956b8caf5ead1ec9344ef",
+      "scope_identity_sha256": "d49faf1049f92efa658c934bfc59d9ec7cacea82ef37ea345a4a8facd82150b4",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "Primary full32-page native review + B489 non-author full32-page source review; root B498 12 critical original PDF pages including related Ref6, explicit context derivation; current-main projection and normal PR pending",
+      "scope_evidence": "Polypropylene polymer or PP composite in source Table formulations; common prepared polymer form and the same initial state for two assays",
+      "source_locator": "PrimaryPDFp2-3(31697-31698)2.3/Table1; p5-6(31700-31701)Table3/Table4/3.3",
+      "scope_reviewed_by": "codex-b487-primary+b489-independent-source+b498-root-critical",
+      "scope_reviewed_at": "2026-10-07"
+    },
+    {
+      "source_identity": "10.1039/c7ra04232a",
+      "sample_state_id": "7c7176bb9ff25db606e2",
+      "reviewed_measurement_fingerprint": "10e2a07757f0ff44c71f307e180cfbd5da1849f006d6117f9315d953d4241bdb",
+      "scope_identity_sha256": "c86a2de98ecc12dfdf874bf57530e7de8471e7c0eafbec0f3673e829f2e2607c",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Primary full32-page native review + B489 non-author full32-page source review; root B498 12 critical original PDF pages including related Ref6, explicit context derivation; current-main projection and normal PR pending",
+      "scope_evidence": "Polypropylene polymer or PP composite in source Table formulations; common prepared polymer form and the same initial state for two assays",
+      "source_locator": "PrimaryPDFp2-3(31697-31698)2.3/Table1; p5-6(31700-31701)Table3/Table4/3.3",
+      "scope_reviewed_by": "codex-b487-primary+b489-independent-source+b498-root-critical",
+      "scope_reviewed_at": "2026-10-07"
+    },
+    {
+      "source_identity": "10.1039/c7ra04232a",
+      "sample_state_id": "a129fcdc9a7661284924",
+      "reviewed_measurement_fingerprint": "13758d56056335a019d2da86da7f7f1f19412ba6abe6e2579f83c9ee583e5b35",
+      "scope_identity_sha256": "d7032761804fcfd5b8019e1dc4005ad2fab5a5a13cbf3bc8d34274f206bf1b07",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Primary full32-page native review + B489 non-author full32-page source review; root B498 12 critical original PDF pages including related Ref6, explicit context derivation; current-main projection and normal PR pending",
+      "scope_evidence": "Polypropylene polymer or PP composite in source Table formulations; common prepared polymer form and the same initial state for two assays",
+      "source_locator": "PrimaryPDFp2-3(31697-31698)2.3/Table1; p5-6(31700-31701)Table3/Table4/3.3",
+      "scope_reviewed_by": "codex-b487-primary+b489-independent-source+b498-root-critical",
+      "scope_reviewed_at": "2026-10-07"
+    },
+    {
+      "source_identity": "10.1039/c7ra04232a",
+      "sample_state_id": "d250b175700a2f932fea",
+      "reviewed_measurement_fingerprint": "dbfa20a99947ae1f9e205892d77f25704ed08c264701a5ec4d76f45fa6197c3d",
+      "scope_identity_sha256": "d34389dcb48b12adfb4b3840cd8d0ccec6ae2d8b6a139615045cdd45ef593a33",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "Primary full32-page native review + B489 non-author full32-page source review; root B498 12 critical original PDF pages including related Ref6, explicit context derivation; current-main projection and normal PR pending",
+      "scope_evidence": "Polypropylene polymer or PP composite in source Table formulations; common prepared polymer form and the same initial state for two assays",
+      "source_locator": "PrimaryPDFp2-3(31697-31698)2.3/Table1; p5-6(31700-31701)Table3/Table4/3.3",
+      "scope_reviewed_by": "codex-b487-primary+b489-independent-source+b498-root-critical",
+      "scope_reviewed_at": "2026-10-07"
+    }
+  ],
+  "raw_view_counts": {
+    "total": 25,
+    "primary_selected": 5,
+    "wholeheld": 6,
+    "LOIonly": 5,
+    "polymerTGonly": 4,
+    "modifierTGonly": 5
+  },
+  "public_incoming_path": "data/incoming/verified_source_batch_20261007_b487_local_material.csv",
+  "public_archive_path": "data/curation/archive/20261007/source_review_manifest_b487.json",
+  "scientific_limit": "Primarycandidate numbers not authorizing admission. Complete recipe/form/state bridge and specificresidualtemperature binding remain independent/rootreview gates. No private paths or fulltexts in public facts.",
+  "primary_snapshot": {
+    "status": "primary_candidate_pending_independent_peer_root",
+    "sourceapproved": 0,
+    "rootapproved": 0,
+    "published": 0,
+    "immutable_manifest_sha256": "c27d46780cdc4997b294206f8751d90601d35243a127037eec4383fdd4bb7322"
+  },
+  "root_source_approval_sha256": "d94e84755383ee3b89dcbb33b5c39b4a31aef165525f3223651aee5d36c17d87",
+  "independent_source_peer_ready_sha256": "a4994c2b64c9ea44247219ed29c66a5fd75c5646eeba72354a9dede34c3e755b",
+  "independent_peer_verdict": "PARTIAL_CONCUR with two mandatory publication context corrections, raw qualifier restoration; preserved original verdict, not retroactively full concurrence",
+  "source_review_role": "Nonblind root after B489 opinion and supplied primary; not an independent blind opinion.",
+  "primary_measurement_fingerprints_unchanged": true,
+  "numeric_or_form_state_locator_changes": 0,
+  "publication_stage_boundary": "Approval of this derived source snapshot does not count samples. Current main scope report remains the formal authority; original pending stage is immutable.",
+  "row_actual_preparation_separated_from_other_source_background": true
+}

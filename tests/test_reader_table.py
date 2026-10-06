@@ -361,5 +361,29 @@ class ReaderB439RawNotesTests(unittest.TestCase):
         self.assertNotIn('±', str(d))
         self.assertNotIn('SD=', str(d))
 
+class ReaderPerDegreeMassLossTests(unittest.TestCase):
+    def test_original_Rmax_amplitude_is_a_note_and_does_not_change_temperature(self):
+        for amplitude, temperature in [('2.30', '420.1'), ('1.01', '345.1'),
+                                       ('1.23', '325.4'), ('1.16', '331.8')]:
+            row = dict(source_Rmax_pct_per_C=amplitude,
+                       source_Rmax_definition='Table 3 Rmax maximum mass-loss amplitude; original unit %/℃',
+                       Tmax1_C=temperature, source_Rmax_C='999')
+            original = row.copy()
+            display = show(row)
+            self.assertIn('source_Rmax_pct_per_C=' + amplitude, display['限制与不确定性'])
+            self.assertIn('%/℃', display['限制与不确定性'])
+            self.assertEqual(display['Tmax1 (℃)'], temperature)
+            self.assertEqual(display['其他TG温度（℃）'], '')
+            self.assertNotIn('999', str(display))
+            self.assertEqual(row, original)
+
+    def test_zero_per_degree_rate_remains_zero_without_becoming_a_temperature(self):
+        display = show(dict(source_Rmax_pct_per_C='0',
+                            source_Rmax_definition='maximum mass loss amplitude per degree, %/℃'))
+        self.assertIn('source_Rmax_pct_per_C=0', display['限制与不确定性'])
+        for label in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+            self.assertEqual(display[label], '')
+
+
 if __name__ == '__main__':
     unittest.main()
