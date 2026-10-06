@@ -1,0 +1,579 @@
+{
+  "batch": "B440",
+  "status": "BRANCH_PENDING_PUBLICATION_SOURCEAPPROVED_PRIVATE_BUNDLE",
+  "finalready": true,
+  "baseline_commit": "b175083b3516c487f225f839c7e9d68fc11139be",
+  "baseline_target": [
+    830,
+    1021,
+    155
+  ],
+  "new_sample_states": 5,
+  "new_TG_records": 5,
+  "new_paired_sources": 2,
+  "evidence_upgrades": 0,
+  "scope_only_states": 0,
+  "peer_second_count": 0,
+  "published": 0,
+  "processed_sources": 12,
+  "source_counts": {
+    "processed_DOIs": 12,
+    "paired_new_DOIs": 2,
+    "zero_increment_DOIs": 10,
+    "original_series_physical_observations": 75,
+    "selected_conditions": 5,
+    "nonadmitted_conditions": 70,
+    "PET_separate_assays": 18,
+    "PET_correspondence_views": 13,
+    "PET_added_series_conditions": 0
+  },
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1002/adfm.202410940",
+      "source_title": "Mechanically Robust and Thermal Insulating Silica/Aramid Nanofiber Composite Aerogel Fibers with Dual Networks for Fire‐Resistant and Flexible Triboelectric Nanogenerators",
+      "review_status": "source_verified_pending_publication",
+      "new_sample_states": 1,
+      "new_TG_records": 1,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B419",
+        "independent_peer": "B422",
+        "root": "B426"
+      },
+      "source_review_locator": "PDFp5ownM-T/ANF5%massloss≈453C;p6ownM-T/ANFLOI47.7/ANF26.9;p10silica/ANFfiberpreparation andordinaryTGair10Cmin30–900/LOI901",
+      "scientific_decision": "Ownsilica/aramidwetspun aerogelfibers; nofinalSiO2fractioninference; MCC686C/60.4%notTG; no900Cprogrammeorstructuralcalcinationresidue; sourceapproximationretained. ANFcontrolT5notassigned453; Ref20Kevlar29donornotown26.9.",
+      "read_scope": "Complete11primaryPDFpages/alloriginalreferences; HTMLcriticalmethods/SIfilenametable crosschecked; namedSI PDFnotavailableinboundedindexed/sameyearchecks",
+      "wholeheld_states": 0,
+      "LOI_only_states": 1,
+      "TG_only_states": 0,
+      "curve_only_states": 3,
+      "existing_queue_entry": false,
+      "candidate_unique_states": 1,
+      "candidate_TG_records": 1,
+      "locators": "PDFp5ownM-T/ANF5%massloss≈453C;p6ownM-T/ANFLOI47.7/ANF26.9;p10silica/ANFfiberpreparation andordinaryTGair10Cmin30–900/LOI901"
+    },
+    {
+      "DOI": "10.1002/adma.202508606",
+      "source_title": "Bioinspired Flame‐Retardant and Impact‐Resistant Aramid Composites via Nacre‐Mimetic Self‐Assembly for Firefighting Applications",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B419",
+        "independent_peer": "B422",
+        "root": "B426"
+      },
+      "source_review_locator": "PDFp3Fig2d–fownSK24.5/S1M1KandS1M2KLOI>27;p12ordinaryTG25–50010Cmin/noatmosphere; p12SKsameSMKprocess",
+      "scientific_decision": "SKexactLOI24.5 and two strict>27 lowerbounds, no27pointvalue. OrdinaryTGcurvewithoutnativeexplicitmetric/gas held. N2p10isballisticgun, notTG. Ratio-seriesaddonunknown; mechanicalz30/40/50notassignedthermal. GenericstatisticsnotLOI/TGexactn.",
+      "read_scope": "Complete13primaryPDFpages/all55originalreferences; criticalHTMLmethod/SImetadata crosscheck; namedDOCXSIunavailableboundedlocalchecks",
+      "wholeheld_states": 4,
+      "LOI_only_states": 0,
+      "TG_only_states": 0,
+      "curve_only_states": 0,
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp3Fig2d–fownSK24.5/S1M1KandS1M2KLOI>27;p12ordinaryTG25–50010Cmin/noatmosphere; p12SKsameSMKprocess"
+    },
+    {
+      "DOI": "10.1002/app.29052",
+      "source_title": "Flame retardancy behaviors and structural properties of polypropylene/nano‐SiO\n                    <sub>2</sub>\n                    composite textile filaments",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B419",
+        "independent_peer": "B422",
+        "root": "B426"
+      },
+      "source_review_locator": "PDFp6/2090TableIII4ownLOI18/20/21/22; PDFp2–3meltspinning/drawing/samecontrolhistory; TableITc/Tm/XcDSC",
+      "scientific_decision": "DSCN220Cmin iscrystallization/meltingassaynotTG. ASTMmethodsD2863-76vsRef31D2863-06aconflictretained. NoTG/LOIpair.",
+      "read_scope": "Complete7primaryPDFpages2085–2091/3tables/4captions/36originalreferences",
+      "wholeheld_states": 0,
+      "LOI_only_states": 4,
+      "TG_only_states": 0,
+      "curve_only_states": 0,
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp6/2090TableIII4ownLOI18/20/21/22; PDFp2–3meltspinning/drawing/samecontrolhistory; TableITc/Tm/XcDSC"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2012.04.010",
+      "source_title": "Fire performances comparison of back coating and melt spinning approaches for PET covering textiles",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B419",
+        "independent_peer": "B422",
+        "root": "B426"
+      },
+      "source_review_locator": "PDFp3/1085§2.3.2ordinaryTGair10Cmin20–700/50mLmin/~10mg/openPt/n2;p4–6TGresults; IntroductionRef15/16onlyLOI",
+      "scientific_decision": "PET/AlPi/PU/coatingsTGfactskeptseparate; ownfiretestsUL94/CONE,noownLOI. Table5CONEchar NOTTG. Unknownonsetcriterion/above600remaining4% notR700. CoatingTable3/proseratiosconflictretained.",
+      "read_scope": "Complete7primaryPDFpages1083–1089/5tables/8captions/22originalreferences; twoidenticalPDFformatsonebodyread",
+      "wholeheld_states": 0,
+      "LOI_only_states": 0,
+      "TG_only_states": 7,
+      "curve_only_states": 0,
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp3/1085§2.3.2ordinaryTGair10Cmin20–700/50mLmin/~10mg/openPt/n2;p4–6TGresults; IntroductionRef15/16onlyLOI"
+    },
+    {
+      "DOI": "10.1007/s42114-025-01392-0",
+      "source_title": "High-performance transparent polysulfone nanocomposites enhanced with masterbatch-based aramid nanofibers for improved toughness and flame retardancy",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B424",
+        "independent_peer": "B428",
+        "root": "B430"
+      },
+      "source_review_locator": "HTML§2.4/2.5 and Results3/TableS5reference",
+      "scientific_decision": "IndividualcompositeLOI onlyrange/localTableS5unavailable; TG/LOI thermal-processingstates notclosed",
+      "read_scope": "Completed available original native sources; primary and independent peer44PDFpages andtwoHTMLscientificbodies; bounded supplementaryfile gaps retained",
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "HTML§2.4/2.5 and Results3/TableS5reference"
+    },
+    {
+      "DOI": "10.1002/app.26611",
+      "source_title": "Flame retarding glass fibers reinforced polyamide 6 by melamine polyphosphate/polyurethane‐encapsulated solid acid",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B424",
+        "independent_peer": "B428",
+        "root": "B430"
+      },
+      "source_review_locator": "PDFp3/3319 andp6/3322/Fig3p4",
+      "scientific_decision": "Two ownLOI/R700 conditions, but TGA gas and preparedstate unknown",
+      "read_scope": "Completed available original native sources; primary and independent peer44PDFpages andtwoHTMLscientificbodies; bounded supplementaryfile gaps retained",
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp3/3319 andp6/3322/Fig3p4"
+    },
+    {
+      "DOI": "10.1002/pat.4898",
+      "source_title": "Preparation of graphene oxide modified glass fibers and their application in flame retardant polyamide 6",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B424",
+        "independent_peer": "B428",
+        "root": "B430"
+      },
+      "source_review_locator": "PDFp3/1711 Methods andp6/1714Table1",
+      "scientific_decision": "Own10LOI formulations; complete available main noTG",
+      "read_scope": "Completed available original native sources; primary and independent peer44PDFpages andtwoHTMLscientificbodies; bounded supplementaryfile gaps retained",
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp3/1711 Methods andp6/1714Table1"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2018.01.007",
+      "source_title": "Key role of magnesium hydroxide surface treatment in the flame retardancy of glass fiber reinforced polyamide 6",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B424",
+        "independent_peer": "B428",
+        "root": "B430"
+      },
+      "source_review_locator": "PDFp7/manuscript6 Methods andp15/manuscript14Fig6",
+      "scientific_decision": "Own3polymerTG formulations plus2agentTG; complete available main noLOI",
+      "read_scope": "Completed available original native sources; primary and independent peer44PDFpages andtwoHTMLscientificbodies; bounded supplementaryfile gaps retained",
+      "existing_queue_entry": false,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp7/manuscript6 Methods andp15/manuscript14Fig6"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "source_title": "Plasma-induced graft-polymerization of flame retardant monomers onto PAN fabrics",
+      "review_status": "source_verified_pending_publication",
+      "new_sample_states": 4,
+      "new_TG_records": 4,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B425",
+        "independent_peer": "B429",
+        "root": "B437"
+      },
+      "source_review_locator": "PDFp2materials;p4§2.5–2.6;p6Table1/§3.4;p7§3.6/Fig9;p8Table2",
+      "scientific_decision": "ExactFig9treatment200g/L/5%(w/w)BAPO/20%(w/w)EGDA;R650 sourcebodyabout61/65 andcontrol58 direct. DEMEPsameinitialrecipeTable1LOI22 versusTable2LOI1=21.5 unresolved. Alternate300gL/10EGDA and4hlaunderedLOInotpairedinitialTG.",
+      "read_scope": "PublishedprimaryPDF8pages fullbody/tables/figcaptions/footnotes/references;no citedoriginal orpixels",
+      "wholeheld_TG_conditions": 1,
+      "TG_only_conditions": 0,
+      "LOI_only_conditions": 7,
+      "candidate_unique_states": 4,
+      "candidate_TG_records": 4,
+      "locators": "PDFp2materials;p4§2.5–2.6;p6Table1/§3.4;p7§3.6/Fig9;p8Table2",
+      "existing_queue_entry": false
+    },
+    {
+      "DOI": "10.1002/app.50718",
+      "source_title": "Flame retardance enhancement of polyacrylonitrile with dimethyl vinylphosphonate",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B425",
+        "independent_peer": "B429",
+        "root": "B437"
+      },
+      "source_review_locator": "PDFp2§2.2;p3§2.3;p4Table1;p5Table2/§3.3/Fig3;p9conclusion;p10SIstatement",
+      "scientific_decision": "OrdinaryTGgeneric3–5mgsamples versusLOIpurpose-specificsolventcast/coagulated/waterwashed/vacuumdrymembranes unclosed. Onlycontrol18.6/DMVP22.6LOI30 ownbodyexplicit;intermediateFig3nonnativebarvaluesunavailable. Table2residuehasnoexplicittemperature;TGIR40–700notordinaryTGend.",
+      "read_scope": "PublishedprimaryPDF10pages allbody/tables/figcaptions/footnotes/38references;extraPDFp5nativebboxtext only",
+      "wholeheld_TG_conditions": 4,
+      "TG_only_conditions": 4,
+      "LOI_only_conditions": 0,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp2§2.2;p3§2.3;p4Table1;p5Table2/§3.3/Fig3;p9conclusion;p10SIstatement",
+      "existing_queue_entry": false
+    },
+    {
+      "DOI": "10.1007/s10570-019-02894-z",
+      "source_title": "Synthesis and application of a new, facile, and efficient sorbitol-based finishing agent for durable and flame retardant lyocell fibers",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B425",
+        "independent_peer": "B429",
+        "root": "B437"
+      },
+      "source_review_locator": "PDFp3finishing/wash;p4TG/LOImethods;p9Table2;p10LOI/Fig7/verticalTable3",
+      "scientific_decision": "OrdinaryTGcontrol/treatedfibres Table2 versusLOIfabricsmethod;fabricformation orfromfabricTGaliquotnotreported. Two-pad300g/LLOI40 and20washed39.1 cannotmapunspecifiedtreatedTGpadcount. Table2R80010CminN2/air preserved,unknownordinaryTGflownotborrowed20KminTGIR.",
+      "read_scope": "PublishedprimaryPDF16pages allbody/tables/figcaptions/footnotes/references",
+      "wholeheld_TG_conditions": 2,
+      "TG_only_conditions": 2,
+      "LOI_only_conditions": 2,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "PDFp3finishing/wash;p4TG/LOImethods;p9Table2;p10LOI/Fig7/verticalTable3",
+      "existing_queue_entry": false
+    },
+    {
+      "DOI": "10.1007/s12221-011-0166-5",
+      "source_title": "Investigation on flame retardancy of poly(ethylene terephthalate) for plastics and textiles by combination of an organo-modified sepiolite and Zn phosphinate",
+      "review_status": "completed_negative_or_held_review",
+      "new_sample_states": 0,
+      "new_TG_records": 0,
+      "published": 0,
+      "source_review_chain": {
+        "primary": "B434",
+        "independent_peer": "B435",
+        "root": "B438"
+      },
+      "source_review_locator": "DOI;PDFp2/printed167 methods/Table1;PDFp4/169Table2/Fig4;PDFp5/170Tables3/4;PDFp7/172Table5",
+      "scientific_decision": "Ordinary TG Table2 compounds do not explicitly state whether samples underwent injection moulding used for Table4 LOI bars; same recipe code alone does not close processing state. Table5 diluted0.5wt%inorganic textile LOI has no own corresponding fibre TG. Source Table2 residue temperature600C remains distinct from program800C; Tonset5% original label retained raw.",
+      "read_scope": "Root and independent peer complete8nativePDFpages; local bounded supplementary check; no new wholetext read by B440",
+      "wholeheld_recipe_states": 5,
+      "wholeheld_TG_conditions": 10,
+      "separate_assay_observations": 18,
+      "correspondence_views": 13,
+      "additional_series_physical_observations": 0,
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "locators": "DOI;PDFp2/printed167 methods/Table1;PDFp4/169Table2/Fig4;PDFp5/170Tables3/4;PDFp7/172Table5",
+      "existing_queue_entry": true,
+      "existing_verified_unique_sample_states_preserve": "0"
+    }
+  ],
+  "audit_metadata_patches": [
+    {
+      "DOI": "10.1002/adfm.202410940",
+      "sample_state": "M-T/ANF; initial prepared material",
+      "field": "evidence_reviewed_by",
+      "before": "codex-native-b419-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b419; independent-peer-b422; root-source-approved-b426; metadata-bundle-b431",
+      "reason": "Independent source verified B419/B422/rootB426; audit metadata only",
+      "locator": "PDFp2 preparationoverview; p5–7 thermal/firebody/Figs5–6; p9–10 Materials/Preparation/Characterization; p10–11References"
+    },
+    {
+      "DOI": "10.1002/adfm.202410940",
+      "sample_state": "M-T/ANF; initial prepared material",
+      "field": "material_scope_reviewed_by",
+      "before": "codex-native-b419-primary_pendingpeer",
+      "after": "codex-native-primary-b419; independent-peer-b422; root-source-approved-b426; metadata-bundle-b431",
+      "reason": "Independent source verified B419/B422/rootB426; audit metadata only",
+      "locator": "PDFp2 preparationoverview; p5–7 thermal/firebody/Figs5–6; p9–10 Materials/Preparation/Characterization; p10–11References"
+    },
+    {
+      "DOI": "10.1002/adfm.202410940",
+      "sample_state": "M-T/ANF; initial prepared material",
+      "field": "review_disposition",
+      "before": "primary_pending_peer_parent",
+      "after": "source_verified",
+      "reason": "Independent source verified B419/B422/rootB426; audit metadata only",
+      "locator": "PDFp2 preparationoverview; p5–7 thermal/firebody/Figs5–6; p9–10 Materials/Preparation/Characterization; p10–11References"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "Virgin PAN;untreated fabric",
+      "field": "evidence_reviewed_by",
+      "before": "codex-local-native-b425-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "Virgin PAN;untreated fabric",
+      "field": "material_scope_reviewed_by",
+      "before": "",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "Virgin PAN;untreated fabric",
+      "field": "review_disposition",
+      "before": "source_exact_primary_pending_peer_root",
+      "after": "source_verified",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAEP;as-prepared rinsed fabric",
+      "field": "evidence_reviewed_by",
+      "before": "codex-local-native-b425-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAEP;as-prepared rinsed fabric",
+      "field": "material_scope_reviewed_by",
+      "before": "",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAEP;as-prepared rinsed fabric",
+      "field": "review_disposition",
+      "before": "source_exact_primary_pending_peer_root",
+      "after": "source_verified",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAMP;as-prepared rinsed fabric",
+      "field": "evidence_reviewed_by",
+      "before": "codex-local-native-b425-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAMP;as-prepared rinsed fabric",
+      "field": "material_scope_reviewed_by",
+      "before": "",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DEAMP;as-prepared rinsed fabric",
+      "field": "review_disposition",
+      "before": "source_exact_primary_pending_peer_root",
+      "after": "source_verified",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DMAMP;as-prepared rinsed fabric",
+      "field": "evidence_reviewed_by",
+      "before": "codex-local-native-b425-primary_pending_independentpeer_parent",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DMAMP;as-prepared rinsed fabric",
+      "field": "material_scope_reviewed_by",
+      "before": "",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    },
+    {
+      "DOI": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state": "DMAMP;as-prepared rinsed fabric",
+      "field": "review_disposition",
+      "before": "source_exact_primary_pending_peer_root",
+      "after": "source_verified",
+      "reason": "RootB437 approved original B425/B429 source; metadata only; no numeric or locator change"
+    }
+  ],
+  "scope_entry_audit_patches": [
+    {
+      "source_identity": "10.1002/adfm.202410940",
+      "sample_state_id": "3a3e537b5dc8268f6459",
+      "field": "scope_review_basis",
+      "before": "Ownsilica/aramidnanofiber compositeaerogelfibers; exactnamedinitialM-T/ANFTG/LOI, sourceapproximateT5definition preserved; primarypendingindependentpeer/parent",
+      "after": "Own initial wetspun silica/aramid composite aerogel fibres; source approximateT5 explicitly5%massloss; primaryB419/independentB422/rootB426 approved",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8e5467e64fa41d3e3052",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b425-primary_pendingpeer_root",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8e5467e64fa41d3e3052",
+      "field": "scope_review_basis",
+      "before": "Ownexactwovencloth/formulation/state_read;primarypendingpeer_root",
+      "after": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "56ab7316e0de2d320e19",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b425-primary_pendingpeer_root",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "56ab7316e0de2d320e19",
+      "field": "scope_review_basis",
+      "before": "Ownexactwovencloth/formulation/state_read;primarypendingpeer_root",
+      "after": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8ecf2387b3078372dddf",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b425-primary_pendingpeer_root",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8ecf2387b3078372dddf",
+      "field": "scope_review_basis",
+      "before": "Ownexactwovencloth/formulation/state_read;primarypendingpeer_root",
+      "after": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "e1c882195afb3e62e4c4",
+      "field": "scope_reviewed_by",
+      "before": "codex-native-b425-primary_pendingpeer_root",
+      "after": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "e1c882195afb3e62e4c4",
+      "field": "scope_review_basis",
+      "before": "Ownexactwovencloth/formulation/state_read;primarypendingpeer_root",
+      "after": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "reason": "Approval audit only; original provided science, scope identities and source locators unchanged"
+    }
+  ],
+  "scope_entries": [
+    {
+      "source_identity": "10.1002/adfm.202410940",
+      "sample_state_id": "3a3e537b5dc8268f6459",
+      "reviewed_measurement_fingerprint": "6eebcc3f83ae9c0fb9746fdba419066488c534158f179b062293740453dc9af0",
+      "scope_identity_sha256": "6e13c62d9f367ae2a203435f76a446bbc6dc16f00cefc37f333a8a5e0bcbe934",
+      "decision": "admit_textile",
+      "scope_class": "textile_fibre",
+      "scope_review_basis": "Own initial wetspun silica/aramid composite aerogel fibres; source approximateT5 explicitly5%massloss; primaryB419/independentB422/rootB426 approved",
+      "scope_evidence": "Own Kevlar pulp-derived aramid nanofiber wetspun aerogel fibers; silica/ANF dualnetwork, namedM-T/ANF inboth ownTG andLOI; fibersratherthanassumedwovencloth",
+      "source_locator": "PDFp2 preparationoverview; p5–7 thermal/firebody/Figs5–6; p9–10 Materials/Preparation/Characterization; p10–11References",
+      "scope_reviewed_by": "codex-native-primary-b419; independent-peer-b422; root-source-approved-b426; metadata-bundle-b431",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8e5467e64fa41d3e3052",
+      "reviewed_measurement_fingerprint": "9e3d43bc9fefaea334a3a675b6daa156d4bde346a29757ffbce17ab0cceb0100",
+      "scope_identity_sha256": "c38f590816381468d2a50ebac8e862eb7d6c3b3950963a8ce0a744e9b9e5be02",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "scope_review_basis": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "scope_evidence": "Actual wovenPAN290–300g/m2§2.1;explicittreatedfabricsTG§2.6/Fig9 andownLOITable1",
+      "source_locator": "PDFp2§2.1;PDFp4§2.5–2.6;PDFp6§3.4/Table1;PDFp7§3.6/Fig9;PDFp8Table2",
+      "scope_reviewed_by": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "56ab7316e0de2d320e19",
+      "reviewed_measurement_fingerprint": "89b81a6f263bd7d125f9490019a9b6c4d973960aba887baa4ebfc16d845417ee",
+      "scope_identity_sha256": "e330fe3e647c288d6a4f03a9018c0a970cf35efbc078b6d01ce1846f83cfc13b",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "scope_review_basis": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "scope_evidence": "Actual wovenPAN290–300g/m2§2.1;explicittreatedfabricsTG§2.6/Fig9 andownLOITable1",
+      "source_locator": "PDFp2§2.1;PDFp4§2.5–2.6;PDFp6§3.4/Table1;PDFp7§3.6/Fig9;PDFp8Table2",
+      "scope_reviewed_by": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "8ecf2387b3078372dddf",
+      "reviewed_measurement_fingerprint": "20553fcaddaecf8b8ada82d86647db1e2c6b9e47bb4d4525a392e4294fc88347",
+      "scope_identity_sha256": "937dcb22a07f2ace1e0ab891c406c4d5ce626baccfa10c2d2f6f365255790e1b",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "scope_review_basis": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "scope_evidence": "Actual wovenPAN290–300g/m2§2.1;explicittreatedfabricsTG§2.6/Fig9 andownLOITable1",
+      "source_locator": "PDFp2§2.1;PDFp4§2.5–2.6;PDFp6§3.4/Table1;PDFp7§3.6/Fig9;PDFp8Table2",
+      "scope_reviewed_by": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "scope_reviewed_at": "2026-10-06"
+    },
+    {
+      "source_identity": "10.1016/j.surfcoat.2004.11.030",
+      "sample_state_id": "e1c882195afb3e62e4c4",
+      "reviewed_measurement_fingerprint": "49cc92a5bd309fd4203f1a7500e591c8657131c00823f7fd95ce71d19740ad3c",
+      "scope_identity_sha256": "61648df4eadc7c1cc400ca8e72031e03b4992a2cec2f0ca47ca3f9da6d25d4ea",
+      "decision": "admit_textile",
+      "scope_class": "textile_cloth",
+      "scope_review_basis": "Own exact woven PAN cloth/formulation/as-prepared state; primaryB425/independentB429/rootB437 approved; raw initial criterion remains unassigned, source residue qualifiers retained",
+      "scope_evidence": "Actual wovenPAN290–300g/m2§2.1;explicittreatedfabricsTG§2.6/Fig9 andownLOITable1",
+      "source_locator": "PDFp2§2.1;PDFp4§2.5–2.6;PDFp6§3.4/Table1;PDFp7§3.6/Fig9;PDFp8Table2",
+      "scope_reviewed_by": "codex-native-primary-b425; independent-peer-b429; root-source-approved-b437; metadata-bundle-b440",
+      "scope_reviewed_at": "2026-10-06"
+    }
+  ],
+  "scientific_fields_unchanged": true,
+  "primary_peer_original_freezes_unchanged": true,
+  "private_prediction_NOT_MAIN": [
+    835,
+    1026,
+    157
+  ],
+  "source_read_boundary": "Original completed primary/independent/root source approvals only; no new fulltext reads or wide profile reruns by B440. PET18assays/13views are a separate negative review and never added to75series conditions.",
+  "pending": "Root sole-writer freshlive/lease/import/fullrepo checks/exacthead independentreview/normalPRmerge and release proof. This frozen private bundle does not change main.",
+  "planned_incoming": "data/incoming/verified_source_batch_20261006_b440_local_material.csv"
+}
