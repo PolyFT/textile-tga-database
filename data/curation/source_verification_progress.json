@@ -14,15 +14,13 @@
   "publication_stage": "b415_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
-    "owner": "codex-local-material-b415-20261006",
-    "status": "released",
-    "batch_id": "20261006_b415",
-    "claimed_at_utc": "2026-10-06T10:45:30.322904+00:00",
-    "expires_at_utc": "2026-10-06T12:15:30.322904+00:00",
-    "previous_release_commit": "4a2a3d758cada53efb79b502c53a54a94f25bcc4",
-    "purpose": "8 new original-source polymer/composite samples/8TG from3 DOIs plus4 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main817/1008; projected825/1016 pending normal PR merge.",
-    "released_at_utc": "2026-10-06T11:45:19.326790+00:00",
-    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B415 lease"
+    "owner": "codex-local-material-b420-20261006",
+    "status": "active",
+    "batch_id": "20261006_b420",
+    "claimed_at_utc": "2026-10-06T12:13:36.759667+00:00",
+    "expires_at_utc": "2026-10-06T13:43:36.759667+00:00",
+    "previous_release_commit": "bbf5b3a86c77527d12b202ae86d3f970bb45e3e4",
+    "purpose": "5 new original-source cotton fabric samples/5TG from1 DOI plus3 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main825/1016; projected830/1021 pending normal PR merge."
   },
   "next_sources": [],
   "next_actions": [
