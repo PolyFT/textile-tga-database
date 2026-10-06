@@ -14,15 +14,13 @@
   "publication_stage": "b488_merged_remote_verified_lease_released",
   "last_merged_batch": "20261007_b488",
   "writer_lease": {
-    "owner": "codex-local-material-b488-20261007",
-    "status": "released",
-    "batch_id": "20261007_b488",
-    "claimed_at_utc": "2026-10-06T18:52:00.945465+00:00",
-    "expires_at_utc": "2026-10-06T20:22:00.945465+00:00",
-    "previous_release_commit": "5e79893601a133e134763afd867553babfa25f26",
-    "purpose": "One genuinely new RCF fibre pair/one TG, native source + non-author root approved. Six completed source reviews, five zero-pair decisions retained. Main888/1099/170; prediction889/1100/171 pending normal PR.",
-    "released_at_utc": "2026-10-06T19:34:42.695776+00:00",
-    "reason": "Normal PR179 merge, exact-head integration review and both main workflows passed; remote factual bytes verified. Release only owned B488 lease."
+    "owner": "codex-local-combined-b511-20261007",
+    "status": "active",
+    "batch_id": "20261007_b511",
+    "claimed_at_utc": "2026-10-06T21:20:46.519506+00:00",
+    "expires_at_utc": "2026-10-06T22:50:46.519506+00:00",
+    "previous_release_commit": "42e88ec1757d7f55ba3585dfc506f62e1a3422db",
+    "purpose": "Source-supported and deduplicated 16 new states/17 TG plus 13 existing scope states/15 TG; no numerical evidence upgrades. Prediction 918/1132/180 awaits normal PR and exact-head checks."
   },
   "next_sources": [],
   "next_actions": [
