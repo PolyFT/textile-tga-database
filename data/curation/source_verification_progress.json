@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1411,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b420_branch_pending_PR",
+  "publication_stage": "b420_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-b420-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b420",
     "claimed_at_utc": "2026-10-06T12:13:36.759667+00:00",
     "expires_at_utc": "2026-10-06T13:43:36.759667+00:00",
     "previous_release_commit": "bbf5b3a86c77527d12b202ae86d3f970bb45e3e4",
-    "purpose": "5 new original-source cotton fabric samples/5TG from1 DOI plus3 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main825/1016; projected830/1021 pending normal PR merge."
+    "purpose": "5 new original-source cotton fabric samples/5TG from1 DOI plus3 zero-added reviewed sources; no old numeric/evidence/scope upgrades. Main825/1016; projected830/1021 pending normal PR merge.",
+    "released_at_utc": "2026-10-06T12:49:37.599266+00:00",
+    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B420 lease"
   },
   "next_sources": [],
   "next_actions": [
@@ -775,5 +777,44 @@
     "held_or_unpaired_facts": 28,
     "calculated_non_sample_views": 4,
     "reader_initial_temperature_raw_only": true
+  },
+  "publication_b420": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/174",
+    "PR_number": 174,
+    "merge_sha": "7fb419a8c88b4cf2ec890639e2932dec827e4186",
+    "validated_head_sha": "38ef2a5616cdf1069fdeec22603afa563b8488f7",
+    "new_pairs": 5,
+    "new_TG": 5,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 830,
+    "verified_target_condition_records": 1021,
+    "verified_target_sources": 155,
+    "full_remote_public_files_verified": 18,
+    "unchanged_other_existing_files": 837,
+    "all2039old_fields_preserved": true,
+    "all5new_provided_fields_preserved": true,
+    "tests": 2378,
+    "postmerge_runs": [
+      37464428247,
+      37464428292
+    ],
+    "original_files_unchanged": true,
+    "locator_metadata_only_corrections": 0,
+    "progress_SHA_metadata_corrected": 3,
+    "scientific_header_coverage": {
+      "actual_root_CSV": 484,
+      "external_profile_inputs": 477,
+      "own_separately_bound_views": 7,
+      "canonical_comparisons": 3670315,
+      "raw_comparisons": 6606251,
+      "physical_condition_facts": 33,
+      "admitted_TG": 5,
+      "held_physical_condition_facts": 28,
+      "calculated_non_sample_views": 4,
+      "wholepair_downselect": 0
+    }
   }
 }
