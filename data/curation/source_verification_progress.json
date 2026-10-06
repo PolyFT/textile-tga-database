@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1457,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b466_branch_pending_PR",
-  "last_merged_batch": "20261006_b361",
+  "publication_stage": "b466_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b466",
   "writer_lease": {
     "owner": "codex-local-material-b466-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b466",
     "claimed_at_utc": "2026-10-06T16:43:24.781643+00:00",
     "expires_at_utc": "2026-10-06T18:13:24.781643+00:00",
     "previous_release_commit": "2a5e3672d586ec887105faa30e1d280c4473457d",
-    "purpose": "9 source-verified new sample states/9 TG conditions/2 positive sources;6 completed source reviews. PP/aramid and cured aramid foams, old numeric/evidence/scope upgrades0. Main867/1070/163; projected876/1079/165 pending ordinary PR."
+    "purpose": "9 source-verified new sample states/9 TG conditions/2 positive sources;6 completed source reviews. PP/aramid and cured aramid foams, old numeric/evidence/scope upgrades0. Main867/1070/163; projected876/1079/165 pending ordinary PR.",
+    "released_at_utc": "2026-10-06T17:15:29.417431+00:00",
+    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B466 lease"
   },
   "next_sources": [],
   "next_actions": [
@@ -956,5 +958,46 @@
     "fibre_TG": 75,
     "polymer_precursor_states": 216,
     "polymer_precursor_TG": 263
+  },
+  "publication_b466": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/177",
+    "PR_number": 177,
+    "merge_sha": "e97a9057bf0366acf54d8be68774a89b4ea10ca2",
+    "validated_head_sha": "60eae81d79f5a5c1b233466d277bd44151376454",
+    "new_pairs": 9,
+    "new_TG": 9,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 876,
+    "verified_target_condition_records": 1079,
+    "verified_target_sources": 165,
+    "full_remote_public_files_verified": 16,
+    "unchanged_other_existing_files": 848,
+    "all2093old_fields_preserved": true,
+    "all9new_provided_fields_preserved": true,
+    "tests": 2459,
+    "postmerge_runs": [
+      37500789000,
+      37500788981
+    ],
+    "original_files_unchanged": true,
+    "locator_metadata_only_corrections": 0,
+    "progress_SHA_metadata_corrected": 3,
+    "source_fact_roles": {
+      "admitted_TG": 9,
+      "new_sample_states": 9,
+      "B456_ordinary_TG_conditions": 33,
+      "B456_curve_only_TG_conditions": 20,
+      "B456_wholeheld_numeric_conditions": 3,
+      "B456_TG_only_conditions": 1,
+      "B456_LOI_assay_aliases_not_extra_TG": 5,
+      "B456_calculated_FWO_views_not_TG": 5,
+      "B460_numeric_observations": 24,
+      "B460_numeric_TG_only": 19,
+      "B460_LOI_only": 5,
+      "raw_context_and_alias_views_not_an_admitted_TG_or_sample_count": true
+    }
   }
 }
