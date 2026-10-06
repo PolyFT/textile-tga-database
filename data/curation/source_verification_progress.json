@@ -11,16 +11,18 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1448,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b454_branch_pending_PR",
+  "publication_stage": "b454_merged_remote_verified_lease_released",
   "last_merged_batch": "20261006_b361",
   "writer_lease": {
     "owner": "codex-local-material-b454-20261006",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261006_b454",
     "claimed_at_utc": "2026-10-06T15:31:08.130233+00:00",
     "expires_at_utc": "2026-10-06T17:01:08.130233+00:00",
     "previous_release_commit": "d11d50f0be5d9ca90a2c287474a60a95a0946114",
-    "purpose": "32 source-verified new sample states/44 TG conditions/6 sources, PET PP PBT and aged glass-fibre PP; old numeric/evidence/scope upgrades0. Main835/1026/157; projected867/1070/163 pending ordinary PR."
+    "purpose": "32 source-verified new sample states/44 TG conditions/6 sources, PET PP PBT and aged glass-fibre PP; old numeric/evidence/scope upgrades0. Main835/1026/157; projected867/1070/163 pending ordinary PR.",
+    "released_at_utc": "2026-10-06T16:06:33.130559+00:00",
+    "reason": "Normal PR merge and both scientific workflows verified; remote factual bytes verified; release only owned B454 lease"
   },
   "next_sources": [],
   "next_actions": [
@@ -899,5 +901,43 @@
     "B444_mechanical_views": 4,
     "B443_mixed_views": 51,
     "B443_nonnumeric_views": 28
+  },
+  "publication_b454": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/176",
+    "PR_number": 176,
+    "merge_sha": "81191b25b75bdd9d4a0e672e3c1d298903d130c8",
+    "validated_head_sha": "b579da6414b7898ef822098e3f7af21b31b4dc7d",
+    "new_pairs": 32,
+    "new_TG": 44,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "old_numeric_changes": 0,
+    "verified_target_sample_states": 867,
+    "verified_target_condition_records": 1070,
+    "verified_target_sources": 163,
+    "full_remote_public_files_verified": 18,
+    "unchanged_other_existing_files": 843,
+    "all2049old_fields_preserved": true,
+    "all44new_provided_fields_preserved": true,
+    "tests": 2436,
+    "postmerge_runs": [
+      37491832914,
+      37491833161
+    ],
+    "original_files_unchanged": true,
+    "locator_metadata_only_corrections": 0,
+    "progress_SHA_metadata_corrected": 3,
+    "source_fact_roles": {
+      "admitted_TG": 44,
+      "new_sample_states": 32,
+      "B439_physical_conditions": 22,
+      "B439_calculated_views": 4,
+      "B444_scientific_conditions": 33,
+      "B444_mechanical_views": 4,
+      "B443_mixed_views": 51,
+      "B443_nonnumeric_views": 28,
+      "raw_mixed_views_not_an_admitted_TG_or_sample_count": true
+    }
   }
 }
