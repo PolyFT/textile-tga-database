@@ -1,0 +1,54 @@
+{
+  "batch": "b333",
+  "review_completed_utc": "2026-10-06T01:01:57.849362+00:00",
+  "sources": [
+    {
+      "DOI": "10.1016/j.ijbiomac.2019.11.220",
+      "existing_states": 6,
+      "existing_TG": 12,
+      "documentary_scope_basis": "Own100gsmwovenPA66 exactControl/OP5MUV/OP10MUV/5BLUV/10BLUV/10BLthermaljoinTable1LOIandSI S1TG;one-potUVandlayer-by-layerUV/thermalstatesdistinct. Initialdurability0,preparationrinsingseparate. N2/airtwoTGconditionsone sample. Namedprocessingstatecrosswalkexplicit;unreadableUV/thermalnumericdurationnotguessed;coatingbathnotwholefabricmass. ExistingoriginalprimaryandSItextfactsreused;no newcompleteoriginalrereadclaim."
+    },
+    {
+      "DOI": "10.1007/s10570-015-0671-6",
+      "existing_states": 6,
+      "existing_TG": 12,
+      "documentary_scope_basis": "Own208gsm100percentplaincottonCOT/WG/U240AP115withwithoutWG/U120AP57.5withwithoutWG joinTable1nativebath,Tables2N2/3airTGand5LOI. Initialpad-dry-curefabric,noafterwashreported;twoTGgasesone state. Source5percentlossT5notgenericTonset;COTWG118Cwater/silanollossnotmainpeak;airsecondpeakcharoxidation. ExplicitR600not800programmeend;aircontrol<1R600rawonly. WGstock32percentnotconvertedtoactivebathmass;combustionconditioningnotautomaticallyTG. Existingoriginalnativefactsreused;no newcompleteoriginalrereadclaim."
+    },
+    {
+      "DOI": "10.1007/s10570-024-06307-8",
+      "existing_states": 6,
+      "existing_TG": 10,
+      "documentary_scope_basis": "OwnRunyan160gsmlyocell exactLyocell/PA/APD/APDP1/2/3initialwholefabricjoinTable1LOIandSI S1TG/DTG plusSI2.1methodsandprimarypreparation/Fig3. APDPnumberedWG10/13/16bindsformulations;PA/APDindividualprocess/loadingunreportednotborrowed. Lyocell/PA/APD/APDP2N2airtwoTGconditions;APDP1/APDP3N2only. SI40-710C10Cmin,N2/air,R700explicitnotendpointinferred. No durabilitywash/fibre/neatcoatingtransfer. Existingoriginalsourcefactsreused;no newcompleteoriginalrereadclaim."
+    }
+  ],
+  "summary": {
+    "accepted_unique_sample_states": 0,
+    "accepted_condition_rows": 0,
+    "new_source_inventory_states": 0,
+    "newly_completed_pairs": 0,
+    "existing_paired_states_evidence_upgraded": 0,
+    "existing_paired_TG_evidence_upgraded": 0,
+    "existing_numeric_values_changed": 0,
+    "scope_existing_states_adjudicated": 18,
+    "scope_existing_TG_adjudicated": 34,
+    "accepted_DOI_sources_added": 0,
+    "scope_existing_sources_adjudicated": 3,
+    "original_full_texts_reread": false,
+    "scope_reclassification_only": true,
+    "full_profile_master_comparisons": 66402,
+    "private_rounding_profile_comparisons": 329246,
+    "private_stages_compared": 179,
+    "canonical_duplicate_sample_state_hits": 0,
+    "canonical_unresolved_profile_hits": 0,
+    "verified_target_sample_states": 543,
+    "verified_target_condition_records": 675,
+    "scope_pending_states": 992,
+    "scope_audit_complete": false,
+    "held_1972_fibre_scope_states_not_promoted": 19
+  },
+  "verification_limit": "Reuses existing original-source verified facts. Manual documentary form/state/material scope review only;no new complete original text reread,numeric value change,independent reviewer or numerical evidence upgrade.",
+  "deduplication_limit": "No cross-state full-profile matches against master and no cross-source full-profile or reporting-precision matches across all incoming/private-stage records. Exact titles and known aliases/issues also clear;no absence-of-hit universal independence claim.",
+  "scientific_limits": "PA66 named UV/thermal states remain distinct;unknown processing numerical parameters stay unknown. Cotton WG118C water/silanol threshold is not its decomposition peak;explicit residue600C not programme800C,aircontrol<1 remainsrawonly. Lyocell PA/APD unknown individual dose/process not filled fromAPDP,explicitR700notprogramme710C. Two atmospheres are conditions of one state. 1972fibre/fabric sourcebridge19 states remainsheld.",
+  "privacy": "Only facts and DOI/page/table/figure locators public;no fulltexts/private paths.",
+  "schema_change": null
+}
