@@ -1,0 +1,640 @@
+{
+  "batch_id": "20261007_b714",
+  "capture_stage": "root_source_reuse_schema_direct_approved_private_integration_pending_normal_publication",
+  "fixed_science_base": "55b167098bd0ae2ff87310b337a9888284926daa",
+  "base_release_status": "B701 exact55b167 closed: both release workflows completed successfully and prior own lease released; B714 remains private and unpublished.",
+  "formal_science_baseline": {
+    "states": 1050,
+    "TG": 1362,
+    "sources": 213
+  },
+  "private_prediction": {
+    "states": 1068,
+    "TG": 1383,
+    "sources": 218
+  },
+  "selected_new_states": 18,
+  "selected_new_TG": 21,
+  "new_sources": 5,
+  "old_scope_admissions": 0,
+  "old_evidence_upgrades": 0,
+  "held_control_states": 3,
+  "held_control_TG": 4,
+  "incoming_files": [
+    "data/incoming/verified_source_batch_20261007_b714_PET_material.csv",
+    "data/incoming/verified_source_batch_20261007_b714_PP_material.csv"
+  ],
+  "scope_entries": [
+    {
+      "source_identity": "10.1002/pat.4561",
+      "sample_state_id": "88aaadfd16604fe4074a",
+      "reviewed_measurement_fingerprint": "ba5f0e4f409474332ecad9d77fba72b91c13421ade424332822c3d6400e775d2",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "414e495d384d7379dc908d3da02f130fe22c62dd0de25c091a08c603a615fcb7",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 prepares filled PET1–5 required test strips; §2.4 generic composite TG and LOI methods; exact Table2 and Table3 labels PET1/3/5. Exact TG aliquot geometry is unreported, not inferred. Composition: Table3 PET/PDPSI=99/1wt%; no normalization",
+      "source_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.; PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4561",
+      "sample_state_id": "71b2e0c5676e605c39ea",
+      "reviewed_measurement_fingerprint": "e99c2d17b01c6909adba53d3795474414ce2f2bfea1a962ffba9506494b072ec",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "59ee58c875eacc186372645511f8b3f9a06a245fc7e5bd39e92dc5567dbc120b",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 prepares filled PET1–5 required test strips; §2.4 generic composite TG and LOI methods; exact Table2 and Table3 labels PET1/3/5. Exact TG aliquot geometry is unreported, not inferred. Composition: Table3 PET/PDPSI=97/3wt%; no normalization",
+      "source_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.; PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4561",
+      "sample_state_id": "b82f4be75c6904d427a1",
+      "reviewed_measurement_fingerprint": "0306fac75155029ff4ff07568cb0a78fabbb9c5d2a9760056e6032d88c7f30ec",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "9789b271360fd50a2f60bd4fb3f6ecb96d18137242cf1e3263c537019aad2ad3",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 prepares filled PET1–5 required test strips; §2.4 generic composite TG and LOI methods; exact Table2 and Table3 labels PET1/3/5. Exact TG aliquot geometry is unreported, not inferred. Composition: Table3 PET/PDPSI=95/5wt%; no normalization",
+      "source_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.; PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "07d07a1150f3a84b72d5",
+      "reviewed_measurement_fingerprint": "67fcedb943aa83ee5fbe2142db7467d1b0eb3c1a6881bdda8bbaecf25067b12d",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "30002ebf4ebefe74088f5c1c4314873d68d1f8e405a30c257043f3333e4a7e58",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 1wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "07d07a1150f3a84b72d5",
+      "reviewed_measurement_fingerprint": "9b61896cde3a0b92d215ca33c11238ea3face2665bf46c84e1239b24ed0cd336",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "30002ebf4ebefe74088f5c1c4314873d68d1f8e405a30c257043f3333e4a7e58",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 1wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "0af5a03eef3734d842c4",
+      "reviewed_measurement_fingerprint": "41d39f31af28dead6968885d67155883eea3c9b4dbec7da328bc1e30ecd4929c",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "3f41c47a0c5dd09e8687c1f51d0a7baf868f3f3a1810acf38148cdd73947a90e",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 3wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "0af5a03eef3734d842c4",
+      "reviewed_measurement_fingerprint": "38c40072a244df589de4062e540aac5e8920b7eeee5ae1a6b3a3af78405c626f",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "3f41c47a0c5dd09e8687c1f51d0a7baf868f3f3a1810acf38148cdd73947a90e",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 3wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "9f9ee2d6ea78395680d8",
+      "reviewed_measurement_fingerprint": "66b224c8e92784a4418c8107a8441e14a56723230809543dc59d82da2b912429",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "5642e54a02bde13070967ca169c12146549ad656465e0b4f3da955f1b0f4581e",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 5wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4815",
+      "sample_state_id": "9f9ee2d6ea78395680d8",
+      "reviewed_measurement_fingerprint": "aa17a010d6d436033a08dbdeb826051d49f656c7988e27539d92502d37d0c5c9",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "5642e54a02bde13070967ca169c12146549ad656465e0b4f3da955f1b0f4581e",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 filled PET/FR1/3/5 are extrusion/microinjection bars for standard testing; §2.4 ordinaryTG and LOI methods plus Table1/2 exact samplecodes; no alternate ordinaryTG treatment reported. Composition: PET with 5wt% synthesized MPPnanowires; source does not explicitly restate denominator/final PET fraction",
+      "source_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5674",
+      "sample_state_id": "c97508c9c6c97fea1412",
+      "reviewed_measurement_fingerprint": "d3adaebce22b827533c981e3ea315f8a6cd504c7bbebcdf5c14439a1c1c619b4",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "be1152e076f9377ea32248ab19d95fcae56838ddeb441315054238b8f1a67aec",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 final blends microinjection then final samples for further tests; §3.3 expressly names injection-molded PET/PZS600/800/1600; §2.2 acetylation and later exact noH tablecodes cover fourth filled branch, Tables3/4 exact same final groups. Composition: PET with PZS600; original §2.3 loading phrase5wt% PET; Fig6C calculation uses0.95PET+0.05PZS. Denominator discrepancy retained without silently setting PET95wt%.",
+      "source_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5; PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5674",
+      "sample_state_id": "834eb3960bbee67ea87b",
+      "reviewed_measurement_fingerprint": "d8e85355e91022e4e5cd5038efe937e3f921c6924c9757451d693c7010523cb2",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "eb0c6cf78d9bad3cf0630021bbdb258a84c9e61f96ace2cb63e5f24754be0110",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 final blends microinjection then final samples for further tests; §3.3 expressly names injection-molded PET/PZS600/800/1600; §2.2 acetylation and later exact noH tablecodes cover fourth filled branch, Tables3/4 exact same final groups. Composition: PET with PZS800; original §2.3 loading phrase5wt% PET; Fig6C calculation uses0.95PET+0.05PZS. Denominator discrepancy retained without silently setting PET95wt%.",
+      "source_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5; PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5674",
+      "sample_state_id": "316ad546bc899d4d2455",
+      "reviewed_measurement_fingerprint": "fde5ffa59161d92023e036cb56d2c6fb473a1852a1760778b1122b0404181d73",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "515fd5314efd1dbf199643219d1b95deafb4ad220c23b8b245f190d7118e966f",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 final blends microinjection then final samples for further tests; §3.3 expressly names injection-molded PET/PZS600/800/1600; §2.2 acetylation and later exact noH tablecodes cover fourth filled branch, Tables3/4 exact same final groups. Composition: PET with PZS1600; original §2.3 loading phrase5wt% PET; Fig6C calculation uses0.95PET+0.05PZS. Denominator discrepancy retained without silently setting PET95wt%.",
+      "source_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5; PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5674",
+      "sample_state_id": "0466b3860fdaa7ca8163",
+      "reviewed_measurement_fingerprint": "d45da5eaf56472b7cd722cad0f1d6f8802d9af69e6dfa1701a76048b4f0af23e",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "0ccfb4989166a07d7e99fe7f67401fd499a84a95939eea52d28c5568c98c15f4",
+      "scope_review_basis": "Root B699 source/B702 bounded reuse/B703 derivative/B710 schema/direct use approved; B714 private normal-publication preparation. Original batch/cohort and sparse-context limitations remain binding.",
+      "scope_evidence": "PET fibre-forming polymer composite. §2.3 final blends microinjection then final samples for further tests; §3.3 expressly names injection-molded PET/PZS600/800/1600; §2.2 acetylation and later exact noH tablecodes cover fourth filled branch, Tables3/4 exact same final groups. Composition: PET with PZS600_noH; original §2.3 loading phrase5wt% PET; Fig6C calculation uses0.95PET+0.05PZS. Denominator discrepancy retained without silently setting PET95wt%.",
+      "source_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5; PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "scope_reviewed_by": "B691 independent source peer; root B699 source/B702 bounded reuse/B703 derivative/B710 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.34993",
+      "sample_state_id": "267396cfc8bbb556db9a",
+      "reviewed_measurement_fingerprint": "e461e06a8f858f77dd2ba378e49fba20c225fcb3bffb4e4b2b7033ee70dc0837",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_identity_sha256": "546f2974dc7f7a39ed5aa4e6ff1782a47aa0f1182417ee8d1be0d301a16303a9",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer parent. Explicit all-samples sheet preparation and sheets used in all tests; TG and ownLOI labels share this single prepared PPseries. TG aliquot geometry unreported. PP/APP/CNCA-DA nominal mass percentages: 100/0/0",
+      "source_locator": "PDFp6/3213 TableIII and footnotes; PDFp5/3212 Flame retardancy prose;TableII",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.34993",
+      "sample_state_id": "46d85b0eadb2fcca2f23",
+      "reviewed_measurement_fingerprint": "79b7ee80daa0d209b7c6023d4c77755d2f599110afdad0d7aedc9ae88064e055",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "d186ed7138446d62f752915fad781b00af4475ccc568955251bfb0c1ab6401b6",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Explicit all-samples sheet preparation and sheets used in all tests; TG and ownLOI labels share this single prepared PPseries. TG aliquot geometry unreported. PP/APP/CNCA-DA nominal mass percentages: 70/30/0",
+      "source_locator": "PDFp6/3213 TableIII and footnotes; PDFp5/3212 Flame retardancy prose:30%single-additive LOI only about",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.34993",
+      "sample_state_id": "fb14862fa4d3a855f250",
+      "reviewed_measurement_fingerprint": "b21f79c535a77da6abace939eeecff963083626f0fdb8fb1420b3e0e4bf3a326",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "a178e44307c92f52518cebf8c6b11645d67792a31194beace7c5d40543695585",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Explicit all-samples sheet preparation and sheets used in all tests; TG and ownLOI labels share this single prepared PPseries. TG aliquot geometry unreported. PP/APP/CNCA-DA nominal mass percentages: 70/0/30",
+      "source_locator": "PDFp6/3213 TableIII and footnotes; PDFp5/3212 Flame retardancy prose:30%single-additive LOI only about",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.34993",
+      "sample_state_id": "9e5c74897d83b5d80719",
+      "reviewed_measurement_fingerprint": "e5f7c982cbb1732beaeb224efda9fa2345323dc25fc56b209646c204c2ca0a08",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "e33fea77c844b78da2a1ef7a3db3dd7b637b2dd9847e89615a7c8bf213980178",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Explicit all-samples sheet preparation and sheets used in all tests; TG and ownLOI labels share this single prepared PPseries. TG aliquot geometry unreported. PP/APP/CNCA-DA nominal mass percentages: 70/20/10",
+      "source_locator": "PDFp6/3213 TableIII and footnotes; PDFp5/3212 Flame retardancy prose;TableII",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.36227",
+      "sample_state_id": "e9a5be57cad17856b6f3",
+      "reviewed_measurement_fingerprint": "ec242439448f534ff429f6be90e96414d9328f4ad58e22f8257efbbdb35c410d",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "bfe469756139f1b781a1b983b2dcf4d518719ad68963c8eacf0f02ad31217e7c",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Common definedPPcomposite meltblend/compressionmold/coolpress/anneal specimens,TableI/II compositions alignB/C2/D2/E. No separateTGprocessing branch stated;aliquotgeometry unreported. PP/PPEM/MgO/CaO source w/w/w/w ratios: 75/25/0/0",
+      "source_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition; PDFp4 TableI",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.36227",
+      "sample_state_id": "d37541282cbda61a9513",
+      "reviewed_measurement_fingerprint": "73c9e50b348b3efdc018401e7fc78339b20d4cf925ae804e86751076915b4a7e",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "6c0f90a0d40c7be0ef7c79f8759ba47dce57072abb60420aa642def52e2b0a6c",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Common definedPPcomposite meltblend/compressionmold/coolpress/anneal specimens,TableI/II compositions alignB/C2/D2/E. No separateTGprocessing branch stated;aliquotgeometry unreported. PP/PPEM/MgO/CaO source w/w/w/w ratios: 75/25/0.175/0",
+      "source_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition; PDFp4 TableI",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.36227",
+      "sample_state_id": "a82585931fc37b1e8fa4",
+      "reviewed_measurement_fingerprint": "005b1a5d9c782bef46fff19bc1982ef232e933a404585998d49b68310338ec20",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "0fa723f369c0c5448b908926854155794894810a6f84d4938b6749fde0751fbe",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Common definedPPcomposite meltblend/compressionmold/coolpress/anneal specimens,TableI/II compositions alignB/C2/D2/E. No separateTGprocessing branch stated;aliquotgeometry unreported. PP/PPEM/MgO/CaO source w/w/w/w ratios: 75/25/0/0.175",
+      "source_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition; PDFp4 TableI",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.36227",
+      "sample_state_id": "063804dad571a87cbb4f",
+      "reviewed_measurement_fingerprint": "292ad8d1650884c394453b0ca5b1e6aef6cb14bb293bd15acc7eee9182dc193e",
+      "decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_identity_sha256": "67a1f3ea6f9693be8816388a6e114dd86151e06ae0b6807ca10963290935a114",
+      "scope_review_basis": "Root B706 source/B712 bounded reuse/derivative/B718 schema-direct approved; B714 private preparation pending normal publication. Exact R420 original coordinate is additionally byte/profile bound because unchanged helper omits it.",
+      "scope_evidence": "PP fibre-forming polymer composite parent. Common definedPPcomposite meltblend/compressionmold/coolpress/anneal specimens,TableI/II compositions alignB/C2/D2/E. No separateTGprocessing branch stated;aliquotgeometry unreported. PP/PPEM/MgO/CaO source w/w/w/w ratios: 75/25/0.175/0.175",
+      "source_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition; PDFp4 TableI",
+      "scope_reviewed_by": "B697 independent source peer; root B706 source/B712 bounded reuse and derivative/B718 schema and direct-use; B714 private integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    }
+  ],
+  "selected_source_facts": [
+    {
+      "DOI": "10.1002/pat.4561",
+      "sample_state": "PET-1; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "TG_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.",
+      "reviewed_measurement_fingerprint": "ba5f0e4f409474332ecad9d77fba72b91c13421ade424332822c3d6400e775d2",
+      "reviewed_material_scope_fingerprint": "97fac482bae1a4833e912cc84f13658adb8bc36a2267a5e6bb66a1fab41a17b0"
+    },
+    {
+      "DOI": "10.1002/pat.4561",
+      "sample_state": "PET-3; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "TG_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.",
+      "reviewed_measurement_fingerprint": "e99c2d17b01c6909adba53d3795474414ce2f2bfea1a962ffba9506494b072ec",
+      "reviewed_material_scope_fingerprint": "dd829616753bd4d8921badca51f74a99acff325d00791dc0a27c604ece381b3a"
+    },
+    {
+      "DOI": "10.1002/pat.4561",
+      "sample_state": "PET-5; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4",
+      "TG_locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.",
+      "reviewed_measurement_fingerprint": "0306fac75155029ff4ff07568cb0a78fabbb9c5d2a9760056e6032d88c7f30ec",
+      "reviewed_material_scope_fingerprint": "d4155e48d7ab9f48c971dd9c9f722f7e3f48fae2af7937ff2e4b0dbdd58879c3"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR1.0; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "67fcedb943aa83ee5fbe2142db7467d1b0eb3c1a6881bdda8bbaecf25067b12d",
+      "reviewed_material_scope_fingerprint": "b1e62cb082f2166290f088a502a1df998787a654804a64ef271a186fd9899dec"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR1.0; initial_as_prepared",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "9b61896cde3a0b92d215ca33c11238ea3face2665bf46c84e1239b24ed0cd336",
+      "reviewed_material_scope_fingerprint": "b1e62cb082f2166290f088a502a1df998787a654804a64ef271a186fd9899dec"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR3.0; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "41d39f31af28dead6968885d67155883eea3c9b4dbec7da328bc1e30ecd4929c",
+      "reviewed_material_scope_fingerprint": "04903c0305a38760f0c2ae7dcc10edd79480619cdf0c8c2664f395cf5f23f42f"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR3.0; initial_as_prepared",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "38c40072a244df589de4062e540aac5e8920b7eeee5ae1a6b3a3af78405c626f",
+      "reviewed_material_scope_fingerprint": "04903c0305a38760f0c2ae7dcc10edd79480619cdf0c8c2664f395cf5f23f42f"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR5.0; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "66b224c8e92784a4418c8107a8441e14a56723230809543dc59d82da2b912429",
+      "reviewed_material_scope_fingerprint": "4095afa35b6810d8fa02655c176888fc48de7272e72ae1ed5cf2ae3a2fb5977b"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "sample_state": "PET/FR5.0; initial_as_prepared",
+      "atmosphere": "air",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4",
+      "TG_locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4",
+      "reviewed_measurement_fingerprint": "aa17a010d6d436033a08dbdeb826051d49f656c7988e27539d92502d37d0c5c9",
+      "reviewed_material_scope_fingerprint": "4095afa35b6810d8fa02655c176888fc48de7272e72ae1ed5cf2ae3a2fb5977b"
+    },
+    {
+      "DOI": "10.1002/pat.5674",
+      "sample_state": "PET/PZS600; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "TG_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5",
+      "reviewed_measurement_fingerprint": "d3adaebce22b827533c981e3ea315f8a6cd504c7bbebcdf5c14439a1c1c619b4",
+      "reviewed_material_scope_fingerprint": "889a732e4e7513782afd5335900afc85ad3158db19267e12f02acce8bbd50914"
+    },
+    {
+      "DOI": "10.1002/pat.5674",
+      "sample_state": "PET/PZS800; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "TG_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5",
+      "reviewed_measurement_fingerprint": "d8e85355e91022e4e5cd5038efe937e3f921c6924c9757451d693c7010523cb2",
+      "reviewed_material_scope_fingerprint": "0de0bacc8c634821a8059826b595bf2c755e521ee02efd853909b1450557e5f5"
+    },
+    {
+      "DOI": "10.1002/pat.5674",
+      "sample_state": "PET/PZS1600; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "TG_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5",
+      "reviewed_measurement_fingerprint": "fde5ffa59161d92023e036cb56d2c6fb473a1852a1760778b1122b0404181d73",
+      "reviewed_material_scope_fingerprint": "e11899ea578ef9382e4e7d9a466240a644e3e975d9eb5e821f052dd534c7afe8"
+    },
+    {
+      "DOI": "10.1002/pat.5674",
+      "sample_state": "PET/PZS600_noH; initial_as_prepared",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5",
+      "TG_locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5",
+      "reviewed_measurement_fingerprint": "d45da5eaf56472b7cd722cad0f1d6f8802d9af69e6dfa1701a76048b4f0af23e",
+      "reviewed_material_scope_fingerprint": "866813deeb01337e4b8ffe6e82fccf95c46103b55c601e3d8542339dbbeab522"
+    },
+    {
+      "DOI": "10.1002/app.34993",
+      "sample_state": "PP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PDFp5/3212 Flame retardancy prose;TableII",
+      "TG_locator": "PDFp6/3213 TableIII and footnotes",
+      "reviewed_measurement_fingerprint": "e461e06a8f858f77dd2ba378e49fba20c225fcb3bffb4e4b2b7033ee70dc0837",
+      "reviewed_material_scope_fingerprint": "b7bc05453bcf30982216f8fc0c63774a7e54975e99813b5a53605e3ba63dfd78"
+    },
+    {
+      "DOI": "10.1002/app.34993",
+      "sample_state": "PP/APP",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PDFp5/3212 Flame retardancy prose:30%single-additive LOI only about",
+      "TG_locator": "PDFp6/3213 TableIII and footnotes",
+      "reviewed_measurement_fingerprint": "79b7ee80daa0d209b7c6023d4c77755d2f599110afdad0d7aedc9ae88064e055",
+      "reviewed_material_scope_fingerprint": "ecd1f777ee2ce05bf0b656ce8b5dbbbb395c2d66d377363ba20861bfa51465f1"
+    },
+    {
+      "DOI": "10.1002/app.34993",
+      "sample_state": "PP/CNCA-DA",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PDFp5/3212 Flame retardancy prose:30%single-additive LOI only about",
+      "TG_locator": "PDFp6/3213 TableIII and footnotes",
+      "reviewed_measurement_fingerprint": "b21f79c535a77da6abace939eeecff963083626f0fdb8fb1420b3e0e4bf3a326",
+      "reviewed_material_scope_fingerprint": "c2d8fd1a637bba821114a9bb2dcc8e4fc4ed323f91089b767acf462df2e82d2c"
+    },
+    {
+      "DOI": "10.1002/app.34993",
+      "sample_state": "PP/IFR30",
+      "atmosphere": "N2",
+      "heating_rate_C_min": "10",
+      "LOI_locator": "PDFp5/3212 Flame retardancy prose;TableII",
+      "TG_locator": "PDFp6/3213 TableIII and footnotes",
+      "reviewed_measurement_fingerprint": "e5f7c982cbb1732beaeb224efda9fa2345323dc25fc56b209646c204c2ca0a08",
+      "reviewed_material_scope_fingerprint": "060a9d03210f13eb5506f30493c892f86b3617ba22bf493fac3ef3d789874662"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "B",
+      "atmosphere": "air",
+      "heating_rate_C_min": "20",
+      "LOI_locator": "PDFp4 TableI",
+      "TG_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition",
+      "reviewed_measurement_fingerprint": "ec242439448f534ff429f6be90e96414d9328f4ad58e22f8257efbbdb35c410d",
+      "reviewed_material_scope_fingerprint": "d403531f07b38bdee017f1503e2133178f643ebac1c6df15f9a7b2fb87dbdbfc"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "C2",
+      "atmosphere": "air",
+      "heating_rate_C_min": "20",
+      "LOI_locator": "PDFp4 TableI",
+      "TG_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition",
+      "reviewed_measurement_fingerprint": "73c9e50b348b3efdc018401e7fc78339b20d4cf925ae804e86751076915b4a7e",
+      "reviewed_material_scope_fingerprint": "2271a30e5f9ce0c872661c8eaaedf0fb53eb5dc581b69a80d73ab99d56b4f858"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "D2",
+      "atmosphere": "air",
+      "heating_rate_C_min": "20",
+      "LOI_locator": "PDFp4 TableI",
+      "TG_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition",
+      "reviewed_measurement_fingerprint": "005b1a5d9c782bef46fff19bc1982ef232e933a404585998d49b68310338ec20",
+      "reviewed_material_scope_fingerprint": "e55fc45fe99132d0a5f6237b2cc66e301a2ec334e60b07f3f30da9d2dde7cf6f"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "E",
+      "atmosphere": "air",
+      "heating_rate_C_min": "20",
+      "LOI_locator": "PDFp4 TableI",
+      "TG_locator": "PDFp5 TableII;PDFp3 Thermal analysis;PDFp4 definition",
+      "reviewed_measurement_fingerprint": "292ad8d1650884c394453b0ca5b1e6aef6cb14bb293bd15acc7eee9182dc193e",
+      "reviewed_material_scope_fingerprint": "b273ae2a9a5538b2811f51886ed24b0f1ddf8eb643e79b36d7db9f82f5923674"
+    }
+  ],
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1002/pat.4561",
+      "verified_new_states": 3,
+      "verified_new_TG": 3,
+      "status": "source_reuse_schema_direct_approved_b714_pending_publication",
+      "note": "Three filled PET/PDPSI states with own Table2 TG and Table3 LOI; ordinary N2/10. T5 is not a separate Tonset; peak-index residue remains raw. Pure PET control held. TG aliquot geometry and manufacturing batch identity unreported.",
+      "locator": "PublishedPDFp4/1282 Table2; ordinary TG method PDFp2/1280 §2.4; Fig6 PDFp5/1283. Source prose Fig5 reference is not the composite figure.; PublishedPDFp5/1283 Table3; LOI method PDFp3/1281 §2.4"
+    },
+    {
+      "DOI": "10.1002/pat.4815",
+      "verified_new_states": 3,
+      "verified_new_TG": 6,
+      "status": "source_reuse_schema_direct_approved_b714_pending_publication",
+      "note": "Three filled PET/MPP nanowire states across N2 and air, six ordinary TG records at10C/min, explicit R600. Early filler loss remains source T5; TG-FTIR20C/min is not borrowed. Pure PET control held in both gases; prior cohort/local-reference limits preserved.",
+      "locator": "PublishedPDFp6/800 Table1 (HTML DOMtable2); Fig3 PDFp5/799; ordinary methods PDFp3/797 §2.4; PublishedPDFp6/800 Table2 (HTML DOMtable3); methods PDFp3/797 §2.4"
+    },
+    {
+      "DOI": "10.1002/pat.5674",
+      "verified_new_states": 4,
+      "verified_new_TG": 4,
+      "status": "source_reuse_schema_direct_approved_b714_pending_publication",
+      "note": "Four PET/PZS states with own LOI, N2/10 ordinary TG and explicit R800. Source5wt% wording and0.95/0.05 calculated convention retained separately; noH denotes surface esterification. Powder rate is unknown; original10 remains raw history. Pure PET control held; prior Ref23 original cohort not verified.",
+      "locator": "PublishedPDFp7/2237 Table3; definitions/ordinaryTG Figure6 PDFp6/2236; method PDFp3/2233 §2.5; PublishedPDFp7/2237 Table4; method PDFp3/2233 §2.5"
+    },
+    {
+      "DOI": "10.1002/app.34993",
+      "verified_new_states": 4,
+      "verified_new_TG": 4,
+      "status": "source_reuse_schema_direct_approved_b714_pending_publication",
+      "note": "Single-additiveLOIabout qualifier retained;calculatedandCONEfacts excluded;reusepending Root B706/B712/B718 accepted own source, bounded reuse and direct schema; approximate LOI about21/about21.5, unresolved CNCA-DA reagent identity, nominal ratios and sparse prior identities remain limited; no batch-independence claim.",
+      "locator": "Methods PDFpp2–3/3209–3210;LOI p5/3212 TableII/prose;TGp6/3213 TableIII"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "verified_new_states": 4,
+      "verified_new_TG": 4,
+      "status": "source_reuse_schema_direct_approved_b714_pending_publication",
+      "note": "C/D TGonly0.175w/w ratio;priorPPEMRef10patentandRef20samegroup notnewsourceevidence;reusepending Root B706/B712/B718 accepted own source, bounded reuse and direct schema; approximate LOI about21/about21.5, unresolved CNCA-DA reagent identity, nominal ratios and sparse prior identities remain limited; no batch-independence claim.",
+      "locator": "Methods PDFpp2–3;LOIp4TableI;TGp5TableII"
+    },
+    {
+      "DOI": "10.1002/app.38740",
+      "verified_new_states": 0,
+      "verified_new_TG": 0,
+      "status": "review_complete_held_no_numeric_TG_b714",
+      "note": "Six wholeheld states: no recoverable individual ordinaryTG scalar from curves; no curve estimate. Highest LOI abstract31.4 versus Table/body34 remains unresolved; bounded local attachment search only. No valid pair imported.",
+      "locator": "LOIp3/318TableI;TGFig3p4/319;discussionp5/320;abstractp1/316"
+    }
+  ],
+  "authority_hashes": {
+    "root_B710": "cc1a71076f1d414ce551311863b8c59c6eea9f24ac734f74fd71e160190cbb61",
+    "schema_B704_ready": "f718c839dd503c3799898e1db43443b65f703f034968da1a0735aae8fcea0e66",
+    "schema_B704_freeze": "4fd71b8fbed6616fc4d9d0f10a6e3974509a946b6b5b01158fcfe1cb1be2ea9c",
+    "root_B718": "cecdf8c9749bc97485ec392d19310d91a06226523f46b11538aacda396cebe8f",
+    "schema_B713_ready": "3bae647fc37cdfb3a30bfb9e26be438de62597a735f60f3283680cfb1cef89f7",
+    "schema_B713_freeze": "689a6ed07e9bff5a39fcfdd0bb10ae1ba028ee66657712b1c27cfae3ce72b505"
+  },
+  "scientific_limits": [
+    "Three filled PET/PDPSI states with own Table2 TG and Table3 LOI; ordinary N2/10. T5 is not a separate Tonset; peak-index residue remains raw. Pure PET control held. TG aliquot geometry and manufacturing batch identity unreported.",
+    "Three filled PET/MPP nanowire states across N2 and air, six ordinary TG records at10C/min, explicit R600. Early filler loss remains source T5; TG-FTIR20C/min is not borrowed. Pure PET control held in both gases; prior cohort/local-reference limits preserved.",
+    "Four PET/PZS states with own LOI, N2/10 ordinary TG and explicit R800. Source5wt% wording and0.95/0.05 calculated convention retained separately; noH denotes surface esterification. Powder rate is unknown; original10 remains raw history. Pure PET control held; prior Ref23 original cohort not verified.",
+    "116 sparse prior physical identities and Ref23 prior-cohort gap remain bounded-reuse limitations; no numerical no-hit, atmosphere difference or batch-independence proof.",
+    "8 source-specific PP states/8 ordinaryTG conditions only; six app38740 wholeholds unchanged.",
+    "LOI about21/about21.5 remain qualified. CNCA-DA reagent mass/mol/name inconsistency preserved; chemical identity not resolved. Nominal PP/PPEM/MgO/CaO ratios remain unnormalized.",
+    "Original R420 four coordinates preserved and bounded reuse supplemented. Existing helper does not fingerprint this extra field; exact original-field hashes, profile/mutation guards and scope row binding protect them, without a false helper-coverage claim.",
+    "B712 bounded context and 1116 sparse identity unknown limits remain binding; no independently manufactured-batch assertion."
+  ],
+  "source_review_history": "B686 primary and B691 independent original-source peer; root B699 source/B702 bounded reuse/B703 exact source annotation/B710 schema-direct authorities. Original source-stage pending flags are historical capture, not current publication approval. PP8/8: B697 source peer, root B706/B712/B718 authority; R420 extra field is preserved with separate exact coordinate binding, not claimed to be part of unchanged measurement helper.",
+  "publication_approved": false,
+  "published": 0,
+  "excluded_PP_role_views": {
+    "wholehold": 6,
+    "LOI_only": 11,
+    "TG_only": 3,
+    "calculated": 2
+  },
+  "root_authorization_boundary": "B710 PET10/13 and B718 PP8/8 schema/direct authorized. B714 private combined integration; historical source snapshots unchanged; normal publication pending.",
+  "additional_original_R420_coordinates": [
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "B",
+      "field": "R420_pct",
+      "value": "19"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "C2",
+      "field": "R420_pct",
+      "value": "29"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "D2",
+      "field": "R420_pct",
+      "value": "30"
+    },
+    {
+      "DOI": "10.1002/app.36227",
+      "sample_state": "E",
+      "field": "R420_pct",
+      "value": "24"
+    }
+  ],
+  "original_R420_coordinate_sha256": "eefe076ac79669d0e1841545505a8c0e8e9e44d309aa97e6f765939eb372a066"
+}
