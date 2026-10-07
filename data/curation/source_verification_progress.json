@@ -14,15 +14,13 @@
   "publication_stage": "b558_merged_remote_verified_lease_released",
   "last_merged_batch": "20261007_b558",
   "writer_lease": {
-    "owner": "codex-local-combined-b558-20261007",
-    "status": "released",
-    "batch_id": "20261007_b558",
-    "claimed_at_utc": "2026-10-07T00:19:01.098878+00:00",
-    "expires_at_utc": "2026-10-07T01:49:01.098878+00:00",
-    "previous_release_commit": "57dacec8e76473a3d0033d0df635b40216d5b8f5",
-    "purpose": "Source-supported and deduplicated 5 new states/5 TG;0 scope-only states and0 numerical evidence upgrades. Prediction959/1183/190 awaits normal PR and exact-head checks.",
-    "released_at_utc": "2026-10-07T00:41:00.916441+00:00",
-    "reason": "Normal PR merge, exact-head nonauthor integration review and both main workflows passed; all remote public bytes verified. Release only owned B558 lease."
+    "owner": "codex-local-combined-b573-20261007",
+    "status": "active",
+    "batch_id": "20261007_b573",
+    "claimed_at_utc": "2026-10-07T01:49:17.472846+00:00",
+    "expires_at_utc": "2026-10-07T03:19:17.472846+00:00",
+    "previous_release_commit": "a265d36b9b6bd063a41df7f16ec284247feb0a72",
+    "purpose": "Source-supported and bounded-reuse reviewed18new states/27TG/5sources;0old scope admissions and0numerical evidence upgrades. Prediction977/1210/195 awaits normal PR and exact-head checks."
   },
   "next_sources": [],
   "next_actions": [
