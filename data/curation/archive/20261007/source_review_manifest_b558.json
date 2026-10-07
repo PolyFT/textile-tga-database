@@ -1,0 +1,129 @@
+{
+  "batch": "B558",
+  "status": "SOURCE_AND_REUSE_APPROVED_PREMERGE_SNAPSHOT",
+  "root_source_and_reuse_approved": true,
+  "published": 0,
+  "published_new_pairs": 0,
+  "formal_main_before": [
+    954,
+    1178,
+    188
+  ],
+  "branch_prediction": [
+    959,
+    1183,
+    190
+  ],
+  "source_supported_new_unique_states": 5,
+  "source_supported_new_TG": 5,
+  "source_supported_old_scope_unique_states": 0,
+  "source_supported_old_scope_TG": 0,
+  "numerical_evidence_upgrades": 0,
+  "source_reviews": [
+    {
+      "DOI": "10.1002/app.45246",
+      "source_title": "An effective flame retardant for poly(ethylene terephthalate) synthesized by phosphaphenanthrene and cyclotriphosphazene",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "complete local native; wholepair processing bridge unresolved; no admitted pairs",
+      "evidence_locator": "PDFpp1-8; p2 Materials/Preparation/Characterization; p3 TG method; p4 TableI; p5 TablesII/III"
+    },
+    {
+      "DOI": "10.1002/pc.24009",
+      "source_title": "Synergistic effects of a novel silicon‐containing triazine charring agent on the flame‐retardant properties of poly(ethylene terephthalate)/hexakis (4‐phenoxy)cyclotriphosphazene composites",
+      "new_unique_states": 4,
+      "TG_conditions": 4,
+      "scientific_decision": "Four own PNCP/TSCA modified recipes source-supported and accepted within captured source-reuse coverage. Pure PET control wholeheld: shared grade/supplier/group and matching temperatures leave batch identity unresolved; neither duplicate nor independent lot proved. Selected source/peer/root, bounded reuse and exact derivative review now accepted; historical stage pending fields remain unchanged. No universal physical-batch independence claim.",
+      "evidence_locator": "PDFpp1-11; p2 Preparation; p3 Measurements/Table1; p6 Thermal Stability; p7 Table4; HTML matching body/tbl1/tbl4"
+    },
+    {
+      "DOI": "10.1002/app.35678",
+      "source_title": "Investigation on effects of aluminum and magnesium hypophosphites on flame retardancy and thermal degradation of polyamide 6",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "complete local native; wholepair processing bridge unresolved; no admitted pairs",
+      "evidence_locator": "PDFpp1-8; p2 Materials/Preparation/TG/LOI; p3 TablesI/thermal discussion; p4 TableII; p5 interpretations"
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2013.12.023",
+      "source_title": "Synergistic flame retardant effects and mechanisms of nano-Sb2O3 in combination with aluminum phosphinate in poly(ethylene terephthalate)",
+      "new_unique_states": 1,
+      "TG_conditions": 1,
+      "scientific_decision": "1PET/AlPi92/8 primary candidate, purePET finalprocessing unknown and2Sbbranch conditions wholehold; other exactLOIformulations notinterpolated Selected source/peer/root, bounded reuse and exact derivative review now accepted; historical stage pending fields remain unchanged. No universal physical-batch independence claim.",
+      "evidence_locator": "PDFpp1-9; p2 Materials/Preparation; p3 methods/Tables1/2; p4 thermal definitions; p5 modifiers; refspp8-9"
+    },
+    {
+      "DOI": "10.1002/app.45912",
+      "source_title": "Effect of trisilanolphenyl‐<scp>POSS</scp> on rheological, mechanical, and flame‐retardant properties of poly(ethylene terephthalate)/cyclotriphosphazene systems",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "0joint: complete12main PDFpages containUL94/MCC andordinaryTG, noownLOI; localSI missing within bounded originalyear/stem inventory, not declared globalabsence",
+      "evidence_locator": "PDFpp1-12; p3 Preparation/TableI; p4 Methods; p6 TableII; p8 UL94/MCC/TableIV; pp11-12Refs"
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "source_title": "Effect of surface chemical modification for aluminum hypophosphite with hexa‐(4‐aldehyde‐phenoxy)‐cyclotriphosphazene on the fire retardancy, water resistance, and thermal properties for polyamide 6",
+      "new_unique_states": 0,
+      "TG_conditions": 0,
+      "scientific_decision": "0joint: purePA6processingbridge unresolved; filledTG finalFRdose unknown,21wt%cone/water cannot fill it; washedLOI notinitialTG",
+      "evidence_locator": "PDFpp1-14; p3 preparation/Tables1/2; p4 methods/Table3; p6 thermal definitions; p7 Table4; p10 Table6; HTML matching9tables; pp13-14Refs"
+    }
+  ],
+  "complete_source_review": {
+    "B531_B537": {
+      "PDF_pages": 27,
+      "HTML_tables": 6
+    },
+    "B538_B547": {
+      "PDF_pages": 35,
+      "HTML_tables": 9
+    }
+  },
+  "root_critical_source_reading": {
+    "B543": {
+      "PDF_pages": 8
+    },
+    "B556": {
+      "PDF_pages": 4
+    },
+    "whole_papers_newly_read": false
+  },
+  "held_counts": {
+    "wholeheld_states": 12,
+    "wholeheld_TG": 20,
+    "TG_only_conditions": 30,
+    "LOI_only_conditions": 33,
+    "calculated_context_views": 9,
+    "nonTG_background_views": 5
+  },
+  "metric_definitions": "PDS384C is original2%massloss T2, never T5/Tonset. Its Tmax447 is explicitly maximumrate and R80012.2 is experimental, not8.5calculated. PC modifiedTmax labels lack maximum-rate criterion: rawvalues retained, canonical peak blank. Rmax original%/min values displayed as notes, never temperatures.",
+  "source_text_derivation": "B557 exactly two selected text cells (own PDF version and binary residue definition) and three nonadmitted powder-composition locators plus mirrors; all numeric and selected identities unchanged.",
+  "selected_subset": "B553 exact4 modifiedPET rows; purePET wholeheld due unresolved sharedgrade/supplier/group/control identity, not proved duplicate or independent batch.",
+  "reuse_limits": [
+    "Frozen B501 coverage is63873 CSV paths,1597 payloads,20073 contexts,356072 presentations; not63873 numeric samples. No new corpus census.",
+    "Both two original width quarantines remain: NY-TPU air and commercial CO/PET PVAmPA tail. Actual closed material fields are unlike unfilled PNCP/TSCA-injected PET; missing tails not reconstructed or declared globally harmless.",
+    "PurePET cross-study batch unknown with same FG600/supplier/group and two exact temperature matches in app45912. It is not proved duplicate and not proved independently fabricated. Explicit control-family limitation is mandatory; do not count same later control twice.",
+    "Other four rows have source-defined distinct additive molecules/feed states and measured own Table1/Table4 labels, with no paired multi match in frozen corpus/current master. This supports no demonstrated duplicate in covered evidence, not universal physical-batch independence.",
+    "IE504510t original/supporting background and exact primary SI remain locally unlocated under bounded navigation; no internet supplementation.",
+    "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
+    "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
+    "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
+    "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
+    "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
+    "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
+  ],
+  "root_approval_receipt_sha256": "38e9b51787d82590f9e79cd97fd5e42d9463c5687a9e625be43f8f9e72981db0",
+  "source_stage_snapshots": [
+    "data/curation/archive/20261007/source_review_manifest_b553.json",
+    "data/curation/archive/20261007/source_review_manifest_b557.json"
+  ],
+  "stage_boundary": "Historical pending notes retained as exact source-stage snapshots. This combined root decision supersedes selected rows only; formal totals require ordinary PR merge and remote checks.",
+  "changes": {
+    "old_master_fields": 0,
+    "old_scope_entries": 0,
+    "provided_scientific_fields": 0,
+    "new_scope_review_admin_entries": 5
+  },
+  "privacy": "Factual data and DOI/page/table/figure locators only; no fulltext, private notes or local paths.",
+  "reader_display_change": "Display only: two original Rmax rate keys and three explicit TGA method aliases. Nine old note cells expose13 already-stored pan/mass facts; all other old reader cells and all old scientific/master fields unchanged. New PET/AlPi notes also show original50mL/min,3-5mg,alumina crucible. No canonical field filled from raw notes and no evidence-upgrade count."
+}

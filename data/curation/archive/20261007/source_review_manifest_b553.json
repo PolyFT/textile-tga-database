@@ -1,0 +1,84 @@
+{
+  "batch": "B553",
+  "status": "SOURCE_AND_BOUNDED_REUSE_APPROVED_PREMERGE_SNAPSHOT",
+  "rootapproved": true,
+  "published": 0,
+  "new_candidate_states": 4,
+  "new_candidate_TG": 4,
+  "new_pairs_published": 0,
+  "archive_path": "data/curation/archive/20261007/source_review_manifest_b553.json",
+  "incoming_path": "data/incoming/verified_source_batch_20261007_b553_local_material.csv",
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1002/app.45246",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "scientific_decision": "complete local native; wholepair processing bridge unresolved; no admitted pairs",
+      "physical_conditions": 10,
+      "locators": "PDFpp1-8; p2 Materials/Preparation/Characterization; p3 TG method; p4 TableI; p5 TablesII/III"
+    },
+    {
+      "DOI": "10.1002/pc.24009",
+      "candidate_unique_states": 4,
+      "candidate_TG_records": 4,
+      "scientific_decision": "Four own PNCP/TSCA modified recipes source-supported and accepted within captured source-reuse coverage. Pure PET control wholeheld: shared grade/supplier/group and matching temperatures leave batch identity unresolved; neither duplicate nor independent lot proved.",
+      "physical_conditions": 11,
+      "locators": "PDFpp1-11; p2 Preparation; p3 Measurements/Table1; p6 Thermal Stability; p7 Table4; HTML matching body/tbl1/tbl4"
+    },
+    {
+      "DOI": "10.1002/app.35678",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "scientific_decision": "complete local native; wholepair processing bridge unresolved; no admitted pairs",
+      "physical_conditions": 17,
+      "locators": "PDFpp1-8; p2 Materials/Preparation/TG/LOI; p3 TablesI/thermal discussion; p4 TableII; p5 interpretations"
+    }
+  ],
+  "counts": {
+    "physical_conditions": 38,
+    "source_states_including_modifiers": 28,
+    "candidate_states": 4,
+    "candidate_TG": 4,
+    "wholeheld_states": 8,
+    "wholeheld_TG": 15,
+    "TG_only_modifier_conditions": 9,
+    "LOI_only_states": 10,
+    "calculated_views": 5
+  },
+  "source_limits": [
+    "pc24009 local SI docx not located within bounded year-directory exact/normalized-stem checks; main SI references concern NMR/MS/SEM/Raman/mechanical/DSC; no SI TG invented",
+    "Shared PET supplier/author lineage and reported-value overlaps need corpus reuse review; gas/rate/nohit not independence proof",
+    "app45246/app35678 final TG-versus-LOI parent-processing gaps wholeheld; no injection bridge inferred"
+  ],
+  "held_control_reuse": {
+    "DOI": "10.1002/pc.24009",
+    "sample_state": "Pure PET",
+    "reviewed_measurement_fingerprint": "b0bcc975f0e96da6167602c433b11460324319920b91ab7b66eda325df9417ad",
+    "LOI_pct": "26.5",
+    "T5_C": "410",
+    "Tmax1_C": "428",
+    "R700_pct": "7.08",
+    "decision": "wholehold_reuse_identity_unknown",
+    "counted": false,
+    "source_locator": "Own PDFp2 Materials/Preparation; p3 Table1; p7 Table4; related app45912 PDFp6 TableII and p12 Ref16; app42711 Materials and references",
+    "reason": "Shared commercial PET supplier/group; app42711 also FG600, while app45912 reports supplier/viscosity but no FG600 grade statement. Exact T5/Tmax coincidence does not establish an independently prepared control. Different residue temperatures or TG rates do not establish different specimens."
+  },
+  "root_source_and_reuse_review": {
+    "source_supported_before_reuse_states": 5,
+    "selected_after_reuse_states": 4,
+    "source_reading": "B531 primary and B537 complete27 native PDF pages plus scientific HTML; B543 root8 critical original pages. B544 retained full context comparisons and source-family review; AFTER_NAVIGATION, no new blind/full-corpus census claim.",
+    "canonical_multi_hits": 0,
+    "raw_source_definitions_word_boundary_corrected": true,
+    "source_reuse_limit": "Four modified samples have source-own PNCP/TSCA recipe and common final testing preparation; compared phosphazenes have documented phenoxy/nitrophenoxy/hydroxymethylphenoxy/allyloxyphenoxy/DOPO substituent differences. Covered canonical/raw/full-context comparisons find no demonstrated same TG-LOI sample. PurePET sharedFG600 supplier/group and two exact temperatures leaves cross-study control batch identity unknown; wholehold, neither proved duplicate nor independently manufactured. Different gas/rate/temperature/residue alone never proves new samples.",
+    "captured_coverage_limits": [
+      "Frozen B501 coverage is63873 CSV paths,1597 payloads,20073 contexts,356072 presentations; not63873 numeric samples. No new corpus census.",
+      "Both two original width quarantines remain: NY-TPU air and commercial CO/PET PVAmPA tail. Actual closed material fields are unlike unfilled PNCP/TSCA-injected PET; missing tails not reconstructed or declared globally harmless.",
+      "PurePET cross-study batch unknown with same FG600/supplier/group and two exact temperature matches in app45912. It is not proved duplicate and not proved independently fabricated. Explicit control-family limitation is mandatory; do not count same later control twice.",
+      "Other four rows have source-defined distinct additive molecules/feed states and measured own Table1/Table4 labels, with no paired multi match in frozen corpus/current master. This supports no demonstrated duplicate in covered evidence, not universal physical-batch independence.",
+      "IE504510t original/supporting background and exact primary SI remain locally unlocated under bounded navigation; no internet supplementation."
+    ],
+    "root_receipt_sha256": "38802a09a1eed10b212f4a119ae7368fcf7d6c25223a4e36b65e86cd976cd50f"
+  },
+  "historical_review_fields": "Literal selected facts retain original source-phase reviewer/status wording. This derivative supersedes the original five-row pending proposal only for the four listed selected observations; normal PR and exact-head checks remain pending.",
+  "nonadmitted_raw_annotation_supersession": "B541/B546/B550 correct74 nonselected raw method/scope cells, preserving selected facts. Ten unadmitted LOI-only dynamic condition keys/fingerprints changed when erroneous TG conditions were withdrawn; selected identities did not change. No extra samples or conditions are admitted by those repairs."
+}
