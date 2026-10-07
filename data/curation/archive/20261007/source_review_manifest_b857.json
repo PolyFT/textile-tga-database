@@ -1,0 +1,1101 @@
+{
+  "batch_id": "20261007_b857",
+  "status": "combined_source_schema_direct_approved_pending_final_checks",
+  "fixed_science_base": "ef2b38d7b2f9386ba0db69a5520ba5fbbe52744f",
+  "formal_science_baseline": {
+    "states": 1174,
+    "TG": 1506,
+    "sources": 240
+  },
+  "selected_new_states": 37,
+  "selected_new_TG": 37,
+  "new_paired_sources": 13,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1002/app.35064",
+      "states": 1,
+      "TG": 1,
+      "locators": [
+        "PDFp4/784 TableI;p6/786 TableIII;p6/786 Fig8;p7/787 Fig9+metric prose"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 1,
+        "LOI_only": 27,
+        "TG_only": 2,
+        "calculated": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.47593",
+      "states": 3,
+      "TG": 3,
+      "locators": [
+        "PDFp2–3 methods/TableI;p4–5/TableIV;p5/TableV"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 4,
+        "TG_only": 1,
+        "donor": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.49047",
+      "states": 5,
+      "TG": 5,
+      "locators": [
+        "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 5,
+        "LOI_only": 14,
+        "TG_only": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/vnl.21337",
+      "states": 8,
+      "TG": 8,
+      "locators": [
+        "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 9,
+        "LOI_only": 1,
+        "TG_only": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.30585",
+      "states": 3,
+      "TG": 3,
+      "locators": [
+        "TableI PDFp2/3509; TG p5–6/3512–3513",
+        "TableII PDFp3/3510; TGp5–6/3512–3513"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "LOI_only": 12,
+        "candidate": 3,
+        "donor": 1,
+        "TG_only": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.35646",
+      "states": 2,
+      "TG": 2,
+      "locators": [
+        "LOITableI;TGTableII PDFp4/1761; Methods p2/1759"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 2,
+        "LOI_only": 4,
+        "held_pair": 1,
+        "TG_only": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.39701",
+      "states": 3,
+      "TG": 3,
+      "locators": [
+        "LOITableII PDFp3/4257;TGTableIII PDFp5/4259; Discussionp4/4258"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "LOI_only": 9,
+        "held_pair": 1,
+        "candidate": 3,
+        "TG_only": 3
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pat.1958",
+      "states": 2,
+      "TG": 2,
+      "locators": [
+        "TGTable1 PDFp4/1111/HTMLTable1;LOIp6/1113 andconclusionp7/1114"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "TG_only": 2,
+        "candidate": 2,
+        "LOI_only": 1,
+        "calculated": 2
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pc.21250",
+      "states": 2,
+      "TG": 2,
+      "locators": [
+        "Table1PDFp3/37;Table2p4/38;TGFig3/bodyp5/39"
+      ],
+      "decision": "Own-source LOI and ordinary TG matched to the prepared composition/state; source and reuse authorities plus external schema review passed. Undefined peaks, conflicting residues and original atmosphere wording retained. No independent manufacturing-batch assertion.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 3,
+        "LOI_only": 13,
+        "TG_only": 2,
+        "calculated": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.41810",
+      "states": 2,
+      "TG": 2,
+      "locators": [
+        "PDFp2 Table I",
+        "PDFp6 Table IV and thermal stability prose",
+        "Table I PDFp2; Table IV PDFp6; Flame-retardant properties PDFp4"
+      ],
+      "decision": "Own prepared LOI/TG source series supported by bounded reuse and external schema review. Prior donor fulltexts/batch independence not claimed; numeric near matches alone do not establish duplicates.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "wholehold": 1,
+        "LOI_only": 14,
+        "candidate": 2,
+        "nonnumeric": 6,
+        "TG_only": 2
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.46274",
+      "states": 2,
+      "TG": 2,
+      "locators": [
+        "PDFp3 Table II",
+        "PDFp5 Table IV; PDFp6 PP/IFR prose",
+        "PDFp3 Table II; PDFp5 Table IV"
+      ],
+      "decision": "Own prepared LOI/TG source series supported by bounded reuse and external schema review. Prior donor fulltexts/batch independence not claimed; numeric near matches alone do not establish duplicates.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 2,
+        "LOI_only": 5,
+        "TG_only": 3,
+        "calculated": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.34578",
+      "states": 1,
+      "TG": 1,
+      "locators": [
+        "PDFp5 Table I",
+        "PDFp7/printed1642 Figures12/13 and prose",
+        "PDFp5/printed1640 Table I; PDFp7/1642 Figures12/13 and prose"
+      ],
+      "decision": "Own prepared LOI/TG source series supported by bounded reuse and external schema review. Prior donor fulltexts/batch independence not claimed; numeric near matches alone do not establish duplicates.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "qualified_only_metric_pending": 1,
+        "LOI_only": 12,
+        "candidate": 1,
+        "TG_only": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pc.22715",
+      "states": 3,
+      "TG": 3,
+      "locators": [
+        "PDFp8/722 Table4",
+        "PDFp9/723 Table5; HTML Table5",
+        "PDFp3/717 Table1; PDFp8/722 Table4; PDFp9/723 Table5; HTML Tables1/4/5"
+      ],
+      "decision": "Own prepared LOI/TG source series supported by bounded reuse and external schema review. Prior donor fulltexts/batch independence not claimed; numeric near matches alone do not establish duplicates.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 3,
+        "LOI_only": 15,
+        "calculated": 3,
+        "TG_only": 4
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pat.3358",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2/1100 preparation;p3/1101 methods;p5/1103 Table4;p7/1105 Fig9",
+        "PDFp7/1105 Fig9; p2/1100",
+        "PDFp2/1100 solvent preparation;p8/1106 Fig9 discussion",
+        "PDFp2/1100 preparation;p4/1102 Fig3;p8/1106",
+        "PDFp2/1100;p4/1102 Fig3;p7/1105 Fig8",
+        "PDFp4/1102 Fig3"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "held_pair": 2,
+        "LOI_only": 2,
+        "TG_only": 3,
+        "nonnumeric": 4,
+        "calculated": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.31813",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp6/2162 TablesIII/IV;p2/2158",
+        "PDFp8/2164 TableV;p7/2163 body",
+        "PDFp3/2159 synthesis;p5/2161 TableII",
+        "PDFp8/2164 TableV"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B809",
+      "presentation_role_counts_not_sample_counts": {
+        "LOI_only": 11,
+        "held_pair": 3,
+        "TG_only": 5,
+        "calculated": 2
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.25178",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2–4/5989–5991; Fig1/2; char paragraph p4",
+        "PDFp3/5990 thermal discussion"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B819",
+      "presentation_role_counts_not_sample_counts": {
+        "TG_only": 2,
+        "LOI_only": 3,
+        "candidate": 1,
+        "nonnumeric": 2
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.48320",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp8 Tables VII/VIII",
+        "PDFp8 Table VII",
+        "PDFp8 Table VIII",
+        "PDFp6 Table V",
+        "PDFp6 Figure7 and prose"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 18,
+        "TG_only": 8
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.50413",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp4 Table1; PDFp6 Figure5",
+        "PDFp4 Table1",
+        "PDFpp2-4 modifier synthesis; online SI inventory"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B832",
+      "presentation_role_counts_not_sample_counts": {
+        "LOI_only": 8,
+        "nonnumeric": 3
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.32086",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp3 TableI; pp8–9 Figs7/8 and prose",
+        "PDFp9",
+        "PDFp3 TableI",
+        "PDFp3 TableI and Ref10 p9",
+        "PDFpp8–9 Figs7/8 prose",
+        "PDFp8",
+        "PDFp3 UL94 statement"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "qualified_only": 2,
+        "TG_context": 1,
+        "LOI_only": 1,
+        "donor": 1,
+        "TG_only": 3,
+        "nonnumeric": 1,
+        "calculated": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.21944",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp3 Figs2/3 and body; p5 LOI",
+        "PDFpp2/4 TG methods/results; p5 LOI",
+        "PDFpp3–5",
+        "PDFpp3–4",
+        "PDFp4/2490 Figure6 and muffle paragraph"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 2,
+        "wholehold": 2,
+        "TG_only": 2,
+        "other_assay": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.31348",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2 preparation; p3 TableI; p5 TableIII/footnotes",
+        "PDFpp6–7 TablesIV/V",
+        "PDFp4 cited Refs21–23"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 6,
+        "calculated": 2,
+        "donor": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.37910",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2 prep; p3 TablesI/II; p4 gas assignment; p7 R650",
+        "PDFpp3–4 TableII/body",
+        "PDFp4",
+        "PDFp3 TGIR methods; PDFpp5–6 TG-IR Test, Figures7–9"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 4,
+        "LOI_only": 9,
+        "TG_only": 3,
+        "calculated": 1,
+        "other_assay": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/app.44663",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2 prep; p4 TableI; p6 TableIII",
+        "PDFp6 TableIII"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "wholehold": 3,
+        "LOI_only": 8,
+        "TG_only": 3,
+        "calculated": 2
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pen.21198",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2 prep; p3 Tables1/2; p5 Fig4/body",
+        "PDFpp2–3 Table2",
+        "PDFp5"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "qualified_only": 2,
+        "LOI_only": 19,
+        "candidate": 1,
+        "relative_context": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pi.6236",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp2 prep/method; p6 Table2; p7 Table3",
+        "PDFp4 body/p6 Table2",
+        "PDFp4"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 5,
+        "TG_only": 3
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/vnl.20235",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp3 prep; p4 Table1; p5 Table2 and footnotes; HTML tables1/2",
+        "PDFp5 Table2",
+        "PDFp7 Table3"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "candidate": 6,
+        "TG_only": 1,
+        "other_assay": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    },
+    {
+      "DOI": "10.1002/pc.20555",
+      "states": 0,
+      "TG": 0,
+      "locators": [
+        "PDFp4 Table1/footnote",
+        "PDFp4 Figure4 caption versus body",
+        "PDFp2 common preparation; PDFp4 Table1/footnote and Figure4(c) caption/body",
+        "PDFp5 Figure5/prose"
+      ],
+      "decision": "Original-source review completed; other pairing, condition, metric or reuse holds remain. No qualifying sample from this source is admitted by this batch.",
+      "source_review_authority": "B848",
+      "presentation_role_counts_not_sample_counts": {
+        "LOI_only": 5,
+        "wholehold": 2,
+        "qualified_only": 1,
+        "nonnumeric": 1
+      },
+      "unadmitted_source_views_remain_separate": true
+    }
+  ],
+  "incoming_files": [
+    "data/incoming/verified_source_batch_20261007_b857_pp.csv"
+  ],
+  "scope_entries": [
+    {
+      "source_identity": "10.1002/app.35064",
+      "sample_state_id": "f84d1222ddce6100b5b1",
+      "reviewed_measurement_fingerprint": "29f50ce6f21d18ee4a194bfb3b28e93b86e71ab4cf072c750a36d9c357fed8a0",
+      "scope_identity_sha256": "48ce3424dac497ed1ec39f613411d64a7c4fdad9682c7c54365b30f9e0e5d12a",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; TableI columns PP/APP/HOS-MFAPP/PER/HOS-MF-APP/APP=100,0,0,0,0,0wt%; last duplicateAPP heading corresponds to HSO-APP in body; literal column order preserved; hotpressed sheet; Mixed180°C50rpm10min; PP melted2min before additive; resulting mixed material hotpressed180°C10MPa10min into160×160×3mm sheets; TableI includes purePP100 (PDFp2/782).",
+      "source_locator": "PDFp4/784 TableI;p6/786 TableIII;p6/786 Fig8;p7/787 Fig9+metric prose",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.47593",
+      "sample_state_id": "d9ada54e93df0cd03ccf",
+      "reviewed_measurement_fingerprint": "0c21ba8a599009b7bf2cc2a0ada7fc1028b6fef7a8e6fe618106b13a6236832a",
+      "scope_identity_sha256": "4647967f87a6b5c60e550f90e38c66089d29d649e81541df8091186996f4542d",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PPPAP=80/20wt%;+0.3wt%AO1010 basis unspecified; prepared internal-mixed PP blend; LOI forming/TG aliquot geometry unreported; PP/PPPAP+0.3wt%AO1010 internal mixer190°C20rpm5min; TableI contains PP100/PPPAP0 and20/30/40wt% blends. AO basis not further defined. Cone-specific compression12MPa200°C5min and mechanical-specific miniJet injection are separate method scopes.",
+      "source_locator": "PDFp2–3 methods/TableI;p4–5/TableIV;p5/TableV",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.47593",
+      "sample_state_id": "2e9724e8926b1a34ce71",
+      "reviewed_measurement_fingerprint": "ff574a4d70773e92cb01a2fb44038a4a6117ce4886dfc71d953a83fbad418d20",
+      "scope_identity_sha256": "014d16a6268a5060e23d31b3c58b4cf14843a45c7ec0d7f22b208bb5f633884d",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PPPAP=70/30wt%;+0.3wt%AO1010 basis unspecified; prepared internal-mixed PP blend; LOI forming/TG aliquot geometry unreported; PP/PPPAP+0.3wt%AO1010 internal mixer190°C20rpm5min; TableI contains PP100/PPPAP0 and20/30/40wt% blends. AO basis not further defined. Cone-specific compression12MPa200°C5min and mechanical-specific miniJet injection are separate method scopes.",
+      "source_locator": "PDFp2–3 methods/TableI;p4–5/TableIV;p5/TableV",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.47593",
+      "sample_state_id": "ae3d02bf69e1f3e53fcb",
+      "reviewed_measurement_fingerprint": "010376d3e45916587591ceeacb2b085083f2294c69c44c1ca916ab59447dccce",
+      "scope_identity_sha256": "4c430675a40d13098f92068c7556a28a13209434096da86f791bb16f1913a44a",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PPPAP=60/40wt%;+0.3wt%AO1010 basis unspecified; prepared internal-mixed PP blend; LOI forming/TG aliquot geometry unreported; PP/PPPAP+0.3wt%AO1010 internal mixer190°C20rpm5min; TableI contains PP100/PPPAP0 and20/30/40wt% blends. AO basis not further defined. Cone-specific compression12MPa200°C5min and mechanical-specific miniJet injection are separate method scopes.",
+      "source_locator": "PDFp2–3 methods/TableI;p4–5/TableIV;p5/TableV",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.49047",
+      "sample_state_id": "0968782d6d40eda03d27",
+      "reviewed_measurement_fingerprint": "8f63a637fb3ed6257ec63f5c391d31af39350efd83aa4cce886fa763b856313c",
+      "scope_identity_sha256": "8420eb1c4b9a69885c6c73573e97de01fc8b3199797ff5d312205b5ec813e026",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PSTBP=100/0wt%; hotpress sheet; PP/PSTBP dried80°C8h; all samples(Table2) miniature mixer QE70A; melt PP then add PSTBP~10min; resulting material compressed into hotpress sheets(R3212); molding temperature/pressure/time not reported.",
+      "source_locator": "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.49047",
+      "sample_state_id": "d4bdf2466c786a8b7136",
+      "reviewed_measurement_fingerprint": "8df0156217ac08a15b5368e95754f6881485ed447bf6492af98a548e7cc7f55c",
+      "scope_identity_sha256": "3c208b37e06796b5eec6f3dd6e5503fb09f382c1762b7c6ac7b26efb66c55312",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PSTBP=85/15wt%; hotpress sheet; PP/PSTBP dried80°C8h; all samples(Table2) miniature mixer QE70A; melt PP then add PSTBP~10min; resulting material compressed into hotpress sheets(R3212); molding temperature/pressure/time not reported.",
+      "source_locator": "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.49047",
+      "sample_state_id": "d8f9973d42d66e8f1089",
+      "reviewed_measurement_fingerprint": "f7dbd7d197c1b2b8986abe73c58ce5ae53ed7d396780facf5306690e60a08dc4",
+      "scope_identity_sha256": "b0e0082b55b20e92e7078ec3fb7956f548373e7c8fdf896e25ce3ea61f74ac58",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PSTBP=80/20wt%; hotpress sheet; PP/PSTBP dried80°C8h; all samples(Table2) miniature mixer QE70A; melt PP then add PSTBP~10min; resulting material compressed into hotpress sheets(R3212); molding temperature/pressure/time not reported.",
+      "source_locator": "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.49047",
+      "sample_state_id": "e084f11e9daca0d69036",
+      "reviewed_measurement_fingerprint": "2af04d87a3f25f4d6e239899b3e58f71dc400b7421e3d5619529a7c4945d7d90",
+      "scope_identity_sha256": "d7056b76cf665583207b7aca7c732d1d52cedc987abf35d83160486531cd4e67",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PSTBP=75/25wt%; hotpress sheet; PP/PSTBP dried80°C8h; all samples(Table2) miniature mixer QE70A; melt PP then add PSTBP~10min; resulting material compressed into hotpress sheets(R3212); molding temperature/pressure/time not reported.",
+      "source_locator": "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.49047",
+      "sample_state_id": "b0f1d445fc08603da004",
+      "reviewed_measurement_fingerprint": "a8baff74d1cdfa173186dbcf332a20d48d764a64565c329fe6669a6f750faf40",
+      "scope_identity_sha256": "f50b9c5a1891d58bfa9121e8d18e81494b3669724c4aa25d6a935dad079047fd",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; PP/PSTBP=70/30wt%; hotpress sheet; PP/PSTBP dried80°C8h; all samples(Table2) miniature mixer QE70A; melt PP then add PSTBP~10min; resulting material compressed into hotpress sheets(R3212); molding temperature/pressure/time not reported.",
+      "source_locator": "PDFp3§2.4;p4/Table2;p7/Table4;p8§3.2",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "c83e2ec1a229d9fe3827",
+      "reviewed_measurement_fingerprint": "a952ab965eff32b3e9a8d689367b83f95fcbcb3d3285072ad3b9e4dd1c56ab17",
+      "scope_identity_sha256": "d552d3d1ae92c6cf4dba878269bd87df6aca68cdcc7af1cc48bea1009fd47fa1",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,7.5,22.5,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "418a49c3c82a8ff22d99",
+      "reviewed_measurement_fingerprint": "c63d3a7c9400f5c033a1c885ffd84b2a1520e94f50ac8d4c20161c65421ce25d",
+      "scope_identity_sha256": "e286032db1677e4db9e05e44ea0a61835906d2937386a4da50ea02e78c5f41b4",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,10,20,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "733fae9983900a9f5b2e",
+      "reviewed_measurement_fingerprint": "bec1c78f5fdcdd0237e5de1c10c3d6bcb679d41094faf0775aaeb995f1d62da9",
+      "scope_identity_sha256": "f827adf65f10260425285ec6582ba0d4991d3e0dc6aea97325b1fd02a730f6a6",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,15,15,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "1a1dc3690d45d54d1a64",
+      "reviewed_measurement_fingerprint": "4930333ba385af93b943f3da9b719124db9bbbc042e52a27fdc9139ca74d7b0e",
+      "scope_identity_sha256": "a782cbd537868db63b6707ebafabcbfdd11debd341f38d9aa9961402e39cc6ec",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,20,10,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "0c58bcaeb3a32ac33f6c",
+      "reviewed_measurement_fingerprint": "7744ebfc5c66d1f9ebac606a9dd4dccf92765fbd05e478768101aa848ca8f955",
+      "scope_identity_sha256": "f117a3e6d01610403ef53f30b47c0681b1696cd6165f9a47fd84beea31eedc87",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,22.5,7.5,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "222c7e78d23b97cbf7f5",
+      "reviewed_measurement_fingerprint": "4544d44d7209918369d38c34e2269a04ceaa6121f4e688c314fb608686865af8",
+      "scope_identity_sha256": "7ab8ce5e012465548fc995d94c9c06aeabf3ba69a8f876b6f6322fa0848b8024",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,0,30,0; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "bd985927a16f65ab0702",
+      "reviewed_measurement_fingerprint": "a092c26a2b0056911cebd44aaa7f5195844a042b419004afec8e601b12a06909",
+      "scope_identity_sha256": "cd98016603c939f8e5c2412aa9868757ff3b5fe5cc5a2907ec604354dbb00501",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,22.5,0,7.5; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/vnl.21337",
+      "sample_state_id": "95e6711430962e5f67ec",
+      "reviewed_measurement_fingerprint": "c38b23b0aa63447a289e58bcaf43428148eaef37dbedfd4f2b30dc0057de798b",
+      "scope_identity_sha256": "9de03158ab1a99a0a770a65e3de99a0fea32dc7ef84d2c462e97633f0b0fbe69",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B809 source/B830 reuse and nonauthor B834 schema review.",
+      "scope_evidence": "polypropylene; Table1 PP/APP/PSP/CFA=70,16.4,8.2,5.4; group heading wt%, individual columns(g), total100; both literal units retained; pressed testing sheet; Flame retardants andPP twin-roll170–180°C10min23rpm,then curing press170°C1min suitable thickness/size; amounts Table1 includingPP0(100/0/0/0).",
+      "source_locator": "PDFp2/11 methods;p3/12 Table1;p4/13 Table2+footnotes",
+      "scope_reviewed_by": "Root B840",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.30585",
+      "sample_state_id": "4836115e0a11eadfa0c1",
+      "reviewed_measurement_fingerprint": "08b69a2c450336f1aad64f10bc3807acf262af32693647ddec7cbbe694f367b1",
+      "scope_identity_sha256": "d8d7d8c3d46e8d09189e4906d16be51d15ea6e1d69f2859b858002f6f5751c86",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; NP=25wt%; silica0wt%; hot-pressed PP/NP/SiO2 sheets; All samples mixed180°C10min RheomixerXSS300; all hot-pressed180°C10MPa5min into sheets PDFp2/3509.",
+      "source_locator": "TableI PDFp2/3509; TG p5–6/3512–3513",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.30585",
+      "sample_state_id": "0a3fcac2ff9157824d11",
+      "reviewed_measurement_fingerprint": "3241314030ec79ff7250b441a0b961282ec0fe0b7c92d6d92bea69576a36db23",
+      "scope_identity_sha256": "2fb2ef05ca18008b429e288ec29a22aff384288fa01dfe927ca4a2ee9f1246ee",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP75wt%; totalNP+silica25wt%; silica0.5wt%; originalseries NP=25-silica; hot-pressed PP/NP/SiO2 sheets; All samples mixed180°C10min RheomixerXSS300; all hot-pressed180°C10MPa5min into sheets PDFp2/3509.",
+      "source_locator": "TableII PDFp3/3510; TGp5–6/3512–3513",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.30585",
+      "sample_state_id": "6dbd92fd350b543378cb",
+      "reviewed_measurement_fingerprint": "ab0b0fa332e267a18832c757393b0b58e3fbda9a21cbdb3b304a0c13ea5e55b4",
+      "scope_identity_sha256": "7da027dcf97f5ffad7e1cde7eb30ad0e216b1f3d8de1af053c26a9f96c9be261",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP75wt%; totalNP+silica25wt%; silica3wt%; originalseries NP=25-silica; hot-pressed PP/NP/SiO2 sheets; All samples mixed180°C10min RheomixerXSS300; all hot-pressed180°C10MPa5min into sheets PDFp2/3509.",
+      "source_locator": "TableII PDFp3/3510; TGp5–6/3512–3513",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.35646",
+      "sample_state_id": "146368033aeb1624a430",
+      "reviewed_measurement_fingerprint": "d2bf5c92fe0ebe53025239020d705c3a747eef17e79080f27d50dcdbd2b98cd3",
+      "scope_identity_sha256": "3a459646f0a15a282d4cab4d241abea62f0b67da94a368fb948f0685bbec043c",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP/IFR/PNS=75/(25−x)/x;x=0wt%; MPP/PER3/1; hot-pressed PP/IFR/PNS testing sheets; MPP/PER meltmixedwithPP two-roll170°C10min; PNSadded10min; preparedcomposites hotpressed to testing sheets, pressingtemperature/pressure/time unreported. IFR MPP/PER3/1. PDFp2/1759.",
+      "source_locator": "LOITableI;TGTableII PDFp4/1761; Methods p2/1759",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.35646",
+      "sample_state_id": "38cea7466d7ec38321b7",
+      "reviewed_measurement_fingerprint": "61b1227a00b3e4ad78b5f51a2301219026b050d81e4e0cd60eeda1cd123d36ee",
+      "scope_identity_sha256": "140a9ed79450c66b120097b5177cc67bc91714523ae3f13192202547c0ebb955",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP/IFR/PNS=75/(25−x)/x;x=2wt%; MPP/PER3/1; hot-pressed PP/IFR/PNS testing sheets; MPP/PER meltmixedwithPP two-roll170°C10min; PNSadded10min; preparedcomposites hotpressed to testing sheets, pressingtemperature/pressure/time unreported. IFR MPP/PER3/1. PDFp2/1759.",
+      "source_locator": "LOITableI;TGTableII PDFp4/1761; Methods p2/1759",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.39701",
+      "sample_state_id": "1728703bca0786aacec9",
+      "reviewed_measurement_fingerprint": "72791131ca4f7960ea17082d6e6d55d4e050d0528c8548e22281c236c0e5b674",
+      "scope_identity_sha256": "9b202e4d37cfb7722468b9ddcd8bedf585107b855d5dbd572a03580c7eae86aa",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP75g;APP15g;PER10g;TBT0g; compression-molded PP/APP/PER/TBT test sheets; PPpowder/IFR/B215/TBT internalmixer180°C80rpm; compressionmolded180°C sheets then cuttesting specimens PDFp2/4256. Mixingtime/presspressure/time andB215dose unreported.",
+      "source_locator": "LOITableII PDFp3/4257;TGTableIII PDFp5/4259; Discussionp4/4258",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.39701",
+      "sample_state_id": "a9f003471ee065df7a65",
+      "reviewed_measurement_fingerprint": "544aead05c1eab5663aa4214e4246d2101aee737c71d4e884deb849422614bba",
+      "scope_identity_sha256": "54c4b1b5a2372c9787a8c9b36120839e7f4bded2bb3dc06d4cd1edf54c904ecf",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP74g;APP15g;PER10g;TBT1g; compression-molded PP/APP/PER/TBT test sheets; PPpowder/IFR/B215/TBT internalmixer180°C80rpm; compressionmolded180°C sheets then cuttesting specimens PDFp2/4256. Mixingtime/presspressure/time andB215dose unreported.",
+      "source_locator": "LOITableII PDFp3/4257;TGTableIII PDFp5/4259; Discussionp4/4258",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.39701",
+      "sample_state_id": "8da16c079e682e9adcf9",
+      "reviewed_measurement_fingerprint": "16a3528735e335c7353d9fbb7fdf777dc9306ab486f5567ec9097f3bd53af146",
+      "scope_identity_sha256": "58b1b0e902c6d5c62f12d8f56663057686ad2889a288f8996200c0e0ada35880",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP73.5g;APP15g;PER10g;TBT1.5g; compression-molded PP/APP/PER/TBT test sheets; PPpowder/IFR/B215/TBT internalmixer180°C80rpm; compressionmolded180°C sheets then cuttesting specimens PDFp2/4256. Mixingtime/presspressure/time andB215dose unreported.",
+      "source_locator": "LOITableII PDFp3/4257;TGTableIII PDFp5/4259; Discussionp4/4258",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.1958",
+      "sample_state_id": "4f79095ac55d52f090b7",
+      "reviewed_measurement_fingerprint": "558834cca868126147e48a398f5d3ba0aebbeb9cb9da82e39d3d502db3bb4f11",
+      "scope_identity_sha256": "6a611cc952144f08462aa66cb1006ec31518f6ebb843fe33ec453bbd11c18fdb",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP/APP70/30; hot-pressed PP/APP/Si-E testing sheets; Rawmaterials vacuum60°C6h; internalmixer185°C; hotpress185°C10MPa8min testing sheets PDFp2/1109/HTMLExperimental.",
+      "source_locator": "TGTable1 PDFp4/1111/HTMLTable1;LOIp6/1113 andconclusionp7/1114",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.1958",
+      "sample_state_id": "883742d8652845d5522b",
+      "reviewed_measurement_fingerprint": "566d11eec3c46ddd42883f4426d7aa9c4c1e0650c6d8fa513a393de396081308",
+      "scope_identity_sha256": "b0f546c229cae20b6ab8cec6314fe03e7ac7672c1c7186940554382a512977f6",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP/APP/Si-E70/25/5; hot-pressed PP/APP/Si-E testing sheets; Rawmaterials vacuum60°C6h; internalmixer185°C; hotpress185°C10MPa8min testing sheets PDFp2/1109/HTMLExperimental.",
+      "source_locator": "TGTable1 PDFp4/1111/HTMLTable1;LOIp6/1113 andconclusionp7/1114",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pc.21250",
+      "sample_state_id": "c78d5220fcdd8e9ce8f8",
+      "reviewed_measurement_fingerprint": "e42c8037dcd533b810376bccdbbb5fd91f8f8ae75ff24d0b92b5b1f5b3ec84ca",
+      "scope_identity_sha256": "40c7cf154e33b1a5ac6c0afa6135c8ac66bf50b90c88d257c534080c2d4ba15f",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP75;MPP16.7;TBM8.3;PER0 wt%; hot-pressed PP/MPP/TBM(orPER) sheets; PP/MPP/TBM/PER vacuum100°C6h; two-roll170°C15min; preparedcomposites hotpressed into testing sheets; pressT/pressure/time unknown PDFp2/36. Table1includesPP100.",
+      "source_locator": "Table1PDFp3/37;Table2p4/38;TGFig3/bodyp5/39",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pc.21250",
+      "sample_state_id": "94810381e512d7bcd985",
+      "reviewed_measurement_fingerprint": "3a38333f01dcedd974635a61b83859c073b99ca1e1e342cb0de97dc3a40e464a",
+      "scope_identity_sha256": "d2d6807e57894ff0bef061ce657733de33eed03181b3195ef3e6e8deee7400e7",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_evidence": "polypropylene; PP75;MPP16.7;TBM0;PER8.3 wt%; hot-pressed PP/MPP/TBM(orPER) sheets; PP/MPP/TBM/PER vacuum100°C6h; two-roll170°C15min; preparedcomposites hotpressed into testing sheets; pressT/pressure/time unknown PDFp2/36. Table1includesPP100.",
+      "source_locator": "Table1PDFp3/37;Table2p4/38;TGFig3/bodyp5/39",
+      "scope_reviewed_by": "Root B856",
+      "scope_reviewed_at": "2026-10-07",
+      "scope_review_basis": "B819 source/B842 reuse; external B847 schema and B855 atmosphere repair reviews.",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.41810",
+      "sample_state_id": "f9fe001580c00e95d9a3",
+      "reviewed_measurement_fingerprint": "2975f1ec0a1b72f1744ae9a142a6d20e1940ce7af85fbb2080abe7fdc5b89958",
+      "scope_identity_sha256": "ed325965bedc4292107c33fba75d0c3e28b01acf36b65e4ce351ed81ad9575bf",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP/APP/THEIC/TBCA/PER wt%=70/20/10/-/-; PP hot-pressed composite sheets; TG aliquot geometry not reported; PDFp2: APP/TBCA vacuum dried 60 C 8 h; PP mixed at 180 C 20 rpm 3 min, additives mixed 10 min, composite sheets hot pressed at 180 C. No further alternative common processing branch reported. Pure-PP prose conflicts with Table I PP0=70.",
+      "source_locator": "Table I PDFp2; Table IV PDFp6; Flame-retardant properties PDFp4",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.41810",
+      "sample_state_id": "9a55a439f1abfc9682f5",
+      "reviewed_measurement_fingerprint": "5a14efe0cb596b4e35b4607578bd5cf3d60fdad74b4f3b004721e7d2c5c18ce9",
+      "scope_identity_sha256": "eb4181eb07e2c87c07de730928b1e25966e100920b419e035b3a0c1a13907a9a",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP/APP/THEIC/TBCA/PER wt%=70/20/-/10/-; PP hot-pressed composite sheets; TG aliquot geometry not reported; PDFp2: APP/TBCA vacuum dried 60 C 8 h; PP mixed at 180 C 20 rpm 3 min, additives mixed 10 min, composite sheets hot pressed at 180 C. No further alternative common processing branch reported. Pure-PP prose conflicts with Table I PP0=70.",
+      "source_locator": "Table I PDFp2; Table IV PDFp6; Flame-retardant properties PDFp4",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.46274",
+      "sample_state_id": "f8d7245bfcdc63467cd4",
+      "reviewed_measurement_fingerprint": "109a263896e25fa889e63b2c103367ec83a41d21b3615afc3613f288fdbea95d",
+      "scope_identity_sha256": "bafc8392ff38660e98d81f53fb5e3714a460a53000ee4ebd7efb32d6ffc861a8",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP/MATMP/APP/PER wt%=100/-/-/-; PP common melt-mixed/hot-pressed series; TG aliquot geometry not reported; PDFp3: materials dried 60 C 8 h; IFR ground to 200 mesh; PP 190 C 20 rpm 3 min then additive 7 min; hot pressed at 190 C for flame-retardancy samples. Table II includes PP control.",
+      "source_locator": "PDFp3 Table II; PDFp5 Table IV",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.46274",
+      "sample_state_id": "d69fd16a6514b5800a3d",
+      "reviewed_measurement_fingerprint": "7a8b882154f7f062e6cece06e8355b2ef3ab4ae92af3248da39bcd9770b388da",
+      "scope_identity_sha256": "da3c987fe697bf6ea9f1d3500af8a1b16897cadf41716fa33e45b4ef4c4bb3bf",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP/MATMP/APP/PER wt%=75/16.7/-/8.3; PP common melt-mixed/hot-pressed series; TG aliquot geometry not reported; PDFp3: materials dried 60 C 8 h; IFR ground to 200 mesh; PP 190 C 20 rpm 3 min then additive 7 min; hot pressed at 190 C for flame-retardancy samples. Table II includes PP control.",
+      "source_locator": "PDFp3 Table II; PDFp5 Table IV",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.34578",
+      "sample_state_id": "ccfcc367fff2e21cfbe2",
+      "reviewed_measurement_fingerprint": "bed415279817a97ecd658b9123314e00bb8589ccf947e891b569c6eb46c9c85d",
+      "scope_identity_sha256": "16f5a4c6f326fb36e89428dd004fd88eead80b141c25bde5ed1d9a95b5abe92c",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP/APP/MPP/BSPPO wt%=70/14/8/8; PP hot-pressed common prepared sheets; TG aliquot geometry unreported; PDFp2: all samples twin-screw extruded190 C90rpm; sheets hot pressed190 C10MPa5min for LOI/UL94/cone. Includes purePP control.",
+      "source_locator": "PDFp5/printed1640 Table I; PDFp7/1642 Figures12/13 and prose",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pc.22715",
+      "sample_state_id": "5b2629e75cc6d4f6c7ca",
+      "reviewed_measurement_fingerprint": "82861665cdaecf126bebea2eea981cb3c95d212e90cb2cdf1afa46a27862d26e",
+      "scope_identity_sha256": "afa2b3faf079c340ab4fa3e62d291e52c0b4db05dfa02f7d9aa9e817ffb04276",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP100 control; PP hot-pressed common sheets; TG aliquot geometry unreported; PDFpp2-3: PP/fillers mixed on twin-roll190 C30rpm10min,hot pressed190 C10MPa15min sheets; Table1 includes purePP. All TG samples dried overnight.",
+      "source_locator": "PDFp3/717 Table1; PDFp8/722 Table4; PDFp9/723 Table5; HTML Tables1/4/5",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pc.22715",
+      "sample_state_id": "5727408866d9a4b2497c",
+      "reviewed_measurement_fingerprint": "ccd1f059874b2c7e4ac755b2dbcf0e46a190a749d2ea21cbd421a8d86a9c3a7a",
+      "scope_identity_sha256": "b8cfaf932daff073fe782c70c56bb5cb30446461f712184072a8e9f05ad7f757",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP70/filler30wt%; APP/ATH ratio 1/1; PP hot-pressed common sheets; TG aliquot geometry unreported; PDFpp2-3: PP/fillers mixed on twin-roll190 C30rpm10min,hot pressed190 C10MPa15min sheets; Table1 includes purePP. All TG samples dried overnight.",
+      "source_locator": "PDFp3/717 Table1; PDFp8/722 Table4; PDFp9/723 Table5; HTML Tables1/4/5",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pc.22715",
+      "sample_state_id": "5c712d894651eee52d75",
+      "reviewed_measurement_fingerprint": "a1e804a7485a2c469eff3750f46796da18c0ae19ecb61c60e7ced6b6232d22be",
+      "scope_identity_sha256": "a074358f99c58f71bb7b4932315660c7c181000a0352076abb8ce0df83980518",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B832 source/B858 boundedreuse and nonauthor B859 schema review.",
+      "scope_evidence": "PP70/filler30wt%; APP/ATH ratio 1/1; PP hot-pressed common sheets; TG aliquot geometry unreported; PDFpp2-3: PP/fillers mixed on twin-roll190 C30rpm10min,hot pressed190 C10MPa15min sheets; Table1 includes purePP. All TG samples dried overnight.",
+      "source_locator": "PDFp3/717 Table1; PDFp8/722 Table4; PDFp9/723 Table5; HTML Tables1/4/5",
+      "scope_reviewed_by": "Root B860",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    }
+  ],
+  "approved_source_schema_authorities": [
+    {
+      "authority": "root-b840-B834-schema-acceptance",
+      "sha256": "1b137f97c8a1b9fd8d46c672ff102bd8fcf97a40b0c39656637888ed864764a1"
+    },
+    {
+      "authority": "root-b856-B852-schema-acceptance",
+      "sha256": "0f44356937111d9edd86454d07deed5ab6526d9d2af011b373a4b2dc27979666"
+    },
+    {
+      "authority": "root-b860-B859-schema-acceptance",
+      "sha256": "3eb054f522de6853eddd83ecf3f0dd51b8ad410ee4d7ab233c592707fd6b01ba"
+    }
+  ],
+  "old_scope_admissions": 0,
+  "old_evidence_upgrades": 0,
+  "publication_approved": false,
+  "published": 0,
+  "limits": [
+    "Only fully source/reuse/schema/direct-approved states staged.",
+    "One source-specific shared pure control and one missing-rate observation remain excluded.",
+    "Source synthetic air stays explicit; O2/N2 composition unknown. Undefined decomposition peaks and TGD theoretical differences never become Tmax."
+  ]
+}

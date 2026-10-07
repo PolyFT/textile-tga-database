@@ -1,12 +1,12 @@
 {
   "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
   "target_unique_sample_states": 3000,
-  "verified_target_sample_states": 1174,
-  "verified_target_condition_records": 1506,
-  "verified_target_sources": 240,
+  "verified_target_sample_states": 1211,
+  "verified_target_condition_records": 1543,
+  "verified_target_sources": 253,
   "verified_sample_states_by_material_class": {
-    "fiber_forming_polymer": 44,
-    "fiber_forming_polymer_composite": 420,
+    "fiber_forming_polymer": 48,
+    "fiber_forming_polymer_composite": 453,
     "textile_cloth": 623,
     "textile_fibre": 82,
     "textile_nonwoven": 5,
@@ -14,8 +14,8 @@
     "textile_yarn": 0
   },
   "verified_condition_records_by_material_class": {
-    "fiber_forming_polymer": 58,
-    "fiber_forming_polymer_composite": 561,
+    "fiber_forming_polymer": 62,
+    "fiber_forming_polymer_composite": 594,
     "textile_cloth": 800,
     "textile_fibre": 82,
     "textile_nonwoven": 5,
@@ -23,20 +23,20 @@
     "textile_yarn": 0
   },
   "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
-  "verified_textile_sample_states": 1174,
-  "verified_textile_condition_records": 1506,
-  "verified_textile_sources": 240,
-  "remaining_to_target": 1826,
+  "verified_textile_sample_states": 1211,
+  "verified_textile_condition_records": 1543,
+  "verified_textile_sources": 253,
+  "remaining_to_target": 1789,
   "excluded_non_textile_sample_states": 0,
   "excluded_non_textile_condition_records": 0,
   "pending_scope_sample_states": 752,
   "pending_scope_condition_records": 983,
   "scope_audit_complete": false,
-  "legacy_broad_sample_states": 1926,
-  "legacy_broad_condition_records": 2489,
+  "legacy_broad_sample_states": 1963,
+  "legacy_broad_condition_records": 2526,
   "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
   "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
-  "input_master_sha256": "59db73eab44710d8088b92715a70309b5e894ce81e8dad942ca9f64c09ad962f",
-  "scope_registry_sha256": "be3186c8e6e3948a6297ca46863d465aa5bffb0be9fed4a0696a9f89c554c273",
-  "textile_master_sha256": "4e455c400116bdd1bf664171717e3d5fecb17b6a8ff9ad1769b123de06038cc0"
+  "input_master_sha256": "40f0ad08497eb0b6f99308bf6230e009fc03c324e62246fda1c093919a2d4adb",
+  "scope_registry_sha256": "7fd5fd61c8421c0bb86edd88936333c5a5a905a96979c7ea4ec79912b68c034b",
+  "textile_master_sha256": "ac9079d1f9ab72a20c3aa24a92fcc1aa3337273ef4c76d294354c84b118c357b"
 }
