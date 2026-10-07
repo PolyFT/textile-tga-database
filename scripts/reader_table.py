@@ -41,6 +41,7 @@ def reading_row(row, entry):
         r'unknown|ambiguous|limit|note|definition|assign', key, re.I)
         or key in {'source_residue_phase', 'source_TG_scan_range_reported', 'source_Tmax_label',
                    'source_raw_Tmax_C', 'source_raw_T70_C', 'source_raw_residue_pct',
+                   'source_raw_Table1_Tmax1_C', 'source_raw_Table1_Tmax2_C',
                    'source_initial_decomposition_C', 'source_initial_decomposition_qualifier',
                    'source_raw_initial_decomposition_temperature_C',
                    'source_raw_initial_decomposition_C',

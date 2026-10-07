@@ -1,0 +1,159 @@
+{
+  "batch_id": "20261007_b573",
+  "status": "source_and_bounded_reuse_approved_private_pending_normal_publication",
+  "planned_incoming": "data/incoming/verified_source_batch_20261007_b573_local_material.csv",
+  "planned_manifest": "data/curation/archive/20261007/source_review_manifest_b573.json",
+  "root_source_and_reuse_approved": true,
+  "source_supported_states": 20,
+  "source_supported_TG": 29,
+  "draft_selected_states": 18,
+  "draft_selected_TG": 27,
+  "selected_keys_are_provisional": false,
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1021/acsami.2c14709",
+      "source_supported_states": 6,
+      "source_supported_TG": 12,
+      "draft_selected_states": 6,
+      "draft_selected_TG": 12,
+      "metric_hold": {
+        "sample": "CT-PHB2",
+        "atmosphere": "air",
+        "metric": "Tmax1_C",
+        "table_raw_C": "356.4",
+        "prose_raw_C": "365.4",
+        "canonical_C": "",
+        "locator": "PublishedPDFprinted56033/Table2/§3.2"
+      },
+      "recipe_only_states": [
+        "CTF3-PDMS",
+        "CTF3-PHB1",
+        "CTF3-PHB3"
+      ],
+      "LOI_only_states": 0,
+      "TG_only_conditions": 0,
+      "source_locators": {
+        "recipe": "§2.1-2.4/Table1;printed56028-56030",
+        "ordinaryTG": "§2.6/3.2/Table2;printed56031-56034",
+        "LOI": "§2.6/3.5/Table3;printed56031,56037",
+        "SI": "S-1-S-6/TableS1;twoownLOIduplicatesandfivecitedcomparisons"
+      },
+      "scientific_decision": "Source supported by B570/root; selected bounded reuse accepted; ordinary publication pending; conflicting air CT-PHB2 Tmax1 stays blank.",
+      "selected_states": 6,
+      "selected_TG": 12,
+      "source_review_status": "complete_source_and_bounded_reuse_reviewed"
+    },
+    {
+      "DOI": "10.1021/acsami.2c21320",
+      "source_supported_states": 3,
+      "source_supported_TG": 6,
+      "draft_selected_states": 3,
+      "draft_selected_TG": 6,
+      "source_locators": "PublishedPDFpp2,4,9-12; TGTable1PDF10/printed3404; LOITable2PDF12/printed3406; Figure7; SIppS1-S4",
+      "scientific_decision": "Root source supported; selected bounded reuse accepted; normal publication pending. Undefined peak labels remain raw-only; intermediate or washed branches are not borrowed.",
+      "wholeheld_sample_states": 1,
+      "wholeheld_TG_records": 2,
+      "selected_states": 3,
+      "selected_TG": 6,
+      "source_review_status": "complete_source_and_bounded_reuse_reviewed"
+    },
+    {
+      "DOI": "10.1016/j.carbpol.2013.04.025",
+      "source_supported_states": 2,
+      "source_supported_TG": 2,
+      "draft_selected_states": 1,
+      "draft_selected_TG": 1,
+      "source_locators": "AcceptedPDFp25/printed24 Table1(TG and LOI); PDFp11/printed10 thermal prose only; preparation/methods as source row locators",
+      "scientific_decision": "S2 ordinary T5/DTG/R750 and own LOI source plus bounded reuse accepted; pristine control reuse-held. Four intermediate TG-only observations and durability contexts not paired.",
+      "TG_only_sample_states": 4,
+      "recommended_reuse_hold": {
+        "sample_state": "Pristine cotton",
+        "states": 1,
+        "TG": 1,
+        "reason": "Root-final reuse hold: specific common authors/supplier/cleaning/coating family linkage with10.1039/c5ra09963c remains unresolved; no general supplier-only or unknown-batch exclusion.",
+        "historical_proposal_reason": "Documented same author/supplier/cleaning/coating family; final B571/root identity adjudication pending.",
+        "status": "root_final_reuse_hold"
+      },
+      "selected_states": 1,
+      "selected_TG": 1,
+      "source_review_status": "complete_source_and_bounded_reuse_reviewed"
+    },
+    {
+      "DOI": "10.1002/app.49552",
+      "source_supported_states": 5,
+      "source_supported_TG": 5,
+      "draft_selected_states": 4,
+      "draft_selected_TG": 4,
+      "source_locators": "PDF pp3-4 Sections2.4-2.5/Table1; p10 Table2 definitions; p11 Table3 LOI",
+      "limitations": "W raw char yield has no explicit temperature; only Table1 series bridge proposed; three no-IFR LOI-only rows do not borrow TG",
+      "scientific_decision": "B569/root source and B571/root bounded reuse accepted for four modified composites; related purePP control reuse-held. Corrected Figure8 locator applies; unknown-temperature W residue stays raw.",
+      "LOI_only_observation_views": 3,
+      "recommended_reuse_hold": {
+        "sample_state": "PP",
+        "states": 1,
+        "TG": 1,
+        "reason": "Root-final reuse hold: specific Changhua Liu/Southwest/Lanzhou PP grade MFI2.5/density/process-family linkage with10.1039/c6ra15542a remains unresolved; no general supplier-only or unknown-batch exclusion.",
+        "historical_proposal_reason": "Same supplier/grade/process family as earlier PP control; final identity adjudication pending.",
+        "status": "root_final_reuse_hold"
+      },
+      "selected_states": 4,
+      "selected_TG": 4,
+      "source_review_status": "complete_source_and_bounded_reuse_reviewed"
+    },
+    {
+      "DOI": "10.1002/app.48312",
+      "source_supported_states": 4,
+      "source_supported_TG": 4,
+      "draft_selected_states": 4,
+      "draft_selected_TG": 4,
+      "source_locators": "PDF p2 Preparation/Characterization; p3 TableI; p5 TableII/TG definitions; p6 TableIII all16designruns+control; p8 TableVI actual vs predicted",
+      "limitations": "PurePP0 final control processing held; repeated nominal recipes retain all LOI; no inferred mean/SD; kinetics separate from scalar TG; optimized recipe LOI-only",
+      "scientific_decision": "B569/root source and B571/root bounded reuse accepted for four explicit TG recipe states. PurePP processing bridge remains whole-held; other design runs are LOI-only, repeated recipes and predicted optimization not extra samples.",
+      "wholeheld_sample_states": 1,
+      "wholeheld_TG_records": 1,
+      "LOI_only_observation_views": 13,
+      "design_run_policy": "16 composite design runs+control; repeated nominal recipes retained as raw observations, not additional independent samples; no averaged or selected LOI point; optimized measured and predicted outputs separated.",
+      "selected_states": 4,
+      "selected_TG": 4,
+      "source_review_status": "complete_source_and_bounded_reuse_reviewed"
+    }
+  ],
+  "old_evidence_upgrades": 0,
+  "old_scope_admissions": 0,
+  "formal_new_pairs": 0,
+  "published": 0,
+  "raw_roles_summary": {
+    "B566": "12 numeric joint conditions from6initial states;1conflicting peak cell held;3recipe-only/WCA contexts;SI own2LOIrows are existing observations and5comparisons are donors.",
+    "B567": "14 original scientific conditions=8source-supported+2wholeheld+4TG-only; durability/Ag-dose EMI/WCA are separate nonTGLOI context. One source-supported pristine condition reuse-held.",
+    "B568": "26 scalar observation views across21recipe states;9source-supported joint conditions+1wholeheld+16LOI-only views. Six extra curve-only ramp conditions,3calculated views,6modifier nonnumeric contexts,5duplicatedesign views are separate roles. One source-supported PP control reuse-held."
+  },
+  "scientific_limits": "Do not infer SD/n, undefined rate peaks or residue temperatures. Common preparation supports materials, not aliquot geometry. Different gas/rate conditions never multiply sample-state counts. Reuse clearance does not prove independent physical batch.",
+  "selected_states": 18,
+  "selected_TG": 27,
+  "new_paired_sources": 5,
+  "formal_main_counts": [
+    959,
+    1183,
+    190
+  ],
+  "reuse_holds": [
+    {
+      "DOI": "10.1016/j.carbpol.2013.04.025",
+      "sample_state": "Pristine cotton",
+      "sample_state_id": "61d9a160af0b8a903a41",
+      "TG_records": 1,
+      "basis": "Specific related supplier/coating source-state association unresolved; source-supported observation retained outside selected master."
+    },
+    {
+      "DOI": "10.1002/app.49552",
+      "sample_state": "PP",
+      "sample_state_id": "b45cf14ca32b418e5734",
+      "TG_records": 1,
+      "basis": "Specific related supplier/grade/process source-state association unresolved; source-supported observation retained outside selected master."
+    }
+  ],
+  "selected_scope_counts": {
+    "textile_cloth_TG": 19,
+    "fiber_forming_polymer_composite_TG": 8
+  }
+}

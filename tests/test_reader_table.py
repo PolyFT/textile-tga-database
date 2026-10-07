@@ -20,6 +20,23 @@ def payload(body):
 
 
 class ReaderTableTests(unittest.TestCase):
+    def test_b573_table_temperatures_remain_qualified_source_notes(self):
+        for first, second in [('346', '486'), ('265', '527'), ('310', '515'),
+                              ('340', ''), ('248', ''), ('292', '')]:
+            row = dict(source_raw_Table1_Tmax1_C=first,
+                       source_raw_Table1_Tmax2_C=second, Tmax1_C='', Tmax2_C='',
+                       source_Tmax_definition='Printed maximum weight loss label is not an unambiguous rate peak',
+                       source_raw_Table2_Tmax1_C='999', source_other_peak_C='998')
+            display = reader.reading_row(row, {'scope_class': 'textile_cloth'})
+            self.assertIn('source_raw_Table1_Tmax1_C=' + first, display[20])
+            if second:
+                self.assertIn('source_raw_Table1_Tmax2_C=' + second, display[20])
+            self.assertEqual(display[9], '')
+            self.assertEqual(display[13], '')
+            self.assertEqual(display[6:9], ['', '', ''])
+            self.assertNotIn('999', str(display))
+            self.assertNotIn('998', str(display))
+
     def test_no_temperature_guessing_or_zero_loss(self):
         row = dict(sample_state='A', LOI_pct='18.0', T5_C='250', T10_C='300',
                    Tonset_C='320', Tmax1_C='350', T30_C='330', Tmax2_C='410',
