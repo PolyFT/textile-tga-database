@@ -1,0 +1,526 @@
+{
+  "batch_id": "20261007_b790",
+  "capture_stage": "private_integration_pending_checks_nonauthor_review_normal_publication",
+  "fixed_science_base": "c9dc8971f208acd437f39d71c7e5a2001df90c1c",
+  "formal_science_baseline": {
+    "states": 1122,
+    "TG": 1442,
+    "sources": 226
+  },
+  "private_prediction": {
+    "states": 1147,
+    "TG": 1467,
+    "sources": 232
+  },
+  "selected_new_states": 25,
+  "selected_new_TG": 25,
+  "new_sources": 6,
+  "old_scope_admissions": 0,
+  "old_evidence_upgrades": 0,
+  "incoming_files": [
+    "data/incoming/verified_source_batch_20261007_b790_polyamides.csv"
+  ],
+  "scope_entries": [
+    {
+      "source_identity": "10.1002/app.42932",
+      "sample_state_id": "847611ac9fb04002a73f",
+      "reviewed_measurement_fingerprint": "192b704eac734b7bb6b86eed77d351e348105671b29e65f3f01462b11e47968b",
+      "scope_identity_sha256": "c4b8ed9d9aa85ad92c64a34df3841d4a8d4b3cb1b58ec02e74331d2a1206c356",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "PA6/OP1314 85/15 wt%; PDFp2 §EXPERIMENTAL: PA6/SiO2 predried110°C8h; DOPO/DOPO-SiO2 predried80°C4h. ALL TableI formulations twin-roll230°C8min80rpm; ALL specimens compression molded under constant parameters, pressure/time unspecified. Modifier alone DOPO-SiO2 synthesis N2/toluene110°C24h and vacuum110°C24h are not composite treatment.; PDFp2 all formulations/TableI and all specimens common processing; own TablesII/III same S1-S6 labels. LOI and TG take different specimens from the described material group; TG aliquot geometry unreported.",
+      "source_locator": "PDFp4 TableIII/Fig3 and definition paragraph; PDFp3 TableII; abstract PDFp1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.42932",
+      "sample_state_id": "5347c2bacb5295605a24",
+      "reviewed_measurement_fingerprint": "c4cd4836440e51fdfe8adda9be0403e7b06cfd32329c254d806a0e7410069172",
+      "scope_identity_sha256": "e9c4b9ac95c4448aa7dc4230902b368259a230edd5d70c8b9c91528b358cf809",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "PA6/OP1314/DOPO80/15/5 wt%; PDFp2 §EXPERIMENTAL: PA6/SiO2 predried110°C8h; DOPO/DOPO-SiO2 predried80°C4h. ALL TableI formulations twin-roll230°C8min80rpm; ALL specimens compression molded under constant parameters, pressure/time unspecified. Modifier alone DOPO-SiO2 synthesis N2/toluene110°C24h and vacuum110°C24h are not composite treatment.; PDFp2 all formulations/TableI and all specimens common processing; own TablesII/III same S1-S6 labels. LOI and TG take different specimens from the described material group; TG aliquot geometry unreported.",
+      "source_locator": "PDFp4 TableIII/Fig3 and definition paragraph; PDFp3 TableII; abstract PDFp1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/app.42932",
+      "sample_state_id": "e3771a2f0b7fd9e20275",
+      "reviewed_measurement_fingerprint": "a82b0cff0bb2c4dba21c992497e8334fcc754aee31af71db7ecb3fed4dc7f29e",
+      "scope_identity_sha256": "b7f810e449ee1af1d7ba8dd603a56cf886028acb7d990e1c48b4868cfae0a525",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "PA6/OP1314/SiO2 80/15/5 wt%; PDFp2 §EXPERIMENTAL: PA6/SiO2 predried110°C8h; DOPO/DOPO-SiO2 predried80°C4h. ALL TableI formulations twin-roll230°C8min80rpm; ALL specimens compression molded under constant parameters, pressure/time unspecified. Modifier alone DOPO-SiO2 synthesis N2/toluene110°C24h and vacuum110°C24h are not composite treatment.; PDFp2 all formulations/TableI and all specimens common processing; own TablesII/III same S1-S6 labels. LOI and TG take different specimens from the described material group; TG aliquot geometry unreported.",
+      "source_locator": "PDFp4 TableIII/Fig3 and definition paragraph; PDFp3 TableII; abstract PDFp1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4206",
+      "sample_state_id": "ca3a6574f16baa3768d6",
+      "reviewed_measurement_fingerprint": "848892cafa5ecce9fb359ecfb33c1f3ad2a4999e9d0a851e477976af4168e134",
+      "scope_identity_sha256": "25d97c9c196ce0acd272ce265b0ad760e4426ee4313bdda6757ee4a8bf3ac59d",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "DDP-containing copolyamide66; source DDP2wt%; AH salt/DDP-HMDA/ADA/water amounts not all reported; PDFp2 §2.2 FRPA66: DDP/HMDA equimolar in ethanol60°C1h; AH salt/DDP-HMDA/ADA/water N2purge20min,220°C1.8MPa1.5h,265°C atmospheric then270°Cvacuum1h; removed/cut chips; purified before testing H2SO4/water then ethanol/water washed;105°Cvacuum12h. Four DDP levels2/3/4/5wt%. Pure PA66 preparation not explicitly stated.; Explicit purified-before-testing FRPA66 material family §2.2 is used in common §2.3 characterizations and own Tables3/4. LOI bars100x10x4mm are prepared from this stated family; actual molding method and TG aliquot geometry unreported. Pure control cannot inherit FRPA66 synthesis by default.",
+      "source_locator": "PDFp6 Table3/Fig6; definition PDFp5; PDFp6 Table4; methods PDFp3",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4206",
+      "sample_state_id": "d47c07ac02b72a86b864",
+      "reviewed_measurement_fingerprint": "804b350637e399ab5a32f2ff5aea53c0ae49ee5c3f0f4d28189db0c20815238c",
+      "scope_identity_sha256": "ea95ee11abf9d8ef03c290be409e924e8bb1d11ab043294869ff539ebcff7423",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "DDP-containing copolyamide66; source DDP3wt%; AH salt/DDP-HMDA/ADA/water amounts not all reported; PDFp2 §2.2 FRPA66: DDP/HMDA equimolar in ethanol60°C1h; AH salt/DDP-HMDA/ADA/water N2purge20min,220°C1.8MPa1.5h,265°C atmospheric then270°Cvacuum1h; removed/cut chips; purified before testing H2SO4/water then ethanol/water washed;105°Cvacuum12h. Four DDP levels2/3/4/5wt%. Pure PA66 preparation not explicitly stated.; Explicit purified-before-testing FRPA66 material family §2.2 is used in common §2.3 characterizations and own Tables3/4. LOI bars100x10x4mm are prepared from this stated family; actual molding method and TG aliquot geometry unreported. Pure control cannot inherit FRPA66 synthesis by default.",
+      "source_locator": "PDFp6 Table3/Fig6; definition PDFp5; PDFp6 Table4; methods PDFp3",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4206",
+      "sample_state_id": "42241d3089bbb16680c4",
+      "reviewed_measurement_fingerprint": "6bc67dd17c410651e737e687d07ac3ee3d10dd80b144728225afbba59651566f",
+      "scope_identity_sha256": "10ef85eeaa001659cbb33c63b7b7cd9ef1638616b278870536ac32555f863b28",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "DDP-containing copolyamide66; source DDP4wt%; AH salt/DDP-HMDA/ADA/water amounts not all reported; PDFp2 §2.2 FRPA66: DDP/HMDA equimolar in ethanol60°C1h; AH salt/DDP-HMDA/ADA/water N2purge20min,220°C1.8MPa1.5h,265°C atmospheric then270°Cvacuum1h; removed/cut chips; purified before testing H2SO4/water then ethanol/water washed;105°Cvacuum12h. Four DDP levels2/3/4/5wt%. Pure PA66 preparation not explicitly stated.; Explicit purified-before-testing FRPA66 material family §2.2 is used in common §2.3 characterizations and own Tables3/4. LOI bars100x10x4mm are prepared from this stated family; actual molding method and TG aliquot geometry unreported. Pure control cannot inherit FRPA66 synthesis by default.",
+      "source_locator": "PDFp6 Table3/Fig6; definition PDFp5; PDFp6 Table4; methods PDFp3",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.4206",
+      "sample_state_id": "6115c7870f9c12f6f0f2",
+      "reviewed_measurement_fingerprint": "f70ca00dd4d20e1f6986acc69be5f3085570e49c6983a53d50b6bb70ce67ccc6",
+      "scope_identity_sha256": "84266df0819f300ef7ae4f8c793e4f81eed21d032fec24ff34ae2af3c87c10ae",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "DDP-containing copolyamide66; source DDP5wt%; AH salt/DDP-HMDA/ADA/water amounts not all reported; PDFp2 §2.2 FRPA66: DDP/HMDA equimolar in ethanol60°C1h; AH salt/DDP-HMDA/ADA/water N2purge20min,220°C1.8MPa1.5h,265°C atmospheric then270°Cvacuum1h; removed/cut chips; purified before testing H2SO4/water then ethanol/water washed;105°Cvacuum12h. Four DDP levels2/3/4/5wt%. Pure PA66 preparation not explicitly stated.; Explicit purified-before-testing FRPA66 material family §2.2 is used in common §2.3 characterizations and own Tables3/4. LOI bars100x10x4mm are prepared from this stated family; actual molding method and TG aliquot geometry unreported. Pure control cannot inherit FRPA66 synthesis by default.",
+      "source_locator": "PDFp6 Table3/Fig6; definition PDFp5; PDFp6 Table4; methods PDFp3",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5003",
+      "sample_state_id": "8a8028a83e39d59fc4e4",
+      "reviewed_measurement_fingerprint": "8c6633dc7333257592fe079f758ba4f8f7af33cfb3f4d0b8e760da048c1fe7d2",
+      "scope_identity_sha256": "118a81b97f86780d17d170003400e07418234473afb765afc2bc15fa031e7322",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1 PA6/APP/SP-APP=100/12/-; headerswt%; §2.3 additive-to-PA6 mass ratios; total-fraction basis unresolved; PDFp2 §2.3 ALL samples fabricated by twin-screw melt blending240°C N2; PA6 pellets vacuum100°C24h before blending. Method explicitly calls Table1 mass ratios of additive to PA6. PA6 table100 and additive8/10/12 are preserved as feed ratios, not normalized total fractions. LOI-bar fabrication details unreported.; ALL samples/Table1 common prepared family and same PA6/APP/SP-APP codes in own Tables1/2; common polymer mother material, no assertion that TG used LOI bars. Pure table control covered by literal ALL samples statement.",
+      "source_locator": "PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1; PDFp8 Table2; HTML Table2",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5003",
+      "sample_state_id": "4d301796f6e21327a8e3",
+      "reviewed_measurement_fingerprint": "e16399bb1bf8c4dbc304bf7514977c1886d6c7182c31a3cf0861c34deadfd316",
+      "scope_identity_sha256": "cddaa3745a12d89b8337fba0229273f327d308dba52d8cdad755ec62b037369a",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1 PA6/APP/SP-APP=100/-/8; headerswt%; §2.3 additive-to-PA6 mass ratios; total-fraction basis unresolved; PDFp2 §2.3 ALL samples fabricated by twin-screw melt blending240°C N2; PA6 pellets vacuum100°C24h before blending. Method explicitly calls Table1 mass ratios of additive to PA6. PA6 table100 and additive8/10/12 are preserved as feed ratios, not normalized total fractions. LOI-bar fabrication details unreported.; ALL samples/Table1 common prepared family and same PA6/APP/SP-APP codes in own Tables1/2; common polymer mother material, no assertion that TG used LOI bars. Pure table control covered by literal ALL samples statement.",
+      "source_locator": "PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1; PDFp8 Table2; HTML Table2",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5003",
+      "sample_state_id": "c7bcb6e2bfa61aeda7b1",
+      "reviewed_measurement_fingerprint": "0aed2156bdcf612ad97c6d216c68a8e642d5beb2f12097ac66b9bd4f20f3939e",
+      "scope_identity_sha256": "5033db8b5758615c664cc3289cb2ae5dd769a2f7fa6bc35bd1f3edac3056cb8d",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1 PA6/APP/SP-APP=100/-/10; headerswt%; §2.3 additive-to-PA6 mass ratios; total-fraction basis unresolved; PDFp2 §2.3 ALL samples fabricated by twin-screw melt blending240°C N2; PA6 pellets vacuum100°C24h before blending. Method explicitly calls Table1 mass ratios of additive to PA6. PA6 table100 and additive8/10/12 are preserved as feed ratios, not normalized total fractions. LOI-bar fabrication details unreported.; ALL samples/Table1 common prepared family and same PA6/APP/SP-APP codes in own Tables1/2; common polymer mother material, no assertion that TG used LOI bars. Pure table control covered by literal ALL samples statement.",
+      "source_locator": "PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1; PDFp8 Table2; HTML Table2",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1002/pat.5003",
+      "sample_state_id": "1a69b4d3eab1a5635fc1",
+      "reviewed_measurement_fingerprint": "bbb5986379db282489dbc85043d6af9a4422996ac1bc5e7b75876b23c4bb6a3f",
+      "scope_identity_sha256": "7d952ed09d5041f8a4354fe57a1afaee5b7c223295025e650a73bda6ac299185",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1 PA6/APP/SP-APP=100/-/12; headerswt%; §2.3 additive-to-PA6 mass ratios; total-fraction basis unresolved; PDFp2 §2.3 ALL samples fabricated by twin-screw melt blending240°C N2; PA6 pellets vacuum100°C24h before blending. Method explicitly calls Table1 mass ratios of additive to PA6. PA6 table100 and additive8/10/12 are preserved as feed ratios, not normalized total fractions. LOI-bar fabrication details unreported.; ALL samples/Table1 common prepared family and same PA6/APP/SP-APP codes in own Tables1/2; common polymer mother material, no assertion that TG used LOI bars. Pure table control covered by literal ALL samples statement.",
+      "source_locator": "PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1; PDFp8 Table2; HTML Table2",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s13233-017-5081-1",
+      "sample_state_id": "9aaa9ba0c3fbdbf10192",
+      "reviewed_measurement_fingerprint": "1761d7c7df9a52013794ce365102d5ba6d02d2678e7adb6bb8f419f556560beb",
+      "scope_identity_sha256": "77c4b22e4e10a7d5ef4983b3729ddbf8470016dbb32cbbff291fd9fc43659d54",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "MCA2wt% based on nylon salt; ADA/water quantitative feeds unreported; PDFp2§2.2: nylon salt/MCA/ADA/water autoclave; N2 purge20min;215°C~1.75MPa1.5h;depressurize/270°C;275°Cvacuum0.5h;chips110°Cvacuum24h;injection specimens for testing;all specimens100°C12h. MCA dose based on nylon salt, not asserted final-polymer fraction.; §2.2 explicitly injects samples into standard specimens for testing;§2.4 assigns TG andLOI to samples;same sourceTable3/5 labels. No assumed aliquot cutting.",
+      "source_locator": "PDFp5 Table3 and§3.5;conditions PDFp2§2.4; PDFp6 Table5;method PDFp2§2.4",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s13233-017-5081-1",
+      "sample_state_id": "8d1b6030ff886e338805",
+      "reviewed_measurement_fingerprint": "73374b25253b6482caad17a0698d4cbdde65746a17ff6604fc7566314777b897",
+      "scope_identity_sha256": "5fe31f1b1194f90d80deff83b372a535572089b6fc85c61ac8a8e90b2de5781b",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "MCA4wt% based on nylon salt; ADA/water quantitative feeds unreported; PDFp2§2.2: nylon salt/MCA/ADA/water autoclave; N2 purge20min;215°C~1.75MPa1.5h;depressurize/270°C;275°Cvacuum0.5h;chips110°Cvacuum24h;injection specimens for testing;all specimens100°C12h. MCA dose based on nylon salt, not asserted final-polymer fraction.; §2.2 explicitly injects samples into standard specimens for testing;§2.4 assigns TG andLOI to samples;same sourceTable3/5 labels. No assumed aliquot cutting.",
+      "source_locator": "PDFp5 Table3 and§3.5;conditions PDFp2§2.4; PDFp6 Table5;method PDFp2§2.4",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s13233-017-5081-1",
+      "sample_state_id": "29dda0a50ac89e2934e5",
+      "reviewed_measurement_fingerprint": "a24d01d22d60bee5b79c9b28edc38bea1775be07ffe86c51fd5f0f2e8d881750",
+      "scope_identity_sha256": "5a8d433f01d201be2e004822c9149304b89b0e935c7a0cdae5c1ec88f9d4c9a0",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "MCA6wt% based on nylon salt; ADA/water quantitative feeds unreported; PDFp2§2.2: nylon salt/MCA/ADA/water autoclave; N2 purge20min;215°C~1.75MPa1.5h;depressurize/270°C;275°Cvacuum0.5h;chips110°Cvacuum24h;injection specimens for testing;all specimens100°C12h. MCA dose based on nylon salt, not asserted final-polymer fraction.; §2.2 explicitly injects samples into standard specimens for testing;§2.4 assigns TG andLOI to samples;same sourceTable3/5 labels. No assumed aliquot cutting.",
+      "source_locator": "PDFp5 Table3 and§3.5;conditions PDFp2§2.4; PDFp6 Table5;method PDFp2§2.4",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s10965-020-02229-8",
+      "sample_state_id": "419826778545bff75502",
+      "reviewed_measurement_fingerprint": "54d66e573e4d8bb8463dfc624121bca926e1ddb6dedcea0782416468a3f57be3",
+      "scope_identity_sha256": "e738b35370e372efaf25818380e817277e27a9b81f9f2f8875b6be42bf3b9b69",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1:PA695/modifiedMH3.75/MCA1.25wt%;table andPDFp7MCA:MH1:3 agree;abstract saysmodifiedMH:MCA1:3 and remains conflicting raw wording; PDFp3–4:PA6Balingvacuum105°C10h;MCA-MH/PA6 premix,twin-screw220/240/230°C,pelletvacuum105°C12h,injectioninto test specimens. This is explicit forMCA-MHseries;zero/MH-only/MCA-only branches not explicitly named by this preparation sentence.; Preparation explicitlyinjectionintotestspecimens;Table1/3 share dose labels;ordinaryTGandLOIinCharacterization.",
+      "source_locator": "PDFp9 Table3;definitionPDFp10;methodPDFp4; PDFp4 Table1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s10965-020-02229-8",
+      "sample_state_id": "781e1210c0c42c0f5715",
+      "reviewed_measurement_fingerprint": "60e74c36fa11d8f945e4b2e3eeb8f9748d88b3dce8b5598ec581c9c35d37bba6",
+      "scope_identity_sha256": "614a37ab6f4337da6dcd558bfa1a8ce134c5e952fa1fdd0a9f1dda95308e9969",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1:PA690/modifiedMH7.5/MCA2.5wt%;table andPDFp7MCA:MH1:3 agree;abstract saysmodifiedMH:MCA1:3 and remains conflicting raw wording; PDFp3–4:PA6Balingvacuum105°C10h;MCA-MH/PA6 premix,twin-screw220/240/230°C,pelletvacuum105°C12h,injectioninto test specimens. This is explicit forMCA-MHseries;zero/MH-only/MCA-only branches not explicitly named by this preparation sentence.; Preparation explicitlyinjectionintotestspecimens;Table1/3 share dose labels;ordinaryTGandLOIinCharacterization.",
+      "source_locator": "PDFp9 Table3;definitionPDFp10;methodPDFp4; PDFp4 Table1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s10965-020-02229-8",
+      "sample_state_id": "57b3e347134457d98f70",
+      "reviewed_measurement_fingerprint": "64af7c0cfbd38f413f9dfd668b06e25b8e28e0c7a59104dcfa9a10e6217017cc",
+      "scope_identity_sha256": "3019295fa316905bdd21997565d0acae8e592753d000f813cf12736eb72a918e",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1:PA685/modifiedMH11.25/MCA3.75wt%;table andPDFp7MCA:MH1:3 agree;abstract saysmodifiedMH:MCA1:3 and remains conflicting raw wording; PDFp3–4:PA6Balingvacuum105°C10h;MCA-MH/PA6 premix,twin-screw220/240/230°C,pelletvacuum105°C12h,injectioninto test specimens. This is explicit forMCA-MHseries;zero/MH-only/MCA-only branches not explicitly named by this preparation sentence.; Preparation explicitlyinjectionintotestspecimens;Table1/3 share dose labels;ordinaryTGandLOIinCharacterization.",
+      "source_locator": "PDFp9 Table3;definitionPDFp10;methodPDFp4; PDFp4 Table1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s10965-020-02229-8",
+      "sample_state_id": "12ecf1b0ddbc40684f76",
+      "reviewed_measurement_fingerprint": "ac7165683f540a9520f643c9aaec8dacead3a7c1846a2b635017edbaf3750487",
+      "scope_identity_sha256": "58440261f0257a9f90eff8b949fc07858eed5d288e06f8cd3b695d403b097ecf",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1:PA680/modifiedMH15/MCA5wt%;table andPDFp7MCA:MH1:3 agree;abstract saysmodifiedMH:MCA1:3 and remains conflicting raw wording; PDFp3–4:PA6Balingvacuum105°C10h;MCA-MH/PA6 premix,twin-screw220/240/230°C,pelletvacuum105°C12h,injectioninto test specimens. This is explicit forMCA-MHseries;zero/MH-only/MCA-only branches not explicitly named by this preparation sentence.; Preparation explicitlyinjectionintotestspecimens;Table1/3 share dose labels;ordinaryTGandLOIinCharacterization.",
+      "source_locator": "PDFp9 Table3;definitionPDFp10;methodPDFp4; PDFp4 Table1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "151d45c95e543446b745",
+      "reviewed_measurement_fingerprint": "0711a1f6888511625ebd6832e8dc2861d72d3ea0b236e2a9950d609732e36fd9",
+      "scope_identity_sha256": "5734c7c81a8d31fff5906b19b02bc91dbfa77793e9702e7be2a8a0c03299ac08",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA6100/OMMT0/APBA0wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "dc607d7c6c31998a927f",
+      "reviewed_measurement_fingerprint": "067ea2867a83466524a3dc2191ceaf40ee165bedeea64764ab8d86caae42512b",
+      "scope_identity_sha256": "e43a34c02d6525651a58b0bc4e9d4af4561b2c2b6d0ce2c4cac4afb569b1ffe2",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA688/OMMT0/APBA12wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "8188f97e07265d50cb84",
+      "reviewed_measurement_fingerprint": "b58cd450a4a2290661e20b412069af9ed0c535be75e3559215e32b819dbe60f5",
+      "scope_identity_sha256": "149b318045a90761833c5efc566324ff60680b2b041d3612ce09dc6b0d39c537",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA688/OMMT2/APBA10wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "f33b0427d26d2c6a5715",
+      "reviewed_measurement_fingerprint": "70f042db99649c9a38380a97ffa6f6744af75fbedf29af912fa1e457cad52300",
+      "scope_identity_sha256": "44382c1e7d0754cd3884cb6f1d4165dbcb96e3535a6975d4bf7a913d1591b8cb",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA688/OMMT4/APBA8wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "524c2c73b3bdcfe8f0fa",
+      "reviewed_measurement_fingerprint": "2742411cb4116974fa316efc9e72394a76d6a271a5a17fea9d65eae6f3bc85f4",
+      "scope_identity_sha256": "3b61d50a2e8d79e7b7d494804f8797f9ec4120aecb3c035c5b8c7a066f0dc916",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA688/OMMT6/APBA6wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1016/j.polymdegradstab.2017.09.003",
+      "sample_state_id": "027e71ce040b76fb3123",
+      "reviewed_measurement_fingerprint": "a7dd24cdda005c44e2fbd6f1c3c177ca292a7bddaa6865d0c23aa1b8336374f0",
+      "scope_identity_sha256": "1b148d2a428d03a3ce4a53181b67565090a41d2bb9ef9890b9345308eda65d3e",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer_composite",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table2PA688/OMMT8/APBA4wt%;ABPA/APBAnativealternateacronyms retained; PDFp6–7§2.2:The materials preparedtwin-screw220rpm190–230°C;afterextrusion,variousspecimenscorrespondingtocharacterizationdiscussedbelow injectionmolded210–240°C. Positiveall-characterizationbridge;PA6UBE1013Bpredried80°C4h. OMMTlabRef25;ABPAselfsynthesisSIreferencedbutlocalattachmentnotfound in boundednames.; §2.2variousspecimenscorrespondingtocharacterizationdiscussedbelow explicitlyincludes§2.3TG/LOI;Table1/2exactlabels.",
+      "source_locator": "PDFp12 Table1/Fig5air;methodPDFp7; PDFp13 Table2/footnote;methodPDFp7",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    },
+    {
+      "source_identity": "10.1007/s10965-020-02229-8",
+      "sample_state_id": "070da5ccafcdeae99101",
+      "reviewed_measurement_fingerprint": "4576f84ca8c3171035ba4a104e69abde36b4ec98c104ebb280ec998c8c0091ba",
+      "scope_identity_sha256": "87205cd0817899ebc524c436dc2d904db1c9d0ef3776f5a90b95e9ed8fa77a10",
+      "decision": "admit_textile",
+      "proposed_decision": "admit_textile",
+      "scope_class": "fiber_forming_polymer",
+      "scope_review_basis": "External B764/B771 source, B779/B791 bounded reuse and B785/B797 schema/direct approved. Twenty-five prepared polyamide states with twenty-five complete ordinary TG conditions; pure pat5003 cohort control excluded, pure s10965 PA6 external correspondence retained. Normal publication pending.",
+      "scope_evidence": "Table1PA6100wt%; PDFp3–4:PA6Balingvacuum105°C10h;MCA-MH/PA6 premix,twin-screw220/240/230°C,pelletvacuum105°C12h,injectioninto test specimens. This is explicit forMCA-MHseries;zero/MH-only/MCA-only branches not explicitly named by this preparation sentence.; s10965 Table1 includes pure PA6, and the obtained pellets injection molded statement explicitly points to the formulations summarized in Table1; common LOI/TG methods provide source correspondence. Exact TG geometry is unknown, no independent material batch is asserted. Source locator: PDFp4 Table1 and Characterization methods.",
+      "source_locator": "PDFp9 Table3;definitionPDFp10;methodPDFp4; PDFp4 Table1",
+      "scope_reviewed_by": "External B764/B771 source; B779/B791 bounded reuse; B785/B797 schema/direct; B790 integration",
+      "scope_reviewed_at": "2026-10-07",
+      "proposal_only": false
+    }
+  ],
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1002/app.42932",
+      "states": 3,
+      "TG": 3,
+      "locator": "PDFp3 TableII; abstract PDFp1; PDFp4 TableIII/Fig3 and definition paragraph",
+      "decision": "S2/S3/S4 prepared PA6 composites admitted at N2/15Cmin. S3 residue TableIII4.8 versus prose4.9 remains unresolved; S4 table10.7 lacks an explicit temperature, so both canonical residues remain blank. Calculated residues remain raw, not measured TG. Exact TG aliquot geometry and independent manufacturing batch are unreported.",
+      "TG_locators": [
+        "PDFp4 TableIII/Fig3 and definition paragraph"
+      ],
+      "LOI_locators": [
+        "PDFp3 TableII; abstract PDFp1"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.4206",
+      "states": 4,
+      "TG": 4,
+      "locator": "PDFp6 Table4; methods PDFp3; PDFp6 Table3/Fig6; definition PDFp5",
+      "decision": "Four purified DDP-containing PA66 mother-material states FRPA66-2 through5 admitted in air/15Cmin with20mLmin flow. Undefined peak criteria remain source raw, not canonical Tmax. Original LOI error glyph and error-definition limits retained; no inferred statistics or repeat count.",
+      "TG_locators": [
+        "PDFp6 Table3/Fig6; definition PDFp5"
+      ],
+      "LOI_locators": [
+        "PDFp6 Table4; methods PDFp3"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5003",
+      "states": 4,
+      "TG": 4,
+      "locator": "PDFp8 Table2; HTML Table2; PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1",
+      "decision": "Four PA6/APP and PA6/SP-APP prepared states admitted in N2/10Cmin. Pure PA6 control remains root-final reuse-held: shared Fan/Donghua/Liheng family with PDS2020.109080 and matching LOI21.5/T5395/rawTmax471 leaves the control cohort unresolved, not a proven duplicate. Unknown peak criteria, unreported residue temperature and calculated char remain raw; no R700 inference.",
+      "TG_locators": [
+        "PDFp3 Table1; PDFpp5-6Fig4C/D; HTML Table1"
+      ],
+      "LOI_locators": [
+        "PDFp8 Table2; HTML Table2"
+      ]
+    },
+    {
+      "DOI": "10.1007/s13233-017-5081-1",
+      "states": 3,
+      "TG": 3,
+      "locator": "PDFp6 Table5;method PDFp2§2.4; PDFp5 Table3 and§3.5;conditions PDFp2§2.4",
+      "decision": "Three in-situ PA66/MCA states FRPA66-2/4/6 admitted in N2/10Cmin. Dose remains based on nylon salt, not a final-polymer fraction. Undefined maximum-weight-loss temperatures remain source raw, not canonical maximum-rate temperatures; separately melt-blended and pure PA66 branches retain their original holds.",
+      "TG_locators": [
+        "PDFp5 Table3 and§3.5;conditions PDFp2§2.4"
+      ],
+      "LOI_locators": [
+        "PDFp6 Table5;method PDFp2§2.4"
+      ]
+    },
+    {
+      "DOI": "10.1007/s10965-020-02229-8",
+      "states": 5,
+      "TG": 5,
+      "locator": "PDFp4 Table1; PDFp9 Table3;definitionPDFp10;methodPDFp4",
+      "decision": "Four filled PA6/MCA-MH states plus pure PA6 admitted in N2/10Cmin under external source correspondence. Pure Table1 PA6 and obtained-pellets injection-moulding/common-method evidence supports correspondence, with TG aliquot geometry and independent manufacturing cohort unknown. Defined pure T5/Tmax/R800 aliases preserve Table0.1 and body0.13 as one residual observation with two precisions. MCA-MH20 Table10.2 versus prose approximately4.1 R800 remains held; abstract/Table composition and optimization branches remain literal.",
+      "TG_locators": [
+        "PDFp9 Table3;definitionPDFp10;methodPDFp4"
+      ],
+      "LOI_locators": [
+        "PDFp4 Table1"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2017.09.003",
+      "states": 6,
+      "TG": 6,
+      "locator": "PDFp13 Table2/footnote;methodPDFp7; PDFp12 Table1/Fig5air;methodPDFp7",
+      "decision": "Six source-defined injection-moulded PA6/OMMT/APBA states admitted in air/20Cmin. Common characterization-method mention of N2 does not create an N2 measurement. APBA12 table371.2 conflicts with relative decrease15.8: canonical T5 stays blank and381.2 is never synthesized. Tonset is explicitly5%loss for the other source-defined T5 aliases. LOI error is not assigned SD or an unreported repeat count; local supplementary-material boundary remains limited.",
+      "TG_locators": [
+        "PDFp12 Table1/Fig5air;methodPDFp7"
+      ],
+      "LOI_locators": [
+        "PDFp13 Table2/footnote;methodPDFp7"
+      ]
+    }
+  ],
+  "selected_source_observation_keys": [
+    "10.1002/app.42932|S2|N2|candidate_pair",
+    "10.1002/app.42932|S3|N2|candidate_pair",
+    "10.1002/app.42932|S4|N2|candidate_pair",
+    "10.1002/pat.4206|FRPA66-2|air|candidate_pair",
+    "10.1002/pat.4206|FRPA66-3|air|candidate_pair",
+    "10.1002/pat.4206|FRPA66-4|air|candidate_pair",
+    "10.1002/pat.4206|FRPA66-5|air|candidate_pair",
+    "10.1002/pat.5003|PA6/APP|N2|candidate_pair",
+    "10.1002/pat.5003|PA6/SP-APP-1|N2|candidate_pair",
+    "10.1002/pat.5003|PA6/SP-APP-2|N2|candidate_pair",
+    "10.1002/pat.5003|PA6/SP-APP-3|N2|candidate_pair",
+    "10.1007/s13233-017-5081-1|FRPA66-2|N2|candidate_pair|",
+    "10.1007/s13233-017-5081-1|FRPA66-4|N2|candidate_pair|",
+    "10.1007/s13233-017-5081-1|FRPA66-6|N2|candidate_pair|",
+    "10.1007/s10965-020-02229-8|PA6/MCA-MH-5|N2|candidate_pair|",
+    "10.1007/s10965-020-02229-8|PA6/MCA-MH-10|N2|candidate_pair|",
+    "10.1007/s10965-020-02229-8|PA6/MCA-MH-15|N2|candidate_pair|",
+    "10.1007/s10965-020-02229-8|PA6/MCA-MH-20|N2|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6|air|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6/APBA12|air|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6/OMMT2/APBA10|air|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6/OMMT4/APBA8|air|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6/OMMT6/APBA6|air|candidate_pair|",
+    "10.1016/j.polymdegradstab.2017.09.003|PA6/OMMT8/APBA4|air|candidate_pair|",
+    "10.1007/s10965-020-02229-8|PA6|N2|wholehold|"
+  ],
+  "authority_hashes": {
+    "rootB785_schema_direct": "bbe795267e92a08e829dd9e6731775ce329483d566c6e1cab864d772f4d7a352",
+    "rootB779_reuse": "224f11ecda23d7bdcd6dd5623d7471186538e7f4ba2f092234281611ee0ae481",
+    "rootB764_source": "f35cf722904bdeec7b9048d7ba3859c5b567c573868925dad9ac60131cfbc8a6",
+    "rootB797_schema_direct": "8774fc172caff251e78810cecc237c5672688c9e9c452c413bb5dc326d8a6360",
+    "rootB791_reuse": "d5e06179d78e5fbc5bf1016e6a3c6c4487448f0ae534a83ba9f2aa8bee565808",
+    "rootB771_source": "84d84fa54d65e920853452138b9b82d08820b2a0dea02a4f3ed1477e0ca4caeb"
+  },
+  "code_exact_changed_files": {},
+  "publication_approved": false,
+  "published": 0,
+  "scientific_limits": [
+    "Twenty-five source/material/preparation states and twenty-five ordinary TG conditions; actual separate manufactured batches are unreported.",
+    "N2/15, air/15, N2/10 and air/20 conditions are source-specific and never borrowed between sources.",
+    "S3 residue4.8/4.9 discrepancy and S4 unknown residue temperature remain canonical blank. Undefined peak criteria and calculated residues stay source raw.",
+    "Pure pat5003 PA6 control remains cohort/reuse-held, not counted; old source-stage flags are retained as history and current root authority is explicit.",
+    "B785 source682cells: eleven state aliases, other671 exact. B797 source1008cells: fourteen state aliases, four explicit canonical aliases and one root-authorized correspondence binding, other989 exact. All original source flags/history retained; integration reviewer metadata separately ledgered.",
+    "All old scientific fields, reader rows, registry, queue and publication history remain exact."
+  ]
+}
