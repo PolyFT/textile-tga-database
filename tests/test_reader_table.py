@@ -417,5 +417,63 @@ class ReaderSignedRateTests(unittest.TestCase):
         self.assertNotIn('999', str(display))
 
 
+class ReaderPETOriginalRateTests(unittest.TestCase):
+    def test_actual_PET_original_rates_are_notes_and_preserve_metric_definitions(self):
+        cases = [
+            ('data/incoming/verified_source_batch_20261007_b553_local_material.csv',
+             'source_Rmax_wt_pct_min', ['12.3', '12.5', '16.24', '15.79']),
+            ('data/incoming/verified_source_batch_20261007_b557_local_precursors.csv',
+             'source_Rmax_pct_min', ['36.3']),
+        ]
+        for filename, field, expected in cases:
+            with (ROOT / filename).open(newline='') as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual([row[field] for row in rows], expected)
+            for row in rows:
+                before = row.copy()
+                display = show(row)
+                self.assertIn(field + '=' + row[field], display['限制与不确定性'])
+                for label, key in [('T5 (℃)', 'T5_C'), ('T10 (℃)', 'T10_C'),
+                                   ('Tonset (℃)', 'Tonset_C'), ('Tmax1 (℃)', 'Tmax1_C')]:
+                    self.assertEqual(display[label], row.get(key, ''))
+                self.assertNotIn(field, display['其他TG温度（℃）'])
+                self.assertEqual(row, before)
+                if row['DOI'] == '10.1016/j.polymdegradstab.2013.12.023':
+                    self.assertIn('source_raw_T2pct_C=384', display['限制与不确定性'])
+                    self.assertEqual(display['T5 (℃)'], '')
+                    self.assertEqual(display['残余质量（温度:质量%）'], '800℃: 12.2%')
+                    for key, raw in [('source_TGA_flow_mL_min', '50'),
+                                     ('source_TGA_pan', 'alumina crucible'),
+                                     ('source_TGA_sample_mass_mg', '3-5')]:
+                        self.assertIn(key + '=' + raw, display['限制与不确定性'])
+
+    def test_original_TGA_method_aliases_are_notes_without_canonical_inference(self):
+        row = dict(source_TGA_flow_mL_min='50', source_TGA_pan='alumina crucible',
+                   source_TGA_sample_mass_mg='3-5', source_TGA_mass_mg='999')
+        before = row.copy()
+        display = show(row)
+        for key in ['source_TGA_flow_mL_min', 'source_TGA_pan', 'source_TGA_sample_mass_mg']:
+            self.assertIn(key + '=' + row[key], display['限制与不确定性'])
+        self.assertEqual(display['气体流量 (mL/min)'], '')
+        self.assertNotIn('999', str(display))
+        for label in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+            self.assertEqual(display[label], '')
+        self.assertEqual(row, before)
+
+    def test_blank_zero_and_unapproved_rate_aliases_do_not_create_temperatures(self):
+        for field in ['source_Rmax_wt_pct_min', 'source_Rmax_pct_min']:
+            for raw in ['', '0', '12.3']:
+                row = {field: raw, 'source_Rmax_C': '999', 'source_Rmax_percent_min': '998'}
+                display = show(row)
+                if raw == '':
+                    self.assertNotIn(field + '=', display['限制与不确定性'])
+                else:
+                    self.assertIn(field + '=' + raw, display['限制与不确定性'])
+                self.assertNotIn('999', str(display))
+                self.assertNotIn('998', str(display))
+                for label in ['T5 (℃)', 'T10 (℃)', 'Tonset (℃)', 'Tmax1 (℃)', '其他TG温度（℃）']:
+                    self.assertEqual(display[label], '')
+
+
 if __name__ == '__main__':
     unittest.main()

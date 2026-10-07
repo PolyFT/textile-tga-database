@@ -1,0 +1,123 @@
+{
+  "batch": "B557",
+  "status": "PRIVATE_SOURCE_TEXT_DERIVATIVE_PENDING_FULLREUSE_NORMAL_PR",
+  "sourceapproved": 0,
+  "rootapproved": 0,
+  "published": 0,
+  "candidate_states": 1,
+  "candidate_TG": 1,
+  "counts": {
+    "physical_conditions": 50,
+    "candidate_states": 1,
+    "candidate_TG": 1,
+    "wholeheld_states": 4,
+    "wholeheld_TG": 5,
+    "TG_only_conditions": 21,
+    "LOI_only_conditions": 23,
+    "calculated_views": 4,
+    "nonTG_context_views": 5
+  },
+  "archive_path": "data/curation/archive/20261007/source_review_manifest_b557.json",
+  "incoming_path": "data/incoming/verified_source_batch_20261007_b557_local_precursors.csv",
+  "processed_source_queue_facts": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2013.12.023",
+      "candidate_unique_states": 1,
+      "candidate_TG_records": 1,
+      "physical_conditions": 13,
+      "locators": "PDFpp1-9; p2 Materials/Preparation; p3 methods/Tables1/2; p4 thermal definitions; p5 modifiers; refspp8-9",
+      "scientific_decision": "1PET/AlPi92/8 primary candidate, purePET finalprocessing unknown and2Sbbranch conditions wholehold; other exactLOIformulations notinterpolated"
+    },
+    {
+      "DOI": "10.1002/app.45912",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "physical_conditions": 10,
+      "locators": "PDFpp1-12; p3 Preparation/TableI; p4 Methods; p6 TableII; p8 UL94/MCC/TableIV; pp11-12Refs",
+      "scientific_decision": "0joint: complete12main PDFpages containUL94/MCC andordinaryTG, noownLOI; localSI missing within bounded originalyear/stem inventory, not declared globalabsence"
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "candidate_unique_states": 0,
+      "candidate_TG_records": 0,
+      "physical_conditions": 27,
+      "locators": "PDFpp1-14; p3 preparation/Tables1/2; p4 methods/Table3; p6 thermal definitions; p7 Table4; p10 Table6; HTML matching9tables; pp13-14Refs",
+      "scientific_decision": "0joint: purePA6processingbridge unresolved; filledTG finalFRdose unknown,21wt%cone/water cannot fill it; washedLOI notinitialTG"
+    }
+  ],
+  "source_limits": [
+    "App45912 mainLOI absent; SI explicitlymentioned but notlocated in bounded localinventory; noonline supplement",
+    "PDSunmodified/modifiedSb branch notdisambiguated; purecontrol prep not borrowed",
+    "PATfilledTG loading unreported; noCONE21wt% borrowing;1%thresholdnotT5; sourceTable/proseTinitial contradictions retained",
+    "This is limited currentmain/selectedfrozen sources comparison only, not corpus approval"
+  ],
+  "nonadmitted_role_examples": [
+    {
+      "DOI": "10.1016/j.polymdegradstab.2013.12.023",
+      "sample_state": "AlPi modifier",
+      "actual_treatment": "Commercial AlPi powder from Tianjin Zhenxing,23%P; own ordinaryTG, no PET melt/extrusion/injection assigned.",
+      "preparation_scope_note": "Actual row: Commercial AlPi powder from Tianjin Zhenxing,23%P; own ordinaryTG, no PET melt/extrusion/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2013.12.023",
+      "sample_state": "nano-Sb2O3 modifier",
+      "actual_treatment": "NanoSb2O3 powder supplied by Hunan Shanxing,38nm; unmodified/KH550 branch not resolved in thermal label. No composite extrusion/injection assigned.",
+      "preparation_scope_note": "Actual row: NanoSb2O3 powder supplied by Hunan Shanxing,38nm; unmodified/KH550 branch not resolved in thermal label. No composite extrusion/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1016/j.polymdegradstab.2013.12.023",
+      "sample_state": "AlPi/nano-Sb2O3 mixture4:1",
+      "actual_treatment": "AlPi:nanoSb2O3 mixture mass4:1 in own thermalcomparison; mixture-preparation details/modifiedSbbranch unknown. No PET extruder/injection or muffle pretreatment assigned.",
+      "preparation_scope_note": "Actual row: AlPi:nanoSb2O3 mixture mass4:1 in own thermalcomparison; mixture-preparation details/modifiedSbbranch unknown. No PET extruder/injection or muffle pretreatment assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/app.45912",
+      "sample_state": "T-POSS modifier",
+      "actual_treatment": "T-POSS modifier synthesized by two-step OPS/corner-opening route, PDFp3. Phenyltrichlorosilane100g/benzene500mL/water40mL stirred12h,stand48hRT,30%methanolbenzyltrimethylammoniumhydroxide2mL,catalyzedreflux12h; OPS5g with35%methanoltetramethylammoniumhydroxide2mL inTHF125mL,reflux4h. TG final drying/geometry unreported. No PETcoating/meltmixing/injection assigned.",
+      "preparation_scope_note": "Actual row: T-POSS modifier synthesized by two-step OPS/corner-opening route, PDFp3. Phenyltrichlorosilane100g/benzene500mL/water40mL stirred12h,stand48hRT,30%methanolbenzyltrimethylammoniumhydroxide2mL,catalyzedreflux12h; OPS5g with35%methanoltetramethylammoniumhydroxide2mL inTHF125mL,reflux4h. TG final drying/geometry unreported. No PETcoating/meltmixing/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/app.45912",
+      "sample_state": "T-POSS modifier",
+      "actual_treatment": "T-POSS modifier synthesized by two-step OPS/corner-opening route, PDFp3. Phenyltrichlorosilane100g/benzene500mL/water40mL stirred12h,stand48hRT,30%methanolbenzyltrimethylammoniumhydroxide2mL,catalyzedreflux12h; OPS5g with35%methanoltetramethylammoniumhydroxide2mL inTHF125mL,reflux4h. TG final drying/geometry unreported. No PETcoating/meltmixing/injection assigned.",
+      "preparation_scope_note": "Actual row: T-POSS modifier synthesized by two-step OPS/corner-opening route, PDFp3. Phenyltrichlorosilane100g/benzene500mL/water40mL stirred12h,stand48hRT,30%methanolbenzyltrimethylammoniumhydroxide2mL,catalyzedreflux12h; OPS5g with35%methanoltetramethylammoniumhydroxide2mL inTHF125mL,reflux4h. TG final drying/geometry unreported. No PETcoating/meltmixing/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "sample_state": "AHP modifier",
+      "actual_treatment": "Commercial AHP powder supplied by Tianjin Zhenxing; modifier ordinaryTG, no PA6extrusion/injection assigned.",
+      "preparation_scope_note": "Actual row: Commercial AHP powder supplied by Tianjin Zhenxing; modifier ordinaryTG, no PA6extrusion/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "sample_state": "MAHP modifier",
+      "actual_treatment": "MAHP powder AHP:HAPCP19:1duringmodification (thermalparagraph PDFp6); precursor HAPCP made according toRef35. Vacuum mixing reaction2h at160/180/200C separate branches, branchofTGunknown; coolstir,THFwash3times,dry105Cconstant. No PA6extrusion/injection or waterdurability treatment assigned.",
+      "preparation_scope_note": "Actual row: MAHP powder AHP:HAPCP19:1duringmodification (thermalparagraph PDFp6); precursor HAPCP made according toRef35. Vacuum mixing reaction2h at160/180/200C separate branches, branchofTGunknown; coolstir,THFwash3times,dry105Cconstant. No PA6extrusion/injection or waterdurability treatment assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "sample_state": "AHP modifier",
+      "actual_treatment": "Commercial AHP powder supplied by Tianjin Zhenxing; modifier ordinaryTG, no PA6extrusion/injection assigned.",
+      "preparation_scope_note": "Actual row: Commercial AHP powder supplied by Tianjin Zhenxing; modifier ordinaryTG, no PA6extrusion/injection assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    },
+    {
+      "DOI": "10.1002/pat.4015",
+      "sample_state": "MAHP modifier",
+      "actual_treatment": "MAHP powder AHP:HAPCP19:1duringmodification (thermalparagraph PDFp6); precursor HAPCP made according toRef35. Vacuum mixing reaction2h at160/180/200C separate branches, branchofTGunknown; coolstir,THFwash3times,dry105Cconstant. No PA6extrusion/injection or waterdurability treatment assigned.",
+      "preparation_scope_note": "Actual row: MAHP powder AHP:HAPCP19:1duringmodification (thermalparagraph PDFp6); precursor HAPCP made according toRef35. Vacuum mixing reaction2h at160/180/200C separate branches, branchofTGunknown; coolstir,THFwash3times,dry105Cconstant. No PA6extrusion/injection or waterdurability treatment assigned. Composite melting/injection in source_preparation is background for another material branch only."
+    }
+  ],
+  "source_text_derivative": {
+    "source_version": "Only this DOI published PDF supplies selected facts; PAT4015 HTML is other-source background.",
+    "residue_definition": "Selected binary PET/AlPi whole measured residue; no Sb or precise chemical composition inferred.",
+    "modifier_composition_locator": "Three unadmitted TG-only powders/mixture are described at PDFp5, not the composite Table1.",
+    "selected_changed_text_fields": [
+      "source_version",
+      "source_residue_definition"
+    ],
+    "numeric_fields_changed": 0,
+    "selected_measurement_and_scope_identity_changes": 0,
+    "primary_root_source_receipt_sha256": "5527e6eec2cbf1505af99fe539f85a9d9022a53c9dff7ce079bf918ba55ec4b8",
+    "historical_phase_note": "Source-phase rootapproved/published fields remain historical. Final combined source/reuse acceptance and normal PR gates are separate; this repair adds no samples."
+  }
+}
