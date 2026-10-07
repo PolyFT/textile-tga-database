@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1776,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b961_private_pending_nonauthor_review_and_normal_publication",
-  "last_merged_batch": "20261008_b912",
+  "publication_stage": "b961_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261008_b961",
   "writer_lease": {
     "owner": "codex-local-combined-b961-20261008",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261008_b961",
     "claimed_at_utc": "2026-10-07T20:51:48.870064+00:00",
     "expires_at_utc": "2026-10-07T22:21:48.870064+00:00",
     "previous_release_commit": "9322b640be84f2c2d748f09fb3dfb1bd02b26e8f",
-    "purpose": "Reviewed31 new PA6 and PP states/47TG/7paired sources with7 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required."
+    "purpose": "Reviewed31 new PA6 and PP states/47TG/7paired sources with7 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required.",
+    "released_at_utc": "2026-10-07T21:25:54.354038+00:00",
+    "reason": "Normal PR merge, nonauthor content integration review and root exact-head binding and both main workflows passed; exact remote public files verified. Release only owned B961 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B96131 new prepared PA6/PP states/47 ordinary TG/7 pairedsources privately prepared; normal integration review and publication pending. Five air conditions undefined metrics held, conflicting R700 remains raw, unnumbered Tmax and synthetic-air literals visible.",
+    "B961 normally merged31 genuinely new polyamide and PP samples/47TG/7pairedsources;0oldscope or evidence upgrades;formal1283/1631/274. Continue local native-text source batches and source-family deduplication.",
     "B912 normally merged18 genuinely new polyamide and PP samples/18TG/8pairedsources;0oldscope or evidence upgrades;formal1252/1584/267. Continue local native-text source batches and source-family deduplication.",
     "B881 normally merged23 genuinely new PP samples/23TG/6pairedsources;0oldscope or evidence upgrades;formal1234/1566/259. Continue local native-text source batches and source-family deduplication.",
     "B857 normally merged37 genuinely new PP samples/37TG/13pairedsources;0oldscope or evidence upgrades;formal1211/1543/253. Continue local native-text source batches and source-family deduplication.",
@@ -2064,7 +2066,7 @@
     ]
   },
   "batch_b961": {
-    "status": "private_pending_nonauthor_review_and_normal_publication",
+    "status": "merged_remote_verified",
     "genuinely_new_sample_states": 31,
     "new_TG_conditions": 47,
     "new_paired_sources": 7,
@@ -2074,8 +2076,8 @@
     "old_evidence_upgrades": 0,
     "held_additional_conditions": 5,
     "root_source_reuse_schema_direct_approved": true,
-    "publication_approved": false,
-    "published": 0,
+    "publication_approved": true,
+    "published": 31,
     "formal_science_baseline": [
       1252,
       1584,
@@ -2087,6 +2089,43 @@
       274
     ],
     "fixed_base": "9322b640be84f2c2d748f09fb3dfb1bd02b26e8f",
-    "manifest": "data/curation/archive/20261008/source_review_manifest_b961.json"
+    "manifest": "data/curation/archive/20261008/source_review_manifest_b961.json",
+    "formal_main_counts": [
+      1283,
+      1631,
+      274
+    ]
+  },
+  "publication_b961": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/199",
+    "PR_number": 199,
+    "merge_sha": "2f6805ccd70f392c4b0cc73a4d1f6471d0f3dee9",
+    "validated_head_sha": "31bc15e0b5d9f3eff268098b39e28aa4611ddde8",
+    "new_pairs": 31,
+    "new_TG": 47,
+    "new_sources": 7,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 11148481,
+    "old_reader_cells_exact": 39600,
+    "old_registry_entries_exact": 1685,
+    "old_queue_rows_exact": 1127,
+    "old_queue_rows_explicitly_updated": 0,
+    "queue_cells_explicitly_updated": 0,
+    "new_queue_rows": 7,
+    "verified_target_sample_states": 1283,
+    "verified_target_condition_records": 1631,
+    "verified_target_sources": 274,
+    "full_remote_public_files_verified": 15,
+    "unchanged_other_existing_files": 942,
+    "tests": 2885,
+    "compiled_files": 246,
+    "independent_review_sha256": "4dad6781706a25390fc9713d8fa93e82d2b2b6b09f32f637a8d60c281b036e67",
+    "root_exact_head_binding_sha256": "97aa26e03744b5d6034b7e3a2041ef01ce8a81b3b20f0a9e6c954407c0e9baa1",
+    "postmerge_runs": [
+      37687786741,
+      37687786774
+    ]
   }
 }
