@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1561,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b714_private_integration_pending_normal_publication",
-  "last_merged_batch": "20261007_b689",
+  "publication_stage": "b714_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b714",
   "writer_lease": {
     "owner": "codex-local-combined-b714-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b714",
     "claimed_at_utc": "2026-10-07T08:52:49.525380+00:00",
     "expires_at_utc": "2026-10-07T10:22:49.525380+00:00",
     "previous_release_commit": "55b167098bd0ae2ff87310b337a9888284926daa",
-    "purpose": "Reviewed18 new PET and PP states/21TG/5positive sources plus1held source;0oldscope and0evidence upgrades. Normal PR/exacthead checks required."
+    "purpose": "Reviewed18 new PET and PP states/21TG/5positive sources plus1held source;0oldscope and0evidence upgrades. Normal PR/exacthead checks required.",
+    "released_at_utc": "2026-10-07T09:15:22.055432+00:00",
+    "reason": "Normal PR merge, nonauthor content integration review and root exact-head binding and both main workflows passed; exact remote public files verified. Release only owned B714 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B714: retain private 18 new states/21 TG across5 paired sources and one held source; nonauthor integration/exacthead review and normal PR required. B701 exact55b167 release closure has been confirmed by both successful workflows.",
+    "B714 normally merged18 genuinely new PET/PP samples/21TG/5sources;0oldscope or evidence upgrades;formal1068/1383/218. Continue native local batches; next13 PET weightloss800C records require separate reviewed metric support/schema.",
     "Continue local native source review with independent source, bounded reuse and schema/direct-use gates; retain all controls, calculated and unpaired roles outside the master."
   ],
   "publication_policy": "Numerical facts and concise provenance only; no fulltext PDF/XML caches.",
@@ -1506,7 +1508,7 @@
     ]
   },
   "batch_b714": {
-    "status": "private_integration_pending_independent_review_and_normal_publication",
+    "status": "merged_remote_verified",
     "genuinely_new_sample_states": 18,
     "new_TG_conditions": 21,
     "new_paired_sources": 5,
@@ -1515,8 +1517,8 @@
     "old_scope_TG_conditions": 0,
     "old_evidence_upgrades": 0,
     "root_source_reuse_schema_direct_approved": true,
-    "publication_approved": false,
-    "published": 0,
+    "publication_approved": true,
+    "published": 18,
     "formal_science_baseline": [
       1050,
       1362,
@@ -1529,6 +1531,40 @@
     ],
     "fixed_base": "55b167098bd0ae2ff87310b337a9888284926daa",
     "baseline_final_release_checks_pending": false,
-    "manifest": "data/curation/archive/20261007/source_review_manifest_b714.json"
+    "manifest": "data/curation/archive/20261007/source_review_manifest_b714.json",
+    "formal_main_counts": [
+      1068,
+      1383,
+      218
+    ]
+  },
+  "publication_b714": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/190",
+    "PR_number": 190,
+    "merge_sha": "c114756dc0a2a724c26f2bd6f6b9ceaffefeeb89",
+    "validated_head_sha": "7494112a54ba2d740753d61bff7ddfa0e8d0b2ea",
+    "new_pairs": 18,
+    "new_TG": 21,
+    "new_sources": 5,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 8730435,
+    "old_reader_cells_exact": 34050,
+    "old_registry_entries_exact": 1463,
+    "old_queue_rows_exact": 1041,
+    "verified_target_sample_states": 1068,
+    "verified_target_condition_records": 1383,
+    "verified_target_sources": 218,
+    "full_remote_public_files_verified": 18,
+    "unchanged_other_existing_files": 909,
+    "tests": 2841,
+    "compiled_files": 237,
+    "independent_review_sha256": "d3d6dc49f318c4294ed8e9672a44ab9619a9b4db7d3f0b5483a49050e428be56",
+    "root_exact_head_binding_sha256": "8b48c991162eb73d9b0d03a388b6158d322fcf8927031dcd2fb2684d2ef81f86",
+    "postmerge_runs": [
+      37598303392,
+      37598303366
+    ]
   }
 }
