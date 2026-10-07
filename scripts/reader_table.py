@@ -61,7 +61,7 @@ def reading_row(row, entry):
                    'source_Rmax_wt_pct_min', 'source_Rmax_pct_min',
                    'source_Rpeak_pct_per_min', 'source_Rpeak_magnitude_pct_per_min',
                    'source_Rpeak_original_combined_cell', 'source_LOI_sample_dimensions_mm',
-                   'source_LOI_dimensions_mm',
+                   'source_LOI_dimensions_mm', 'source_weight_loss_800_pct',
                    'LOI_specimen_geometry', 'LOI_standard', 'LOI_instrument'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
     loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]
@@ -100,7 +100,7 @@ def reading_row(row, entry):
             row.get('TG_locator') or row.get('TG_source_location') or row.get('source_location', ''),
             row.get('LOI_locator') or row.get('LOI_source_location') or row.get('source_location', ''),
             row.get('conditions_locator') or row.get('conditions_source_location') or row.get('source_location', ''),
-            labelled(row, tg_notes).replace('source_R1peak_raw=', '原文峰值失重速率1=').replace('source_R2peak_raw=', '原文峰值失重速率2=').replace('source_Rpeak_unit_raw=', '原文单位（未换算）='),
+            labelled(row, tg_notes).replace('source_R1peak_raw=', '原文峰值失重速率1=').replace('source_R2peak_raw=', '原文峰值失重速率2=').replace('source_Rpeak_unit_raw=', '原文单位（未换算）=').replace('source_weight_loss_800_pct=', '原文800℃失重（%）='),
             labelled(row, ['LOI_uncertainty_pct', 'LOI_uncertainty_type', 'LOI_statistic',
                            'LOI_reported_plus_minus', 'LOI_uncertainty_description', 'LOI_n',
                            'LOI_original', 'source_LOI_entry_raw', 'source_LOI_value_raw',

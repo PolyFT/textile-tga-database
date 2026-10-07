@@ -29,6 +29,7 @@ TG_FIELDS = [
     'R700_pct', 'R750_pct', 'R800_pct', 'residue_pct',
     'residue_at_Tmax_pct', 'residue_at_Tmax1_pct',
     'residue_at_Tmax2_pct', 'residue_at_Tmax3_pct',
+    'source_weight_loss_800_pct',
 ]
 REVIEW_FIELDS = [
     'pairing_status', 'pairing_evidence', 'material_form_TGA',

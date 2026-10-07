@@ -21,6 +21,7 @@ Core analytical fields:
 | `residue_at_Tmax1_pct`, `residue_at_Tmax2_pct`, `residue_at_Tmax3_pct` | Residual mass corresponding to `Tmax1_C`, `Tmax2_C`, and `Tmax3_C` when a source reports multiple DTG peaks |
 | `residue_temp_C` | Temperature corresponding to `residue_pct` |
 | `residue_pct` | Residual mass |
+| `source_weight_loss_800_pct` | Source-reported mass loss (%) at exactly 800 °C; preserve the reported mass basis and definition. This is loss, not remaining mass. Do not calculate or report `100 − loss` as a source-reported residue. |
 | `R400_pct`, `R500_pct`, `R550_pct`, `R600_pct`, `R650_pct`, `R700_pct`, `R800_pct` | Residual mass at explicitly reported fixed temperatures; preserve the source temperature exactly |
 | `LOI_pct` | Limiting oxygen index when reported as a single numeric value |
 | `LOI_min_pct`, `LOI_max_pct` | Lower and upper bounds when LOI is reported as a range; do not replace the range by its midpoint |
