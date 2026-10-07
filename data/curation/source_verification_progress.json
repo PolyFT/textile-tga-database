@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1478,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b582_private_fixture_preview_pending_normal_publication",
-  "last_merged_batch": "20261007_b573",
+  "publication_stage": "b582_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b582",
   "writer_lease": {
     "owner": "codex-local-combined-b582-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b582",
     "claimed_at_utc": "2026-10-07T02:46:58.700787+00:00",
     "expires_at_utc": "2026-10-07T04:16:58.700787+00:00",
     "previous_release_commit": "ba5cb528f7a18cd7a01a918a6414e6ecfea29a1d",
-    "purpose": "Source/reuse/schema and independent integration reviewed 3 new PP composite states/3TG/1source; normal PR and exact-head checks required; no old scope/evidence upgrades."
+    "purpose": "Source/reuse/schema and independent integration reviewed 3 new PP composite states/3TG/1source; normal PR and exact-head checks required; no old scope/evidence upgrades.",
+    "released_at_utc": "2026-10-07T03:25:08.842387+00:00",
+    "reason": "Normal PR merge, nonauthor exact-head review and both main workflows passed; exact remote public files verified. Release only owned B582 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B582 private preview:3 genuinely new modifiedPP sample states/3TG/1pairedsource;2source reviews includingapp34428zero. Formal released-main977/1210/195;private980/1213/196 awaits ordinary publication. Existing B573 publication/lease/history retained. No oldscope/evidence upgrades; rawTonset andT5 are one5%loss observation, no genericTonset/T10 orPPbase fraction inferred.",
+    "B582 normally merged 3 genuinely new samples/3TG/1source; 0old scope/evidence upgrades; formal980/1213/196. Three further papers have source-approved13states18TG pending bounded reuse and schema; source negatives/held metrics remain excluded.",
     "B573 normally merged18 genuinely new samples/27TG/5sources,0old scope admissions and0evidence upgrades; formal977/1210/195. B5743 candidates have root source/reuse/schema approval and await integration on the released main; B579 source-negative0new. Held states and unresolved metrics remain outside valid counts.",
     "B558 merged and remote verified:5 genuinely new samples/5 TG,0 existing scope-only and0 numerical evidence upgrades, formal959/1183/190. B549/B554 zero-admission followups and B562 old scope review remain private; held/candidate records not counted. Undefined TG metrics, missing residue temperature and whole-state conflicts remain held.",
     "B540 merged and remote verified:17 genuinely new samples/21 TG,0 existing scope-only and0 numerical evidence upgrades, formal954/1178/188. B531/B538 followups remain private and uncounted pending complete source/peer/reuse review. Undefined TG metrics, missing residue temperature and whole-state conflicts remain held.",
@@ -1394,7 +1396,7 @@
     ]
   },
   "batch_b582": {
-    "status": "source_reuse_schema_approved_private_preview_pending_normal_publication",
+    "status": "merged_remote_verified",
     "genuinely_new_sample_states": 3,
     "new_TG_conditions": 3,
     "new_paired_sources": 1,
@@ -1402,11 +1404,11 @@
     "old_scope_admissions": 0,
     "old_evidence_upgrades": 0,
     "rootapproved": true,
-    "published": 0,
+    "published": 3,
     "formal_main_counts": [
-      977,
-      1210,
-      195
+      980,
+      1213,
+      196
     ],
     "private_branch_prediction": [
       980,
@@ -1415,5 +1417,43 @@
     ],
     "fixed_base": "ba5cb528f7a18cd7a01a918a6414e6ecfea29a1d",
     "manifest": "data/curation/archive/20261007/source_review_manifest_b582.json"
+  },
+  "publication_b582": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/185",
+    "PR_number": 185,
+    "merge_sha": "b27a153fc6a3c4c601e04e59302f982fb7353afe",
+    "validated_head_sha": "2d1e7152025a8d71364b29817ae098af2294fca5",
+    "new_pairs": 3,
+    "new_TG": 3,
+    "new_sources": 1,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 7629258,
+    "old_reader_cells_exact": 30250,
+    "old_registry_entries_exact": 1287,
+    "old_queue_cells_exact": 6042,
+    "verified_target_sample_states": 980,
+    "verified_target_condition_records": 1213,
+    "verified_target_sources": 196,
+    "full_remote_public_files_verified": 16,
+    "unchanged_other_existing_files": 891,
+    "tests": 2771,
+    "compiled_files": 231,
+    "independent_review_sha256": "91da1b7cabab04d025d44d381d5d9ff48c3f84067173eacabecb923cd0bc7a1e",
+    "postmerge_runs": [
+      37565905352,
+      37565905325
+    ],
+    "bounded_additional_reuse_review": {
+      "source_views": 132,
+      "complete_contexts": 1094,
+      "comparisons": 6564,
+      "explicit_narrow_scientific_sidecars": 1,
+      "additional_reuse_holds": 0,
+      "root_approval_sha256": "22f2c184035f021454c8368fabc8461b3f8c478331b59416d02c0d823dd52f36",
+      "review_role": "Implementation and coverage peer was a prior primary author; independent root original-source review remains controlling.",
+      "limits": "Finite known post501 source views; prior fixed-corpus proof inherited by complete numeric-profile equality. No universal completeness or resin-batch independence claim."
+    }
   }
 }
