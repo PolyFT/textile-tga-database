@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1667,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b820_private_integration_pending_nonauthor_review_and_normal_publication",
-  "last_merged_batch": "20261007_b790",
+  "publication_stage": "b820_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b820",
   "writer_lease": {
     "owner": "codex-local-combined-b820-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b820",
     "claimed_at_utc": "2026-10-07T14:20:07.185285+00:00",
     "expires_at_utc": "2026-10-07T15:50:07.185285+00:00",
     "previous_release_commit": "9ab126e7353b76435375ff7ccc6e9878942fad2e",
-    "purpose": "Reviewed27 new PP states/39TG/8paired sources with12 processed queue facts;0oldscope and0evidence upgrades. Normal PR/exacthead checks required."
+    "purpose": "Reviewed27 new PP states/39TG/8paired sources with12 processed queue facts;0oldscope and0evidence upgrades. Normal PR/exacthead checks required.",
+    "released_at_utc": "2026-10-07T14:52:49.896446+00:00",
+    "reason": "Normal PR merge, nonauthor content integration review and root exact-head binding and both main workflows passed; exact remote public files verified. Release only owned B820 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B82027 PP states/39 complete ordinary TG conditions; nonauthor integration review, exact-head binding and normal PR pending.",
+    "B820 normally merged27 genuinely new PP samples/39TG/8pairedsources;0oldscope or evidence upgrades;formal1174/1506/240. Continue local native-text source batches and source-family deduplication.",
     "APP30 evidence aliases count one source-state; four approximate residues remain qualified. pat4492 two ramp20/10 conditions remain pending; undefined peaks, purePP table/prose T5 conflict and signed rate amplitudes retain their original limits.",
     "B790 normally merged25 genuinely new PA6/PA66 samples/25TG/6pairedsources;0oldscope or evidence upgrades;formal1147/1467/232. Continue local native-text source batches and source-family deduplication.",
     "S3 residue4.8/4.9 discrepancy, S4 unknown residue temperature and pure pat5003 PA6 cohort hold remain excluded from the corresponding canonical fields/admission; original LOI glyphs and undefined peaks stay raw.",
@@ -1814,7 +1816,7 @@
     ]
   },
   "batch_b820": {
-    "status": "private_integration_pending_nonauthor_review_and_normal_publication",
+    "status": "merged_remote_verified",
     "genuinely_new_sample_states": 27,
     "new_TG_conditions": 39,
     "new_paired_sources": 8,
@@ -1823,8 +1825,8 @@
     "old_scope_TG_conditions": 0,
     "old_evidence_upgrades": 0,
     "root_source_reuse_schema_direct_approved": true,
-    "publication_approved": false,
-    "published": 0,
+    "publication_approved": true,
+    "published": 27,
     "formal_science_baseline": [
       1147,
       1467,
@@ -1836,6 +1838,40 @@
       240
     ],
     "fixed_base": "9ab126e7353b76435375ff7ccc6e9878942fad2e",
-    "manifest": "data/curation/archive/20261007/source_review_manifest_b820.json"
+    "manifest": "data/curation/archive/20261007/source_review_manifest_b820.json",
+    "formal_main_counts": [
+      1174,
+      1506,
+      240
+    ]
+  },
+  "publication_b820": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/195",
+    "PR_number": 195,
+    "merge_sha": "60f2e4b1677c3d3718632a82c8771ee080b9513f",
+    "validated_head_sha": "83a51ac0d7e40e297b4866178874c45af1292932",
+    "new_pairs": 27,
+    "new_TG": 39,
+    "new_sources": 8,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 9670150,
+    "old_reader_cells_exact": 36675,
+    "old_registry_entries_exact": 1568,
+    "old_queue_rows_exact": 1080,
+    "verified_target_sample_states": 1174,
+    "verified_target_condition_records": 1506,
+    "verified_target_sources": 240,
+    "full_remote_public_files_verified": 16,
+    "unchanged_other_existing_files": 931,
+    "tests": 2876,
+    "compiled_files": 244,
+    "independent_review_sha256": "8485fa9a73f9458aed18c4f65ef9201da5228efde905c4df138a17a5867fe33b",
+    "root_exact_head_binding_sha256": "f2acd5942456be08ccb9c4cb3979fa7dd032756199a26bed818d270c7db2f217",
+    "postmerge_runs": [
+      37638559551,
+      37638559692
+    ]
   }
 }
