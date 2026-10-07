@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1503,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b610_private_fixture_integration_pending_normal_publication",
-  "last_merged_batch": "20261007_b582",
+  "publication_stage": "b610_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261007_b610",
   "writer_lease": {
     "owner": "codex-local-combined-b610-20261007",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261007_b610",
     "claimed_at_utc": "2026-10-07T04:29:33.630766+00:00",
     "expires_at_utc": "2026-10-07T05:59:33.630766+00:00",
     "previous_release_commit": "65b53351d6c3e651b9a1a0b37d2d804c5a38d3b5",
-    "purpose": "Source/reuse/schema and independent integration reviewed 25 new material states/78TG/6sources; normal PR and exact-head checks required; no old scope/evidence upgrades."
+    "purpose": "Source/reuse/schema and independent integration reviewed 25 new material states/78TG/6sources; normal PR and exact-head checks required; no old scope/evidence upgrades.",
+    "released_at_utc": "2026-10-07T04:57:43.568310+00:00",
+    "reason": "Normal PR merge, nonauthor exact-head review and both main workflows passed; exact remote public files verified. Release only owned B610 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B610 private integration:25 genuinely new sample states/78TG/6pairedsources; normal publication and non-author exact integration review pending. Formal released-main980/1213/196;private1005/1291/202 is prediction only. All old fields/registry/queue/reader retained. No oldscope/evidenceupgrades. Source conflicts remain held; raw peak amplitudes and units display without conversion.",
+    "B610 normally merged25 genuinely new samples/78TG/6sources;0old scope/evidence upgrades;formal1005/1291/202. Four further PVA material endpoints have source/bounded-reuse approval pending exactschema and later integration;local original ACS sources continue. Model/augmented data and unresolved states remain excluded.",
     "B582 normally merged 3 genuinely new samples/3TG/1source; 0old scope/evidence upgrades; formal980/1213/196. Three further papers have source-approved13states18TG pending bounded reuse and schema; source negatives/held metrics remain excluded.",
     "B573 normally merged18 genuinely new samples/27TG/5sources,0old scope admissions and0evidence upgrades; formal977/1210/195. B5743 candidates have root source/reuse/schema approval and await integration on the released main; B579 source-negative0new. Held states and unresolved metrics remain outside valid counts.",
     "B558 merged and remote verified:5 genuinely new samples/5 TG,0 existing scope-only and0 numerical evidence upgrades, formal959/1183/190. B549/B554 zero-admission followups and B562 old scope review remain private; held/candidate records not counted. Undefined TG metrics, missing residue temperature and whole-state conflicts remain held.",
@@ -1456,19 +1458,19 @@
     }
   },
   "batch_b610": {
-    "status": "source_boundedreuse_schema_approved_private_integration_pending_publication",
+    "status": "merged_remote_verified",
     "genuinely_new_sample_states": 25,
     "new_TG_conditions": 78,
     "new_paired_sources": 6,
     "old_scope_admissions": 0,
     "old_evidence_upgrades": 0,
     "root_source_reuse_schema_approved": true,
-    "publication_approved": false,
-    "published": 0,
+    "publication_approved": true,
+    "published": 25,
     "formal_main_counts": [
-      980,
-      1213,
-      196
+      1005,
+      1291,
+      202
     ],
     "private_branch_prediction": [
       1005,
@@ -1477,5 +1479,33 @@
     ],
     "fixed_base": "65b53351d6c3e651b9a1a0b37d2d804c5a38d3b5",
     "manifest": "data/curation/archive/20261007/source_review_manifest_b610.json"
+  },
+  "publication_b610": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/186",
+    "PR_number": 186,
+    "merge_sha": "495e8a21c9030343f6e4447889b6a674aa7e32b4",
+    "validated_head_sha": "a633dbefe3e59ec6c705067b6c6ce5d2ca075351",
+    "new_pairs": 25,
+    "new_TG": 78,
+    "new_sources": 6,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 7672686,
+    "old_reader_cells_exact": 30325,
+    "old_registry_entries_exact": 1290,
+    "old_queue_rows_exact": 1009,
+    "verified_target_sample_states": 1005,
+    "verified_target_condition_records": 1291,
+    "verified_target_sources": 202,
+    "full_remote_public_files_verified": 18,
+    "unchanged_other_existing_files": 893,
+    "tests": 2794,
+    "compiled_files": 232,
+    "independent_review_sha256": "0ba24a9688d573b577f6aa25c417bd2d0799ac6aaa2e8f9046051745d47402a0",
+    "postmerge_runs": [
+      37572930446,
+      37572930408
+    ]
   }
 }
