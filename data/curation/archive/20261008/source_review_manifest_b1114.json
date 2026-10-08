@@ -1,0 +1,54 @@
+{
+  "batch_id": "20261008_b1114",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 65,
+  "new_TG_condition_records": 67,
+  "old_sample_scope_upgrades": 100,
+  "old_scope_condition_records": 129,
+  "old_numeric_evidence_upgrades": 0,
+  "new_source_DOIs": [
+    "10.1002/app.41218",
+    "10.1002/app.42086",
+    "10.1002/app.49210",
+    "10.1002/pat.1088",
+    "10.1002/pat.1927",
+    "10.1002/pat.3137",
+    "10.1002/pat.3273",
+    "10.1002/pat.3325",
+    "10.1002/pat.3451",
+    "10.1002/pat.3743",
+    "10.1002/pat.3967",
+    "10.1002/pat.4364",
+    "10.1002/pat.4545",
+    "10.1002/pat.4559",
+    "10.1002/pat.4873",
+    "10.1002/pat.4894",
+    "10.1002/pc.28089"
+  ],
+  "held_scope_source_samples": 5,
+  "held_possible_reused_control_states": 1,
+  "crosssource_alias_occurrences_not_counted": 2,
+  "source_defined_unnumbered_peak": "Only explicit maximum mass-loss-rate temperature uses Tmax_unnumbered_C; unknown and conflicting original criteria retained raw.",
+  "scientific_review": "Independent original-source reviews, 600 bounded indexed/direct proofs with full original-row provenance, source recipe/preparation/citation adjudication and root field mapping. No independent manufacturing-lot assertion.",
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261008_b1114_polymers.csv"
+  ],
+  "old_rows_changed": 0,
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": {
+    "fullsuite_initial_total": 2899,
+    "fullsuite_initial_passed": 2898,
+    "fullsuite_initial_failed": 1,
+    "failure": "finished-textile progress subtotal stale; refreshed from generated class report, no scientific data or test changed",
+    "all_affected_tests_rerun_passed": 105,
+    "data_validation": "passed",
+    "scope_export": "passed",
+    "compile": "passed"
+  },
+  "local_target_counts": {
+    "samples": 1783,
+    "TG_records": 2282,
+    "sources": 450
+  },
+  "common_preparation_reader_annotations_migrated": 35
+}

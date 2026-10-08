@@ -33,12 +33,35 @@ def tables(loi_sample='Cotton_A', tg_sample='Cotton_A', washes=('',)):
         result.append((f'LOI of cotton fabrics {washing}', pd.DataFrame({
             'Sample': [loi_sample], 'LOI (%)': [28.5]})))
         result.append((f'TGA of cotton fabrics {washing} in nitrogen; heating rate 10 °C/min', pd.DataFrame({
-            'Sample': [tg_sample], 'Tmax (°C)': [350.0], 'Residue at 600 °C (%)': [18.2]})))
+            'Sample': [tg_sample], 'Tmax1 (°C)': [350.0], 'Residue at 600 °C (%)': [18.2]})))
     return result
 
 
 def source_result(**kwargs):
     return extract.SourceResult(FULL_TEXT, tables(**kwargs), 'https://europepmc.org/articles/PMC12345')
+
+
+class PeakHeaderTests(unittest.TestCase):
+    def test_generic_names_do_not_invent_a_stage_or_rate_criterion(self):
+        for heading in ['Tmax (°C)', 'Tdmax (°C)', 'Tpeak (°C)', 'peak decomposition temperature (°C)',
+                        'water peak temperature (°C)', 'hydroxyl peak temperature (°C)',
+                        'water Tmax1 (°C)', 'dehydroxylation second peak (°C)']:
+            with self.subTest(heading=heading):
+                self.assertEqual(extract.tgfield(heading), 'source_raw_Tmax_C')
+        for heading in ['Tmax1 (°C)', 'Tmax2 (°C)', 'Tmax3 (°C)', 'Tmax4 (°C)',
+                               'Tdmax1 (°C)', 'Tdmax2 (°C)']:
+            expected = 'Tmax' + heading.split('max')[1][0] + '_C'
+            self.assertEqual(extract.tgfield(heading), expected)
+        self.assertNotEqual(extract.tgfield('Tmax10 (°C)'), 'Tmax1_C')
+
+    def test_distinct_generic_header_values_are_not_silently_keep_last(self):
+        parsed = extract.tg_rows(FULL_TEXT, [('TGA table in nitrogen', pd.DataFrame({
+            'Sample': ['A'], 'Tmax (°C)': [350], 'Tpeak (°C)': [370]}))])
+        self.assertEqual(len(parsed), 1)
+        self.assertEqual(parsed[0]['source_raw_Tmax_C'], '')
+        originals = json.loads(parsed[0]['source_raw_Tmax_header_values_json'])
+        self.assertEqual([v['literal'] for v in originals], ['350', '370'])
+        self.assertNotIn('Tmax1_C', parsed[0])
 
 
 class ExtractionMainTests(unittest.TestCase):
@@ -110,6 +133,20 @@ class ExtractionMainTests(unittest.TestCase):
         self.assertEqual(rows.iloc[0]['pairing_status'], 'verified_exact')
         self.assertEqual(self.extracted().iloc[0]['grade'], 'A')
 
+    def test_automatic_generic_peak_stays_raw_even_with_same_state_review(self):
+        self.approve()
+        generic = [('LOI of cotton fabrics', pd.DataFrame({'Sample': ['Cotton_A'], 'LOI (%)': [28.5]})),
+                   ('TGA of cotton fabrics in nitrogen; heating rate 10 °C/min',
+                    pd.DataFrame({'Sample': ['Cotton_A'], 'Tmax (°C)': [350.0]}))]
+        self.run_main(extract.SourceResult(FULL_TEXT, generic, self.candidate['fulltext_url']))
+        row = self.extracted().iloc[0]
+        self.assertEqual(row['grade'], 'B')
+        self.assertEqual(row['source_raw_Tmax_C'], '350.0')
+        self.assertIn('not reviewed', row['source_Tmax_definition'])
+        self.assertFalse(row.get('Tmax1_C', ''))
+        self.assertFalse(row.get('Tmax_unnumbered_C', ''))
+        self.assertFalse(list(extract.INC.glob('*.csv')))
+
     def test_labels_alone_remain_b_without_scientific_attestation(self):
         self.run_main(source_result())
         record = self.extracted().iloc[0]
@@ -144,7 +181,7 @@ class ExtractionMainTests(unittest.TestCase):
         samples = ['Cotton_A after 5 wash cycles', 'Cotton_B']
         parsed = [
             ('LOI of cotton fabrics', pd.DataFrame({'Sample': samples, 'LOI (%)': [28.5, 29]})),
-            ('TGA of cotton fabrics', pd.DataFrame({'Sample': samples, 'Tmax (°C)': [350, 360]})),
+            ('TGA of cotton fabrics', pd.DataFrame({'Sample': samples, 'Tmax1 (°C)': [350, 360]})),
         ]
         self.run_main(extract.SourceResult(FULL_TEXT, parsed, self.candidate['fulltext_url']))
         rows = pd.read_csv(next(extract.INC.glob('verified_auto_*.csv')), dtype=str).fillna('')
@@ -156,7 +193,7 @@ class ExtractionMainTests(unittest.TestCase):
         samples = ['after 5 wash cycles', 'Cotton_A']
         parsed = [
             ('LOI of cotton fabrics', pd.DataFrame({'Sample': samples, 'LOI (%)': ['', 28.5]})),
-            ('TGA of cotton fabrics', pd.DataFrame({'Sample': samples, 'Tmax (°C)': ['', 350]})),
+            ('TGA of cotton fabrics', pd.DataFrame({'Sample': samples, 'Tmax1 (°C)': ['', 350]})),
         ]
         self.run_main(extract.SourceResult(FULL_TEXT, parsed, self.candidate['fulltext_url']))
         rows = self.extracted()

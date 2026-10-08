@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import pandas as pd
+from scripts import textile_scope as scope
 from scripts import pairing as p
 from scripts import validate_tg_loi as v
 
@@ -55,6 +56,88 @@ class PairIdentityTests(unittest.TestCase):
         self.assertFalse(p.evidence_issues(row))
         row['Tmax1_C'] = '350'
         self.assertIn('measurement_review_pending_or_stale', p.evidence_issues(row))
+
+
+class UnnumberedPeakTests(unittest.TestCase):
+    def row(self, value='363.6'):
+        return observation(Tmax1_C='', Tmax_unnumbered_C=value,
+                           source_raw_Tmax_C=value,
+                           source_Tmax_definition='Original unnumbered Tpeak: maximum decomposition rate; Table 6.')
+
+    def test_defined_unnumbered_peak_is_a_sole_TG_metric(self):
+        row = approve(self.row())
+        master, _, _, report = v.build_tables(pd.DataFrame([row]))
+        self.assertEqual(len(master), 1)
+        self.assertEqual(report['verified_exact_sample_states'], 1)
+        self.assertFalse(master.iloc[0]['Tmax1_C'])
+        self.assertEqual(master.iloc[0]['Tmax_unnumbered_C'], '363.6')
+
+    def test_unknown_raw_peak_is_not_a_numeric_TG_candidate(self):
+        row = approve(observation(Tmax1_C='', source_raw_Tmax_C='348',
+                                  source_Tmax_definition='Maximum label; rate criterion unknown.'))
+        master, candidates, _, _ = v.build_tables(pd.DataFrame([row]))
+        self.assertTrue(master.empty)
+        self.assertTrue(candidates.empty)
+
+    def test_empty_alias_keeps_fingerprint_but_actual_generic_value_is_bound(self):
+        base = observation(Tmax1_C='')
+        self.assertEqual(p.measurement_fingerprint(base), p.measurement_fingerprint(dict(base, Tmax_unnumbered_C='')))
+        generic = self.row()
+        self.assertNotEqual(p.measurement_fingerprint(base), p.measurement_fingerprint(generic))
+        self.assertNotEqual(p.measurement_fingerprint(generic),
+                            p.measurement_fingerprint(observation(Tmax1_C='363.6')))
+        self.assertEqual(p.measurement_fingerprint(generic),
+                         p.measurement_fingerprint(dict(generic, source_raw_Tmax_C='999')))
+        self.assertEqual(p.pair_key(base), p.pair_key(generic))
+
+    def test_historical_Tmax_C_is_not_silently_promoted(self):
+        base = observation(Tmax1_C='')
+        legacy = dict(base, Tmax_C='418')
+        self.assertEqual(p.measurement_fingerprint(base), p.measurement_fingerprint(legacy))
+        master, candidates, _, _ = v.build_tables(pd.DataFrame([approve(legacy)]))
+        self.assertTrue(master.empty)
+        self.assertTrue(candidates.empty)
+
+    def test_unnumbered_peak_cannot_reuse_stale_numeric_review(self):
+        row = approve(self.row())
+        row['Tmax_unnumbered_C'] = '397.7'
+        self.assertIn('measurement_review_pending_or_stale', p.evidence_issues(row))
+
+    def test_generic_temperature_invalid_values_reject(self):
+        for value in ['19', '1501', 'inf', '-inf', 'nan', 'bad', '350–360']:
+            with self.subTest(value=value):
+                self.assertTrue(v.numeric_errors(pd.DataFrame([self.row(value)])))
+
+    def test_raw_alias_is_one_observation_and_scope_binding_changes_with_value(self):
+        row = approve(self.row())
+        master, _, _, report = v.build_tables(pd.DataFrame([row]))
+        self.assertEqual(len(master), 1)
+        self.assertEqual(report['verified_exact_condition_records'], 1)
+        alias = dict(row, source_raw_Tmax_C='363.6', source_Tmax_label='Tpeak')
+        self.assertEqual(scope.observation_key(row), scope.observation_key(alias))
+        changed = approve(dict(row, Tmax_unnumbered_C='397.7'))
+        self.assertNotEqual(scope.observation_key(row), scope.observation_key(changed))
+        self.assertEqual(p.sample_state_id(row), p.sample_state_id(changed))
+
+    def test_invalid_unnumbered_temperature_cannot_publish_over_previous_outputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            paths = [Path(tmp) / name for name in ['master.csv', 'candidates.csv', 'quarantine.csv', 'report.json']]
+            for path in paths:
+                path.write_text('previous valid snapshot')
+            row = approve(self.row('bad'))
+            with patch.object(v, 'load_all', return_value=pd.DataFrame([row])), \
+                 patch.object(v, 'issue_list', return_value=[]), \
+                 patch.object(v, 'MASTER', paths[0]), patch.object(v, 'CANDIDATES', paths[1]), \
+                 patch.object(v, 'QUARANTINE', paths[2]), patch.object(v, 'REPORT', paths[3]):
+                with self.assertRaises(SystemExit):
+                    v.main()
+            self.assertTrue(all(path.read_text() == 'previous valid snapshot' for path in paths))
+
+    def test_same_state_two_gases_does_not_add_a_mother(self):
+        rows = [approve(self.row()), approve(dict(self.row(), atmosphere='air'))]
+        _, _, _, report = v.build_tables(pd.DataFrame(rows))
+        self.assertEqual(report['verified_exact_condition_records'], 2)
+        self.assertEqual(report['verified_exact_sample_states'], 1)
 
 
 class EvidenceValidationTests(unittest.TestCase):

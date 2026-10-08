@@ -8,21 +8,21 @@ import pandas as pd, requests
 from bs4 import BeautifulSoup
 
 try:
-    from .pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
+    from .pairing import TG_FIELDS, normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
 except ImportError:  # Direct script execution.
-    from pairing import normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
+    from pairing import TG_FIELDS, normalize_label, normalized_pair_key, reviewed_metadata, evidence_issues, pair_key, is_network_doi, registry_digest
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; AUTO=DATA/'automation'; INC=DATA/'incoming'
 CAND=AUTO/'candidate_extractions.csv'; EXT=AUTO/'auto_extracted.csv'; REVIEW=AUTO/'review_queue.csv'; STATE=AUTO/'auto_extract_state.json'; MASTER=DATA/'tg_loi_master.csv'
 PAIR_REVIEWS=DATA/'curation'/'pair_reviews.csv'
 AUTO.mkdir(parents=True,exist_ok=True); INC.mkdir(parents=True,exist_ok=True)
-EXTRACTOR_VERSION='6'; HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
+EXTRACTOR_VERSION='7'; HEAD={'User-Agent':'textile-tga-database/1.1 (public academic data curation; GitHub PolyFT/textile-tga-database)'}
 ALLOWED={'pmc.ncbi.nlm.nih.gov','europepmc.org','www.europepmc.org','www.mdpi.com','mdpi.com','pubs.rsc.org','www.frontiersin.org','link.springer.com','journals.sagepub.com','www.hindawi.com','onlinelibrary.wiley.com'}
 NUM=re.compile(r'[-+]?\d+(?:\.\d+)?'); RANGE=re.compile(r'\d+(?:\.\d+)?\s*(?:-|–|—|to)\s*\d+(?:\.\d+)?',re.I); UNC=re.compile(r'(\d+(?:\.\d+)?)\s*(?:±|\+/-)\s*(\d+(?:\.\d+)?)')
 RATE1=re.compile(r'(?:heating\s*rate|heated[^.;\n]{0,80}?at|heating\s+at|rate\s+of)[^.;\n]{0,80}?(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
 RATE2=re.compile(r'(\d+(?:\.\d+)?)\s*(?:°\s*C|℃|K)\s*(?:/|per)\s*min(?:ute)?',re.I)
 ATM=[('N2',re.compile(r'\b(?:nitrogen|N\s*2|N₂)\b',re.I)),('air',re.compile(r'\b(?:air|oxidative atmosphere)\b',re.I)),('O2',re.compile(r'\b(?:oxygen|O\s*2|O₂)\b',re.I)),('argon',re.compile(r'\b(?:argon|Ar)\b',re.I))]
-TG_PAT=[('T1_C',r'\bT\s*1\b|1\s*%.*loss'),('T5_C',r'\bT\s*5\b|5\s*%.*loss|T\s*d\s*,?\s*5'),('T10_C',r'\bT\s*10\b|10\s*%.*loss|T\s*d\s*,?\s*10'),('T20_C',r'\bT\s*20\b|20\s*%.*loss'),('T40_C',r'\bT\s*40\b|40\s*%.*loss'),('T50_C',r'\bT\s*50\b|50\s*%.*loss'),('Tonset_C',r'T\s*onset|onset\s*(?:temperature)?|initial decomposition temperature'),('Tmax2_C',r'T\s*max\s*2|second.*peak'),('Tmax3_C',r'T\s*max\s*3|third.*peak'),('Tmax1_C',r'T\s*max(?:\s*1)?|T\s*dmax|peak\s*(?:decomposition\s*)?temperature')]
+TG_PAT=[('T1_C',r'\bT\s*1\b|1\s*%.*loss'),('T5_C',r'\bT\s*5\b|5\s*%.*loss|T\s*d\s*,?\s*5'),('T10_C',r'\bT\s*10\b|10\s*%.*loss|T\s*d\s*,?\s*10'),('T20_C',r'\bT\s*20\b|20\s*%.*loss'),('T40_C',r'\bT\s*40\b|40\s*%.*loss'),('T50_C',r'\bT\s*50\b|50\s*%.*loss'),('Tonset_C',r'T\s*onset|onset\s*(?:temperature)?|initial decomposition temperature'),('Tmax2_C',r'\bT\s*d?max\s*2\b|second.*peak'),('Tmax3_C',r'\bT\s*d?max\s*3\b|third.*peak'),('Tmax4_C',r'\bT\s*d?max\s*4\b|fourth.*peak'),('Tmax1_C',r'\bT\s*d?max\s*1\b|first.*peak'),('source_raw_Tmax_C',r'\bT\s*d?max\b|\bT\s*peak\b|peak\s*(?:decomposition\s*)?temperature')]
 TG_PAT=[(k,re.compile(p,re.I)) for k,p in TG_PAT]
 WASH_RE=re.compile(r'(?:after\s*)?(\d+)\s*(?:wash(?:ing)?|launder(?:ing)?)\s*(?:cycles?|times?)?',re.I)
 
@@ -84,6 +84,9 @@ def residue(h):
 def tgfield(h):
     r=residue(h)
     if r:return r
+    if (re.search(r'water|moisture|evaporat|dehydrat|dehydrox|hydroxyl',h,re.I)
+            and re.search(r'T\s*d?max|T\s*peak|peak',h,re.I)):
+        return 'source_raw_Tmax_C'
     if re.search(r'T\s*onset\s*10\s*%|onset[^%]{0,15}10\s*%',h,re.I): return 'T10_C'
     for k,p in TG_PAT:
         if p.search(h):return k
@@ -225,7 +228,17 @@ def tg_rows(full,tables):
                 if v is None:continue
                 if (f.startswith('R') or 'residue' in f.lower()) and not (0<=v<=100):continue
                 if f.endswith('_C') and not (20<=v<=1500):continue
-                a=infer_atm(full,ctx,c) or ''; groups.setdefault(a,{})[f]=v
+                a=infer_atm(full,ctx,c) or ''; vals=groups.setdefault(a,{})
+                if f == 'source_raw_Tmax_C':
+                    originals=json.loads(vals.get('source_raw_Tmax_header_values_json','[]'))
+                    originals.append({'header':str(c),'literal':str(r.get(c)).strip()})
+                    vals['source_raw_Tmax_header_values_json']=json.dumps(originals,ensure_ascii=False)
+                    vals['source_Tmax_label']='; '.join(item['header'] for item in originals)
+                    vals['source_Tmax_definition']='Automatic header-only draft; maximum-rate criterion and peak assignment not reviewed.'
+                    values={exact(item['literal'])[0] for item in originals}
+                    vals[f]=originals[0]['literal'] if len(values)==1 else ''
+                else:
+                    vals[f]=v
             for a,vals in groups.items():
                 if vals:
                     w=wash_state(sample) or current_wash or wash_state(ctx)
@@ -443,6 +456,7 @@ def main():
                      'sample_state':l['sample_state'],'sample_norm':l['sample_norm'],'washing_state':l.get('washing_state',''),
                      'LOI_pct':l['LOI_pct'],'LOI_uncertainty_pct':l.get('LOI_uncertainty_pct'),
                      'atmosphere':a,'heating_rate_C_min':r,**nums,
+                     **{k:v for k,v in t.items() if k.startswith('source_')},
                      'source_url':source_url(c,url),'source_location':f"LOI table: {l['ctx']}; TG table: {t['ctx']}",
                      'evidence':'Structured table values with matching labels; matching labels alone do not verify identical specimen form or treatment state.',
                      'numeric_evidence_type':'tabulated','candidate_fingerprint':f,
@@ -454,7 +468,7 @@ def main():
                 issues=evidence_issues(rec)
                 reviewed_form=normalize_label(rec.get('material_form_TGA',''))
                 textile_review=bool(re.search(r'\b(?:fabric|textile|fibers?|fibres?|yarn|nonwoven)\b',reviewed_form))
-                complete=bool(a and r is not None and nums and mat and form and not nontext and textile_review)
+                complete=bool(a and r is not None and any(k in TG_FIELDS for k in nums) and mat and form and not nontext and textile_review)
                 g='A' if complete and not issues else 'B'
                 rec.update({'grade':g,'direct_numeric_use':'TG+LOI' if g=='A' else 'review',
                             'reason_code':'verified_pair' if g=='A' else 'pair_requires_review',

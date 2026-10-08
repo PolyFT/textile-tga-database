@@ -37,6 +37,23 @@ class ReaderTableTests(unittest.TestCase):
             self.assertNotIn('999', str(display))
             self.assertNotIn('998', str(display))
 
+    def test_defined_unnumbered_peak_keeps_ordinal_blank(self):
+        row = dict(Tmax_unnumbered_C='363.6', source_raw_Tmax_C='363.6',
+                   source_Tmax_definition='Original unnumbered maximum decomposition-rate temperature')
+        display = dict(zip(reader.HEADERS, reader.reading_row(row, {'scope_class': 'fiber_forming_polymer_composite'})))
+        self.assertEqual(len(reader.HEADERS), 25)
+        self.assertEqual(display['Tmax1 (℃)'], '')
+        self.assertEqual(display['其他TG温度（℃）'], 'Tmax_unnumbered_C=363.6')
+        self.assertIn('source_raw_Tmax_C=363.6', display['限制与不确定性'])
+        self.assertIn(row['source_Tmax_definition'], display['限制与不确定性'])
+
+    def test_historical_generic_Tmax_C_is_not_new_canonical_display(self):
+        legacy = dict(Tmax_C='418', source_raw_Tmax_C='418')
+        display = reader.reading_row(legacy, {'scope_class': 'fiber_forming_polymer_composite'})
+        self.assertEqual(display[9], '')
+        self.assertEqual(display[13], '')
+        self.assertIn('source_raw_Tmax_C=418', display[20])
+
     def test_no_temperature_guessing_or_zero_loss(self):
         row = dict(sample_state='A', LOI_pct='18.0', T5_C='250', T10_C='300',
                    Tonset_C='320', Tmax1_C='350', T30_C='330', Tmax2_C='410',

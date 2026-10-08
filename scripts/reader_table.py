@@ -65,7 +65,7 @@ def reading_row(row, entry):
                    'LOI_specimen_geometry', 'LOI_standard', 'LOI_instrument'})
     tg_notes = [key for key in note_fields + error_fields if 'LOI' not in key]
     loi_notes = [key for key in note_fields + error_fields if 'LOI' in key]
-    other = sorted(key for key in row if (re.fullmatch(r'T\d+_C|Tmax[234]_C', key)
+    other = sorted(key for key in row if (re.fullmatch(r'T\d+_C|Tmax_unnumbered_C|Tmax[234]_C', key)
                    or key == 'source_T70_C')
                    and key not in {'T5_C', 'T10_C'})
     residual = []

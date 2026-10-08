@@ -16,7 +16,8 @@ Core analytical fields:
 | `heating_rate_C_min` | TGA heating rate |
 | `T1_C`, `T5_C`, `T10_C`, `T20_C`, `T40_C`, `T50_C` | Temperatures at specified mass loss; `T1_C` is retained only when the source explicitly reports Td,1% |
 | `Tonset_C` | Reported onset / initial decomposition temperature |
-| `Tmax1_C`, `Tmax2_C`, `Tmax3_C` | DTG peak temperatures |
+| `Tmax_unnumbered_C` | Unnumbered ordinary-TG decomposition temperature explicitly defined in the original source as the maximum mass-loss rate. Source-reviewed mapping only; retain `source_raw_Tmax_C`, `source_Tmax_label`, `source_Tmax_definition` and original locator. No stage number is implied. |
+| `Tmax1_C`, `Tmax2_C`, `Tmax3_C` | Explicitly numbered DTG peak temperatures; preserve original ordinals, never sort or number an unnumbered peak |
 | `residue_at_Tmax_pct` | Residual mass reported at a single DTG peak / Tmax when explicitly tabulated |
 | `residue_at_Tmax1_pct`, `residue_at_Tmax2_pct`, `residue_at_Tmax3_pct` | Residual mass corresponding to `Tmax1_C`, `Tmax2_C`, and `Tmax3_C` when a source reports multiple DTG peaks |
 | `residue_temp_C` | Temperature corresponding to `residue_pct` |
@@ -51,3 +52,7 @@ LOI ranges must remain interval data. A range such as 16.5–17.0% is stored in 
 ## Stage-resolved decomposition fields
 
 Some sources report the start temperature and mass loss of successive decomposition stages rather than DTG maxima. Preserve these as `stage1_start_C`, `stage1_mass_loss_pct`, `stage2_start_C`, `stage2_mass_loss_pct`, `stage3_start_C`, and `stage3_mass_loss_pct`. Do not relabel stage-start temperatures as `Tmax` or `Tonset` unless the source explicitly defines them that way.
+
+An unnumbered label such as Tmax, Tdmax or Tpeak does not establish its physical criterion. Automatic extraction retains such values in `source_raw_Tmax_C` with the original header and an unreviewed-definition note; it does not fill `Tmax_unnumbered_C` or `Tmax1_C`. Unknown criteria, evaporation/water/dehydroxylation peaks, calculated values and other assays must not be promoted to ordinary decomposition maxima. Only an explicit original definition and the existing fingerprint-bound source/state/method review can support manual `Tmax_unnumbered_C`. Raw and canonical aliases describe one observation, not two TG tests. Empty `Tmax_unnumbered_C` preserves legacy measurement fingerprints; a newly filled or changed value requires review and scope-binding updates.
+
+Historical `Tmax_C` columns are retained as original staging fields. They are not automatically migrated to `Tmax_unnumbered_C`, reinterpreted as source-reviewed maximum-rate temperatures, or added to numeric evidence or reading columns.

@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REVIEWS = ROOT / 'data/curation/pair_reviews.csv'
 TG_FIELDS = [
     'T1_C', 'T5_C', 'T10_C', 'T20_C', 'T25_C', 'T30_C', 'T40_C', 'T50_C', 'T75_C', 'T80_C',
-    'Tonset_C', 'Tmax1_C', 'Tmax2_C', 'Tmax3_C', 'Tmax4_C',
+    'Tonset_C', 'Tmax_unnumbered_C', 'Tmax1_C', 'Tmax2_C', 'Tmax3_C', 'Tmax4_C',
     'R400_pct', 'R500_pct', 'R550_pct', 'R600_pct', 'R650_pct',
     'R700_pct', 'R750_pct', 'R800_pct', 'residue_pct',
     'residue_at_Tmax_pct', 'residue_at_Tmax1_pct',
