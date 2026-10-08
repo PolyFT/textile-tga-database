@@ -141,6 +141,27 @@ class UnnumberedPeakTests(unittest.TestCase):
 
 
 class EvidenceValidationTests(unittest.TestCase):
+    def test_reported_synthetic_air_keeps_atmosphere_identity(self):
+        for gas in ['synthetic air', 'syntheticair']:
+            with self.subTest(atmosphere=gas):
+                row = approve(observation(atmosphere=gas))
+                master, _, _, _ = v.build_tables(pd.DataFrame([row]))
+                self.assertEqual(len(master), 1)
+                self.assertEqual(master.iloc[0].atmosphere, gas)
+                self.assertEqual(master.iloc[0].pair_key, p.pair_key(row))
+                self.assertNotEqual(p.pair_key(row), p.pair_key(observation(atmosphere='air')))
+                self.assertEqual(p.measurement_fingerprint(master.iloc[0]), p.measurement_fingerprint(row))
+
+    def test_unresolved_or_unreviewed_gas_remains_pending(self):
+        rows = [approve(observation(atmosphere='')),
+                approve(observation(atmosphere='unspecified mixture')),
+                observation(atmosphere='synthetic air')]
+        for row in rows:
+            with self.subTest(atmosphere=row['atmosphere'], reviewed='pairing_status' in row):
+                master, candidates, _, _ = v.build_tables(pd.DataFrame([row]))
+                self.assertTrue(master.empty)
+                self.assertEqual(candidates.iloc[0].pair_quality, 'pending_review')
+
     def test_complete_legacy_record_is_pending_not_invalid(self):
         master, candidates, quarantine, report = v.build_tables(pd.DataFrame([observation()]))
         self.assertEqual(len(master), 0)
