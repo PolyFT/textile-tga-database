@@ -1,0 +1,88 @@
+{
+  "batch_id": "20261008_b1246",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 45,
+  "new_TG_condition_records": 57,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1007/s00289-015-1432-2",
+    "10.1007/s00289-019-02953-2",
+    "10.1007/s10118-015-1588-0",
+    "10.1007/s10853-016-9887-6",
+    "10.1007/s10965-015-0905-1",
+    "10.1007/s10965-018-1505-7",
+    "10.1016/j.ijbiomac.2021.02.148",
+    "10.1016/j.matchemphys.2020.123743",
+    "10.1016/j.polymertesting.2020.106741",
+    "10.1016/j.polymertesting.2022.107765",
+    "10.1039/c3ta13538a",
+    "10.1039/c4ra04592k",
+    "10.1039/c6ra23909a"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261008_b1246_polymers.csv"
+  ],
+  "scientific_review": "Independent full-source text reviews, root source corrections and source-defined field projection, incremental bounded provenance review with recipe/preparation/citation adjudication. Different test gases count once per sample. No independent manufacturing-lot assertion.",
+  "scientific_limits": "Undefined or conflicted TG criteria remain raw. Program endpoints do not supply missing char temperatures. Unresolved control cohorts and final processing branches are not added to the valid sample count.",
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Actual scientific validation, scope export, all2911 repository tests and247 Python source compilation passed. All old scientific cells and reader rows preserved. Normal PR checks and merge pending.",
+  "local_target_counts": {
+    "samples": 1966,
+    "TG_records": 2505,
+    "sources": 500
+  },
+  "complete_source_reviews_represented": 20,
+  "admitted_source_DOIs": 13,
+  "held_only_source_DOIs": [
+    "10.1002/app.48960",
+    "10.1002/pen.760250710",
+    "10.1007/s10853-020-05367-y",
+    "10.1016/j.matdes.2021.109459",
+    "10.1016/j.tca.2016.03.020",
+    "10.1039/c5ra14586d",
+    "10.1134/s1560090420030173"
+  ],
+  "source_hold_reasons": {
+    "10.1007/s10853-020-05367-y": "Source correspondence retained, but threshold/maximum operation and residue temperature are undefined. No canonical TG coordinate inferred from labels or program endpoint.",
+    "10.1134/s1560090420030173": "Nine source correspondences retained; printed recipe totals100.2wt% and denominator remain unresolved. No normalization.",
+    "10.1002/pen.760250710": "Seven nominal airTG correspondences have unknown ramp rate. PVC wholeblend scope and native dose basis remain separate holds. Six oven residues are other-assay observations with unknown duration, not ordinaryTG.",
+    "10.1016/j.matdes.2021.109459": "Twelve filled gas records have kneadedTG versus compressedLOI history; purePP two gas observations borrow referencedLOI. Preserve all original observations without mixing states or importing a control.",
+    "10.1002/app.48960": "Twenty-seven LDPE/PLA nominal correspondences remain final-processing pending: compression is explicit for mechanical/LOI specimens. Z LOI32.2versus34.2 retained as conflict; blend scope is a separate question.",
+    "10.1016/j.tca.2016.03.020": "Six nominal correspondences remain pending because hotpressed sheets/bars are assigned toLOI/UL94, not explicitly ordinaryTG. Shared F401 controls navigate to the c3ta/c4ra evidence family and are not new independent mothers.",
+    "10.1039/c5ra14586d": "Four moulded firebar correspondences remain pending: ordinaryTG postmoulding history is unassigned. No final-state bridge inferred."
+  },
+  "partial_source_limits": {
+    "10.1016/j.polymertesting.2020.106741": "PurePP two-gas control remains cohort-pending against the already admitted prior control. Earlier source reportsTini396.7; current source explicitly defines5%weightloss and reports296.7. Both source values and criteria remain unchanged; no duplicate control count.",
+    "10.1007/s10853-016-9887-6": "PurePP andPP/EG controls remain shared-cohort pending across the Zheng family; modified formulations remain distinct.",
+    "10.1007/s10965-015-0905-1": "PurePP andPP/EG controls remain shared-cohort pending across the Zheng family; modified formulations remain distinct.",
+    "10.1039/c4ra04592k": "Represents three shared F401 mother states once, including separate gas records; PP3air T50 conflict358versus353 remains raw only.",
+    "10.1039/c3ta13538a": "PP0/PP2/PP5 are evidence-only members of three F401 groups represented byc4ra; not counted again. Original undefined threshold labels andPP2 R8005.6versus5.7 conflict remain raw.",
+    "10.1016/j.ijbiomac.2021.02.148": "PurePP K8303 control remains cohort-pending against direct priorRef29. SLS20/LDH20 swappedLOI alternatives remain held; only source-matchedLDH-LS20 enters this batch.",
+    "10.1016/j.matchemphys.2020.123743": "Explicit160/180/200C extrusion distinguishes reported preparation state from app46507 170/180/190C. No independent manufacturing-lot certificate or final moulding route inferred.",
+    "10.1016/j.polymertesting.2022.107765": "PurePP andPP/MPP peak table/prose disagreements remain raw. Filled-char temperatures are not inferred; only explicitPP/MPP R800 retained.",
+    "10.1007/s10965-018-1505-7": "Only source-definedR800 used; threshold labels lack explicit operation and remain raw. Two additional filled states are LOI/curve-only, not new numeric pairs."
+  },
+  "admitted_condition_counts_by_DOI": {
+    "10.1007/s00289-015-1432-2": 4,
+    "10.1007/s00289-019-02953-2": 1,
+    "10.1007/s10118-015-1588-0": 1,
+    "10.1007/s10853-016-9887-6": 2,
+    "10.1007/s10965-015-0905-1": 2,
+    "10.1007/s10965-018-1505-7": 3,
+    "10.1016/j.ijbiomac.2021.02.148": 1,
+    "10.1016/j.matchemphys.2020.123743": 5,
+    "10.1016/j.polymertesting.2020.106741": 10,
+    "10.1016/j.polymertesting.2022.107765": 6,
+    "10.1039/c3ta13538a": 2,
+    "10.1039/c4ra04592k": 16,
+    "10.1039/c6ra23909a": 4
+  },
+  "source_evidence_only_occurrences": [
+    "B1193-S03-R001",
+    "B1193-S03-R003",
+    "B1193-S03-R006"
+  ],
+  "reader_original_LOI_literals_retained": true
+}
