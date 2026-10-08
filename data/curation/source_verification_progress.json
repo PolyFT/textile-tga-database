@@ -14,15 +14,13 @@
   "publication_stage": "b1075_merged_remote_verified_lease_released",
   "last_merged_batch": "20261008_b1075",
   "writer_lease": {
-    "owner": "codex-local-combined-b1075-20261008",
-    "status": "released",
-    "batch_id": "20261008_b1075",
-    "claimed_at_utc": "2026-10-08T04:33:04.805971+00:00",
-    "expires_at_utc": "2026-10-08T06:03:04.805971+00:00",
-    "previous_release_commit": "d97fa8e586cc91a1a2c4f9b7729b0478bd946895",
-    "purpose": "Publish92newpairs120TG plus192existing scope admissions278TG; evidence upgrades0. Exact reviewed bundle; normal PR checks/approval required.",
-    "released_at_utc": "2026-10-08T05:09:04.968895+00:00",
-    "reason": "Normal PR and both main workflows passed; all changed remote public files exact. Release owned B1075 lease only."
+    "owner": "codex-local-combined-b1114-20261008",
+    "status": "active",
+    "batch_id": "20261008_b1114",
+    "claimed_at_utc": "2026-10-08T06:31:31.544145+00:00",
+    "expires_at_utc": "2026-10-08T08:01:31.544145+00:00",
+    "previous_release_commit": "6130209eda088f0674668c27f9073ad0406ce463",
+    "purpose": "Publish65newpairs67TG plus100existing scope admissions129TG; evidence upgrades0. Exact reviewed bundle; normal PR checks/approval required."
   },
   "next_sources": [],
   "next_actions": [
@@ -1154,7 +1152,7 @@
       "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
       "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
       "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
-      "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
+      "Originalnativeuncertaintyglyph unresolved: not silently\u00b1; no targetsourcevalue changed.",
       "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
       "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
     ]
