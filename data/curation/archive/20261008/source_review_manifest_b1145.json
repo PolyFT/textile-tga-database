@@ -1,0 +1,43 @@
+{
+  "batch_id": "20261008_b1145",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 72,
+  "new_TG_condition_records": 92,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.21522",
+    "10.1002/app.36449",
+    "10.1002/app.46599",
+    "10.1002/app.49621",
+    "10.1002/app.50987",
+    "10.1002/pat.1650",
+    "10.1002/pat.1760",
+    "10.1002/pat.1976",
+    "10.1002/pat.3120",
+    "10.1002/pat.3172",
+    "10.1002/pat.3786",
+    "10.1002/pat.5505",
+    "10.1002/pc.22908",
+    "10.1002/pc.23876",
+    "10.1002/pen.20867",
+    "10.1002/pen.21583",
+    "10.1002/pen.23278",
+    "10.1002/pi.1787",
+    "10.1002/vnl.20218",
+    "10.1002/vnl.21586"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261008_b1145_polymers.csv"
+  ],
+  "scientific_review": "Independent full-source text reviews, root source corrections and source-defined field projection, incremental bounded provenance review with recipe/preparation/citation adjudication. Different test gases count once per sample. No independent manufacturing-lot assertion.",
+  "scientific_limits": "Undefined or conflicted TG criteria remain raw. Program endpoints do not supply missing char temperatures. Unresolved control cohorts and final processing branches are not added to the valid sample count.",
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Data validation, scope export, all2899 repository tests and246 Python file compilation passed. All old scientific cells and reader rows preserved. Normal PR checks and merge pending.",
+  "local_target_counts": {
+    "samples": 1855,
+    "TG_records": 2374,
+    "sources": 470
+  }
+}
