@@ -1,0 +1,33 @@
+{
+  "batch_id": "20261008_b1167",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 25,
+  "new_TG_condition_records": 31,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.24304",
+    "10.1002/app.35601",
+    "10.1002/app.45962",
+    "10.1002/app.46507",
+    "10.1002/pat.3319",
+    "10.1002/pat.4903",
+    "10.1002/pat.5937"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261008_b1167_polymers.csv"
+  ],
+  "scientific_review": "Independent full-source text reviews, root source corrections and source-defined field projection, incremental bounded provenance review with recipe/preparation/citation adjudication. Different test gases count once per sample. No independent manufacturing-lot assertion.",
+  "scientific_limits": "Undefined or conflicted TG criteria remain raw. Program endpoints do not supply missing char temperatures. Unresolved control cohorts and final processing branches are not added to the valid sample count.",
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Actual scientific validation, scope export, all2899 repository tests and246 Python file compilation passed. All old scientific cells and reader rows preserved. Normal PR checks and merge pending.",
+  "local_target_counts": {
+    "samples": 1880,
+    "TG_records": 2405,
+    "sources": 477
+  },
+  "complete_source_reviews": 12,
+  "admitted_source_DOIs": 7,
+  "sources_retained_outside_valid_count": 5
+}
