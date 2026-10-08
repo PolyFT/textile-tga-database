@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 1827,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b1010_reviewed_pending_fullsuite_nonauthor_normal_PR",
-  "last_merged_batch": "20261008_b961",
+  "publication_stage": "b1010_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261008_b1010",
   "writer_lease": {
     "owner": "codex-local-combined-b1010-20261008",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261008_b1010",
     "claimed_at_utc": "2026-10-08T02:00:35.843541+00:00",
     "expires_at_utc": "2026-10-08T03:30:35.843541+00:00",
     "previous_release_commit": "cacd1e95f96305a970c032cf36008a9eddab539c",
-    "purpose": "Reviewed51 new PBS/PLA/PBT/PI/PP states/57TG/9paired sources with9 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required."
+    "purpose": "Reviewed51 new PBS/PLA/PBT/PI/PP states/57TG/9paired sources with9 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required.",
+    "released_at_utc": "2026-10-08T02:38:37.112745+00:00",
+    "reason": "Normal PR merge, nonauthor content integration review and root exact-head binding and both main workflows passed; exact remote public files verified. Release only owned B1010 lease."
   },
   "next_sources": [],
   "next_actions": [
-    "B1010 reviewed51 new PBS/PLA/PBT/PI/PP samples with57TG/9sources; fullsuite, nonauthor integration and normal PR still required. Formal main remains1283/1631/274 until merge verification.",
+    "B1010 normally merged51 genuinely new PBS/PLA/PBT/PI/PP samples/57TG/9sources;0oldscope or evidence upgrades;formal1334/1688/283. Continue local native-text batches and source-family deduplication.",
     "B961 normally merged31 genuinely new polyamide and PP samples/47TG/7pairedsources;0oldscope or evidence upgrades;formal1283/1631/274. Continue local native-text source batches and source-family deduplication.",
     "B912 normally merged18 genuinely new polyamide and PP samples/18TG/8pairedsources;0oldscope or evidence upgrades;formal1252/1584/267. Continue local native-text source batches and source-family deduplication.",
     "B881 normally merged23 genuinely new PP samples/23TG/6pairedsources;0oldscope or evidence upgrades;formal1234/1566/259. Continue local native-text source batches and source-family deduplication.",
@@ -249,9 +251,9 @@
     "legacy_broad_condition_records": 2671,
     "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
     "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
-    "input_master_sha256": "013666ff98326500038f890963d7a255f67a9ec4aad48a03f519faea6bbdfac7",
-    "scope_registry_sha256": "a3b163617131151d6613c27b3c988ebe3fb244af91492930baebb86d259ac1b6",
-    "textile_master_sha256": "907a9667f18b3138c8e312bc517741c3c2b4369f3b541ff6156bfa0d6bb5596d"
+    "input_master_sha256": "65fd7a7db4905cf820d2b48178e07c3a47a42169a11ed6c85ef49fb3ce3ebefc",
+    "scope_registry_sha256": "fc008baeaa76f9ee194d709eef4001cb4602a398e3e557a39ea78066e0634f85",
+    "textile_master_sha256": "3d4e2e7144d56349e74663d19ca97a5ebc83263533c897df84400eab3e2ee591"
   },
   "batch_b361": {
     "accepted_unique_sample_states": 8,
@@ -2128,7 +2130,7 @@
     ]
   },
   "batch_b1010": {
-    "status": "ROOT_SCIENTIFIC_REVIEW_PASSED_PENDING_NORMAL_PR",
+    "status": "merged_remote_verified",
     "formal_science_baseline": [
       1283,
       1631,
@@ -2150,7 +2152,44 @@
       "fiber_forming_polymer_composite": 39
     },
     "source_reuse_schema_direct_review_passed": true,
-    "publication_approved": false,
-    "published": 0
+    "publication_approved": true,
+    "published": 51,
+    "formal_main_counts": [
+      1334,
+      1688,
+      283
+    ]
+  },
+  "publication_b1010": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/200",
+    "PR_number": 200,
+    "merge_sha": "512adb4cd3939d26e5ec2abbc02da437a2cf85ff",
+    "validated_head_sha": "53fbdd232e74448b745d9f3ed56a6227c6ee8668",
+    "new_pairs": 51,
+    "new_TG": 57,
+    "new_sources": 9,
+    "scope_existing_states": 0,
+    "evidence_upgrades": 0,
+    "all_old_master_field_changes": 0,
+    "old_master_cells_exact": 11475460,
+    "old_reader_cells_exact": 40775,
+    "old_registry_entries_exact": 1732,
+    "old_queue_rows_exact": 1134,
+    "old_queue_rows_explicitly_updated": 0,
+    "queue_cells_explicitly_updated": 0,
+    "new_queue_rows": 9,
+    "verified_target_sample_states": 1334,
+    "verified_target_condition_records": 1688,
+    "verified_target_sources": 283,
+    "full_remote_public_files_verified": 15,
+    "unchanged_other_existing_files": 944,
+    "tests": 2885,
+    "compiled_files": 246,
+    "independent_review_sha256": "f1ec5607a2368160a8203c8c17936b425f3c3a750f7d7d47d6e5db348c54b7c0",
+    "root_exact_head_binding_sha256": "7bf60e1898f13212a16b7ba1cc432e6a0f1a885c68bc457f23b3182d4f59d648",
+    "postmerge_runs": [
+      37717541685,
+      37717541754
+    ]
   }
 }
