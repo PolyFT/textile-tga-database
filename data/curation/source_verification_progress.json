@@ -14,15 +14,13 @@
   "publication_stage": "b1383_merged_remote_verified_lease_released",
   "last_merged_batch": "20261009_b1383",
   "writer_lease": {
-    "owner": "codex-local-combined-b1383-20261009",
-    "status": "released",
-    "batch_id": "20261009_b1383",
-    "claimed_at_utc": "2026-10-08T20:48:34.506091+00:00",
-    "expires_at_utc": "2026-10-08T22:18:34.506091+00:00",
-    "previous_release_commit": "47649078e05317f4233c9cfb18858e8c261940c3",
-    "purpose": "Publish reviewed B1383 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required.",
-    "released_at_utc": "2026-10-08T21:24:18.214986+00:00",
-    "reason": "Normal PR and both main workflows passed; all changed remote public files exact. Release owned B1383 lease only."
+    "owner": "codex-local-combined-b1421-20261009",
+    "status": "active",
+    "batch_id": "20261009_b1421",
+    "claimed_at_utc": "2026-10-08T22:48:53.799507+00:00",
+    "expires_at_utc": "2026-10-09T00:18:53.799507+00:00",
+    "previous_release_commit": "c101454a6dd80ebf891cf0cbbe21028b06159ad5",
+    "purpose": "Publish reviewed B1421 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required."
   },
   "next_sources": [],
   "next_actions": [
@@ -1164,7 +1162,7 @@
       "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
       "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
       "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
-      "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
+      "Originalnativeuncertaintyglyph unresolved: not silently\u00b1; no targetsourcevalue changed.",
       "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
       "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
     ]
