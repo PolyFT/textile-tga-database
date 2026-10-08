@@ -1,0 +1,531 @@
+{
+  "batch_id": "20261009_b1383",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 58,
+  "new_TG_condition_records": 75,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.12193",
+    "10.1002/app.34958",
+    "10.1002/app.46236",
+    "10.1002/app.49242",
+    "10.1002/app.49368",
+    "10.1002/app.49523",
+    "10.1002/app.50099",
+    "10.1002/app.50375",
+    "10.1002/app.50393",
+    "10.1002/app.50677"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1383_polymers.csv"
+  ],
+  "scientific_review": "Independent full-source text reviews, root source corrections and source-defined field projection, incremental bounded provenance review with recipe/preparation/citation adjudication. Different test gases count once per sample. No independent manufacturing-lot assertion.",
+  "scientific_limits": "Undefined or conflicted TG criteria remain raw. Program endpoints do not supply missing char temperatures. Unresolved control cohorts and final processing branches are not added to the valid sample count.",
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Actual validation, scope export, all2911 repository tests and247 Python compile checks passed. All3341 old master rows and2765 old reader rows preserved. Nonauthor integration review and normal PR checks/merge pending.",
+  "local_target_counts": {
+    "samples": 2225,
+    "TG_records": 2840,
+    "sources": 554
+  },
+  "complete_source_reviews_represented": 36,
+  "admitted_source_DOIs": 10,
+  "all_original_source_role_views": 492,
+  "source_role_counts": {
+    "paired_candidate": 74,
+    "LOI_only": 126,
+    "nonnumeric_characterization": 3,
+    "other_assay": 100,
+    "referenced_donor": 6,
+    "TG_FTIR_other_assay": 10,
+    "calculated_other_assay": 2,
+    "whole_correspondence_hold": 8,
+    "TG_only": 48,
+    "nonnumeric_agent_characterization": 3,
+    "whole_recipe_label_hold": 1,
+    "TG_curve_only": 5,
+    "TG_qualified_agent": 1,
+    "calculated_TG": 1,
+    "whole_processing_hold": 5,
+    "calculated": 2,
+    "paired_source_proposal": 31,
+    "background_modifier": 3,
+    "UL94_and_TG_curve_only": 14,
+    "TG_only_modifier": 8,
+    "other_assay_CCT_only": 10,
+    "other_assay_open_flame_only": 2,
+    "other_assay_durability": 8,
+    "LOI_conflict_hold": 2,
+    "LOI_only_with_TG_curve_or_interval": 12,
+    "LOI_only_with_undefined_TG_prose": 1,
+    "background_and_calculated": 1,
+    "TG_only_with_curve_LOI": 1,
+    "modifier_and_other_assay": 3,
+    "referenced_background": 1
+  },
+  "original_source_role_views_outside_this_admission": 417,
+  "unadmitted_roles_counted_as_samples": 0,
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/app.12193": 13,
+    "10.1002/app.34958": 5,
+    "10.1002/app.46236": 7,
+    "10.1002/app.49242": 4,
+    "10.1002/app.49368": 4,
+    "10.1002/app.49523": 8,
+    "10.1002/app.50099": 12,
+    "10.1002/app.50375": 12,
+    "10.1002/app.50393": 4,
+    "10.1002/app.50677": 6
+  },
+  "reviewed_source_dispositions": [
+    {
+      "DOI": "10.1002/app.12193",
+      "admitted_TG_records": 13,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF3TableIII/PDF2TablesI–II",
+        "PDF8TableIV/PDF2thermooxidationmethod",
+        "PDF2TableII; TGcurveonlyFig2",
+        "PDF2–4Figures1–4",
+        "PDF1materials/PDF3",
+        "PDF4–8 equations1–2/TablesIV–V"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.12247",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF1–6/Figs1–15/Scheme1",
+        "PDF1/2/5/6"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.12861",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF3 TableI exact row1 and columnbefore_wash",
+        "PDF3 TableI exact row1 and column1HLWD",
+        "PDF3 TableI exact row1 and column5HLWD",
+        "PDF3 TableI exact row1 and column10HLWD",
+        "PDF3 TableI exact row2 and columnbefore_wash",
+        "PDF3 TableI exact row2 and column1HLWD",
+        "PDF3 TableI exact row2 and column5HLWD",
+        "PDF3 TableI exact row2 and column10HLWD",
+        "PDF3 TableI exact row4 and columnbefore_wash",
+        "PDF3 TableI exact row4 and column1HLWD",
+        "PDF3 TableI exact row4 and column5HLWD",
+        "PDF3 TableI exact row4 and column10HLWD",
+        "PDF3 TableI exact row6 and columnbefore_wash",
+        "PDF3 TableI exact row6 and column1HLWD",
+        "PDF3 TableI exact row6 and column5HLWD",
+        "PDF3 TableI exact row6 and column10HLWD",
+        "PDF3 TableI exact row8 and columnbefore_wash",
+        "PDF3 TableI exact row8 and column1HLWD",
+        "PDF3 TableI exact row8 and column5HLWD",
+        "PDF3 TableI exact row8 and column10HLWD",
+        "PDF3 TableI exact row10 and columnbefore_wash",
+        "PDF3 TableI exact row10 and column1HLWD",
+        "PDF3 TableI exact row10 and column5HLWD",
+        "PDF3 TableI exact row10 and column10HLWD",
+        "PDF3 TableI exact row12 and columnbefore_wash",
+        "PDF3 TableI exact row12 and column1HLWD",
+        "PDF3 TableI exact row12 and column5HLWD",
+        "PDF3 TableI exact row12 and column10HLWD",
+        "PDF4 TableII exact row130 and columnbefore_wash",
+        "PDF4 TableII exact row130 and column1HLWD",
+        "PDF4 TableII exact row130 and column5HLWD",
+        "PDF4 TableII exact row130 and column10HLWD",
+        "PDF4 TableII exact row140 and columnbefore_wash",
+        "PDF4 TableII exact row140 and column1HLWD",
+        "PDF4 TableII exact row140 and column5HLWD",
+        "PDF4 TableII exact row140 and column10HLWD",
+        "PDF4 TableII exact row150 and columnbefore_wash",
+        "PDF4 TableII exact row150 and column1HLWD",
+        "PDF4 TableII exact row150 and column5HLWD",
+        "PDF4 TableII exact row150 and column10HLWD",
+        "PDF4 TableII exact row160 and columnbefore_wash",
+        "PDF4 TableII exact row160 and column1HLWD",
+        "PDF4 TableII exact row160 and column5HLWD",
+        "PDF4 TableII exact row160 and column10HLWD",
+        "PDF4 TableII exact row165 and columnbefore_wash",
+        "PDF4 TableII exact row165 and column1HLWD",
+        "PDF4 TableII exact row165 and column5HLWD",
+        "PDF4 TableII exact row165 and column10HLWD",
+        "PDF4 TableII exact row170 and columnbefore_wash",
+        "PDF4 TableII exact row170 and column1HLWD",
+        "PDF4 TableII exact row170 and column5HLWD",
+        "PDF4 TableII exact row170 and column10HLWD",
+        "PDF4 TableII exact row180 and columnbefore_wash",
+        "PDF4 TableII exact row180 and column1HLWD",
+        "PDF4 TableII exact row180 and column5HLWD",
+        "PDF4 TableII exact row180 and column10HLWD",
+        "PDF5 TableIII exact row4 and columnbefore_wash",
+        "PDF5 TableIII exact row4 and column1HLWD",
+        "PDF5 TableIII exact row4 and column5HLWD",
+        "PDF5 TableIII exact row4 and column10HLWD",
+        "PDF5 TableIII exact row8 and columnbefore_wash",
+        "PDF5 TableIII exact row8 and column1HLWD",
+        "PDF5 TableIII exact row8 and column5HLWD",
+        "PDF5 TableIII exact row8 and column10HLWD",
+        "PDF5 TableIII exact row12 and columnbefore_wash",
+        "PDF5 TableIII exact row12 and column1HLWD",
+        "PDF5 TableIII exact row12 and column5HLWD",
+        "PDF5 TableIII exact row12 and column10HLWD",
+        "PDF5 TableIII exact row16 and columnbefore_wash",
+        "PDF5 TableIII exact row16 and column1HLWD",
+        "PDF5 TableIII exact row16 and column5HLWD",
+        "PDF5 TableIII exact row16 and column10HLWD",
+        "PDF5 TableIII exact row18 and columnbefore_wash",
+        "PDF5 TableIII exact row18 and column1HLWD",
+        "PDF5 TableIII exact row18 and column5HLWD",
+        "PDF5 TableIII exact row18 and column10HLWD",
+        "PDF5 TableIII exact row20 and columnbefore_wash",
+        "PDF5 TableIII exact row20 and column1HLWD",
+        "PDF5 TableIII exact row20 and column5HLWD",
+        "PDF5 TableIII exact row20 and column10HLWD",
+        "PDF5 TableIII exact row24 and columnbefore_wash",
+        "PDF5 TableIII exact row24 and column1HLWD",
+        "PDF5 TableIII exact row24 and column5HLWD",
+        "PDF5 TableIII exact row24 and column10HLWD",
+        "PDF5/6 TablesIV–VI/Eq1/Fig6"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.13279",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2 methods; PDF4 thermal; PDF6 LOI; PDF7 DSCFigures8/9; PDF8 TableIII",
+        "PDF1–3/5"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.22144",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2 methods; PDF3 TableI; PDF6 TableII; Figs2–8",
+        "PDF4/7 Figs3/4/6/8",
+        "PDF2/5–7"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.24898",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2 finishing bath/method; PDF5 TableIV",
+        "PDF2–5 TablesI–III/Figs1–8"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.27829",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF1–9; TablesI–XV whole headers/rows/footnotes; Figs1–6; Scheme1; references1–17"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.28841",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2 methods; PDF4 thermal; PDF6 TableI; PDF7 LOI; PDF8 conclusion",
+        "PDF3/8 Figs6–8"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.31733",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF1materials;PDF2TableI/prep/method",
+        "PDF2CCTISO5660/50kW;PDF3–5"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.31860",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF7TableI;PDF12TableIIrow1",
+        "PDF7TableI",
+        "PDF12TableIIrow2",
+        "PDF12TableIIrow3",
+        "PDF12TableIIrow4",
+        "PDF12TableIIrow5",
+        "PDF12TableIIrow6",
+        "PDF12TableIIrow7",
+        "PDF12TableIIrow8",
+        "PDF12TableIIrow9",
+        "PDF2/Ref32"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.34958",
+      "admitted_TG_records": 5,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF3TableI/PDF5TableII",
+        "PDF2–3watermethods/PDF6–7"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.46236",
+      "admitted_TG_records": 7,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF2TablesI–II/PDF6TableV",
+        "PDF6TablesV–VI",
+        "PDF6–7Figures7–8",
+        "PDF6discussion"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.49242",
+      "admitted_TG_records": 4,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF1–10 complete; PDF2§2.1–2.3 synthesis/materials; PDF3 Table1/common preparation and LOI; PDF4 TGmethod; PDF5 Table2; PDF7 Table4; PDF8–9 TGbody/conclusion; PDF9–10 refs",
+        "PDF2 synthesis; PDF4–5 Figures3–6 XRD/SEM/size/solubility",
+        "PDF6–7 Table3/body"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.49353",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp3–4methods;p8§3.4/Fig7;p10conclusion",
+        "PDFp4–5methods;p7–10Figs5/6/9"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.49368",
+      "admitted_TG_records": 4,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF3 Table1/§2.4;PDF4§2.5;PDF6§3.3;PDF7 Table3;PDF10 Table5",
+        "PDF3§2.3;PDF7 Table3",
+        "PDF3methods;PDF6 Table2;PDF9 Table4/Fig7;PDF11 Table6"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.49523",
+      "admitted_TG_records": 8,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF1–11 complete; PDF2§2materials/prep/methods; PDF3Table1/Tonsetdefinition; PDF4Table2; PDF5Table3; PDF7Tables4–5 cone/calculated; PDF8–10 gas/char; PDF11refs",
+        "PDF2 introductoryearlierstudy/refs40–43",
+        "PDF8–10§3.5/Figure10",
+        "PDF7Table5/Eq1–3"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.49607",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF4§2.3;PDF5Table1/method;PDF9§3.2.2–3.2.3;PDF11Table4;PDF12Table5;PDF13conclusion",
+        "PDF5method;PDF8prose;PDF9Table3",
+        "PDF9prose;PDF11Fig9",
+        "Tables2/6/7;Figures1–10;Scheme1"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.50099",
+      "admitted_TG_records": 12,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF9Table1/PDF10Table2/PDF8conflicts",
+        "PDF10Table2;noTable1TGrow",
+        "PDF4–7",
+        "PDF2introduction/Ref4"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.50149",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF3materials;PDF4Tables1/2/prep;PDF5methods;PDF9/10Tables4/5;PDF13Table6"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.50375",
+      "admitted_TG_records": 12,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF4§2.3/2.4;PDF5Table1;PDF6Table2;PDF9Table3",
+        "PDF6§3.4;PDF9Fig3",
+        "Figures1–5/Scheme1/Tables1–3"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.50393",
+      "admitted_TG_records": 4,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF1–11complete; PDF2synthesis/materials;PDF3Table1/prep/methods;PDF5Table2/definitions;PDF6Table3;PDF7Table4mechanical;PDF9Table5smoke;PDF10–11refs",
+        "PDF3Table1/PDF5Table2; notTable3ADPpowder",
+        "PDF5–6Table3",
+        "PDF9Table5"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.50677",
+      "admitted_TG_records": 6,
+      "disposition": "selected_defined_conflict_free_metrics_only",
+      "source_locators": [
+        "PDF3§2.4/PDF8Table1/PDF9Table2",
+        "PDF3§2.4/PDF9Table2",
+        "PDF8§3.3/Fig6a1,b1",
+        "PDF3§2.3–2.4/PDF8§3.3",
+        "PDF3/6–7",
+        "PDF9–12"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.51429",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp3 §2.2/2.5; PDFp9 Fig9/10 prose"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.51755",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF1–14 complete; PDF2Table1; PDF3§2.2–2.3; PDF4methods; PDF5isolatedPASO; PDF6Table4; PDF7LOI; PDF8–9TG; PDF13–14refs",
+        "PDF5–6Figures3–4/PASOthermalcharacterization",
+        "PDF10–12Figure12",
+        "PDF2 introduction/Ref24"
+      ]
+    },
+    {
+      "DOI": "10.1002/app.51940",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF1–12 complete; PDF2materials/MMTmodification; PDF3prep/methods/Table1; PDF4definitions; PDF5Tables2–3; PDF7Table4CCT; PDF10–11TGFTIR; PDF11–12refs",
+        "PDF10–11Figure8",
+        "PDF2–4"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.1542",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp2–3 methods;p4Table1;p6Table2;p5/7TGcaptions",
+        "PDFp2 synthesis;p3/5/7Figs1/3/5 andbody"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.1929",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp2/589Table1&methods;p3/590Table2/3/definitions",
+        "PDFp3Table2/Fig1",
+        "PDFp2otherassaymethods;p4–7Figs3–8/Table4–7"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.1994",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp1–2methods;p3Table1;p4Table2;Figs1–5"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.4843",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2§2.2–2.3;PDF3Table1/method;PDF6–7§3.4;PDF8Fig8/Table2",
+        "Figures1–10/Tables1–2"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5068",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2§2.4;PDF3method;PDF5/9prose;PDF6Table2",
+        "PDF2synthesis;PDF3method;PDF5§3.3;PDF6Fig6",
+        "Tables1–3/Figs1–11/Schemes1–2"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5133",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF3Table1;PDF6Tables2–3;PDF11Table7",
+        "PDF6Table2/PDF5DTGdiscussion",
+        "PDF10–11Equation2/Figure9C",
+        "PDF4/7Figure5",
+        "PDF2/Ref26",
+        "PDF2/Ref27"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5200",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp7§2.5; PDFp11§3.4; PDFp13Table2/LOIprose; PDFp15Table3"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5231",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp2§2.2; PDFp3Table1; PDFp4§3.2; PDFp6Fig5/Table3"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5237",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp1abstract;PDFp2§2.3/2.4;PDFp3§3.2;PDFp5Fig4;PDFp8Fig8",
+        "PDFp2§2.2;PDFp3–5Figs1–3"
+      ]
+    },
+    {
+      "DOI": "10.1002/pat.5299",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDFp2 preparation;p3LOI;p4Table1;p5Table2",
+        "PDFp2§2.2.1;p3§2.4;p4–6§3.3/Fig6"
+      ]
+    },
+    {
+      "DOI": "10.1002/pc.25596",
+      "admitted_TG_records": 0,
+      "disposition": "source_reviewed_not_admitted",
+      "source_locators": [
+        "PDF2§2/3/5;PDF5–6§6.2/Table1",
+        "PDF2§4;PDF5§6.1;PDF7Table2"
+      ]
+    }
+  ],
+  "scientific_count_unit": "Reported recipe/form/preparation states; gas/ramp conditions do not multiply states. Independent manufacturing lots are unreported.",
+  "reader_original_LOI_literals_retained": true,
+  "source_family_decisions": {
+    "source59_schema_proposal.csv": "Root B1367/B1382 full source correspondence, reported recipe/preparation-state family adjudication; six controls explicitly resolved under latest root revision2; all original holds retained.",
+    "source16_reviewed_schema.csv": "Root B1380/B1382 WPU/TPU source/family/scope adjudication; B1386 nonauthor source-defined projection review and finite reader alias correction; four PCABS previouspaper cases excluded; no manufacturing-lot independence claim."
+  }
+}
