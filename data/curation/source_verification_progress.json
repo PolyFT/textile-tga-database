@@ -14,15 +14,13 @@
   "publication_stage": "b961_merged_remote_verified_lease_released",
   "last_merged_batch": "20261008_b961",
   "writer_lease": {
-    "owner": "codex-local-combined-b961-20261008",
-    "status": "released",
-    "batch_id": "20261008_b961",
-    "claimed_at_utc": "2026-10-07T20:51:48.870064+00:00",
-    "expires_at_utc": "2026-10-07T22:21:48.870064+00:00",
-    "previous_release_commit": "9322b640be84f2c2d748f09fb3dfb1bd02b26e8f",
-    "purpose": "Reviewed31 new PA6 and PP states/47TG/7paired sources with7 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required.",
-    "released_at_utc": "2026-10-07T21:25:54.354038+00:00",
-    "reason": "Normal PR merge, nonauthor content integration review and root exact-head binding and both main workflows passed; exact remote public files verified. Release only owned B961 lease."
+    "owner": "codex-local-combined-b1010-20261008",
+    "status": "active",
+    "batch_id": "20261008_b1010",
+    "claimed_at_utc": "2026-10-08T02:00:35.843541+00:00",
+    "expires_at_utc": "2026-10-08T03:30:35.843541+00:00",
+    "previous_release_commit": "cacd1e95f96305a970c032cf36008a9eddab539c",
+    "purpose": "Reviewed51 new PBS/PLA/PBT/PI/PP states/57TG/9paired sources with9 new queue rows and0 existing queue row changes;0oldscope and0evidence upgrades. Normal PR/exacthead checks required."
   },
   "next_sources": [],
   "next_actions": [
@@ -1152,7 +1150,7 @@
       "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
       "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
       "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
-      "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
+      "Originalnativeuncertaintyglyph unresolved: not silently\u00b1; no targetsourcevalue changed.",
       "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
       "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
     ]
