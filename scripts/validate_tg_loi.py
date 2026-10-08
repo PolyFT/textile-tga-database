@@ -120,12 +120,13 @@ def numeric_errors(df):
         bad = x.notna() & (~x.between(0, 100))
         if bad.any():
             errors.append(f'{col}: {int(bad.sum())} values outside 0–100%')
-    if 'source_weight_loss_800_pct' in df:
-        values = df['source_weight_loss_800_pct'].fillna('')
-        x = num(values)
-        bad = values.astype(str).str.strip().ne('') & (x.isna() | ~x.between(0, 100))
-        if bad.any():
-            errors.append(f'source_weight_loss_800_pct: {int(bad.sum())} values not finite numbers within 0–100%')
+    for col in ['source_weight_loss_500_pct', 'source_weight_loss_800_pct']:
+        if col in df:
+            values = df[col].fillna('')
+            x = num(values)
+            bad = values.astype(str).str.strip().ne('') & (x.isna() | ~x.between(0, 100))
+            if bad.any():
+                errors.append(f'{col}: {int(bad.sum())} values not finite numbers within 0–100%')
     return errors
 
 

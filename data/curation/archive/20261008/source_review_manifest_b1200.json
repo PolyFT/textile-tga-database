@@ -1,0 +1,69 @@
+{
+  "batch_id": "20261008_b1200",
+  "status": "locally_source_and_family_reviewed_pending_normal_PR",
+  "new_sample_states": 41,
+  "new_TG_condition_records": 43,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.1713",
+    "10.1002/app.1993.070470706",
+    "10.1002/app.34035",
+    "10.1002/app.48187",
+    "10.1002/pc.27046",
+    "10.1002/pen.25233",
+    "10.1016/j.carbpol.2017.11.069",
+    "10.1016/j.carbpol.2019.02.088",
+    "10.1016/j.polymdegradstab.2016.09.019",
+    "10.1039/c5ra13850g"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261008_b1200_polymers.csv"
+  ],
+  "scientific_review": "Independent full-source text reviews, root source corrections and source-defined field projection, incremental bounded provenance review with recipe/preparation/citation adjudication. Different test gases count once per sample. No independent manufacturing-lot assertion.",
+  "scientific_limits": "Undefined or conflicted TG criteria remain raw. Program endpoints do not supply missing char temperatures. Unresolved control cohorts and final processing branches are not added to the valid sample count.",
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Actual scientific validation, scope export, all2907 repository tests and246 Python source compilation passed. All old scientific cells and reader rows preserved. Normal PR checks and merge pending.",
+  "local_target_counts": {
+    "samples": 1921,
+    "TG_records": 2448,
+    "sources": 487
+  },
+  "complete_source_reviews_represented": 20,
+  "newly_completed_source_reviews": 18,
+  "inherited_complete_source_reviews": 2,
+  "admitted_source_DOIs": 10,
+  "held_only_source_DOIs": [
+    "10.1002/app.39575",
+    "10.1002/pat.4456",
+    "10.1002/pc.24004",
+    "10.1002/pc.25091",
+    "10.1007/s00289-015-1391-7",
+    "10.1007/s00289-017-2177-x",
+    "10.1016/j.compositesb.2012.09.064",
+    "10.1016/j.matdes.2015.10.007",
+    "10.1016/j.reactfunctpolym.2007.05.012",
+    "10.1039/c5ra04149j"
+  ],
+  "source_hold_reasons": {
+    "10.1039/c5ra04149j": "Full source reviewed: eight TG-only conditions of four mothers; no own reported LOI. No borrowed LOI or valid pair.",
+    "10.1002/pat.4456": "Common prepared TPU series is positive; reported3mm mould and6mm LOI specimen remain inconsistent. Three nominal pairings held pending an explicit final-state bridge.",
+    "10.1016/j.compositesb.2012.09.064": "Inherited complete source review; separate LOI-only and TG-only observations retained. No new source read, evidence upgrade or admitted pair.",
+    "10.1016/j.matdes.2015.10.007": "Inherited complete source review; separate LOI-only and TG-only observations retained. No new source read, evidence upgrade or admitted pair.",
+    "10.1002/pc.24004": "Wood/PP whole blend textile or fibre-forming precursor eligibility remains unresolved; PP content alone does not establish whole-material scope.",
+    "10.1016/j.reactfunctpolym.2007.05.012": "Source-reported10C ramp lacks an explicit time basis. Preserve original thermal and LOI observations without guessing a heating rate.",
+    "10.1002/app.39575": "Three oil-extended SEBS/PP source correspondences, including distinct water-treated state, retained. Whole-blend fibre-forming or textile precursor eligibility is unproven; PP content alone is insufficient. Explicit pure nitrogen can be represented asN2 with the original literal retained.",
+    "10.1002/pc.25091": "Fourteen nominal matched states retained: Table1 totals101% with unresolved denominator and unspecified internal PP:EPDM and APP:DPER:MEL ratios. No normalization or valid-sample count.",
+    "10.1007/s00289-015-1391-7": "Five nominal pairings retained. Final injection wording applies to fire/mechanical specimens; ordinary TG post-injection state is unassigned. Common compound is positive evidence but does not establish identical final state.",
+    "10.1007/s00289-017-2177-x": "Seventeen nominal numeric conditions retained: five filled recipes total100.3 or101.3 with unknown denominator; PP4 LOI abstract/table conflict and pure-control processing unresolved. Air and nitrogen rates remain separate."
+  },
+  "partial_source_cohort_hold": {
+    "10.1002/pen.25233": [
+      "PP",
+      "PP/MPA",
+      "PP/DPER",
+      "PP/MPA/DPER 3/1"
+    ]
+  }
+}

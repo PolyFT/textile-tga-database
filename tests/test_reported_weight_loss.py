@@ -6,8 +6,11 @@ from tests.test_pairing_validation import observation, approve
 
 
 class ReportedWeightLossTests(unittest.TestCase):
+    temperature = 800
+    field = 'source_weight_loss_800_pct'
+
     def row(self, loss='84.7', **changes):
-        return observation(Tmax1_C='', source_weight_loss_800_pct=loss, **changes)
+        return observation(Tmax1_C='', **{self.field: loss}, **changes)
 
     def test_loss_only_is_a_candidate_but_requires_source_review(self):
         master, candidates, _, _ = v.build_tables(pd.DataFrame([self.row()]))
@@ -20,14 +23,14 @@ class ReportedWeightLossTests(unittest.TestCase):
         master, _, _, report = v.build_tables(pd.DataFrame([row]))
         self.assertEqual(len(master), 1)
         self.assertEqual(report['errors'], [])
-        for field in ['R800_pct', 'residue_pct', 'T5_C', 'Tonset_C']:
+        for field in ['R500_pct', 'R800_pct', 'residue_pct', 'T5_C', 'Tonset_C']:
             self.assertFalse(master.iloc[0].get(field, ''))
         self.assertEqual(master.iloc[0]['Tmax1_C'], '')
 
     def test_loss_value_changes_invalidate_source_review(self):
         row = approve(self.row())
         old = p.measurement_fingerprint(row)
-        row['source_weight_loss_800_pct'] = '85.7'
+        row[self.field] = '85.7'
         self.assertNotEqual(old, p.measurement_fingerprint(row))
         self.assertIn('measurement_review_pending_or_stale', p.evidence_issues(row))
 
@@ -59,11 +62,16 @@ class ReportedWeightLossTests(unittest.TestCase):
 
     def test_reader_preserves_loss_direction_temperature_and_zero(self):
         for loss in ['84.7', '0', '100']:
-            row = self.row(loss, TG_locator='PDFp4 TableIII', source_weight_loss_definition='Weight loss (%) at 800 C')
+            row = self.row(loss, TG_locator='PDFp4 TableIII', source_weight_loss_definition=f'Weight loss (%) at {self.temperature} C')
             display = reader.reading_row(row, {'scope_class': 'textile_cloth'})
             self.assertEqual(display[10], '')
-            self.assertIn('原文800℃失重（%）=' + loss, display[20])
-            self.assertIn('Weight loss (%) at 800 C', display[20])
+            self.assertIn(f'原文{self.temperature}℃失重（%）=' + loss, display[20])
+            self.assertIn(f'Weight loss (%) at {self.temperature} C', display[20])
             self.assertEqual(display[17], 'PDFp4 TableIII')
             self.assertNotIn('15.3', str(display))
             self.assertEqual(len(display), 25)
+
+
+class ReportedWeightLoss500Tests(ReportedWeightLossTests):
+    temperature = 500
+    field = 'source_weight_loss_500_pct'
