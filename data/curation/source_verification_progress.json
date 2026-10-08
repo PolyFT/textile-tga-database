@@ -11,20 +11,22 @@
   "cumulative_newly_completed_or_new_source_sample_states": 2081,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b1167_locally_reviewed_pending_normal_PR",
-  "last_merged_batch": "20261008_b1145",
+  "publication_stage": "b1167_merged_remote_verified_lease_released",
+  "last_merged_batch": "20261008_b1167",
   "writer_lease": {
     "owner": "codex-local-combined-b1167-20261008",
-    "status": "active",
+    "status": "released",
     "batch_id": "20261008_b1167",
     "claimed_at_utc": "2026-10-08T09:49:45.215904+00:00",
     "expires_at_utc": "2026-10-08T11:19:45.215904+00:00",
     "previous_release_commit": "ddbde844eb124d304233f520d948ae7752aa6a06",
-    "purpose": "Publish reviewed B1167 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required."
+    "purpose": "Publish reviewed B1167 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required.",
+    "released_at_utc": "2026-10-08T10:44:37.768842+00:00",
+    "reason": "Normal PR and both main workflows passed; all changed remote public files exact. Release owned B1167 lease only."
   },
   "next_sources": [],
   "next_actions": [
-    "B1167 local source/family-reviewed data pending normal PR checks and merge; formal main remains1855/2374/470.",
+    "B1167 normally merged25new/31TG; existing scope admissions0; upgrades0. Formal1880/2405/477. Continue local native-text batches and original-source deduplication.",
     "B1145 normally merged72new/92TG; existing scope admissions0; upgrades0. Formal1855/2374/470. Continue local native-text batches and original-source deduplication.",
     "B1114 normally merged65new/67TG and100existing scope admissions/129TG; upgrades0. Formal1783/2282/450. Continue local native-text batches and original-source deduplication.",
     "B1075 normally merged92new/120TG and192existing scope admissions/278TG; upgrades0. Formal1618/2086/374. Continue local native-text batches and original-source deduplication.",
@@ -2338,15 +2340,15 @@
     "root_exact_head_binding_sha256": "3cae88ed5f024308261a968fe60887e2377ee3b10f65378b4ef32d2c5372a419"
   },
   "batch_b1167": {
-    "status": "locally_reviewed_pending_normal_PR",
+    "status": "merged_remote_verified",
     "genuinely_new_samples": 25,
     "new_TG_records": 31,
     "extra_conditions_not_new_samples": 6,
     "old_evidence_upgrades": 0,
     "old_scope_admissions": 0,
     "old_scope_TG_records": 0,
-    "publication_approved": false,
-    "published": 0,
+    "publication_approved": true,
+    "published": 25,
     "local_counts": [
       1880,
       2405,
@@ -2357,6 +2359,30 @@
       2374,
       470
     ],
-    "old_scientific_cell_changes": 0
+    "old_scientific_cell_changes": 0,
+    "formal_main_counts": [
+      1880,
+      2405,
+      477
+    ]
+  },
+  "publication_b1167": {
+    "PR": "https://github.com/PolyFT/textile-tga-database/pull/204",
+    "PR_number": 204,
+    "merge_sha": "2abe5056a5aba446278b42961473752c1fca1748",
+    "validated_head_sha": "8c81487e009471584fc254dae4969a21848d4d57",
+    "new_pairs": 25,
+    "new_TG": 31,
+    "scope_existing_states": 0,
+    "scope_existing_TG": 0,
+    "evidence_upgrades": 0,
+    "verified_target_sample_states": 1880,
+    "verified_target_condition_records": 2405,
+    "verified_target_sources": 477,
+    "full_remote_public_files_verified": 17,
+    "unchanged_other_existing_files": 950,
+    "tests": 2899,
+    "compiled_files": 246,
+    "root_exact_head_binding_sha256": "dd5f36d7d52a53f2ced32e646af61da9b3c6c33e6f6e51729e94eae7138c023e"
   }
 }
