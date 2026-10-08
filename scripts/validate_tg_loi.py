@@ -109,6 +109,11 @@ def numeric_errors(df):
         bad = x.notna() & (~x.between(20, 1500))
         if bad.any():
             errors.append(f'{col}: {int(bad.sum())} values outside 20–1500 °C')
+    if 'Tmax_unnumbered_C' in df:
+        values = df['Tmax_unnumbered_C'].fillna('')
+        bad = values.astype(str).str.strip().ne('') & num(values).isna()
+        if bad.any():
+            errors.append(f'Tmax_unnumbered_C: {int(bad.sum())} nonnumeric temperatures; preserve unresolved literals in source_raw_Tmax_C')
     for col in [c for c in df if c.endswith('_pct') and
                 (c == 'LOI_pct' or c.startswith('R') or 'residue' in c.lower())]:
         x = num(df[col])
