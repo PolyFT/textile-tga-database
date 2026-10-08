@@ -1,0 +1,357 @@
+{
+  "batch_id": "20261009_b1421",
+  "status": "locally_checked_pending_nonauthor_integration_review_and_normal_PR",
+  "new_sample_states": 30,
+  "new_TG_condition_records": 50,
+  "extra_conditions_not_new_samples": 20,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.1978.070220308",
+    "10.1002/app.1984.070290128",
+    "10.1002/app.41996",
+    "10.1002/pat.1059",
+    "10.1002/pat.3207",
+    "10.1002/pat.4287",
+    "10.1002/pc.23047"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1421_materials.csv"
+  ],
+  "complete_source_reviews_represented": 62,
+  "all_original_source_role_views": 1117,
+  "unadmitted_roles_counted_as_samples": 0,
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/app.1978.070220308": 4,
+    "10.1002/app.1984.070290128": 30,
+    "10.1002/app.41996": 2,
+    "10.1002/pat.1059": 1,
+    "10.1002/pat.3207": 2,
+    "10.1002/pat.4287": 9,
+    "10.1002/pc.23047": 2
+  },
+  "reviewed_source_dispositions": [
+    {
+      "DOI": "10.1002/app.12796",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1337",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1973.070170813",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1975.070190117",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1976.070201105",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1977.070210920",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1978.070220308",
+      "admitted_TG_records": 4,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/app.1978.070220905",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1978.070221122",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1979.070240607",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1980.070250705",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1981.070260126",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1983.070280111",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1984.070290128",
+      "admitted_TG_records": 30,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/app.1984.070291221",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1985.070300202",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1987.070330616",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1989.070381208",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1990.070410540",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.1995.070560806",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.2185",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.22677",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.27393",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.27662",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.28374",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.30539",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.30620",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.31949",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.36340",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.36374",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.40751",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.41955",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.41996",
+      "admitted_TG_records": 2,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/app.42414",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.44175",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.45315",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.45477",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.46027",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.46497",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.50215",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/app.50224",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.1059",
+      "admitted_TG_records": 1,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/pat.1679",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.3207",
+      "admitted_TG_records": 2,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/pat.3580",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.3756",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.4041",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.4287",
+      "admitted_TG_records": 9,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/pat.4462",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.4521",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.4613",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.593",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.6283",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.70438",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pat.70464",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.21052",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.23047",
+      "admitted_TG_records": 2,
+      "disposition": "defined_conflict_free_metrics_selected"
+    },
+    {
+      "DOI": "10.1002/pc.23352",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.24010",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.24304",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.25763",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    },
+    {
+      "DOI": "10.1002/pc.25806",
+      "admitted_TG_records": 0,
+      "disposition": "original_reviewed_not_admitted"
+    }
+  ],
+  "scientific_review": "Original complete native-text reviews, independent source/schema checks and exact page/table locator corrections; original recipe/form/preparation and citation evidence reviewed with bounded numeric diagnostics.",
+  "scientific_count_unit": "Reported recipe/form/preparation states; test gas/ramp conditions do not multiply samples. Independent manufacturing lots are unreported.",
+  "scientific_limits": "Pure EVA0 reuse suspicion remains cohort-pending; copolyesterNo6 previously reported, No7/13 processing held; undefined thresholds remain raw. EVA9 air only residue800/LOI admitted; all conflicting EVA9 temperatures and N2 held. PAN analytical powder and cotton analytical grinding retain prepared-fibre/fabric identity. Preparative washing is not durability testing.",
+  "reader_original_LOI_literals_retained": true,
+  "source_fulltexts_or_private_paths_published": false,
+  "checks": "Actual validation and scope export, all2911 repository tests,247 Python compile checks passed. All3416 old master rows and2840 old reader rows preserved. Nonauthor integration review and normal PR checks/merge pending.",
+  "local_target_counts": {
+    "samples": 2255,
+    "TG_records": 2890,
+    "sources": 561
+  }
+}
