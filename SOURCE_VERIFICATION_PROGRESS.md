@@ -1,11 +1,9 @@
 # 当前数据进度
 
-正式 main：**2314 个样品／2962 条 TG／578 篇来源**。目标 3000 个样品。日常查看[网页表格](index.html)。
+当前 main 已核验并去重：**2343个样品／2998条TG／583篇来源**。目标3000个样品，尚需657个。日常查看[网页表格](index.html)。
 
-本地待发布 B1575：真正新增 **29 个样品／36 条 TG／5 篇来源**；额外测试条件 7 条，不重复计样品。旧证据升级 0，旧样品范围新增 0。
+[B1575 / PR #215](https://github.com/PolyFT/textile-tga-database/pull/215) 已正常合并。真正新增**29个样品／36条TG／5篇来源**，其中额外7条测试条件不重复计算样品；旧样品范围新增**0**，旧证据升级**0**。未定义指标和原有争议状态保留。
 
-本地阅读表：**2343 个样品／2998 条 TG／583 篇来源**；尚需 657 个样品。正式计数以正常 PR 合并结果为准。
+2913项测试、247个文件编译、非整合作者复核及正常PR检查通过，两个main工作流通过；远端15个变更文件逐字核验，其余已有文件保持原内容。已释放本批写入租约。
 
-数据校验及阅读表导出通过；2913 项测试和247个文件编译通过；独立整合复核和正常 PR 检查待完成。原文缺失、矛盾、处理状态不明和未定义指标继续保留待审。
-
-查看[本批审核记录](data/curation/archive/20261009/source_review_manifest_b1575.json)、[历史批次归档](data/curation/archive/)或[维护说明](docs/MAINTENANCE.md)。
+审核细节见[本批记录](data/curation/archive/20261009/source_review_manifest_b1575.json)，历史批次见[审核归档](data/curation/archive/)与[Git历史](https://github.com/PolyFT/textile-tga-database/commits/main/)。
