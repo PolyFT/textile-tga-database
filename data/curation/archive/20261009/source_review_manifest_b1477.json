@@ -1,0 +1,111 @@
+{
+  "batch_id": "20261009_b1477",
+  "status": "locally_checked_pending_nonauthor_integration_review_and_normal_PR",
+  "new_sample_states": 40,
+  "new_TG_condition_records": 44,
+  "new_sources": 10,
+  "extra_conditions_not_new_samples": 4,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/vnl.22100",
+    "10.1007/s10965-020-02176-4",
+    "10.1016/j.compositesb.2019.107498",
+    "10.1016/j.compscitech.2020.108324",
+    "10.1016/j.polymdegradstab.2011.05.002",
+    "10.1016/j.polymdegradstab.2012.01.004",
+    "10.1016/j.polymdegradstab.2012.05.011",
+    "10.1016/j.polymdegradstab.2016.12.001",
+    "10.1016/j.polymdegradstab.2018.12.019",
+    "10.1021/acsami.2c20482"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1477_materials.csv"
+  ],
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/vnl.22100": 3,
+    "10.1007/s10965-020-02176-4": 3,
+    "10.1016/j.compositesb.2019.107498": 3,
+    "10.1016/j.compscitech.2020.108324": 1,
+    "10.1016/j.polymdegradstab.2011.05.002": 4,
+    "10.1016/j.polymdegradstab.2012.01.004": 12,
+    "10.1016/j.polymdegradstab.2012.05.011": 5,
+    "10.1016/j.polymdegradstab.2016.12.001": 6,
+    "10.1016/j.polymdegradstab.2018.12.019": 3,
+    "10.1021/acsami.2c20482": 4
+  },
+  "reviewed_sources_represented": 10,
+  "reviewed_source_coverage_note": "Selected admitted sources only. Full original all-role histories and other complete source-review inventories remain privately frozen upstream; this manifest does not claim an exhaustive negative-source queue.",
+  "original22_snapshots_and_types_retained": true,
+  "reader_original_LOI_literals_retained": true,
+  "source_fulltexts_or_private_paths_published": false,
+  "scientific_count_unit": "Reported source recipe/form/preparation mother states; gas/ramp conditions do not multiply mothers; manufacturing lot unknown.",
+  "scientific_limits": [
+    {
+      "source_batch": "root-b1463-three-TPU-final-admission",
+      "limits": [
+        "15 forming pending",
+        "missingTableS2 filledPLA10 curveonly",
+        "80 unselected empty contexts",
+        "534 untransported leaves and all prior scientific holds",
+        "Original uncertainty replacement glyph does not define SD or other statistic; rate amplitude source unit unresolved; no inferred phase1 Tmax."
+      ]
+    },
+    {
+      "source_batch": "root-b1481-six-condition-final-admission",
+      "limits": [
+        "pureTPU finalformingpending",
+        "PA-B5 LOIonly",
+        "missingWiley/Springer localSI as recorded",
+        "all29 unselectedcontexts empty",
+        "231 untransportedmetricLOI leaves",
+        "old scope/processing/cohort/metric holds unchanged",
+        "Wiley residue temperature unknown, Rmax%perC not converted to%permin. Springer Tmax criterion unestablished; PAB15range notT5. Both sources ordinaryair20; distinct TGIR700 not borrowed."
+      ]
+    },
+    {
+      "source_batch": "root-b1489-seven-condition-final-admission",
+      "limits": "Prior chitosan TPU Ref16/17 and other TPU controls retain unreported crosswalk limits. Current original preparation/chemistry supports recorded states. Separate q4B1448-S02-R003 prior Ref10/17 exactrecipe/control lineage is not resolved by these7 admissions; original remains pending."
+    },
+    {
+      "source_batch": "root-b1490-TPU-prior-lineage",
+      "limits": "Current explicitlyreported polymergrade/hardness and namedIFR differ from bothknowncitedpriorrecipes; current original commonpreparedseries/methods positivelyreport theTG/LOI row. Retain current reportedrecipe/form/preparation state as one qualified state. This is not certification of an independentlymanufactured lot or proof from numericnonmatch/nohit. SameLOI32.4 and same30/1dose do not erase reportedmaterialidentity distinctions; do not assert samephysicalbatch or silentlynormalize differentcommercialnames."
+    },
+    {
+      "source_batch": "root-b1506-sixteen-condition-final-admission",
+      "limits": [
+        "73 transported datums=57TG+16LOI; profiles73/73/73; 1203 typed metric/LOI leaves with1130 untransported; not complete numerical deduplication.",
+        "225 contexts including209 empty; original138+87 all22 typed fields and historic roles preserved via frozen carrier references.",
+        "S01R005 T5=346/T10=344 conflict held, R021 R50015.6/15.9 held; no swaps/value choices.",
+        "Source20 formingpending, source4otherLOIonly, unknown criteria/glyphs, gas distinction, TGIR-only conditions and all other holds remain unchanged.",
+        "All2772 cases/7005 originals/24365expanded events preserved including single weak noDOI; neither nohit nor matching tuple proves cohort.",
+        "Part1 provides methods lineage and LOI context, not borrowed ordinaryTG; q0 is current source recipe/form/state proposal with unknown previous control crosswalk."
+      ]
+    },
+    {
+      "source_batch": "root-b1515-eleven-condition-final-admission",
+      "limits": [
+        "52transported datums=40TG+12LOI, canonical/raw/qualified52;608typedmetricLOIleaves556untransported, partial numerical coverage only.",
+        "All72original22 typed objects preserved;60emptycontexts; originalS03eightunknownordinaryTGrate held, TD5/TDmainraw, isolatedagents/powder roles not paired.",
+        "T15 notT5/T10; R650 versus R800 not interchangeable. Native HH mineralmaxima/dashes not generic polymerchain decomposition. mRPcommercial mixture notpureRPloading.",
+        "All2808case/proof/summary/vector expansions and6047hydratedoriginals exact; allsingle/weak/noDOI retained. No numeric/nohit inference of independentbatch.",
+        "q3 may share data/control lineage with already processed2018paper, strongly supported by exactRef17 and fullgrade/recipe/process/tuple; no assertion of samephysicalmanufacturingbatch.",
+        "Current commonextrusion not blanketinjectionclaim; sourceS02 thermal+flammabilitypress explicit, mechanicalinjection not borrowed. All priorforming/metric/LOI/SIholds retained."
+      ]
+    }
+  ],
+  "predicted_target_counts": [
+    2314,
+    2962,
+    578
+  ],
+  "publication_approved": false,
+  "formal_new": 0,
+  "checks": "Actual data/scope validation,2913 tests,247 source compilation checks passed. All3494 prior master rows and2918 prior reader rows preserved. Nonauthor integration review and normal PR pending.",
+  "local_target_counts": {
+    "samples": 2314,
+    "TG_records": 2962,
+    "sources": 578
+  }
+}
