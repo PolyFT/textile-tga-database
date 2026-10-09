@@ -18,9 +18,11 @@
     "status": "active",
     "batch_id": "20261009_b1575",
     "claimed_at_utc": "2026-10-09T04:23:48.034460+00:00",
-    "expires_at_utc": "2026-10-09T05:53:48.034460+00:00",
+    "expires_at_utc": "2026-10-09T11:03:07.797237+00:00",
     "previous_release_commit": "fd6f713208676289200a5a711689da92cacc7b2a",
-    "purpose": "Publish reviewed B1575 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required."
+    "purpose": "Publish reviewed B1575 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required.",
+    "renewed_at_utc": "2026-10-09T09:33:07.797237+00:00",
+    "renewal_reason": "Own expired lease only; sole open PR215, unchanged main/branch, all scientific fields preserved. New exact head must pass normal CI."
   },
   "next_sources": [],
   "next_actions": [
