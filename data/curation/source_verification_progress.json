@@ -14,17 +14,13 @@
   "publication_stage": "b1575_merged_remote_verified_lease_released",
   "last_merged_batch": "20261009_b1575",
   "writer_lease": {
-    "owner": "codex-local-combined-b1575-20261009",
-    "status": "released",
-    "batch_id": "20261009_b1575",
-    "claimed_at_utc": "2026-10-09T04:23:48.034460+00:00",
-    "expires_at_utc": "2026-10-09T11:03:07.797237+00:00",
-    "previous_release_commit": "fd6f713208676289200a5a711689da92cacc7b2a",
-    "purpose": "Publish reviewed B1575 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required.",
-    "renewed_at_utc": "2026-10-09T09:33:07.797237+00:00",
-    "renewal_reason": "Own expired lease only; sole open PR215, unchanged main/branch, all scientific fields preserved. New exact head must pass normal CI.",
-    "released_at_utc": "2026-10-09T10:20:45.480252+00:00",
-    "reason": "Normal PR and both main workflows passed; all changed remote public files exact. Release owned B1575 lease only."
+    "owner": "codex-local-combined-b1603-20261009",
+    "status": "active",
+    "batch_id": "20261009_b1603",
+    "claimed_at_utc": "2026-10-09T11:22:27.247450+00:00",
+    "expires_at_utc": "2026-10-09T12:52:27.247450+00:00",
+    "previous_release_commit": "d679e6c59dd4a6b962a7501aef433a20ed81e9b0",
+    "purpose": "Publish reviewed B1603 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required."
   },
   "next_sources": [],
   "next_actions": [
@@ -1141,7 +1137,7 @@
       "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
       "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
       "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
-      "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
+      "Originalnativeuncertaintyglyph unresolved: not silently\u00b1; no targetsourcevalue changed.",
       "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
       "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
     ]
