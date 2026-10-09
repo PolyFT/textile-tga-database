@@ -1,0 +1,61 @@
+{
+  "batch_id": "20261009_b1603",
+  "status": "locally_checked_pending_nonauthor_integration_review_and_normal_PR",
+  "new_sample_states": 25,
+  "new_TG_condition_records": 30,
+  "new_sources": 6,
+  "extra_conditions_not_new_samples": 5,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.38095",
+    "10.1002/pen.23214",
+    "10.1002/pi.3115",
+    "10.1016/j.polymdegradstab.2008.12.015",
+    "10.1021/acsomega.7b00162",
+    "10.1039/c4ra16393a"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1603_materials.csv"
+  ],
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/app.38095": 4,
+    "10.1002/pen.23214": 4,
+    "10.1002/pi.3115": 4,
+    "10.1016/j.polymdegradstab.2008.12.015": 4,
+    "10.1021/acsomega.7b00162": 10,
+    "10.1039/c4ra16393a": 4
+  },
+  "reviewed_sources_represented": 6,
+  "reviewed_source_coverage_note": "Selected admitted sources only. Full original all-role histories and other complete source-review inventories remain privately frozen upstream; this manifest does not claim an exhaustive negative-source queue.",
+  "original22_snapshots_and_types_retained_privately": true,
+  "public_original22_mirrors": false,
+  "reader_original_LOI_literals_retained": true,
+  "source_fulltexts_or_private_paths_published": false,
+  "scientific_count_unit": "Reported source recipe/form/preparation mother states; gas/ramp conditions do not multiply mothers; manufacturing lot unknown.",
+  "scientific_limits": [
+    "Reported recipe/form/prepared material states, not independently manufactured lot count; gases add5 condition records only.",
+    "PDS ordinary maximum-weight-loss temperature lacks rate criterion and stays raw; T5 and explicit R600 remain formal.",
+    "ACS component-named peak temperatures have no invented ordinal; residual temperature is unknown and stays raw. Mechanical/PCOM forming conditions are not assigned to ordinary TG/LOI.",
+    "RSC PLA/1Gra R6002.4/R7003.4 physically inconsistent pair held as residue metrics, with original values and explicit temperatures preserved. T5 and defined maximum-rate temperature remain formal.",
+    "ACS pure PLA two conditions and RSC pure PLA one condition remain preparation-pending; no existing pure-control or citation-lineage hold released.",
+    "app38095 conflicting800/600 residue coordinates and PLA8 conflicting LOI remain held; pen23214 PLA7 residue conflict remains held.",
+    "All original source role matrices, source opinions and typed numeric histories retained privately; 1056+1134 original metric leaves outside transported numeric matching coverage remain explicit partial coverage.",
+    "WPU/PUE crosslinked whole-material scope pending human clarification; excluded from this batch.",
+    "Missing SI, source-reported composition basis/glyph ambiguities and unknown TG cut geometry remain documented; no source values guessed or normalized."
+  ],
+  "predicted_target_counts": [
+    2368,
+    3028,
+    589
+  ],
+  "publication_approved": false,
+  "formal_new": 0,
+  "checks": "Actual data/scope validation,2913 tests,247 source compilation checks passed. All3574 prior master rows and2998 prior reader rows preserved. Nonauthor integration review and normal PR pending.",
+  "local_target_counts": {
+    "samples": 2368,
+    "TG_records": 3028,
+    "sources": 589
+  }
+}
