@@ -1,0 +1,53 @@
+{
+  "batch_id": "20261009_b1443",
+  "status": "locally_checked_pending_nonauthor_integration_review_and_normal_PR",
+  "new_sample_states": 19,
+  "new_TG_condition_records": 28,
+  "new_sources": 7,
+  "extra_conditions_not_new_samples": 9,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/pi.4497",
+    "10.1007/s12221-024-00784-1",
+    "10.1007/s13726-026-01695-z",
+    "10.1016/j.carbpol.2019.115782",
+    "10.1016/j.compositesb.2019.107695",
+    "10.1016/j.polymdegradstab.2007.05.007",
+    "10.1016/j.polymdegradstab.2008.03.010"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1443_materials.csv"
+  ],
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/pi.4497": 4,
+    "10.1007/s12221-024-00784-1": 1,
+    "10.1007/s13726-026-01695-z": 4,
+    "10.1016/j.carbpol.2019.115782": 8,
+    "10.1016/j.compositesb.2019.107695": 5,
+    "10.1016/j.polymdegradstab.2007.05.007": 2,
+    "10.1016/j.polymdegradstab.2008.03.010": 4
+  },
+  "reviewed_sources_represented": 7,
+  "reviewed_source_coverage_note": "Selected seven sources only. Full original all-role histories and other complete source-review inventories remain privately frozen upstream; this manifest does not claim an exhaustive negative-source queue.",
+  "original22_snapshots_and_types_retained": true,
+  "reader_original_LOI_literals_retained": true,
+  "source_fulltexts_or_private_paths_published": false,
+  "scientific_count_unit": "Reported source recipe/form/preparation mother states; gas/ramp conditions do not multiply mothers; manufacturing lot unknown.",
+  "scientific_limits": "Reported common prepared series and source recipe/form/preparation states supported; no independently manufactured lot certification. All single/weak/noDOI and2193 untransported typed leaves remain. K originals and precise C conversions preserved, unknown T2/Tmax raw,727/730K conflict peak held;5extra-temperature residues/metrics retained raw where generic schema limited. Old held rows remain held.",
+  "predicted_target_counts": [
+    2274,
+    2918,
+    568
+  ],
+  "publication_approved": false,
+  "formal_new": 0,
+  "checks": "Actual validation and scope export,2913 tests and247 Python compilation checks passed. All3466 existing master rows and2890 reader rows preserved. Nonauthor integration review and normal PR required.",
+  "local_target_counts": {
+    "samples": 2274,
+    "TG_records": 2918,
+    "sources": 568
+  },
+  "necessary_code_change": "Recognize explicitly reported synthetic air/syntheticair without changing original conditions or identities; unknown/unreviewed conditions remain pending. Two regression tests added; no existing held sample released."
+}
