@@ -1,0 +1,57 @@
+{
+  "batch_id": "20261009_b1575",
+  "status": "locally_checked_pending_nonauthor_integration_review_and_normal_PR",
+  "new_sample_states": 29,
+  "new_TG_condition_records": 36,
+  "new_sources": 5,
+  "extra_conditions_not_new_samples": 7,
+  "old_sample_scope_upgrades": 0,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.46054",
+    "10.1002/pen.24075",
+    "10.1002/vnl.21955",
+    "10.1002/vnl.22060",
+    "10.1021/acssuschemeng.9b05338"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261009_b1575_materials.csv"
+  ],
+  "admitted_condition_counts_by_DOI": {
+    "10.1002/app.46054": 11,
+    "10.1002/pen.24075": 5,
+    "10.1002/vnl.21955": 4,
+    "10.1002/vnl.22060": 2,
+    "10.1021/acssuschemeng.9b05338": 14
+  },
+  "reviewed_sources_represented": 5,
+  "reviewed_source_coverage_note": "Selected admitted sources only. Full original all-role histories and other complete source-review inventories remain privately frozen upstream; this manifest does not claim an exhaustive negative-source queue.",
+  "original22_snapshots_and_types_retained_privately": true,
+  "public_original22_mirrors": false,
+  "reader_original_LOI_literals_retained": true,
+  "source_fulltexts_or_private_paths_published": false,
+  "scientific_count_unit": "Reported source recipe/form/preparation mother states; gas/ramp conditions do not multiply mothers; manufacturing lot unknown.",
+  "scientific_limits": [
+    "Only selected source-defined indicators are canonical. PA56 unknown T5/T50 criteria and PP unknown Tmax criterion remain raw; PLA maximum-loss-rate amplitude is not a temperature.",
+    "ACS7 LOI observations shared across14 air/nitrogen TG conditions:7 sample states and7 additional conditions. Nominal retardant doses retain source solution-basis ambiguity.",
+    "app46054 source DTG first/second/third ordinals retained, including pure-control second peak. Calculated char and CONE char are not ordinary TG residue.",
+    "Conflicting whole-formulation/LOI states, washed LOI-only states, isolated powders and other assays remain excluded. No existing hold is released.",
+    "Numeric search is explicitly partial outside selected indicators:4468 original leaf paths not transported. All202 role histories and source evidence are retained privately.",
+    "pen24075 Ref15 supplies the MTAPP preparation method; the exact prior paper data remain a bounded follow-up. This method citation is not a current-control data-reuse assertion; do not infer independent manufacturing lots.",
+    "Reported material/preparation differences support current control-state distinctions; unknown old processing and old scientific holds remain unchanged."
+  ],
+  "predicted_target_counts": [
+    2343,
+    2998,
+    583
+  ],
+  "publication_approved": false,
+  "formal_new": 0,
+  "checks": "Actual data/scope validation,2913 tests,247 source compilation checks passed. All3538 prior master rows and2962 prior reader rows preserved. Nonauthor integration review and normal PR pending.",
+  "local_target_counts": {
+    "samples": 2343,
+    "TG_records": 2998,
+    "sources": 583
+  }
+}
