@@ -15,6 +15,7 @@ HEADERS = ['样品', '材料分类', '材料形态', '组成', '处理／洗涤�
            '条件证据位置', '限制与不确定性', 'LOI补充（原文）', '气体流量 (mL/min)',
            '样品状态ID', '测试记录ID']
 CLASS_NAMES = {'textile_cloth': '织物', 'textile_yarn': '纱线',
+               'textile_composite': '纺织增强复合材料',
                'textile_nonwoven': '非织造布', 'textile_fibre': '纤维',
                'fiber_forming_polymer': '可制纤聚合物',
                'textile_precursor_material': '纺织前驱材料',
@@ -22,7 +23,11 @@ CLASS_NAMES = {'textile_cloth': '织物', 'textile_yarn': '纱线',
 
 
 def value(row, key):
-    return row.get(key, '')
+    result = row.get(key, '')
+    qualifier = row.get('source_' + key + '_approximation', '')
+    if result and re.match(r'^(around|about|approximately)\b', qualifier) and not result.startswith('≈'):
+        return '≈' + result
+    return result
 
 
 def labelled(row, fields):

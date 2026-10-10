@@ -21,6 +21,8 @@
 
 不同测试条件保留为测试记录；真正新增样品、旧证据升级和旧样品范围复核分开计数。原文冲突、仅曲线估读、状态或条件对应不清的材料按证据规则暂缓，不进入阅读表。
 
+`textile_composite`（纺织增强复合材料）仅用于原文明确含真实织物或毡增强、且精确范围注册审核通过的整体复合板材。热固性基体不因此归为可制纤聚合物；同一材料状态的不同 TG 气氛仍只计一个样品，保留各测试记录。
+
 发布前读取最新 main、`writer_lease` 和未合并 PR，不抢占有效租约。一个租约持有者负责合并、全字段去重／验证及 PR；其他任务只准备私有批次。确认证据和原件哈希、完整科学测试、精确提交的 GitHub 检查及远端结果后，保存断点并释放自己的租约。不要上传文献全文、私人批注或本地路径。
 
 旧的定时 OpenAlex／网页检索和每 10 分钟联网抽取任务已归档。保留 PR／main 科学验证与 main 离线重建两个工作流，继续使用同一写入并发组；不改变 GitHub 的审批规则。
@@ -41,21 +43,23 @@ python scripts/textile_scope.py
 <!-- TG-LOI-SNAPSHOT:START -->
 ## Current TG–LOI evidence snapshot
 
-- Legacy field-complete condition records: **3930** (not a scientific Grade-A count)
-- Numeric TG–LOI candidate rows: **4262**, across **825 DOI**
+- Legacy field-complete condition records: **4237** (not a scientific Grade-A count)
+- Numeric TG–LOI candidate rows: **4569**, across **893 DOI**
 - Field-complete, unflagged condition records awaiting evidence review: **383**
 - Quarantined condition records: **34**; originals and reasons retained
 - Malformed input CSV records quarantined separately: **1**
-- Evidence-reviewed exact Grade-A conditions / sample states: **3604 / 2828**
-- DOI cohort: **752 sources / 3596 conditions / 2820 states**
+- Evidence-reviewed exact Grade-A conditions / sample states: **3911 / 3087**
+- DOI cohort: **820 sources / 3903 conditions / 3079 states**
 - Reviewed non-DOI cohort: **2 sources / 8 conditions / 8 states**
-- Overall reviewed sources: **754**; source identity schema **1**
-- Recorded publication types (disjoint Grade-A source identities): journal_article: **493**; conference_proceedings: **5**; author_preprint: **8**; unspecified: **248**; unrecognized: **0**; conflicting_metadata: **0**
+- Overall reviewed sources: **822**; source identity schema **1**
+- Recorded publication types (disjoint Grade-A source identities): journal_article: **493**; conference_proceedings: **5**; author_preprint: **8**; unspecified: **316**; unrecognized: **0**; conflicting_metadata: **0**
 - Sources explicitly marked `author_preprint` (without conflicting type metadata): **8 sources / 33 conditions / 23 states**
 Publication types use explicit `publication_type` metadata on Grade-A candidate rows before deduplication; pending and quarantined rows cannot classify verified sources. Non-DOI `original_conference_proceedings` also identifies conference proceedings. Missing-only labels are `unspecified`; unknown labels are `unrecognized`; disagreeing nonempty labels are `conflicting_metadata`, excluded from the author-preprint subtotal. Blank labels do not contradict an explicit source-level type. DOI presence and Grade-A numerical review do not establish journal publication or peer review.
 Unspecified or unrecognized publication types do not invalidate accepted numerical evidence. Zero explicitly marked author-preprint sources does not establish that no legacy source is a preprint.
 New author-preprint rows should explicitly record `publication_type=author_preprint` and `source_version`. These reporting fields do not change source identities, fingerprints or the evidence gate.
 A missing new review field means pending documentation, not that a legacy measurement is wrong.
 Counts are generated together with `data/automation/validation_report.json`; do not edit by hand.
-Snapshot SHA-256: `1b8cfbc68ab0a09493f35c21607cad6bd568463977e059f2bc7e9dd6a7cde590`
+Snapshot SHA-256: `3ed2e05a58b1ce60fb85eb47dc747c7a30d1c69dd18f25a9b5c60e506100bd06`
 <!-- TG-LOI-SNAPSHOT:END -->
+
+原文明确定义为2%失重的温度单独存入 T2_C，保留原标签与判据来源；它与T5、T10和其他Tonset定义分别绑定审核。仅有raw字段或冲突值不因新增字段获准使用。

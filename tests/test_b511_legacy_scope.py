@@ -58,7 +58,26 @@ class LegacyScopeGuards(unittest.TestCase):
                               for entry in held}), 14)
         admitted, _ = textile_scope.classify(self.master, self.registry)
         keys = {pairing.pair_key(row) for row in admitted}
-        self.assertFalse(keys & {entry['pair_key'] for entry in held})
+        held_keys = {entry['pair_key'] for entry in held}
+        # Later scope reviews may admit unchanged old measurements only through
+        # an explicit archived replacement; the B511 historical hold stays exact.
+        revision = json.loads((ROOT / 'data/curation/archive/20261010/source_review_manifest_b1790.json').read_text())
+        replacement_observations = {(entry['source_identity'], entry['sample_state_id'],
+                                     entry['reviewed_measurement_fingerprint'])
+                                    for entry in revision['scope_replacements']}
+        documented = {pairing.pair_key(row) for row in self.master
+                      if textile_scope.observation_key(row) in replacement_observations}
+        self.assertEqual(keys & held_keys, documented & held_keys)
+        self.assertEqual(len(keys & held_keys), 12)
+        historical = copy.deepcopy(self.registry)
+        for entry in historical['entries']:
+            observation = (entry['source_identity'], entry['sample_state_id'],
+                           entry['reviewed_measurement_fingerprint'])
+            if observation in {textile_scope.observation_key(self.by_key[key])
+                               for key in held_keys}:
+                entry['decision'] = 'hold_scope'
+        historical_admitted, _ = textile_scope.classify(self.master, historical)
+        self.assertFalse({pairing.pair_key(row) for row in historical_admitted} & held_keys)
 
     def test_conflicting_cotton_controls_are_whole_held(self):
         controls = [entry for entry in self.observations

@@ -1,0 +1,272 @@
+{
+  "batch_id": "20261010_b1790",
+  "genuinely_new_samples": 6,
+  "new_TG_records": 6,
+  "new_sources": 2,
+  "old_scope_admissions": 36,
+  "old_scope_TG_records": 57,
+  "old_scope_sources": 11,
+  "old_evidence_upgrades": 0,
+  "old_scientific_changes": 0,
+  "publication": false,
+  "status": "locally_verified_frozen",
+  "scope_classification": "Actual cotton fabrics and cellulose precursor laboratory paper sheets kept distinct; genuine woven-glass/mat reinforced thermoset panels separately textile_composite. No eligibility inferred for neat thermoset matrices.",
+  "new_scientific_boundaries": "HBPE/PLA: T10/T50 and explicit max-rate peak; all R600 held (delta-m and label conflict). PPDO/PLA: coupled TG-IR-GC/MS measured mass T5/R800, unknown T1 peak definition retained raw; pure-specific machine-chain membership and physical lots not invented.",
+  "held_scope_sources": [
+    {
+      "DOI": "10.1007/s10570-020-03615-7",
+      "reason": "H3PO3 versus H3PO4 chemical identity conflict"
+    },
+    {
+      "DOI": "10.1002/app.37713",
+      "reason": "Table I starch versus title/materials/preparation soy flour matrix identity conflict"
+    },
+    {
+      "DOI": "10.1039/C9RA00763F",
+      "reason": "Bounded original numerical acceptance authority not located; no new admission"
+    }
+  ],
+  "original_scientific_holds_retained": true,
+  "scope_replacements": [
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "7aeb25e832a5a4d0493b",
+      "reviewed_measurement_fingerprint": "f7eb67db0e25ab53b2543b9cadaf3def6642d01e2310439b6788662abf21c2dc",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "e114cc371889f2365c95",
+      "reviewed_measurement_fingerprint": "ddf5975f5cbc8bc78bbdf1438af423354e6aa50f2dcacc77b758c6d64ff8534e",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "ca7950442aa2502373f8",
+      "reviewed_measurement_fingerprint": "0cc1f7902ab4f3099832c3af7145877af31e6ff66edabddfd0ba641453a3d6dc",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "0fd2f31de894d451cb2e",
+      "reviewed_measurement_fingerprint": "6368c3f31c5b332c8dad00f355e1d826f125f131db8d3ccdaeff76f252a06cb8",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "6681fff245b5dc2b62d4",
+      "reviewed_measurement_fingerprint": "ab8a12b344df82c884f39db2e2642db244603c2b5c36d0055f9d38a82c559168",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "237e42d884fd6ee6fed4",
+      "reviewed_measurement_fingerprint": "77fdb5e23c0899b57b9a39a1099745b3bb18724df0bba8471ada4364f178fe6c",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "9a0b2ca01738b5d1960d",
+      "reviewed_measurement_fingerprint": "bd1141ff0a26e8be80bd66e607f9e9b180fe1b62f9942b6d5895d4611382b27e",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "be038e4e4afa029b4af5",
+      "reviewed_measurement_fingerprint": "84697c254e6c6368088b7ef7cc01d58607d57638916af3ae551fca64da82c2ef",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1007/s10570-018-1749-8",
+      "sample_state_id": "ab8358c33804515bcd29",
+      "reviewed_measurement_fingerprint": "25658b493163e721453803b645fca9145bc78b9a57fefb07d158511fe41ed4be",
+      "before_decision": "hold_scope",
+      "before_class": "paper_sheet"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "62e876f03235001fbdbd94f81dcba2fd4964905c18ea2275045960d57ab82017",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_reference_laminate_or_powder"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "9ef23bc81ba55006b479",
+      "reviewed_measurement_fingerprint": "7dc74f72bd5c5b7f5e48c2f817fea22084bf31096b943064a923451bf38b9dba",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_reference_laminate_or_powder"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "2c096507bc6a21ae388933c2c98e167ec815d720e88cc0af4cf8b299328179c7",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "a4de48f19e6953305734",
+      "reviewed_measurement_fingerprint": "8a66dccb18b3ccf2742d6395e23dd59decbd945bbd2c013d8af0364758b07728",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "81c5ed125de7b5d43c07d6dbf88a9ff483ccadf64ca81dd733f6bfad81b069e6",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "36bbd3503dbb00643b86",
+      "reviewed_measurement_fingerprint": "ff93bfac26cccf08a4612256c49db58cd19aca45ba93d956d867cc61014f006a",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "4028827c322c0815d21c50470276d2c0a15e4db7661b141166b14c88aed3cc8c",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "d1ea2f586d57be33c105",
+      "reviewed_measurement_fingerprint": "c7d260a8ecb6155f46128e5fa35fa683e65348babbdddb043939076ebea37ba6",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "dabf954133b6ecbec1dbbd05c817edfbec6af47563a82eb804bff96af7185149",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "7da2d39570bdc91b3d73",
+      "reviewed_measurement_fingerprint": "2c3b475fb50128e9c753c7bce1bf3f165b0797d6a2b90a8e8b0f9860f734df24",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "b870b82e945c1fd3af860eef991ff28ddfb449fbbe1a26908a0f8a45e5d5ab10",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1016/j.compositesb.2016.10.003",
+      "sample_state_id": "08c4c977fafc8f3ed7a9",
+      "reviewed_measurement_fingerprint": "18932ff28e1863d951144c01c4597e443c95eb7ab41283451c99041e1ff73469",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_textile_containing_laminate"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "1faae7d38db494f2e214",
+      "reviewed_measurement_fingerprint": "d3ec8b785dea8d4dcca7d0468d20106fea5b36539359c220559f49cff250ec0d",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "1faae7d38db494f2e214",
+      "reviewed_measurement_fingerprint": "ca837c19394c7d79aac880fa25db211039d0fede40a763cf9b15575b7de44bbc",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "6a1aef6f2b0805ff171b",
+      "reviewed_measurement_fingerprint": "4e8d465930f4056419223cdcc889a826eb257c0829686e1b06a5518cef2666de",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "6a1aef6f2b0805ff171b",
+      "reviewed_measurement_fingerprint": "a00491b49d83d77563db2d4fc4f7d5896fab3795a235806737ba48662fe36e97",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "5ff88ff68ec4ac352f9f",
+      "reviewed_measurement_fingerprint": "cc7b29f788f1a03f9538653885a8a5c23dc32bab197f455a02282d44c650b90c",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "5ff88ff68ec4ac352f9f",
+      "reviewed_measurement_fingerprint": "14ed9962b798ecca7966a6f7bb44f1fe97e04f0d3281d5ae34f838b04f1acfda",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "a0bc1a5477103690b870",
+      "reviewed_measurement_fingerprint": "6b0d6b96960244d710f570504b8bc6e41d1331487f63a706454d4f238c5ffe30",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "a0bc1a5477103690b870",
+      "reviewed_measurement_fingerprint": "22d4622b5d8531d838ecc249032fb425e557954f54820c2dee3e02396af9b977",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "0c0c34d6b503764d847b",
+      "reviewed_measurement_fingerprint": "56d370b02dde2332f8fa8305348905d7ac3aeeb2d315e542a50605f030a083bc",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "0c0c34d6b503764d847b",
+      "reviewed_measurement_fingerprint": "1d07653c0dff9cd320c87e0f8d8fe07490d1fd798afc106262009896d60c17bf",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "3a08d78aa17c8eacbf4b",
+      "reviewed_measurement_fingerprint": "26960e9cb2c0c6d41066c6a0f15c8ff5d375a46069e5319808b77c8194a15d23",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    },
+    {
+      "source_identity": "10.1002/pc.23872",
+      "sample_state_id": "3a08d78aa17c8eacbf4b",
+      "reviewed_measurement_fingerprint": "4b9c8ea478aba743ad0656bed49649dacb672700ef7f4f1c2993a14138e6286a",
+      "before_decision": "hold_scope",
+      "before_class": "scope_unconfirmed_glassmat_thermoset_composite"
+    }
+  ],
+  "local_target_counts": [
+    2540,
+    3259,
+    641
+  ],
+  "tests_passed": 2916,
+  "compiled_files": 247,
+  "preservation": "Every original scientific cell and3196 old reader rows exact;33 prior scope holds replaced under explicit inverse; remaining original scope entries unchanged.",
+  "final_integration_review": "Independent final data/cell/condition preservation review passed, zero findings."
+}

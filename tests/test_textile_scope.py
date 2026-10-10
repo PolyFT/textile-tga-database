@@ -5,6 +5,7 @@ with(R/'data/tg_loi_master.csv').open(newline='')as f:MASTER=list(csv.DictReader
 REGISTER=json.loads((R/'data/curation/textile_scope_registry.json').read_text())
 COTTON=[r for r in MASTER if r['DOI']=='10.3390/polym16101409'and r['sample_state']=='Cotton']
 PAPER=next(r for r in MASTER if r['DOI']=='10.1007/s10570-018-1749-8')
+GLASS_EP=[r for r in MASTER if r['DOI']=='10.1016/j.compositesb.2016.10.003'and r['sample_state']=='ASET; initial six-ply woven glass/epoxy laminate; epoxy composition with 0 wt% APP and 0 wt% PNA']
 def subset(rows):
  keys={scope.observation_key(r)for r in rows};d=copy.deepcopy(REGISTER);d['entries']=[e for e in d['entries']if(e['source_identity'],e['sample_state_id'],e['reviewed_measurement_fingerprint'])in keys];return d
 class ScopeScientificGates(unittest.TestCase):
@@ -14,8 +15,26 @@ class ScopeScientificGates(unittest.TestCase):
  def test_two_TG_atmospheres_count_one_state(self):
   self.assertEqual(len(COTTON),2);accepted,report=scope.classify(COTTON,subset(COTTON))
   self.assertEqual((report['verified_textile_sample_states'],len(accepted)),(1,2))
+ def test_reviewed_glass_fabric_epoxy_counts_one_state_two_TG(self):
+  self.assertEqual(len(GLASS_EP),2)
+  d=subset(GLASS_EP);self.assertEqual({e['scope_class']for e in d['entries']},{'textile_composite'})
+  accepted,report=scope.classify(GLASS_EP,d)
+  self.assertEqual((report['verified_textile_sample_states'],len(accepted)),(1,2))
+  self.assertIn('textile_composite',scope.pairing.MATERIAL_SCOPE_CLASSES)
+ def test_textile_composite_keywords_without_review_are_not_admissions(self):
+  accepted,report=scope.classify(GLASS_EP,subset([]))
+  self.assertEqual((len(accepted),report['pending_scope_sample_states']),(0,1))
+  d=subset(GLASS_EP);d['entries'][0]['scope_reviewed_by']=''
+  with self.assertRaisesRegex(ValueError,'Missing textile-scope evidence'):scope.classify(GLASS_EP,d)
+ def test_textile_composite_form_or_chemistry_change_invalidates_review(self):
+  for changed in [{'material_form_TGA':'nonwoven glass felt/epoxy laminate','material_form_LOI':'nonwoven glass felt/epoxy laminate'},
+                  {'composition':'six-ply woven glass/polyester laminate'}]:
+   with self.subTest(changed=changed):
+    with self.assertRaisesRegex(ValueError,'Stale textile-scope material'):
+     scope.classify([dict(GLASS_EP[0],**changed)],subset([GLASS_EP[0]]))
  def test_previous_paper_exclusion_requires_expanded_scope_reassessment(self):
-  d=subset([PAPER]);accepted,report=scope.classify([PAPER],d)
+  d=subset([PAPER]);d['entries'][0].update(decision='hold_scope',scope_class='paper_sheet')
+  accepted,report=scope.classify([PAPER],d)
   self.assertEqual((len(accepted),report['excluded_non_textile_sample_states'],report['pending_scope_sample_states']),(0,0,1))
   d['entries'][0]['decision']='admit_textile'
   with self.assertRaisesRegex(ValueError,'Non-textile class'):scope.classify([PAPER],d)

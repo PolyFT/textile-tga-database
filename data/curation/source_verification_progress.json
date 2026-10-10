@@ -1,17 +1,17 @@
 {
-  "as_of_utc": "2026-10-09T11:09:04.359800+00:00",
-  "latest_batch_id": "20261009_b1603",
-  "verified_condition_records": 3604,
-  "verified_unique_sample_states": 2828,
-  "verified_dois": 752,
-  "numeric_pair_candidate_rows": 4262,
+  "as_of_utc": "2026-10-10T17:45:44.435460+00:00",
+  "latest_batch_id": "20261011_b1991",
+  "verified_condition_records": 3911,
+  "verified_unique_sample_states": 3087,
+  "verified_dois": 820,
+  "numeric_pair_candidate_rows": 4569,
   "near_term_target_unique_states": 500,
   "remaining_near_term": 0,
   "long_term_target_unique_states": 3000,
-  "cumulative_newly_completed_or_new_source_sample_states": 2569,
+  "cumulative_newly_completed_or_new_source_sample_states": 2828,
   "cumulative_evidence_upgraded_existing_sample_states": 201,
   "counting_rule": "Unique reviewed source/sample/washing state; DOI and registered non-DOI cohorts remain separate. Repeated atmospheres, ramps and TG metrics are condition observations, not extra target states.",
-  "publication_stage": "b1603_merged_remote_verified_lease_released",
+  "publication_stage": "consolidated_local3000_delivery_PR_pending",
   "last_merged_batch": "20261009_b1603",
   "writer_lease": {
     "owner": "codex-local3000-b1994-20261011",
@@ -26,9 +26,8 @@
   },
   "next_sources": [],
   "next_actions": [
-    "B1603 normally merged25new/30TG; existing scope admissions0; upgrades0. Formal2368/3028/589. Continue local native-text batches and original-source deduplication.",
-    "Continue local text extraction and original-source review in parallel; library strictly read-only.",
-    "Retain undefined, conflicting and processing-state-pending records outside effective counts."
+    "Complete final non-integration-author review and freeze the local target, then a single normal GitHub PR and required checks/approvals.",
+    "Candidate/held records stay excluded. Existing scientific evidence is inherited for this documentary material-scope batch; no new numeric upgrade or new sample claimed."
   ],
   "publication_policy": "Numerical facts and concise provenance only; no fulltext PDF/XML caches.",
   "legacy_recovery": {
@@ -115,11 +114,11 @@
     "snapshot_sha256": "628fbfc69b6983b502acdb6a0cc73710e6299e21d979f1ba185d613c7820ed7c",
     "new_observations": 0
   },
-  "verified_sources": 754,
+  "verified_sources": 822,
   "verified_non_doi_sources": 2,
-  "verified_doi_sample_states": 2820,
+  "verified_doi_sample_states": 3079,
   "verified_non_doi_sample_states": 8,
-  "remaining_to_target": 632,
+  "remaining_to_target": 0,
   "publication_type_reporting": {
     "pr": 43,
     "merge_sha": "d6953b405dcc5378cef47dbb74d240bfef465217",
@@ -153,9 +152,9 @@
       "condition_records": 33
     },
     "unspecified": {
-      "sources": 248,
-      "sample_states": 1010,
-      "condition_records": 1258
+      "sources": 316,
+      "sample_states": 1269,
+      "condition_records": 1565
     },
     "unrecognized": {
       "sources": 0,
@@ -172,12 +171,12 @@
   "verified_author_preprint_sources": 8,
   "verified_author_preprint_sample_states": 23,
   "verified_author_preprint_condition_records": 33,
-  "verified_doi_condition_records": 3596,
+  "verified_doi_condition_records": 3903,
   "verified_non_doi_condition_records": 8,
   "textile_only_target_scope": {
     "target_unique_states": 3000,
     "status": "superseded_by_user_expanded_urban_material_target_scope",
-    "verified_textile_only_states": 919,
+    "verified_textile_only_states": 1229,
     "legacy_broad_fiber_states": 1658,
     "legacy_broad_TG_conditions": 2102,
     "b294_textile_target_new_states": 0,
@@ -185,61 +184,63 @@
     "counting_rule": "Historical finished-textile subcount only;current3000-state eligibility and accounting are governed by urban_material_target_scope and its fingerprint-bound expanded registry. Prior broad material exclusions are not current authority.",
     "b304_new_strict_textile_states": 8,
     "b307_b308_new_strict_textile_states": 15,
-    "verified_textile_TG_conditions": 1211,
+    "verified_textile_TG_conditions": 1611,
     "verified_textile_sources": 13,
     "scope_audit_complete": false,
-    "pending_legacy_scope_states": 460,
+    "pending_legacy_scope_states": 65,
     "excluded_non_textile_states": 0,
     "b309_new_strict_textile_states": 4,
     "registry": "data/curation/textile_scope_registry.json",
     "master": "data/tg_loi_textile_master.csv",
     "report": "data/automation/textile_scope_report.json",
-    "remaining_to_target": 632,
+    "remaining_to_target": 0,
     "current_authority": "urban_material_target_scope",
     "verified_textile_sources_counting_note": "Historical earlier source count only; current disjoint material counts and total source count governed by urban_material_target_scope and textile_scope_report."
   },
-  "remaining_to_3000": 632,
+  "remaining_to_3000": 0,
   "urban_material_target_scope": {
-    "scope_definition": "Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
+    "scope_definition": "Urban textiles, fibres, source-reviewed fabric/felt-reinforced textile composites, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.",
     "target_unique_sample_states": 3000,
-    "verified_target_sample_states": 2368,
-    "verified_target_condition_records": 3028,
-    "verified_target_sources": 589,
+    "verified_target_sample_states": 3022,
+    "verified_target_condition_records": 3842,
+    "verified_target_sources": 813,
     "verified_sample_states_by_material_class": {
-      "fiber_forming_polymer": 167,
-      "fiber_forming_polymer_composite": 1147,
-      "textile_cloth": 912,
-      "textile_fibre": 98,
-      "textile_nonwoven": 7,
-      "textile_precursor_material": 37,
+      "fiber_forming_polymer": 244,
+      "fiber_forming_polymer_composite": 1323,
+      "textile_cloth": 1190,
+      "textile_composite": 53,
+      "textile_fibre": 121,
+      "textile_nonwoven": 39,
+      "textile_precursor_material": 52,
       "textile_yarn": 0
     },
     "verified_condition_records_by_material_class": {
-      "fiber_forming_polymer": 202,
-      "fiber_forming_polymer_composite": 1453,
-      "textile_cloth": 1204,
-      "textile_fibre": 98,
-      "textile_nonwoven": 7,
-      "textile_precursor_material": 64,
+      "fiber_forming_polymer": 294,
+      "fiber_forming_polymer_composite": 1658,
+      "textile_cloth": 1569,
+      "textile_composite": 72,
+      "textile_fibre": 124,
+      "textile_nonwoven": 42,
+      "textile_precursor_material": 83,
       "textile_yarn": 0
     },
-    "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.",
-    "verified_textile_sample_states": 2368,
-    "verified_textile_condition_records": 3028,
-    "verified_textile_sources": 589,
-    "remaining_to_target": 632,
+    "legacy_counter_aliases": "verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles, textile composites and precursors.",
+    "verified_textile_sample_states": 3022,
+    "verified_textile_condition_records": 3842,
+    "verified_textile_sources": 813,
+    "remaining_to_target": 0,
     "excluded_non_textile_sample_states": 0,
     "excluded_non_textile_condition_records": 0,
-    "pending_scope_sample_states": 460,
-    "pending_scope_condition_records": 576,
+    "pending_scope_sample_states": 65,
+    "pending_scope_condition_records": 69,
     "scope_audit_complete": false,
-    "legacy_broad_sample_states": 2828,
-    "legacy_broad_condition_records": 3604,
-    "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission.",
+    "legacy_broad_sample_states": 3087,
+    "legacy_broad_condition_records": 3911,
+    "counting_rule": "One original source/sample/material/treatment/washing state across TG conditions. Admit documentary reviewed textiles,fibres,fibre-forming polymers and precursor materials,including their matched resin/film/bulk tests without textile-use prose. Composite materials containing an eligible fibre-forming polymer are classified separately. Exact formulation/form/state pairing and ordinary scientific gates remain mandatory. Unknown material eligibility remains pending; no keyword-only admission. Original-source-reviewed textiles reinforced composites are separately textile_composite; their actual panel form is retained, and neat thermoset matrices gain no eligibility by keyword.",
     "admission_basis": "Exact manual scope evidence, material/state/documentary hash and reviewed measurement fingerprint. Pending scope contributes zero to the target.",
-    "input_master_sha256": "3c7e66e6277c16e5c9d2ee57c1fd6a7df7eb7f0579bc23cf5b5fb4b5e74362b0",
-    "scope_registry_sha256": "31f3878f964916d6b8422ee35eac55e2d7b440832f79a41cdb1af1d998ceb0f5",
-    "textile_master_sha256": "a33164cab52d748aa6b20ab4c6d4850c0355b3783228c4c06c77b673b9d65a3a"
+    "input_master_sha256": "69dc76ff34b5af3abfa4a9151125157c7ca1604df56f42cd0c05d41cf5b09c47",
+    "scope_registry_sha256": "18f6c84eba1985a4aaae8c8e82ea3136af309e7bea4880051c2b1671e45b51ee",
+    "textile_master_sha256": "8056417e20c3aa52ff2f27e076e869378f89ce0b850ea9a4bb07766fa220bb3a"
   },
   "batch_b361": {
     "accepted_unique_sample_states": 8,
@@ -2928,5 +2929,319 @@
     "tests": 2913,
     "compiled_files": 247,
     "root_exact_head_binding_sha256": "671a4fd03161ba47f33c7359f91cf6cc1461567ddd5ef7655624a9dfde172889"
+  },
+  "batch_b1732": {
+    "status": "locally_checked_pending_final_nonauthor_review_and_normal_PR",
+    "genuinely_new_samples": 65,
+    "new_TG_records": 86,
+    "extra_conditions_not_new_samples": 21,
+    "old_evidence_upgrades": 0,
+    "old_scope_admissions": 18,
+    "old_scope_TG_records": 18,
+    "publication_approved": false,
+    "published": 0,
+    "local_counts": [
+      2451,
+      3132,
+      613
+    ],
+    "previous_formal_main_counts": [
+      2368,
+      3028,
+      589
+    ],
+    "old_scientific_cell_changes": 0,
+    "tests_passed": 2913,
+    "compiled_files": 247
+  },
+  "batch_b1770": {
+    "status": "locally_checked_final_review_passed",
+    "genuinely_new_samples": 17,
+    "new_TG_records": 17,
+    "new_sources": 5,
+    "old_scope_admissions": 11,
+    "old_scope_TG_records": 15,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2479,
+      3164,
+      621
+    ],
+    "tests_passed": 2913,
+    "compiled_files": 247
+  },
+  "batch_b1780": {
+    "status": "locally_tested_reviewed_frozen_pending_single_delivery",
+    "genuinely_new_samples": 0,
+    "new_TG_records": 0,
+    "new_sources": 0,
+    "old_scope_admissions": 19,
+    "old_scope_TG_records": 32,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2498,
+      3196,
+      628
+    ],
+    "tests_passed": 2913,
+    "compiled_files": 247,
+    "final_integration_review_sha256": "252cc52e5152755580d0d77dbb89d2ecefd02facc0c817e30b8276b923d86138"
+  },
+  "batch_b1790": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 6,
+    "new_TG_records": 6,
+    "new_sources": 2,
+    "old_scope_admissions": 36,
+    "old_scope_TG_records": 57,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2540,
+      3259,
+      641
+    ],
+    "tests_passed": 2916,
+    "compiled_files": 247
+  },
+  "batch_b1808": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 11,
+    "new_TG_records": 20,
+    "new_sources": 3,
+    "old_scope_admissions": 21,
+    "old_scope_TG_records": 29,
+    "old_scope_sources": 7,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2572,
+      3308,
+      651
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1826": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 7,
+    "new_TG_records": 11,
+    "new_sources": 2,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2579,
+      3319,
+      653
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1838": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 19,
+    "new_TG_records": 19,
+    "new_sources": 4,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2598,
+      3338,
+      657
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1852": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 21,
+    "new_TG_records": 24,
+    "new_sources": 5,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2619,
+      3362,
+      662
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1881": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 12,
+    "new_TG_records": 16,
+    "new_sources": 3,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2631,
+      3378,
+      665
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1894": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 21,
+    "new_TG_records": 28,
+    "new_sources": 5,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2652,
+      3406,
+      670
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1905": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 20,
+    "new_TG_records": 20,
+    "new_sources": 5,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2672,
+      3426,
+      675
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1937": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 10,
+    "new_TG_records": 10,
+    "new_sources": 4,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2682,
+      3436,
+      679
+    ],
+    "tests_passed": 2918,
+    "compiled_files": 247
+  },
+  "batch_b1962": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 22,
+    "new_TG_records": 22,
+    "new_sources": 7,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2704,
+      3458,
+      686
+    ],
+    "tests_passed": 2920,
+    "compiled_files": 247
+  },
+  "batch_b1979": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 28,
+    "new_TG_records": 28,
+    "new_sources": 3,
+    "old_scope_admissions": 0,
+    "old_scope_TG_records": 0,
+    "old_scope_sources": 0,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      2732,
+      3486,
+      689
+    ],
+    "tests_passed": 2920,
+    "compiled_files": 247
+  },
+  "batch_b1991": {
+    "status": "locally_verified_frozen",
+    "genuinely_new_samples": 0,
+    "new_TG_records": 0,
+    "new_sources": 0,
+    "old_scope_admissions": 290,
+    "old_scope_TG_records": 356,
+    "old_scope_sources": 124,
+    "old_evidence_upgrades": 0,
+    "old_scientific_cell_changes": 0,
+    "publication": false,
+    "local_counts": [
+      3022,
+      3842,
+      813
+    ],
+    "scope_only": true,
+    "tests_passed": 2920,
+    "compiled_files": 247
+  },
+  "consolidated_delivery_b1994": {
+    "status": "PR_pending_checks",
+    "local_verified_counts": [
+      3022,
+      3842,
+      813
+    ],
+    "formal_baseline_counts": [
+      2368,
+      3028,
+      589
+    ],
+    "genuinely_new_sample_states": 259,
+    "genuinely_new_TG_records": 307,
+    "genuinely_new_sources": 68,
+    "old_scope_sample_states": 395,
+    "old_scope_TG_records": 507,
+    "old_scope_sources": 156,
+    "old_evidence_upgrades": 0,
+    "pending_sample_states_not_counted": 65,
+    "tests_passed": 2920,
+    "compiled_files": 247,
+    "source_library_readonly": true,
+    "fulltext_uploaded": false
   }
 }
