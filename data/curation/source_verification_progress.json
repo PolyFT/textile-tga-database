@@ -14,13 +14,15 @@
   "publication_stage": "b1603_merged_remote_verified_lease_released",
   "last_merged_batch": "20261009_b1603",
   "writer_lease": {
-    "owner": "codex-local-combined-b1648-20261009",
+    "owner": "codex-local3000-b1994-20261011",
     "status": "active",
-    "batch_id": "20261009_b1648",
-    "claimed_at_utc": "2026-10-09T14:53:01.206627+00:00",
-    "expires_at_utc": "2026-10-09T16:23:01.206627+00:00",
-    "previous_release_commit": "3a7489e67e7020444f33256d99434d1e40549eb1",
-    "purpose": "Publish reviewed B1648 TG-LOI source batch; old scope and evidence upgrades0. Normal PR checks and approvals required."
+    "batch_id": "20261011_b1994",
+    "claimed_at_utc": "2026-10-10T17:48:36.184616+00:00",
+    "expires_at_utc": "2026-10-10T19:18:36.184616+00:00",
+    "previous_main_sha": "9571a6fa6aed2c8a9b3f2cae76f7fb5388c240f9",
+    "previous_expired_owner": "codex-local-combined-b1648-20261009",
+    "previous_expired_at_utc": "2026-10-09T16:23:01.206627+00:00",
+    "purpose": "Single consolidated delivery of locally reviewed3022deduplicated TG-LOI sample states; normal PR, precise-head CI and existing approvals. No scientific hold release."
   },
   "next_sources": [],
   "next_actions": [
@@ -1137,7 +1139,7 @@
       "FrozenB50163873paths/1597payload/20073contexts+2523readingcontexts inherited, no recensus or fullnewcorpusapproval.",
       "All3092complete currentmatch/familyvariants retained;2939familyentries are contextpresentations, notphysicalsample counts.",
       "Twooriginalwidthquarantines(NY-TPUair andcommercialCO/PET PVAmPAtail) remain; missingtails not reconstructed.",
-      "Originalnativeuncertaintyglyph unresolved: not silently\u00b1; no targetsourcevalue changed.",
+      "Originalnativeuncertaintyglyph unresolved: not silently±; no targetsourcevalue changed.",
       "Same-author/supplier/AlPi chemistry is neither duplicate nor independentbatch proof; absentmulti is notindependence proof.",
       "LibraryexactDOIyearattachment inventory inheritedonly2013/2014directories;2sameSHAPDFs not2sources, no wholeNAS SImissing claim."
     ]
