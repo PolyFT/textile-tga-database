@@ -18,7 +18,8 @@ SCOPE_FIELDS = ['DOI', 'sample_state', 'washing_state', 'material_form_TGA',
                 'source_textile_scope_status', 'material_scope_class',
                 'source_material_scope_evidence', 'source_material_scope_locator',
                 'reviewed_material_scope_fingerprint']
-TEXTILE_CLASSES = {'textile_cloth', 'textile_yarn', 'textile_nonwoven', 'textile_fibre'}
+TEXTILE_CLASSES = {'textile_cloth', 'textile_yarn', 'textile_nonwoven', 'textile_fibre',
+                   'textile_composite'}
 MATERIAL_CLASSES = TEXTILE_CLASSES | pairing.MATERIAL_SCOPE_CLASSES
 DECISIONS = {'admit_textile', 'exclude_non_textile', 'hold_scope'}
 
@@ -88,14 +89,14 @@ def classify(rows, registry):
     all_states = {pairing.sample_state_id(row) for row in rows}
     pending_states = all_states - state_decisions['admit_textile'] - state_decisions['exclude_non_textile']
     report = {
-        'scope_definition': 'Urban textiles, fibres, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.',
+        'scope_definition': 'Urban textiles, fibres, source-reviewed fabric/felt-reinforced textile composites, fibre-forming polymers and precursors; matched resin/film/bulk forms may qualify without textile-use prose.',
         'target_unique_sample_states': registry['target_unique_sample_states'],
         'verified_target_sample_states': len(state_decisions['admit_textile']),
         'verified_target_condition_records': len(admitted),
         'verified_target_sources': len({pairing.source_identity(row) for row in admitted}),
         'verified_sample_states_by_material_class': {name: sum(value == name for value in state_classes.values()) for name in sorted(MATERIAL_CLASSES)},
         'verified_condition_records_by_material_class': {name: sum(entries[observation_key(row)]['scope_class'] == name for row in admitted) for name in sorted(MATERIAL_CLASSES)},
-        'legacy_counter_aliases': 'verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles and precursors.',
+        'legacy_counter_aliases': 'verified_textile_* retained as aliases for all admitted target materials; use the material-class breakdown to distinguish finished textiles, textile composites and precursors.',
         'verified_textile_sample_states': len(state_decisions['admit_textile']),
         'verified_textile_condition_records': len(admitted),
         'verified_textile_sources': len({pairing.source_identity(row) for row in admitted}),

@@ -1,0 +1,53 @@
+{
+  "batch_id": "20261010_b1732",
+  "status": "locally_checked_pending_final_nonauthor_review_and_normal_PR",
+  "new_sample_states": 65,
+  "new_TG_condition_records": 86,
+  "new_sources": 20,
+  "extra_conditions_not_new_samples": 21,
+  "old_sample_scope_upgrades": 18,
+  "old_scope_TG_records": 18,
+  "old_scope_sources": 4,
+  "old_numeric_evidence_upgrades": 0,
+  "old_rows_changed": 0,
+  "new_source_DOIs": [
+    "10.1002/app.34874",
+    "10.1002/app.43889",
+    "10.1002/app.44639",
+    "10.1002/app.48687",
+    "10.1002/app.50606",
+    "10.1002/mame.201900661",
+    "10.1002/pen.24728",
+    "10.1016/j.compositesa.2014.07.016",
+    "10.1016/j.compositesa.2017.02.029",
+    "10.1016/j.eurpolymj.2019.109270",
+    "10.1016/j.eurpolymj.2020.110230",
+    "10.1016/j.polymdegradstab.2014.02.004",
+    "10.1016/j.polymdegradstab.2017.09.022",
+    "10.1016/j.polymer.2015.04.027",
+    "10.1016/j.polymer.2015.09.016",
+    "10.1016/j.polymer.2018.08.004",
+    "10.1016/j.porgcoat.2016.03.002",
+    "10.1016/j.tca.2011.07.012",
+    "10.1016/s0141-3910(97)00043-8",
+    "10.1039/c3py01030a"
+  ],
+  "new_inputs": [
+    "data/incoming/verified_source_batch_20261010_b1732_materials.csv"
+  ],
+  "predicted_target_counts": [
+    2451,
+    3132,
+    613
+  ],
+  "publication_approved": false,
+  "formal_new": 0,
+  "scientific_limits": "Unknown lot, untransported original numeric fields, source-specific metric/process/cohort holds remain as reviewed. Scope-only old18 do not count as new source pairs. No fulltexts/private paths published.",
+  "inherited_completed_tests": "Existing B1648 and B1692 tests retained. New combined change requires its own checks once; no source re-extraction or duplicate-query replay.",
+  "local_target_counts": {
+    "samples": 2451,
+    "TG_records": 3132,
+    "sources": 613
+  },
+  "checks": "Actual validation and scope export, 2913 tests and 247 source compilation checks passed. Every prior master/reader cell is preserved; final nonauthor integration review and normal PR checks pending."
+}

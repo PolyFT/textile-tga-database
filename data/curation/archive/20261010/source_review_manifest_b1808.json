@@ -1,0 +1,29 @@
+{
+  "batch_id": "20261010_b1808",
+  "genuinely_new_samples": 11,
+  "new_TG_records": 20,
+  "new_sources": 3,
+  "old_scope_admissions": 21,
+  "old_scope_TG_records": 29,
+  "old_scope_sources": 7,
+  "old_evidence_upgrades": 0,
+  "old_scientific_changes": 0,
+  "publication": false,
+  "status": "locally_verified_frozen",
+  "new_scientific_boundaries": "PLA/POCFA 5 states/10gas records; TPU/AHP and TPU/AHP/PMT 2 filled states/2records; TPU/APP@CoAl-LDH and physical blend 4filled states/8gas records. Three pure TPU records/two states possible old control cohort pending; NMT/MMT chemical conflict and glass-epoxy multiple layups remain held. Undefined Tmax criteria raw, residue only explicit600/700C; original uncertainty statistic unknown.",
+  "old_scope_boundaries": "Cotton casein/egg-white and DAP/urea nonwoven; native reviewed PCTSi, APP-loaded cotton intermediate and PEIPA/NeoFR cotton; actual bamboo/kenaf epoxy textile composites. Prior accepted numerics unchanged; washing/matrix/recipe limits inherited.",
+  "held_source": {
+    "DOI": "10.1016/j.polymdegradstab.2020.109312",
+    "reason": "Materials lists aminopropylmethyldimethoxysilane while synthesis lists aminopropyltriethoxysilane; functional identity unresolved, three states/sixrecords excluded."
+  },
+  "T2_extension": "Source-defined2%loss supported as separate T2_C; no relabel toT5/Tonset. This batch incoming contains noT2 record.",
+  "local_target_counts": [
+    2572,
+    3308,
+    651
+  ],
+  "tests_passed": 2918,
+  "compiled_files": 247,
+  "preservation": "Every old scientific cell and3259 old reader rows exact; all old scope entries unchanged,49 new scope entries bound.",
+  "final_integration_review": "Independent source-field/ID/scope/reader preservation review passed; no blocking finding. Existing treatment_method fingerprint coverage limitation retained; every source treatment field compared exactly."
+}

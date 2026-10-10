@@ -2,6 +2,7 @@ import csv
 import io
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 import pandas as pd
@@ -118,9 +119,14 @@ class CsvImportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'quarantine.csv'
             v.write_if_changed(path, serialized)
-            stamp = path.stat().st_mtime_ns
-            v.write_if_changed(path, serialized)
-            self.assertEqual(path.stat().st_mtime_ns, stamp)
+            before = path.read_bytes()
+            real_open = Path.open
+            with patch.object(Path, 'open', autospec=True, side_effect=real_open) as opened:
+                v.write_if_changed(path, serialized)
+            self.assertTrue(opened.call_count)
+            self.assertTrue(all(not any(flag in (call.args[1] if len(call.args) > 1 else call.kwargs.get('mode', 'r')) for flag in 'wa+')
+                                for call in opened.call_args_list))
+            self.assertEqual(path.read_bytes(), before)
             with path.open(newline='') as handle:
                 self.assertEqual(next(csv.DictReader(handle))['raw_record'], raw_record)
 

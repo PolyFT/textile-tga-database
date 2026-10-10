@@ -58,6 +58,31 @@ class PairIdentityTests(unittest.TestCase):
         self.assertIn('measurement_review_pending_or_stale', p.evidence_issues(row))
 
 
+class TwoPercentLossTests(unittest.TestCase):
+    def test_defined_two_percent_temperature_is_distinct_and_review_bound(self):
+        row = approve(observation(Tmax1_C='', T2_C='265',
+                                  source_T2_definition='PDF3 section3.3: temperature at2%weight loss; PDF7 Table3.'))
+        master, _, _, report = v.build_tables(pd.DataFrame([row]))
+        self.assertEqual(len(master), 1)
+        self.assertEqual(master.iloc[0]['T2_C'], '265')
+        self.assertFalse(p.clean(master.iloc[0].get('T5_C')))
+        self.assertFalse(p.clean(master.iloc[0].get('Tonset_C')))
+        self.assertEqual(report['verified_exact_sample_states'], 1)
+        changed = dict(row, T2_C='268')
+        self.assertIn('measurement_review_pending_or_stale', p.evidence_issues(changed))
+        self.assertNotEqual(p.measurement_fingerprint(row),
+                            p.measurement_fingerprint(dict(row, T2_C='', T5_C='265')))
+
+    def test_empty_or_raw_two_percent_value_does_not_create_a_numeric_pair(self):
+        base = observation(Tmax1_C='')
+        self.assertEqual(p.measurement_fingerprint(base),
+                         p.measurement_fingerprint(dict(base, T2_C='')))
+        for extra in [dict(T2_C=''), dict(source_raw_T2pct_C='265')]:
+            master, candidates, _, _ = v.build_tables(pd.DataFrame([approve(dict(base, **extra))]))
+            self.assertTrue(master.empty)
+            self.assertTrue(candidates.empty)
+
+
 class UnnumberedPeakTests(unittest.TestCase):
     def row(self, value='363.6'):
         return observation(Tmax1_C='', Tmax_unnumbered_C=value,
@@ -259,9 +284,14 @@ class EvidenceValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'out.csv'
             v.write_if_changed(path, 'a,b\n1,2\n')
-            stamp = path.stat().st_mtime_ns
-            v.write_if_changed(path, 'a,b\n1,2\n')
-            self.assertEqual(stamp, path.stat().st_mtime_ns)
+            before = path.read_bytes()
+            real_open = Path.open
+            with patch.object(Path, 'open', autospec=True, side_effect=real_open) as opened:
+                v.write_if_changed(path, 'a,b\n1,2\n')
+            self.assertTrue(opened.call_count)
+            self.assertTrue(all(not any(flag in (call.args[1] if len(call.args) > 1 else call.kwargs.get('mode', 'r')) for flag in 'wa+')
+                                for call in opened.call_args_list))
+            self.assertEqual(path.read_bytes(), before)
 
 
 if __name__ == '__main__':

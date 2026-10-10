@@ -23,7 +23,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWS = ROOT / 'data/curation/pair_reviews.csv'
 TG_FIELDS = [
-    'T1_C', 'T5_C', 'T10_C', 'T20_C', 'T25_C', 'T30_C', 'T40_C', 'T50_C', 'T75_C', 'T80_C',
+    'T1_C', 'T2_C', 'T5_C', 'T10_C', 'T20_C', 'T25_C', 'T30_C', 'T40_C', 'T50_C', 'T75_C', 'T80_C',
     'Tonset_C', 'Tmax_unnumbered_C', 'Tmax1_C', 'Tmax2_C', 'Tmax3_C', 'Tmax4_C',
     'R400_pct', 'R500_pct', 'R550_pct', 'R600_pct', 'R650_pct',
     'R700_pct', 'R750_pct', 'R800_pct', 'residue_pct',
@@ -120,8 +120,10 @@ def sample_state_id(row):
 # Explicitly expanded by the user: fibre-forming polymers and precursors may be
 # tested as resin, film or bulk specimens without a claimed textile application.
 # Shared specimen form and all ordinary numeric/source review gates still apply.
+# Reviewed fabric/felt-reinforced composites qualify as whole textile composites;
+# their thermoset matrix is not thereby a fibre-forming polymer.
 MATERIAL_SCOPE_CLASSES = {'fiber_forming_polymer', 'textile_precursor_material',
-                          'fiber_forming_polymer_composite'}
+                          'fiber_forming_polymer_composite', 'textile_composite'}
 MATERIAL_SCOPE_FIELDS = ['DOI', 'sample_state', 'washing_state', 'composition',
                          'material_form_TGA', 'material_form_LOI', 'source_title',
                          'source_location', 'source_preparation', 'treatment_state',

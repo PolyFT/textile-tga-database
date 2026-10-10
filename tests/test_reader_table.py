@@ -20,6 +20,20 @@ def payload(body):
 
 
 class ReaderTableTests(unittest.TestCase):
+    def test_reported_approximate_T5_is_visible_in_temperature_cell(self):
+        row = dict(T5_C='348.6', source_T5_C_approximation='around; explicitly reported approximate value, not curve estimate')
+        display = reader.reading_row(row, {'scope_class': 'fiber_forming_polymer'})
+        self.assertEqual(display[6], '≈348.6')
+        self.assertEqual(row['T5_C'], '348.6')
+
+    def test_approximation_does_not_invent_or_double_qualify_temperature(self):
+        for original, expected in [('', ''), ('≈348.6', '≈348.6')]:
+            row = dict(T5_C=original, source_T5_C_approximation='around; original text')
+            display = reader.reading_row(row, {'scope_class': 'fiber_forming_polymer'})
+            self.assertEqual(display[6], expected)
+        display = reader.reading_row(dict(T5_C='348.6'), {'scope_class': 'fiber_forming_polymer'})
+        self.assertEqual(display[6], '348.6')
+
     def test_b573_table_temperatures_remain_qualified_source_notes(self):
         for first, second in [('346', '486'), ('265', '527'), ('310', '515'),
                               ('340', ''), ('248', ''), ('292', '')]:
@@ -172,7 +186,16 @@ class ReaderTableTests(unittest.TestCase):
         self.assertEqual((ROOT / 'index.html').read_bytes(), body)
         self.assertEqual(len({row[-2] for row in public['rows']}), len({row['sample_state_id'] for row in source}))
         for raw, row in zip(source, public['rows']):
-            self.assertEqual(row[5:10], [raw.get(key, '') for key in ['LOI_pct', 'T5_C', 'T10_C', 'Tonset_C', 'Tmax1_C']])
+            for key, shown in zip(['LOI_pct', 'T5_C', 'T10_C', 'Tonset_C', 'Tmax1_C'], row[5:10]):
+                original = raw.get(key, '')
+                qualifier = raw.get('source_' + key + '_approximation', '')
+                reported_approximation = qualifier.split(';', 1)[0].split()
+                approximate = (reported_approximation and reported_approximation[0]
+                               in {'around', 'about', 'approximately'})
+                if original and approximate and not original.startswith('≈'):
+                    self.assertEqual(shown, '≈' + original)
+                else:
+                    self.assertEqual(shown, original)
             self.assertEqual(row[11:13], [raw.get(key, '') for key in ['atmosphere', 'heating_rate_C_min']])
 
     def test_missing_documentary_binding_is_not_silently_exported(self):
