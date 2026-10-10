@@ -1398,5 +1398,40 @@
   "tests_passed": 2920,
   "compiled_files": 247,
   "preservation": "Broad scientific master/candidates, all old incoming, existing scientific holds and253 code/schema/test/workflow files byte-exact; every3486 existing reader row exact. New356 reader rows are unmodified prior broad-master records.",
-  "final_integration_review": "Informed non-integration-author material-scope review passed:357 exact scope bindings with356admitted old TG and1retained PI1hold; original scientific data and all existing source/reuse/version restrictions unchanged; prior3486reader rows and new356rows exact. No new native reading or scientific upgrade."
+  "final_integration_review": "Informed non-integration-author material-scope review passed:357 exact scope bindings with356admitted old TG and1retained PI1hold; original scientific data and all existing source/reuse/version restrictions unchanged; prior3486reader rows and new356rows exact. No new native reading or scientific upgrade.",
+  "consolidated_delivery_b1994": {
+    "status": "merged_remote_verified_lease_released",
+    "PR_url": "https://github.com/PolyFT/textile-tga-database/pull/217",
+    "head_sha": "71520215e9af5853fafaf434a0cf26647c90d95b",
+    "merge_sha": "a575791adeb024d7ded0fbf431b96bbfdfe43a1f",
+    "verified_target_sample_states": 3022,
+    "verified_target_TG_records": 3842,
+    "verified_target_sources": 813,
+    "genuinely_new_sample_states": 259,
+    "genuinely_new_TG_records": 307,
+    "genuinely_new_sources": 68,
+    "old_scope_sample_states": 395,
+    "old_scope_TG_records": 507,
+    "old_scope_sources": 156,
+    "old_evidence_upgrades": 0,
+    "tests_passed": 2920,
+    "compiled_files": 247,
+    "remote_public_blobs_exact": 49,
+    "remote_reader_sha256": "b76cc00bf02ca62c9ef8f6da769e32b219c1754043ba3533d8ff317304d85751",
+    "main_workflow_runs": [
+      {
+        "id": 38074653513,
+        "name": "TG-LOI master rebuild",
+        "conclusion": "success"
+      },
+      {
+        "id": 38074653494,
+        "name": "TG-LOI database validation",
+        "conclusion": "success"
+      }
+    ],
+    "source_library_readonly": true,
+    "fulltext_uploaded": false,
+    "released_at_utc": "2026-10-10T18:28:10.347617+00:00"
+  }
 }
